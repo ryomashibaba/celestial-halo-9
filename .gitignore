@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.token
+*.zip
+*.bundle
+*.schem
+*.schematic
+world/
+.world/
+backup/
+reference/
+artifacts/
+*.log

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "source": "M107 archived non-construction snapshot; NOT a live world survey",
+  "protection_source_status": "METADATA_ONLY_REQUIRES_EXACT_GEOMETRY_IMPORT",
+  "construction_ready": false,
+  "coordinate_system": {
+    "horizontal": "East +X; North -Z",
+    "model_height": "relative H (not real absolute Y)",
+    "minecraft_absolute_y": "UNKNOWN"
+  },
+  "sites": {
+    "hero": [
+      "SB05",
+      "SB08",
+      "SB09",
+      "SB12"
+    ],
+    "civic": [
+      "SB06",
+      "SB07",
+      "SB10",
+      "SB11"
+    ],
+    "frame": [
+      "SB01",
+      "SB02",
+      "SB03",
+      "SB04",
+      "SB13",
+      "SB14",
+      "SB15",
+      "SB16"
+    ]
+  },
+  "preserved_objects": {
+    "Freeze408": "LOCKED",
+    "public_existing_meshes_959": "LOCKED",
+    "M81_H0_pier_proxies_91": "LOCKED",
+    "M81_sections_34": "LOCKED",
+    "historic_porticos_24": "LOCKED",
+    "reserved_voids_88": "LOCKED",
+    "SB09_UPPER_GATE_WALL": "LOCKED",
+    "SB09_upper_air_only_opening_59.5027m_approx": "LOCKED",
+    "SB13_entry_width3_height4": "LOCKED",
+    "central_H70_to_H80_guides_12": "LOCKED",
+    "accepted_roads_and_parks_masks": "LOCKED"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "decisions": [
+    {
+      "id": "LONG_TERM_8_DESIGN_PRINCIPLES",
+      "date": "2026-10-12",
+      "status": "USER_APPROVED"
+    },
+    {
+      "id": "GITHUB_AUTONOMOUS_WORK_BRANCHES",
+      "date": "2026-10-12",
+      "status": "USER_APPROVED"
+    },
+    {
+      "id": "FORMAL_M101_BASELINE_REPLACEMENT",
+      "status": "NOT_APPROVED"
+    },
+    {
+      "id": "LIVE_WORLD_CONSTRUCTION",
+      "status": "NOT_APPROVED"
+    }
+  ]
+}

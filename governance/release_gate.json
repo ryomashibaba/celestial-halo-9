@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "release_state": "BLOCKED_UNTIL_SEPARATE_USER_APPROVAL",
+  "environment": "NON_CONSTRUCTION",
+  "approved_pilot_region": null,
+  "world_write_enabled": false,
+  "construction_approved": false,
+  "freeze_write_enabled": false,
+  "canonical_write_enabled": false,
+  "staging_write_enabled": false,
+  "minecraft_absolute_y_verified": false,
+  "registered_live_world_snapshot": false,
+  "deployment_workflow_present": false,
+  "github_actions_permissions": "read-only"
+}

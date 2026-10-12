@@ -1,0 +1,9 @@
+{
+  "source": "CELESTIAL_HALO9_M107_Integrated_M108_NewChat_Handoff_NON_CONSTRUCTION.zip",
+  "archive_sha256": "f5b49db2e2e64ae8d86a9ab5dae601284d52c18cef191961e77eb1ca0f7c0fb4",
+  "member_count": 1217,
+  "source_status": "read-only preserved in M108 integrated handoff; full per-file manifest not uploaded to remote yet",
+  "minecraft_absolute_y": "UNKNOWN",
+  "comparison_baseline": "M101_TERRACED_DISTRICT_RIM",
+  "frozen_baselines_unchanged": true
+}
