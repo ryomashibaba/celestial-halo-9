@@ -1,0 +1,39 @@
+{
+  "phase": "M111",
+  "run_status": "LOCAL_OFFLINE_NOT_LIVE_WORLD",
+  "base": "M101_TERRACED_DISTRICT_RIM",
+  "option": "B_ASCENDING_RIFT",
+  "support_studies": [
+    "MONUMENTAL_DARK_PORTALS",
+    "LUMINOUS_SKYFANS"
+  ],
+  "study_mesh_count_each": 216,
+  "bridge_count": 4,
+  "bridge_length_m_by_site": {
+    "SB05": 147.07,
+    "SB08": 147.07,
+    "SB09": 147.21,
+    "SB12": 147.21
+  },
+  "bridge_stops_outside_parcel_edge_m": 16,
+  "actual_building_to_bridge_connection_count": 0,
+  "orbit_bridges_geometrically_touch_ring_sampled_nodes": 4,
+  "frozen_408_AABB_broadphase_hits_each": 0,
+  "M101_AABB_broadphase_hits_each": 0,
+  "protected_frozen_sha256": "fb676471578d962a7ace65af7081649be9cb21bc4ed6560929eea4a622b7748d",
+  "M101_sha256": "59cc8904444c047a0dff11a46f225f4cfa0fbae5e069a4806ae6f35f4d1dedc5",
+  "limitations": [
+    "Exact triangle-triangle collision is not done (only AABB broadphase).",
+    "Rings/masts go beyond registered 16 parcels; real land rights and terrain not surveyed.",
+    "Ground/foundation and all 88 historic reserved void volumes are NOT cleared.",
+    "Four building-to-interface gaps remain (16m outside parcels plus vertical elevator interface).",
+    "World absolute Y unknown; relative H is not a world coordinate.",
+    "Rendering is proxy only, not a Minecraft world screenshot.",
+    "No load-bearing capacities, public accessibility, or actual construction certified."
+  ],
+  "research_preference": "LUMINOUS_SKYFANS (aesthetic study only; not approved)",
+  "world_writes": 0,
+  "freeze_changes": 0,
+  "main_changes": 0,
+  "formal_baseline_promotion": false
+}
