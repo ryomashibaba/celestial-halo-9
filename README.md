@@ -1,5 +1,7 @@
 # CELESTIAL HALO-9
 
-Private development repository. Initial GitHub bootstrap only; no design baseline or Minecraft construction is approved.
+Private GitHub development and automated QA. The M108 bootstrap is a DRAFT, not a new approved city design. Full original archive and SHA-256 evidence remain locally in the M108 handoff ZIP; the remote source migration is not yet complete.
 
-The current authoritative design comparison remains M101, with all protected Freeze and world assets unchanged. A governance/CI bootstrap will be proposed via a separate draft pull request.
+Current comparison baseline: M101. M105–M107: RESEARCH HOLD. No Minecraft world, Freeze, staging or canonical changes allowed.
+
+Start with governance/PROJECT_CONSTITUTION.md and docs/START_HERE_JA.md. Workflow: draft PRs, read-only CI, explicit approval for baseline promotion and all live construction.

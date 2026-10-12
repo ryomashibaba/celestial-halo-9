@@ -1,0 +1,36 @@
+name: Halo9 non-construction governance
+on:
+  pull_request:
+  push:
+    branches: [main, 'feature/**', 'design/**', 'experiment/**']
+permissions:
+  contents: read
+jobs:
+  governance-and-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Immutable strategic guard and non-construction check
+        run: python ci/check_policy.py
+      - name: Offline unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Check locked paths against base, except first bootstrap
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if git cat-file -e "$BASE_SHA:governance/project_policy.json" 2>/dev/null; then
+            python ci/guard_changes.py "$BASE_SHA" "$HEAD_SHA"
+          else
+            echo "Initial governance bootstrap: reviewed before merging"
+          fi
+      - name: Confirm no deployment
+        run: test ! -d .github/workflows/deploy && echo "NON-CONSTRUCTION HOLD"

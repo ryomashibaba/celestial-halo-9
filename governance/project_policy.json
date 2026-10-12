@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "project": "CELESTIAL HALO-9",
+  "last_user_approval_date": "2026-10-12",
+  "project_guiding_priorities": [
+    "NO_DIRECTION_DRIFT",
+    "MAXIMUM_EFFICIENT_PROGRESS"
+  ],
+  "locked_design_principles": {
+    "urban_form": "Ring megastructure + monumental building clusters + multiple vertical tiers",
+    "colors": "Bright monumental architecture contrasted with dark mechanical substructures",
+    "density": "Distinct high-density districts alongside vast open civic voids",
+    "redesign": "Reconsider the relationships of all 16 sites; protect existing frozen geometry",
+    "interiors": "All 16 sites have primary interiors; HERO4 fully detailed",
+    "construction": "A safe single pilot area only following explicit approval, with design proceeding in parallel",
+    "world": "Future SF + mysticism + industrial might",
+    "experience": "Citywide distant grandeur and explorable streets/buildings coexist"
+  },
+  "design_comparison_baseline": "M101_TERRACED_DISTRICT_RIM",
+  "construction_status": "HOLD",
+  "world_status": "NOT_VERIFIED",
+  "macro_first": true,
+  "authorization": {
+    "autonomous_in_scope": [
+      "offline_design",
+      "code",
+      "nonconstruction_verification",
+      "work_branch_push",
+      "pull_request_creation"
+    ],
+    "requires_explicit_user_approval": [
+      "formal_design_baseline_change",
+      "live_world_construction",
+      "freeze_change",
+      "repository_governance_change"
+    ],
+    "no_automatic_merge_of_baseline_prs": true
+  },
+  "candidate_status": {
+    "M105": "RESEARCH_HOLD",
+    "M106": "RESEARCH_HOLD",
+    "M107": "RESEARCH_HOLD"
+  }
+}
