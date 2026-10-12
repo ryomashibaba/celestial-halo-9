@@ -1,0 +1,49 @@
+{
+  "schema_version": "M113_v1",
+  "project": "CELESTIAL HALO-9",
+  "status": "ACTUAL_SCREENSHOT_PLUS_CHUNK_METADATA_NONCONSTRUCTION",
+  "world_candidate": "imagine",
+  "version_name": "1.21.11",
+  "data_version": 4671,
+  "screenshot": {
+    "x": 3885.4,
+    "camera_y": -1587.1,
+    "z": -2405,
+    "facing": "SOUTH",
+    "depiction": "Old boxy white-roof and dark-facade architecture, broad grey plate; user confirms this is the previously criticized old build",
+    "camera_y_is_not_building_ground_or_roof_height": true
+  },
+  "screenshot_chunk": {
+    "cx": 242,
+    "cz": -151,
+    "status": "minecraft:full",
+    "nonair_palette_sections": 1
+  },
+  "m112_readonly_survey": {
+    "regions": 12,
+    "chunk_records": 3434,
+    "full": 3040,
+    "structure_starts": 392,
+    "structure_references": 2,
+    "errors": 0,
+    "reported_section_Y_min": -127,
+    "reported_section_Y_max": 126
+  },
+  "model_parcels": {
+    "facility_count": 16,
+    "full_chunk_coverage_facilities": 16,
+    "facility_geometry_not_verified": true,
+    "model_xz_to_world_xz_mapping_not_exactly_registered": true
+  },
+  "world_identity_proven_unique": false,
+  "actual_minecraft_y_ground_verified": false,
+  "model_relative_h_to_world_absolute_y": "UNKNOWN",
+  "current_world_has_m109_to_m112_halo_constructed": false,
+  "visual_proof_scope": "Screenshot view only; ring absence in image does not prove absence in entire world",
+  "no_user_approved_baseline_replacement": true,
+  "no_authorized_world_construction": true,
+  "model_proposals_nonconstruction": true,
+  "reading_input_files_only": true,
+  "world_writes": 0,
+  "required_next_evidence": "Read-only exact block columns (49 targets) before any world Y calibration"
+}
