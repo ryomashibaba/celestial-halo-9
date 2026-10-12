@@ -1,0 +1,49 @@
+{
+  "source_archive_sha256": "f5b49db2e2e64ae8d86a9ab5dae601284d52c18cef191961e77eb1ca0f7c0fb4",
+  "source_archive_size_bytes": 76800104,
+  "source_archive_members": 1217,
+  "unpublished_complete_member_manifest_path": "M108 bootstrap integrated ZIP repo/manifests/M107_archive_manifest.json",
+  "remote_upload_status": "PINNED_CRITICAL_HASHES_ONLY_NOT_FULL_ASSET_MIGRATION",
+  "essential_files": [
+    {
+      "path": "M83_OPTION_CONTINUOUS_PUBLIC_CIVIC_PRECINCTS_NONCONSTRUCTION.json",
+      "sha256": "c3574ae18f37ac169ace2224f4073600ccabc6dee38462caab9b896a000b887d",
+      "size_bytes": 2601635
+    },
+    {
+      "path": "M101_OPTION_TERRACED_DISTRICT_RIM_NONCONSTRUCTION.json",
+      "sha256": "59cc8904444c047a0dff11a46f225f4cfa0fbae5e069a4806ae6f35f4d1dedc5",
+      "size_bytes": 6433873
+    },
+    {
+      "path": "M107_CANDIDATE_OUTBOARD_SPINE_TRANSFER.json",
+      "sha256": "82903ebd1a1acb09627793b054020e33b5fb12ca2815f2e2e72b6704e147607f",
+      "size_bytes": 2564703
+    },
+    {
+      "path": "M107_CANDIDATE_SPLAYED_FAN_TRANSFER.json",
+      "sha256": "daaa4d9ec8b28448566fa5509de33b0510ad1cd23911625ab4952bde78e0746b",
+      "size_bytes": 2564614
+    },
+    {
+      "path": "build_m101.py",
+      "sha256": "a4a5b14f4ae4891a92c1725cdfb7a49f49fe4d4bfd219dd34f97329b2efe6163",
+      "size_bytes": 20582
+    },
+    {
+      "path": "build_m107.py",
+      "sha256": "25807ade2ce51d3e7f29e9f94197fa6a41437dcb76984eca4b74c6fe9b85473e",
+      "size_bytes": 7133
+    },
+    {
+      "path": "audit_m107.py",
+      "sha256": "8d4c978138594c8c7b80cb496bc43ec1e156772660be252f3e6d1963610c8462",
+      "size_bytes": 7186
+    },
+    {
+      "path": "M107_REVIEW_REPORT_JA.md",
+      "sha256": "2d8e2b24a1512d772e49acb67d8b10a7c11db8a2ebdc105b16069540d1e86c43",
+      "size_bytes": 3004
+    }
+  ]
+}

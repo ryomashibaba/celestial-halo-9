@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0",
+  "phase": "M109",
+  "status": "DRAFT_3_CANDIDATES_NONCONSTRUCTION",
+  "source": "Independent new urban macro planning overlays; no M101/M107 meshes edited or physically replaced",
+  "coordinates": {
+    "origin_model_x": 3703.5,
+    "origin_model_z": -2184.5,
+    "model_relative_height_not_world_y": true,
+    "minecraft_world_absolute_Y": "UNKNOWN"
+  },
+  "comparison_baseline": "M101_TERRACED_DISTRICT_RIM",
+  "protected_frozen_source_sha256": "fb676471578d962a7ace65af7081649be9cb21bc4ed6560929eea4a622b7748d",
+  "sites": [
+    {
+      "id": "SB01",
+      "kind": "FRAME",
+      "parcel": [
+        3240,
+        -2392,
+        3436,
+        -2303
+      ]
+    },
+    {
+      "id": "SB02",
+      "kind": "FRAME",
+      "parcel": [
+        3240,
+        -2290,
+        3436,
+        -2201
+      ]
+    },
+    {
+      "id": "SB03",
+      "kind": "FRAME",
+      "parcel": [
+        3240,
+        -2168,
+        3436,
+        -2079
+      ]
+    },
+    {
+      "id": "SB04",
+      "kind": "FRAME",
+      "parcel": [
+        3240,
+        -2066,
+        3436,
+        -1977
+      ]
+    },
+    {
+      "id": "SB05",
+      "kind": "HERO",
+      "parcel": [
+        3457,
+        -2392,
+        3692,
+        -2303
+      ]
+    },
+    {
+      "id": "SB06",
+      "kind": "CIVIC",
+      "parcel": [
+        3457,
+        -2290,
+        3692,
+        -2201
+      ]
+    },
+    {
+      "id": "SB07",
+      "kind": "CIVIC",
+      "parcel": [
+        3457,
+        -2168,
+        3692,
+        -2079
+      ]
+    },
+    {
+      "id": "SB08",
+      "kind": "HERO",
+      "parcel": [
+        3457,
+        -2066,
+        3692,
+        -1977
+      ]
+    },
+    {
+      "id": "SB09",
+      "kind": "HERO",
+      "parcel": [
+        3713,
+        -2392,
+        3948,
+        -2303
+      ]
+    },
+    {
+      "id": "SB10",
+      "kind": "CIVIC",
+      "parcel": [
+        3713,
+        -2290,
+        3948,
+        -2201
+      ]
+    },
+    {
+      "id": "SB11",
+      "kind": "CIVIC",
+      "parcel": [
+        3713,
+        -2168,
+        3948,
+        -2079
+      ]
+    },
+    {
+      "id": "SB12",
+      "kind": "HERO",
+      "parcel": [
+        3713,
+        -2066,
+        3948,
+        -1977
+      ]
+    },
+    {
+      "id": "SB13",
+      "kind": "FRAME",
+      "parcel": [
+        3969,
+        -2392,
+        4167,
+        -2303
+      ]
+    },
+    {
+      "id": "SB14",
+      "kind": "FRAME",
+      "parcel": [
+        3969,
+        -2290,
+        4167,
+        -2201
+      ]
+    },
+    {
+      "id": "SB15",
+      "kind": "FRAME",
+      "parcel": [
+        3969,
+        -2168,
+        4167,
+        -2079
+      ]
+    },
+    {
+      "id": "SB16",
+      "kind": "FRAME",
+      "parcel": [
+        3969,
+        -2066,
+        4167,
+        -1977
+      ]
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "A_ORBITAL_CROWN",
+      "title": "ORBITAL CROWN",
+      "vision": "Twin full-size orbital promenades with luminous macro crowns over the protected 16-site precinct",
+      "color": "#54e9ec",
+      "ring_axes_m": [
+        630,
+        385
+      ],
+      "rings": [
+        {
+          "scale": 1,
+          "height_H": 145,
+          "height_variation_H": 0,
+          "phase_rad": 0,
+          "gap_rad": []
+        },
+        {
+          "scale": 1.13,
+          "height_H": 194,
+          "height_variation_H": 0,
+          "phase_rad": 0,
+          "gap_rad": []
+        }
+      ],
+      "central_void_axes_m": [
+        350,
+        145
+      ],
+      "local_2d_min_centerline_clearance_m": 43.49,
+      "risk": "Continuous megaspan / repetition risk"
+    },
+    {
+      "id": "B_ASCENDING_RIFT",
+      "title": "ASCENDING RIFT",
+      "vision": "Broken ascending orbital structure with vast north-south skyline sky-gates and tiered monoliths",
+      "color": "#f8c867",
+      "ring_axes_m": [
+        648,
+        380
+      ],
+      "rings": [
+        {
+          "scale": 1,
+          "height_H": 126,
+          "height_variation_H": 72,
+          "phase_rad": -0.2,
+          "gap_rad": [
+            [
+              -0.18,
+              0.18
+            ],
+            [
+              2.98,
+              3.33
+            ]
+          ]
+        },
+        {
+          "scale": 1.1,
+          "height_H": 183,
+          "height_variation_H": 33,
+          "phase_rad": 0.6,
+          "gap_rad": [
+            [
+              1.35,
+              1.7
+            ],
+            [
+              4.5,
+              4.78
+            ]
+          ]
+        }
+      ],
+      "central_void_axes_m": [
+        405,
+        190
+      ],
+      "local_2d_min_centerline_clearance_m": 48.92,
+      "risk": "Unresolved endpoints, safe public transfer path"
+    },
+    {
+      "id": "C_INTERLOCKING_HALOS",
+      "title": "INTERLOCKING HALOS",
+      "vision": "Two intersecting-height rings with a luminous civic axis and contrasting dark engineering lattice",
+      "color": "#cf9fff",
+      "ring_axes_m": [
+        615,
+        370
+      ],
+      "rings": [
+        {
+          "scale": 1,
+          "height_H": 152,
+          "height_variation_H": 34,
+          "phase_rad": 0,
+          "gap_rad": [
+            [
+              -0.09,
+              0.09
+            ]
+          ]
+        },
+        {
+          "scale": 1,
+          "height_H": 189,
+          "height_variation_H": -35,
+          "phase_rad": 1.4,
+          "gap_rad": [
+            [
+              3.07,
+              3.24
+            ]
+          ]
+        }
+      ],
+      "central_void_axes_m": [
+        310,
+        235
+      ],
+      "local_2d_min_centerline_clearance_m": 28.93,
+      "risk": "Ring crossing clash; dense wayfinding"
+    }
+  ],
+  "local_screening": {
+    "method": "2D Shapely line-segment vs 16 parcel rectangles; ring CENTERLINES ONLY, not physical width, no exact frozen mesh collision",
+    "all_centerlines_cross_existing_site_parcels": false,
+    "certifies_construction": false
+  },
+  "authorization": {
+    "new_formal_baseline_approved": false,
+    "live_world_writes": 0,
+    "freeze_writes": 0,
+    "canonical_writes": 0,
+    "staging_writes": 0
+  },
+  "next_required": [
+    "Live-world read-only survey and absolute Y registration",
+    "Protected exact triangle collision incl ring thickness",
+    "Outer-boundary site entitlement and real terrain validation",
+    "Pedestrian vertical access and principal interior design",
+    "Explicit user approval before any masterplan promotion or live construction"
+  ]
+}
