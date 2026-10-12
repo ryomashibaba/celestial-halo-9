@@ -1,0 +1,46 @@
+{
+  "phase": "M110",
+  "name": "Full-scale volumetric skyline overlays and 16-building program",
+  "status": "RESEARCH_NON_CONSTRUCTION_HOLD",
+  "baseline": "M101_TERRACED_DISTRICT_RIM",
+  "m109_draft": [
+    "A_ORBITAL_CROWN",
+    "B_ASCENDING_RIFT",
+    "C_INTERLOCKING_HALOS"
+  ],
+  "new_macro_deck_radial_width_m": 30,
+  "conservative_full_footprint_buffer_m": 18.5,
+  "offline_readonly_frozen_baseline_sha256": "fb676471578d962a7ace65af7081649be9cb21bc4ed6560929eea4a622b7748d",
+  "offline_readonly_M101_baseline_sha256": "59cc8904444c047a0dff11a46f225f4cfa0fbae5e069a4806ae6f35f4d1dedc5",
+  "site_buffer_hits": {
+    "A_ORBITAL_CROWN": 0,
+    "B_ASCENDING_RIFT": 0,
+    "C_INTERLOCKING_HALOS": 0
+  },
+  "frozen_408_meshes_3D_AABB_overlaps": {
+    "A_ORBITAL_CROWN": 0,
+    "B_ASCENDING_RIFT": 0,
+    "C_INTERLOCKING_HALOS": 0
+  },
+  "offline_overlay_mesh_count": {
+    "A_ORBITAL_CROWN": 934,
+    "B_ASCENDING_RIFT": 824,
+    "C_INTERLOCKING_HALOS": 900
+  },
+  "all_16_site_primary_interior_briefs": true,
+  "pilot_civic_site_research": "SB07 CELESTIAL FORUM; NO CONSTRUCTION APPROVAL",
+  "relative_H_not_world_Y": true,
+  "planning_boundary_approved": false,
+  "road_and_park_proxy_signed": false,
+  "ground_and_foundation_verified": false,
+  "accurate_full_mesh_collision_verified": false,
+  "world_writes": 0,
+  "baseline_promotion_approved": false,
+  "assessments": {
+    "A_ORBITAL_CROWN": "Unbroken emblematic double halo; major unsupported spans and repetition",
+    "B_ASCENDING_RIFT": "High skyline variation and void/gates; portal endings and wayfinding require design",
+    "C_INTERLOCKING_HALOS": "High layered complexity; ring crossover and navigation unresolved"
+  },
+  "research_preference": "B_ASCENDING_RIFT_FOR_NEXT_EXPERIENCE_STUDY_NOT_FORMAL_APPROVAL",
+  "visual_evidence": "M110_16PANEL_MATCHED_3D_CITY_COMPARISON.png in local nonconstruction M110 handoff ZIP; not a Minecraft screenshot"
+}
