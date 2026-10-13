@@ -45,6 +45,13 @@ class IdentityGuardTests(unittest.TestCase):
     def test_missing_or_broken_save_refused(self):
         p=self.root/"unknown"
         self.assertEqual(inspect(p,self.registry)["match"],"UNREADABLE_OR_INVALID")
+    def test_old_building_save_confirmed_only_for_readonly(self):
+        reg=json.loads((ROOT/"survey"/"identity"/"M116_world_candidates.json").read_text())
+        self.assertEqual(reg["user_confirmed_legacy_world_folder"],"CH9_D6D_REVIEW_COPY")
+        self.assertIsNone(reg["official_construction_world_id"])
+        a=next(x for x in reg["known_saves"] if x["id"]=="review-copy-candidate")
+        self.assertEqual(a["role"],"USER_VERIFIED_OLD_ARCHITECTURE_READ_ONLY_REVIEW_COPY")
+        self.assertFalse(a["may_use_for_world_writes"])
     def test_live_construction_always_denied(self):
         self.assertFalse(require_construction_permission())
         self.assertFalse(require_construction_permission("review-copy-candidate",True))

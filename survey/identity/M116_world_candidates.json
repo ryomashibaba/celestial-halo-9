@@ -18,7 +18,7 @@
         "CH9_D6D_REVIEW_COPY"
       ],
       "world_display_name": "imagine",
-      "role": "UNCONFIRMED_READ_ONLY_REVIEW_CANDIDATE",
+      "role": "USER_VERIFIED_OLD_ARCHITECTURE_READ_ONLY_REVIEW_COPY",
       "level_dat_sha256": "ca9410a9aeec5f133ae811e902bafb706de144b00d5f059582333976cf0707c6",
       "reported_last_played_utc": "2026-10-12T14:10:21.777000+00:00",
       "observed_M115_sample": {
@@ -29,8 +29,14 @@
           "minecraft:smooth_quartz": 2048
         }
       },
-      "screenshot_match": "PLAUSIBLE_NOT_PROVEN",
-      "may_use_for_world_writes": false
+      "screenshot_match": "USER_VERIFIED_SELECTION_OLD_BUILDINGS_AND_SAVE_FOLDER",
+      "may_use_for_world_writes": false,
+      "save_folder_evidence": {
+        "minecraft_selection_row": "First world: imagine, subtitle CH9_D6D_REVIEW_COPY",
+        "explorer_tail_user_confirmed": "SKYTREE_3500/saves/CH9_D6D_REVIEW_COPY",
+        "verified_date": "2026-10-13",
+        "scope": "User confirms selected old-building save path; not authoritative construction destination"
+      }
     },
     {
       "id": "legacy-stone-only-candidate",
@@ -66,5 +72,7 @@
     "snapshot_hash_not_global_unique_identifier": true,
     "fail_closed_when_path_or_hash_changes": true,
     "live_world_files_touched": 0
-  }
+  },
+  "user_confirmed_legacy_world_folder": "CH9_D6D_REVIEW_COPY",
+  "legacy_world_folder_confirmation": "CONFIRMED_BY_USER_FROM_MINECRAFT_WORLD_SELECTION_AND_WINDOWS_EXPLORER"
 }
