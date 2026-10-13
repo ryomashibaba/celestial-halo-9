@@ -1,0 +1,54 @@
+{
+  "phase": "M118",
+  "status": "RESEARCH_NONCONSTRUCTION_NO_FORMAL_ADOPTION",
+  "ground_truth_source": "M117 CH9_D6D_REVIEW_COPY 1456/1456 chunk saved-block atlas",
+  "macro_first": true,
+  "alternatives": [
+    {
+      "id": "A_CROWNED_MERIDIAN",
+      "massing": "Continuous double halo with four immense axial gateway shoulders",
+      "city_experience": "Ceremonial long civic axis to main high-vault court, easy legible visitor route",
+      "hero4": "Monumental sail/cathedral forms with distinct interior halls",
+      "risk": "Symmetry and repeating ring sections may feel standardized; outer land unknown"
+    },
+    {
+      "id": "B_FRACTURED_SKY_TERRACES",
+      "massing": "Asymmetric broken orbital arcs, multilevel suspended public terrace and densified contrasting four quarters",
+      "city_experience": "Several scene changes on multi-level diagonal civic tour with high/low outlooks",
+      "hero4": "SB05 folded sail, SB08 double arch vault, SB09 protected grand gateway, SB12 sculpted sanctuary ridge",
+      "risk": "Broken transit loop and structural gaps; outer land unknown"
+    }
+  ],
+  "research_preference": "B, concept only; no user approval",
+  "all_16_primary_interiors_still_required": true,
+  "protected_legacy_objects": [
+    "Freeze408",
+    "public proxies959",
+    "SB09 high upper gateway",
+    "SB13 minimum 3x4 entrance",
+    "historic 88 reserved voids",
+    "approved roads/parks",
+    "legacy public skyways"
+  ],
+  "excluded_changes": [
+    "Live Minecraft blocks",
+    "M101 comparison baseline",
+    "Freeze",
+    "Canonical",
+    "Staging",
+    "Protected geometry retirement",
+    "Approved single pilot"
+  ],
+  "acceptance_gates": [
+    "Register exact protected voxel map and authoritative worlds",
+    "Match two reliable saved-block anchors to model relative-H",
+    "Review exterior ring outside 16 parcel rights and terrain",
+    "Establish physical public routes and elevator/stair access",
+    "Obtain specific separate explicit pilot construction approval"
+  ],
+  "unresolved_protection_classification": true,
+  "known_review_copy_only": true,
+  "world_writes": 0,
+  "baseline_promotion": false,
+  "formal_design_choice_approved": false
+}
