@@ -1,0 +1,2 @@
+# M119-M121 offline generator/audit tests use Python standard library only.
+# Verified in isolated CPython 3.12.14 on Windows. No third-party packages.

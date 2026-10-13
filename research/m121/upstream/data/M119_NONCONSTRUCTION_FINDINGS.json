@@ -1,0 +1,36 @@
+{
+  "phase": "M119",
+  "research_only": true,
+  "reference_save": "CH9_D6D_REVIEW_COPY",
+  "evidence_origin": "M117 user read-only atlas",
+  "observed_blocks": 1095343,
+  "observed_8x8_tiles": 2096,
+  "candidate_urban_models": {
+    "A_CROWNED_MERIDIAN": {
+      "meshes": 648,
+      "faces": 3881,
+      "voids": 9,
+      "route_intents": 24,
+      "min_proposed_absolute_y": -1859,
+      "max_proposed_absolute_y": -1569.01,
+      "approved_for_construction": false
+    },
+    "B_FRACTURED_SKY_TERRACES": {
+      "meshes": 603,
+      "faces": 3611,
+      "voids": 10,
+      "route_intents": 24,
+      "min_proposed_absolute_y": -1859,
+      "max_proposed_absolute_y": -1554.72,
+      "approved_for_construction": false
+    }
+  },
+  "preferred_for_next_research": "B_FRACTURED_SKY_TERRACES",
+  "world_y_mapping_to_old_M101_relative_H": "UNKNOWN",
+  "all_16_interior_programs": true,
+  "actual_approved_construction_world": null,
+  "world_writes": 0,
+  "protected_clearance_certified": false,
+  "model_routes_traversable": false,
+  "legacy_m101_comparison_baseline_changed": false
+}

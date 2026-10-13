@@ -1,0 +1,173 @@
+{
+  "phase": "M118",
+  "data_from": "M117 user-supplied complete read-only atlas",
+  "source_sha256": "052d6ec308f842573b8fa9933266eb566508004caccdbd824812dbf94273f4f6",
+  "site_count": 16,
+  "chunks_readable": 1456,
+  "chunks_requested": 1456,
+  "atlas_errors": [],
+  "total_artificial_material_blocks": 1095343,
+  "material_counts": {
+    "minecraft:smooth_quartz": 424441,
+    "minecraft:black_concrete": 306847,
+    "minecraft:cyan_stained_glass": 177722,
+    "minecraft:gray_concrete": 149010,
+    "minecraft:sea_lantern": 37323
+  },
+  "tile_count_8x8": 2096,
+  "observed_y_min": -1865,
+  "observed_y_max": -1703,
+  "group_counts": {
+    "HERO4": 416613,
+    "CIVIC4": 252019,
+    "FRAME8": 426711
+  },
+  "sites": [
+    {
+      "site": "SB01",
+      "readable_chunks": 91,
+      "artificial_blocks_exact": 57873,
+      "real_world_min_artificial_y": -1863,
+      "real_world_max_artificial_y": -1797,
+      "occupied_8x8_tiles": 108
+    },
+    {
+      "site": "SB02",
+      "readable_chunks": 91,
+      "artificial_blocks_exact": 63956,
+      "real_world_min_artificial_y": -1863,
+      "real_world_max_artificial_y": -1783,
+      "occupied_8x8_tiles": 103
+    },
+    {
+      "site": "SB03",
+      "readable_chunks": 91,
+      "artificial_blocks_exact": 54051,
+      "real_world_min_artificial_y": -1865,
+      "real_world_max_artificial_y": -1785,
+      "occupied_8x8_tiles": 99
+    },
+    {
+      "site": "SB04",
+      "readable_chunks": 91,
+      "artificial_blocks_exact": 46448,
+      "real_world_min_artificial_y": -1864,
+      "real_world_max_artificial_y": -1796,
+      "occupied_8x8_tiles": 88
+    },
+    {
+      "site": "SB05",
+      "readable_chunks": 105,
+      "artificial_blocks_exact": 101930,
+      "real_world_min_artificial_y": -1849,
+      "real_world_max_artificial_y": -1741,
+      "occupied_8x8_tiles": 162
+    },
+    {
+      "site": "SB06",
+      "readable_chunks": 105,
+      "artificial_blocks_exact": 65790,
+      "real_world_min_artificial_y": -1849,
+      "real_world_max_artificial_y": -1782,
+      "occupied_8x8_tiles": 170
+    },
+    {
+      "site": "SB07",
+      "readable_chunks": 105,
+      "artificial_blocks_exact": 63798,
+      "real_world_min_artificial_y": -1851,
+      "real_world_max_artificial_y": -1792,
+      "occupied_8x8_tiles": 167
+    },
+    {
+      "site": "SB08",
+      "readable_chunks": 105,
+      "artificial_blocks_exact": 105911,
+      "real_world_min_artificial_y": -1851,
+      "real_world_max_artificial_y": -1745,
+      "occupied_8x8_tiles": 151
+    },
+    {
+      "site": "SB09",
+      "readable_chunks": 105,
+      "artificial_blocks_exact": 104539,
+      "real_world_min_artificial_y": -1825,
+      "real_world_max_artificial_y": -1703,
+      "occupied_8x8_tiles": 154
+    },
+    {
+      "site": "SB10",
+      "readable_chunks": 105,
+      "artificial_blocks_exact": 60908,
+      "real_world_min_artificial_y": -1825,
+      "real_world_max_artificial_y": -1760,
+      "occupied_8x8_tiles": 152
+    },
+    {
+      "site": "SB11",
+      "readable_chunks": 105,
+      "artificial_blocks_exact": 61523,
+      "real_world_min_artificial_y": -1835,
+      "real_world_max_artificial_y": -1765,
+      "occupied_8x8_tiles": 167
+    },
+    {
+      "site": "SB12",
+      "readable_chunks": 105,
+      "artificial_blocks_exact": 104233,
+      "real_world_min_artificial_y": -1837,
+      "real_world_max_artificial_y": -1721,
+      "occupied_8x8_tiles": 145
+    },
+    {
+      "site": "SB13",
+      "readable_chunks": 91,
+      "artificial_blocks_exact": 48855,
+      "real_world_min_artificial_y": -1808,
+      "real_world_max_artificial_y": -1746,
+      "occupied_8x8_tiles": 103
+    },
+    {
+      "site": "SB14",
+      "readable_chunks": 91,
+      "artificial_blocks_exact": 55882,
+      "real_world_min_artificial_y": -1807,
+      "real_world_max_artificial_y": -1724,
+      "occupied_8x8_tiles": 117
+    },
+    {
+      "site": "SB15",
+      "readable_chunks": 91,
+      "artificial_blocks_exact": 54364,
+      "real_world_min_artificial_y": -1811,
+      "real_world_max_artificial_y": -1729,
+      "occupied_8x8_tiles": 108
+    },
+    {
+      "site": "SB16",
+      "readable_chunks": 91,
+      "artificial_blocks_exact": 45282,
+      "real_world_min_artificial_y": -1818,
+      "real_world_max_artificial_y": -1754,
+      "occupied_8x8_tiles": 102
+    }
+  ],
+  "proposal_A": "CROWNED MERIDIAN",
+  "proposal_B": "FRACTURED SKY TERRACES",
+  "status": "NON_CONSTRUCTION_RESEARCH_NOT_ADOPTED",
+  "original_world_save": "CH9_D6D_REVIEW_COPY",
+  "official_construction_target": null,
+  "model_relative_H_to_absolute_world_Y": "UNVERIFIED",
+  "protection_vs_redesignable_classification": "NOT_AVAILABLE",
+  "real_terrain_land_ownership": "UNVERIFIED",
+  "proposed_mesh_collisions": "NOT_CERTIFIED",
+  "world_writes": 0,
+  "freeze_writes": 0,
+  "baseline_promotion": false,
+  "source_blocks_are_heuristic_not_protected_registry": true,
+  "images": [
+    "M118_01_ACTUAL_CITY_BUILDING_ATLAS.png",
+    "M118_02_TWO_MEGA_CITY_MASTERPLANS.png",
+    "M118_03_ACTUAL_OLD_CITY_SKYLINE_EVIDENCE.png"
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "phase": "M121",
+  "source": "CELESTIAL HALO-9 M120 original ZIP plus full M121 studies",
+  "status": "NON_CONSTRUCTION_ONLY",
+  "entries": [
+    {
+      "relative_path": "00_START_HERE.md",
+      "sha256": "be180d59ea7e9db9d1726993703344a218f93783db4a575187b795d7fdd8a7f8",
+      "bytes": 1322
+    },
+    {
+      "relative_path": "00_START_HERE_LOCAL_WORK_SETUP_NEXT.md",
+      "sha256": "df0bac9e152198cb967c32a6643e15cbabb972eccde7aa19c852073dedfbc622",
+      "bytes": 3443
+    },
+    {
+      "relative_path": "00_START_HERE_M120.md",
+      "sha256": "891319cc529f30e7567e751163aa6a3b31dc60b382793ade0e5272de73cd53eb",
+      "bytes": 1201
+    },
+    {
+      "relative_path": "00_START_HERE_M121.md",
+      "sha256": "08e700e9cb28f38e238300ff4d6f710c8275cdfe72f44dbf995fa5e5606443cd",
+      "bytes": 1453
+    },
+    {
+      "relative_path": "M119_FILE_SHA256_MANIFEST.json",
+      "sha256": "c8df22a32108ea9b1c30cce83d7fa519d5d6e3da357c630f2596df8851aaf3a1",
+      "bytes": 1880
+    },
+    {
+      "relative_path": "M119_REPORT_JA.md",
+      "sha256": "3382919dc0fc3b4f5a036d445094322a29945e4f316e193c61dae4a4243d520f",
+      "bytes": 5060
+    },
+    {
+      "relative_path": "M120_FILE_SHA256_MANIFEST.json",
+      "sha256": "14bf6c5e9ff9f123ec1754cb23b4b3995b8c022c0e4e1bfd5b549888ad582516",
+      "bytes": 3945
+    },
+    {
+      "relative_path": "M120_REPORT_JA.md",
+      "sha256": "5546bee182a3082442d9d5cbe058868a3b854aceb59af9af39ecf1bee8d35331",
+      "bytes": 5354
+    },
+    {
+      "relative_path": "M121_REPORT_JA.md",
+      "sha256": "ca0d8df526bd24ba9aa0826a258b9da002c8ef0fe6b206fe95d43b1978e3b971",
+      "bytes": 5119
+    },
+    {
+      "relative_path": "WORKFLOW_LOCAL_SETUP_CHECKLIST.md",
+      "sha256": "54076e28e58152937c438a5f93b2a2d35f24a2742aa2aae867f6c8baf5a78e88",
+      "bytes": 1755
+    },
+    {
+      "relative_path": "data/M117_USER_READONLY_ATLAS.json",
+      "sha256": "052d6ec308f842573b8fa9933266eb566508004caccdbd824812dbf94273f4f6",
+      "bytes": 981371
+    },
+    {
+      "relative_path": "data/M118_GROUNDED_SUMMARY.json",
+      "sha256": "e647dfaae7998ea25c8034a45f5ed8d34646ce1bd02cfdc146405a0f8bbabbdc",
+      "bytes": 5050
+    },
+    {
+      "relative_path": "data/M118_TWO_REGENERATION_DESIGN_LEDGER.json",
+      "sha256": "2c8890883f6f5e8da60e12b938c7c77f2524b3085ca1784925a7441a5c8cf0bc",
+      "bytes": 14201
+    },
+    {
+      "relative_path": "data/M119_A_CROWNED_MERIDIAN.json",
+      "sha256": "3bdfc8086dccc95822333db02e4ce1d2def4cfc5d25e5ddc1313ee38c2546b37",
+      "bytes": 328632
+    },
+    {
+      "relative_path": "data/M119_B_FRACTURED_SKY_TERRACES.json",
+      "sha256": "56f0ad6ae653ca1b59f48ffcd6d9dacdd4fedf62a661beee2a4c755f15bc6b71",
+      "bytes": 307093
+    },
+    {
+      "relative_path": "data/M119_NONCONSTRUCTION_FINDINGS.json",
+      "sha256": "70db08f1b5bbc23638ea7c5e355cf68fa4eee3ec4c9b2150ddc79cb12defc1b0",
+      "bytes": 1083
+    },
+    {
+      "relative_path": "data/M120_B_ARCHITECTURAL_SPINE_REVISION.json",
+      "sha256": "26f9d2338152a1c1b95dbec5fd6f9bdae24084fbef1a3215a85c5d8d7e0b835d",
+      "bytes": 377195
+    },
+    {
+      "relative_path": "data/M120_NONCONSTRUCTION_AUDIT.json",
+      "sha256": "22fae35ec4be06cb321ffe9bf815c73d20edc225588d13bc3b99aadb52a0f729",
+      "bytes": 2573
+    },
+    {
+      "relative_path": "data/M121_B_PUBLIC_REALM_RESEARCH.json",
+      "sha256": "0e1b8fbe23cbc9a6e9ec1db0f1ea91257a2e10f58c8af5037f4aff19fcea1713",
+      "bytes": 701353
+    },
+    {
+      "relative_path": "data/M121_TILE_RISK_TRIAGE.json",
+      "sha256": "8c28290cc580a83b6a6f6df403bae59ab24e59b63a28376a71ffe687ff698bed",
+      "bytes": 310663
+    },
+    {
+      "relative_path": "images/M119_01_MATCHED_4_CAMERA_MACRO_SCULPTURES.png",
+      "sha256": "de6979b3b3f48e28db0ed370bba5e74854778d44952b123f831c36c144c89110",
+      "bytes": 703980
+    },
+    {
+      "relative_path": "images/M119_02_FOUR_HERO_MONUMENTAL_SECTIONS.png",
+      "sha256": "90bc6f9cc5c6a802f1af942069ab1b328955be491607ce1e956d8a41ad7de5a8",
+      "bytes": 453783
+    },
+    {
+      "relative_path": "images/M119_03_16_SITE_INTERIOR_AND_PUBLIC_ROUTE_BOARD.png",
+      "sha256": "dfe161b33209c7acfa554e41c0f0cea36e11acca7a210420abb0e86719b5d1df",
+      "bytes": 315966
+    },
+    {
+      "relative_path": "images/M119_04_FOUR_HERO_INTERIOR_CUTAWAY_SECTIONS.png",
+      "sha256": "99af2e33125ec95c03cc8e33e9838fa4347da7f7cee50aadd07886a8837d6ac3",
+      "bytes": 395432
+    },
+    {
+      "relative_path": "images/M120_01_BEFORE_AFTER_MONUMENTAL_SKYLINE.png",
+      "sha256": "6a1eeeafddb75d4f32c668a1ac97547ab1ab1f31decddae539e529e95a80da99",
+      "bytes": 833177
+    },
+    {
+      "relative_path": "images/M120_02_HERO4_ARCHITECTURAL_STUDIES.png",
+      "sha256": "ead8237ba4de6058b4b288f764e96f994e9b3fc40e08daa86bd9868ac6a89b17",
+      "bytes": 469612
+    },
+    {
+      "relative_path": "images/M120_03_ROUTE_GEOMETRY_AND_RISKS.png",
+      "sha256": "0ee3bba0909136bd00f11db77eb10d54630656883f2bc226111a0ca0fd069794",
+      "bytes": 286428
+    },
+    {
+      "relative_path": "images/M120_04_CIVIC_CORE_HUMAN_SCALE_STUDY.png",
+      "sha256": "ec6025dbe56c5bf9124dba040ce59ac940aff8cbe04c183833ad6178fd2a97f1",
+      "bytes": 759748
+    },
+    {
+      "relative_path": "images/M121_01_SB08_PEDESTRIAN_NAVE.png",
+      "sha256": "4aa7d587796f06b1e10e2f853baa95b120c5eba3809f126974bb2f3353dea796",
+      "bytes": 448973
+    },
+    {
+      "relative_path": "images/M121_02_CIVIC_PUBLIC_GROUND.png",
+      "sha256": "d987153861aa2bffc72a633680e6abecf3a3be97f5842fdf263c6a29f957239e",
+      "bytes": 414688
+    },
+    {
+      "relative_path": "images/M121_03_SB08_HERO_SECTION.png",
+      "sha256": "0cf9d6a816c0f886a802b4b8b5f083d54a826deb1b0125faeb8b073c4f140037",
+      "bytes": 527351
+    },
+    {
+      "relative_path": "images/M121_04_CITY_SILHOUETTE.png",
+      "sha256": "590cd150e0aac719f8a8d951a4f0b6a7136184312b73a709a317f04d4d2cc96b",
+      "bytes": 670227
+    },
+    {
+      "relative_path": "requirements_m121_reference.txt",
+      "sha256": "712f30d390f92ce03309d01a5c68e368a9b7fce4639da8e0978c6e9128eaf06a",
+      "bytes": 208
+    },
+    {
+      "relative_path": "source/m119_city_model.py",
+      "sha256": "484c4466d097c64bbb7e6dfde6c24b07f5cfc0e59c358877cc088858fe186eba",
+      "bytes": 14066
+    },
+    {
+      "relative_path": "source/m120_audit.py",
+      "sha256": "f37d39a3b2dfc2d6e392b150df53c059faae248bfd1e40c9b8b8875bb43d2cc8",
+      "bytes": 3355
+    },
+    {
+      "relative_path": "source/m120_city_model.py",
+      "sha256": "50ef1c7dbff0472b68abdc0d18b701033e94a5e40fed5f95bb762b21e2fd16b7",
+      "bytes": 12484
+    },
+    {
+      "relative_path": "source/m121_audit.py",
+      "sha256": "dce30f3975657322b6a81839f558327adecc060d65f6ebf10981ea321b6417c1",
+      "bytes": 4495
+    },
+    {
+      "relative_path": "source/m121_city_experience.py",
+      "sha256": "5f667f9ebb97e864c0f10ef58248f988b1b40ee687c4b26f512acc2a01cf94fa",
+      "bytes": 10027
+    },
+    {
+      "relative_path": "source/render_m119.py",
+      "sha256": "95bead0935a93731ca9cab80e273753f6194387ea467600730f1a043fc657fbe",
+      "bytes": 8300
+    },
+    {
+      "relative_path": "source/render_m119_sections.py",
+      "sha256": "60d60469e93d0d82ba8201a68200da90e1e4c6c6cae4aa1d921060032743c180",
+      "bytes": 3286
+    },
+    {
+      "relative_path": "source/render_m120.py",
+      "sha256": "01017a06ced055a5936ece2f4d01079fae2ae2e3597883d5ddb223f1c626ef69",
+      "bytes": 9070
+    },
+    {
+      "relative_path": "source/render_m121_vtk.py",
+      "sha256": "3c2cbac945017dd4b8989f0da1cf78f2371040f84d5406f32744cc10b8029272",
+      "bytes": 6253
+    },
+    {
+      "relative_path": "tests/test_m119.py",
+      "sha256": "f94716809fb931e470dc3b9382faf187425bc103d2942ec50ba7734d32b3c641",
+      "bytes": 3075
+    },
+    {
+      "relative_path": "tests/test_m120.py",
+      "sha256": "234c751578e3481fe1041cfecc7b1fd0d3862bea097c66a004f022c082fef77e",
+      "bytes": 3812
+    },
+    {
+      "relative_path": "tests/test_m121.py",
+      "sha256": "b832138dcb9b6268e94e8b685d08e7baed12b939a6b6d6bab4bae5bcbd9abce1",
+      "bytes": 2792
+    }
+  ],
+  "total_files_except_manifest": 45,
+  "protected_original_source_zip_sha256": "83201a2907427073ce0b4908fb7aba3010c1667132ae081ec09f4066e6e01c2f",
+  "user_review_save_writes": 0,
+  "official_construction_world_registered": false
+}
