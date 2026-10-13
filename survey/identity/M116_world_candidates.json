@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "phase": "M116",
+  "status": "RESEARCH_RECORD_NOT_FORMAL_GOVERNANCE_CHANGE",
+  "purpose": "Prevent confusion between same-display-name Minecraft saves",
+  "official_construction_world_id": null,
+  "construction_authorized": false,
+  "world_identity_proven": false,
+  "model_relative_H_to_absolute_minecraft_Y": "UNKNOWN",
+  "known_saves": [
+    {
+      "id": "review-copy-candidate",
+      "launcher": "CurseForge",
+      "profile": "SKYTREE_3500",
+      "save_folder_tail": [
+        "SKYTREE_3500",
+        "saves",
+        "CH9_D6D_REVIEW_COPY"
+      ],
+      "world_display_name": "imagine",
+      "role": "USER_VERIFIED_OLD_ARCHITECTURE_READ_ONLY_REVIEW_COPY",
+      "level_dat_sha256": "ca9410a9aeec5f133ae811e902bafb706de144b00d5f059582333976cf0707c6",
+      "reported_last_played_utc": "2026-10-12T14:10:21.777000+00:00",
+      "observed_M115_sample": {
+        "chunks": 13,
+        "artificial_block_candidates": 4476,
+        "materials": {
+          "minecraft:black_concrete": 2428,
+          "minecraft:smooth_quartz": 2048
+        }
+      },
+      "screenshot_match": "USER_VERIFIED_SELECTION_OLD_BUILDINGS_AND_SAVE_FOLDER",
+      "may_use_for_world_writes": false,
+      "save_folder_evidence": {
+        "minecraft_selection_row": "First world: imagine, subtitle CH9_D6D_REVIEW_COPY",
+        "explorer_tail_user_confirmed": "SKYTREE_3500/saves/CH9_D6D_REVIEW_COPY",
+        "verified_date": "2026-10-13",
+        "scope": "User confirms selected old-building save path; not authoritative construction destination"
+      }
+    },
+    {
+      "id": "legacy-stone-only-candidate",
+      "launcher": "CurseForge",
+      "profile": "SKYTREE_3500",
+      "save_folder_tail": [
+        "SKYTREE_3500",
+        "saves",
+        "imagine"
+      ],
+      "world_display_name": "imagine",
+      "role": "READ_ONLY_DIAGNOSTIC_NOT_CONSTRUCTION_TARGET",
+      "level_dat_sha256": "5bde403d4dc7dc3a29d6a4f7db30eed61922eed39195a5baa3257ef4c86cac8c",
+      "reported_last_played_utc": "2026-10-01T12:23:41.331000+00:00",
+      "observed_M115_sample": {
+        "chunks": 13,
+        "artificial_block_candidates": 0,
+        "materials": {
+          "minecraft:stone": 23296
+        }
+      },
+      "screenshot_match": "INCONSISTENT_WITH_BUILDINGS",
+      "may_use_for_world_writes": false
+    }
+  ],
+  "safety_policy_unchanged": {
+    "construction": "HOLD",
+    "read_only_inspection_allowed": true,
+    "world_writes_allowed": false,
+    "formal_world_target_requires_separate_user_approval": true,
+    "no_world_selected_by_display_name": true,
+    "hash_can_change_after_normal_gameplay": true,
+    "snapshot_hash_not_global_unique_identifier": true,
+    "fail_closed_when_path_or_hash_changes": true,
+    "live_world_files_touched": 0
+  },
+  "user_confirmed_legacy_world_folder": "CH9_D6D_REVIEW_COPY",
+  "legacy_world_folder_confirmation": "CONFIRMED_BY_USER_FROM_MINECRAFT_WORLD_SELECTION_AND_WINDOWS_EXPLORER"
+}

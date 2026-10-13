@@ -1,0 +1,8 @@
+# M116 post-checkpoint: selected old-building save verified
+2026-10-13: The user opened Minecraft 1.21.11 Singleplayer world selection and shared a screenshot where the **first "imagine"** entry visibly shows subtitle **CH9_D6D_REVIEW_COPY**, matching the built-up city thumbnail; they also opened that selected world's folder and reported the saved directory tail as **SKYTREE_3500/saves/CH9_D6D_REVIEW_COPY**. Therefore the **old architecture save folder is now USER VERIFIED for READ-ONLY purposes**. It is not a generic guess and no longer requires repetitive folder-finding probes.
+
+The user's separate `SKYTREE_3500/saves/imagine` remains another world with the same displayed name; its M115 13 sampled chunks have only stone, so NEVER substitute it based on display name alone. M115 recognized the review copy with 4,476 artificial materials in 13 sampled chunks.
+
+**Important:** The suffix REVIEW_COPY means treat this as a review reference, not the authoritative world to modify. Official construction target is still NULL; freeze/approved buildings, model H->Y and user-signed pilot construction remain unchanged and HOLD. M116 preflight is read-only advisory, not a hook into independent WorldEdit tools. SHA256 of level.dat is only a time-varying snapshot; changed hashes require renewed inspection and cannot be used to auto-select another save. Avoid sharing full private user directory paths in reports.
+
+Next macro task: survey actual old-city *geometry and exact elevation* in the VERIFIED review copy (read only); evaluate citywide replacement masterplans with preserved Freeze and clear approval gates. No new launcher/save-search tasks unless later evidence conflicts.
