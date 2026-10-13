@@ -1,0 +1,93 @@
+{
+  "phase": "M119",
+  "name": "Grounded monumental citywide volumetric studies",
+  "reference_review_save": "CH9_D6D_REVIEW_COPY",
+  "reference_data_source": "User uploaded M117 1456/1456 readable chunk atlas",
+  "actual_built_materials_heuristic": 1095343,
+  "observed_8x8_tiles": 2096,
+  "actual_saved_material_y_range": [
+    -1865,
+    -1703
+  ],
+  "formal_baseline": "M101_TERRACED_DISTRICT_RIM_UNCHANGED",
+  "draft_schemes": [
+    {
+      "id": "A_CROWNED_MERIDIAN",
+      "proposal_meshes": 648,
+      "faces": 3881,
+      "proposed_voids": 9,
+      "public_route_intents": 24,
+      "proposed_abs_y_extrema": [
+        -1859,
+        -1569.01
+      ],
+      "orbital_form": "continuous twin halo and strong symmetrical ceremonial civic-axis architecture",
+      "full_model_sha256": "3bdfc8086dccc95822333db02e4ce1d2def4cfc5d25e5ddc1313ee38c2546b37"
+    },
+    {
+      "id": "B_FRACTURED_SKY_TERRACES",
+      "proposal_meshes": 603,
+      "faces": 3611,
+      "proposed_voids": 10,
+      "public_route_intents": 24,
+      "proposed_abs_y_extrema": [
+        -1859,
+        -1554.72
+      ],
+      "orbital_form": "segmented twin halo and irregular giant sky terraces, large public atrium, asymmetrical HERO4",
+      "full_model_sha256": "56f0ad6ae653ca1b59f48ffcd6d9dacdd4fedf62a661beee2a4c755f15bc6b71"
+    }
+  ],
+  "site_architecture_program": {
+    "HERO4": {
+      "SB05": "Folding sail citadel / ~144-block nave concept",
+      "SB08": "Twin 3D vaults / ~153-block public atrium concept",
+      "SB09": "Great ceremonial gateway / ~180-block reserved gate court",
+      "SB12": "Stepped ridge sanctuary / ~132-block temple void"
+    },
+    "CIVIC4": {
+      "SB06": "Split assembly hall",
+      "SB07": "Interlevel public forum",
+      "SB10": "Three-tier transit hall",
+      "SB11": "Terraced harmonic theatre"
+    },
+    "FRAME8": {
+      "SB01": "Lantern trade quarter",
+      "SB02": "Artisan spine",
+      "SB03": "Echo market",
+      "SB04": "Rain conservatory",
+      "SB13": "Threshold entry district",
+      "SB14": "Orbital mechanism museum",
+      "SB15": "Prism studios",
+      "SB16": "Dusk observation"
+    }
+  },
+  "b_research_priority_only": true,
+  "official_architecture_approval": false,
+  "world_geometry_survey_status": "EXACT_MATERIALS_REAL_BUT_FROZEN_VOXEL_CLASSIFICATION_MISSING",
+  "world_y_note": "New proposal uses surveyed Minecraft coordinate frame for visualization, NOT validated relative-H mapping from M101",
+  "old_city_replacement_candidate_geometry_collides_in_plan_with_existing_buildings": "POSSIBLE_ASSUMED_UNRESOLVED",
+  "protected_geometry_clearance_tested": false,
+  "giant_outer_ring_planning_boundary_confirmed": false,
+  "traversal_certified": false,
+  "elevator_functional": false,
+  "source_bundle_full_exported_to_user": true,
+  "source_bundle_files_in_github": false,
+  "local_generator_sha256": "484c4466d097c64bbb7e6dfde6c24b07f5cfc0e59c358877cc088858fe186eba",
+  "figure_sha256": {
+    "matched_city": "de6979b3b3f48e28db0ed370bba5e74854778d44952b123f831c36c144c89110",
+    "hero": "90bc6f9cc5c6a802f1af942069ab1b328955be491607ce1e956d8a41ad7de5a8",
+    "public_routes": "dfe161b33209c7acfa554e41c0f0cea36e11acca7a210420abb0e86719b5d1df",
+    "interiors": "99af2e33125ec95c03cc8e33e9838fa4347da7f7cee50aadd07886a8837d6ac3"
+  },
+  "governance": {
+    "world_writes": 0,
+    "review_copy_writes": 0,
+    "freeze_change": 0,
+    "canonical_change": 0,
+    "staging_change": 0,
+    "comparison_baseline_promotion": false,
+    "official_construction_world_id": null,
+    "formal_design_promotion": false
+  }
+}
