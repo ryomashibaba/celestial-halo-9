@@ -1,0 +1,171 @@
+{
+  "phase": "M118",
+  "world_save_folder": "CH9_D6D_REVIEW_COPY",
+  "data_status": "USER_PROVIDED_READ_ONLY_ACTUAL_SAVED_BLOCK_AGGREGATES",
+  "M117_atlas_file_sha256": "052d6ec308f842573b8fa9933266eb566508004caccdbd824812dbf94273f4f6",
+  "chunks_readable": 1456,
+  "chunks_requested": 1456,
+  "chunks_missing": 0,
+  "report_errors": 0,
+  "sites_count": 16,
+  "total_heuristic_artificial_material_blocks": 1095343,
+  "occupied_8x8_tiles": 2096,
+  "min_saved_artificial_block_Y": -1865,
+  "max_saved_artificial_block_Y": -1703,
+  "material_counts": {
+    "minecraft:smooth_quartz": 424441,
+    "minecraft:black_concrete": 306847,
+    "minecraft:cyan_stained_glass": 177722,
+    "minecraft:gray_concrete": 149010,
+    "minecraft:sea_lantern": 37323
+  },
+  "site_group_blocks": {
+    "HERO4": 416613,
+    "CIVIC4": 252019,
+    "FRAME8": 426711
+  },
+  "site_samples": [
+    {
+      "site": "SB01",
+      "kind": "FRAME",
+      "blocks": 57873,
+      "min_saved_Y": -1863,
+      "max_saved_Y": -1797,
+      "tiles": 108
+    },
+    {
+      "site": "SB02",
+      "kind": "FRAME",
+      "blocks": 63956,
+      "min_saved_Y": -1863,
+      "max_saved_Y": -1783,
+      "tiles": 103
+    },
+    {
+      "site": "SB03",
+      "kind": "FRAME",
+      "blocks": 54051,
+      "min_saved_Y": -1865,
+      "max_saved_Y": -1785,
+      "tiles": 99
+    },
+    {
+      "site": "SB04",
+      "kind": "FRAME",
+      "blocks": 46448,
+      "min_saved_Y": -1864,
+      "max_saved_Y": -1796,
+      "tiles": 88
+    },
+    {
+      "site": "SB05",
+      "kind": "HERO",
+      "blocks": 101930,
+      "min_saved_Y": -1849,
+      "max_saved_Y": -1741,
+      "tiles": 162
+    },
+    {
+      "site": "SB06",
+      "kind": "CIVIC",
+      "blocks": 65790,
+      "min_saved_Y": -1849,
+      "max_saved_Y": -1782,
+      "tiles": 170
+    },
+    {
+      "site": "SB07",
+      "kind": "CIVIC",
+      "blocks": 63798,
+      "min_saved_Y": -1851,
+      "max_saved_Y": -1792,
+      "tiles": 167
+    },
+    {
+      "site": "SB08",
+      "kind": "HERO",
+      "blocks": 105911,
+      "min_saved_Y": -1851,
+      "max_saved_Y": -1745,
+      "tiles": 151
+    },
+    {
+      "site": "SB09",
+      "kind": "HERO",
+      "blocks": 104539,
+      "min_saved_Y": -1825,
+      "max_saved_Y": -1703,
+      "tiles": 154
+    },
+    {
+      "site": "SB10",
+      "kind": "CIVIC",
+      "blocks": 60908,
+      "min_saved_Y": -1825,
+      "max_saved_Y": -1760,
+      "tiles": 152
+    },
+    {
+      "site": "SB11",
+      "kind": "CIVIC",
+      "blocks": 61523,
+      "min_saved_Y": -1835,
+      "max_saved_Y": -1765,
+      "tiles": 167
+    },
+    {
+      "site": "SB12",
+      "kind": "HERO",
+      "blocks": 104233,
+      "min_saved_Y": -1837,
+      "max_saved_Y": -1721,
+      "tiles": 145
+    },
+    {
+      "site": "SB13",
+      "kind": "FRAME",
+      "blocks": 48855,
+      "min_saved_Y": -1808,
+      "max_saved_Y": -1746,
+      "tiles": 103
+    },
+    {
+      "site": "SB14",
+      "kind": "FRAME",
+      "blocks": 55882,
+      "min_saved_Y": -1807,
+      "max_saved_Y": -1724,
+      "tiles": 117
+    },
+    {
+      "site": "SB15",
+      "kind": "FRAME",
+      "blocks": 54364,
+      "min_saved_Y": -1811,
+      "max_saved_Y": -1729,
+      "tiles": 108
+    },
+    {
+      "site": "SB16",
+      "kind": "FRAME",
+      "blocks": 45282,
+      "min_saved_Y": -1818,
+      "max_saved_Y": -1754,
+      "tiles": 102
+    }
+  ],
+  "actual_frozen_protection_classified": false,
+  "model_H_to_world_Y": "UNVERIFIED",
+  "image_comparison_is_proposal_not_voxel_construction": true,
+  "proposed_masterplans": [
+    "A_CROWNED_MERIDIAN",
+    "B_FRACTURED_SKY_TERRACES"
+  ],
+  "masterplans_approved": false,
+  "verified_buildability": false,
+  "construction_target_approved": false,
+  "world_writes": 0,
+  "freeze_writes": 0,
+  "M101_formal_baseline_promotion": false,
+  "scope_limit": "Only 16 surveyed parcel footprints; architecture by material heuristic not protection; no exact 3D collision, roads/voids, public routes, terrain and world boundary"
+}
