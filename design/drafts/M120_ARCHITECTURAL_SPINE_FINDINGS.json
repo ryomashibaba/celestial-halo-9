@@ -1,0 +1,70 @@
+{
+  "phase": "M120",
+  "name": "Architecture Spine B and Civic Walkway Research",
+  "world_reference": "CH9_D6D_REVIEW_COPY_READ_ONLY",
+  "authoritative_construction_world": null,
+  "M117_real_saved_artificial_like_material_blocks": 1095343,
+  "M117_occupied_8x8_tiles": 2096,
+  "source_M119_variant": "B_FRACTURED_SKY_TERRACES",
+  "original_M119_B_proposal_meshes": 603,
+  "M120_added_meshes": 130,
+  "total_M120_research_meshes": 733,
+  "new_geometry_vs_saved_8x8_xy_y_AABB_broadphase": {
+    "new_meshes_with_potential_overlap": 38,
+    "new_meshes_with_zero_detected_8x8_material_overlap": 92,
+    "distinct_8x8_old_material_tiles_with_potential_overlap": 600,
+    "mesh_tile_overlap_pairs": 1204,
+    "caution": "Broadphase on old artificial-material tiles, not individual voxels; zero detected tile overlaps is NOT collision clearance or build approval."
+  },
+  "path_plan": {
+    "start": "SB13_PROXY_APPROACH_NOT_ACTUAL_PROTECTED_GATE_XYZ",
+    "via": [
+      "SB09_OUTER_GATE",
+      "SB10_TRANSIT_MEZZANINE",
+      "CENTRAL_SKY_COURT",
+      "SB07_PUBLIC_FORUM",
+      "SB08_TWIN_VAULTS"
+    ],
+    "finish": "INNER_ORBITAL_TERRACE_SAMPLE",
+    "stations": 10,
+    "segments": 9,
+    "planned_vertical_lifts": 2,
+    "endpoint_continuity": true,
+    "first_approach_old_material_risk_tiles": 13,
+    "first_lift_old_material_risk_tiles": 8,
+    "publicly_traversable": false,
+    "real_building_entrances_connected": false,
+    "full_protected_clearance": false
+  },
+  "new_visuals": [
+    "M120_01_BEFORE_AFTER_MONUMENTAL_SKYLINE.png",
+    "M120_02_HERO4_ARCHITECTURAL_STUDIES.png",
+    "M120_03_ROUTE_GEOMETRY_AND_RISKS.png",
+    "M120_04_CIVIC_CORE_HUMAN_SCALE_STUDY.png"
+  ],
+  "quality_assessment": "Small/moderate visual improvement over rough M119; still low-poly study NOT finished Minecraft architectural quality.",
+  "artifact_sources": {
+    "full_M120_model_json_sha256": "26f9d2338152a1c1b95dbec5fd6f9bdae24084fbef1a3215a85c5d8d7e0b835d",
+    "full_M120_generator_sha256": "50ef1c7dbff0472b68abdc0d18b701033e94a5e40fed5f95bb762b21e2fd16b7",
+    "offline_model_render_script_sha256": "01017a06ced055a5936ece2f4d01079fae2ae2e3597883d5ddb223f1c626ef69",
+    "offline_AABB_audit_sha256": "f37d39a3b2dfc2d6e392b150df53c059faae248bfd1e40c9b8b8875bb43d2cc8"
+  },
+  "assumptions": {
+    "M101_relative_H_to_real_Y": "UNVERIFIED",
+    "Frozen408_and_959_exact_saved_voxel_mask": "NOT_AVAILABLE",
+    "SB09_and_SB13_entrance_exact_voxels": "NOT_VALIDATED",
+    "historic_88_reserved_voids": "NOT_CHECKED",
+    "roads_parks_terrain_boundary": "NOT_CHECKED",
+    "outer_ring_construction_envelope": "NOT_APPROVED",
+    "route_elevators_operational": false
+  },
+  "governance": {
+    "M101_comparison_baseline_unchanged": true,
+    "design_B_formally_adopted": false,
+    "world_writes": 0,
+    "freeze_writes": 0,
+    "canonical_writes": 0,
+    "staging_writes": 0,
+    "live_minecraft_construction_authorized": false
+  }
+}
