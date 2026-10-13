@@ -1,0 +1,26 @@
+{
+  "phase": "M117",
+  "research_only": true,
+  "world_role": "USER_VERIFIED_OLD_ARCHITECTURE_REVIEW_COPY_ONLY",
+  "user_confirmed_review_save": "SKYTREE_3500/saves/CH9_D6D_REVIEW_COPY",
+  "user_confirmed_distinct_stone_only_save": "SKYTREE_3500/saves/imagine",
+  "do_not_select_by_world_display_name": "imagine",
+  "portable_reader_bundle": "CELESTIAL_HALO9_M117_REVIEW_COPY_CITY_ATLAS_READONLY_HANDOFF.zip",
+  "portable_reader_bundle_sha256": "bea3cac3adcb68b3c36dd28bfdcfb58585222a41111bb970bc512d4dc7f907d1",
+  "portable_bundle_entrypoint": "RUN_M117_READONLY_CITY_ATLAS.cmd",
+  "portable_bundle_source_files": [
+    "halo9_m117_actual_mesh_atlas.py",
+    "m117_anvil_readonly.py"
+  ],
+  "portable_bundle_test_result": "synthetic world 3/3 PASS; world file SHA unchanged",
+  "estimated_distinct_model_site_chunks": 1456,
+  "block_grid_resolution": 8,
+  "user_world_m117_scan_run": false,
+  "real_world_Y_values_measured_for_buildings": false,
+  "model_relative_H_y_transform": "UNKNOWN",
+  "construction_target_registered": false,
+  "world_writes": 0,
+  "freeze_changes": 0,
+  "construction_approved": false,
+  "important_limitation": "Portable full scanner delivered in ChatGPT ZIP; this PR includes independent result validator and evidence, not full scanner source or live world contents."
+}
