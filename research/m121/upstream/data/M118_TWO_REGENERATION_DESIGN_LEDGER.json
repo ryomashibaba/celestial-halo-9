@@ -1,0 +1,334 @@
+{
+  "phase": "M118",
+  "status": "TWO_UNAPPROVED_MACRO_REGENERATION_CONCEPTS",
+  "source": {
+    "type": "read_only_saved_blocks_atlas",
+    "review_save_folder": "CH9_D6D_REVIEW_COPY",
+    "atlas_sha256": "052d6ec308f842573b8fa9933266eb566508004caccdbd824812dbf94273f4f6",
+    "exact_chunk_coverage": [
+      1456,
+      1456
+    ],
+    "site_count": 16,
+    "heuristic_building_material_blocks": 1095343,
+    "observed_absolute_Y_range": [
+      -1865,
+      -1703
+    ],
+    "geometry_resolution": "8x8 occupancy tile aggregates, not full 3D blocks",
+    "formal_relative_H_to_world_Y_transform": "UNKNOWN"
+  },
+  "locked_vision": [
+    "Ring monumental megastructure and giant sculptural buildings with several city tiers",
+    "White/bright iconic shells juxtaposed with heavy black industrial skeleton",
+    "Strong density-vs-huge-empty-sky-courts alternation",
+    "Preserve all frozen and approved buildings, protected gate, 3x4 entrance, 88 voids, roads and parks until separate consent",
+    "All 16 have real interior aims and distinct architecture, HERO4 vast halls",
+    "Only one bounded pilot may be constructed after explicit separate approval",
+    "SF + mysticism + industrial might",
+    "Equal emphasis on skyline and real pedestrian street/interior experience"
+  ],
+  "alternatives": [
+    {
+      "id": "A_CROWNED_MERIDIAN",
+      "status": "RESEARCH_NOT_ADOPTED",
+      "central_visual": "continuous double crown + giant crossed civic meridian and precise open public vault",
+      "hero4_language": "vast cathedral sails around symmetrical temple-scale civic axis",
+      "citywide_outline": "two continuous orbital rings, stepped four-end portals, giant ceremonial central void",
+      "urban_experience": "direct legible grand promenade from SB13 toward central court and four HERO4 halls",
+      "interior_strategy": "long processional galleries / huge nave cross sections / sky-level concourse",
+      "weakness": "symmetry and repeated radii may feel standardized rather than a lived-in city; outer ring outside approved 16 parcels",
+      "claim_of_buildability": false
+    },
+    {
+      "id": "B_FRACTURED_SKY_TERRACES",
+      "status": "RESEARCH_NOT_ADOPTED",
+      "central_visual": "deliberately broken interlocking halo arcs and asymmetric suspended megaterraces around oversized sky void",
+      "hero4_language": "four clearly distinct mountain/sail/vault/gateway silhouettes projecting from dark industrial city base",
+      "citywide_outline": "fragmented perimeter ring, two sky-courts at different levels, diagonal circulation spine and bridge/terrace clusters",
+      "urban_experience": "looping elevated district tour with branching public stairs/lift cores, multiple outlooks and strongly varied areas",
+      "interior_strategy": "giant through-building atria and bridges linking high and low districts; vertical transfers are still UNBUILT",
+      "weakness": "broken arcs create wayfinding/continuity hazards; cantilever spans, protected voxel masks and outer site rights unresolved",
+      "claim_of_buildability": false
+    }
+  ],
+  "research_comparison": {
+    "whole_city_massing_focus": "B_FRACTURED_SKY_TERRACES is more differentiated for next architecture sculpt study; not chosen by user",
+    "actual_old_buildings_untouched": true,
+    "M101_comparison_baseline_not_replaced": true,
+    "new_proposals_are_drawings_not_built_or_collision_checked": true
+  },
+  "site_architecture_program": [
+    {
+      "site": "SB01",
+      "type": "FRAME",
+      "existing_exact_material_blocks": 57873,
+      "existing_absolute_Y_detected": [
+        -1863,
+        -1797
+      ],
+      "new_name_research_only": "West Threshold",
+      "unique_architectural_mass": "Broken-fin civic facade",
+      "primary_walkable_interior_intent": "Rail approach nave with two gallery decks",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB02",
+      "type": "FRAME",
+      "existing_exact_material_blocks": 63956,
+      "existing_absolute_Y_detected": [
+        -1863,
+        -1783
+      ],
+      "new_name_research_only": "The Lantern Bazaar",
+      "unique_architectural_mass": "Suspended segmented light canopy",
+      "primary_walkable_interior_intent": "Covered market court with upper overlook",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB03",
+      "type": "FRAME",
+      "existing_exact_material_blocks": 54051,
+      "existing_absolute_Y_detected": [
+        -1865,
+        -1785
+      ],
+      "new_name_research_only": "Celestial Instrument Hall",
+      "unique_architectural_mass": "Concentric drum and tapered spire",
+      "primary_walkable_interior_intent": "Rotunda of instruments and spiral visitor ring",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB04",
+      "type": "FRAME",
+      "existing_exact_material_blocks": 46448,
+      "existing_absolute_Y_detected": [
+        -1864,
+        -1796
+      ],
+      "new_name_research_only": "North Rain Conservatory",
+      "unique_architectural_mass": "Ribbed botanical glass shell",
+      "primary_walkable_interior_intent": "Terraced interior greenhouse with void",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB05",
+      "type": "HERO",
+      "existing_exact_material_blocks": 101930,
+      "existing_absolute_Y_detected": [
+        -1849,
+        -1741
+      ],
+      "new_name_research_only": "Radiant Sail Citadel",
+      "unique_architectural_mass": "Immense folded luminous sail / dark roots",
+      "primary_walkable_interior_intent": "Full-height ceremonial nave, three mezzanine terraces",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB06",
+      "type": "CIVIC",
+      "existing_exact_material_blocks": 65790,
+      "existing_absolute_Y_detected": [
+        -1849,
+        -1782
+      ],
+      "new_name_research_only": "Gallery Crescent",
+      "unique_architectural_mass": "Curving stepped public colonnades",
+      "primary_walkable_interior_intent": "Assembly arcade around sky court",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB07",
+      "type": "CIVIC",
+      "existing_exact_material_blocks": 63798,
+      "existing_absolute_Y_detected": [
+        -1851,
+        -1792
+      ],
+      "new_name_research_only": "Celestial Forum",
+      "unique_architectural_mass": "Giant open roof aperture surrounded by tiers",
+      "primary_walkable_interior_intent": "Three-tier public atrium, visible cross-site circulation",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB08",
+      "type": "HERO",
+      "existing_exact_material_blocks": 105911,
+      "existing_absolute_Y_detected": [
+        -1851,
+        -1745
+      ],
+      "new_name_research_only": "Aurora Twin Vaults",
+      "unique_architectural_mass": "Asymmetric double cathedral vaults",
+      "primary_walkable_interior_intent": "Two giant interior volumes and connecting glass ridge",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB09",
+      "type": "HERO",
+      "existing_exact_material_blocks": 104539,
+      "existing_absolute_Y_detected": [
+        -1825,
+        -1703
+      ],
+      "new_name_research_only": "Grand Halo Gateway",
+      "unique_architectural_mass": "Protect existing SB09 high gateway and grow massive side buttresses",
+      "primary_walkable_interior_intent": "Ceremonial gate hall with exact protected passage kept open",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB10",
+      "type": "CIVIC",
+      "existing_exact_material_blocks": 60908,
+      "existing_absolute_Y_detected": [
+        -1825,
+        -1760
+      ],
+      "new_name_research_only": "Transit Court",
+      "unique_architectural_mass": "Lift atrium and long low public concourse",
+      "primary_walkable_interior_intent": "Legible public route hub at lower level",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB11",
+      "type": "CIVIC",
+      "existing_exact_material_blocks": 61523,
+      "existing_absolute_Y_detected": [
+        -1835,
+        -1765
+      ],
+      "new_name_research_only": "Harmonic Hall",
+      "unique_architectural_mass": "Large acoustic wing roof with public terraces",
+      "primary_walkable_interior_intent": "Performance interior connected to civic court",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB12",
+      "type": "HERO",
+      "existing_exact_material_blocks": 104233,
+      "existing_absolute_Y_detected": [
+        -1837,
+        -1721
+      ],
+      "new_name_research_only": "Mountain Halo Sanctuary",
+      "unique_architectural_mass": "Mountain-like stacked luminous shell and dark frame",
+      "primary_walkable_interior_intent": "Sky sanctuary and wide internal outlook gallery",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB13",
+      "type": "FRAME",
+      "existing_exact_material_blocks": 48855,
+      "existing_absolute_Y_detected": [
+        -1808,
+        -1746
+      ],
+      "new_name_research_only": "Southern Threshold",
+      "unique_architectural_mass": "Retain protected minimum 3×4 entrance, add proposed public canopy outside protected set",
+      "primary_walkable_interior_intent": "Gateway vestibule / accessible public orientation",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB14",
+      "type": "FRAME",
+      "existing_exact_material_blocks": 55882,
+      "existing_absolute_Y_detected": [
+        -1807,
+        -1724
+      ],
+      "new_name_research_only": "Engine Gallery",
+      "unique_architectural_mass": "Exposed large mechanical trusses beneath white lantern roofs",
+      "primary_walkable_interior_intent": "Technical exhibition and hanging machinery core",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB15",
+      "type": "FRAME",
+      "existing_exact_material_blocks": 54364,
+      "existing_absolute_Y_detected": [
+        -1811,
+        -1729
+      ],
+      "new_name_research_only": "Prism Artisan Terraces",
+      "unique_architectural_mass": "Cascading crystalline stair-tower cluster",
+      "primary_walkable_interior_intent": "Multi-floor makers gallery and daylight atrium",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    },
+    {
+      "site": "SB16",
+      "type": "FRAME",
+      "existing_exact_material_blocks": 45282,
+      "existing_absolute_Y_detected": [
+        -1818,
+        -1754
+      ],
+      "new_name_research_only": "Dusk Arrival Pavilion",
+      "unique_architectural_mass": "Massive observatory eave and stepped civic porch",
+      "primary_walkable_interior_intent": "Quiet gallery and skywatch lounge",
+      "existing_protected_mesh_collision_certified": false,
+      "physical_architectural_model_constructed": false,
+      "source_existing_material_cannot_be_assumed_rebuildable": true
+    }
+  ],
+  "hard_gates": [
+    {
+      "gate": "FULL_PROTECTION_MASK",
+      "state": "FAIL_NOT_CHECKED",
+      "reason": "Frozen408, public959, 88 void volumes, real approved roads/parks cannot be distinguished from M117 artificial-material aggregates"
+    },
+    {
+      "gate": "RELATIVE_HEIGHT_TO_WORLD_Y",
+      "state": "FAIL_NOT_CHECKED",
+      "reason": "Existing M101/M83 H datum has not been matched against two independently verified landmarks in the save"
+    },
+    {
+      "gate": "PLANNING_BOUNDARY_AND_TERRAIN",
+      "state": "FAIL_NOT_CHECKED",
+      "reason": "Outer ring traverses beyond surveyed 16 building parcels; land rights and terrain unknown"
+    },
+    {
+      "gate": "PUBLIC_ROUTE_3D_WALKABILITY",
+      "state": "FAIL_NOT_CHECKED",
+      "reason": "No actual door, stair, elevator, obstruction and level continuity testing"
+    },
+    {
+      "gate": "OFFICIAL_CONSTRUCTION_TARGET_AND_APPROVAL",
+      "state": "FAIL_NOT_APPROVED",
+      "reason": "Known save is review COPY; no authoritative world or one-pilot explicit permit"
+    }
+  ],
+  "world_writes": 0,
+  "freeze_changes": 0,
+  "official_baseline_promotion": false,
+  "construction_approved": false
+}

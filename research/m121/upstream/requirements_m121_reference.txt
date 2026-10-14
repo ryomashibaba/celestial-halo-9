@@ -1,0 +1,6 @@
+# Reference environment only, to lock/test in local Work project later.
+# Base M119/M120 requires numpy and matplotlib, M121 eye-level render uses vtk + Pillow.
+numpy>=2.0
+matplotlib>=3.8
+vtk>=9.3
+Pillow>=10

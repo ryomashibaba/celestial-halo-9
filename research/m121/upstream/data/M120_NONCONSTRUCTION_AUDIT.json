@@ -1,0 +1,96 @@
+{
+  "phase": "M120",
+  "status": "OFFLINE_BROADPHASE_ONLY_NO_CONSTRUCTION",
+  "source_review_copy": "CH9_D6D_REVIEW_COPY",
+  "site_material_8x8_tiles": 2096,
+  "inherited_m119_B_meshes": 603,
+  "m120_new_meshes": 130,
+  "total_proxy_meshes": 733,
+  "new_geometry_versus_observed_8x8_tile_Y_AABB_potential_hits": 1204,
+  "distinct_old_tiles_potentially_overlapped": 600,
+  "new_proposal_meshes_with_observed_tile_AABB_risk": 38,
+  "new_proposal_meshes_without_observed_tile_AABB_risk": 92,
+  "risky_mesh_id_sample": [
+    "M120_SB05_DARK_PODIUM_CRADLE",
+    "M120_SB05_IVORY_APRON",
+    "M120_SB05_FOUNDATION_WING_-1",
+    "M120_SB05_FOUNDATION_WING_1",
+    "M120_SB08_DARK_PODIUM_CRADLE",
+    "M120_SB08_IVORY_APRON",
+    "M120_SB08_FOUNDATION_WING_-1",
+    "M120_SB08_FOUNDATION_WING_1",
+    "M120_SB09_DARK_PODIUM_CRADLE",
+    "M120_SB09_IVORY_APRON",
+    "M120_SB09_FOUNDATION_WING_-1",
+    "M120_SB09_FOUNDATION_WING_1",
+    "M120_SB12_DARK_PODIUM_CRADLE",
+    "M120_SB12_IVORY_APRON",
+    "M120_SB12_FOUNDATION_WING_-1",
+    "M120_SB12_FOUNDATION_WING_1"
+  ],
+  "potentially_overlapped_site_ids": [
+    "SB05",
+    "SB06",
+    "SB07",
+    "SB08",
+    "SB09",
+    "SB10",
+    "SB11",
+    "SB12",
+    "SB13"
+  ],
+  "route_segment_count": 9,
+  "route_station_count": 10,
+  "route_math_centerline_continuous": true,
+  "route_old_material_tile_broadphase_risks": [
+    {
+      "id": "S00",
+      "risk_tiles": 13
+    },
+    {
+      "id": "S01",
+      "risk_tiles": 8
+    },
+    {
+      "id": "S02",
+      "risk_tiles": 0
+    },
+    {
+      "id": "S03",
+      "risk_tiles": 0
+    },
+    {
+      "id": "S04",
+      "risk_tiles": 0
+    },
+    {
+      "id": "S05",
+      "risk_tiles": 0
+    },
+    {
+      "id": "S06",
+      "risk_tiles": 0
+    },
+    {
+      "id": "S07",
+      "risk_tiles": 0
+    },
+    {
+      "id": "S08",
+      "risk_tiles": 0
+    }
+  ],
+  "exact_old_voxel_collision_check": false,
+  "protected_reserved_88_voids_checked": false,
+  "SB13_actual_protected_entry_coordinates_verified": false,
+  "full_frozen408_world_voxel_map_verified": false,
+  "existing_approved_roads_and_parks_checked": false,
+  "outer_ring_planning_extent_approved": false,
+  "elevator_and_lift_operational": false,
+  "pedestrian_traversable": false,
+  "model_relative_H_to_world_Y_verified": false,
+  "comparison_baseline_promoted": false,
+  "official_live_world_registered": false,
+  "world_writes": 0,
+  "interpretation": "New proposal intersects old observed region in conservative tiles, NOT permissions to erase or modify frozen buildings; 0 hit does not mean full clearance."
+}
