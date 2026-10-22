@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1110" viewBox="0 0 1800 1110">
+<rect width="1800" height="1110" fill="#101c29"/>
+<text x="55" y="58" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#edc67d">CELESTIAL HALO-9   /   A2-G5   /   CONCEPT I / II</text>
+<text x="55" y="126" font-family="Yu Gothic,Meiryo,sans-serif" font-size="48" fill="#e8edf0">都市の生成原理を比較する</text>
+<text x="58" y="169" font-family="Yu Gothic,Meiryo,sans-serif" font-size="25" fill="#a9bdca">暫定選抜：案I 交庭聖都 ／ 両案とも未合格・中央監督のG5審査待ち</text>
+<rect x="55" y="220" width="820" height="360" fill="#182a39" stroke="none" stroke-width="2"/>
+<text x="80" y="272" font-family="Yu Gothic,Meiryo,sans-serif" font-size="32" fill="#edc67d">I / 交庭聖都</text>
+<text x="80" y="325" font-family="Yu Gothic,Meiryo,sans-serif" font-size="25" fill="#e8edf0">共有境界が先 → 都市が連体する</text>
+<rect x="925" y="220" width="820" height="360" fill="#182a39" stroke="none" stroke-width="2"/>
+<text x="950" y="272" font-family="Yu Gothic,Meiryo,sans-serif" font-size="32" fill="#edc67d">II / 群街昇都</text>
+<text x="950" y="325" font-family="Yu Gothic,Meiryo,sans-serif" font-size="25" fill="#e8edf0">街路が先 → 生活地盤が分岐する</text>
+<polygon points="150,535 220,535 260,420 475,425 475,390 210,390" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="570,535 640,535 590,350 380,350 380,385 530,390" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="215,430 270,430 345,315 580,315 580,345 380,350" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="1030,535 1110,535 1190,360 1150,345 1080,430" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="1090,535 1170,535 1420,345 1420,310 1360,310 1220,420" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="1160,535 1250,535 1570,440 1570,400 1470,400" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polyline points="55,690 1745,690" fill="none" stroke="#608ca9" stroke-width="1"/>
+<text x="65" y="649" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#edc67d">形成単位</text>
+<text x="330" y="648" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">上下近隣が共有する公共岸</text>
+<text x="1040" y="648" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">地上街路から分岐する生活地盤</text>
+<polyline points="55,767 1745,767" fill="none" stroke="#608ca9" stroke-width="1"/>
+<text x="65" y="726" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#edc67d">都市性</text>
+<text x="330" y="725" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">自立した近隣＋共同利用の厚い結節</text>
+<text x="1040" y="725" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">住所と沿道が連続／移動負荷が課題</text>
+<polyline points="55,844 1745,844" fill="none" stroke="#608ca9" stroke-width="1"/>
+<text x="65" y="803" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#edc67d">主役性</text>
+<text x="330" y="802" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">大空地と高所主質量が同時に生まれる</text>
+<text x="1040" y="802" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">都市の広がりは強い／中央が薄まり得る</text>
+<polyline points="55,921 1745,921" fill="none" stroke="#608ca9" stroke-width="1"/>
+<text x="65" y="880" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#edc67d">失敗の条件</text>
+<text x="330" y="879" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">巨大な棒組み・橋・門にしか見えない</text>
+<text x="1040" y="879" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">巨大な棚・階段・団地にしか見えない</text>
+<polyline points="55,998 1745,998" fill="none" stroke="#608ca9" stroke-width="1"/>
+<text x="65" y="957" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#edc67d">未解決</text>
+<text x="330" y="956" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">共有岸の実断面／全方向の輪郭</text>
+<text x="1040" y="956" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#e8edf0">徒歩距離／側面の壁化／中央の唯一性</text>
+<text x="55" y="1053" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#a9bdca">精密3Dなし。比較は構想に対する自己批評であり、第三者審査・正式採択ではない。</text>
+</svg>

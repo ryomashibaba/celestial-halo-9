@@ -1,0 +1,80 @@
+{
+  "checked_date_jst": "2026-10-23",
+  "baseline_commit": "34aaf362426aaa3c85b8b745651dabcd6073d4a9",
+  "primary_web_sources": [
+    {
+      "id": "A1",
+      "url": "https://www.safdiearchitects.com/projects/habitat-67",
+      "publisher": "Safdie Architects"
+    },
+    {
+      "id": "A2",
+      "url": "https://www.oma.com/projects/the-interlace",
+      "publisher": "OMA"
+    },
+    {
+      "id": "A2-supplement",
+      "url": "https://buro-os.com/projects/the-interlace",
+      "publisher": "Büro Ole Scheeren"
+    },
+    {
+      "id": "A3",
+      "url": "https://big.dk/projects/8-house-2021",
+      "publisher": "BIG"
+    },
+    {
+      "id": "A3-supplement",
+      "url": "https://kk.sites.itera.dk/apps/kk_pub2/pdf/762_9gqrmgtcg3.pdf",
+      "publisher": "City of Copenhagen",
+      "printed_page": 38,
+      "pdf_page_zero_based": 19
+    },
+    {
+      "id": "A4",
+      "url": "https://whc.unesco.org/en/list/192/",
+      "publisher": "UNESCO World Heritage Centre"
+    }
+  ],
+  "local_readonly_sources": [
+    {
+      "path": "C:\\Users\\ryoma\\.codex\\.chatgpt-projects\\g-p-6ad92f5ba97881919d7bfdb3ebeda6af\\research\\G1-A-submission\\studies\\A2-G1\\REPORT.md",
+      "sha256": "dd826716513306db1b5801e8c2240efb0a760323162ec732bf8136e1e7e003e1",
+      "scope": "report/text reference only"
+    },
+    {
+      "path": "C:\\Users\\ryoma\\.codex\\.chatgpt-projects\\g-p-6ad92f5ba97881919d7bfdb3ebeda6af\\research\\G3-A-submission\\studies\\A2-G3\\REPORT.md",
+      "sha256": "edd8b3c00346c269066613f8972e5257c7f7788b7181dd486960dc1452205586",
+      "scope": "report/text reference only"
+    },
+    {
+      "path": "C:\\Users\\ryoma\\.codex\\.chatgpt-projects\\g-p-6ad92f5ba97881919d7bfdb3ebeda6af\\research\\G4-A-submission\\studies\\A2-G4\\REPORT.md",
+      "sha256": "53da247b5ce659c6b7ff2fb80945c82bc9fc441e14348bae528d6ab3a4569069",
+      "scope": "report/text reference only"
+    },
+    {
+      "path": "C:\\Users\\ryoma\\Projects\\CELESTIAL_HALO9\\repo\\docs\\M108_M607_MASTER_PLAN.md",
+      "sha256": "d76da6baf5b1d09fb87863e62e69e0cfca77bb6d880cf58d4b06e06f88e4d2bd",
+      "scope": "report/text reference only"
+    },
+    {
+      "path": "C:\\Users\\ryoma\\Projects\\CELESTIAL_HALO9\\repo\\docs\\M119_MONUMENTAL_CITY_REVIEW.md",
+      "sha256": "8a1b8a005094a5f82ee22a6ab0e31585acd4423a7cd0af3a27c2da46a7a487bd",
+      "scope": "report/text reference only"
+    },
+    {
+      "path": "C:\\Users\\ryoma\\Projects\\CELESTIAL_HALO9\\repo\\research\\m121\\upstream\\data\\M118_TWO_REGENERATION_DESIGN_LEDGER.json",
+      "sha256": "2c8890883f6f5e8da60e12b938c7c77f2524b3085ca1784925a7441a5c8cf0bc",
+      "scope": "report/text reference only"
+    }
+  ],
+  "missing_originals": [
+    "G2 independent review original",
+    "current integrated W0/H/SB/V/axes/SPINE registered masterplan"
+  ],
+  "user_clarification": [
+    "M117 legacy review world is not current formal-city layout",
+    "M207 and M204 have zero verified common anchors; no inferred coordinate fusion",
+    "Continue conceptual research without waiting for coordinates"
+  ],
+  "no_cross_track_concepts_used": true
+}

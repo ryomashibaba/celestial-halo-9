@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1580" viewBox="0 0 1800 1580">
+<rect width="1800" height="1580" fill="#101c29"/>
+<text x="55" y="58" font-family="Yu Gothic,Meiryo,sans-serif" font-size="23" fill="#edc67d">CELESTIAL HALO-9   /   A2-G5   /   CONCEPT I</text>
+<text x="55" y="126" font-family="Yu Gothic,Meiryo,sans-serif" font-size="48" fill="#e8edf0">交庭聖都 / SHARED CIVIC SHORES</text>
+<text x="58" y="169" font-family="Yu Gothic,Meiryo,sans-serif" font-size="25" fill="#a9bdca">共有する公共境界 → 二つの生活地盤 → 奥行きのある連体都市</text>
+<rect x="45" y="210" width="915" height="480" fill="#182a39" stroke="none" stroke-width="2"/>
+<rect x="985" y="210" width="770" height="480" fill="#182a39" stroke="none" stroke-width="2"/>
+<rect x="45" y="720" width="1100" height="710" fill="#182a39" stroke="none" stroke-width="2"/>
+<rect x="1170" y="720" width="585" height="710" fill="#182a39" stroke="none" stroke-width="2"/>
+<text x="70" y="254" font-family="Yu Gothic,Meiryo,sans-serif" font-size="26" fill="#edc67d">01 / 約10km都市の関係配置・平面構想</text>
+<text x="70" y="292" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#a9bdca">非地理登録：既存H・SBを移動しない</text>
+<polygon points="240,345 330,330 570,565 505,615" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="200,530 240,450 710,400 740,485" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="585,330 675,350 620,610 535,580" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<rect x="303" y="392" width="44" height="42" fill="#091520" stroke="#79c8c3" stroke-width="2"/>
+<text x="315" y="419" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#79c8c3">L</text>
+<rect x="443" y="467" width="44" height="42" fill="#091520" stroke="#79c8c3" stroke-width="2"/>
+<text x="455" y="494" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#79c8c3">M</text>
+<rect x="588" y="532" width="44" height="42" fill="#091520" stroke="#79c8c3" stroke-width="2"/>
+<text x="600" y="559" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#79c8c3">U</text>
+<polyline points="110,600 110,325 830,325 830,600" fill="none" stroke="#a9bdca" stroke-width="2" stroke-dasharray="9 9"/>
+<text x="80" y="656" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#a9bdca">W0・V1〜V3・三軸：既存方針を保持／経路は照合待ち</text>
+<text x="1010" y="254" font-family="Yu Gothic,Meiryo,sans-serif" font-size="26" fill="#edc67d">02 / 地区・施設と中央の接続原理</text>
+<rect x="1015" y="300" width="80" height="34" fill="#091520" stroke="#608ca9" stroke-width="2"/>
+<text x="1030" y="322" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">H1</text>
+<polyline points="1095,317 1130,317" fill="none" stroke="#79c8c3" stroke-width="2"/>
+<rect x="1015" y="346" width="80" height="34" fill="#091520" stroke="#608ca9" stroke-width="2"/>
+<text x="1030" y="368" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">H2</text>
+<polyline points="1095,363 1130,363" fill="none" stroke="#79c8c3" stroke-width="2"/>
+<rect x="1015" y="392" width="80" height="34" fill="#091520" stroke="#608ca9" stroke-width="2"/>
+<text x="1030" y="414" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">H3</text>
+<polyline points="1095,409 1130,409" fill="none" stroke="#79c8c3" stroke-width="2"/>
+<rect x="1015" y="438" width="80" height="34" fill="#091520" stroke="#608ca9" stroke-width="2"/>
+<text x="1030" y="460" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">H4</text>
+<polyline points="1095,455 1130,455" fill="none" stroke="#79c8c3" stroke-width="2"/>
+<rect x="1015" y="484" width="80" height="34" fill="#091520" stroke="#608ca9" stroke-width="2"/>
+<text x="1030" y="506" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">H5</text>
+<polyline points="1095,501 1130,501" fill="none" stroke="#79c8c3" stroke-width="2"/>
+<rect x="1015" y="530" width="80" height="34" fill="#091520" stroke="#608ca9" stroke-width="2"/>
+<text x="1030" y="552" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">H6</text>
+<polyline points="1095,547 1130,547" fill="none" stroke="#79c8c3" stroke-width="2"/>
+<polyline points="1130,317 1130,547" fill="none" stroke="#79c8c3" stroke-width="4"/>
+<text x="1015" y="608" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">Hの表示順は地理・高度を意味しない</text>
+<polyline points="1250,340 1440,440 1250,540 1250,340" fill="none" stroke="#edc67d" stroke-width="4"/>
+<polyline points="1130,340 1170,340 1250,340" fill="none" stroke="#79c8c3" stroke-width="2" stroke-dasharray="9 9"/>
+<polyline points="1130,430 1170,430 1440,440" fill="none" stroke="#79c8c3" stroke-width="2" stroke-dasharray="9 9"/>
+<polyline points="1130,520 1170,520 1250,540" fill="none" stroke="#79c8c3" stroke-width="2" stroke-dasharray="9 9"/>
+<rect x="1220" y="322" width="150" height="48" fill="#091520" stroke="#79c8c3" stroke-width="2"/>
+<text x="1230" y="351" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#e8edf0">L 到着庭</text>
+<rect x="1410" y="422" width="150" height="48" fill="#091520" stroke="#79c8c3" stroke-width="2"/>
+<text x="1420" y="451" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#e8edf0">M 共同庭</text>
+<rect x="1220" y="522" width="150" height="48" fill="#091520" stroke="#79c8c3" stroke-width="2"/>
+<text x="1230" y="551" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#e8edf0">U 高所庭</text>
+<rect x="1490" y="610" width="235" height="45" fill="#091520" stroke="#608ca9" stroke-width="2"/>
+<text x="1500" y="636" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">SB01〜16 / HERO4</text>
+<polyline points="1250,540 1600,610" fill="none" stroke="#a9bdca" stroke-width="2" stroke-dasharray="9 9"/>
+<text x="1160" y="307" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#79c8c3">地区横断系統＋中央利用系統</text>
+<text x="1190" y="664" font-family="Yu Gothic,Meiryo,sans-serif" font-size="19" fill="#a9bdca">SPINE接続：端点未確定</text>
+<text x="70" y="772" font-family="Yu Gothic,Meiryo,sans-serif" font-size="27" fill="#edc67d">S-I / 中央主要断面</text>
+<text x="70" y="810" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">構想高度km／横方向は模式図／遠景シルエット案ではない</text>
+<polyline points="125,1325 1090,1325" fill="none" stroke="#608ca9" stroke-width="1" stroke-dasharray="9 9"/>
+<text x="75" y="1329" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">0</text>
+<polyline points="125,1250 1090,1250" fill="none" stroke="#608ca9" stroke-width="1" stroke-dasharray="9 9"/>
+<text x="75" y="1254" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">1</text>
+<polyline points="125,1175 1090,1175" fill="none" stroke="#608ca9" stroke-width="1" stroke-dasharray="9 9"/>
+<text x="75" y="1179" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">2</text>
+<polyline points="125,1100 1090,1100" fill="none" stroke="#608ca9" stroke-width="1" stroke-dasharray="9 9"/>
+<text x="75" y="1104" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">3</text>
+<polyline points="125,1025 1090,1025" fill="none" stroke="#608ca9" stroke-width="1" stroke-dasharray="9 9"/>
+<text x="75" y="1029" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">4</text>
+<polyline points="125,950 1090,950" fill="none" stroke="#608ca9" stroke-width="1" stroke-dasharray="9 9"/>
+<text x="75" y="954" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">5</text>
+<polyline points="125,875 1090,875" fill="none" stroke="#608ca9" stroke-width="1" stroke-dasharray="9 9"/>
+<text x="75" y="879" font-family="Yu Gothic,Meiryo,sans-serif" font-size="20" fill="#a9bdca">6</text>
+<polygon points="140,1325 290,1325 365,1190 605,1175 590,1137 305,1145 215,1235" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="800,1325 1010,1325 935,1145 815,1025 530,1032 530,1077 740,1085" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polygon points="215,1227 350,1212 410,1055 590,927 890,927 890,890 530,890 305,1010" fill="#607e91" stroke="#608ca9" stroke-width="2"/>
+<polyline points="305,1145 590,1137" fill="none" stroke="#79c8c3" stroke-width="5"/>
+<polyline points="530,1032 815,1025" fill="none" stroke="#79c8c3" stroke-width="5"/>
+<polyline points="590,927 890,927" fill="none" stroke="#79c8c3" stroke-width="5"/>
+<text x="380" y="1168" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#edc67d">市場・公共庭</text>
+<text x="590" y="1055" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#edc67d">学習・文化</text>
+<text x="590" y="905" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#edc67d">高所居住都市</text>
+<polyline points="290,1325 290,1167 485,1167 485,1062 710,1062 710,927" fill="none" stroke="#edc67d" stroke-width="5"/>
+<text x="200" y="1087" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#e8edf0">二つの街が公共境界を共有</text>
+<text x="240" y="1232" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#e8edf0">大きな空をずれた高度で外へ開く</text>
+<text x="160" y="1384" font-family="Yu Gothic,Meiryo,sans-serif" font-size="24" fill="#e8edf0">中央包絡の構想：4.8 × 4.2 × 高さ5.8km</text>
+<text x="1190" y="786" font-family="Yu Gothic,Meiryo,sans-serif" font-size="26" fill="#edc67d">03 / 生活断面の成立単位</text>
+<text x="1190" y="832" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#a9bdca">下向き重力・水平な住戸床</text>
+<rect x="1200" y="875" width="485" height="48" fill="#607e91" stroke="none" stroke-width="2"/>
+<polyline points="1200,875 1685,875" fill="none" stroke="#79c8c3" stroke-width="5"/>
+<rect x="1240" y="842" width="65" height="33" fill="#608ca9" stroke="none" stroke-width="2"/>
+<rect x="1410" y="842" width="65" height="33" fill="#608ca9" stroke="none" stroke-width="2"/>
+<rect x="1570" y="842" width="65" height="33" fill="#608ca9" stroke="none" stroke-width="2"/>
+<text x="1200" y="957" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#e8edf0">住戸 → 前庭 → 8〜20m街路</text>
+<text x="1200" y="1002" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#e8edf0">学校・食・ケアを各高度へ</text>
+<rect x="1240" y="1040" width="430" height="105" fill="#607e91" stroke="none" stroke-width="2"/>
+<rect x="1270" y="1062" width="370" height="58" fill="#091520" stroke="none" stroke-width="2"/>
+<polyline points="1240,1040 1670,1040" fill="none" stroke="#79c8c3" stroke-width="5"/>
+<polyline points="1240,1145 1670,1145" fill="none" stroke="#edc67d" stroke-width="5"/>
+<text x="1200" y="1186" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">上の街の床＝公共施設の屋根</text>
+<text x="1200" y="1226" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#e8edf0">下の街の公共庭に側面が開く</text>
+<text x="1200" y="1276" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#a9bdca">共有岸：300〜700m級の複合体</text>
+<text x="1200" y="1358" font-family="Yu Gothic,Meiryo,sans-serif" font-size="18" fill="#a9bdca">数値は設計目標。実測・法規値ではない</text>
+<text x="55" y="1482" font-family="Yu Gothic,Meiryo,sans-serif" font-size="22" fill="#a9bdca">凡例：青灰＝居住・公共・設備を含む都市断面　水緑＝生活地盤／横断　金＝公共移動・共有部</text>
+<text x="55" y="1523" font-family="Yu Gothic,Meiryo,sans-serif" font-size="21" fill="#edc67d">座標未確認・接続端点未確定。W0や既存建築の形状再現図ではない。ART NOT_REVIEWED / 施工HOLD</text>
+</svg>

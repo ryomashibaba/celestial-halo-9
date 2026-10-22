@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "branch": "art/a",
+  "track": "A",
+  "study_id": "A2-G5",
+  "title": "交庭聖都／群街昇都 — 三次元居住文明都市と中央建築の統合構想",
+  "stage": "CONCEPT",
+  "art_review_status": "NOT_REVIEWED",
+  "updated_at": "2026-10-22T21:14:49.902099+00:00",
+  "dimensions_m": null,
+  "proposed_dimensions_m": {
+    "width": 4800,
+    "depth": 4200,
+    "height": 5800
+  },
+  "dimensions_scope": "Proposed candidate I only; candidate II dimensions in concepts.json. No measured 3D geometry.",
+  "assets": [
+    {
+      "path": "studies/A2-G5/build_diagrams.py",
+      "kind": "CODE",
+      "sha256": "364b478886395be1568ecff23489a8957d455f298382a076e5c3ff0261d1a468",
+      "size_bytes": 11089
+    },
+    {
+      "path": "studies/A2-G5/comparison.png",
+      "kind": "PNG",
+      "sha256": "abcc8ea1c686f8b3677d9f08c960e5d8ff98e82e9e23261bd02ef7cd8195e02a",
+      "size_bytes": 178593
+    },
+    {
+      "path": "studies/A2-G5/comparison.svg",
+      "kind": "SVG",
+      "sha256": "ba4fe7e61aba764b85c0623d58f9256e5b71ab39b675845f5fce2440b16f8d81",
+      "size_bytes": 4769
+    },
+    {
+      "path": "studies/A2-G5/concept-I.png",
+      "kind": "PNG",
+      "sha256": "06ac248d02da044980be1075ea657418a061104eeab74d6d02553fe62442c1c4",
+      "size_bytes": 260997
+    },
+    {
+      "path": "studies/A2-G5/concept-I.svg",
+      "kind": "SVG",
+      "sha256": "c21f38fd9afa0cd11da3d610a17dfe25cb90a691bf2b30b6a51c15249feafde5",
+      "size_bytes": 12159
+    },
+    {
+      "path": "studies/A2-G5/concept-II.png",
+      "kind": "PNG",
+      "sha256": "a6d7bb5bb9fc5a9f29216dbe990e758c214a187716e991688bac73c964e2c09d",
+      "size_bytes": 267654
+    },
+    {
+      "path": "studies/A2-G5/concept-II.svg",
+      "kind": "SVG",
+      "sha256": "3ebdc84910cbf2e8f1b080d92a777b31b7e6361c3e72b30fac1961e7cbe73b49",
+      "size_bytes": 12331
+    },
+    {
+      "path": "studies/A2-G5/concepts.json",
+      "kind": "JSON",
+      "sha256": "7ebc9c7fef64cfeafd5b9b4cf6fa64ae1198b699f410e3341d0baef9e785ee90",
+      "size_bytes": 16068
+    },
+    {
+      "path": "studies/A2-G5/INTERFACES.md",
+      "kind": "REPORT",
+      "sha256": "3c7c8c0559df02438f0f4d42746688e5e95a7de94c68ec0d48dbcaab54b6f765",
+      "size_bytes": 5903
+    },
+    {
+      "path": "studies/A2-G5/package.py",
+      "kind": "CODE",
+      "sha256": "1912ee2d21e470570c3fca02107d80b8d1c57adb4770bfadb74754429e5518f2",
+      "size_bytes": 9115
+    },
+    {
+      "path": "studies/A2-G5/PRECEDENTS.md",
+      "kind": "REPORT",
+      "sha256": "c3bc920e6c43894d868819e3804e7b9199052fda85c6da3fc6382bd89203fef2",
+      "size_bytes": 5186
+    },
+    {
+      "path": "studies/A2-G5/README.md",
+      "kind": "REPORT",
+      "sha256": "ed59cbf236b0fc4091e09286beee8ccadbb0d64214de3c0e95aff4f990ec1cd3",
+      "size_bytes": 1177
+    },
+    {
+      "path": "studies/A2-G5/REPORT.md",
+      "kind": "REPORT",
+      "sha256": "7adf62c14059749710b8d14f7fd40dbc53042386d47e0a9bfc4738aa35eb9e74",
+      "size_bytes": 18841
+    },
+    {
+      "path": "studies/A2-G5/sources.json",
+      "kind": "JSON",
+      "sha256": "f6beaea40c0ca8356264570c0e9b50cada34ee32210fc2cdf9f2844ef273df6e",
+      "size_bytes": 3181
+    },
+    {
+      "path": "studies/A2-G5/validation.json",
+      "kind": "JSON",
+      "sha256": "6ad949c5518b3545003eb256d3de964afcfa14921afe1ad1905f187862edd339",
+      "size_bytes": 2326
+    }
+  ],
+  "validation": {
+    "scope": "CONCEPT documentation, graph and diagram-file integrity only",
+    "model_created": false,
+    "dimensions_m": null,
+    "not_3d_measured": true,
+    "network_checks": {
+      "I": {
+        "conceptual_graph_connected": true,
+        "node_count": 26,
+        "edge_count": 38,
+        "actual_traversability_tested": false,
+        "protected_clearance_tested": false,
+        "physical_positions_registered": false
+      },
+      "II": {
+        "conceptual_graph_connected": true,
+        "node_count": 26,
+        "edge_count": 38,
+        "actual_traversability_tested": false,
+        "protected_clearance_tested": false,
+        "physical_positions_registered": false
+      }
+    },
+    "interfaces_H_count": 6,
+    "interfaces_SB_count": 16,
+    "precedents_count": 4,
+    "images": [
+      {
+        "path": "concept-I.png",
+        "pixels": [
+          1800,
+          1580
+        ],
+        "svg_dimensions_match": true,
+        "human_visual_review": "reviewed all three PNGs; diagram labels/sections legible; small connector/label corrections applied"
+      },
+      {
+        "path": "concept-II.png",
+        "pixels": [
+          1800,
+          1580
+        ],
+        "svg_dimensions_match": true,
+        "human_visual_review": "reviewed all three PNGs; diagram labels/sections legible; small connector/label corrections applied"
+      },
+      {
+        "path": "comparison.png",
+        "pixels": [
+          1800,
+          1110
+        ],
+        "svg_dimensions_match": true,
+        "human_visual_review": "reviewed all three PNGs; diagram labels/sections legible; small connector/label corrections applied"
+      }
+    ],
+    "visualization_limits": [
+      "Plans and sections are schematic; not projections from one 3D model",
+      "Plan and section do not certify geometric consistency",
+      "Comparison silhouettes are explanatory symbols, not validated hero art",
+      "No actual W0 or protected building reproduction"
+    ],
+    "review": {
+      "formal": "NOT_REVIEWED",
+      "internal": "I provisionally preferred; both unaccepted",
+      "independent_external_reviewer": false
+    },
+    "holds": {
+      "detailed_3d": true,
+      "work_transfer": "PRIOR_APPROVAL_REQUIRED",
+      "minecraft_construction": true,
+      "formal_M247C_modified": false
+    },
+    "coordinate_fusion_performed": false,
+    "source_files_modified": false
+  },
+  "notes": "I provisionally preferred, no formal art acceptance. G5 supervisor concept review before 3D. Coordinates/endpoints unconfirmed; no M207/M204 fusion.",
+  "provenance": {
+    "baseline_commit": "34aaf362426aaa3c85b8b745651dabcd6073d4a9",
+    "previous_study": "A2-G4"
+  },
+  "execution": {
+    "new_work_handoff": false,
+    "native_image_generation": false,
+    "3d_model_created": false,
+    "diagrams": "authored 2D vector and matching PNG; no precedent-image copying"
+  }
+}

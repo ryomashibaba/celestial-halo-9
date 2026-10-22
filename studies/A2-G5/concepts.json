@@ -1,0 +1,647 @@
+{
+  "study_id": "A2-G5",
+  "city_extent_proposed_m": 10000,
+  "city_extent_is_not_registered_boundary": true,
+  "source_coordinate_systems": {
+    "M207": "U/H/V per user",
+    "M204": "X/H/Z per user",
+    "confirmed_common_anchors": 0,
+    "transformation": null
+  },
+  "concepts": [
+    {
+      "id": "I",
+      "name": "交庭聖都",
+      "formation_principle": "Shared public boundaries generate joined urban grounds",
+      "stage": "CONCEPT",
+      "dimensions_m": null,
+      "proposed_dimensions_m": {
+        "width": 4800,
+        "depth": 4200,
+        "height": 5800
+      },
+      "geometry_3d": null,
+      "network": {
+        "nodes": [
+          "CELESTIAL_SPINE",
+          "H1",
+          "H2",
+          "H3",
+          "H4",
+          "H5",
+          "H6",
+          "L",
+          "M",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB10",
+          "SB11",
+          "SB12",
+          "SB13",
+          "SB14",
+          "SB15",
+          "SB16",
+          "U"
+        ],
+        "edges": [
+          [
+            "L",
+            "M"
+          ],
+          [
+            "M",
+            "U"
+          ],
+          [
+            "U",
+            "L"
+          ],
+          [
+            "H1",
+            "L"
+          ],
+          [
+            "H2",
+            "L"
+          ],
+          [
+            "H3",
+            "L"
+          ],
+          [
+            "H4",
+            "L"
+          ],
+          [
+            "H5",
+            "L"
+          ],
+          [
+            "H6",
+            "L"
+          ],
+          [
+            "H1",
+            "M"
+          ],
+          [
+            "H2",
+            "M"
+          ],
+          [
+            "H3",
+            "M"
+          ],
+          [
+            "H4",
+            "M"
+          ],
+          [
+            "H5",
+            "M"
+          ],
+          [
+            "H6",
+            "M"
+          ],
+          [
+            "H1",
+            "H2"
+          ],
+          [
+            "H2",
+            "H3"
+          ],
+          [
+            "H3",
+            "H4"
+          ],
+          [
+            "H4",
+            "H5"
+          ],
+          [
+            "H5",
+            "H6"
+          ],
+          [
+            "H6",
+            "H1"
+          ],
+          [
+            "SB01",
+            "L"
+          ],
+          [
+            "SB02",
+            "L"
+          ],
+          [
+            "SB03",
+            "L"
+          ],
+          [
+            "SB04",
+            "L"
+          ],
+          [
+            "SB05",
+            "L"
+          ],
+          [
+            "SB06",
+            "L"
+          ],
+          [
+            "SB07",
+            "L"
+          ],
+          [
+            "SB08",
+            "L"
+          ],
+          [
+            "SB09",
+            "L"
+          ],
+          [
+            "SB10",
+            "L"
+          ],
+          [
+            "SB11",
+            "L"
+          ],
+          [
+            "SB12",
+            "L"
+          ],
+          [
+            "SB13",
+            "L"
+          ],
+          [
+            "SB14",
+            "L"
+          ],
+          [
+            "SB15",
+            "L"
+          ],
+          [
+            "SB16",
+            "L"
+          ],
+          [
+            "CELESTIAL_SPINE",
+            "M"
+          ]
+        ],
+        "edge_meaning": "undirected conceptual access intention; not actual routes or placement",
+        "diagram": "compressed schematic only; not every graph edge drawn",
+        "SB_attachment": "all SB to arrival network is a functional grouping, not one shared physical entrance",
+        "H_bypass": "H1-H2-... order is an abstract connectivity example, NOT a proposed geographic ring or line order"
+      },
+      "anchors": {
+        "H1": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H2": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H3": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H4": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H5": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H6": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB01": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB02": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB03": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB04": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB05": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB06": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB07": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB08": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB09": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB10": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB11": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB12": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB13": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB14": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB15": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB16": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        }
+      },
+      "gravity": "downward; horizontal residential floors",
+      "artistic_risk": "bar-gate massing",
+      "provisional_preference": true,
+      "art_review_status": "NOT_REVIEWED"
+    },
+    {
+      "id": "II",
+      "name": "群街昇都",
+      "formation_principle": "Branching streets generate multiple inhabited grounds",
+      "stage": "CONCEPT",
+      "dimensions_m": null,
+      "proposed_dimensions_m": {
+        "width": 5600,
+        "depth": 4600,
+        "height": 4800
+      },
+      "geometry_3d": null,
+      "network": {
+        "nodes": [
+          "B",
+          "CELESTIAL_SPINE",
+          "H1",
+          "H2",
+          "H3",
+          "H4",
+          "H5",
+          "H6",
+          "R",
+          "SB01",
+          "SB02",
+          "SB03",
+          "SB04",
+          "SB05",
+          "SB06",
+          "SB07",
+          "SB08",
+          "SB09",
+          "SB10",
+          "SB11",
+          "SB12",
+          "SB13",
+          "SB14",
+          "SB15",
+          "SB16",
+          "T"
+        ],
+        "edges": [
+          [
+            "R",
+            "B"
+          ],
+          [
+            "B",
+            "T"
+          ],
+          [
+            "T",
+            "R"
+          ],
+          [
+            "H1",
+            "R"
+          ],
+          [
+            "H2",
+            "R"
+          ],
+          [
+            "H3",
+            "R"
+          ],
+          [
+            "H4",
+            "R"
+          ],
+          [
+            "H5",
+            "R"
+          ],
+          [
+            "H6",
+            "R"
+          ],
+          [
+            "H1",
+            "B"
+          ],
+          [
+            "H2",
+            "B"
+          ],
+          [
+            "H3",
+            "B"
+          ],
+          [
+            "H4",
+            "B"
+          ],
+          [
+            "H5",
+            "B"
+          ],
+          [
+            "H6",
+            "B"
+          ],
+          [
+            "H1",
+            "H2"
+          ],
+          [
+            "H2",
+            "H3"
+          ],
+          [
+            "H3",
+            "H4"
+          ],
+          [
+            "H4",
+            "H5"
+          ],
+          [
+            "H5",
+            "H6"
+          ],
+          [
+            "H6",
+            "H1"
+          ],
+          [
+            "SB01",
+            "R"
+          ],
+          [
+            "SB02",
+            "R"
+          ],
+          [
+            "SB03",
+            "R"
+          ],
+          [
+            "SB04",
+            "R"
+          ],
+          [
+            "SB05",
+            "R"
+          ],
+          [
+            "SB06",
+            "R"
+          ],
+          [
+            "SB07",
+            "R"
+          ],
+          [
+            "SB08",
+            "R"
+          ],
+          [
+            "SB09",
+            "R"
+          ],
+          [
+            "SB10",
+            "R"
+          ],
+          [
+            "SB11",
+            "R"
+          ],
+          [
+            "SB12",
+            "R"
+          ],
+          [
+            "SB13",
+            "R"
+          ],
+          [
+            "SB14",
+            "R"
+          ],
+          [
+            "SB15",
+            "R"
+          ],
+          [
+            "SB16",
+            "R"
+          ],
+          [
+            "CELESTIAL_SPINE",
+            "B"
+          ]
+        ],
+        "edge_meaning": "undirected conceptual access intention; not actual routes or placement",
+        "diagram": "compressed schematic only; not every graph edge drawn",
+        "SB_attachment": "all SB to arrival network is a functional grouping, not one shared physical entrance",
+        "H_bypass": "H1-H2-... order is an abstract connectivity example, NOT a proposed geographic ring or line order"
+      },
+      "anchors": {
+        "H1": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H2": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H3": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H4": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H5": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "H6": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB01": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB02": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB03": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB04": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB05": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB06": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB07": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB08": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB09": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB10": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB11": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB12": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB13": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB14": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB15": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        },
+        "SB16": {
+          "coordinates": "UNCONFIRMED",
+          "connection_endpoint": "UNDETERMINED",
+          "existing_role": "PRESERVED_NOT_REASSIGNED"
+        }
+      },
+      "gravity": "downward; horizontal residential floors",
+      "artistic_risk": "terraced housing wall",
+      "provisional_preference": false,
+      "art_review_status": "NOT_REVIEWED"
+    }
+  ]
+}

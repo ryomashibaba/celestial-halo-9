@@ -1,0 +1,75 @@
+{
+  "scope": "CONCEPT documentation, graph and diagram-file integrity only",
+  "model_created": false,
+  "dimensions_m": null,
+  "not_3d_measured": true,
+  "network_checks": {
+    "I": {
+      "conceptual_graph_connected": true,
+      "node_count": 26,
+      "edge_count": 38,
+      "actual_traversability_tested": false,
+      "protected_clearance_tested": false,
+      "physical_positions_registered": false
+    },
+    "II": {
+      "conceptual_graph_connected": true,
+      "node_count": 26,
+      "edge_count": 38,
+      "actual_traversability_tested": false,
+      "protected_clearance_tested": false,
+      "physical_positions_registered": false
+    }
+  },
+  "interfaces_H_count": 6,
+  "interfaces_SB_count": 16,
+  "precedents_count": 4,
+  "images": [
+    {
+      "path": "concept-I.png",
+      "pixels": [
+        1800,
+        1580
+      ],
+      "svg_dimensions_match": true,
+      "human_visual_review": "reviewed all three PNGs; diagram labels/sections legible; small connector/label corrections applied"
+    },
+    {
+      "path": "concept-II.png",
+      "pixels": [
+        1800,
+        1580
+      ],
+      "svg_dimensions_match": true,
+      "human_visual_review": "reviewed all three PNGs; diagram labels/sections legible; small connector/label corrections applied"
+    },
+    {
+      "path": "comparison.png",
+      "pixels": [
+        1800,
+        1110
+      ],
+      "svg_dimensions_match": true,
+      "human_visual_review": "reviewed all three PNGs; diagram labels/sections legible; small connector/label corrections applied"
+    }
+  ],
+  "visualization_limits": [
+    "Plans and sections are schematic; not projections from one 3D model",
+    "Plan and section do not certify geometric consistency",
+    "Comparison silhouettes are explanatory symbols, not validated hero art",
+    "No actual W0 or protected building reproduction"
+  ],
+  "review": {
+    "formal": "NOT_REVIEWED",
+    "internal": "I provisionally preferred; both unaccepted",
+    "independent_external_reviewer": false
+  },
+  "holds": {
+    "detailed_3d": true,
+    "work_transfer": "PRIOR_APPROVAL_REQUIRED",
+    "minecraft_construction": true,
+    "formal_M247C_modified": false
+  },
+  "coordinate_fusion_performed": false,
+  "source_files_modified": false
+}
