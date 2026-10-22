@@ -3,40 +3,51 @@
   "branch": "art/d",
   "track": "D",
   "latest": {
-    "study_id": "D2-G1",
-    "title": "HALO-9 G1-D Independent Architecture Concept Review",
+    "study_id": "D2-G3",
+    "title": "HALO-9 G3-D Star-Marrow Cluster City Spatial Configuration Study",
     "stage": "CONCEPT",
     "art_review_status": "HOLD",
-    "updated_at": "2026-10-22T12:43:03Z",
+    "updated_at": "2026-10-22T13:03:30Z",
     "dimensions_m": null,
-    "proposed_dimensions_m": null,
+    "proposed_dimensions_m": {
+      "width": 7100,
+      "depth": 5800,
+      "height": 5500
+    },
     "assets": [
       {
-        "path": "studies/D2-G1/comparison.md",
+        "path": "studies/D2-G3/comparison.md",
         "kind": "REPORT",
-        "sha256": "e148e102999d4257b4245d2893c3ce577528d7b5818e80892fa7bd2c02b3da7b",
-        "size_bytes": 12749
+        "sha256": "09963cd198eb15fa432cff09acb569f4979cb804a51f5907724d103cab673410",
+        "size_bytes": 16514
       }
     ],
     "validation": {
-      "load_results": "not_applicable: concept-stage written study; no model or image assets",
+      "load_results": "not_applicable: concept-stage text study; Blender connection unavailable, no model or image assets created",
       "shared_camera_comparisons": "not_performed",
       "checked": [
-        "re-evaluated all six prior concepts",
-        "compared Astral Canopy and Tectonic Sanctum principles",
-        "audited convergence toward walls, gates, curved roofs, stacked plates, and decorative arches",
-        "assessed Phase-Difference Archipelago in static and time-varying states",
-        "added an independent volumetric urban concept"
+        "compared two distinct volumetric cluster-city configurations",
+        "specified conceptual mass, void and cell-size ratios",
+        "mapped human, public-facility and kilometer-scale spaces",
+        "checked high-altitude occupied mass and district continuity as design conditions",
+        "reassessed Tectonic Sanctum as inhabited public ground",
+        "defined six-view composition conditions"
       ],
       "limits": [
-        "text-based art review only",
-        "no 3D silhouette or six-camera images",
+        "all dimensions and visual density ratios are conceptual, not model measurements",
+        "no live Blender scene was available",
+        "no 3D silhouette, section model, or six-camera image was verified",
         "no formal M247-C review or approval"
       ]
     },
-    "notes": "Parallel concept shortlist: Star-Marrow Cluster City and Tectonic Sanctum. Astral Canopy remains conditional; Phase-Difference Archipelago is stronger as time-based art than as a single static centerpiece. Formal design and construction remain HOLD."
+    "notes": "N1 dense core with a long urban canyon, N2 offset crossing canyons, and Tectonic Sanctum remain parallel comparison candidates. No single concept is adopted. Low-detail Blender comparison is deferred because the live Blender addon was unavailable. Formal design and Minecraft construction remain HOLD."
   },
-  "history": [],
-  "last_submission_at": "2026-10-22T12:43:03Z",
+  "history": [
+    {
+      "study_id": "D2-G1",
+      "manifest_path": "studies/D2-G1/manifest.json"
+    }
+  ],
+  "last_submission_at": "2026-10-22T13:03:30Z",
   "policy": "ART-FIRST. Formal design and Minecraft construction remain HOLD. A GitHub smoke test is not a study result."
 }
