@@ -1,0 +1,45 @@
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n); m.diffuse_color=(*c,1); m.use_nodes=True
+23:13:49 | INFO: Data are loaded, start creating Blender stuff
+23:13:49 | INFO: Blender create Mesh node CITY / transfer and service core 0
+23:13:49 | INFO: Blender create Mesh node CITY / transfer and service core 1
+23:13:49 | INFO: Blender create Mesh node CITY / transfer and service core 2
+23:13:49 | INFO: Blender create Mesh node FACILITY / Civic Forum roof garden
+23:13:49 | INFO: Blender create Mesh node FACILITY / Deep Library / communal garden
+23:13:49 | INFO: Blender create Mesh node FACILITY / Deep Library / inhabited perimeter
+23:13:49 | INFO: Blender create Mesh node FACILITY / Marine Research Institute
+23:13:49 | INFO: Blender create Mesh node FACILITY / Ocean Civic Forum
+23:13:49 | INFO: Blender create Mesh node GARDEN / crown field
+23:13:49 | INFO: Blender create Mesh node GARDEN / low civic field
+23:13:49 | INFO: Blender create Mesh node GARDEN / rear horizon field
+23:13:49 | INFO: Blender create Mesh node GARDEN / western grove
+23:13:49 | INFO: Blender create Mesh node GROUND CITY / lower civic crescent
+23:13:49 | INFO: Blender create Mesh node HIGH / rear university district / communal garden
+23:13:49 | INFO: Blender create Mesh node HIGH / rear university district / inhabited perimeter
+23:13:49 | INFO: Blender create Mesh node HIGH / residential garden district / communal garden
+23:13:49 | INFO: Blender create Mesh node HIGH / residential garden district / inhabited perimeter
+23:13:49 | INFO: Blender create Mesh node HIGH CITY / transverse rear haven
+23:13:49 | INFO: Blender create Mesh node LOW / makers and learning quarter / communal garden
+23:13:49 | INFO: Blender create Mesh node LOW / makers and learning quarter / inhabited perimeter
+23:13:49 | INFO: Blender create Mesh node LOW / residential civic quarter / communal garden
+23:13:49 | INFO: Blender create Mesh node LOW / residential civic quarter / inhabited perimeter
+23:13:49 | INFO: Blender create Mesh node MAIN / continuous inhabited continent
+23:13:49 | INFO: Blender create Mesh node MID / western inhabited district / communal garden
+23:13:49 | INFO: Blender create Mesh node MID / western inhabited district / inhabited perimeter
+23:13:49 | INFO: Blender create Mesh node MID CITY / inhabited western peninsula
+23:13:49 | INFO: Blender create Mesh node SEA / bent ocean through two urban bays
+23:13:49 | INFO: Blender create Mesh node SKY / civic observatory / communal garden
+23:13:49 | INFO: Blender create Mesh node SKY / civic observatory / inhabited perimeter
+23:13:49 | INFO: Blender create Mesh node SKY CITY / crown garden
+23:13:49 | INFO: Blender create Mesh node TRANSIT / lower urban promenade
+23:13:49 | INFO: Blender create Mesh node TRANSIT / mid urban promenade
+23:13:49 | INFO: Blender create Mesh node TRANSIT / rear urban promenade
+23:13:49 | INFO: glTF import finished in 0.07s
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:248: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Fixed studio');S.world=world;world.use_nodes=True
+00:07.875  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\OLD\01_FRONT.png'
+00:12.985  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\OLD\02_OBLIQUE.png'
+B2-G4 DONE OLD {'min': [-2583.673828125, -2139.447265625, 0.0], 'max': [2538.656494140625, 2027.07373046875, 4660.0], 'size': [5122.330322265625, 4166.52099609375, 4660.0]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

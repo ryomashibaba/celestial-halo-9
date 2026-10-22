@@ -1,0 +1,59 @@
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:26: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n); m.diffuse_color=(*c,1); m.use_nodes=True
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:252: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Fixed studio');S.world=world;world.use_nodes=True
+00:01.906  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_49752_31557da5f23fc25e5c17606d51673b2e.png.png"
+Info: Saved as "study.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+23:24:51 | INFO: Starting glTF 2.0 export
+23:24:51 | INFO: Extracting primitive: Coastal civic route 1050
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal civic route 1550
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal civic route 1850
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 0
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 1
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 2
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 3
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 4
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 5
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 6
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 7
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 8
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 9
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Coastal public institution 10
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: N2 / inhabited maritime plate
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: N2 / level inland sea
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Marine headland
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Marine headland.001
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Extracting primitive: Marine headland.002
+23:24:51 | INFO: Primitives created: 1
+23:24:51 | INFO: Finished glTF 2.0 export in 0.057993173599243164 s
+00:05.594  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N2\01_FRONT.png'
+00:09.578  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N2\02_OBLIQUE.png'
+00:12.765  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N2\03_SIDE.png'
+00:17.203  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N2\04_TOP.png'
+00:20.953  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N2\05_REAR.png'
+00:27.906  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N2\06_INTERIOR.png'
+
+B2-G4 DONE N2 {'min': [-2698.7509765625, -2090.39990234375, 0.0], 'max': [2698.7509765625, 2420.0, 4300.0], 'size': [5397.501953125, 4510.39990234375, 4300.0]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

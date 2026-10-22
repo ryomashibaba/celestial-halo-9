@@ -1,0 +1,26 @@
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n); m.diffuse_color=(*c,1); m.use_nodes=True
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:247: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Fixed studio');S.world=world;world.use_nodes=True
+00:03.391  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_58112_7b07d2a51480ee54d0ecd8e21bdb5270.png.png"
+Info: Saved as "study.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+23:11:39 | INFO: Starting glTF 2.0 export
+23:11:39 | INFO: Extracting primitive: N3 / one occupied climate watershed
+23:11:39 | INFO: Primitives created: 2
+23:11:39 | INFO: Extracting primitive: Valley civic forum
+23:11:39 | INFO: Primitives created: 1
+23:11:39 | INFO: Finished glTF 2.0 export in 0.09811544418334961 s
+00:09.422  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N3\01_FRONT.png'
+00:15.688  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N3\02_OBLIQUE.png'
+00:21.125  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N3\03_SIDE.png'
+00:28.985  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N3\04_TOP.png'
+00:37.579  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N3\05_REAR.png'
+00:51.547  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N3\06_INTERIOR.png'
+01:02.922  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N3\07_HIGH_CITY.png'
+
+B2-G4 DONE N3 {'min': [-2660.0, -2500.0, -35.0], 'max': [2660.0, 2321.428466796875, 4287.48583984375], 'size': [5320.0, 4821.428466796875, 4322.48583984375]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

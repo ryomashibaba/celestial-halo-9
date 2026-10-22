@@ -1,0 +1,44 @@
+{
+  "study_id": "B2-G4",
+  "branch": "art/b",
+  "events": [
+    {
+      "event": "inherit_rejection",
+      "source": "references/Study01_REPORT_ja.md",
+      "status": "REJECT",
+      "note": "Inherited user rejection; the historical report may contain earlier selection wording."
+    },
+    {
+      "event": "inherit_rejection",
+      "source": "references/Study02_REPORT_ja.md",
+      "status": "REJECT",
+      "note": "Local study identifier preserved; not inventing an earlier GitHub submission."
+    },
+    {
+      "event": "macro_art_review",
+      "concept": "N1",
+      "status": "REJECT",
+      "reason": "Concentric walls dominate, insufficient new architectural identity.",
+      "model": "N1/study.glb",
+      "detail_work": "STOP"
+    },
+    {
+      "event": "macro_art_review",
+      "concept": "N2",
+      "status": "REJECT",
+      "reason": "Podium and headland split; horizontal sea does not unify the building.",
+      "model": "N2/study.glb",
+      "detail_work": "STOP"
+    },
+    {
+      "event": "macro_art_review",
+      "concept": "N3",
+      "status": "REJECT",
+      "reason": "Two mountain-like masses dominate; oppressive interiors, no inhabited city demonstrated.",
+      "model": "N3/study.glb",
+      "detail_work": "STOP"
+    }
+  ],
+  "decision": "No selected concept. G4 redesign continues; G5 and construction HOLD.",
+  "formal_adoption": "USER_REVIEW_REQUIRED"
+}

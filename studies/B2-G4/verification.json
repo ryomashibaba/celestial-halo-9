@@ -1,0 +1,240 @@
+{
+  "study_id": "B2-G4",
+  "art_gate": "REJECT_INTERNAL_RESEARCH_REVIEW",
+  "user_art_adoption": false,
+  "next_stage": "HOLD_REDESIGN_REQUIRED",
+  "checks": {
+    "N1": {
+      "fixed_external_cameras": true,
+      "fixed_render_conditions": true,
+      "renders": 6,
+      "same_geometry_in_all_renders": true,
+      "bounds_m": {
+        "min": [
+          -2524.796142578125,
+          -2067.45263671875,
+          0.0
+        ],
+        "max": [
+          2288.099609375,
+          2525.408447265625,
+          4350.0
+        ],
+        "size": [
+          4812.895751953125,
+          4592.861083984375,
+          4350.0
+        ]
+      },
+      "status": "REJECT",
+      "glb_header_and_meshes": "PASS",
+      "primary_mesh_non_manifold_edges": 0
+    },
+    "N2": {
+      "fixed_external_cameras": true,
+      "fixed_render_conditions": true,
+      "renders": 6,
+      "same_geometry_in_all_renders": true,
+      "bounds_m": {
+        "min": [
+          -2698.7509765625,
+          -2090.39990234375,
+          0.0
+        ],
+        "max": [
+          2698.7509765625,
+          2420.0,
+          4300.0
+        ],
+        "size": [
+          5397.501953125,
+          4510.39990234375,
+          4300.0
+        ]
+      },
+      "status": "REJECT",
+      "glb_header_and_meshes": "PASS",
+      "primary_mesh_non_manifold_edges": 0
+    },
+    "N3": {
+      "fixed_external_cameras": true,
+      "fixed_render_conditions": true,
+      "renders": 7,
+      "same_geometry_in_all_renders": true,
+      "bounds_m": {
+        "min": [
+          -2660.0,
+          -2500.0,
+          -35.0
+        ],
+        "max": [
+          2660.0,
+          2321.428466796875,
+          4287.48583984375
+        ],
+        "size": [
+          5320.0,
+          4821.428466796875,
+          4322.48583984375
+        ]
+      },
+      "status": "REJECT",
+      "glb_header_and_meshes": "PASS",
+      "primary_mesh_non_manifold_edges": 0
+    },
+    "OLD": {
+      "fixed_external_cameras": true,
+      "fixed_render_conditions": true,
+      "renders": 2,
+      "same_geometry_in_all_renders": true,
+      "bounds_m": {
+        "min": [
+          -2583.673828125,
+          -2139.447265625,
+          0.0
+        ],
+        "max": [
+          2538.656494140625,
+          2027.07373046875,
+          4660.0
+        ],
+        "size": [
+          5122.330322265625,
+          4166.52099609375,
+          4660.0
+        ]
+      },
+      "status": "INHERITED_REJECT"
+    },
+    "OLD1": {
+      "fixed_external_cameras": true,
+      "fixed_render_conditions": true,
+      "renders": 2,
+      "same_geometry_in_all_renders": true,
+      "bounds_m": {
+        "min": [
+          -2450.0,
+          -1900.0,
+          20.0
+        ],
+        "max": [
+          2350.0,
+          1820.0,
+          4323.0
+        ],
+        "size": [
+          4800.0,
+          3720.0,
+          4303.0
+        ]
+      },
+      "status": "INHERITED_REJECT"
+    }
+  },
+  "limits": [
+    "Mesh checks do not establish architectural art, structural feasibility, environment control or inhabited city quality.",
+    "Interior cameras are diagnostics, not successful urban experiences.",
+    "N3 high camera is on an inclined sampled terrace, not proof of a flat habitable district.",
+    "No numerical occupancy, CFD, population or structural analysis was performed."
+  ],
+  "glb_reload": {
+    "N1": {
+      "actual_glb_import": "PASS",
+      "mesh_objects": 10,
+      "bounds_m": {
+        "min": [
+          -2524.796142578125,
+          -2067.45263671875,
+          0.0
+        ],
+        "max": [
+          2288.099609375,
+          2525.408447265625,
+          4350.0
+        ]
+      },
+      "bounds_max_difference_m": 0.0,
+      "note": "source bbox excludes curve bevels; world axes restored by glTF importer"
+    },
+    "N2": {
+      "actual_glb_import": "PASS",
+      "mesh_objects": 19,
+      "bounds_m": {
+        "min": [
+          -2698.7509765625,
+          -2090.39990234375,
+          0.0
+        ],
+        "max": [
+          2698.7509765625,
+          2420.0,
+          4300.0
+        ]
+      },
+      "bounds_max_difference_m": 0.0,
+      "note": "source bbox excludes curve bevels; world axes restored by glTF importer"
+    },
+    "N3": {
+      "actual_glb_import": "PASS",
+      "mesh_objects": 2,
+      "bounds_m": {
+        "min": [
+          -2660.0,
+          -2500.0,
+          -35.0
+        ],
+        "max": [
+          2660.0,
+          2321.428466796875,
+          4287.48583984375
+        ]
+      },
+      "bounds_max_difference_m": 0.0,
+      "note": "source bbox excludes curve bevels; world axes restored by glTF importer"
+    }
+  },
+  "pedestrian_floor_checks": {
+    "06_INTERIOR": {
+      "hit": true,
+      "floor_object": "N3 / one occupied climate watershed",
+      "floor_z_m": 1300.0,
+      "eye_height_m": 1.699951171875
+    },
+    "07_HIGH_CITY": {
+      "hit": true,
+      "floor_object": "N3 / one occupied climate watershed",
+      "floor_z_m": 3420.689208984375,
+      "eye_height_m": 1.699951171875
+    }
+  },
+  "reference_archive_checks": [
+    {
+      "original_workspace_path": "research/dankaikyu_20261022/dankaikyu_A.glb",
+      "archive_path": "references/dankaikyu_A.glb",
+      "sha256": "14a98941bb98e14d1616ada330c7510491cfc61008662ecc338c58c799a0222b",
+      "bytes": 188356,
+      "archive_equals_current_original": true
+    },
+    {
+      "original_workspace_path": "research/dankaikyu_20261022_study02/dankaikyu_II_A.glb",
+      "archive_path": "references/dankaikyu_II_A.glb",
+      "sha256": "177136e2d3fec3273f43626beb8cda33247a1e7dfce905a2b2a798a91d673be9",
+      "bytes": 385996,
+      "archive_equals_current_original": true
+    },
+    {
+      "original_workspace_path": "research/dankaikyu_20261022/REPORT_ja.md",
+      "archive_path": "references/Study01_REPORT_ja.md",
+      "sha256": "5f41a4bae8b51e7c3712780a381c76e56ebe35db1d8096d0bc001286f1d9e4fe",
+      "bytes": 17975,
+      "archive_equals_current_original": true
+    },
+    {
+      "original_workspace_path": "research/dankaikyu_20261022_study02/REPORT_ja.md",
+      "archive_path": "references/Study02_REPORT_ja.md",
+      "sha256": "923cae34e85dae35364acb79773474e1b01174cedb7929ac849500ad096cb647",
+      "bytes": 20784,
+      "archive_equals_current_original": true
+    }
+  ]
+}

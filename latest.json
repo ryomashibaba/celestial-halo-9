@@ -2,8 +2,497 @@
   "schema_version": "1.0",
   "branch": "art/b",
   "track": "B",
-  "latest": null,
-  "history": [],
-  "last_submission_at": null,
-  "policy": "ART-FIRST. Formal design and Minecraft construction remain HOLD. A GitHub smoke test is not a study result."
+  "latest": {
+    "study_id": "B2-G4",
+    "title": "巨大環境と都市の一体化 — 基本形3案・美術ゲートSTOP",
+    "stage": "BLOCKOUT_3D",
+    "art_review_status": "REJECT",
+    "review_authority": "Internal research self-review; formal art adoption belongs to user",
+    "updated_at": "2026-10-22T14:26:18.750334Z",
+    "dimensions_m": null,
+    "proposed_dimensions_m": null,
+    "measured_variants_m": {
+      "N1": {
+        "min": [
+          -2524.796142578125,
+          -2067.45263671875,
+          0.0
+        ],
+        "max": [
+          2288.099609375,
+          2525.408447265625,
+          4350.0
+        ],
+        "size": [
+          4812.895751953125,
+          4592.861083984375,
+          4350.0
+        ]
+      },
+      "N2": {
+        "min": [
+          -2698.7509765625,
+          -2090.39990234375,
+          0.0
+        ],
+        "max": [
+          2698.7509765625,
+          2420.0,
+          4300.0
+        ],
+        "size": [
+          5397.501953125,
+          4510.39990234375,
+          4300.0
+        ]
+      },
+      "N3": {
+        "min": [
+          -2660.0,
+          -2500.0,
+          -35.0
+        ],
+        "max": [
+          2660.0,
+          2321.428466796875,
+          4287.48583984375
+        ],
+        "size": [
+          5320.0,
+          4821.428466796875,
+          4322.48583984375
+        ]
+      }
+    },
+    "selected_concept": null,
+    "assets": [
+      {
+        "path": "studies/B2-G4/assemble_review.py",
+        "kind": "CODE",
+        "sha256": "fa5ee1ff052540d3fa79e688811946a9cdb03f6ac582ab17248ae7f676670727",
+        "size_bytes": 6517,
+        "git_blob_sha": "20a3cc6acf8a806969916f5fe4aad88b827cac03"
+      },
+      {
+        "path": "studies/B2-G4/audit_exports.py",
+        "kind": "CODE",
+        "sha256": "2558df090f7c80e71c3b04e652a86528863c5ea954ebe2121aa13dddc61efd54",
+        "size_bytes": 1369,
+        "git_blob_sha": "e84a10aa2e352912a9a28dec54415bd52ca07017"
+      },
+      {
+        "path": "studies/B2-G4/build_study.py",
+        "kind": "CODE",
+        "sha256": "06e6b856b096196c39d50166cab9e2d7b16f5651a970a1dd704df6ce043d74af",
+        "size_bytes": 20068,
+        "git_blob_sha": "e0d2731079b8548726dd80a7c71d1d8dbdff216d"
+      },
+      {
+        "path": "studies/B2-G4/concept_comparison.jpg",
+        "kind": "JPEG",
+        "sha256": "3b348cd33e577b157ae0ae747ae8a45c7d2f586b0dfd892aed810159385b88e6",
+        "size_bytes": 126427,
+        "git_blob_sha": "79faee0b3879644f052e855566b2cf9a04989820"
+      },
+      {
+        "path": "studies/B2-G4/external_comparison.jpg",
+        "kind": "JPEG",
+        "sha256": "ad34dc0a7a040a7ec8d266a9ff44fe40211651addb981b930387503928530845",
+        "size_bytes": 250973,
+        "git_blob_sha": "d680659a57493282629b602eea23cc5e84f61777"
+      },
+      {
+        "path": "studies/B2-G4/glb_audit.log",
+        "kind": "LOG",
+        "sha256": "bdebf472ad43cc5c86a1888ccc4f56247465bace4d9ebc64b5ca898e6aa81d84",
+        "size_bytes": 3401,
+        "git_blob_sha": "6aa89035928742e258bf269c2c36d508556830b4"
+      },
+      {
+        "path": "studies/B2-G4/glb_reload_audit.json",
+        "kind": "JSON",
+        "sha256": "56d4ab1b28063f004cfbc0053e08345afeeb94ce2866a46ae16ab04ce1e23779",
+        "size_bytes": 1224,
+        "git_blob_sha": "33eea6e6b8168e33dd712a2e39a588e5f891064e"
+      },
+      {
+        "path": "studies/B2-G4/history.json",
+        "kind": "JSON",
+        "sha256": "9d5333b808c4fcc18a63a293ac430ed5a25c81547036280437bf0816e8be2b31",
+        "size_bytes": 1443,
+        "git_blob_sha": "eeb4d66dd9e6a0cda1a7cc0aeddb92b4e5e2adeb"
+      },
+      {
+        "path": "studies/B2-G4/N1/01_FRONT.png",
+        "kind": "PNG",
+        "sha256": "356d4b5d7b7b08c3012507108858e267f15075d065bbb339f08efcb3ba27d8b4",
+        "size_bytes": 666273,
+        "git_blob_sha": "c60b1f664c9bd85785b1ca657780f09c09db5f8d"
+      },
+      {
+        "path": "studies/B2-G4/N1/02_OBLIQUE.png",
+        "kind": "PNG",
+        "sha256": "2d7cf39df4e92ca1cf6a4cccae7b67db61920befafdee33db76a6e841bd1776c",
+        "size_bytes": 700636,
+        "git_blob_sha": "34bf0771fa047700fbc925a7270fc29861d894ef"
+      },
+      {
+        "path": "studies/B2-G4/N1/03_SIDE.png",
+        "kind": "PNG",
+        "sha256": "bc52993d619d124f7ca555870f69966e6fd75e6d675460848c494429a472bec7",
+        "size_bytes": 656089,
+        "git_blob_sha": "14637b8307ef1e74af2bc17fc07f4df3b27770fc"
+      },
+      {
+        "path": "studies/B2-G4/N1/04_TOP.png",
+        "kind": "PNG",
+        "sha256": "259927de7a637c2af27ca37a858cf4abab3108f52c623c98cd463e4eabaa2e06",
+        "size_bytes": 735714,
+        "git_blob_sha": "f5db88638b499d37f08cc01f60c7efe4c4118b6c"
+      },
+      {
+        "path": "studies/B2-G4/N1/05_REAR.png",
+        "kind": "PNG",
+        "sha256": "6308c3377729dc7719ac1bdbbfe98cf61e20cfd5318327408ee51c299fa46428",
+        "size_bytes": 695086,
+        "git_blob_sha": "0ea607576ebd2ba3b08046469140557e8634c26d"
+      },
+      {
+        "path": "studies/B2-G4/N1/06_INTERIOR.png",
+        "kind": "PNG",
+        "sha256": "f687d50fd82ee6c1fd8480be728e086cfed2e7a8f9505271b836acd7215e6506",
+        "size_bytes": 643620,
+        "git_blob_sha": "a0dae569923ca3bb4cec08ccb47067ab48a0a459"
+      },
+      {
+        "path": "studies/B2-G4/N1/study.blend",
+        "kind": "BLEND",
+        "sha256": "e0eeef7ffc132592cdddde601826fdc7c350706cf168ff466d2e64bc026ef4b7",
+        "size_bytes": 173538,
+        "git_blob_sha": "78149ab6c61ba171a8d42276c80d16eb0f0d5671"
+      },
+      {
+        "path": "studies/B2-G4/N1/study.glb",
+        "kind": "GLB",
+        "sha256": "fdf4e32fc5b151b539321f5cb80b69a01bc6c3514185420daf9b0c9d224429ef",
+        "size_bytes": 330220,
+        "git_blob_sha": "86db9edb800e010893044c4dd5281fef35bf7ae2"
+      },
+      {
+        "path": "studies/B2-G4/N1_build.log",
+        "kind": "LOG",
+        "sha256": "db74c61fe9b429f48624c9c7ec3fc8d05a920a1f8be0d8de74c77531552be2a2",
+        "size_bytes": 3362,
+        "git_blob_sha": "1a65caea880e1206e78ab754139f188483a7810b"
+      },
+      {
+        "path": "studies/B2-G4/N2/01_FRONT.png",
+        "kind": "PNG",
+        "sha256": "b121878e7bbe73c168d1a4f1cc31ee0971bae030e5009b6738929878415067a6",
+        "size_bytes": 654213,
+        "git_blob_sha": "b5632d4cbb410d354c979956e25db88af2225b0d"
+      },
+      {
+        "path": "studies/B2-G4/N2/02_OBLIQUE.png",
+        "kind": "PNG",
+        "sha256": "f97d1a8fb0a122557ffabe5eba1e7d80347e885213e6e14923178aead77a2d52",
+        "size_bytes": 689589,
+        "git_blob_sha": "7b31e9d81a41afc0c21a9eae1c2c2e12cf1ecdf7"
+      },
+      {
+        "path": "studies/B2-G4/N2/03_SIDE.png",
+        "kind": "PNG",
+        "sha256": "30e47d99efb18406eba2b63c97c1995ac5c679759c0dd330f84329207aa2f986",
+        "size_bytes": 664341,
+        "git_blob_sha": "3ada2c5ac0940f7700a421099339edde057a7326"
+      },
+      {
+        "path": "studies/B2-G4/N2/04_TOP.png",
+        "kind": "PNG",
+        "sha256": "adcfaab0791ab54afb2032e02eee937973fff9d937a0078a87de1557aa083d1e",
+        "size_bytes": 737019,
+        "git_blob_sha": "bfd33d34675e93d39f5d0d598e0c25ae0f2ffef0"
+      },
+      {
+        "path": "studies/B2-G4/N2/05_REAR.png",
+        "kind": "PNG",
+        "sha256": "9d6f3487acad69b5033d6734a4617777aa4e334fac81991127531bb5f922af92",
+        "size_bytes": 711806,
+        "git_blob_sha": "3411938058537d176474dde607b2ba5928aa599a"
+      },
+      {
+        "path": "studies/B2-G4/N2/06_INTERIOR.png",
+        "kind": "PNG",
+        "sha256": "e61586563febb43a5c603f5ad0822a9f3ebc6fe37a06336bc4a4e0c106ad81a6",
+        "size_bytes": 621945,
+        "git_blob_sha": "9ffb4112371807545b10e99f541bbb3a72e5449a"
+      },
+      {
+        "path": "studies/B2-G4/N2/study.blend",
+        "kind": "BLEND",
+        "sha256": "a3c56a2d3999551fdfa92acdbfe6dbc3f4841c7d5004cf88e6d6146d7adec6b9",
+        "size_bytes": 153659,
+        "git_blob_sha": "b8fefa2ff61f0882669b92e60027eecdac98e476"
+      },
+      {
+        "path": "studies/B2-G4/N2/study.glb",
+        "kind": "GLB",
+        "sha256": "ddc40a9a7f808f70ab27976493ceb696d8c7f98930127b9781ee1d60e9977d9e",
+        "size_bytes": 257164,
+        "git_blob_sha": "1c525240048725a7cae273586ee1ab9afa1e0312"
+      },
+      {
+        "path": "studies/B2-G4/N2_build.log",
+        "kind": "LOG",
+        "sha256": "ad0ce84312724deb94d31a7161e87e4efac912f7a19ffaa98b5734fd3d08a269",
+        "size_bytes": 4322,
+        "git_blob_sha": "aeb605a3b844a2df8fcb0a27f3d8af56627b7b20"
+      },
+      {
+        "path": "studies/B2-G4/N3/01_FRONT.png",
+        "kind": "PNG",
+        "sha256": "9eab39b8288b122fafd64b202e84d23f84bfc47e450a31e279bd5c0095244d82",
+        "size_bytes": 689599,
+        "git_blob_sha": "d1c85bd0959e0c7ddb8bae6a62f9f82caa84cff7"
+      },
+      {
+        "path": "studies/B2-G4/N3/02_OBLIQUE.png",
+        "kind": "PNG",
+        "sha256": "81305609f365877508b0306317d252fce2819500a2648049ea8bd70d4f201805",
+        "size_bytes": 729640,
+        "git_blob_sha": "51df41b4c4b99feb878231a84b734f41044cfbf3"
+      },
+      {
+        "path": "studies/B2-G4/N3/03_SIDE.png",
+        "kind": "PNG",
+        "sha256": "d719762c65ad67687b6e8ed0c9b479f933caea8336a2960c6d787dfdf7e1b60f",
+        "size_bytes": 682977,
+        "git_blob_sha": "c9aa3eebf8ca3fc822d48cb0a4e02451645eacb2"
+      },
+      {
+        "path": "studies/B2-G4/N3/04_TOP.png",
+        "kind": "PNG",
+        "sha256": "6a12b47c91e518c92d24efb00c828aa02ad910924fcc096b90c504fc6be53160",
+        "size_bytes": 773840,
+        "git_blob_sha": "a9deada061060b213677faab50c60183caa0f719"
+      },
+      {
+        "path": "studies/B2-G4/N3/05_REAR.png",
+        "kind": "PNG",
+        "sha256": "653c8c1fa1800fa762ef972f2bd25f674f5225b4f18c2d578b5aec64254291e5",
+        "size_bytes": 720149,
+        "git_blob_sha": "86bf432d73b92a1dfb20a21cdf38d587a15052fd"
+      },
+      {
+        "path": "studies/B2-G4/N3/06_INTERIOR.png",
+        "kind": "PNG",
+        "sha256": "49c077f8a9c58f79be1ea2cca77b4c4ef89ff19de3789f57b9a4e742669e8e20",
+        "size_bytes": 658050,
+        "git_blob_sha": "118db323252882ca5a36c4f16ddfb82c89f46260"
+      },
+      {
+        "path": "studies/B2-G4/N3/07_HIGH_CITY.png",
+        "kind": "PNG",
+        "sha256": "be017ab34a0884187de1995f1e86e1e7e4655118c427b8357e3b1d5f735c471b",
+        "size_bytes": 636528,
+        "git_blob_sha": "fb43f68c815c37b8bf6e2b90eb558f4609ae3b09"
+      },
+      {
+        "path": "studies/B2-G4/N3/study.blend",
+        "kind": "BLEND",
+        "sha256": "784a2450e189d948558a4158ac78c6edfdaddb6af646181fe6682a7f8c2b6f76",
+        "size_bytes": 600115,
+        "git_blob_sha": "e1c2584435cd418171eb7564fd9e0a38629c01a4"
+      },
+      {
+        "path": "studies/B2-G4/N3/study.glb",
+        "kind": "GLB",
+        "sha256": "65d88603c64ccaee33df8bc94be35f82eb9349108092ed1029a091f4659b8c41",
+        "size_bytes": 1254228,
+        "git_blob_sha": "893928a20465a9c9aff81ad2ab8e2da03a83e45c"
+      },
+      {
+        "path": "studies/B2-G4/N3_build.log",
+        "kind": "LOG",
+        "sha256": "d7f7e852f0fb786f936528afbb2d3abc76e43453430fb4de03c5e38fc44ccda3",
+        "size_bytes": 2662,
+        "git_blob_sha": "06abefe6efad572352e5e5ba003cc70997a02d24"
+      },
+      {
+        "path": "studies/B2-G4/OLD/01_FRONT.png",
+        "kind": "PNG",
+        "sha256": "dc1b300692e8f668f56b91ef1f1fe3cfc40ff659ce18ba49c709dec1d3fb58df",
+        "size_bytes": 680856,
+        "git_blob_sha": "ffad0b9c3fd8d1b113c2a33e1d235baf9ba081d6"
+      },
+      {
+        "path": "studies/B2-G4/OLD/02_OBLIQUE.png",
+        "kind": "PNG",
+        "sha256": "f5d51ef7951ec28ac998143570335202be211319e6faf8e1557cfc01593cfe5f",
+        "size_bytes": 736749,
+        "git_blob_sha": "fc8bd932a0a8dd672785444c0833abddca106f1c"
+      },
+      {
+        "path": "studies/B2-G4/OLD1/01_FRONT.png",
+        "kind": "PNG",
+        "sha256": "7776a97681600c86c3bfee80bc6f968f87a34581b216752d514572ab32961ab5",
+        "size_bytes": 710524,
+        "git_blob_sha": "1a47b9b2cc4fec90a1b25e19f5a4c24b6bbb4b1f"
+      },
+      {
+        "path": "studies/B2-G4/OLD1/02_OBLIQUE.png",
+        "kind": "PNG",
+        "sha256": "0d7bf9accc22726911a9bdf1653252f14d09e1033c44eb4a943d96b625aa7561",
+        "size_bytes": 747169,
+        "git_blob_sha": "437dafe407bc1dc43154f118556363b9f0eca52c"
+      },
+      {
+        "path": "studies/B2-G4/OLD1_build.log",
+        "kind": "LOG",
+        "sha256": "c050cc2ac9545744bdd9f1f4dd845a6db60e8460bea362e02941a3927f1b21c0",
+        "size_bytes": 5965,
+        "git_blob_sha": "8c83a504960c00b2da150b4f781f0458052bd073"
+      },
+      {
+        "path": "studies/B2-G4/OLD_build.log",
+        "kind": "LOG",
+        "sha256": "a0e8c77efab00c2d9fc1b527a9e979a6b2b5f5c0beeb2027eebbeaac8f75ee3d",
+        "size_bytes": 3935,
+        "git_blob_sha": "ed2df5ee0bfbdc17e62a366daa31c15e20bc7d01"
+      },
+      {
+        "path": "studies/B2-G4/prepare_index.py",
+        "kind": "CODE",
+        "sha256": "3adbd4ed6af76f1a70e8fd855478d4329f2a56bed74b490f815ce6feabe4fce7",
+        "size_bytes": 4115,
+        "git_blob_sha": "27a3b4c948e8f9b1f928e75f381513e1748352bf"
+      },
+      {
+        "path": "studies/B2-G4/references/dankaikyu_A.glb",
+        "kind": "GLB",
+        "sha256": "14a98941bb98e14d1616ada330c7510491cfc61008662ecc338c58c799a0222b",
+        "size_bytes": 188356,
+        "git_blob_sha": "54b74e54965bddccf2c4a0d85af661984b7416c5"
+      },
+      {
+        "path": "studies/B2-G4/references/dankaikyu_II_A.glb",
+        "kind": "GLB",
+        "sha256": "177136e2d3fec3273f43626beb8cda33247a1e7dfce905a2b2a798a91d673be9",
+        "size_bytes": 385996,
+        "git_blob_sha": "cb28eaabf8b87152c26f954f31792f993284d2f8"
+      },
+      {
+        "path": "studies/B2-G4/references/Study01_REPORT_ja.md",
+        "kind": "REPORT",
+        "sha256": "5f41a4bae8b51e7c3712780a381c76e56ebe35db1d8096d0bc001286f1d9e4fe",
+        "size_bytes": 17975,
+        "git_blob_sha": "14fe16070b790dee6b55d7e61fe3d39cf093e64b"
+      },
+      {
+        "path": "studies/B2-G4/references/Study02_REPORT_ja.md",
+        "kind": "REPORT",
+        "sha256": "923cae34e85dae35364acb79773474e1b01174cedb7929ac849500ad096cb647",
+        "size_bytes": 20784,
+        "git_blob_sha": "4bb98b14ccbe99a72b5ca593c8b9ca451581185d"
+      },
+      {
+        "path": "studies/B2-G4/rejected_lineage.jpg",
+        "kind": "JPEG",
+        "sha256": "57e00ec8583a87132d34f1fb0e8f27fc1e8b068f4eb90c4c03d49e8a1de5db66",
+        "size_bytes": 137839,
+        "git_blob_sha": "ff9846db39f140e36ee39315a5ddee7efc0867c3"
+      },
+      {
+        "path": "studies/B2-G4/REPORT_ja.md",
+        "kind": "REPORT",
+        "sha256": "7254d2bca5d935b3a194544ab68d879881204b4a417e90a70bf54119e40e7723",
+        "size_bytes": 12019,
+        "git_blob_sha": "b991fa682dbc20c830953c01e20d84bd8ecd436f"
+      },
+      {
+        "path": "studies/B2-G4/reproduce.ps1",
+        "kind": "CODE",
+        "sha256": "66fe6b516713228e82881ab1e9fea34ce6d43650ef55640aabd97f8263bebb37",
+        "size_bytes": 893,
+        "git_blob_sha": "3083e34799df1ba866e9db464a26fd2c08777ef9"
+      },
+      {
+        "path": "studies/B2-G4/review.html",
+        "kind": "REVIEW",
+        "sha256": "f74a601447f0df2d560f3c7414a8a686beee275de1995519d294096b174aaeb9",
+        "size_bytes": 4914,
+        "git_blob_sha": "71c680c88a6fcf4e2de91633fca349067e569f79"
+      },
+      {
+        "path": "studies/B2-G4/verification.json",
+        "kind": "JSON",
+        "sha256": "609554b11e95317e1e68693a306b6b22cf6407c49f4e4ec549588dbb3853674a",
+        "size_bytes": 6507,
+        "git_blob_sha": "d451c8b452ea658542fb30ab747c440e810fbaa1"
+      },
+      {
+        "path": "studies/B2-G4/N1/manifest.json",
+        "kind": "JSON",
+        "sha256": "3f55cff6a6f7394847afb5dbe2ba09a6b53808cd49e4f50a0f82765dd4746c65",
+        "size_bytes": 6949,
+        "git_blob_sha": "36ea1e8995f1b01c00c9c94d7d87a6cfa923c5c4"
+      },
+      {
+        "path": "studies/B2-G4/N2/manifest.json",
+        "kind": "JSON",
+        "sha256": "c3c4933329a523fea47e08add57203d129e98089cbfd8484db42a328f07a00c5",
+        "size_bytes": 7137,
+        "git_blob_sha": "e4158c11600b9ef83c74f63cc21e492e905e5e2c"
+      },
+      {
+        "path": "studies/B2-G4/N3/manifest.json",
+        "kind": "JSON",
+        "sha256": "8757acdcc0b350985a832e793e0916895c783d7617eaf52fbf9e1f42c7d6f53b",
+        "size_bytes": 7502,
+        "git_blob_sha": "bb9857e61382c7ce0e2b552460d0dfc90b73a284"
+      },
+      {
+        "path": "studies/B2-G4/OLD/manifest.json",
+        "kind": "JSON",
+        "sha256": "a272b7e27673abb97dc335db3fd4dbc9dbde01839c11292f96db8ded6e34e75f",
+        "size_bytes": 6139,
+        "git_blob_sha": "15543f288d77e5a920faa0a74d303e1f78db7c71"
+      },
+      {
+        "path": "studies/B2-G4/OLD1/manifest.json",
+        "kind": "JSON",
+        "sha256": "de14de145cd4c460dda970e119499ed8e835fb0c42b41a275ea1f0f3c76e53ae",
+        "size_bytes": 6083,
+        "git_blob_sha": "5f05664435e49617542ecc4797b39c206b332792"
+      },
+      {
+        "path": "studies/B2-G4/manifest.json",
+        "kind": "JSON",
+        "sha256": "345856f6fb814fa4d6efcb82f16c078085ae98b9a6ff2e673f62d437f5583cd0",
+        "size_bytes": 17077,
+        "git_blob_sha": "a4f095ffe2cf591a6e77706be5aab067fb4644b2"
+      }
+    ],
+    "validation": {
+      "report": "studies/B2-G4/verification.json",
+      "actual_glb_reload": "PASS",
+      "shared_external_cameras": "PASS",
+      "art_gate": "FAIL",
+      "structural_feasibility": "NOT_TESTED",
+      "environment_simulation": "NOT_PERFORMED",
+      "inhabited_city_design": "NOT_COMPLETED"
+    },
+    "notes": "Three real GLBs and BLEND files. N1/N2/N3 all STOP before detail. 19 new PNGs + 4 baseline PNGs. No generated images. M247-C and Minecraft remain HOLD."
+  },
+  "history": [
+    {
+      "study_id": "B2-G4",
+      "manifest": "studies/B2-G4/manifest.json",
+      "event": "initial_submission",
+      "art_review_status": "REJECT",
+      "updated_at": "2026-10-22T14:26:18.750334Z"
+    }
+  ],
+  "last_submission_at": "2026-10-22T14:26:18.750334Z",
+  "policy": "ART-FIRST. Internal REJECT is research history, not formal adoption. M247-C and Minecraft construction remain HOLD."
 }

@@ -1,0 +1,77 @@
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n); m.diffuse_color=(*c,1); m.use_nodes=True
+23:14:16 | INFO: Data are loaded, start creating Blender stuff
+23:14:16 | INFO: Blender create Mesh node CITY / mixed living and work block 0.0
+23:14:16 | INFO: Blender create Mesh node CITY / mixed living and work block 0.1
+23:14:16 | INFO: Blender create Mesh node CITY / mixed living and work block 1.0
+23:14:16 | INFO: Blender create Mesh node CITY / mixed living and work block 1.1
+23:14:16 | INFO: Blender create Mesh node CITY / mixed living and work block 2.0
+23:14:16 | INFO: Blender create Mesh node CITY / mixed living and work block 2.1
+23:14:16 | INFO: Blender create Mesh node CITY / mixed living and work block 3.0
+23:14:16 | INFO: Blender create Mesh node CITY / mixed living and work block 3.1
+23:14:16 | INFO: Blender create Mesh node CITY / shared roof court 0.0
+23:14:16 | INFO: Blender create Mesh node CITY / shared roof court 0.1
+23:14:16 | INFO: Blender create Mesh node CITY / shared roof court 1.0
+23:14:16 | INFO: Blender create Mesh node CITY / shared roof court 1.1
+23:14:16 | INFO: Blender create Mesh node CITY / shared roof court 2.0
+23:14:16 | INFO: Blender create Mesh node CITY / shared roof court 2.1
+23:14:16 | INFO: Blender create Mesh node CITY / shared roof court 3.0
+23:14:16 | INFO: Blender create Mesh node CITY / shared roof court 3.1
+23:14:16 | INFO: Blender create Mesh node FACILITY / Civic Forum public roof
+23:14:16 | INFO: Blender create Mesh node FACILITY / Deep Library 700m
+23:14:16 | INFO: Blender create Mesh node FACILITY / Institute atrium
+23:14:16 | INFO: Blender create Mesh node FACILITY / Library structural sill
+23:14:16 | INFO: Blender create Mesh node FACILITY / Ocean Civic Forum 560m
+23:14:16 | INFO: Blender create Mesh node FACILITY / Research Institute 340m
+23:14:16 | INFO: Blender create Mesh node FAULT LIP / lower
+23:14:16 | INFO: Blender create Mesh node FAULT LIP / upper
+23:14:16 | INFO: Blender create Mesh node GARDEN / planted public field 00
+23:14:16 | INFO: Blender create Mesh node GARDEN / planted public field 01
+23:14:16 | INFO: Blender create Mesh node GARDEN / planted public field 02
+23:14:16 | INFO: Blender create Mesh node GARDEN / planted public field 03
+23:14:16 | INFO: Blender create Mesh node LOWER / inhabited continent and cape
+23:14:16 | INFO: Blender create Mesh node PUBLIC / horizontal city terrace 00
+23:14:16 | INFO: Blender create Mesh node PUBLIC / horizontal city terrace 01
+23:14:16 | INFO: Blender create Mesh node PUBLIC / horizontal city terrace 02
+23:14:16 | INFO: Blender create Mesh node PUBLIC / horizontal city terrace 03
+23:14:16 | INFO: Blender create Mesh node PUBLIC / terrace undercroft 00
+23:14:16 | INFO: Blender create Mesh node PUBLIC / terrace undercroft 01
+23:14:16 | INFO: Blender create Mesh node PUBLIC / terrace undercroft 02
+23:14:16 | INFO: Blender create Mesh node PUBLIC / terrace undercroft 03
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 0.0
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 0.1
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 0.2
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 1.0
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 1.1
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 1.2
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 2.0
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 2.1
+23:14:16 | INFO: Blender create Mesh node REAR / inhabited gallery 2.2
+23:14:16 | INFO: Blender create Mesh node REAR / tapered inhabited buttress 00
+23:14:16 | INFO: Blender create Mesh node REAR / tapered inhabited buttress 01
+23:14:16 | INFO: Blender create Mesh node REAR / tapered inhabited buttress 02
+23:14:16 | INFO: Blender create Mesh node SEA / inclined ocean volume
+23:14:16 | INFO: Blender create Mesh node TRANSIT / continuous inclined trunk
+23:14:16 | INFO: Blender create Mesh node TRANSIT / plateau 00
+23:14:16 | INFO: Blender create Mesh node TRANSIT / plateau 01
+23:14:16 | INFO: Blender create Mesh node TRANSIT / plateau 02
+23:14:16 | INFO: Blender create Mesh node TRANSIT / plateau 03
+23:14:16 | INFO: Blender create Mesh node UPPER / cantilevered urban continent
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / academy 0
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / academy 1
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / academy 2
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / cliff precinct 0
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / cliff precinct 1
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / cliff precinct 2
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / precinct garden 0
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / precinct garden 1
+23:14:16 | INFO: Blender create Mesh node UPPER CITY / precinct garden 2
+23:14:16 | INFO: glTF import finished in 0.05s
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:248: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Fixed studio');S.world=world;world.use_nodes=True
+00:07.438  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\OLD1\01_FRONT.png'
+00:12.641  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\OLD1\02_OBLIQUE.png'
+B2-G4 DONE OLD1 {'min': [-2450.0, -1900.0, 20.0], 'max': [2350.0, 1820.0, 4323.0], 'size': [4800.0, 3720.0, 4303.0]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

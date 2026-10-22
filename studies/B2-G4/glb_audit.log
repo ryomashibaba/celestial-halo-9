@@ -1,0 +1,41 @@
+23:25:50 | INFO: Data are loaded, start creating Blender stuff
+23:25:50 | INFO: Blender create Mesh node Climate forum
+23:25:50 | INFO: Blender create Mesh node Continuous civic contour 1300
+23:25:50 | INFO: Blender create Mesh node Continuous civic contour 2100
+23:25:50 | INFO: Blender create Mesh node Continuous civic contour 2800
+23:25:50 | INFO: Blender create Mesh node Continuous civic contour 3500
+23:25:50 | INFO: Blender create Mesh node High university
+23:25:50 | INFO: Blender create Mesh node N1 / open-sky climate ground
+23:25:50 | INFO: Blender create Mesh node N1 / single thick climate escarpment
+23:25:50 | INFO: Blender create Mesh node Public archive
+23:25:50 | INFO: Blender create Mesh node Sky conservatory
+23:25:50 | INFO: glTF import finished in 0.03s
+23:25:50 | INFO: Data are loaded, start creating Blender stuff
+23:25:50 | INFO: Blender create Mesh node Coastal civic route 1050
+23:25:50 | INFO: Blender create Mesh node Coastal civic route 1550
+23:25:50 | INFO: Blender create Mesh node Coastal civic route 1850
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 0
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 1
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 2
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 3
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 4
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 5
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 6
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 7
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 8
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 9
+23:25:50 | INFO: Blender create Mesh node Coastal public institution 10
+23:25:50 | INFO: Blender create Mesh node N2 / inhabited maritime plate
+23:25:50 | INFO: Blender create Mesh node N2 / level inland sea
+23:25:50 | INFO: Blender create Mesh node Marine headland
+23:25:50 | INFO: Blender create Mesh node Marine headland.001
+23:25:50 | INFO: Blender create Mesh node Marine headland.002
+23:25:50 | INFO: glTF import finished in 0.02s
+23:25:50 | INFO: Data are loaded, start creating Blender stuff
+23:25:50 | INFO: Blender create Mesh node N3 / one occupied climate watershed
+23:25:50 | INFO: Blender create Mesh node Valley civic forum
+23:25:50 | INFO: glTF import finished in 0.06s
+{"N1": {"actual_glb_import": "PASS", "mesh_objects": 10, "bounds_m": {"min": [-2524.796142578125, -2067.45263671875, 0.0], "max": [2288.099609375, 2525.408447265625, 4350.0]}, "bounds_max_difference_m": 0.0, "note": "source bbox excludes curve bevels; world axes restored by glTF importer"}, "N2": {"actual_glb_import": "PASS", "mesh_objects": 19, "bounds_m": {"min": [-2698.7509765625, -2090.39990234375, 0.0], "max": [2698.7509765625, 2420.0, 4300.0]}, "bounds_max_difference_m": 0.0, "note": "source bbox excludes curve bevels; world axes restored by glTF importer"}, "N3": {"actual_glb_import": "PASS", "mesh_objects": 2, "bounds_m": {"min": [-2660.0, -2500.0, -35.0], "max": [2660.0, 2321.428466796875, 4287.48583984375]}, "bounds_max_difference_m": 0.0, "note": "source bbox excludes curve bevels; world axes restored by glTF importer"}}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

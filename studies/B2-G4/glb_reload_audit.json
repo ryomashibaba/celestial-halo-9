@@ -1,0 +1,56 @@
+{
+  "N1": {
+    "actual_glb_import": "PASS",
+    "mesh_objects": 10,
+    "bounds_m": {
+      "min": [
+        -2524.796142578125,
+        -2067.45263671875,
+        0.0
+      ],
+      "max": [
+        2288.099609375,
+        2525.408447265625,
+        4350.0
+      ]
+    },
+    "bounds_max_difference_m": 0.0,
+    "note": "source bbox excludes curve bevels; world axes restored by glTF importer"
+  },
+  "N2": {
+    "actual_glb_import": "PASS",
+    "mesh_objects": 19,
+    "bounds_m": {
+      "min": [
+        -2698.7509765625,
+        -2090.39990234375,
+        0.0
+      ],
+      "max": [
+        2698.7509765625,
+        2420.0,
+        4300.0
+      ]
+    },
+    "bounds_max_difference_m": 0.0,
+    "note": "source bbox excludes curve bevels; world axes restored by glTF importer"
+  },
+  "N3": {
+    "actual_glb_import": "PASS",
+    "mesh_objects": 2,
+    "bounds_m": {
+      "min": [
+        -2660.0,
+        -2500.0,
+        -35.0
+      ],
+      "max": [
+        2660.0,
+        2321.428466796875,
+        4287.48583984375
+      ]
+    },
+    "bounds_max_difference_m": 0.0,
+    "note": "source bbox excludes curve bevels; world axes restored by glTF importer"
+  }
+}

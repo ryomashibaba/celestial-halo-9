@@ -1,0 +1,41 @@
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n); m.diffuse_color=(*c,1); m.use_nodes=True
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\build_study.py:250: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Fixed studio');S.world=world;world.use_nodes=True
+00:02.406  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_54312_5814dcbde6973584d677896980977332.png.png"
+Info: Saved as "study.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+23:15:01 | INFO: Starting glTF 2.0 export
+23:15:01 | INFO: Extracting primitive: Climate forum
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: Continuous civic contour 1300
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: Continuous civic contour 2100
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: Continuous civic contour 2800
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: Continuous civic contour 3500
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: High university
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: N1 / open-sky climate ground
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: N1 / single thick climate escarpment
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: Public archive
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Extracting primitive: Sky conservatory
+23:15:01 | INFO: Primitives created: 1
+23:15:01 | INFO: Finished glTF 2.0 export in 0.06178689002990723 s
+00:07.453  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N1\01_FRONT.png'
+00:12.515  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N1\02_OBLIQUE.png'
+00:16.515  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N1\03_SIDE.png'
+00:22.125  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N1\04_TOP.png'
+00:27.125  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N1\05_REAR.png'
+00:35.890  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G4\N1\06_INTERIOR.png'
+
+B2-G4 DONE N1 {'min': [-2524.796142578125, -2067.45263671875, 0.0], 'max': [2288.099609375, 2525.408447265625, 4350.0], 'size': [4812.895751953125, 4592.861083984375, 4350.0]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
