@@ -1,0 +1,18 @@
+{
+  "previous_study": "C2-G4",
+  "previous_status": "ART_SELF_REVIEW_FAIL",
+  "legacy_evidence": "studies/C2-G4/",
+  "events": [
+    {
+      "date": "2026-10-23",
+      "event": "USER_AUTHORIZED_NEW_CONCEPT_RESEARCH",
+      "note": "G4 art failure retained; no 3D detailing"
+    },
+    {
+      "date": "2026-10-23",
+      "event": "TWO_CONCEPTS_SUBMITTED",
+      "candidate": "A",
+      "status": "HOLD_SUPERVISOR_REVIEW"
+    }
+  ]
+}

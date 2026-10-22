@@ -1,0 +1,47 @@
+{
+  "study_id": "C2-G5",
+  "stage": "CONCEPT",
+  "checks": {
+    "png_decode": {
+      "A_CONCEPT.png": {
+        "pixels": [
+          2400,
+          2140
+        ],
+        "readable": true
+      },
+      "B_CONCEPT.png": {
+        "pixels": [
+          2400,
+          2140
+        ],
+        "readable": true
+      },
+      "CAUSALITY.png": {
+        "pixels": [
+          2400,
+          2140
+        ],
+        "readable": true
+      }
+    },
+    "all_16_facilities_and_6_districts_in_relations": true,
+    "all_positions_explicitly_unconfirmed": true,
+    "heavy_3d_assets_absent": true,
+    "source_links_present": true
+  },
+  "visual_review": "All three sheets visually inspected; layout repaired. A still risks tower reading, B rock-cluster reading. Art HOLD.",
+  "limits": [
+    "2D diagram envelopes only",
+    "no shared 3D camera comparison",
+    "no W0 or formal coordinates overlay",
+    "no measured dimensions",
+    "no visibility, structure, transport or livability certification",
+    "C2 INAH full text unavailable; official indexed excerpts only"
+  ],
+  "formal_M247_C": "UNCHANGED",
+  "minecraft": "HOLD",
+  "work_migration": false,
+  "art_review_status": "HOLD",
+  "supervisor_review": "PENDING"
+}

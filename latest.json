@@ -3,19 +3,149 @@
   "branch": "art/c",
   "track": "C",
   "latest": {
-    "study_id": "C2-G4",
+    "study_id": "C2-G5",
     "track": "C",
     "branch": "art/c",
-    "date": "2026-10-22",
-    "status": "ART_SELF_REVIEW_FAIL",
-    "formal_adoption": "USER_DECISION_PENDING",
-    "next_step": "G4_MASSING_REDESIGN",
-    "detail": "HOLD",
+    "title": "文明象徴都市 × 巨大公共建築：天衢会都／六庭共議都",
+    "stage": "CONCEPT",
+    "art_review_status": "HOLD",
+    "updated_at": "2026-10-22T21:13:01.299787+00:00",
+    "date": "2026-10-23",
+    "dimensions_m": null,
+    "proposed_dimensions_m": null,
+    "concept_proposed_dimensions_m": {
+      "A": {
+        "width": 2800,
+        "depth": 2100,
+        "height": 2200
+      },
+      "B": {
+        "width": 3200,
+        "depth": 2500,
+        "height": 1900
+      }
+    },
+    "assets": [
+      {
+        "path": "studies/C2-G5/A_CONCEPT.png",
+        "kind": "PNG",
+        "sha256": "82f41e319d9d161663fbacbf89a54b4bc80f3c223d1bb752819d9d2a26440fa6",
+        "size_bytes": 231410
+      },
+      {
+        "path": "studies/C2-G5/B_CONCEPT.png",
+        "kind": "PNG",
+        "sha256": "ab4dc4b8331c17d05e1a50f42b24c5087dc4c2d1a6ab79466f72eab166db0a4d",
+        "size_bytes": 243686
+      },
+      {
+        "path": "studies/C2-G5/CAUSALITY.png",
+        "kind": "PNG",
+        "sha256": "9cfc8e875e475f9356ca3658c535203da8ec6ef914f830460eb238c5c7f04c7f",
+        "size_bytes": 203767
+      },
+      {
+        "path": "studies/C2-G5/draw_concepts.py",
+        "kind": "CODE",
+        "sha256": "915e53006fca114e824d6289fb1fdbdbd6ec47c4026fd786d245bc636a1fe118",
+        "size_bytes": 8559
+      },
+      {
+        "path": "studies/C2-G5/history.json",
+        "kind": "JSON",
+        "sha256": "7f8e7e52a496fefe915b276f0281e36bbda45ef82b5a6bda08701a3c19d0a97e",
+        "size_bytes": 452
+      },
+      {
+        "path": "studies/C2-G5/package.py",
+        "kind": "CODE",
+        "sha256": "2c869ca6ab87c132f1d6b243c21a8eac7b983eed748298971a5b306153ae5c93",
+        "size_bytes": 6415
+      },
+      {
+        "path": "studies/C2-G5/publish.py",
+        "kind": "CODE",
+        "sha256": "9a9d53cf0ca90a235e84e5bd346dc35c3c287c8b0de099838d02f8df86188912",
+        "size_bytes": 2198
+      },
+      {
+        "path": "studies/C2-G5/RELATIONS.csv",
+        "kind": "CSV",
+        "sha256": "11e89ec88ad6eef3fabf11d7beb0334765ddd652da02c24727173320a34d892f",
+        "size_bytes": 4930
+      },
+      {
+        "path": "studies/C2-G5/REPORT.md",
+        "kind": "REPORT",
+        "sha256": "15d694b27e5db65f81050542b456faa6696e9e8d096b8813028c4ff6cf738b6b",
+        "size_bytes": 24983
+      },
+      {
+        "path": "studies/C2-G5/SOURCES.md",
+        "kind": "REPORT",
+        "sha256": "fb5567a4e61d0b7ff4c402706056ce3dc6001efb34c3aaec725e5ec47cf3a1a9",
+        "size_bytes": 4541
+      },
+      {
+        "path": "studies/C2-G5/verification.json",
+        "kind": "JSON",
+        "sha256": "de4fd75c0a9f64ac57fc51b9ee6494864d9e3d78b2037c3ebea0241488dbd329",
+        "size_bytes": 1270
+      }
+    ],
+    "validation": {
+      "study_id": "C2-G5",
+      "stage": "CONCEPT",
+      "checks": {
+        "png_decode": {
+          "A_CONCEPT.png": {
+            "pixels": [
+              2400,
+              2140
+            ],
+            "readable": true
+          },
+          "B_CONCEPT.png": {
+            "pixels": [
+              2400,
+              2140
+            ],
+            "readable": true
+          },
+          "CAUSALITY.png": {
+            "pixels": [
+              2400,
+              2140
+            ],
+            "readable": true
+          }
+        },
+        "all_16_facilities_and_6_districts_in_relations": true,
+        "all_positions_explicitly_unconfirmed": true,
+        "heavy_3d_assets_absent": true,
+        "source_links_present": true
+      },
+      "visual_review": "All three sheets visually inspected; layout repaired. A still risks tower reading, B rock-cluster reading. Art HOLD.",
+      "limits": [
+        "2D diagram envelopes only",
+        "no shared 3D camera comparison",
+        "no W0 or formal coordinates overlay",
+        "no measured dimensions",
+        "no visibility, structure, transport or livability certification",
+        "C2 INAH full text unavailable; official indexed excerpts only"
+      ],
+      "formal_M247_C": "UNCHANGED",
+      "minecraft": "HOLD",
+      "work_migration": false,
+      "art_review_status": "HOLD",
+      "supervisor_review": "PENDING"
+    },
+    "notes": "A provisionally promising; no adoption. Historical M119 program only; current positions unconfirmed. INAH full-text retrieval incomplete.",
     "formal_M247_C": "UNCHANGED",
     "minecraft": "HOLD",
-    "report": "studies/C2-G4/REPORT.md",
-    "model": "studies/C2-G4/N1R1.glb",
-    "preview": "studies/C2-G4/CONCEPT_COMPARISON.png"
+    "work": "PRIOR_APPROVAL_REQUIRED",
+    "report": "studies/C2-G5/REPORT.md",
+    "preview": "studies/C2-G5/A_CONCEPT.png"
   },
   "history": [
     {
@@ -32,8 +162,17 @@
       "report": "studies/C2-G4/REPORT.md",
       "model": "studies/C2-G4/N1R1.glb",
       "preview": "studies/C2-G4/CONCEPT_COMPARISON.png"
+    },
+    {
+      "study_id": "C2-G5",
+      "manifest": "studies/C2-G5/manifest.json",
+      "stage": "CONCEPT",
+      "art_review_status": "HOLD",
+      "date": "2026-10-23",
+      "provisional_candidate": "A",
+      "formal_adoption": false
     }
   ],
-  "last_submission_at": "2026-10-22",
+  "last_submission_at": "2026-10-23",
   "policy": "ART-FIRST. Formal M247-C and Minecraft construction remain HOLD. Technical checks and study storage do not constitute art acceptance."
 }

@@ -1,0 +1,30 @@
+﻿id,group,historical_M119_name,current_name,current_position_and_height,A_proposed_relation,B_proposed_relation,relocation_authorized,source
+SB01,FRAME8,West Lantern Trade Quarter,UNCONFIRMED,UNCONFIRMED,日常商業の入口,庭へ物資・市を分散,False,M119 source at 29a6973; historical proposal only
+SB02,FRAME8,Artisan Spine,UNCONFIRMED,UNCONFIRMED,制作・修理の近接目的地,制作と展示の交換,False,M119 source at 29a6973; historical proposal only
+SB03,FRAME8,Echo Market,UNCONFIRMED,UNCONFIRMED,行事外の日常市場,庭間の商業,False,M119 source at 29a6973; historical proposal only
+SB04,FRAME8,Rain Conservatory,UNCONFIRMED,UNCONFIRMED,裂隙の緑・滞在,静かな庭・学習,False,M119 source at 29a6973; historical proposal only
+SB05,HERO4,RADIANT SAIL CITADEL,UNCONFIRMED,UNCONFIRMED,集会前室が低い肩を生む,集いと討議の下部大室,False,M119 source at 29a6973; historical proposal only
+SB06,CIVIC4,Civic Auditorium,UNCONFIRMED,UNCONFIRMED,集会の手前の小討議室,討議活動の仲介,False,M119 source at 29a6973; historical proposal only
+SB07,CIVIC4,Public Forum,UNCONFIRMED,UNCONFIRMED,地上・中高度の受入れ,公共室間の共通討議,False,M119 source at 29a6973; historical proposal only
+SB08,HERO4,AURORA TWIN VAULT,UNCONFIRMED,UNCONFIRMED,二室が採光裂隙を生む,中高度の文化体験,False,M119 source at 29a6973; historical proposal only
+SB09,HERO4,GRAND HALO GATEWAY,UNCONFIRMED,UNCONFIRMED,前庭の空白で質量が後退,谷の入口で通過を分流,False,M119 source at 29a6973; historical proposal only
+SB10,CIVIC4,Transit Hall,UNCONFIRMED,UNCONFIRMED,側方の乗換と昇降,中央迂回の拠点間交通,False,M119 source at 29a6973; historical proposal only
+SB11,CIVIC4,Harmonic Assembly,UNCONFIRMED,UNCONFIRMED,夜間利用と生活の接点,上演・交流の庭,False,M119 source at 29a6973; historical proposal only
+SB12,HERO4,MOUNTAIN HALO SANCTUARY,UNCONFIRMED,UNCONFIRMED,静かな高所が片肩を生む,静かな高所の室,False,M119 source at 29a6973; historical proposal only
+SB13,FRAME8,South Threshold District,UNCONFIRMED,UNCONFIRMED,到着時の方向認識,分散経路への案内,False,M119 source at 29a6973; historical proposal only
+SB14,FRAME8,Orbital Machine Hall,UNCONFIRMED,UNCONFIRMED,SPINE接続を学ぶ目的地,技術と制作の往来,False,M119 source at 29a6973; historical proposal only
+SB15,FRAME8,Prism Studios,UNCONFIRMED,UNCONFIRMED,生活街路と創作活動,成果を持ち寄る活動,False,M119 source at 29a6973; historical proposal only
+SB16,FRAME8,Dusk Observation Ward,UNCONFIRMED,UNCONFIRMED,中央を外から見る終点,分散中心への対向視点,False,M119 source at 29a6973; historical proposal only
+H1,AIR_DISTRICT,UNCONFIRMED,UNCONFIRMED,UNCONFIRMED,既存交通から受入れ広場へ、別帰路,公共庭から独立受入れ室へ、中央迂回,False,User brief; identity/coordinates unavailable
+H2,AIR_DISTRICT,UNCONFIRMED,UNCONFIRMED,UNCONFIRMED,既存交通から受入れ広場へ、別帰路,公共庭から独立受入れ室へ、中央迂回,False,User brief; identity/coordinates unavailable
+H3,AIR_DISTRICT,UNCONFIRMED,UNCONFIRMED,UNCONFIRMED,既存交通から受入れ広場へ、別帰路,公共庭から独立受入れ室へ、中央迂回,False,User brief; identity/coordinates unavailable
+H4,AIR_DISTRICT,UNCONFIRMED,UNCONFIRMED,UNCONFIRMED,既存交通から受入れ広場へ、別帰路,公共庭から独立受入れ室へ、中央迂回,False,User brief; identity/coordinates unavailable
+H5,AIR_DISTRICT,UNCONFIRMED,UNCONFIRMED,UNCONFIRMED,既存交通から受入れ広場へ、別帰路,公共庭から独立受入れ室へ、中央迂回,False,User brief; identity/coordinates unavailable
+H6,AIR_DISTRICT,UNCONFIRMED,UNCONFIRMED,UNCONFIRMED,既存交通から受入れ広場へ、別帰路,公共庭から独立受入れ室へ、中央迂回,False,User brief; identity/coordinates unavailable
+W0,CITY_FRAME,UNCONFIRMED,USER_GIVEN_ID,UNCONFIRMED,既存形状照合を先行,既存形状照合を先行,False,User brief
+HALO-9,CITY_FRAME,UNCONFIRMED,USER_GIVEN_ID,UNCONFIRMED,既存形状照合を先行,既存形状照合を先行,False,User brief
+CELESTIAL SPINE,CITY_FRAME,UNCONFIRMED,USER_GIVEN_ID,UNCONFIRMED,既存形状照合を先行,既存形状照合を先行,False,User brief
+三大都市軸,CITY_FRAME,UNCONFIRMED,USER_GIVEN_ID,UNCONFIRMED,既存形状照合を先行,既存形状照合を先行,False,User brief
+V1,CITY_FRAME,UNCONFIRMED,USER_GIVEN_ID,UNCONFIRMED,既存形状照合を先行,既存形状照合を先行,False,User brief
+V2,CITY_FRAME,UNCONFIRMED,USER_GIVEN_ID,UNCONFIRMED,既存形状照合を先行,既存形状照合を先行,False,User brief
+V3,CITY_FRAME,UNCONFIRMED,USER_GIVEN_ID,UNCONFIRMED,既存形状照合を先行,既存形状照合を先行,False,User brief
