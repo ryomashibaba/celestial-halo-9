@@ -3,88 +3,45 @@
   "branch": "art/d",
   "track": "D",
   "latest": {
-    "study_id": "D2-G4",
-    "title": "HALO-9 G4-D Star-Marrow Cluster City Low-Detail 3D Art Screen",
-    "stage": "DIAGNOSTIC_MASSING",
-    "art_review_status": "REJECT",
-    "updated_at": "2026-10-22T14:16:37Z",
+    "study_id": "D2-G5",
+    "title": "HALO-9 G5-D Water, Ecology and Urban Network Civilization",
+    "stage": "CONCEPT",
+    "art_review_status": "HOLD",
+    "updated_at": "2026-10-22T21:07:38Z",
     "dimensions_m": null,
     "proposed_dimensions_m": {
-      "N1": {
-        "width": 6925,
-        "depth": 4994,
-        "height_including_subgrade": 6660,
-        "above_grade_height": 5930
-      },
-      "N2": {
-        "width": 7102,
-        "depth": 4885,
-        "height_including_subgrade": 6534,
-        "above_grade_height": 5941
-      }
+      "A_Tidal_Loom": {"width": 4800, "depth": 4100, "height": 3700},
+      "B_Monsoon_Commons": {"width": 4500, "depth": 4700, "height": 4400}
     },
     "assets": [
-      {
-        "path": "studies/D2-G4/comparison.md",
-        "kind": "REPORT"
-      },
-      {
-        "path": "studies/D2-G4/build_study.py",
-        "kind": "SOURCE"
-      },
-      {
-        "path": "studies/D2-G4/N1-Marrow-Gorge.glb",
-        "kind": "LOW_DETAIL_3D_DIAGNOSTIC"
-      },
-      {
-        "path": "studies/D2-G4/N2-Offset-Crossfold.glb",
-        "kind": "LOW_DETAIL_3D_DIAGNOSTIC"
-      },
-      {
-        "path": "studies/D2-G4/D2-G4-six-view-diagnostic.png",
-        "kind": "SAME_MESH_ORTHOGRAPHIC_DIAGNOSTIC"
-      },
-      {
-        "path": "studies/D2-G4/geometry-validation.json",
-        "kind": "MESH_VALIDATION"
-      },
-      {
-        "path": "studies/D2-G4/manifest.json",
-        "kind": "STUDY_MANIFEST"
-      }
+      {"path": "studies/D2-G5/comparison.md", "kind": "REPORT", "sha256": "87f8b8c32cb7dd77adaab409157980f315744fdce05964e938dbca5b74a7c11c", "size_bytes": 20831},
+      {"path": "studies/D2-G5/manifest.json", "kind": "JSON", "sha256": "44f68f1a844ae5a5c016602b4ed885ccfad5b73bd27fc859c0ccca554dec3bb1", "size_bytes": 1998}
     ],
     "validation": {
-      "load_results": "Procedural GLB meshes created outside Blender; both are watertight, winding-consistent, single connected components.",
-      "shared_camera_comparisons": "Six orthographic diagnostic directions per mesh from the same geometry, with a common physical span and output size.",
+      "load_results": "Not applicable; written CONCEPT study only.",
+      "shared_camera_comparisons": "None; no images or 3D assets produced.",
       "checked": [
-        "N1 and N2 compared under identical view scale",
-        "topology, connected component count, dimensions, face count, and volume measured",
-        "six-direction diagnostic image generated from exported geometry"
+        "Four named precedents checked against official UNESCO or project architect sources",
+        "Two distinct urban formation principles compared",
+        "Known fixed HALO-9 elements retained as anchors without inventing facility programs",
+        "D2-G4 rejected blob-and-canyon direction screened against"
       ],
       "limits": [
-        "Both concepts internally REJECTED for generic smooth blob and gate-like canyon reading",
-        "inhabited districts, public facilities, and human-scale streets are not modeled",
-        "interior-axis view is not a perspective walk-through",
-        "solid volume is not usable floor area or occupancy",
-        "no Blender file or Blender render; no structural or constructability review"
+        "Proposed dimensions are conceptual envelopes, not measured model geometry",
+        "Task mirror sources directory contains no masterplan coordinates or facility-role files",
+        "No hydrology, ecology, climate, structural, safety, or constructability simulation",
+        "Central review, formal adoption, M247-C changes, and Minecraft construction remain on hold"
       ]
     },
-    "notes": "Do not detail or adopt either massing. Preserve as internal rejection evidence. Formal M247-C direction and Minecraft construction HOLD remain unchanged."
+    "notes": "Two independent concepts: A Tidal Loom integrates basin-scale water exchange with inhabited transit intersections; B Monsoon Commons makes seasonal ecological succession co-author the inhabited mass. A is the provisional art-screen candidate due to its clearer central silhouette. D2-G4 remains REJECT and all prior history is preserved."
   },
   "history": [
-    {
-      "study_id": "D2-G1",
-      "manifest_path": "studies/D2-G1/manifest.json"
-    },
-    {
-      "study_id": "D2-G3",
-      "manifest_path": "studies/D2-G3/manifest.json"
-    },
-    {
-      "study_id": "D2-G4",
-      "manifest_path": "studies/D2-G4/manifest.json"
-    }
+    {"study_id": "D2-G1", "manifest_path": "studies/D2-G1/manifest.json"},
+    {"study_id": "D2-G3", "manifest_path": "studies/D2-G3/manifest.json"},
+    {"study_id": "D2-G4", "manifest_path": "studies/D2-G4/manifest.json"},
+    {"study_id": "D2-G5", "manifest_path": "studies/D2-G5/manifest.json"}
   ],
-  "last_submission_at": "2026-10-22T14:16:37Z",
+  "last_submission_at": "2026-10-22T21:07:38Z",
   "policy": "ART-FIRST. Formal design and Minecraft construction remain HOLD. Internal REJECT preserves study history and is not a formal adoption decision."
 }
+
