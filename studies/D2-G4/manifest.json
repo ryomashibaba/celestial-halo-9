@@ -24,4 +24,16 @@
     "checked": [
       "N1 and N2 are distinct internal void topologies, compared under identical view scale",
       "mesh topology, connected component count, dimensions, face count, and mesh volume measured",
-      "cell-like source volumes are fused into a single continuous ma
+      "cell-like source volumes are fused into a single continuous mass; no simple sphere or box collection",
+      "six-direction diagnostic image generated from the exported geometry"
+    ],
+    "limits": [
+      "both concepts internally REJECTED for generic smooth blob and gate-like canyon reading",
+      "no inhabited district, human-scale street, or public facility geometry included",
+      "interior-axis image is not a walk-through or perspective interior view",
+      "volume is solid mesh volume, not usable floor area or occupancy",
+      "no Blender file, Blender render, structural analysis, or constructability review"
+    ]
+  },
+  "notes": "Do not detail or adopt either massing. Preserve as internal rejection evidence. Formal M247-C direction and Minecraft construction HOLD remain unchanged."
+}

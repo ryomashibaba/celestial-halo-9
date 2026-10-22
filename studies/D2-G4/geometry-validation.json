@@ -49,4 +49,24 @@
         [
           -3502.63330078125,
           -2259.64697265625,
-          
+          -592.620361328125
+        ],
+        [
+          3599.055419921875,
+          2625.6650390625,
+          5941.12109375
+        ]
+      ],
+      "dimensions_m": [
+        7101.688720703125,
+        4885.31201171875,
+        6533.741455078125
+      ],
+      "volume_m3": 107275338907.85588,
+      "surface_area_m2": 185037205.97904563,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "geometry_method": "single implicit smooth-union isosurface with carved civic voids; marching tetrahedra"
+    }
+  }
+}

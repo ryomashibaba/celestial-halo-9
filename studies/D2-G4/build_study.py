@@ -226,4 +226,62 @@ def render_view(mesh, direction, image, box, color=(190, 203, 212), target=(0.0,
     draw = ImageDraw.Draw(image)
     for t in tids:
         ids = tri[t]
-        pts = [(flo
+        pts = [(float(px[q]), float(py[q])) for q in ids]
+        if max(p[0] for p in pts) < 0 or min(p[0] for p in pts) >= w or max(p[1] for p in pts) < 0 or min(p[1] for p in pts) >= h:
+            continue
+        lum = 0.40 + 0.60 * abs(float(np.dot(norms[t], light)))
+        c = tuple(int(v * lum) for v in color)
+        draw.polygon(pts, fill=c)
+    return image
+
+
+def comparison_image(meshes):
+    # Six common camera directions; same orthographic span and model center.
+    views = [("FRONT", (0,-1,0.11), (0,0,2.7)), ("OBLIQUE", (1,-1,0.55), (0,0,2.7)),
+             ("SIDE", (1,0,0.12), (0,0,2.7)), ("TOP", (0.15,-0.24,1), (0,0,2.7)),
+             ("REAR", (0,1,0.10), (0,0,2.7)), ("INTERIOR", (0,1,0.12), (0,-0.64,2.75))]
+    W, H = 360, 330
+    # Three columns by four rows: six equal-scale views for each concept.
+    board = Image.new("RGB", (W*3, (H-25)*4), (17,22,31))
+    d = ImageDraw.Draw(board)
+    for row, (name, mesh) in enumerate(meshes):
+        for col, (label, vec, target) in enumerate(views):
+            r, c = row*2 + col//3, col%3
+            top = r*(H-25)
+            img = Image.new("RGB", (W,H-25), (25,33,45))
+            render_view(mesh, vec, img, (7600,6400,5700), (190,203,212) if row == 0 else (183,197,205), target=target)
+            board.paste(img,(c*W,top))
+            ImageDraw.Draw(board).text((c*W+8,top+7), f"{name.split(' — ')[0]} / {label}", fill=(230,235,242))
+    board.save(OUT / "D2-G4-six-view-diagnostic.png", optimize=True)
+
+
+def main():
+    meshes = [("N1 — 密核貫峡", make_mesh(field_n1)), ("N2 — 偏心交差峡谷", make_mesh(field_n2))]
+    comparison_image(meshes)
+    stats = {}
+    for name, mesh in meshes:
+        dims = mesh.extents.tolist()
+        stats[name.split(" — ")[0]] = {
+            "vertices": int(len(mesh.vertices)), "faces": int(len(mesh.faces)),
+            "watertight": bool(mesh.is_watertight), "bounds_m": mesh.bounds.tolist(),
+            "dimensions_m": dims,
+            "volume_m3": float(mesh.volume) if mesh.is_watertight else None,
+            "surface_area_m2": float(mesh.area),
+            "winding_consistent": bool(mesh.is_winding_consistent),
+            "connected_components": int(len(mesh.split(only_watertight=False))),
+            "geometry_method": "single implicit smooth-union isosurface with carved civic voids; marching tetrahedra"
+        }
+    (OUT / "geometry-validation.json").write_text(json.dumps({
+        "study_id":"D2-G4", "units":"metres in GLB; internal design coordinates in kilometres",
+        "grid_resolution":[NX,NY,NZ], "method":"procedural implicit massing, no Blender session",
+        "limitations":["concept massing only; no structure, circulation simulation, inhabited district geometry, or constructability claim",
+                       "six images are diagnostic software renders from the same mesh with common orthographic scale",
+                       "the interior-axis view is orthographic and does not establish walk-through sightlines",
+                       "smooth fused mass still reads as a gate and a generic blob in several views; both concepts fail the internal art screen"],
+        "models":stats
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps(stats, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()
