@@ -14,8 +14,8 @@
       "B_Monsoon_Commons": {"width": 4500, "depth": 4700, "height": 4400}
     },
     "assets": [
-      {"path": "studies/D2-G5/comparison.md", "kind": "REPORT", "sha256": "87f8b8c32cb7dd77adaab409157980f315744fdce05964e938dbca5b74a7c11c", "size_bytes": 20831},
-      {"path": "studies/D2-G5/manifest.json", "kind": "JSON", "sha256": "44f68f1a844ae5a5c016602b4ed885ccfad5b73bd27fc859c0ccca554dec3bb1", "size_bytes": 1998}
+      {"path": "studies/D2-G5/comparison.md", "kind": "REPORT", "sha256": "3ff88df3d97a229751ff05380ea42b9e7e9fe3a6640a2d4b48367dd2d0c1ba2b", "size_bytes": 20833},
+      {"path": "studies/D2-G5/manifest.json", "kind": "JSON", "sha256": "0ba2dd239a11c90ed84fab08996563a48425116e4d3b2049f52bf91e0dd8855d", "size_bytes": 2000}
     ],
     "validation": {
       "load_results": "Not applicable; written CONCEPT study only.",
