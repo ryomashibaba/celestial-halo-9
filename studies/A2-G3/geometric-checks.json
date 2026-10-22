@@ -1,0 +1,1166 @@
+{
+  "method": {
+    "units": "km",
+    "model": "Union of analytic solids minus union of analytic voids, clipped at z=0",
+    "line_of_sight_sample_m": 20,
+    "gravity_support_probe_m": 120,
+    "scope": "Geometric occupancy only. No load-bearing, physiological, usable-floor-area or artistic acceptance checks."
+  },
+  "models": [
+    {
+      "id": "N1",
+      "eye_km": [
+        0,
+        -0.7,
+        0.764
+      ],
+      "proposed_primitive_envelope_km": {
+        "min": [
+          -3.3,
+          -2.3,
+          0
+        ],
+        "max": [
+          3.3,
+          2.7,
+          6.4
+        ]
+      },
+      "occupancy": {
+        "sample_spacing_m": 200,
+        "solid_connected_components_6_neighbor": [
+          9976
+        ],
+        "sampled_material_volume_km3": 79.80800000000002,
+        "sampled_material_above_4km_km3": 25.496000000000006,
+        "warning": "Voxel connectivity and occupied volume only; no structural, living-area, or art-quality validation."
+      },
+      "sightlines": [
+        {
+          "target": "west",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": false,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "east",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": false,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "north",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": false
+        },
+        {
+          "target": "upper_inward",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "lower",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": false,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "upper_open",
+          "clear": false,
+          "first_obstruction": {
+            "distance_from_eye_km": 3.90922875182957,
+            "point_km": [
+              -0.20164609053497942,
+              0.3082304526748971,
+              4.535588477366256
+            ]
+          },
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        }
+      ],
+      "cameras": [
+        {
+          "id": "front_ground",
+          "label": "地上正面",
+          "eye": [
+            0,
+            -10,
+            0.05
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "fov": 58
+        },
+        {
+          "id": "oblique",
+          "label": "南東斜視",
+          "eye": [
+            10,
+            -11,
+            8
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "side",
+          "label": "東側面",
+          "eye": [
+            12,
+            0,
+            3.2
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "rear",
+          "label": "北・背面",
+          "eye": [
+            0,
+            12,
+            3.2
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "top",
+          "label": "俯瞰",
+          "eye": [
+            0,
+            0,
+            14
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "inside",
+          "label": "内部・検証視点",
+          "eye": [
+            0,
+            -0.7,
+            0.764
+          ],
+          "look": [
+            0,
+            0.15,
+            3.05
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "fov": 82
+        }
+      ],
+      "upper_separation_probe": {
+        "x_km": 0,
+        "y_km": 0,
+        "lower_inward_surface_z_km": 4.590225502357908,
+        "upper_basin_surface_z_km": 5.5370129803574715,
+        "vertical_material_gap_km": 0.9467874779995631
+      }
+    },
+    {
+      "id": "N2",
+      "eye_km": [
+        -0.6,
+        -1.6,
+        0.307
+      ],
+      "proposed_primitive_envelope_km": {
+        "min": [
+          -3.05,
+          -3.05,
+          0
+        ],
+        "max": [
+          2.8499999999999996,
+          3,
+          6.65
+        ]
+      },
+      "occupancy": {
+        "sample_spacing_m": 200,
+        "solid_connected_components_6_neighbor": [
+          7248,
+          9,
+          1,
+          1,
+          1
+        ],
+        "sampled_material_volume_km3": 58.08000000000001,
+        "sampled_material_above_4km_km3": 21.840000000000007,
+        "warning": "Voxel connectivity and occupied volume only; no structural, living-area, or art-quality validation."
+      },
+      "sightlines": [
+        {
+          "target": "lower_west",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": false,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "lower_east",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": false,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "middle_west",
+          "clear": false,
+          "first_obstruction": {
+            "distance_from_eye_km": 2.1116377850362515,
+            "point_km": [
+              -0.9009876543209877,
+              -0.5858024691358026,
+              2.1345185185185187
+            ]
+          },
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "middle_ceiling",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "upper_east",
+          "clear": false,
+          "first_obstruction": {
+            "distance_from_eye_km": 4.479706454851664,
+            "point_km": [
+              0.6972661870503597,
+              0.49496402877697854,
+              4.048122302158274
+            ]
+          },
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "upper_ceiling",
+          "clear": false,
+          "first_obstruction": {
+            "distance_from_eye_km": 4.087702226532679,
+            "point_km": [
+              -0.36704545454545456,
+              0.13051948051948048,
+              4.00299025974026
+            ]
+          },
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        }
+      ],
+      "cameras": [
+        {
+          "id": "front_ground",
+          "label": "地上正面",
+          "eye": [
+            0,
+            -10,
+            0.05
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "fov": 58
+        },
+        {
+          "id": "oblique",
+          "label": "南東斜視",
+          "eye": [
+            10,
+            -11,
+            8
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "side",
+          "label": "東側面",
+          "eye": [
+            12,
+            0,
+            3.2
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "rear",
+          "label": "北・背面",
+          "eye": [
+            0,
+            12,
+            3.2
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "top",
+          "label": "俯瞰",
+          "eye": [
+            0,
+            0,
+            14
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "inside",
+          "label": "内部・検証視点",
+          "eye": [
+            -0.6,
+            -1.6,
+            0.307
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "fov": 82
+        }
+      ],
+      "connectivity_finer_grid": {
+        "sample_spacing_m": 100,
+        "solid_connected_components_6_neighbor": [
+          57949,
+          10,
+          5,
+          5
+        ],
+        "sampled_material_volume_km3": 57.969000000000015,
+        "sampled_material_above_4km_km3": 21.564000000000004,
+        "warning": "Voxel connectivity and occupied volume only; no structural, living-area, or art-quality validation."
+      }
+    },
+    {
+      "id": "N3",
+      "eye_km": [
+        0,
+        -0.5,
+        0.702
+      ],
+      "proposed_primitive_envelope_km": {
+        "min": [
+          -3,
+          -2,
+          0
+        ],
+        "max": [
+          3,
+          2.5,
+          6.4
+        ]
+      },
+      "occupancy": {
+        "sample_spacing_m": 200,
+        "solid_connected_components_6_neighbor": [
+          10986
+        ],
+        "sampled_material_volume_km3": 87.88800000000002,
+        "sampled_material_above_4km_km3": 34.528000000000006,
+        "warning": "Voxel connectivity and occupied volume only; no structural, living-area, or art-quality validation."
+      },
+      "sightlines": [
+        {
+          "target": "west",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "east",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "north_low",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "upper_inward",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "lower",
+          "clear": true,
+          "first_obstruction": null,
+          "inside_internal_camera_frame": false,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        },
+        {
+          "target": "upper_open",
+          "clear": false,
+          "first_obstruction": {
+            "distance_from_eye_km": 3.8273949941949956,
+            "point_km": [
+              0,
+              -0.09832635983263599,
+              4.508259414225941
+            ]
+          },
+          "inside_internal_camera_frame": true,
+          "target_in_empty_domain": true,
+          "backing_at_120m": true
+        }
+      ],
+      "cameras": [
+        {
+          "id": "front_ground",
+          "label": "地上正面",
+          "eye": [
+            0,
+            -10,
+            0.05
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "fov": 58
+        },
+        {
+          "id": "oblique",
+          "label": "南東斜視",
+          "eye": [
+            10,
+            -11,
+            8
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "side",
+          "label": "東側面",
+          "eye": [
+            12,
+            0,
+            3.2
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "rear",
+          "label": "北・背面",
+          "eye": [
+            0,
+            12,
+            3.2
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "top",
+          "label": "俯瞰",
+          "eye": [
+            0,
+            0,
+            14
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "inside",
+          "label": "内部・検証視点",
+          "eye": [
+            0,
+            -0.5,
+            0.702
+          ],
+          "look": [
+            0,
+            0.4,
+            3.1
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "fov": 82
+        }
+      ],
+      "upper_separation_probe": {
+        "x_km": 0,
+        "y_km": 0,
+        "lower_inward_surface_z_km": 4.5,
+        "upper_basin_surface_z_km": 5.4,
+        "vertical_material_gap_km": 0.9,
+        "warning": "One section probe only, not a global minimum thickness."
+      },
+      "urban_connection_waypoints": [
+        {
+          "a": [
+            0,
+            0,
+            0.95
+          ],
+          "b": [
+            -2,
+            0,
+            0.95
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -2,
+            0,
+            0.95
+          ],
+          "b": [
+            -2,
+            0,
+            5.55
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -2,
+            0,
+            5.55
+          ],
+          "b": [
+            0,
+            0,
+            5.55
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -2,
+            0,
+            2.25
+          ],
+          "b": [
+            -2,
+            1.6,
+            2.25
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -2,
+            1.6,
+            2.25
+          ],
+          "b": [
+            1.8,
+            1.6,
+            2.25
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            1.8,
+            1.6,
+            2.35
+          ],
+          "b": [
+            1.8,
+            0.2,
+            2.35
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            1.8,
+            0.2,
+            2.35
+          ],
+          "b": [
+            1.16,
+            0.2,
+            2.35
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            0,
+            1.6,
+            2.3
+          ],
+          "b": [
+            0,
+            1,
+            2.3
+          ],
+          "clear": true,
+          "first_obstruction": null
+        }
+      ],
+      "urban_patch_probes": [
+        {
+          "target": "west",
+          "nominal_patch_m": [
+            600,
+            240
+          ],
+          "sample_count": 21,
+          "clear": 21,
+          "backed": 21,
+          "in_frame": 21,
+          "combined": 21,
+          "warning": "Sparse probes on a proposed surface only, not a modeled building facade or a usable city floor."
+        },
+        {
+          "target": "east",
+          "nominal_patch_m": [
+            600,
+            240
+          ],
+          "sample_count": 21,
+          "clear": 21,
+          "backed": 15,
+          "in_frame": 21,
+          "combined": 15,
+          "warning": "Sparse probes on a proposed surface only, not a modeled building facade or a usable city floor."
+        },
+        {
+          "target": "north_low",
+          "nominal_patch_m": [
+            600,
+            240
+          ],
+          "sample_count": 21,
+          "clear": 21,
+          "backed": 18,
+          "in_frame": 21,
+          "combined": 18,
+          "warning": "Sparse probes on a proposed surface only, not a modeled building facade or a usable city floor."
+        },
+        {
+          "target": "upper_inward",
+          "nominal_patch_m": [
+            600,
+            240
+          ],
+          "sample_count": 21,
+          "clear": 21,
+          "backed": 21,
+          "in_frame": 21,
+          "combined": 21,
+          "warning": "Sparse probes on a proposed surface only, not a modeled building facade or a usable city floor."
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "eye_km": [
+        0.8,
+        0,
+        1.55
+      ],
+      "proposed_primitive_envelope_km": {
+        "min": [
+          -1.8,
+          -1.4,
+          0
+        ],
+        "max": [
+          1.7,
+          1.45,
+          3.5
+        ]
+      },
+      "occupancy": {
+        "sample_spacing_m": 200,
+        "solid_connected_components_6_neighbor": [
+          1282
+        ],
+        "sampled_material_volume_km3": 10.256000000000002,
+        "sampled_material_above_4km_km3": 0,
+        "warning": "Voxel connectivity and occupied volume only; no structural, living-area, or art-quality validation."
+      },
+      "sightlines": [],
+      "cameras": [
+        {
+          "id": "front_ground",
+          "label": "地上正面",
+          "eye": [
+            0,
+            -10,
+            0.05
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "fov": 58
+        },
+        {
+          "id": "oblique",
+          "label": "南東斜視",
+          "eye": [
+            10,
+            -11,
+            8
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "side",
+          "label": "東側面",
+          "eye": [
+            12,
+            0,
+            3.2
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "rear",
+          "label": "北・背面",
+          "eye": [
+            0,
+            12,
+            3.2
+          ],
+          "look": [
+            0,
+            0,
+            3.2
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "top",
+          "label": "俯瞰",
+          "eye": [
+            0,
+            0,
+            14
+          ],
+          "look": [
+            0,
+            0,
+            3
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "ortho": 10
+        },
+        {
+          "id": "inside",
+          "label": "内部・検証視点",
+          "eye": [
+            0.8,
+            0,
+            1.55
+          ],
+          "look": [
+            -0.4,
+            0.4,
+            1.8
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "fov": 82
+        }
+      ],
+      "shared_material_probes": [
+        {
+          "id": "AB shared roof-floor",
+          "point": [
+            0,
+            0,
+            1.2
+          ],
+          "inside_facility_envelopes": [
+            "A assembly hall",
+            "B library city"
+          ],
+          "inside_final_material": true
+        },
+        {
+          "id": "BC shared inhabited wall",
+          "point": [
+            -0.45,
+            0.2,
+            1.8
+          ],
+          "inside_facility_envelopes": [
+            "B library city",
+            "C vertical garden school"
+          ],
+          "inside_final_material": true
+        },
+        {
+          "id": "ABC junction",
+          "point": [
+            -0.45,
+            0.1,
+            1.2
+          ],
+          "inside_facility_envelopes": [
+            "A assembly hall",
+            "B library city",
+            "C vertical garden school"
+          ],
+          "inside_final_material": true
+        }
+      ],
+      "removal_tests": [
+        {
+          "id": "remove_AB_shared_slab",
+          "before": {
+            "clear": false,
+            "first_obstruction": {
+              "distance_from_eye_km": 0.16,
+              "point_km": [
+                0,
+                0,
+                1.01
+              ]
+            }
+          },
+          "after": {
+            "clear": true,
+            "first_obstruction": null
+          }
+        },
+        {
+          "id": "remove_BC_shared_wall",
+          "before": {
+            "clear": false,
+            "first_obstruction": {
+              "distance_from_eye_km": 0.22000000000000003,
+              "point_km": [
+                -0.5800000000000001,
+                0.2,
+                1.75
+              ]
+            }
+          },
+          "after": {
+            "clear": true,
+            "first_obstruction": null
+          }
+        }
+      ],
+      "shared_street_waypoint_segments": [
+        {
+          "a": [
+            0,
+            0,
+            0.8
+          ],
+          "b": [
+            -0.3,
+            0.5,
+            0.8
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -0.3,
+            0.5,
+            0.8
+          ],
+          "b": [
+            -0.475,
+            0.5,
+            0.8
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -0.475,
+            0.5,
+            0.8
+          ],
+          "b": [
+            -0.475,
+            0.5,
+            1.65
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -0.475,
+            0.5,
+            1.65
+          ],
+          "b": [
+            0,
+            0.5,
+            1.65
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -0.475,
+            0.5,
+            1.65
+          ],
+          "b": [
+            -0.475,
+            0.5,
+            2.7
+          ],
+          "clear": true,
+          "first_obstruction": null
+        },
+        {
+          "a": [
+            -0.475,
+            0.5,
+            2.7
+          ],
+          "b": [
+            -0.8,
+            0.5,
+            2.7
+          ],
+          "clear": true,
+          "first_obstruction": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "branch": "art/a",
+  "track": "A",
+  "study_id": "A2-G3",
+  "title": "七内天の立体構成研究 — 二構成の比較・折院共空への再設計・共晶三施設共有断面",
+  "stage": "CONCEPT",
+  "art_review_status": "NOT_REVIEWED",
+  "updated_at": "2026-10-22T13:21:33Z",
+  "dimensions_m": null,
+  "proposed_dimensions_m": {
+    "width": 6000,
+    "depth": 4500,
+    "height": 6400
+  },
+  "assets": [
+    {
+      "path": "studies/A2-G3/REPORT.md",
+      "kind": "REPORT",
+      "sha256": "edd8b3c00346c269066613f8972e5257c7f7788b7181dd486960dc1452205586",
+      "size_bytes": 22236
+    },
+    {
+      "path": "studies/A2-G3/spatial-models.json",
+      "kind": "JSON",
+      "sha256": "c2b61114b73dd511f0d29f7fb5b9e7a0a65ac3becbbcae25e62eab171c76fdc4",
+      "size_bytes": 6520
+    },
+    {
+      "path": "studies/A2-G3/analyze.cjs",
+      "kind": "CODE",
+      "sha256": "620cd32f6eaabaffadc2b18d41b0c985fa4ccef6a79adc3016e54d2b3f60e9bf",
+      "size_bytes": 12009
+    },
+    {
+      "path": "studies/A2-G3/render-previews.cjs",
+      "kind": "CODE",
+      "sha256": "ff70186dc1d74c7eec8b7b4105f1488b9a9cd0b516c731cbb14ff8097a3b850c",
+      "size_bytes": 610
+    },
+    {
+      "path": "studies/A2-G3/geometric-checks.json",
+      "kind": "JSON",
+      "sha256": "2dc4a731de77fc861557ae3f65ec11ced0c1eef332d7a40844159eebfc891f11",
+      "size_bytes": 24600
+    },
+    {
+      "path": "studies/A2-G3/N1-six-views.png",
+      "kind": "PNG",
+      "sha256": "06e5cb248d3abd018b81a8f7feb42beccfba5dd456371e1a384aa9fccdbaaf37",
+      "size_bytes": 64030
+    },
+    {
+      "path": "studies/A2-G3/N1-sections.png",
+      "kind": "PNG",
+      "sha256": "cc7a7aabcebdcab3ca321e80986b7d36a79091351863694a932e18d9bbf717a5",
+      "size_bytes": 22920
+    },
+    {
+      "path": "studies/A2-G3/N2-six-views.png",
+      "kind": "PNG",
+      "sha256": "838c65b3cd6aa87ccc2494823eaaa044bd0bfa99b293fa895b4185accea0ab51",
+      "size_bytes": 60605
+    },
+    {
+      "path": "studies/A2-G3/N2-sections.png",
+      "kind": "PNG",
+      "sha256": "19a9516001ea382b38903cadcb741a91e9d61c8cd88e90e252d6b92a221a649f",
+      "size_bytes": 25147
+    },
+    {
+      "path": "studies/A2-G3/N3-six-views.png",
+      "kind": "PNG",
+      "sha256": "d6e57951a7b6f04c31d732b9282fcaea5d720e69f4f927bf985cb8faaeecc9a4",
+      "size_bytes": 40303
+    },
+    {
+      "path": "studies/A2-G3/N3-sections.png",
+      "kind": "PNG",
+      "sha256": "c688dd605c2ba951cb84e48814fd849037c21c06c9cb0c6222307980df3c7f64",
+      "size_bytes": 19621
+    },
+    {
+      "path": "studies/A2-G3/C3-sections.png",
+      "kind": "PNG",
+      "sha256": "dcf6c32f7eae40d94adc48bce5b1f7f6fd1b851cd0b58465264e0afa9a294517",
+      "size_bytes": 22884
+    }
+  ],
+  "validation": {
+    "scope": "Analytic 3D occupancy concept study with same-model diagnostic images; not a GLB/BLEND mesh submission.",
+    "model_load": null,
+    "mesh_qa": null,
+    "shared_camera_comparisons": {
+      "status": "PERFORMED_ON_ANALYTIC_CSG_NOT_GLB",
+      "model_source": "studies/A2-G3/spatial-models.json",
+      "renderer": "studies/A2-G3/analyze.cjs",
+      "camera_records": "studies/A2-G3/geometric-checks.json",
+      "external_cameras": "Identical across N1/N2/N3; ground perspective HFOV 58 degrees; orthographic horizontal span 10 km.",
+      "internal_cameras": "Model-specific near-floor eye; HFOV 82 degrees. N3 eye is exactly 2 m above flat ground-city floor.",
+      "render_resolution_per_view": [
+        100,
+        80
+      ],
+      "sheet_resolution": [
+        1500,
+        1050
+      ],
+      "postprocessing": "SVG rasterization with sharp; PNG palette 128 colors. No generative imagery."
+    },
+    "checks_performed": [
+      "Compared common-cavity N1 and serial-cavity N2 in the same analytic representation.",
+      "Stopped N1/N2 detail progression and redesigned main organization as N3 open civic court.",
+      "Recorded 200 m sampled material connectivity; refined only N2 to 100 m after small disconnected sample components.",
+      "Tested sightline occlusion at <=20 m spacing, camera-frame inclusion, and backing occupancy at +120 m in proposed gravity direction.",
+      "Probed four N3 600x240 m proposed surface patches at 21 points each.",
+      "Recorded N3 900 m material separation at one central section, not a global minimum.",
+      "Checked eight N3 urban-connection centerline segments.",
+      "C3 shared slab and wall removal each changed its cross-room test line from blocked to clear.",
+      "Checked six C3 shared-street centerline segments.",
+      "Inspected diagnostic sheets and retained unresolved side-wall, gate, and block-composition issues.",
+      "Computed exact SHA-256 checksums and byte sizes for all submitted artifacts."
+    ],
+    "results": {
+      "n3_visible_backed_in_frame_targets": [
+        "west",
+        "east",
+        "north_low",
+        "upper_inward"
+      ],
+      "n3_patch_combined_counts": {
+        "west": "21/21",
+        "east": "15/21",
+        "north": "18/21",
+        "upper_inward": "21/21"
+      },
+      "n3_upper_separation_probe_m": 900,
+      "c3_shared_boundary_removal_tests": "2/2 changed blocked to clear"
+    },
+    "limits": [
+      "All geometric dimensions are concept parameters or numeric consequences, not verified measurements of a delivered mesh.",
+      "No actual residential districts or full public-building room groups modeled for the Seven Skies variants.",
+      "No completed city horizons; surface targets and sparse probes are not populated urban worlds.",
+      "No structural, physiological, pedestrian-floor, or minimum-thickness guarantee.",
+      "N3 east and north proposed patches lose backing at some civic openings.",
+      "N3 side/back still read as walls; no art-quality pass.",
+      "No Work use, heavy local production, GLB/BLEND export, or Minecraft construction.",
+      "G2 priority derives from user instruction; no separate G2 review artifact was present in inspected art/a baseline."
+    ]
+  },
+  "notes": "N1/N2 are retained as stopped working configurations, not relabeled formal central REJECT. N3 resolves selected spatial conflicts but is not a recommended final art form; redesign of main city-bearing masses remains necessary. C3 establishes shared-boundary geometry only. G3 art review pending. Formal M247-C and construction remain HOLD.",
+  "provenance": {
+    "baseline_commit": "ceaeb5b3780871a3b3bb654886302a3a33f54c84",
+    "baseline_tree": "198cc22933181ed76f720afb771a2eb34465bd88",
+    "schema_blob_sha": "52e91392db9f15ee796c05236319e4639ce8cb4d",
+    "prior_study_id": "A2-G1",
+    "prior_manifest_path": "studies/A2-G1/manifest.json",
+    "g2_authority": "Current human user instruction; prioritization only, not art acceptance."
+  },
+  "execution": {
+    "environment": "Current local chat workspace, no Work handoff",
+    "model_primitive_count": {
+      "N1": 6,
+      "N2": 9,
+      "N3": 18,
+      "C3": 13
+    },
+    "note": "Small analytic occupancy calculations and diagnostic vector/raster sheets only; no mesh generation or heavy rendering."
+  }
+}
