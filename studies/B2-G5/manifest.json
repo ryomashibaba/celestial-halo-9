@@ -1,0 +1,131 @@
+{
+  "study_id": "B2-G5",
+  "branch": "art/b",
+  "revision": 1,
+  "stage": "CONCEPT",
+  "art_review_status": "NOT_REVIEWED",
+  "provisional_preference": "G5-01",
+  "formal_selection": null,
+  "assets": [
+    {
+      "path": "studies/B2-G5/build_review.py",
+      "kind": "CODE",
+      "sha256": "b0e6e6c6fdb4ed70ccb556e0fefd6dce3fbaa04bf958a10d578a18c65b38efd1",
+      "size_bytes": 28000
+    },
+    {
+      "path": "studies/B2-G5/city_plans.png",
+      "kind": "PNG",
+      "sha256": "3a18c678a0566e5dd8642b6ad8528537ed0f7c5f7fae989145fc165af38e3dd6",
+      "size_bytes": 89282
+    },
+    {
+      "path": "studies/B2-G5/city_plans.svg",
+      "kind": "SVG",
+      "sha256": "0b2d01d6c07837cfb7a58b004debcdf2d14f235fe1159dd6c592da844017aa65",
+      "size_bytes": 9890
+    },
+    {
+      "path": "studies/B2-G5/comparison.png",
+      "kind": "PNG",
+      "sha256": "efaf79e07b27b4430e25aa5524df311a5a12c500686a2af55e64373a8850888d",
+      "size_bytes": 123554
+    },
+    {
+      "path": "studies/B2-G5/comparison.svg",
+      "kind": "SVG",
+      "sha256": "c9e0da67034a008895c4db25cafffa9bf87e832ba15d7f559c1d05341638843f",
+      "size_bytes": 7946
+    },
+    {
+      "path": "studies/B2-G5/connections.json",
+      "kind": "JSON",
+      "sha256": "db795ed5cab8d10c9221debe5a68d9f0f744e23015df097ad7cf4772d52cb0f3",
+      "size_bytes": 9285
+    },
+    {
+      "path": "studies/B2-G5/history.json",
+      "kind": "JSON",
+      "sha256": "c511d1b7e20fbe6a170f6014aaca3edbe3bb97661de03949b834eec5d784e0b1",
+      "size_bytes": 800
+    },
+    {
+      "path": "studies/B2-G5/integration_guards.json",
+      "kind": "JSON",
+      "sha256": "9960e7837e47a85b89535cfbf82356151a7170dac76deb48c0d6d9591e6ceb44",
+      "size_bytes": 2244
+    },
+    {
+      "path": "studies/B2-G5/public_spaces.png",
+      "kind": "PNG",
+      "sha256": "daa2af1d3e9566fb28ae7262200da05a00896b2f83a32a25d67a5bf18e48d8a2",
+      "size_bytes": 113928
+    },
+    {
+      "path": "studies/B2-G5/public_spaces.svg",
+      "kind": "SVG",
+      "sha256": "8d8cc4f9e89025da767b945089ef23aef8ab902a41f9f5dfdd79ec6c2d4d9d4a",
+      "size_bytes": 9652
+    },
+    {
+      "path": "studies/B2-G5/references.json",
+      "kind": "JSON",
+      "sha256": "84368d4d1b4570729f22d5ddcd0d71edeab5999822898c98ab31e00dddbca86f",
+      "size_bytes": 1729
+    },
+    {
+      "path": "studies/B2-G5/REPORT_ja.md",
+      "kind": "REPORT",
+      "sha256": "3152a60a6b3bde1e91497198fc766108cc96c6db32650225f9329edbafbc1442",
+      "size_bytes": 24926
+    },
+    {
+      "path": "studies/B2-G5/review.html",
+      "kind": "HTML",
+      "sha256": "7380f180c66e4f887bc9465cd532c0c495012d6fe6b9583aa667fa03024a5b7d",
+      "size_bytes": 5824
+    },
+    {
+      "path": "studies/B2-G5/sections.png",
+      "kind": "PNG",
+      "sha256": "1ae88ff1d80b21af47e20d2404c5ec323fb587ca94100801e0e79b4a3f469148",
+      "size_bytes": 117951
+    },
+    {
+      "path": "studies/B2-G5/sections.svg",
+      "kind": "SVG",
+      "sha256": "6dd8def673ab334690a6d30fe9f5b82071a4b00ce024a92ea00ac9d1def6e284",
+      "size_bytes": 8257
+    },
+    {
+      "path": "studies/B2-G5/six_views.png",
+      "kind": "PNG",
+      "sha256": "c69c8915e0a862c1f14d2734eefce1f5588bdc04fa238d7be9a27ecf60ff1112",
+      "size_bytes": 84431
+    },
+    {
+      "path": "studies/B2-G5/six_views.svg",
+      "kind": "SVG",
+      "sha256": "22c99e73829aebe967bf8a73de3490a7f97feae528fd9f260ef6f802c78a02ae",
+      "size_bytes": 26811
+    },
+    {
+      "path": "studies/B2-G5/source_audit.json",
+      "kind": "JSON",
+      "sha256": "8c3a51bce98433988047bd0fcf2ac1c1132c7e09cfb70c896332856bba8d4e37",
+      "size_bytes": 1713
+    },
+    {
+      "path": "studies/B2-G5/verification.json",
+      "kind": "JSON",
+      "sha256": "c0e5cc89c84bb9dee981167e0bea3d23b12342e68d0335c7ed71e14be12568cb",
+      "size_bytes": 1758
+    }
+  ],
+  "holds": [
+    "DETAILED_3D",
+    "MINECRAFT_CONSTRUCTION",
+    "UNAPPROVED_WORK_USE"
+  ],
+  "W0_alignment": "PENDING_CANONICAL_SOURCE"
+}

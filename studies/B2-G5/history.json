@@ -1,0 +1,31 @@
+{
+  "study_id": "B2-G5",
+  "branch": "art/b",
+  "events": [
+    {
+      "date_jst": "2026-10-23",
+      "event": "G5_CONCEPT_RESEARCH_REQUESTED",
+      "note": "Current user brief authorizes concept research after G4 STOP; prior rejections remain."
+    },
+    {
+      "event": "TWO_INDEPENDENT_FORMATION_PRINCIPLES_DOCUMENTED",
+      "concepts": [
+        "G5-01",
+        "G5-02"
+      ]
+    },
+    {
+      "event": "INTERNAL_CONCEPT_COMPARISON",
+      "provisional_preference": "G5-01",
+      "formal_selection": null,
+      "art_review_status": "NOT_REVIEWED",
+      "next_gate": "CENTRAL_SUPERVISOR_SELECTION"
+    }
+  ],
+  "holds": [
+    "DETAILED_3D",
+    "MINECRAFT_CONSTRUCTION",
+    "UNAPPROVED_WORK_USE"
+  ],
+  "canonical_layout_alignment": "PENDING_SOURCE"
+}

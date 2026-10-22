@@ -1,0 +1,37 @@
+{
+  "study_id": "B2-G5",
+  "branch_read": "integration/local-work-m121-setup-20261014",
+  "purpose": "Source identity and coordinate limits only; no coordinate extraction or substitution",
+  "records": [
+    {
+      "path": "docs/M108_M607_MASTER_PLAN.md",
+      "blob_sha": "2d413c45f1df7e01b0a32d60b246b980debfb384",
+      "url": "https://github.com/ryomashibaba/celestial-halo-9/blob/integration/local-work-m121-setup-20261014/docs/M108_M607_MASTER_PLAN.md"
+    },
+    {
+      "path": "docs/M117_REAL_CITY_ATLAS_HANDOFF.md",
+      "blob_sha": "9150835661f134c568e03e557c6b6d27b282bafe",
+      "url": "https://github.com/ryomashibaba/celestial-halo-9/blob/integration/local-work-m121-setup-20261014/docs/M117_REAL_CITY_ATLAS_HANDOFF.md"
+    },
+    {
+      "path": "research/m121/upstream/data/M117_USER_READONLY_ATLAS.json",
+      "blob_sha": "df3098356499e1767563995a398ac7c7c824c30a",
+      "url": "https://github.com/ryomashibaba/celestial-halo-9/blob/integration/local-work-m121-setup-20261014/research/m121/upstream/data/M117_USER_READONLY_ATLAS.json"
+    }
+  ],
+  "atlas_identity": {
+    "mode": "EXACT_SAVED_BLOCKS_READ_ONLY_REVIEW_COPY",
+    "world_role": "USER_VERIFIED_OLD_ARCHITECTURE_REVIEW_COPY_ONLY",
+    "model_H_to_world_Y": "UNKNOWN_NEEDS_INDEPENDENT_LANDMARK_MATCH",
+    "construction_approved": false,
+    "survey_complete": true,
+    "site_count": 16
+  },
+  "chronology_note": "Handoff documents an earlier not-yet-run state; later atlas records complete survey of old review world. Neither establishes current W0 placement.",
+  "user_confirmed_limits": {
+    "M207_W0": "U/H/V",
+    "M204_central": "X/H/Z",
+    "verified_common_anchors": 0,
+    "inferred_transform_prohibited": true
+  }
+}

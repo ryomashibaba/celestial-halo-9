@@ -1,0 +1,68 @@
+{
+  "study_id": "B2-G5",
+  "authority": "User clarification 2026-10-23 JST",
+  "existing_elements": [
+    {
+      "id": "V1",
+      "coordinate_status": "UNVERIFIED",
+      "function_status": "UNVERIFIED",
+      "relocation": false,
+      "connection_endpoint": "UNDETERMINED"
+    },
+    {
+      "id": "V2",
+      "coordinate_status": "UNVERIFIED",
+      "function_status": "UNVERIFIED",
+      "relocation": false,
+      "connection_endpoint": "UNDETERMINED"
+    },
+    {
+      "id": "V3",
+      "coordinate_status": "UNVERIFIED",
+      "function_status": "UNVERIFIED",
+      "relocation": false,
+      "connection_endpoint": "UNDETERMINED"
+    },
+    {
+      "id": "EXISTING_MAJOR_AXIS_1",
+      "coordinate_status": "UNVERIFIED",
+      "function_status": "UNVERIFIED",
+      "relocation": false,
+      "connection_endpoint": "UNDETERMINED"
+    },
+    {
+      "id": "EXISTING_MAJOR_AXIS_2",
+      "coordinate_status": "UNVERIFIED",
+      "function_status": "UNVERIFIED",
+      "relocation": false,
+      "connection_endpoint": "UNDETERMINED"
+    },
+    {
+      "id": "EXISTING_MAJOR_AXIS_3",
+      "coordinate_status": "UNVERIFIED",
+      "function_status": "UNVERIFIED",
+      "relocation": false,
+      "connection_endpoint": "UNDETERMINED"
+    },
+    {
+      "id": "EXISTING_VIEW_CORRIDORS",
+      "coordinate_status": "UNVERIFIED",
+      "function_status": "UNVERIFIED",
+      "relocation": false,
+      "connection_endpoint": "UNDETERMINED"
+    }
+  ],
+  "coordinate_systems": {
+    "M207_W0": "U/H/V",
+    "M204_CENTRAL": "X/H/Z",
+    "G5": "UNREGISTERED_RESEARCH_LOCAL_X_Y_Z",
+    "verified_common_anchors": 0,
+    "transforms_created": false,
+    "inferred_registration": "PROHIBITED"
+  },
+  "M117": "OLD_REVIEW_WORLD_ONLY_NOT_CURRENT_FORMAL_CITY",
+  "G5-01_axis_rule": "Retain each existing axis; adapt transverse public openings, retain ground passage and optional vertical transfer",
+  "G5-02_axis_rule": "Keep inhabited supports off existing axes; adapt gaps and open ground passages",
+  "V_rule": "Preserve existence/basic policy; no invented use or exact position",
+  "view_corridor_rule": "Adjust proposed massing to existing protected views once identified"
+}

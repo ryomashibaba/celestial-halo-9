@@ -1,0 +1,63 @@
+{
+  "study_id": "B2-G5",
+  "stage": "CONCEPT",
+  "checks": {
+    "unique_connection_ids": 23,
+    "H_count": 6,
+    "SB_count": 16,
+    "HERO4_count": 1,
+    "independent_principles": [
+      "ROOF_STREET_PUBLIC_BUILDING_RECURSION",
+      "ELEVATED_COMMON_GROUND_AND_INHABITED_SUPPORTS"
+    ],
+    "primary_references": 4,
+    "svg_xml": "PASS",
+    "html_local_links": "PASS",
+    "comparison_png": "PASS"
+  },
+  "calculations": {
+    "G5-01_transport_slopes_percent": [
+      20.0,
+      21.54,
+      23.93,
+      24.19
+    ],
+    "horizontal_transport_length_m": 10600,
+    "walking_2400m_rise_at_5percent_horizontal_m": 48000
+  },
+  "not_verified": [
+    "W0_COORDINATE_ALIGNMENT",
+    "EXISTING_ENDPOINT_ALTITUDES_FUNCTIONS",
+    "COLLISION_CLEARANCE",
+    "STRUCTURE",
+    "DAYLIGHT",
+    "WIND",
+    "EGRESS",
+    "TRANSPORT_CAPACITY",
+    "3D_SILHOUETTE",
+    "INHABITABILITY"
+  ],
+  "model_files_created": [],
+  "measured_dimensions_m": null,
+  "images": "DETERMINISTIC_CONCEPT_DIAGRAMS_NOT_3D_RENDERS",
+  "art_review_status": "NOT_REVIEWED",
+  "provisional_preference": "G5-01",
+  "formal_selection": null,
+  "visual_inspection": {
+    "method": "Assistant inspected exported PNG boards using view_image; corrected strip widths, label spacing and elevation distinctions",
+    "boards": [
+      "comparison.png",
+      "city_plans.png",
+      "sections.png",
+      "six_views.png",
+      "public_spaces.png"
+    ],
+    "scope": "Diagram readability only; no browser or 3D rendering QA"
+  },
+  "coordinate_guard": {
+    "verified_common_anchors": 0,
+    "M207_M204_transform_created": false,
+    "legacy_M117_coordinates_used": false,
+    "V1_V3_and_axes": "PRESERVE_UNREGISTERED"
+  }
+}
