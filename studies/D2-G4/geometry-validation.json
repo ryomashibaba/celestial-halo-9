@@ -1,0 +1,52 @@
+{
+  "study_id": "D2-G4",
+  "units": "metres in GLB; internal design coordinates in kilometres",
+  "grid_resolution": [
+    83,
+    73,
+    81
+  ],
+  "method": "procedural implicit massing, no Blender session",
+  "limitations": [
+    "concept massing only; no structure, circulation simulation, inhabited district geometry, or constructability claim",
+    "six images are diagnostic software renders from the same mesh with common orthographic scale",
+    "the interior-axis view is orthographic and does not establish walk-through sightlines",
+    "smooth fused mass still reads as a gate and a generic blob in several views; both concepts fail the internal art screen"
+  ],
+  "models": {
+    "N1": {
+      "vertices": 99216,
+      "faces": 198428,
+      "watertight": true,
+      "bounds_m": [
+        [
+          -3454.30615234375,
+          -2365.12060546875,
+          -729.9641723632812
+        ],
+        [
+          3470.810791015625,
+          2629.01806640625,
+          5929.83349609375
+        ]
+      ],
+      "dimensions_m": [
+        6925.116943359375,
+        4994.138671875,
+        6659.797668457031
+      ],
+      "volume_m3": 114793332063.3211,
+      "surface_area_m2": 175468104.71828014,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "geometry_method": "single implicit smooth-union isosurface with carved civic voids; marching tetrahedra"
+    },
+    "N2": {
+      "vertices": 100494,
+      "faces": 200992,
+      "watertight": true,
+      "bounds_m": [
+        [
+          -3502.63330078125,
+          -2259.64697265625,
+          

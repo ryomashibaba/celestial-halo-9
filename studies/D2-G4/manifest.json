@@ -1,0 +1,27 @@
+{
+  "study_id": "D2-G4",
+  "title": "HALO-9 G4-D Star-Marrow Cluster City Low-Detail 3D Art Screen",
+  "stage": "DIAGNOSTIC_MASSING",
+  "art_review_status": "REJECT",
+  "review_scope": "internal research screen; not formal user adoption",
+  "updated_at": "2026-10-22T14:16:37Z",
+  "dimensions_m": null,
+  "proposed_dimensions_m": {
+    "N1": {"width": 6925, "depth": 4994, "height_including_subgrade": 6660, "above_grade_height": 5930},
+    "N2": {"width": 7102, "depth": 4885, "height_including_subgrade": 6534, "above_grade_height": 5941}
+  },
+  "assets": [
+    {"path": "studies/D2-G4/comparison.md", "kind": "REPORT", "sha256": "3c91749dd6c2563f63c7151a66b2c831df019465fd46e97a76feba5edee03059", "size_bytes": 6514},
+    {"path": "studies/D2-G4/build_study.py", "kind": "SOURCE", "sha256": "b90b279b35b15418c75cc0f22e2fb1e0e2b13ea86db88adc0146a5d8e3b99032", "size_bytes": 13226},
+    {"path": "studies/D2-G4/N1-Marrow-Gorge.glb", "kind": "LOW_DETAIL_3D_DIAGNOSTIC", "sha256": "00d3dcc44d7eca20146f3fffe0de0d315262a73ccc291b8bc531b23d866e9cec", "size_bytes": 3572504},
+    {"path": "studies/D2-G4/N2-Offset-Crossfold.glb", "kind": "LOW_DETAIL_3D_DIAGNOSTIC", "sha256": "81ec1ff7008996251f928dbabcf5dc3f570a31fd8eecaeacf5a47996f12529aa", "size_bytes": 3618604},
+    {"path": "studies/D2-G4/D2-G4-six-view-diagnostic.png", "kind": "SAME_MESH_ORTHOGRAPHIC_DIAGNOSTIC", "sha256": "7b7b60aeed2dcef33cba919d3a6d6c59691918dbbf369603376c3b3b1bb0d5ab", "size_bytes": 566903},
+    {"path": "studies/D2-G4/geometry-validation.json", "kind": "MESH_VALIDATION", "sha256": "f50cb8e642d3596d086203633f5dc24d700e95f5314c79554383705e1f95c1f4", "size_bytes": 2175}
+  ],
+  "validation": {
+    "load_results": "procedural GLB meshes created outside Blender; both are watertight, winding-consistent, single connected components",
+    "shared_camera_comparisons": "6 orthographic diagnostic directions per mesh from the same geometry; same physical span and image dimensions",
+    "checked": [
+      "N1 and N2 are distinct internal void topologies, compared under identical view scale",
+      "mesh topology, connected component count, dimensions, face count, and mesh volume measured",
+      "cell-like source volumes are fused into a single continuous ma

@@ -3,51 +3,88 @@
   "branch": "art/d",
   "track": "D",
   "latest": {
-    "study_id": "D2-G3",
-    "title": "HALO-9 G3-D Star-Marrow Cluster City Spatial Configuration Study",
-    "stage": "CONCEPT",
-    "art_review_status": "HOLD",
-    "updated_at": "2026-10-22T13:03:30Z",
+    "study_id": "D2-G4",
+    "title": "HALO-9 G4-D Star-Marrow Cluster City Low-Detail 3D Art Screen",
+    "stage": "DIAGNOSTIC_MASSING",
+    "art_review_status": "REJECT",
+    "updated_at": "2026-10-22T14:16:37Z",
     "dimensions_m": null,
     "proposed_dimensions_m": {
-      "width": 7100,
-      "depth": 5800,
-      "height": 5500
+      "N1": {
+        "width": 6925,
+        "depth": 4994,
+        "height_including_subgrade": 6660,
+        "above_grade_height": 5930
+      },
+      "N2": {
+        "width": 7102,
+        "depth": 4885,
+        "height_including_subgrade": 6534,
+        "above_grade_height": 5941
+      }
     },
     "assets": [
       {
-        "path": "studies/D2-G3/comparison.md",
-        "kind": "REPORT",
-        "sha256": "09963cd198eb15fa432cff09acb569f4979cb804a51f5907724d103cab673410",
-        "size_bytes": 16514
+        "path": "studies/D2-G4/comparison.md",
+        "kind": "REPORT"
+      },
+      {
+        "path": "studies/D2-G4/build_study.py",
+        "kind": "SOURCE"
+      },
+      {
+        "path": "studies/D2-G4/N1-Marrow-Gorge.glb",
+        "kind": "LOW_DETAIL_3D_DIAGNOSTIC"
+      },
+      {
+        "path": "studies/D2-G4/N2-Offset-Crossfold.glb",
+        "kind": "LOW_DETAIL_3D_DIAGNOSTIC"
+      },
+      {
+        "path": "studies/D2-G4/D2-G4-six-view-diagnostic.png",
+        "kind": "SAME_MESH_ORTHOGRAPHIC_DIAGNOSTIC"
+      },
+      {
+        "path": "studies/D2-G4/geometry-validation.json",
+        "kind": "MESH_VALIDATION"
+      },
+      {
+        "path": "studies/D2-G4/manifest.json",
+        "kind": "STUDY_MANIFEST"
       }
     ],
     "validation": {
-      "load_results": "not_applicable: concept-stage text study; Blender connection unavailable, no model or image assets created",
-      "shared_camera_comparisons": "not_performed",
+      "load_results": "Procedural GLB meshes created outside Blender; both are watertight, winding-consistent, single connected components.",
+      "shared_camera_comparisons": "Six orthographic diagnostic directions per mesh from the same geometry, with a common physical span and output size.",
       "checked": [
-        "compared two distinct volumetric cluster-city configurations",
-        "specified conceptual mass, void and cell-size ratios",
-        "mapped human, public-facility and kilometer-scale spaces",
-        "checked high-altitude occupied mass and district continuity as design conditions",
-        "reassessed Tectonic Sanctum as inhabited public ground",
-        "defined six-view composition conditions"
+        "N1 and N2 compared under identical view scale",
+        "topology, connected component count, dimensions, face count, and volume measured",
+        "six-direction diagnostic image generated from exported geometry"
       ],
       "limits": [
-        "all dimensions and visual density ratios are conceptual, not model measurements",
-        "no live Blender scene was available",
-        "no 3D silhouette, section model, or six-camera image was verified",
-        "no formal M247-C review or approval"
+        "Both concepts internally REJECTED for generic smooth blob and gate-like canyon reading",
+        "inhabited districts, public facilities, and human-scale streets are not modeled",
+        "interior-axis view is not a perspective walk-through",
+        "solid volume is not usable floor area or occupancy",
+        "no Blender file or Blender render; no structural or constructability review"
       ]
     },
-    "notes": "N1 dense core with a long urban canyon, N2 offset crossing canyons, and Tectonic Sanctum remain parallel comparison candidates. No single concept is adopted. Low-detail Blender comparison is deferred because the live Blender addon was unavailable. Formal design and Minecraft construction remain HOLD."
+    "notes": "Do not detail or adopt either massing. Preserve as internal rejection evidence. Formal M247-C direction and Minecraft construction HOLD remain unchanged."
   },
   "history": [
     {
       "study_id": "D2-G1",
       "manifest_path": "studies/D2-G1/manifest.json"
+    },
+    {
+      "study_id": "D2-G3",
+      "manifest_path": "studies/D2-G3/manifest.json"
+    },
+    {
+      "study_id": "D2-G4",
+      "manifest_path": "studies/D2-G4/manifest.json"
     }
   ],
-  "last_submission_at": "2026-10-22T13:03:30Z",
-  "policy": "ART-FIRST. Formal design and Minecraft construction remain HOLD. A GitHub smoke test is not a study result."
+  "last_submission_at": "2026-10-22T14:16:37Z",
+  "policy": "ART-FIRST. Formal design and Minecraft construction remain HOLD. Internal REJECT preserves study history and is not a formal adoption decision."
 }
