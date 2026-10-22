@@ -1,0 +1,17 @@
+{
+  "purpose": "GitHub binary upload/read integrity test ONLY, not HALO-9 research",
+  "files": [
+    {
+      "path": "research/smoke-tests/smoke.png",
+      "size_bytes": 188,
+      "sha256": "0c2c42a807ea9a324bfa2a89e6e4e793d8886e8c0cd4832c49be2c339cdf3be1",
+      "git_blob_sha1": "217d49de0a66b3767fa8d6898f6d93c1223942f8"
+    },
+    {
+      "path": "research/smoke-tests/smoke.glb",
+      "size_bytes": 612,
+      "sha256": "a3926ff5392d2116ef001e200e56f77b936a143362f6bfdec960f345a79c30cc",
+      "git_blob_sha1": "4c14b1a8dde84d3841e13fe97dbff7efe7f7cfa0"
+    }
+  ]
+}
