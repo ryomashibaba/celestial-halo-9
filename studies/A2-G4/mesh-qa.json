@@ -1,0 +1,2297 @@
+{
+  "P1": {
+    "loader": "trimesh",
+    "geometry_count": 39,
+    "geometry": [
+      {
+        "name": "P1_CONTINUOUS_CITY_FOLD",
+        "watertight_after_vertex_merge": false,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 1373,
+        "triangles": 2680
+      },
+      {
+        "name": "P1_CONTINUOUS_CITY_FOLD_1",
+        "watertight_after_vertex_merge": false,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 74,
+        "triangles": 74
+      },
+      {
+        "name": "Cube.003",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.004",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.005",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.006",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.007",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.008",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.009",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.010",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.011",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.012",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.013",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.014",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.015",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.016",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.017",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.018",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.019",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.020",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.021",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.022",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.023",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.024",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.025",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.026",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.027",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.028",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.029",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.030",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.031",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.032",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.033",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.034",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.035",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.036",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.037",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.038",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.039",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      }
+    ],
+    "primary_mass_after_material_partition_reassembly": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 1373,
+      "triangles": 2754
+    },
+    "scope": "Material partitions individually can be open. Main mass reassembled and welded for topology. No collision, support engineering or art acceptance"
+  },
+  "P2": {
+    "loader": "trimesh",
+    "geometry_count": 26,
+    "geometry": [
+      {
+        "name": "Cube.019",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.020",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.021",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.022",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.023",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.024",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.025",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.026",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.001",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.002",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.003",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.004",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.005",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.006",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.007",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.008",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.010",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.011",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.012",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.013",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.014",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.015",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.016",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.017",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "P2_SINGLE_SHARED_CIVIC_MASS",
+        "watertight_after_vertex_merge": false,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 1469,
+        "triangles": 2871
+      },
+      {
+        "name": "P2_SINGLE_SHARED_CIVIC_MASS_1",
+        "watertight_after_vertex_merge": false,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 78,
+        "triangles": 81
+      }
+    ],
+    "primary_mass_after_material_partition_reassembly": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 1472,
+      "triangles": 2952
+    },
+    "scope": "Material partitions individually can be open. Main mass reassembled and welded for topology. No collision, support engineering or art acceptance"
+  },
+  "P2R": {
+    "loader": "trimesh",
+    "geometry_count": 217,
+    "geometry": [
+      {
+        "name": "P2_SINGLE_SHARED_CIVIC_MASS",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 1829,
+        "triangles": 3654
+      },
+      {
+        "name": "Cube",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.001",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.002",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.003",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.004",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.005",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.006",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.007",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.008",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.009",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.010",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.011",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.012",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.013",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.014",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.015",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.016",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.017",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.018",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.019",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.020",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.021",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.022",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.023",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.024",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.025",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.026",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.027",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.028",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.029",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.030",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.031",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.032",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.033",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.034",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.035",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.036",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.037",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.038",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.039",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.040",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.041",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.042",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.043",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.044",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.045",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.046",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.047",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.048",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.049",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.050",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.051",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.052",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.053",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.054",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.055",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.056",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.057",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.058",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.059",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.060",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.061",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.062",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.063",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.064",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.065",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.066",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.067",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.068",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.069",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.070",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.071",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.072",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.073",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.074",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.075",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.076",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.077",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.078",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.079",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.080",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.081",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.082",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.083",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.084",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.085",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.086",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.087",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.088",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.089",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.090",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.091",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.092",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.093",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.094",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.095",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.096",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.097",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.098",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.099",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.100",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.101",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.102",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.103",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.104",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.105",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.106",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.107",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.108",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.109",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.110",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.111",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.112",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.113",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.114",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.115",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.116",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.117",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.118",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.119",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.120",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.121",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.122",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.123",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.124",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.125",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.126",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.127",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.128",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.129",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.130",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.131",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.132",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.133",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.134",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.135",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.136",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.137",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.138",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.139",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.140",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.141",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.142",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.143",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.144",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.145",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.146",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.147",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.148",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.149",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.150",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.151",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.152",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.153",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.154",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.155",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.156",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.157",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.158",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.159",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.160",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.161",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.162",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.163",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.164",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.165",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.166",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.167",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.168",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.169",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.170",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.171",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.172",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.173",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.174",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.175",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.176",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.177",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.178",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.179",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.180",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.181",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.182",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.183",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.184",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.185",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.186",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.187",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.188",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.189",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.190",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.191",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.192",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.193",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.194",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.195",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.196",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.197",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.198",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.199",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.200",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.201",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.202",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.203",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.204",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.205",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.206",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.207",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.208",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.209",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.210",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.211",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.212",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.213",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.214",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      },
+      {
+        "name": "Cube.215",
+        "watertight_after_vertex_merge": true,
+        "winding_consistent": true,
+        "finite_vertices": true,
+        "vertices": 8,
+        "triangles": 12
+      }
+    ],
+    "primary_mass_after_material_partition_reassembly": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 1829,
+      "triangles": 3654
+    },
+    "scope": "Material partitions individually can be open. Main mass reassembled and welded for topology. No collision, support engineering or art acceptance"
+  }
+}

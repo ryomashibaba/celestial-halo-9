@@ -1,0 +1,1815 @@
+{
+  "units": "metres",
+  "external_cameras": {
+    "01_front": [
+      [
+        0,
+        -14000,
+        3100
+      ],
+      [
+        0,
+        0,
+        2800
+      ],
+      8500
+    ],
+    "02_oblique": [
+      [
+        11000,
+        -14000,
+        9400
+      ],
+      [
+        0,
+        0,
+        2800
+      ],
+      8500
+    ],
+    "03_side": [
+      [
+        14000,
+        0,
+        3100
+      ],
+      [
+        0,
+        0,
+        2800
+      ],
+      8500
+    ],
+    "04_aerial": [
+      [
+        9000,
+        -11000,
+        17000
+      ],
+      [
+        0,
+        0,
+        2800
+      ],
+      8500
+    ],
+    "05_back": [
+      [
+        0,
+        14000,
+        3100
+      ],
+      [
+        0,
+        0,
+        2800
+      ],
+      8500
+    ]
+  },
+  "external_resolution": [
+    1000,
+    900
+  ],
+  "generative_images": false,
+  "formal_art_acceptance": false,
+  "models": {
+    "P1": {
+      "glb_reimport": "SUCCESS",
+      "bounds_m": [
+        [
+          -2719.09912109375,
+          -2668.08544921875,
+          0.0
+        ],
+        [
+          2837.423095703125,
+          2857.51708984375,
+          5900.0
+        ]
+      ],
+      "dimensions_m": {
+        "width": 5556.522216796875,
+        "depth": 5525.6025390625,
+        "height": 5900.0
+      },
+      "mesh_objects": 38,
+      "triangles": 3198,
+      "bounds_roundtrip_max_error_m": 0.0,
+      "facilities": [
+        {
+          "id": "gallery_0",
+          "centre_m": [
+            1126.4835942786244,
+            -1586.9649302015482,
+            1536.0
+          ],
+          "clearance_m": [
+            2000,
+            460,
+            330
+          ],
+          "roof_is_city_ground": true,
+          "scope": "single oriented box subtraction; no room fit-out"
+        },
+        {
+          "id": "gallery_1",
+          "centre_m": [
+            1161.6178708471366,
+            1713.3429085062232,
+            2870.0
+          ],
+          "clearance_m": [
+            2000,
+            460,
+            330
+          ],
+          "roof_is_city_ground": true,
+          "scope": "single oriented box subtraction; no room fit-out"
+        },
+        {
+          "id": "gallery_2",
+          "centre_m": [
+            -1891.2291227148128,
+            458.99388151025795,
+            4204.0
+          ],
+          "clearance_m": [
+            2000,
+            460,
+            330
+          ],
+          "roof_is_city_ground": true,
+          "scope": "single oriented box subtraction; no room fit-out"
+        }
+      ],
+      "districts": [
+        {
+          "id": 0,
+          "surface_altitude_m": 1712.0,
+          "blocks": 6,
+          "nominal_street_gap_m": 20,
+          "population": null
+        },
+        {
+          "id": 1,
+          "surface_altitude_m": 2448.0,
+          "blocks": 6,
+          "nominal_street_gap_m": 20,
+          "population": null
+        },
+        {
+          "id": 2,
+          "surface_altitude_m": 3138.0,
+          "blocks": 6,
+          "nominal_street_gap_m": 20,
+          "population": null
+        },
+        {
+          "id": 3,
+          "surface_altitude_m": 3920.0,
+          "blocks": 6,
+          "nominal_street_gap_m": 20,
+          "population": null
+        },
+        {
+          "id": 4,
+          "surface_altitude_m": 4656.0,
+          "blocks": 6,
+          "nominal_street_gap_m": 20,
+          "population": null
+        },
+        {
+          "id": 5,
+          "surface_altitude_m": 5300.0,
+          "blocks": 6,
+          "nominal_street_gap_m": 20,
+          "population": null
+        }
+      ],
+      "district_support_probes": [
+        {
+          "object": "P1_District_00_block_00",
+          "vertical_gap_m": 992.1687622070312,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_00_block_01",
+          "vertical_gap_m": 982.1196899414062,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_00_block_02",
+          "vertical_gap_m": -0.87158203125,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_00_block_03",
+          "vertical_gap_m": 982.016845703125,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_00_block_04",
+          "vertical_gap_m": -0.7432861328125,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_00_block_05",
+          "vertical_gap_m": 981.9074096679688,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_01_block_00",
+          "vertical_gap_m": -0.64599609375,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_01_block_01",
+          "vertical_gap_m": 984.584228515625,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_01_block_02",
+          "vertical_gap_m": -0.7314453125,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_01_block_03",
+          "vertical_gap_m": 984.509521484375,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_01_block_04",
+          "vertical_gap_m": -0.820068359375,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_01_block_05",
+          "vertical_gap_m": 984.4276123046875,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_02_block_00",
+          "vertical_gap_m": -0.660400390625,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_02_block_01",
+          "vertical_gap_m": 984.50244140625,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_02_block_02",
+          "vertical_gap_m": -0.72509765625,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_02_block_03",
+          "vertical_gap_m": 984.390625,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_02_block_04",
+          "vertical_gap_m": -0.789306640625,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_02_block_05",
+          "vertical_gap_m": 984.273193359375,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_03_block_00",
+          "vertical_gap_m": 993.348876953125,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_03_block_01",
+          "vertical_gap_m": 983.272216796875,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_03_block_02",
+          "vertical_gap_m": 993.1953125,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_03_block_03",
+          "vertical_gap_m": 983.117919921875,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_03_block_04",
+          "vertical_gap_m": 993.04052734375,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_03_block_05",
+          "vertical_gap_m": 982.962646484375,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_04_block_00",
+          "vertical_gap_m": -0.2060546875,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_04_block_01",
+          "vertical_gap_m": 982.345947265625,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_04_block_02",
+          "vertical_gap_m": -0.2529296875,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_04_block_03",
+          "vertical_gap_m": 982.9873046875,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_04_block_04",
+          "vertical_gap_m": -0.2939453125,
+          "within_5m": true
+        },
+        {
+          "object": "P1_District_04_block_05",
+          "vertical_gap_m": 358.2783203125,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_05_block_00",
+          "vertical_gap_m": 993.65673828125,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_05_block_01",
+          "vertical_gap_m": 983.54931640625,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_05_block_02",
+          "vertical_gap_m": 993.44287109375,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_05_block_03",
+          "vertical_gap_m": 983.33837890625,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_05_block_04",
+          "vertical_gap_m": 993.234375,
+          "within_5m": false
+        },
+        {
+          "object": "P1_District_05_block_05",
+          "vertical_gap_m": 983.130859375,
+          "within_5m": false
+        }
+      ],
+      "internal_camera": [
+        [
+          0,
+          -2200,
+          652
+        ],
+        [
+          0,
+          700,
+          3400
+        ],
+        null
+      ],
+      "limits": [
+        "Blockout markers are not complete cities",
+        "No structure, services, accessibility or gravity transition engineering",
+        "No claim that N3 four-horizon visibility survives redesign",
+        "Public-space subtraction is not occupied floor-area validation"
+      ]
+    },
+    "P2": {
+      "glb_reimport": "SUCCESS",
+      "bounds_m": [
+        [
+          -2820.82275390625,
+          -2984.25634765625,
+          0.0
+        ],
+        [
+          3213.983154296875,
+          3133.09912109375,
+          5700.0
+        ]
+      ],
+      "dimensions_m": {
+        "width": 6034.805908203125,
+        "depth": 6117.35546875,
+        "height": 5700.0
+      },
+      "mesh_objects": 25,
+      "triangles": 3240,
+      "bounds_roundtrip_max_error_m": 0.0,
+      "facilities": [
+        {
+          "id": "assembly",
+          "court_floor_z_m": 500,
+          "court_radii_m": [
+            1350,
+            950
+          ],
+          "public_hall_clearance_m": [
+            600,
+            2300,
+            320
+          ],
+          "roof_is_city_ground": true,
+          "scope": "court and hall subtractions; sharing is geometric not operational"
+        },
+        {
+          "id": "library",
+          "court_floor_z_m": 2300,
+          "court_radii_m": [
+            1100,
+            820
+          ],
+          "public_hall_clearance_m": [
+            600,
+            2300,
+            320
+          ],
+          "roof_is_city_ground": true,
+          "scope": "court and hall subtractions; sharing is geometric not operational"
+        },
+        {
+          "id": "academy",
+          "court_floor_z_m": 4250,
+          "court_radii_m": [
+            800,
+            610
+          ],
+          "public_hall_clearance_m": [
+            600,
+            2300,
+            320
+          ],
+          "roof_is_city_ground": true,
+          "scope": "court and hall subtractions; sharing is geometric not operational"
+        }
+      ],
+      "districts": [
+        {
+          "id": "assembly",
+          "court_floor_z_m": 500,
+          "blocks_requested": 8,
+          "population": null
+        },
+        {
+          "id": "library",
+          "court_floor_z_m": 2300,
+          "blocks_requested": 8,
+          "population": null
+        },
+        {
+          "id": "academy",
+          "court_floor_z_m": 4250,
+          "blocks_requested": 8,
+          "population": null
+        }
+      ],
+      "district_support_probes": [
+        {
+          "object": "P2_academy_district_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_academy_district_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_academy_district_2",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_academy_district_3",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_academy_district_4",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_academy_district_5",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_academy_district_6",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_academy_district_7",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_assembly_district_0",
+          "vertical_gap_m": -0.0003662109375,
+          "within_5m": true
+        },
+        {
+          "object": "P2_assembly_district_1",
+          "vertical_gap_m": 0.000244140625,
+          "within_5m": true
+        },
+        {
+          "object": "P2_assembly_district_2",
+          "vertical_gap_m": -0.000244140625,
+          "within_5m": true
+        },
+        {
+          "object": "P2_assembly_district_3",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_assembly_district_4",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_assembly_district_5",
+          "vertical_gap_m": 1670.373779296875,
+          "within_5m": false
+        },
+        {
+          "object": "P2_assembly_district_6",
+          "vertical_gap_m": 0.000244140625,
+          "within_5m": true
+        },
+        {
+          "object": "P2_assembly_district_7",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_library_district_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_library_district_1",
+          "vertical_gap_m": 238.78369140625,
+          "within_5m": false
+        },
+        {
+          "object": "P2_library_district_2",
+          "vertical_gap_m": 1210.810546875,
+          "within_5m": false
+        },
+        {
+          "object": "P2_library_district_3",
+          "vertical_gap_m": 1350.0,
+          "within_5m": false
+        },
+        {
+          "object": "P2_library_district_4",
+          "vertical_gap_m": 1327.87646484375,
+          "within_5m": false
+        },
+        {
+          "object": "P2_library_district_5",
+          "vertical_gap_m": 0.00048828125,
+          "within_5m": true
+        },
+        {
+          "object": "P2_library_district_6",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2_library_district_7",
+          "vertical_gap_m": -0.00048828125,
+          "within_5m": true
+        }
+      ],
+      "internal_camera": [
+        [
+          650,
+          -1750,
+          502
+        ],
+        [
+          0,
+          -500,
+          2400
+        ],
+        null
+      ],
+      "limits": [
+        "Blockout markers are not complete cities",
+        "No structure, services, accessibility or gravity transition engineering",
+        "No claim that N3 four-horizon visibility survives redesign",
+        "Public-space subtraction is not occupied floor-area validation"
+      ]
+    },
+    "P2R": {
+      "glb_reimport": "SUCCESS",
+      "bounds_m": [
+        [
+          -2820.82275390625,
+          -2984.25634765625,
+          0.0
+        ],
+        [
+          3213.983154296875,
+          3133.09912109375,
+          5600.0
+        ]
+      ],
+      "dimensions_m": {
+        "width": 6034.805908203125,
+        "depth": 6117.35546875,
+        "height": 5600.0
+      },
+      "mesh_objects": 217,
+      "triangles": 6246,
+      "bounds_roundtrip_max_error_m": 0.0,
+      "facilities": [
+        {
+          "id": "assembly",
+          "court_floor_z_m": 450,
+          "court_radii_m": [
+            1400,
+            1250
+          ],
+          "public_hall_clearance_m": [
+            600,
+            2300,
+            320
+          ],
+          "roof_is_city_ground": true,
+          "scope": "court and hall subtractions; sharing is geometric not operational"
+        },
+        {
+          "id": "library",
+          "court_floor_z_m": 2150,
+          "court_radii_m": [
+            1250,
+            1000
+          ],
+          "public_hall_clearance_m": [
+            600,
+            2300,
+            320
+          ],
+          "roof_is_city_ground": true,
+          "scope": "court and hall subtractions; sharing is geometric not operational"
+        },
+        {
+          "id": "academy",
+          "court_floor_z_m": 3950,
+          "court_radii_m": [
+            1000,
+            1100
+          ],
+          "public_hall_clearance_m": [
+            600,
+            2300,
+            320
+          ],
+          "roof_is_city_ground": true,
+          "scope": "court and hall subtractions; sharing is geometric not operational"
+        }
+      ],
+      "districts": [
+        {
+          "id": "1500",
+          "surface_altitude_m": 1500,
+          "nominal_blocks": 72,
+          "note": "Horizontal terrace blockouts; streets and support require verification"
+        },
+        {
+          "id": "3350",
+          "surface_altitude_m": 3350,
+          "nominal_blocks": 72,
+          "note": "Horizontal terrace blockouts; streets and support require verification"
+        },
+        {
+          "id": "5050",
+          "surface_altitude_m": 5050,
+          "nominal_blocks": 72,
+          "note": "Horizontal terrace blockouts; streets and support require verification"
+        }
+      ],
+      "district_support_probes": [
+        {
+          "object": "P2R_district_1500_0_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_0_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_1_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_1_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_2_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_2_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_3_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_3_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_4_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_4_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_5_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_5_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_6_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_6_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_7_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_7_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_8_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_8_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_9_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_9_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_10_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_10_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_11_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_11_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_12_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_12_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_13_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_13_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_14_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_14_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_15_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_15_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_16_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_16_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_17_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_17_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_18_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_18_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_19_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_19_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_20_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_20_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_21_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_21_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_22_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_22_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_23_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_23_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_24_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_24_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_25_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_25_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_26_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_26_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_27_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_27_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_28_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_28_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_29_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_29_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_30_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_30_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_31_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_31_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_32_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_32_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_33_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_33_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_34_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_34_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_35_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_1500_35_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_0_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_0_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_1_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_1_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_2_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_2_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_3_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_3_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_4_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_4_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_5_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_5_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_6_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_6_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_7_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_7_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_8_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_8_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_9_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_9_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_10_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_10_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_11_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_11_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_12_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_12_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_13_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_13_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_14_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_14_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_15_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_15_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_16_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_16_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_17_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_17_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_18_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_18_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_19_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_19_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_20_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_20_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_21_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_21_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_22_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_22_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_23_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_23_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_24_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_24_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_25_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_25_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_26_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_26_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_27_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_27_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_28_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_28_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_29_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_29_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_30_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_30_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_31_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_31_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_32_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_32_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_33_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_33_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_34_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_34_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_35_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_3350_35_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_0_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_0_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_1_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_1_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_2_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_2_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_3_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_3_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_4_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_4_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_5_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_5_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_6_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_6_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_7_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_7_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_8_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_8_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_9_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_9_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_10_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_10_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_11_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_11_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_12_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_12_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_13_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_13_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_14_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_14_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_15_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_15_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_16_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_16_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_17_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_17_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_18_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_18_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_19_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_19_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_20_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_20_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_21_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_21_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_22_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_22_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_23_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_23_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_24_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_24_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_25_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_25_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_26_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_26_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_27_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_27_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_28_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_28_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_29_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_29_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_30_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_30_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_31_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_31_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_32_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_32_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_33_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_33_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_34_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_34_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_35_0",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        },
+        {
+          "object": "P2R_district_5050_35_1",
+          "vertical_gap_m": 0.0,
+          "within_5m": true
+        }
+      ],
+      "internal_camera": [
+        [
+          100,
+          -2200,
+          452
+        ],
+        [
+          100,
+          -1000,
+          1050
+        ],
+        null
+      ],
+      "limits": [
+        "Blockout markers are not complete cities",
+        "No structure, services, accessibility or gravity transition engineering",
+        "No claim that N3 four-horizon visibility survives redesign",
+        "Public-space subtraction is not occupied floor-area validation"
+      ]
+    }
+  }
+}

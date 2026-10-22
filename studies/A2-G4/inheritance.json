@@ -1,0 +1,746 @@
+{
+  "source_branch": "art/a",
+  "source_commit": "2557681ad23a14399c6d5071d6b9adb0915ec8ba",
+  "N3_definition": {
+    "id": "N3",
+    "name": "折院共空 / An Open Court of Inward Cities",
+    "solids": [
+      {
+        "type": "box",
+        "name": "western inhabited cliff",
+        "min": [
+          -3,
+          -1.8,
+          0
+        ],
+        "max": [
+          -1.2,
+          1.9,
+          6
+        ]
+      },
+      {
+        "type": "box",
+        "name": "eastern lower city",
+        "min": [
+          1,
+          -0.6,
+          0
+        ],
+        "max": [
+          2.9,
+          2.3,
+          3.8
+        ]
+      },
+      {
+        "type": "box",
+        "name": "upper inhabited continent",
+        "min": [
+          -2.5,
+          -1.2,
+          4.5
+        ],
+        "max": [
+          2,
+          2.1,
+          6.4
+        ]
+      },
+      {
+        "type": "box",
+        "name": "northern civic junction",
+        "min": [
+          -2.2,
+          0.8,
+          1.8
+        ],
+        "max": [
+          2.2,
+          2.5,
+          5.8
+        ]
+      },
+      {
+        "type": "box",
+        "name": "ground city",
+        "min": [
+          -3,
+          -2,
+          0
+        ],
+        "max": [
+          3,
+          2.5,
+          0.7
+        ]
+      }
+    ],
+    "voids": [
+      {
+        "type": "box",
+        "name": "south open common sky",
+        "min": [
+          -1.4,
+          -2.6,
+          0.7
+        ],
+        "max": [
+          1.2,
+          1.1,
+          4.5
+        ]
+      },
+      {
+        "type": "box",
+        "name": "upper inhabited basin",
+        "min": [
+          -1.25,
+          -0.4,
+          5.4
+        ],
+        "max": [
+          0.9,
+          1.3,
+          7
+        ]
+      },
+      {
+        "type": "box",
+        "name": "north civic sky street",
+        "min": [
+          -0.8,
+          1,
+          2.8
+        ],
+        "max": [
+          1.8,
+          2.8,
+          3.6
+        ]
+      },
+      {
+        "type": "box",
+        "name": "western exterior civic incision",
+        "min": [
+          -3.2,
+          -0.8,
+          3.4
+        ],
+        "max": [
+          -2.5,
+          1.2,
+          4.2
+        ]
+      },
+      {
+        "type": "box",
+        "name": "west internal urban spine",
+        "min": [
+          -2.2,
+          -0.2,
+          0.7
+        ],
+        "max": [
+          -1.8,
+          0.2,
+          5.7
+        ]
+      },
+      {
+        "type": "box",
+        "name": "ground-west portal",
+        "min": [
+          -1.9,
+          -0.2,
+          0.75
+        ],
+        "max": [
+          -1.1,
+          0.2,
+          1.15
+        ]
+      },
+      {
+        "type": "box",
+        "name": "west-upper portal",
+        "min": [
+          -1.9,
+          -0.2,
+          5.35
+        ],
+        "max": [
+          -0.8,
+          0.2,
+          5.75
+        ]
+      },
+      {
+        "type": "box",
+        "name": "north internal urban street",
+        "min": [
+          -1.8,
+          1.5,
+          2.05
+        ],
+        "max": [
+          1.9,
+          1.9,
+          2.45
+        ]
+      },
+      {
+        "type": "box",
+        "name": "west-north arm",
+        "min": [
+          -2.1,
+          0,
+          2.05
+        ],
+        "max": [
+          -1.75,
+          1.7,
+          2.45
+        ]
+      },
+      {
+        "type": "box",
+        "name": "east internal urban spine",
+        "min": [
+          1.7,
+          1.5,
+          0.7
+        ],
+        "max": [
+          2.1,
+          1.9,
+          3.6
+        ]
+      },
+      {
+        "type": "box",
+        "name": "east city portal",
+        "min": [
+          1.1,
+          0,
+          2.15
+        ],
+        "max": [
+          1.9,
+          0.4,
+          2.55
+        ]
+      },
+      {
+        "type": "box",
+        "name": "east-north arm",
+        "min": [
+          1.7,
+          0.2,
+          2.15
+        ],
+        "max": [
+          2.1,
+          1.7,
+          2.55
+        ]
+      },
+      {
+        "type": "box",
+        "name": "north city portal",
+        "min": [
+          -0.2,
+          1,
+          2.15
+        ],
+        "max": [
+          0.2,
+          1.7,
+          2.55
+        ]
+      }
+    ],
+    "eye": [
+      0,
+      -0.5,
+      0.702
+    ],
+    "look": [
+      0,
+      0.4,
+      3.1
+    ],
+    "city_targets": [
+      {
+        "id": "west",
+        "p": [
+          -1.36,
+          0,
+          2.6
+        ],
+        "g": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "east",
+        "p": [
+          1.16,
+          -0.2,
+          2.4
+        ],
+        "g": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "north_low",
+        "p": [
+          -0.5,
+          1.06,
+          2.4
+        ],
+        "g": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "upper_inward",
+        "p": [
+          -0.1,
+          0,
+          4.46
+        ],
+        "g": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": "lower",
+        "p": [
+          0,
+          0,
+          0.74
+        ],
+        "g": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "upper_open",
+        "p": [
+          0,
+          0,
+          5.44
+        ],
+        "g": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ]
+  },
+  "N3_checks": {
+    "id": "N3",
+    "eye_km": [
+      0,
+      -0.5,
+      0.702
+    ],
+    "proposed_primitive_envelope_km": {
+      "min": [
+        -3,
+        -2,
+        0
+      ],
+      "max": [
+        3,
+        2.5,
+        6.4
+      ]
+    },
+    "occupancy": {
+      "sample_spacing_m": 200,
+      "solid_connected_components_6_neighbor": [
+        10986
+      ],
+      "sampled_material_volume_km3": 87.88800000000002,
+      "sampled_material_above_4km_km3": 34.528000000000006,
+      "warning": "Voxel connectivity and occupied volume only; no structural, living-area, or art-quality validation."
+    },
+    "sightlines": [
+      {
+        "target": "west",
+        "clear": true,
+        "first_obstruction": null,
+        "inside_internal_camera_frame": true,
+        "target_in_empty_domain": true,
+        "backing_at_120m": true
+      },
+      {
+        "target": "east",
+        "clear": true,
+        "first_obstruction": null,
+        "inside_internal_camera_frame": true,
+        "target_in_empty_domain": true,
+        "backing_at_120m": true
+      },
+      {
+        "target": "north_low",
+        "clear": true,
+        "first_obstruction": null,
+        "inside_internal_camera_frame": true,
+        "target_in_empty_domain": true,
+        "backing_at_120m": true
+      },
+      {
+        "target": "upper_inward",
+        "clear": true,
+        "first_obstruction": null,
+        "inside_internal_camera_frame": true,
+        "target_in_empty_domain": true,
+        "backing_at_120m": true
+      },
+      {
+        "target": "lower",
+        "clear": true,
+        "first_obstruction": null,
+        "inside_internal_camera_frame": false,
+        "target_in_empty_domain": true,
+        "backing_at_120m": true
+      },
+      {
+        "target": "upper_open",
+        "clear": false,
+        "first_obstruction": {
+          "distance_from_eye_km": 3.8273949941949956,
+          "point_km": [
+            0,
+            -0.09832635983263599,
+            4.508259414225941
+          ]
+        },
+        "inside_internal_camera_frame": true,
+        "target_in_empty_domain": true,
+        "backing_at_120m": true
+      }
+    ],
+    "cameras": [
+      {
+        "id": "front_ground",
+        "label": "地上正面",
+        "eye": [
+          0,
+          -10,
+          0.05
+        ],
+        "look": [
+          0,
+          0,
+          3
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "fov": 58
+      },
+      {
+        "id": "oblique",
+        "label": "南東斜視",
+        "eye": [
+          10,
+          -11,
+          8
+        ],
+        "look": [
+          0,
+          0,
+          3
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "ortho": 10
+      },
+      {
+        "id": "side",
+        "label": "東側面",
+        "eye": [
+          12,
+          0,
+          3.2
+        ],
+        "look": [
+          0,
+          0,
+          3.2
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "ortho": 10
+      },
+      {
+        "id": "rear",
+        "label": "北・背面",
+        "eye": [
+          0,
+          12,
+          3.2
+        ],
+        "look": [
+          0,
+          0,
+          3.2
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "ortho": 10
+      },
+      {
+        "id": "top",
+        "label": "俯瞰",
+        "eye": [
+          0,
+          0,
+          14
+        ],
+        "look": [
+          0,
+          0,
+          3
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "ortho": 10
+      },
+      {
+        "id": "inside",
+        "label": "内部・検証視点",
+        "eye": [
+          0,
+          -0.5,
+          0.702
+        ],
+        "look": [
+          0,
+          0.4,
+          3.1
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "fov": 82
+      }
+    ],
+    "upper_separation_probe": {
+      "x_km": 0,
+      "y_km": 0,
+      "lower_inward_surface_z_km": 4.5,
+      "upper_basin_surface_z_km": 5.4,
+      "vertical_material_gap_km": 0.9,
+      "warning": "One section probe only, not a global minimum thickness."
+    },
+    "urban_connection_waypoints": [
+      {
+        "a": [
+          0,
+          0,
+          0.95
+        ],
+        "b": [
+          -2,
+          0,
+          0.95
+        ],
+        "clear": true,
+        "first_obstruction": null
+      },
+      {
+        "a": [
+          -2,
+          0,
+          0.95
+        ],
+        "b": [
+          -2,
+          0,
+          5.55
+        ],
+        "clear": true,
+        "first_obstruction": null
+      },
+      {
+        "a": [
+          -2,
+          0,
+          5.55
+        ],
+        "b": [
+          0,
+          0,
+          5.55
+        ],
+        "clear": true,
+        "first_obstruction": null
+      },
+      {
+        "a": [
+          -2,
+          0,
+          2.25
+        ],
+        "b": [
+          -2,
+          1.6,
+          2.25
+        ],
+        "clear": true,
+        "first_obstruction": null
+      },
+      {
+        "a": [
+          -2,
+          1.6,
+          2.25
+        ],
+        "b": [
+          1.8,
+          1.6,
+          2.25
+        ],
+        "clear": true,
+        "first_obstruction": null
+      },
+      {
+        "a": [
+          1.8,
+          1.6,
+          2.35
+        ],
+        "b": [
+          1.8,
+          0.2,
+          2.35
+        ],
+        "clear": true,
+        "first_obstruction": null
+      },
+      {
+        "a": [
+          1.8,
+          0.2,
+          2.35
+        ],
+        "b": [
+          1.16,
+          0.2,
+          2.35
+        ],
+        "clear": true,
+        "first_obstruction": null
+      },
+      {
+        "a": [
+          0,
+          1.6,
+          2.3
+        ],
+        "b": [
+          0,
+          1,
+          2.3
+        ],
+        "clear": true,
+        "first_obstruction": null
+      }
+    ],
+    "urban_patch_probes": [
+      {
+        "target": "west",
+        "nominal_patch_m": [
+          600,
+          240
+        ],
+        "sample_count": 21,
+        "clear": 21,
+        "backed": 21,
+        "in_frame": 21,
+        "combined": 21,
+        "warning": "Sparse probes on a proposed surface only, not a modeled building facade or a usable city floor."
+      },
+      {
+        "target": "east",
+        "nominal_patch_m": [
+          600,
+          240
+        ],
+        "sample_count": 21,
+        "clear": 21,
+        "backed": 15,
+        "in_frame": 21,
+        "combined": 15,
+        "warning": "Sparse probes on a proposed surface only, not a modeled building facade or a usable city floor."
+      },
+      {
+        "target": "north_low",
+        "nominal_patch_m": [
+          600,
+          240
+        ],
+        "sample_count": 21,
+        "clear": 21,
+        "backed": 18,
+        "in_frame": 21,
+        "combined": 18,
+        "warning": "Sparse probes on a proposed surface only, not a modeled building facade or a usable city floor."
+      },
+      {
+        "target": "upper_inward",
+        "nominal_patch_m": [
+          600,
+          240
+        ],
+        "sample_count": 21,
+        "clear": 21,
+        "backed": 21,
+        "in_frame": 21,
+        "combined": 21,
+        "warning": "Sparse probes on a proposed surface only, not a modeled building facade or a usable city floor."
+      }
+    ]
+  },
+  "meaning": "Preserved analytic constraints and diagnostic results; NOT revalidated on P1/P2/P2R. Do not transfer N3 clearance or visibility claims to these new meshes.",
+  "preserved_checks": [
+    "Four N3 target points in a common frame with clear view and 120m backing",
+    "600x240m N3 patches: west21/21 east15/21 north18/21 overhead21/21",
+    "900m thickness at one section, not global minimum",
+    "Eight clear route centreline segments, not walkable routes"
+  ],
+  "C3_shared_boundary_principle": "C3 removal tests remain inherited evidence only. G4 does not establish an equivalent common public wall between three institutions."
+}

@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "branch": "art/a",
+  "track": "A",
+  "study_id": "A2-G4",
+  "title": "七内天・回天褶都／共晶聖都・三院共嶺 — 主質量二構想と再設計の実3D比較",
+  "stage": "BLOCKOUT_3D",
+  "art_review_status": "HOLD",
+  "updated_at": "2026-10-22T14:18:04.857072+00:00",
+  "dimensions_m": {
+    "width": 6034.805908203125,
+    "depth": 6117.35546875,
+    "height": 5600.0
+  },
+  "proposed_dimensions_m": null,
+  "dimensions_scope": "P2R only, verified GLB world bounds excluding context; includes district markers. P1/P2 dimensions in validation.json.",
+  "assets": [
+    {
+      "path": "studies/A2-G4/build.py",
+      "kind": "CODE",
+      "sha256": "ba62bd2b649189628575bc8f88bf7deb9993384645abd4116a095fdeeef11a73",
+      "size_bytes": 11878
+    },
+    {
+      "path": "studies/A2-G4/comparison.png",
+      "kind": "PNG",
+      "sha256": "d53b65083a30b7f58bc7f188c0c57238338f3806c8c4528eedb5a36e24875824",
+      "size_bytes": 870457
+    },
+    {
+      "path": "studies/A2-G4/inheritance.json",
+      "kind": "JSON",
+      "sha256": "2feee35fe407583e52f82909d490c671e1b03c59c25bda2872564572cb900cd0",
+      "size_bytes": 14254
+    },
+    {
+      "path": "studies/A2-G4/inherited/geometric-checks.json",
+      "kind": "JSON",
+      "sha256": "2dc4a731de77fc861557ae3f65ec11ced0c1eef332d7a40844159eebfc891f11",
+      "size_bytes": 24600
+    },
+    {
+      "path": "studies/A2-G4/inherited/latest-A2-G3.json",
+      "kind": "JSON",
+      "sha256": "979cbc15d0b93e9ead3cbe1c26ef5d57c38827ff48576a8eed25e5a621ef8d9c",
+      "size_bytes": 7173
+    },
+    {
+      "path": "studies/A2-G4/inherited/N3-sections.png",
+      "kind": "PNG",
+      "sha256": "c688dd605c2ba951cb84e48814fd849037c21c06c9cb0c6222307980df3c7f64",
+      "size_bytes": 19621
+    },
+    {
+      "path": "studies/A2-G4/inherited/N3-six-views.png",
+      "kind": "PNG",
+      "sha256": "d6e57951a7b6f04c31d732b9282fcaea5d720e69f4f927bf985cb8faaeecc9a4",
+      "size_bytes": 40303
+    },
+    {
+      "path": "studies/A2-G4/inherited/REPORT.md",
+      "kind": "REPORT",
+      "sha256": "edd8b3c00346c269066613f8972e5257c7f7788b7181dd486960dc1452205586",
+      "size_bytes": 22236
+    },
+    {
+      "path": "studies/A2-G4/inherited/spatial-models.json",
+      "kind": "JSON",
+      "sha256": "c2b61114b73dd511f0d29f7fb5b9e7a0a65ac3becbbcae25e62eab171c76fdc4",
+      "size_bytes": 6520
+    },
+    {
+      "path": "studies/A2-G4/mesh-qa.json",
+      "kind": "JSON",
+      "sha256": "56faf9fce3d75cadfd4efa1a0628b8b7183e6daa765d638ba1a2744f7f6b01d6",
+      "size_bytes": 62333
+    },
+    {
+      "path": "studies/A2-G4/P1.blend",
+      "kind": "BLEND",
+      "sha256": "dbce7f2fec1ab39b0f06e26ef36575ee26830bfd0570cfbef65a75af11f0a164",
+      "size_bytes": 211951
+    },
+    {
+      "path": "studies/A2-G4/P1.glb",
+      "kind": "GLB",
+      "sha256": "8bf24ef1b5dbe23fa155a033187dc69f17db625b49a7dd2dac09583ce017aaf3",
+      "size_bytes": 245436
+    },
+    {
+      "path": "studies/A2-G4/P1_six_views.png",
+      "kind": "PNG",
+      "sha256": "e4908df7887a292163366779d16d6213e120a2ed23b8a8cdc66437d36e944b8f",
+      "size_bytes": 656766
+    },
+    {
+      "path": "studies/A2-G4/P2.blend",
+      "kind": "BLEND",
+      "sha256": "ac04ad28dfd444fb6c8c3d0a6ec06b6954a26c83066ffe45728eba2d3dc74d13",
+      "size_bytes": 195650
+    },
+    {
+      "path": "studies/A2-G4/P2.glb",
+      "kind": "GLB",
+      "sha256": "56c77893e7977ee467d47343274eb8effb7bfd8ab32c01879396770c12574a26",
+      "size_bytes": 220764
+    },
+    {
+      "path": "studies/A2-G4/P2_six_views.png",
+      "kind": "PNG",
+      "sha256": "44e6035a197a45975308756d7bdc1196c6a847d0231779f2c284b7c73dab0f32",
+      "size_bytes": 618459
+    },
+    {
+      "path": "studies/A2-G4/P2R.blend",
+      "kind": "BLEND",
+      "sha256": "9ff659323b7f2e9d0678b881cadbcff3725a42e1ca7aa5656c5046050141b0d6",
+      "size_bytes": 292597
+    },
+    {
+      "path": "studies/A2-G4/P2R.glb",
+      "kind": "GLB",
+      "sha256": "61826efc9c1377e6315adfae039acb82c486c24f47990ec7f0c562aeba6a2188",
+      "size_bytes": 485480
+    },
+    {
+      "path": "studies/A2-G4/P2R_six_views.png",
+      "kind": "PNG",
+      "sha256": "621f8bc91e2781f2fcbfbda3ae878019b8b6a944b384a5dfec4169b4653573f0",
+      "size_bytes": 664697
+    },
+    {
+      "path": "studies/A2-G4/package.py",
+      "kind": "CODE",
+      "sha256": "ec9b1a7a8856961063c5bb8cdcd6d337ade0ec214d60eb01d47b195b212e8206",
+      "size_bytes": 4722
+    },
+    {
+      "path": "studies/A2-G4/prepare-index.py",
+      "kind": "CODE",
+      "sha256": "131a0d359bf0b3aad2fcb5d8ffd3d8fef954eec7a0d54cb78bd440d7b6b9f46c",
+      "size_bytes": 3988
+    },
+    {
+      "path": "studies/A2-G4/renders/P1_01_front.png",
+      "kind": "PNG",
+      "sha256": "448541a25b0deb452f72228954bd0348c5862252bb0ab1b56213092f28979031",
+      "size_bytes": 265187
+    },
+    {
+      "path": "studies/A2-G4/renders/P1_02_oblique.png",
+      "kind": "PNG",
+      "sha256": "a5a5bf11ed91eff52541ec06a70ea598de6e30aea6a8f3e2032867ba810213ca",
+      "size_bytes": 265744
+    },
+    {
+      "path": "studies/A2-G4/renders/P1_03_side.png",
+      "kind": "PNG",
+      "sha256": "b40de20a047a0dbd4bf44b3a8b34fa1db475295ad8b679b56412c05b909ca30d",
+      "size_bytes": 269698
+    },
+    {
+      "path": "studies/A2-G4/renders/P1_04_aerial.png",
+      "kind": "PNG",
+      "sha256": "cd5b56b299749a9dc69056ccae42d1528f11e17895ba419f5d398e0f20ea5a3f",
+      "size_bytes": 290340
+    },
+    {
+      "path": "studies/A2-G4/renders/P1_05_back.png",
+      "kind": "PNG",
+      "sha256": "3e96dd7e21e62ae38748c35453cba5979774ae0b1935d8ca5d221a3dfc3ab4b2",
+      "size_bytes": 259033
+    },
+    {
+      "path": "studies/A2-G4/renders/P1_06_inside.png",
+      "kind": "PNG",
+      "sha256": "8147da679c91fe8069948adeeda30301f3697c7f302c6a0badb516c2e05474a5",
+      "size_bytes": 324054
+    },
+    {
+      "path": "studies/A2-G4/renders/P2_01_front.png",
+      "kind": "PNG",
+      "sha256": "a8388559aa950cc2da2b65a9faef3653fe059fc7aea3f8ea97a57f4b75eaeb27",
+      "size_bytes": 283309
+    },
+    {
+      "path": "studies/A2-G4/renders/P2_02_oblique.png",
+      "kind": "PNG",
+      "sha256": "8d45cd26871cadb8169b45c80ec8ed6651860a68358ac209b2f46b8ff7c50737",
+      "size_bytes": 268723
+    },
+    {
+      "path": "studies/A2-G4/renders/P2_03_side.png",
+      "kind": "PNG",
+      "sha256": "a9a149a54225f94447e1ef96761af212ec850273aa052c80deaf81f2c937020c",
+      "size_bytes": 280366
+    },
+    {
+      "path": "studies/A2-G4/renders/P2_04_aerial.png",
+      "kind": "PNG",
+      "sha256": "3883dc8ee83be85f62ae4e7af594cf5663f93a92f5236facac08e4b205098c74",
+      "size_bytes": 258543
+    },
+    {
+      "path": "studies/A2-G4/renders/P2_05_back.png",
+      "kind": "PNG",
+      "sha256": "14aa0a4b97a7d265ef8ab0fc3ac450e12c43fb3d25d4b53df85cb631ee497256",
+      "size_bytes": 277553
+    },
+    {
+      "path": "studies/A2-G4/renders/P2_06_inside.png",
+      "kind": "PNG",
+      "sha256": "ae82b5ea7c9119ec7f0e80aab82db02126710f82fef29591eb91d6183b3f8fd6",
+      "size_bytes": 310133
+    },
+    {
+      "path": "studies/A2-G4/renders/P2R_01_front.png",
+      "kind": "PNG",
+      "sha256": "31211487f5cabb8ea2e2e90b4c4a606fa29ab0116cf8d5d11f20a26d54787c76",
+      "size_bytes": 277336
+    },
+    {
+      "path": "studies/A2-G4/renders/P2R_02_oblique.png",
+      "kind": "PNG",
+      "sha256": "bb9e15ddea87fa8090dbcce6ecce8d2a1b6a970a069ebdbcd63a32d2bb645f1e",
+      "size_bytes": 277256
+    },
+    {
+      "path": "studies/A2-G4/renders/P2R_03_side.png",
+      "kind": "PNG",
+      "sha256": "71df6bb6f7709b08ec5d542a72002ccc81e55b5d86479fec0211002aa21e35f2",
+      "size_bytes": 280107
+    },
+    {
+      "path": "studies/A2-G4/renders/P2R_04_aerial.png",
+      "kind": "PNG",
+      "sha256": "baa3e6b4ab07bab80c092141fee8c60fad92527f31f74931a04b960acc80cd0c",
+      "size_bytes": 295453
+    },
+    {
+      "path": "studies/A2-G4/renders/P2R_05_back.png",
+      "kind": "PNG",
+      "sha256": "cc2974e1eb56f7c0d7dfb5ed8adaf20d0d54910358954cd2458b1cc3c315c9a1",
+      "size_bytes": 276134
+    },
+    {
+      "path": "studies/A2-G4/renders/P2R_06_inside.png",
+      "kind": "PNG",
+      "sha256": "1e7cfbbd698a4490f61790b5a3b1c7636a5dc19e6e65baca50f78634563dee14",
+      "size_bytes": 338795
+    },
+    {
+      "path": "studies/A2-G4/REPORT.md",
+      "kind": "REPORT",
+      "sha256": "53da247b5ce659c6b7ff2fb80945c82bc9fc441e14348bae528d6ab3a4569069",
+      "size_bytes": 8093
+    },
+    {
+      "path": "studies/A2-G4/validation.json",
+      "kind": "JSON",
+      "sha256": "41132fb4d40925b9b132d7eef23ddb95b69ad51efcff6dceec970b12eaa4c5b3",
+      "size_bytes": 47333
+    }
+  ],
+  "validation": {
+    "model_load": "All three GLBs reimported in Blender and independently loaded in trimesh",
+    "mesh_qa": "All three primary masses watertight and winding-consistent after reassembling material partitions; individual partitions can be open. See mesh-qa.json.",
+    "external_camera_comparison": "Five identical 8500m orthographic cameras, 1000x900, same light and 10km context. Renders produced after actual GLB reimport.",
+    "internal_camera_comparison": "Different camera per spatial concept; not a controlled comparison",
+    "district_centre_support": {
+      "P1": "11/36 within5m",
+      "P2": "19/24 within5m",
+      "P2R": "216/216 within5m"
+    },
+    "limits": [
+      "Not complete inhabited cities",
+      "N3 four-horizon visibility not revalidated on G4",
+      "G3 C3 shared public wall not equivalently proven on G4",
+      "P1/P2 support defects preserved",
+      "No engineering or construction feasibility",
+      "Art targets not achieved; no detail progression"
+    ]
+  },
+  "notes": "Two concepts and one main-mass revision; no art candidate selected. HOLD is this study working judgment, not a user formal REJECT or acceptance. M247-C and Minecraft construction remain HOLD.",
+  "provenance": {
+    "baseline_commit": "2557681ad23a14399c6d5071d6b9adb0915ec8ba",
+    "prior_study": "A2-G3",
+    "prior_manifest_path": "studies/A2-G3/manifest.json",
+    "track_identification": "Local A2/G3 artifacts match art/a HEAD submission"
+  },
+  "execution": {
+    "environment": "Existing local research workspace; no Work handoff",
+    "blender": "5.2.1 LTS",
+    "native_generation": false,
+    "render_source": "Exported and reimported GLB meshes",
+    "decision": "Stop detail; retain spatial findings and return to main-mass ideation"
+  }
+}
