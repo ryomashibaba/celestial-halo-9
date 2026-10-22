@@ -1,0 +1,39 @@
+{
+  "study_id": "D2-G5",
+  "title": "HALO-9 G5-D Water, Ecology and Urban Network Civilization",
+  "stage": "CONCEPT",
+  "art_review_status": "HOLD",
+  "review_scope": "independent concept study awaiting central review; not formal user adoption",
+  "updated_at": "2026-10-22T21:07:38Z",
+  "dimensions_m": null,
+  "proposed_dimensions_m": {
+    "A_Tidal_Loom": {"width": 4800, "depth": 4100, "height": 3700},
+    "B_Monsoon_Commons": {"width": 4500, "depth": 4700, "height": 4400}
+  },
+  "assets": [
+    {
+      "path": "studies/D2-G5/comparison.md",
+      "kind": "REPORT",
+      "sha256": "87f8b8c32cb7dd77adaab409157980f315744fdce05964e938dbca5b74a7c11c",
+      "size_bytes": 20831
+    }
+  ],
+  "validation": {
+    "load_results": "Not applicable; this submission is a written CONCEPT study.",
+    "shared_camera_comparisons": "None. No images or 3D assets were produced.",
+    "checked": [
+      "Four named precedents researched from official UNESCO or project architect sources",
+      "Two distinct urban formation principles compared",
+      "Known HALO-9 fixed elements retained as network anchors without inventing facility programs",
+      "D2-G4 rejected blob-and-canyon direction explicitly screened against"
+    ],
+    "limits": [
+      "Conceptual dimensions are proposed envelopes, not measured model geometry",
+      "Sources directory in the task mirror contains no masterplan coordinate or facility-role files",
+      "No hydrology, ecology, climate, structural, safety, or constructability simulation",
+      "Central review, formal adoption, M247-C changes, and Minecraft construction remain on hold"
+    ]
+  },
+  "notes": "Two independent concepts: A Tidal Loom integrates basin-scale water exchange with inhabited transit intersections; B Monsoon Commons makes seasonal ecological succession co-author the inhabited mass. A is the provisional art-screen candidate due to its clearer central silhouette. Preserve D2-G1, D2-G3, and D2-G4 history and the D2-G4 REJECT result."
+}
+
