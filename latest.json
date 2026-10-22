@@ -2,8 +2,58 @@
   "schema_version": "1.0",
   "branch": "art/a",
   "track": "A",
-  "latest": null,
+  "latest": {
+    "study_id": "A2-G1",
+    "title": "G1-A 独立建築思想研究 — 七内天・連体案と共晶聖都",
+    "stage": "CONCEPT",
+    "art_review_status": "NOT_REVIEWED",
+    "updated_at": "2026-10-22T12:46:59Z",
+    "dimensions_m": null,
+    "proposed_dimensions_m": null,
+    "assets": [
+      {
+        "path": "studies/A2-G1/REPORT.md",
+        "kind": "REPORT",
+        "sha256": "dd826716513306db1b5801e8c2240efb0a760323162ec732bf8136e1e7e003e1",
+        "size_bytes": 27672
+      },
+      {
+        "path": "studies/A2-G1/references/A2-prior-report.md",
+        "kind": "REPORT",
+        "sha256": "cc292ce6b37acfe45d71a7d23e950ad5b76d1886d8fe73496fc6f79aaae3c9fa",
+        "size_bytes": 21827
+      },
+      {
+        "path": "studies/A2-G1/manifest.json",
+        "kind": "JSON",
+        "sha256": "eb2d5e1f5dba833e58311d94d5102abe0264220fe33a7eb29e98485149cc6f48",
+        "size_bytes": 2811
+      }
+    ],
+    "validation": {
+      "scope": "Text-only architecture concept comparison; no art acceptance or model QA claimed.",
+      "checks_performed": [
+        "Read art/a latest.json and research/SCHEMA.md at baseline commit.",
+        "Compared three prior concepts and one new concept across all seven requested criteria.",
+        "Recorded six view intentions, strengths, weaknesses, failure modes, and art-review questions for each concept.",
+        "Preserved prior local A2 report as an exact reference copy.",
+        "Computed exact UTF-8 file byte lengths and SHA-256 checksums."
+      ],
+      "model_load": null,
+      "shared_camera_comparisons": null,
+      "measured_dimensions": null,
+      "art_image_review": null,
+      "limits": [
+        "No new GLB, BLEND, or PNG generated.",
+        "No historical formal REJECT models or review archive available on inspected art/a tree; prior A2 self-critique is not relabeled REJECT.",
+        "Proposed sizes for individual concepts are in REPORT.md; no single selected design envelope.",
+        "All geometric, gravity, circulation, and visual claims remain conceptual.",
+        "Central art review pending; no detailed 3D advancement authorized by this submission."
+      ]
+    },
+    "notes": "Shortlist for central art review: Seven Inward Skies / connected-body study, and new Civic Crystal. Neither accepted. Tidal Apses held for side-wall and closed-roof issues; Braided Continents not shortlisted. Formal M247-C and Minecraft construction remain HOLD."
+  },
   "history": [],
-  "last_submission_at": null,
+  "last_submission_at": "2026-10-22T12:46:59Z",
   "policy": "ART-FIRST. Formal design and Minecraft construction remain HOLD. A GitHub smoke test is not a study result."
 }
