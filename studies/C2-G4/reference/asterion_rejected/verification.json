@@ -1,0 +1,13 @@
+{
+  "legacy_directory_present": true,
+  "protected_files": 77,
+  "changed_files": [],
+  "exterior_cameras_exact_match": {
+    "01_front": true,
+    "02_oblique": true,
+    "03_side": true,
+    "04_top": true,
+    "05_back": true
+  },
+  "matched_exterior_render": "1600x1200, ortho width7800m, Cycles12 samples, same sun/world/material colors, area fills disabled. Interior room fills enabled only for new human-eye views."
+}

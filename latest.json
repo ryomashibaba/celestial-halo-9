@@ -2,8 +2,38 @@
   "schema_version": "1.0",
   "branch": "art/c",
   "track": "C",
-  "latest": null,
-  "history": [],
-  "last_submission_at": null,
-  "policy": "ART-FIRST. Formal design and Minecraft construction remain HOLD. A GitHub smoke test is not a study result."
+  "latest": {
+    "study_id": "C2-G4",
+    "track": "C",
+    "branch": "art/c",
+    "date": "2026-10-22",
+    "status": "ART_SELF_REVIEW_FAIL",
+    "formal_adoption": "USER_DECISION_PENDING",
+    "next_step": "G4_MASSING_REDESIGN",
+    "detail": "HOLD",
+    "formal_M247_C": "UNCHANGED",
+    "minecraft": "HOLD",
+    "report": "studies/C2-G4/REPORT.md",
+    "model": "studies/C2-G4/N1R1.glb",
+    "preview": "studies/C2-G4/CONCEPT_COMPARISON.png"
+  },
+  "history": [
+    {
+      "study_id": "C2-G4",
+      "track": "C",
+      "branch": "art/c",
+      "date": "2026-10-22",
+      "status": "ART_SELF_REVIEW_FAIL",
+      "formal_adoption": "USER_DECISION_PENDING",
+      "next_step": "G4_MASSING_REDESIGN",
+      "detail": "HOLD",
+      "formal_M247_C": "UNCHANGED",
+      "minecraft": "HOLD",
+      "report": "studies/C2-G4/REPORT.md",
+      "model": "studies/C2-G4/N1R1.glb",
+      "preview": "studies/C2-G4/CONCEPT_COMPARISON.png"
+    }
+  ],
+  "last_submission_at": "2026-10-22",
+  "policy": "ART-FIRST. Formal M247-C and Minecraft construction remain HOLD. Technical checks and study storage do not constitute art acceptance."
 }

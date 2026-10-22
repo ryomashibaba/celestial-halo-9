@@ -1,0 +1,336 @@
+{
+  "bbox_min_m": [
+    -2447.4873046875,
+    -2147.4873046875,
+    -70.0
+  ],
+  "bbox_max_m": [
+    2490.322509765625,
+    1388.0465087890625,
+    3800.0
+  ],
+  "bbox_dimensions_m": [
+    4937.809814453125,
+    3535.5338134765625,
+    3870.0
+  ],
+  "meshes": 70,
+  "polygons": 1410,
+  "space_axis_measurements": {
+    "basin": {
+      "reference_point_m": [
+        450,
+        -300,
+        1620
+      ],
+      "axis_rays": {
+        "west": {
+          "distance_m": 940.0,
+          "mesh": "J2_ascending_forum_library_wall"
+        },
+        "east": {
+          "distance_m": null,
+          "open_to_context": true
+        },
+        "south": {
+          "distance_m": 486.4000244140625,
+          "mesh": "CHOTEI_inhabited_court_bank"
+        },
+        "north": {
+          "distance_m": 636.476318359375,
+          "mesh": "J1_public_gate_inhabited_core"
+        },
+        "down": {
+          "distance_m": 120.0,
+          "mesh": "CHOTEI_central_public_ground"
+        },
+        "up": {
+          "distance_m": null,
+          "open_to_context": true
+        }
+      }
+    },
+    "crown": {
+      "reference_point_m": [
+        -298,
+        686,
+        3200
+      ],
+      "axis_rays": {
+        "west": {
+          "distance_m": 1077.5826416015625,
+          "mesh": "TENRYO_deep_envelope_outer"
+        },
+        "east": {
+          "distance_m": 917.4962158203125,
+          "mesh": "TENRYO_deep_envelope_outer"
+        },
+        "south": {
+          "distance_m": null,
+          "open_to_context": true
+        },
+        "north": {
+          "distance_m": null,
+          "open_to_context": true
+        },
+        "down": {
+          "distance_m": 200.0,
+          "mesh": "TENRYO_district_3000_0"
+        },
+        "up": {
+          "distance_m": 528.9868774414062,
+          "mesh": "TENRYO_deep_envelope_outer"
+        }
+      }
+    },
+    "ground_portal": {
+      "reference_point_m": [
+        -300,
+        600,
+        700
+      ],
+      "axis_rays": {
+        "west": {
+          "distance_m": 1684.0484619140625,
+          "mesh": "TENRYO_south_city_wall"
+        },
+        "east": {
+          "distance_m": 1227.664794921875,
+          "mesh": "TENRYO_east_civic_core"
+        },
+        "south": {
+          "distance_m": null,
+          "open_to_context": true
+        },
+        "north": {
+          "distance_m": null,
+          "open_to_context": true
+        },
+        "down": {
+          "distance_m": 700.0,
+          "mesh": "GROUND_portal_public_ground"
+        },
+        "up": {
+          "distance_m": 415.0000305175781,
+          "mesh": "CHOTEI_carved_keel"
+        }
+      }
+    },
+    "diagonal_exchange": {
+      "reference_point_m": [
+        80,
+        650,
+        2490
+      ],
+      "axis_rays": {
+        "west": {
+          "distance_m": 73.1397476196289,
+          "mesh": "basin_to_sky_2"
+        },
+        "east": {
+          "distance_m": 120.6025161743164,
+          "mesh": "J3_crown_exchange_library_wall"
+        },
+        "south": {
+          "distance_m": 683.5929565429688,
+          "mesh": "SHATO_west_canyon_wall"
+        },
+        "north": {
+          "distance_m": 91.84943389892578,
+          "mesh": "SHATO_east_canyon_wall"
+        },
+        "down": {
+          "distance_m": 99.0,
+          "mesh": "basin_to_sky_1"
+        },
+        "up": {
+          "distance_m": 68.31119537353516,
+          "mesh": "SHATO_cavern_envelope_outer"
+        }
+      }
+    }
+  },
+  "camera_reference_rays": {
+    "06_interior": {
+      "first_forward_hit": [
+        898.5142211914062,
+        "CHOTEI_inhabited_court_bank"
+      ],
+      "floor_below_eye": [
+        1.699951171875,
+        "CHOTEI_central_public_ground"
+      ]
+    },
+    "10_ground_pedestrian": {
+      "first_forward_hit": [
+        2543.75,
+        "CHOTEI_carved_keel"
+      ],
+      "floor_below_eye": [
+        1.7000000476837158,
+        "GROUND_public_forum"
+      ]
+    },
+    "11_crown_pedestrian": {
+      "first_forward_hit": [
+        1554.400390625,
+        "TENRYO_deep_envelope_outer"
+      ],
+      "floor_below_eye": [
+        1.6999510526657104,
+        "TENRYO_district_3000_0"
+      ]
+    },
+    "12_cavern_pedestrian": {
+      "first_forward_hit": [
+        1408.656005859375,
+        "TENRYO_south_city_wall"
+      ],
+      "floor_below_eye": [
+        1.6999510526657104,
+        "J2_ascending_forum_public_floor"
+      ]
+    }
+  },
+  "aperture_geometry": {
+    "TENRYO_profile_removed_uz_bounds_m": [
+      -1220.0,
+      0.0,
+      650.0,
+      2780.0
+    ],
+    "SHATO_profile_removed_uz_bounds_m": [
+      840.0,
+      350.0,
+      3435.7267950963223,
+      2310.0
+    ],
+    "CHOTEI_court_xy_bounds_m": [
+      -698.2220036049413,
+      -797.9527635264856,
+      1245.3600507079595,
+      473.3255591419092
+    ],
+    "note": "Bounds of actual removed profile/plan polygons, before occupation by other city bodies. Not empty bounding boxes in the assembled model."
+  },
+  "cameras": {
+    "01_front": {
+      "eye": [
+        0,
+        -11500,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "02_oblique": {
+      "eye": [
+        8700,
+        -8700,
+        6400
+      ],
+      "target": [
+        0,
+        0,
+        1700
+      ],
+      "ortho": 7800
+    },
+    "03_side": {
+      "eye": [
+        11500,
+        0,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "04_top": {
+      "eye": [
+        0,
+        0,
+        14000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "ortho": 7800
+    },
+    "05_back": {
+      "eye": [
+        0,
+        11500,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "06_interior": {
+      "eye": [
+        450,
+        -300,
+        1501.7
+      ],
+      "target": [
+        -500,
+        500,
+        1750
+      ],
+      "lens": 24
+    },
+    "10_ground_pedestrian": {
+      "eye": [
+        -350,
+        -1500,
+        1.7
+      ],
+      "target": [
+        -50,
+        650,
+        1050
+      ],
+      "lens": 28
+    },
+    "11_crown_pedestrian": {
+      "eye": [
+        -992.8,
+        769.7,
+        3001.7
+      ],
+      "target": [
+        100,
+        600,
+        3200
+      ],
+      "lens": 24
+    },
+    "12_cavern_pedestrian": {
+      "eye": [
+        -510,
+        -520,
+        1551.7
+      ],
+      "target": [
+        300,
+        -100,
+        1750
+      ],
+      "lens": 28
+    }
+  },
+  "method": "Building meshes only; metres/Z up. Axis rays report first visible boundary, not maximum void volume or guaranteed clear cuboid. Exterior cameras match legacy exactly."
+}

@@ -1,0 +1,120 @@
+{
+  "units": "metres",
+  "bbox_min_m": [
+    -2680.0,
+    -1632.73095703125,
+    0.0
+  ],
+  "bbox_max_m": [
+    2480.0,
+    1840.0,
+    3420.0
+  ],
+  "bbox_dimensions_m": [
+    5160.0,
+    3472.73095703125,
+    3420.0
+  ],
+  "cameras": {
+    "01_front": {
+      "eye": [
+        0,
+        -11500,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "02_oblique": {
+      "eye": [
+        8700,
+        -8700,
+        6400
+      ],
+      "target": [
+        0,
+        0,
+        1700
+      ],
+      "ortho": 7800
+    },
+    "03_side": {
+      "eye": [
+        11500,
+        0,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "04_top": {
+      "eye": [
+        0,
+        0,
+        14000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "ortho": 7800
+    },
+    "05_back": {
+      "eye": [
+        0,
+        11500,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "06_interior": {
+      "eye": [
+        200,
+        -300,
+        651.7
+      ],
+      "target": [
+        -100,
+        1000,
+        1900
+      ],
+      "lens": 24
+    }
+  },
+  "mesh_count": 18,
+  "faces": 3329,
+  "render_settings": {
+    "width": 1440,
+    "height": 1080,
+    "samples": 24,
+    "engine": "CYCLES",
+    "sun_energy": 2.3,
+    "world_strength": 0.55
+  },
+  "rays": {
+    "06_interior": {
+      "floor_below_eye": [
+        1.7000120878219604,
+        "N1_civic_floor"
+      ],
+      "first_forward_hit": [
+        1566.4521484375,
+        "N1_inhabited_wall_2"
+      ]
+    }
+  }
+}

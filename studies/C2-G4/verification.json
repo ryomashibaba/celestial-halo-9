@@ -1,0 +1,207 @@
+{
+  "track": "C",
+  "branch": "art/c",
+  "identity_evidence": [
+    "Local AGENTS.md: HALO9_Research_C",
+    "Previous REVIEW.md: Chat C / 天綾宮アステリオン",
+    "GitHub art/c latest.json: track C"
+  ],
+  "external_cameras_identical": {
+    "N1": true,
+    "N2": true,
+    "N1R1": true
+  },
+  "image_dimensions_comparison": {
+    "N1": [
+      1440,
+      1080
+    ],
+    "N2": [
+      1440,
+      1080
+    ],
+    "N1R1": [
+      1440,
+      1080
+    ],
+    "legacy": [
+      1440,
+      1080
+    ]
+  },
+  "human_eye_floor_1_7m": {
+    "06_middle_pedestrian": true,
+    "07_high_pedestrian": true,
+    "08_ground_pedestrian": true,
+    "09_hall_pedestrian": true
+  },
+  "protected_prior_primary_files": 77,
+  "changed_prior_primary_files": [],
+  "archived_legacy_files": {
+    "assemble.py": {
+      "sha256": "d0fad7034245366e822947ce3674713ad7a157dfa7f387aacfbfa94117a33f73",
+      "source_sha256": "d0fad7034245366e822947ce3674713ad7a157dfa7f387aacfbfa94117a33f73",
+      "byte_identical": true
+    },
+    "ASTERION_REINVENTION.glb": {
+      "sha256": "3763f71b6a70266342dd5bf9563091674a46d9d0b3b92be1bbc27dbe38dab71b",
+      "source_sha256": "3763f71b6a70266342dd5bf9563091674a46d9d0b3b92be1bbc27dbe38dab71b",
+      "byte_identical": true
+    },
+    "CONCEPTS.md": {
+      "sha256": "169cd176ff8554b17052050b70b42f6dc5905a88f75cd7898d22a4b71f629634",
+      "source_sha256": "169cd176ff8554b17052050b70b42f6dc5905a88f75cd7898d22a4b71f629634",
+      "byte_identical": true
+    },
+    "geometry.json": {
+      "sha256": "e67fbd1cb0cf61306158d58ebe20b5d244d385c7d5379098affa7be31e0103ba",
+      "source_sha256": "e67fbd1cb0cf61306158d58ebe20b5d244d385c7d5379098affa7be31e0103ba",
+      "byte_identical": true
+    },
+    "geometry.py": {
+      "sha256": "0005745d99fdf2ba1eac8a6db4eda4f994ce3702a0da62f61df1ec8118457e5b",
+      "source_sha256": "0005745d99fdf2ba1eac8a6db4eda4f994ce3702a0da62f61df1ec8118457e5b",
+      "byte_identical": true
+    },
+    "geometry_r1.json": {
+      "sha256": "0524a62411eb4eaaa3b51537b1a35092f993790ca891f14066118cf2a97bb1a7",
+      "source_sha256": "0524a62411eb4eaaa3b51537b1a35092f993790ca891f14066118cf2a97bb1a7",
+      "byte_identical": true
+    },
+    "geometry_r1.py": {
+      "sha256": "c40281f969e6de3e2253bca25572190c1de54654ded3f58e75673559f993f3d0",
+      "source_sha256": "c40281f969e6de3e2253bca25572190c1de54654ded3f58e75673559f993f3d0",
+      "byte_identical": true
+    },
+    "glb_validation.json": {
+      "sha256": "df9645cde6fcc2de26108a5c5433243da58e9b51bdecb8d2536e2eb008ddd470",
+      "source_sha256": "df9645cde6fcc2de26108a5c5433243da58e9b51bdecb8d2536e2eb008ddd470",
+      "byte_identical": true
+    },
+    "MEASUREMENTS.md": {
+      "sha256": "fac59281af70ca17f70496dc53bb14c387189555d089d066676faff3070eb504",
+      "source_sha256": "fac59281af70ca17f70496dc53bb14c387189555d089d066676faff3070eb504",
+      "byte_identical": true
+    },
+    "model_metrics.json": {
+      "sha256": "dc066aec3c7611a3c192c2593742516fd09702bcc3fc7c553010632b1447c54e",
+      "source_sha256": "dc066aec3c7611a3c192c2593742516fd09702bcc3fc7c553010632b1447c54e",
+      "byte_identical": true
+    },
+    "protected_legacy_hashes.json": {
+      "sha256": "a7d4c9f70d4ac2f228819b1007db8c134136daa44515e0d820586bc3042a70e1",
+      "source_sha256": "a7d4c9f70d4ac2f228819b1007db8c134136daa44515e0d820586bc3042a70e1",
+      "byte_identical": true
+    },
+    "render.py": {
+      "sha256": "7b75f308a08ecdde0ef887d7344635fa30da8bcf2f0babd5849a0b9aef05791d",
+      "source_sha256": "7b75f308a08ecdde0ef887d7344635fa30da8bcf2f0babd5849a0b9aef05791d",
+      "byte_identical": true
+    },
+    "REVIEW.md": {
+      "sha256": "88952d665970fd577540a4471853b3b05075cac863bfbd77a4acf4df39e5ff82",
+      "source_sha256": "88952d665970fd577540a4471853b3b05075cac863bfbd77a4acf4df39e5ff82",
+      "byte_identical": true
+    },
+    "SIX_VIEWS.png": {
+      "sha256": "6cc9870f056e39a409588c08035d6d12e26907cf5854eb724edbe09fe0902f90",
+      "source_sha256": "6cc9870f056e39a409588c08035d6d12e26907cf5854eb724edbe09fe0902f90",
+      "byte_identical": true
+    },
+    "verification.json": {
+      "sha256": "32b21e8371af7f3fa889d633d6fff194ea66008bb7034eb79a79bc0096a57c58",
+      "source_sha256": "32b21e8371af7f3fa889d633d6fff194ea66008bb7034eb79a79bc0096a57c58",
+      "byte_identical": true
+    }
+  },
+  "actual_3d": {
+    "N1": {
+      "loaded": true,
+      "geometry_count": 18,
+      "bounds": [
+        [
+          -2680.0,
+          0.0,
+          -1840.0
+        ],
+        [
+          2480.0,
+          3420.0,
+          1632.73095703125
+        ]
+      ],
+      "dimensions_m": [
+        5160.0,
+        3420.0,
+        3472.73095703125
+      ],
+      "empty_geometries": [],
+      "watertight_components": 0,
+      "watertight_after_position_weld": 18,
+      "component_count": 18,
+      "method": "Independent trimesh reload of exported GLB. Raw vertex splits are retained. Position-weld analysis changes copies only. Component watertightness is not union topology, structural, habitation or collision validation."
+    },
+    "N2": {
+      "loaded": true,
+      "geometry_count": 53,
+      "bounds": [
+        [
+          -2450.0,
+          -12.0,
+          -1280.0
+        ],
+        [
+          2450.0,
+          3390.0,
+          2085.0
+        ]
+      ],
+      "dimensions_m": [
+        4900.0,
+        3402.0,
+        3365.0
+      ],
+      "empty_geometries": [],
+      "watertight_components": 0,
+      "watertight_after_position_weld": 53,
+      "component_count": 53,
+      "method": "Independent trimesh reload of exported GLB. Raw vertex splits are retained. Position-weld analysis changes copies only. Component watertightness is not union topology, structural, habitation or collision validation."
+    },
+    "N1R1": {
+      "loaded": true,
+      "geometry_count": 351,
+      "bounds": [
+        [
+          -2460.63232421875,
+          -12.0,
+          -1897.3267822265625
+        ],
+        [
+          2562.790771484375,
+          3225.587646484375,
+          1925.0
+        ]
+      ],
+      "dimensions_m": [
+        5023.423095703125,
+        3237.587646484375,
+        3822.3267822265625
+      ],
+      "empty_geometries": [],
+      "watertight_components": 0,
+      "watertight_after_position_weld": 346,
+      "component_count": 351,
+      "method": "Independent trimesh reload of exported GLB. Raw vertex splits are retained. Position-weld analysis changes copies only. Component watertightness is not union topology, structural, habitation or collision validation."
+    }
+  },
+  "claims_not_validated": [
+    "structural stability",
+    "continuous lift/terrace access",
+    "evacuation",
+    "dwelling interiors / population",
+    "city-wide occupancy or volume union",
+    "sacred/danger 80/20 perception",
+    "six-view aesthetic pass"
+  ],
+  "status": "ART_SELF_REVIEW_FAIL / USER_ADOPTION_PENDING / DETAIL_HOLD / M247-C_AND_MINECRAFT_HOLD"
+}

@@ -1,0 +1,186 @@
+{
+  "units": "metres",
+  "bbox_min_m": [
+    -2450.0,
+    -2085.0,
+    -12.0
+  ],
+  "bbox_max_m": [
+    2450.0,
+    1280.0,
+    3390.0
+  ],
+  "bbox_dimensions_m": [
+    4900.0,
+    3365.0,
+    3402.0
+  ],
+  "cameras": {
+    "01_front": {
+      "eye": [
+        0,
+        -11500,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "02_oblique": {
+      "eye": [
+        8700,
+        -8700,
+        6400
+      ],
+      "target": [
+        0,
+        0,
+        1700
+      ],
+      "ortho": 7800
+    },
+    "03_side": {
+      "eye": [
+        11500,
+        0,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "04_top": {
+      "eye": [
+        0,
+        0,
+        14000
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "ortho": 7800
+    },
+    "05_back": {
+      "eye": [
+        0,
+        11500,
+        4700
+      ],
+      "target": [
+        0,
+        0,
+        1750
+      ],
+      "ortho": 7800
+    },
+    "06_middle_pedestrian": {
+      "eye": [
+        -1000,
+        -210,
+        1663.7
+      ],
+      "target": [
+        200,
+        700,
+        1900
+      ],
+      "lens": 24
+    },
+    "07_high_pedestrian": {
+      "eye": [
+        -570,
+        590,
+        2873.7
+      ],
+      "target": [
+        200,
+        700,
+        3060
+      ],
+      "lens": 24
+    },
+    "08_ground_pedestrian": {
+      "eye": [
+        0,
+        -1800,
+        1.7
+      ],
+      "target": [
+        -100,
+        300,
+        1300
+      ],
+      "lens": 24
+    },
+    "09_hall_pedestrian": {
+      "eye": [
+        -100,
+        150,
+        1661.7
+      ],
+      "target": [
+        -100,
+        650,
+        1770
+      ],
+      "lens": 24
+    }
+  },
+  "mesh_count": 53,
+  "faces": 1129,
+  "render_settings": {
+    "width": 1440,
+    "height": 1080,
+    "samples": 24,
+    "engine": "CYCLES",
+    "sun_energy": 2.3,
+    "world_strength": 0.55
+  },
+  "rays": {
+    "06_middle_pedestrian": {
+      "floor_below_eye": [
+        1.699951171875,
+        "N2_ground_2"
+      ],
+      "first_forward_hit": [
+        16.51483917236328,
+        "N2_courtyard_2_0"
+      ]
+    },
+    "07_high_pedestrian": {
+      "floor_below_eye": [
+        1.699951171875,
+        "N2_ground_4"
+      ],
+      "first_forward_hit": [
+        38.43278121948242,
+        "N2_courtyard_4_1"
+      ]
+    },
+    "08_ground_pedestrian": {
+      "floor_below_eye": [
+        1.7000000476837158,
+        "N2_ground_forum"
+      ],
+      "first_forward_hit": [
+        447.1239318847656,
+        "N2_inhabited_stratum_0"
+      ]
+    },
+    "09_hall_pedestrian": {
+      "floor_below_eye": [
+        1.6999512910842896,
+        "N2_civic_assembly_floor"
+      ],
+      "first_forward_hit": null
+    }
+  }
+}

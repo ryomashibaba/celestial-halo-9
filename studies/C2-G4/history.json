@@ -1,0 +1,41 @@
+{
+  "study_id": "C2-G4",
+  "events": [
+    {
+      "stage": "inheritance",
+      "result": "Prior Asterion art rejection and technical assets retained; do not relabel as approved"
+    },
+    {
+      "stage": "concept_comparison",
+      "models": [
+        "N1",
+        "N2"
+      ],
+      "result": "Both aesthetics fail. N1 selected for further massing test only"
+    },
+    {
+      "stage": "primary_mass_revision",
+      "model": "N1R1",
+      "result": "Still fails: vessel reading, sparse city, disconnected circulation"
+    },
+    {
+      "stage": "review",
+      "result": "STOP DETAIL; continue G4 primary mass research; user adoption pending"
+    }
+  ],
+  "latest": {
+    "study_id": "C2-G4",
+    "track": "C",
+    "branch": "art/c",
+    "date": "2026-10-22",
+    "status": "ART_SELF_REVIEW_FAIL",
+    "formal_adoption": "USER_DECISION_PENDING",
+    "next_step": "G4_MASSING_REDESIGN",
+    "detail": "HOLD",
+    "formal_M247_C": "UNCHANGED",
+    "minecraft": "HOLD",
+    "report": "studies/C2-G4/REPORT.md",
+    "model": "studies/C2-G4/N1R1.glb",
+    "preview": "studies/C2-G4/CONCEPT_COMPARISON.png"
+  }
+}

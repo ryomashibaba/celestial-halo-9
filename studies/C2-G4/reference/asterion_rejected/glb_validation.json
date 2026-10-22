@@ -1,0 +1,24 @@
+{
+  "bytes": 148952,
+  "sha256": "3763f71b6a70266342dd5bf9563091674a46d9d0b3b92be1bbc27dbe38dab71b",
+  "meshes": 70,
+  "triangles": 2016,
+  "bounds_gltf_y_up_m": [
+    [
+      -2447.4873046875,
+      -70.0,
+      -1388.0465087890625
+    ],
+    [
+      2490.322509765625,
+      3800.0,
+      2147.4873046875
+    ]
+  ],
+  "dimensions_gltf_y_up_m": [
+    4937.809814453125,
+    3870.0,
+    3535.5338134765625
+  ],
+  "scope": "Header, readback, finite bounds; no watertightness, construction, global collision or Minecraft QA."
+}
