@@ -1,0 +1,63 @@
+{
+  "schema": "halo9.research.latest.v1",
+  "research_id": "M3D-1S/J3",
+  "date_jst": "2026-10-24",
+  "status": "SCALE_PROXIES_AND_FUNCTIONAL_CIVIC_JUNCTION_3D_SAVED__ART_NOT_ACCEPTED",
+  "research_branch": "research/m3d1s-central-city-scale-20261024",
+  "approval": "RESEARCH_ONLY",
+  "canonical_adoption": "NONE",
+  "construction": "HOLD",
+  "work_status": "HANDOFF_DECLINED_NO_WORK_EXECUTION",
+  "outputs": {
+    "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
+    "config": "studies/M3D-1S/scenarios.json",
+    "dimensions": "studies/M3D-1S/measured_manifest.json",
+    "validation": "studies/M3D-1S/GITHUB_READBACK_VALIDATION.json",
+    "models": [
+      "studies/M3D-1S/proxies/COMMON_W0_NONCANONICAL_CONTEXT.obj",
+      "studies/M3D-1S/proxies/A_HORIZONTAL_CIVIC_CONTINENT.obj",
+      "studies/M3D-1S/proxies/B_VERTICAL_LIVING_RANGES.obj",
+      "studies/M3D-1S/proxies/C_ASYMMETRIC_SKY_FISSURE.obj"
+    ],
+    "scale_figure": "studies/M3D-1S/SCALE_COMPARISON.svg",
+    "rebuild_tool": "studies/M3D-1S/rebuild_proxies.py",
+    "readback_report": "studies/M3D-1S/GITHUB_READBACK_VALIDATION.json",
+    "junction": {
+      "readme": "studies/M3D-1S/junction/README_JA.md",
+      "glb": "studies/M3D-1S/junction/M3D1S_JUNCTION.glb",
+      "obj": "studies/M3D-1S/junction/M3D1S_JUNCTION.obj",
+      "mtl": "studies/M3D-1S/junction/M3D1S_JUNCTION.mtl",
+      "source": "studies/M3D-1S/junction/junction_source.json",
+      "qa": "studies/M3D-1S/junction/junction_preliminary_qa.json",
+      "readback_qa": "studies/M3D-1S/junction/JUNCTION_READBACK_QA.json",
+      "views": [
+        "studies/M3D-1S/junction/views/front.svg",
+        "studies/M3D-1S/junction/views/oblique.svg",
+        "studies/M3D-1S/junction/views/civic_cutaway.svg"
+      ],
+      "geometry": {
+        "named_parts": 423,
+        "vertices": 3384,
+        "triangles": 5076,
+        "glb_bytes": 299168,
+        "glb_blob_sha": "17e11a72565d8b472c885bbf12d1740372a0c051"
+      },
+      "status": "FUNCTIONAL_AND_GRAPH_PRELIMINARY_QA_ONLY"
+    }
+  },
+  "missing": [
+    "BLEND",
+    "MULTIVIEW_PHOTOREAL_ART_RENDERS",
+    "GENUINE_PUBLIC_INTERIORS",
+    "REAL_10KM_CITY_DETAIL",
+    "VALIDATED_CANONICAL_COORDINATES",
+    "BLEND",
+    "BLENDER_GLTF_REIMPORT",
+    "FULL_HUMAN_TRAVERSAL",
+    "FULL_PUBLIC_VOID_COLLISION",
+    "HUMAN_ART_ACCEPTANCE"
+  ],
+  "next_gate": "M3D-1S/J4: actual Blender/Unreal GLB reimport + full civic void and corridor geometry checks + evidence-based art redesign, keeping central art acceptance NONE",
+  "policy": "main/docs/policy/START_HERE.md",
+  "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER"
+}

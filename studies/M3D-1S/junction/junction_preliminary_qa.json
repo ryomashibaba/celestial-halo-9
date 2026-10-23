@@ -1,0 +1,100 @@
+{
+  "schema": "m3d1s.junction.qa.v3",
+  "geometry": {
+    "objects": 423,
+    "vertices": 3384,
+    "triangles": 5076,
+    "finite_data": true
+  },
+  "reserved_public_voids": [
+    {
+      "id": "PUBLIC_VOID_LOWER",
+      "colliding_rectangular_solids": []
+    },
+    {
+      "id": "PUBLIC_VOID_UPPER",
+      "colliding_rectangular_solids": []
+    }
+  ],
+  "public_void_box_aabb_pass": true,
+  "route_graph_nodes": 11,
+  "route_graph_edges": 10,
+  "all_nodes_logically_reachable": true,
+  "all_graph_edges_link_to_actual_3d_elements": true,
+  "missing_geometry_refs": [],
+  "elevator_axes": [
+    {
+      "edge": [
+        "LOWER_TRANSIT",
+        "UPPER_TRANSIT"
+      ],
+      "horizontal_offset_m": 18.027756377319946,
+      "vertical_offset_m": 810,
+      "aligned": true
+    },
+    {
+      "edge": [
+        "EAST_TRANSIT_LOWER",
+        "EAST_TRANSIT_UPPER"
+      ],
+      "horizontal_offset_m": 0,
+      "vertical_offset_m": 744,
+      "aligned": true
+    },
+    {
+      "edge": [
+        "WEST_TRANSIT_LOWER",
+        "WEST_TRANSIT_UPPER"
+      ],
+      "horizontal_offset_m": 0,
+      "vertical_offset_m": 1044,
+      "aligned": true
+    }
+  ],
+  "elevator_same_shaft_lateral_offset_pass": true,
+  "route_segment_count": [
+    {
+      "from": "LOWER_ENTRY",
+      "to": "LOWER_HALL",
+      "segments": 1
+    },
+    {
+      "from": "LOWER_HALL",
+      "to": "LOWER_TRANSIT",
+      "segments": 2
+    },
+    {
+      "from": "UPPER_TRANSIT",
+      "to": "UPPER_HALL",
+      "segments": 1
+    },
+    {
+      "from": "UPPER_HALL",
+      "to": "EAST_TRANSIT_LOWER",
+      "segments": 1
+    },
+    {
+      "from": "EAST_TRANSIT_UPPER",
+      "to": "EAST_LIVING_CITY",
+      "segments": 1
+    },
+    {
+      "from": "LOWER_HALL",
+      "to": "WEST_TRANSIT_LOWER",
+      "segments": 2
+    },
+    {
+      "from": "WEST_TRANSIT_UPPER",
+      "to": "WEST_LIVING_CITY",
+      "segments": 1
+    }
+  ],
+  "route_has_explicit_deck_mesh": true,
+  "limitations": [
+    "No real walking collision test across full corridor extents, fire/emergency, escalators, or operable elevators",
+    "Core clearance is rectangular AABB vs rectangular box objects, not full triangulated solid-point volume test",
+    "Decks, buildings and public hall modules are functional proof meshes and not complete design-quality 3D architecture",
+    "No proof of canonical world registration, master 10km completion, or user art acceptance"
+  ],
+  "status": "LIMITED_FUNCTIONAL_LAYOUT_3D_PASS_ART_NOT_ACCEPTED"
+}

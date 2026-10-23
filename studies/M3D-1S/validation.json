@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "path": "studies/M3D-1S/proxies/A_HORIZONTAL_CIVIC_CONTINENT.obj",
+      "bytes": 27864,
+      "vertices": 504,
+      "faces": 992,
+      "indices_in_bounds": true
+    },
+    {
+      "path": "studies/M3D-1S/proxies/B_VERTICAL_LIVING_RANGES.obj",
+      "bytes": 29201,
+      "vertices": 532,
+      "faces": 1048,
+      "indices_in_bounds": true
+    },
+    {
+      "path": "studies/M3D-1S/proxies/C_ASYMMETRIC_SKY_FISSURE.obj",
+      "bytes": 27884,
+      "vertices": 504,
+      "faces": 992,
+      "indices_in_bounds": true
+    }
+  ],
+  "checks": {}
+}

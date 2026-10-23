@@ -1,0 +1,128 @@
+{
+  "schema_version": "m3d1s.scale-proxy.v1",
+  "auth": "RESEARCH_ONLY_NOT_ART",
+  "world_nominal_span_m": 10000,
+  "coordinate_system": "research-local x-east y-north z-up; NOT certified W0/M204 coordinates",
+  "dimensions_reference": {
+    "previous_m3d1_central_hypothesis_m": [
+      3200,
+      2600,
+      2800
+    ],
+    "pilot_m": [
+      920,
+      1120,
+      1240
+    ]
+  },
+  "variants": [
+    {
+      "id": "A_HORIZONTAL_CIVIC_CONTINENT",
+      "description": "地平展開・都市断崖型",
+      "intent": "5km超の横広がりと複数巨大空洞を見せる。厚い居住都市が主質量を占める",
+      "components": [
+        "west_inhabited_city_bank",
+        "east_rising_civic_bank",
+        "north_long_civic_mass",
+        "south_open_civic_mass"
+      ],
+      "vertices": 504,
+      "faces": 992,
+      "bounds_m": {
+        "x": [
+          -3170.829793781418,
+          3154.1099088808833
+        ],
+        "y": [
+          -2382.909258780647,
+          2339.9189307856605
+        ],
+        "z": [
+          0,
+          3550
+        ]
+      },
+      "dimensions_m": {
+        "width": 6324.939702662301,
+        "depth": 4722.828189566308,
+        "height": 3550
+      },
+      "width_to_city_ratio": 0.6324939702662301,
+      "has_completed_public_interiors": false,
+      "has_verified_transit": false,
+      "art_review": "NOT_EVALUATED_PROXIES_ONLY"
+    },
+    {
+      "id": "B_VERTICAL_LIVING_RANGES",
+      "description": "垂直多層・天空山脈型",
+      "intent": "高高度と立体都市の階層差を遠景から理解させる",
+      "components": [
+        "central_civic_foundation",
+        "northwest_living_range",
+        "east_living_range",
+        "skyward_civic_crest"
+      ],
+      "vertices": 532,
+      "faces": 1048,
+      "bounds_m": {
+        "x": [
+          -2770.0874041382135,
+          2681.136406268859
+        ],
+        "y": [
+          -1530.2299999999998,
+          1471.532588133241
+        ],
+        "z": [
+          0,
+          4460
+        ]
+      },
+      "dimensions_m": {
+        "width": 5451.223810407073,
+        "depth": 3001.7625881332406,
+        "height": 4460
+      },
+      "width_to_city_ratio": 0.5451223810407073,
+      "has_completed_public_interiors": false,
+      "has_verified_transit": false,
+      "art_review": "NOT_EVALUATED_PROXIES_ONLY"
+    },
+    {
+      "id": "C_ASYMMETRIC_SKY_FISSURE",
+      "description": "非対称・天隙複合都市型",
+      "intent": "巨大な都市の裂け目と左右非対称の高所生活質量を一つの景観に見せる",
+      "components": [
+        "broad_west_city_continent",
+        "high_east_ascending_city",
+        "southern_civic_platform",
+        "high_transverse_exchange"
+      ],
+      "vertices": 504,
+      "faces": 992,
+      "bounds_m": {
+        "x": [
+          -3148.035043485027,
+          3122.6393353219737
+        ],
+        "y": [
+          -2579.7,
+          1852.75
+        ],
+        "z": [
+          0,
+          4230
+        ]
+      },
+      "dimensions_m": {
+        "width": 6270.674378807001,
+        "depth": 4432.45,
+        "height": 4230
+      },
+      "width_to_city_ratio": 0.6270674378807001,
+      "has_completed_public_interiors": false,
+      "has_verified_transit": false,
+      "art_review": "NOT_EVALUATED_PROXIES_ONLY"
+    }
+  ]
+}
