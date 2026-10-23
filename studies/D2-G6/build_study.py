@@ -493,4 +493,3 @@ if __name__=="__main__":
     variants,views=make_atlas()
     print("MODELS",{k:{"objects":len(v),"faces":sum(len(m.faces) for m in v)} for k,v in variants.items()})
     print("VIEWS",[p.name for p in views])
-
