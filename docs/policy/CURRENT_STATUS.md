@@ -1,5 +1,5 @@
 # HALO-9 — CURRENT STATUS (rolling)
-**確認基準：2026-10-23 JST（PR #25マージ後／M3D-0準備時点）**
+**確認基準：2026-10-23 JST（PR #25マージ済み／M3D-0 PC診断結果受領後）**
 **性質：随時更新。長期憲章や完成基準を上書きしない。**
 
 ## 最重要状態
@@ -11,11 +11,12 @@
 - **保護する正式研究方向**：M247-C 浮断天核（α双殻浮断＋β斜裂天脊）。具体的な完成メッシュは未採択。
 - **過去の長期本線**：M247-B2-39 Stage 12Wは美術REJECT、Stage 12Xは計画のみ（完了と主張しない）。
 - **A–D研究**：G7まで提出完了。現在のG7試作はいずれも精密化を止め、アーカイブ・一時停止。
-- **新しい第一実験（提案中・未実行）**：従来の一括Python生成と、Blender上でAIが実3Dを見ながら反復して直接編集する方法を、原本から隔離した小規模テストで比較する。
-- **旧Blender MCP**：別プロジェクトで過去にポート9876の接続表示あり。現在のインストール状態・編集成功・接続状況は未確認。
+- **現在の第一実験**：M3D-0 Windows診断Gate 0AはPASS（既存ソフト・設定の存在確認のみ）。Blender上のMCPサーバー起動・AI接続・実3D編集は未実施。次に小規模隔離シーンで視覚反復能力を検証する。
+- **ユーザーPC実測（2026-10-23）**：Blender 5.2標準パスFOUND、addon 5.2 FOUND、uvx FOUND、Codex設定とBlender MCP参照FOUND、Blender NOT_RUNNING、9876 NOT_LISTENING。**存在のみ確認**。未起動時の非待受は異常でない。秘密情報や絶対パスは保存していない。
 - **Work**：都度事前相談・ユーザー明示承認。
 - **有料外部コンセプトアーティストへの外注**：ユーザー意向で実施しない。
-- **GitHub正式方針文書**：PR #25は2026-10-23にmainへマージ済み。正式入口は main/docs/policy/START_HERE.md。
+- **GitHub正式方針文書**：PR #25は2026-10-23にmainへマージ済み。正式入口は main/docs/policy/START_HERE.md。初版の旧状態説明の修正はDraft PR #26で提案中（まだmain未反映）。
+- **新技術の研究評価**：UltraはUnreal Engine + PCGを都市全体統合の強力な候補、Blenderを専用造形候補、Houdiniを必要時の追加候補と評価。公式資料でUnreal 5.8のPCG/MCP等の機能を確認。**Unreal/Houdiniの正式採択・実機検証は未実施**。詳しくは studies/M3D-0/ULTRA_PRODUCTION_STRATEGY_REVIEW_2026-10-23.md。
 
 ## GitHub確認済みHEAD（2026-10-23現在）
 
@@ -34,10 +35,11 @@ Repository: ryomashibaba/celestial-halo-9
 ## Next responsible actions
 
 1. **完了**：PR #25をmainへマージ。ChatGPTプロジェクト共通指示もユーザーが設定済み。
-2. **着手中／端末検査待ち**：M3D-0専用研究ブランチ research/m3d0-blender-readiness-20261023 で読み取り専用診断CMDと初心者向け手順を準備した。Windows端末での実行結果は未取得。
-3. 診断結果からBlender 5.2.1・旧MCPアドオン・uvx・Codex設定・ポート9876を必要最低限の操作で確認する。勝手な再インストールは行わない。
-4. 新規Work/Blender編集実験は別途ユーザーの明示承認後、隔離コピーで行い、実3Dの視覚反復・局所編集能力を評価する。
-5. 美術的成果が不十分なら制作方法を見直す。正式Minecraft施工は独立承認まで禁止。
+2. **完了／存在検査**：M3D-0読み取り専用CMDをユーザーPCで実行し、Blender 5.2・5.2 addon・uvx・Codex MCP設定候補を検出（Gate 0A PASS）。実測の機密情報を除いた記録は studies/M3D-0/ENVIRONMENT_DIAGNOSIS_2026-10-23.md。
+3. **次のBlender操作（未実施）**：Blender 5.2を新規Generalシーンで起動 → MCP addon UIを確認 → localhost:9876を安全に起動 → 旧診断の[6/6]で待受を確認。設定の初期化・再インストールは不要な限り行わない。
+4. **Gate 0C/0D（未実施）**：ユーザーが別途許可した場合だけ、隔離された新規3DシーンでAIの読取り・局所編集・復元・6視点レビューを検証。
+5. **技術研究（未採択）**：Ultraの提案に基づき、実3D美術の改善M3D-1Aと完成代表経路M3D-1Bを先に実証。Unreal PCG統合はその後の候補、Houdiniは必要な場合のみ検証。
+6. 完成基準の緩和は行わず、美術的成果が乏しければ手法を見直す。正式Minecraft施工は独立承認まで禁止。
 
 ## 更新ルール
 
