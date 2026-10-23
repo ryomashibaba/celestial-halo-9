@@ -1,0 +1,3492 @@
+{
+  "loader": "trimesh independent of Blender",
+  "file": "selected.glb",
+  "sha256": "964e3f6c9d5359738ae663440320218b822b1ff036fb2c78a59976004dd078a2",
+  "units": "m",
+  "gltf_to_study_axis_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "bounds_m": [
+    [
+      -1464.9796142578125,
+      -1969.884521484375,
+      0.0
+    ],
+    [
+      2329.9013671875,
+      2229.997314453125,
+      5514.0
+    ]
+  ],
+  "dimensions_m": {
+    "width": 3794.8809814453125,
+    "depth": 4199.8818359375,
+    "height": 5514.0
+  },
+  "vs_blender_bounds_max_delta_m": 0.0,
+  "all_vertices_finite": true,
+  "geometry_objects": 99,
+  "triangles": 126388,
+  "mesh_topology": [
+    {
+      "object": "URBAN_WINDOW_STRIPS",
+      "vertices": 27456,
+      "triangles": 13728,
+      "finite": true,
+      "watertight_after_merge": false,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "URBAN_COURTYARD_WINGS_LOW_DETAIL",
+      "vertices": 45760,
+      "triangles": 68640,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "UPPER_STAIR_TO_SCHOOL_WALK",
+      "vertices": 8,
+      "triangles": 12,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "UPPER_SCHOOL_CLASSROOM_WINGS",
+      "vertices": 72,
+      "triangles": 108,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "TWIN_PUBLIC_LIFT_SHAFTS",
+      "vertices": 16,
+      "triangles": 24,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "SHARED_ROOF_EQUALS_UPPER_CITY_GROUND",
+      "vertices": 8,
+      "triangles": 12,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "SCHOOL_WINDOW_OPENINGS_GLAZING",
+      "vertices": 48,
+      "triangles": 24,
+      "finite": true,
+      "watertight_after_merge": false,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "SCALE_PEOPLE_1P7M_NO_POPULATION_CLAIM",
+      "vertices": 112,
+      "triangles": 168,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "PUBLIC_STAIRS_640_TREADS_AND_LANDINGS",
+      "vertices": 5248,
+      "triangles": 7872,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "LOWER_STAIR_APPROACH",
+      "vertices": 8,
+      "triangles": 12,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "LOWER_MARKET_STALLS_COUNTERS_CANOPIES",
+      "vertices": 192,
+      "triangles": 288,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "LOWER_DISTRICT_GROUND",
+      "vertices": 8,
+      "triangles": 12,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "LIFT_CABINS_AND_LOBBIES",
+      "vertices": 128,
+      "triangles": 192,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "INHABITED_BACK_ROOMS_AND_CIVIC_PIERS",
+      "vertices": 2864,
+      "triangles": 4296,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "GROUND_ARRIVAL_STREET",
+      "vertices": 8,
+      "triangles": 12,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FOCUS_UPPER_RESIDENTIAL_COURTS",
+      "vertices": 640,
+      "triangles": 960,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FOCUS_SHARED_INHABITED_ROOT",
+      "vertices": 8,
+      "triangles": 12,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FOCUS_RESIDENTIAL_WINDOWS",
+      "vertices": 2352,
+      "triangles": 1176,
+      "finite": true,
+      "watertight_after_merge": false,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FOCUS_PLANTERS_AND_SEATS",
+      "vertices": 96,
+      "triangles": 144,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FOCUS_LOWER_RESIDENTIAL_COURTS",
+      "vertices": 2208,
+      "triangles": 3312,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_11",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_10",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_09",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_08",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_06",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_05",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_04",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_03",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_02",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_01",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_02_00",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_14",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_13",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_12",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_11",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_10",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_09",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_08",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_23",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_22",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_21",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_20",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_19",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_18",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_17",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_16",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_15",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_14",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_13",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_12",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_11",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_10",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_09",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_08",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_07",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_06",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_05",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_04",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_03",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_02",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_01",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_07_SEG_00",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_06",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_05",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_04",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_03",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_02",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_01",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_01_00",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_16",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_15",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_14",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_13",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_12",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_11",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_10",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_09",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_08",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_23",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_22",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_21",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_20",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_19",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_18",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_17",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_16",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_15",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_14",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_13",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_07_SEG_12",
+      "vertices": 20,
+      "triangles": 36,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_06",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_05",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_04",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_03",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_02",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_01",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "FABRIC_GROUND_00_00",
+      "vertices": 292,
+      "triangles": 580,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "CIVIC_ROOM_WINDOWS",
+      "vertices": 64,
+      "triangles": 32,
+      "finite": true,
+      "watertight_after_merge": false,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    },
+    {
+      "object": "CIVIC_HALL_PIERS_SIDE_ROOMS",
+      "vertices": 184,
+      "triangles": 276,
+      "finite": true,
+      "watertight_after_merge": true,
+      "winding_consistent": true,
+      "note": "Glazing planes intentionally open; intersecting room/solid batches are not a single boolean-unioned building"
+    }
+  ],
+  "focus_housing_support_probes": [
+    {
+      "block": "L_-1_0_0",
+      "xy": [
+        -475.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_0",
+      "xy": [
+        -405.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_0",
+      "xy": [
+        -475.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_0",
+      "xy": [
+        -405.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_0",
+      "xy": [
+        -440,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_0",
+      "xy": [
+        -475.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_0",
+      "xy": [
+        -405.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_1",
+      "xy": [
+        -475.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_1",
+      "xy": [
+        -405.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_1",
+      "xy": [
+        -475.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_1",
+      "xy": [
+        -405.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_1",
+      "xy": [
+        -440,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_1",
+      "xy": [
+        -475.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_1",
+      "xy": [
+        -405.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_2",
+      "xy": [
+        -475.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_2",
+      "xy": [
+        -405.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_2",
+      "xy": [
+        -475.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_2",
+      "xy": [
+        -405.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_2",
+      "xy": [
+        -440,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_2",
+      "xy": [
+        -475.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_0_2",
+      "xy": [
+        -405.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_0",
+      "xy": [
+        -575.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_0",
+      "xy": [
+        -505.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_0",
+      "xy": [
+        -575.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_0",
+      "xy": [
+        -505.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_0",
+      "xy": [
+        -540,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_0",
+      "xy": [
+        -575.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_0",
+      "xy": [
+        -505.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_1",
+      "xy": [
+        -575.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_1",
+      "xy": [
+        -505.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_1",
+      "xy": [
+        -575.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_1",
+      "xy": [
+        -505.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_1",
+      "xy": [
+        -540,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_1",
+      "xy": [
+        -575.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_1",
+      "xy": [
+        -505.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_2",
+      "xy": [
+        -575.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_2",
+      "xy": [
+        -505.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_2",
+      "xy": [
+        -575.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_2",
+      "xy": [
+        -505.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_2",
+      "xy": [
+        -540,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_2",
+      "xy": [
+        -575.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_1_2",
+      "xy": [
+        -505.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_0",
+      "xy": [
+        -675.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_0",
+      "xy": [
+        -605.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_0",
+      "xy": [
+        -675.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_0",
+      "xy": [
+        -605.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_0",
+      "xy": [
+        -640,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_0",
+      "xy": [
+        -675.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_0",
+      "xy": [
+        -605.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_1",
+      "xy": [
+        -675.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_1",
+      "xy": [
+        -605.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_1",
+      "xy": [
+        -675.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_1",
+      "xy": [
+        -605.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_1",
+      "xy": [
+        -640,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_1",
+      "xy": [
+        -675.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_1",
+      "xy": [
+        -605.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_2",
+      "xy": [
+        -675.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_2",
+      "xy": [
+        -605.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_2",
+      "xy": [
+        -675.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_2",
+      "xy": [
+        -605.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_2",
+      "xy": [
+        -640,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_2",
+      "xy": [
+        -675.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_2_2",
+      "xy": [
+        -605.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_0",
+      "xy": [
+        -775.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_0",
+      "xy": [
+        -705.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_0",
+      "xy": [
+        -775.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_0",
+      "xy": [
+        -705.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_0",
+      "xy": [
+        -740,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_0",
+      "xy": [
+        -775.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_0",
+      "xy": [
+        -705.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_1",
+      "xy": [
+        -775.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_1",
+      "xy": [
+        -705.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_1",
+      "xy": [
+        -775.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_1",
+      "xy": [
+        -705.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_1",
+      "xy": [
+        -740,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_1",
+      "xy": [
+        -775.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_1",
+      "xy": [
+        -705.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_2",
+      "xy": [
+        -775.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_2",
+      "xy": [
+        -705.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_2",
+      "xy": [
+        -775.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_2",
+      "xy": [
+        -705.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_2",
+      "xy": [
+        -740,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_2",
+      "xy": [
+        -775.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_-1_3_2",
+      "xy": [
+        -705.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_0",
+      "xy": [
+        405.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_0",
+      "xy": [
+        475.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_0",
+      "xy": [
+        405.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_0",
+      "xy": [
+        475.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_0",
+      "xy": [
+        440,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_0",
+      "xy": [
+        405.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_0",
+      "xy": [
+        475.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_1",
+      "xy": [
+        405.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_1",
+      "xy": [
+        475.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_1",
+      "xy": [
+        405.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_1",
+      "xy": [
+        475.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_1",
+      "xy": [
+        440,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_1",
+      "xy": [
+        405.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_1",
+      "xy": [
+        475.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_2",
+      "xy": [
+        405.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_2",
+      "xy": [
+        475.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_2",
+      "xy": [
+        405.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_2",
+      "xy": [
+        475.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_2",
+      "xy": [
+        440,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_2",
+      "xy": [
+        405.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_0_2",
+      "xy": [
+        475.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_0",
+      "xy": [
+        505.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_0",
+      "xy": [
+        575.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_0",
+      "xy": [
+        505.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_0",
+      "xy": [
+        575.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_0",
+      "xy": [
+        540,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_0",
+      "xy": [
+        505.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_0",
+      "xy": [
+        575.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_1",
+      "xy": [
+        505.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_1",
+      "xy": [
+        575.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_1",
+      "xy": [
+        505.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_1",
+      "xy": [
+        575.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_1",
+      "xy": [
+        540,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_1",
+      "xy": [
+        505.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_1",
+      "xy": [
+        575.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_2",
+      "xy": [
+        505.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_2",
+      "xy": [
+        575.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_2",
+      "xy": [
+        505.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_2",
+      "xy": [
+        575.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_2",
+      "xy": [
+        540,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_2",
+      "xy": [
+        505.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_1_2",
+      "xy": [
+        575.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_0",
+      "xy": [
+        605.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_0",
+      "xy": [
+        675.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_0",
+      "xy": [
+        605.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_0",
+      "xy": [
+        675.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_0",
+      "xy": [
+        640,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_0",
+      "xy": [
+        605.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_0",
+      "xy": [
+        675.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_1",
+      "xy": [
+        605.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_1",
+      "xy": [
+        675.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_1",
+      "xy": [
+        605.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_1",
+      "xy": [
+        675.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_1",
+      "xy": [
+        640,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_1",
+      "xy": [
+        605.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_1",
+      "xy": [
+        675.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_2",
+      "xy": [
+        605.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_2",
+      "xy": [
+        675.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_2",
+      "xy": [
+        605.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_2",
+      "xy": [
+        675.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_2",
+      "xy": [
+        640,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_2",
+      "xy": [
+        605.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_2_2",
+      "xy": [
+        675.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_0",
+      "xy": [
+        705.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_0",
+      "xy": [
+        775.0,
+        -1565.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_0",
+      "xy": [
+        705.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_0",
+      "xy": [
+        775.0,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_0",
+      "xy": [
+        740,
+        -1455.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_0",
+      "xy": [
+        705.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_0",
+      "xy": [
+        775.0,
+        -1510
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_1",
+      "xy": [
+        705.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_1",
+      "xy": [
+        775.0,
+        -1355.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_1",
+      "xy": [
+        705.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_1",
+      "xy": [
+        775.0,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_1",
+      "xy": [
+        740,
+        -1245.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_1",
+      "xy": [
+        705.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_1",
+      "xy": [
+        775.0,
+        -1300
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_2",
+      "xy": [
+        705.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_2",
+      "xy": [
+        775.0,
+        -1145.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_2",
+      "xy": [
+        705.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_2",
+      "xy": [
+        775.0,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_2",
+      "xy": [
+        740,
+        -1035.0
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_2",
+      "xy": [
+        705.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "L_1_3_2",
+      "xy": [
+        775.0,
+        -1090
+      ],
+      "floor_z_m": 2110,
+      "support_z_m": 2110.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1230",
+      "xy": [
+        -285.0,
+        -1275.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1230",
+      "xy": [
+        -215.0,
+        -1275.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1230",
+      "xy": [
+        -285.0,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1230",
+      "xy": [
+        -215.0,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1230",
+      "xy": [
+        -250,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1230",
+      "xy": [
+        -285.0,
+        -1230
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1230",
+      "xy": [
+        -215.0,
+        -1230
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1030",
+      "xy": [
+        -285.0,
+        -1075.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1030",
+      "xy": [
+        -215.0,
+        -1075.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1030",
+      "xy": [
+        -285.0,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1030",
+      "xy": [
+        -215.0,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1030",
+      "xy": [
+        -250,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1030",
+      "xy": [
+        -285.0,
+        -1030
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-250_-1030",
+      "xy": [
+        -215.0,
+        -1030
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1230",
+      "xy": [
+        -170.0,
+        -1275.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1230",
+      "xy": [
+        -100.0,
+        -1275.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1230",
+      "xy": [
+        -170.0,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1230",
+      "xy": [
+        -100.0,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1230",
+      "xy": [
+        -135,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1230",
+      "xy": [
+        -170.0,
+        -1230
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1230",
+      "xy": [
+        -100.0,
+        -1230
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1030",
+      "xy": [
+        -170.0,
+        -1075.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1030",
+      "xy": [
+        -100.0,
+        -1075.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1030",
+      "xy": [
+        -170.0,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1030",
+      "xy": [
+        -100.0,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1030",
+      "xy": [
+        -135,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1030",
+      "xy": [
+        -170.0,
+        -1030
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_-135_-1030",
+      "xy": [
+        -100.0,
+        -1030
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1230",
+      "xy": [
+        100.0,
+        -1275.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1230",
+      "xy": [
+        170.0,
+        -1275.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1230",
+      "xy": [
+        100.0,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1230",
+      "xy": [
+        170.0,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1230",
+      "xy": [
+        135,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1230",
+      "xy": [
+        100.0,
+        -1230
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1230",
+      "xy": [
+        170.0,
+        -1230
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1030",
+      "xy": [
+        100.0,
+        -1075.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1030",
+      "xy": [
+        170.0,
+        -1075.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1030",
+      "xy": [
+        100.0,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1030",
+      "xy": [
+        170.0,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1030",
+      "xy": [
+        135,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1030",
+      "xy": [
+        100.0,
+        -1030
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_135_-1030",
+      "xy": [
+        170.0,
+        -1030
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1230",
+      "xy": [
+        215.0,
+        -1275.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1230",
+      "xy": [
+        285.0,
+        -1275.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1230",
+      "xy": [
+        215.0,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1230",
+      "xy": [
+        285.0,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1230",
+      "xy": [
+        250,
+        -1185.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1230",
+      "xy": [
+        215.0,
+        -1230
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1230",
+      "xy": [
+        285.0,
+        -1230
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1030",
+      "xy": [
+        215.0,
+        -1075.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1030",
+      "xy": [
+        285.0,
+        -1075.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1030",
+      "xy": [
+        215.0,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1030",
+      "xy": [
+        285.0,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1030",
+      "xy": [
+        250,
+        -985.0
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1030",
+      "xy": [
+        215.0,
+        -1030
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    },
+    {
+      "block": "U_250_-1030",
+      "xy": [
+        285.0,
+        -1030
+      ],
+      "floor_z_m": 2206,
+      "support_z_m": 2206.0,
+      "gap_m": 0.0,
+      "pass_5cm": true
+    }
+  ],
+  "focus_housing_support_summary": {
+    "passes": 224,
+    "samples": 224,
+    "scope": "7 samples per block for 24 lower + 8 upper courts; school/supports/services outside this count"
+  },
+  "shared_roof": {
+    "actual_bounds_m": [
+      [
+        -350.0,
+        -1350.0,
+        2194.0
+      ],
+      [
+        350.0,
+        -870.0,
+        2206.0
+      ]
+    ],
+    "upper_street_equals_roof_top": true,
+    "upper_housing_depends_on_same_mesh": true,
+    "lower_civic_hall_has_same_roof": true,
+    "roof_removal": "Would remove the sole ground used by all sampled upper housing footprints; this is geometry dependency, not structural engineering"
+  },
+  "stairs": {
+    "actual_mesh_bounds_m": [
+      [
+        367.6499938964844,
+        -1261.5,
+        2109.909912109375
+      ],
+      [
+        377.6499938964844,
+        -1246.5,
+        2206.0
+      ]
+    ],
+    "arithmetic_total_rise_m": 96.0,
+    "lower_street_m": 2110,
+    "upper_street_m": 2206,
+    "max_riser_design_m": 0.15,
+    "treads": 640,
+    "landings": 16,
+    "lower_connector_gap_fixed_before_final_export": true,
+    "limits": "Riser arithmetic and actual mesh bounds only. No global floor collision, headroom or universal-access validation."
+  },
+  "art_status": "HOLD",
+  "global_walkability": "NOT_TESTED",
+  "protected_collisions": "NOT_TESTED",
+  "physics_and_environment": "NOT_ENGINEERED",
+  "formal_M247C_modified": false,
+  "coordinate_fusion": false,
+  "limits": [
+    "The main mass remains a repeated shelf/rack composition; geometry QA cannot resolve this art failure",
+    "Core world background is conceptual, not W0",
+    "Scale people are 1.7m reference solids, not inhabitants or a population simulation",
+    "Courtyard wings have entrances/windows but no full dwelling fit-out",
+    "Some batches have overlapping solids; watertight individual solids do not certify the assembled building"
+  ],
+  "comparison_models": {
+    "A": {
+      "independent_load": "SUCCESS",
+      "finite_vertices": true,
+      "dimensions_m": {
+        "width": 3772.708251953125,
+        "depth": 4047.0087890625,
+        "height": 5530.0
+      },
+      "scope": "massing geometry only, no inhabited-city or art validation"
+    },
+    "B": {
+      "independent_load": "SUCCESS",
+      "finite_vertices": true,
+      "dimensions_m": {
+        "width": 3546.4825439453125,
+        "depth": 3832.988037109375,
+        "height": 5500.0
+      },
+      "scope": "massing geometry only, no inhabited-city or art validation"
+    }
+  }
+}

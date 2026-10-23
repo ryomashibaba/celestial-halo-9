@@ -1,0 +1,30 @@
+{
+  "study_id": "A2-G6",
+  "source_commit": "b74e452f664adc8ae505846509d978e324fc6e1b",
+  "source_branch": "art/a",
+  "source_assets": [
+    {
+      "path": "studies/A2-G5/REPORT.md",
+      "git_blob_sha": "3983b979db0439bd250fb36c4958290bfa1e2e58",
+      "size_bytes": 18841
+    },
+    {
+      "path": "studies/A2-G5/concept-I.png",
+      "git_blob_sha": "24a60377278bf9ab73e2e2cc3d1c891355279386",
+      "size_bytes": 260997
+    },
+    {
+      "path": "studies/A2-G5/concepts.json",
+      "git_blob_sha": "3bcfc41439ebe28d3b12dc7c3cb06511aed4b229",
+      "size_bytes": 16068
+    }
+  ],
+  "inherited_principle": "Upper and lower urban districts share the same civic building roof/ground and public movement",
+  "not_inherited": [
+    "G4 failed meshes",
+    "G5 proposed dimensions as measured geometry",
+    "M204/M207 guessed coordinate alignment"
+  ],
+  "user_authorization": "G6 priority research mesh production only; not formal art adoption; Work requires prior approval",
+  "G5_alternative_II": "Preserved unchanged in A2-G5; not reclassified as a G6 variant"
+}

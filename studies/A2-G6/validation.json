@@ -1,0 +1,149 @@
+{
+  "stage": "BLOCKOUT_3D",
+  "art_review_status": "HOLD",
+  "formal_art_adoption": false,
+  "formal_supervisor_art_review": "NOT_REVIEWED",
+  "measured_dimensions_m": {
+    "width": 3794.8809814453125,
+    "depth": 4199.8818359375,
+    "height": 5514.0
+  },
+  "model_source": "new original meshes",
+  "selected_glb_sha256": "964e3f6c9d5359738ae663440320218b822b1ff036fb2c78a59976004dd078a2",
+  "blender_glb_roundtrip": "SUCCESS",
+  "independent_loader": "trimesh SUCCESS",
+  "bounds_max_delta_m": 0.0,
+  "mesh_objects": 99,
+  "triangles": 126388,
+  "all_finite": true,
+  "shared_roof": {
+    "actual_bounds_m": [
+      [
+        -350.0,
+        -1350.0,
+        2194.0
+      ],
+      [
+        350.0,
+        -870.0,
+        2206.0
+      ]
+    ],
+    "upper_street_equals_roof_top": true,
+    "upper_housing_depends_on_same_mesh": true,
+    "lower_civic_hall_has_same_roof": true,
+    "roof_removal": "Would remove the sole ground used by all sampled upper housing footprints; this is geometry dependency, not structural engineering"
+  },
+  "housing_support": {
+    "passes": 224,
+    "samples": 224,
+    "scope": "7 samples per block for 24 lower + 8 upper courts; school/supports/services outside this count"
+  },
+  "images": [
+    {
+      "path": "renders/01_city.png",
+      "pixels": [
+        1600,
+        1350
+      ]
+    },
+    {
+      "path": "renders/02_oblique.png",
+      "pixels": [
+        1600,
+        1350
+      ]
+    },
+    {
+      "path": "renders/03_front.png",
+      "pixels": [
+        1600,
+        1350
+      ]
+    },
+    {
+      "path": "renders/04_side.png",
+      "pixels": [
+        1600,
+        1350
+      ]
+    },
+    {
+      "path": "renders/05_back.png",
+      "pixels": [
+        1600,
+        1350
+      ]
+    },
+    {
+      "path": "renders/06_high.png",
+      "pixels": [
+        1600,
+        1350
+      ]
+    },
+    {
+      "path": "renders/07_human.png",
+      "pixels": [
+        1900,
+        1400
+      ]
+    },
+    {
+      "path": "renders/08_public_hall.png",
+      "pixels": [
+        1900,
+        1400
+      ]
+    },
+    {
+      "path": "renders/09_pair_aerial.png",
+      "pixels": [
+        1900,
+        1400
+      ]
+    },
+    {
+      "path": "renders/10_pair_section.png",
+      "pixels": [
+        1900,
+        1400
+      ]
+    },
+    {
+      "path": "renders/11_living_street.png",
+      "pixels": [
+        1900,
+        1400
+      ]
+    }
+  ],
+  "render_source": "reimported selected.glb; final model used for every final view",
+  "palette_reduction": 128,
+  "section": "same GLB mesh copies bisected; cut faces uncapped",
+  "human_view_verdict": "HOLD: civic hall remains oversized and daily street/market density too weak; not a validated inhabited civilization city",
+  "human_diagnostic_exposure": -2,
+  "human_before_after_lighting_comparable": false,
+  "art_verdict": "STOP DETAIL: tiered shelf/rack reading persists. Preserve spatial evidence, not an adopted art candidate.",
+  "initial_human_failure": {
+    "image": "comparison/C_initial_human_blocked.png",
+    "nearest_central_obstruction_m": 98.92,
+    "object": "INHABITED_BACK_ROOMS_AND_CIVIC_PIERS",
+    "response": "removed conflicting macro room piers and rerendered all final views"
+  },
+  "geometry_checks_are_not": [
+    "global walkability",
+    "structural safety",
+    "complete services",
+    "protection clearance",
+    "inhabitability",
+    "art acceptance"
+  ],
+  "world_writes": 0,
+  "formal_M247C_modified": false,
+  "work_transfer": false,
+  "minecraft_construction": "HOLD",
+  "context": "10km square + six unregistered scale quarters in separate BLEND collection; architecture-only GLB",
+  "M204_M207_fusion": false,
+  "coordinate_endpoints": "UNCONFIRMED / UNDETERMINED"
+}

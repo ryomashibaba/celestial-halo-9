@@ -1,0 +1,419 @@
+{
+  "schema_version": "1.0",
+  "branch": "art/a",
+  "track": "A",
+  "study_id": "A2-G6",
+  "title": "交庭聖都：上下生活地区の共有公共建築 — 二構成と主質量再設計の実3D研究",
+  "stage": "BLOCKOUT_3D",
+  "art_review_status": "HOLD",
+  "updated_at": "2026-10-23T04:33:51.466791+00:00",
+  "dimensions_m": {
+    "width": 3794.8809814453125,
+    "depth": 4199.8818359375,
+    "height": 5514.0
+  },
+  "proposed_dimensions_m": null,
+  "dimensions_scope": "selected.glb architecture-only bounds; includes transit and scale people; excludes context. No canonical-city registration.",
+  "assets": [
+    {
+      "path": "studies/A2-G6/build.py",
+      "kind": "CODE",
+      "sha256": "46150c00c5b784addf33a500a3d2376ffddd2608e0c78e02484851a2e7507d25",
+      "size_bytes": 25914
+    },
+    {
+      "path": "studies/A2-G6/comparison/A_02_oblique.png",
+      "kind": "PNG",
+      "sha256": "190e0f233fdff1855f67580462f1d724bb810749ae3466b8d1e71e77d236f338",
+      "size_bytes": 388833
+    },
+    {
+      "path": "studies/A2-G6/comparison/A_03_front.png",
+      "kind": "PNG",
+      "sha256": "7243bb14eb59e6f9a4d46070d240b8ae46df584895f37ebef8f7d67a4e83272b",
+      "size_bytes": 373674
+    },
+    {
+      "path": "studies/A2-G6/comparison/A_05_back.png",
+      "kind": "PNG",
+      "sha256": "1595d6c029c633cc891e9daf84b1fcd69d32fca0b600a15e0d4976b4dfaa9c43",
+      "size_bytes": 373340
+    },
+    {
+      "path": "studies/A2-G6/comparison/A_massing.glb",
+      "kind": "GLB",
+      "sha256": "f9aa5d5dbd36b88169e145034180f64018d8602186adaf23cf483bc9a703eb5c",
+      "size_bytes": 1200668
+    },
+    {
+      "path": "studies/A2-G6/comparison/B_02_oblique.png",
+      "kind": "PNG",
+      "sha256": "11b3ca49527d00ad566fe69dc23426c1adcfaae8a914c7e4df0cdaabaf95d159",
+      "size_bytes": 378484
+    },
+    {
+      "path": "studies/A2-G6/comparison/B_03_front.png",
+      "kind": "PNG",
+      "sha256": "16e69e20438dbc3cfa50d5c9db06e947ae6c48ab55aa4c8fe1fa2f488ef5a183",
+      "size_bytes": 388452
+    },
+    {
+      "path": "studies/A2-G6/comparison/B_05_back.png",
+      "kind": "PNG",
+      "sha256": "25819f1d1cfccb050db3fd1502ac6365ef6076fd4016314efd4073840372022e",
+      "size_bytes": 376753
+    },
+    {
+      "path": "studies/A2-G6/comparison/B_massing.glb",
+      "kind": "GLB",
+      "sha256": "61bafe059744cd1ad8cacfb2a7ea8a5c925e7457eb6c4a6c4470d8045d03a6a9",
+      "size_bytes": 648420
+    },
+    {
+      "path": "studies/A2-G6/comparison/C_02_oblique.png",
+      "kind": "PNG",
+      "sha256": "d9d939229dd34a87d2e48e75a77bb26cfe5f0e20d7929dcf32e42e68b200b7da",
+      "size_bytes": 409610
+    },
+    {
+      "path": "studies/A2-G6/comparison/C_05_back.png",
+      "kind": "PNG",
+      "sha256": "8d09d87e1a20bd095f1920393fdd3af9be53f5d045d5b46615a9a42d28349870",
+      "size_bytes": 404186
+    },
+    {
+      "path": "studies/A2-G6/comparison/C_after_room_removal_dark_floor.png",
+      "kind": "PNG",
+      "sha256": "550e5a54f5fa5ae4f6571be1a266c778ae5f937d8695e46de558946db14cfe48",
+      "size_bytes": 495136
+    },
+    {
+      "path": "studies/A2-G6/comparison/C_initial_human_blocked.png",
+      "kind": "PNG",
+      "sha256": "934b379e3431c7db7ef5968e7bd4dd6711da291a3e72ffe8b5da2f69f7ed9de5",
+      "size_bytes": 506051
+    },
+    {
+      "path": "studies/A2-G6/comparison-record.json",
+      "kind": "JSON",
+      "sha256": "d8d48c9e0266566546ee6c7b33027db7e56cd1a75f4264c52de0514d2514bad1",
+      "size_bytes": 1346
+    },
+    {
+      "path": "studies/A2-G6/comparison.png",
+      "kind": "PNG",
+      "sha256": "cd4ff4e9a8c152975f737f0c2b841e5f9c33be1783f9f7463695d5641f3e0fce",
+      "size_bytes": 1736510
+    },
+    {
+      "path": "studies/A2-G6/geometry-record.json",
+      "kind": "JSON",
+      "sha256": "e6f3ace0c7a5619aba3cfcbf878f75e0b049bcb4c2c174d22f277885f5fb41f4",
+      "size_bytes": 70366
+    },
+    {
+      "path": "studies/A2-G6/human_comparison.png",
+      "kind": "PNG",
+      "sha256": "597c25f9773fafc027c4a3912101323aba1ee11ef21bf683636fed90897517bf",
+      "size_bytes": 979808
+    },
+    {
+      "path": "studies/A2-G6/inheritance.json",
+      "kind": "JSON",
+      "sha256": "2140bd813b19ea06281fd6f45c557250161be9354d1725ef1da3606b165abea8",
+      "size_bytes": 1070
+    },
+    {
+      "path": "studies/A2-G6/mesh-qa.json",
+      "kind": "JSON",
+      "sha256": "beb4c55b943dad053ae036fb36896bbb3e6207c8d158a6705548079cee06403d",
+      "size_bytes": 81552
+    },
+    {
+      "path": "studies/A2-G6/package.py",
+      "kind": "CODE",
+      "sha256": "48b80b419168070a79cf44c98c51f1558b5c69080f85b50961c326a65ebfeb4b",
+      "size_bytes": 10396
+    },
+    {
+      "path": "studies/A2-G6/qa.py",
+      "kind": "CODE",
+      "sha256": "6096330b992d7b154ce67cd1a9464ae25dc467ceb73fbfb88e0c9fd8943561b3",
+      "size_bytes": 5792
+    },
+    {
+      "path": "studies/A2-G6/README.md",
+      "kind": "REPORT",
+      "sha256": "7165e498c37bd0fc3c30175ece7052932b738083ab0b70ef6b2f6dce44b55cb3",
+      "size_bytes": 1573
+    },
+    {
+      "path": "studies/A2-G6/renders/01_city.png",
+      "kind": "PNG",
+      "sha256": "93e40c57e67a494673285a5b9c39283a434eaf1ad966c037e31fc14361dcc683",
+      "size_bytes": 668786
+    },
+    {
+      "path": "studies/A2-G6/renders/02_oblique.png",
+      "kind": "PNG",
+      "sha256": "8ee2b81f87761e0c2683457716c2e864e97a701ab53041b0630ec42be1fe8491",
+      "size_bytes": 681242
+    },
+    {
+      "path": "studies/A2-G6/renders/03_front.png",
+      "kind": "PNG",
+      "sha256": "8d26d2aa307d4a13b12126c6f42191c011ce6dc82f3308bf000dbaa4d229c0b3",
+      "size_bytes": 650248
+    },
+    {
+      "path": "studies/A2-G6/renders/04_side.png",
+      "kind": "PNG",
+      "sha256": "eea7422e9ac4e690e79379b34994a18ce82200ebf573cb1733c8f22b2ce869ba",
+      "size_bytes": 712088
+    },
+    {
+      "path": "studies/A2-G6/renders/05_back.png",
+      "kind": "PNG",
+      "sha256": "d03dfd9fde0f6aed0be7975ad833e8e6c003446df37a206da02081de601012bc",
+      "size_bytes": 675452
+    },
+    {
+      "path": "studies/A2-G6/renders/06_high.png",
+      "kind": "PNG",
+      "sha256": "f4b8a848dc6cf683eda7cd9b838fc5ee598365f16f7c798f4c79cefca2aed357",
+      "size_bytes": 741345
+    },
+    {
+      "path": "studies/A2-G6/renders/07_human.png",
+      "kind": "PNG",
+      "sha256": "da47c309ebd67d69f6f383d33764f25919b33e7c3cfb6cf09071d4bdfd7831c3",
+      "size_bytes": 563070
+    },
+    {
+      "path": "studies/A2-G6/renders/08_public_hall.png",
+      "kind": "PNG",
+      "sha256": "27a1b3c5c2c5c845fdb4b9469bb6d4b05a51706343b93e6eb12a26a756c6d710",
+      "size_bytes": 689641
+    },
+    {
+      "path": "studies/A2-G6/renders/09_pair_aerial.png",
+      "kind": "PNG",
+      "sha256": "730efbfcd2d3b68959542e3de490cdbdf058bd588c4720edbaa259ccc55f81ae",
+      "size_bytes": 570007
+    },
+    {
+      "path": "studies/A2-G6/renders/10_pair_section.png",
+      "kind": "PNG",
+      "sha256": "826f22b28b97575d4b8d4d8b7d4622e29643018f1232f92381606f4019646c20",
+      "size_bytes": 728057
+    },
+    {
+      "path": "studies/A2-G6/renders/11_living_street.png",
+      "kind": "PNG",
+      "sha256": "39f6f1d35885e14625e0f625eae2fcef80f89ad19764633f8814fe279063b668",
+      "size_bytes": 634824
+    },
+    {
+      "path": "studies/A2-G6/REPORT.md",
+      "kind": "REPORT",
+      "sha256": "ace226df789f760ec5fef2ce2649d7b87f3de54f1e60e3a370254b2b350998bc",
+      "size_bytes": 12542
+    },
+    {
+      "path": "studies/A2-G6/rerender_human.py",
+      "kind": "CODE",
+      "sha256": "358a80c63d76d08e7684b5eba930fff60b256135afb09f0d1323fe3b9c978df7",
+      "size_bytes": 1160
+    },
+    {
+      "path": "studies/A2-G6/review.html",
+      "kind": "HTML",
+      "sha256": "75443222f2add0be9bc527b95844d3eeaab7799f95e3032f6edf8906c771db84",
+      "size_bytes": 2199
+    },
+    {
+      "path": "studies/A2-G6/selected.blend",
+      "kind": "BLEND",
+      "sha256": "f1dceca9f57265b5fad3d36b8bef9fcf26e71939378e9b8b25643cb863bbdeaa",
+      "size_bytes": 2947907
+    },
+    {
+      "path": "studies/A2-G6/selected.glb",
+      "kind": "GLB",
+      "sha256": "964e3f6c9d5359738ae663440320218b822b1ff036fb2c78a59976004dd078a2",
+      "size_bytes": 6960156
+    },
+    {
+      "path": "studies/A2-G6/six_views.png",
+      "kind": "PNG",
+      "sha256": "e4afda31eba046485384ec4b47f1ec5d602eb7567348603885675bf67c39004a",
+      "size_bytes": 1959561
+    },
+    {
+      "path": "studies/A2-G6/validation.json",
+      "kind": "JSON",
+      "sha256": "51c8b8d9d102b6f949e4ae8e72b870e2be7c3653d3e0cc085a35176b2230adab",
+      "size_bytes": 3865
+    }
+  ],
+  "validation": {
+    "stage": "BLOCKOUT_3D",
+    "art_review_status": "HOLD",
+    "formal_art_adoption": false,
+    "formal_supervisor_art_review": "NOT_REVIEWED",
+    "measured_dimensions_m": {
+      "width": 3794.8809814453125,
+      "depth": 4199.8818359375,
+      "height": 5514.0
+    },
+    "model_source": "new original meshes",
+    "selected_glb_sha256": "964e3f6c9d5359738ae663440320218b822b1ff036fb2c78a59976004dd078a2",
+    "blender_glb_roundtrip": "SUCCESS",
+    "independent_loader": "trimesh SUCCESS",
+    "bounds_max_delta_m": 0.0,
+    "mesh_objects": 99,
+    "triangles": 126388,
+    "all_finite": true,
+    "shared_roof": {
+      "actual_bounds_m": [
+        [
+          -350.0,
+          -1350.0,
+          2194.0
+        ],
+        [
+          350.0,
+          -870.0,
+          2206.0
+        ]
+      ],
+      "upper_street_equals_roof_top": true,
+      "upper_housing_depends_on_same_mesh": true,
+      "lower_civic_hall_has_same_roof": true,
+      "roof_removal": "Would remove the sole ground used by all sampled upper housing footprints; this is geometry dependency, not structural engineering"
+    },
+    "housing_support": {
+      "passes": 224,
+      "samples": 224,
+      "scope": "7 samples per block for 24 lower + 8 upper courts; school/supports/services outside this count"
+    },
+    "images": [
+      {
+        "path": "renders/01_city.png",
+        "pixels": [
+          1600,
+          1350
+        ]
+      },
+      {
+        "path": "renders/02_oblique.png",
+        "pixels": [
+          1600,
+          1350
+        ]
+      },
+      {
+        "path": "renders/03_front.png",
+        "pixels": [
+          1600,
+          1350
+        ]
+      },
+      {
+        "path": "renders/04_side.png",
+        "pixels": [
+          1600,
+          1350
+        ]
+      },
+      {
+        "path": "renders/05_back.png",
+        "pixels": [
+          1600,
+          1350
+        ]
+      },
+      {
+        "path": "renders/06_high.png",
+        "pixels": [
+          1600,
+          1350
+        ]
+      },
+      {
+        "path": "renders/07_human.png",
+        "pixels": [
+          1900,
+          1400
+        ]
+      },
+      {
+        "path": "renders/08_public_hall.png",
+        "pixels": [
+          1900,
+          1400
+        ]
+      },
+      {
+        "path": "renders/09_pair_aerial.png",
+        "pixels": [
+          1900,
+          1400
+        ]
+      },
+      {
+        "path": "renders/10_pair_section.png",
+        "pixels": [
+          1900,
+          1400
+        ]
+      },
+      {
+        "path": "renders/11_living_street.png",
+        "pixels": [
+          1900,
+          1400
+        ]
+      }
+    ],
+    "render_source": "reimported selected.glb; final model used for every final view",
+    "palette_reduction": 128,
+    "section": "same GLB mesh copies bisected; cut faces uncapped",
+    "human_view_verdict": "HOLD: civic hall remains oversized and daily street/market density too weak; not a validated inhabited civilization city",
+    "human_diagnostic_exposure": -2,
+    "human_before_after_lighting_comparable": false,
+    "art_verdict": "STOP DETAIL: tiered shelf/rack reading persists. Preserve spatial evidence, not an adopted art candidate.",
+    "initial_human_failure": {
+      "image": "comparison/C_initial_human_blocked.png",
+      "nearest_central_obstruction_m": 98.92,
+      "object": "INHABITED_BACK_ROOMS_AND_CIVIC_PIERS",
+      "response": "removed conflicting macro room piers and rerendered all final views"
+    },
+    "geometry_checks_are_not": [
+      "global walkability",
+      "structural safety",
+      "complete services",
+      "protection clearance",
+      "inhabitability",
+      "art acceptance"
+    ],
+    "world_writes": 0,
+    "formal_M247C_modified": false,
+    "work_transfer": false,
+    "minecraft_construction": "HOLD",
+    "context": "10km square + six unregistered scale quarters in separate BLEND collection; architecture-only GLB",
+    "M204_M207_fusion": false,
+    "coordinate_endpoints": "UNCONFIRMED / UNDETERMINED"
+  },
+  "notes": "Actual GLB/BLEND and eleven final full-size views. Shared civic roof/upper ground verified at focused district. Central hero art target NOT achieved; stop detail. HOLD is study judgment, no formal adoption.",
+  "provenance": {
+    "baseline_commit": "b74e452f664adc8ae505846509d978e324fc6e1b",
+    "prior_study": "A2-G5",
+    "inheritance": "inheritance.json"
+  },
+  "execution": {
+    "environment": "existing project workspace; background Blender; no Work handoff",
+    "blender": "5.2.1 LTS",
+    "world_writes": 0
+  }
+}

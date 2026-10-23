@@ -1,0 +1,96 @@
+{
+  "models": {
+    "A": {
+      "name": "連湾交庭",
+      "role": "original massing comparison; no residential detail",
+      "same_cameras": true
+    },
+    "B": {
+      "name": "折面交庭",
+      "role": "original massing comparison; no residential detail",
+      "same_cameras": true
+    }
+  },
+  "cameras": {
+    "01_city": [
+      [
+        14500,
+        -18000,
+        10000
+      ],
+      [
+        0,
+        0,
+        2200
+      ],
+      13500
+    ],
+    "02_oblique": [
+      [
+        10000,
+        -14000,
+        8500
+      ],
+      [
+        0,
+        100,
+        2700
+      ],
+      8100
+    ],
+    "03_front": [
+      [
+        0,
+        -16000,
+        2700
+      ],
+      [
+        0,
+        0,
+        2700
+      ],
+      7600
+    ],
+    "04_side": [
+      [
+        16000,
+        0,
+        2700
+      ],
+      [
+        0,
+        0,
+        2700
+      ],
+      7600
+    ],
+    "05_back": [
+      [
+        0,
+        16000,
+        2700
+      ],
+      [
+        0,
+        0,
+        2700
+      ],
+      7600
+    ],
+    "06_high": [
+      [
+        6500,
+        -4500,
+        11500
+      ],
+      [
+        0,
+        0,
+        3000
+      ],
+      7500
+    ]
+  },
+  "units": "m",
+  "art_acceptance": false
+}
