@@ -1,5 +1,5 @@
 # HALO-9 — CURRENT STATUS (rolling)
-**確認基準：2026-10-23 JST**
+**確認基準：2026-10-23 JST（PR #25マージ後／M3D-0準備時点）**
 **性質：随時更新。長期憲章や完成基準を上書きしない。**
 
 ## 最重要状態
@@ -15,7 +15,7 @@
 - **旧Blender MCP**：別プロジェクトで過去にポート9876の接続表示あり。現在のインストール状態・編集成功・接続状況は未確認。
 - **Work**：都度事前相談・ユーザー明示承認。
 - **有料外部コンセプトアーティストへの外注**：ユーザー意向で実施しない。
-- **GitHub正式方針文書**：本ブランチのDraft PRで提案。**mainへ未マージの間は、そこに存在すると扱わない**。
+- **GitHub正式方針文書**：PR #25は2026-10-23にmainへマージ済み。正式入口は main/docs/policy/START_HERE.md。
 
 ## GitHub確認済みHEAD（2026-10-23現在）
 
@@ -23,7 +23,7 @@ Repository: ryomashibaba/celestial-halo-9
 
 | Branch | HEAD | Status |
 |---|---|---|
-| main | 31a4122f9158d6dc00d86b8d2f0b0a37ba594b2b | 旧案内READMEのみを含む基準。変更禁止 |
+| main | a2f88995eee8d10ee4830dbdf33ccb9c0790de8f | PR #25で正式憲章・詳細完成基準を追加済み |
 | art/a | 1eb3121df4f0ede679c201cb40d611409309511e | A2-G7 HOLD。共有公共屋根原理を保存、現巨大アーチ形状は精密化禁止 |
 | art/b | bf8c802fbb7b6521f85d050ede837cc3e711c166 | B2-G7 BOTH_REJECT |
 | art/c | 4c55052f5ec3c2037f0b3ad83a8f372dff1199bf | C2-G7 G6最終＋新N1 REJECT |
@@ -33,11 +33,11 @@ Repository: ryomashibaba/celestial-halo-9
 
 ## Next responsible actions
 
-1. 正式方針のDraft PRをレビューし、公開先mainへのマージ可否を**ユーザーが判断**する。
-2. ChatGPTプロジェクト共通指示に、mainのSTART_HERE.mdを確認する短い参照文を**ユーザーが設定**する（未設定なら自動適用とは言わない）。
-3. 新規Work/Blender実験は、ユーザーが実行を認めた場合だけ隔離コピーで実施する。まず旧Blender MCPの有無と、実際の視覚編集能力を検証する。
-4. テストの成否を可視化し、実3Dの美術改善がなければ制作方式を切り替える。
-5. その後、全10kmマスター3Dの統合設計・詳細制作へ進む。Minecraft正式施工は独立承認まで禁止。
+1. **完了**：PR #25をmainへマージ。ChatGPTプロジェクト共通指示もユーザーが設定済み。
+2. **着手中／端末検査待ち**：M3D-0専用研究ブランチ research/m3d0-blender-readiness-20261023 で読み取り専用診断CMDと初心者向け手順を準備した。Windows端末での実行結果は未取得。
+3. 診断結果からBlender 5.2.1・旧MCPアドオン・uvx・Codex設定・ポート9876を必要最低限の操作で確認する。勝手な再インストールは行わない。
+4. 新規Work/Blender編集実験は別途ユーザーの明示承認後、隔離コピーで行い、実3Dの視覚反復・局所編集能力を評価する。
+5. 美術的成果が不十分なら制作方法を見直す。正式Minecraft施工は独立承認まで禁止。
 
 ## 更新ルール
 
