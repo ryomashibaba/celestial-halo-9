@@ -18,7 +18,10 @@
       "studies/M3D-1S/proxies/A_HORIZONTAL_CIVIC_CONTINENT.obj",
       "studies/M3D-1S/proxies/B_VERTICAL_LIVING_RANGES.obj",
       "studies/M3D-1S/proxies/C_ASYMMETRIC_SKY_FISSURE.obj"
-    ]
+    ],
+    "scale_figure": "studies/M3D-1S/SCALE_COMPARISON.svg",
+    "rebuild_tool": "studies/M3D-1S/rebuild_proxies.py",
+    "readback_report": "studies/M3D-1S/GITHUB_READBACK_VALIDATION.json"
   },
   "missing": [
     "BLEND",
@@ -29,5 +32,6 @@
     "VALIDATED_CANONICAL_COORDINATES"
   ],
   "next_gate": "M3D-1S full-volume city + void + cross-section art prototype and human review",
-  "policy": "main/docs/policy/START_HERE.md"
+  "policy": "main/docs/policy/START_HERE.md",
+  "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER"
 }
