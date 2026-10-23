@@ -4,7 +4,9 @@
 
 - 正式方針：必ず main/docs/policy/START_HERE.md を確認
 - 目的：旧Blender MCP環境を再インストールせず再利用できるか診断
-- 出来ていないこと：ユーザーPC上の実検査、MCP接続成功、3D編集成功、建築美術改善
+- **実際に完了**：ユーザーPC上で診断CMDを実行。Blender 5.2本体・MCP addon・uvx・Codex設定候補の存在を確認。詳細は [ENVIRONMENT_DIAGNOSIS_2026-10-23.md](ENVIRONMENT_DIAGNOSIS_2026-10-23.md)。
+- **未実施**：Blenderアドオンの有効化・localhost:9876起動、MCP接続、AIによる3D編集、建築美術改善。
+- **新しい技術の比較**：Ultraの独立評価と公式技術資料は [ULTRA_PRODUCTION_STRATEGY_REVIEW_2026-10-23.md](ULTRA_PRODUCTION_STRATEGY_REVIEW_2026-10-23.md) に記録。Unreal/Houdiniの採用決定ではない。
 - 厳禁：Blender原本、Minecraftワールド、Freeze、M247-C正式原本の変更と施工
 
 ## 確認済みの過去履歴
@@ -14,7 +16,7 @@
 MCPの公式プロジェクトは新名称 mcp-for-blender を使用するが、旧uvx blender-mcpも使えると説明している。**この診断では更新・インストールを行わない**。
 公式：https://github.com/ahujasid/mcp-for-blender
 
-## ユーザー操作（Windows、原則1ファイルのみ）
+## 実施済み：ユーザー操作（Windows、原則1ファイルのみ）
 
 1. GitHub上の RUN_M3D0_CHECK.cmd を開き、右上の **Download raw file（ダウンロード）** でWindowsのダウンロードフォルダへ保存。
 2. 保存したファイルを**ダブルクリック**。管理者として実行しない。
@@ -51,4 +53,4 @@ Gate 0C以降でWorkやローカルComputer Useを使う場合は事前説明と
 
 この研究は独立した research/m3d0-blender-readiness-20261023 に保存。main、art/a〜d、正式ワールド・既存モデルを変更しない。個人端末の診断結果を許可なく公開GitHubへ保存しない。
 
-次工程では実際のユーザー端末の結果を受けて、必要な最小限の追加操作だけを案内する。
+次工程ではBlender 5.2の新規Generalシーンで旧MCPアドオンを起動し、ポート9876の待受を確認する。結果が未確認の段階では再インストールせず、AI接続・実メッシュ編集は別ゲートとする。
