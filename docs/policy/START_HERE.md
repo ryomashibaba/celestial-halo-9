@@ -1,36 +1,49 @@
 # HALO-9 — START HERE
-**Entry version:** 2026-10-23. **Authority:** policy proposed for formal publication; the decisions transcribed here are user-confirmed in chat. **Status:** Draft PR until explicitly merged by the user.
+**正式方針の入口（2026-10-23 JST 初版）**
 
-## Read in this order
+この文書は、CELESTIAL HALO-9のメイン・A〜D研究・新しいChatGPTチャット・Work・Codex・外部AIが最初に確認するための短い案内である。
 
-1. **PROJECT_CONSTITUTION.md** — stable artistic, urban, historical, authorization and protection rules.
-2. **CITY_MASTER_3D_STANDARD.md** — strict, user-confirmed definition of completed city-wide 3D master design.
-3. **CURRENT_STATUS.md** — short, updateable latest branches, project stage, unresolved issues.
-4. **DECISION_LOG.md** — user-approved decisions and changes, not a replacement for current instructions.
-5. **SOURCE_REGISTER.md** — authoritative older source locations and epistemic caveats.
+**公開状態に注意：本ファイルはまずDraft PRとして作成している。mainにマージされるまでは「mainに正式公開済み」と主張しないこと。**
 
-These files live under **main/docs/policy/** once this Draft PR is approved and merged. Before then, read **policy/city-master-3d-first-20261023/docs/policy/** and label it a proposed policy branch. **Always use an explicit ref** and do not mistake the current research branch for main.
+## 読み取り順
 
-## Critical current directive
+1. **PROJECT_CONSTITUTION.md** — 変わりにくい全体憲章。都市規模、W0、H1〜H6、SB01〜SB16、HERO4、世界観、ART-FIRST、保護条件。
+2. **CITY_MASTER_3D_STANDARD.md** — 最重要のLOCKED完成基準。一般建物の内部以外、10km級都市すべてを詳細な実3Dとして施工前に完成させる。
+3. **CURRENT_STATUS.md** — 随時更新する最新工程・各研究ブランチHEAD・未解決事項・次に行うこと。
+4. **DECISION_LOG.md** — ユーザーの決定と、旧方針から何が変わったかを追跡する記録。
+5. **SOURCE_REGISTER.md** — 過去チャット・M系列研究・独立研究の出典と区別方法。
+6. コードやリポジトリ操作を行うAIエージェントは、リポジトリ直下の **AGENTS.md** も確認する。
 
-**CITY MASTER 3D FIRST** — The entire roughly 10 km city must be designed as a unified **real, editable, highly detailed 3D master** before Minecraft construction. **The only scope exception is the interior of ordinary/general buildings.** Detailed exteriors for all ordinary buildings are mandatory. All public interiors, sky districts, special facilities, city infrastructure, terrain, transport, and public navigation are mandatory.
+**マージ後の正規参照先：main/docs/policy/START_HERE.md。**
+マージ前の正確な参照先：policy/city-master-3d-first-20261023/docs/policy/START_HERE.md。
 
-- **ART-FIRST / Macro Impact First**: excellence of architecture and inhabitable civilization outranks easy geometry, file counts, low token use or Minecraft constraints in early design.
-- **W0 + H1–H6 + SB01–SB16 + HERO4 + V1–V3 + three Metropolitan Axes** remain in scope.
-- **M247-C** is the protected central architectural *direction*, not an approved finished shape. Other independent concepts may explore freely.
-- Existing G1–G7 A–D candidates are **not approved final art**. Protect research.
-- **Minecraft construction HOLD. Work requires prior explicit approval.** Do not modify protected/canonical assets or main without approved scope.
-- Paid external concept-artist outsourcing is excluded by the user.
-- Model choice is open; the next experiment is testing genuinely visual iterative 3D edits in Blender, using an earlier local Blender MCP setup if available. Do not claim it has been revalidated.
+**重要：art/a、art/bなどの研究ブランチを開いた状態でも、正式方針は必ず「main」の明示refで確認する。** 同期・複製されていると仮定しない。
 
-## Efficient refresh protocol
+## 30秒で確認する最重要事項
 
-- At **new conversation/Work/code-agent start**: read START_HERE + the two stable policies, then CURRENT_STATUS and any task-specific files.
-- Within the **same run**: reuse verified unchanged versions; do not reload entire historical sources or policy every turn.
-- Before **adoption, world writes, policy edits, irreversible actions, formal freeze or PR merge**: refresh the policy and authorization gate.
-- At a **new user design decision**: add an entry to DECISION_LOG and update only the affected stable clause or CURRENT_STATUS. Never update policy from autonomous AI preference.
-- If policy cannot be accessed, state what was not verified and do not perform privileged actions based on guessed instructions.
+- 目的：約10km級の単一巨大未来文明都市を最終的にMinecraft Java Editionで完成。
+- **新方針：CITY MASTER 3D FIRST。先に都市全体の高品質・詳細・編集可能・統合済み3Dマスターを完成する。**
+- **詳細設計の唯一の例外は一般建物の室内。** 一般建物の外観は全棟詳細、16巨大施設はHERO4以外も内部を含めて詳細、地下公共空間・空中地区・都市交通・地形・材質・照明も全域詳細。
+- **ART-FIRST／Macro Impact First。** 美術の壮大さ、独創性、居住可能な都市、内部巨大空間、多視点を優先する。初期造形をMinecraft制限や簡単なPython数式に従属させない。
+- 都市構成：中央HALO-9＋CELESTIAL SPINE、W0、H1〜H6、SB01〜SB16、HERO4（SB05/08/09/12）、V1〜V3、三大都市軸は維持。
+- M247-C浮断天核は**保護すべき正式研究方向**だが、完成美術の採択は**0件**。独立研究では旧形状を強制しない。
+- A〜DのG1〜G7研究は保存・一時停止。G7の形状を勝手に正式採用・精密化しない。
+- Minecraft正式施工は**HOLD**。WorldEdit等の実ワールド書込、正式原本変更、Freeze変更、mainマージは無断で行わない。Work利用は事前説明・明示承認制。
+- ユーザーは一般建物の詳細3Dを含む完成都市を目指しているが、高度なBlender手作業を自分で大量に行うことは望まない。有料外注は行わない。
+- 次の**提案中**の試験は、旧Blender/MCP接続を調べ、AIが実3Dを観察しながら直接編集する方式が従来の一括生成より有効かを隔離環境で調べること。旧接続が今も利用できると仮定しない。
 
-**Precedence:** latest explicit user instruction > newer explicitly user-approved decision > protected formal policy/authorization boundary > historical policy compatible with newer decisions > research evidence > suggestions/inferences. A new instruction may change the goal, but does not by itself imply permission to write to a protected world.
+## 更新方式（長期運用で最も重要）
 
-**Short handoff to any HALO-9 chat:** “Open GitHub repo ryomashibaba/celestial-halo-9 at main/docs/policy/START_HERE.md (or the current approved policy ref); follow its design, completion and safety rules; then check CURRENT_STATUS.md. If inaccessible, report POLICY_UNVERIFIED. Do not assume automatic synchronization.”
+- 新しいチャット/Work/AIセッションを**開始する際**、本ファイルと上記の2大固定文書・CURRENT_STATUSを取得する。
+- 同じセッション中は無意味に全文を毎回読み直さず、読み取った版を保持する。
+- 方針変更があったときは、**新しいユーザー指示 → 決定ログの追記 → 必要な固定文書の差分更新 → 状況ファイル更新**の順とし、AI判断でLOCKED要件を変更しない。
+- 大きな採択、正式施工、原本変更、PRマージの前には現在の正規版と承認を再確認する。
+- GitHubに接続できない場合は **POLICY_UNVERIFIED** と報告し、読んだふりをしない。未確認方針で保護対象へ書込しない。
+- 規則間に矛盾がある場合、ユーザーの最新明示指示・承認境界を優先し、独断で正式方針を書き換えず差分を説明する。
+- 過去の研究は必要な部分だけ読む。毎回1,500行の旧引き継ぎを全文再送・全文取得する必要はない。
+
+## ChatGPTプロジェクト共通指示向け・短い貼付文
+
+「CELESTIAL HALO-9の作業開始時、GitHub ryomashibaba/celestial-halo-9 の main/docs/policy/START_HERE.md を確認し、参照先の長期憲章・3D完成基準・CURRENT_STATUSを適用してください。特に、一般建物内部以外の10km都市全域を詳細3Dで完成してからMinecraft施工する確定条件を守ってください。未読・取得失敗はPOLICY_UNVERIFIEDとして報告。正式施工・原本変更・Work使用は承認制。GitHubの保存だけで自動読込されたと仮定しないこと。」
+
+この共通指示の登録自体はChatGPTプロジェクト側で別に行う必要がある。
