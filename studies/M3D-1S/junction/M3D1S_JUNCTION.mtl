@@ -1,0 +1,41 @@
+# Color design preview only; this is a real OBJ surface mesh with no volume Boolean solve
+newmtl CITY
+Kd 0.6157 0.7294 0.7490
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl CIVIC
+Kd 0.8510 0.8392 0.7843
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl VOID_EDGE
+Kd 0.9647 0.8627 0.7098
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl TRANSIT
+Kd 0.9020 0.7059 0.4392
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl STRUCTURE
+Kd 0.3373 0.4275 0.4706
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl FACADE
+Kd 0.5294 0.6196 0.7059
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl GLASS
+Kd 0.2588 0.4353 0.5137
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl GREEN
+Kd 0.5176 0.6510 0.6039
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl BASE
+Kd 0.2039 0.3098 0.3725
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
+newmtl GROUND
+Kd 0.3569 0.4431 0.4157
+Ka 0.08 0.08 0.08
+Ks 0.04 0.04 0.04
