@@ -18,13 +18,13 @@
       ],
       "coremin": [
         -460,
-        -115,
-        750
+        -110,
+        860
       ],
       "coremax": [
         -300,
         85,
-        955
+        970
       ],
       "purpose": "Large civic room, not a missing fill mesh",
       "art": "UNASSESSED"
@@ -42,14 +42,14 @@
         1815
       ],
       "coremin": [
-        330,
+        475,
         20,
         1580
       ],
       "coremax": [
-        465,
+        550,
         185,
-        1770
+        1785
       ],
       "purpose": "Sky civic room, daylight opening",
       "art": "UNASSESSED"
@@ -74,19 +74,51 @@
     },
     {
       "type": "box",
-      "id": "P1_NORTH_WALL",
+      "id": "P1_NORTH_WALL_WEST",
       "c": [
-        -370,
+        -595,
         292,
         857
       ],
       "size": [
-        680,
+        230,
         36,
         315
       ],
       "material": "STRUCTURE",
-      "role": "architectural_element"
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_NORTH_WALL_EAST",
+      "c": [
+        -190,
+        292,
+        857
+      ],
+      "size": [
+        320,
+        36,
+        315
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_NORTH_OPENING_HEAD",
+      "c": [
+        -420,
+        292,
+        971
+      ],
+      "size": [
+        120,
+        36,
+        85
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
     },
     {
       "type": "box",
@@ -106,19 +138,51 @@
     },
     {
       "type": "box",
-      "id": "P1_EAST_WALL",
+      "id": "P1_EAST_WALL_SOUTH",
       "c": [
         -13,
-        10,
+        -100,
         857
       ],
       "size": [
         32,
-        560,
+        340,
         315
       ],
       "material": "STRUCTURE",
-      "role": "architectural_element"
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_EAST_WALL_NORTH",
+      "c": [
+        -13,
+        245,
+        857
+      ],
+      "size": [
+        32,
+        90,
+        315
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_EAST_DOOR_HEAD",
+      "c": [
+        -13,
+        180,
+        971
+      ],
+      "size": [
+        32,
+        40,
+        85
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
     },
     {
       "type": "box",
@@ -1024,35 +1088,99 @@
     },
     {
       "type": "box",
-      "id": "P2_WEST_WALL",
+      "id": "P2_WEST_WALL_SOUTH",
       "c": [
         77,
-        132,
+        17,
         1680
       ],
       "size": [
         32,
-        545,
+        315,
         322
       ],
       "material": "STRUCTURE",
-      "role": "architectural_element"
+      "role": "civic_wall"
     },
     {
       "type": "box",
-      "id": "P2_EAST_WALL",
+      "id": "P2_WEST_WALL_NORTH",
       "c": [
-        762,
-        132,
+        77,
+        345,
         1680
       ],
       "size": [
         32,
-        545,
+        120,
         322
       ],
       "material": "STRUCTURE",
-      "role": "architectural_element"
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_WEST_DOOR_HEAD",
+      "c": [
+        77,
+        235,
+        1800
+      ],
+      "size": [
+        32,
+        100,
+        82
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_EAST_WALL_SOUTH",
+      "c": [
+        762,
+        50,
+        1680
+      ],
+      "size": [
+        32,
+        365,
+        322
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_EAST_WALL_NORTH",
+      "c": [
+        762,
+        390,
+        1680
+      ],
+      "size": [
+        32,
+        60,
+        322
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_EAST_DOOR_HEAD",
+      "c": [
+        762,
+        300,
+        1800
+      ],
+      "size": [
+        32,
+        115,
+        82
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
     },
     {
       "type": "box",
@@ -6383,6 +6511,40 @@
       "material": "CIVIC",
       "role": "public_corridor",
       "length": 92.19544457292888
+    },
+    {
+      "type": "beam",
+      "id": "LOW_WEST_EXIT",
+      "from": [
+        -425,
+        295,
+        715
+      ],
+      "to": [
+        -700,
+        465,
+        715
+      ],
+      "width": 35,
+      "material": "CIVIC",
+      "role": "public_corridor"
+    },
+    {
+      "type": "beam",
+      "id": "LOW_EAST_EXIT",
+      "from": [
+        -40,
+        185,
+        715
+      ],
+      "to": [
+        30,
+        215,
+        715
+      ],
+      "width": 32,
+      "material": "CIVIC",
+      "role": "public_corridor"
     }
   ],
   "route": {
@@ -6498,7 +6660,7 @@
         "from": "LOWER_HALL",
         "to": "LOWER_TRANSIT",
         "mode": "walk",
-        "geometry": "LOW_PUBLIC_BRIDGE"
+        "geometry": "LOW_EAST_EXIT"
       },
       {
         "from": "LOWER_TRANSIT",
@@ -6534,7 +6696,7 @@
         "from": "LOWER_HALL",
         "to": "WEST_TRANSIT_LOWER",
         "mode": "walk",
-        "geometry": "P1_WEST_WALL"
+        "geometry": "LOW_WEST_EXIT"
       },
       {
         "from": "WEST_TRANSIT_LOWER",
