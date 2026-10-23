@@ -19,26 +19,7 @@
   ],
   "all_reserved_cores_clear": true,
   "all_route_nodes_logically_connected": true,
-  "route_edges_with_missing_geometry_refs": [
-    {
-      "from": "LOWER_TRANSIT",
-      "to": "UPPER_TRANSIT",
-      "mode": "elevator",
-      "geometry": "LIFT_M"
-    },
-    {
-      "from": "EAST_TRANSIT_LOWER",
-      "to": "EAST_TRANSIT_UPPER",
-      "mode": "elevator",
-      "geometry": "LIFT_E"
-    },
-    {
-      "from": "WEST_TRANSIT_LOWER",
-      "to": "WEST_TRANSIT_UPPER",
-      "mode": "elevator",
-      "geometry": "LIFT_W"
-    }
-  ],
+  "route_edges_with_missing_geometry_refs": [],
   "zone_count": 2,
   "limitations": [
     "Box-AABB core test ignores angled supports & beams; full collision test not performed",
@@ -48,5 +29,7 @@
     "No Blender/Unreal UI run, no photorealistic render or user art acceptance"
   ],
   "approved_art": false,
-  "official_construction": "HOLD"
+  "official_construction": "HOLD",
+  "all_route_edges_refer_to_present_elements": true,
+  "route_validation_kind": "Named components and undirected program graph only; no operational elevator/car simulation or complete traversable surface mesh"
 }
