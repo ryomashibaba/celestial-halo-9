@@ -1,38 +1,52 @@
 {
-  "schema": "m3d1s.junction.qa.v1",
-  "scene_unit": "metre",
-  "scope": "PARTIAL_FUNCTIONAL_JUNCTION_NOT_ART",
-  "mesh": {
-    "objects": 393,
-    "vertices": 3144,
-    "triangles": 4716,
-    "index_checked": true
-  },
-  "public_void_reserved_cores": [
+  "schema": "m3d1s.junction.qa.v2",
+  "date_jst": "2026-10-24",
+  "status": "FUNCTIONAL_MESH_STUDY_NOT_ART",
+  "objects": 403,
+  "vertices": 3224,
+  "triangles": 4836,
+  "finite_mesh": true,
+  "valid_triangle_indices": true,
+  "void_clearance_rectangular_solid_aabb": [
     {
       "id": "PUBLIC_VOID_LOWER",
-      "obstructions": [
-        "P1_FORUM_RISER_4",
-        "P1_FORUM_RISER_5"
-      ]
+      "obstructions": []
     },
     {
       "id": "PUBLIC_VOID_UPPER",
-      "obstructions": [
-        "P2_AUDIENCE_STEP_3",
-        "P2_AUDIENCE_STEP_4",
-        "P2_AUDIENCE_STEP_5"
-      ]
+      "obstructions": []
     }
   ],
-  "all_route_nodes_connected": true,
-  "all_edges_have_named_geometry": false,
-  "status": "PRELIMINARY",
-  "known_limitations": [
-    "Accessible corridors between all edge nodes were NOT geometrically validated; graph connectivity is a logical plan check only",
-    "Void clearance uses AABB for rectangular solids only; tapered support and beams not included",
-    "Public rooms have visual gallery and stair fixtures but no complete disability/fire/emergency route audit",
-    "No full city, all 16 major facilities, or real W0 canonical coordinates",
-    "No human art approval or real Blender/Unreal multi-angle rendering"
-  ]
+  "all_reserved_cores_clear": true,
+  "all_route_nodes_logically_connected": true,
+  "route_edges_with_missing_geometry_refs": [
+    {
+      "from": "LOWER_TRANSIT",
+      "to": "UPPER_TRANSIT",
+      "mode": "elevator",
+      "geometry": "LIFT_M"
+    },
+    {
+      "from": "EAST_TRANSIT_LOWER",
+      "to": "EAST_TRANSIT_UPPER",
+      "mode": "elevator",
+      "geometry": "LIFT_E"
+    },
+    {
+      "from": "WEST_TRANSIT_LOWER",
+      "to": "WEST_TRANSIT_UPPER",
+      "mode": "elevator",
+      "geometry": "LIFT_W"
+    }
+  ],
+  "zone_count": 2,
+  "limitations": [
+    "Box-AABB core test ignores angled supports & beams; full collision test not performed",
+    "Route graph connects program nodes but the entire walking surface, step-free access, cabin operation and fire/evacuation are not validated",
+    "Buildings are deliberate schematic research masses with visible elements, not detailed final architecture",
+    "No large W0 full integration, no 16 special facility completion",
+    "No Blender/Unreal UI run, no photorealistic render or user art acceptance"
+  ],
+  "approved_art": false,
+  "official_construction": "HOLD"
 }
