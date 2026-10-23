@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" role="img" aria-label="HALO9 M3D-1S central building scale envelopes comparing A B C to original dimensions">
+<rect width="1440" height="1000" fill="#0e1723"/>
+<text x="70" y="49" fill="#eaf0f7" font-size="30" font-family="sans-serif" font-weight="700">CELESTIAL HALO-9 · M3D-1S</text>
+<text x="70" y="79" fill="#9db0c0" font-size="17" font-family="sans-serif">10 km fixed world frame / FRONT X–Z ORTHOGRAPHIC ENVELOPE / NON-ART PROXY</text>
+<text x="70" y="991" fill="#9db0c0" font-size="13" font-family="sans-serif">Both axes use explicit world metres. Convex projection envelope of actual GitHub OBJ vertices. Voids, interiors, W0 legal coordinates and aesthetic quality not represented.</text>
+<text x="77" y="97" fill="#ffffff" font-size="20" font-family="sans-serif" font-weight="700">A — 地平展開・都市断崖型</text>
+<text x="1250" y="98" text-anchor="end" fill="#d6e0ef" font-size="16" font-family="sans-serif">6.33 × 4.72 × 3.55 km</text>
+<rect x="160" y="125" width="1080" height="195" fill="#192432" stroke="#46576a" stroke-width="1.5"/>
+<line x1="268.0" y1="125" x2="268.0" y2="320" stroke="#344554" stroke-width="1"/>
+<line x1="484.0" y1="125" x2="484.0" y2="320" stroke="#344554" stroke-width="1"/>
+<line x1="700.0" y1="125" x2="700.0" y2="320" stroke="#344554" stroke-width="1"/>
+<line x1="916.0" y1="125" x2="916.0" y2="320" stroke="#344554" stroke-width="1"/>
+<line x1="1132.0" y1="125" x2="1132.0" y2="320" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="281.0" x2="1240" y2="281.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="242.0" x2="1240" y2="242.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="203.0" x2="1240" y2="203.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="164.0" x2="1240" y2="164.0" stroke="#344554" stroke-width="1"/>
+<path d="M357.6,296.6 L382.1,320.0 L1020.7,320.0 L1040.6,294.6 L988.1,214.7 L913.7,181.6 L838.1,181.6 L525.5,191.3 L425.8,224.4 L376.1,267.4 Z" fill="#5fb4ac" fill-opacity="0.44" stroke="#5fb4ac" stroke-width="2.5"/>
+<rect x="527.2" y="210.79999999999998" width="345.6" height="109.20000000000002" fill="none" stroke="#f1f1f1" stroke-width="1.4" stroke-dasharray="8 6"/>
+<text x="1256" y="324" fill="#9db0c0" font-size="15" font-family="sans-serif">0 m</text>
+<text x="1256" y="168" fill="#9db0c0" font-size="15" font-family="sans-serif">4 km</text>
+<text x="160" y="343" fill="#9db0c0" font-size="13" font-family="sans-serif">−5 km</text>
+<text x="1240" y="343" text-anchor="end" fill="#9db0c0" font-size="13" font-family="sans-serif">+5 km</text>
+<text x="77" y="387" fill="#ffffff" font-size="20" font-family="sans-serif" font-weight="700">B — 垂直多層・天空山脈型</text>
+<text x="1250" y="388" text-anchor="end" fill="#d6e0ef" font-size="16" font-family="sans-serif">5.45 × 3.00 × 4.46 km</text>
+<rect x="160" y="415" width="1080" height="195" fill="#192432" stroke="#46576a" stroke-width="1.5"/>
+<line x1="268.0" y1="415" x2="268.0" y2="610" stroke="#344554" stroke-width="1"/>
+<line x1="484.0" y1="415" x2="484.0" y2="610" stroke="#344554" stroke-width="1"/>
+<line x1="700.0" y1="415" x2="700.0" y2="610" stroke="#344554" stroke-width="1"/>
+<line x1="916.0" y1="415" x2="916.0" y2="610" stroke="#344554" stroke-width="1"/>
+<line x1="1132.0" y1="415" x2="1132.0" y2="610" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="571.0" x2="1240" y2="571.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="532.0" x2="1240" y2="532.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="493.0" x2="1240" y2="493.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="454.0" x2="1240" y2="454.0" stroke="#344554" stroke-width="1"/>
+<path d="M400.8,573.0 L434.9,600.6 L513.0,610.0 L893.5,610.0 L967.8,601.4 L989.6,566.3 L968.1,518.0 L913.1,476.2 L842.5,450.1 L783.7,436.1 L749.0,436.1 L547.6,458.7 L480.7,487.1 L416.3,526.1 Z" fill="#86a7eb" fill-opacity="0.44" stroke="#86a7eb" stroke-width="2.5"/>
+<rect x="527.2" y="500.79999999999995" width="345.6" height="109.20000000000002" fill="none" stroke="#f1f1f1" stroke-width="1.4" stroke-dasharray="8 6"/>
+<text x="1256" y="614" fill="#9db0c0" font-size="15" font-family="sans-serif">0 m</text>
+<text x="1256" y="458" fill="#9db0c0" font-size="15" font-family="sans-serif">4 km</text>
+<text x="160" y="633" fill="#9db0c0" font-size="13" font-family="sans-serif">−5 km</text>
+<text x="1240" y="633" text-anchor="end" fill="#9db0c0" font-size="13" font-family="sans-serif">+5 km</text>
+<text x="77" y="677" fill="#ffffff" font-size="20" font-family="sans-serif" font-weight="700">C — 非対称・天隙複合都市型</text>
+<text x="1250" y="678" text-anchor="end" fill="#d6e0ef" font-size="16" font-family="sans-serif">6.27 × 4.43 × 4.23 km</text>
+<rect x="160" y="705" width="1080" height="195" fill="#192432" stroke="#46576a" stroke-width="1.5"/>
+<line x1="268.0" y1="705" x2="268.0" y2="900" stroke="#344554" stroke-width="1"/>
+<line x1="484.0" y1="705" x2="484.0" y2="900" stroke="#344554" stroke-width="1"/>
+<line x1="700.0" y1="705" x2="700.0" y2="900" stroke="#344554" stroke-width="1"/>
+<line x1="916.0" y1="705" x2="916.0" y2="900" stroke="#344554" stroke-width="1"/>
+<line x1="1132.0" y1="705" x2="1132.0" y2="900" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="861.0" x2="1240" y2="861.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="822.0" x2="1240" y2="822.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="783.0" x2="1240" y2="783.0" stroke="#344554" stroke-width="1"/>
+<line x1="160" y1="744.0" x2="1240" y2="744.0" stroke="#344554" stroke-width="1"/>
+<path d="M360.0,880.5 L368.6,900.0 L1008.5,900.0 L1035.9,877.4 L1037.2,843.5 L1036.8,798.6 L1022.5,759.6 L970.5,735.0 L910.0,735.0 L440.2,785.0 L380.5,813.4 L365.5,847.4 Z" fill="#dba26e" fill-opacity="0.44" stroke="#dba26e" stroke-width="2.5"/>
+<rect x="527.2" y="790.8" width="345.6" height="109.20000000000002" fill="none" stroke="#f1f1f1" stroke-width="1.4" stroke-dasharray="8 6"/>
+<text x="1256" y="904" fill="#9db0c0" font-size="15" font-family="sans-serif">0 m</text>
+<text x="1256" y="748" fill="#9db0c0" font-size="15" font-family="sans-serif">4 km</text>
+<text x="160" y="923" fill="#9db0c0" font-size="13" font-family="sans-serif">−5 km</text>
+<text x="1240" y="923" text-anchor="end" fill="#9db0c0" font-size="13" font-family="sans-serif">+5 km</text>
+<rect x="70" y="932" width="15" height="15" fill="none" stroke="#eeeeee" stroke-dasharray="4 2"/><text x="94" y="945" fill="#c6d5e4" font-size="15" font-family="sans-serif">Dashed rectangle = previous M3D-1 central 3.20 km width / 2.80 km high. Not the 1.24km pilot.</text>
+</svg>
