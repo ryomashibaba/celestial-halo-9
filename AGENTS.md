@@ -15,8 +15,9 @@ This is a **read-first entrypoint**, not permission to modify canonical city ass
 - Minecraft canonical-world construction and writes: **HOLD**. No world mutation or WorldEdit construction without fresh explicit approval.
 - No edits to canonical world, Freeze assets, protected geometry, reserved voids, original models, baseline QA snapshots, or protected project data without authorization.
 - No automatic merging, PR acceptance, adopting unapproved research as final art, or cross-branch writes.
-- Work/local-computer sessions and high-impact changes require user approval before use. Earlier consent is not standing consent for future sessions.
+- On 2026-10-24 the user authorized **limited, effective future Work usage** for HALO-9. Use it only where materially useful, describe scope, preserve source assets, honor any per-session declined handoff, and follow docs/policy/WORK_ARTIFACT_PROTOCOL.md. High-impact actions (canonical world writes, installs, protected assets, expenses) still require fresh approval.
 - ChatGPT images, conceptual descriptions, real GLB/BLEND geometry, structural QA and formal art approval are separate kinds of evidence.
+- Save resulting models, renders, code, validation JSON, reports, manifest/latest.json directly to a **GitHub research branch** whenever possible. Verify readback and report branch/SHA/path; never misstate local-only outputs as uploaded.
 
 ## Primary design gate
 
