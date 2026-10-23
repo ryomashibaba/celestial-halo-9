@@ -1,0 +1,125 @@
+{
+  "study_id": "C2-G7",
+  "date_jst": "2026-10-23",
+  "basis_commit": "aaa0696f0239d05eda60c6bfeffe528363d8af3d",
+  "g6_source_hashes_match_basis_manifest": true,
+  "protected_g6_files_unchanged": 58,
+  "initial_comparison_used_for_final_preview": false,
+  "G6_models_or_high_resolution_images_rebuilt": false,
+  "gltf": {
+    "studies/C2-G6/A_CENTRAL.glb": {
+      "load": "PASS",
+      "finite_vertices": true,
+      "geometry_count": 1211,
+      "dimensions_m_xyz_z_up": [
+        4142.491851080809,
+        4622.7094508914615,
+        2339.220001220703
+      ],
+      "main_mass_watertight_after_merge": false,
+      "main_mass_connected_components": 2
+    },
+    "studies/C2-G7/N1_CENTRAL.glb": {
+      "load": "PASS",
+      "finite_vertices": true,
+      "geometry_count": 11,
+      "dimensions_m_xyz_z_up": [
+        3856.0,
+        3850.0,
+        2560.0
+      ],
+      "main_mass_watertight_after_merge": false,
+      "main_mass_connected_components": 1
+    }
+  },
+  "images": {
+    "g6_back.jpg": {
+      "pixels": [
+        960,
+        720
+      ],
+      "bytes": 50375
+    },
+    "g6_oblique.jpg": {
+      "pixels": [
+        960,
+        720
+      ],
+      "bytes": 63369
+    },
+    "g6_side.jpg": {
+      "pixels": [
+        960,
+        720
+      ],
+      "bytes": 41647
+    },
+    "new_back.jpg": {
+      "pixels": [
+        960,
+        720
+      ],
+      "bytes": 48729
+    },
+    "new_comparison.jpg": {
+      "pixels": [
+        1920,
+        610
+      ],
+      "bytes": 122131
+    },
+    "new_oblique.jpg": {
+      "pixels": [
+        960,
+        720
+      ],
+      "bytes": 62798
+    },
+    "new_side.jpg": {
+      "pixels": [
+        960,
+        720
+      ],
+      "bytes": 37708
+    },
+    "preview.jpg": {
+      "pixels": [
+        1920,
+        610
+      ],
+      "bytes": 141144
+    },
+    "principles.jpg": {
+      "pixels": [
+        1800,
+        1100
+      ],
+      "bytes": 149760
+    }
+  },
+  "preview_under_600000_bytes": true,
+  "new_3D_candidate_count": 1,
+  "camera_render_count": 6,
+  "camera_render_pixels": [
+    960,
+    720
+  ],
+  "housing_mass_addition": false,
+  "detailed_interiors": false,
+  "art_decisions": {
+    "G6_final_A_self_rereview": "REJECT_DETAIL_STOP",
+    "G7_N1": "REJECT_DETAIL_STOP",
+    "G7_N2": "UNRESOLVED_CONCEPT_NOT_MODELED"
+  },
+  "selected_promising_candidate": null,
+  "formal_M247_C": "UNCHANGED",
+  "minecraft": "HOLD",
+  "work_migration": false,
+  "limits": [
+    "No structural analysis, all-route testing, population or habitable-area validation",
+    "N1 main body is non-watertight after vertex merge",
+    "Synthetic background only; no current SB/H/V coordinates claimed",
+    "G6 samples12 vs N1 samples14; shared camera/background/sun/world but not pixel-identical settings",
+    "Technical load/dimension success does not constitute art acceptance"
+  ]
+}

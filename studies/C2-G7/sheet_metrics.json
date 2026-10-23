@@ -1,0 +1,18 @@
+{
+  "file": "preview.jpg",
+  "bytes": 141144,
+  "pixels": [
+    1920,
+    610
+  ],
+  "quality": 86,
+  "new": {
+    "file": "new_comparison.jpg",
+    "bytes": 122131,
+    "pixels": [
+      1920,
+      610
+    ],
+    "quality": 86
+  }
+}

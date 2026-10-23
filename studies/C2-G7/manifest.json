@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.0",
+  "study_id": "C2-G7",
+  "track": "C",
+  "branch": "art/c",
+  "title": "会流天蓋最終再審査・新主質量の不合格記録",
+  "stage": "BLOCKOUT_3D",
+  "art_review_status": "REJECT",
+  "review_authority": "C_SELF_REVIEW_NOT_FORMAL_ADOPTION",
+  "updated_at": "2026-10-23T07:55:28.535214+00:00",
+  "date": "2026-10-23",
+  "dimensions_m": {
+    "width": 3856.0,
+    "depth": 3850.0,
+    "height": 2560.0
+  },
+  "dimensions_subject": "G7_N1_REJECTED_TEST",
+  "proposed_dimensions_m": null,
+  "assets": [
+    {
+      "path": "studies/C2-G7/compare_principles.py",
+      "kind": "CODE",
+      "sha256": "1e3f4f41e388c1be0d37b514ab03706cf0d7a0d2643b301f42d0bc9f90a18367",
+      "size_bytes": 2426
+    },
+    {
+      "path": "studies/C2-G7/decision.md",
+      "kind": "REPORT",
+      "sha256": "1a62d84f652e86b2832f03b78e94558242ff64ab57e4e9cfca0eb6045cef21b6",
+      "size_bytes": 12523
+    },
+    {
+      "path": "studies/C2-G7/g6_back.jpg",
+      "kind": "JPEG",
+      "sha256": "200b15167786c806adcd7f341a2a80980edb4f877be0ff314c941c6d20c16cb4",
+      "size_bytes": 50375
+    },
+    {
+      "path": "studies/C2-G7/g6_oblique.jpg",
+      "kind": "JPEG",
+      "sha256": "1d4e5f2f49d49a8adf5126970b21488178bfb14a784e522647801ac953986d40",
+      "size_bytes": 63369
+    },
+    {
+      "path": "studies/C2-G7/g6_review_source.json",
+      "kind": "JSON",
+      "sha256": "511b7d9ab09f1b5d069f56abb1e96dfbd9fc483b801c66d891d0a3e369bfbe90",
+      "size_bytes": 1122
+    },
+    {
+      "path": "studies/C2-G7/g6_side.jpg",
+      "kind": "JPEG",
+      "sha256": "a097ed2814f0fb95b0bbab04beb224b87d993d63ea67f37993ac4cdca354a0ec",
+      "size_bytes": 41647
+    },
+    {
+      "path": "studies/C2-G7/history.json",
+      "kind": "JSON",
+      "sha256": "33924818dd5bfcbedd2adff9119dfea1d7ab7d75ee77d3c6ae929f7bdd6be6fd",
+      "size_bytes": 652
+    },
+    {
+      "path": "studies/C2-G7/make_sheets.py",
+      "kind": "CODE",
+      "sha256": "3d97e73ed757ffdb9075e6f0655ed2300e5cce8662da56094266c2e158c19c20",
+      "size_bytes": 1586
+    },
+    {
+      "path": "studies/C2-G7/N1_CENTRAL.glb",
+      "kind": "GLB",
+      "sha256": "39fa2203d420e9c239488e474d0fea6155b768d75631bf6d5deccab2ef81a8b2",
+      "size_bytes": 28384
+    },
+    {
+      "path": "studies/C2-G7/new_back.jpg",
+      "kind": "JPEG",
+      "sha256": "a2f7384bf9f687018b78fc9287d6dd0060915c0019f00422396f02c67eaada2e",
+      "size_bytes": 48729
+    },
+    {
+      "path": "studies/C2-G7/new_comparison.jpg",
+      "kind": "JPEG",
+      "sha256": "549b885be4ebc1fe0605b9a44f104ee0c7596404f9c499701561f5e51880f4bf",
+      "size_bytes": 122131
+    },
+    {
+      "path": "studies/C2-G7/new_mass.py",
+      "kind": "CODE",
+      "sha256": "242b12ef64d22b539f636b10413c2eda0c2ad5cbbd36d082805f1126be6fd4c4",
+      "size_bytes": 6541
+    },
+    {
+      "path": "studies/C2-G7/new_metrics.json",
+      "kind": "JSON",
+      "sha256": "692cdc9022359a9f723f0a4f0b243df379c0e8e52cae42be9195c46e691a316f",
+      "size_bytes": 1212
+    },
+    {
+      "path": "studies/C2-G7/new_oblique.jpg",
+      "kind": "JPEG",
+      "sha256": "c06200925e50478d8d37b0980c19bb17c0696866be43328062674ef7cae0b6ce",
+      "size_bytes": 62798
+    },
+    {
+      "path": "studies/C2-G7/new_side.jpg",
+      "kind": "JPEG",
+      "sha256": "95950c049b57294b58125e054f751d46e5782a8ec50931f8546ea8eb01d61127",
+      "size_bytes": 37708
+    },
+    {
+      "path": "studies/C2-G7/package.py",
+      "kind": "CODE",
+      "sha256": "c46aa69ca876f4fdf06d7dde2f313303cfc8829164a1bf8b83c1d832dbc6c618",
+      "size_bytes": 5699
+    },
+    {
+      "path": "studies/C2-G7/preview.jpg",
+      "kind": "JPEG",
+      "sha256": "be77eafbede19412dfaab157464b379592141534dc674b960bbccebbb559d815",
+      "size_bytes": 141144
+    },
+    {
+      "path": "studies/C2-G7/principles.jpg",
+      "kind": "JPEG",
+      "sha256": "7fc4995afc0d5a2cad5467ee937ac34e61ebaca5183873b30304c5b7dee47dda",
+      "size_bytes": 149760
+    },
+    {
+      "path": "studies/C2-G7/protected_hashes.json",
+      "kind": "JSON",
+      "sha256": "bf8e788c7c81734e5e6b6070ce994eb70ad8833fc3ec98e4ec2e2f39aa042b04",
+      "size_bytes": 6396
+    },
+    {
+      "path": "studies/C2-G7/publish.py",
+      "kind": "CODE",
+      "sha256": "5262ad2ea91989c0c290b04c85d8bf4fb1eb1ed3f5a84983a68b6c49a4a99d02",
+      "size_bytes": 2681
+    },
+    {
+      "path": "studies/C2-G7/review_final.py",
+      "kind": "CODE",
+      "sha256": "a493001a3713464826825494024ca32fa22230030b95909c292bce425ffca3d5",
+      "size_bytes": 1754
+    },
+    {
+      "path": "studies/C2-G7/sheet_metrics.json",
+      "kind": "JSON",
+      "sha256": "f7b77d36e512f74f90e6949fd4712022660584e3de46d8ce05e549c3104888e8",
+      "size_bytes": 251
+    },
+    {
+      "path": "studies/C2-G7/verification.json",
+      "kind": "JSON",
+      "sha256": "5f70c1cdbd1ffb04e544de47e532ed8c76e09d75a55382ab42a490f2b85d0f2c",
+      "size_bytes": 2966
+    }
+  ],
+  "validation": {
+    "study_id": "C2-G7",
+    "date_jst": "2026-10-23",
+    "basis_commit": "aaa0696f0239d05eda60c6bfeffe528363d8af3d",
+    "g6_source_hashes_match_basis_manifest": true,
+    "protected_g6_files_unchanged": 58,
+    "initial_comparison_used_for_final_preview": false,
+    "G6_models_or_high_resolution_images_rebuilt": false,
+    "gltf": {
+      "studies/C2-G6/A_CENTRAL.glb": {
+        "load": "PASS",
+        "finite_vertices": true,
+        "geometry_count": 1211,
+        "dimensions_m_xyz_z_up": [
+          4142.491851080809,
+          4622.7094508914615,
+          2339.220001220703
+        ],
+        "main_mass_watertight_after_merge": false,
+        "main_mass_connected_components": 2
+      },
+      "studies/C2-G7/N1_CENTRAL.glb": {
+        "load": "PASS",
+        "finite_vertices": true,
+        "geometry_count": 11,
+        "dimensions_m_xyz_z_up": [
+          3856.0,
+          3850.0,
+          2560.0
+        ],
+        "main_mass_watertight_after_merge": false,
+        "main_mass_connected_components": 1
+      }
+    },
+    "images": {
+      "g6_back.jpg": {
+        "pixels": [
+          960,
+          720
+        ],
+        "bytes": 50375
+      },
+      "g6_oblique.jpg": {
+        "pixels": [
+          960,
+          720
+        ],
+        "bytes": 63369
+      },
+      "g6_side.jpg": {
+        "pixels": [
+          960,
+          720
+        ],
+        "bytes": 41647
+      },
+      "new_back.jpg": {
+        "pixels": [
+          960,
+          720
+        ],
+        "bytes": 48729
+      },
+      "new_comparison.jpg": {
+        "pixels": [
+          1920,
+          610
+        ],
+        "bytes": 122131
+      },
+      "new_oblique.jpg": {
+        "pixels": [
+          960,
+          720
+        ],
+        "bytes": 62798
+      },
+      "new_side.jpg": {
+        "pixels": [
+          960,
+          720
+        ],
+        "bytes": 37708
+      },
+      "preview.jpg": {
+        "pixels": [
+          1920,
+          610
+        ],
+        "bytes": 141144
+      },
+      "principles.jpg": {
+        "pixels": [
+          1800,
+          1100
+        ],
+        "bytes": 149760
+      }
+    },
+    "preview_under_600000_bytes": true,
+    "new_3D_candidate_count": 1,
+    "camera_render_count": 6,
+    "camera_render_pixels": [
+      960,
+      720
+    ],
+    "housing_mass_addition": false,
+    "detailed_interiors": false,
+    "art_decisions": {
+      "G6_final_A_self_rereview": "REJECT_DETAIL_STOP",
+      "G7_N1": "REJECT_DETAIL_STOP",
+      "G7_N2": "UNRESOLVED_CONCEPT_NOT_MODELED"
+    },
+    "selected_promising_candidate": null,
+    "formal_M247_C": "UNCHANGED",
+    "minecraft": "HOLD",
+    "work_migration": false,
+    "limits": [
+      "No structural analysis, all-route testing, population or habitable-area validation",
+      "N1 main body is non-watertight after vertex merge",
+      "Synthetic background only; no current SB/H/V coordinates claimed",
+      "G6 samples12 vs N1 samples14; shared camera/background/sun/world but not pixel-identical settings",
+      "Technical load/dimension success does not constitute art acceptance"
+    ]
+  },
+  "report": "studies/C2-G7/decision.md",
+  "preview": "studies/C2-G7/preview.jpg",
+  "preview_subject": "G6_FINAL_A_NOT_G7_N1",
+  "new_preview": "studies/C2-G7/new_comparison.jpg",
+  "model": "studies/C2-G7/N1_CENTRAL.glb",
+  "model_role": "REJECTED_RESEARCH_TEST",
+  "selected_candidate": null,
+  "notes": "G6 final and G7 N1 fail art self-review. N2 is unresolved concept only. Detail stopped; prior evidence retained.",
+  "formal_adoption": false,
+  "formal_M247_C": "UNCHANGED",
+  "minecraft": "HOLD",
+  "work": "PRIOR_APPROVAL_REQUIRED"
+}

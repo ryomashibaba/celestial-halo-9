@@ -1,0 +1,76 @@
+{
+  "study_id": "C2-G7",
+  "scheme": "N1 \u4ea4\u5ba4\u90fd\u5bae",
+  "stage": "BLOCKOUT_3D",
+  "dimensions_m": [
+    3856.0,
+    3850.0,
+    2560.0
+  ],
+  "bbox_min_m": [
+    -2010.0,
+    -2100.0,
+    -50.0
+  ],
+  "bbox_max_m": [
+    1846.0,
+    1750.0,
+    2510.0
+  ],
+  "new_objects": 10,
+  "mass_polygons": 135,
+  "context_from": "studies/C2-G6/A.blend",
+  "context_formal_positions": false,
+  "views": {
+    "05_oblique": {
+      "eye": [
+        6100,
+        -7500,
+        4800
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "ortho": 7800
+    },
+    "07_side": {
+      "eye": [
+        9000,
+        0,
+        1700
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    },
+    "08_back": {
+      "eye": [
+        0,
+        9000,
+        4500
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    }
+  },
+  "render": {
+    "pixels": [
+      960,
+      720
+    ],
+    "samples": 14,
+    "format": "JPEG"
+  },
+  "interior_rendered": false,
+  "housing_multiplied": false,
+  "structural_and_circulation_certified": false
+}

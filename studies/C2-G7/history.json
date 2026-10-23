@@ -1,0 +1,25 @@
+{
+  "study_id": "C2-G7",
+  "basis_commit": "aaa0696f0239d05eda60c6bfeffe528363d8af3d",
+  "previous_study": "C2-G6",
+  "previous_history_preserved": true,
+  "events": [
+    {
+      "event": "REVIEW_EXACT_G6_FINAL_BLEND",
+      "preview": "studies/C2-G7/preview.jpg",
+      "status": "SELF_REJECT_DETAIL_STOP"
+    },
+    {
+      "event": "COMPARE_TWO_DIFFERENT_FORMATION_PRINCIPLES",
+      "concepts": [
+        "N1 交室都宮",
+        "N2 双地盤会都"
+      ]
+    },
+    {
+      "event": "MODEL_ONLY_N1_AND_REVIEW_THREE_DIRECTIONS",
+      "status": "SELF_REJECT_DETAIL_STOP",
+      "selected_candidate": null
+    }
+  ]
+}

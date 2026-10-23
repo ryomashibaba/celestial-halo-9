@@ -1,0 +1,62 @@
+{
+  "source": "studies/C2-G6/A.blend",
+  "source_sha256": "c7506eb8556713e8b21cf0e1dc9e25f9d3c992e1a1d9bfe5c3e6804185302e01",
+  "central_glb_sha256": "e5d2fcdb8ffd1a23ac3d4a1d56cc2208706c526d69c5fb90c48599caf03d9d9e",
+  "initial_comparison_used": false,
+  "G6_model_or_high_resolution_images_rebuilt": false,
+  "loaded_central_dimensions_m": [
+    4142.491943359375,
+    4622.70947265625,
+    2339.220001220703
+  ],
+  "views": {
+    "oblique": {
+      "eye": [
+        6100,
+        -7500,
+        4800
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "ortho": 7800
+    },
+    "side": {
+      "eye": [
+        9000,
+        0,
+        1700
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    },
+    "back": {
+      "eye": [
+        0,
+        9000,
+        4500
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    }
+  },
+  "render": {
+    "resolution": [
+      960,
+      720
+    ],
+    "samples": 12,
+    "format": "JPEG",
+    "quality": 84
+  }
+}

@@ -3,551 +3,296 @@
   "branch": "art/c",
   "track": "C",
   "latest": {
-    "study_id": "C2-G6",
+    "study_id": "C2-G7",
     "track": "C",
     "branch": "art/c",
-    "title": "天衢会都：会流天蓋の実3D研究",
+    "title": "会流天蓋最終再審査・新主質量の不合格記録",
     "stage": "BLOCKOUT_3D",
-    "art_review_status": "HOLD",
-    "updated_at": "2026-10-23T04:35:30.355748+00:00",
+    "art_review_status": "REJECT",
+    "review_authority": "C_SELF_REVIEW_NOT_FORMAL_ADOPTION",
+    "updated_at": "2026-10-23T07:55:28.535214+00:00",
     "date": "2026-10-23",
     "dimensions_m": {
-      "width": 4142.491943359375,
-      "depth": 4622.70947265625,
-      "height": 2339.220001220703
+      "width": 3856.0,
+      "depth": 3850.0,
+      "height": 2560.0
     },
+    "dimensions_subject": "G7_N1_REJECTED_TEST",
     "proposed_dimensions_m": null,
     "assets": [
       {
-        "path": "studies/C2-G6/A.blend",
-        "kind": "BLEND",
-        "sha256": "c7506eb8556713e8b21cf0e1dc9e25f9d3c992e1a1d9bfe5c3e6804185302e01",
-        "size_bytes": 1090036
-      },
-      {
-        "path": "studies/C2-G6/A_CENTRAL.glb",
-        "kind": "GLB",
-        "sha256": "e5d2fcdb8ffd1a23ac3d4a1d56cc2208706c526d69c5fb90c48599caf03d9d9e",
-        "size_bytes": 2171224
-      },
-      {
-        "path": "studies/C2-G6/A_CITY.glb",
-        "kind": "GLB",
-        "sha256": "1cbbb0a6cfa4c4e755c3155b7bb6aa3b1084e066b9f87f060ecfeb5b1f488416",
-        "size_bytes": 2543080
-      },
-      {
-        "path": "studies/C2-G6/A_metrics.json",
-        "kind": "JSON",
-        "sha256": "a80213d4d611eeb3a626fae2750690f69b845caaea98e56113a3ceb4ed786d9d",
-        "size_bytes": 5313
-      },
-      {
-        "path": "studies/C2-G6/B.blend",
-        "kind": "BLEND",
-        "sha256": "1bbc0e0ae432fb01708df2a8b98eacc2fd5675739b337c9b12ef69619bf0b556",
-        "size_bytes": 1248381
-      },
-      {
-        "path": "studies/C2-G6/B_CENTRAL.glb",
-        "kind": "GLB",
-        "sha256": "e88732915f76f8c40cfb43458f682b70ef3132119a2885d741fc1a1efa3479ad",
-        "size_bytes": 2396844
-      },
-      {
-        "path": "studies/C2-G6/B_CITY.glb",
-        "kind": "GLB",
-        "sha256": "c814b8e63cc23d432ac38fcb38e4bebe1627ba34fd54b6ebb7665110efc35c79",
-        "size_bytes": 2768700
-      },
-      {
-        "path": "studies/C2-G6/B_metrics.json",
-        "kind": "JSON",
-        "sha256": "fae9cec05441f4cfa89f0a71b4d1897855b630f04ac8d95777a588a779481d51",
-        "size_bytes": 4803
-      },
-      {
-        "path": "studies/C2-G6/build_render.py",
+        "path": "studies/C2-G7/compare_principles.py",
         "kind": "CODE",
-        "sha256": "537fa0845100d16c2ac33521c0d60e6352b3bece4319e19eba7f92109770c3f1",
-        "size_bytes": 16420
+        "sha256": "1e3f4f41e388c1be0d37b514ab03706cf0d7a0d2643b301f42d0bc9f90a18367",
+        "size_bytes": 2426
       },
       {
-        "path": "studies/C2-G6/CITY_AND_APPROACHES.png",
-        "kind": "PNG",
-        "sha256": "0dd8e38567250b7ae7935f51b9bf12adc6cbcc157e847e619d4fdfd85d8dfef3",
-        "size_bytes": 1899548
-      },
-      {
-        "path": "studies/C2-G6/COMPARISON.png",
-        "kind": "PNG",
-        "sha256": "df983a3ab0f60329cff91bfe5bec91939a769d95586cafdc8280b12e048c3a5f",
-        "size_bytes": 2215430
-      },
-      {
-        "path": "studies/C2-G6/context_ledger.json",
-        "kind": "JSON",
-        "sha256": "af61d66437f460d9c66c11c98c9b95e3006a7b1ae0cef4e48864a19b32afde40",
-        "size_bytes": 1106
-      },
-      {
-        "path": "studies/C2-G6/history.json",
-        "kind": "JSON",
-        "sha256": "3c08fece57beb51fcfcd600d76aea7c5ea886c85cc654fe8544309146b942a5f",
-        "size_bytes": 531
-      },
-      {
-        "path": "studies/C2-G6/initial_comparison/A/05_oblique.png",
-        "kind": "PNG",
-        "sha256": "846e32102667b402264605bb95b6e52bb39f8fff3e96ee2c34484d4cbf64d4ef",
-        "size_bytes": 947477
-      },
-      {
-        "path": "studies/C2-G6/initial_comparison/A/08_back.png",
-        "kind": "PNG",
-        "sha256": "f34b06f71bef493d751eaa0c8df1288e495d993562853cd261b5c12b27216216",
-        "size_bytes": 837043
-      },
-      {
-        "path": "studies/C2-G6/initial_comparison/A_metrics.json",
-        "kind": "JSON",
-        "sha256": "948d6dfea9fa38dce67b42d5ae49b91a1230aa9c6abc2de68b3ae47c47194590",
-        "size_bytes": 5118
-      },
-      {
-        "path": "studies/C2-G6/initial_comparison/B/05_oblique.png",
-        "kind": "PNG",
-        "sha256": "fde1e0d1c83b821ce853a2f792a82a26fffc95f5db81f6198059af1209de568a",
-        "size_bytes": 946041
-      },
-      {
-        "path": "studies/C2-G6/initial_comparison/B/08_back.png",
-        "kind": "PNG",
-        "sha256": "c41bba04f51527ac3e32417141222de46ab3a19123de712660c13693dc4b25c9",
-        "size_bytes": 822251
-      },
-      {
-        "path": "studies/C2-G6/initial_comparison/B_metrics.json",
-        "kind": "JSON",
-        "sha256": "0341e53d764f1cfc9ffc004ce86338981412fb97cd523602625903d0c3698452",
-        "size_bytes": 5117
-      },
-      {
-        "path": "studies/C2-G6/initial_comparison/README.md",
+        "path": "studies/C2-G7/decision.md",
         "kind": "REPORT",
-        "sha256": "873151f5e28de7248967fd984c27694e80357ab460b766b0294517fb2e73aebf",
-        "size_bytes": 578
+        "sha256": "1a62d84f652e86b2832f03b78e94558242ff64ab57e4e9cfca0eb6045cef21b6",
+        "size_bytes": 12523
       },
       {
-        "path": "studies/C2-G6/inspect_street.py",
-        "kind": "CODE",
-        "sha256": "f32e5085a2b1736e61b802238f57eb87181445bb3a3efa34eccfd628ddb6d7e5",
-        "size_bytes": 693
+        "path": "studies/C2-G7/g6_back.jpg",
+        "kind": "JPEG",
+        "sha256": "200b15167786c806adcd7f341a2a80980edb4f877be0ff314c941c6d20c16cb4",
+        "size_bytes": 50375
       },
       {
-        "path": "studies/C2-G6/INTERIORS.png",
-        "kind": "PNG",
-        "sha256": "a2e71d60dca4b70f11d2656fa6fee681f62b66b712c4b69c0de7f827c83be420",
-        "size_bytes": 1473660
+        "path": "studies/C2-G7/g6_oblique.jpg",
+        "kind": "JPEG",
+        "sha256": "1d4e5f2f49d49a8adf5126970b21488178bfb14a784e522647801ac953986d40",
+        "size_bytes": 63369
       },
       {
-        "path": "studies/C2-G6/package.py",
-        "kind": "CODE",
-        "sha256": "08e13f35710ad58eb05b1281a73b921a04399a4dce404a3f4514fb4443831860",
-        "size_bytes": 8792
-      },
-      {
-        "path": "studies/C2-G6/protected_hashes.json",
+        "path": "studies/C2-G7/g6_review_source.json",
         "kind": "JSON",
-        "sha256": "f8de17af4ceb5341f6505d4b53c7038a65a046fd5fa0caf1edb915ac099720f3",
-        "size_bytes": 1548
+        "sha256": "511b7d9ab09f1b5d069f56abb1e96dfbd9fc483b801c66d891d0a3e369bfbe90",
+        "size_bytes": 1122
       },
       {
-        "path": "studies/C2-G6/publish.py",
-        "kind": "CODE",
-        "sha256": "47541b269f53bb25bdecbe5daf1da7a3e16d5275db4b1099f4550786c932c58b",
-        "size_bytes": 2641
+        "path": "studies/C2-G7/g6_side.jpg",
+        "kind": "JPEG",
+        "sha256": "a097ed2814f0fb95b0bbab04beb224b87d993d63ea67f37993ac4cdca354a0ec",
+        "size_bytes": 41647
       },
       {
-        "path": "studies/C2-G6/renders/A/01_city_10km.png",
-        "kind": "PNG",
-        "sha256": "09ed4f52af0b1768c3a068805dc29b2ffd73350f9f128d8b5fe73ae945af1654",
-        "size_bytes": 1732006
-      },
-      {
-        "path": "studies/C2-G6/renders/A/02_approach_alpha.png",
-        "kind": "PNG",
-        "sha256": "4fc602dec2327efdb445b19180c40c7387ea622b967714f4dd39777a9f14decf",
-        "size_bytes": 1670006
-      },
-      {
-        "path": "studies/C2-G6/renders/A/03_approach_beta.png",
-        "kind": "PNG",
-        "sha256": "5e7d1442a1282be3ee75044eef20e78ca8dbb0049e706039d37c98215d78c306",
-        "size_bytes": 1667065
-      },
-      {
-        "path": "studies/C2-G6/renders/A/04_approach_gamma.png",
-        "kind": "PNG",
-        "sha256": "9906b6d1f8ebfbcd8eb31263f235a5bc661935b58dae7f744bbf07d47e847bea",
-        "size_bytes": 1712089
-      },
-      {
-        "path": "studies/C2-G6/renders/A/05_oblique.png",
-        "kind": "PNG",
-        "sha256": "fb07944868a253dd844c43e6e1cd83824fe92d1861bdc95944f041270b64d485",
-        "size_bytes": 1851317
-      },
-      {
-        "path": "studies/C2-G6/renders/A/06_front.png",
-        "kind": "PNG",
-        "sha256": "da7ba9099880844716bc9e8329ef48bd84094f82cee14676c048e1715d407540",
-        "size_bytes": 1674846
-      },
-      {
-        "path": "studies/C2-G6/renders/A/07_side.png",
-        "kind": "PNG",
-        "sha256": "4b5a12b5351a5133328cbd1eb98d430447a8a97340e8ac992b52b272437739ba",
-        "size_bytes": 1678088
-      },
-      {
-        "path": "studies/C2-G6/renders/A/08_back.png",
-        "kind": "PNG",
-        "sha256": "543e775f1968311db82b12738f8407a94b519ee9c92c476dfecc5455faea28a7",
-        "size_bytes": 1766608
-      },
-      {
-        "path": "studies/C2-G6/renders/A/09_aerial_district.png",
-        "kind": "PNG",
-        "sha256": "684de57893bf5fbac6fa510dbe4a4b1878a3ccfae4f3cf8acf3cdf9a4492e724",
-        "size_bytes": 1834710
-      },
-      {
-        "path": "studies/C2-G6/renders/A/10_top.png",
-        "kind": "PNG",
-        "sha256": "d5aed1cd90bc4756efc2f392a97233f00d9ec63e58ceb7501a9d1250b8070ac8",
-        "size_bytes": 1717217
-      },
-      {
-        "path": "studies/C2-G6/renders/A/11_public_chamber.png",
-        "kind": "PNG",
-        "sha256": "722cd0bfd5d951a139483f502da8db054c5137ba398b72d31efff98cdd27d482",
-        "size_bytes": 1632532
-      },
-      {
-        "path": "studies/C2-G6/renders/A/12_living_street.png",
-        "kind": "PNG",
-        "sha256": "b07a457849332824e80dc45de3752b06467a7aac3f63b3c0a3e4271609110d50",
-        "size_bytes": 1514370
-      },
-      {
-        "path": "studies/C2-G6/renders/A/13_elevated_living_street.png",
-        "kind": "PNG",
-        "sha256": "0f75362177a89b123c6a87b27e5d84d58773d6c4df12102aae4de1533332fe13",
-        "size_bytes": 1510574
-      },
-      {
-        "path": "studies/C2-G6/renders/B/05_oblique.png",
-        "kind": "PNG",
-        "sha256": "702764f92254b2e200d70b22595be50a78d2961d6567ae72df88bee71fbafe49",
-        "size_bytes": 1830430
-      },
-      {
-        "path": "studies/C2-G6/renders/B/08_back.png",
-        "kind": "PNG",
-        "sha256": "0d9304caeceee50293ddf491fb85b6fbaa18ec31ff06993a99e98f7b85480c68",
-        "size_bytes": 1710212
-      },
-      {
-        "path": "studies/C2-G6/repair_back_camera.py",
-        "kind": "CODE",
-        "sha256": "747e9e0f0f7aecb980f4ae2bc0728b2d48562413ec971d1872d69c6428c6f0b9",
-        "size_bytes": 955
-      },
-      {
-        "path": "studies/C2-G6/REPORT.md",
-        "kind": "REPORT",
-        "sha256": "793aaf7adab220b5b44756f069c7ff4fa68e7ddf3745eb53d8f2b34ece705bca",
-        "size_bytes": 16020
-      },
-      {
-        "path": "studies/C2-G6/RESULTS.md",
-        "kind": "REPORT",
-        "sha256": "549fa6d51faa24f2d0c05f7925a7ac51144d8fab54cb51b4378b758933c63128",
-        "size_bytes": 834
-      },
-      {
-        "path": "studies/C2-G6/SIX_VIEWS.png",
-        "kind": "PNG",
-        "sha256": "69558c22835448a2d9345317763c4731d87f8a779422ff854c4e5618929e441b",
-        "size_bytes": 1729331
-      },
-      {
-        "path": "studies/C2-G6/verification.json",
+        "path": "studies/C2-G7/history.json",
         "kind": "JSON",
-        "sha256": "deb727519e36fec245975e7568d180fb380422162d56444891fcb5f52c9be9fd",
-        "size_bytes": 6048
+        "sha256": "33924818dd5bfcbedd2adff9119dfea1d7ab7d75ee77d3c6ae929f7bdd6be6fd",
+        "size_bytes": 652
+      },
+      {
+        "path": "studies/C2-G7/make_sheets.py",
+        "kind": "CODE",
+        "sha256": "3d97e73ed757ffdb9075e6f0655ed2300e5cce8662da56094266c2e158c19c20",
+        "size_bytes": 1586
+      },
+      {
+        "path": "studies/C2-G7/N1_CENTRAL.glb",
+        "kind": "GLB",
+        "sha256": "39fa2203d420e9c239488e474d0fea6155b768d75631bf6d5deccab2ef81a8b2",
+        "size_bytes": 28384
+      },
+      {
+        "path": "studies/C2-G7/new_back.jpg",
+        "kind": "JPEG",
+        "sha256": "a2f7384bf9f687018b78fc9287d6dd0060915c0019f00422396f02c67eaada2e",
+        "size_bytes": 48729
+      },
+      {
+        "path": "studies/C2-G7/new_comparison.jpg",
+        "kind": "JPEG",
+        "sha256": "549b885be4ebc1fe0605b9a44f104ee0c7596404f9c499701561f5e51880f4bf",
+        "size_bytes": 122131
+      },
+      {
+        "path": "studies/C2-G7/new_mass.py",
+        "kind": "CODE",
+        "sha256": "242b12ef64d22b539f636b10413c2eda0c2ad5cbbd36d082805f1126be6fd4c4",
+        "size_bytes": 6541
+      },
+      {
+        "path": "studies/C2-G7/new_metrics.json",
+        "kind": "JSON",
+        "sha256": "692cdc9022359a9f723f0a4f0b243df379c0e8e52cae42be9195c46e691a316f",
+        "size_bytes": 1212
+      },
+      {
+        "path": "studies/C2-G7/new_oblique.jpg",
+        "kind": "JPEG",
+        "sha256": "c06200925e50478d8d37b0980c19bb17c0696866be43328062674ef7cae0b6ce",
+        "size_bytes": 62798
+      },
+      {
+        "path": "studies/C2-G7/new_side.jpg",
+        "kind": "JPEG",
+        "sha256": "95950c049b57294b58125e054f751d46e5782a8ec50931f8546ea8eb01d61127",
+        "size_bytes": 37708
+      },
+      {
+        "path": "studies/C2-G7/package.py",
+        "kind": "CODE",
+        "sha256": "c46aa69ca876f4fdf06d7dde2f313303cfc8829164a1bf8b83c1d832dbc6c618",
+        "size_bytes": 5699
+      },
+      {
+        "path": "studies/C2-G7/preview.jpg",
+        "kind": "JPEG",
+        "sha256": "be77eafbede19412dfaab157464b379592141534dc674b960bbccebbb559d815",
+        "size_bytes": 141144
+      },
+      {
+        "path": "studies/C2-G7/principles.jpg",
+        "kind": "JPEG",
+        "sha256": "7fc4995afc0d5a2cad5467ee937ac34e61ebaca5183873b30304c5b7dee47dda",
+        "size_bytes": 149760
+      },
+      {
+        "path": "studies/C2-G7/protected_hashes.json",
+        "kind": "JSON",
+        "sha256": "bf8e788c7c81734e5e6b6070ce994eb70ad8833fc3ec98e4ec2e2f39aa042b04",
+        "size_bytes": 6396
+      },
+      {
+        "path": "studies/C2-G7/publish.py",
+        "kind": "CODE",
+        "sha256": "5262ad2ea91989c0c290b04c85d8bf4fb1eb1ed3f5a84983a68b6c49a4a99d02",
+        "size_bytes": 2681
+      },
+      {
+        "path": "studies/C2-G7/review_final.py",
+        "kind": "CODE",
+        "sha256": "a493001a3713464826825494024ca32fa22230030b95909c292bce425ffca3d5",
+        "size_bytes": 1754
+      },
+      {
+        "path": "studies/C2-G7/sheet_metrics.json",
+        "kind": "JSON",
+        "sha256": "f7b77d36e512f74f90e6949fd4712022660584e3de46d8ce05e549c3104888e8",
+        "size_bytes": 251
+      },
+      {
+        "path": "studies/C2-G7/verification.json",
+        "kind": "JSON",
+        "sha256": "5f70c1cdbd1ffb04e544de47e532ed8c76e09d75a55382ab42a490f2b85d0f2c",
+        "size_bytes": 2966
       }
     ],
     "validation": {
-      "study_id": "C2-G6",
-      "stage": "BLOCKOUT_3D",
+      "study_id": "C2-G7",
       "date_jst": "2026-10-23",
+      "basis_commit": "aaa0696f0239d05eda60c6bfeffe528363d8af3d",
+      "g6_source_hashes_match_basis_manifest": true,
+      "protected_g6_files_unchanged": 58,
+      "initial_comparison_used_for_final_preview": false,
+      "G6_models_or_high_resolution_images_rebuilt": false,
       "gltf": {
-        "A_CENTRAL.glb": {
-          "readable": true,
+        "studies/C2-G6/A_CENTRAL.glb": {
+          "load": "PASS",
+          "finite_vertices": true,
           "geometry_count": 1211,
-          "vertices": 46434,
-          "faces": 45716,
-          "bounds_gltf_y_up": [
-            [
-              -1785.88671875,
-              -61.428985595703125,
-              -2397.709450891461
-            ],
-            [
-              2356.6051323308093,
-              2277.791015625,
-              2225.0
-            ]
-          ],
-          "extent_gltf_y_up_m": [
+          "dimensions_m_xyz_z_up": [
             4142.491851080809,
-            2339.220001220703,
-            4622.7094508914615
+            4622.7094508914615,
+            2339.220001220703
           ],
-          "all_vertices_finite": true,
-          "component_meshes_watertight": 0,
-          "note": "Component check only; combined city is not one manifold solid.",
-          "component_meshes_watertight_after_vertex_merge": 1209,
-          "main_mass_after_vertex_merge": {
-            "watertight": false,
-            "connected_components": 2
-          }
+          "main_mass_watertight_after_merge": false,
+          "main_mass_connected_components": 2
         },
-        "A_CITY.glb": {
-          "readable": true,
-          "geometry_count": 1434,
-          "vertices": 55512,
-          "faces": 50284,
-          "bounds_gltf_y_up": [
-            [
-              -5000.0,
-              -125.0,
-              -5260.0
-            ],
-            [
-              5000.0,
-              2277.791015625,
-              5000.0
-            ]
+        "studies/C2-G7/N1_CENTRAL.glb": {
+          "load": "PASS",
+          "finite_vertices": true,
+          "geometry_count": 11,
+          "dimensions_m_xyz_z_up": [
+            3856.0,
+            3850.0,
+            2560.0
           ],
-          "extent_gltf_y_up_m": [
-            10000.0,
-            2402.791015625,
-            10260.0
-          ],
-          "all_vertices_finite": true,
-          "component_meshes_watertight": 0,
-          "note": "Component check only; combined city is not one manifold solid.",
-          "component_meshes_watertight_after_vertex_merge": 1425,
-          "main_mass_after_vertex_merge": {
-            "watertight": false,
-            "connected_components": 2
-          }
-        },
-        "B_CENTRAL.glb": {
-          "readable": true,
-          "geometry_count": 1243,
-          "vertices": 51297,
-          "faces": 55626,
-          "bounds_gltf_y_up": [
-            [
-              -2297.565686288235,
-              0.0,
-              -1872.84033203125
-            ],
-            [
-              2221.0404124634338,
-              2482.06298828125,
-              2225.0
-            ]
-          ],
-          "extent_gltf_y_up_m": [
-            4518.6060987516685,
-            2482.06298828125,
-            4097.84033203125
-          ],
-          "all_vertices_finite": true,
-          "component_meshes_watertight": 0,
-          "note": "Component check only; combined city is not one manifold solid.",
-          "component_meshes_watertight_after_vertex_merge": 1241,
-          "main_mass_after_vertex_merge": {
-            "watertight": false,
-            "connected_components": 3
-          }
-        },
-        "B_CITY.glb": {
-          "readable": true,
-          "geometry_count": 1466,
-          "vertices": 60375,
-          "faces": 60194,
-          "bounds_gltf_y_up": [
-            [
-              -5000.0,
-              -125.0,
-              -5260.0
-            ],
-            [
-              5000.0,
-              2482.06298828125,
-              5000.0
-            ]
-          ],
-          "extent_gltf_y_up_m": [
-            10000.0,
-            2607.06298828125,
-            10260.0
-          ],
-          "all_vertices_finite": true,
-          "component_meshes_watertight": 0,
-          "note": "Component check only; combined city is not one manifold solid.",
-          "component_meshes_watertight_after_vertex_merge": 1457,
-          "main_mass_after_vertex_merge": {
-            "watertight": false,
-            "connected_components": 3
-          }
+          "main_mass_watertight_after_merge": false,
+          "main_mass_connected_components": 1
         }
       },
       "images": {
-        "CITY_AND_APPROACHES.png": [
-          1900,
-          1719
-        ],
-        "COMPARISON.png": [
-          1900,
-          1719
-        ],
-        "initial_comparison/A/05_oblique.png": [
-          1000,
-          750
-        ],
-        "initial_comparison/A/08_back.png": [
-          1000,
-          750
-        ],
-        "initial_comparison/B/05_oblique.png": [
-          1000,
-          750
-        ],
-        "initial_comparison/B/08_back.png": [
-          1000,
-          750
-        ],
-        "INTERIORS.png": [
-          1900,
-          1719
-        ],
-        "renders/A/01_city_10km.png": [
-          1440,
-          1080
-        ],
-        "renders/A/02_approach_alpha.png": [
-          1440,
-          1080
-        ],
-        "renders/A/03_approach_beta.png": [
-          1440,
-          1080
-        ],
-        "renders/A/04_approach_gamma.png": [
-          1440,
-          1080
-        ],
-        "renders/A/05_oblique.png": [
-          1440,
-          1080
-        ],
-        "renders/A/06_front.png": [
-          1440,
-          1080
-        ],
-        "renders/A/07_side.png": [
-          1440,
-          1080
-        ],
-        "renders/A/08_back.png": [
-          1440,
-          1080
-        ],
-        "renders/A/09_aerial_district.png": [
-          1440,
-          1080
-        ],
-        "renders/A/10_top.png": [
-          1440,
-          1080
-        ],
-        "renders/A/11_public_chamber.png": [
-          1440,
-          1080
-        ],
-        "renders/A/12_living_street.png": [
-          1440,
-          1080
-        ],
-        "renders/A/13_elevated_living_street.png": [
-          1440,
-          1080
-        ],
-        "renders/B/05_oblique.png": [
-          1440,
-          1080
-        ],
-        "renders/B/08_back.png": [
-          1440,
-          1080
-        ],
-        "SIX_VIEWS.png": [
-          2160,
-          1375
-        ]
+        "g6_back.jpg": {
+          "pixels": [
+            960,
+            720
+          ],
+          "bytes": 50375
+        },
+        "g6_oblique.jpg": {
+          "pixels": [
+            960,
+            720
+          ],
+          "bytes": 63369
+        },
+        "g6_side.jpg": {
+          "pixels": [
+            960,
+            720
+          ],
+          "bytes": 41647
+        },
+        "new_back.jpg": {
+          "pixels": [
+            960,
+            720
+          ],
+          "bytes": 48729
+        },
+        "new_comparison.jpg": {
+          "pixels": [
+            1920,
+            610
+          ],
+          "bytes": 122131
+        },
+        "new_oblique.jpg": {
+          "pixels": [
+            960,
+            720
+          ],
+          "bytes": 62798
+        },
+        "new_side.jpg": {
+          "pixels": [
+            960,
+            720
+          ],
+          "bytes": 37708
+        },
+        "preview.jpg": {
+          "pixels": [
+            1920,
+            610
+          ],
+          "bytes": 141144
+        },
+        "principles.jpg": {
+          "pixels": [
+            1800,
+            1100
+          ],
+          "bytes": 149760
+        }
       },
-      "floor_rays": {
-        "11_public_chamber": [
-          1.7000007629394531,
-          "great_public_chamber_floor"
-        ],
-        "12_living_street": [
-          1.7000007629394531,
-          "great_public_chamber_floor"
-        ],
-        "13_elevated_living_street": [
-          1.700073480606079,
-          "L1420_W1_deck_-1_970"
-        ]
+      "preview_under_600000_bytes": true,
+      "new_3D_candidate_count": 1,
+      "camera_render_count": 6,
+      "camera_render_pixels": [
+        960,
+        720
+      ],
+      "housing_mass_addition": false,
+      "detailed_interiors": false,
+      "art_decisions": {
+        "G6_final_A_self_rereview": "REJECT_DETAIL_STOP",
+        "G7_N1": "REJECT_DETAIL_STOP",
+        "G7_N2": "UNRESOLVED_CONCEPT_NOT_MODELED"
       },
-      "protected_reference_hashes_match": true,
-      "context": "Synthetic abstract layout only. No mapping to current SB/H/V coordinates.",
-      "art_review_status": "HOLD",
+      "selected_promising_candidate": null,
       "formal_M247_C": "UNCHANGED",
       "minecraft": "HOLD",
       "work_migration": false,
       "limits": [
-        "No structural analysis or all-route accessibility",
-        "Housing blocks are courtyard/service envelopes, not fitted homes",
-        "Transport cores are geometry envelopes, not certified elevators",
-        "No approved W0 overlay, formal H/Y transform or voxel clearance",
-        "All render cameras recorded; context deliberately present",
-        "GLTF is Y-up; Blender is Z-up; extents must be permuted",
-        "Global meshes intersect; component watertightness is not city solidity"
+        "No structural analysis, all-route testing, population or habitable-area validation",
+        "N1 main body is non-watertight after vertex merge",
+        "Synthetic background only; no current SB/H/V coordinates claimed",
+        "G6 samples12 vs N1 samples14; shared camera/background/sun/world but not pixel-identical settings",
+        "Technical load/dimension success does not constitute art acceptance"
       ]
     },
-    "report": "studies/C2-G6/REPORT.md",
-    "model": "studies/C2-G6/A_CENTRAL.glb",
-    "city_model": "studies/C2-G6/A_CITY.glb",
-    "preview": "studies/C2-G6/CITY_AND_APPROACHES.png",
-    "notes": "A provisionally preferred. Art and livability not accepted. Formal coordinates unconfirmed.",
+    "report": "studies/C2-G7/decision.md",
+    "preview": "studies/C2-G7/preview.jpg",
+    "preview_subject": "G6_FINAL_A_NOT_G7_N1",
+    "new_preview": "studies/C2-G7/new_comparison.jpg",
+    "model": "studies/C2-G7/N1_CENTRAL.glb",
+    "model_role": "REJECTED_RESEARCH_TEST",
+    "selected_candidate": null,
+    "notes": "G6 final and G7 N1 fail art self-review. N2 is unresolved concept only. Detail stopped; prior evidence retained.",
+    "formal_adoption": false,
     "formal_M247_C": "UNCHANGED",
     "minecraft": "HOLD",
     "work": "PRIOR_APPROVAL_REQUIRED"
@@ -582,6 +327,13 @@
       "manifest": "studies/C2-G6/manifest.json",
       "stage": "BLOCKOUT_3D",
       "art_review_status": "HOLD"
+    },
+    {
+      "study_id": "C2-G7",
+      "manifest": "studies/C2-G7/manifest.json",
+      "stage": "BLOCKOUT_3D",
+      "art_review_status": "REJECT",
+      "selected_candidate": null
     }
   ],
   "last_submission_at": "2026-10-23",
