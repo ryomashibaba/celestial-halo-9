@@ -1,0 +1,33 @@
+{
+  "schema": "halo9.research.latest.v1",
+  "research_id": "M3D-1S",
+  "date_jst": "2026-10-24",
+  "status": "SCALE_PROXIES_COMPLETE_ART_NOT_ACCEPTED",
+  "research_branch": "research/m3d1s-central-city-scale-20261024",
+  "approval": "RESEARCH_ONLY",
+  "canonical_adoption": "NONE",
+  "construction": "HOLD",
+  "work_status": "HANDOFF_DECLINED_NO_WORK_EXECUTION",
+  "outputs": {
+    "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
+    "config": "studies/M3D-1S/scenarios.json",
+    "dimensions": "studies/M3D-1S/measured_manifest.json",
+    "validation": "studies/M3D-1S/GITHUB_READBACK_VALIDATION.json",
+    "models": [
+      "studies/M3D-1S/proxies/COMMON_W0_NONCANONICAL_CONTEXT.obj",
+      "studies/M3D-1S/proxies/A_HORIZONTAL_CIVIC_CONTINENT.obj",
+      "studies/M3D-1S/proxies/B_VERTICAL_LIVING_RANGES.obj",
+      "studies/M3D-1S/proxies/C_ASYMMETRIC_SKY_FISSURE.obj"
+    ]
+  },
+  "missing": [
+    "BLEND",
+    "GLB",
+    "MULTIVIEW_PHOTOREAL_ART_RENDERS",
+    "GENUINE_PUBLIC_INTERIORS",
+    "REAL_10KM_CITY_DETAIL",
+    "VALIDATED_CANONICAL_COORDINATES"
+  ],
+  "next_gate": "M3D-1S full-volume city + void + cross-section art prototype and human review",
+  "policy": "main/docs/policy/START_HERE.md"
+}
