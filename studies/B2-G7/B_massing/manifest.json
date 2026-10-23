@@ -1,0 +1,282 @@
+{
+  "study_id": "B2-G7",
+  "concept": "B",
+  "stage": "SIMPLE_VOLUMETRIC_COMPARISON",
+  "units": "metres",
+  "bounds_m": {
+    "min": [
+      -2037.6309814453125,
+      -1913.783935546875,
+      0.0
+    ],
+    "max": [
+      2025.0,
+      2095.0,
+      2180.0
+    ],
+    "size": [
+      4062.6309814453125,
+      4008.783935546875,
+      2180.0
+    ]
+  },
+  "geometry_sha256": "f47f97ceba95cb26713dca0edc89c94c3003495f2229b68e2d99200fd9b73f95",
+  "mesh_objects": 34,
+  "vertices": 272,
+  "nonmanifold_edges_per_object": 0,
+  "grounds": [
+    {
+      "id": "B0_horizontal_district_0",
+      "center": [
+        -900,
+        -600,
+        1110
+      ],
+      "size": [
+        650,
+        590
+      ],
+      "area_m2": 383500
+    },
+    {
+      "id": "B0_horizontal_district_1",
+      "center": [
+        200,
+        -300,
+        1910
+      ],
+      "size": [
+        650,
+        590
+      ],
+      "area_m2": 383500
+    },
+    {
+      "id": "B0_horizontal_district_2",
+      "center": [
+        1600,
+        900,
+        2160
+      ],
+      "size": [
+        650,
+        590
+      ],
+      "area_m2": 383500
+    },
+    {
+      "id": "B1_horizontal_district_0",
+      "center": [
+        -800,
+        400,
+        1560
+      ],
+      "size": [
+        650,
+        590
+      ],
+      "area_m2": 383500
+    },
+    {
+      "id": "B1_horizontal_district_2",
+      "center": [
+        1700,
+        -1000,
+        1110
+      ],
+      "size": [
+        650,
+        590
+      ],
+      "area_m2": 383500
+    },
+    {
+      "id": "B2_horizontal_district_0",
+      "center": [
+        400,
+        -500,
+        1360
+      ],
+      "size": [
+        650,
+        590
+      ],
+      "area_m2": 383500
+    },
+    {
+      "id": "B2_horizontal_district_1",
+      "center": [
+        800,
+        500,
+        1760
+      ],
+      "size": [
+        650,
+        590
+      ],
+      "area_m2": 383500
+    },
+    {
+      "id": "B2_horizontal_district_2",
+      "center": [
+        300,
+        1800,
+        1360
+      ],
+      "size": [
+        650,
+        590
+      ],
+      "area_m2": 383500
+    }
+  ],
+  "districts": [],
+  "routes": [
+    {
+      "type": "inclined_transit_and_horizontal_station_city",
+      "node": [
+        -900,
+        -600,
+        1110
+      ]
+    },
+    {
+      "type": "inclined_transit_and_horizontal_station_city",
+      "node": [
+        200,
+        -300,
+        1910
+      ]
+    },
+    {
+      "type": "inclined_transit_and_horizontal_station_city",
+      "node": [
+        1600,
+        900,
+        2160
+      ]
+    },
+    {
+      "type": "inclined_transit_and_horizontal_station_city",
+      "node": [
+        -800,
+        400,
+        1560
+      ]
+    },
+    {
+      "type": "inclined_transit_and_horizontal_station_city",
+      "node": [
+        1700,
+        -1000,
+        1110
+      ]
+    },
+    {
+      "type": "inclined_transit_and_horizontal_station_city",
+      "node": [
+        400,
+        -500,
+        1360
+      ]
+    },
+    {
+      "type": "inclined_transit_and_horizontal_station_city",
+      "node": [
+        800,
+        500,
+        1760
+      ]
+    },
+    {
+      "type": "inclined_transit_and_horizontal_station_city",
+      "node": [
+        300,
+        1800,
+        1360
+      ]
+    }
+  ],
+  "cameras": {
+    "oblique": {
+      "position": [
+        6200.0,
+        -8500.0,
+        5700.0
+      ],
+      "target": [
+        0,
+        100,
+        900
+      ],
+      "ortho_scale": 5900.0
+    },
+    "side": {
+      "position": [
+        10000.0,
+        0.0,
+        2400.0
+      ],
+      "target": [
+        0,
+        100,
+        950
+      ],
+      "ortho_scale": 5900.0
+    },
+    "rear": {
+      "position": [
+        -5500.0,
+        8500.0,
+        4900.0
+      ],
+      "target": [
+        0,
+        100,
+        950
+      ],
+      "ortho_scale": 5900.0
+    },
+    "context": {
+      "position": [
+        10000.0,
+        -14000.0,
+        13000.0
+      ],
+      "target": [
+        0,
+        0,
+        200
+      ],
+      "ortho_scale": 14500.0
+    }
+  },
+  "qa_limits": [
+    "closed individual solids only; intersecting assemblies are not a watertight unified building",
+    "no structural, wind, daylight, circulation collision or egress certification",
+    "district program is an envelope hypothesis; interiors not designed"
+  ],
+  "formal_adoption": false,
+  "coordinate_registration": "NONE",
+  "minecraft": "HOLD",
+  "work": "PRIOR_APPROVAL_REQUIRED",
+  "renders": [
+    {
+      "path": "oblique.jpg",
+      "geometry_sha256": "f47f97ceba95cb26713dca0edc89c94c3003495f2229b68e2d99200fd9b73f95"
+    },
+    {
+      "path": "side.jpg",
+      "geometry_sha256": "f47f97ceba95cb26713dca0edc89c94c3003495f2229b68e2d99200fd9b73f95"
+    },
+    {
+      "path": "rear.jpg",
+      "geometry_sha256": "f47f97ceba95cb26713dca0edc89c94c3003495f2229b68e2d99200fd9b73f95"
+    },
+    {
+      "path": "context.jpg",
+      "geometry_sha256": "f47f97ceba95cb26713dca0edc89c94c3003495f2229b68e2d99200fd9b73f95"
+    }
+  ],
+  "render_distribution": "JPEG derivatives of lossless Blender renders; rerun generation to obtain PNG sources"
+}

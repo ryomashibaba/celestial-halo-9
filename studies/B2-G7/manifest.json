@@ -1,0 +1,139 @@
+{
+  "study_id": "B2-G7",
+  "branch": "art/b",
+  "base_head": "6da74b479bae8250739fe9fc413e513b94e243fd",
+  "stage": "INITIAL_ART_GATE_STOPPED",
+  "art_review_status": "BOTH_REJECT_INTERNAL",
+  "selected_concept": null,
+  "formal_adoption": false,
+  "assets": [
+    {
+      "path": "studies/B2-G7/principles.md",
+      "size_bytes": 4666,
+      "sha256": "b99950bdc34cccae1618829153b5cee587f7c6a03e745c6488ef0b4ff0b785a9",
+      "git_blob_sha": "958b25753020833f0bfe3e96ed71e0c5bd7f228d"
+    },
+    {
+      "path": "studies/B2-G7/decision.md",
+      "size_bytes": 4323,
+      "sha256": "edc560815691d6b01a7d9527786960b424857145d52f9742ec2f90cc3f07fb57",
+      "git_blob_sha": "28207f22934902bcad6f03f24ad74ccbd823c641"
+    },
+    {
+      "path": "studies/B2-G7/preview.jpg",
+      "size_bytes": 118707,
+      "sha256": "79ed561176bf3209455de8d1d47baf58239fe63469fa8109a63563f6cdcda34d",
+      "git_blob_sha": "ce9ad5cf8c0b8e3f4637f00331251afd3f1b5f22"
+    },
+    {
+      "path": "studies/B2-G7/context_comparison.jpg",
+      "size_bytes": 52013,
+      "sha256": "45c679d5d0d03952bca3d09461b69dae7d104007241b5dc24529d4f5bf1b628d",
+      "git_blob_sha": "63f6b5f5fef92fa65ee55d0b333d0f90945f025e"
+    },
+    {
+      "path": "studies/B2-G7/build_scene.py",
+      "size_bytes": 8975,
+      "sha256": "5f9d129ef29146f68b499fff036130e34c278b6b9e7525545bad263a80e55d87",
+      "git_blob_sha": "2d07001d355352404828777487b57ba715dfc508"
+    },
+    {
+      "path": "studies/B2-G7/assemble_review.py",
+      "size_bytes": 4348,
+      "sha256": "91b21de20aeb67ec59690868b13d690049a87f19d00924dbaef5ce652ae226f4",
+      "git_blob_sha": "9f452a5359c3acc28141f62aaff191718c6b753b"
+    },
+    {
+      "path": "studies/B2-G7/audit_saved.py",
+      "size_bytes": 2215,
+      "sha256": "39a40c02c960f62e9ce9d2973e696cc4822541a97d2bf5352ad16f24fe7ae47d",
+      "git_blob_sha": "9058db5f53f1341a55929c77ec33cd7b009a2d27"
+    },
+    {
+      "path": "studies/B2-G7/reproduce.ps1",
+      "size_bytes": 674,
+      "sha256": "0d0a6803a0194b55548b8224341f5ee0e2b46fd9c3dd0c23e2db2f1e8efeeaa4",
+      "git_blob_sha": "4cbc791f9c25b31c8d5845705090a87f8ec31212"
+    },
+    {
+      "path": "studies/B2-G7/verification.json",
+      "size_bytes": 2234,
+      "sha256": "e0375571007e6dcd723385df1b4655abf628aa707195c911dd3ff87ca40759f7",
+      "git_blob_sha": "002bd909538d98cf4f27ba9c9b7e578a39aac08b"
+    },
+    {
+      "path": "studies/B2-G7/A_massing/study.blend",
+      "size_bytes": 128983,
+      "sha256": "936388c9c732b1b72c8962171ba548ccf053d3606f824a2a1213943864fda8fb",
+      "git_blob_sha": "9a9c194c14a62801ac9210340eccdbf93992f852"
+    },
+    {
+      "path": "studies/B2-G7/A_massing/manifest.json",
+      "size_bytes": 9555,
+      "sha256": "2569d1c89b6f850a79b8015458894d1c9b18b0e8d523c743132170221f4b60e1",
+      "git_blob_sha": "097901a7bb820e8470c7f879a20eacc860d9b97d"
+    },
+    {
+      "path": "studies/B2-G7/A_massing/oblique.jpg",
+      "size_bytes": 42894,
+      "sha256": "9fbd0407342d9482aafe17e95099f033fa5ffcd41920649701dd80b6f0f21e07",
+      "git_blob_sha": "74a0643a0ac219dbf6caed22dd390e254dcebdd0"
+    },
+    {
+      "path": "studies/B2-G7/A_massing/side.jpg",
+      "size_bytes": 26956,
+      "sha256": "4737ef3298c7ca97fd8eb6322bbf23a4776f9af9845af03bd67d65cd4125f21a",
+      "git_blob_sha": "8cad38017cfe61d50ecf454a8cd0861f430b76dd"
+    },
+    {
+      "path": "studies/B2-G7/A_massing/rear.jpg",
+      "size_bytes": 34052,
+      "sha256": "fc8358aae519407a3451c5bc05cad692edc03cc393145ee2c4b839f95b078ffc",
+      "git_blob_sha": "2c823101ecb948e6ce495008c3997d64922e3275"
+    },
+    {
+      "path": "studies/B2-G7/A_massing/context.jpg",
+      "size_bytes": 30156,
+      "sha256": "48468658fbb9745ae604bcecf749143e5d1f1bdac266cc3c810d6389a76e4047",
+      "git_blob_sha": "8ab5fcfc621b70435efae59d5988548a1da8ab5f"
+    },
+    {
+      "path": "studies/B2-G7/B_massing/study.blend",
+      "size_bytes": 118225,
+      "sha256": "c7c158f5b081ff3ddb85f0abfa28100dceb8995b1780c763c7dbc5f130595fce",
+      "git_blob_sha": "87ddd04ae5016e8ac5a4aaf5541cd8f32dd67e50"
+    },
+    {
+      "path": "studies/B2-G7/B_massing/manifest.json",
+      "size_bytes": 5374,
+      "sha256": "61b581412a8ca9275ed04f1ee5cee3d91fd9680bc5c3102ab93b8b4efd8f9728",
+      "git_blob_sha": "0a29426761e2fc5113d5a37f3dd33e2beaed06d3"
+    },
+    {
+      "path": "studies/B2-G7/B_massing/oblique.jpg",
+      "size_bytes": 43680,
+      "sha256": "ae921417c613994bd7742eda7239971634caeadb4eaefad2fdac8d27a0ac2040",
+      "git_blob_sha": "026436409bdcdae1d76ee639f57c9a65b10994a1"
+    },
+    {
+      "path": "studies/B2-G7/B_massing/side.jpg",
+      "size_bytes": 30825,
+      "sha256": "5848db38b6e17a5fe963bda72d303c8ce738435f0dc474faca3d10c8e971fbe5",
+      "git_blob_sha": "58dbf7e877cff09011662568b1ca0b807b0280ce"
+    },
+    {
+      "path": "studies/B2-G7/B_massing/rear.jpg",
+      "size_bytes": 40790,
+      "sha256": "172c6c7dd3e8c649a92eb93b8f8d2d656ff4cfa2b4aeb5ae24f46909508b63b9",
+      "git_blob_sha": "0bf0d0d9287c69632f4e4e13b0364e1b3e9023e5"
+    },
+    {
+      "path": "studies/B2-G7/B_massing/context.jpg",
+      "size_bytes": 30800,
+      "sha256": "c823bc91637c18024fb7c109a0b15e7c3e3a8a36268c4e3eec6f333c1a7e4d99",
+      "git_blob_sha": "1849b7417dd6f384cd2dca4d259bb4c1dce88b2c"
+    }
+  ],
+  "construction": "HOLD",
+  "work": "PRIOR_APPROVAL_REQUIRED"
+}

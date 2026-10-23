@@ -1,0 +1,81 @@
+{
+  "study_id": "B2-G7",
+  "method": "Reload each saved BLEND; inspect solid meshes and four actual render files",
+  "results": [
+    {
+      "concept": "A",
+      "checks": {
+        "mesh_count_matches": true,
+        "all_coordinates_finite": true,
+        "closed_individual_solids": true,
+        "positive_signed_volume": true,
+        "four_renders_exist": true,
+        "four_saved_cameras": true,
+        "same_geometry_for_all_views": true
+      },
+      "mesh_objects": 70,
+      "nonmanifold_edges": 0,
+      "bounds_m": {
+        "min": [
+          -1580.0,
+          -1290.0,
+          0.0
+        ],
+        "max": [
+          1470.0,
+          1470.0,
+          1975.0
+        ],
+        "size": [
+          3050.0,
+          2760.0,
+          1975.0
+        ]
+      },
+      "public_ground_count": 21,
+      "ground_area_sum_m2": 4901200.0,
+      "high_ground_area_sum_m2": 3194800.0
+    },
+    {
+      "concept": "B",
+      "checks": {
+        "mesh_count_matches": true,
+        "all_coordinates_finite": true,
+        "closed_individual_solids": true,
+        "positive_signed_volume": true,
+        "four_renders_exist": true,
+        "four_saved_cameras": true,
+        "same_geometry_for_all_views": true
+      },
+      "mesh_objects": 34,
+      "nonmanifold_edges": 0,
+      "bounds_m": {
+        "min": [
+          -2037.6309814453125,
+          -1913.783935546875,
+          0.0
+        ],
+        "max": [
+          2025.0,
+          2095.0,
+          2180.0
+        ],
+        "size": [
+          4062.6309814453125,
+          4008.783935546875,
+          2180.0
+        ]
+      },
+      "public_ground_count": 8,
+      "ground_area_sum_m2": 3068000,
+      "high_ground_area_sum_m2": 3068000
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "Per-object closure is not an assembled-building or collision check.",
+    "High-ground area is gross schematic surface, not net usable area or capacity.",
+    "Same-geometry signatures were asserted during rendering; this audit checks recorded provenance, not pixel equivalence.",
+    "No structure, geotechnics, daylight, wind, life safety, access or W0 registration validation."
+  ]
+}

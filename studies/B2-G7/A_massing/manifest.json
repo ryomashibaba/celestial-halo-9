@@ -1,0 +1,527 @@
+{
+  "study_id": "B2-G7",
+  "concept": "A",
+  "stage": "SIMPLE_VOLUMETRIC_COMPARISON",
+  "units": "metres",
+  "bounds_m": {
+    "min": [
+      -1580.0,
+      -1290.0,
+      0.0
+    ],
+    "max": [
+      1470.0,
+      1470.0,
+      1975.0
+    ],
+    "size": [
+      3050.0,
+      2760.0,
+      1975.0
+    ]
+  },
+  "geometry_sha256": "ea0b803d8049eb5d5d1e442ede76b04e3aca76898068fc73f0305b8b961cb2ac",
+  "mesh_objects": 70,
+  "vertices": 560,
+  "nonmanifold_edges_per_object": 0,
+  "grounds": [
+    {
+      "id": "A0_shoulder_-1",
+      "center": [
+        -1382.5,
+        -710,
+        390
+      ],
+      "size": [
+        395.0,
+        760
+      ],
+      "area_m2": 300200.0
+    },
+    {
+      "id": "A0_shoulder_1",
+      "center": [
+        -877.5,
+        -710,
+        390
+      ],
+      "size": [
+        395.0,
+        760
+      ],
+      "area_m2": 300200.0
+    },
+    {
+      "id": "A0_confluence",
+      "center": [
+        -1130,
+        -170.0,
+        620
+      ],
+      "size": [
+        900,
+        320
+      ],
+      "area_m2": 288000
+    },
+    {
+      "id": "A1_shoulder_-1",
+      "center": [
+        -590.0,
+        -940,
+        950
+      ],
+      "size": [
+        270.0,
+        700
+      ],
+      "area_m2": 189000.0
+    },
+    {
+      "id": "A1_shoulder_1",
+      "center": [
+        -210.0,
+        -940,
+        950
+      ],
+      "size": [
+        270.0,
+        700
+      ],
+      "area_m2": 189000.0
+    },
+    {
+      "id": "A1_confluence",
+      "center": [
+        -400,
+        -430.0,
+        1180
+      ],
+      "size": [
+        650,
+        320
+      ],
+      "area_m2": 208000
+    },
+    {
+      "id": "A2_shoulder_-1",
+      "center": [
+        182.5,
+        -610,
+        1430
+      ],
+      "size": [
+        325.0,
+        680
+      ],
+      "area_m2": 221000.0
+    },
+    {
+      "id": "A2_shoulder_1",
+      "center": [
+        617.5,
+        -610,
+        1430
+      ],
+      "size": [
+        325.0,
+        680
+      ],
+      "area_m2": 221000.0
+    },
+    {
+      "id": "A2_confluence",
+      "center": [
+        400,
+        -110.0,
+        1660
+      ],
+      "size": [
+        760,
+        320
+      ],
+      "area_m2": 243200
+    },
+    {
+      "id": "A3_shoulder_-1",
+      "center": [
+        947.5,
+        -210,
+        790
+      ],
+      "size": [
+        275.0,
+        800
+      ],
+      "area_m2": 220000.0
+    },
+    {
+      "id": "A3_shoulder_1",
+      "center": [
+        1332.5,
+        -210,
+        790
+      ],
+      "size": [
+        275.0,
+        800
+      ],
+      "area_m2": 220000.0
+    },
+    {
+      "id": "A3_confluence",
+      "center": [
+        1140,
+        350.0,
+        1020
+      ],
+      "size": [
+        660,
+        320
+      ],
+      "area_m2": 211200
+    },
+    {
+      "id": "A4_shoulder_-1",
+      "center": [
+        -1090.0,
+        490,
+        1230
+      ],
+      "size": [
+        370.0,
+        680
+      ],
+      "area_m2": 251600.0
+    },
+    {
+      "id": "A4_shoulder_1",
+      "center": [
+        -610.0,
+        490,
+        1230
+      ],
+      "size": [
+        370.0,
+        680
+      ],
+      "area_m2": 251600.0
+    },
+    {
+      "id": "A4_confluence",
+      "center": [
+        -850,
+        990.0,
+        1460
+      ],
+      "size": [
+        850,
+        320
+      ],
+      "area_m2": 272000
+    },
+    {
+      "id": "A5_shoulder_-1",
+      "center": [
+        -132.5,
+        570,
+        1710
+      ],
+      "size": [
+        355.0,
+        660
+      ],
+      "area_m2": 234300.0
+    },
+    {
+      "id": "A5_shoulder_1",
+      "center": [
+        332.5,
+        570,
+        1710
+      ],
+      "size": [
+        355.0,
+        660
+      ],
+      "area_m2": 234300.0
+    },
+    {
+      "id": "A5_confluence",
+      "center": [
+        100,
+        1060.0,
+        1940
+      ],
+      "size": [
+        820,
+        320
+      ],
+      "area_m2": 262400
+    },
+    {
+      "id": "A6_shoulder_-1",
+      "center": [
+        822.5,
+        860,
+        1310
+      ],
+      "size": [
+        305.0,
+        580
+      ],
+      "area_m2": 176900.0
+    },
+    {
+      "id": "A6_shoulder_1",
+      "center": [
+        1237.5,
+        860,
+        1310
+      ],
+      "size": [
+        305.0,
+        580
+      ],
+      "area_m2": 176900.0
+    },
+    {
+      "id": "A6_confluence",
+      "center": [
+        1030,
+        1310.0,
+        1540
+      ],
+      "size": [
+        720,
+        320
+      ],
+      "area_m2": 230400
+    }
+  ],
+  "districts": [],
+  "routes": [
+    {
+      "type": "open_ended_street_and_twin_vertical_transport",
+      "cell": 0,
+      "top_z": 620,
+      "vertical_access": "envelope_only"
+    },
+    {
+      "type": "open_ended_street_and_twin_vertical_transport",
+      "cell": 1,
+      "top_z": 1180,
+      "vertical_access": "envelope_only"
+    },
+    {
+      "type": "open_ended_street_and_twin_vertical_transport",
+      "cell": 2,
+      "top_z": 1660,
+      "vertical_access": "envelope_only"
+    },
+    {
+      "type": "open_ended_street_and_twin_vertical_transport",
+      "cell": 3,
+      "top_z": 1020,
+      "vertical_access": "envelope_only"
+    },
+    {
+      "type": "open_ended_street_and_twin_vertical_transport",
+      "cell": 4,
+      "top_z": 1460,
+      "vertical_access": "envelope_only"
+    },
+    {
+      "type": "open_ended_street_and_twin_vertical_transport",
+      "cell": 5,
+      "top_z": 1940,
+      "vertical_access": "envelope_only"
+    },
+    {
+      "type": "open_ended_street_and_twin_vertical_transport",
+      "cell": 6,
+      "top_z": 1540,
+      "vertical_access": "envelope_only"
+    },
+    {
+      "type": "inclined_transit_not_walkway",
+      "start": [
+        -1130,
+        -130.0,
+        620
+      ],
+      "end": [
+        -400,
+        -390.0,
+        1180
+      ],
+      "gradient": 0.7226558473933888
+    },
+    {
+      "type": "inclined_transit_not_walkway",
+      "start": [
+        -400,
+        -390.0,
+        1180
+      ],
+      "end": [
+        400,
+        -70.0,
+        1660
+      ],
+      "gradient": 0.5570860145311556
+    },
+    {
+      "type": "inclined_transit_not_walkway",
+      "start": [
+        400,
+        -70.0,
+        1660
+      ],
+      "end": [
+        1140,
+        390.0,
+        1020
+      ],
+      "gradient": 0.7345170380878218
+    },
+    {
+      "type": "inclined_transit_not_walkway",
+      "start": [
+        -1130,
+        -130.0,
+        620
+      ],
+      "end": [
+        -850,
+        1030.0,
+        1460
+      ],
+      "gradient": 0.7039215993116904
+    },
+    {
+      "type": "inclined_transit_not_walkway",
+      "start": [
+        -850,
+        1030.0,
+        1460
+      ],
+      "end": [
+        100,
+        1100.0,
+        1940
+      ],
+      "gradient": 0.5038970895281227
+    },
+    {
+      "type": "inclined_transit_not_walkway",
+      "start": [
+        100,
+        1100.0,
+        1940
+      ],
+      "end": [
+        1030,
+        1350.0,
+        1540
+      ],
+      "gradient": 0.41536169739067474
+    },
+    {
+      "type": "inclined_transit_not_walkway",
+      "start": [
+        400,
+        -70.0,
+        1660
+      ],
+      "end": [
+        100,
+        1100.0,
+        1940
+      ],
+      "gradient": 0.23181699358319025
+    }
+  ],
+  "cameras": {
+    "oblique": {
+      "position": [
+        6200.0,
+        -8500.0,
+        5700.0
+      ],
+      "target": [
+        0,
+        100,
+        900
+      ],
+      "ortho_scale": 5900.0
+    },
+    "side": {
+      "position": [
+        10000.0,
+        0.0,
+        2400.0
+      ],
+      "target": [
+        0,
+        100,
+        950
+      ],
+      "ortho_scale": 5900.0
+    },
+    "rear": {
+      "position": [
+        -5500.0,
+        8500.0,
+        4900.0
+      ],
+      "target": [
+        0,
+        100,
+        950
+      ],
+      "ortho_scale": 5900.0
+    },
+    "context": {
+      "position": [
+        10000.0,
+        -14000.0,
+        13000.0
+      ],
+      "target": [
+        0,
+        0,
+        200
+      ],
+      "ortho_scale": 14500.0
+    }
+  },
+  "qa_limits": [
+    "closed individual solids only; intersecting assemblies are not a watertight unified building",
+    "no structural, wind, daylight, circulation collision or egress certification",
+    "district program is an envelope hypothesis; interiors not designed"
+  ],
+  "formal_adoption": false,
+  "coordinate_registration": "NONE",
+  "minecraft": "HOLD",
+  "work": "PRIOR_APPROVAL_REQUIRED",
+  "renders": [
+    {
+      "path": "oblique.jpg",
+      "geometry_sha256": "ea0b803d8049eb5d5d1e442ede76b04e3aca76898068fc73f0305b8b961cb2ac"
+    },
+    {
+      "path": "side.jpg",
+      "geometry_sha256": "ea0b803d8049eb5d5d1e442ede76b04e3aca76898068fc73f0305b8b961cb2ac"
+    },
+    {
+      "path": "rear.jpg",
+      "geometry_sha256": "ea0b803d8049eb5d5d1e442ede76b04e3aca76898068fc73f0305b8b961cb2ac"
+    },
+    {
+      "path": "context.jpg",
+      "geometry_sha256": "ea0b803d8049eb5d5d1e442ede76b04e3aca76898068fc73f0305b8b961cb2ac"
+    }
+  ],
+  "render_distribution": "JPEG derivatives of lossless Blender renders; rerun generation to obtain PNG sources"
+}

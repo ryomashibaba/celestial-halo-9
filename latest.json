@@ -3,428 +3,153 @@
   "branch": "art/b",
   "track": "B",
   "latest": {
-    "study_id": "B2-G6",
-    "title": "昇街褶都：形成規則3案と実生活断面・美術未達",
-    "stage": "BLOCKOUT_3D",
-    "art_review_status": "REJECT",
+    "study_id": "B2-G7",
+    "title": "街胞断層・合流地盤：二つの形成原理と初期美術REJECT",
+    "stage": "INITIAL_ART_GATE_STOPPED",
+    "art_review_status": "BOTH_REJECT_INTERNAL",
     "review_authority": "Internal research self-review; central supervisor retains formal authority",
-    "updated_at": "2026-10-23T04:25:13.808755+00:00",
-    "dimensions_m": {
-      "width": 4050.0,
-      "depth": 3505.0,
-      "height": 2126.0
-    },
-    "proposed_dimensions_m": null,
+    "updated_at": "2026-10-23T09:46:37.734836+00:00",
     "selected_concept": null,
-    "selected_for_spatial_investigation": "C",
+    "formal_adoption": false,
     "assets": [
       {
-        "path": "studies/B2-G6/art_review.json",
-        "kind": "JSON",
-        "sha256": "89f0533b225d7c35efe6373f9306487ed15b76ee95a71e14dcddd226c38b5749",
-        "size_bytes": 697
+        "path": "studies/B2-G7/principles.md",
+        "size_bytes": 4666,
+        "sha256": "b99950bdc34cccae1618829153b5cee587f7c6a03e745c6488ef0b4ff0b785a9",
+        "git_blob_sha": "958b25753020833f0bfe3e96ed71e0c5bd7f228d"
       },
       {
-        "path": "studies/B2-G6/assemble_review.py",
-        "kind": "CODE",
-        "sha256": "057f15de86baac6ef02595de0297ad27cc8e08944be4a4518ecd4e479a4ba63d",
-        "size_bytes": 12377
+        "path": "studies/B2-G7/decision.md",
+        "size_bytes": 4323,
+        "sha256": "edc560815691d6b01a7d9527786960b424857145d52f9742ec2f90cc3f07fb57",
+        "git_blob_sha": "28207f22934902bcad6f03f24ad74ccbd823c641"
       },
       {
-        "path": "studies/B2-G6/audit.log",
-        "kind": "LOG",
-        "sha256": "904d5ca151f973d4ef5e04762b082a4943e7b60d2e4c4cb14f1a3e0a1c0d4b4a",
-        "size_bytes": 65132
+        "path": "studies/B2-G7/preview.jpg",
+        "size_bytes": 118707,
+        "sha256": "79ed561176bf3209455de8d1d47baf58239fe63469fa8109a63563f6cdcda34d",
+        "git_blob_sha": "ce9ad5cf8c0b8e3f4637f00331251afd3f1b5f22"
       },
       {
-        "path": "studies/B2-G6/audit_meshes.py",
-        "kind": "CODE",
-        "sha256": "75080ad1f02eaecf3fbb5bf7f2ccd7cee35fc189523ff752638f2a0b6b423195",
-        "size_bytes": 3338
+        "path": "studies/B2-G7/context_comparison.jpg",
+        "size_bytes": 52013,
+        "sha256": "45c679d5d0d03952bca3d09461b69dae7d104007241b5dc24529d4f5bf1b628d",
+        "git_blob_sha": "63f6b5f5fef92fa65ee55d0b333d0f90945f025e"
       },
       {
-        "path": "studies/B2-G6/build_scene.py",
-        "kind": "CODE",
-        "sha256": "85c7cd5251e8ba227855a7cd934b9f817f0dda94bb5bb504a049cf772e3536ef",
-        "size_bytes": 22092
+        "path": "studies/B2-G7/build_scene.py",
+        "size_bytes": 8975,
+        "sha256": "5f9d129ef29146f68b499fff036130e34c278b6b9e7525545bad263a80e55d87",
+        "git_blob_sha": "2d07001d355352404828777487b57ba715dfc508"
       },
       {
-        "path": "studies/B2-G6/diagnostics/07_HIGH_B_original.png",
-        "kind": "PNG",
-        "sha256": "f4cd62e7e6c19aa39928094d085de2f6df3b661516e82958157ef77877523d12",
-        "size_bytes": 1280050
+        "path": "studies/B2-G7/assemble_review.py",
+        "size_bytes": 4348,
+        "sha256": "91b21de20aeb67ec59690868b13d690049a87f19d00924dbaef5ce652ae226f4",
+        "git_blob_sha": "9f452a5359c3acc28141f62aaff191718c6b753b"
       },
       {
-        "path": "studies/B2-G6/diagnostics/08_HALL_original.png",
-        "kind": "PNG",
-        "sha256": "5797c689d0b18325a0d0d4493bf4e8f20a083dc81b0fadb6c10ff62d216e2df9",
-        "size_bytes": 1248144
+        "path": "studies/B2-G7/audit_saved.py",
+        "size_bytes": 2215,
+        "sha256": "39a40c02c960f62e9ce9d2973e696cc4822541a97d2bf5352ad16f24fe7ae47d",
+        "git_blob_sha": "9058db5f53f1341a55929c77ec33cd7b009a2d27"
       },
       {
-        "path": "studies/B2-G6/diagnostics/08_HALL_outside_framing.png",
-        "kind": "PNG",
-        "sha256": "cde5f8874e76126a43b55b9be63876cc9f169b6df079c6af374a1b5ed1b11762",
-        "size_bytes": 1236298
+        "path": "studies/B2-G7/reproduce.ps1",
+        "size_bytes": 674,
+        "sha256": "0d0a6803a0194b55548b8224341f5ee0e2b46fd9c3dd0c23e2db2f1e8efeeaa4",
+        "git_blob_sha": "4cbc791f9c25b31c8d5845705090a87f8ec31212"
       },
       {
-        "path": "studies/B2-G6/diagnostics/10_ALLEY_original.png",
-        "kind": "PNG",
-        "sha256": "789e2323f2423f6eac27158f4bf946bdc02d6e8ff331089c0d0b051f5b010e95",
-        "size_bytes": 1248104
+        "path": "studies/B2-G7/verification.json",
+        "size_bytes": 2234,
+        "sha256": "e0375571007e6dcd723385df1b4655abf628aa707195c911dd3ff87ca40759f7",
+        "git_blob_sha": "002bd909538d98cf4f27ba9c9b7e578a39aac08b"
       },
       {
-        "path": "studies/B2-G6/diagnostics/camera_review.json",
-        "kind": "JSON",
-        "sha256": "e6975457f8c43b7c77a3f2710075361a639b349d3c7237dc69772d8bc1959bb2",
-        "size_bytes": 1143
+        "path": "studies/B2-G7/A_massing/study.blend",
+        "size_bytes": 128983,
+        "sha256": "936388c9c732b1b72c8962171ba548ccf053d3606f824a2a1213943864fda8fb",
+        "git_blob_sha": "9a9c194c14a62801ac9210340eccdbf93992f852"
       },
       {
-        "path": "studies/B2-G6/frame_views.log",
-        "kind": "LOG",
-        "sha256": "114a4926d535697cae46b38e99936b108cde2b6e95aeb5c1571de599d5bd8c18",
-        "size_bytes": 1124
+        "path": "studies/B2-G7/A_massing/manifest.json",
+        "size_bytes": 9555,
+        "sha256": "2569d1c89b6f850a79b8015458894d1c9b18b0e8d523c743132170221f4b60e1",
+        "git_blob_sha": "097901a7bb820e8470c7f879a20eacc860d9b97d"
       },
       {
-        "path": "studies/B2-G6/frame_views.py",
-        "kind": "CODE",
-        "sha256": "236ccc92bd09019c7b9c7db837c916d0a5e9fa58444b8c82b9a75218ad5507ef",
-        "size_bytes": 1423
+        "path": "studies/B2-G7/A_massing/oblique.jpg",
+        "size_bytes": 42894,
+        "sha256": "9fbd0407342d9482aafe17e95099f033fa5ffcd41920649701dd80b6f0f21e07",
+        "git_blob_sha": "74a0643a0ac219dbf6caed22dd390e254dcebdd0"
       },
       {
-        "path": "studies/B2-G6/glb_reload_audit.json",
-        "kind": "JSON",
-        "sha256": "cc4cfebb1086a0f9a79b8cbcd2141a61d2222c63b6ef8bdf07f4a0165fd9d0bc",
-        "size_bytes": 4502
+        "path": "studies/B2-G7/A_massing/side.jpg",
+        "size_bytes": 26956,
+        "sha256": "4737ef3298c7ca97fd8eb6322bbf23a4776f9af9845af03bd67d65cd4125f21a",
+        "git_blob_sha": "8cad38017cfe61d50ecf454a8cd0861f430b76dd"
       },
       {
-        "path": "studies/B2-G6/history.json",
-        "kind": "JSON",
-        "sha256": "76d23d255427bca267af75b3858f5fb82e0d23ca2eb4fc359981d14f9b5c2e6b",
-        "size_bytes": 1307
+        "path": "studies/B2-G7/A_massing/rear.jpg",
+        "size_bytes": 34052,
+        "sha256": "fc8358aae519407a3451c5bc05cad692edc03cc393145ee2c4b839f95b078ffc",
+        "git_blob_sha": "2c823101ecb948e6ce495008c3997d64922e3275"
       },
       {
-        "path": "studies/B2-G6/inspect_hall.log",
-        "kind": "LOG",
-        "sha256": "dacb13cdb072d375a4e2ff0dd897dd60b70c5e069edb5cc4fddaf2b3b2085aa5",
-        "size_bytes": 792
+        "path": "studies/B2-G7/A_massing/context.jpg",
+        "size_bytes": 30156,
+        "sha256": "48468658fbb9745ae604bcecf749143e5d1f1bdac266cc3c810d6389a76e4047",
+        "git_blob_sha": "8ab5fcfc621b70435efae59d5988548a1da8ab5f"
       },
       {
-        "path": "studies/B2-G6/inspect_hall.py",
-        "kind": "CODE",
-        "sha256": "cd1dcb4d81d094df6034727b35c29d5f1e408a2deec0acde3bc5d16168d6c75e",
-        "size_bytes": 928
+        "path": "studies/B2-G7/B_massing/study.blend",
+        "size_bytes": 118225,
+        "sha256": "c7c158f5b081ff3ddb85f0abfa28100dceb8995b1780c763c7dbc5f130595fce",
+        "git_blob_sha": "87ddd04ae5016e8ac5a4aaf5541cd8f32dd67e50"
       },
       {
-        "path": "studies/B2-G6/iterations/C01/06_GROUND_A.png",
-        "kind": "PNG",
-        "sha256": "f012e633c43bbc1e4ab272dbf1f13df11ff8b196a04cf9c0925f2a0edffac36c",
-        "size_bytes": 1158644
+        "path": "studies/B2-G7/B_massing/manifest.json",
+        "size_bytes": 5374,
+        "sha256": "61b581412a8ca9275ed04f1ee5cee3d91fd9680bc5c3102ab93b8b4efd8f9728",
+        "git_blob_sha": "0a29426761e2fc5113d5a37f3dd33e2beaed06d3"
       },
       {
-        "path": "studies/B2-G6/iterations/C01/07_HIGH_B.png",
-        "kind": "PNG",
-        "sha256": "d16b06b3b59fa56aee4c6caa86d8cecaef1f29b3414e6d6b524adc564b6d834f",
-        "size_bytes": 1295899
+        "path": "studies/B2-G7/B_massing/oblique.jpg",
+        "size_bytes": 43680,
+        "sha256": "ae921417c613994bd7742eda7239971634caeadb4eaefad2fdac8d27a0ac2040",
+        "git_blob_sha": "026436409bdcdae1d76ee639f57c9a65b10994a1"
       },
       {
-        "path": "studies/B2-G6/iterations/C01/build_scene.py",
-        "kind": "CODE",
-        "sha256": "9ba1b22126a811bed2ba3f1fbc3e755282e9c5d880a6297b82048d501d8f2d91",
-        "size_bytes": 21426
+        "path": "studies/B2-G7/B_massing/side.jpg",
+        "size_bytes": 30825,
+        "sha256": "5848db38b6e17a5fe963bda72d303c8ce738435f0dc474faca3d10c8e971fbe5",
+        "git_blob_sha": "58dbf7e877cff09011662568b1ca0b807b0280ce"
       },
       {
-        "path": "studies/B2-G6/iterations/C01/manifest.json",
-        "kind": "JSON",
-        "sha256": "fcb3d7d6cc7db80e59b94cc75b5d52463f8e93a58f3b4566311df50c708faa0d",
-        "size_bytes": 18565
+        "path": "studies/B2-G7/B_massing/rear.jpg",
+        "size_bytes": 40790,
+        "sha256": "172c6c7dd3e8c649a92eb93b8f8d2d656ff4cfa2b4aeb5ae24f46909508b63b9",
+        "git_blob_sha": "0bf0d0d9287c69632f4e4e13b0364e1b3e9023e5"
       },
       {
-        "path": "studies/B2-G6/iterations/C01/study.blend",
-        "kind": "BLEND",
-        "sha256": "8bcc7df38ea0711f7a8168aceb7c6e58565ddc84dcd7f4a0465b850c74126fcf",
-        "size_bytes": 341882
+        "path": "studies/B2-G7/B_massing/context.jpg",
+        "size_bytes": 30800,
+        "sha256": "c823bc91637c18024fb7c109a0b15e7c3e3a8a36268c4e3eec6f333c1a7e4d99",
+        "git_blob_sha": "1849b7417dd6f384cd2dca4d259bb4c1dce88b2c"
       },
       {
-        "path": "studies/B2-G6/macro_A/01_FRONT.png",
-        "kind": "PNG",
-        "sha256": "a5ad9f34da7a87a532a98e229f33f70a012b3272e595d1a8e76c01b125719b57",
-        "size_bytes": 884639
-      },
-      {
-        "path": "studies/B2-G6/macro_A/02_OBLIQUE.png",
-        "kind": "PNG",
-        "sha256": "b22f20a297db60e0af1fc5a39bb7a6f0ecad6d53a51d8e2f050b04d353677eef",
-        "size_bytes": 918255
-      },
-      {
-        "path": "studies/B2-G6/macro_A/manifest.json",
-        "kind": "JSON",
-        "sha256": "121faa072aedc9e8293ed3105d6ce57f4eb54fc416420552245872e4aac3ea39",
-        "size_bytes": 8004
-      },
-      {
-        "path": "studies/B2-G6/macro_A/study.blend",
-        "kind": "BLEND",
-        "sha256": "99254b2d930e6a2097cc0c7b91c232b1d83f373f2fc174ad5d58dfedd879f3b2",
-        "size_bytes": 137400
-      },
-      {
-        "path": "studies/B2-G6/macro_A/study.glb",
-        "kind": "GLB",
-        "sha256": "7c3ddcf6a6fc3f4bd1465923e13b7349192fc3c85a307b44a0c0f28065377d34",
-        "size_bytes": 257412
-      },
-      {
-        "path": "studies/B2-G6/macro_A.log",
-        "kind": "LOG",
-        "sha256": "4eb5a02b3752191829c25781df34ea868244945587752c4b95183a34d3116357",
-        "size_bytes": 6583
-      },
-      {
-        "path": "studies/B2-G6/macro_B/01_FRONT.png",
-        "kind": "PNG",
-        "sha256": "3abaf94cd64ab6cc1b1a67a18a14ad1f43c4a71fb8c2e40df574a4460050fb7b",
-        "size_bytes": 859671
-      },
-      {
-        "path": "studies/B2-G6/macro_B/02_OBLIQUE.png",
-        "kind": "PNG",
-        "sha256": "02a4366ad0896006bed68139ca9e67a3baff3a5542d7a8ff36dac6e847f12a72",
-        "size_bytes": 933992
-      },
-      {
-        "path": "studies/B2-G6/macro_B/manifest.json",
-        "kind": "JSON",
-        "sha256": "f136bce45369367ab41ce5165b1770d7000ce6b8481e412402ef0b52d593c1fa",
-        "size_bytes": 10680
-      },
-      {
-        "path": "studies/B2-G6/macro_B/study.blend",
-        "kind": "BLEND",
-        "sha256": "4aaabdcdb01a7031fc95c16bea9af561dfa611638ebcebe2c64d23d9bea264e7",
-        "size_bytes": 128392
-      },
-      {
-        "path": "studies/B2-G6/macro_B/study.glb",
-        "kind": "GLB",
-        "sha256": "cafebb11eb2a38007992189db74c03b92d5add899d7d36b92d346616aaa23a30",
-        "size_bytes": 338248
-      },
-      {
-        "path": "studies/B2-G6/macro_B.log",
-        "kind": "LOG",
-        "sha256": "1a1cf34f0622452aa422be1a954086a5dff4ac090c866040d22f03021da7ec5d",
-        "size_bytes": 8065
-      },
-      {
-        "path": "studies/B2-G6/macro_C/01_FRONT.png",
-        "kind": "PNG",
-        "sha256": "2f0a3c8ea47d4a24628bc762d42959f5fe81e2d8dc07e6590d0a7f10ebf50c06",
-        "size_bytes": 859078
-      },
-      {
-        "path": "studies/B2-G6/macro_C/02_OBLIQUE.png",
-        "kind": "PNG",
-        "sha256": "984e26d045e2397303ff14bdc8eb46f348751648c20d89fad0fe14b65da5d59e",
-        "size_bytes": 925249
-      },
-      {
-        "path": "studies/B2-G6/macro_C/manifest.json",
-        "kind": "JSON",
-        "sha256": "ed634df72680ef204b1e949a23e85c4467bdb21b323de0b091f5dca56eea899c",
-        "size_bytes": 8049
-      },
-      {
-        "path": "studies/B2-G6/macro_C/study.blend",
-        "kind": "BLEND",
-        "sha256": "69103be8ea7bb3c8811e8328a955acfd9b5f3d3f1a3fcbac1b5c8a4c6d79cd58",
-        "size_bytes": 125229
-      },
-      {
-        "path": "studies/B2-G6/macro_C/study.glb",
-        "kind": "GLB",
-        "sha256": "de76864717d0256b8119dc3c3320c02492201ef550fae0975cb69fe67f9e90fd",
-        "size_bytes": 184716
-      },
-      {
-        "path": "studies/B2-G6/macro_C.log",
-        "kind": "LOG",
-        "sha256": "6771b65f3e3e5d3d42661d159805146819c294c7ecff2bb2f4ec2a17e7bdd6cd",
-        "size_bytes": 5579
-      },
-      {
-        "path": "studies/B2-G6/macro_comparison.jpg",
-        "kind": "JPEG",
-        "sha256": "2b4e4c43b6c21081cc004acf11e0f337fbd2b5cc5af3f3c69f198ce841deec85",
-        "size_bytes": 244464
-      },
-      {
-        "path": "studies/B2-G6/macro_to_occupied.jpg",
-        "kind": "JPEG",
-        "sha256": "55ab9fd70e34969dc6c2e28d8ba3548d7d17bbb11a59e4ec079dacab5d4f6750",
-        "size_bytes": 109195
-      },
-      {
-        "path": "studies/B2-G6/render_saved.py",
-        "kind": "CODE",
-        "sha256": "6f93d75ad7ba8f1a423a471675f3fd51e6cbf059a68139d8e5f6cd4672f05938",
-        "size_bytes": 2032
-      },
-      {
-        "path": "studies/B2-G6/REPORT_ja.md",
-        "kind": "REPORT",
-        "sha256": "48f03b0483fc6e68fc1adaee103765dba9fa33e935877d4dac6104511947609b",
-        "size_bytes": 14918
-      },
-      {
-        "path": "studies/B2-G6/reproduce.ps1",
-        "kind": "CODE",
-        "sha256": "057e93fcdece9238cb90e00fb766b999d3edf8c4ca9b856e7b81a5d8b51ad960",
-        "size_bytes": 1229
-      },
-      {
-        "path": "studies/B2-G6/review.html",
-        "kind": "HTML",
-        "sha256": "b877ce8d434a22ed4e16bca88700e095c51ec868c0e9318b27131513d24e10bc",
-        "size_bytes": 4355
-      },
-      {
-        "path": "studies/B2-G6/scenes_AB.jpg",
-        "kind": "JPEG",
-        "sha256": "fa321c28c22139e5434929e57d826c687627a0081f07a7083c3a552ebbe1bdf2",
-        "size_bytes": 132144
-      },
-      {
-        "path": "studies/B2-G6/selected/00_CITY.png",
-        "kind": "PNG",
-        "sha256": "ba8245c6bf3b0e5d41e7eef924595898327706e3a78933738e5ce854aa878e0a",
-        "size_bytes": 1357311
-      },
-      {
-        "path": "studies/B2-G6/selected/01_FRONT.png",
-        "kind": "PNG",
-        "sha256": "d37fe13d84ed5909c0b360402c453c8a23b4a85fa03559c470fcefee13b21716",
-        "size_bytes": 1354988
-      },
-      {
-        "path": "studies/B2-G6/selected/02_OBLIQUE.png",
-        "kind": "PNG",
-        "sha256": "bbe399280fbef76c9f687a52dbb455d1c1ddc3e262ac696047d7bb62e39303b6",
-        "size_bytes": 1450775
-      },
-      {
-        "path": "studies/B2-G6/selected/03_SIDE.png",
-        "kind": "PNG",
-        "sha256": "4a708af296b211fa278499e80c67f38f7ff7ab736104d757238f755bb874607d",
-        "size_bytes": 1299210
-      },
-      {
-        "path": "studies/B2-G6/selected/04_REAR.png",
-        "kind": "PNG",
-        "sha256": "cd6309a7bd93ae34986cf6dce5f4a09a53dae55eab24db6b0f1ea387a6592aad",
-        "size_bytes": 1449142
-      },
-      {
-        "path": "studies/B2-G6/selected/05_TOP.png",
-        "kind": "PNG",
-        "sha256": "59eff70eb3b577b1d852f01229d4eb8d18327c8074ce1dcda127017170793ce4",
-        "size_bytes": 1318606
-      },
-      {
-        "path": "studies/B2-G6/selected/06_GROUND_A.png",
-        "kind": "PNG",
-        "sha256": "4b97ac1567ce64240cf3a403c3692cc9e330d19f138e5197862e500fafac982c",
-        "size_bytes": 1357354
-      },
-      {
-        "path": "studies/B2-G6/selected/07_HIGH_B.png",
-        "kind": "PNG",
-        "sha256": "7a87436a3f68d74c3e579f320d96e991b156de6456c331bec7d28d9e632f35f2",
-        "size_bytes": 1254617
-      },
-      {
-        "path": "studies/B2-G6/selected/08_HALL.png",
-        "kind": "PNG",
-        "sha256": "f7cc4f08703857e58e75352c1e94cd2dc518acfe0e78953fcbf1936cdf699321",
-        "size_bytes": 1253407
-      },
-      {
-        "path": "studies/B2-G6/selected/09_SECTION.png",
-        "kind": "PNG",
-        "sha256": "6c8c20b1fd36750d88dfc204a4a2ad2b3112c652e4e92c0335dd574ee2e5d320",
-        "size_bytes": 1293081
-      },
-      {
-        "path": "studies/B2-G6/selected/10_ALLEY.png",
-        "kind": "PNG",
-        "sha256": "83d69c64fd0981b24f20e251564b60499232181917d9cab14156b46068f86932",
-        "size_bytes": 1260228
-      },
-      {
-        "path": "studies/B2-G6/selected/manifest.json",
-        "kind": "JSON",
-        "sha256": "fbaea33d427f0702982bb10f3459df07cb709b99c18c257eaca080b5732e8b87",
-        "size_bytes": 19850
-      },
-      {
-        "path": "studies/B2-G6/selected/study.blend",
-        "kind": "BLEND",
-        "sha256": "453450e29a431543278b69b1b2316227682ff99ac5f64893c7d6abc2a03ffe6c",
-        "size_bytes": 344868
-      },
-      {
-        "path": "studies/B2-G6/selected/study.glb",
-        "kind": "GLB",
-        "sha256": "e17bf33e2f018f6a214de7e34b93033c610d56454836207e0b03795a81bbca75",
-        "size_bytes": 959324
-      },
-      {
-        "path": "studies/B2-G6/selected_final.log",
-        "kind": "LOG",
-        "sha256": "7a972e6bb50b0693cf284e7a8562a23df48f19f722a4f3352a892b2c8d51f450",
-        "size_bytes": 81934
-      },
-      {
-        "path": "studies/B2-G6/selected_first.log",
-        "kind": "LOG",
-        "sha256": "efd6769b7ffdccbc97dc5d02f5ca9683bb1fb4b8423d959b0dd2cb7e3d1ffb98",
-        "size_bytes": 80797
-      },
-      {
-        "path": "studies/B2-G6/selected_views.jpg",
-        "kind": "JPEG",
-        "sha256": "7ee3ed1c3c33a2d0e3cc83ed6dd341a3f5619ed1606ba208a00b15a7a91830d6",
-        "size_bytes": 271592
-      },
-      {
-        "path": "studies/B2-G6/selection.json",
-        "kind": "JSON",
-        "sha256": "3a0d703b600486224ee128beaa2fa1c3c5f2189cf21d8b22b2fd8eed5a7c454e",
-        "size_bytes": 874
-      },
-      {
-        "path": "studies/B2-G6/verification.json",
-        "kind": "JSON",
-        "sha256": "69128448a8bb4e6eec198a1f8300b37449ceab73106b4e96c4f90a29ffe2c864",
-        "size_bytes": 7513
-      },
-      {
-        "path": "studies/B2-G6/manifest.json",
-        "kind": "JSON",
-        "sha256": "1dc4c0328efa433971671ddafbf4af426acc2dbb0434aef8dc83059702c51b12",
-        "size_bytes": 13796
+        "path": "studies/B2-G7/manifest.json",
+        "kind": "MANIFEST"
       }
     ],
-    "validation": {
-      "report": "studies/B2-G6/verification.json",
-      "actual_glb_reload": "PASS",
-      "shared_macro_cameras": "PASS",
-      "selected_same_model_views": "PASS",
-      "art_gate": "FAIL",
-      "structural_feasibility": "NOT_TESTED",
-      "functional_city": "NOT_VERIFIED"
+    "decision": "studies/B2-G7/decision.md",
+    "previous_study": {
+      "study_id": "B2-G6",
+      "art_review_status": "REJECT"
     },
-    "notes": "A/B rejected before housing. C redesigned and modelled with actual public rooms and roof districts, but final internal art REJECT. Four current GLBs/BLENDs; initial detailed BLEND retained. W0 unregistered. No further detail/G7/construction."
+    "minecraft": "HOLD",
+    "work": "PRIOR_APPROVAL_REQUIRED"
   },
   "history": [
     {
@@ -447,8 +172,15 @@
       "event": "real_3D_investigation_submission",
       "art_review_status": "REJECT",
       "updated_at": "2026-10-23T04:21:11.637017+00:00"
+    },
+    {
+      "study_id": "B2-G7",
+      "manifest": "studies/B2-G7/manifest.json",
+      "event": "initial_art_gate_submission",
+      "art_review_status": "BOTH_REJECT_INTERNAL",
+      "updated_at": "2026-10-23T09:46:37.734836+00:00"
     }
   ],
-  "last_submission_at": "2026-10-23T04:25:13.808755+00:00",
+  "last_submission_at": "2026-10-23T09:46:37.734836+00:00",
   "policy": "Concept preference is not formal adoption. Preserve all REJECT history. M247-C protected; Minecraft and detailed 3D HOLD; Work use requires prior approval."
 }
