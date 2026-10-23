@@ -3,7 +3,7 @@
 
 この文書は、CELESTIAL HALO-9のメイン・A〜D研究・新しいChatGPTチャット・Work・Codex・外部AIが最初に確認するための短い案内である。
 
-**公開状態に注意：本ファイルはまずDraft PRとして作成している。mainにマージされるまでは「mainに正式公開済み」と主張しないこと。**
+**公開状態：2026-10-23、PR #25はmainへマージ済み。本ファイルはmainに存在する正式な方針入口である。**
 
 ## 読み取り順
 
@@ -14,8 +14,8 @@
 5. **SOURCE_REGISTER.md** — 過去チャット・M系列研究・独立研究の出典と区別方法。
 6. コードやリポジトリ操作を行うAIエージェントは、リポジトリ直下の **AGENTS.md** も確認する。
 
-**マージ後の正規参照先：main/docs/policy/START_HERE.md。**
-マージ前の正確な参照先：policy/city-master-3d-first-20261023/docs/policy/START_HERE.md。
+**正規参照先：main/docs/policy/START_HERE.md。**
+旧policy/city-master-3d-first-20261023はPR #25の履歴参照用。新しい作業では最新mainを確認する。
 
 **重要：art/a、art/bなどの研究ブランチを開いた状態でも、正式方針は必ず「main」の明示refで確認する。** 同期・複製されていると仮定しない。
 
