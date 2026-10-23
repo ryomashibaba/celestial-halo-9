@@ -1,0 +1,252 @@
+{
+  "study_id": "D2-G6",
+  "method": "Procedural multi-object meshes generated with trimesh; orthographic diagnostic views rasterized from the same mesh collections using a custom PIL depth-buffer renderer.",
+  "coordinate_units": "kilometres; 1 model coordinate unit equals 1 km",
+  "models": {
+    "A1": {
+      "path": "A1-Civic-Weave.glb",
+      "size_bytes": 293308,
+      "mesh_objects": 432,
+      "faces": 6090,
+      "scene_bounds_km": [
+        [
+          -5.36601,
+          -5.0,
+          -0.24
+        ],
+        [
+          5.0,
+          5.26693,
+          2.58
+        ]
+      ],
+      "scene_dimensions_km": [
+        10.36601,
+        10.26693,
+        2.82
+      ],
+      "central_city_bounds_km": [
+        [
+          -2.83116,
+          -1.88103,
+          0.0
+        ],
+        [
+          2.85138,
+          1.88012,
+          2.43831
+        ]
+      ],
+      "central_city_dimensions_km": [
+        5.68255,
+        3.76115,
+        2.43831
+      ],
+      "all_objects_individually_watertight": true,
+      "watertight_object_count": 432,
+      "connected_components_after_concatenation": 432,
+      "vertex_count": 3909
+    },
+    "A2": {
+      "path": "A2-Confluence-Chambers.glb",
+      "size_bytes": 284456,
+      "mesh_objects": 421,
+      "faces": 5702,
+      "scene_bounds_km": [
+        [
+          -5.36601,
+          -5.0,
+          -0.24
+        ],
+        [
+          5.0,
+          5.26693,
+          2.95643
+        ]
+      ],
+      "scene_dimensions_km": [
+        10.36601,
+        10.26693,
+        3.19643
+      ],
+      "central_city_bounds_km": [
+        [
+          -2.80743,
+          -1.7,
+          0.0
+        ],
+        [
+          3.61399,
+          2.35,
+          2.95643
+        ]
+      ],
+      "central_city_dimensions_km": [
+        6.42143,
+        4.05,
+        2.95643
+      ],
+      "all_objects_individually_watertight": true,
+      "watertight_object_count": 421,
+      "connected_components_after_concatenation": 421,
+      "vertex_count": 3693
+    },
+    "B1": {
+      "path": "B1-Monsoon-Folds.glb",
+      "size_bytes": 251456,
+      "mesh_objects": 366,
+      "faces": 5034,
+      "scene_bounds_km": [
+        [
+          -5.36601,
+          -5.0,
+          -0.24
+        ],
+        [
+          5.0,
+          5.26693,
+          2.66378
+        ]
+      ],
+      "scene_dimensions_km": [
+        10.36601,
+        10.26693,
+        2.90378
+      ],
+      "central_city_bounds_km": [
+        [
+          -2.80613,
+          -2.28391,
+          -0.05279
+        ],
+        [
+          2.76216,
+          2.10421,
+          2.66378
+        ]
+      ],
+      "central_city_dimensions_km": [
+        5.56829,
+        4.38812,
+        2.71657
+      ],
+      "all_objects_individually_watertight": true,
+      "watertight_object_count": 366,
+      "connected_components_after_concatenation": 366,
+      "vertex_count": 3249
+    }
+  },
+  "view_files": [
+    {
+      "path": "A1-overview.png",
+      "size_bytes": 51173,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "A2-overview.png",
+      "size_bytes": 51352,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "B1-overview.png",
+      "size_bytes": 47107,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "A2-10km-city-plan.png",
+      "size_bytes": 50761,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "A2-east-sea-approach.png",
+      "size_bytes": 30580,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "A2-central-oblique.png",
+      "size_bytes": 40864,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "A2-side-profile.png",
+      "size_bytes": 25284,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "A2-rear-profile.png",
+      "size_bytes": 34083,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "A2-high-city.png",
+      "size_bytes": 51956,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "A2-public-interior-section.png",
+      "size_bytes": 26367,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "B1-dry-season.png",
+      "size_bytes": 34976,
+      "resolution_px": [
+        1400,
+        900
+      ]
+    },
+    {
+      "path": "D2-G6-view-atlas.png",
+      "size_bytes": 521314,
+      "resolution_px": [
+        1560,
+        1440
+      ]
+    }
+  ],
+  "checks": [
+    "All three GLBs reloaded through trimesh",
+    "Scene and central-city envelopes measured from exported meshes",
+    "Per-object watertightness and face counts recorded",
+    "All A2 views share the same central geometry",
+    "B wet and dry comparison views derive from the same seasonal-fold design family"
+  ],
+  "limits": [
+    "Concept art geometry only; not a Blender scene, survey model, structural model, W0 coordinate reconstruction, or construction-ready asset",
+    "Watertight individual objects do not imply a single connected building structure",
+    "Custom orthographic renders are flat-shaded diagnostics, not photorealistic Blender renders",
+    "Hydrology, climate, ecology, circulation capacity, safety, and constructability are not simulated",
+    "H1-H6 markers are schematic interfaces, not canonical coordinates"
+  ]
+}
+

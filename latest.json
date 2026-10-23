@@ -3,45 +3,187 @@
   "branch": "art/d",
   "track": "D",
   "latest": {
-    "study_id": "D2-G5",
-    "title": "HALO-9 G5-D Water, Ecology and Urban Network Civilization",
+    "study_id": "D2-G6",
+    "title": "HALO-9 G6-D 水理文明と生態文明：二つの異質な中央都市構造",
     "stage": "CONCEPT",
     "art_review_status": "HOLD",
-    "updated_at": "2026-10-22T21:07:38Z",
+    "updated_at": "2026-10-23T04:18:01Z",
     "dimensions_m": null,
     "proposed_dimensions_m": {
-      "A_Tidal_Loom": {"width": 4800, "depth": 4100, "height": 3700},
-      "B_Monsoon_Commons": {"width": 4500, "depth": 4700, "height": 4400}
+      "A1_Civic_Weave": {
+        "width": 5683,
+        "depth": 3761,
+        "height": 2438
+      },
+      "A2_Confluence_Chambers": {
+        "width": 6421,
+        "depth": 4050,
+        "height": 2956
+      },
+      "B1_Monsoon_Folds": {
+        "width": 5568,
+        "depth": 4388,
+        "height": 2717
+      }
     },
     "assets": [
-      {"path": "studies/D2-G5/comparison.md", "kind": "REPORT", "sha256": "3ff88df3d97a229751ff05380ea42b9e7e9fe3a6640a2d4b48367dd2d0c1ba2b", "size_bytes": 20833},
-      {"path": "studies/D2-G5/manifest.json", "kind": "JSON", "sha256": "0ba2dd239a11c90ed84fab08996563a48425116e4d3b2049f52bf91e0dd8855d", "size_bytes": 2000}
+      {
+        "path": "studies/D2-G6/A1-Civic-Weave.glb",
+        "kind": "GLB",
+        "sha256": "8c20558d935cf36bc64b601fbee8da33f14b2687b1068307091fd0404948ed46",
+        "size_bytes": 293308
+      },
+      {
+        "path": "studies/D2-G6/A1-overview.png",
+        "kind": "IMAGE",
+        "sha256": "c0f2f57370eba94b8d71d54df75d51bcfe3a09ac5c577d0718cba77f7130e19c",
+        "size_bytes": 51173
+      },
+      {
+        "path": "studies/D2-G6/A2-10km-city-plan.png",
+        "kind": "IMAGE",
+        "sha256": "8b799f973d3e22904f1bd69e93856463976b747f15db34006569327921fa7ce1",
+        "size_bytes": 50761
+      },
+      {
+        "path": "studies/D2-G6/A2-central-oblique.png",
+        "kind": "IMAGE",
+        "sha256": "bdfe632bef7b341c2f6a7c07e343cda6053fa8faa127cc004364c9120617d0dd",
+        "size_bytes": 40864
+      },
+      {
+        "path": "studies/D2-G6/A2-Confluence-Chambers.glb",
+        "kind": "GLB",
+        "sha256": "7504ad71a7a4a6502667838edeafd5324045bbb49ccd6271ce7667afbf4979e4",
+        "size_bytes": 284456
+      },
+      {
+        "path": "studies/D2-G6/A2-east-sea-approach.png",
+        "kind": "IMAGE",
+        "sha256": "5769274db3d5a99499a158b9e5bafeb0d935197360ffc16303d5274460ee5918",
+        "size_bytes": 30580
+      },
+      {
+        "path": "studies/D2-G6/A2-high-city.png",
+        "kind": "IMAGE",
+        "sha256": "5dfa36962d5a9259a977b79dd4999571b8c618ca3ffe080adb190f23b49f5dd7",
+        "size_bytes": 51956
+      },
+      {
+        "path": "studies/D2-G6/A2-overview.png",
+        "kind": "IMAGE",
+        "sha256": "5974e72ed819629c0de0cd311bb9e8f6fb8acab204a0730543cdf879bdd5250f",
+        "size_bytes": 51352
+      },
+      {
+        "path": "studies/D2-G6/A2-public-interior-section.png",
+        "kind": "IMAGE",
+        "sha256": "c4af927852bbf7e08b7f571e5e3b1772196b00b2c7f00df66e3d0dd5919040f0",
+        "size_bytes": 26367
+      },
+      {
+        "path": "studies/D2-G6/A2-rear-profile.png",
+        "kind": "IMAGE",
+        "sha256": "25377a65509f65ceac92c4e406fe5c3dc1fc4d6c0cac479af4bd04add53a8dd2",
+        "size_bytes": 34083
+      },
+      {
+        "path": "studies/D2-G6/A2-side-profile.png",
+        "kind": "IMAGE",
+        "sha256": "a577f56f7d7280b511f3423f70a0713d017785902391c3814b1dda1bf2600e71",
+        "size_bytes": 25284
+      },
+      {
+        "path": "studies/D2-G6/B1-dry-season.png",
+        "kind": "IMAGE",
+        "sha256": "3f6eaa0acac94636646d74f948037e7d4adbb13b0e8c578c6d3405d12d1aeef7",
+        "size_bytes": 34976
+      },
+      {
+        "path": "studies/D2-G6/B1-Monsoon-Folds.glb",
+        "kind": "GLB",
+        "sha256": "b044786813fd51a94049d3444f624424abda19407861ccabf92151c4ebf39216",
+        "size_bytes": 251456
+      },
+      {
+        "path": "studies/D2-G6/B1-overview.png",
+        "kind": "IMAGE",
+        "sha256": "7b372aff09ee41f48f81bff7eb3761984bb08eedb837f203e27a5c84a9792c72",
+        "size_bytes": 47107
+      },
+      {
+        "path": "studies/D2-G6/build_study.py",
+        "kind": "SOURCE",
+        "sha256": "eba8ecceecf80f3846216c7655360b5b3c160f562f8791eee50aa24142daef51",
+        "size_bytes": 28456
+      },
+      {
+        "path": "studies/D2-G6/comparison.md",
+        "kind": "REPORT",
+        "sha256": "718018b4607301accf7110c68bcaa75c7f79bf57c00430513224982ea389dee9",
+        "size_bytes": 13636
+      },
+      {
+        "path": "studies/D2-G6/D2-G6-view-atlas.png",
+        "kind": "IMAGE",
+        "sha256": "ef9eddd4fd69943336999d7fcd49b0c2861c00617860f58d4c385e9823f98f67",
+        "size_bytes": 521314
+      },
+      {
+        "path": "studies/D2-G6/geometry-validation.json",
+        "kind": "JSON",
+        "sha256": "a424d4088407ebaac31107ef50fae4a7a9ac967b4cd366adbb304f8c8d23e282",
+        "size_bytes": 5670
+      },
+      {
+        "path": "studies/D2-G6/manifest.json",
+        "kind": "JSON",
+        "sha256": "7e971e7d4e25f96116957ffcd9623ac80f5f6c6235b663f441f3b70ff734d8d3",
+        "size_bytes": 6331
+      }
     ],
     "validation": {
-      "load_results": "Not applicable; written CONCEPT study only.",
-      "shared_camera_comparisons": "None; no images or 3D assets produced.",
+      "load_results": "Three GLB models reloaded with trimesh; component meshes are individually watertight. They are separated components, not one connected mesh.",
+      "shared_camera_comparisons": "Twelve named orthographic views and a contact atlas generated from the procedural geometry.",
       "checked": [
-        "Four named precedents checked against official UNESCO or project architect sources",
-        "Two distinct urban formation principles compared",
-        "Known fixed HALO-9 elements retained as anchors without inventing facility programs",
-        "D2-G4 rejected blob-and-canyon direction screened against"
+        "A1 and A2 independent civic-water-network compositions compared",
+        "B1 seasonal succession uses a different habitat-fold formation principle",
+        "East Sea lowland intake, fictional pump lift, elevated distribution and gravity return are distinguished in the concept",
+        "Fixed HALO-9 labels retained as interface anchors without inventing official coordinates or facility programs"
       ],
       "limits": [
-        "Proposed dimensions are conceptual envelopes, not measured model geometry",
-        "Task mirror sources directory contains no masterplan coordinates or facility-role files",
-        "No hydrology, ecology, climate, structural, safety, or constructability simulation",
-        "Central review, formal adoption, M247-C changes, and Minecraft construction remain on hold"
+        "Blender was unavailable in this environment; no Blender-authored scene file is supplied.",
+        "No hydrology, ecology, climate, structural, safety, or constructability simulation.",
+        "10km background is schematic and does not claim official W0 coordinates or a Minecraft reconstruction.",
+        "H1-H6 are symbolic/noncanonical; facility roles and common anchors M204/M207 remain unresolved.",
+        "A1 reads as bridges/ribbons from some angles; A2 is still blocky/fortress-like; central review remains required."
       ]
     },
-    "notes": "Two independent concepts: A Tidal Loom integrates basin-scale water exchange with inhabited transit intersections; B Monsoon Commons makes seasonal ecological succession co-author the inhabited mass. A is the provisional art-screen candidate due to its clearer central silhouette. D2-G4 remains REJECT and all prior history is preserved."
+    "notes": "A2 Confluence Chambers is the provisional best comparison candidate: inhabited civic masses and a large public room make the central form legible beyond the water network. A1 remains as a bridge-like alternative; B1 demonstrates independent seasonal ecology/occupancy co-formation. CONCEPT/HOLD only."
   },
   "history": [
-    {"study_id": "D2-G1", "manifest_path": "studies/D2-G1/manifest.json"},
-    {"study_id": "D2-G3", "manifest_path": "studies/D2-G3/manifest.json"},
-    {"study_id": "D2-G4", "manifest_path": "studies/D2-G4/manifest.json"},
-    {"study_id": "D2-G5", "manifest_path": "studies/D2-G5/manifest.json"}
+    {
+      "study_id": "D2-G1",
+      "manifest_path": "studies/D2-G1/manifest.json"
+    },
+    {
+      "study_id": "D2-G3",
+      "manifest_path": "studies/D2-G3/manifest.json"
+    },
+    {
+      "study_id": "D2-G4",
+      "manifest_path": "studies/D2-G4/manifest.json"
+    },
+    {
+      "study_id": "D2-G5",
+      "manifest_path": "studies/D2-G5/manifest.json"
+    },
+    {
+      "study_id": "D2-G6",
+      "manifest_path": "studies/D2-G6/manifest.json"
+    }
   ],
-  "last_submission_at": "2026-10-22T21:07:38Z",
+  "last_submission_at": "2026-10-23T04:18:01Z",
   "policy": "ART-FIRST. Formal design and Minecraft construction remain HOLD. Internal REJECT preserves study history and is not a formal adoption decision."
 }
 
