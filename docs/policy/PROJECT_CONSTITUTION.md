@@ -1,114 +1,145 @@
 # CELESTIAL HALO-9 / CELESTIAL SPINE
-## Long-lived project constitution — ART-FIRST / CITY MASTER 3D FIRST
-**Consolidated 2026-10-23 JST.** This is a durable policy text, not the latest work log. For branches and stage, see CURRENT_STATUS.md; for later authorized modifications, see DECISION_LOG.md.
+## 全体憲章 — ART-FIRST / CITY MASTER 3D FIRST
 
-## 1. Purpose, evidence and precedence
+**統合基準日：2026年10月23日 JST**
+**文書の役割：長期的に維持する確定方針。日々の進捗とブランチHEADはCURRENT_STATUS.md、正式判断の改訂履歴はDECISION_LOG.mdを参照。**
 
-Build an approximately **10 km scale**, unified, awe-inspiring, original, explorable future civilization city, ultimately realized within **Minecraft Java Edition**. The central HALO-9/CELESTIAL SPINE is the foremost monument, integrated with sky cities, inhabited districts, civic halls, huge supporting structures, remarkable terrain, public transport and surrounding architectural icons.
+## 0. 最上位目標と証拠の扱い
 
-The **next deliverable is a complete citywide detailed 3D master**, not Minecraft building and not more iterations of low-quality blockout. Detailed completion is defined in CITY_MASTER_3D_STANDARD.md.
+Minecraft Java Editionに、約10km級の、単一で一貫した超未来文明都市を完成させる。単純に建築物を大量に並べるのではなく、圧倒的な中央主役、居住可能な高高度地区、16巨大施設、人工地形、公共空間、都市交通、生活の存在と壮大な景観が一つの文明を形成することが最終目的である。
 
-Treat these distinctly: fixed urban requirements vs formal architectural design direction vs research hypothesis; text/rendered concept image vs real editable 3D; actual measurement vs proposed dimension; QA success vs aesthetic success; research candidate vs user-adopted work; prior test permission vs future construction permission.
+**最新の制作順序はCITY MASTER 3D FIRST。Minecraft施工より先に、10km都市全域の高品質かつ編集可能な詳細実3Dマスターモデルを完成させる。**
 
-When two instructions conflict, use (a) newest *explicit user decision*; (b) protected asset and fresh-approval boundaries; (c) remaining adopted project policies; (d) verifiable actual project evidence; (e) non-adopted proposals. Log amendments, do not silently reinterpret older restrictions. Old form bans from October 18 are superseded by the October 21 unrestricted-form ART-FIRST decision.
+厳密に区別する事項：
+- ユーザーの確定指示、正式に保護される計画、仮説、AI提案
+- テキスト構想、画像生成による1枚の絵、同一実3Dからのレンダー、編集可能な3D実体
+- 計画寸法、実モデル寸法、Minecraft座標
+- 幾何QAのPASS、美術審査のPASS、正式採択、施工承認
+- 過去の研究歴と、現在の最新実装状態
 
-## 2. Non-negotiable design philosophy
+矛盾するときは、**最新の明示的なユーザー決定**を優先する。ただし、未承認施工・原本変更・権限の境界を勝手に突破してはならない。過去の禁則が2026-10-21の全面ART-FIRST方針と矛盾する場合は、新しい自由設計方針が優先する。更新内容は決定ログに明示する。
 
-**ART-FIRST:** First imagine the architecture truly worth realizing; only afterwards investigate technology needed to construct it. Do not constrain early creation to Minecraft blocks, dimension limits, current height mods, voxel conversion, WorldEdit, convenient Blender operators, mesh algorithms, SDF, Python, procedural lofts, hardware constraints, or ordinary human engineering.
+## 1. ART-FIRST と Macro Impact First
 
-**Macro Impact First:** Prioritize citywide massing, incredible height and scale, mature landmark silhouettes, dramatic spaces, inhabited urban mass, coherent streets and facilities, then details. A giant empty shell or decorated block is not a city.
+**ART-FIRST：**「今のツールで簡単に作れる巨大建築」ではなく、「本当に建てたい最上級の超未来建築」を自由に考え、それを成立させる方法を後から研究する。
 
-No preconceived prohibition on rings, arches, towers, domes, vaults, canopies, masses, cliffs, irregular slabs, bridges, floating platforms, membranes, nested cavities, organic structures or any other architectural form. A previous rejected use of a form does **not** ban all future uses. Its proportions, connections, interior/exterior synthesis, and all-view beauty determine success.
+初期の美術発想を、Minecraftブロックや通常高度上限、MOD仕様、WorldEdit、ボクセル変換、Blenderの手軽な機能、Python数式化、SDF、曲面ロフト、既存のプロシージャル規則、現実的な荷重、材料強度、操作回数に従属させない。
 
-Do not reward metrics or procedural convenience at the expense of artistic results. Do not “improve” a rejected mass by windows, neon trim, small houses or many QA files unless the underlying form has been genuinely redesigned.
+ただし無秩序な彫刻ではなく、建築の外観と内部、主要空洞、数百m級公共室、街区、高高度の居住都市、都市交通が一つの空間思想として成立しなければならない。
 
-## 3. Long-term whole-city structure — retained obligations
+**Macro Impact First：** 都市全域のシルエット、中央と周辺の序列、巨大な質量・空洞・人工地形・空中都市、街路と探索空間の連続性を優先し、装飾や大量の小建物はそれらの後に評価する。
 
-The 2026-10-16 **C-city-plan** defines the macro hierarchy: **one astonishing central megacomplex, surrounded by a smaller number of individually distinctive giant buildings**. Avoid repetitive fields of ordinary towers and dense background clutter that hides the central building. Huge negative space, natural/artificial contrasts and legible sight lines are part of the design.
+リング、巨大アーチ、塔、屋根、膜、浮遊床、非対称外殻、都市断崖、格子、ドーム、薄い構造、橋、人工山岳、螺旋、曲面、複雑な洞窟等を**形状カテゴリとして一律禁止しない**。過去の作品が不合格だったことは同形式の永久禁止を意味しない。優れた比例、接合、質量、内部都市と多方向景観が成立するかで評価する。
 
-Retain all scope elements:
-- **HALO-9 + CELESTIAL SPINE**: historical ring, primary spine/tower, upper Crown, NAVE/civic voids and related research references. Their former shapes are *not* mandatory shapes in independent art studies; their approved obligations cannot be silently deleted.
-- **W0 — Fractured Metropolitan Basin**: north monumental mountains/plateau; west great cliff; east artificial inland sea; southwest intentional giant negative space; desert, ruins, water and artificial landform interplay.
-- **H1–H6**: six substantial sky-city districts, with real civic and lived-in depth, not tiny floating stage props.
-- **SB01–SB16**: sixteen separate and distinctive major facilities, not mere labels or repeated facade modules.
-- **HERO4**:
-  - SB05 RADIANT SAIL CITADEL
-  - SB08 AURORA TWIN VAULT
-  - SB09 GRAND HALO GATEWAY
-  - SB12 MOUNTAIN HALO SANCTUARY
-- **V1–V3** key vistas, the **three Metropolitan Axes**, broad roads, multi-level routes, viaducts, bridges, civic complexes, accessible public circulation, interior public spaces, parks and artificial landforms.
+ポリゴン数、レンダー枚数、QA合格数、GLB数、GitHubコミット数、工程番号の増加を、建築美術の向上の代替指標としない。不合格の主形状に窓・電飾・住宅・装飾を大量に載せても、問題の解決としない。
 
-Do not move/remove an existing protected facility or rename fixed identifiers without authorization. For exact coordinates, read the actual canonical ledger. Historical M204 and W0/M207 survey had **zero certified common anchor correspondences**; never invent transform matrices, location alignment or certified access.
+## 2. 都市全体の確定構成
 
-## 4. Visual language and acceptance
+**2026-10-16の都市C案：「中央の巨大複合体＋周辺に配置された少数の個性的な巨大建築」**を継承する。周辺も最高水準の建築美術とするが、中央の主役性を失わせない。平凡な超高層ビルの反復だけで都市を埋めず、巨大な負空間・眺望・山岳や水辺との関係をつくる。
 
-**Central architecture**: wholly futuristic, predominantly sacred/majestic/ultra-civilizational (**~80% mood**) with a deliberately unsettling/risky/sharp accent (**~20% mood**). This is not a volume/hex-color ratio and does not require old temples or spikes. Use light, measured monumental void, intricate but purposeful mass, surprising asymmetry and habitable scale.
+必須の都市要素：
+- **HALO-9 / CELESTIAL SPINE**：歴史的巨大環、主塔・SPINE、Crown、NAVE、巨大公共空洞、屋根、側翼等の中核構想。これらの歴史は保護するが、独立研究に旧3D外観を強制しない。正式の都市義務を無断削除しない。
+- **W0 — Fractured Metropolitan Basin**：北に巨大山岳・高原、西に巨大断崖、東に人工内海、南西に意図的巨大負空間。荒野・廃墟・水辺・自然と人工地形の融合。
+- **H1〜H6**：巨大な生活街区を内包する6空中都市地区。単なる浮遊小島、薄い背景床、主塔の展望棚にしない。
+- **SB01〜SB16**：すべて異なる意味と美術を持つ16巨大施設。完成マスターでは全施設が外観・内部ともに詳細でなければならない。
+- **HERO4**：
+  - SB05 — RADIANT SAIL CITADEL
+  - SB08 — AURORA TWIN VAULT
+  - SB09 — GRAND HALO GATEWAY
+  - SB12 — MOUNTAIN HALO SANCTUARY
+- **V1〜V3**の重要眺望回廊、三大Metropolitan Axes、立体道路、巨大橋梁、広域交通、多層公共空間、公園、人工地形、地区間のアクセス。
 
-**City as a whole**: historically heavy science-fiction 60%, luminous future 30%, dark science-fiction 10%. This is a separate aesthetic measure, not a replacement for the central 80:20 atmosphere.
+保護対象の名前、位置、役割は勝手に変更しない。正確な座標は正式台帳と対応する原本から確認する。歴史的なM204とW0/M207の監査では認証済み共通アンカーが**0件**であり、未検証の座標変換をでっちあげてはならない。
 
-Historical protected central studies favored dark frame, silver/white shell, blue-white/cyan lighting. Independent art exploration may freely try pearl, ivory, gold, translucent, warm, dark, natural or speculative materials; evaluate any formal integration with legacy palette later. Color cannot compensate for a weak mass.
+## 3. 世界観・中央美術
 
-Require impressive **front, oblique, side, back, aerial and interior** views. Test both 10 km overview and human-scale ground/street/sky-neighborhood exploration. Ensure exterior is visibly inseparable from major interior public rooms, hundreds-of-meter facilities, streets and actually inhabitable elevated city mass. A “5 km tall blank monolith” is not an acceptable central civilization.
+**中央主役は100%超未来的。** 神聖・荘厳・超文明的**80%**、危険・異常・鋭さ**20%**の印象を重視する。これは面積や色の数字ではない。静謐な巨大質量、光、空間秩序、都市級空洞、常識を超えた非対称構造、精密な未来文明の存在によって表現する。
 
-Older **M247-C 浮断天核** remains the **protected official research direction**, combining alpha 双殻浮断 (split/floating twin shells) with beta 斜裂天脊 (rising diagonal fissured crest): asymmetrical thick shell, split high-volume world, urban chasms, great voids and inhabited upper masses. **There is no adopted finished artistic central model.** Independent ideas need not imitate its geometry; changing the official direction requires explicit user approval.
+**都市広域の歴史的美術配分**は、重厚な近未来SF60%、明るい未来30%、暗いSF10%。中央の80:20とは別指標である。
 
-## 5. Full master 3D before Minecraft
+過去の正式研究では暗色骨格、白銀外殻、青白〜シアン発光が重視された。ただし独立美術研究の初期段階では、象牙・真珠・金・暖色・半透明・暗色・自然素材風なども自由に検討できる。正式方向性との融合時に別途整合性を審査する。発光・色によって主形状の弱さを隠さない。
 
-**CITY MASTER 3D FIRST is a confirmed user decision.** Produce one coherent, reviewable, **editable, genuinely 3D** master of the entire city. Every terrain/transport/public/landmark/sky-district/normal-building exterior must be detailed. **Only the interiors of ordinary/general buildings may be omitted or simplified**. This exception does not include civic/major buildings or public access within otherwise ordinary buildings.
+中央主役の必須条件：
+- 数km級の実質的な巨大建築母体、高さ・幅・奥行、都市全体を貫く強い存在感
+- 主要な内部巨大都市、実際の巨大公共室、複数高度の独立した生活街区
+- 地上・中高度・高高度を結ぶ都市構造と公共交通
+- 数百m級施設から人間尺度の街区まで、わかる空間の階層
+- 正面・斜視・側面・背面・俯瞰・内部・人間視点の全てで美術的に成立すること
+- 外観、主質量、主要空洞、内部都市が単一の強力な思想で統合されていること
+- 実際に入れる空間であり、表面の住宅アイコンや巨大な殻だけで終わらないこと
 
-The master must hold accurate unit conventions, linked scenes/district packages, geometry with actual urban destinations, exterior material/light/detail vocabulary, topology appropriate to design review and accessible links between significant districts. A single enormous .blend is not a requirement; a unified master *scene* with separately versioned assets is acceptable and likely preferable.
+**M247-C《浮断天核》**（α「双殻浮断」＋β「斜裂天脊」）は保護すべき正式な中央建築研究方向である。非対称な巨大二重外殻、一部の高高度転位、斜めに裂ける都市級空洞、鋭い上昇性、主体・浮遊部双方の厚い居住都市質量が目標。**ただし完成美術の採択は現時点で0件。** 独立研究には旧形状を押し付けない。正式方向性自体の変更にはユーザーの明示承認が必要。
 
-No Minecraft world writes even after a 3D art milestone. Formal construction must pass a separate Minecraft technology/readiness gate and a new explicit permission.
+## 4. CITY MASTER 3D FIRST — 施工前の完成条件
 
-## 6. Reformed production approach
+**LOCKED決定：「一般建物の内部」だけを例外として、約10km都市全体を詳細な編集可能・統合済み実3Dとして完成させる。**
 
-**Past bottleneck:** textually ambitious architecture repeatedly collapsed into simplistic Python/procedural masses: boxes, giant arches, slabs, thin shelf districts, thick ribbons, hollow canopies or tree/flower crowns. Rendering more images or producing stronger QA did not fix the quality. Attractive AI concept pictures repeatedly failed to become attractive actual 3D. Do not solve this by merely generating more pictures.
+一般住宅、普通のオフィスや一般商業建物についても、**全棟の外観を詳細設計**する。全H1〜H6・SB01〜SB16・HERO4・中央・公共施設の内部、地下公共空間、すべての道路・広場・橋梁・外部施設・公開動線・地形・水際・都市装飾・素材・照明は詳細必須。
 
-**New path:**
-- Verify whether a previously used Windows Blender/Blender-MCP local connection and agent setup are reusable. Historical “Connected on port 9876” is not evidence it works now.
-- Run a **bounded, isolated** test of iterative visual 3D editing: inspect actual mesh, sculpt/modify real geometry, render from several angles, diagnose and modify again. Do not call “running a procedural Python mesh script via MCP” a successful test of a distinct approach.
-- Make an explicit go/no-go call on quality and human/agent time. If direct agent editing remains crude, seek another model/tool/production method, rather than multiplying the same failed trial.
-- Then iteratively and **jointly** create central architectural and citywide master massing; detail all city systems according to CITY_MASTER_3D_STANDARD.md.
-- Use AI as a replaceable tool: ChatGPT, Claude, Gemini, MiniMax, Qwen, OpenCode, Blender or other software may compete based on **demonstrated 3D quality**, not benchmark fame.
-- Paid external architecture/concept artist outsourcing is **excluded by user decision**.
-- User is a Blender beginner and should not be required to do complex manual sculpting or lengthy operational sequences.
-- Work/local Computer Use requires advance explanation and **explicit approval**; do not automatically route or use up the user's limited plan resources.
-- The local compute/GPU and automation may help, but cost, runtime and permissions must be verified rather than assumed.
-- Image generation is allowed as supporting visual reference but is **not** proof of multi-view solid architecture.
+一般建物の室内だけ省略・簡略化を許す。ただし一般建物内にある公共通路・アトリウム等は例外ではない。旧B案の「主要内部だけでよい」という緩い基準は、ユーザーの最新補足で上書きされた。
 
-## 7. Long research record: preserve knowledge, not failed forms
+**定義・品質ゲート・全対象マトリクスはCITY_MASTER_3D_STANDARD.mdが優先。**
 
-Keep the original Freeze408, M204 geometry, historical atlas/surveys, M225–M247 QA, experimental GLBs, study images and failed concepts intact, including Draft PR histories. Important technique lessons: shared civic roof as upper living ground; connected public destinations, real negative space, spatial scale, and actual public/street access. Avoid fixed numeric success proxies.
+一本の巨大BLENDを作る必要はない。地区・施設別に編集可能な原本を分割し、**共通座標・共通単位の統合3Dマスターシーン**で全域確認できることが必要。人工地形・街区・都市交通・中央を相互に改善し、中央だけ先に完成させて周囲を背景として後付けしない。
 
-Legacy failed/rejected lines include many M247-B2 experiments (through Stage 12W, with Stage 12X only **planned**, not completed); Blender M247C_NONBUILD trial (rejected/hold); the **Claude 九冠の潮聖堂** independent GLB (not accepted as center, but substantially stronger architectural detail and legibility); Sol/Astra 天間 / 天隙宮; MiniMax 九重聖冠, and other independently tested city forms. No one concept's geometry is compulsory.
+3D完成の時点でも**Minecraft施工を許可したことにはならない**。Minecraft変換・仕様・高さ・正確なワールド座標・施工品質・復元安全性を別工程で検証し、ユーザーの新規明示承認を得る。
 
-As of G7:
-- A: civic roof/upper-lower urban interface was geometrically promising; I 合流天窟 current arch/wall form HOLD, II 斜交縫都 conceptual only.
-- B: 街胞断層 and 合流地盤 both current forms REJECT.
-- C: 会流天蓋 G6 final and G7 N1 交室都宮 REJECT; N2 双地盤会都 unmodeled.
-- D: 生息冠 wet/dry concept HOLD, but tree/flower-object reading and missing inhabitable interior remain unresolved.
-No candidate has formal central-art adoption. **A–D G1–G7 research is archived/paused**, not erased.
+## 5. 過去の失敗と新しい制作方法
 
-## 8. Safety and authorizations
+G1〜G7と多数のM247研究では、文章上の独創的建築が、Python/SDF/ロフトなどで実3D化すると巨大箱、門、厚い板、アーチ、棚、帯、殻、花冠や樹木のような主質量へ単純化された。空洞やQAだけ成立しても本格的な高所居住都市や建築美術が不足し、正式採択には至らなかった。
 
-- Original Minecraft save(s), canonical/staging worlds, protected masks/Freeze, existing QA source copies, reserved building voids, inherited world geometry, protected research originals: **no unapproved writes, deletion or replacement**.
-- No automatic WorldEdit, construction, road/facility changes, coordinate assignment based on guessed transforms or official-world integration.
-- No change to user-locked urban scope or official M247-C direction without direct user approval.
-- No main branch updates/merges or promotion of research to canonical design without approval; use isolated study branches and explicit review.
-- No claiming “completed” from GLB count, triangle counts, watertightness, synthetic context, image generation or technical tests.
-- Prior narrow experiment approvals expire with that experiment; ask again where required.
-- Citation and provenance: retain actual path/commit/units, show what was reviewed, report unverified claims and approval gaps.
+画像生成では理想的な完成景観も何度も得られたが、実3Dへ移すと造形品質が失われている。**画像を増やすだけでは根本解決しない。** 画像は参考資料にはできるが、多方向に一貫した実3Dを証明しない。
 
-## 9. Project operations and quality
+次の制作技術の実験は、既に別プロジェクトで経験のある**Blenderローカルサーバー／MCP・AI操作**を再検証し、**AIがBlender内の実立体を視覚的に観察・直接修正し、繰り返す方法**が有効か評価すること。過去にポート9876への接続が表示された記録はあるが、現行環境での接続・造形品質は未確認である。「MCPから旧式の一括Python生成を命令しただけ」を新技術の成功と見なさない。
 
-Before a new phase: identify current reference/version and applicable policy; preserve source data; define artistic question and an early stopping gate; choose an editor/render method appropriate to that question. After a phase: report exact deliverable, concrete visual flaws by viewpoint, real validated geometry, known limits, accepted/rejected/held status, and next choice.
+実験は原本から隔離した少数の研究用形状で行い、正面・斜視・側面・背面・内部の変化と本当に建築が改善したかを判定。成果が弱ければMCPに固執せず、別AI、手法、制作ツールへ切り替える。
 
-**Efficiency ≠ minimizing design effort.** Cut redundant log/transfer/authorization overhead, unnecessary QA and high-res renders on already bad shapes. Invest adequate attention in outstanding forms and integrated citywide art; prefer many small reversible model edits and timely versioned checkpoints over one fragile all-or-nothing generation. Record real attempt counts and human/agent time when available, never invent “tokens saved” from file sizes.
+使うAIはChatGPTに限定しない。Claude、Gemini、MiniMax、Qwen、OpenCode、その他のエージェントは実物の品質で選ぶ。**建築コンセプトアーティストの有料外注は行わない。** ユーザーはBlender初心者なので高度な手作業の大量負担を前提にしない。Work/ローカルComputer Useは事前相談・明示承認制を守る。
 
-Current technical stack history includes Minecraft Java 1.21.11, Fabric, Higher Heights, WorldEdit and Blender. Verify actual installed versions, current mod restrictions and official world coordinates before any downstream conversion, while not treating those constraints as early artistic limitations.
+## 6. 過去研究の保存
 
-## 10. Publication, updates, and freshness
+従来のM1以降の正式計画、Freeze408、M204、M225〜M247の幾何・視覚・失敗証拠、ワールド原本とQAコピー、各実GLB/BLEND/画像・コードを保存する。過去の不合格形状を勝手に復活・正式採用しない。
 
-This long-lived constitution changes **only** after explicit user decisions, with the reason and authority appended to DECISION_LOG and this document versioned on a reviewed branch. Operational status and HEADs live in CURRENT_STATUS.md and can be updated without rewriting this constitution.
+主な参照実験：
+- M247-B2-39 Stage 12W REJECT、Stage 12Xは計画のみ。
+- 2026-10-20のM247C_NONBUILDローカル3D試作：美術未達。
+- Claude《九冠の潮聖堂》：中央主役は不合格、ただし造形の密度、巨大内部空間、視覚的可読性の参考になる。
+- Astra《天間》、Sol《天隙宮》、MiniMax《九重聖冠》等の独立研究：有効な原理のみ比較する。
+- A〜DのG7研究（保留・不採用。独立4ブランチに実成果を保存）。
+  - **A**：上下生活都市が公共室の同じ屋根を共有する有効原理。G7《合流天窟》は巨大アーチ・厚壁としてHOLD、II《斜交縫都》は構想保留。
+  - **B**：《街胞断層》《合流地盤》とも現形状REJECT。人工地形が都市機能から形成される原理だけを保持。
+  - **C**：G6《会流天蓋》最終・G7 N1《交室都宮》はREJECT。N2《双地盤会都》は未制作構想。
+  - **D**：《生息冠》の雨季／乾季変化は独自性があるが、樹木・花冠に見え、公共内部未検証。HOLD。
 
-This repository is a source of truth **when the document is approved and present on main**. Until the draft policy PR is merged, it remains a staged representation of decisions confirmed in chat, not automatically authoritative over main. ChatGPT Project settings or external agents need an explicit entry instruction; repo files alone cannot force every existing chat to reread.
+4系統の同時一括生成を従来どおり毎回繰り返す方式は当面停止。**美術として優れた実3Dを制作できる方法の確立**を優先する。これまでの技術資産は破棄しない。
+
+## 7. 原本・施工・GitHub・Workの厳格な境界
+
+以下を明示承認なく行わない。
+
+- 正式Minecraftワールドへの施工・WorldEdit適用・ワールド原本編集
+- 既存ワールド、canonical/staging、Freeze、保護マスク、予約公共空洞、既存保護施設、過去QA原本の削除・上書き・破壊的修正
+- 正式M247-C方向性や確定W0/SB/H/V/都市軸の無断変更
+- 研究成果の自動的な正式設計化、PR自動マージ、mainへの無断書込
+- 他ブランチ研究成果の無断上書き、M204/W0等の未認証の座標接合
+- Workの無断利用、旧承認の別工程への拡大解釈
+
+研究用のブランチ・独立作業コピーを使い、実データ、単位、当該コミット、検証範囲、未検証事項、美術審査結果を明確に報告する。適法な研究用3Dの制作と、正式Minecraft施工の承認を混同しない。
+
+過去の主要ソフト構成にはMinecraft Java 1.21.11、Fabric、Higher Heights、WorldEdit、Blenderがあるが、現在のインストール・MOD・正規ワールド座標は実物で再確認する。初期美術研究の制約にしない。
+
+## 8. 費用・利用枠・運用効率
+
+効率化は**品質を落とすことではない**。減らす対象は、失敗案の無意味な細密化、重複レンダリング、不要QA、冗長な引き継ぎ、ZIP往復、過剰な認証・操作、保存してある研究の再研究である。
+
+Workは明確に優位な集中3D等に限り、使用前に理由と影響を説明してユーザーの明示承認を得る。ChatGPTの5時間枠、Plus利用量、ローカルGPU、他社AIの制限を念頭に制作手法を合理的に選ぶが、コスト削減を理由に美術未達を許さない。
+
+作業は再利用可能な制作環境・小さな可逆修正・適切なコミットで継続する。実際の試作回数、レンダー回数、やり直し、人的時間とモデル実消費量が確認できるときは記録し、ファイルサイズだけから「使用量何%削減」と主張しない。
+
+## 9. 更新・引き継ぎの仕組み
+
+正式な恒久方針はこの憲章とCITY_MASTER_3D_STANDARDに記す。実際の工程・コミットはCURRENT_STATUSへ分離。新しいユーザー決定・変更理由はDECISION_LOGに追記する。
+
+**GitHubに登録しただけで全チャット・Work・別AIが自動取得するわけではない。** 新規チャット/セッションの開始時はmain/docs/policy/START_HERE.mdを確認するようChatGPTプロジェクト共通指示および各AIの起動指示に登録する。GitHub取得が失敗した場合はPOLICY_UNVERIFIEDと報告し、読んだふりをしない。
+
+LOCKED方針はユーザーが明示的に変更を承認した場合のみ差分更新する。未マージのPRは正式mainにあると主張しない。
