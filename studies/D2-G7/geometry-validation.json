@@ -1,0 +1,165 @@
+{
+  "study_id": "D2-G7",
+  "coordinate_units": "kilometres; 1 unit = 1 km",
+  "method": "Low-detail procedural trimesh geometry. Diagnostic orthographic images use the D2-G6 custom depth-buffer renderer; preview.jpg is a contact montage of the same low-detail meshes.",
+  "seasonal_mechanism": {
+    "structure_moves": true,
+    "moving_elements": "Six inhabited, branching civic arteries and their district hubs extend into a wide crown in the wet state and contract toward the rooted core in the dry state. The core and public ground anchors stay fixed.",
+    "fictional_assumption": "Living bio-ceramic / active structural tissue changes the full-depth branch geometry over a slow seasonal transfer. It is a fictional civilization technology, not ordinary physics or a panel-hinge mechanism.",
+    "ordinary_physics": "Rainfall collects at low ground; local drainage follows gravity. Wetland patches and the east-sea estuary are diagrammatic, with no flow, tide, load, climate, or ecology simulation. Residents transfer to fixed cores before the arterial transition; moving joints close to public circulation.",
+    "territory_change": "Wet state reserves the low commons for wetland and uses the expanded inhabited crown for elevated life and movement. Dry state contracts the crown, opens the rooted commons to markets and walking, and retains habitat in upper refugia."
+  },
+  "models": {
+    "wet": {
+      "path": "Habitat-Crown-wet.glb",
+      "size_bytes": 150732,
+      "mesh_objects": 223,
+      "faces": 3614,
+      "scene_bounds_km": [
+        [
+          -5.366,
+          -5.0,
+          -0.24
+        ],
+        [
+          5.0,
+          5.2669,
+          3.7579
+        ]
+      ],
+      "scene_dimensions_km": [
+        10.366,
+        10.2669,
+        3.9979
+      ],
+      "central_city_bounds_km": [
+        [
+          -2.6368,
+          -2.5406,
+          -0.0688
+        ],
+        [
+          3.7665,
+          2.4647,
+          3.7579
+        ]
+      ],
+      "central_city_dimensions_km": [
+        6.4033,
+        5.0053,
+        3.8267
+      ],
+      "all_meshes_individually_watertight": true,
+      "watertight_meshes": 223,
+      "connected_components": 223
+    },
+    "dry": {
+      "path": "Habitat-Crown-dry.glb",
+      "size_bytes": 151904,
+      "mesh_objects": 224,
+      "faces": 3586,
+      "scene_bounds_km": [
+        [
+          -5.366,
+          -5.0,
+          -0.24
+        ],
+        [
+          5.0,
+          5.2669,
+          3.0215
+        ]
+      ],
+      "scene_dimensions_km": [
+        10.366,
+        10.2669,
+        3.2615
+      ],
+      "central_city_bounds_km": [
+        [
+          -1.7745,
+          -1.5478,
+          -0.0688
+        ],
+        [
+          1.7296,
+          1.5301,
+          3.0215
+        ]
+      ],
+      "central_city_dimensions_km": [
+        3.5041,
+        3.0779,
+        3.0903
+      ],
+      "all_meshes_individually_watertight": true,
+      "watertight_meshes": 224,
+      "connected_components": 224
+    }
+  },
+  "views": [
+    {
+      "path": "wet-oblique.png",
+      "size_bytes": 21151,
+      "resolution_px": [
+        1000,
+        650
+      ]
+    },
+    {
+      "path": "dry-oblique.png",
+      "size_bytes": 17748,
+      "resolution_px": [
+        1000,
+        650
+      ]
+    },
+    {
+      "path": "wet-profile.png",
+      "size_bytes": 21832,
+      "resolution_px": [
+        1000,
+        650
+      ]
+    },
+    {
+      "path": "dry-profile.png",
+      "size_bytes": 16223,
+      "resolution_px": [
+        1000,
+        650
+      ]
+    },
+    {
+      "path": "fixed-ecotone.png",
+      "size_bytes": 18584,
+      "resolution_px": [
+        1000,
+        650
+      ]
+    },
+    {
+      "path": "season-pair.png",
+      "size_bytes": 53124,
+      "resolution_px": [
+        1000,
+        650
+      ]
+    },
+    {
+      "path": "preview.jpg",
+      "size_bytes": 81535,
+      "resolution_px": [
+        1600,
+        1000
+      ]
+    }
+  ],
+  "limits": [
+    "Conceptual massing, not official W0 coordinates, survey data, structural engineering, climate/hydrology/ecology simulation, or construction-ready geometry.",
+    "H1-H6 name six symbolic rooted arteries; canonical positions and programs were not available in the task mirror.",
+    "Terrain uses schematic north mountain, west cliff, east artificial inland sea, and southwest void as orientation cues only.",
+    "Individual meshes are closed but are separate GLB objects; watertightness does not certify load paths or welded connectivity.",
+    "No Blender connection was available; no .blend file or Blender render is claimed."
+  ]
+}

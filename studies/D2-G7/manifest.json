@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "study_id": "D2-G7",
+  "title": "季節遷移都市：生態系と都市生活が共に形成する巨大建築",
+  "track": "D",
+  "branch": "art/d",
+  "stage": "CONCEPT + LOW-DETAIL 3D",
+  "art_review_status": "HOLD",
+  "updated_at": "2026-10-23T07:56:03Z",
+  "base_head": "b39cf4834a93a06747bea0bb1b3fdeac8e5b44c6",
+  "selected_candidate": "Habitat Crown (provisional; central review required)",
+  "assets": [
+    {
+      "path": "studies/D2-G7/build_study.py",
+      "kind": "SOURCE",
+      "sha256": "2a112a13f951ff90cfefcba769175d8344a8d259aa92bef43a6ab2380eaf1aa9",
+      "size_bytes": 28197
+    },
+    {
+      "path": "studies/D2-G7/decision.md",
+      "kind": "REPORT",
+      "sha256": "165307634bbd8e7b2dec4b75112f6a2967f1052a99ade00c786d6ae4c4016795",
+      "size_bytes": 11383
+    },
+    {
+      "path": "studies/D2-G7/dry-oblique.png",
+      "kind": "IMAGE",
+      "sha256": "db90edb30f2f212a556566ad3390b79e0b5dae0e314cdba4b4bad46fa99d4765",
+      "size_bytes": 17748
+    },
+    {
+      "path": "studies/D2-G7/dry-profile.png",
+      "kind": "IMAGE",
+      "sha256": "329b10c23a3b0292230877b1a3253e1a8574fc1da3ad089eb6845d6aa8923498",
+      "size_bytes": 16223
+    },
+    {
+      "path": "studies/D2-G7/fixed-ecotone.png",
+      "kind": "IMAGE",
+      "sha256": "3814d3551adc73043042e4e70a267a1508336ac7ea461bec39dd4486f69892a9",
+      "size_bytes": 18584
+    },
+    {
+      "path": "studies/D2-G7/geometry-validation.json",
+      "kind": "JSON",
+      "sha256": "5c41622a36fc8a8169b2491cf7ec738a29d4b25159600a97336fc6b2894fe642",
+      "size_bytes": 4765
+    },
+    {
+      "path": "studies/D2-G7/Habitat-Crown-dry.glb",
+      "kind": "GLB",
+      "sha256": "0f46d22b1c80377c40cefcc96b5ae897c37b6a7ef3edb4dc1a90ab9d5227b9dc",
+      "size_bytes": 151904
+    },
+    {
+      "path": "studies/D2-G7/Habitat-Crown-wet.glb",
+      "kind": "GLB",
+      "sha256": "1f17107f4e9bc14df353929e6e9a422e8649eeb2dcfb359a1813c26c52867e4d",
+      "size_bytes": 150732
+    },
+    {
+      "path": "studies/D2-G7/preview.jpg",
+      "kind": "IMAGE",
+      "sha256": "e9499c3ce146f93f2f57dbe66016b80463d2e899327be37e1aa81b23204503e0",
+      "size_bytes": 81535
+    },
+    {
+      "path": "studies/D2-G7/season-pair.png",
+      "kind": "IMAGE",
+      "sha256": "457b19046a999f3d7fc97c3e47f292ffc0a0191a3c0b79fd04d193b757868ccb",
+      "size_bytes": 53124
+    },
+    {
+      "path": "studies/D2-G7/wet-oblique.png",
+      "kind": "IMAGE",
+      "sha256": "615ff0de9bedfa66198acc3caec4fca84eec91131826115f063d617a70dd132d",
+      "size_bytes": 21151
+    },
+    {
+      "path": "studies/D2-G7/wet-profile.png",
+      "kind": "IMAGE",
+      "sha256": "7339ed18af99951c8bf8d3f7e124953169ac1db0ce0318e5a77dc2e92a3c8126",
+      "size_bytes": 21832
+    }
+  ],
+  "models": {
+    "wet": {
+      "path": "Habitat-Crown-wet.glb",
+      "size_bytes": 150732,
+      "mesh_objects": 223,
+      "faces": 3614,
+      "scene_bounds_km": [
+        [
+          -5.366,
+          -5.0,
+          -0.24
+        ],
+        [
+          5.0,
+          5.2669,
+          3.7579
+        ]
+      ],
+      "scene_dimensions_km": [
+        10.366,
+        10.2669,
+        3.9979
+      ],
+      "central_city_bounds_km": [
+        [
+          -2.6368,
+          -2.5406,
+          -0.0688
+        ],
+        [
+          3.7665,
+          2.4647,
+          3.7579
+        ]
+      ],
+      "central_city_dimensions_km": [
+        6.4033,
+        5.0053,
+        3.8267
+      ],
+      "all_meshes_individually_watertight": true,
+      "watertight_meshes": 223,
+      "connected_components": 223
+    },
+    "dry": {
+      "path": "Habitat-Crown-dry.glb",
+      "size_bytes": 151904,
+      "mesh_objects": 224,
+      "faces": 3586,
+      "scene_bounds_km": [
+        [
+          -5.366,
+          -5.0,
+          -0.24
+        ],
+        [
+          5.0,
+          5.2669,
+          3.0215
+        ]
+      ],
+      "scene_dimensions_km": [
+        10.366,
+        10.2669,
+        3.2615
+      ],
+      "central_city_bounds_km": [
+        [
+          -1.7745,
+          -1.5478,
+          -0.0688
+        ],
+        [
+          1.7296,
+          1.5301,
+          3.0215
+        ]
+      ],
+      "central_city_dimensions_km": [
+        3.5041,
+        3.0779,
+        3.0903
+      ],
+      "all_meshes_individually_watertight": true,
+      "watertight_meshes": 224,
+      "connected_components": 224
+    }
+  },
+  "seasonal_mechanism": {
+    "structure_moves": true,
+    "moving_elements": "Six inhabited, branching civic arteries and their district hubs extend into a wide crown in the wet state and contract toward the rooted core in the dry state. The core and public ground anchors stay fixed.",
+    "fictional_assumption": "Living bio-ceramic / active structural tissue changes the full-depth branch geometry over a slow seasonal transfer. It is a fictional civilization technology, not ordinary physics or a panel-hinge mechanism.",
+    "ordinary_physics": "Rainfall collects at low ground; local drainage follows gravity. Wetland patches and the east-sea estuary are diagrammatic, with no flow, tide, load, climate, or ecology simulation. Residents transfer to fixed cores before the arterial transition; moving joints close to public circulation.",
+    "territory_change": "Wet state reserves the low commons for wetland and uses the expanded inhabited crown for elevated life and movement. Dry state contracts the crown, opens the rooted commons to markets and walking, and retains habitat in upper refugia."
+  },
+  "limits": [
+    "Conceptual massing, not official W0 coordinates, survey data, structural engineering, climate/hydrology/ecology simulation, or construction-ready geometry.",
+    "H1-H6 name six symbolic rooted arteries; canonical positions and programs were not available in the task mirror.",
+    "Terrain uses schematic north mountain, west cliff, east artificial inland sea, and southwest void as orientation cues only.",
+    "Individual meshes are closed but are separate GLB objects; watertightness does not certify load paths or welded connectivity.",
+    "No Blender connection was available; no .blend file or Blender render is claimed."
+  ],
+  "review_note": "The first Borrowed Ground moving-slab massing was screened out because it read as inclined plates and bridges. Habitat Crown is the current comparative candidate, with tree/crown cliché and interior public-space quality unresolved."
+}
