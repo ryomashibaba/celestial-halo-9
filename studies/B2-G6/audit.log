@@ -1,0 +1,872 @@
+00:03.047  blend            | Read blend: "C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\macro_A\study.blend"
+13:25:09 | INFO: Data are loaded, start creating Blender stuff
+13:25:09 | INFO: Blender create Mesh node A0 Arrival Forum public floor 0
+13:25:09 | INFO: Blender create Mesh node A0 Arrival Forum public floor 1
+13:25:09 | INFO: Blender create Mesh node A0 Arrival Forum public floor 2
+13:25:09 | INFO: Blender create Mesh node A0 Arrival Forum roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node A0 Arrival Forum roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node A0 Arrival Forum roof/ground bay 2
+13:25:09 | INFO: Blender create Mesh node A1 Library Market public floor 0
+13:25:09 | INFO: Blender create Mesh node A1 Library Market public floor 1
+13:25:09 | INFO: Blender create Mesh node A1 Library Market public floor 2
+13:25:09 | INFO: Blender create Mesh node A1 Library Market roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node A1 Library Market roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node A1 Library Market roof/ground bay 2
+13:25:09 | INFO: Blender create Mesh node A2 Thousandlight Court public floor 0
+13:25:09 | INFO: Blender create Mesh node A2 Thousandlight Court public floor 1
+13:25:09 | INFO: Blender create Mesh node A2 Thousandlight Court public floor 2
+13:25:09 | INFO: Blender create Mesh node A2 Thousandlight Court roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node A2 Thousandlight Court roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node A2 Thousandlight Court roof/ground bay 2
+13:25:09 | INFO: Blender create Mesh node A3 High Civic Commons public floor 0
+13:25:09 | INFO: Blender create Mesh node A3 High Civic Commons public floor 1
+13:25:09 | INFO: Blender create Mesh node A3 High Civic Commons public floor 2
+13:25:09 | INFO: Blender create Mesh node A3 High Civic Commons roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node A3 High Civic Commons roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node A3 High Civic Commons roof/ground bay 2
+13:25:09 | INFO: Blender create Mesh node A4 School Culture Ground public floor 0
+13:25:09 | INFO: Blender create Mesh node A4 School Culture Ground public floor 1
+13:25:09 | INFO: Blender create Mesh node A4 School Culture Ground public floor 2
+13:25:09 | INFO: Blender create Mesh node A4 School Culture Ground roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node A4 School Culture Ground roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node A4 School Culture Ground roof/ground bay 2
+13:25:09 | INFO: Blender create Mesh node A_West Ground Archive public floor 0
+13:25:09 | INFO: Blender create Mesh node A_West Ground Archive public floor 1
+13:25:09 | INFO: Blender create Mesh node A_West Ground Archive public floor 2
+13:25:09 | INFO: Blender create Mesh node A_West Ground Archive roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node A_West Ground Archive roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node A_West Ground Archive roof/ground bay 2
+13:25:09 | INFO: Blender create Mesh node Arrival processional street
+13:25:09 | INFO: Blender create Mesh node GROUND ARRIVAL / 0m
+13:25:09 | INFO: glTF import finished in 0.08s
+00:04.000  blend            | Read blend: "C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\macro_B\study.blend"
+13:25:09 | INFO: Data are loaded, start creating Blender stuff
+13:25:09 | INFO: Blender create Mesh node Arrival processional street
+13:25:09 | INFO: Blender create Mesh node B0 court wing 0 public floor 0
+13:25:09 | INFO: Blender create Mesh node B0 court wing 0 public floor 1
+13:25:09 | INFO: Blender create Mesh node B0 court wing 0 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B0 court wing 0 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B0 court wing 1 public floor 0
+13:25:09 | INFO: Blender create Mesh node B0 court wing 1 public floor 1
+13:25:09 | INFO: Blender create Mesh node B0 court wing 1 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B0 court wing 1 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B0 court wing 2 public floor 0
+13:25:09 | INFO: Blender create Mesh node B0 court wing 2 public floor 1
+13:25:09 | INFO: Blender create Mesh node B0 court wing 2 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B0 court wing 2 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B0 open court
+13:25:09 | INFO: Blender create Mesh node B1 court wing 0 public floor 0
+13:25:09 | INFO: Blender create Mesh node B1 court wing 0 public floor 1
+13:25:09 | INFO: Blender create Mesh node B1 court wing 0 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B1 court wing 0 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B1 court wing 1 public floor 0
+13:25:09 | INFO: Blender create Mesh node B1 court wing 1 public floor 1
+13:25:09 | INFO: Blender create Mesh node B1 court wing 1 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B1 court wing 1 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B1 court wing 2 public floor 0
+13:25:09 | INFO: Blender create Mesh node B1 court wing 2 public floor 1
+13:25:09 | INFO: Blender create Mesh node B1 court wing 2 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B1 court wing 2 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B1 open court
+13:25:09 | INFO: Blender create Mesh node B2 court wing 0 public floor 0
+13:25:09 | INFO: Blender create Mesh node B2 court wing 0 public floor 1
+13:25:09 | INFO: Blender create Mesh node B2 court wing 0 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B2 court wing 0 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B2 court wing 1 public floor 0
+13:25:09 | INFO: Blender create Mesh node B2 court wing 1 public floor 1
+13:25:09 | INFO: Blender create Mesh node B2 court wing 1 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B2 court wing 1 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B2 court wing 2 public floor 0
+13:25:09 | INFO: Blender create Mesh node B2 court wing 2 public floor 1
+13:25:09 | INFO: Blender create Mesh node B2 court wing 2 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B2 court wing 2 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B2 open court
+13:25:09 | INFO: Blender create Mesh node B3 court wing 0 public floor 0
+13:25:09 | INFO: Blender create Mesh node B3 court wing 0 public floor 1
+13:25:09 | INFO: Blender create Mesh node B3 court wing 0 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B3 court wing 0 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B3 court wing 1 public floor 0
+13:25:09 | INFO: Blender create Mesh node B3 court wing 1 public floor 1
+13:25:09 | INFO: Blender create Mesh node B3 court wing 1 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B3 court wing 1 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B3 court wing 2 public floor 0
+13:25:09 | INFO: Blender create Mesh node B3 court wing 2 public floor 1
+13:25:09 | INFO: Blender create Mesh node B3 court wing 2 roof/ground bay 0
+13:25:09 | INFO: Blender create Mesh node B3 court wing 2 roof/ground bay 1
+13:25:09 | INFO: Blender create Mesh node B3 open court
+13:25:09 | INFO: Blender create Mesh node GROUND ARRIVAL / 0m
+13:25:09 | INFO: glTF import finished in 0.10s
+00:04.235  blend            | Read blend: "C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\macro_C\study.blend"
+13:25:10 | INFO: Data are loaded, start creating Blender stuff
+13:25:10 | INFO: Blender create Mesh node Arrival processional street
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C central ground civic promenade
+13:25:10 | INFO: Blender create Mesh node C INHABITED LAND bay 0
+13:25:10 | INFO: Blender create Mesh node C INHABITED LAND bay 1
+13:25:10 | INFO: Blender create Mesh node C INHABITED LAND bay 2
+13:25:10 | INFO: Blender create Mesh node C main interior public floor 0
+13:25:10 | INFO: Blender create Mesh node C main interior public floor 1
+13:25:10 | INFO: Blender create Mesh node C main interior public floor 2
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C_East Clinic internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C_East Clinic internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C_East Clinic internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node GROUND ARRIVAL / 0m
+13:25:10 | INFO: glTF import finished in 0.04s
+00:04.407  blend            | Read blend: "C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\selected\study.blend"
+13:25:10 | INFO: Data are loaded, start creating Blender stuff
+13:25:10 | INFO: Blender create Mesh node Arrival bench
+13:25:10 | INFO: Blender create Mesh node Arrival bench.001
+13:25:10 | INFO: Blender create Mesh node Arrival bench.002
+13:25:10 | INFO: Blender create Mesh node Arrival bench.003
+13:25:10 | INFO: Blender create Mesh node Arrival bench.004
+13:25:10 | INFO: Blender create Mesh node Arrival bench.005
+13:25:10 | INFO: Blender create Mesh node Arrival light column
+13:25:10 | INFO: Blender create Mesh node Arrival light column.001
+13:25:10 | INFO: Blender create Mesh node Arrival light column.002
+13:25:10 | INFO: Blender create Mesh node Arrival light column.003
+13:25:10 | INFO: Blender create Mesh node Arrival light column.004
+13:25:10 | INFO: Blender create Mesh node Arrival light column.005
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room 1 0
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room 1 1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room 1 2
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room 1 3
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room 1 4
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room 1 5
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room 1 6
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room -1 0
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room -1 1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room -1 2
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room -1 3
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room -1 4
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room -1 5
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library ground market room -1 6
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library Market
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library Market entry canopy
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof edge guard
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof edge guard.001
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof edge guard.002
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof edge guard.003
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof edge guard.004
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof edge guard.005
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof street 0 1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof street 0 -1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof street 1 1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof street 1 -1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof street 2 1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library roof street 2 -1
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library School
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library School entry canopy
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library slot crossing
+13:25:10 | INFO: Blender create Mesh node C0 Arrival Library slot crossing.001
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room 1 0
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room 1 1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room 1 2
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room 1 3
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room 1 4
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room 1 5
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room 1 6
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room -1 0
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room -1 1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room -1 2
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room -1 3
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room -1 4
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room -1 5
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum ground market room -1 6
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum Market
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum Market entry canopy
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof edge guard
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof edge guard.001
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof edge guard.002
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof edge guard.003
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof edge guard.004
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof edge guard.005
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof street 0 1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof street 0 -1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof street 1 1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof street 1 -1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof street 2 1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum roof street 2 -1
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum School
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum School entry canopy
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum slot crossing
+13:25:10 | INFO: Blender create Mesh node C1 Civic Forum slot crossing.001
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room 1 0
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room 1 1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room 1 2
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room 1 3
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room 1 4
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room 1 5
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room 1 6
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room -1 0
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room -1 1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room -1 2
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room -1 3
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room -1 4
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room -1 5
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market ground market room -1 6
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market Market
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market Market entry canopy
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof edge guard
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof edge guard.001
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof edge guard.002
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof edge guard.003
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof edge guard.004
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof edge guard.005
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof street 0 1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof street 0 -1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof street 1 1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof street 1 -1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof street 2 1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market roof street 2 -1
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market School
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market School entry canopy
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market slot crossing
+13:25:10 | INFO: Blender create Mesh node C2 Thousandlight Market slot crossing.001
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room 1 0
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room 1 1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room 1 2
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room 1 3
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room 1 4
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room 1 5
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room 1 6
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room -1 0
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room -1 1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room -1 2
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room -1 3
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room -1 4
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room -1 5
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons ground market room -1 6
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons Market
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons Market entry canopy
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof edge guard
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof edge guard.001
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof edge guard.002
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof edge guard.003
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof edge guard.004
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof edge guard.005
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof street 0 1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof street 0 -1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof street 1 1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof street 1 -1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof street 2 1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons roof street 2 -1
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons School
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons School entry canopy
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons slot crossing
+13:25:10 | INFO: Blender create Mesh node C3 High School Commons slot crossing.001
+13:25:10 | INFO: Blender create Mesh node C3 ROOF TO C4 INTERIOR public threshold
+13:25:10 | INFO: Blender create Mesh node C3 to C4 civic way
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room 1 0
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room 1 1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room 1 2
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room 1 3
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room 1 4
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room 1 5
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room 1 6
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room -1 0
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room -1 1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room -1 2
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room -1 3
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room -1 4
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room -1 5
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground ground market room -1 6
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground Market
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground Market entry canopy
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof edge guard
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof edge guard.001
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof edge guard.002
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof edge guard.003
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof edge guard.004
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof edge guard.005
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof street 0 1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof street 0 -1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof street 1 1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof street 1 -1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof street 2 1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground roof street 2 -1
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground School
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground School entry canopy
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground slot crossing
+13:25:10 | INFO: Blender create Mesh node C4 Culture Sky Ground slot crossing.001
+13:25:10 | INFO: Blender create Mesh node C Arrival continuity floor
+13:25:10 | INFO: Blender create Mesh node C Arrival continuity street
+13:25:10 | INFO: Blender create Mesh node C central ground civic promenade
+13:25:10 | INFO: Blender create Mesh node C INHABITED LAND bay 0
+13:25:10 | INFO: Blender create Mesh node C INHABITED LAND bay 1
+13:25:10 | INFO: Blender create Mesh node C INHABITED LAND bay 2
+13:25:10 | INFO: Blender create Mesh node C main interior public floor 0
+13:25:10 | INFO: Blender create Mesh node C main interior public floor 1
+13:25:10 | INFO: Blender create Mesh node C main interior public floor 2
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter Market
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter Market entry canopy
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof edge guard
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof edge guard.001
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof edge guard.002
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof edge guard.003
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof edge guard.004
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof edge guard.005
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof street 0 1
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof street 0 -1
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof street 1 1
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof street 1 -1
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof street 2 1
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter roof street 2 -1
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter School
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter School entry canopy
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter slot crossing
+13:25:10 | INFO: Blender create Mesh node C_East Civic Quarter slot crossing.001
+13:25:10 | INFO: Blender create Mesh node C_East Clinic internal floor bay 0
+13:25:10 | INFO: Blender create Mesh node C_East Clinic internal floor bay 1
+13:25:10 | INFO: Blender create Mesh node C_East Clinic internal floor bay 2
+13:25:10 | INFO: Blender create Mesh node C_East Clinic Market
+13:25:10 | INFO: Blender create Mesh node C_East Clinic Market entry canopy
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof edge guard
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof edge guard.001
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof edge guard.002
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof edge guard.003
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof edge guard.004
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof edge guard.005
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof street 0 1
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof street 0 -1
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof street 1 1
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof street 1 -1
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof street 2 1
+13:25:10 | INFO: Blender create Mesh node C_East Clinic roof street 2 -1
+13:25:10 | INFO: Blender create Mesh node C_East Clinic School
+13:25:10 | INFO: Blender create Mesh node C_East Clinic School entry canopy
+13:25:10 | INFO: Blender create Mesh node C_East Clinic slot crossing
+13:25:10 | INFO: Blender create Mesh node C_East Clinic slot crossing.001
+13:25:10 | INFO: Blender create Mesh node D0_0_1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D0_0_1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D0_0_1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D0_0_1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D0_0_1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D0_0_1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D0_0_1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D0_0_1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D0_0_1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D0_0_1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D0_0_1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D0_0_1 open planted court
+13:25:10 | INFO: Blender create Mesh node D0_0_1 public access
+13:25:10 | INFO: Blender create Mesh node D0_1_1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D0_1_1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D0_1_1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D0_1_1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D0_1_1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D0_1_1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D0_1_1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D0_1_1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D0_1_1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D0_1_1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D0_1_1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D0_1_1 open planted court
+13:25:10 | INFO: Blender create Mesh node D0_1_1 public access
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 open planted court
+13:25:10 | INFO: Blender create Mesh node D0_1_-1 public access
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 open planted court
+13:25:10 | INFO: Blender create Mesh node D0_2_-1 public access
+13:25:10 | INFO: Blender create Mesh node D1_0_1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D1_0_1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D1_0_1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D1_0_1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D1_0_1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D1_0_1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D1_0_1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D1_0_1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D1_0_1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D1_0_1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D1_0_1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D1_0_1 open planted court
+13:25:10 | INFO: Blender create Mesh node D1_0_1 public access
+13:25:10 | INFO: Blender create Mesh node D1_1_1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D1_1_1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D1_1_1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D1_1_1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D1_1_1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D1_1_1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D1_1_1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D1_1_1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D1_1_1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D1_1_1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D1_1_1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D1_1_1 open planted court
+13:25:10 | INFO: Blender create Mesh node D1_1_1 public access
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 open planted court
+13:25:10 | INFO: Blender create Mesh node D1_1_-1 public access
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 open planted court
+13:25:10 | INFO: Blender create Mesh node D1_2_-1 public access
+13:25:10 | INFO: Blender create Mesh node D2_0_1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D2_0_1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D2_0_1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D2_0_1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D2_0_1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D2_0_1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D2_0_1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D2_0_1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D2_0_1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D2_0_1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D2_0_1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D2_0_1 open planted court
+13:25:10 | INFO: Blender create Mesh node D2_0_1 public access
+13:25:10 | INFO: Blender create Mesh node D2_1_1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D2_1_1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D2_1_1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D2_1_1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D2_1_1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D2_1_1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D2_1_1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D2_1_1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D2_1_1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D2_1_1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D2_1_1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D2_1_1 open planted court
+13:25:10 | INFO: Blender create Mesh node D2_1_1 public access
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 open planted court
+13:25:10 | INFO: Blender create Mesh node D2_1_-1 public access
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 open planted court
+13:25:10 | INFO: Blender create Mesh node D2_2_-1 public access
+13:25:10 | INFO: Blender create Mesh node D3_0_1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D3_0_1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D3_0_1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D3_0_1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D3_0_1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D3_0_1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D3_0_1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D3_0_1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D3_0_1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D3_0_1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D3_0_1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D3_0_1 open planted court
+13:25:10 | INFO: Blender create Mesh node D3_0_1 public access
+13:25:10 | INFO: Blender create Mesh node D3_1_1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D3_1_1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D3_1_1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D3_1_1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D3_1_1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D3_1_1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D3_1_1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D3_1_1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D3_1_1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D3_1_1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D3_1_1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D3_1_1 open planted court
+13:25:10 | INFO: Blender create Mesh node D3_1_1 public access
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 open planted court
+13:25:10 | INFO: Blender create Mesh node D3_1_-1 public access
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 glazing 0 0
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 glazing 0 1
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 glazing 0 2
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 glazing 1 0
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 glazing 1 1
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 glazing 1 2
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 occupied wing 0
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 occupied wing 1
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 occupied wing 2
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 occupied wing 3
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 occupied wing 4
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 open planted court
+13:25:10 | INFO: Blender create Mesh node D3_2_-1 public access
+13:25:11 | INFO: Blender create Mesh node D4_0_1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D4_0_1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D4_0_1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D4_0_1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D4_0_1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D4_0_1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D4_0_1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D4_0_1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D4_0_1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D4_0_1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D4_0_1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D4_0_1 open planted court
+13:25:11 | INFO: Blender create Mesh node D4_0_1 public access
+13:25:11 | INFO: Blender create Mesh node D4_1_1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D4_1_1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D4_1_1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D4_1_1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D4_1_1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D4_1_1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D4_1_1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D4_1_1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D4_1_1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D4_1_1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D4_1_1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D4_1_1 open planted court
+13:25:11 | INFO: Blender create Mesh node D4_1_1 public access
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 open planted court
+13:25:11 | INFO: Blender create Mesh node D4_1_-1 public access
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 open planted court
+13:25:11 | INFO: Blender create Mesh node D4_2_-1 public access
+13:25:11 | INFO: Blender create Mesh node D5_0_1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D5_0_1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D5_0_1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D5_0_1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D5_0_1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D5_0_1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D5_0_1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D5_0_1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D5_0_1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D5_0_1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D5_0_1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D5_0_1 open planted court
+13:25:11 | INFO: Blender create Mesh node D5_0_1 public access
+13:25:11 | INFO: Blender create Mesh node D5_1_1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D5_1_1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D5_1_1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D5_1_1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D5_1_1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D5_1_1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D5_1_1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D5_1_1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D5_1_1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D5_1_1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D5_1_1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D5_1_1 open planted court
+13:25:11 | INFO: Blender create Mesh node D5_1_1 public access
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 open planted court
+13:25:11 | INFO: Blender create Mesh node D5_1_-1 public access
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 open planted court
+13:25:11 | INFO: Blender create Mesh node D5_2_-1 public access
+13:25:11 | INFO: Blender create Mesh node D6_0_1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D6_0_1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D6_0_1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D6_0_1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D6_0_1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D6_0_1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D6_0_1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D6_0_1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D6_0_1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D6_0_1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D6_0_1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D6_0_1 open planted court
+13:25:11 | INFO: Blender create Mesh node D6_0_1 public access
+13:25:11 | INFO: Blender create Mesh node D6_1_1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D6_1_1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D6_1_1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D6_1_1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D6_1_1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D6_1_1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D6_1_1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D6_1_1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D6_1_1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D6_1_1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D6_1_1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D6_1_1 open planted court
+13:25:11 | INFO: Blender create Mesh node D6_1_1 public access
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 open planted court
+13:25:11 | INFO: Blender create Mesh node D6_1_-1 public access
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 glazing 0 0
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 glazing 0 1
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 glazing 0 2
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 glazing 1 0
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 glazing 1 1
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 glazing 1 2
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 occupied wing 0
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 occupied wing 1
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 occupied wing 2
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 occupied wing 3
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 occupied wing 4
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 open planted court
+13:25:11 | INFO: Blender create Mesh node D6_2_-1 public access
+13:25:11 | INFO: Blender create Mesh node High threshold parapet
+13:25:11 | INFO: Blender create Mesh node High threshold parapet.001
+13:25:11 | INFO: Blender create Mesh node Human 0/0 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/0 head
+13:25:11 | INFO: Blender create Mesh node Human 0/1 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/1 head
+13:25:11 | INFO: Blender create Mesh node Human 0/2 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/2 head
+13:25:11 | INFO: Blender create Mesh node Human 0/3 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/3 head
+13:25:11 | INFO: Blender create Mesh node Human 0/4 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/4 head
+13:25:11 | INFO: Blender create Mesh node Human 0/5 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/5 head
+13:25:11 | INFO: Blender create Mesh node Human 0/6 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/6 head
+13:25:11 | INFO: Blender create Mesh node Human 0/7 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/7 head
+13:25:11 | INFO: Blender create Mesh node Human 0/8 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/8 head
+13:25:11 | INFO: Blender create Mesh node Human 0/9 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/9 head
+13:25:11 | INFO: Blender create Mesh node Human 0/10 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/10 head
+13:25:11 | INFO: Blender create Mesh node Human 0/11 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/11 head
+13:25:11 | INFO: Blender create Mesh node Human 0/12 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/12 head
+13:25:11 | INFO: Blender create Mesh node Human 0/13 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/13 head
+13:25:11 | INFO: Blender create Mesh node Human 0/14 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/14 head
+13:25:11 | INFO: Blender create Mesh node Human 0/15 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/15 head
+13:25:11 | INFO: Blender create Mesh node Human 0/16 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/16 head
+13:25:11 | INFO: Blender create Mesh node Human 0/17 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 0/17 head
+13:25:11 | INFO: Blender create Mesh node Human 1/0 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/0 head
+13:25:11 | INFO: Blender create Mesh node Human 1/1 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/1 head
+13:25:11 | INFO: Blender create Mesh node Human 1/2 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/2 head
+13:25:11 | INFO: Blender create Mesh node Human 1/3 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/3 head
+13:25:11 | INFO: Blender create Mesh node Human 1/4 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/4 head
+13:25:11 | INFO: Blender create Mesh node Human 1/5 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/5 head
+13:25:11 | INFO: Blender create Mesh node Human 1/6 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/6 head
+13:25:11 | INFO: Blender create Mesh node Human 1/7 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/7 head
+13:25:11 | INFO: Blender create Mesh node Human 1/8 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/8 head
+13:25:11 | INFO: Blender create Mesh node Human 1/9 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/9 head
+13:25:11 | INFO: Blender create Mesh node Human 1/10 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/10 head
+13:25:11 | INFO: Blender create Mesh node Human 1/11 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 1/11 head
+13:25:11 | INFO: Blender create Mesh node Human 2/0 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/0 head
+13:25:11 | INFO: Blender create Mesh node Human 2/1 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/1 head
+13:25:11 | INFO: Blender create Mesh node Human 2/2 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/2 head
+13:25:11 | INFO: Blender create Mesh node Human 2/3 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/3 head
+13:25:11 | INFO: Blender create Mesh node Human 2/4 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/4 head
+13:25:11 | INFO: Blender create Mesh node Human 2/5 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/5 head
+13:25:11 | INFO: Blender create Mesh node Human 2/6 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/6 head
+13:25:11 | INFO: Blender create Mesh node Human 2/7 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/7 head
+13:25:11 | INFO: Blender create Mesh node Human 2/8 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/8 head
+13:25:11 | INFO: Blender create Mesh node Human 2/9 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/9 head
+13:25:11 | INFO: Blender create Mesh node Human 2/10 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/10 head
+13:25:11 | INFO: Blender create Mesh node Human 2/11 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/11 head
+13:25:11 | INFO: Blender create Mesh node Human 2/12 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/12 head
+13:25:11 | INFO: Blender create Mesh node Human 2/13 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/13 head
+13:25:11 | INFO: Blender create Mesh node Human 2/14 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/14 head
+13:25:11 | INFO: Blender create Mesh node Human 2/15 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/15 head
+13:25:11 | INFO: Blender create Mesh node Human 2/16 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/16 head
+13:25:11 | INFO: Blender create Mesh node Human 2/17 body 1.75m
+13:25:11 | INFO: Blender create Mesh node Human 2/17 head
+13:25:11 | INFO: Blender create Mesh node L0 roof connection 1 360
+13:25:11 | INFO: Blender create Mesh node L0 roof connection 1 780
+13:25:11 | INFO: Blender create Mesh node L0 roof connection -1 360
+13:25:11 | INFO: Blender create Mesh node L0 roof connection -1 780
+13:25:11 | INFO: Blender create Mesh node L0 transparent lift annotation 1
+13:25:11 | INFO: Blender create Mesh node L0 transparent lift annotation -1
+13:25:11 | INFO: Blender create Mesh node L0 vertical public lift core 1
+13:25:11 | INFO: Blender create Mesh node L0 vertical public lift core -1
+13:25:11 | INFO: Blender create Mesh node L1 roof connection 1 780
+13:25:11 | INFO: Blender create Mesh node L1 roof connection 1 1220
+13:25:11 | INFO: Blender create Mesh node L1 roof connection -1 780
+13:25:11 | INFO: Blender create Mesh node L1 roof connection -1 1220
+13:25:11 | INFO: Blender create Mesh node L1 transparent lift annotation 1
+13:25:11 | INFO: Blender create Mesh node L1 transparent lift annotation -1
+13:25:11 | INFO: Blender create Mesh node L1 vertical public lift core 1
+13:25:11 | INFO: Blender create Mesh node L1 vertical public lift core -1
+13:25:11 | INFO: Blender create Mesh node L2 roof connection 1 1220
+13:25:11 | INFO: Blender create Mesh node L2 roof connection 1 1700
+13:25:11 | INFO: Blender create Mesh node L2 roof connection -1 1220
+13:25:11 | INFO: Blender create Mesh node L2 roof connection -1 1700
+13:25:11 | INFO: Blender create Mesh node L2 transparent lift annotation 1
+13:25:11 | INFO: Blender create Mesh node L2 transparent lift annotation -1
+13:25:11 | INFO: Blender create Mesh node L2 vertical public lift core 1
+13:25:11 | INFO: Blender create Mesh node L2 vertical public lift core -1
+13:25:11 | INFO: Blender create Mesh node L3 roof connection 1 1700
+13:25:11 | INFO: Blender create Mesh node L3 roof connection 1 2060
+13:25:11 | INFO: Blender create Mesh node L3 roof connection -1 1700
+13:25:11 | INFO: Blender create Mesh node L3 roof connection -1 2060
+13:25:11 | INFO: Blender create Mesh node L3 transparent lift annotation 1
+13:25:11 | INFO: Blender create Mesh node L3 transparent lift annotation -1
+13:25:11 | INFO: Blender create Mesh node L3 vertical public lift core 1
+13:25:11 | INFO: Blender create Mesh node L3 vertical public lift core -1
+13:25:11 | INFO: glTF import finished in 0.86s
+{"macro_A": {"actual_glb_reload": "PASS", "mesh_objects": 38, "bounds_m": {"min": [-2026.6873779296875, -2380.0, -20.0], "max": [1119.0789794921875, 1901.8717041015625, 2060.0], "size": [3145.766357421875, 4281.8717041015625, 2080.0]}, "bounds_max_delta_m": 0.0, "nonfinite_vertices": 0}, "macro_B": {"actual_glb_reload": "PASS", "mesh_objects": 54, "bounds_m": {"min": [-1720.0, -2380.0, -20.0], "max": [1520.0, 2120.0, 1800.0], "size": [3240.0, 4500.0, 1820.0]}, "bounds_max_delta_m": 0.0, "nonfinite_vertices": 0}, "macro_C": {"actual_glb_reload": "PASS", "mesh_objects": 30, "bounds_m": {"min": [-1950.0, -2380.0, -20.0], "max": [2100.0, 1005.0, 2060.0], "size": [4050.0, 3385.0, 2080.0]}, "bounds_max_delta_m": 0.0, "nonfinite_vertices": 0}, "selected": {"actual_glb_reload": "PASS", "mesh_objects": 734, "bounds_m": {"min": [-1950.0, -2500.0, -20.0], "max": [2100.0, 1005.0, 2106.0], "size": [4050.0, 3505.0, 2126.0]}, "bounds_max_delta_m": 0.0, "nonfinite_vertices": 0}, "primary_mass_unchanged_from_macro_C": {"result": "PASS", "sha256": "4013cfe6023f15ec1879535e04108c9cd3fb225d6d2a1f061de434eb7c6edd10"}, "selected_eye_floor_checks": {"06_GROUND_A": {"hit": true, "floor": "C Arrival continuity street", "floor_z_m": 0.13999998569488525, "eye_height_m": 1.7000000476837158}, "07_HIGH_B": {"hit": true, "floor": "C3 ROOF TO C4 INTERIOR public threshold", "floor_z_m": 1700.050048828125, "eye_height_m": 1.699951171875}, "08_HALL": {"hit": true, "floor": "C2 Thousandlight Market internal floor bay 0", "floor_z_m": 780.0, "eye_height_m": 1.70001220703125}, "10_ALLEY": {"hit": true, "floor": "D3_1_-1 open planted court", "floor_z_m": 1700.25, "eye_height_m": 1.699951171875}}, "selected_roof_surface_samples": [{"id": "C0 Arrival Library", "hit": true, "hit_object": "C INHABITED LAND bay 0", "expected_roof_z_m": 360, "actual_surface_z_m": 360.0, "note": "street overlay can be 0.23m above roof"}, {"id": "C1 Civic Forum", "hit": true, "hit_object": "C INHABITED LAND bay 0", "expected_roof_z_m": 780, "actual_surface_z_m": 780.0, "note": "street overlay can be 0.23m above roof"}, {"id": "C2 Thousandlight Market", "hit": true, "hit_object": "C INHABITED LAND bay 0", "expected_roof_z_m": 1220, "actual_surface_z_m": 1220.0, "note": "street overlay can be 0.23m above roof"}, {"id": "C3 High School Commons", "hit": true, "hit_object": "C3 ROOF TO C4 INTERIOR public threshold", "expected_roof_z_m": 1700, "actual_surface_z_m": 1700.050048828125, "note": "street overlay can be 0.23m above roof"}, {"id": "C4 Culture Sky Ground", "hit": true, "hit_object": "C INHABITED LAND bay 0", "expected_roof_z_m": 2060, "actual_surface_z_m": 2060.0, "note": "street overlay can be 0.23m above roof"}, {"id": "C_East Civic Quarter", "hit": true, "hit_object": "C INHABITED LAND bay 0", "expected_roof_z_m": 1700, "actual_surface_z_m": 1700.0, "note": "street overlay can be 0.23m above roof"}, {"id": "C_East Clinic", "hit": true, "hit_object": "C INHABITED LAND bay 0", "expected_roof_z_m": 1220, "actual_surface_z_m": 1220.0, "note": "street overlay can be 0.23m above roof"}], "scope": "Finite geometry, actual GLB reload, bounds and specific eye/roof samples only. No structural, collision-free navigation, egress or environmental guarantee."}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

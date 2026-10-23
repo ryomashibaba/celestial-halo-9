@@ -1,0 +1,227 @@
+{
+  "study_id": "B2-G6",
+  "stage": "BLOCKOUT_3D",
+  "technical_checks": {
+    "actual_glb_reloads": 4,
+    "images_from_mesh_rendering": 17,
+    "selected_images_same_geometry": 11,
+    "shared_macro_cameras": "PASS",
+    "primary_C_mesh_unchanged": "PASS",
+    "finite_imported_vertices": "PASS",
+    "selected_primary_non_manifold_edges": 0,
+    "actual_eye_floor_checks": "PASS",
+    "roof_surface_samples": 7
+  },
+  "selected_measured_bounds_m": {
+    "min": [
+      -1950.0,
+      -2500.0,
+      -20.0
+    ],
+    "max": [
+      2100.0,
+      1005.0,
+      2106.0
+    ],
+    "size": [
+      4050.0,
+      3505.0,
+      2126.0
+    ]
+  },
+  "selected_mesh_statistics": {
+    "mesh_objects": 734,
+    "vertices": 7846,
+    "polygons": 5406,
+    "primary_non_manifold_edges": 0
+  },
+  "modelled_court_blocks": 28,
+  "images": [
+    {
+      "path": "studies/B2-G6/macro_A/02_OBLIQUE.png",
+      "sha256": "b22f20a297db60e0af1fc5a39bb7a6f0ecad6d53a51d8e2f050b04d353677eef",
+      "size": [
+        1120,
+        900
+      ],
+      "source_geometry_sha256": "a54d0d9372eb444c013226eba1b05a1bf36c2f13f60dc71f97ec59623b0efe1b",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/macro_A/01_FRONT.png",
+      "sha256": "a5ad9f34da7a87a532a98e229f33f70a012b3272e595d1a8e76c01b125719b57",
+      "size": [
+        1120,
+        900
+      ],
+      "source_geometry_sha256": "a54d0d9372eb444c013226eba1b05a1bf36c2f13f60dc71f97ec59623b0efe1b",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/macro_B/02_OBLIQUE.png",
+      "sha256": "02a4366ad0896006bed68139ca9e67a3baff3a5542d7a8ff36dac6e847f12a72",
+      "size": [
+        1120,
+        900
+      ],
+      "source_geometry_sha256": "aced81e6fbf478fc98da31e6d8d94caf53c84af403e50b766a950630d322bf52",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/macro_B/01_FRONT.png",
+      "sha256": "3abaf94cd64ab6cc1b1a67a18a14ad1f43c4a71fb8c2e40df574a4460050fb7b",
+      "size": [
+        1120,
+        900
+      ],
+      "source_geometry_sha256": "aced81e6fbf478fc98da31e6d8d94caf53c84af403e50b766a950630d322bf52",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/macro_C/02_OBLIQUE.png",
+      "sha256": "984e26d045e2397303ff14bdc8eb46f348751648c20d89fad0fe14b65da5d59e",
+      "size": [
+        1120,
+        900
+      ],
+      "source_geometry_sha256": "4b2494bab259a91572d4be06270180f53ac0499e1d5ac1583e97c32ae1bd9d97",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/macro_C/01_FRONT.png",
+      "sha256": "2f0a3c8ea47d4a24628bc762d42959f5fe81e2d8dc07e6590d0a7f10ebf50c06",
+      "size": [
+        1120,
+        900
+      ],
+      "source_geometry_sha256": "4b2494bab259a91572d4be06270180f53ac0499e1d5ac1583e97c32ae1bd9d97",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/00_CITY.png",
+      "sha256": "ba8245c6bf3b0e5d41e7eef924595898327706e3a78933738e5ce854aa878e0a",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/01_FRONT.png",
+      "sha256": "d37fe13d84ed5909c0b360402c453c8a23b4a85fa03559c470fcefee13b21716",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/02_OBLIQUE.png",
+      "sha256": "bbe399280fbef76c9f687a52dbb455d1c1ddc3e262ac696047d7bb62e39303b6",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/03_SIDE.png",
+      "sha256": "4a708af296b211fa278499e80c67f38f7ff7ab736104d757238f755bb874607d",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/04_REAR.png",
+      "sha256": "cd6309a7bd93ae34986cf6dce5f4a09a53dae55eab24db6b0f1ea387a6592aad",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/05_TOP.png",
+      "sha256": "59eff70eb3b577b1d852f01229d4eb8d18327c8074ce1dcda127017170793ce4",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/06_GROUND_A.png",
+      "sha256": "4b97ac1567ce64240cf3a403c3692cc9e330d19f138e5197862e500fafac982c",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/09_SECTION.png",
+      "sha256": "6c8c20b1fd36750d88dfc204a4a2ad2b3112c652e4e92c0335dd574ee2e5d320",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": true
+    },
+    {
+      "path": "studies/B2-G6/selected/07_HIGH_B.png",
+      "sha256": "7a87436a3f68d74c3e579f320d96e991b156de6456c331bec7d28d9e632f35f2",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/10_ALLEY.png",
+      "sha256": "83d69c64fd0981b24f20e251564b60499232181917d9cab14156b46068f86932",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    },
+    {
+      "path": "studies/B2-G6/selected/08_HALL.png",
+      "sha256": "f7cc4f08703857e58e75352c1e94cd2dc518acfe0e78953fcbf1936cdf699321",
+      "size": [
+        1440,
+        1080
+      ],
+      "source_geometry_sha256": "cde642dce94710cc2d9001a062e296f151fe213e294c9f58f2f021fb1acf4955",
+      "derived_section": false
+    }
+  ],
+  "art_status": "REJECT_INTERNAL_RESEARCH_REVIEW",
+  "formal_adoption": null,
+  "limitations": [
+    "No structural or climate engineering",
+    "No full network clash/egress/capacity certification",
+    "No dwelling interior plans",
+    "W0 concept backdrop only; no canonical coordinate alignment",
+    "Section is temporary uncapped bisection of same source mesh",
+    "Population and functional capacity not calculated"
+  ],
+  "source_baseline": {
+    "G5_head": "05c224a46e030db4ac8dc28c49103bffced31aa3",
+    "REPORT_sha256": "3152a60a6b3bde1e91497198fc766108cc96c6db32650225f9329edbafbc1442",
+    "sections_png_sha256": "1ae88ff1d80b21af47e20d2404c5ec323fb587ca94100801e0e79b4a3f469148",
+    "comparison_png_sha256": "efaf79e07b27b4430e25aa5524df311a5a12c500686a2af55e64373a8850888d"
+  }
+}

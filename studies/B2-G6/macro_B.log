@@ -1,0 +1,125 @@
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\build_scene.py:20: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\build_scene.py:184: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Pale blue daylight');S.world=world;world.use_nodes=True;bg=world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.44,.59,.7,1);bg.inputs['Strength'].default_value=.45
+00:03.031  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_43400_060ca81aae22d08a8c88ff24457464eb.png.png"
+Info: Saved as "study.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+13:10:57 | INFO: Starting glTF 2.0 export
+13:10:57 | INFO: Extracting primitive: Arrival processional street
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 0 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 0 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 0 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 0 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 1 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 1 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 1 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 1 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 2 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 2 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 2 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 court wing 2 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B0 open court
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 0 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 0 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 0 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 0 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 1 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 1 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 1 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 1 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 2 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 2 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 2 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 court wing 2 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B1 open court
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 0 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 0 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 0 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 0 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 1 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 1 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 1 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 1 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 2 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 2 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 2 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 court wing 2 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B2 open court
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 0 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 0 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 0 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 0 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 1 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 1 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 1 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 1 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 2 public floor 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 2 public floor 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 2 roof/ground bay 0
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 court wing 2 roof/ground bay 1
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: B3 open court
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Extracting primitive: GROUND ARRIVAL / 0m
+13:10:57 | INFO: Primitives created: 1
+13:10:57 | INFO: Finished glTF 2.0 export in 0.19081354141235352 s
+00:11.313  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\macro_B\02_OBLIQUE.png'
+00:17.078  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\macro_B\01_FRONT.png'
+
+B2-G6 COMPLETE B False {'mesh_objects': 54, 'vertices': 4560, 'polygons': 2388, 'primary_non_manifold_edges': 0} {'min': [-1720.0, -2380.0, -20.0], 'max': [1520.0, 2120.0, 1800.0], 'size': [3240.0, 4500.0, 1820.0]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

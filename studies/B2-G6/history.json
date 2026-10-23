@@ -1,0 +1,50 @@
+{
+  "study_id": "B2-G6",
+  "branch": "art/b",
+  "g5_head": "05c224a46e030db4ac8dc28c49103bffced31aa3",
+  "events": [
+    {
+      "event": "CENTRAL_SUPERVISOR_REQUEST",
+      "scope": "G5-01 priority real 3D investigation; not formal art adoption"
+    },
+    {
+      "event": "TWO_INDEPENDENT_MASSING_RULES_MODELLED",
+      "candidates": [
+        "A",
+        "B"
+      ],
+      "housing_added": false
+    },
+    {
+      "event": "MACRO_REJECT",
+      "candidates": [
+        "A",
+        "B"
+      ],
+      "next": "Redesign formation rule"
+    },
+    {
+      "event": "C_REDESIGN_SELECTED_FOR_SPATIAL_VERIFICATION",
+      "record": "selection.json",
+      "formal_adoption": false
+    },
+    {
+      "event": "C01_TECHNICAL_DIAGNOSTICS",
+      "archive": "iterations/C01",
+      "issues": "duplicate coplanar arrival floor and hanging lift representation; technical fixes do not claim art improvement"
+    },
+    {
+      "event": "FINAL_11_VIEW_AND_INTERIOR_REVIEW",
+      "candidate": "C",
+      "status": "REJECT",
+      "record": "art_review.json",
+      "further_detail": "STOP"
+    }
+  ],
+  "preserved_lineage": [
+    "studies/B2-G4/history.json",
+    "studies/B2-G5/history.json"
+  ],
+  "construction": "HOLD",
+  "Work": "PRIOR_APPROVAL_REQUIRED"
+}

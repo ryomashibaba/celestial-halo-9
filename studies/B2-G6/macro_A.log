@@ -1,0 +1,93 @@
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\build_scene.py:20: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.diffuse_color=(*c,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*c,1);p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal
+C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\build_scene.py:184: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Pale blue daylight');S.world=world;world.use_nodes=True;bg=world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.44,.59,.7,1);bg.inputs['Strength'].default_value=.45
+00:11.641  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_45820_1d7cd799dfb4d3c54de4a039df65e2b9.png.png"
+Info: Saved as "study.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+13:10:33 | INFO: Starting glTF 2.0 export
+13:10:33 | INFO: Extracting primitive: A0 Arrival Forum public floor 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A0 Arrival Forum public floor 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A0 Arrival Forum public floor 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A0 Arrival Forum roof/ground bay 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A0 Arrival Forum roof/ground bay 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A0 Arrival Forum roof/ground bay 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A1 Library Market public floor 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A1 Library Market public floor 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A1 Library Market public floor 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A1 Library Market roof/ground bay 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A1 Library Market roof/ground bay 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A1 Library Market roof/ground bay 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A2 Thousandlight Court public floor 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A2 Thousandlight Court public floor 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A2 Thousandlight Court public floor 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A2 Thousandlight Court roof/ground bay 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A2 Thousandlight Court roof/ground bay 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A2 Thousandlight Court roof/ground bay 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A3 High Civic Commons public floor 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A3 High Civic Commons public floor 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A3 High Civic Commons public floor 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A3 High Civic Commons roof/ground bay 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A3 High Civic Commons roof/ground bay 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A3 High Civic Commons roof/ground bay 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A4 School Culture Ground public floor 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A4 School Culture Ground public floor 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A4 School Culture Ground public floor 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A4 School Culture Ground roof/ground bay 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A4 School Culture Ground roof/ground bay 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A4 School Culture Ground roof/ground bay 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A_West Ground Archive public floor 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A_West Ground Archive public floor 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A_West Ground Archive public floor 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A_West Ground Archive roof/ground bay 0
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A_West Ground Archive roof/ground bay 1
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: A_West Ground Archive roof/ground bay 2
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: Arrival processional street
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Extracting primitive: GROUND ARRIVAL / 0m
+13:10:33 | INFO: Primitives created: 1
+13:10:33 | INFO: Finished glTF 2.0 export in 0.2585465908050537 s
+00:23.719  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\macro_A\02_OBLIQUE.png'
+00:29.735  render           | Saved: 'C:\Users\ryoma\.codex\.chatgpt-projects\g-p-6ad92f6e7d2081919cb045ae2529b5b8\studies\B2-G6\macro_A\01_FRONT.png'
+
+B2-G6 COMPLETE A False {'mesh_objects': 38, 'vertices': 3400, 'polygons': 1776, 'primary_non_manifold_edges': 0} {'min': [-2026.6873779296875, -2380.0, -20.0], 'max': [1119.0789794921875, 1901.8717041015625, 2060.0], 'size': [3145.766357421875, 4281.8717041015625, 2080.0]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

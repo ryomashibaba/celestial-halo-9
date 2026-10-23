@@ -1,0 +1,14 @@
+{
+  "study_id": "B2-G6",
+  "selected_candidate": "C",
+  "permission": "G6_LOCAL_3D_STUDY_ONLY",
+  "formal_adoption": false,
+  "review": {
+    "A": "REJECT: repeated detached vaulted hats; incomplete roof-ground continuity",
+    "B": "REJECT: courtyard principle differs, but vault units repeat and upper masses appear detached",
+    "C": "CONTINUE_FOR_SPATIAL_VERIFICATION: a single grounded stepped arch body contains civic rooms whose roofs are the next urban grounds. Not a mountain repetition or inclined plate. Risks: heavy facade, terraced-gate monumentality, deep interior and insufficient transformation. Central art review pending."
+  },
+  "observed_images": ["macro_A/01_FRONT.png", "macro_A/02_OBLIQUE.png", "macro_B/02_OBLIQUE.png", "macro_C/01_FRONT.png", "macro_C/02_OBLIQUE.png"],
+  "no_detail_for_rejected_candidates": true,
+  "no_claim_of_art_pass": true
+}

@@ -1,0 +1,352 @@
+{
+  "study_id": "B2-G6",
+  "candidate": "A",
+  "stage": "MACRO_MASSING",
+  "units": "metres",
+  "geometry_sha256": "a54d0d9372eb444c013226eba1b05a1bf36c2f13f60dc71f97ec59623b0efe1b",
+  "bounds_m": {
+    "min": [
+      -2026.6873779296875,
+      -2380.0,
+      -20.0
+    ],
+    "max": [
+      1119.0789794921875,
+      1901.8717041015625,
+      2060.0
+    ],
+    "size": [
+      3145.766357421875,
+      4281.8717041015625,
+      2080.0
+    ]
+  },
+  "geometry": {
+    "mesh_objects": 38,
+    "vertices": 3400,
+    "polygons": 1776,
+    "primary_non_manifold_edges": 0
+  },
+  "halls": [
+    {
+      "id": "A0 Arrival Forum",
+      "centre_m": [
+        0,
+        -1280,
+        0
+      ],
+      "angle_rad": 0,
+      "span_m": 1700,
+      "depth_m": 1040,
+      "floor_z_m": 0,
+      "roof_ground_z_m": 360,
+      "roof_plateau_width_m": 1156.0,
+      "roof_bays": 3,
+      "sky_slit_m": 32,
+      "roof_object_names": [
+        "A0 Arrival Forum roof/ground bay 0",
+        "A0 Arrival Forum roof/ground bay 1",
+        "A0 Arrival Forum roof/ground bay 2"
+      ]
+    },
+    {
+      "id": "A1 Library Market",
+      "centre_m": [
+        -420,
+        -600,
+        360
+      ],
+      "angle_rad": -0.28,
+      "span_m": 1480,
+      "depth_m": 940,
+      "floor_z_m": 360,
+      "roof_ground_z_m": 780,
+      "roof_plateau_width_m": 1006.4000000000001,
+      "roof_bays": 3,
+      "sky_slit_m": 32,
+      "roof_object_names": [
+        "A1 Library Market roof/ground bay 0",
+        "A1 Library Market roof/ground bay 1",
+        "A1 Library Market roof/ground bay 2"
+      ]
+    },
+    {
+      "id": "A2 Thousandlight Court",
+      "centre_m": [
+        170,
+        80,
+        780
+      ],
+      "angle_rad": 0.2,
+      "span_m": 1560,
+      "depth_m": 1020,
+      "floor_z_m": 780,
+      "roof_ground_z_m": 1220,
+      "roof_plateau_width_m": 1060.8000000000002,
+      "roof_bays": 3,
+      "sky_slit_m": 32,
+      "roof_object_names": [
+        "A2 Thousandlight Court roof/ground bay 0",
+        "A2 Thousandlight Court roof/ground bay 1",
+        "A2 Thousandlight Court roof/ground bay 2"
+      ]
+    },
+    {
+      "id": "A3 High Civic Commons",
+      "centre_m": [
+        -250,
+        770,
+        1220
+      ],
+      "angle_rad": -0.25,
+      "span_m": 1400,
+      "depth_m": 940,
+      "floor_z_m": 1220,
+      "roof_ground_z_m": 1700,
+      "roof_plateau_width_m": 952.0000000000001,
+      "roof_bays": 3,
+      "sky_slit_m": 32,
+      "roof_object_names": [
+        "A3 High Civic Commons roof/ground bay 0",
+        "A3 High Civic Commons roof/ground bay 1",
+        "A3 High Civic Commons roof/ground bay 2"
+      ]
+    },
+    {
+      "id": "A4 School Culture Ground",
+      "centre_m": [
+        100,
+        1420,
+        1700
+      ],
+      "angle_rad": 0.12,
+      "span_m": 1080,
+      "depth_m": 820,
+      "floor_z_m": 1700,
+      "roof_ground_z_m": 2060,
+      "roof_plateau_width_m": 734.4000000000001,
+      "roof_bays": 3,
+      "sky_slit_m": 32,
+      "roof_object_names": [
+        "A4 School Culture Ground roof/ground bay 0",
+        "A4 School Culture Ground roof/ground bay 1",
+        "A4 School Culture Ground roof/ground bay 2"
+      ]
+    },
+    {
+      "id": "A_West Ground Archive",
+      "centre_m": [
+        -1330,
+        -380,
+        0
+      ],
+      "angle_rad": 0.4,
+      "span_m": 920,
+      "depth_m": 1000,
+      "floor_z_m": 0,
+      "roof_ground_z_m": 360,
+      "roof_plateau_width_m": 625.6,
+      "roof_bays": 3,
+      "sky_slit_m": 32,
+      "roof_object_names": [
+        "A_West Ground Archive roof/ground bay 0",
+        "A_West Ground Archive roof/ground bay 1",
+        "A_West Ground Archive roof/ground bay 2"
+      ]
+    }
+  ],
+  "districts": [],
+  "routes": [],
+  "cameras": {
+    "00_CITY": {
+      "position_m": [
+        9000.0,
+        -11500.0,
+        9500.0
+      ],
+      "rotation_euler": [
+        1.0231887102127075,
+        -8.494431824601634e-09,
+        0.6515871286392212
+      ],
+      "type": "ORTHO",
+      "ortho_scale_m": 14500.0,
+      "lens_mm": 30.0
+    },
+    "01_FRONT": {
+      "position_m": [
+        0.0,
+        -10500.0,
+        2300.0
+      ],
+      "rotation_euler": [
+        1.4429264068603516,
+        -0.0,
+        0.0
+      ],
+      "type": "ORTHO",
+      "ortho_scale_m": 6200.0,
+      "lens_mm": 30.0
+    },
+    "02_OBLIQUE": {
+      "position_m": [
+        6200.0,
+        -8500.0,
+        5600.0
+      ],
+      "rotation_euler": [
+        1.1586300134658813,
+        -7.886630015718765e-09,
+        0.6435012221336365
+      ],
+      "type": "ORTHO",
+      "ortho_scale_m": 6600.0,
+      "lens_mm": 30.0
+    },
+    "03_SIDE": {
+      "position_m": [
+        10000.0,
+        0.0,
+        2300.0
+      ],
+      "rotation_euler": [
+        1.4415276050567627,
+        5.198096175718092e-09,
+        1.5607966184616089
+      ],
+      "type": "ORTHO",
+      "ortho_scale_m": 6200.0,
+      "lens_mm": 30.0
+    },
+    "04_REAR": {
+      "position_m": [
+        -5000.0,
+        9000.0,
+        4300.0
+      ],
+      "rotation_euler": [
+        1.2482671737670898,
+        9.337797024500105e-08,
+        -2.6422460079193115
+      ],
+      "type": "ORTHO",
+      "ortho_scale_m": 6200.0,
+      "lens_mm": 30.0
+    },
+    "05_TOP": {
+      "position_m": [
+        0.0,
+        100.0,
+        14000.0
+      ],
+      "rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "type": "ORTHO",
+      "ortho_scale_m": 6500.0,
+      "lens_mm": 30.0
+    },
+    "06_GROUND_A": {
+      "position_m": [
+        0.0,
+        -2150.0,
+        1.7000000476837158
+      ],
+      "rotation_euler": [
+        1.8943675756454468,
+        -1.1175245173689063e-09,
+        0.04874185845255852
+      ],
+      "type": "PERSP",
+      "ortho_scale_m": 6.0,
+      "lens_mm": 23.0
+    },
+    "07_HIGH_B": {
+      "position_m": [
+        -170.0,
+        680.0,
+        1701.699951171875
+      ],
+      "rotation_euler": [
+        1.781203031539917,
+        1.562842300018019e-08,
+        -0.32932621240615845
+      ],
+      "type": "PERSP",
+      "ortho_scale_m": 6.0,
+      "lens_mm": 25.0
+    },
+    "08_HALL": {
+      "position_m": [
+        170.0,
+        -320.0,
+        781.7000122070312
+      ],
+      "rotation_euler": [
+        1.803636908531189,
+        -9.586247351478505e-09,
+        -0.10092179477214813
+      ],
+      "type": "PERSP",
+      "ortho_scale_m": 6.0,
+      "lens_mm": 24.0
+    },
+    "09_SECTION": {
+      "position_m": [
+        10000.0,
+        -250.0,
+        2300.0
+      ],
+      "rotation_euler": [
+        1.4415996074676514,
+        -1.0067245170830574e-07,
+        1.5358104705810547
+      ],
+      "type": "ORTHO",
+      "ortho_scale_m": 6200.0,
+      "lens_mm": 30.0
+    },
+    "10_ALLEY": {
+      "position_m": [
+        -750.0,
+        -790.0,
+        781.7000122070312
+      ],
+      "rotation_euler": [
+        1.6468991041183472,
+        -0.0,
+        0.0
+      ],
+      "type": "PERSP",
+      "ortho_scale_m": 6.0,
+      "lens_mm": 28.0
+    }
+  },
+  "render": {
+    "engine": "CYCLES",
+    "samples": 12,
+    "resolution": [
+      1120,
+      900
+    ]
+  },
+  "W0": "CONCEPT_BACKGROUND_UNREGISTERED_NO_COORDINATE_TRANSFORM",
+  "art_status": "CENTRAL_REVIEW_PENDING",
+  "construction": "HOLD",
+  "renders": [
+    {
+      "camera": "02_OBLIQUE",
+      "path": "02_OBLIQUE.png",
+      "source_geometry_sha256": "a54d0d9372eb444c013226eba1b05a1bf36c2f13f60dc71f97ec59623b0efe1b",
+      "section_derived": false
+    },
+    {
+      "camera": "01_FRONT",
+      "path": "01_FRONT.png",
+      "source_geometry_sha256": "a54d0d9372eb444c013226eba1b05a1bf36c2f13f60dc71f97ec59623b0efe1b",
+      "section_derived": false
+    }
+  ]
+}

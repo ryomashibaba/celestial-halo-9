@@ -1,0 +1,56 @@
+{
+  "07_HIGH_B": {
+    "position_m": [
+      -360.0,
+      -1120.0,
+      1701.75
+    ],
+    "previous_rotation_euler": [
+      1.7373859882354736,
+      -1.1109406727882742e-09,
+      -0.7165417671203613
+    ],
+    "issue": "Previous view documented wall dominance or dark interior; preserved as diagnostic",
+    "new_target_m": [
+      220,
+      -950,
+      1810
+    ]
+  },
+  "08_HALL": {
+    "position_m": [
+      -860.0,
+      -800.0,
+      781.7000122070312
+    ],
+    "previous_rotation_euler": [
+      1.6522022485733032,
+      -0.0,
+      0.0
+    ],
+    "issue": "Previous view documented wall dominance or dark interior; preserved as diagnostic",
+    "new_target_m": [
+      -860,
+      -1600,
+      840
+    ]
+  },
+  "10_ALLEY": {
+    "position_m": [
+      -489.20001220703125,
+      -14.0,
+      1701.949951171875
+    ],
+    "previous_rotation_euler": [
+      1.6798231601715088,
+      -0.0,
+      0.0
+    ],
+    "issue": "Previous view documented wall dominance or dark interior; preserved as diagnostic",
+    "new_target_m": [
+      -489.2,
+      -110,
+      1710
+    ]
+  }
+}

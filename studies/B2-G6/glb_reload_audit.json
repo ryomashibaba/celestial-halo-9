@@ -1,0 +1,183 @@
+{
+  "macro_A": {
+    "actual_glb_reload": "PASS",
+    "mesh_objects": 38,
+    "bounds_m": {
+      "min": [
+        -2026.6873779296875,
+        -2380.0,
+        -20.0
+      ],
+      "max": [
+        1119.0789794921875,
+        1901.8717041015625,
+        2060.0
+      ],
+      "size": [
+        3145.766357421875,
+        4281.8717041015625,
+        2080.0
+      ]
+    },
+    "bounds_max_delta_m": 0.0,
+    "nonfinite_vertices": 0
+  },
+  "macro_B": {
+    "actual_glb_reload": "PASS",
+    "mesh_objects": 54,
+    "bounds_m": {
+      "min": [
+        -1720.0,
+        -2380.0,
+        -20.0
+      ],
+      "max": [
+        1520.0,
+        2120.0,
+        1800.0
+      ],
+      "size": [
+        3240.0,
+        4500.0,
+        1820.0
+      ]
+    },
+    "bounds_max_delta_m": 0.0,
+    "nonfinite_vertices": 0
+  },
+  "macro_C": {
+    "actual_glb_reload": "PASS",
+    "mesh_objects": 30,
+    "bounds_m": {
+      "min": [
+        -1950.0,
+        -2380.0,
+        -20.0
+      ],
+      "max": [
+        2100.0,
+        1005.0,
+        2060.0
+      ],
+      "size": [
+        4050.0,
+        3385.0,
+        2080.0
+      ]
+    },
+    "bounds_max_delta_m": 0.0,
+    "nonfinite_vertices": 0
+  },
+  "selected": {
+    "actual_glb_reload": "PASS",
+    "mesh_objects": 734,
+    "bounds_m": {
+      "min": [
+        -1950.0,
+        -2500.0,
+        -20.0
+      ],
+      "max": [
+        2100.0,
+        1005.0,
+        2106.0
+      ],
+      "size": [
+        4050.0,
+        3505.0,
+        2126.0
+      ]
+    },
+    "bounds_max_delta_m": 0.0,
+    "nonfinite_vertices": 0
+  },
+  "primary_mass_unchanged_from_macro_C": {
+    "result": "PASS",
+    "sha256": "4013cfe6023f15ec1879535e04108c9cd3fb225d6d2a1f061de434eb7c6edd10"
+  },
+  "selected_eye_floor_checks": {
+    "06_GROUND_A": {
+      "hit": true,
+      "floor": "C Arrival continuity street",
+      "floor_z_m": 0.13999998569488525,
+      "eye_height_m": 1.7000000476837158
+    },
+    "07_HIGH_B": {
+      "hit": true,
+      "floor": "C3 ROOF TO C4 INTERIOR public threshold",
+      "floor_z_m": 1700.050048828125,
+      "eye_height_m": 1.699951171875
+    },
+    "08_HALL": {
+      "hit": true,
+      "floor": "C2 Thousandlight Market internal floor bay 0",
+      "floor_z_m": 780.0,
+      "eye_height_m": 1.70001220703125
+    },
+    "10_ALLEY": {
+      "hit": true,
+      "floor": "D3_1_-1 open planted court",
+      "floor_z_m": 1700.25,
+      "eye_height_m": 1.699951171875
+    }
+  },
+  "selected_roof_surface_samples": [
+    {
+      "id": "C0 Arrival Library",
+      "hit": true,
+      "hit_object": "C INHABITED LAND bay 0",
+      "expected_roof_z_m": 360,
+      "actual_surface_z_m": 360.0,
+      "note": "street overlay can be 0.23m above roof"
+    },
+    {
+      "id": "C1 Civic Forum",
+      "hit": true,
+      "hit_object": "C INHABITED LAND bay 0",
+      "expected_roof_z_m": 780,
+      "actual_surface_z_m": 780.0,
+      "note": "street overlay can be 0.23m above roof"
+    },
+    {
+      "id": "C2 Thousandlight Market",
+      "hit": true,
+      "hit_object": "C INHABITED LAND bay 0",
+      "expected_roof_z_m": 1220,
+      "actual_surface_z_m": 1220.0,
+      "note": "street overlay can be 0.23m above roof"
+    },
+    {
+      "id": "C3 High School Commons",
+      "hit": true,
+      "hit_object": "C3 ROOF TO C4 INTERIOR public threshold",
+      "expected_roof_z_m": 1700,
+      "actual_surface_z_m": 1700.050048828125,
+      "note": "street overlay can be 0.23m above roof"
+    },
+    {
+      "id": "C4 Culture Sky Ground",
+      "hit": true,
+      "hit_object": "C INHABITED LAND bay 0",
+      "expected_roof_z_m": 2060,
+      "actual_surface_z_m": 2060.0,
+      "note": "street overlay can be 0.23m above roof"
+    },
+    {
+      "id": "C_East Civic Quarter",
+      "hit": true,
+      "hit_object": "C INHABITED LAND bay 0",
+      "expected_roof_z_m": 1700,
+      "actual_surface_z_m": 1700.0,
+      "note": "street overlay can be 0.23m above roof"
+    },
+    {
+      "id": "C_East Clinic",
+      "hit": true,
+      "hit_object": "C INHABITED LAND bay 0",
+      "expected_roof_z_m": 1220,
+      "actual_surface_z_m": 1220.0,
+      "note": "street overlay can be 0.23m above roof"
+    }
+  ],
+  "scope": "Finite geometry, actual GLB reload, bounds and specific eye/roof samples only. No structural, collision-free navigation, egress or environmental guarantee."
+}
