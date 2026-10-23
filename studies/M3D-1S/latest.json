@@ -1,8 +1,8 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J3",
+  "research_id": "M3D-1S/J4",
   "date_jst": "2026-10-24",
-  "status": "SCALE_PROXIES_AND_FUNCTIONAL_CIVIC_JUNCTION_3D_SAVED__ART_NOT_ACCEPTED",
+  "status": "J4_MESH_AND_GLB_AUDIT_COMPLETE__ROUTE_REPAIR_NEEDED__ART_NOT_ACCEPTED",
   "research_branch": "research/m3d1s-central-city-scale-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
@@ -43,6 +43,19 @@
         "glb_blob_sha": "17e11a72565d8b472c885bbf12d1740372a0c051"
       },
       "status": "FUNCTIONAL_AND_GRAPH_PRELIMINARY_QA_ONLY"
+    },
+    "j4": {
+      "report": "studies/M3D-1S/J4/REPORT_JA.md",
+      "mesh_audit": "studies/M3D-1S/J4/J4_MESH_INTERSECTION_AUDIT.json",
+      "glb_audit": "studies/M3D-1S/J4/GLB_BINARY_INDEPENDENT_READBACK.json",
+      "reproducible_code": "studies/M3D-1S/J4/audit_j4.cjs",
+      "collision_map": "studies/M3D-1S/J4/J4_ROUTE_COLLISION_MAP.svg",
+      "result": "4 of 7 walk edges have potential headroom surface intersections under limited centreline probe",
+      "limitations": [
+        "No Blender GUI import or actual free walking test",
+        "GlTF binary structure validated, not visual aesthetics",
+        "2 core zones surface-clear; entire civic rooms NOT certified as clear"
+      ]
     }
   },
   "missing": [
@@ -51,13 +64,14 @@
     "GENUINE_PUBLIC_INTERIORS",
     "REAL_10KM_CITY_DETAIL",
     "VALIDATED_CANONICAL_COORDINATES",
-    "BLEND",
     "BLENDER_GLTF_REIMPORT",
     "FULL_HUMAN_TRAVERSAL",
     "FULL_PUBLIC_VOID_COLLISION",
-    "HUMAN_ART_ACCEPTANCE"
+    "HUMAN_ART_ACCEPTANCE",
+    "J5_CORRIDOR_REPAIR"
   ],
-  "next_gate": "M3D-1S/J4: actual Blender/Unreal GLB reimport + full civic void and corridor geometry checks + evidence-based art redesign, keeping central art acceptance NONE",
+  "next_gate": "J5: localized corridor/entrance clearance and floor-support repair on isolated J3 geometry, with prior and revised independent mesh QA",
   "policy": "main/docs/policy/START_HERE.md",
-  "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER"
+  "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
+  "art_review": "NOT_ACCEPTED"
 }
