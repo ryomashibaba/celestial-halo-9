@@ -1,0 +1,21 @@
+{
+  "base_head": "156ccccdf0965df64109d43bc62282ab7b818d5e",
+  "branch": "art/a",
+  "g6_report_git_blob_sha": "e18dff23fea144755fd316a7f50a0bd7746721e7",
+  "source_path": "studies/A2-G6/REPORT.md",
+  "retained": [
+    "same civic roof / upper ground principle",
+    "contact tests",
+    "GLB roundtrip and independent loader method",
+    "G6 complete records at unchanged paths"
+  ],
+  "not_reused": [
+    "G6 outer geometry",
+    "G6 meshes",
+    "tier counts or housing count as a shape generator"
+  ],
+  "formal_M247C_modified": false,
+  "minecraft_construction": "HOLD",
+  "work_prior_approval": true,
+  "work_transfer": false
+}

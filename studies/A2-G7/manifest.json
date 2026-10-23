@@ -1,0 +1,179 @@
+{
+  "study_id": "A2-G7",
+  "branch": "art/a",
+  "track": "A",
+  "base_head": "156ccccdf0965df64109d43bc62282ab7b818d5e",
+  "updated_at": "2026-10-23T09:50:04.296496+00:00",
+  "stage": "INITIAL_MASSING_ART_SELECTION",
+  "art_review_status": "HOLD",
+  "art_adopted_candidate": null,
+  "formal_supervisor_review": "NOT_REVIEWED",
+  "dimensions_m": {
+    "width": 5694.24072265625,
+    "depth": 3045.619384765625,
+    "height": 5054.06103515625
+  },
+  "dimensions_scope": "I architecture-only GLB, excluding 10km context; II unmeasured",
+  "preview_bytes": 224943,
+  "preview_target_under_600000_bytes": true,
+  "assets": [
+    {
+      "path": "studies/A2-G7/.gitignore",
+      "size_bytes": 36,
+      "sha256": "ec323bec79f5b3af96fe8931e9d2ccdfb3799fee40047216e491520a0b9fb8f1",
+      "git_blob_sha": "6058c9b154f4f4f25bcb411cb9764c5d3f28b6ae"
+    },
+    {
+      "path": "studies/A2-G7/build.py",
+      "size_bytes": 11434,
+      "sha256": "6a7e18e1dbbc88ec6893aa856775931fb7a418a14253427887d81b3b08341248",
+      "git_blob_sha": "326cb2174177643ae2f98c9eeadd87545c680a4f"
+    },
+    {
+      "path": "studies/A2-G7/concepts.json",
+      "size_bytes": 866,
+      "sha256": "f4e4d4cc8661aa530a430ae9a68f24fcbf66dbf1503e3c3a6f1d589552dabf69",
+      "git_blob_sha": "247a6e05f6d2bf29d2e6f269354ee5d4e17366b5"
+    },
+    {
+      "path": "studies/A2-G7/concepts.png",
+      "size_bytes": 196873,
+      "sha256": "c2ce8886a163b50dce07cc2fe3010711efa3926a2d41af4948247e37cec80847",
+      "git_blob_sha": "c4ec3bae84a8ae91d758336557716117eb333216"
+    },
+    {
+      "path": "studies/A2-G7/decision.md",
+      "size_bytes": 1972,
+      "sha256": "0a638e5dcf4334414e9834d7c2a51c289261b6375f96225c2f4eebc33d6a4074",
+      "git_blob_sha": "bc3081bc61a2781839f8571294c7e55239982899"
+    },
+    {
+      "path": "studies/A2-G7/formation-comparison.md",
+      "size_bytes": 9075,
+      "sha256": "952bd6773b62ffbc6c3933df524d7e367b71ba8856a168d2b5c3483f5d18ec6c",
+      "git_blob_sha": "c7d05d2a0c71486a203e94d0b7dcdb89d42c1bad"
+    },
+    {
+      "path": "studies/A2-G7/geometry.json",
+      "size_bytes": 6583,
+      "sha256": "7192616e84c8cebca98aff2b4f93e8b80caa72e6e402cee62b8c84ba6bfbd69c",
+      "git_blob_sha": "66a8658873a5899c5de1ddc2d2c9ef26fc9a121c"
+    },
+    {
+      "path": "studies/A2-G7/inheritance.json",
+      "size_bytes": 633,
+      "sha256": "6ac513890ec8c11e392feec7ea189a5ea2a67dd9fe946a8f42392d5c2c287712",
+      "git_blob_sha": "51b79b4fe89b368daf198a664f24e516f3063923"
+    },
+    {
+      "path": "studies/A2-G7/package.py",
+      "size_bytes": 11272,
+      "sha256": "aca86c418bb2465d061d86643b39edb25fdb886b11792d2419d1a45598e4dcbc",
+      "git_blob_sha": "7780c03aeb5f7babf448a8bede57a6aba188e4bd"
+    },
+    {
+      "path": "studies/A2-G7/preview.jpg",
+      "size_bytes": 224943,
+      "sha256": "cc7ff086eeebf128f764b02ad04d5bce43150dfce85c5dd7c6cafab7bf4d4684",
+      "git_blob_sha": "6951b7f1aa720b46b9d42790f3d853f3035a569e"
+    },
+    {
+      "path": "studies/A2-G7/qa.json",
+      "size_bytes": 24629,
+      "sha256": "08f6fc0c8c3c2054a50936df1e2d6c903181c27475463f3f1017e934e5690367",
+      "git_blob_sha": "af9c4af3e9adf0a640541ae08b2d7816380876b7"
+    },
+    {
+      "path": "studies/A2-G7/qa.py",
+      "size_bytes": 5213,
+      "sha256": "82e6da23b8a4a1b0d8ed24a9976171ef7dca2a85ed7af0682e5c901fdd134d34",
+      "git_blob_sha": "8eab4ce4f78599103808eae3d99d47a5517636b6"
+    },
+    {
+      "path": "studies/A2-G7/renders/01_oblique.jpg",
+      "size_bytes": 44608,
+      "sha256": "1602048192f0db66ac29db2129021765ad3f104204426310d2c0b203a353f3a8",
+      "git_blob_sha": "2c5a72a010b3249d77b351b03ea9ecfbccbc49e3"
+    },
+    {
+      "path": "studies/A2-G7/renders/02_side.jpg",
+      "size_bytes": 26855,
+      "sha256": "f031d431a575716a652eb38be498a75fc68b93858f3abeaf0732b4dec707a157",
+      "git_blob_sha": "9661054628b2a013fcc5539fe245ca0cda9f0bfd"
+    },
+    {
+      "path": "studies/A2-G7/renders/03_back.jpg",
+      "size_bytes": 34222,
+      "sha256": "6d08766b0970153ece5f2d9aba97b65fa7363e1fddb4eaa7a4ff097143d378f8",
+      "git_blob_sha": "a26e61e26130eb899b97ab363b73892313a647a8"
+    },
+    {
+      "path": "studies/A2-G7/renders/04_city.jpg",
+      "size_bytes": 53626,
+      "sha256": "05a38af9860b579bc68ed0ba55acc0363b188094da20bb3d2dcb4c19162f50cf",
+      "git_blob_sha": "65687c7227802f1171b387c5977ffa2f194811b1"
+    },
+    {
+      "path": "studies/A2-G7/renders/05_shared_high.jpg",
+      "size_bytes": 55298,
+      "sha256": "0db6f9d9adeadb5469e9ec1845331e10fa47291d17cff6edf8bdcaf557263a13",
+      "git_blob_sha": "71bc45dd7dc663b2b68a47713440ee05c061f84b"
+    },
+    {
+      "path": "studies/A2-G7/renders/06_shared_ground.jpg",
+      "size_bytes": 52946,
+      "sha256": "beda4e67978978afa3175fc1a56f982550dfec02c2323861c359f701da33ee20",
+      "git_blob_sha": "b9be7927186e94c4a88db87c66447ea47647a478"
+    },
+    {
+      "path": "studies/A2-G7/renders/07_front.jpg",
+      "size_bytes": 39745,
+      "sha256": "bc21cb0c2acfc56d62c3102e4a38358a5a2b08038cb6e89182eb1cca364059bf",
+      "git_blob_sha": "5f627ffd03802ff32033f4074d46c79f1d67215c"
+    },
+    {
+      "path": "studies/A2-G7/renders/08_section.jpg",
+      "size_bytes": 39342,
+      "sha256": "4dca81bd67c3b11131085c933437e937d96fa0577b5cf135ee506293ead49ad2",
+      "git_blob_sha": "c4246e3a1965dd8c57526d593082414da5fc4c6a"
+    },
+    {
+      "path": "studies/A2-G7/review.html",
+      "size_bytes": 2126,
+      "sha256": "866e00414e829dc679b94dfc13d0b29e083dec0c9d0e6e48f2a0eba1f5e01505",
+      "git_blob_sha": "a615061c44f25205d888f9002c142eb1a10962b1"
+    },
+    {
+      "path": "studies/A2-G7/section.json",
+      "size_bytes": 466,
+      "sha256": "8231b3944d949ea86febb9925d2501e1b53c06e1512d182a89a1e39f1588d854",
+      "git_blob_sha": "4410641381e5c605045e2c97b03623a1558cc20b"
+    },
+    {
+      "path": "studies/A2-G7/selected.blend",
+      "size_bytes": 304290,
+      "sha256": "4b28c576e7e40c8c672f6f960392d993a9645799db11eb087762b3cddc83cf8b",
+      "git_blob_sha": "ba0c15951ffd8dc1f7c12fbb6be99235e095e65d"
+    },
+    {
+      "path": "studies/A2-G7/selected.glb",
+      "size_bytes": 229180,
+      "sha256": "d79e95e7cad752d33b0824f6bca26f9ebe0d801448702bf2612be921a7c3099c",
+      "git_blob_sha": "d7ca18f9dc9e8fdc2d3d5283b2851f0d9a146aa8"
+    }
+  ],
+  "qa_summary": {
+    "support_passed": 128,
+    "support_samples": 128,
+    "envelope_wing_samples": 80,
+    "hall_probes": 8,
+    "cleft_probes": 5,
+    "all_vertices_finite": true,
+    "bounds_delta_vs_blender_m": 0.0,
+    "triangles": 3262,
+    "caution": "geometry checks do not establish art, engineering, inhabitability or canonical-city alignment"
+  },
+  "formal_M247C_modified": false,
+  "minecraft_construction": "HOLD",
+  "work_transfer": false
+}

@@ -1,0 +1,22 @@
+{
+  "source": "selected.glb",
+  "keep": "HIGH_ objects only, y >= -500m",
+  "plane_y_m": -500,
+  "cut_faces_capped": false,
+  "envelope_hidden": true,
+  "diagnostic_only": true,
+  "camera": {
+    "eye": [
+      1000,
+      -3300,
+      4620
+    ],
+    "target": [
+      -300,
+      -330,
+      3860
+    ],
+    "ortho_span_m": 1700
+  },
+  "limits": "Local shared section only; removed front court and macro envelope explicitly hidden. Not a full building cutaway."
+}

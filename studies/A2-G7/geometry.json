@@ -1,0 +1,368 @@
+{
+  "study": "A2-G7",
+  "units": "m",
+  "base_head": "156ccccdf0965df64109d43bc62282ab7b818d5e",
+  "model": "I / 合流天窟",
+  "bounds_m": [
+    [
+      -2830.0,
+      -1495.0,
+      0.0
+    ],
+    [
+      2864.24072265625,
+      1550.619384765625,
+      5054.06103515625
+    ]
+  ],
+  "dimensions_m": {
+    "width": 5694.24072265625,
+    "depth": 3045.619384765625,
+    "height": 5054.06103515625
+  },
+  "roundtrip_bounds_delta_m": 0.0,
+  "pairs": [
+    {
+      "id": "GROUND",
+      "lower_z_m": 40,
+      "upper_z_m": 168,
+      "roof": "GROUND_SHARED_ROOF_UPPER_GROUND",
+      "roof_bounds_m": [
+        [
+          -2650.0,
+          -1380.0,
+          156.0
+        ],
+        [
+          -1850.0,
+          -680.0,
+          168.0
+        ]
+      ],
+      "courts": [
+        {
+          "id": "GROUND_UPPER_-1_-1220",
+          "x": -2500,
+          "y": -1220,
+          "floor_z_m": 168,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "GROUND_LOWER_-1_-1220",
+          "x": -2720.0,
+          "y": -1220,
+          "floor_z_m": 40,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "GROUND_UPPER_-1_-920",
+          "x": -2500,
+          "y": -920,
+          "floor_z_m": 168,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "GROUND_LOWER_-1_-920",
+          "x": -2720.0,
+          "y": -920,
+          "floor_z_m": 40,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "GROUND_UPPER_1_-1220",
+          "x": -2000,
+          "y": -1220,
+          "floor_z_m": 168,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "GROUND_LOWER_1_-1220",
+          "x": -1780.0,
+          "y": -1220,
+          "floor_z_m": 40,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "GROUND_UPPER_1_-920",
+          "x": -2000,
+          "y": -920,
+          "floor_z_m": 168,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "GROUND_LOWER_1_-920",
+          "x": -1780.0,
+          "y": -920,
+          "floor_z_m": 40,
+          "footprint_m": [
+            72,
+            90
+          ]
+        }
+      ],
+      "common_hall_axis_xy": [
+        -2250,
+        -1030
+      ],
+      "roof_thickness_m": 12,
+      "clear_height_m": 116,
+      "scope": "4 upper and 4 lower courts, schematic clinic/library and two static lifts; no full-city fitout"
+    },
+    {
+      "id": "HIGH",
+      "lower_z_m": 3800,
+      "upper_z_m": 3928,
+      "roof": "HIGH_SHARED_ROOF_UPPER_GROUND",
+      "roof_bounds_m": [
+        [
+          -800.0,
+          -900.0,
+          3916.0
+        ],
+        [
+          200.0,
+          -100.0,
+          3928.0
+        ]
+      ],
+      "courts": [
+        {
+          "id": "HIGH_UPPER_-1_-690",
+          "x": -550,
+          "y": -690,
+          "floor_z_m": 3928,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "HIGH_LOWER_-1_-690",
+          "x": -870.0,
+          "y": -690,
+          "floor_z_m": 3800,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "HIGH_UPPER_-1_-390",
+          "x": -550,
+          "y": -390,
+          "floor_z_m": 3928,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "HIGH_LOWER_-1_-390",
+          "x": -870.0,
+          "y": -390,
+          "floor_z_m": 3800,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "HIGH_UPPER_1_-690",
+          "x": -50,
+          "y": -690,
+          "floor_z_m": 3928,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "HIGH_LOWER_1_-690",
+          "x": 270.0,
+          "y": -690,
+          "floor_z_m": 3800,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "HIGH_UPPER_1_-390",
+          "x": -50,
+          "y": -390,
+          "floor_z_m": 3928,
+          "footprint_m": [
+            72,
+            90
+          ]
+        },
+        {
+          "id": "HIGH_LOWER_1_-390",
+          "x": 270.0,
+          "y": -390,
+          "floor_z_m": 3800,
+          "footprint_m": [
+            72,
+            90
+          ]
+        }
+      ],
+      "common_hall_axis_xy": [
+        -300,
+        -500
+      ],
+      "roof_thickness_m": 12,
+      "clear_height_m": 116,
+      "scope": "4 upper and 4 lower courts, schematic clinic/library and two static lifts; no full-city fitout"
+    }
+  ],
+  "cameras": {
+    "01_oblique": [
+      [
+        10000,
+        -15000,
+        8500
+      ],
+      [
+        0,
+        0,
+        2400
+      ],
+      7700
+    ],
+    "02_side": [
+      [
+        16000,
+        0,
+        3300
+      ],
+      [
+        0,
+        0,
+        2400
+      ],
+      7700
+    ],
+    "03_back": [
+      [
+        0,
+        16000,
+        3900
+      ],
+      [
+        0,
+        0,
+        2400
+      ],
+      7700
+    ],
+    "04_city": [
+      [
+        12500,
+        -17500,
+        11000
+      ],
+      [
+        0,
+        0,
+        1800
+      ],
+      14000
+    ],
+    "05_shared_high": [
+      [
+        1800,
+        -3900,
+        5700
+      ],
+      [
+        -300,
+        -600,
+        3870
+      ],
+      2300
+    ],
+    "06_shared_ground": [
+      [
+        -500,
+        -4200,
+        1800
+      ],
+      [
+        -2250,
+        -1050,
+        120
+      ],
+      2150
+    ],
+    "07_front": [
+      [
+        0,
+        -18000,
+        2800
+      ],
+      [
+        0,
+        0,
+        2400
+      ],
+      7700
+    ]
+  },
+  "render_source": "one reimported selected.glb; context only in 04_city",
+  "new_envelope": true,
+  "g6_mesh_reused": false,
+  "macro_envelope_is_full_floor_city": false,
+  "public_incisions": [
+    {
+      "name": "HIGH_STREET_OPEN_SKY_CLEFT",
+      "center_m": [
+        -300,
+        -950,
+        4800
+      ],
+      "size_m": [
+        1260,
+        1700,
+        2000
+      ]
+    },
+    {
+      "name": "LOWER_CIVIC_HALL_AND_UPPER_TERRACE",
+      "center_m": [
+        -2250,
+        -1000,
+        150
+      ],
+      "size_m": [
+        800,
+        1400,
+        260
+      ]
+    }
+  ],
+  "formal_art_adoption": false,
+  "minecraft": "HOLD",
+  "work_transfer": false
+}

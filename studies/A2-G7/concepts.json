@@ -1,0 +1,25 @@
+{
+  "I": {
+    "title": "合流天窟",
+    "principle": "one shared public void, thick civic catchments and an open-sky street incision",
+    "stage": "BLOCKOUT_3D",
+    "art_status": "HOLD",
+    "dimensions_m": {
+      "width": 5694.24072265625,
+      "depth": 3045.619384765625,
+      "height": 5054.06103515625
+    },
+    "mass_generation_limit": "arch curvature is imposed, not derived from urban use; no successful new formation law claimed"
+  },
+  "II": {
+    "title": "斜交縫都",
+    "principle": "changing district-sharing partners creates oblique civic junctions",
+    "stage": "CONCEPT_ONLY",
+    "art_status": "DEFERRED",
+    "dimensions_m": null,
+    "actual_3d": false,
+    "limit": "risk of diagonal rack / bridge assemblage; no rendered-art or geometry validation claimed"
+  },
+  "selected_for_detail": null,
+  "central_review": "NOT_REVIEWED"
+}

@@ -1,0 +1,1359 @@
+{
+  "study": "A2-G7",
+  "loader": "trimesh, independent of Blender",
+  "gltf_to_study_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "selected_glb_sha256": "d79e95e7cad752d33b0824f6bca26f9ebe0d801448702bf2612be921a7c3099c",
+  "bounds_m": [
+    [
+      -2830.0,
+      -1495.0,
+      0.0
+    ],
+    [
+      2864.24072265625,
+      1550.619384765625,
+      5054.06103515625
+    ]
+  ],
+  "dimensions_m": {
+    "width": 5694.24072265625,
+    "depth": 3045.619384765625,
+    "height": 5054.06103515625
+  },
+  "bounds_delta_vs_blender_m": 0.0,
+  "all_vertices_finite": true,
+  "geometry_objects": 133,
+  "triangles": 3262,
+  "support": {
+    "passed": 128,
+    "samples": 128,
+    "probes": [
+      {
+        "court": "GROUND_UPPER_-1_-1220",
+        "xy_m": [
+          -2535,
+          -1264
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-1220",
+        "xy_m": [
+          -2535,
+          -1176
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-1220",
+        "xy_m": [
+          -2465,
+          -1264
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-1220",
+        "xy_m": [
+          -2465,
+          -1176
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-1220",
+        "xy_m": [
+          -2530,
+          -1220
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-1220",
+        "xy_m": [
+          -2470,
+          -1220
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-1220",
+        "xy_m": [
+          -2500,
+          -1182
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-1220",
+        "xy_m": [
+          -2500,
+          -1258
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-1220",
+        "xy_m": [
+          -2755.0,
+          -1264
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-1220",
+        "xy_m": [
+          -2755.0,
+          -1176
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-1220",
+        "xy_m": [
+          -2685.0,
+          -1264
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-1220",
+        "xy_m": [
+          -2685.0,
+          -1176
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-1220",
+        "xy_m": [
+          -2750.0,
+          -1220
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-1220",
+        "xy_m": [
+          -2690.0,
+          -1220
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-1220",
+        "xy_m": [
+          -2720.0,
+          -1182
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-1220",
+        "xy_m": [
+          -2720.0,
+          -1258
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-920",
+        "xy_m": [
+          -2535,
+          -964
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-920",
+        "xy_m": [
+          -2535,
+          -876
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-920",
+        "xy_m": [
+          -2465,
+          -964
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-920",
+        "xy_m": [
+          -2465,
+          -876
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-920",
+        "xy_m": [
+          -2530,
+          -920
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-920",
+        "xy_m": [
+          -2470,
+          -920
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-920",
+        "xy_m": [
+          -2500,
+          -882
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_-1_-920",
+        "xy_m": [
+          -2500,
+          -958
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-920",
+        "xy_m": [
+          -2755.0,
+          -964
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-920",
+        "xy_m": [
+          -2755.0,
+          -876
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-920",
+        "xy_m": [
+          -2685.0,
+          -964
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-920",
+        "xy_m": [
+          -2685.0,
+          -876
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-920",
+        "xy_m": [
+          -2750.0,
+          -920
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-920",
+        "xy_m": [
+          -2690.0,
+          -920
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-920",
+        "xy_m": [
+          -2720.0,
+          -882
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_-1_-920",
+        "xy_m": [
+          -2720.0,
+          -958
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-1220",
+        "xy_m": [
+          -2035,
+          -1264
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-1220",
+        "xy_m": [
+          -2035,
+          -1176
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-1220",
+        "xy_m": [
+          -1965,
+          -1264
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-1220",
+        "xy_m": [
+          -1965,
+          -1176
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-1220",
+        "xy_m": [
+          -2030,
+          -1220
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-1220",
+        "xy_m": [
+          -1970,
+          -1220
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-1220",
+        "xy_m": [
+          -2000,
+          -1182
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-1220",
+        "xy_m": [
+          -2000,
+          -1258
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-1220",
+        "xy_m": [
+          -1815.0,
+          -1264
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-1220",
+        "xy_m": [
+          -1815.0,
+          -1176
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-1220",
+        "xy_m": [
+          -1745.0,
+          -1264
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-1220",
+        "xy_m": [
+          -1745.0,
+          -1176
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-1220",
+        "xy_m": [
+          -1810.0,
+          -1220
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-1220",
+        "xy_m": [
+          -1750.0,
+          -1220
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-1220",
+        "xy_m": [
+          -1780.0,
+          -1182
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-1220",
+        "xy_m": [
+          -1780.0,
+          -1258
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-920",
+        "xy_m": [
+          -2035,
+          -964
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-920",
+        "xy_m": [
+          -2035,
+          -876
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-920",
+        "xy_m": [
+          -1965,
+          -964
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-920",
+        "xy_m": [
+          -1965,
+          -876
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-920",
+        "xy_m": [
+          -2030,
+          -920
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-920",
+        "xy_m": [
+          -1970,
+          -920
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-920",
+        "xy_m": [
+          -2000,
+          -882
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_UPPER_1_-920",
+        "xy_m": [
+          -2000,
+          -958
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-920",
+        "xy_m": [
+          -1815.0,
+          -964
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-920",
+        "xy_m": [
+          -1815.0,
+          -876
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-920",
+        "xy_m": [
+          -1745.0,
+          -964
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-920",
+        "xy_m": [
+          -1745.0,
+          -876
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-920",
+        "xy_m": [
+          -1810.0,
+          -920
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-920",
+        "xy_m": [
+          -1750.0,
+          -920
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-920",
+        "xy_m": [
+          -1780.0,
+          -882
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "GROUND_LOWER_1_-920",
+        "xy_m": [
+          -1780.0,
+          -958
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-690",
+        "xy_m": [
+          -585,
+          -734
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-690",
+        "xy_m": [
+          -585,
+          -646
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-690",
+        "xy_m": [
+          -515,
+          -734
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-690",
+        "xy_m": [
+          -515,
+          -646
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-690",
+        "xy_m": [
+          -580,
+          -690
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-690",
+        "xy_m": [
+          -520,
+          -690
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-690",
+        "xy_m": [
+          -550,
+          -652
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-690",
+        "xy_m": [
+          -550,
+          -728
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-690",
+        "xy_m": [
+          -905.0,
+          -734
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-690",
+        "xy_m": [
+          -905.0,
+          -646
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-690",
+        "xy_m": [
+          -835.0,
+          -734
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-690",
+        "xy_m": [
+          -835.0,
+          -646
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-690",
+        "xy_m": [
+          -900.0,
+          -690
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-690",
+        "xy_m": [
+          -840.0,
+          -690
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-690",
+        "xy_m": [
+          -870.0,
+          -652
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-690",
+        "xy_m": [
+          -870.0,
+          -728
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-390",
+        "xy_m": [
+          -585,
+          -434
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-390",
+        "xy_m": [
+          -585,
+          -346
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-390",
+        "xy_m": [
+          -515,
+          -434
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-390",
+        "xy_m": [
+          -515,
+          -346
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-390",
+        "xy_m": [
+          -580,
+          -390
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-390",
+        "xy_m": [
+          -520,
+          -390
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-390",
+        "xy_m": [
+          -550,
+          -352
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_-1_-390",
+        "xy_m": [
+          -550,
+          -428
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-390",
+        "xy_m": [
+          -905.0,
+          -434
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-390",
+        "xy_m": [
+          -905.0,
+          -346
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-390",
+        "xy_m": [
+          -835.0,
+          -434
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-390",
+        "xy_m": [
+          -835.0,
+          -346
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-390",
+        "xy_m": [
+          -900.0,
+          -390
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-390",
+        "xy_m": [
+          -840.0,
+          -390
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-390",
+        "xy_m": [
+          -870.0,
+          -352
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_-1_-390",
+        "xy_m": [
+          -870.0,
+          -428
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-690",
+        "xy_m": [
+          -85,
+          -734
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-690",
+        "xy_m": [
+          -85,
+          -646
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-690",
+        "xy_m": [
+          -15,
+          -734
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-690",
+        "xy_m": [
+          -15,
+          -646
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-690",
+        "xy_m": [
+          -80,
+          -690
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-690",
+        "xy_m": [
+          -20,
+          -690
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-690",
+        "xy_m": [
+          -50,
+          -652
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-690",
+        "xy_m": [
+          -50,
+          -728
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-690",
+        "xy_m": [
+          235.0,
+          -734
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-690",
+        "xy_m": [
+          235.0,
+          -646
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-690",
+        "xy_m": [
+          305.0,
+          -734
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-690",
+        "xy_m": [
+          305.0,
+          -646
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-690",
+        "xy_m": [
+          240.0,
+          -690
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-690",
+        "xy_m": [
+          300.0,
+          -690
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-690",
+        "xy_m": [
+          270.0,
+          -652
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-690",
+        "xy_m": [
+          270.0,
+          -728
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-390",
+        "xy_m": [
+          -85,
+          -434
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-390",
+        "xy_m": [
+          -85,
+          -346
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-390",
+        "xy_m": [
+          -15,
+          -434
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-390",
+        "xy_m": [
+          -15,
+          -346
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-390",
+        "xy_m": [
+          -80,
+          -390
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-390",
+        "xy_m": [
+          -20,
+          -390
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-390",
+        "xy_m": [
+          -50,
+          -352
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_UPPER_1_-390",
+        "xy_m": [
+          -50,
+          -428
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-390",
+        "xy_m": [
+          235.0,
+          -434
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-390",
+        "xy_m": [
+          235.0,
+          -346
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-390",
+        "xy_m": [
+          305.0,
+          -434
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-390",
+        "xy_m": [
+          305.0,
+          -346
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-390",
+        "xy_m": [
+          240.0,
+          -390
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-390",
+        "xy_m": [
+          300.0,
+          -390
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-390",
+        "xy_m": [
+          270.0,
+          -352
+        ],
+        "error_m": 0.0,
+        "pass": true
+      },
+      {
+        "court": "HIGH_LOWER_1_-390",
+        "xy_m": [
+          270.0,
+          -428
+        ],
+        "error_m": 0.0,
+        "pass": true
+      }
+    ]
+  },
+  "housing_vs_envelope_wing_samples": 80,
+  "housing_vs_civic_room_aabb_collisions": [],
+  "shared_hall_clearance_probes": [
+    {
+      "pair": "GROUND",
+      "xy": [
+        -2270,
+        -1180
+      ],
+      "hall_clear_m": 116.0,
+      "same_roof": true
+    },
+    {
+      "pair": "GROUND",
+      "xy": [
+        -2230,
+        -1180
+      ],
+      "hall_clear_m": 116.0,
+      "same_roof": true
+    },
+    {
+      "pair": "GROUND",
+      "xy": [
+        -2270,
+        -930
+      ],
+      "hall_clear_m": 116.0,
+      "same_roof": true
+    },
+    {
+      "pair": "GROUND",
+      "xy": [
+        -2230,
+        -930
+      ],
+      "hall_clear_m": 116.0,
+      "same_roof": true
+    },
+    {
+      "pair": "HIGH",
+      "xy": [
+        -320,
+        -650
+      ],
+      "hall_clear_m": 116.0,
+      "same_roof": true
+    },
+    {
+      "pair": "HIGH",
+      "xy": [
+        -280,
+        -650
+      ],
+      "hall_clear_m": 116.0,
+      "same_roof": true
+    },
+    {
+      "pair": "HIGH",
+      "xy": [
+        -320,
+        -400
+      ],
+      "hall_clear_m": 116.0,
+      "same_roof": true
+    },
+    {
+      "pair": "HIGH",
+      "xy": [
+        -280,
+        -400
+      ],
+      "hall_clear_m": 116.0,
+      "same_roof": true
+    }
+  ],
+  "open_sky_cleft": [
+    {
+      "xy": [
+        -850,
+        -600
+      ],
+      "envelope_z_hits": [
+        2484.18683,
+        3800.0
+      ],
+      "above_3800_removed": true
+    },
+    {
+      "xy": [
+        -600,
+        -600
+      ],
+      "envelope_z_hits": [
+        2731.40656,
+        3800.0
+      ],
+      "above_3800_removed": true
+    },
+    {
+      "xy": [
+        -300,
+        -600
+      ],
+      "envelope_z_hits": [
+        2970.81938,
+        3800.0
+      ],
+      "above_3800_removed": true
+    },
+    {
+      "xy": [
+        0,
+        -600
+      ],
+      "envelope_z_hits": [
+        3145.67921,
+        3800.0
+      ],
+      "above_3800_removed": true
+    },
+    {
+      "xy": [
+        250,
+        -600
+      ],
+      "envelope_z_hits": [
+        3252.40104,
+        3800.0
+      ],
+      "above_3800_removed": true
+    }
+  ],
+  "roof_removal_test": "All 8 upper court footprints use their pair shared roof as sole modeled ground; deleting it removes that ground. Geometry dependency only.",
+  "ground_to_high_route": "Static connected ground pavement to 3760m transport reservation and high district ground; local 128m lift meshes. No operational simulation, full accessibility or evacuation verification.",
+  "not_tested": [
+    "full-model collisions",
+    "structural safety",
+    "occupiable macro envelope",
+    "transit capacity",
+    "services",
+    "pressure/wind/thermal comfort",
+    "canonical-city clearances"
+  ],
+  "art_status": "HOLD",
+  "formal_adoption": false,
+  "formal_M247C_modified": false,
+  "world_writes": 0,
+  "work_transfer": false
+}
