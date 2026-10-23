@@ -5707,7 +5707,7 @@
       "id": "EAST_CITY_STATION",
       "c": [
         750,
-        580,
+        360,
         2285
       ],
       "size": [
@@ -6187,7 +6187,7 @@
       "id": "LIFT_E_COLUMN_-1_-1",
       "c": [
         760,
-        522,
+        322,
         1905
       ],
       "size": [
@@ -6203,7 +6203,7 @@
       "id": "LIFT_E_COLUMN_-1_1",
       "c": [
         760,
-        598,
+        398,
         1905
       ],
       "size": [
@@ -6219,7 +6219,7 @@
       "id": "LIFT_E_COLUMN_1_-1",
       "c": [
         830,
-        522,
+        322,
         1905
       ],
       "size": [
@@ -6235,7 +6235,7 @@
       "id": "LIFT_E_COLUMN_1_1",
       "c": [
         830,
-        598,
+        398,
         1905
       ],
       "size": [
@@ -6251,7 +6251,7 @@
       "id": "LIFT_E_CROSS_BRACE_1520",
       "c": [
         795,
-        560,
+        360,
         1520
       ],
       "size": [
@@ -6267,7 +6267,7 @@
       "id": "LIFT_E_CROSS_BRACE_1616",
       "c": [
         795,
-        560,
+        360,
         1616
       ],
       "size": [
@@ -6283,7 +6283,7 @@
       "id": "LIFT_E_CROSS_BRACE_1712",
       "c": [
         795,
-        560,
+        360,
         1712
       ],
       "size": [
@@ -6299,7 +6299,7 @@
       "id": "LIFT_E_CROSS_BRACE_1808",
       "c": [
         795,
-        560,
+        360,
         1808
       ],
       "size": [
@@ -6315,7 +6315,7 @@
       "id": "LIFT_E_CROSS_BRACE_1904",
       "c": [
         795,
-        560,
+        360,
         1904
       ],
       "size": [
@@ -6331,7 +6331,7 @@
       "id": "LIFT_E_CROSS_BRACE_2000",
       "c": [
         795,
-        560,
+        360,
         2000
       ],
       "size": [
@@ -6347,7 +6347,7 @@
       "id": "LIFT_E_CROSS_BRACE_2096",
       "c": [
         795,
-        560,
+        360,
         2096
       ],
       "size": [
@@ -6363,7 +6363,7 @@
       "id": "LIFT_E_CROSS_BRACE_2192",
       "c": [
         795,
-        560,
+        360,
         2192
       ],
       "size": [
@@ -6379,7 +6379,7 @@
       "id": "LIFT_E_CROSS_BRACE_2288",
       "c": [
         795,
-        560,
+        360,
         2288
       ],
       "size": [
@@ -6395,7 +6395,7 @@
       "id": "LIFT_E_CAR_BOTTOM",
       "c": [
         795,
-        560,
+        360,
         1528
       ],
       "size": [
@@ -6411,7 +6411,7 @@
       "id": "LIFT_E_CAR_TOP",
       "c": [
         795,
-        560,
+        360,
         2282
       ],
       "size": [
@@ -6545,6 +6545,335 @@
       "width": 32,
       "material": "CIVIC",
       "role": "public_corridor"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_ENTRY__LOWER_HALL_0",
+      "from": [
+        -370,
+        -405,
+        715
+      ],
+      "to": [
+        -370,
+        -50,
+        723
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_0",
+      "from": [
+        -370,
+        -50,
+        723
+      ],
+      "to": [
+        -30,
+        155,
+        715
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_1",
+      "from": [
+        -30,
+        155,
+        715
+      ],
+      "to": [
+        20,
+        220,
+        715
+      ],
+      "width": 25,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL_0",
+      "from": [
+        35,
+        230,
+        1525
+      ],
+      "to": [
+        410,
+        135,
+        1544
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_UPPER_HALL__EAST_TRANSIT_LOWER_0",
+      "from": [
+        410,
+        135,
+        1544
+      ],
+      "to": [
+        795,
+        360,
+        1544
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_EAST_TRANSIT_UPPER__EAST_LIVING_CITY_0",
+      "from": [
+        795,
+        360,
+        2288
+      ],
+      "to": [
+        1080,
+        650,
+        2302
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_0",
+      "from": [
+        -370,
+        -50,
+        723
+      ],
+      "to": [
+        -420,
+        320,
+        715
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_1",
+      "from": [
+        -420,
+        320,
+        715
+      ],
+      "to": [
+        -700,
+        465,
+        702
+      ],
+      "width": 25,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_0",
+      "from": [
+        -700,
+        465,
+        1746
+      ],
+      "to": [
+        -1030,
+        560,
+        1760
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_LOWER_ENTRY",
+      "c": [
+        -370,
+        -405,
+        707
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_LOWER_HALL",
+      "c": [
+        -370,
+        -50,
+        715
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_LOWER_TRANSIT",
+      "c": [
+        20,
+        220,
+        707
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_UPPER_TRANSIT",
+      "c": [
+        35,
+        230,
+        1517
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_UPPER_HALL",
+      "c": [
+        410,
+        135,
+        1536
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_EAST_TRANSIT_LOWER",
+      "c": [
+        795,
+        360,
+        1536
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_EAST_TRANSIT_UPPER",
+      "c": [
+        795,
+        360,
+        2280
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_EAST_LIVING_CITY",
+      "c": [
+        1080,
+        650,
+        2294
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_WEST_TRANSIT_LOWER",
+      "c": [
+        -700,
+        465,
+        694
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_WEST_TRANSIT_UPPER",
+      "c": [
+        -700,
+        465,
+        1738
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_WEST_LIVING_CITY",
+      "c": [
+        -1030,
+        560,
+        1752
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
     }
   ],
   "route": {
@@ -6607,7 +6936,7 @@
         "id": "EAST_TRANSIT_UPPER",
         "p": [
           795,
-          560,
+          360,
           2288
         ],
         "kind": "lift_landing"
@@ -6654,13 +6983,13 @@
         "from": "LOWER_ENTRY",
         "to": "LOWER_HALL",
         "mode": "walk",
-        "geometry": "P1_PUBLIC_APPROACH"
+        "geometry": "WALK_DECK_LOWER_ENTRY__LOWER_HALL"
       },
       {
         "from": "LOWER_HALL",
         "to": "LOWER_TRANSIT",
         "mode": "walk",
-        "geometry": "LOW_EAST_EXIT"
+        "geometry": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT"
       },
       {
         "from": "LOWER_TRANSIT",
@@ -6672,13 +7001,13 @@
         "from": "UPPER_TRANSIT",
         "to": "UPPER_HALL",
         "mode": "walk",
-        "geometry": "UPPER_PUBLIC_BRIDGE"
+        "geometry": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL"
       },
       {
         "from": "UPPER_HALL",
         "to": "EAST_TRANSIT_LOWER",
         "mode": "walk",
-        "geometry": "EAST_STATION_BRIDGE"
+        "geometry": "WALK_DECK_UPPER_HALL__EAST_TRANSIT_LOWER"
       },
       {
         "from": "EAST_TRANSIT_LOWER",
@@ -6690,13 +7019,13 @@
         "from": "EAST_TRANSIT_UPPER",
         "to": "EAST_LIVING_CITY",
         "mode": "walk",
-        "geometry": "EAST_CITY_STATION_BRIDGE"
+        "geometry": "WALK_DECK_EAST_TRANSIT_UPPER__EAST_LIVING_CITY"
       },
       {
         "from": "LOWER_HALL",
         "to": "WEST_TRANSIT_LOWER",
         "mode": "walk",
-        "geometry": "LOW_WEST_EXIT"
+        "geometry": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER"
       },
       {
         "from": "WEST_TRANSIT_LOWER",
@@ -6708,7 +7037,7 @@
         "from": "WEST_TRANSIT_UPPER",
         "to": "WEST_LIVING_CITY",
         "mode": "walk",
-        "geometry": "WEST_CITY_STATION_BRIDGE"
+        "geometry": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY"
       }
     ]
   },
@@ -6726,5 +7055,6 @@
   },
   "evidence_status": "EXPERIMENTAL_REAL_MESH",
   "completion": "INCOMPLETE",
-  "construction": "HOLD"
+  "construction": "HOLD",
+  "revision": "junction.v3"
 }
