@@ -1,0 +1,21 @@
+{
+  "study_id": "C2-G6",
+  "frame": "SYNTHETIC_METRES_Z_UP_NOT_MINECRAFT",
+  "urban_extent_m": [10000, 10000],
+  "directional_conditions_from_user": ["north mountains", "west cliff", "east artificial inland sea", "southwest negative space"],
+  "unverified_current_elements": ["W0", "H1", "H2", "H3", "H4", "H5", "H6", "SB01-SB16", "V1-V3", "three major urban axes", "central HALO-9", "CELESTIAL SPINE"],
+  "synthetic_facility_parcels": 16,
+  "synthetic_major_facility_proxies": 4,
+  "synthetic_aerial_district_proxies": 6,
+  "proxy_to_formal_ID_mapping": null,
+  "formal_location_changes": false,
+  "current_facility_program_reference": "../C2-G5/RELATIONS.csv; M119 historical uses only, current names unconfirmed",
+  "comparison_schemes": {
+    "A": {"title": "会流天蓋", "basis": "G5 A", "status": "BLOCKOUT_ART_HOLD"},
+    "B": {"title": "交襞公都", "basis": "G5 A alternative geometry", "status": "COMPARISON_REJECT", "is_G5_B": false}
+  },
+  "retained_independent_alternative": "../C2-G5/ B 六庭共議都",
+  "formal_M247_C": "UNCHANGED",
+  "minecraft": "HOLD",
+  "work_migration": false
+}

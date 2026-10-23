@@ -1,0 +1,278 @@
+{
+  "study_id": "C2-G6",
+  "scheme": "B",
+  "units": "m",
+  "up": "Z",
+  "central_bbox_min": [
+    -1366.87646484375,
+    -2225.0,
+    0.0
+  ],
+  "central_bbox_max": [
+    2397.70947265625,
+    2269.024169921875,
+    2671.2412109375
+  ],
+  "central_dimensions": [
+    3764.5859375,
+    4494.024169921875,
+    2671.2412109375
+  ],
+  "context_extent_m": 10000,
+  "context_is_synthetic": true,
+  "SB_and_H_position_mapping": null,
+  "central_objects": 1268,
+  "district_loggias": [
+    {
+      "wing": 0,
+      "floor_z": 950,
+      "street_modules": 13,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 0,
+      "floor_z": 1420,
+      "street_modules": 13,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 0,
+      "floor_z": 1870,
+      "street_modules": 10,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 1,
+      "floor_z": 950,
+      "street_modules": 7,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 1,
+      "floor_z": 1420,
+      "street_modules": 12,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 1,
+      "floor_z": 1870,
+      "street_modules": 12,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 2,
+      "floor_z": 950,
+      "street_modules": 12,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 2,
+      "floor_z": 1420,
+      "street_modules": 13,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 2,
+      "floor_z": 1870,
+      "street_modules": 10,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    }
+  ],
+  "program_operations": [
+    {
+      "operation": "continuous mass minus daylight room and 18 street loggias",
+      "voxel_union_resolution_m": 48,
+      "scheme": "B"
+    }
+  ],
+  "cameras": {
+    "01_city_10km": {
+      "eye": [
+        8000,
+        -11000,
+        6500
+      ],
+      "target": [
+        0,
+        0,
+        600
+      ],
+      "lens": 35
+    },
+    "02_approach_alpha": {
+      "eye": [
+        0,
+        -5200,
+        160
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "lens": 24
+    },
+    "03_approach_beta": {
+      "eye": [
+        4900,
+        1800,
+        300
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "lens": 28
+    },
+    "04_approach_gamma": {
+      "eye": [
+        -4600,
+        2100,
+        220
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "lens": 28
+    },
+    "05_oblique": {
+      "eye": [
+        6100,
+        -7500,
+        4800
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "ortho": 7800
+    },
+    "06_front": {
+      "eye": [
+        0,
+        -9000,
+        1700
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    },
+    "07_side": {
+      "eye": [
+        9000,
+        0,
+        1700
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    },
+    "08_back": {
+      "eye": [
+        0,
+        9000,
+        2000
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    },
+    "09_aerial_district": {
+      "eye": [
+        3500,
+        -3300,
+        3000
+      ],
+      "target": [
+        0,
+        0,
+        800
+      ],
+      "lens": 25
+    },
+    "10_top": {
+      "eye": [
+        0,
+        0,
+        10500
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "ortho": 10500
+    },
+    "11_public_chamber": {
+      "eye": [
+        -420,
+        -530,
+        31.7
+      ],
+      "target": [
+        60,
+        100,
+        700
+      ],
+      "lens": 20
+    },
+    "12_living_street": {
+      "eye": [
+        -420,
+        -550,
+        31.7
+      ],
+      "target": [
+        -505,
+        400,
+        52
+      ],
+      "lens": 24
+    },
+    "13_elevated_living_street": {
+      "eye": [
+        69.83178364303015,
+        1015.0731256055589,
+        1421.7
+      ],
+      "target": [
+        13.640792591770712,
+        1154.150702966819,
+        1440
+      ],
+      "lens": 24
+    }
+  },
+  "render": {
+    "engine": "Cycles",
+    "samples": 10,
+    "resolution": [
+      1000,
+      750
+    ]
+  },
+  "interior_floor_rays": {
+    "11_public_chamber": [
+      16.700000762939453,
+      "great_public_chamber_floor"
+    ],
+    "12_living_street": [
+      16.700000762939453,
+      "great_public_chamber_floor"
+    ],
+    "13_elevated_living_street": null
+  }
+}

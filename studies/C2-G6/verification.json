@@ -1,0 +1,254 @@
+{
+  "study_id": "C2-G6",
+  "stage": "BLOCKOUT_3D",
+  "date_jst": "2026-10-23",
+  "gltf": {
+    "A_CENTRAL.glb": {
+      "readable": true,
+      "geometry_count": 1211,
+      "vertices": 46434,
+      "faces": 45716,
+      "bounds_gltf_y_up": [
+        [
+          -1785.88671875,
+          -61.428985595703125,
+          -2397.709450891461
+        ],
+        [
+          2356.6051323308093,
+          2277.791015625,
+          2225.0
+        ]
+      ],
+      "extent_gltf_y_up_m": [
+        4142.491851080809,
+        2339.220001220703,
+        4622.7094508914615
+      ],
+      "all_vertices_finite": true,
+      "component_meshes_watertight": 0,
+      "note": "Component check only; combined city is not one manifold solid.",
+      "component_meshes_watertight_after_vertex_merge": 1209,
+      "main_mass_after_vertex_merge": {
+        "watertight": false,
+        "connected_components": 2
+      }
+    },
+    "A_CITY.glb": {
+      "readable": true,
+      "geometry_count": 1434,
+      "vertices": 55512,
+      "faces": 50284,
+      "bounds_gltf_y_up": [
+        [
+          -5000.0,
+          -125.0,
+          -5260.0
+        ],
+        [
+          5000.0,
+          2277.791015625,
+          5000.0
+        ]
+      ],
+      "extent_gltf_y_up_m": [
+        10000.0,
+        2402.791015625,
+        10260.0
+      ],
+      "all_vertices_finite": true,
+      "component_meshes_watertight": 0,
+      "note": "Component check only; combined city is not one manifold solid.",
+      "component_meshes_watertight_after_vertex_merge": 1425,
+      "main_mass_after_vertex_merge": {
+        "watertight": false,
+        "connected_components": 2
+      }
+    },
+    "B_CENTRAL.glb": {
+      "readable": true,
+      "geometry_count": 1243,
+      "vertices": 51297,
+      "faces": 55626,
+      "bounds_gltf_y_up": [
+        [
+          -2297.565686288235,
+          0.0,
+          -1872.84033203125
+        ],
+        [
+          2221.0404124634338,
+          2482.06298828125,
+          2225.0
+        ]
+      ],
+      "extent_gltf_y_up_m": [
+        4518.6060987516685,
+        2482.06298828125,
+        4097.84033203125
+      ],
+      "all_vertices_finite": true,
+      "component_meshes_watertight": 0,
+      "note": "Component check only; combined city is not one manifold solid.",
+      "component_meshes_watertight_after_vertex_merge": 1241,
+      "main_mass_after_vertex_merge": {
+        "watertight": false,
+        "connected_components": 3
+      }
+    },
+    "B_CITY.glb": {
+      "readable": true,
+      "geometry_count": 1466,
+      "vertices": 60375,
+      "faces": 60194,
+      "bounds_gltf_y_up": [
+        [
+          -5000.0,
+          -125.0,
+          -5260.0
+        ],
+        [
+          5000.0,
+          2482.06298828125,
+          5000.0
+        ]
+      ],
+      "extent_gltf_y_up_m": [
+        10000.0,
+        2607.06298828125,
+        10260.0
+      ],
+      "all_vertices_finite": true,
+      "component_meshes_watertight": 0,
+      "note": "Component check only; combined city is not one manifold solid.",
+      "component_meshes_watertight_after_vertex_merge": 1457,
+      "main_mass_after_vertex_merge": {
+        "watertight": false,
+        "connected_components": 3
+      }
+    }
+  },
+  "images": {
+    "CITY_AND_APPROACHES.png": [
+      1900,
+      1719
+    ],
+    "COMPARISON.png": [
+      1900,
+      1719
+    ],
+    "initial_comparison/A/05_oblique.png": [
+      1000,
+      750
+    ],
+    "initial_comparison/A/08_back.png": [
+      1000,
+      750
+    ],
+    "initial_comparison/B/05_oblique.png": [
+      1000,
+      750
+    ],
+    "initial_comparison/B/08_back.png": [
+      1000,
+      750
+    ],
+    "INTERIORS.png": [
+      1900,
+      1719
+    ],
+    "renders/A/01_city_10km.png": [
+      1440,
+      1080
+    ],
+    "renders/A/02_approach_alpha.png": [
+      1440,
+      1080
+    ],
+    "renders/A/03_approach_beta.png": [
+      1440,
+      1080
+    ],
+    "renders/A/04_approach_gamma.png": [
+      1440,
+      1080
+    ],
+    "renders/A/05_oblique.png": [
+      1440,
+      1080
+    ],
+    "renders/A/06_front.png": [
+      1440,
+      1080
+    ],
+    "renders/A/07_side.png": [
+      1440,
+      1080
+    ],
+    "renders/A/08_back.png": [
+      1440,
+      1080
+    ],
+    "renders/A/09_aerial_district.png": [
+      1440,
+      1080
+    ],
+    "renders/A/10_top.png": [
+      1440,
+      1080
+    ],
+    "renders/A/11_public_chamber.png": [
+      1440,
+      1080
+    ],
+    "renders/A/12_living_street.png": [
+      1440,
+      1080
+    ],
+    "renders/A/13_elevated_living_street.png": [
+      1440,
+      1080
+    ],
+    "renders/B/05_oblique.png": [
+      1440,
+      1080
+    ],
+    "renders/B/08_back.png": [
+      1440,
+      1080
+    ],
+    "SIX_VIEWS.png": [
+      2160,
+      1375
+    ]
+  },
+  "floor_rays": {
+    "11_public_chamber": [
+      1.7000007629394531,
+      "great_public_chamber_floor"
+    ],
+    "12_living_street": [
+      1.7000007629394531,
+      "great_public_chamber_floor"
+    ],
+    "13_elevated_living_street": [
+      1.700073480606079,
+      "L1420_W1_deck_-1_970"
+    ]
+  },
+  "protected_reference_hashes_match": true,
+  "context": "Synthetic abstract layout only. No mapping to current SB/H/V coordinates.",
+  "art_review_status": "HOLD",
+  "formal_M247_C": "UNCHANGED",
+  "minecraft": "HOLD",
+  "work_migration": false,
+  "limits": [
+    "No structural analysis or all-route accessibility",
+    "Housing blocks are courtyard/service envelopes, not fitted homes",
+    "Transport cores are geometry envelopes, not certified elevators",
+    "No approved W0 overlay, formal H/Y transform or voxel clearance",
+    "All render cameras recorded; context deliberately present",
+    "GLTF is Y-up; Blender is Z-up; extents must be permuted",
+    "Global meshes intersect; component watertightness is not city solidity"
+  ]
+}

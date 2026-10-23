@@ -1,0 +1,264 @@
+{
+  "study_id": "C2-G6",
+  "scheme": "B",
+  "units": "m",
+  "up": "Z",
+  "central_bbox_min": [
+    -2297.565673828125,
+    -2225.0,
+    0.0
+  ],
+  "central_bbox_max": [
+    2221.04052734375,
+    1872.84033203125,
+    2482.06298828125
+  ],
+  "central_dimensions": [
+    4518.606201171875,
+    4097.84033203125,
+    2482.06298828125
+  ],
+  "context_extent_m": 10000,
+  "context_is_synthetic": true,
+  "SB_and_H_position_mapping": null,
+  "central_objects": 1242,
+  "district_loggias": [
+    {
+      "wing": 0,
+      "floor_z": 950,
+      "street_modules": 17,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 0,
+      "floor_z": 1420,
+      "street_modules": 18,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 0,
+      "floor_z": 1870,
+      "street_modules": 16,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 1,
+      "floor_z": 950,
+      "street_modules": 19,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 1,
+      "floor_z": 1420,
+      "street_modules": 17,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    },
+    {
+      "wing": 1,
+      "floor_z": 1870,
+      "street_modules": 14,
+      "purpose": "housing and everyday services envelopes, not fitted dwellings"
+    }
+  ],
+  "program_operations": [
+    {
+      "operation": "continuous mass minus shared sky room, A diagonal ravine, and lateral loggias",
+      "voxel_union_resolution_m": 48,
+      "scheme": "B"
+    }
+  ],
+  "cameras": {
+    "01_city_10km": {
+      "eye": [
+        8000,
+        -11000,
+        6500
+      ],
+      "target": [
+        0,
+        0,
+        600
+      ],
+      "lens": 35
+    },
+    "02_approach_alpha": {
+      "eye": [
+        0,
+        -5200,
+        160
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "lens": 24
+    },
+    "03_approach_beta": {
+      "eye": [
+        4900,
+        1800,
+        300
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "lens": 28
+    },
+    "04_approach_gamma": {
+      "eye": [
+        -4200,
+        2100,
+        220
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "lens": 28
+    },
+    "05_oblique": {
+      "eye": [
+        6100,
+        -7500,
+        4800
+      ],
+      "target": [
+        0,
+        0,
+        1000
+      ],
+      "ortho": 7800
+    },
+    "06_front": {
+      "eye": [
+        0,
+        -9000,
+        1700
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    },
+    "07_side": {
+      "eye": [
+        9000,
+        0,
+        1700
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    },
+    "08_back": {
+      "eye": [
+        0,
+        9000,
+        4500
+      ],
+      "target": [
+        0,
+        0,
+        1100
+      ],
+      "ortho": 6800
+    },
+    "09_aerial_district": {
+      "eye": [
+        3500,
+        -3300,
+        3000
+      ],
+      "target": [
+        0,
+        0,
+        800
+      ],
+      "lens": 25
+    },
+    "10_top": {
+      "eye": [
+        0,
+        0,
+        10500
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "ortho": 10500
+    },
+    "11_public_chamber": {
+      "eye": [
+        -420,
+        -530,
+        31.7
+      ],
+      "target": [
+        60,
+        100,
+        700
+      ],
+      "lens": 20
+    },
+    "12_living_street": {
+      "eye": [
+        -490,
+        -600,
+        31.7
+      ],
+      "target": [
+        -525,
+        -250,
+        40
+      ],
+      "lens": 24
+    },
+    "13_elevated_living_street": {
+      "eye": [
+        1062.6396440299307,
+        986.5201556504522,
+        1421.9
+      ],
+      "target": [
+        1198.5858119454606,
+        1049.912895211719,
+        1440
+      ],
+      "lens": 24
+    }
+  },
+  "render": {
+    "engine": "Cycles",
+    "samples": 20,
+    "resolution": [
+      1440,
+      1080
+    ]
+  },
+  "interior_floor_rays": {
+    "11_public_chamber": [
+      1.7000007629394531,
+      "great_public_chamber_floor"
+    ],
+    "12_living_street": [
+      1.7000007629394531,
+      "great_public_chamber_floor"
+    ],
+    "13_elevated_living_street": [
+      1.700073003768921,
+      "L1420_W0_deck_1_1435"
+    ]
+  },
+  "camera_correction": "Back camera moved outside synthetic mountain volume; geometry unchanged."
+}

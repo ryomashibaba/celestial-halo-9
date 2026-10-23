@@ -1,0 +1,23 @@
+{
+  "study_id": "C2-G6",
+  "parent": "C2-G5",
+  "parent_commit": "9fb9bc4493425b370dbde2eeed775ca133ff2182",
+  "retained_alternative": "C2-G5 B 六庭共議都",
+  "events": [
+    {
+      "event": "SUPERVISOR_PRIORITIZED_G5_A",
+      "date": "2026-10-23"
+    },
+    {
+      "event": "TWO_3D_MASSINGS_COMPARED",
+      "schemes": [
+        "A 会流天蓋",
+        "B 交襞公都"
+      ]
+    },
+    {
+      "event": "A_FULL_CONTEXT_AND_INTERIOR_BLOCKOUT",
+      "status": "ART_HOLD_NOT_ADOPTED"
+    }
+  ]
+}
