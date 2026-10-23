@@ -1,0 +1,48 @@
+{
+  "schema": "m3d1s.junction.readback.v1",
+  "read_from": "GitHub research branch",
+  "git_sha_at_validation": "0badde2b1a59a30f9bbc13fd8aaec7769f9e188f",
+  "date_jst": "2026-10-24",
+  "files": {
+    "source": "studies/M3D-1S/junction/junction_source.json",
+    "mesh_obj": "studies/M3D-1S/junction/M3D1S_JUNCTION.obj",
+    "mesh_glb": "studies/M3D-1S/junction/M3D1S_JUNCTION.glb",
+    "qa": "studies/M3D-1S/junction/junction_preliminary_qa.json"
+  },
+  "meshes": {
+    "named_parts": 423,
+    "vertices": 3384,
+    "triangles": 5076,
+    "all_indices_in_range": true,
+    "unique_names": true
+  },
+  "glb": {
+    "found_in_git_tree": true,
+    "git_blob_sha": "17e11a72565d8b472c885bbf12d1740372a0c051",
+    "bytes": 299168,
+    "glTF_Yup_coordinates": true,
+    "cannot_decode_binary_using_UTF8_only_connector": true,
+    "locally_loaded_in_Blender_or_glTF_viewer": false
+  },
+  "spatial": {
+    "voids": 2,
+    "public_core_test": "BOX_AABB_ONLY",
+    "core_clear": true,
+    "lift_count": 3,
+    "lift_axes_aligned": true,
+    "explicit_pedestrian_deck_geometry": true,
+    "logical_graph_connected": true,
+    "continuous_collision_free_human_route_proven": false
+  },
+  "critical_warnings": [
+    "Triangulated model source and binary artifact persisted, NOT a completed fully accessible building",
+    "No full room volume subtraction watertight/interference test",
+    "Source reserves two rectangular inspection cores but entire public chambers are not free-volume proof",
+    "No independent import of binary GLB into Blender/Unreal, no human aesthetics certification",
+    "M3D-1 audit A01-A05 remains unclosed",
+    "The imported D detailed 4-building research assets were consulted but NOT falsely represented as integrated here"
+  ],
+  "validation_errors": [],
+  "art_status": "NOT_ACCEPTED",
+  "construction": "HOLD"
+}
