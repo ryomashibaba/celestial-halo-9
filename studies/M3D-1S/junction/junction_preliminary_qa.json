@@ -1,35 +1,100 @@
 {
-  "schema": "m3d1s.junction.qa.v2",
-  "date_jst": "2026-10-24",
-  "status": "FUNCTIONAL_MESH_STUDY_NOT_ART",
-  "objects": 403,
-  "vertices": 3224,
-  "triangles": 4836,
-  "finite_mesh": true,
-  "valid_triangle_indices": true,
-  "void_clearance_rectangular_solid_aabb": [
+  "schema": "m3d1s.junction.qa.v3",
+  "geometry": {
+    "objects": 423,
+    "vertices": 3384,
+    "triangles": 5076,
+    "finite_data": true
+  },
+  "reserved_public_voids": [
     {
       "id": "PUBLIC_VOID_LOWER",
-      "obstructions": []
+      "colliding_rectangular_solids": []
     },
     {
       "id": "PUBLIC_VOID_UPPER",
-      "obstructions": []
+      "colliding_rectangular_solids": []
     }
   ],
-  "all_reserved_cores_clear": true,
-  "all_route_nodes_logically_connected": true,
-  "route_edges_with_missing_geometry_refs": [],
-  "zone_count": 2,
-  "limitations": [
-    "Box-AABB core test ignores angled supports & beams; full collision test not performed",
-    "Route graph connects program nodes but the entire walking surface, step-free access, cabin operation and fire/evacuation are not validated",
-    "Buildings are deliberate schematic research masses with visible elements, not detailed final architecture",
-    "No large W0 full integration, no 16 special facility completion",
-    "No Blender/Unreal UI run, no photorealistic render or user art acceptance"
+  "public_void_box_aabb_pass": true,
+  "route_graph_nodes": 11,
+  "route_graph_edges": 10,
+  "all_nodes_logically_reachable": true,
+  "all_graph_edges_link_to_actual_3d_elements": true,
+  "missing_geometry_refs": [],
+  "elevator_axes": [
+    {
+      "edge": [
+        "LOWER_TRANSIT",
+        "UPPER_TRANSIT"
+      ],
+      "horizontal_offset_m": 18.027756377319946,
+      "vertical_offset_m": 810,
+      "aligned": true
+    },
+    {
+      "edge": [
+        "EAST_TRANSIT_LOWER",
+        "EAST_TRANSIT_UPPER"
+      ],
+      "horizontal_offset_m": 0,
+      "vertical_offset_m": 744,
+      "aligned": true
+    },
+    {
+      "edge": [
+        "WEST_TRANSIT_LOWER",
+        "WEST_TRANSIT_UPPER"
+      ],
+      "horizontal_offset_m": 0,
+      "vertical_offset_m": 1044,
+      "aligned": true
+    }
   ],
-  "approved_art": false,
-  "official_construction": "HOLD",
-  "all_route_edges_refer_to_present_elements": true,
-  "route_validation_kind": "Named components and undirected program graph only; no operational elevator/car simulation or complete traversable surface mesh"
+  "elevator_same_shaft_lateral_offset_pass": true,
+  "route_segment_count": [
+    {
+      "from": "LOWER_ENTRY",
+      "to": "LOWER_HALL",
+      "segments": 1
+    },
+    {
+      "from": "LOWER_HALL",
+      "to": "LOWER_TRANSIT",
+      "segments": 2
+    },
+    {
+      "from": "UPPER_TRANSIT",
+      "to": "UPPER_HALL",
+      "segments": 1
+    },
+    {
+      "from": "UPPER_HALL",
+      "to": "EAST_TRANSIT_LOWER",
+      "segments": 1
+    },
+    {
+      "from": "EAST_TRANSIT_UPPER",
+      "to": "EAST_LIVING_CITY",
+      "segments": 1
+    },
+    {
+      "from": "LOWER_HALL",
+      "to": "WEST_TRANSIT_LOWER",
+      "segments": 2
+    },
+    {
+      "from": "WEST_TRANSIT_UPPER",
+      "to": "WEST_LIVING_CITY",
+      "segments": 1
+    }
+  ],
+  "route_has_explicit_deck_mesh": true,
+  "limitations": [
+    "No real walking collision test across full corridor extents, fire/emergency, escalators, or operable elevators",
+    "Core clearance is rectangular AABB vs rectangular box objects, not full triangulated solid-point volume test",
+    "Decks, buildings and public hall modules are functional proof meshes and not complete design-quality 3D architecture",
+    "No proof of canonical world registration, master 10km completion, or user art acceptance"
+  ],
+  "status": "LIMITED_FUNCTIONAL_LAYOUT_3D_PASS_ART_NOT_ACCEPTED"
 }
