@@ -1,0 +1,100 @@
+{
+  "schema": "m3d1s.readback.v1",
+  "source": "GitHub connector fetch_file from head branch",
+  "verified": {
+    "all_valid": true,
+    "three_candidates": true,
+    "common_context_10km": true
+  },
+  "proxies": [
+    {
+      "file": "A_HORIZONTAL_CIVIC_CONTINENT.obj",
+      "vertices": 504,
+      "triangles": 992,
+      "reference_lines": 0,
+      "valid": true,
+      "bbox": [
+        [
+          -3170.83,
+          3154.11
+        ],
+        [
+          -2382.909,
+          2339.919
+        ],
+        [
+          0,
+          3550
+        ]
+      ],
+      "blob_sha": "b9091f901b8f13f86f3a9f59b4bd9a087dd5ff16"
+    },
+    {
+      "file": "B_VERTICAL_LIVING_RANGES.obj",
+      "vertices": 532,
+      "triangles": 1048,
+      "reference_lines": 0,
+      "valid": true,
+      "bbox": [
+        [
+          -2770.087,
+          2681.136
+        ],
+        [
+          -1530.23,
+          1471.533
+        ],
+        [
+          0,
+          4460
+        ]
+      ],
+      "blob_sha": "6d7ebf01e96076a9c62a8d18402698ef8e44706f"
+    },
+    {
+      "file": "C_ASYMMETRIC_SKY_FISSURE.obj",
+      "vertices": 504,
+      "triangles": 992,
+      "reference_lines": 0,
+      "valid": true,
+      "bbox": [
+        [
+          -3148.035,
+          3122.639
+        ],
+        [
+          -2579.7,
+          1852.75
+        ],
+        [
+          0,
+          4230
+        ]
+      ],
+      "blob_sha": "0f1734d32c77a9c1cedb51bafb770ff9784c8f17"
+    },
+    {
+      "file": "COMMON_W0_NONCANONICAL_CONTEXT.obj",
+      "vertices": 1686,
+      "triangles": 3200,
+      "reference_lines": 4,
+      "valid": true,
+      "bbox": [
+        [
+          -5000,
+          5000
+        ],
+        [
+          -5000,
+          5000
+        ],
+        [
+          -448.252,
+          4000
+        ]
+      ],
+      "blob_sha": "f9ddf33731e2166e090c3228c914a8dfb006617a"
+    }
+  ],
+  "disclaimer": "Triangle index/finite-vertex and absolute-envelope checks only; does not prove watertightness, mesh boolean integrity, public interior, walkability, render quality, canonical coordinates or art acceptance."
+}
