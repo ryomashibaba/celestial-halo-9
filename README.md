@@ -1,5 +1,20 @@
 # CELESTIAL HALO-9
 
+## HALO-9の全体方針（AI・チャット共通の参照先）
+
+- [最初に読む短い入口](docs/policy/START_HERE.md)
+- [長期憲章・都市美術・原本保護](docs/policy/PROJECT_CONSTITUTION.md)
+- [10km級都市の3D詳細完成基準／一般建物内部のみ例外](docs/policy/CITY_MASTER_3D_STANDARD.md)
+- [最新の研究状況・確認済みHEAD](docs/policy/CURRENT_STATUS.md)
+- [ユーザー承認による決定履歴](docs/policy/DECISION_LOG.md)
+- [過去研究・資料台帳](docs/policy/SOURCE_REGISTER.md)
+- [コード／AIエージェントの起動案内](AGENTS.md)
+
+**維持する憲章と完成基準**、**随時更新する現況と決定ログ**を分離しています。GitHubの保存だけでは全チャットに自動適用されないため、ChatGPTプロジェクト共通指示にも START_HERE 参照を設定してください。**正式Minecraft施工はHOLD**であり、この文書は施工許可ではありません。
+
+---
+
+
 **Minecraft Java向けの大規模SF都市・建築研究プロジェクト / A monumental science-fiction Minecraft city design research project.**
 
 巨大なリング構造と16の個性的な建築施設を中心に、光に満ちた公共建築、重厚な暗色の機械構造、広大な空中広場、多層の歩行者空間を設計しています。
