@@ -1,0 +1,315 @@
+{
+  "schema": "m3d1s.J4.mesh_sat_audit.v1",
+  "method": "OBJ triangles against inset room boxes using 13-axis SAT; 21 centerline 2x2x3m headroom boxes per declared pedestrian edge",
+  "geometry": {
+    "objects": 423,
+    "triangles": 5076,
+    "vertices": 3384,
+    "source_coverage": 423
+  },
+  "rooms": [
+    {
+      "space": "PUBLIC_VOID_LOWER",
+      "full_room_inset_2m": {
+        "min": [
+          -528,
+          -208,
+          706
+        ],
+        "max": [
+          -232,
+          143,
+          979
+        ],
+        "intersecting": [
+          {
+            "id": "P1_SKYLIGHT_REVEAL_S",
+            "role": "window",
+            "type": "box",
+            "intersected_triangles": 6
+          },
+          {
+            "id": "P1_FORUM_RISER_1",
+            "role": "forum_terrace",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "P1_FORUM_RISER_2",
+            "role": "forum_terrace",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "P1_FORUM_RISER_3",
+            "role": "forum_terrace",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "P1_FORUM_RISER_4",
+            "role": "forum_terrace",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "P1_FORUM_RISER_5",
+            "role": "forum_terrace",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "WALK_DECK_LOWER_ENTRY__LOWER_HALL_0",
+            "role": "walkable_public_connection",
+            "type": "beam",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_0",
+            "role": "walkable_public_connection",
+            "type": "beam",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_0",
+            "role": "walkable_public_connection",
+            "type": "beam",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "LANDING_LOWER_HALL",
+            "role": "walkable_node_landing",
+            "type": "box",
+            "intersected_triangles": 12
+          }
+        ]
+      },
+      "inspection_core_inset_1m": {
+        "min": [
+          -459,
+          -109,
+          861
+        ],
+        "max": [
+          -301,
+          84,
+          969
+        ],
+        "intersecting": []
+      }
+    },
+    {
+      "space": "PUBLIC_VOID_UPPER",
+      "full_room_inset_2m": {
+        "min": [
+          247,
+          -53,
+          1542
+        ],
+        "max": [
+          563,
+          238,
+          1813
+        ],
+        "intersecting": [
+          {
+            "id": "P2_AUDIENCE_STEP_1",
+            "role": "public_assembly_floor",
+            "type": "box",
+            "intersected_triangles": 8
+          },
+          {
+            "id": "P2_AUDIENCE_STEP_2",
+            "role": "public_assembly_floor",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "P2_AUDIENCE_STEP_3",
+            "role": "public_assembly_floor",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "P2_AUDIENCE_STEP_4",
+            "role": "public_assembly_floor",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "P2_AUDIENCE_STEP_5",
+            "role": "public_assembly_floor",
+            "type": "box",
+            "intersected_triangles": 10
+          },
+          {
+            "id": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL_0",
+            "role": "walkable_public_connection",
+            "type": "beam",
+            "intersected_triangles": 7
+          },
+          {
+            "id": "WALK_DECK_UPPER_HALL__EAST_TRANSIT_LOWER_0",
+            "role": "walkable_public_connection",
+            "type": "beam",
+            "intersected_triangles": 8
+          }
+        ]
+      },
+      "inspection_core_inset_1m": {
+        "min": [
+          476,
+          21,
+          1581
+        ],
+        "max": [
+          549,
+          184,
+          1784
+        ],
+        "intersecting": []
+      }
+    }
+  ],
+  "route_centerline": [
+    {
+      "from": "LOWER_ENTRY",
+      "to": "LOWER_HALL",
+      "centerline_probed": 21,
+      "interfered_sample_count": 0,
+      "interference_witnesses": []
+    },
+    {
+      "from": "LOWER_HALL",
+      "to": "LOWER_TRANSIT",
+      "centerline_probed": 21,
+      "interfered_sample_count": 1,
+      "interference_witnesses": [
+        {
+          "fraction": 0.25,
+          "point": [
+            -272.5,
+            17.5,
+            721
+          ],
+          "hits": [
+            {
+              "id": "P1_FORUM_RISER_3",
+              "role": "forum_terrace",
+              "type": "box",
+              "intersected_triangles": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "UPPER_TRANSIT",
+      "to": "UPPER_HALL",
+      "centerline_probed": 21,
+      "interfered_sample_count": 0,
+      "interference_witnesses": []
+    },
+    {
+      "from": "UPPER_HALL",
+      "to": "EAST_TRANSIT_LOWER",
+      "centerline_probed": 21,
+      "interfered_sample_count": 0,
+      "interference_witnesses": []
+    },
+    {
+      "from": "EAST_TRANSIT_UPPER",
+      "to": "EAST_LIVING_CITY",
+      "centerline_probed": 21,
+      "interfered_sample_count": 1,
+      "interference_witnesses": [
+        {
+          "fraction": 1,
+          "point": [
+            1080,
+            650,
+            2302
+          ],
+          "hits": [
+            {
+              "id": "EAST_LIVING_TERRACE_PLAZA",
+              "role": "public_plaza",
+              "type": "box",
+              "intersected_triangles": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "LOWER_HALL",
+      "to": "WEST_TRANSIT_LOWER",
+      "centerline_probed": 21,
+      "interfered_sample_count": 1,
+      "interference_witnesses": [
+        {
+          "fraction": 0.7,
+          "point": [
+            -601,
+            310.5,
+            708.3
+          ],
+          "hits": [
+            {
+              "id": "P1_NORTH_WALL_WEST",
+              "role": "civic_wall",
+              "type": "box",
+              "intersected_triangles": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "WEST_TRANSIT_UPPER",
+      "to": "WEST_LIVING_CITY",
+      "centerline_probed": 21,
+      "interfered_sample_count": 2,
+      "interference_witnesses": [
+        {
+          "fraction": 0.9,
+          "point": [
+            -997,
+            550.5,
+            1758.6
+          ],
+          "hits": [
+            {
+              "id": "WEST_LIVING_TERRACE_BLDG_1_3_BODY",
+              "role": "inhabited_building",
+              "type": "box",
+              "intersected_triangles": 2
+            }
+          ]
+        },
+        {
+          "fraction": 1,
+          "point": [
+            -1030,
+            560,
+            1760
+          ],
+          "hits": [
+            {
+              "id": "WEST_LIVING_TERRACE_PLAZA",
+              "role": "public_plaza",
+              "type": "box",
+              "intersected_triangles": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Triangle/box intersection of SURFACES only: boxes fully enclosed by solids can be misclassified clear; this is not volumetric Boolean.",
+    "Room interiors have intended floors, seats and walls, so full-volume intersections may be legitimate; requires semantic review.",
+    "Pedestrian probes measure nominal node coordinates, not an actual fitted walkable capsule or support geometry. No complete walkability proof.",
+    "SAT counts do not imply manifold or full room functionality; Blender/Unreal import and human art review not done."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "m3d1s.J4.glb_independent_parse.v1",
+  "source_ref": "research/m3d1s-central-city-scale-20261024",
+  "git_blob_sha": "17e11a72565d8b472c885bbf12d1740372a0c051",
+  "header_valid": true,
+  "chunk_boundaries_valid": true,
+  "raw_bytes": 299168,
+  "chunks": [
+    {
+      "type": 1313821514,
+      "length": 228076
+    },
+    {
+      "type": 5130562,
+      "length": 71064
+    }
+  ],
+  "gltf_asset": {
+    "version": "2.0",
+    "generator": "HALO9 M3D-1S functional-pilot export, version 3"
+  },
+  "observed": {
+    "nodes": 423,
+    "meshes": 423,
+    "materials": 10,
+    "accessors": 846,
+    "bufferViews": 846,
+    "scenes": 1,
+    "total_primitives": 423,
+    "position_count": 3384,
+    "triangle_count": 5076,
+    "indices_in_bounds": true,
+    "index_buffer_accessible": true
+  },
+  "checks": {
+    "has_binary_chunk": true,
+    "has_scene": true,
+    "has_materials": true,
+    "mesh_triangle_count_matches_obj": true,
+    "primitives_indexed_in_position_bounds": true
+  },
+  "limitations": [
+    "Parsed GLB header, JSON metadata and triangle indices in binary; this is NOT Blender/Unreal reimport or visual render.",
+    "Does not verify texture appearance, mesh self-intersection, materials fidelity, walkability or architectural art quality."
+  ]
+}

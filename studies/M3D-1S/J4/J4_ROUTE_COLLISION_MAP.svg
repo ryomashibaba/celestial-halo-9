@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 900">
+<rect width="1240" height="900" fill="#0d1825"/>
+<text x="70" y="38" font-family="sans-serif" fill="#f0f5fa" font-size="27" font-weight="700">HALO-9 / M3D-1S J4 — Route–Mesh Audit</text>
+<text x="70" y="65" font-family="sans-serif" fill="#a3b6ca" font-size="15">Technical 2D XY projection of actual J3 elements. RED = triangle intersection on nominal pedestrian probe; not a full walking test.</text>
+<text x="70" y="83" font-size="19" font-family="sans-serif" fill="#f3f6fa" font-weight="700">Lower civic concourse / route, x-y plan</text><rect x="70" y="98" width="1100" height="310" fill="#172635" stroke="#40576c" stroke-width="1.5"/>
+<line x1="184.58333333333334" y1="98" x2="184.58333333333334" y2="408" stroke="#2a4154" stroke-width="1"/>
+<line x1="413.75" y1="98" x2="413.75" y2="408" stroke="#2a4154" stroke-width="1"/>
+<line x1="642.9166666666667" y1="98" x2="642.9166666666667" y2="408" stroke="#2a4154" stroke-width="1"/>
+<line x1="872.0833333333333" y1="98" x2="872.0833333333333" y2="408" stroke="#2a4154" stroke-width="1"/>
+<line x1="1101.25" y1="98" x2="1101.25" y2="408" stroke="#2a4154" stroke-width="1"/>
+<line x1="70" y1="378.9375" x2="1170" y2="378.9375" stroke="#2a4154" stroke-width="1"/>
+<line x1="70" y1="282.0625" x2="1170" y2="282.0625" stroke="#2a4154" stroke-width="1"/>
+<line x1="70" y1="185.1875" x2="1170" y2="185.1875" stroke="#2a4154" stroke-width="1"/>
+<rect x="317.5" y="222.0" width="105.4" height="7.0" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="482.5" y="222.0" width="146.7" height="7.0" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="422.9" y="222.0" width="55.0" height="7.0" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="629.6" y="268.5" width="14.7" height="65.9" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="629.6" y="225.9" width="14.7" height="17.4" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="629.6" y="243.3" width="14.7" height="7.8" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="317.5" y="332.1" width="128.3" height="6.6" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="528.3" y="332.1" width="100.8" height="6.6" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="404.6" y="248.0" width="137.5" height="6.2" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="404.6" y="256.1" width="137.5" height="6.2" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="404.6" y="264.2" width="137.5" height="6.2" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="404.6" y="272.4" width="137.5" height="6.2" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="404.6" y="280.5" width="137.5" height="6.2" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="404.6" y="288.6" width="137.5" height="6.2" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<line x1="473.3333333333333" y1="360.53125" x2="473.3333333333333" y2="291.75" stroke="#6ccac0" stroke-width="2.2" stroke-linecap="round" />
+<line x1="473.3333333333333" y1="291.75" x2="652.0833333333334" y2="239.4375" stroke="#f66c72" stroke-width="3.6" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="473.3333333333333" y1="291.75" x2="322.0833333333333" y2="191.96875" stroke="#f66c72" stroke-width="3.6" stroke-linecap="round" stroke-dasharray="7 5"/>
+<circle cx="473.3333333333333" cy="360.53125" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="480.3333333333333" y="351.53125" fill="#dbe7f2" font-family="sans-serif" font-size="12">LOWER_ENTRY</text>
+<circle cx="473.3333333333333" cy="291.75" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="480.3333333333333" y="282.75" fill="#dbe7f2" font-family="sans-serif" font-size="12">LOWER_HALL</text>
+<circle cx="652.0833333333334" cy="239.4375" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="659.0833333333334" y="230.4375" fill="#dbe7f2" font-family="sans-serif" font-size="12">LOWER_TRANSIT</text>
+<circle cx="322.0833333333333" cy="191.96875" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="329.0833333333333" y="182.96875" fill="#dbe7f2" font-family="sans-serif" font-size="12">WEST_T</text>
+<circle cx="518.0208333333333" cy="278.671875" r="7" fill="#f66c72" fill-opacity="0.18" stroke="#f66c72" stroke-width="2"/><circle cx="518.0208333333333" cy="278.671875" r="2" fill="#f66c72"/>
+<circle cx="367.45833333333337" cy="221.903125" r="7" fill="#f66c72" fill-opacity="0.18" stroke="#f66c72" stroke-width="2"/><circle cx="367.45833333333337" cy="221.903125" r="2" fill="#f66c72"/>
+<text x="80" y="396" fill="#aec5d6" font-family="sans-serif" font-size="13">Plan projection includes 14 eligible simple building elements. Z-filtered, NOT a section or boolean void test.</text>
+<text x="70" y="475" font-size="19" font-family="sans-serif" fill="#f3f6fa" font-weight="700">High living and upper public network / x-y plan</text><rect x="70" y="490" width="1100" height="310" fill="#172635" stroke="#40576c" stroke-width="1.5"/>
+<line x1="240.6896551724138" y1="490" x2="240.6896551724138" y2="800" stroke="#2a4154" stroke-width="1"/>
+<line x1="430.34482758620686" y1="490" x2="430.34482758620686" y2="800" stroke="#2a4154" stroke-width="1"/>
+<line x1="620" y1="490" x2="620" y2="800" stroke="#2a4154" stroke-width="1"/>
+<line x1="809.6551724137931" y1="490" x2="809.6551724137931" y2="800" stroke="#2a4154" stroke-width="1"/>
+<line x1="999.3103448275863" y1="490" x2="999.3103448275863" y2="800" stroke="#2a4154" stroke-width="1"/>
+<line x1="70" y1="731.1111111111111" x2="1170" y2="731.1111111111111" stroke="#2a4154" stroke-width="1"/>
+<line x1="70" y1="645" x2="1170" y2="645" stroke="#2a4154" stroke-width="1"/>
+<line x1="70" y1="558.8888888888889" x2="1170" y2="558.8888888888889" stroke="#2a4154" stroke-width="1"/>
+<rect x="643.1" y="701.1" width="12.1" height="54.3" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="643.1" y="661.4" width="12.1" height="20.7" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="643.1" y="682.0" width="12.1" height="17.2" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="903.0" y="691.1" width="12.1" height="62.9" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="903.0" y="658.8" width="12.1" height="10.3" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="903.0" y="669.5" width="12.1" height="19.8" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="656.0" y="754.4" width="70.2" height="6.5" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="809.7" y="754.4" width="92.6" height="6.5" fill="#8795a5" fill-opacity=".25" stroke="#8795a5" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="688.7" y="675.1" width="22.0" height="43.1" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="704.6" y="675.1" width="22.0" height="43.1" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="720.5" y="675.1" width="22.0" height="43.1" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="736.4" y="675.1" width="22.0" height="43.1" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="752.4" y="675.1" width="22.0" height="43.1" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="768.3" y="675.1" width="22.0" height="43.1" fill="#a39076" fill-opacity=".25" stroke="#a39076" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="181.9" y="607.1" width="56.9" height="27.6" fill="#367780" fill-opacity=".25" stroke="#367780" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="152.5" y="679.4" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="142.6" y="664.3" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="152.5" y="649.1" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="142.6" y="634.0" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="152.5" y="618.8" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="142.6" y="603.7" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="152.5" y="588.5" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="232.2" y="679.4" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="242.0" y="664.3" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="232.2" y="649.1" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="242.0" y="634.0" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="232.2" y="618.8" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="242.0" y="603.7" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="232.2" y="588.5" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="1008.8" y="591.6" width="56.9" height="27.6" fill="#367780" fill-opacity=".25" stroke="#367780" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="979.4" y="663.9" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="969.5" y="648.8" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="979.4" y="633.6" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="969.5" y="618.5" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="979.4" y="603.3" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="969.5" y="588.2" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="979.4" y="573.0" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="1059.1" y="663.9" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="1068.9" y="648.8" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="1059.1" y="633.6" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="1068.9" y="618.5" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="1059.1" y="603.3" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="1068.9" y="588.2" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<rect x="1059.1" y="573.0" width="36.0" height="10.3" fill="#577594" fill-opacity=".25" stroke="#577594" stroke-opacity=".3" stroke-width=".6"/>
+<line x1="633.2758620689655" y1="691.5" x2="775.5172413793102" y2="707.8611111111111" stroke="#6ccac0" stroke-width="2.2" stroke-linecap="round" />
+<line x1="775.5172413793102" y1="707.8611111111111" x2="921.551724137931" y2="669.1111111111111" stroke="#6ccac0" stroke-width="2.2" stroke-linecap="round" />
+<line x1="921.551724137931" y1="669.1111111111111" x2="1029.655172413793" y2="619.1666666666666" stroke="#f66c72" stroke-width="3.6" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="354.48275862068965" y1="651.0277777777778" x2="229.31034482758622" y2="634.6666666666666" stroke="#f66c72" stroke-width="3.6" stroke-linecap="round" stroke-dasharray="7 5"/>
+<circle cx="633.2758620689655" cy="691.5" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="640.2758620689655" y="682.5" fill="#dbe7f2" font-family="sans-serif" font-size="12">UPPER_TRANSIT</text>
+<circle cx="775.5172413793102" cy="707.8611111111111" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="782.5172413793102" y="698.8611111111111" fill="#dbe7f2" font-family="sans-serif" font-size="12">UPPER_HALL</text>
+<circle cx="921.551724137931" cy="669.1111111111111" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="928.551724137931" y="660.1111111111111" fill="#dbe7f2" font-family="sans-serif" font-size="12">EAST_T</text>
+<circle cx="921.551724137931" cy="669.1111111111111" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="928.551724137931" y="660.1111111111111" fill="#dbe7f2" font-family="sans-serif" font-size="12">EAST_T</text>
+<circle cx="1029.655172413793" cy="619.1666666666666" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="1036.655172413793" y="610.1666666666666" fill="#dbe7f2" font-family="sans-serif" font-size="12">EAST_CITY</text>
+<circle cx="354.48275862068965" cy="651.0277777777778" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="361.48275862068965" y="642.0277777777778" fill="#dbe7f2" font-family="sans-serif" font-size="12">WEST_T</text>
+<circle cx="229.31034482758622" cy="634.6666666666666" r="4.4" fill="#dbe7f2" stroke="#172635" stroke-width="1.5"/>
+<text x="236.31034482758622" y="625.6666666666666" fill="#dbe7f2" font-family="sans-serif" font-size="12">WEST_CITY</text>
+<circle cx="1029.655172413793" cy="619.1666666666666" r="7" fill="#f66c72" fill-opacity="0.18" stroke="#f66c72" stroke-width="2"/><circle cx="1029.655172413793" cy="619.1666666666666" r="2" fill="#f66c72"/>
+<circle cx="241.82758620689657" cy="636.3027777777778" r="7" fill="#f66c72" fill-opacity="0.18" stroke="#f66c72" stroke-width="2"/><circle cx="241.82758620689657" cy="636.3027777777778" r="2" fill="#f66c72"/>
+<circle cx="229.31034482758622" cy="634.6666666666666" r="7" fill="#f66c72" fill-opacity="0.18" stroke="#f66c72" stroke-width="2"/><circle cx="229.31034482758622" cy="634.6666666666666" r="2" fill="#f66c72"/>
+<text x="80" y="788" fill="#aec5d6" font-family="sans-serif" font-size="13">Plan projection includes 44 eligible simple building elements. Z-filtered, NOT a section or boolean void test.</text>
+<circle cx="76" cy="848" r="5" fill="#6ccac0"/><text x="92" y="853" font-size="16" fill="#c6d2de" font-family="sans-serif">No interference detected on limited nominal headroom probe</text>
+<circle cx="665" cy="848" r="5" fill="#f66c72"/><text x="680" y="853" font-size="16" fill="#c6d2de" font-family="sans-serif">Potential collision / needs inspection</text>
+<text x="70" y="883" fill="#9bb0c2" font-size="14" font-family="sans-serif">All coordinates are noncanonical research metres. Mesh does NOT prove public walking routes or city completeness.</text>
+</svg>
