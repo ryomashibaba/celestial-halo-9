@@ -1,0 +1,66 @@
+{
+  "schema": "halo9.j7r8.actual_GUI_crest_edit.v1",
+  "blender": "4.0.2",
+  "method": "true Blender X11 GUI keyboard Edit Mode",
+  "target": "SIX_CIVIC_VAULT_SPINES_2",
+  "changed_vertices": 8,
+  "source_vertices": 20,
+  "change": "GUI G Z 120m only to selected high roof crest vertices, anchored bottom unchanged",
+  "before_crest_z_m": 621.5,
+  "after_crest_z_m": 741.5,
+  "unrelated_meshes_unchanged": true,
+  "mesh_count": 190,
+  "GLB_reimport": 190,
+  "screenshots": {
+    "01_ACTUAL_GUI_BEFORE.png": {
+      "bytes": 496178,
+      "sha256": "9ae9c1b129912afe5345ce315b050fef534fd78e84512d844891b7029bc77de7"
+    },
+    "02_ACTUAL_GUI_AFTER.png": {
+      "bytes": 499764,
+      "sha256": "b8c5d86004531303249ac8a45d91f75c2eec86ae8ba94e16e2b275e027bc4190"
+    }
+  },
+  "nine_blender_renders": [
+    {
+      "frame": "01_FRONT",
+      "bytes": 569441
+    },
+    {
+      "frame": "02_OBLIQUE",
+      "bytes": 545655
+    },
+    {
+      "frame": "03_SIDE",
+      "bytes": 493151
+    },
+    {
+      "frame": "04_REAR",
+      "bytes": 461129
+    },
+    {
+      "frame": "05_AERIAL",
+      "bytes": 682805
+    },
+    {
+      "frame": "06_GROUND",
+      "bytes": 394424
+    },
+    {
+      "frame": "07_REVERSE",
+      "bytes": 523070
+    },
+    {
+      "frame": "08_NAVE",
+      "bytes": 885304
+    },
+    {
+      "frame": "09_CITY_STREET",
+      "bytes": 898213
+    }
+  ],
+  "glb_bytes": 436588,
+  "visual_art_adoption": "NO",
+  "minecraft_construction": "HOLD",
+  "user_local_machine_access": "NONE"
+}
