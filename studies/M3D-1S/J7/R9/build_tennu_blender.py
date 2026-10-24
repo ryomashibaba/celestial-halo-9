@@ -194,6 +194,40 @@ for k,yy in enumerate([y-245,y-80,y+95,y+260]):
   beam("URBAN_TERRACE_GARDEN_STILT_"+str(k)+"_"+str(int(px)),
    (px,yy+15,-42),(px,yy+15,z+25+32*k),23,34,
    "actual_floor_supports_unverified_capacity","deep_structure")
+# B-REVISION, after genuine eleven-view evidence:
+# The initial study looked like a large uninhabited roof arch above toy platforms.
+# Give every civic-neighbourhood building an actual architecturally readably inhabited
+# PERFORATED facade: stacked occupied floors, window voids & structural pier rhythms.
+# This is one editable Blender mesh per building, not one opaque giant BOX per building.
+def inhabited_perforated_facade(name,foot,zstart,height,floors,role,material):
+ verts=[];faces=[]
+ def solidpanel(A,B,low,high,thick=7):
+  # One 3D wall interval (A..B); window gaps are genuine omitted intervals.
+  ax,ay=A;bx,by=B;dx=bx-ax;dy=by-ay
+  dist=math.hypot(dx,dy) or 1
+  nx=-dy/dist*thick*.5;ny=dx/dist*thick*.5
+  v=[(ax+nx,ay+ny,low),(bx+nx,by+ny,low),
+     (bx+nx,by+ny,high),(ax+nx,ay+ny,high),
+     (ax-nx,ay-ny,low),(bx-nx,by-ny,low),
+     (bx-nx,by-ny,high),(ax-nx,ay-ny,high)]
+  idx=len(verts);verts.extend(v)
+  local=[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),
+         (2,3,7,6),(3,0,4,7)]
+  faces.extend([tuple(idx+j for j in fc) for fc in local])
+ for floor in range(floors):
+  low=zstart+floor*height/floors
+  high=zstart+(floor+1)*height/floors
+  for edge in range(len(foot)):
+   A=foot[edge];B=foot[(edge+1)%len(foot)]
+   def part(t):return(A[0]*(1-t)+B[0]*t,A[1]*(1-t)+B[1]*t)
+   # Spandrel & crown band, then narrow piers with two true window openings
+   solidpanel(part(0),part(1),low,low+height/floors*.16,6)
+   solidpanel(part(0),part(1),high-height/floors*.18,high,6)
+   for ta,tb in ((0,.12),(.42,.58),(.88,1)):
+    solidpanel(part(ta),part(tb),low+height/floors*.16,
+            high-height/floors*.18,8)
+ return mesh(name,verts,faces,role,material)
+
 # NEIGHBOURHOOD CLUSTERS — not blank mass façades: framed public ground arcades,
 # stacked occupied floors, windows as true gaps between mullions.
 BLOCKS=[
@@ -215,17 +249,26 @@ for name,(X,Y,Z),count,style in BLOCKS:
   w=68+((j*13+style*11)%44);d=65+((j*19+style*4)%39)
   height=110+((j*67+style*47)%245)
   # Actual structure includes open civic loggias, not an opaque giant building box
-  for level in range(3):
-   zz=Z+12+level*height/3
+  floors=max(5,min(10,int(height/34)))
+  for level in range(floors):
+   zz=Z+12+level*height/floors
    outline=[(cx-w,cy-d),(cx+w,cy-d*.86),
             (cx+w*.92,cy+d),(cx-w*.81,cy+d*1.1)]
    prism(name+"_HOUSE_"+str(j)+"_OCCUPIED_FLOOR_"+str(level),
-      outline,zz,zz+12,"inhabited_exterior_floor_plate_unfinished_facade",
+      outline,zz,zz+10,"inhabited_exterior_floor_plate_unfinished_facade",
       "floor_white" if style==0 else "limestone")
    for dx in (-w*.8,w*.8):
     beam(name+"_HOUSE_"+str(j)+"_PILOTIS_"+str(level)+"_"+str(int(dx)),
-       (cx+dx,cy-d*.75,zz),(cx+dx+12,cy-d*.75,zz+height/3-3),
+       (cx+dx,cy-d*.75,zz),(cx+dx+12,cy-d*.75,zz+height/floors-3),
        13,18,"open_urban_pilotis_structure","deep_structure")
+  # The following is connected architecture with physical WINDOW APERTURES,
+  # unlike A's naked open floor plate stacks. Private rooms remain undesigned.
+  facade=[(cx-w,cy-d),(cx+w*.9,cy-d*.86),
+          (cx+w*.92,cy+d),(cx-w*.81,cy+d*1.1)]
+  inhabited_perforated_facade(name+"_HOUSE_"+str(j)+"_PERFORATED_OCCUPIED_ENVELOPE",
+         facade,Z+10,height,floors,
+         "actual_civic_building_perforated_exterior_study",
+         "platinum" if style%2 else "limestone")
   # sky-scraping asymmetrical pitched roof, spatially tied to stacked floors
   deck(name+"_HOUSE_"+str(j)+"_SCULPTURAL_ROOF",
     [(cx-w*1.1,cy-d,Z+height+15),
@@ -240,10 +283,10 @@ for name,(X,Y,Z),count,style in BLOCKS:
 # A single strong main skyline KEEL tying actual public halls to upper districts.
 # This is the architecture's civic spine, not freestanding ornament.
 KEEL_STATIONS=[
- ((-760,-670,160),145),((-610,-355,310),180),
- ((-375,-80,545),245),((-75,180,790),250),
- ((370,410,870),220),((760,685,735),195),
- ((1050,820,495),143)]
+ ((-760,-670,160),165),((-610,-355,280),245),
+ ((-375,-80,380),320),((-75,180,510),385),
+ ((370,410,615),355),((760,685,570),285),
+ ((1050,820,400),235)]
 deck("CIVIC_SEAM_MEGACITY_UPPER_LIVED_IN_KEEL",
  [p for p,w in KEEL_STATIONS],[w for p,w in KEEL_STATIONS],67,
  "integrated_inhabited_civic_spine_bridge_not_decorative_only","porcelain")
@@ -254,6 +297,32 @@ for band in range(2):
    [(px,py,pz-shift) for (px,py,pz),w in KEEL_STATIONS],
    [w*(.74 if band==0 else .53) for p,w in KEEL_STATIONS],25,
    "vertical_layer_occupied_public_gallery_provisional","platinum")
+# NEW: real occupied city mass INSIDE the upper civic spine, not an isolated
+# hollow arch. Each node is a connected public court with enclosed open-window
+# civic program and a terraced rooftop visible from all directions.
+for j in range(1,len(KEEL_STATIONS)-1):
+ (X,Y,Z),W=KEEL_STATIONS[j]
+ outline=[(X-W*.63,Y-100),(X+W*.65,Y-118),(X+W*.78,Y+127),
+          (X+W*.22,Y+157),(X-W*.74,Y+94)]
+ # One multi-level public block shared with the elevated main urban street.
+ for level in range(4):
+  z=Z-72+level*45
+  prism("UPPER_SPINE_ACTUAL_PUBLIC_FLOOR_"+str(j)+"_"+str(level),
+        outline,z,z+13,"upper_civic_building_occupied_public_floor","floor_white")
+  for k in (0,2):
+   x=outline[k][0];y=outline[k][1]
+   beam("UPPER_SPINE_PUBLIC_GALLERY_PIER_"+str(j)+"_"+str(level)+"_"+str(k),
+    (x,y,z+13),(x+7,y+6,z+45),16,20,
+    "upper_spine_civic_building_gallery_support","deep_structure")
+ inhabited_perforated_facade("UPPER_SPINE_PERFORATED_CITY_ENVELOPE_"+str(j),
+   outline,Z-72,4*45,4,"actual_upper_spine_civic_open_facade",
+   "limestone" if j%2 else "platinum")
+ # Asymmetric roof has actual planted CITY landing accessible from main urban route
+ roofpts=[(X-W*.75,Y-130,Z+112),(X+W*.61,Y-145,Z+160),
+          (X+W*.77,Y+150,Z+119),(X-W*.70,Y+170,Z+112)]
+ prism("UPPER_SPINE_CITY_SKYGARDEN_"+str(j),roofpts,Z+125,Z+144,
+    "rooftop_garden_landmark_inhabited_district","emerald" if j%2 else "porcelain")
+
 # undercroft structure runs down toward actual urban plazas/stations as visible
 # diagonal megatrusses, not two monolithic towers
 anchors=[
@@ -275,7 +344,7 @@ for j,offset in enumerate((-160,-15,155)):
  points=[]
  for k,((px,py,pz),w) in enumerate(KEEL_STATIONS):
   points.append((px+offset*.5*cos(k*.37),py+offset+30*sin(.65*k+j),
-      pz+125+38*sin(.7*k+j*.42)))
+      pz+84+38*sin(.7*k+j*.42)))
  deck("CIVIC_KEEL_SKYLIGHT_ROOF_SLICE_"+str(j),points,
    [70+22*sin(k*.35+j)+w*.18 for k,(p,w) in enumerate(KEEL_STATIONS)],
     19,"split_open_skylight_rooted_civic_urban_roof","limestone")
