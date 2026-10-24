@@ -29,8 +29,17 @@ echo "J7R7_GUI_WINDOW" "$(xdotool getwindowname "$found")" ID="$found"
 # xvfb-run has no EWMH window manager; use native XSetInputFocus instead.
 xdotool windowfocus --sync "$found"
 echo "J7R7_FOCUSED_WINDOW" "$(xdotool getwindowfocus)"
+# Real screenshot audit of previous run showed Blender FIRST-RUN "Quick Setup"
+# covering the viewport. It consumed A/S/X keys, silently invalidating scaling.
+# Explicitly accept default settings in disposable Linux guest, then close splash.
+sleep 4
+xdotool mousemove --window "$found" 674 686
+xdotool click 1
+sleep 3
+xdotool key --clearmodifiers Escape
+sleep 1
 xdotool mousemove --window "$found" 680 400
-sleep 11
+sleep 3
 # The prepared scene has the real public-hall mesh active and in Edit Mode.
 # Screenshot is obtained from actual X display, NOT Blender offscreen render.
 scrot -z "$OUT/01_REAL_GUI_BEFORE.png"
