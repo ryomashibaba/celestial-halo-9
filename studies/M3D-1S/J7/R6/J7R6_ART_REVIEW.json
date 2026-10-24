@@ -1,0 +1,44 @@
+{
+  "schema": "halo9.m3d1s.j7r6.actual_blender_research_review.v1",
+  "date_jst": "2026-10-24",
+  "workflow_run": 40080369793,
+  "blender": "4.0.2",
+  "verified_actual_render_count": 9,
+  "verified_actual_glb_reimport_meshes": 163,
+  "actual_section_xyz_span_m": [
+    7018.24,
+    3731.8,
+    3585
+  ],
+  "geometry": {
+    "meshes": 163,
+    "vertices": 1895,
+    "triangles": 3174,
+    "glb_bytes": 230784,
+    "blend_bytes": 147502
+  },
+  "formal_art_acceptances": 0,
+  "formal_minecraft_construction": "HOLD",
+  "source_origins": "research_only_no_existing_model_write",
+  "art_decision": "REJECT",
+  "art_defects": [
+    "looks like two plain oblique stone monoliths with small central civic machine",
+    "side hides lived-in city layers",
+    "rear has no central monumental inhabited presence",
+    "40 placeholder building exteriors are not detailed",
+    "ring above solid mass does not prove real opened interior",
+    "noncanonical research site, no official W0/H/SB integrations"
+  ],
+  "positive_technical_evidence": [
+    "Real Blender model, BLEND/GLB in GitHub",
+    "nine render files from same Blender execution",
+    "true central public floor, layered street geometry, shared base proxy",
+    "actual reimport mesh count match"
+  ],
+  "stop_rules": [
+    "Do not add windows/light/trim to rescue rejected giant monoliths",
+    "Do not claim city master complete or walkability",
+    "Do not run next numeric procedural giant mass as if it solves ART-FIRST"
+  ],
+  "recommended_next_gate": "Verify genuine Blender GUI visual editing approach or art-directed geometry from spatial sections, with user approval as required for Work; make a single lived-in public hall art demonstration before extending to km scale."
+}

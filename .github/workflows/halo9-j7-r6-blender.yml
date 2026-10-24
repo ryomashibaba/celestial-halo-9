@@ -1,0 +1,49 @@
+name: J7-R6 genuine Blender integrated-city research
+on:
+  push:
+    branches: [research/m3d1s-j7-r6-inhabited-geography-20261024]
+    paths:
+      - .github/workflows/halo9-j7-r6-blender.yml
+      - studies/M3D-1S/J7/R6/build_blender_tenkaku.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-blender-j7-r6:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - name: Checkout only research branch
+        uses: actions/checkout@v4
+      - name: Install Blender 4 and glTF Python dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb python3-numpy libgl1-mesa-dri
+          blender --version | head -3
+      - name: Generate native editable Blender urban mass and nine renders (fail closed)
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+        run: |
+          rm -rf studies/M3D-1S/J7/R6/outputs
+          mkdir -p studies/M3D-1S/J7/R6/outputs
+          xvfb-run -a blender --background --factory-startup --python-exit-code 23 --python studies/M3D-1S/J7/R6/build_blender_tenkaku.py -- studies/M3D-1S/J7/R6/outputs
+          test -s studies/M3D-1S/J7/R6/outputs/J7R6_TENKAKU_SECTION_NONCANONICAL.blend
+          test -s studies/M3D-1S/J7/R6/outputs/J7R6_TENKAKU_SECTION_NONCANONICAL.glb
+          test -s studies/M3D-1S/J7/R6/outputs/J7R6_MODEL_EVIDENCE.json
+          test "$(find studies/M3D-1S/J7/R6/outputs -name '*.png' | wc -l)" -eq 9
+      - name: Preserve proof even if model fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: halo9-j7r6-native-blender-research
+          path: studies/M3D-1S/J7/R6/outputs/
+          if-no-files-found: warn
+      - name: GitHub source-control actual outputs on research branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R6/outputs/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "[skip ci] J7-R6: genuine Blender model and rendered nine-view research evidence"
+          git push origin HEAD:research/m3d1s-j7-r6-inhabited-geography-20261024
