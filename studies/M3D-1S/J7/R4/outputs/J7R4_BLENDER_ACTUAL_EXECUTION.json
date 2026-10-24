@@ -1,0 +1,130 @@
+{
+  "schema": "halo9.j7r4.blender_execution_evidence.v1",
+  "blender_version": "4.0.2",
+  "engine": "BLENDER_WORKBENCH",
+  "source_glb_repo": "studies/M3D-1S/J7/R3/J7R3_FRACTURED_INHABITED_CIVIC_SKY_NONCANONICAL.glb",
+  "source_mesh_objects": 164,
+  "blender_mesh_edit_method": "bmesh direct change of existing imported vertex geometry",
+  "before_nave_bounds_m": [
+    [
+      -1180.0,
+      -1750.0,
+      -1120.0
+    ],
+    [
+      1170.0,
+      -1215.0,
+      -365.0
+    ]
+  ],
+  "before_roof_bounds_m": [
+    [
+      -1180.0,
+      -2435.0,
+      -1080.0
+    ],
+    [
+      1170.0,
+      -1760.0,
+      -465.0
+    ]
+  ],
+  "edited_objects": [
+    {
+      "object": "NAVE_MAIN_PROCESSIONAL_FLOOR",
+      "vertices_total": 40,
+      "vertices_moved": 40,
+      "max_displacement_m": 109.985,
+      "bounds_before_m": [
+        [
+          -1180.0,
+          -1750.0,
+          -1120.0
+        ],
+        [
+          1170.0,
+          -1215.0,
+          -365.0
+        ]
+      ],
+      "bounds_after_m": [
+        [
+          -1180.0,
+          -1750.0,
+          -1120.0
+        ],
+        [
+          1170.0,
+          -1215.0,
+          -365.0
+        ]
+      ]
+    },
+    {
+      "object": "NAVE_VAULT_SUSPENDED_NORTH_FOLD",
+      "vertices_total": 30,
+      "vertices_moved": 30,
+      "max_displacement_m": 101.548,
+      "bounds_before_m": [
+        [
+          -1180.0,
+          -2435.0,
+          -1080.0
+        ],
+        [
+          1170.0,
+          -1760.0,
+          -465.0
+        ]
+      ],
+      "bounds_after_m": [
+        [
+          -1180.0,
+          -2435.0,
+          -1080.0
+        ],
+        [
+          1170.0,
+          -1760.0,
+          -465.0
+        ]
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "BEFORE_CITY_FRONT.png",
+      "bytes": 615317
+    },
+    {
+      "name": "BEFORE_CITY_SIDE.png",
+      "bytes": 176553
+    },
+    {
+      "name": "BEFORE_NAVE_LOCAL.png",
+      "bytes": 543841
+    },
+    {
+      "name": "AFTER_CITY_FRONT.png",
+      "bytes": 615604
+    },
+    {
+      "name": "AFTER_CITY_SIDE.png",
+      "bytes": 176612
+    },
+    {
+      "name": "AFTER_NAVE_LOCAL.png",
+      "bytes": 556998
+    }
+  ],
+  "glb_bytes": 491712,
+  "blend_bytes": 167630,
+  "art_judgement": "NOT_ACCEPTED; experimental technical geometry edit only",
+  "canonical_coordinates": "UNVERIFIED",
+  "city_master_complete": false,
+  "human_walkability": "NOT_TESTED",
+  "blender_GUI_manual_session": "NOT_PERFORMED",
+  "minecraft_construction": "HOLD",
+  "source_glb_modified": false,
+  "edited_glb_reimport_mesh_count": 164
+}
