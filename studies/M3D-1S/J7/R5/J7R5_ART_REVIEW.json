@@ -1,0 +1,71 @@
+{
+  "schema": "halo9.j7r5.art_and_blender_qa.v1",
+  "date_jst": "2026-10-24",
+  "formal_art_adoption": 0,
+  "minecraft_construction": "HOLD",
+  "technical": {
+    "engine": "Blender 4.0.2 Workbench, actual GH Actions",
+    "workflow_run": 40079315470,
+    "meshes": 152,
+    "vertices": 2258,
+    "triangles": 3936,
+    "blender_direct_bmesh_edited_vertices": 20,
+    "images": 9,
+    "blender_bytes": 146995,
+    "glb_bytes": 246400,
+    "glb_reimport_meshes": 152,
+    "model_study_bounds_m_xyz": [
+      5146.0686,
+      2501.739,
+      2380
+    ],
+    "render_mode": "7 fixed local 10km ortho + 2 clearly distinct closeups",
+    "gui_live_edit": false
+  },
+  "iteration": {
+    "A": {
+      "meshes": 141,
+      "vertices": 1782,
+      "triangles": 3028
+    },
+    "B": {
+      "meshes": 152,
+      "vertices": 2258,
+      "triangles": 3936
+    },
+    "image_change_percent_threshold_rgb8": {
+      "nave_local": 3.58,
+      "section": 0.549,
+      "city_front": 0.167
+    },
+    "why": "B improves actual auditorium, stage, mezzanine geometry but fails macro composition"
+  },
+  "art": {
+    "decision": "REJECT",
+    "specific_weakness": [
+      "dual turret+bridge silhouette",
+      "residential city not legible at city-scale",
+      "rear and side do not convey actual living urban mass",
+      "small civic detail changes do not fix overall architectural identity"
+    ],
+    "valid_progress": [
+      "Actual public room stepped geometry",
+      "native Blender modeling and repeated rendered iteration",
+      "distinct true open skylights and city courtyards"
+    ],
+    "unverified": [
+      "full interior accessibility",
+      "public floors supporting structure",
+      "physical walking paths",
+      "official location/canonical coordinates",
+      "10km all-detail city master",
+      "human artistic acceptance"
+    ]
+  },
+  "artifact_paths": {
+    "blend": "studies/M3D-1S/J7/R5/outputs/J7R5_INHABITED_CIVIC_SECTION_NONCANONICAL.blend",
+    "glb": "studies/M3D-1S/J7/R5/outputs/J7R5_INHABITED_CIVIC_SECTION_NONCANONICAL.glb",
+    "images": "studies/M3D-1S/J7/R5/outputs/"
+  },
+  "next_stop_rule": "Stop iterating this dual-tower R5 as central art; next design requires visibly inhabited civilizational mass conceived from interior urban sections."
+}
