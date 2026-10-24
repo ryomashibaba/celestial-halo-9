@@ -1,0 +1,55 @@
+{
+  "schema": "halo9.j7.r7.true_blender_viewport_keyboard_gui.v1",
+  "blender_version": "4.0.2",
+  "actual_GUIApplication_run": "xvfb Blender interactive window; xdotool viewport keyboard Scale X and Move Y; scrot framebuffer proof",
+  "not_claimed": "not a human or AI mouse-brush sculpt, not an art-quality approval, not Work mode",
+  "target": "04_GRAND_CIVIC_FORUM_ACTUAL_PUBLIC_FLOOR",
+  "source": "/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R7/outputs/J7R7_BEFORE_REAL_GUI_EDIT.blend",
+  "edited": "/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R7/outputs/J7R7_AFTER_REAL_GUI_EDIT.blend",
+  "source_mesh_objects": 163,
+  "edited_mesh_objects": 163,
+  "public_hall_vertex_count": 18,
+  "before_bounds_xyz_m": [
+    [
+      -910.0,
+      -1420.0,
+      680.0
+    ],
+    [
+      870.0,
+      490.0,
+      733.0
+    ]
+  ],
+  "after_bounds_xyz_m": [
+    [
+      -1205.1666,
+      -1485.0,
+      680.0
+    ],
+    [
+      1197.8334,
+      425.0,
+      733.0
+    ]
+  ],
+  "width_ratio_after_before": 1.35,
+  "other_foundation_vertices_unchanged": true,
+  "real_gui_screenshots": {
+    "01_REAL_GUI_BEFORE.png": {
+      "bytes": 320588,
+      "sha256": "a8fd7e0c8a424e8d0f4a1d23e1838726872084b1fe3b0ce1b5f9d671b7f10eda"
+    },
+    "02_REAL_GUI_AFTER.png": {
+      "bytes": 321821,
+      "sha256": "ea1763f5227bee148fe3ef39e97a4524ef68bf2327556088bb076b514f0efe3c"
+    }
+  },
+  "rendered_actual_blender_views": 2,
+  "edited_export_GLB_bytes": 230816,
+  "glb_reimport_mesh_objects": 163,
+  "formal_art_adoption": 0,
+  "minecraft_construction": "HOLD",
+  "art_improvement": "NOT_DEMONSTRATED",
+  "official_canonical_world_modified": false
+}
