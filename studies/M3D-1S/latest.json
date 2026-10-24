@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J5",
+  "research_id": "M3D-1S/J6",
   "date_jst": "2026-10-24",
-  "status": "J5_LOCAL_3_CORRIDOR_CLEARANCE_PASS__OTHER_3_ROUTE_WARNINGS__ART_NOT_ACCEPTED",
-  "research_branch": "research/m3d1s-j5-civic-route-local-repair-20261024",
+  "status": "J6_ALL_SEVEN_BOX_HEADROOM_ZERO__WALKABILITY_AND_ART_HOLD",
+  "research_branch": "research/m3d1s-j6-upper-east-route-proof-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "NO_WORK_OR_BLENDER_GUI_IN_THIS_TURN",
+  "work_status": "CHAT_GITHUB_CONNECTOR_ONLY__NO_WORK_NO_BLENDER_GUI",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -81,6 +81,27 @@
         "remaining_intersection_events_other_routes": 100
       },
       "status": "LIMITED_BOX_HEADROOM_GATE_3_ROUTES_ONLY_PASS__FULL_WALKABILITY_AND_ART_HOLD"
+    },
+    "j6": {
+      "report": "studies/M3D-1S/J6/REPORT_JA.md",
+      "source": "studies/M3D-1S/J6/junction_J6_source.json",
+      "obj": "studies/M3D-1S/J6/M3D1S_J6_UPPER_EAST.obj",
+      "glb": "studies/M3D-1S/J6/M3D1S_J6_UPPER_EAST.glb",
+      "qa": "studies/M3D-1S/J6/J6_FULL_WIDTH_BOX_QA.json",
+      "binary_qa": "studies/M3D-1S/J6/J6_GITHUB_READBACK_QA.json",
+      "figure": "studies/M3D-1S/J6/J6_ROUTE_PROFILES.svg",
+      "measured": {
+        "objects": 444,
+        "vertices": 3552,
+        "triangles": 5328,
+        "glb_bytes": 300240,
+        "existing_original_parts_preserved": 429,
+        "edited_existing_decks": 3,
+        "new_decks": 6,
+        "new_corner_pads": 6,
+        "remaining_box_headroom_events": 0
+      },
+      "status": "LIMITED_BOX_HEADROOM_ONLY__REAL_TRAVERSAL_AND_ART_HOLD"
     }
   },
   "missing": [
@@ -93,14 +114,15 @@
     "FULL_HUMAN_TRAVERSAL",
     "FULL_PUBLIC_VOID_COLLISION",
     "HUMAN_ART_ACCEPTANCE",
-    "J5_CORRIDOR_REPAIR",
-    "THREE_UNREPAIRED_ROUTE_CLEARANCES",
     "DECK_SURFACE_CONTINUITY",
     "LANDING_GRADE_AND_SUPPORT",
     "REAL_BLENDER_GLTF_IMPORT",
-    "ACTUAL_CINEMATIC_ART_REVIEW"
+    "ACTUAL_CINEMATIC_ART_REVIEW",
+    "PAD_SEAM_FLOOR_SUPPORT_AND_ACCESSIBILITY",
+    "GREAT_CENTRAL_MACRO_ART_QUALITY",
+    "ACTUAL_J6_BLENDER_IMPORT"
   ],
-  "next_gate": "J6: resolve other 3 upper/east route obstructions, and independently check real Blender/Unreal import, floor support, all room volumes, and art quality",
+  "next_gate": "J7: stop repetitive BOX form patching; actual Blender/Unreal multiview/real public interiors + Macro Impact First silhouette and high-sky inhabited scale. Verify deck pad grade support separately.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
