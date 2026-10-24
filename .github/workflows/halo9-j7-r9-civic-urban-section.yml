@@ -46,4 +46,8 @@ jobs:
           git add studies/M3D-1S/J7/R9/outputs/
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "[skip ci] J7-R9: Blender civic urban section and 11-view art research evidence"
+          # Avoid concurrent branch changes causing non-fast-forward (research report commits).
+          # Rebase only this disposable checkout and never force-push protected history.
+          git fetch origin research/m3d1s-j7-r9-urban-section-first-20261024
+          git rebase FETCH_HEAD
           git push origin HEAD:research/m3d1s-j7-r9-urban-section-first-20261024
