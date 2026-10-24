@@ -1,0 +1,41 @@
+{
+  "schema": "halo9.m3d1s.j7.r1.readback.v1",
+  "date_jst": "2026-10-24",
+  "status": "REAL_GLTF_GENERATED_AND_8_VIEW_RENDERED__ART_REJECT",
+  "art_selected": false,
+  "art_selection_count": 0,
+  "model": {
+    "name": "J7R1_RIFT_CIVIC_CITY_NONCANONICAL.glb",
+    "file_sha256": "de943760c8221c80469b7cac6fa070f4cc0d8feb806783af7baf23372713092a",
+    "filesize_bytes": 1933880,
+    "source_geometry_count": 3085,
+    "vertices": 29234,
+    "triangles": 46200,
+    "reimport": "trimesh_scene_success"
+  },
+  "render": {
+    "engine": "VTK 9.6 offscreen",
+    "views": 8,
+    "views_fixed_10km": 7,
+    "views_local_detail": 1,
+    "status": "PASS_REAL_GLTF_SCREENSHOTS",
+    "blender_gui_render": "NOT_DONE"
+  },
+  "coordinates": "NONCANONICAL_W0_STUDY_CONTEXT",
+  "minecraft_construction": "HOLD",
+  "surviving_findings": [
+    "Twin circular stack iteration failed city-scale mass",
+    "Second broad urban escarpment iteration appears fragmented platforms and shelves",
+    "Mesh count / GLB validation not equal to architectural quality",
+    "STOP iterative primitive proliferation"
+  ],
+  "missing_github_artifacts": [
+    "J7R1_RIFT_CIVIC_CITY_NONCANONICAL.glb",
+    "J7R1_EIGHT_VIEW_CONTACT_SHEET.png",
+    "eight individual scene renders",
+    "build_j7r1.py and render_j7r1.py",
+    "J7R1_VISUAL_3D_RESEARCH_PACKAGE.zip"
+  ],
+  "github_note": "These files were created in the ChatGPT execution environment and downloadable there. GitHub connector cannot directly access those sandbox bytes in this session; DO NOT claim they were uploaded or read back from GitHub.",
+  "next_gate": "J7-R2 real 3D authoring loop from integrated primary mass, shared void and city geometry, not more BOX/SHELF"
+}
