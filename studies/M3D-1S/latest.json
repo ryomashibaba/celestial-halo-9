@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R1",
+  "research_id": "M3D-1S/J7-R2",
   "date_jst": "2026-10-24",
-  "status": "J7_R1_REAL_GLTF_8_VIEW_ART_REJECT__METHOD_SWITCH_PENDING",
-  "research_branch": "research/m3d1s-j7-r1-realglb-art-reject-20261024",
+  "status": "J7_R2_BOOLEAN_CARVED_REAL_GLTF_8_VIEW_ART_REJECT__BLENDER_DIRECT_EDIT_PENDING",
+  "research_branch": "research/m3d1s-j7-r2-sculpted-civic-mass-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "CHAT_EXECUTION_ENV_REAL_GLTF_RENDER__NO_BLENDER_GUI_OR_WORK",
+  "work_status": "CHAT_EXECUTION_ENV_VOLUMETRIC_STUDY_RENDERED__NO_BLENDER_GUI_OR_WORK",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -143,6 +143,22 @@
         "github_multiview_images": "NOT_UPLOADED_CONVERSATION_ATTACHMENT_ONLY",
         "artistic_judgement": "REJECT",
         "construction": "HOLD"
+      },
+      "r2": {
+        "status": "REJECT_SMOOTH_BOULDER_UNREADABLE_CITY",
+        "report": "studies/M3D-1S/J7/R2/J7_R2_REPORT_JA.md",
+        "qa": "studies/M3D-1S/J7/R2/J7_R2_QA_MANIFEST.json",
+        "source": "studies/M3D-1S/J7/R2/build_j7r2.py",
+        "metrics": {
+          "meshes": 140,
+          "vertices": 100172,
+          "triangles": 194566,
+          "cavities": 6,
+          "rendered_views": 8
+        },
+        "local_glb_sha256": "CHECK_LOCAL_REPORT_ONLY",
+        "github_glb_binary": "NOT_UPLOADED",
+        "construction": "HOLD"
       }
     }
   },
@@ -167,9 +183,12 @@
     "J7_NEW_MACRO_3D_WITH_OCCUPIABLE_CIVIC_VOID",
     "VISUAL_ART_APPROVAL",
     "J7_R1_GITHUB_BINARY_PERSISTENCE",
-    "J7_R2_TRUE_DIRECT_VISUAL_MODELING"
+    "J7_R2_TRUE_DIRECT_VISUAL_MODELING",
+    "J7_R2_GLTF_IMAGE_GITHUB_UPLOAD",
+    "DIRECT_BLENDER_GEOMETRY_EDIT",
+    "INTERNAL_CIVIC_CITY_ACCESSIBILITY"
   ],
-  "next_gate": "J7-R2: visually directed Blender 3D editing of integrated primary city mass and civic void; stop multiplying slab/box procedural fragments; GitHub binary persistence still missing",
+  "next_gate": "J7-R3: demonstrate real AI-guided direct Blender visual mesh edit of a representative inhabited public-room urban section; avoid blind giant SDF blobs/stacked plate generation; quality gate before citywide design",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"

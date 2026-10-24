@@ -1,0 +1,44 @@
+{
+  "schema": "halo9.m3d1s.j7r2.github_status.v1",
+  "date_jst": "2026-10-24",
+  "parent_pr": 33,
+  "parent_sha": "676b7d1b76761713dbfa59e39dd61db8ca9fad52",
+  "method": "signed-implicit-volume-boolean-carving/42m grid + VTK fixed camera",
+  "not_blender": true,
+  "components": 140,
+  "vertices": 100172,
+  "triangles": 194566,
+  "glb_size_bytes": 3946436,
+  "main_carved_mass_bounds_m": {
+    "min": [
+      -3785.062,
+      -1929.405,
+      -245.507
+    ],
+    "max": [
+      3520.176,
+      1806.405,
+      4384.419
+    ]
+  },
+  "cavities_cut": 6,
+  "carved_face_triangles": 54980,
+  "watertight_before_split": true,
+  "glb_reimport_success": true,
+  "images_from_glb": 8,
+  "fixed_scale_10km": 7,
+  "local_not_scale_comparable": 1,
+  "art_accepted": false,
+  "art_grade": "REJECT_SMOOTH_BOULDER_UNREADABLE_CITY",
+  "blender_installed_in_chat_runtime": false,
+  "blender_gui_test": "NOT_EXECUTED",
+  "original_protection": "UNCHANGED",
+  "formal_construction": "HOLD",
+  "git_binary_assets_present": false,
+  "git_source_code_present": true,
+  "attachments_not_in_git": [
+    "J7R2_SCULPTED_CIVIC_CUTAWAY_NONCANONICAL.glb",
+    "J7R2_EIGHT_VIEW_CONTACT_SHEET.png",
+    "J7R1_vs_J7R2_FIXED_CAMERA_COMPARE.png"
+  ]
+}
