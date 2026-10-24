@@ -1,0 +1,84 @@
+{
+  "schema": "halo9.j7r10.ultrafuture_art_prework_gate.v1",
+  "date_jst": "2026-10-24",
+  "phase": "J7-R10 CHAT_ART_DIRECTION_BEFORE_LOCAL_WORK",
+  "outcome": "RESEARCH_PLAN_COMPLETE__WORK_NOT_STARTED__NO_NEW_MODEL_THIS_STAGE",
+  "source_prior_art": "J7-R9 REJECT",
+  "rationale": "Stop modern low-rise auditorium/library and miniature elevated town design defaults; ART-FIRST future civilization replaces present-day buildings as initial shape constraints.",
+  "user_decisions": {
+    "future_civilization_unbounded_by_contemporary_building_typology": true,
+    "next_work_stage_notice_now_and_work_prompt_next_user_turn": true,
+    "do_not_launch_mode_switch_UI_in_chat": true,
+    "local_work_only_when_qualitatively_advantageous": true
+  },
+  "official_safety": {
+    "canonical_w0_h1_h6_sb01_sb16_m247_c_unchanged": true,
+    "original_city_assets_unchanged": true,
+    "main_unchanged": true,
+    "official_minecraft_construction": "HOLD",
+    "formal_central_art_adopted": 0,
+    "all_city_master_finished": false
+  },
+  "concepts": [
+    {
+      "id": "A",
+      "name": "反転天陸",
+      "core": "inhabited continental city flips toward sky; interior and underside form urban worlds; vast civic fissure",
+      "requires": "substantial thick inhabited multi-level urban mass, visible 2km-scale voids, not thin island"
+    },
+    {
+      "id": "B",
+      "name": "斜光断層",
+      "core": "urban strata shear vertically and expose kilometers of inhabited city interiors",
+      "requires": "urban floorplates compose silhouette; not twin giant blank cliffs"
+    },
+    {
+      "id": "C",
+      "name": "多層天核",
+      "core": "interlocked inhabited topological city layers transform inside/outside relations",
+      "requires": "linked real rooms, voids and streets; not one detached stadium or ornamental ring"
+    }
+  ],
+  "concept_selection": "NON_EXCLUSIVE__A_B_C_OR_BETTER_FOURTH_DIRECTION_ALLOWED",
+  "study尺度_m": {
+    "entire_city_context_span_approx": 10000,
+    "central_candidate_span_guidance_min": 4000,
+    "central_candidate_span_guidance_max": 7000,
+    "central_candidate_vertical_guidance_min": 2500,
+    "central_candidate_vertical_guidance_max": 4000,
+    "official_site_anchor": "UNRESOLVED_DO_NOT_INVENT"
+  },
+  "upcoming_J7_R11_work": {
+    "intended_platform": "USER_CONTROLLED_LOCAL_WORK__NOT_EXECUTED_IN_R10",
+    "environment": "EXISTING LOCAL CELESTIAL HALO-9 PROJECT WITH BLENDER",
+    "startup": "verify actual local repository, Blender GUI and optional MCP; copy protected originals to safe isolated research workspace before any operation",
+    "objective": "2 visually distinct ART-FIRST km-scale real Blender forms, at least 1 revised after direct viewport visual assessment; prioritize visibly inhabited megacity masses & monumental useful voids",
+    "minimum_outputs": [
+      "real editable .blend for both directions",
+      "GLB corresponding to each verified model",
+      "six matched city-wide renders for each direction",
+      "additional internal/human-scale view",
+      "visual change and critical art comparison",
+      "source/rebuild metadata",
+      "GitHub research-branch upload or explicit upload failure diagnostics"
+    ],
+    "stop_conditions": [
+      "do not reuse R9's present-day library or auditorium as mandatory concept",
+      "do not scale and redecorate R1-R9 rejected model",
+      "do not falsely assert current Blender/MCP connection",
+      "do not infer formal world coordinates",
+      "do not call output art PASS based on polygons/CI count",
+      "do not overwrite main, formal world or protected assets"
+    ],
+    "minimum_interaction": "No excessive user manual Blender work. One independent local Work iteration followed by exact deliverables, not per-step confirmations.",
+    "next_turn_action": "Send paste-ready local Work prompt, without invoking handoff dialog. User then launches local Work if they wish."
+  },
+  "evidence_this_stage": {
+    "new_blender_mesh": false,
+    "new_render": false,
+    "art_pass": false,
+    "actual_work_run": false,
+    "success_gate": "usable confirmed design brief and decision log on isolated GitHub research branch",
+    "semantic_note": "The dimensions are research heuristics only and not canonical"
+  }
+}
