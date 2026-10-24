@@ -101,10 +101,15 @@
       "shared_deck_endpoint": true
     }
   ],
-  "number_of_public_spine_segment_meshes": 5,
-  "actual_blender_meshes": 979,
-  "vertices": 47474,
-  "triangles": 71436,
+  "public_boulevard_is_one_actual_joined_blender_mesh": true,
+  "public_boulevard_joined_top_quad_count": 5,
+  "road_mesh_topological_edge_chain_test": true,
+  "maximum_public_road_proxy_grade_percent": 6.96,
+  "public_road_grade_is_accessibility_certification": false,
+  "number_of_public_spine_segment_meshes": 1,
+  "actual_blender_meshes": 975,
+  "vertices": 47458,
+  "triangles": 71420,
   "bounds_research_xyz_m": [
     [
       -1040.74,
@@ -123,7 +128,7 @@
     905.5
   ],
   "role_distribution": {
-    "city_spine_continuous_exterior_public_street": 5,
+    "joined_public_spine_civic_street": 1,
     "urban_public_road_support_not_structural_certified": 20,
     "3d_city_secondary_street_connected_at_node": 6,
     "street_support_preliminary": 8,
@@ -164,72 +169,72 @@
       "name": "01_URBAN_FRONT",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 361713
+      "bytes": 361542
     },
     {
       "name": "02_URBAN_OBLIQUE",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 442433
+      "bytes": 442494
     },
     {
       "name": "03_URBAN_SIDE",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 319431
+      "bytes": 319518
     },
     {
       "name": "04_URBAN_REAR",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 300447
+      "bytes": 289884
     },
     {
       "name": "05_URBAN_AERIAL",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 596692
+      "bytes": 596709
     },
     {
       "name": "06_URBAN_GROUND",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 217800
+      "bytes": 217726
     },
     {
       "name": "07_URBAN_REVERSE",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 387772
+      "bytes": 396351
     },
     {
       "name": "08_CIVIC_ASSEMBLY",
       "kind": "LOCAL",
       "ortho_scale_m": 1450,
-      "bytes": 1114839
+      "bytes": 1115055
     },
     {
       "name": "09_ARCHIVE_INTERIOR",
       "kind": "LOCAL",
       "ortho_scale_m": 1700,
-      "bytes": 1184023
+      "bytes": 1116158
     },
     {
       "name": "10_CITY_STREET",
       "kind": "LOCAL",
       "ortho_scale_m": 1950,
-      "bytes": 791385
+      "bytes": 796478
     },
     {
       "name": "11_CITY_UPPER_KEEL",
       "kind": "LOCAL",
       "ortho_scale_m": 2400,
-      "bytes": 801344
+      "bytes": 801444
     }
   ],
-  "blender_bytes": 613078,
-  "glb_bytes": 4037828,
+  "blender_bytes": 609291,
+  "glb_bytes": 4034440,
   "art_evaluation": "VIEW_MANUALLY_BEFORE_ACCEPTANCE",
   "copyright_status": "original_research_study",
-  "glb_reimport_mesh_count": 979
+  "glb_reimport_mesh_count": 975
 }
