@@ -28,8 +28,10 @@ jobs:
         env:
           LIBGL_ALWAYS_SOFTWARE: '1'
         run: |
+          # Remove only generated R4 outputs from the disposable checkout. Existing git history remains intact.
+          rm -rf studies/M3D-1S/J7/R4/outputs
           mkdir -p studies/M3D-1S/J7/R4/outputs
-          xvfb-run -a blender --background --factory-startup --python studies/M3D-1S/J7/R4/blender_native_edit_probe.py -- studies/M3D-1S/J7/R3/J7R3_FRACTURED_INHABITED_CIVIC_SKY_NONCANONICAL.glb studies/M3D-1S/J7/R4/outputs
+          xvfb-run -a blender --background --factory-startup --python-exit-code 23 --python studies/M3D-1S/J7/R4/blender_native_edit_probe.py -- studies/M3D-1S/J7/R3/J7R3_FRACTURED_INHABITED_CIVIC_SKY_NONCANONICAL.glb studies/M3D-1S/J7/R4/outputs
           test -s studies/M3D-1S/J7/R4/outputs/J7R4_REAL_BLENDER_EDIT.blend
           test -s studies/M3D-1S/J7/R4/outputs/J7R4_REAL_BLENDER_EDIT.glb
           test -s studies/M3D-1S/J7/R4/outputs/J7R4_BLENDER_ACTUAL_EXECUTION.json
