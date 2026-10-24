@@ -1,0 +1,52 @@
+name: J7-R4 isolated REAL Blender research proof
+on:
+  push:
+    branches:
+      - research/m3d1s-j7-r4-real-blender-probe-20261024
+    paths:
+      - .github/workflows/halo9-j7-r4-blender.yml
+      - studies/M3D-1S/J7/R4/blender_native_edit_probe.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  blender-genuine-edit:
+    name: Import existing real GLB; modify native Blender mesh; re-render
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout the research branch (never main)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install genuine open-source Blender headless
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb libgl1-mesa-dri
+          blender --version | head -4
+      - name: Native Blender import, bmesh edit, BLEND+GLB export, render and reimport
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+        run: |
+          mkdir -p studies/M3D-1S/J7/R4/outputs
+          xvfb-run -a blender --background --factory-startup --python studies/M3D-1S/J7/R4/blender_native_edit_probe.py -- studies/M3D-1S/J7/R3/J7R3_FRACTURED_INHABITED_CIVIC_SKY_NONCANONICAL.glb studies/M3D-1S/J7/R4/outputs
+          test -s studies/M3D-1S/J7/R4/outputs/J7R4_REAL_BLENDER_EDIT.blend
+          test -s studies/M3D-1S/J7/R4/outputs/J7R4_REAL_BLENDER_EDIT.glb
+          test -s studies/M3D-1S/J7/R4/outputs/J7R4_BLENDER_ACTUAL_EXECUTION.json
+      - name: Upload immutable proof artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: halo9-j7r4-blender-native-proof
+          path: studies/M3D-1S/J7/R4/outputs/
+          if-no-files-found: warn
+      - name: Save research outputs back to this research branch only
+        if: success()
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R4/outputs/
+          if git diff --cached --quiet; then echo "No new output"; exit 0; fi
+          git commit -m "[skip ci] J7-R4: real Blender bmesh-edit GLB/BLEND and fixed-view render evidence"
+          git push origin HEAD:research/m3d1s-j7-r4-real-blender-probe-20261024
