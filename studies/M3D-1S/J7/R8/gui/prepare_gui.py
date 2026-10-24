@@ -17,7 +17,7 @@ for v in target.data.vertices:
  v.select=v.co.z>499
  n+=bool(v.select)
 assert 2<=n<len(target.data.vertices),("unexpected crest vertex subset",n,len(target.data.vertices))
-bpy.tool_settings.mesh_select_mode=(True,False,False)
+bpy.context.tool_settings.mesh_select_mode=(True,False,False)
 for area in [a for screen in bpy.data.screens for a in screen.areas if a.type=="VIEW_3D"]:
  s=area.spaces.active
  s.shading.type="SOLID";s.shading.color_type="MATERIAL"
