@@ -6980,13 +6980,13 @@
       ],
       "to": [
         -700,
-        465,
-        702
+        370,
+        705
       ],
       "width": 25,
       "material": "CIVIC",
       "role": "walkable_public_connection",
-      "length": 315.5851707542672
+      "length": 284.60498941515414
     },
     {
       "type": "beam",
@@ -7023,6 +7023,24 @@
       "material": "CIVIC",
       "role": "walkable_public_connection",
       "length": 22.360679774997898
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_5",
+      "from": [
+        -700,
+        370,
+        705
+      ],
+      "to": [
+        -700,
+        465,
+        702
+      ],
+      "width": 25,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 95.04735661763561
     }
   ],
   "route": {
@@ -7219,6 +7237,11 @@
             -420,
             320,
             715
+          ],
+          [
+            -700,
+            370,
+            705
           ]
         ],
         "foot_elevation_reference": "beam_top_is_route_center_z_plus_6m_not_node_center_height",
@@ -7287,7 +7310,8 @@
       "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_3",
       "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_4",
       "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_1",
-      "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_2"
+      "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_2",
+      "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_5"
     ],
     "untouched_source_objects": 418,
     "changed_route_edges": [
@@ -7296,6 +7320,7 @@
       "WEST_TRANSIT_UPPER__WEST_LIVING_CITY"
     ],
     "do_not_claim": "art approval or full walking path certification",
-    "original_models_modified": false
+    "original_models_modified": false,
+    "west_lower_final_shaft_approach": "Approach lift W from x=-700 along y=370 to 465, between columns at x=-735 and -665"
   }
 }
