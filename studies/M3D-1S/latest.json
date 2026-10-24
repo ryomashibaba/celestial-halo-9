@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R7",
+  "research_id": "M3D-1S/J7-R8",
   "date_jst": "2026-10-24",
-  "status": "J7_R7_ACTUAL_BLENDER_X11_GUI_VIEWPORT_MESH_EDIT_VERIFIED_ART_HOLD",
-  "research_branch": "research/m3d1s-j7-r7-real-blender-viewport-gui-probe-20261024",
+  "status": "J7_R8_ACTUAL_BLENDER_LOCAL_CIVIC_9_VIEW_AND_REAL_GUI_ROOF_EDIT_VERIFIED_ART_REJECT",
+  "research_branch": "research/m3d1s-j7-r8-civic-terraced-atrium-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "GITHUB_ACTIONS_X11_REAL_BLENDER_GUI_KEYBOARD_CONTROL__NO_WORK_OR_LOCAL_USER_PC",
+  "work_status": "GITHUB_ACTIONS_REAL_BLENDER_4_0_2_X11_GUI_EDIT__NO_WORK_LOCAL_USER_PC",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -290,6 +290,41 @@
         },
         "art_decision": "NO_ART_ADOPTION__MACRO_R6_STILL_REJECT",
         "construction": "HOLD"
+      },
+      "r8": {
+        "status": "BLENDER_LOCAL_CIVIC_ARCHITECTURE_STAGE_A_B_AND_STAGE_C_GUI_VERIFIED__FORMAL_ART_REJECT",
+        "report": "studies/M3D-1S/J7/R8/REPORT_JA.md",
+        "art_qa": "studies/M3D-1S/J7/R8/J7R8_FINAL_ART_AND_GUI_QA.json",
+        "source": "studies/M3D-1S/J7/R8/build_civic_lens.py",
+        "build_workflow": ".github/workflows/halo9-j7-r8-civic-lens.yml",
+        "gui_workflow": ".github/workflows/halo9-j7-r8-gui.yml",
+        "native_blend": "studies/M3D-1S/J7/R8/outputs/J7R8_CIVIC_LENS_ART_STUDY.blend",
+        "native_GLb": "studies/M3D-1S/J7/R8/outputs/J7R8_CIVIC_LENS_ART_STUDY.glb",
+        "gui_edited_blend": "studies/M3D-1S/J7/R8/gui/outputs/J7R8_GUI_AFTER.blend",
+        "gui_edited_GLb": "studies/M3D-1S/J7/R8/gui/outputs/J7R8_GUI_RESCULPTED_ACTUAL.glb",
+        "gui_mesh_evidence": "studies/M3D-1S/J7/R8/gui/outputs/J7R8_REAL_GUI_EDIT_EVIDENCE.json",
+        "render_paths": "studies/M3D-1S/J7/R8/gui/outputs/RENDER_*.png",
+        "verified": {
+          "blender": "4.0.2",
+          "source_model_meshes": 190,
+          "source_vertices": 4148,
+          "source_triangles": 7536,
+          "noncanonical_span_m_xyz": [
+            2155.21,
+            1670,
+            696.5
+          ],
+          "views": 9,
+          "GUI_moved_crest_vertices": 8,
+          "GUI_crest_z_change_m": 120,
+          "other_meshes_unchanged": true,
+          "GLB_reimport_meshes": 190,
+          "workflow_B": 40083897810,
+          "workflow_C_GUI": 40084519373
+        },
+        "art_decision": "REJECT_STANDALONE_ARENA_CULTURAL_FACILITY_LOOK__REUSABLE_LOCAL_PUBLIC_ARCHITECTURE_STUDY",
+        "minecraft_construction": "HOLD",
+        "city_master_3d_complete": false
       }
     }
   },
@@ -332,9 +367,12 @@
     "PUBLIC_CIVIC_INTERIOR_REAL_WALKABILITY",
     "R7_REAL_ART_QUALITY_NOT_IMPROVED",
     "R7_GUI_SCULPT_BRUSH_NOT_PROVED",
-    "R7_HUMAN_WALKABILITY_AND_REAL_HSB_PLACEMENT_PENDING"
+    "R7_HUMAN_WALKABILITY_AND_REAL_HSB_PLACEMENT_PENDING",
+    "R8_FORMAL_MACRO_ART_REJECT",
+    "R8_FULL_INTERIOR_PUBLIC_TRAVERSAL_UNVERIFIED",
+    "R8_CITY_MASTER_10KM_INTEGRATION_NOT_STARTED"
   ],
-  "next_gate": "J7-R8: use successful actual Blender GUI visual viewport feedback to redesign ONE architectural public-room/urban-street cross-section with genuinely improved interior/exterior form. Stop adding boxes to failed R6 megamass. Formal art adoption 0, City Master 3D First locked.",
+  "next_gate": "J7-R9: use proven Blender GUI and actual visual feedback to refine one civic habitable urban section with built-in streets and district continuity; reject default oval-arena/tower/monolith concepts. No automation of aesthetic adoption. City Master all detail locked and construction HOLD.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
