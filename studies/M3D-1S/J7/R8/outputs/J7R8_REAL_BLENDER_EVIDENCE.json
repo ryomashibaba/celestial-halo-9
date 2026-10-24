@@ -5,24 +5,24 @@
   "coordinate": "NONCANONICAL_Z_UP_METRES",
   "actual_measured_bounds_m": [
     [
-      -710.0,
+      -940.213,
       -660.0,
       -35.0
     ],
     [
-      715.0,
-      620.0,
+      1215.0,
+      1010.0,
       661.5
     ]
   ],
   "actual_measured_spans_m": [
-    1425.0,
-    1280.0,
+    2155.21,
+    1670.0,
     696.5
   ],
-  "meshes": 166,
-  "vertices": 3934,
-  "triangles": 7204,
+  "meshes": 190,
+  "vertices": 4148,
+  "triangles": 7536,
   "role_distribution": {
     "inhabited_shared_city_ground_local": 1,
     "actual_public_hall_floor": 1,
@@ -35,68 +35,78 @@
     "actual_fenestration_pier_preliminary": 60,
     "architectural_public_wing_interior_not_detailed": 9,
     "visible_programmatic_roofline": 9,
-    "monumental_exposed_roof_buttress_open_span": 6,
-    "civic_roof_support_member": 6,
+    "monumental_exposed_roof_buttress_open_span": 5,
+    "civic_roof_support_member": 5,
     "exposed_civic_entry_gate": 2,
     "public_connection_across_sections_no_traversal_QA": 1,
-    "botanical_civic_garden_hung_inside": 4
+    "botanical_civic_garden_hung_inside": 4,
+    "major_continuous_public_ground_attachment": 1,
+    "exterior_public_city_spine_with_usable_mixed_edge": 1,
+    "real_support_under_public_spine": 3,
+    "upper_civic_district_building_exterior_preliminary": 3,
+    "spatial_terraced_upper_public_roof": 3,
+    "public_entrance_floor_preliminary": 3,
+    "inhabited_external_plaza_at_end": 3,
+    "public_city_terrace_support": 6,
+    "west_city_public_street_extension": 1,
+    "city_spine_structural_load_path_study": 2
   },
-  "glb_bytes": 408632,
-  "blend_bytes": 167027,
+  "glb_bytes": 436240,
+  "blend_bytes": 173798,
   "views": [
     {
       "name": "01_FRONT",
       "camera_class": "FIXED_STUDY",
       "ortho_scale_m": 1900,
-      "bytes": 462880
+      "bytes": 562499
     },
     {
       "name": "02_OBLIQUE",
       "camera_class": "FIXED_STUDY",
       "ortho_scale_m": 1900,
-      "bytes": 482893
+      "bytes": 531580
     },
     {
       "name": "03_SIDE",
       "camera_class": "FIXED_STUDY",
       "ortho_scale_m": 1900,
-      "bytes": 412586
+      "bytes": 476243
     },
     {
       "name": "04_REAR",
       "camera_class": "FIXED_STUDY",
       "ortho_scale_m": 1900,
-      "bytes": 398493
+      "bytes": 462812
     },
     {
       "name": "05_AERIAL",
       "camera_class": "FIXED_STUDY",
       "ortho_scale_m": 1900,
-      "bytes": 624481
+      "bytes": 680434
     },
     {
       "name": "06_GROUND",
       "camera_class": "FIXED_STUDY",
       "ortho_scale_m": 1900,
-      "bytes": 326308
+      "bytes": 389056
     },
     {
       "name": "07_REVERSE",
       "camera_class": "FIXED_STUDY",
       "ortho_scale_m": 1900,
-      "bytes": 470533
+      "bytes": 516280
     },
     {
       "name": "08_NAVE",
       "camera_class": "LOCAL_DETAIL",
       "ortho_scale_m": 800,
-      "bytes": 939412
+      "bytes": 889219
     },
     {
       "name": "09_CITY_STREET",
       "camera_class": "LOCAL_DETAIL",
       "ortho_scale_m": 860,
-      "bytes": 883353
+      "bytes": 910853
     }
   ],
   "public_nave_true_open_center_above_floor": true,
@@ -106,5 +116,5 @@
   "walkability": "NOT_TESTED",
   "art_result": "REVIEW_REQUIRED",
   "construction": "HOLD",
-  "glb_reimport_mesh_objects": 166
+  "glb_reimport_mesh_objects": 190
 }
