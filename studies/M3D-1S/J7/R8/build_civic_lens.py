@@ -158,7 +158,7 @@ for j,(angle,lev,h,w) in enumerate([
 # Chapel-like civic monumental focal point is a SINGLE interconnected sculpted
 # roof, made from 6 DIFFERENT sweeping blades anchored to deep city terrace.
 # Central nave is NOT blocked; these enormous frames expose the public interior.
-for j in range(6):
+for j in [0,1,2,3,5]:
  x=-480+j*185
  heights=[470,555,610,650,570,495]
  zcrest=heights[j]
@@ -183,6 +183,52 @@ for k in range(4):
  petal("HALL_HANGING_PLANTER_SUSPENSION_"+str(k),
     [(x,340,250),(x*1.15,250,220),(x*.83,190,204)],
     [26,48,44],15,"gardens","botanical_civic_garden_hung_inside")
+# ART REVISION B (based on actual 9-view assessment): the A study reads
+# too much like a detached stadium. Integrate an asymmetrically extending
+# inhabited library/street district to break the complete arena symmetry.
+# Large true public promenade transitions into 3 tiered civic buildings.
+avenue=[(340,225),(485,300),(730,505),(910,680),(1030,780),
+        (970,915),(790,820),(585,610),(365,430)]
+prism("INTEGRATED_CITY_SPUR_THICK_PUBLIC_GROUND",avenue,21,83,
+    "trim","major_continuous_public_ground_attachment")
+petal("INTEGRATED_UPLAND_CIVIC_HIGH_STREET",
+    [(385,310,153),(525,465,162),(705,625,185),(920,805,201)],
+    [125,132,147,191],38,"chalk",
+    "exterior_public_city_spine_with_usable_mixed_edge")
+for j,(x,y,z) in enumerate([(515,440,83),(730,625,84),(915,810,84)]):
+ # Supports are spatial rather than cosmetic hovering disks.
+ bar("CITY_SPUR_STRUCTURAL_BASE_"+str(j),(x,y,75),(x,y,z+120),64,72,
+      "basalt","real_support_under_public_spine")
+for j,(x,y,z,h) in enumerate([(625,540,198,135),(845,755,227,161),(1040,790,115,181)]):
+ p=[(x-105,y-95),(x+100,y-68),(x+147,y+86),(x-91,y+101)]
+ prism("UPLAND_SOCIETY_BUILDING_"+str(j),p,z,z+h,"pearl",
+       "upper_civic_district_building_exterior_preliminary")
+ petal("UPLAND_SOCIETY_ROOF_"+str(j),
+       [(x-105,y,z+h+7),(x,y+18,z+h+55),(x+132,y+40,z+h+12)],
+       [30,162,42],17,"chalk","spatial_terraced_upper_public_roof")
+ # Each has a physically modelled arrival level, NOT certified walking connectivity.
+ bar("UPLAND_PUBLIC_ENTRY_"+str(j),
+     (x-70,y-88,z+20),(x+83,y+77,z+20),64,20,
+     "teal","public_entrance_floor_preliminary")
+# The visual end of the district is an inhabitable stack with daylight gaps,
+# not an opaque end tower.
+for i,z in enumerate([125,198,270]):
+ p=[(940,700),(1210,770),(1215,1010),(930,980)]
+ prism("PUBLIC_CITY_TERRACE_TERMINUS_"+str(i),p,z,z+33,
+       "chalk" if i!=1 else "gardens","inhabited_external_plaza_at_end")
+ for k,x in enumerate([975,1182]):
+  bar("TERMINUS_COLUMN_"+str(i)+"_"+str(k),
+      (x,840,z-65),(x,840,z),17,22,"basalt",
+      "public_city_terrace_support")
+# Add a second asymmetric urban entrance into the west bank: it should read as
+# a continuous circulation network, not a standalone single-gate arena.
+petal("WEST_ARRIVAL_INTEGRATED_PUBLIC_SPINE",
+    [(-570,230,146),(-720,360,156),(-900,485,175)],
+    [112,126,141],26,"teal","west_city_public_street_extension")
+for x,y,z in [(-710,348,150),(-870,465,170)]:
+ bar("WEST_CITY_SLOPING_PIER_"+str(int(x)),(x,y,20),(x,y,z),42,40,
+     "basalt","city_spine_structural_load_path_study")
+
 # Frame city reference 10km not exported? Actual local model intentionally not context,
 # as false W0 would make reviewers misinterpret scale.
 # Render from REAL Blender scene with both panorama and interior views.
