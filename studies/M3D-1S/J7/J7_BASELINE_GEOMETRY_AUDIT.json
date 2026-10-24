@@ -1,0 +1,78 @@
+{
+  "schema": "halo9.m3d1s.j7.baseline_visual_risk_audit.v1",
+  "date_jst": "2026-10-24",
+  "source_branch": "research/m3d1s-j6-upper-east-route-proof-20261024",
+  "source_files": [
+    "studies/M3D-1S/J6/M3D1S_J6_UPPER_EAST.obj",
+    "studies/M3D-1S/J6/junction_J6_source.json",
+    "studies/M3D-1S/REVIEW_PLAN_JA.md"
+  ],
+  "measured_J6_OBJ": {
+    "vertices": 3552,
+    "triangles": 5328,
+    "bounds_min_m": [
+      -1470,
+      -520,
+      80
+    ],
+    "bounds_max_m": [
+      1520,
+      1620,
+      2447
+    ],
+    "extent_m": [
+      2990,
+      2140,
+      2367
+    ]
+  },
+  "measured_J6_source": {
+    "objects": 444,
+    "box": 407,
+    "beam": 34,
+    "taper": 3,
+    "windows": 170,
+    "inhabited_building_parts": 28,
+    "declared_public_voids": [
+      {
+        "id": "PUBLIC_VOID_LOWER",
+        "nominal_box_dimensions_m": [
+          300,
+          355,
+          277
+        ],
+        "actual_access_certified": false
+      },
+      {
+        "id": "PUBLIC_VOID_UPPER",
+        "nominal_box_dimensions_m": [
+          320,
+          295,
+          275
+        ],
+        "actual_access_certified": false
+      }
+    ]
+  },
+  "previous_C_macro_comparison": {
+    "reference": "studies/M3D-1S/REVIEW_PLAN_JA.md",
+    "C_outer_dimension_m": [
+      6271,
+      4432,
+      4230
+    ],
+    "warning": "C uses separate macro proxy; J6 is a local submodel. Extents do not prove art quality."
+  },
+  "interpretation": "J6 route repair succeeded at limited BOX collision gate, but cannot be promoted into macro central city art. Mesh remains dominated by boxes; genuine inhabited cliff cross sections and public interiors not demonstrated.",
+  "checked_vs_unchecked": {
+    "geometry_bounds": "CHECKED_FROM_OBJ_VERTICES",
+    "primitive_count": "CHECKED_FROM_EDIT_SOURCE",
+    "macro_dimensions": "READ_FROM_EXISTING_RESEARCH_REPORT",
+    "actual_multiview": "NOT_RUN",
+    "blender_import": "NOT_RUN",
+    "aesthetic_pass": "NOT_ESTABLISHED"
+  },
+  "art_decision": "HOLD",
+  "canon_adoption": "NONE",
+  "minecraft_construction": "HOLD"
+}
