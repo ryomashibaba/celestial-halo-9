@@ -1,0 +1,114 @@
+{
+  "schema": "halo9.j7r6.real_blender_geometry.v1",
+  "blender": "4.0.2",
+  "research_status": "NEEDS_HUMAN_ART_REVIEW",
+  "coordinate": "NONCANONICAL_Z_UP_M",
+  "actual_mesh_objects": 163,
+  "vertices": 1895,
+  "triangles": 3174,
+  "actual_section_bounds_m": [
+    [
+      -3581.32,
+      -1938.0,
+      -95.0
+    ],
+    [
+      3436.92,
+      1793.8,
+      3490.0
+    ]
+  ],
+  "span_m": [
+    7018.24,
+    3731.8,
+    3585.0
+  ],
+  "role_distribution": {
+    "single_citywide_connected_foundation_mass": 1,
+    "west_extensive_inhabited_city_face": 1,
+    "east_high_inhabited_city_face": 1,
+    "city_inhabited_thick_neighbourhood_street": 8,
+    "actual_3d_neighbourhood_avenue_preliminary": 8,
+    "inhabited_research_building_exterior_not_final": 40,
+    "true_urban_courtyard_and_green_public_room": 8,
+    "public_assembly_room_floor_under_open_skylight": 1,
+    "west_civic_gallery_with_floor_and_volume": 1,
+    "east_civic_gallery_with_floor_and_volume": 1,
+    "real_open_civic_roof_aperture": 1,
+    "exposed_structural_civic_rib": 5,
+    "public_arcade_pier": 6,
+    "public_arcade_intrados_visible": 48,
+    "actual_amphitheater_public_floor": 6,
+    "actual_ceremonial_platform": 1,
+    "spatial_urban_access_plate_grade_unverified": 4,
+    "actual_city_station_floor_no_traversal_pass": 7,
+    "actual_transit_guide_not_walk_certified": 4,
+    "central_urban_exchange_transit_not_access_pass": 2,
+    "human_city_scale_facade_support_not_certified": 8,
+    "noncanonical_10km_sizing_context_only": 1
+  },
+  "renders": [
+    {
+      "view": "01_FRONT",
+      "classification": "FIXED_CITY_10KM",
+      "ortho_scale_m": 10500,
+      "bytes": 631241
+    },
+    {
+      "view": "02_OBLIQUE",
+      "classification": "FIXED_CITY_10KM",
+      "ortho_scale_m": 10500,
+      "bytes": 736497
+    },
+    {
+      "view": "03_SIDE",
+      "classification": "FIXED_CITY_10KM",
+      "ortho_scale_m": 10500,
+      "bytes": 670681
+    },
+    {
+      "view": "04_REAR",
+      "classification": "FIXED_CITY_10KM",
+      "ortho_scale_m": 10500,
+      "bytes": 670612
+    },
+    {
+      "view": "05_AERIAL",
+      "classification": "FIXED_CITY_10KM",
+      "ortho_scale_m": 10500,
+      "bytes": 1053939
+    },
+    {
+      "view": "06_GROUND",
+      "classification": "FIXED_CITY_10KM",
+      "ortho_scale_m": 10500,
+      "bytes": 454501
+    },
+    {
+      "view": "07_REVERSE_DIAGONAL",
+      "classification": "FIXED_CITY_10KM",
+      "ortho_scale_m": 10500,
+      "bytes": 713755
+    },
+    {
+      "view": "08_CIVIC_ROOM",
+      "classification": "LOCAL_UNCOMPARABLE",
+      "ortho_scale_m": 3250,
+      "bytes": 1070686
+    },
+    {
+      "view": "09_URBAN_SECTION",
+      "classification": "LOCAL_UNCOMPARABLE",
+      "ortho_scale_m": 6900,
+      "bytes": 917776
+    }
+  ],
+  "GLB_bytes": 230784,
+  "BLEND_bytes": 147502,
+  "transport_walkability": "NOT_TESTED",
+  "public_interior_completeness": "NOT_CERTIFIED",
+  "construction": "HOLD",
+  "canonical_art_adoption": "NONE",
+  "all_city_master_detail": "NOT_COMPLETED",
+  "imported_glb_mesh_objects": 163
+}
