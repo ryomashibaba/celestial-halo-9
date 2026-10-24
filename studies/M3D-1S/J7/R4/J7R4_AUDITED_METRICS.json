@@ -1,0 +1,71 @@
+{
+  "schema": "halo9.j7r4.audited_blender_proof.v1",
+  "date_jst": "2026-10-24",
+  "status": "REAL_BLENDER_HEADLESS_BMESH_PROOF_PASS_ART_HOLD",
+  "workflow_run": 40078233663,
+  "workflow_url": "https://github.com/ryomashibaba/celestial-halo-9/actions/runs/40078233663",
+  "blender_version": "4.0.2",
+  "mode": "GITHUB_ACTIONS_XVFB_HEADLESS_BMESH_NO_GUI_LIVE_SESSION",
+  "source_meshes": 164,
+  "edited_existing_objects": 2,
+  "edited_existing_vertices": 70,
+  "source_basis_correction": "R3 Trimesh GLB had Z-up numeric vertex data and Blender imported rotated: parent -90deg X applied, before and reimport bounds asserted",
+  "floor_original_bounds_m": [
+    [
+      -1180,
+      -1120,
+      1215
+    ],
+    [
+      1170,
+      -365,
+      1750
+    ]
+  ],
+  "floor_edited_bounds_m": [
+    [
+      -1180,
+      -1263.45,
+      1215
+    ],
+    [
+      1170,
+      -221.55,
+      1792
+    ]
+  ],
+  "floor_reimport_bounds_m": [
+    [
+      -1180,
+      -1263.449,
+      1215
+    ],
+    [
+      1170,
+      -221.549,
+      1792
+    ]
+  ],
+  "output_files": {
+    "blend": "studies/M3D-1S/J7/R4/outputs/J7R4_REAL_BLENDER_EDIT.blend",
+    "glb": "studies/M3D-1S/J7/R4/outputs/J7R4_REAL_BLENDER_EDIT.glb",
+    "evidence": "studies/M3D-1S/J7/R4/outputs/J7R4_BLENDER_ACTUAL_EXECUTION.json"
+  },
+  "actual_rendered_frames": 6,
+  "pixel_difference_threshold": "max(abs(R),abs(G),abs(B)) > 8 / 960x700",
+  "pixel_differences_percent": {
+    "CITY_FRONT": 0.48631,
+    "CITY_SIDE": 0.08467,
+    "NAVE_LOCAL": 4.65744
+  },
+  "art_evaluation": "STILL_REJECT_AS_FINAL_CENTRAL_ART",
+  "city_master_complete": false,
+  "human_traversal_tested": false,
+  "original_assets_changed": false,
+  "formal_construction": "HOLD",
+  "incident_log": [
+    "Missing python3-numpy first CI run; installed",
+    "False green CI despite Blender Python failure caused by prior generated outputs; fixed --python-exit-code 23 and clean output path"
+  ],
+  "future_gate": "R5 must improve macro architecture with genuinely visible inhabited public section; do not extrapolate this small technical edit into art quality"
+}

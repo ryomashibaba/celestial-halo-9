@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R3",
+  "research_id": "M3D-1S/J7-R4",
   "date_jst": "2026-10-24",
-  "status": "J7_R3_REAL_OPEN_CITY_SECTION_MULTI_VIEW__ART_REJECT__GLB_AND_8_VIEW_SAVED",
-  "research_branch": "research/m3d1s-j7-r3-open-civic-section-20261024",
+  "status": "J7_R4_REAL_BLENDER_HEADLESS_BMESH_EDIT_VERIFIED_ART_HOLD",
+  "research_branch": "research/m3d1s-j7-r4-real-blender-probe-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "CHAT_CONTAINER_TRIMESH_VTK_NO_BLENDER_GUI",
+  "work_status": "GITHUB_ACTIONS_BLENDER_4_0_2_HEADLESS__NO_INTERACTIVE_GUI_OR_LOCAL_WORK",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -185,6 +185,24 @@
         "art_decision": "REJECT",
         "construction": "HOLD",
         "blender_gui": "NOT_USED"
+      },
+      "r4": {
+        "source": "studies/M3D-1S/J7/R4/blender_native_edit_probe.py",
+        "workflow": ".github/workflows/halo9-j7-r4-blender.yml",
+        "report": "studies/M3D-1S/J7/R4/REPORT_JA.md",
+        "audited_metrics": "studies/M3D-1S/J7/R4/J7R4_AUDITED_METRICS.json",
+        "blend": "studies/M3D-1S/J7/R4/outputs/J7R4_REAL_BLENDER_EDIT.blend",
+        "edited_glb": "studies/M3D-1S/J7/R4/outputs/J7R4_REAL_BLENDER_EDIT.glb",
+        "execution_readback": "studies/M3D-1S/J7/R4/outputs/J7R4_BLENDER_ACTUAL_EXECUTION.json",
+        "actual_blender_version": "4.0.2",
+        "actual_blender_mode": "GITHUB_ACTIONS_XVFB_HEADLESS",
+        "actual_bmesh_edited_vertices": 70,
+        "actual_renders": 6,
+        "import_export_reimport_verified": true,
+        "source_Z_up_corrected": true,
+        "gui_live_edit": "NOT_PERFORMED",
+        "art_evaluation": "ART_STILL_REJECT",
+        "minecraft_construction": "HOLD"
       }
     }
   },
@@ -215,9 +233,12 @@
     "INTERNAL_CIVIC_CITY_ACCESSIBILITY",
     "J7_R3_TRUE_BLENDER_GUI_DIRECT_SCULPT",
     "J7_R3_SECTION_LIVEABLE_AND_SUPPORT_QA",
-    "J7_R3_ART_QUALITY_NOT_MET"
+    "J7_R3_ART_QUALITY_NOT_MET",
+    "BLENDER_LIVE_VIEWPORT_EDITING",
+    "CENTRAL_PUBLIC_ROOM_ART_QUALITY",
+    "REAL_10KM_CITY_ALL_DETAIL"
   ],
-  "next_gate": "J7-R4: switch to genuinely direct visual sculpting in a Blender-capable session rather than continuing procedural sheets, test a single substantial liveable public-civic section and compare side/rear views at fixed scale; all official rights held.",
+  "next_gate": "J7-R5: advance artistic quality of lived-in monumental public civic architecture from true Blender-edited assets, and test real viewport/UI iterative editing if available; avoid expanding failed R3 to final master. CITY MASTER 3D FIRST unchanged.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
