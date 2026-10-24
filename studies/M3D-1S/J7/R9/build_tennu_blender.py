@@ -88,11 +88,23 @@ CENTERS=[
  ("C5_NORTH_CITY_RELEASE",(150,1030,211))]
 PATH=[p for n,p in CENTERS]
 width=[145,160,185,176,156,188]
+# R9-C: ONE true topologically joined mesh, not five individually bevelled
+# slabs which could expose wedge gaps at corners despite shared centerline nodes.
+main_road=deck("A_ONE_CONNECTED_MAIN_BOULEVARD_ACTUAL_MESH",
+              PATH,width,21,"joined_public_spine_civic_street","floor_white")
+assert len(main_road.data.vertices)==4*len(PATH)
+# Every node has exactly the 2 shared upper vertices of both adjoining strips.
+for k,(_,xyz) in enumerate(CENTERS):
+ for corner in (4*k+2,4*k+3):
+  assert abs(main_road.data.vertices[corner].co.z-xyz[2])<.0001
+# Check each upper quad belongs to one connected strip with exact shared edges.
+polyset=[set(face.vertices) for face in main_road.data.polygons]
+for k in range(len(PATH)-1):
+ quad={4*k+2,4*k+3,4*(k+1)+2,4*(k+1)+3}
+ assert quad in polyset,("Disconnected road topological quad",k)
+ROAD_FACE_CHAIN_VALIDATED=True
 for i in range(len(PATH)-1):
- # centerlines connect node ends without gaps; this is only geometric grade evidence.
- deck("A_CIVIC_MAIN_BOULEVARD_SEG_"+str(i),PATH[i:i+2],
-      width[i:i+2],21,"city_spine_continuous_exterior_public_street","floor_white")
- # floor supports stop each corridor from floating as an abstract sky ribbon
+ # floor supports stop the joined corridor from floating as an abstract sky ribbon
  for k,t in enumerate((.25,.75)):
   a,b=PATH[i:i+2];x=a[0]*(1-t)+b[0]*t;y=a[1]*(1-t)+b[1]*t;z=a[2]*(1-t)+b[2]*t
   for sg in (-1,1):
@@ -413,7 +425,12 @@ evidence={
  "real_walkability_validated":False,"horizontal_road_graph_is_only_concept":True,
  "public_destinations":[{"name":n,"coord_research_m":p} for n,p in CENTERS],
  "public_main_route_segment_metrics":linkgrade,
- "number_of_public_spine_segment_meshes":len(PATH)-1,
+ "public_boulevard_is_one_actual_joined_blender_mesh":True,
+ "public_boulevard_joined_top_quad_count":len(PATH)-1,
+ "road_mesh_topological_edge_chain_test":ROAD_FACE_CHAIN_VALIDATED,
+ "maximum_public_road_proxy_grade_percent":max(x["slope_percent"] for x in linkgrade),
+ "public_road_grade_is_accessibility_certification":False,
+ "number_of_public_spine_segment_meshes":1,
  "actual_blender_meshes":len(objects),"vertices":vertex,"triangles":tri,
  "bounds_research_xyz_m":bounds,"spans_research_xyz_m":
  [round(bounds[1][i]-bounds[0][i],2) for i in range(3)],
