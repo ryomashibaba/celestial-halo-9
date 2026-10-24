@@ -28,3 +28,30 @@ J7-R1〜R6の生成主体の試作が美術REJECTとなったため、さらに�
 実GUIの読込・選択・幾何変形・視覚確認・保存を一連の証拠で示せた場合、次は単一公共室／街区の彫刻品質を高める視覚編集試験に移る。未達の場合、新規キロメートル級モデルを作らず、このUI実証のボトルネック解決が先。
 
 実行はChat側のGitHub Actions研究環境のみ。ユーザーのローカルPC操作、Work/Computer Use使用、Minecraft施工、mainマージは行っていない。
+
+## 2026-10-24 JST — 最終実行結果（追記）
+
+**確定：R7 GUI編集経路の技術PASS。美術ART REJECT／施工HOLDを維持。**
+
+- 実Blender 4.0.2 GUI、X11の仮想画面で実際にウィンドウのスクリーンショットを取得。`01_REAL_GUI_BEFORE.png`に編集モードと本物の公共室メッシュが映ることを画像で確認。
+- 前工程の失敗の根本原因はBlender初回起動の**Quick Setup**が画面中央を占有して最初のS/X操作を消費していたこと。実スクリーンショットを見て特定。既存研究コピーのみで初回設定画面を閉じ、ビューを正常に表示した後に再編集。
+- 完全成功した[GitHub Actions #40082186677](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/40082186677)でX方向1.35倍の拡幅とY方向-65mの頂点移動が成立。
+- 対象:`04_GRAND_CIVIC_FORUM_ACTUAL_PUBLIC_FLOOR`、**18頂点**。実メッシュのXYZ bounds:
+  - GUI編集前：X[-910,870], Y[-1420,490], Z[680,733] (m)
+  - GUI編集後：X[-1205.1666,1197.8334], Y[-1485,425], Z[680,733] (m)
+  - **X幅1780→2403m（1.350倍）、Y移動-65m**。
+- Blenderに保存したBLENDを、別のBlenderプロセスが読み直し実頂点測定。163メッシュ維持。他の巨大都市基盤モデルの頂点データ不変。
+- 編集後モデルを実BlenderでGLB書き出し（230,816バイト）、空シーンへ読み込み直して**163/163メッシュ一致**を確認。
+- 本物のGUIをキャプチャした前後PNG2枚、Blender Workbenchによる編集後の局所／都市全体レンダー2枚、編集前後の`.blend`原本、GLB、JSON実測証拠はすべてGitHub研究ブランチ内`outputs/`に保存。
+- このGUI方式はxvfb + xdotoolによる**キーボード操作**。人間のブラシスカルプトやAIのマウス操作を伴う高品質芸術造形を実証したものではない。
+- **美術評価：R6マクロ形状はREJECTのまま**。今回の拡幅はUI実証であり、中央建築を正式採択しない。
+
+## 証拠
+- 成功実行：[#40082186677](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/40082186677)
+- 実行証拠：`outputs/J7R7_REAL_GUI_EXECUTION_PROOF.json`
+- スクリーンショット：`outputs/01_REAL_GUI_BEFORE.png`／`outputs/02_REAL_GUI_AFTER.png`
+- BLEND：`outputs/J7R7_BEFORE_REAL_GUI_EDIT.blend`／`outputs/J7R7_AFTER_REAL_GUI_EDIT.blend`
+- GLB：`outputs/J7R7_GUI_EDITED_ACTUAL_MODEL.glb`
+
+## 次のR8実務優先
+**GUI操作の再実証や、R6の岩柱への窓追加を繰り返さない。** 実GUI画面に出る公共室の外観・内部と人間尺度の街路の形状を観察しながら、ひとつの本格的な公共建築断面を造形・修正して審査する。都市マクロへの展開は美術的・空間的に合格するまで保留。CITY MASTER 3D FIRSTとH/SB/W0の全詳細完成義務は維持。実行権限が必要なWork/ローカルComputer Useを独断で使用しない。
