@@ -1,0 +1,78 @@
+{
+  "schema": "halo9.m3d1s.j7r8.final_actual_blender_and_gui_review.v1",
+  "date_jst": "2026-10-24",
+  "formal_art_adoption": 0,
+  "construction": "HOLD",
+  "policy": "ART_FIRST_CITY_MASTER_3D_FIRST",
+  "official_coordinates": "UNVERIFIED",
+  "model_type": "LOCAL_NONCANONICAL_CIVIC_LENS",
+  "blender": {
+    "version": "4.0.2",
+    "native_gui": true,
+    "headless_procedural_build": true,
+    "work_mode": false,
+    "city_master_completed": false
+  },
+  "stage_B": {
+    "run": 40083897810,
+    "mesh_objects": 190,
+    "vertices": 4148,
+    "triangles": 7536,
+    "spans_m_xyz": [
+      2155.21,
+      1670,
+      696.5
+    ],
+    "blend_bytes": 173798,
+    "glb_bytes": 436240,
+    "glb_reimport_meshes": 190,
+    "render_frames": 9,
+    "relative_fixed_camera_pixel_changes_vs_A_percent_rgb8": {
+      "front": 9.807,
+      "oblique": 6.553,
+      "side": 10.422,
+      "rear": 12.89,
+      "aerial": 7.783,
+      "ground": 7.384,
+      "reverse": 9.605,
+      "nave": 6.001,
+      "street": 18.195
+    }
+  },
+  "stage_C_actual_gui": {
+    "run": 40084519373,
+    "edit_target": "SIX_CIVIC_VAULT_SPINES_2",
+    "selected_crest_vertices_moved": 8,
+    "source_target_vertices": 20,
+    "move_Z_m": 120,
+    "crest_before_Z_m": 621.5,
+    "crest_after_Z_m": 741.5,
+    "unchanged_mesh_objects": 189,
+    "edited_GLb_reimported_mesh_count": 190,
+    "edited_glb_bytes": 436588,
+    "gui_screenshots": 2,
+    "nine_rendered_images": 9,
+    "actual_BLENDER_GUI": true,
+    "art_sculpting_mouse_brush": false
+  },
+  "art_judgment": {
+    "formal_central": "REJECT",
+    "local_method_study": "HOLD_FOR_REUSE",
+    "why": [
+      "Architecture still reads as large standalone arena/culture center rather than continent-scale city",
+      "The habitable street spur improved urban connectivity perception but remains provisional",
+      "Facades/room programs and walkability unverified; roof ribs look schematic",
+      "This is one local architectural study, not a fully detailed 10km City Master"
+    ],
+    "not_to_do": "Do not expand failed oval stadium form into final central monument by decoration alone"
+  },
+  "source_paths": {
+    "report": "studies/M3D-1S/J7/R8/REPORT_JA.md",
+    "initial_blend": "studies/M3D-1S/J7/R8/outputs/J7R8_CIVIC_LENS_ART_STUDY.blend",
+    "base_GLb": "studies/M3D-1S/J7/R8/outputs/J7R8_CIVIC_LENS_ART_STUDY.glb",
+    "post_gui_blend": "studies/M3D-1S/J7/R8/gui/outputs/J7R8_GUI_AFTER.blend",
+    "post_gui_GLb": "studies/M3D-1S/J7/R8/gui/outputs/J7R8_GUI_RESCULPTED_ACTUAL.glb",
+    "post_gui_evidence": "studies/M3D-1S/J7/R8/gui/outputs/J7R8_REAL_GUI_EDIT_EVIDENCE.json"
+  },
+  "next_gate": "R9 prioritize artistically improved spatially coherent civic building, street and district integration, rather than tests of GUI operations or procedural stadium expansion."
+}
