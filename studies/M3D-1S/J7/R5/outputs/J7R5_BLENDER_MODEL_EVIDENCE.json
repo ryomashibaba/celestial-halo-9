@@ -1,0 +1,110 @@
+{
+  "schema": "halo9.m3d1s.j7r5.actual_blender_model.v1",
+  "blender": "4.0.2",
+  "research_only": true,
+  "coordinate": "NONCANONICAL_Z_UP_METERS",
+  "meters_gross_section_dimensions": "LOCAL SECTION, NOT WHOLE 10KM CITY",
+  "mesh_object_count": 141,
+  "vertex_count": 1782,
+  "triangles_count": 3028,
+  "bmesh_direct_edit_vertices": 20,
+  "role_count": {
+    "inhabited_thick_city_foundation": 1,
+    "inhabited_continuous_west_mass": 1,
+    "thick_top_city_not_sail": 1,
+    "inhabited_thick_east_foundation": 1,
+    "inhabited_continuous_east_mass": 1,
+    "elevated_inhabited_city_mass": 1,
+    "highest_habitable_city_profile": 1,
+    "open_courtyard_void_with_real_inner_wall": 2,
+    "large_public_floor_shared_between_inhabited_cliffs": 1,
+    "inhabited_civic_side_gallery": 2,
+    "closed_north_boundary_civic_nave": 1,
+    "major_skylight_aperture_and_public_roof_balcony": 1,
+    "civic_structural_vault_actual_mesh": 4,
+    "vault_support_not_load_certified": 8,
+    "ground_to_nave_public_access_level_not_walk_certified": 1,
+    "east_transit_public_connection_not_walk_certified": 1,
+    "local_city_street_with_true_open_courtyard": 4,
+    "city_building_exterior_draft": 16,
+    "city_roof_detail": 16,
+    "facade_rhythm_preliminary": 32,
+    "vertical_transit_unverified": 4,
+    "multi_level_public_station_not_certified": 6,
+    "upper_east_west_public_crossing": 1,
+    "upper_neighborhood_exchange_prototype": 1,
+    "exposed_civic_terrace_cutaway_not_traversal_pass": 8,
+    "civic_facade_structure": 24,
+    "ground_reference_not_official_w0": 1
+  },
+  "real_public_hall_floor": true,
+  "roof_open_between_ribs": true,
+  "two_open_courtyards": true,
+  "public_access_measured": false,
+  "all_public_rooms_detailed": false,
+  "inhabited_civic_section_quality": "EXPERIMENTAL_REVIEW_REQUIRED",
+  "formal_art_accepted": false,
+  "construction": "HOLD",
+  "formal_world_coordinates": false,
+  "derived_model_GLB": "J7R5_INHABITED_CIVIC_SECTION_NONCANONICAL.glb",
+  "native_editable_BLENDER": "J7R5_INHABITED_CIVIC_SECTION_NONCANONICAL.blend",
+  "glb_bytes": 204724,
+  "blend_bytes": 139102,
+  "render_views": [
+    {
+      "name": "01_CITY_FRONT",
+      "kind": "FIXED_10KM",
+      "ortho_m": 10500,
+      "bytes": 436830
+    },
+    {
+      "name": "02_CITY_OBLIQUE",
+      "kind": "FIXED_10KM",
+      "ortho_m": 10500,
+      "bytes": 562844
+    },
+    {
+      "name": "03_CITY_SIDE",
+      "kind": "FIXED_10KM",
+      "ortho_m": 10500,
+      "bytes": 459052
+    },
+    {
+      "name": "04_CITY_REAR",
+      "kind": "FIXED_10KM",
+      "ortho_m": 10500,
+      "bytes": 473471
+    },
+    {
+      "name": "05_CITY_AERIAL",
+      "kind": "FIXED_10KM",
+      "ortho_m": 10500,
+      "bytes": 843768
+    },
+    {
+      "name": "06_CITY_GROUND",
+      "kind": "FIXED_10KM",
+      "ortho_m": 10500,
+      "bytes": 251292
+    },
+    {
+      "name": "07_CITY_REVERSE",
+      "kind": "FIXED_10KM",
+      "ortho_m": 10500,
+      "bytes": 615676
+    },
+    {
+      "name": "08_NAVE_INTERIOR",
+      "kind": "LOCAL_NOT_SCALE_COMPARABLE",
+      "ortho_m": 2700,
+      "bytes": 836224
+    },
+    {
+      "name": "09_DISTRICT_SECTION",
+      "kind": "LOCAL_NOT_SCALE_COMPARABLE",
+      "ortho_m": 5700,
+      "bytes": 739789
+    }
+  ],
+  "glb_reimport_mesh_count": 141
+}
