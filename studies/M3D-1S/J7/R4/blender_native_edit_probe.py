@@ -5,7 +5,7 @@ This proves Blender execution & editable mesh operation only, NOT beautiful arch
 """
 import bpy, bmesh, json, math, sys
 from pathlib import Path
-from mathutils import Vector
+from mathutils import Vector, Matrix
 def ensure(condition, msg):
     if not condition: raise RuntimeError(msg)
 def mesh_objects():
@@ -15,8 +15,18 @@ def get_mesh(prefix):
     ensure(len(matches)==1, 'Expected unique imported mesh '+prefix+' got '+str([m.name for m in matches]))
     return matches[0]
 def bounds(o):
-    pts=[o.matrix_world@Vector(v) for v in o.bound_box]
+    pts=[o.matrix_world@v.co for v in o.data.vertices]
     return [[round(min(p[i] for p in pts),3) for i in range(3)],[round(max(p[i] for p in pts),3) for i in range(3)]]
+def normalize_imported_glb_basis():
+    # R3's Trimesh-exported GLB has Z-up numeric vertices embedded as glTF Y-up.
+    # Blender sees (x, -z, y); rotate imported root transforms -90 degrees around X
+    # to restore the numerical study coordinate (x, y, z). This is research-only.
+    rot=Matrix.Rotation(-math.pi/2.0,4,'X')
+    roots=[o for o in bpy.context.scene.objects if o.parent is None]
+    ensure(bool(roots),'no glTF root objects to transform')
+    for obj in roots: obj.matrix_world=rot@obj.matrix_world
+    bpy.context.view_layer.update()
+    return len(roots)
 def setup_camera(name, loc, target, ortho):
     cd=bpy.data.cameras.new(name); cam=bpy.data.objects.new(name,cd)
     bpy.context.scene.collection.objects.link(cam)
@@ -78,10 +88,14 @@ def main():
     bpy.ops.wm.read_factory_settings(use_empty=True)
     bpy.ops.import_scene.gltf(filepath=str(source))
     imported=mesh_objects()
+    corrected_roots=normalize_imported_glb_basis()
     ensure(len(imported)>=150,'R3 expected at least 150 mesh objects')
     nave=get_mesh('NAVE_MAIN_PROCESSIONAL_FLOOR')
     roof=get_mesh('NAVE_VAULT_SUSPENDED_NORTH_FOLD')
     before_nave=bounds(nave);before_roof=bounds(roof)
+    ensure(abs(before_nave[0][2]-1215.0)<2 and abs(before_roof[0][2]-1760.0)<2,
+           'Imported coordinate basis not Z-up after correction: '+str(before_nave))
+
     scene=scene_prep()
     # Two fixed 10km views, and one local examination view shared by before/after.
     cams=[
@@ -103,7 +117,7 @@ def main():
     metadata={'schema':'halo9.j7r4.blender_execution_evidence.v1',
       'blender_version':bpy.app.version_string, 'engine':'BLENDER_WORKBENCH',
       'source_glb_repo':'studies/M3D-1S/J7/R3/J7R3_FRACTURED_INHABITED_CIVIC_SKY_NONCANONICAL.glb',
-      'source_mesh_objects':len(imported), 'blender_mesh_edit_method':'bmesh direct change of existing imported vertex geometry',
+      'source_mesh_objects':len(imported),'normalized_root_objects':corrected_roots, 'coordinate_basis_normalization':'Trimesh R3 authored XYZ Z-up restored by imported-root -90deg X rotation', 'blender_mesh_edit_method':'bmesh direct change of existing imported vertex geometry',
       'before_nave_bounds_m':before_nave,'before_roof_bounds_m':before_roof,
       'edited_objects':measurements,'screenshots':images,
       'glb_bytes':glb.stat().st_size,'blend_bytes':blend.stat().st_size,
@@ -116,6 +130,13 @@ def main():
     bpy.ops.import_scene.gltf(filepath=str(glb))
     metadata['edited_glb_reimport_mesh_count']=len(mesh_objects())
     ensure(metadata['edited_glb_reimport_mesh_count']>=len(imported),'reimport lost mesh objects')
+    exported_nave=get_mesh('NAVE_MAIN_PROCESSIONAL_FLOOR')
+    metadata['edited_glb_reimport_nave_bounds_m']=bounds(exported_nave)
+    ensure(abs(metadata['edited_glb_reimport_nave_bounds_m'][0][2]-measurements[0]['bounds_after_m'][0][2])<3,
+           'Reimport changed Z coordinate unexpectedly')
+    ensure(any(abs(a-b)>3 for u,v in zip(measurements[0]['bounds_before_m'], measurements[0]['bounds_after_m']) for a,b in zip(u,v)),
+           'Mesh bounds before and after indistinguishable')
+
     (out/'J7R4_BLENDER_ACTUAL_EXECUTION.json').write_text(json.dumps(metadata,indent=2),encoding='utf-8')
     print('J7R4_SUCCESS',json.dumps({'blender':bpy.app.version_string,
         'source_meshes':len(imported),'reimport':len(mesh_objects()),
