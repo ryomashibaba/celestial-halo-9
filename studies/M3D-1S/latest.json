@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R5",
+  "research_id": "M3D-1S/J7-R6",
   "date_jst": "2026-10-24",
-  "status": "J7_R5_REAL_BLENDER_9_VIEW_LOCAL_CIVIC_SECTION__TECH_PASS_ART_REJECT",
-  "research_branch": "research/m3d1s-j7-r5-blender-inhabited-civic-section-20261024",
+  "status": "J7_R6_ACTUAL_BLENDER_9_VIEW_SINGLE_FOUNDATION_ART_REJECT",
+  "research_branch": "research/m3d1s-j7-r6-inhabited-geography-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "GITHUB_ACTIONS_REAL_BLENDER_4_0_2_NATIVE_ART_RESEARCH__NO_INTERACTIVE_GUI",
+  "work_status": "GITHUB_ACTIONS_REAL_BLENDER_4_0_2__NO_GUI_DIRECT_SCULPT_OR_WORK",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -233,6 +233,34 @@
         "art_decision": "REJECT_TWO_TURRETS_WITH_BRIDGE_MACRO__KEEP_AS_CIVIC_ROOM_METHOD_TRIAL_ONLY",
         "canonical_adoption": "NONE",
         "minecraft_construction": "HOLD"
+      },
+      "r6": {
+        "status": "REAL_BLENDER_OUTPUT_AND_REIMPORT_VERIFIED__ART_REJECT",
+        "report": "studies/M3D-1S/J7/R6/REPORT_JA.md",
+        "art_qa": "studies/M3D-1S/J7/R6/J7R6_ART_REVIEW.json",
+        "source": "studies/M3D-1S/J7/R6/build_blender_tenkaku.py",
+        "workflow": ".github/workflows/halo9-j7-r6-blender.yml",
+        "blend": "studies/M3D-1S/J7/R6/outputs/J7R6_TENKAKU_SECTION_NONCANONICAL.blend",
+        "glb": "studies/M3D-1S/J7/R6/outputs/J7R6_TENKAKU_SECTION_NONCANONICAL.glb",
+        "renders": "studies/M3D-1S/J7/R6/outputs/01_FRONT.png through 09_URBAN_SECTION.png",
+        "evidence": "studies/M3D-1S/J7/R6/outputs/J7R6_MODEL_EVIDENCE.json",
+        "workflow_run": 40080369793,
+        "measured": {
+          "meshes": 163,
+          "vertices": 1895,
+          "triangles": 3174,
+          "span_m_research_xyz": [
+            7018.24,
+            3731.8,
+            3585
+          ],
+          "actual_glb_bytes": 230784,
+          "actual_blend_bytes": 147502,
+          "actual_blender_renders": 9
+        },
+        "art_decision": "REJECT_TWO_PLAIN_MEGA_MONOLITHS_PUBLIC_HALL_TOO_SMALL",
+        "formal_adoption": "NONE",
+        "construction": "HOLD"
       }
     }
   },
@@ -269,9 +297,12 @@
     "REAL_10KM_CITY_ALL_DETAIL",
     "J7_R5_CENTRAL_ART_NOT_ACCEPTED",
     "J7_R5_DETAILED_CIVIC_INTERIOR_AND_TRUE_TRAVERSAL",
-    "R5_CITYWIDE_INTEGRATION_UNFINISHED"
+    "R5_CITYWIDE_INTEGRATION_UNFINISHED",
+    "J7_R6_FUNDAMENTAL_ARCHITECTURAL_ART_NOT_ACHIEVED",
+    "BLENDER_GUI_ART_DIRECTED_ARCHITECTURAL_EDIT",
+    "PUBLIC_CIVIC_INTERIOR_REAL_WALKABILITY"
   ],
-  "next_gate": "J7-R6: do NOT extend R5 dual towers or cosmetic details; genuinely reinvent and artistically verify an inhabited megacity mass from a complete public-room/streets/transport section, with side/rear reading and citywide W0/H/SB integration considerations; Blender method proven but art not achieved.",
+  "next_gate": "J7-R7 STOP procedural megamass repetition: obtain genuine visual art-directed Blender GUI/edit feedback path with approval if Work needed; design one inhabited civic hall/urban section from lived-in spatial architecture first. Do NOT re-use the R6 monolith or claim CITY MASTER 3D complete.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
