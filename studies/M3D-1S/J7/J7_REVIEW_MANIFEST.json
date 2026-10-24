@@ -1,0 +1,27 @@
+{
+  "schema": "halo9.m3d1s.j7.review_gate.v1",
+  "date_jst": "2026-10-24",
+  "branch": "research/m3d1s-j7-artfirst-civic-rift-section-20261024",
+  "predecessor": "M3D-1S/J6",
+  "priority": "ART_FIRST_MACRO_IMPACT_FIRST",
+  "test_asset": "studies/M3D-1S/J6/M3D1S_J6_UPPER_EAST.glb",
+  "status": "REVIEW_PIPELINE_AUTHORED_NOT_EXECUTED",
+  "real_blender_import": "NOT_TESTED",
+  "real_blender_render": "NOT_TESTED",
+  "real_human_traversal": "NOT_TESTED",
+  "new_art_mesh": "NOT_CREATED",
+  "central_art_adoptions": 0,
+  "minecraft_construction": "HOLD",
+  "latest_accepted_art": null,
+  "required_future_visuals": [
+    "fixed-front",
+    "fixed-oblique",
+    "fixed-side",
+    "fixed-rear",
+    "fixed-aerial",
+    "fixed-ground",
+    "fixed-reverse-oblique",
+    "local-interior-view"
+  ],
+  "stop_rule": "Do not further polish J6 boxes to claim art; use feedback to author new genuinely inhabited macro geometry, preserve existing research"
+}
