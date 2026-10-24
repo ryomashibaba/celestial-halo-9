@@ -64,3 +64,14 @@ R9-Cの正式PASSは`outputs/J7R9_BLENDER_SPATIAL_EVIDENCE.json`の`road_mesh_to
 | 街路 | 都市上層 |
 |---|---|
 | ![](outputs/10_CITY_STREET.png) | ![](outputs/11_CITY_UPPER_KEEL.png) |
+
+
+## 7. 最終確定 — R9-C Geometry QA / GitHub同期PASS
+
+- **技術成功：** [GitHub Actions #40086651066](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/40086651066) 全ステップPASS。Blender4.0.2で実BLEND+GLB+11実レンダーを再制作・実GLB再インポート。
+- 出力ファイルをGitHub研究ブランチから独立に読戻し。**975メッシュ、47,458頂点、71,420三角形**、GLB **4,034,440 bytes**、編集可能BLEND **609,291 bytes**（GitHubコンテンツ実サイズ）、11画像。
+- **実3D路面：** Blenderメッシュ1個の連続上面として、6節点・5上面ポリゴンの隣接実頂点共有を検証。実測最大区間の計画勾配**6.96%**。枝道の路面接続・建物内部・傾斜路の手すり・実歩行可能性は未認証。
+- 実行過程の発見：最初のCジョブ[#40086189528](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/40086189528)はBlenderの形状QA・画像生成自体はPASSしたが、同時に研究報告のブランチHEADが進んだためGitHub pushが非fast-forwardで拒否された。対策として**研究ブランチのみでfetch/rebaseしてから通常push**するようワークフローを修正。force pushも既存成果の上書きもしない。修正後の[#40086651066](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/40086651066)が保存・読戻しまでPASS。
+- AとBはそれぞれ`A_baseline/`・`B_baseline/`へ完全保存済み。Cは`outputs/`。実数値は`J7R9_ART_AND_SPATIAL_QA.json`と`outputs/J7R9_BLENDER_SPATIAL_EVIDENCE.json`に記録。
+
+**正式美術判定は依然としてREJECT。** 曲線屋根と試作建築の集合が「高架に置かれたミニチュア都市」と見え、圧倒的な都市文明のスケールや用途と一体化した建築美術には到達しない。今後は数値自動で新しい都市マクロを乱造せず、適切な人間尺度で公共室の入口・内外・建築断面を直接編集・可視化する研究へ進む。M247-C、W0、H/SB等の正式条件、Minecraft施工HOLDは保持。
