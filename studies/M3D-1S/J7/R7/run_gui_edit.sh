@@ -30,7 +30,7 @@ echo "J7R7_GUI_WINDOW" "$(xdotool getwindowname "$found")" ID="$found"
 xdotool windowfocus --sync "$found"
 echo "J7R7_FOCUSED_WINDOW" "$(xdotool getwindowfocus)"
 xdotool mousemove --window "$found" 680 400
-sleep 3
+sleep 11
 # The prepared scene has the real public-hall mesh active and in Edit Mode.
 # Screenshot is obtained from actual X display, NOT Blender offscreen render.
 scrot -z "$OUT/01_REAL_GUI_BEFORE.png"
@@ -40,14 +40,22 @@ sleep 2
 xdotool key --clearmodifiers a
 sleep 0.7
 xdotool key --clearmodifiers s
+sleep .4
 xdotool key --clearmodifiers x
-xdotool type --delay 140 --clearmodifiers '1.35'
+sleep .4
+xdotool key --clearmodifiers 1 period 3 5
+sleep 1
 xdotool key --clearmodifiers Return
+sleep 2
+scrot -z "$OUT/02_GUI_AFTER_SCALE.png"
 sleep 1
 # Translate selected existing vertices 65 metres along the model Y axis.
 xdotool key --clearmodifiers g
+sleep .4
 xdotool key --clearmodifiers y
-xdotool type --delay 140 --clearmodifiers -- '-65'
+sleep .4
+xdotool key --clearmodifiers minus 6 5
+sleep 1
 xdotool key --clearmodifiers Return
 sleep 2
 scrot -z "$OUT/02_REAL_GUI_AFTER.png"
