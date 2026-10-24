@@ -1,0 +1,61 @@
+{
+  "schema": "halo9.j7r3.reality_gate.v1",
+  "date_jst": "2026-10-24",
+  "import": "GLB_BINARY_RELOAD_PASS",
+  "source_nodes": 164,
+  "vertices": 3300,
+  "triangles": 5944,
+  "glb_bytes": 145456,
+  "central_study_bounds_m": {
+    "min": [
+      -4134.04,
+      -2594.0,
+      124.21
+    ],
+    "max": [
+      3780.0,
+      1913.61,
+      4740.0
+    ],
+    "span": [
+      7914.0,
+      4507.6,
+      4615.8
+    ]
+  },
+  "completed_actual_renders": 8,
+  "render_engine": "VTK_OFFSCREEN_NOT_BLENDER",
+  "comparison": "same 7 fixed 10km frame camera parameters as R2, local eighth separate",
+  "real_public_rooms": [
+    "NAVE",
+    "WEST_OPEN_ACADEMY",
+    "EAST_GREAT_EXCHANGE"
+  ],
+  "real_floors_present": true,
+  "citywide_completion": "NOT_COMPLETE",
+  "blender_live_edit": "NOT_PERFORMED",
+  "interior_room_occupancy": "NOT_CERTIFIED",
+  "walking_accessibility": "NOT_CERTIFIED",
+  "official_art_selection": 0,
+  "art_decision": "REJECT_AS_FINAL_CENTRAL__KEEP_RESEARCH_ONLY",
+  "observed_improvements": [
+    "Genuine open material gaps between separate 3D sections, not color-masked holes",
+    "Extended open multilevel cross-section and distinct public floors/roof geometries",
+    "Asymmetric higher eastern skyline and real 3D mass cross sections"
+  ],
+  "observed_problems": [
+    "At 10km fixed city view the model reads more like folded sails/abstract spacecraft than inhabitable city",
+    "Side view remains slender and does not reveal large integrated population decks",
+    "Rear elevation lacks sufficiently sophisticated civic facade and legible public volumes",
+    "Most small building exterior designs schematic and public room access not proved",
+    "R3 is not Blender GUI direct sculpt as requested; independent editable study only"
+  ],
+  "unverified": [
+    "Exact urban walking/traversal path continuity",
+    "Section construction support and physical vertical transfers",
+    "Interior full public room floor plan and ceiling clearance",
+    "Real H/SB facility placements and canonical coordinates",
+    "Blender import/render",
+    "Full City Master completion"
+  ]
+}
