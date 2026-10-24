@@ -1,0 +1,99 @@
+{
+  "schema": "halo9.m3d1s.j7r9.consolidated_actual_blender_art_and_spatial_qa.v1",
+  "date_jst": "2026-10-24",
+  "study_name": "TENNU CITY SEAM",
+  "repo": "ryomashibaba/celestial-halo-9",
+  "legal_policy": "ART_FIRST_CITY_MASTER_3D_FIRST",
+  "formal_art_accepted": 0,
+  "minecraft_formal_construction": "HOLD",
+  "official_world_modified": false,
+  "stage_A_actual_blender": {
+    "model": "A_baseline/J7R9_TENNU_URBAN_SEAM.blend",
+    "real_meshes": 531,
+    "vertices": 4658,
+    "triangles": 7192,
+    "render_count": 11,
+    "art": "REJECT_DOMINANT_CIVIC_ROOF_ABOVE_TOY_BUILDINGS",
+    "workflow_run": 40085404457
+  },
+  "stage_B_actual_blender": {
+    "model": "B_baseline/J7R9_TENNU_URBAN_SEAM.blend",
+    "real_meshes": 979,
+    "vertices": 47474,
+    "triangles": 71436,
+    "render_count": 11,
+    "model_extent_xyz_m": [
+      2200.45,
+      2789.86,
+      905.5
+    ],
+    "blender_bytes": 613078,
+    "glb_bytes": 4037828,
+    "GLB_reimport_meshes": 979,
+    "workflow_run": 40085912422,
+    "art": "REJECT_ELEVATED_MINIATURE_VILLAGE_WITH_OVERSIZED_CROWN"
+  },
+  "stage_C_actual_blender": {
+    "model": "outputs/J7R9_TENNU_URBAN_SEAM.blend",
+    "real_meshes": 975,
+    "vertices": 47458,
+    "triangles": 71420,
+    "render_count": 11,
+    "model_extent_xyz_m": [
+      2200.45,
+      2789.86,
+      905.5
+    ],
+    "blender_bytes": 610570,
+    "glb_bytes": 4034440,
+    "GLB_reimport_meshes": 975,
+    "main_public_road_actual_meshes": 1,
+    "main_road_total_topological_quads": 5,
+    "main_road_same_upper_vertex_edge_chain": true,
+    "main_road_station_nodes": 6,
+    "main_route_slope_percent_range": [
+      4.567,
+      6.96
+    ],
+    "public_walkability_certified": false,
+    "source_artifact_run": 40086189528,
+    "source_artifact_job_result": "geometry_and_all_11_renders_pass__git_push_race_failed",
+    "next_run_for_persistent_GitHub_sync": 40086651066,
+    "art": "REJECT_MACRO__SPATIAL_CONNECTIVITY_PROXY_USEFUL",
+    "actual_successful_GitHub_persistence_run": 40086651066,
+    "GitHub_Blend_GLB_11_views_readback": "PASS",
+    "real_blend_file_size_repo_bytes": 609291,
+    "GitHub_result_status": "REAL_BLENDER_QA_PASS__GITHUB_SYNC_PASS__ART_REJECT"
+  },
+  "a_to_b_image_pixel_change_rgb_abs_gt_8_percent": {
+    "urban_front": 8.18,
+    "urban_oblique": 9.333,
+    "urban_side": 6.246,
+    "urban_rear": 9.15,
+    "urban_aerial": 10.689,
+    "assembly_local": 25.923,
+    "archive_local": 46.155,
+    "street_local": 32.293,
+    "upper_city_local": 26.595
+  },
+  "architecture_quality_assessment": {
+    "verdict": "FORMAL_ART_REJECT",
+    "useful": [
+      "Six explicit spatial destinations planned before outer mass shape",
+      "Grand civic assembly includes real seating and stage meshes",
+      "Archive and station have separate functional floor geometry",
+      "Facades now have real window apertures",
+      "Main urban avenue is one shared-topology mesh, not independent overlapping slabs",
+      "11 exact Blender Workbench views from same scene; A and B baseline immutable in research branch"
+    ],
+    "deficiencies": [
+      "City external shape is an elevated toy-like village, not monumental living civilization",
+      "Roof/crown dominates front views and is not experientially integrated",
+      "City exteriors are preliminary and interiors not detailed at human scale",
+      "Side branches may not connect seamlessly and walking QA not performed",
+      "No official W0 H/SB urban master coordinate alignment",
+      "No acceptable central art or 10km detailed master"
+    ]
+  },
+  "next_gate": "J7-R10: stop new macro numerical shape generation. Direct Blender art-design of ONE appropriately human-scaled fully detailed public urban interior and entry connected to the researched civic spine. Verify true facade/window/opening geometry, floor continuity and practical circulation. Only upscale after multi-view art PASS. Work only with prior approval."
+}

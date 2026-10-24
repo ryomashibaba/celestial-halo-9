@@ -1,0 +1,240 @@
+{
+  "schema": "halo9.j7r9.real_blender_urban_section.v1",
+  "date_jst": "2026-10-24",
+  "blender": "4.0.2",
+  "canon": "NONCANONICAL_LOCAL_CIVIC_URBAN_PROGRAM",
+  "art_adoption": "NOT_ACCEPTED",
+  "minecraft_construction": "HOLD",
+  "city_master_3d_complete": false,
+  "public_interior_detailed": false,
+  "real_walkability_validated": false,
+  "horizontal_road_graph_is_only_concept": true,
+  "public_destinations": [
+    {
+      "name": "C0_SOUTH_GATE",
+      "coord_research_m": [
+        -100,
+        -1440,
+        60
+      ]
+    },
+    {
+      "name": "C1_INTERCHANGE",
+      "coord_research_m": [
+        110,
+        -1020,
+        82
+      ]
+    },
+    {
+      "name": "C2_GRAND_ASSEMBLY",
+      "coord_research_m": [
+        -135,
+        -580,
+        105
+      ]
+    },
+    {
+      "name": "C3_CIVIC_ARCHIVE",
+      "coord_research_m": [
+        65,
+        -150,
+        127
+      ]
+    },
+    {
+      "name": "C4_NEIGHBOURHOOD_GARDENS",
+      "coord_research_m": [
+        350,
+        370,
+        163
+      ]
+    },
+    {
+      "name": "C5_NORTH_CITY_RELEASE",
+      "coord_research_m": [
+        150,
+        1030,
+        211
+      ]
+    }
+  ],
+  "public_main_route_segment_metrics": [
+    {
+      "from": "C0_SOUTH_GATE",
+      "to": "C1_INTERCHANGE",
+      "length_xy_m": 469.57,
+      "rise_m": 22,
+      "slope_percent": 4.685,
+      "shared_deck_endpoint": true
+    },
+    {
+      "from": "C1_INTERCHANGE",
+      "to": "C2_GRAND_ASSEMBLY",
+      "length_xy_m": 503.61,
+      "rise_m": 23,
+      "slope_percent": 4.567,
+      "shared_deck_endpoint": true
+    },
+    {
+      "from": "C2_GRAND_ASSEMBLY",
+      "to": "C3_CIVIC_ARCHIVE",
+      "length_xy_m": 474.24,
+      "rise_m": 22,
+      "slope_percent": 4.639,
+      "shared_deck_endpoint": true
+    },
+    {
+      "from": "C3_CIVIC_ARCHIVE",
+      "to": "C4_NEIGHBOURHOOD_GARDENS",
+      "length_xy_m": 592.98,
+      "rise_m": 36,
+      "slope_percent": 6.071,
+      "shared_deck_endpoint": true
+    },
+    {
+      "from": "C4_NEIGHBOURHOOD_GARDENS",
+      "to": "C5_NORTH_CITY_RELEASE",
+      "length_xy_m": 689.64,
+      "rise_m": 48,
+      "slope_percent": 6.96,
+      "shared_deck_endpoint": true
+    }
+  ],
+  "public_boulevard_is_one_actual_joined_blender_mesh": true,
+  "public_boulevard_joined_top_quad_count": 5,
+  "road_mesh_topological_edge_chain_test": true,
+  "maximum_public_road_proxy_grade_percent": 6.96,
+  "public_road_grade_is_accessibility_certification": false,
+  "number_of_public_spine_segment_meshes": 1,
+  "actual_blender_meshes": 975,
+  "vertices": 47458,
+  "triangles": 71420,
+  "bounds_research_xyz_m": [
+    [
+      -1040.74,
+      -1472.42,
+      -67.0
+    ],
+    [
+      1159.71,
+      1317.44,
+      838.5
+    ]
+  ],
+  "spans_research_xyz_m": [
+    2200.45,
+    2789.86,
+    905.5
+  ],
+  "role_distribution": {
+    "joined_public_spine_civic_street": 1,
+    "urban_public_road_support_not_structural_certified": 20,
+    "3d_city_secondary_street_connected_at_node": 6,
+    "street_support_preliminary": 8,
+    "true_public_transit_concourse_floor": 1,
+    "true_transit_platform_surface": 5,
+    "transit_support_girder": 10,
+    "open_station_canopy_occupied_space_below": 3,
+    "open_civic_assembly_hall_floor": 1,
+    "civic_chamber_actual_amphitheatre_tier": 6,
+    "public_assembly_stage": 1,
+    "structural_civic_room_pier": 5,
+    "inhabitable_civic_roof_open_between_bays": 5,
+    "public_library_ground_floor": 1,
+    "public_library_mezzanine_actual_floor": 3,
+    "library_shelves_as_true_3d_public_program": 21,
+    "gallery_structural_support": 6,
+    "daylit_library_reading_room_roof_scoop": 4,
+    "large_habitable_neighbourhood_terrace": 4,
+    "actual_floor_supports_unverified_capacity": 12,
+    "neighbourhood_shared_habitable_city_podium": 7,
+    "inhabited_exterior_floor_plate_unfinished_facade": 222,
+    "open_urban_pilotis_structure": 444,
+    "actual_civic_building_perforated_exterior_study": 36,
+    "distinct_rooftop_usable_oriented_building_exterior": 36,
+    "urban_neighbourhood_public_crossing": 7,
+    "integrated_inhabited_civic_spine_bridge_not_decorative_only": 1,
+    "vertical_layer_occupied_public_gallery_provisional": 2,
+    "upper_civic_building_occupied_public_floor": 20,
+    "upper_spine_civic_building_gallery_support": 40,
+    "actual_upper_spine_civic_open_facade": 5,
+    "rooftop_garden_landmark_inhabited_district": 5,
+    "civic_city_transverse_megatruss": 12,
+    "split_open_skylight_rooted_civic_urban_roof": 3,
+    "upper_civic_roof_physical_support": 12
+  },
+  "actual_renders": [
+    {
+      "name": "01_URBAN_FRONT",
+      "kind": "FIXED",
+      "ortho_scale_m": 4300,
+      "bytes": 361542
+    },
+    {
+      "name": "02_URBAN_OBLIQUE",
+      "kind": "FIXED",
+      "ortho_scale_m": 4300,
+      "bytes": 442494
+    },
+    {
+      "name": "03_URBAN_SIDE",
+      "kind": "FIXED",
+      "ortho_scale_m": 4300,
+      "bytes": 319518
+    },
+    {
+      "name": "04_URBAN_REAR",
+      "kind": "FIXED",
+      "ortho_scale_m": 4300,
+      "bytes": 289884
+    },
+    {
+      "name": "05_URBAN_AERIAL",
+      "kind": "FIXED",
+      "ortho_scale_m": 4300,
+      "bytes": 596709
+    },
+    {
+      "name": "06_URBAN_GROUND",
+      "kind": "FIXED",
+      "ortho_scale_m": 4300,
+      "bytes": 217726
+    },
+    {
+      "name": "07_URBAN_REVERSE",
+      "kind": "FIXED",
+      "ortho_scale_m": 4300,
+      "bytes": 396351
+    },
+    {
+      "name": "08_CIVIC_ASSEMBLY",
+      "kind": "LOCAL",
+      "ortho_scale_m": 1450,
+      "bytes": 1115055
+    },
+    {
+      "name": "09_ARCHIVE_INTERIOR",
+      "kind": "LOCAL",
+      "ortho_scale_m": 1700,
+      "bytes": 1116158
+    },
+    {
+      "name": "10_CITY_STREET",
+      "kind": "LOCAL",
+      "ortho_scale_m": 1950,
+      "bytes": 796478
+    },
+    {
+      "name": "11_CITY_UPPER_KEEL",
+      "kind": "LOCAL",
+      "ortho_scale_m": 2400,
+      "bytes": 801444
+    }
+  ],
+  "blender_bytes": 609291,
+  "glb_bytes": 4034440,
+  "art_evaluation": "VIEW_MANUALLY_BEFORE_ACCEPTANCE",
+  "copyright_status": "original_research_study",
+  "glb_reimport_mesh_count": 975
+}
