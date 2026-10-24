@@ -26,7 +26,9 @@ for n in $(seq 1 40); do
 done
 test -n "$found" || { echo "Real Blender GUI window was never shown"; exit 1; }
 echo "J7R7_GUI_WINDOW" "$(xdotool getwindowname "$found")" ID="$found"
-xdotool windowactivate --sync "$found"
+# xvfb-run has no EWMH window manager; use native XSetInputFocus instead.
+xdotool windowfocus --sync "$found"
+echo "J7R7_FOCUSED_WINDOW" "$(xdotool getwindowfocus)"
 xdotool mousemove --window "$found" 680 400
 sleep 3
 # The prepared scene has the real public-hall mesh active and in Edit Mode.
