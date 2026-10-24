@@ -1,0 +1,74 @@
+{
+  "01_FRONT": {
+    "position_m": [
+      0,
+      -13000,
+      2800
+    ],
+    "target_m": [
+      0,
+      0,
+      1650
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1100,
+      840
+    ]
+  },
+  "02_OBLIQUE": {
+    "position_m": [
+      -9500,
+      -11500,
+      7600
+    ],
+    "target_m": [
+      0,
+      0,
+      1650
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1100,
+      840
+    ]
+  },
+  "03_SIDE": {
+    "position_m": [
+      13500,
+      0,
+      2800
+    ],
+    "target_m": [
+      0,
+      0,
+      1650
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1100,
+      840
+    ]
+  },
+  "04_REAR": {
+    "position_m": [
+      0,
+      13000,
+      2800
+    ],
+    "target_m": [
+      0,
+      0,
+      1650
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1100,
+      840
+    ]
+  }
+}

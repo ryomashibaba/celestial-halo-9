@@ -1,0 +1,349 @@
+{
+  "A": {
+    "native_blend_readback": {
+      "min_m": [
+        -3059.572998046875,
+        -1940.0,
+        -61.79194641113281
+      ],
+      "max_m": [
+        3060.666015625,
+        1672.312255859375,
+        3610.450927734375
+      ],
+      "span_m": [
+        6120.239013671875,
+        3612.312255859375,
+        3672.242874145508
+      ],
+      "objects": 1041,
+      "vertices": 68768,
+      "triangles": 132304,
+      "nonfinite_objects": [],
+      "boundary_edges": 1424,
+      "nonmanifold_edges": 1424
+    },
+    "actual_glb_reimport": {
+      "min_m": [
+        -3059.572998046875,
+        -1940.0,
+        -61.79195022583008
+      ],
+      "max_m": [
+        3060.666015625,
+        1672.312255859375,
+        3610.450927734375
+      ],
+      "span_m": [
+        6120.239013671875,
+        3612.312255859375,
+        3672.242877960205
+      ],
+      "objects": 1041,
+      "vertices": 103437,
+      "triangles": 132304,
+      "nonfinite_objects": [],
+      "boundary_edges": 54766,
+      "nonmanifold_edges": 54766
+    },
+    "basic_persistence_checks": {
+      "reimport_bounds_error_m": 3.814697265625e-06,
+      "bounds_match_within_2cm": true,
+      "object_count_equal": true,
+      "triangle_count_equal": true,
+      "all_vertices_finite": true
+    },
+    "actual_scene_rays": {
+      "origin_m": [
+        -1000.0,
+        0.0,
+        1100.0
+      ],
+      "surface_probes": {
+        "down": {
+          "hit": true,
+          "distance_m": 424.8042563934594,
+          "object": "A01 | lower inhabited tectonic keel",
+          "position_m": [
+            -1000.0,
+            0.0,
+            675.1957397460938
+          ]
+        },
+        "up": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "left": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "right": {
+          "hit": true,
+          "distance_m": 1230.5577495591176,
+          "object": "A01 | lower inhabited tectonic keel",
+          "position_m": [
+            230.5577392578125,
+            0.0,
+            1100.0
+          ]
+        },
+        "front": {
+          "hit": true,
+          "distance_m": 533.729419977951,
+          "object": "A02 | front returned continent",
+          "position_m": [
+            -1000.0,
+            -533.7294311523438,
+            1100.0
+          ]
+        },
+        "rear": {
+          "hit": true,
+          "distance_m": 528.2620975898233,
+          "object": "A03 | rear high continent",
+          "position_m": [
+            -1000.0,
+            528.2620849609375,
+            1100.0
+          ]
+        }
+      },
+      "scope": "six rays only; NOT a volume, walkability or clearance certification"
+    },
+    "model_below_neutral_datum": true,
+    "topology_note": "Open curve end caps, boolean surfaces and separate intersecting solids are retained. Not watertight construction geometry.",
+    "art_decision": "REJECT",
+    "construction": "HOLD"
+  },
+  "B": {
+    "native_blend_readback": {
+      "min_m": [
+        -2983.292236328125,
+        -2900.0,
+        -113.66712188720703
+      ],
+      "max_m": [
+        3119.697998046875,
+        1444.545166015625,
+        3598.77734375
+      ],
+      "span_m": [
+        6102.990234375,
+        4344.545166015625,
+        3712.444465637207
+      ],
+      "objects": 1695,
+      "vertices": 18856,
+      "triangles": 30860,
+      "nonfinite_objects": [],
+      "boundary_edges": 96,
+      "nonmanifold_edges": 96
+    },
+    "actual_glb_reimport": {
+      "min_m": [
+        -2983.292236328125,
+        -2900.0,
+        -113.66712188720703
+      ],
+      "max_m": [
+        3119.697998046875,
+        1444.545166015625,
+        3598.77734375
+      ],
+      "span_m": [
+        6102.990234375,
+        4344.545166015625,
+        3712.444465637207
+      ],
+      "objects": 1695,
+      "vertices": 61300,
+      "triangles": 30860,
+      "nonfinite_objects": [],
+      "boundary_edges": 61300,
+      "nonmanifold_edges": 61300
+    },
+    "basic_persistence_checks": {
+      "reimport_bounds_error_m": 0.0,
+      "bounds_match_within_2cm": true,
+      "object_count_equal": true,
+      "triangle_count_equal": true,
+      "all_vertices_finite": true
+    },
+    "actual_scene_rays": {
+      "origin_m": [
+        -1000.0,
+        0.0,
+        1000.0
+      ],
+      "surface_probes": {
+        "down": {
+          "hit": true,
+          "distance_m": 1005.0,
+          "object": "unregistered 10km square study datum",
+          "position_m": [
+            -1000.0,
+            0.0,
+            -5.0
+          ]
+        },
+        "up": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "left": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "right": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "front": {
+          "hit": true,
+          "distance_m": 572.2180801495178,
+          "object": "B02 | sunward inhabited canopy 1",
+          "position_m": [
+            -1000.0,
+            -572.2180786132812,
+            1000.0
+          ]
+        },
+        "rear": {
+          "hit": true,
+          "distance_m": 444.2072468172936,
+          "object": "B02 | landward inhabited canopy 1",
+          "position_m": [
+            -1000.0,
+            444.2072448730469,
+            1000.0
+          ]
+        }
+      },
+      "scope": "six rays only; NOT a volume, walkability or clearance certification"
+    },
+    "model_below_neutral_datum": true,
+    "topology_note": "Open curve end caps, boolean surfaces and separate intersecting solids are retained. Not watertight construction geometry.",
+    "art_decision": "REJECT",
+    "construction": "HOLD"
+  },
+  "B_REFINED": {
+    "native_blend_readback": {
+      "min_m": [
+        -3106.34521484375,
+        -2900.0,
+        -166.2301788330078
+      ],
+      "max_m": [
+        2901.533447265625,
+        1993.5943603515625,
+        4298.21875
+      ],
+      "span_m": [
+        6007.878662109375,
+        4893.5943603515625,
+        4464.448928833008
+      ],
+      "objects": 1384,
+      "vertices": 26738,
+      "triangles": 47724,
+      "nonfinite_objects": [],
+      "boundary_edges": 304,
+      "nonmanifold_edges": 304
+    },
+    "actual_glb_reimport": {
+      "min_m": [
+        -3106.34521484375,
+        -2900.0,
+        -166.2301788330078
+      ],
+      "max_m": [
+        2901.533447265625,
+        1993.5943603515625,
+        4298.21875
+      ],
+      "span_m": [
+        6007.878662109375,
+        4893.5943603515625,
+        4464.448928833008
+      ],
+      "objects": 1384,
+      "vertices": 83985,
+      "triangles": 47724,
+      "nonfinite_objects": [],
+      "boundary_edges": 80688,
+      "nonmanifold_edges": 80688
+    },
+    "basic_persistence_checks": {
+      "reimport_bounds_error_m": 0.0,
+      "bounds_match_within_2cm": true,
+      "object_count_equal": true,
+      "triangle_count_equal": true,
+      "all_vertices_finite": true
+    },
+    "actual_scene_rays": {
+      "origin_m": [
+        -700.0,
+        0.0,
+        1500.0
+      ],
+      "surface_probes": {
+        "down": {
+          "hit": true,
+          "distance_m": 1505.0,
+          "object": "unregistered 10km square study datum",
+          "position_m": [
+            -700.0,
+            0.0,
+            -5.0
+          ]
+        },
+        "up": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "left": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "right": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "front": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        },
+        "rear": {
+          "hit": false,
+          "distance_m": null,
+          "object": null,
+          "position_m": null
+        }
+      },
+      "scope": "six rays only; NOT a volume, walkability or clearance certification"
+    },
+    "model_below_neutral_datum": true,
+    "topology_note": "Open curve end caps, boolean surfaces and separate intersecting solids are retained. Not watertight construction geometry.",
+    "art_decision": "REJECT",
+    "construction": "HOLD"
+  }
+}

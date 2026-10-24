@@ -1,0 +1,33 @@
+{
+  "schema": "halo9.r11.measured.v1",
+  "concept": "B_REFINED",
+  "units": "METERS",
+  "coordinates": "ISOLATED_RESEARCH_NOT_CANONICAL",
+  "architecture_objects": 1384,
+  "mesh_objects": 1365,
+  "native_curve_objects": 19,
+  "evaluated_vertices": 26738,
+  "evaluated_faces": 23683,
+  "evaluated_triangles": 47724,
+  "bounds_min_m": [
+    -3106.34521484375,
+    -2900.0,
+    -166.2301788330078
+  ],
+  "bounds_max_m": [
+    2901.533447265625,
+    1993.5943603515625,
+    4298.21875
+  ],
+  "span_m": [
+    6007.878662109375,
+    4893.5943603515625,
+    4464.448928833008
+  ],
+  "renderer": "CYCLES",
+  "blender": "5.2.1 LTS",
+  "construction": "HOLD",
+  "formal_art_accepted": 0,
+  "walkability": "UNVERIFIED",
+  "full_10km_master": false
+}

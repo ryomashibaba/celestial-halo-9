@@ -1,0 +1,68 @@
+{
+  "date_jst": "2026-10-25",
+  "repository": "ryomashibaba/celestial-halo-9",
+  "R10_PR": 42,
+  "R10_PR_confirmed_draft_open": true,
+  "R10_verified_head": "c57c0b419d91fe44e75bcd945ed596800023cd4f",
+  "main_verified_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "policies_read": [
+    {
+      "path": "AGENTS.md",
+      "commit": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "sha256": "7bd04b75e2305edec473656194ce7f251e54bc60270d251919d46b1409ccb586"
+    },
+    {
+      "path": "docs/policy/START_HERE.md",
+      "commit": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "sha256": "3061cc6a35cf3e47968400d49538ed218d9cd9debfc5e40c4193ca5922582f01"
+    },
+    {
+      "path": "docs/policy/PROJECT_CONSTITUTION.md",
+      "commit": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "sha256": "bb5104cf6e293553dbab483eb80dfed0b98749a27d307bf0aa2cecb8c640594d"
+    },
+    {
+      "path": "docs/policy/CITY_MASTER_3D_STANDARD.md",
+      "commit": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "sha256": "2f8004e87ebf7d441e58ee82964815091d5f247d0ff6d4bd995d63544b3f2805"
+    },
+    {
+      "path": "docs/policy/CURRENT_STATUS.md",
+      "commit": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "sha256": "2f083a22b3425379a9353ea74fc003fc0bd83fd8b6bb5969eeecf27a67e01d15"
+    },
+    {
+      "path": "docs/policy/DECISION_LOG.md",
+      "commit": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "sha256": "33df9739248908fa7b92607c47814225169f582056ae4a7319cdad2222d3ad2b"
+    },
+    {
+      "path": "docs/policy/SOURCE_REGISTER.md",
+      "commit": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "sha256": "d022a2df36b4abed8b24c4d1da853f05cfb586cb08567d26b8d5745503ddd1ee"
+    }
+  ],
+  "current_status_freshness_note": "main CURRENT_STATUS prose is dated 2026-10-23 and predates R10; actual PR42/API head verified separately.",
+  "blender_version": "5.2.1 LTS",
+  "mcp_addon_version": [
+    1,
+    6
+  ],
+  "mcp_protocol_actual": 5,
+  "mcp_protocol_expected": 15,
+  "mcp_actual_read_edit_save_and_look": "SUCCEEDED_WITH_LEGACY_FALLBACK",
+  "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "renderer": "Cycles / OptiX",
+  "initial_gui_scene": "unsaved clean default: Cube, Camera, Light; no project original open",
+  "live_primary_revision": true,
+  "native_brush_sculpt_or_manual_GUI_mesh_edit": "NOT_PERFORMED; bpy mesh edits via MCP",
+  "actual_minecraft_save_access": false,
+  "official_coordinate_registration": "UNVERIFIED",
+  "neutral_10km_datum_is_city_master": false,
+  "other_work_untracked_preserved": true,
+  "protected_paths_changed": false,
+  "main_written": false,
+  "existing_PRs_updated": false,
+  "construction": "HOLD",
+  "formal_art_adopted": 0
+}

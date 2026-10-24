@@ -1,0 +1,68 @@
+{
+  "schema": "halo9.r11.github_delivery.v1",
+  "date_jst": "2026-10-25",
+  "draft_pr": "https://github.com/ryomashibaba/celestial-halo-9/pull/43",
+  "research_branch": "research/m3d1s-j7-r11-local-blender-art-20261025",
+  "artifact_commit": "02e97d1e675eb40307f87abf5c326f01ba9e6bf2",
+  "base_commit": "c57c0b419d91fe44e75bcd945ed596800023cd4f",
+  "binary_remote_blob_metadata": [
+    {
+      "path": "concept_A/R11_A.blend",
+      "remote_blob_sha": "849890e13c6a92307182ea5815209bd353c6ac3a",
+      "expected_blob_sha": "849890e13c6a92307182ea5815209bd353c6ac3a",
+      "matches": true,
+      "remote_encoding": "base64",
+      "content_characters": 650919,
+      "error": false
+    },
+    {
+      "path": "concept_A/R11_A.glb",
+      "remote_blob_sha": "f41ccf064c372e3cfe36dafb973783ca6dfea524",
+      "expected_blob_sha": "f41ccf064c372e3cfe36dafb973783ca6dfea524",
+      "matches": true,
+      "remote_encoding": "base64",
+      "content_characters": 0,
+      "error": false
+    },
+    {
+      "path": "concept_B/R11_B.blend",
+      "remote_blob_sha": "65cf049918251e374cc52894c9829341ab5e0c29",
+      "expected_blob_sha": "65cf049918251e374cc52894c9829341ab5e0c29",
+      "matches": true,
+      "remote_encoding": "base64",
+      "content_characters": 909466,
+      "error": false
+    },
+    {
+      "path": "concept_B/R11_B.glb",
+      "remote_blob_sha": "c5bbdb68d74d6d42cefb7969e884c44cef721633",
+      "expected_blob_sha": "c5bbdb68d74d6d42cefb7969e884c44cef721633",
+      "matches": true,
+      "remote_encoding": "base64",
+      "content_characters": 0,
+      "error": false
+    },
+    {
+      "path": "refined/R11_B_REFINED.blend",
+      "remote_blob_sha": "da7d466c50b699f6c0cc624194d1afd2b45751ed",
+      "expected_blob_sha": "da7d466c50b699f6c0cc624194d1afd2b45751ed",
+      "matches": true,
+      "remote_encoding": "base64",
+      "content_characters": 979839,
+      "error": false
+    },
+    {
+      "path": "refined/R11_B_REFINED.glb",
+      "remote_blob_sha": "d2d85d819f703ca31e848f80ab1a557a2dc99433",
+      "expected_blob_sha": "d2d85d819f703ca31e848f80ab1a557a2dc99433",
+      "matches": true,
+      "remote_encoding": "base64",
+      "content_characters": 0,
+      "error": false
+    }
+  ],
+  "verification_scope": "All 6 remote blob SHAs match local committed artifacts. BLEND content was returned in base64; GLB files exceed the Contents API inline-content limit and returned empty inline content, so this remote GLB check is blob identity metadata, not a separate full-byte download. All local GLBs were actually reimported in Blender.",
+  "existing_PR42_unchanged": true,
+  "construction": "HOLD",
+  "art": "REJECT"
+}

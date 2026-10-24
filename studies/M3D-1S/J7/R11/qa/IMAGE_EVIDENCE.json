@@ -1,0 +1,529 @@
+{
+  "actual_final_source_renders": 27,
+  "rendered_model_states": 3,
+  "matched_wide_view_camera_sets": true,
+  "six_wide_views_include_eye_1_7m_ground": true,
+  "additional_close_views_per_model": 3,
+  "images": [
+    {
+      "path": "concept_A/01_FRONT.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        105.57723674242425,
+        120.05663888888888,
+        131.0924375
+      ],
+      "stddev_rgb": [
+        23.95719281376519,
+        23.39297726820187,
+        23.513215956707747
+      ]
+    },
+    {
+      "path": "concept_A/02_OBLIQUE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        104.40182133838384,
+        117.96241035353535,
+        127.16631123737373
+      ],
+      "stddev_rgb": [
+        36.62194028093407,
+        34.19318453411636,
+        32.928414076256
+      ]
+    },
+    {
+      "path": "concept_A/03_SIDE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        98.21580871212122,
+        112.23612878787878,
+        123.47704103535354
+      ],
+      "stddev_rgb": [
+        31.537993929060715,
+        32.76183650723578,
+        34.67499554895843
+      ]
+    },
+    {
+      "path": "concept_A/04_REAR.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        100.59359722222223,
+        115.3922619949495,
+        126.99199053030303
+      ],
+      "stddev_rgb": [
+        23.105612886985377,
+        23.761208170764146,
+        25.28534676397889
+      ]
+    },
+    {
+      "path": "concept_A/05_AERIAL.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        107.50661426767677,
+        120.59653345959596,
+        128.27990972222221
+      ],
+      "stddev_rgb": [
+        40.4639358282917,
+        36.89449968215084,
+        34.268742323305986
+      ]
+    },
+    {
+      "path": "concept_A/06_GROUND_HUMAN.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        96.55716477272728,
+        111.4106369949495,
+        122.07079040404041
+      ],
+      "stddev_rgb": [
+        25.245268430903153,
+        24.944734426667406,
+        26.531241210756455
+      ]
+    },
+    {
+      "path": "concept_A/07_PUBLIC_VOID.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        110.14783017676767,
+        123.18892929292929,
+        130.55239457070707
+      ],
+      "stddev_rgb": [
+        29.92613482994504,
+        27.474898418301933,
+        27.28290571407122
+      ]
+    },
+    {
+      "path": "concept_A/08_INHABITED_SECTION.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        122.89145707070708,
+        133.98326262626261,
+        139.8577013888889
+      ],
+      "stddev_rgb": [
+        31.687493251021152,
+        28.21347737729091,
+        26.245704563789513
+      ]
+    },
+    {
+      "path": "concept_A/09_HUMAN_CONCOURSE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        120.17720896464647,
+        133.0662626262626,
+        142.8326818181818
+      ],
+      "stddev_rgb": [
+        23.258257882639775,
+        19.79561502999785,
+        16.749848848399054
+      ]
+    },
+    {
+      "path": "concept_B/01_FRONT.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        99.72449053030303,
+        113.54211047979798,
+        124.18156376262627
+      ],
+      "stddev_rgb": [
+        27.240113820825016,
+        28.60213904624309,
+        30.745341909308852
+      ]
+    },
+    {
+      "path": "concept_B/02_OBLIQUE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        100.0411470959596,
+        113.34398106060605,
+        122.69529545454546
+      ],
+      "stddev_rgb": [
+        33.149339401409314,
+        32.61549159416326,
+        33.17831809335149
+      ]
+    },
+    {
+      "path": "concept_B/03_SIDE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        104.57919191919191,
+        118.66560795454545,
+        130.0236755050505
+      ],
+      "stddev_rgb": [
+        22.063590748578147,
+        22.812105057111783,
+        24.35071359532971
+      ]
+    },
+    {
+      "path": "concept_B/04_REAR.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        96.93180555555556,
+        111.1210845959596,
+        122.14078724747475
+      ],
+      "stddev_rgb": [
+        27.143908780077727,
+        28.680327504107115,
+        30.97309100575769
+      ]
+    },
+    {
+      "path": "concept_B/05_AERIAL.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        100.93112436868687,
+        113.87183333333333,
+        121.89732512626263
+      ],
+      "stddev_rgb": [
+        36.39963746782137,
+        33.700876728134986,
+        32.20599162629415
+      ]
+    },
+    {
+      "path": "concept_B/06_GROUND_HUMAN.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        90.29639709595959,
+        103.72598547979798,
+        113.07466414141415
+      ],
+      "stddev_rgb": [
+        32.83025438030672,
+        35.06001937165322,
+        37.88915871652186
+      ]
+    },
+    {
+      "path": "concept_B/07_PUBLIC_VOID.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        61.50147222222222,
+        70.04345517676768,
+        73.67172916666667
+      ],
+      "stddev_rgb": [
+        41.467036809639005,
+        41.799008598945065,
+        43.15683814049907
+      ]
+    },
+    {
+      "path": "concept_B/08_INHABITED_SECTION.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        71.07619823232324,
+        80.00121464646465,
+        83.79487626262626
+      ],
+      "stddev_rgb": [
+        53.38128131744326,
+        54.769115624614685,
+        55.54759009319357
+      ]
+    },
+    {
+      "path": "concept_B/09_HUMAN_CONCOURSE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        92.18801767676767,
+        103.17720707070707,
+        110.57599179292929
+      ],
+      "stddev_rgb": [
+        48.083868508231106,
+        49.82770259744011,
+        52.387414663699495
+      ]
+    },
+    {
+      "path": "refined/01_FRONT.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        100.1260422979798,
+        113.92819886363637,
+        124.5790404040404
+      ],
+      "stddev_rgb": [
+        27.406781635701034,
+        28.173924258202263,
+        30.111772402342726
+      ]
+    },
+    {
+      "path": "refined/02_OBLIQUE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        96.97750757575757,
+        110.24527588383839,
+        119.27116161616162
+      ],
+      "stddev_rgb": [
+        39.50871332294037,
+        38.28803309127258,
+        38.757632489303305
+      ]
+    },
+    {
+      "path": "refined/03_SIDE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        99.96242297979798,
+        113.91045580808081,
+        125.05393876262626
+      ],
+      "stddev_rgb": [
+        26.991261461643187,
+        28.436140657164746,
+        30.565846979835783
+      ]
+    },
+    {
+      "path": "refined/04_REAR.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        99.41448106060606,
+        113.92521464646465,
+        125.33632638888889
+      ],
+      "stddev_rgb": [
+        24.142844390178606,
+        25.260778064294126,
+        27.089464878688034
+      ]
+    },
+    {
+      "path": "refined/05_AERIAL.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        93.77092992424242,
+        107.14032954545455,
+        115.00367487373737
+      ],
+      "stddev_rgb": [
+        42.64449627894837,
+        40.00516295016405,
+        39.230233792825516
+      ]
+    },
+    {
+      "path": "refined/06_GROUND_HUMAN.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        94.43479797979798,
+        108.43013573232324,
+        118.66028472222222
+      ],
+      "stddev_rgb": [
+        27.211770049963995,
+        28.659111104274192,
+        31.071289070698274
+      ]
+    },
+    {
+      "path": "refined/07_PUBLIC_VOID.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        71.20250315656565,
+        82.36879987373737,
+        89.32622979797979
+      ],
+      "stddev_rgb": [
+        41.082200850109686,
+        42.255746022054836,
+        44.49450923312548
+      ]
+    },
+    {
+      "path": "refined/08_INHABITED_SECTION.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        86.37310858585859,
+        95.41119507575758,
+        99.23244191919191
+      ],
+      "stddev_rgb": [
+        56.003553950929515,
+        55.58170387460808,
+        55.58783682902187
+      ]
+    },
+    {
+      "path": "refined/09_HUMAN_CONCOURSE.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "mean_rgb": [
+        102.49828472222222,
+        115.2290303030303,
+        124.5977380050505
+      ],
+      "stddev_rgb": [
+        38.70882900275973,
+        39.46909588486642,
+        41.23846865524767
+      ]
+    }
+  ],
+  "contact_sheets": [
+    {
+      "file": "qa/R11_COMPARE_OBLIQUE.jpg",
+      "sources": [
+        "concept_A/02_OBLIQUE.png",
+        "concept_B/02_OBLIQUE.png",
+        "refined/02_OBLIQUE.png"
+      ],
+      "operations": "resize and captions only; no retouch or synthesis"
+    },
+    {
+      "file": "qa/R11_SIX_VIEW_COMPARISON.jpg",
+      "sources": [
+        "concept_A/01_FRONT.png",
+        "concept_A/02_OBLIQUE.png",
+        "concept_A/03_SIDE.png",
+        "concept_A/04_REAR.png",
+        "concept_A/05_AERIAL.png",
+        "concept_A/06_GROUND_HUMAN.png",
+        "concept_B/01_FRONT.png",
+        "concept_B/02_OBLIQUE.png",
+        "concept_B/03_SIDE.png",
+        "concept_B/04_REAR.png",
+        "concept_B/05_AERIAL.png",
+        "concept_B/06_GROUND_HUMAN.png",
+        "refined/01_FRONT.png",
+        "refined/02_OBLIQUE.png",
+        "refined/03_SIDE.png",
+        "refined/04_REAR.png",
+        "refined/05_AERIAL.png",
+        "refined/06_GROUND_HUMAN.png"
+      ],
+      "operations": "resize and captions only; no retouch or synthesis"
+    },
+    {
+      "file": "qa/R11_INTERIOR_COMPARISON.jpg",
+      "sources": [
+        "concept_A/07_PUBLIC_VOID.png",
+        "concept_A/08_INHABITED_SECTION.png",
+        "concept_A/09_HUMAN_CONCOURSE.png",
+        "concept_B/07_PUBLIC_VOID.png",
+        "concept_B/08_INHABITED_SECTION.png",
+        "concept_B/09_HUMAN_CONCOURSE.png",
+        "refined/07_PUBLIC_VOID.png",
+        "refined/08_INHABITED_SECTION.png",
+        "refined/09_HUMAN_CONCOURSE.png"
+      ],
+      "operations": "resize and captions only; no retouch or synthesis"
+    },
+    {
+      "file": "qa/R11_BEFORE_AFTER.jpg",
+      "sources": [
+        "concept_B/02_OBLIQUE.png",
+        "concept_B/07_PUBLIC_VOID.png",
+        "refined/02_OBLIQUE.png",
+        "refined/07_PUBLIC_VOID.png"
+      ],
+      "operations": "resize and captions only; no retouch or synthesis"
+    }
+  ],
+  "generated_or_retouched_model_evidence_images": false
+}

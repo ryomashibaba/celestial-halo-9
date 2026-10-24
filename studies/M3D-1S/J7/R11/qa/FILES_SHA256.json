@@ -1,0 +1,320 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 78,
+      "sha256": "c41d2feb88481bc242eabd2c3a5f33a1437d55569cbb43c672a03a0d753b9847"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 37,
+      "sha256": "24b3bf250898efb6cd1be7c7ff4c21a2976feaeaa2622c419c0f379143d639f4"
+    },
+    {
+      "path": "build_r11.py",
+      "bytes": 20058,
+      "sha256": "9fff92f06efe92846308f1c1313b8ea2408e41f4f715ed62a2153c8142e342af"
+    },
+    {
+      "path": "concept_A/01_FRONT.png",
+      "bytes": 1412063,
+      "sha256": "085fea6237c8f9a8a97e66a92fc10bb1a6f91ee17e4bd419b07221fcb77ab008"
+    },
+    {
+      "path": "concept_A/02_OBLIQUE.png",
+      "bytes": 1487603,
+      "sha256": "49efd6d55948fa91921eea4d55f3c068c164b9ac1ad17054d7813bc868df60da"
+    },
+    {
+      "path": "concept_A/03_SIDE.png",
+      "bytes": 1212343,
+      "sha256": "3bcc7536cb80e57490ebf29b50dd84ed288f0483cda80794bd60b78d1399d6a1"
+    },
+    {
+      "path": "concept_A/04_REAR.png",
+      "bytes": 1325158,
+      "sha256": "3cf3d559a616ef5b11f51adfbe3e2e75e525453fef60acad33a26b55c19bb58e"
+    },
+    {
+      "path": "concept_A/05_AERIAL.png",
+      "bytes": 1549831,
+      "sha256": "2c3205ae1ca478c8471a51c0a41b6e5c589e1cf3154aee010451082f174680ef"
+    },
+    {
+      "path": "concept_A/06_GROUND_HUMAN.png",
+      "bytes": 1480866,
+      "sha256": "16c8e7f30ba83d0e8b17bab3da3ceed818798d6cf64e8cb9b2eec31e11d07ba4"
+    },
+    {
+      "path": "concept_A/07_PUBLIC_VOID.png",
+      "bytes": 1385985,
+      "sha256": "c0d548bf7e436b3c79dbf2f1851e8d4480708bdda01e4d528b444a3b53da17fc"
+    },
+    {
+      "path": "concept_A/08_INHABITED_SECTION.png",
+      "bytes": 1658388,
+      "sha256": "12ae65ba72cc39d1965b19be1de4e8b5a8c4be882ec02095e102d2c6347fcdd0"
+    },
+    {
+      "path": "concept_A/09_HUMAN_CONCOURSE.png",
+      "bytes": 1301202,
+      "sha256": "e52448c68312f9f0982a26dd70733920acbd3ae57a843d7d5c783c267b6137c4"
+    },
+    {
+      "path": "concept_A/cameras.json",
+      "bytes": 2243,
+      "sha256": "4cc692f6b60f67ef0151404e5d7307c12f0d86d85e381a29db5d2d939fbd93e9"
+    },
+    {
+      "path": "concept_A/measured.json",
+      "bytes": 733,
+      "sha256": "6bbdffcf97fde814a71df06d6f9825c0c199aa81b18c4e730ff4035aae69dba1"
+    },
+    {
+      "path": "concept_A/preview_cameras.json",
+      "bytes": 932,
+      "sha256": "9dc41aea100e0afab2e344ca433761b8cf250f48c2157cf5e8aa40c5d6179953"
+    },
+    {
+      "path": "concept_A/R11_A.blend",
+      "bytes": 480185,
+      "sha256": "ed6b0d3378d1cdaa55a0f6da4da5b96f83f1c79edc08c596faf34d74a106fa43"
+    },
+    {
+      "path": "concept_A/R11_A.glb",
+      "bytes": 3779456,
+      "sha256": "39101aee8454812f65af0e906b4eaf39e325ab5e148dffd5e9487674b316a94c"
+    },
+    {
+      "path": "concept_B/01_FRONT.png",
+      "bytes": 1445541,
+      "sha256": "0f792d29d7545ee7bcc287a488a375bae65ec48bc048cd206b8ac0e8b33c873f"
+    },
+    {
+      "path": "concept_B/02_OBLIQUE.png",
+      "bytes": 1637986,
+      "sha256": "6ebb6499aa9115a715affc04799f3b5b72ee867db368609b1630f882e226bd68"
+    },
+    {
+      "path": "concept_B/03_SIDE.png",
+      "bytes": 1328594,
+      "sha256": "0727ed7262ef7486087365dbcad7482439dc3f6b19ca3e56e0a9880db225aff0"
+    },
+    {
+      "path": "concept_B/04_REAR.png",
+      "bytes": 1402957,
+      "sha256": "6af0d6b05df3c3ef40f1e385e9f9dd412baeb35d0701d6bb7eec07bd3acd925c"
+    },
+    {
+      "path": "concept_B/05_AERIAL.png",
+      "bytes": 1734510,
+      "sha256": "b17d2cae2834a99e62adb84572bc4071c6dc49095e14dcdf73be4dc97fe3f9f8"
+    },
+    {
+      "path": "concept_B/06_GROUND_HUMAN.png",
+      "bytes": 1526645,
+      "sha256": "b7e5ad1c9fc59a6833cd928fa87639f41bb5029891c828b18695f89a10aa1df6"
+    },
+    {
+      "path": "concept_B/07_PUBLIC_VOID.png",
+      "bytes": 1862287,
+      "sha256": "6ab18cce5f94433119dd39d7ec6727aa9c1fcdfdbe82c90787d38f84264d7b84"
+    },
+    {
+      "path": "concept_B/08_INHABITED_SECTION.png",
+      "bytes": 1587952,
+      "sha256": "b46410281e7e5e685c5714febbb977b04b1177b60c8a665b9e337f5c6b217df2"
+    },
+    {
+      "path": "concept_B/09_HUMAN_CONCOURSE.png",
+      "bytes": 1511800,
+      "sha256": "b6f04f094806fc9a7ca94edd6ab34662ed576a4e076a7cf9896cac763bd64575"
+    },
+    {
+      "path": "concept_B/cameras.json",
+      "bytes": 2240,
+      "sha256": "b1e24ed3e027065985d64ccd444cab2449ea9f41fb1d7f1f36c81c3dddda26fc"
+    },
+    {
+      "path": "concept_B/measured.json",
+      "bytes": 729,
+      "sha256": "d3e4d5bd07d2dc334c46c835279e776b7460bfa9d77878b658a5d90dfb5b79b5"
+    },
+    {
+      "path": "concept_B/preview_cameras.json",
+      "bytes": 932,
+      "sha256": "9dc41aea100e0afab2e344ca433761b8cf250f48c2157cf5e8aa40c5d6179953"
+    },
+    {
+      "path": "concept_B/R11_B.blend",
+      "bytes": 670916,
+      "sha256": "a6acdf7ee433332c776b0f246457c1a5f1ea4719182838492aca37d77e963788"
+    },
+    {
+      "path": "concept_B/R11_B.glb",
+      "bytes": 2546728,
+      "sha256": "1c3f967027431b0f2e6223b2a72768f29426e17c61befb51fe9030287631e97c"
+    },
+    {
+      "path": "package_r11.py",
+      "bytes": 12357,
+      "sha256": "0bc2a98677a527c1597b8837c77da6a2a49c5d3be88f6aa0b4447ebd5510a627"
+    },
+    {
+      "path": "qa/BLEND_GLB_READBACK.json",
+      "bytes": 8611,
+      "sha256": "cb2188fbc32dd6db515328e86466e748330887d5ca4f063ab9102ec7443ff603"
+    },
+    {
+      "path": "qa/GITHUB_DELIVERY_READBACK.json",
+      "bytes": 2650,
+      "sha256": "b47908c8e42c0f9957e62e76f03a3a9bd942300a487b25ac76f40c9dc1c8182d"
+    },
+    {
+      "path": "qa/IMAGE_EVIDENCE.json",
+      "bytes": 11111,
+      "sha256": "87de810d22dc52238cedd2c9fe16a96a0caaeaf8fc8d4c287b70a2c583e488e7"
+    },
+    {
+      "path": "qa/IMMUTABLE_SOURCE_READBACK.json",
+      "bytes": 8897,
+      "sha256": "9cc6686ba5812125a7168179d7673d639140a04156bfe79168e6cc03967c0af7"
+    },
+    {
+      "path": "qa/main_form_revision.json",
+      "bytes": 59294,
+      "sha256": "75b5591a15fc0f519318a7e7b89bd103526a1fa155d59969503673b78b388041"
+    },
+    {
+      "path": "qa/PACKAGE_CHECKS.json",
+      "bytes": 319,
+      "sha256": "622a21f601b2a78cafe320a3ad1d6c35d5d11e21478d7b2f54e5cb0f3646369d"
+    },
+    {
+      "path": "qa/PREFLIGHT.json",
+      "bytes": 2685,
+      "sha256": "b730515a8cb6a4b41bbcd90b69bd0305579c5b242bc500e0094205f3d335b2ed"
+    },
+    {
+      "path": "qa/R11_BEFORE_AFTER.jpg",
+      "bytes": 277859,
+      "sha256": "223312e3326b1a4f52345fefb23575a0d05b3a0834d07fd630af418a968e662c"
+    },
+    {
+      "path": "qa/R11_COMPARE_OBLIQUE.jpg",
+      "bytes": 118498,
+      "sha256": "536aaa91c916b362764079e22a7f90268e15f5aa63404171d9dacc53cbf61b18"
+    },
+    {
+      "path": "qa/R11_INTERIOR_COMPARISON.jpg",
+      "bytes": 374897,
+      "sha256": "6a5987d30404156cd14d05e40cfc9e431c9e7a6644c6bf7aceec81c6697cebfc"
+    },
+    {
+      "path": "qa/R11_SIX_VIEW_COMPARISON.jpg",
+      "bytes": 551287,
+      "sha256": "0f785a802f7963927955e8ec7f0d3150cbc7ac938d2d0dfe6b8580bdfc1af75a"
+    },
+    {
+      "path": "R11_ART_REVIEW_JA.md",
+      "bytes": 9839,
+      "sha256": "fe0a93cb8385c447b179f4fd9bed7f2daa7ea3d85f8438a62a21e8005e28c67b"
+    },
+    {
+      "path": "R11_HANDOFF.json",
+      "bytes": 3445,
+      "sha256": "be2c4b69632bd9255c9c8935912ca3f596444e73d2ade9e79290f71d586977b4"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 3528,
+      "sha256": "aa4e651757578ff6b13ba6fbe59abf5428057225396209b1fdb301b620e426fb"
+    },
+    {
+      "path": "refine_r11.py",
+      "bytes": 9437,
+      "sha256": "dcf30e5e5de019eb55057574ca33678a45f9710678b9047ab30904ab519b1b22"
+    },
+    {
+      "path": "refined/01_FRONT.png",
+      "bytes": 1568330,
+      "sha256": "bb944ad84a78853f084ed5fd3eeb3cc6f7e3e617cb97462b9371c13745944baa"
+    },
+    {
+      "path": "refined/02_OBLIQUE.png",
+      "bytes": 1676099,
+      "sha256": "95c2f443dd77daa5a0e68e01fa8d57e88699fbf94e756e17d719daa1fc3a6027"
+    },
+    {
+      "path": "refined/03_SIDE.png",
+      "bytes": 1362037,
+      "sha256": "009385e447c3408a1b8787b70063c8eaac3781f9ba3b15eff55dcf30f968af26"
+    },
+    {
+      "path": "refined/04_REAR.png",
+      "bytes": 1341159,
+      "sha256": "8d984b76496ec26b9e1a02a4dd9c86387b3e461b7c0973760c6d6331ac5a6bbf"
+    },
+    {
+      "path": "refined/05_AERIAL.png",
+      "bytes": 1684713,
+      "sha256": "c432215b70aacff64d3a1b204cc7e9ac955d0a6c30665547fbd92ad9644e8df5"
+    },
+    {
+      "path": "refined/06_GROUND_HUMAN.png",
+      "bytes": 1464450,
+      "sha256": "941944d4c163f4231e0e63a7c5f7ef47d144841bb12ba07e7b2851dfbcf169b7"
+    },
+    {
+      "path": "refined/07_PUBLIC_VOID.png",
+      "bytes": 1540809,
+      "sha256": "577825dee5d51fff2cd1fb43039d87ae295a093b549b58328fa5c95547f3b19a"
+    },
+    {
+      "path": "refined/08_INHABITED_SECTION.png",
+      "bytes": 1716318,
+      "sha256": "8cfb6a69ca4c2373f7d4a1999056bb60d3531e53a40ebce035e45f36ac2988ec"
+    },
+    {
+      "path": "refined/09_HUMAN_CONCOURSE.png",
+      "bytes": 1390493,
+      "sha256": "4791f58ab0510b5af008671ef561df81f4a66226e854fd9ccb2fc02d24a12590"
+    },
+    {
+      "path": "refined/cameras.json",
+      "bytes": 2240,
+      "sha256": "ae933721215c9ecacce56dd97566004214b61627607bb914afd623c6bceb92b9"
+    },
+    {
+      "path": "refined/measured.json",
+      "bytes": 738,
+      "sha256": "2c85b4d8a35b5d514917b86497f2fac2a45b563c0043df2c6d5daf2c33f2a263"
+    },
+    {
+      "path": "refined/R11_B_REFINED.blend",
+      "bytes": 722831,
+      "sha256": "3dc38ff796bc86bb74ea76a1294abd5e46a12fa3d11f4abb9be8a8ecd6ec9a72"
+    },
+    {
+      "path": "refined/R11_B_REFINED.glb",
+      "bytes": 3112296,
+      "sha256": "6577ea488bf4825baa4cdbb863b23b928a9fcb21122a46ea60ef284b490a0a39"
+    },
+    {
+      "path": "render_saved.py",
+      "bytes": 1391,
+      "sha256": "c6494d98d985254a029a662c7f399b3024b199d103aaf2182fe502ea8a257bb2"
+    },
+    {
+      "path": "repair_human_views.py",
+      "bytes": 2849,
+      "sha256": "bc77ae9f3f6fc3354c325b912e892285f8fbbce6425c51cf55cc33538f076edb"
+    },
+    {
+      "path": "verify_blender.py",
+      "bytes": 3642,
+      "sha256": "1039e21a3f2fe511050bb13e37ddc352aaffcdf01ec65d76fa72b23e32ee7ed1"
+    }
+  ],
+  "note": "The manifest excludes itself, local logs, caches and Blender backup files."
+}

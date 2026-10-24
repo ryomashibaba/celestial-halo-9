@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R10",
-  "date_jst": "2026-10-24",
-  "status": "J7_R10_ART_DIRECTION_RESET_COMPLETED__WORK_NEXT_STAGE_ANNOUNCED__NO_NEW_3D_OR_WORK_RUN",
-  "research_branch": "research/m3d1s-j7-r10-ultrafuture-art-first-reset-20261024",
+  "research_id": "M3D-1S/J7-R11",
+  "date_jst": "2026-10-25",
+  "status": "LOCAL_BLENDER_TWO_CONCEPTS_AND_LIVE_PRIMARY_REVISION_DELIVERED__ART_REJECT",
+  "research_branch": "research/m3d1s-j7-r11-local-blender-art-20261025",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "CHAT_ONLY_ART_FIRST_PREPRODUCTION__J7_R11_LOCAL_WORK_PROMPT_TO_BE_GIVEN_NEXT_TURN",
+  "work_status": "EXECUTED_BY_EXPLICIT_J7_R11_USER_REQUEST",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -383,10 +383,81 @@
         "formal_art_accepted": 0,
         "minecraft_construction": "HOLD",
         "city_master_3d_completed": false
+      },
+      "r11": {
+        "handoff": "studies/M3D-1S/J7/R11/R11_HANDOFF.json",
+        "review": "studies/M3D-1S/J7/R11/R11_ART_REVIEW_JA.md",
+        "models": {
+          "A": {
+            "blend": "studies/M3D-1S/J7/R11/concept_A/R11_A.blend",
+            "glb": "studies/M3D-1S/J7/R11/concept_A/R11_A.glb",
+            "span_m": [
+              6120.239013671875,
+              3612.312255859375,
+              3672.242874145508
+            ],
+            "objects": 1041,
+            "triangles": 132304,
+            "art": "REJECT",
+            "bounds_and_reimport": "PASS_BASIC_PERSISTENCE_ONLY",
+            "below_neutral_datum": true,
+            "walkability": "UNVERIFIED",
+            "public_detail_complete": false
+          },
+          "B": {
+            "blend": "studies/M3D-1S/J7/R11/concept_B/R11_B.blend",
+            "glb": "studies/M3D-1S/J7/R11/concept_B/R11_B.glb",
+            "span_m": [
+              6102.990234375,
+              4344.545166015625,
+              3712.444465637207
+            ],
+            "objects": 1695,
+            "triangles": 30860,
+            "art": "REJECT",
+            "bounds_and_reimport": "PASS_BASIC_PERSISTENCE_ONLY",
+            "below_neutral_datum": true,
+            "walkability": "UNVERIFIED",
+            "public_detail_complete": false
+          },
+          "B_REFINED": {
+            "blend": "studies/M3D-1S/J7/R11/refined/R11_B_REFINED.blend",
+            "glb": "studies/M3D-1S/J7/R11/refined/R11_B_REFINED.glb",
+            "span_m": [
+              6007.878662109375,
+              4893.5943603515625,
+              4464.448928833008
+            ],
+            "objects": 1384,
+            "triangles": 47724,
+            "art": "REJECT",
+            "bounds_and_reimport": "PASS_BASIC_PERSISTENCE_ONLY",
+            "below_neutral_datum": true,
+            "walkability": "UNVERIFIED",
+            "public_detail_complete": false
+          }
+        },
+        "final_actual_renders": 27,
+        "formal_art_accepted": 0,
+        "construction": "HOLD"
       }
     }
   },
   "missing": [
+    "J7_R11_CENTRAL_ART_STILL_REJECT",
+    "INHABITED_CITY_SCALE_AND_ARCHITECTURAL_COHERENCE",
+    "COMPLETED_PUBLIC_INTERIORS_AND_ACTUAL_TRAVERSAL",
+    "FULL_CITY_TRANSPORT_AND_TERRAIN_INTEGRATION",
+    "VALIDATED_CANONICAL_COORDINATES",
+    "FULL_COLLISION_VOID_CLEARANCE_AND_STRUCTURAL_VALIDATION",
+    "REAL_10KM_CITY_ALL_DETAIL",
+    "HUMAN_ART_ACCEPTANCE"
+  ],
+  "next_gate": "J7-R12: overcome ramp/shelf/blade macro and prove inhabited urban scale; no formal adoption or Minecraft construction.",
+  "policy": "main/docs/policy/START_HERE.md",
+  "rebuild_status": "REAL_BLENDER_5_2_1_MODELS_RENDERED_AND_GLB_REIMPORTED",
+  "art_review": "REJECT",
+  "historical_missing_through_r10": [
     "BLEND",
     "MULTIVIEW_PHOTOREAL_ART_RENDERS",
     "GENUINE_PUBLIC_INTERIORS",
@@ -433,13 +504,9 @@
     "J7_R9_REAL_PUBLIC_WALKABILITY_NOT_VALIDATED",
     "J7_R9_PUBLIC_ROOM_INTERIORS_NOT_FULLY_DETAILED",
     "J7_R9_INTEGRATED_10KM_CITY_MASTER_UNFINISHED",
-    "J7_R10_NEXT_LOCAL_WORK_NOT_EXECUTED",
-    "J7_R10_NO_REAL_3D_CREATED",
     "ULTRAFUTURISTIC_MEGA_ARCHITECTURE_MUST_BE_VISUALLY_VERIFIED",
-    "OFFICIAL_CANONICAL_CITY_MASTER_STILL_INCOMPLETE"
-  ],
-  "next_gate": "J7-R11: on next user 'continue', deliver a paste-ready LOCAL WORK instruction (no handoff popup) to develop and visually iterate 2 genuinely distinct ultra-futuristic km-scale Blender research artworks. No Work was run during R10. Main and canonical assets remain protected; construction HOLD.",
-  "policy": "main/docs/policy/START_HERE.md",
-  "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
-  "art_review": "NOT_ACCEPTED"
+    "OFFICIAL_CANONICAL_CITY_MASTER_STILL_INCOMPLETE",
+    "J7_R11_CENTRAL_ART_STILL_REJECT",
+    "J7_R11_INHABITED_CITY_SCALE_AND_INTEGRATION_UNFINISHED"
+  ]
 }

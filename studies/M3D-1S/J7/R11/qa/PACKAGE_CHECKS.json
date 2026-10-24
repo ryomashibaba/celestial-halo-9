@@ -1,0 +1,9 @@
+{
+  "script_syntax": "PASS",
+  "final_pngs_27_nonblank": "PASS",
+  "exact_six_camera_equality": "PASS",
+  "three_blend_glb_pairs": "PASS",
+  "immutable_upstream_46_exact_bytes": "PASS",
+  "art": "REJECT",
+  "claim_scope": "Persistence and image completeness only; no aesthetic, construction or city-completion PASS."
+}
