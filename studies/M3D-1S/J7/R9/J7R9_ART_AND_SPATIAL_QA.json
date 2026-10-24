@@ -59,7 +59,11 @@
     "source_artifact_run": 40086189528,
     "source_artifact_job_result": "geometry_and_all_11_renders_pass__git_push_race_failed",
     "next_run_for_persistent_GitHub_sync": 40086651066,
-    "art": "REJECT_MACRO__SPATIAL_CONNECTIVITY_PROXY_USEFUL"
+    "art": "REJECT_MACRO__SPATIAL_CONNECTIVITY_PROXY_USEFUL",
+    "actual_successful_GitHub_persistence_run": 40086651066,
+    "GitHub_Blend_GLB_11_views_readback": "PASS",
+    "real_blend_file_size_repo_bytes": 609291,
+    "GitHub_result_status": "REAL_BLENDER_QA_PASS__GITHUB_SYNC_PASS__ART_REJECT"
   },
   "a_to_b_image_pixel_change_rgb_abs_gt_8_percent": {
     "urban_front": 8.18,
