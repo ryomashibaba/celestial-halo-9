@@ -2,6 +2,8 @@
 
 最初に`R11_ART_REVIEW_JA.md`と`R11_HANDOFF.json`を読む。美術判定は全案REJECT。採択形状の原本ではない。
 
+GitHub納品先は[Draft PR #43](https://github.com/ryomashibaba/celestial-halo-9/pull/43)。実アセットのコミットと6バイナリのリモートblob照合は`qa/GITHUB_DELIVERY_READBACK.json`に記録。
+
 BlenderのGUIでは`concept_A/R11_A.blend`、`concept_B/R11_B.blend`、`refined/R11_B_REFINED.blend`を個別に開ける。カメラ・照明・中立地面は別コレクション、建築は`01_EDITABLE_ARCHITECTURE`。単位m、Z上。実Minecraftファイルは使用しない。
 
 ## 再制作

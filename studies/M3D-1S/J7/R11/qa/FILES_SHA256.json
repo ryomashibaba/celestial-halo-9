@@ -166,6 +166,11 @@
       "sha256": "cb2188fbc32dd6db515328e86466e748330887d5ca4f063ab9102ec7443ff603"
     },
     {
+      "path": "qa/GITHUB_DELIVERY_READBACK.json",
+      "bytes": 2650,
+      "sha256": "b47908c8e42c0f9957e62e76f03a3a9bd942300a487b25ac76f40c9dc1c8182d"
+    },
+    {
       "path": "qa/IMAGE_EVIDENCE.json",
       "bytes": 11111,
       "sha256": "87de810d22dc52238cedd2c9fe16a96a0caaeaf8fc8d4c287b70a2c583e488e7"
@@ -222,8 +227,8 @@
     },
     {
       "path": "README_JA.md",
-      "bytes": 3313,
-      "sha256": "ee93c3094c3483d6101a54e8b5ace8470fa02ab2e19dfe53173a336878e56012"
+      "bytes": 3528,
+      "sha256": "aa4e651757578ff6b13ba6fbe59abf5428057225396209b1fdb301b620e426fb"
     },
     {
       "path": "refine_r11.py",
