@@ -318,8 +318,8 @@ for j in range(1,len(KEEL_STATIONS)-1):
    outline,Z-72,4*45,4,"actual_upper_spine_civic_open_facade",
    "limestone" if j%2 else "platinum")
  # Asymmetric roof has actual planted CITY landing accessible from main urban route
- roofpts=[(X-W*.75,Y-130,Z+112),(X+W*.61,Y-145,Z+160),
-          (X+W*.77,Y+150,Z+119),(X-W*.70,Y+170,Z+112)]
+ roofpts=[(X-W*.75,Y-130),(X+W*.61,Y-145),
+          (X+W*.77,Y+150),(X-W*.70,Y+170)]
  prism("UPPER_SPINE_CITY_SKYGARDEN_"+str(j),roofpts,Z+125,Z+144,
     "rooftop_garden_landmark_inhabited_district","emerald" if j%2 else "porcelain")
 
