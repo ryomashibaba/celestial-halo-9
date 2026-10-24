@@ -1,0 +1,110 @@
+{
+  "schema": "halo9.j7r8.actual_blender_local_architecture.v1",
+  "status": "REAL_BLENDER_PRELIMINARY_MODEL_NOT_ART_ACCEPTED",
+  "blender": "4.0.2",
+  "coordinate": "NONCANONICAL_Z_UP_METRES",
+  "actual_measured_bounds_m": [
+    [
+      -710.0,
+      -660.0,
+      -35.0
+    ],
+    [
+      715.0,
+      620.0,
+      661.5
+    ]
+  ],
+  "actual_measured_spans_m": [
+    1425.0,
+    1280.0,
+    696.5
+  ],
+  "meshes": 166,
+  "vertices": 3934,
+  "triangles": 7204,
+  "role_distribution": {
+    "inhabited_shared_city_ground_local": 1,
+    "actual_public_hall_floor": 1,
+    "south_public_entry_genuine_open": 1,
+    "ceremonial_stage_public": 1,
+    "public_amphitheatre_terrace_open": 5,
+    "true_urban_promendade_horizontal_floor": 5,
+    "walkable_intended_street_strip_unverified": 5,
+    "real_pier_between_occupied_levels": 50,
+    "actual_fenestration_pier_preliminary": 60,
+    "architectural_public_wing_interior_not_detailed": 9,
+    "visible_programmatic_roofline": 9,
+    "monumental_exposed_roof_buttress_open_span": 6,
+    "civic_roof_support_member": 6,
+    "exposed_civic_entry_gate": 2,
+    "public_connection_across_sections_no_traversal_QA": 1,
+    "botanical_civic_garden_hung_inside": 4
+  },
+  "glb_bytes": 408632,
+  "blend_bytes": 167027,
+  "views": [
+    {
+      "name": "01_FRONT",
+      "camera_class": "FIXED_STUDY",
+      "ortho_scale_m": 1900,
+      "bytes": 462880
+    },
+    {
+      "name": "02_OBLIQUE",
+      "camera_class": "FIXED_STUDY",
+      "ortho_scale_m": 1900,
+      "bytes": 482893
+    },
+    {
+      "name": "03_SIDE",
+      "camera_class": "FIXED_STUDY",
+      "ortho_scale_m": 1900,
+      "bytes": 412586
+    },
+    {
+      "name": "04_REAR",
+      "camera_class": "FIXED_STUDY",
+      "ortho_scale_m": 1900,
+      "bytes": 398493
+    },
+    {
+      "name": "05_AERIAL",
+      "camera_class": "FIXED_STUDY",
+      "ortho_scale_m": 1900,
+      "bytes": 624481
+    },
+    {
+      "name": "06_GROUND",
+      "camera_class": "FIXED_STUDY",
+      "ortho_scale_m": 1900,
+      "bytes": 326308
+    },
+    {
+      "name": "07_REVERSE",
+      "camera_class": "FIXED_STUDY",
+      "ortho_scale_m": 1900,
+      "bytes": 470533
+    },
+    {
+      "name": "08_NAVE",
+      "camera_class": "LOCAL_DETAIL",
+      "ortho_scale_m": 800,
+      "bytes": 939412
+    },
+    {
+      "name": "09_CITY_STREET",
+      "camera_class": "LOCAL_DETAIL",
+      "ortho_scale_m": 860,
+      "bytes": 883353
+    }
+  ],
+  "public_nave_true_open_center_above_floor": true,
+  "inhabited_outer_gallery_floors": 5,
+  "official_city_master_complete": false,
+  "official_minecraft_coordinates": "UNKNOWN",
+  "walkability": "NOT_TESTED",
+  "art_result": "REVIEW_REQUIRED",
+  "construction": "HOLD",
+  "glb_reimport_mesh_objects": 166
+}
