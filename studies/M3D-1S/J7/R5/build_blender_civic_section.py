@@ -188,6 +188,44 @@ for side,xsign,yylist,ztop in [("W",-1,[-640,-310,40,360],1300),("E",1,[-600,-22
             beam(side+"_ARCH_FACADE_PIER_"+str(k)+"_"+str(b),
                  (x-100+100*b,y+80,z+48),(x-90+100*b,y+75,min(ztop,z+330)),
                  16,28,"civic_facade_structure","gold_inlay")
+
+# R5-B: explicit interior modeling after inspecting actual R5-A Blender PNGs.
+# The first run had an EMPTY nave, so its void read as a toy gateway.
+# Sculpt real stepped amphitheater surfaces and a clearly occupiable stage.
+def auditorium_tier(name,cx,cy,outer_r,inner_r,z0,z1,angle_start=.11*pi,angle_end=.90*pi,n=25):
+    # Open C-section with true radial end faces and no fabricated fully enclosed floor.
+    # Angles span northern semicircle so entrance stays open on southern side.
+    v=[]
+    for z in (z0,z1):
+        for r in (outer_r,inner_r):
+            for j in range(n):
+                a=angle_start+(angle_end-angle_start)*j/(n-1)
+                v.append((cx+r*cos(a),cy+.66*r*sin(a),z))
+    faces=[]
+    for j in range(n-1):
+        p=j; q=j+1; u=n+j; w=n+j+1
+        faces += [(p,q,w,u),(2*n+p,2*n+u,2*n+w,2*n+q),
+                  (p,2*n+p,2*n+q,q),(u,w,2*n+w,2*n+u)]
+    faces += [(0,n,3*n,2*n),(n-1,3*n-1,4*n-1,2*n-1)]
+    return mesh(name,v,faces,"nave_seating_real_public_interiors_access_unverified","chiseled_white")
+for level in range(4):
+    auditorium_tier("NAVE_AMPHITHEATRE_TIER_"+str(level),0,-580,
+      230+70*level,196+68*level,548+32*level,568+32*level)
+poly_prism("NAVE_STAGE_CIVIC_DAIS",
+    circle(0,-535,145,105,12,.08),
+    548,605,"public_performance_platform_true_mesh","gold_inlay")
+# Mezzanine edge is actual structural geometry. It does not seal the civic volume.
+poly_prism("NAVE_NORTH_PUBLIC_MEZZANINE",
+    [(-540,240),(-440,215),(460,220),(550,245),(550,390),(-540,405)],
+    890,927,"public_mezzanine_open_to_civic_void","inner_civic")
+for x in (-440,0,440):
+    beam("NAVE_MEZZANINE_SUPPORT_"+str(x),(x,330,560),(x,330,890),44,44,
+        "open_civic_gallery_column","graphite_strata")
+# Through-hall passage markers: actual distinct floor plates, not dark portal texture.
+for k,x in enumerate([-500,500]):
+    beam("NAVE_CIVIC_SIDE_ENTRY_"+str(k),(x,-820,565),(x,-480,565),124,18,
+         "nave_public_entry_floor_preliminary","urban_nacre")
+
 # minimal noncanonical W0 reference - no official placement or fabricated H/SB locations
 poly_prism("NONCANONICAL_10KM_BASIS",
    [(-5000,-5000),(5000,-5000),(5000,5000),(-5000,5000)],
