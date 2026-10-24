@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R8",
+  "research_id": "M3D-1S/J7-R9",
   "date_jst": "2026-10-24",
-  "status": "J7_R8_ACTUAL_BLENDER_LOCAL_CIVIC_9_VIEW_AND_REAL_GUI_ROOF_EDIT_VERIFIED_ART_REJECT",
-  "research_branch": "research/m3d1s-j7-r8-civic-terraced-atrium-20261024",
+  "status": "J7_R9_REAL_BLENDER_CITY_SEAM_SPATIAL_PROGRAM_AND_JOINED_STREET_TOPOLOGY_VERIFIED__FORMAL_ART_REJECT",
+  "research_branch": "research/m3d1s-j7-r9-urban-section-first-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "GITHUB_ACTIONS_REAL_BLENDER_4_0_2_X11_GUI_EDIT__NO_WORK_LOCAL_USER_PC",
+  "work_status": "GITHUB_ACTIONS_BLENDER_4_0_2_11_REAL_VIEWS_HEADLESS__NO_WORK_NO_LOCAL_GUI_SESSION",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -325,6 +325,46 @@
         "art_decision": "REJECT_STANDALONE_ARENA_CULTURAL_FACILITY_LOOK__REUSABLE_LOCAL_PUBLIC_ARCHITECTURE_STUDY",
         "minecraft_construction": "HOLD",
         "city_master_3d_complete": false
+      },
+      "r9": {
+        "study": "TENNU_CITY_SEAM_URBAN_SECTION_NONCANONICAL",
+        "report": "studies/M3D-1S/J7/R9/REPORT_JA.md",
+        "design_contract": "studies/M3D-1S/J7/R9/01_ART_AND_SPACE_CONTRACT_JA.md",
+        "qa": "studies/M3D-1S/J7/R9/J7R9_ART_AND_SPATIAL_QA.json",
+        "source": "studies/M3D-1S/J7/R9/build_tennu_blender.py",
+        "workflow": ".github/workflows/halo9-j7-r9-civic-urban-section.yml",
+        "stage_A": "studies/M3D-1S/J7/R9/A_baseline/",
+        "stage_B": "studies/M3D-1S/J7/R9/B_baseline/",
+        "stage_C": "studies/M3D-1S/J7/R9/outputs/",
+        "latest_blend": "studies/M3D-1S/J7/R9/outputs/J7R9_TENNU_URBAN_SEAM.blend",
+        "latest_glb": "studies/M3D-1S/J7/R9/outputs/J7R9_TENNU_URBAN_SEAM.glb",
+        "latest_evidence": "studies/M3D-1S/J7/R9/outputs/J7R9_BLENDER_SPATIAL_EVIDENCE.json",
+        "latest_11_images": "studies/M3D-1S/J7/R9/outputs/01_URBAN_FRONT.png..11_CITY_UPPER_KEEL.png",
+        "run_A": 40085404457,
+        "run_B": 40085912422,
+        "run_C_success": 40086651066,
+        "measured": {
+          "model_study_span_m_xyz": [
+            2200.45,
+            2789.86,
+            905.5
+          ],
+          "meshes": 975,
+          "vertices": 47458,
+          "triangles": 71420,
+          "real_blender_views": 11,
+          "GLB_reimport_meshes": 975,
+          "continuous_spine_actual_meshes": 1,
+          "shared_top_quad_count": 5,
+          "spine_endpoints": 6,
+          "max_xy_grade_percent": 6.96,
+          "all_walking_validation": "NOT_DONE"
+        },
+        "art_decision": "REJECT_MINIATURE_ELEVATED_TOWN_WITH_OVERSIZED_CROWN",
+        "formal_central_art_adoption": "NONE",
+        "minecraft_construction": "HOLD",
+        "city_master_3d_finished": false,
+        "blender_gui_visual_edit": "NOT_PERFORMED_IN_R9__R7_R8_PROVEN_EARLIER"
       }
     }
   },
@@ -370,9 +410,13 @@
     "R7_HUMAN_WALKABILITY_AND_REAL_HSB_PLACEMENT_PENDING",
     "R8_FORMAL_MACRO_ART_REJECT",
     "R8_FULL_INTERIOR_PUBLIC_TRAVERSAL_UNVERIFIED",
-    "R8_CITY_MASTER_10KM_INTEGRATION_NOT_STARTED"
+    "R8_CITY_MASTER_10KM_INTEGRATION_NOT_STARTED",
+    "J7_R9_CENTRAL_ART_REJECT_LOCAL_STUDY_ONLY",
+    "J7_R9_REAL_PUBLIC_WALKABILITY_NOT_VALIDATED",
+    "J7_R9_PUBLIC_ROOM_INTERIORS_NOT_FULLY_DETAILED",
+    "J7_R9_INTEGRATED_10KM_CITY_MASTER_UNFINISHED"
   ],
-  "next_gate": "J7-R9: use proven Blender GUI and actual visual feedback to refine one civic habitable urban section with built-in streets and district continuity; reject default oval-arena/tower/monolith concepts. No automation of aesthetic adoption. City Master all detail locked and construction HOLD.",
+  "next_gate": "J7-R10: STOP producing procedural art-macro masses; select ONE urban civic hall and adjacent street for a fully detailed real human-scale spatial/functional Blender edit with multi-view and actual public circulation QA. Do not scale R9 to 10km. CITY MASTER 3D FIRST locked; Minecraft HOLD; Work only with separate approval.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
