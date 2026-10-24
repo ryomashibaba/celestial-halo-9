@@ -22,7 +22,7 @@ jobs:
       - name: Install genuine open-source Blender headless
         run: |
           sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb libgl1-mesa-dri
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb libgl1-mesa-dri python3-numpy
           blender --version | head -4
       - name: Native Blender import, bmesh edit, BLEND+GLB export, render and reimport
         env:
