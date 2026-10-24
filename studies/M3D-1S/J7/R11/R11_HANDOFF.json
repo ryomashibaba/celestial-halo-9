@@ -1,0 +1,81 @@
+{
+  "schema": "halo9.j7r11.handoff.v1",
+  "date_jst": "2026-10-25",
+  "research_branch": "research/m3d1s-j7-r11-local-blender-art-20261025",
+  "base_commit": "c57c0b419d91fe44e75bcd945ed596800023cd4f",
+  "head_locator": "Resolve branch head / git rev-parse HEAD; final receipt is in the chat.",
+  "status": "DELIVERED_RESEARCH_MODELS__ART_REJECT__NO_CANONICAL_ADOPTION",
+  "models": {
+    "A": {
+      "blend": "concept_A/R11_A.blend",
+      "glb": "concept_A/R11_A.glb",
+      "span_m": [
+        6120.239013671875,
+        3612.312255859375,
+        3672.242874145508
+      ],
+      "objects": 1041,
+      "triangles": 132304,
+      "art": "REJECT",
+      "bounds_and_reimport": "PASS_BASIC_PERSISTENCE_ONLY",
+      "below_neutral_datum": true,
+      "walkability": "UNVERIFIED",
+      "public_detail_complete": false
+    },
+    "B": {
+      "blend": "concept_B/R11_B.blend",
+      "glb": "concept_B/R11_B.glb",
+      "span_m": [
+        6102.990234375,
+        4344.545166015625,
+        3712.444465637207
+      ],
+      "objects": 1695,
+      "triangles": 30860,
+      "art": "REJECT",
+      "bounds_and_reimport": "PASS_BASIC_PERSISTENCE_ONLY",
+      "below_neutral_datum": true,
+      "walkability": "UNVERIFIED",
+      "public_detail_complete": false
+    },
+    "B_REFINED": {
+      "blend": "refined/R11_B_REFINED.blend",
+      "glb": "refined/R11_B_REFINED.glb",
+      "span_m": [
+        6007.878662109375,
+        4893.5943603515625,
+        4464.448928833008
+      ],
+      "objects": 1384,
+      "triangles": 47724,
+      "art": "REJECT",
+      "bounds_and_reimport": "PASS_BASIC_PERSISTENCE_ONLY",
+      "below_neutral_datum": true,
+      "walkability": "UNVERIFIED",
+      "public_detail_complete": false
+    }
+  },
+  "primary_revision_record": "qa/main_form_revision.json",
+  "model_readback": "qa/BLEND_GLB_READBACK.json",
+  "image_evidence": "qa/IMAGE_EVIDENCE.json",
+  "review": "R11_ART_REVIEW_JA.md",
+  "wide_comparison": "qa/R11_SIX_VIEW_COMPARISON.jpg",
+  "before_after": "qa/R11_BEFORE_AFTER.jpg",
+  "construction": "HOLD",
+  "formal_art_accepted": 0,
+  "city_master_10km_complete": false,
+  "canonical_world_access": false,
+  "protected_originals_changed": false,
+  "official_anchor_validation": "UNVERIFIED; no W0/H/SB coordinates invented or integrated",
+  "limitations": [
+    "A reads as a giant ramp; B as repeated shelves.",
+    "Revised B has a larger irregular sky fissure but still reads as curved blades plus floor strips.",
+    "Human city density, urban hierarchy, functional public interiors, and continuous circulation remain inadequate.",
+    "Inclined retained floorplates require a future design of usable living surfaces; gravity system not resolved.",
+    "No structural support, comprehensive collision, watertightness, full void clearance, or traversal certification.",
+    "Some study parts extend below neutral ground datum; no official terrain integration.",
+    "Initial close cameras inside solids were replaced, not accepted as successful interior evidence."
+  ],
+  "next_J7_R12": "Do not decorate these rejected macro shapes. Visually establish a convincing monumental inhabited cross-section with genuinely intersecting city worlds and civic voids, testing side/back/ground before repeating detail; retain only the useful spatial principles.",
+  "resume": "Open refined/R11_B_REFINED.blend to inspect the last research state; read review first; macro is REJECT, not an adopted direction."
+}

@@ -1,0 +1,166 @@
+{
+  "01_FRONT": {
+    "position_m": [
+      0,
+      -13000,
+      2800
+    ],
+    "target_m": [
+      0,
+      0,
+      1650
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1440,
+      1100
+    ]
+  },
+  "02_OBLIQUE": {
+    "position_m": [
+      -9500,
+      -11500,
+      7600
+    ],
+    "target_m": [
+      0,
+      0,
+      1650
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1440,
+      1100
+    ]
+  },
+  "03_SIDE": {
+    "position_m": [
+      13500,
+      0,
+      2800
+    ],
+    "target_m": [
+      0,
+      0,
+      1650
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1440,
+      1100
+    ]
+  },
+  "04_REAR": {
+    "position_m": [
+      0,
+      13000,
+      2800
+    ],
+    "target_m": [
+      0,
+      0,
+      1650
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1440,
+      1100
+    ]
+  },
+  "05_AERIAL": {
+    "position_m": [
+      -6200,
+      -7200,
+      13200
+    ],
+    "target_m": [
+      0,
+      0,
+      1400
+    ],
+    "type": "ORTHO",
+    "ortho_scale_m": 8700,
+    "resolution": [
+      1440,
+      1100
+    ]
+  },
+  "06_GROUND_HUMAN": {
+    "position_m": [
+      0,
+      -4700,
+      1.7
+    ],
+    "target_m": [
+      400,
+      0,
+      1550
+    ],
+    "type": "PERSP",
+    "focal_length_mm": 24,
+    "resolution": [
+      1440,
+      1100
+    ]
+  },
+  "07_PUBLIC_VOID": {
+    "position_m": [
+      -1800,
+      -150,
+      520
+    ],
+    "target_m": [
+      2000,
+      500,
+      2100
+    ],
+    "type": "PERSP",
+    "focal_length_mm": 22,
+    "resolution": [
+      1440,
+      1100
+    ]
+  },
+  "08_INHABITED_SECTION": {
+    "position_m": [
+      -2020,
+      -2370,
+      1020
+    ],
+    "target_m": [
+      -850,
+      -900,
+      1100
+    ],
+    "type": "PERSP",
+    "focal_length_mm": 40,
+    "resolution": [
+      1440,
+      1100
+    ]
+  },
+  "09_HUMAN_CONCOURSE": {
+    "position_m": [
+      -1895,
+      -1890,
+      191.7
+    ],
+    "target_m": [
+      1700,
+      -650,
+      2500
+    ],
+    "type": "PERSP",
+    "focal_length_mm": 24,
+    "resolution": [
+      1440,
+      1100
+    ],
+    "eye_above_public_floor_m": 1.7,
+    "public_floor_elevation_m": 190
+  }
+}
