@@ -102,9 +102,9 @@
     }
   ],
   "number_of_public_spine_segment_meshes": 5,
-  "actual_blender_meshes": 531,
-  "vertices": 4658,
-  "triangles": 7192,
+  "actual_blender_meshes": 979,
+  "vertices": 47474,
+  "triangles": 71436,
   "bounds_research_xyz_m": [
     [
       -1040.74,
@@ -114,13 +114,13 @@
     [
       1159.71,
       1317.44,
-      1020.23
+      838.5
     ]
   ],
   "spans_research_xyz_m": [
     2200.45,
     2789.86,
-    1087.23
+    905.5
   ],
   "role_distribution": {
     "city_spine_continuous_exterior_public_street": 5,
@@ -144,12 +144,17 @@
     "large_habitable_neighbourhood_terrace": 4,
     "actual_floor_supports_unverified_capacity": 12,
     "neighbourhood_shared_habitable_city_podium": 7,
-    "inhabited_exterior_floor_plate_unfinished_facade": 108,
-    "open_urban_pilotis_structure": 216,
+    "inhabited_exterior_floor_plate_unfinished_facade": 222,
+    "open_urban_pilotis_structure": 444,
+    "actual_civic_building_perforated_exterior_study": 36,
     "distinct_rooftop_usable_oriented_building_exterior": 36,
     "urban_neighbourhood_public_crossing": 7,
     "integrated_inhabited_civic_spine_bridge_not_decorative_only": 1,
     "vertical_layer_occupied_public_gallery_provisional": 2,
+    "upper_civic_building_occupied_public_floor": 20,
+    "upper_spine_civic_building_gallery_support": 40,
+    "actual_upper_spine_civic_open_facade": 5,
+    "rooftop_garden_landmark_inhabited_district": 5,
     "civic_city_transverse_megatruss": 12,
     "split_open_skylight_rooted_civic_urban_roof": 3,
     "upper_civic_roof_physical_support": 12
@@ -159,72 +164,72 @@
       "name": "01_URBAN_FRONT",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 379719
+      "bytes": 361713
     },
     {
       "name": "02_URBAN_OBLIQUE",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 439908
+      "bytes": 442433
     },
     {
       "name": "03_URBAN_SIDE",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 329182
+      "bytes": 319431
     },
     {
       "name": "04_URBAN_REAR",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 305202
+      "bytes": 300447
     },
     {
       "name": "05_URBAN_AERIAL",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 558798
+      "bytes": 596692
     },
     {
       "name": "06_URBAN_GROUND",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 257463
+      "bytes": 217800
     },
     {
       "name": "07_URBAN_REVERSE",
       "kind": "FIXED",
       "ortho_scale_m": 4300,
-      "bytes": 388731
+      "bytes": 387772
     },
     {
       "name": "08_CIVIC_ASSEMBLY",
       "kind": "LOCAL",
       "ortho_scale_m": 1450,
-      "bytes": 1101333
+      "bytes": 1114839
     },
     {
       "name": "09_ARCHIVE_INTERIOR",
       "kind": "LOCAL",
       "ortho_scale_m": 1700,
-      "bytes": 1125433
+      "bytes": 1184023
     },
     {
       "name": "10_CITY_STREET",
       "kind": "LOCAL",
       "ortho_scale_m": 1950,
-      "bytes": 892799
+      "bytes": 791385
     },
     {
       "name": "11_CITY_UPPER_KEEL",
       "kind": "LOCAL",
       "ortho_scale_m": 2400,
-      "bytes": 844063
+      "bytes": 801344
     }
   ],
-  "blender_bytes": 235892,
-  "glb_bytes": 639468,
+  "blender_bytes": 613078,
+  "glb_bytes": 4037828,
   "art_evaluation": "VIEW_MANUALLY_BEFORE_ACCEPTANCE",
   "copyright_status": "original_research_study",
-  "glb_reimport_mesh_count": 531
+  "glb_reimport_mesh_count": 979
 }
