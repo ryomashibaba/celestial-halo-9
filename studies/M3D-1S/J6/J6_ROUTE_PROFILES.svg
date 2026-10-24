@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="500" viewBox="0 0 1440 500">
+<rect width="1440" height="500" fill="#101a23"/>
+<style>text{font-family:Arial,sans-serif;fill:#e0edf5;font-size:18px}.meta{font-size:15px;fill:#adbdc8}</style>
+<text x="28" y="32" font-size="23">HALO-9 M3D-1S/J6 | top-down technical routing comparison (NOT art render)</text>
+<text x="35" y="73">UPPER TRANSIT to UPPER HALL</text>
+<polyline points="75.26,315.21 349.74,384.74" fill="none" stroke="#899caa" stroke-width="4" stroke-dasharray="9 6"/>
+<polyline points="75.26,315.21 141.13,318.87 152.11,231.03 239.95,231.03 349.74,384.74" fill="none" stroke="#67d1ea" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="75.26" cy="315.21" r="5" fill="#f2cc82"/>
+<circle cx="141.13" cy="318.87" r="5" fill="#f2cc82"/>
+<circle cx="152.11" cy="231.03" r="5" fill="#f2cc82"/>
+<circle cx="239.95" cy="231.03" r="5" fill="#f2cc82"/>
+<circle cx="349.74" cy="384.74" r="5" fill="#f2cc82"/>
+<text class="meta" x="35" y="470">J5: 33 events → J6: 0 events | BOX-only</text>
+<text x="515" y="73">UPPER HALL to EAST TRANSIT LOWER</text>
+<polyline points="554.44,385.56 830.56,224.19" fill="none" stroke="#899caa" stroke-width="4" stroke-dasharray="9 6"/>
+<polyline points="554.44,385.56 830.56,288.74 830.56,224.19" fill="none" stroke="#67d1ea" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="554.44" cy="385.56" r="5" fill="#f2cc82"/>
+<circle cx="830.56" cy="288.74" r="5" fill="#f2cc82"/>
+<circle cx="830.56" cy="224.19" r="5" fill="#f2cc82"/>
+<text class="meta" x="515" y="470">J5: 10 events → J6: 0 events | BOX-only</text>
+<text x="995" y="73">EAST TRANSIT UPPER to EAST LIVING CITY</text>
+<polyline points="1031.11,349.50 1218.22,159.11" fill="none" stroke="#899caa" stroke-width="4" stroke-dasharray="9 6"/>
+<polyline points="1031.11,349.50 1093.48,388.89 1218.22,388.89 1218.22,159.11" fill="none" stroke="#67d1ea" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="1031.11" cy="349.50" r="5" fill="#f2cc82"/>
+<circle cx="1093.48" cy="388.89" r="5" fill="#f2cc82"/>
+<circle cx="1218.22" cy="388.89" r="5" fill="#f2cc82"/>
+<circle cx="1218.22" cy="159.11" r="5" fill="#f2cc82"/>
+<text class="meta" x="995" y="470">J5: 57 events → J6: 0 events | BOX-only</text>
+</svg>
