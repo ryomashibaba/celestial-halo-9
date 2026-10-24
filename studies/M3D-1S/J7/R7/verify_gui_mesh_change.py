@@ -22,6 +22,7 @@ bb,bv,bo,bcount=read_model(before)
 aa,av,ao,acount=read_model(after)
 assert bv==av and bcount==acount and bo==ao,"GUI edit unexpectedly changed protected mass or objects"
 bw=bb[1][0]-bb[0][0];aw=aa[1][0]-aa[0][0]
+print("GUI_MESH_BOUNDS_DIAGNOSTIC",json.dumps({"before":bb,"after":aa,"width_ratio":round(aw/bw,6),"height_change_y":round(aa[0][1]-bb[0][1],4)}))
 assert 1.30<aw/bw<1.42,"GUI edit did not scale public hall X as planned"
 assert -78<aa[0][1]-bb[0][1]<-52,"GUI translate Y expected -65m"
 # Verify screenshot files are distinct, native Blender GUI, not generated art.
