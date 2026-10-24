@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J4",
+  "research_id": "M3D-1S/J5",
   "date_jst": "2026-10-24",
-  "status": "J4_MESH_AND_GLB_AUDIT_COMPLETE__ROUTE_REPAIR_NEEDED__ART_NOT_ACCEPTED",
-  "research_branch": "research/m3d1s-central-city-scale-20261024",
+  "status": "J5_LOCAL_3_CORRIDOR_CLEARANCE_PASS__OTHER_3_ROUTE_WARNINGS__ART_NOT_ACCEPTED",
+  "research_branch": "research/m3d1s-j5-civic-route-local-repair-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "HANDOFF_DECLINED_NO_WORK_EXECUTION",
+  "work_status": "NO_WORK_OR_BLENDER_GUI_IN_THIS_TURN",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -56,6 +56,31 @@
         "GlTF binary structure validated, not visual aesthetics",
         "2 core zones surface-clear; entire civic rooms NOT certified as clear"
       ]
+    },
+    "j5": {
+      "source": "studies/M3D-1S/J5/junction_J5_source.json",
+      "obj": "studies/M3D-1S/J5/M3D1S_J5_LOCAL_REPAIRED.obj",
+      "glb": "studies/M3D-1S/J5/M3D1S_J5_LOCAL_REPAIRED.glb",
+      "report": "studies/M3D-1S/J5/REPORT_JA.md",
+      "qa": "studies/M3D-1S/J5/J5_FULL_WIDTH_ROUTE_CLEARANCE.json",
+      "binary_qa": "studies/M3D-1S/J5/GITHUB_BINARY_AND_PRESERVATION_QA.json",
+      "views": "studies/M3D-1S/J5/J5_ROUTE_BEFORE_AFTER.svg",
+      "reproducibility": "studies/M3D-1S/J5/recheck_full_width.cjs",
+      "measured": {
+        "objects": 432,
+        "vertices": 3456,
+        "triangles": 5184,
+        "old_parts_preserved": 418,
+        "changed_existing_parts": 5,
+        "added_decks": 9,
+        "repaired_routes": 3,
+        "remaining_headroom_warning_routes": 3,
+        "declared_walk_edges": 7,
+        "old_intersection_events_repaired_routes": 181,
+        "new_intersection_events_repaired_routes": 0,
+        "remaining_intersection_events_other_routes": 100
+      },
+      "status": "LIMITED_BOX_HEADROOM_GATE_3_ROUTES_ONLY_PASS__FULL_WALKABILITY_AND_ART_HOLD"
     }
   },
   "missing": [
@@ -68,9 +93,14 @@
     "FULL_HUMAN_TRAVERSAL",
     "FULL_PUBLIC_VOID_COLLISION",
     "HUMAN_ART_ACCEPTANCE",
-    "J5_CORRIDOR_REPAIR"
+    "J5_CORRIDOR_REPAIR",
+    "THREE_UNREPAIRED_ROUTE_CLEARANCES",
+    "DECK_SURFACE_CONTINUITY",
+    "LANDING_GRADE_AND_SUPPORT",
+    "REAL_BLENDER_GLTF_IMPORT",
+    "ACTUAL_CINEMATIC_ART_REVIEW"
   ],
-  "next_gate": "J5: localized corridor/entrance clearance and floor-support repair on isolated J3 geometry, with prior and revised independent mesh QA",
+  "next_gate": "J6: resolve other 3 upper/east route obstructions, and independently check real Blender/Unreal import, floor support, all room volumes, and art quality",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"

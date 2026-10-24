@@ -1,0 +1,42 @@
+{
+  "schema": "m3d1s.j5.independent_readback.v2",
+  "source": "GitHub branch research/m3d1s-j5-civic-route-local-repair-20261024",
+  "version_note": "Revised west lift approach after full-width headroom scan",
+  "file_sha": {
+    "obj": "33c8317dd72a3bfdbb3094a79738623d3fede9c1",
+    "source": "46861b6f076920cd1e595d7035d40379428fe44c",
+    "glb": "67eb802b03d16cbb7b1f7c84931dcb5ba242222c"
+  },
+  "model": {
+    "objs": 432,
+    "vertices": 3456,
+    "triangles": 5184,
+    "preserved_existing_parts": 418,
+    "modified_existing_parts": 5,
+    "additional_parts": 9,
+    "obj_bad_index_groups": 0,
+    "source_obj_names_equal": true
+  },
+  "glb": {
+    "bytes": 294516,
+    "asset": {
+      "version": "2.0",
+      "generator": "HALO9 M3D-1S J5 revised footpath mesh exchange model"
+    },
+    "header_ok": true,
+    "chunk_boundary_ok": true,
+    "nodes": 432,
+    "meshes": 432,
+    "materials": 10,
+    "vertices": 3456,
+    "triangles": 5184,
+    "bad_indices": 0,
+    "agrees_with_OBJ": true
+  },
+  "limitations": [
+    "No actual Blender/Unreal import",
+    "No complete structural floor continuity or accessible walking traversal",
+    "Other 3 walking paths remain obstacle candidates",
+    "No 10km city detail or artistic acceptance"
+  ]
+}
