@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J6",
+  "research_id": "M3D-1S/J7-R0",
   "date_jst": "2026-10-24",
-  "status": "J6_ALL_SEVEN_BOX_HEADROOM_ZERO__WALKABILITY_AND_ART_HOLD",
-  "research_branch": "research/m3d1s-j6-upper-east-route-proof-20261024",
+  "status": "J7_R0_ART_STOP_AND_MEASURED_BASELINE__ACTUAL_BLENDER_REVIEW_PENDING",
+  "research_branch": "research/m3d1s-j7-artfirst-civic-rift-section-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "CHAT_GITHUB_CONNECTOR_ONLY__NO_WORK_NO_BLENDER_GUI",
+  "work_status": "NO_WORK_OR_BLENDER_GUI__GITHUB_ART_GATE_ONLY",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -102,6 +102,32 @@
         "remaining_box_headroom_events": 0
       },
       "status": "LIMITED_BOX_HEADROOM_ONLY__REAL_TRAVERSAL_AND_ART_HOLD"
+    },
+    "j7": {
+      "status": "R0_DOCUMENTED_AND_SCRIPT_AUTHORED__NO_NEW_ART_MESH_OR_RENDER",
+      "art_review_gate": "studies/M3D-1S/J7/J7_ART_REVIEW_GATE_JA.md",
+      "baseline_findings": "studies/M3D-1S/J7/J7_BASELINE_FINDINGS_JA.md",
+      "geometry_audit": "studies/M3D-1S/J7/J7_BASELINE_GEOMETRY_AUDIT.json",
+      "review_script": "studies/M3D-1S/J7/blender_multiview_audit.py",
+      "manifest": "studies/M3D-1S/J7/J7_REVIEW_MANIFEST.json",
+      "measurements": {
+        "j6_extent_m": [
+          2990,
+          2140,
+          2367
+        ],
+        "j6_source_primitives": {
+          "box": 407,
+          "beam": 34,
+          "taper": 3
+        },
+        "j6_mesh_vertices": 3552,
+        "j6_triangles": 5328
+      },
+      "blender_review": "NOT_EXECUTED",
+      "new_art_glb": "NOT_CREATED",
+      "construction": "HOLD",
+      "central_art_accepted": 0
     }
   },
   "missing": [
@@ -120,9 +146,12 @@
     "ACTUAL_CINEMATIC_ART_REVIEW",
     "PAD_SEAM_FLOOR_SUPPORT_AND_ACCESSIBILITY",
     "GREAT_CENTRAL_MACRO_ART_QUALITY",
-    "ACTUAL_J6_BLENDER_IMPORT"
+    "ACTUAL_J6_BLENDER_IMPORT",
+    "J7_REAL_BLENDER_EIGHT_VIEW_RENDER",
+    "J7_NEW_MACRO_3D_WITH_OCCUPIABLE_CIVIC_VOID",
+    "VISUAL_ART_APPROVAL"
   ],
-  "next_gate": "J7: stop repetitive BOX form patching; actual Blender/Unreal multiview/real public interiors + Macro Impact First silhouette and high-sky inhabited scale. Verify deck pad grade support separately.",
+  "next_gate": "J7-R1: real Blender multiview J6 art baseline, then produce genuinely integrated full-scale inhabited-city massing with cutaway; reject another boxed/loft shell if artistic quality fails",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
