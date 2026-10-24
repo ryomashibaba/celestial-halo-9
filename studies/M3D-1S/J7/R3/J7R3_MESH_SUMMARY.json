@@ -1,0 +1,63 @@
+{
+  "schema": "halo9.m3d1s.j7r3.measured_mesh_and_limitations.v1",
+  "formal_art_decision": "UNASSESSED",
+  "construction": "HOLD",
+  "coordinate": "NONCANONICAL_Z_UP_METRES",
+  "geometry_files": {
+    "glb": "J7R3_FRACTURED_INHABITED_CIVIC_SKY_NONCANONICAL.glb"
+  },
+  "glb_bytes": 145456,
+  "mesh_nodes": 164,
+  "vertices": 3300,
+  "triangles": 5944,
+  "scene_bounds_m": [
+    [
+      -5000.0,
+      -5000.0,
+      -315.0
+    ],
+    [
+      5000.0,
+      5000.0,
+      4740.0
+    ]
+  ],
+  "roles": {
+    "inhabited_folded_ground_exposed_structure": 4,
+    "urban_cliff_load_path_incomplete": 10,
+    "structural_sky_crown_mass_not_habitable_yet": 3,
+    "exposed_diagonal_cantilever_support": 9,
+    "genuine_public_hall_floor_open": 1,
+    "actual_civic_room_roof_structure": 2,
+    "structural_room_column": 4,
+    "nave_wayfinding_luminance": 4,
+    "actual_3d_transport_spine_unverified_grade": 3,
+    "city_public_signage": 9,
+    "actual_vertical_rail": 8,
+    "open_transport_interchange_floor": 8,
+    "true_local_neighbourhood_floor_preliminary": 26,
+    "inhabited_building_study_public_interior_incomplete": 17,
+    "public_open_plaza_urban_section": 9,
+    "noncanonical_10km_ground_reference_only": 1,
+    "noncanonical_east_sea_reference_only": 1,
+    "thick_inhabited_canyon_substructure_not_room_detailed": 1,
+    "civic_canyon_roof_terrain_with_open_back": 1,
+    "thick_urban_city_foundation_open_upper_edge": 1,
+    "civic_multilayer_urban_shore_inhabited_mass": 1,
+    "thick_high_city_crest_geography": 1,
+    "habitable_city_avenue_open_in_city_cross_section_not_full_interiors": 10,
+    "open_avenue_support_detail": 20,
+    "actual_public_room_floor_not_access_verified": 2,
+    "separate_exposed_civic_room_roof_no_fake_void": 2,
+    "load_path_illustrative": 6
+  },
+  "mandatory_limits": [
+    "No real Blender GUI or live manual sculpt session",
+    "All coordinates study-only; nothing placed at official H/SB/V positions",
+    "Public transit grade/physical walking/collisions, inhabited interiors and structural support NOT certified",
+    "Mesh gallery use does not establish fully usable urban space",
+    "This is NOT 10km all-detail City Master 3D",
+    "Do not confuse material color, mesh count or camera images with art PASS"
+  ],
+  "reimport": "PASS_REAL_GLB_RELOADED_IN_TRIMESH"
+}

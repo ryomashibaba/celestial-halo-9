@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R2",
+  "research_id": "M3D-1S/J7-R3",
   "date_jst": "2026-10-24",
-  "status": "J7_R2_BOOLEAN_CARVED_REAL_GLTF_8_VIEW_ART_REJECT__BLENDER_DIRECT_EDIT_PENDING",
-  "research_branch": "research/m3d1s-j7-r2-sculpted-civic-mass-20261024",
+  "status": "J7_R3_REAL_OPEN_CITY_SECTION_MULTI_VIEW__ART_REJECT__GLB_AND_8_VIEW_SAVED",
+  "research_branch": "research/m3d1s-j7-r3-open-civic-section-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "CHAT_EXECUTION_ENV_VOLUMETRIC_STUDY_RENDERED__NO_BLENDER_GUI_OR_WORK",
+  "work_status": "CHAT_CONTAINER_TRIMESH_VTK_NO_BLENDER_GUI",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -159,6 +159,32 @@
         "local_glb_sha256": "CHECK_LOCAL_REPORT_ONLY",
         "github_glb_binary": "NOT_UPLOADED",
         "construction": "HOLD"
+      },
+      "r3": {
+        "report": "studies/M3D-1S/J7/R3/J7R3_REPORT_JA.md",
+        "model": "studies/M3D-1S/J7/R3/J7R3_FRACTURED_INHABITED_CIVIC_SKY_NONCANONICAL.glb",
+        "views_contact": "studies/M3D-1S/J7/R3/J7R3_EIGHT_VIEW_CONTACT_SHEET.webp",
+        "views_folder": "studies/M3D-1S/J7/R3/",
+        "source": "studies/M3D-1S/J7/R3/build_j7r3.py",
+        "render_source": "studies/M3D-1S/J7/R3/render_j7r3.py",
+        "mesh_summary": "studies/M3D-1S/J7/R3/J7R3_MESH_SUMMARY.json",
+        "art_qa": "studies/M3D-1S/J7/R3/J7R3_ART_QA.json",
+        "model_source_sha256": "d093e6b537a5ce620fd94b3cf00dc0361426c88b9997679d3dfa28b313abc118",
+        "actual_glb_reloaded": true,
+        "actual_views_rendered": 8,
+        "main_research_extent_m": [
+          7914,
+          4507.6,
+          4615.8
+        ],
+        "mesh_count": 164,
+        "vertices": 3300,
+        "triangles": 5944,
+        "glb_bytes": 145456,
+        "technique": "Explicit section solids + open floors and civic hall, no opaque SDF blob",
+        "art_decision": "REJECT",
+        "construction": "HOLD",
+        "blender_gui": "NOT_USED"
       }
     }
   },
@@ -186,9 +212,12 @@
     "J7_R2_TRUE_DIRECT_VISUAL_MODELING",
     "J7_R2_GLTF_IMAGE_GITHUB_UPLOAD",
     "DIRECT_BLENDER_GEOMETRY_EDIT",
-    "INTERNAL_CIVIC_CITY_ACCESSIBILITY"
+    "INTERNAL_CIVIC_CITY_ACCESSIBILITY",
+    "J7_R3_TRUE_BLENDER_GUI_DIRECT_SCULPT",
+    "J7_R3_SECTION_LIVEABLE_AND_SUPPORT_QA",
+    "J7_R3_ART_QUALITY_NOT_MET"
   ],
-  "next_gate": "J7-R3: demonstrate real AI-guided direct Blender visual mesh edit of a representative inhabited public-room urban section; avoid blind giant SDF blobs/stacked plate generation; quality gate before citywide design",
+  "next_gate": "J7-R4: switch to genuinely direct visual sculpting in a Blender-capable session rather than continuing procedural sheets, test a single substantial liveable public-civic section and compare side/rear views at fixed scale; all official rights held.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
