@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R9",
+  "research_id": "M3D-1S/J7-R10",
   "date_jst": "2026-10-24",
-  "status": "J7_R9_REAL_BLENDER_CITY_SEAM_SPATIAL_PROGRAM_AND_JOINED_STREET_TOPOLOGY_VERIFIED__FORMAL_ART_REJECT",
-  "research_branch": "research/m3d1s-j7-r9-urban-section-first-20261024",
+  "status": "J7_R10_ART_DIRECTION_RESET_COMPLETED__WORK_NEXT_STAGE_ANNOUNCED__NO_NEW_3D_OR_WORK_RUN",
+  "research_branch": "research/m3d1s-j7-r10-ultrafuture-art-first-reset-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "GITHUB_ACTIONS_BLENDER_4_0_2_11_REAL_VIEWS_HEADLESS__NO_WORK_NO_LOCAL_GUI_SESSION",
+  "work_status": "CHAT_ONLY_ART_FIRST_PREPRODUCTION__J7_R11_LOCAL_WORK_PROMPT_TO_BE_GIVEN_NEXT_TURN",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -365,6 +365,24 @@
         "minecraft_construction": "HOLD",
         "city_master_3d_finished": false,
         "blender_gui_visual_edit": "NOT_PERFORMED_IN_R9__R7_R8_PROVEN_EARLIER"
+      },
+      "r10": {
+        "status": "CHAT_PREPRODUCTION_REVISED_ULTRAFUTURE_NO_MODEL_GENERATED",
+        "design_contract": "studies/M3D-1S/J7/R10/R10_ULTRAFUTURE_ART_DIRECTION_JA.md",
+        "prework_gate": "studies/M3D-1S/J7/R10/J7R10_PREWORK_GATE.json",
+        "decision_log": "docs/policy/DECISION_LOG.md (research branch only)",
+        "prospective_DA": "INVERTED_FIRMAMENT",
+        "prospective_DB": "FRACTURED_SKY_VEIN",
+        "prospective_DC": "CIVILIZATION_IN_FOLD",
+        "concepts_adopted": 0,
+        "real_blend_created": false,
+        "actual_blender_render_created": false,
+        "work_used": false,
+        "next_stage": "J7-R11: Provide local Work prompt on next interaction, then local Work only by user's explicit action",
+        "user_typology_instruction": "No contemporary library, auditorium, ordinary low-rise buildings as conceptual requirements",
+        "formal_art_accepted": 0,
+        "minecraft_construction": "HOLD",
+        "city_master_3d_completed": false
       }
     }
   },
@@ -414,9 +432,13 @@
     "J7_R9_CENTRAL_ART_REJECT_LOCAL_STUDY_ONLY",
     "J7_R9_REAL_PUBLIC_WALKABILITY_NOT_VALIDATED",
     "J7_R9_PUBLIC_ROOM_INTERIORS_NOT_FULLY_DETAILED",
-    "J7_R9_INTEGRATED_10KM_CITY_MASTER_UNFINISHED"
+    "J7_R9_INTEGRATED_10KM_CITY_MASTER_UNFINISHED",
+    "J7_R10_NEXT_LOCAL_WORK_NOT_EXECUTED",
+    "J7_R10_NO_REAL_3D_CREATED",
+    "ULTRAFUTURISTIC_MEGA_ARCHITECTURE_MUST_BE_VISUALLY_VERIFIED",
+    "OFFICIAL_CANONICAL_CITY_MASTER_STILL_INCOMPLETE"
   ],
-  "next_gate": "J7-R10: STOP producing procedural art-macro masses; select ONE urban civic hall and adjacent street for a fully detailed real human-scale spatial/functional Blender edit with multi-view and actual public circulation QA. Do not scale R9 to 10km. CITY MASTER 3D FIRST locked; Minecraft HOLD; Work only with separate approval.",
+  "next_gate": "J7-R11: on next user 'continue', deliver a paste-ready LOCAL WORK instruction (no handoff popup) to develop and visually iterate 2 genuinely distinct ultra-futuristic km-scale Blender research artworks. No Work was run during R10. Main and canonical assets remain protected; construction HOLD.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
