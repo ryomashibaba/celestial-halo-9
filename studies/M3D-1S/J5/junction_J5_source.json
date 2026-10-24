@@ -1,0 +1,7301 @@
+{
+  "schema": "m3d1s.junction.source.v2_J5",
+  "unit": "m",
+  "frame": "NONCANONICAL x-east y-north z-up",
+  "origin": "M3D-1S C macro design centre, not W0 surveyed",
+  "spaces": [
+    {
+      "id": "PUBLIC_VOID_LOWER",
+      "min": [
+        -530,
+        -210,
+        704
+      ],
+      "max": [
+        -230,
+        145,
+        981
+      ],
+      "coremin": [
+        -460,
+        -110,
+        860
+      ],
+      "coremax": [
+        -300,
+        85,
+        970
+      ],
+      "purpose": "Large civic room, not a missing fill mesh",
+      "art": "UNASSESSED"
+    },
+    {
+      "id": "PUBLIC_VOID_UPPER",
+      "min": [
+        245,
+        -55,
+        1540
+      ],
+      "max": [
+        565,
+        240,
+        1815
+      ],
+      "coremin": [
+        475,
+        20,
+        1580
+      ],
+      "coremax": [
+        550,
+        185,
+        1785
+      ],
+      "purpose": "Sky civic room, daylight opening",
+      "art": "UNASSESSED"
+    }
+  ],
+  "objects": [
+    {
+      "type": "box",
+      "id": "P1_CIVIC_FLOOR",
+      "c": [
+        -370,
+        10,
+        690
+      ],
+      "size": [
+        680,
+        560,
+        20
+      ],
+      "material": "CIVIC",
+      "role": "shared_floor"
+    },
+    {
+      "type": "box",
+      "id": "P1_NORTH_WALL_WEST",
+      "c": [
+        -595,
+        292,
+        857
+      ],
+      "size": [
+        230,
+        36,
+        315
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_NORTH_WALL_EAST",
+      "c": [
+        -190,
+        292,
+        857
+      ],
+      "size": [
+        320,
+        36,
+        315
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_NORTH_OPENING_HEAD",
+      "c": [
+        -420,
+        292,
+        971
+      ],
+      "size": [
+        120,
+        36,
+        85
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_WEST_WALL",
+      "c": [
+        -727,
+        10,
+        857
+      ],
+      "size": [
+        32,
+        560,
+        315
+      ],
+      "material": "STRUCTURE",
+      "role": "architectural_element"
+    },
+    {
+      "type": "box",
+      "id": "P1_EAST_WALL_SOUTH",
+      "c": [
+        -13,
+        -100,
+        857
+      ],
+      "size": [
+        32,
+        340,
+        315
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_EAST_WALL_NORTH",
+      "c": [
+        -13,
+        245,
+        857
+      ],
+      "size": [
+        32,
+        90,
+        315
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_EAST_DOOR_HEAD",
+      "c": [
+        -13,
+        180,
+        971
+      ],
+      "size": [
+        32,
+        40,
+        85
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_SOUTH_ENTRY_L",
+      "c": [
+        -570,
+        -275,
+        848.5
+      ],
+      "size": [
+        280,
+        34,
+        293
+      ],
+      "material": "CIVIC",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_SOUTH_ENTRY_R",
+      "c": [
+        -140,
+        -275,
+        848.5
+      ],
+      "size": [
+        220,
+        34,
+        293
+      ],
+      "material": "CIVIC",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P1_SOUTH_ENTRY_HEAD",
+      "c": [
+        -340,
+        -275,
+        977
+      ],
+      "size": [
+        180,
+        34,
+        36
+      ],
+      "material": "CIVIC",
+      "role": "entrance_lintel"
+    },
+    {
+      "type": "box",
+      "id": "P1_ROOF_N",
+      "c": [
+        -370,
+        239,
+        1025
+      ],
+      "size": [
+        680,
+        104,
+        40
+      ],
+      "material": "CIVIC",
+      "role": "shared_public_roof"
+    },
+    {
+      "type": "box",
+      "id": "P1_ROOF_S",
+      "c": [
+        -370,
+        -210,
+        1025
+      ],
+      "size": [
+        680,
+        130,
+        40
+      ],
+      "material": "CIVIC",
+      "role": "shared_public_roof"
+    },
+    {
+      "type": "box",
+      "id": "P1_ROOF_W",
+      "c": [
+        -654,
+        15,
+        1025
+      ],
+      "size": [
+        112,
+        365,
+        40
+      ],
+      "material": "CIVIC",
+      "role": "shared_public_roof"
+    },
+    {
+      "type": "box",
+      "id": "P1_ROOF_E",
+      "c": [
+        -86,
+        15,
+        1025
+      ],
+      "size": [
+        112,
+        365,
+        40
+      ],
+      "material": "CIVIC",
+      "role": "shared_public_roof"
+    },
+    {
+      "type": "box",
+      "id": "P1_SKYLIGHT_REVEAL_N",
+      "c": [
+        -370,
+        190,
+        1000
+      ],
+      "size": [
+        450,
+        10,
+        75
+      ],
+      "material": "VOID_EDGE",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "P1_SKYLIGHT_REVEAL_S",
+      "c": [
+        -370,
+        -135,
+        1000
+      ],
+      "size": [
+        450,
+        10,
+        75
+      ],
+      "material": "VOID_EDGE",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-680_-205",
+      "c": [
+        -680,
+        -205,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-680_5",
+      "c": [
+        -680,
+        5,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-680_215",
+      "c": [
+        -680,
+        215,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-570_-205",
+      "c": [
+        -570,
+        -205,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-570_5",
+      "c": [
+        -570,
+        5,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-570_215",
+      "c": [
+        -570,
+        215,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-160_-205",
+      "c": [
+        -160,
+        -205,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-160_5",
+      "c": [
+        -160,
+        5,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-160_215",
+      "c": [
+        -160,
+        215,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-45_-205",
+      "c": [
+        -45,
+        -205,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-45_5",
+      "c": [
+        -45,
+        5,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_BUTTRESS_-45_215",
+      "c": [
+        -45,
+        215,
+        830
+      ],
+      "size": [
+        26,
+        24,
+        260
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_-1_755",
+      "c": [
+        -625,
+        0,
+        755
+      ],
+      "size": [
+        105,
+        420,
+        12
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_755_-200",
+      "c": [
+        -580,
+        -200,
+        764
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_755_0",
+      "c": [
+        -580,
+        0,
+        764
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_755_200",
+      "c": [
+        -580,
+        200,
+        764
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_-1_830",
+      "c": [
+        -625,
+        0,
+        830
+      ],
+      "size": [
+        105,
+        420,
+        12
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_830_-200",
+      "c": [
+        -580,
+        -200,
+        839
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_830_0",
+      "c": [
+        -580,
+        0,
+        839
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_830_200",
+      "c": [
+        -580,
+        200,
+        839
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_-1_905",
+      "c": [
+        -625,
+        0,
+        905
+      ],
+      "size": [
+        105,
+        420,
+        12
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_905_-200",
+      "c": [
+        -580,
+        -200,
+        914
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_905_0",
+      "c": [
+        -580,
+        0,
+        914
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_-1_905_200",
+      "c": [
+        -580,
+        200,
+        914
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_1_755",
+      "c": [
+        -115,
+        0,
+        755
+      ],
+      "size": [
+        105,
+        420,
+        12
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_755_-200",
+      "c": [
+        -160,
+        -200,
+        764
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_755_0",
+      "c": [
+        -160,
+        0,
+        764
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_755_200",
+      "c": [
+        -160,
+        200,
+        764
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_1_830",
+      "c": [
+        -115,
+        0,
+        830
+      ],
+      "size": [
+        105,
+        420,
+        12
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_830_-200",
+      "c": [
+        -160,
+        -200,
+        839
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_830_0",
+      "c": [
+        -160,
+        0,
+        839
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_830_200",
+      "c": [
+        -160,
+        200,
+        839
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_1_905",
+      "c": [
+        -115,
+        0,
+        905
+      ],
+      "size": [
+        105,
+        420,
+        12
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_905_-200",
+      "c": [
+        -160,
+        -200,
+        914
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_905_0",
+      "c": [
+        -160,
+        0,
+        914
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_GALLERY_RAIL_1_905_200",
+      "c": [
+        -160,
+        200,
+        914
+      ],
+      "size": [
+        10,
+        130,
+        18
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P1_FORUM_RISER_0",
+      "c": [
+        -370,
+        160,
+        712
+      ],
+      "size": [
+        300,
+        32,
+        22
+      ],
+      "material": "CIVIC",
+      "role": "forum_terrace"
+    },
+    {
+      "type": "box",
+      "id": "P1_FORUM_RISER_1",
+      "c": [
+        -370,
+        118,
+        720
+      ],
+      "size": [
+        300,
+        32,
+        22
+      ],
+      "material": "CIVIC",
+      "role": "forum_terrace"
+    },
+    {
+      "type": "box",
+      "id": "P1_FORUM_RISER_2",
+      "c": [
+        -370,
+        76,
+        728
+      ],
+      "size": [
+        300,
+        32,
+        22
+      ],
+      "material": "CIVIC",
+      "role": "forum_terrace"
+    },
+    {
+      "type": "box",
+      "id": "P1_FORUM_RISER_3",
+      "c": [
+        -370,
+        34,
+        736
+      ],
+      "size": [
+        300,
+        32,
+        22
+      ],
+      "material": "CIVIC",
+      "role": "forum_terrace"
+    },
+    {
+      "type": "box",
+      "id": "P1_FORUM_RISER_4",
+      "c": [
+        -370,
+        -8,
+        744
+      ],
+      "size": [
+        300,
+        32,
+        22
+      ],
+      "material": "CIVIC",
+      "role": "forum_terrace"
+    },
+    {
+      "type": "box",
+      "id": "P1_FORUM_RISER_5",
+      "c": [
+        -370,
+        -50,
+        752
+      ],
+      "size": [
+        300,
+        32,
+        22
+      ],
+      "material": "CIVIC",
+      "role": "forum_terrace"
+    },
+    {
+      "type": "beam",
+      "id": "P1_DAYLIGHT_CROSSBEAM_-166",
+      "from": [
+        -700,
+        -166,
+        1035
+      ],
+      "to": [
+        -32,
+        -166,
+        1035
+      ],
+      "width": 16,
+      "material": "VOID_EDGE",
+      "role": "roof_structure",
+      "length": 668
+    },
+    {
+      "type": "beam",
+      "id": "P1_DAYLIGHT_CROSSBEAM_-40",
+      "from": [
+        -700,
+        -40,
+        1035
+      ],
+      "to": [
+        -32,
+        -40,
+        1035
+      ],
+      "width": 16,
+      "material": "VOID_EDGE",
+      "role": "roof_structure",
+      "length": 668
+    },
+    {
+      "type": "beam",
+      "id": "P1_DAYLIGHT_CROSSBEAM_86",
+      "from": [
+        -700,
+        86,
+        1035
+      ],
+      "to": [
+        -32,
+        86,
+        1035
+      ],
+      "width": 16,
+      "material": "VOID_EDGE",
+      "role": "roof_structure",
+      "length": 668
+    },
+    {
+      "type": "box",
+      "id": "P2_CIVIC_FLOOR",
+      "c": [
+        420,
+        132,
+        1519
+      ],
+      "size": [
+        650,
+        540,
+        24
+      ],
+      "material": "CIVIC",
+      "role": "shared_floor"
+    },
+    {
+      "type": "box",
+      "id": "P2_NORTH_WALL",
+      "c": [
+        420,
+        416,
+        1680
+      ],
+      "size": [
+        650,
+        35,
+        322
+      ],
+      "material": "STRUCTURE",
+      "role": "architectural_element"
+    },
+    {
+      "type": "box",
+      "id": "P2_WEST_WALL_SOUTH",
+      "c": [
+        77,
+        17,
+        1680
+      ],
+      "size": [
+        32,
+        315,
+        322
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_WEST_WALL_NORTH",
+      "c": [
+        77,
+        345,
+        1680
+      ],
+      "size": [
+        32,
+        120,
+        322
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_WEST_DOOR_HEAD",
+      "c": [
+        77,
+        235,
+        1800
+      ],
+      "size": [
+        32,
+        100,
+        82
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_EAST_WALL_SOUTH",
+      "c": [
+        762,
+        50,
+        1680
+      ],
+      "size": [
+        32,
+        365,
+        322
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_EAST_WALL_NORTH",
+      "c": [
+        762,
+        390,
+        1680
+      ],
+      "size": [
+        32,
+        60,
+        322
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_EAST_DOOR_HEAD",
+      "c": [
+        762,
+        300,
+        1800
+      ],
+      "size": [
+        32,
+        115,
+        82
+      ],
+      "material": "STRUCTURE",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_SOUTH_ENTRY_L",
+      "c": [
+        187.5,
+        -154,
+        1680
+      ],
+      "size": [
+        185,
+        38,
+        290
+      ],
+      "material": "CIVIC",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_SOUTH_ENTRY_R",
+      "c": [
+        622,
+        -154,
+        1680
+      ],
+      "size": [
+        244,
+        38,
+        290
+      ],
+      "material": "CIVIC",
+      "role": "civic_wall"
+    },
+    {
+      "type": "box",
+      "id": "P2_SOUTH_ENTRY_HEAD",
+      "c": [
+        390,
+        -154,
+        1807
+      ],
+      "size": [
+        220,
+        38,
+        36
+      ],
+      "material": "CIVIC",
+      "role": "entrance_lintel"
+    },
+    {
+      "type": "box",
+      "id": "P2_ROOF_N",
+      "c": [
+        420,
+        351,
+        1858
+      ],
+      "size": [
+        650,
+        122,
+        36
+      ],
+      "material": "CIVIC",
+      "role": "shared_public_roof"
+    },
+    {
+      "type": "box",
+      "id": "P2_ROOF_S",
+      "c": [
+        420,
+        -88,
+        1858
+      ],
+      "size": [
+        650,
+        132,
+        36
+      ],
+      "material": "CIVIC",
+      "role": "shared_public_roof"
+    },
+    {
+      "type": "box",
+      "id": "P2_ROOF_E",
+      "c": [
+        704,
+        131,
+        1858
+      ],
+      "size": [
+        82,
+        335,
+        36
+      ],
+      "material": "CIVIC",
+      "role": "shared_public_roof"
+    },
+    {
+      "type": "box",
+      "id": "P2_ROOF_W",
+      "c": [
+        136,
+        131,
+        1858
+      ],
+      "size": [
+        82,
+        335,
+        36
+      ],
+      "material": "CIVIC",
+      "role": "shared_public_roof"
+    },
+    {
+      "type": "box",
+      "id": "P2_AUDIENCE_STEP_0",
+      "c": [
+        210,
+        200,
+        1550
+      ],
+      "size": [
+        58,
+        250,
+        17
+      ],
+      "material": "CIVIC",
+      "role": "public_assembly_floor"
+    },
+    {
+      "type": "box",
+      "id": "P2_AUDIENCE_STEP_1",
+      "c": [
+        252,
+        200,
+        1595
+      ],
+      "size": [
+        58,
+        250,
+        17
+      ],
+      "material": "CIVIC",
+      "role": "public_assembly_floor"
+    },
+    {
+      "type": "box",
+      "id": "P2_AUDIENCE_STEP_2",
+      "c": [
+        294,
+        200,
+        1640
+      ],
+      "size": [
+        58,
+        250,
+        17
+      ],
+      "material": "CIVIC",
+      "role": "public_assembly_floor"
+    },
+    {
+      "type": "box",
+      "id": "P2_AUDIENCE_STEP_3",
+      "c": [
+        336,
+        200,
+        1685
+      ],
+      "size": [
+        58,
+        250,
+        17
+      ],
+      "material": "CIVIC",
+      "role": "public_assembly_floor"
+    },
+    {
+      "type": "box",
+      "id": "P2_AUDIENCE_STEP_4",
+      "c": [
+        378,
+        200,
+        1730
+      ],
+      "size": [
+        58,
+        250,
+        17
+      ],
+      "material": "CIVIC",
+      "role": "public_assembly_floor"
+    },
+    {
+      "type": "box",
+      "id": "P2_AUDIENCE_STEP_5",
+      "c": [
+        420,
+        200,
+        1775
+      ],
+      "size": [
+        58,
+        250,
+        17
+      ],
+      "material": "CIVIC",
+      "role": "public_assembly_floor"
+    },
+    {
+      "type": "box",
+      "id": "P2_COLUMN_110_-110",
+      "c": [
+        110,
+        -110,
+        1655
+      ],
+      "size": [
+        24,
+        32,
+        280
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P2_COLUMN_110_135",
+      "c": [
+        110,
+        135,
+        1655
+      ],
+      "size": [
+        24,
+        32,
+        280
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P2_COLUMN_110_390",
+      "c": [
+        110,
+        390,
+        1655
+      ],
+      "size": [
+        24,
+        32,
+        280
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P2_COLUMN_730_-110",
+      "c": [
+        730,
+        -110,
+        1655
+      ],
+      "size": [
+        24,
+        32,
+        280
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P2_COLUMN_730_135",
+      "c": [
+        730,
+        135,
+        1655
+      ],
+      "size": [
+        24,
+        32,
+        280
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P2_COLUMN_730_390",
+      "c": [
+        730,
+        390,
+        1655
+      ],
+      "size": [
+        24,
+        32,
+        280
+      ],
+      "material": "STRUCTURE",
+      "role": "support"
+    },
+    {
+      "type": "box",
+      "id": "P2_NORTH_GALLERY_1600",
+      "c": [
+        420,
+        350,
+        1600
+      ],
+      "size": [
+        555,
+        62,
+        10
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P2_NORTH_GALLERY_RAIL_1600",
+      "c": [
+        420,
+        308,
+        1616
+      ],
+      "size": [
+        525,
+        7,
+        25
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P2_NORTH_GALLERY_1700",
+      "c": [
+        420,
+        350,
+        1700
+      ],
+      "size": [
+        555,
+        62,
+        10
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P2_NORTH_GALLERY_RAIL_1700",
+      "c": [
+        420,
+        308,
+        1716
+      ],
+      "size": [
+        525,
+        7,
+        25
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "box",
+      "id": "P2_NORTH_GALLERY_1800",
+      "c": [
+        420,
+        350,
+        1800
+      ],
+      "size": [
+        555,
+        62,
+        10
+      ],
+      "material": "CIVIC",
+      "role": "public_gallery"
+    },
+    {
+      "type": "box",
+      "id": "P2_NORTH_GALLERY_RAIL_1800",
+      "c": [
+        420,
+        308,
+        1816
+      ],
+      "size": [
+        525,
+        7,
+        25
+      ],
+      "material": "VOID_EDGE",
+      "role": "handrail"
+    },
+    {
+      "type": "taper",
+      "id": "WEST_CITY_MASS",
+      "centerBottom": [
+        -1060,
+        430,
+        80
+      ],
+      "centerTop": [
+        -1090,
+        460,
+        1680
+      ],
+      "sizeBottom": [
+        720,
+        1080
+      ],
+      "sizeTop": [
+        650,
+        880
+      ],
+      "material": "STRUCTURE",
+      "role": "faceted_structural_mass"
+    },
+    {
+      "type": "taper",
+      "id": "EAST_CITY_MASS",
+      "centerBottom": [
+        1120,
+        550,
+        120
+      ],
+      "centerTop": [
+        1060,
+        580,
+        2180
+      ],
+      "sizeBottom": [
+        600,
+        1050
+      ],
+      "sizeTop": [
+        790,
+        1000
+      ],
+      "material": "STRUCTURE",
+      "role": "faceted_structural_mass"
+    },
+    {
+      "type": "taper",
+      "id": "NORTH_DIAGONAL_CITY_SUPPORT",
+      "centerBottom": [
+        -170,
+        1260,
+        200
+      ],
+      "centerTop": [
+        -210,
+        1050,
+        1380
+      ],
+      "sizeBottom": [
+        640,
+        720
+      ],
+      "sizeTop": [
+        580,
+        550
+      ],
+      "material": "STRUCTURE",
+      "role": "faceted_structural_mass"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_MAIN_FLOOR",
+      "c": [
+        -1080,
+        560,
+        1720
+      ],
+      "size": [
+        780,
+        850,
+        36
+      ],
+      "material": "CITY",
+      "role": "inhabited_thick_deck"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_LEVEL_2",
+      "c": [
+        -1080,
+        560,
+        1830
+      ],
+      "size": [
+        647.4,
+        663,
+        25
+      ],
+      "material": "CITY",
+      "role": "upper_inhabited_floor"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_PUBLIC_BOULEVARD",
+      "c": [
+        -1080,
+        560,
+        1754
+      ],
+      "size": [
+        40,
+        780,
+        12
+      ],
+      "material": "CIVIC",
+      "role": "public_street"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_PLAZA",
+      "c": [
+        -1080,
+        640,
+        1758
+      ],
+      "size": [
+        150,
+        160,
+        10
+      ],
+      "material": "GREEN",
+      "role": "public_plaza"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_0_BODY",
+      "c": [
+        -1185,
+        270,
+        1794
+      ],
+      "size": [
+        95,
+        60,
+        64
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_0_ROOF",
+      "c": [
+        -1192,
+        270,
+        1832
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_0_WINDOW_0_0",
+      "c": [
+        -1137,
+        253,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_0_WINDOW_0_1",
+      "c": [
+        -1137,
+        287,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_0_WINDOW_1_0",
+      "c": [
+        -1137,
+        253,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_0_WINDOW_1_1",
+      "c": [
+        -1137,
+        287,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_0_WINDOW_2_0",
+      "c": [
+        -1137,
+        253,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_0_WINDOW_2_1",
+      "c": [
+        -1137,
+        287,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_1_BODY",
+      "c": [
+        -1211,
+        358,
+        1828.5
+      ],
+      "size": [
+        95,
+        60,
+        133
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_1_ROOF",
+      "c": [
+        -1218,
+        358,
+        1901
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_1_WINDOW_0_0",
+      "c": [
+        -1163,
+        341,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_1_WINDOW_0_1",
+      "c": [
+        -1163,
+        375,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_1_WINDOW_1_0",
+      "c": [
+        -1163,
+        341,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_1_WINDOW_1_1",
+      "c": [
+        -1163,
+        375,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_1_WINDOW_2_0",
+      "c": [
+        -1163,
+        341,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_1_WINDOW_2_1",
+      "c": [
+        -1163,
+        375,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_2_BODY",
+      "c": [
+        -1185,
+        446,
+        1817
+      ],
+      "size": [
+        95,
+        60,
+        110
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_2_ROOF",
+      "c": [
+        -1192,
+        446,
+        1878
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_2_WINDOW_0_0",
+      "c": [
+        -1137,
+        429,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_2_WINDOW_0_1",
+      "c": [
+        -1137,
+        463,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_2_WINDOW_1_0",
+      "c": [
+        -1137,
+        429,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_2_WINDOW_1_1",
+      "c": [
+        -1137,
+        463,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_2_WINDOW_2_0",
+      "c": [
+        -1137,
+        429,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_2_WINDOW_2_1",
+      "c": [
+        -1137,
+        463,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_3_BODY",
+      "c": [
+        -1211,
+        534,
+        1805.5
+      ],
+      "size": [
+        95,
+        60,
+        87
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_3_ROOF",
+      "c": [
+        -1218,
+        534,
+        1855
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_3_WINDOW_0_0",
+      "c": [
+        -1163,
+        517,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_3_WINDOW_0_1",
+      "c": [
+        -1163,
+        551,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_3_WINDOW_1_0",
+      "c": [
+        -1163,
+        517,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_3_WINDOW_1_1",
+      "c": [
+        -1163,
+        551,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_3_WINDOW_2_0",
+      "c": [
+        -1163,
+        517,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_3_WINDOW_2_1",
+      "c": [
+        -1163,
+        551,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_4_BODY",
+      "c": [
+        -1185,
+        622,
+        1794
+      ],
+      "size": [
+        95,
+        60,
+        64
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_4_ROOF",
+      "c": [
+        -1192,
+        622,
+        1832
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_4_WINDOW_0_0",
+      "c": [
+        -1137,
+        605,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_4_WINDOW_0_1",
+      "c": [
+        -1137,
+        639,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_4_WINDOW_1_0",
+      "c": [
+        -1137,
+        605,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_4_WINDOW_1_1",
+      "c": [
+        -1137,
+        639,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_4_WINDOW_2_0",
+      "c": [
+        -1137,
+        605,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_4_WINDOW_2_1",
+      "c": [
+        -1137,
+        639,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_5_BODY",
+      "c": [
+        -1211,
+        710,
+        1828.5
+      ],
+      "size": [
+        95,
+        60,
+        133
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_5_ROOF",
+      "c": [
+        -1218,
+        710,
+        1901
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_5_WINDOW_0_0",
+      "c": [
+        -1163,
+        693,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_5_WINDOW_0_1",
+      "c": [
+        -1163,
+        727,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_5_WINDOW_1_0",
+      "c": [
+        -1163,
+        693,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_5_WINDOW_1_1",
+      "c": [
+        -1163,
+        727,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_5_WINDOW_2_0",
+      "c": [
+        -1163,
+        693,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_5_WINDOW_2_1",
+      "c": [
+        -1163,
+        727,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_6_BODY",
+      "c": [
+        -1185,
+        798,
+        1817
+      ],
+      "size": [
+        95,
+        60,
+        110
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_6_ROOF",
+      "c": [
+        -1192,
+        798,
+        1878
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_6_WINDOW_0_0",
+      "c": [
+        -1137,
+        781,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_6_WINDOW_0_1",
+      "c": [
+        -1137,
+        815,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_6_WINDOW_1_0",
+      "c": [
+        -1137,
+        781,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_6_WINDOW_1_1",
+      "c": [
+        -1137,
+        815,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_6_WINDOW_2_0",
+      "c": [
+        -1137,
+        781,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_-1_6_WINDOW_2_1",
+      "c": [
+        -1137,
+        815,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_0_BODY",
+      "c": [
+        -975,
+        270,
+        1794
+      ],
+      "size": [
+        95,
+        60,
+        64
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_0_ROOF",
+      "c": [
+        -968,
+        270,
+        1832
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_0_WINDOW_0_0",
+      "c": [
+        -1023,
+        253,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_0_WINDOW_0_1",
+      "c": [
+        -1023,
+        287,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_0_WINDOW_1_0",
+      "c": [
+        -1023,
+        253,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_0_WINDOW_1_1",
+      "c": [
+        -1023,
+        287,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_0_WINDOW_2_0",
+      "c": [
+        -1023,
+        253,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_0_WINDOW_2_1",
+      "c": [
+        -1023,
+        287,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_1_BODY",
+      "c": [
+        -949,
+        358,
+        1828.5
+      ],
+      "size": [
+        95,
+        60,
+        133
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_1_ROOF",
+      "c": [
+        -942,
+        358,
+        1901
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_1_WINDOW_0_0",
+      "c": [
+        -997,
+        341,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_1_WINDOW_0_1",
+      "c": [
+        -997,
+        375,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_1_WINDOW_1_0",
+      "c": [
+        -997,
+        341,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_1_WINDOW_1_1",
+      "c": [
+        -997,
+        375,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_1_WINDOW_2_0",
+      "c": [
+        -997,
+        341,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_1_WINDOW_2_1",
+      "c": [
+        -997,
+        375,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_2_BODY",
+      "c": [
+        -975,
+        446,
+        1817
+      ],
+      "size": [
+        95,
+        60,
+        110
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_2_ROOF",
+      "c": [
+        -968,
+        446,
+        1878
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_2_WINDOW_0_0",
+      "c": [
+        -1023,
+        429,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_2_WINDOW_0_1",
+      "c": [
+        -1023,
+        463,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_2_WINDOW_1_0",
+      "c": [
+        -1023,
+        429,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_2_WINDOW_1_1",
+      "c": [
+        -1023,
+        463,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_2_WINDOW_2_0",
+      "c": [
+        -1023,
+        429,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_2_WINDOW_2_1",
+      "c": [
+        -1023,
+        463,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_3_BODY",
+      "c": [
+        -949,
+        534,
+        1805.5
+      ],
+      "size": [
+        95,
+        60,
+        87
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_3_ROOF",
+      "c": [
+        -942,
+        534,
+        1855
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_3_WINDOW_0_0",
+      "c": [
+        -997,
+        517,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_3_WINDOW_0_1",
+      "c": [
+        -997,
+        551,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_3_WINDOW_1_0",
+      "c": [
+        -997,
+        517,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_3_WINDOW_1_1",
+      "c": [
+        -997,
+        551,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_3_WINDOW_2_0",
+      "c": [
+        -997,
+        517,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_3_WINDOW_2_1",
+      "c": [
+        -997,
+        551,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_4_BODY",
+      "c": [
+        -975,
+        622,
+        1794
+      ],
+      "size": [
+        95,
+        60,
+        64
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_4_ROOF",
+      "c": [
+        -968,
+        622,
+        1832
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_4_WINDOW_0_0",
+      "c": [
+        -1023,
+        605,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_4_WINDOW_0_1",
+      "c": [
+        -1023,
+        639,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_4_WINDOW_1_0",
+      "c": [
+        -1023,
+        605,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_4_WINDOW_1_1",
+      "c": [
+        -1023,
+        639,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_4_WINDOW_2_0",
+      "c": [
+        -1023,
+        605,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_4_WINDOW_2_1",
+      "c": [
+        -1023,
+        639,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_5_BODY",
+      "c": [
+        -949,
+        710,
+        1828.5
+      ],
+      "size": [
+        95,
+        60,
+        133
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_5_ROOF",
+      "c": [
+        -942,
+        710,
+        1901
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_5_WINDOW_0_0",
+      "c": [
+        -997,
+        693,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_5_WINDOW_0_1",
+      "c": [
+        -997,
+        727,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_5_WINDOW_1_0",
+      "c": [
+        -997,
+        693,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_5_WINDOW_1_1",
+      "c": [
+        -997,
+        727,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_5_WINDOW_2_0",
+      "c": [
+        -997,
+        693,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_5_WINDOW_2_1",
+      "c": [
+        -997,
+        727,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_6_BODY",
+      "c": [
+        -975,
+        798,
+        1817
+      ],
+      "size": [
+        95,
+        60,
+        110
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_6_ROOF",
+      "c": [
+        -968,
+        798,
+        1878
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_6_WINDOW_0_0",
+      "c": [
+        -1023,
+        781,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_6_WINDOW_0_1",
+      "c": [
+        -1023,
+        815,
+        1770
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_6_WINDOW_1_0",
+      "c": [
+        -1023,
+        781,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_6_WINDOW_1_1",
+      "c": [
+        -1023,
+        815,
+        1787
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_6_WINDOW_2_0",
+      "c": [
+        -1023,
+        781,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_BLDG_1_6_WINDOW_2_1",
+      "c": [
+        -1023,
+        815,
+        1804
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_SOUTH_EDGE_0",
+      "c": [
+        -1365,
+        138,
+        1770
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_SOUTH_EDGE_1",
+      "c": [
+        -1283,
+        138,
+        1770
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_SOUTH_EDGE_2",
+      "c": [
+        -1201,
+        138,
+        1770
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_SOUTH_EDGE_3",
+      "c": [
+        -1119,
+        138,
+        1770
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_SOUTH_EDGE_4",
+      "c": [
+        -1037,
+        138,
+        1770
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_SOUTH_EDGE_5",
+      "c": [
+        -955,
+        138,
+        1770
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_SOUTH_EDGE_6",
+      "c": [
+        -873,
+        138,
+        1770
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "WEST_LIVING_TERRACE_SOUTH_EDGE_7",
+      "c": [
+        -791,
+        138,
+        1770
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_MAIN_FLOOR",
+      "c": [
+        1100,
+        650,
+        2260
+      ],
+      "size": [
+        840,
+        840,
+        36
+      ],
+      "material": "CITY",
+      "role": "inhabited_thick_deck"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_LEVEL_2",
+      "c": [
+        1100,
+        650,
+        2370
+      ],
+      "size": [
+        697.1999999999999,
+        655.2,
+        25
+      ],
+      "material": "CITY",
+      "role": "upper_inhabited_floor"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_PUBLIC_BOULEVARD",
+      "c": [
+        1100,
+        650,
+        2294
+      ],
+      "size": [
+        40,
+        770,
+        12
+      ],
+      "material": "CIVIC",
+      "role": "public_street"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_PLAZA",
+      "c": [
+        1100,
+        730,
+        2298
+      ],
+      "size": [
+        150,
+        160,
+        10
+      ],
+      "material": "GREEN",
+      "role": "public_plaza"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_0_BODY",
+      "c": [
+        995,
+        360,
+        2334
+      ],
+      "size": [
+        95,
+        60,
+        64
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_0_ROOF",
+      "c": [
+        988,
+        360,
+        2372
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_0_WINDOW_0_0",
+      "c": [
+        1043,
+        343,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_0_WINDOW_0_1",
+      "c": [
+        1043,
+        377,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_0_WINDOW_1_0",
+      "c": [
+        1043,
+        343,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_0_WINDOW_1_1",
+      "c": [
+        1043,
+        377,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_0_WINDOW_2_0",
+      "c": [
+        1043,
+        343,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_0_WINDOW_2_1",
+      "c": [
+        1043,
+        377,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_1_BODY",
+      "c": [
+        969,
+        448,
+        2368.5
+      ],
+      "size": [
+        95,
+        60,
+        133
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_1_ROOF",
+      "c": [
+        962,
+        448,
+        2441
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_1_WINDOW_0_0",
+      "c": [
+        1017,
+        431,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_1_WINDOW_0_1",
+      "c": [
+        1017,
+        465,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_1_WINDOW_1_0",
+      "c": [
+        1017,
+        431,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_1_WINDOW_1_1",
+      "c": [
+        1017,
+        465,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_1_WINDOW_2_0",
+      "c": [
+        1017,
+        431,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_1_WINDOW_2_1",
+      "c": [
+        1017,
+        465,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_2_BODY",
+      "c": [
+        995,
+        536,
+        2357
+      ],
+      "size": [
+        95,
+        60,
+        110
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_2_ROOF",
+      "c": [
+        988,
+        536,
+        2418
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_2_WINDOW_0_0",
+      "c": [
+        1043,
+        519,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_2_WINDOW_0_1",
+      "c": [
+        1043,
+        553,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_2_WINDOW_1_0",
+      "c": [
+        1043,
+        519,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_2_WINDOW_1_1",
+      "c": [
+        1043,
+        553,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_2_WINDOW_2_0",
+      "c": [
+        1043,
+        519,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_2_WINDOW_2_1",
+      "c": [
+        1043,
+        553,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_3_BODY",
+      "c": [
+        969,
+        624,
+        2345.5
+      ],
+      "size": [
+        95,
+        60,
+        87
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_3_ROOF",
+      "c": [
+        962,
+        624,
+        2395
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_3_WINDOW_0_0",
+      "c": [
+        1017,
+        607,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_3_WINDOW_0_1",
+      "c": [
+        1017,
+        641,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_3_WINDOW_1_0",
+      "c": [
+        1017,
+        607,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_3_WINDOW_1_1",
+      "c": [
+        1017,
+        641,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_3_WINDOW_2_0",
+      "c": [
+        1017,
+        607,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_3_WINDOW_2_1",
+      "c": [
+        1017,
+        641,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_4_BODY",
+      "c": [
+        995,
+        712,
+        2334
+      ],
+      "size": [
+        95,
+        60,
+        64
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_4_ROOF",
+      "c": [
+        988,
+        712,
+        2372
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_4_WINDOW_0_0",
+      "c": [
+        1043,
+        695,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_4_WINDOW_0_1",
+      "c": [
+        1043,
+        729,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_4_WINDOW_1_0",
+      "c": [
+        1043,
+        695,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_4_WINDOW_1_1",
+      "c": [
+        1043,
+        729,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_4_WINDOW_2_0",
+      "c": [
+        1043,
+        695,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_4_WINDOW_2_1",
+      "c": [
+        1043,
+        729,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_5_BODY",
+      "c": [
+        969,
+        800,
+        2368.5
+      ],
+      "size": [
+        95,
+        60,
+        133
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_5_ROOF",
+      "c": [
+        962,
+        800,
+        2441
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_5_WINDOW_0_0",
+      "c": [
+        1017,
+        783,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_5_WINDOW_0_1",
+      "c": [
+        1017,
+        817,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_5_WINDOW_1_0",
+      "c": [
+        1017,
+        783,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_5_WINDOW_1_1",
+      "c": [
+        1017,
+        817,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_5_WINDOW_2_0",
+      "c": [
+        1017,
+        783,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_5_WINDOW_2_1",
+      "c": [
+        1017,
+        817,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_6_BODY",
+      "c": [
+        995,
+        888,
+        2357
+      ],
+      "size": [
+        95,
+        60,
+        110
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_6_ROOF",
+      "c": [
+        988,
+        888,
+        2418
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_6_WINDOW_0_0",
+      "c": [
+        1043,
+        871,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_6_WINDOW_0_1",
+      "c": [
+        1043,
+        905,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_6_WINDOW_1_0",
+      "c": [
+        1043,
+        871,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_6_WINDOW_1_1",
+      "c": [
+        1043,
+        905,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_6_WINDOW_2_0",
+      "c": [
+        1043,
+        871,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_-1_6_WINDOW_2_1",
+      "c": [
+        1043,
+        905,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_0_BODY",
+      "c": [
+        1205,
+        360,
+        2334
+      ],
+      "size": [
+        95,
+        60,
+        64
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_0_ROOF",
+      "c": [
+        1212,
+        360,
+        2372
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_0_WINDOW_0_0",
+      "c": [
+        1157,
+        343,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_0_WINDOW_0_1",
+      "c": [
+        1157,
+        377,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_0_WINDOW_1_0",
+      "c": [
+        1157,
+        343,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_0_WINDOW_1_1",
+      "c": [
+        1157,
+        377,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_0_WINDOW_2_0",
+      "c": [
+        1157,
+        343,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_0_WINDOW_2_1",
+      "c": [
+        1157,
+        377,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_1_BODY",
+      "c": [
+        1231,
+        448,
+        2368.5
+      ],
+      "size": [
+        95,
+        60,
+        133
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_1_ROOF",
+      "c": [
+        1238,
+        448,
+        2441
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_1_WINDOW_0_0",
+      "c": [
+        1183,
+        431,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_1_WINDOW_0_1",
+      "c": [
+        1183,
+        465,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_1_WINDOW_1_0",
+      "c": [
+        1183,
+        431,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_1_WINDOW_1_1",
+      "c": [
+        1183,
+        465,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_1_WINDOW_2_0",
+      "c": [
+        1183,
+        431,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_1_WINDOW_2_1",
+      "c": [
+        1183,
+        465,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_2_BODY",
+      "c": [
+        1205,
+        536,
+        2357
+      ],
+      "size": [
+        95,
+        60,
+        110
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_2_ROOF",
+      "c": [
+        1212,
+        536,
+        2418
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_2_WINDOW_0_0",
+      "c": [
+        1157,
+        519,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_2_WINDOW_0_1",
+      "c": [
+        1157,
+        553,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_2_WINDOW_1_0",
+      "c": [
+        1157,
+        519,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_2_WINDOW_1_1",
+      "c": [
+        1157,
+        553,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_2_WINDOW_2_0",
+      "c": [
+        1157,
+        519,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_2_WINDOW_2_1",
+      "c": [
+        1157,
+        553,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_3_BODY",
+      "c": [
+        1231,
+        624,
+        2345.5
+      ],
+      "size": [
+        95,
+        60,
+        87
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_3_ROOF",
+      "c": [
+        1238,
+        624,
+        2395
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_3_WINDOW_0_0",
+      "c": [
+        1183,
+        607,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_3_WINDOW_0_1",
+      "c": [
+        1183,
+        641,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_3_WINDOW_1_0",
+      "c": [
+        1183,
+        607,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_3_WINDOW_1_1",
+      "c": [
+        1183,
+        641,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_3_WINDOW_2_0",
+      "c": [
+        1183,
+        607,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_3_WINDOW_2_1",
+      "c": [
+        1183,
+        641,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_4_BODY",
+      "c": [
+        1205,
+        712,
+        2334
+      ],
+      "size": [
+        95,
+        60,
+        64
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_4_ROOF",
+      "c": [
+        1212,
+        712,
+        2372
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_4_WINDOW_0_0",
+      "c": [
+        1157,
+        695,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_4_WINDOW_0_1",
+      "c": [
+        1157,
+        729,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_4_WINDOW_1_0",
+      "c": [
+        1157,
+        695,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_4_WINDOW_1_1",
+      "c": [
+        1157,
+        729,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_4_WINDOW_2_0",
+      "c": [
+        1157,
+        695,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_4_WINDOW_2_1",
+      "c": [
+        1157,
+        729,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_5_BODY",
+      "c": [
+        1231,
+        800,
+        2368.5
+      ],
+      "size": [
+        95,
+        60,
+        133
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_5_ROOF",
+      "c": [
+        1238,
+        800,
+        2441
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_5_WINDOW_0_0",
+      "c": [
+        1183,
+        783,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_5_WINDOW_0_1",
+      "c": [
+        1183,
+        817,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_5_WINDOW_1_0",
+      "c": [
+        1183,
+        783,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_5_WINDOW_1_1",
+      "c": [
+        1183,
+        817,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_5_WINDOW_2_0",
+      "c": [
+        1183,
+        783,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_5_WINDOW_2_1",
+      "c": [
+        1183,
+        817,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_6_BODY",
+      "c": [
+        1205,
+        888,
+        2357
+      ],
+      "size": [
+        95,
+        60,
+        110
+      ],
+      "material": "FACADE",
+      "role": "inhabited_building"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_6_ROOF",
+      "c": [
+        1212,
+        888,
+        2418
+      ],
+      "size": [
+        109,
+        68,
+        12
+      ],
+      "material": "VOID_EDGE",
+      "role": "roof"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_6_WINDOW_0_0",
+      "c": [
+        1157,
+        871,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_6_WINDOW_0_1",
+      "c": [
+        1157,
+        905,
+        2310
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_6_WINDOW_1_0",
+      "c": [
+        1157,
+        871,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_6_WINDOW_1_1",
+      "c": [
+        1157,
+        905,
+        2327
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_6_WINDOW_2_0",
+      "c": [
+        1157,
+        871,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_BLDG_1_6_WINDOW_2_1",
+      "c": [
+        1157,
+        905,
+        2344
+      ],
+      "size": [
+        3,
+        13,
+        8
+      ],
+      "material": "GLASS",
+      "role": "window"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_SOUTH_EDGE_0",
+      "c": [
+        815,
+        233,
+        2310
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_SOUTH_EDGE_1",
+      "c": [
+        897,
+        233,
+        2310
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_SOUTH_EDGE_2",
+      "c": [
+        979,
+        233,
+        2310
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_SOUTH_EDGE_3",
+      "c": [
+        1061,
+        233,
+        2310
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_SOUTH_EDGE_4",
+      "c": [
+        1143,
+        233,
+        2310
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_SOUTH_EDGE_5",
+      "c": [
+        1225,
+        233,
+        2310
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_SOUTH_EDGE_6",
+      "c": [
+        1307,
+        233,
+        2310
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "EAST_LIVING_TERRACE_SOUTH_EDGE_7",
+      "c": [
+        1389,
+        233,
+        2310
+      ],
+      "size": [
+        39,
+        10,
+        28
+      ],
+      "material": "VOID_EDGE",
+      "role": "city_parapet"
+    },
+    {
+      "type": "box",
+      "id": "P1_PUBLIC_APPROACH",
+      "c": [
+        -365,
+        -395,
+        688
+      ],
+      "size": [
+        175,
+        250,
+        25
+      ],
+      "material": "CIVIC",
+      "role": "pedestrian_approach"
+    },
+    {
+      "type": "box",
+      "id": "LOW_EAST_TRANSIT",
+      "c": [
+        15,
+        180,
+        694
+      ],
+      "size": [
+        150,
+        100,
+        20
+      ],
+      "material": "TRANSIT",
+      "role": "transport_platform"
+    },
+    {
+      "type": "box",
+      "id": "P2_WEST_TRANSIT",
+      "c": [
+        44,
+        230,
+        1520
+      ],
+      "size": [
+        120,
+        120,
+        24
+      ],
+      "material": "TRANSIT",
+      "role": "transport_platform"
+    },
+    {
+      "type": "box",
+      "id": "P2_EAST_TRANSIT",
+      "c": [
+        780,
+        320,
+        1520
+      ],
+      "size": [
+        105,
+        100,
+        24
+      ],
+      "material": "TRANSIT",
+      "role": "transport_platform"
+    },
+    {
+      "type": "box",
+      "id": "WEST_CITY_STATION",
+      "c": [
+        -710,
+        450,
+        1745
+      ],
+      "size": [
+        125,
+        100,
+        30
+      ],
+      "material": "TRANSIT",
+      "role": "transport_platform"
+    },
+    {
+      "type": "box",
+      "id": "EAST_CITY_STATION",
+      "c": [
+        750,
+        360,
+        2285
+      ],
+      "size": [
+        130,
+        105,
+        30
+      ],
+      "material": "TRANSIT",
+      "role": "transport_platform"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_COLUMN_-1_-1",
+      "c": [
+        -735,
+        432,
+        1190
+      ],
+      "size": [
+        14,
+        15,
+        1080
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_COLUMN_-1_1",
+      "c": [
+        -735,
+        508,
+        1190
+      ],
+      "size": [
+        14,
+        15,
+        1080
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_COLUMN_1_-1",
+      "c": [
+        -665,
+        432,
+        1190
+      ],
+      "size": [
+        14,
+        15,
+        1080
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_COLUMN_1_1",
+      "c": [
+        -665,
+        508,
+        1190
+      ],
+      "size": [
+        14,
+        15,
+        1080
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_650",
+      "c": [
+        -700,
+        470,
+        650
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_785",
+      "c": [
+        -700,
+        470,
+        785
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_920",
+      "c": [
+        -700,
+        470,
+        920
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_1055",
+      "c": [
+        -700,
+        470,
+        1055
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_1190",
+      "c": [
+        -700,
+        470,
+        1190
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_1325",
+      "c": [
+        -700,
+        470,
+        1325
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_1460",
+      "c": [
+        -700,
+        470,
+        1460
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_1595",
+      "c": [
+        -700,
+        470,
+        1595
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CROSS_BRACE_1730",
+      "c": [
+        -700,
+        470,
+        1730
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CAR_BOTTOM",
+      "c": [
+        -700,
+        470,
+        658
+      ],
+      "size": [
+        60,
+        72,
+        13
+      ],
+      "material": "GLASS",
+      "role": "station_lift_car"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_W_CAR_TOP",
+      "c": [
+        -700,
+        470,
+        1722
+      ],
+      "size": [
+        60,
+        72,
+        13
+      ],
+      "material": "GLASS",
+      "role": "station_lift_car"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_COLUMN_-1_-1",
+      "c": [
+        0,
+        197,
+        1112.5
+      ],
+      "size": [
+        14,
+        15,
+        855
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_COLUMN_-1_1",
+      "c": [
+        0,
+        273,
+        1112.5
+      ],
+      "size": [
+        14,
+        15,
+        855
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_COLUMN_1_-1",
+      "c": [
+        70,
+        197,
+        1112.5
+      ],
+      "size": [
+        14,
+        15,
+        855
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_COLUMN_1_1",
+      "c": [
+        70,
+        273,
+        1112.5
+      ],
+      "size": [
+        14,
+        15,
+        855
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CROSS_BRACE_685",
+      "c": [
+        35,
+        235,
+        685
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CROSS_BRACE_792",
+      "c": [
+        35,
+        235,
+        792
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CROSS_BRACE_899",
+      "c": [
+        35,
+        235,
+        899
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CROSS_BRACE_1006",
+      "c": [
+        35,
+        235,
+        1006
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CROSS_BRACE_1113",
+      "c": [
+        35,
+        235,
+        1113
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CROSS_BRACE_1220",
+      "c": [
+        35,
+        235,
+        1220
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CROSS_BRACE_1327",
+      "c": [
+        35,
+        235,
+        1327
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CROSS_BRACE_1434",
+      "c": [
+        35,
+        235,
+        1434
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CAR_BOTTOM",
+      "c": [
+        35,
+        235,
+        693
+      ],
+      "size": [
+        60,
+        72,
+        13
+      ],
+      "material": "GLASS",
+      "role": "station_lift_car"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_M_CAR_TOP",
+      "c": [
+        35,
+        235,
+        1532
+      ],
+      "size": [
+        60,
+        72,
+        13
+      ],
+      "material": "GLASS",
+      "role": "station_lift_car"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_COLUMN_-1_-1",
+      "c": [
+        760,
+        322,
+        1905
+      ],
+      "size": [
+        14,
+        15,
+        770
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_COLUMN_-1_1",
+      "c": [
+        760,
+        398,
+        1905
+      ],
+      "size": [
+        14,
+        15,
+        770
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_COLUMN_1_-1",
+      "c": [
+        830,
+        322,
+        1905
+      ],
+      "size": [
+        14,
+        15,
+        770
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_COLUMN_1_1",
+      "c": [
+        830,
+        398,
+        1905
+      ],
+      "size": [
+        14,
+        15,
+        770
+      ],
+      "material": "TRANSIT",
+      "role": "lift_shaft_support"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_1520",
+      "c": [
+        795,
+        360,
+        1520
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_1616",
+      "c": [
+        795,
+        360,
+        1616
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_1712",
+      "c": [
+        795,
+        360,
+        1712
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_1808",
+      "c": [
+        795,
+        360,
+        1808
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_1904",
+      "c": [
+        795,
+        360,
+        1904
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_2000",
+      "c": [
+        795,
+        360,
+        2000
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_2096",
+      "c": [
+        795,
+        360,
+        2096
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_2192",
+      "c": [
+        795,
+        360,
+        2192
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CROSS_BRACE_2288",
+      "c": [
+        795,
+        360,
+        2288
+      ],
+      "size": [
+        87,
+        89,
+        7
+      ],
+      "material": "TRANSIT",
+      "role": "vertical_transit_level"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CAR_BOTTOM",
+      "c": [
+        795,
+        360,
+        1528
+      ],
+      "size": [
+        60,
+        72,
+        13
+      ],
+      "material": "GLASS",
+      "role": "station_lift_car"
+    },
+    {
+      "type": "box",
+      "id": "LIFT_E_CAR_TOP",
+      "c": [
+        795,
+        360,
+        2282
+      ],
+      "size": [
+        60,
+        72,
+        13
+      ],
+      "material": "GLASS",
+      "role": "station_lift_car"
+    },
+    {
+      "type": "beam",
+      "id": "LOW_PUBLIC_BRIDGE",
+      "from": [
+        -50,
+        200,
+        708
+      ],
+      "to": [
+        -350,
+        200,
+        708
+      ],
+      "width": 31,
+      "material": "CIVIC",
+      "role": "public_corridor",
+      "length": 300
+    },
+    {
+      "type": "beam",
+      "id": "UPPER_PUBLIC_BRIDGE",
+      "from": [
+        115,
+        245,
+        1531
+      ],
+      "to": [
+        345,
+        245,
+        1531
+      ],
+      "width": 30,
+      "material": "CIVIC",
+      "role": "public_corridor",
+      "length": 230
+    },
+    {
+      "type": "beam",
+      "id": "EAST_STATION_BRIDGE",
+      "from": [
+        750,
+        360,
+        1535
+      ],
+      "to": [
+        610,
+        280,
+        1535
+      ],
+      "width": 27,
+      "material": "TRANSIT",
+      "role": "public_corridor",
+      "length": 161.24515496597098
+    },
+    {
+      "type": "beam",
+      "id": "WEST_CITY_STATION_BRIDGE",
+      "from": [
+        -690,
+        450,
+        1741
+      ],
+      "to": [
+        -850,
+        490,
+        1741
+      ],
+      "width": 29,
+      "material": "CIVIC",
+      "role": "public_corridor",
+      "length": 164.92422502470643
+    },
+    {
+      "type": "beam",
+      "id": "EAST_CITY_STATION_BRIDGE",
+      "from": [
+        820,
+        570,
+        2275
+      ],
+      "to": [
+        910,
+        590,
+        2275
+      ],
+      "width": 30,
+      "material": "CIVIC",
+      "role": "public_corridor",
+      "length": 92.19544457292888
+    },
+    {
+      "type": "beam",
+      "id": "LOW_WEST_EXIT",
+      "from": [
+        -425,
+        295,
+        715
+      ],
+      "to": [
+        -700,
+        465,
+        715
+      ],
+      "width": 35,
+      "material": "CIVIC",
+      "role": "public_corridor"
+    },
+    {
+      "type": "beam",
+      "id": "LOW_EAST_EXIT",
+      "from": [
+        -40,
+        185,
+        715
+      ],
+      "to": [
+        30,
+        215,
+        715
+      ],
+      "width": 32,
+      "material": "CIVIC",
+      "role": "public_corridor"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_ENTRY__LOWER_HALL_0",
+      "from": [
+        -370,
+        -405,
+        715
+      ],
+      "to": [
+        -370,
+        -50,
+        723
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_0",
+      "from": [
+        -370,
+        -50,
+        723
+      ],
+      "to": [
+        -185,
+        -70,
+        723
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 186.07794065928394
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_1",
+      "from": [
+        -185,
+        -70,
+        723
+      ],
+      "to": [
+        50,
+        170,
+        715
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 335.98958317185964
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL_0",
+      "from": [
+        35,
+        230,
+        1525
+      ],
+      "to": [
+        410,
+        135,
+        1544
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_UPPER_HALL__EAST_TRANSIT_LOWER_0",
+      "from": [
+        410,
+        135,
+        1544
+      ],
+      "to": [
+        795,
+        360,
+        1544
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_EAST_TRANSIT_UPPER__EAST_LIVING_CITY_0",
+      "from": [
+        795,
+        360,
+        2288
+      ],
+      "to": [
+        1080,
+        650,
+        2302
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_0",
+      "from": [
+        -370,
+        -50,
+        723
+      ],
+      "to": [
+        -545,
+        -58,
+        723
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 175.18276170902203
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_1",
+      "from": [
+        -545,
+        -58,
+        723
+      ],
+      "to": [
+        -545,
+        245,
+        715
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 303.10559216220344
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_0",
+      "from": [
+        -700,
+        465,
+        1746
+      ],
+      "to": [
+        -835,
+        580,
+        1752
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 177.4429485778457
+    },
+    {
+      "type": "box",
+      "id": "LANDING_LOWER_ENTRY",
+      "c": [
+        -370,
+        -405,
+        707
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_LOWER_HALL",
+      "c": [
+        -370,
+        -50,
+        715
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_LOWER_TRANSIT",
+      "c": [
+        20,
+        220,
+        707
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_UPPER_TRANSIT",
+      "c": [
+        35,
+        230,
+        1517
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_UPPER_HALL",
+      "c": [
+        410,
+        135,
+        1536
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_EAST_TRANSIT_LOWER",
+      "c": [
+        795,
+        360,
+        1536
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_EAST_TRANSIT_UPPER",
+      "c": [
+        795,
+        360,
+        2280
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_EAST_LIVING_CITY",
+      "c": [
+        1080,
+        650,
+        2294
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_WEST_TRANSIT_LOWER",
+      "c": [
+        -700,
+        465,
+        694
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_WEST_TRANSIT_UPPER",
+      "c": [
+        -700,
+        465,
+        1738
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "TRANSIT",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "box",
+      "id": "LANDING_WEST_LIVING_CITY",
+      "c": [
+        -1030,
+        560,
+        1752
+      ],
+      "size": [
+        46,
+        46,
+        11
+      ],
+      "material": "CIVIC",
+      "role": "walkable_node_landing"
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_2",
+      "from": [
+        50,
+        170,
+        715
+      ],
+      "to": [
+        95,
+        170,
+        715
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 45
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_3",
+      "from": [
+        95,
+        170,
+        715
+      ],
+      "to": [
+        95,
+        240,
+        715
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 70
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_4",
+      "from": [
+        95,
+        240,
+        715
+      ],
+      "to": [
+        20,
+        220,
+        715
+      ],
+      "width": 25,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 77.62087348130012
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_2",
+      "from": [
+        -545,
+        245,
+        715
+      ],
+      "to": [
+        -420,
+        245,
+        715
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 125
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_3",
+      "from": [
+        -420,
+        245,
+        715
+      ],
+      "to": [
+        -420,
+        320,
+        715
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 75
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_4",
+      "from": [
+        -420,
+        320,
+        715
+      ],
+      "to": [
+        -700,
+        465,
+        702
+      ],
+      "width": 25,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 315.5851707542672
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_1",
+      "from": [
+        -835,
+        580,
+        1752
+      ],
+      "to": [
+        -1040,
+        580,
+        1760
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 205.1560381758236
+    },
+    {
+      "type": "beam",
+      "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_2",
+      "from": [
+        -1040,
+        580,
+        1760
+      ],
+      "to": [
+        -1030,
+        560,
+        1760
+      ],
+      "width": 20,
+      "material": "CIVIC",
+      "role": "walkable_public_connection",
+      "length": 22.360679774997898
+    }
+  ],
+  "route": {
+    "nodes": [
+      {
+        "id": "LOWER_ENTRY",
+        "p": [
+          -370,
+          -405,
+          715
+        ],
+        "kind": "entrance"
+      },
+      {
+        "id": "LOWER_HALL",
+        "p": [
+          -370,
+          -50,
+          723
+        ],
+        "kind": "public_hall"
+      },
+      {
+        "id": "LOWER_TRANSIT",
+        "p": [
+          20,
+          220,
+          715
+        ],
+        "kind": "lift_landing"
+      },
+      {
+        "id": "UPPER_TRANSIT",
+        "p": [
+          35,
+          230,
+          1525
+        ],
+        "kind": "lift_landing"
+      },
+      {
+        "id": "UPPER_HALL",
+        "p": [
+          410,
+          135,
+          1544
+        ],
+        "kind": "public_hall"
+      },
+      {
+        "id": "EAST_TRANSIT_LOWER",
+        "p": [
+          795,
+          360,
+          1544
+        ],
+        "kind": "lift_landing"
+      },
+      {
+        "id": "EAST_TRANSIT_UPPER",
+        "p": [
+          795,
+          360,
+          2288
+        ],
+        "kind": "lift_landing"
+      },
+      {
+        "id": "EAST_LIVING_CITY",
+        "p": [
+          1080,
+          650,
+          2302
+        ],
+        "kind": "inhabited_city"
+      },
+      {
+        "id": "WEST_TRANSIT_LOWER",
+        "p": [
+          -700,
+          465,
+          702
+        ],
+        "kind": "lift_landing"
+      },
+      {
+        "id": "WEST_TRANSIT_UPPER",
+        "p": [
+          -700,
+          465,
+          1746
+        ],
+        "kind": "lift_landing"
+      },
+      {
+        "id": "WEST_LIVING_CITY",
+        "p": [
+          -1030,
+          560,
+          1760
+        ],
+        "kind": "inhabited_city"
+      }
+    ],
+    "edges": [
+      {
+        "from": "LOWER_ENTRY",
+        "to": "LOWER_HALL",
+        "mode": "walk",
+        "geometry": "WALK_DECK_LOWER_ENTRY__LOWER_HALL"
+      },
+      {
+        "from": "LOWER_HALL",
+        "to": "LOWER_TRANSIT",
+        "mode": "walk",
+        "geometry": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT",
+        "via": [
+          [
+            -185,
+            -70,
+            723
+          ],
+          [
+            50,
+            170,
+            715
+          ],
+          [
+            95,
+            170,
+            715
+          ],
+          [
+            95,
+            240,
+            715
+          ]
+        ],
+        "foot_elevation_reference": "beam_top_is_route_center_z_plus_6m_not_node_center_height",
+        "status": "J5_CANDIDATE_UNVERIFIED_REAL_WALKABILITY"
+      },
+      {
+        "from": "LOWER_TRANSIT",
+        "to": "UPPER_TRANSIT",
+        "mode": "elevator",
+        "geometry": "LIFT_M"
+      },
+      {
+        "from": "UPPER_TRANSIT",
+        "to": "UPPER_HALL",
+        "mode": "walk",
+        "geometry": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL"
+      },
+      {
+        "from": "UPPER_HALL",
+        "to": "EAST_TRANSIT_LOWER",
+        "mode": "walk",
+        "geometry": "WALK_DECK_UPPER_HALL__EAST_TRANSIT_LOWER"
+      },
+      {
+        "from": "EAST_TRANSIT_LOWER",
+        "to": "EAST_TRANSIT_UPPER",
+        "mode": "elevator",
+        "geometry": "LIFT_E"
+      },
+      {
+        "from": "EAST_TRANSIT_UPPER",
+        "to": "EAST_LIVING_CITY",
+        "mode": "walk",
+        "geometry": "WALK_DECK_EAST_TRANSIT_UPPER__EAST_LIVING_CITY"
+      },
+      {
+        "from": "LOWER_HALL",
+        "to": "WEST_TRANSIT_LOWER",
+        "mode": "walk",
+        "geometry": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER",
+        "via": [
+          [
+            -545,
+            -58,
+            723
+          ],
+          [
+            -545,
+            245,
+            715
+          ],
+          [
+            -420,
+            245,
+            715
+          ],
+          [
+            -420,
+            320,
+            715
+          ]
+        ],
+        "foot_elevation_reference": "beam_top_is_route_center_z_plus_6m_not_node_center_height",
+        "status": "J5_CANDIDATE_UNVERIFIED_REAL_WALKABILITY"
+      },
+      {
+        "from": "WEST_TRANSIT_LOWER",
+        "to": "WEST_TRANSIT_UPPER",
+        "mode": "elevator",
+        "geometry": "LIFT_W"
+      },
+      {
+        "from": "WEST_TRANSIT_UPPER",
+        "to": "WEST_LIVING_CITY",
+        "mode": "walk",
+        "geometry": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY",
+        "via": [
+          [
+            -835,
+            580,
+            1752
+          ],
+          [
+            -1040,
+            580,
+            1760
+          ]
+        ],
+        "foot_elevation_reference": "beam_top_is_route_center_z_plus_6m_not_node_center_height",
+        "status": "J5_CANDIDATE_UNVERIFIED_REAL_WALKABILITY"
+      }
+    ]
+  },
+  "materials": {
+    "CITY": "#9dbabf",
+    "CIVIC": "#d9d6c8",
+    "VOID_EDGE": "#f6dcb5",
+    "TRANSIT": "#e6b470",
+    "STRUCTURE": "#566d78",
+    "FACADE": "#879eb4",
+    "GLASS": "#426f83",
+    "GREEN": "#84a69a",
+    "BASE": "#344f5f",
+    "GROUND": "#5b716a"
+  },
+  "evidence_status": "EXPERIMENTAL_REAL_MESH",
+  "completion": "INCOMPLETE",
+  "construction": "HOLD",
+  "revision": "junction.J5_local_3_route_change",
+  "j5_meta": {
+    "origin_ref": "research/m3d1s-j4-mesh-space-audit-20261024",
+    "source_sha": "2a2b03adde37035ded7d4fa2309540419ff0a6ce",
+    "obj_sha": "c9084ad3678986c1c05390b3a31fcd393644155b",
+    "changed_existing_object_ids": [
+      "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_0",
+      "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_1",
+      "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_0",
+      "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_1",
+      "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_0"
+    ],
+    "added_object_ids": [
+      "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_2",
+      "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_3",
+      "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_4",
+      "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_2",
+      "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_3",
+      "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_4",
+      "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_1",
+      "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_2"
+    ],
+    "untouched_source_objects": 418,
+    "changed_route_edges": [
+      "LOWER_HALL__LOWER_TRANSIT",
+      "LOWER_HALL__WEST_TRANSIT_LOWER",
+      "WEST_TRANSIT_UPPER__WEST_LIVING_CITY"
+    ],
+    "do_not_claim": "art approval or full walking path certification",
+    "original_models_modified": false
+  }
+}
