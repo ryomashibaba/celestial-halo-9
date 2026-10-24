@@ -1,0 +1,427 @@
+{
+  "schema": "m3d1s.j6.full_width_box_probe.v1",
+  "date_jst": "2026-10-24",
+  "scope": "J5 2m cross-section full deck width+0.5m +1m longitudinal padding oriented SAT for AXIS-ALIGNED BOX only",
+  "before": {
+    "LOWER_ENTRY__LOWER_HALL": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_LOWER_ENTRY__LOWER_HALL_0",
+          "length_m": 355.09,
+          "grade_percent": 2.254,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "LOWER_HALL__LOWER_TRANSIT": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_0",
+          "length_m": 186.08,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_1",
+          "length_m": 335.99,
+          "grade_percent": 2.382,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_2",
+          "length_m": 45,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_3",
+          "length_m": 70,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_4",
+          "length_m": 77.62,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "UPPER_TRANSIT__UPPER_HALL": {
+      "events": 33,
+      "segments": [
+        {
+          "id": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL_0",
+          "length_m": 387.31,
+          "grade_percent": 4.912,
+          "events": 33,
+          "part_ids": [
+            "P2_AUDIENCE_STEP_0"
+          ]
+        }
+      ]
+    },
+    "UPPER_HALL__EAST_TRANSIT_LOWER": {
+      "events": 10,
+      "segments": [
+        {
+          "id": "WALK_DECK_UPPER_HALL__EAST_TRANSIT_LOWER_0",
+          "length_m": 445.93,
+          "grade_percent": 0,
+          "events": 10,
+          "part_ids": [
+            "LIFT_E_COLUMN_-1_-1",
+            "P2_EAST_WALL_NORTH"
+          ]
+        }
+      ]
+    },
+    "EAST_TRANSIT_UPPER__EAST_LIVING_CITY": {
+      "events": 57,
+      "segments": [
+        {
+          "id": "WALK_DECK_EAST_TRANSIT_UPPER__EAST_LIVING_CITY_0",
+          "length_m": 406.84,
+          "grade_percent": 3.443,
+          "events": 57,
+          "part_ids": [
+            "EAST_LIVING_TERRACE_BLDG_-1_1_BODY",
+            "EAST_LIVING_TERRACE_BLDG_-1_2_BODY",
+            "EAST_LIVING_TERRACE_BLDG_-1_3_BODY",
+            "EAST_LIVING_TERRACE_BLDG_-1_3_WINDOW_0_0"
+          ]
+        }
+      ]
+    },
+    "LOWER_HALL__WEST_TRANSIT_LOWER": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_0",
+          "length_m": 175.18,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_1",
+          "length_m": 303.11,
+          "grade_percent": 2.64,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_2",
+          "length_m": 125,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_3",
+          "length_m": 75,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_4",
+          "length_m": 284.6,
+          "grade_percent": 3.516,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_5",
+          "length_m": 95.05,
+          "grade_percent": 3.158,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "WEST_TRANSIT_UPPER__WEST_LIVING_CITY": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_0",
+          "length_m": 177.44,
+          "grade_percent": 3.383,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_1",
+          "length_m": 205.16,
+          "grade_percent": 3.902,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_2",
+          "length_m": 22.36,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    }
+  },
+  "after": {
+    "LOWER_ENTRY__LOWER_HALL": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_LOWER_ENTRY__LOWER_HALL_0",
+          "length_m": 355.09,
+          "grade_percent": 2.254,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "LOWER_HALL__LOWER_TRANSIT": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_0",
+          "length_m": 186.08,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_1",
+          "length_m": 335.99,
+          "grade_percent": 2.382,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_2",
+          "length_m": 45,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_3",
+          "length_m": 70,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_4",
+          "length_m": 77.62,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "UPPER_TRANSIT__UPPER_HALL": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL_0",
+          "length_m": 90.28,
+          "grade_percent": 5.547,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL_1",
+          "length_m": 121,
+          "grade_percent": 3.308,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL_2",
+          "length_m": 120.15,
+          "grade_percent": 5,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_UPPER_TRANSIT__UPPER_HALL_3",
+          "length_m": 258.1,
+          "grade_percent": 1.55,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "UPPER_HALL__EAST_TRANSIT_LOWER": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_UPPER_HALL__EAST_TRANSIT_LOWER_0",
+          "length_m": 407.98,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_UPPER_HALL__EAST_TRANSIT_LOWER_1",
+          "length_m": 90,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "EAST_TRANSIT_UPPER__EAST_LIVING_CITY": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_EAST_TRANSIT_UPPER__EAST_LIVING_CITY_0",
+          "length_m": 112.38,
+          "grade_percent": 1.78,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_EAST_TRANSIT_UPPER__EAST_LIVING_CITY_1",
+          "length_m": 190.13,
+          "grade_percent": 3.684,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_EAST_TRANSIT_UPPER__EAST_LIVING_CITY_2",
+          "length_m": 350.04,
+          "grade_percent": 1.429,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "LOWER_HALL__WEST_TRANSIT_LOWER": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_0",
+          "length_m": 175.18,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_1",
+          "length_m": 303.11,
+          "grade_percent": 2.64,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_2",
+          "length_m": 125,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_3",
+          "length_m": 75,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_4",
+          "length_m": 284.6,
+          "grade_percent": 3.516,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_5",
+          "length_m": 95.05,
+          "grade_percent": 3.158,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    },
+    "WEST_TRANSIT_UPPER__WEST_LIVING_CITY": {
+      "events": 0,
+      "segments": [
+        {
+          "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_0",
+          "length_m": 177.44,
+          "grade_percent": 3.383,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_1",
+          "length_m": 205.16,
+          "grade_percent": 3.902,
+          "events": 0,
+          "part_ids": []
+        },
+        {
+          "id": "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_2",
+          "length_m": 22.36,
+          "grade_percent": 0,
+          "events": 0,
+          "part_ids": []
+        }
+      ]
+    }
+  },
+  "summary": {
+    "old_events": 100,
+    "new_events": 0,
+    "parts": 444,
+    "vertices": 3552,
+    "triangles": 5328,
+    "existing_unchanged": 429,
+    "edited_old_decks": 3,
+    "new_decks": 6,
+    "corner_pads": 6,
+    "pad_existing_box_overlaps": 0
+  },
+  "padHits": [
+    {
+      "id": "J6_ROUTE_PAD_UPPER_TRANSIT__UPPER_HALL_1",
+      "hits": []
+    },
+    {
+      "id": "J6_ROUTE_PAD_UPPER_TRANSIT__UPPER_HALL_2",
+      "hits": []
+    },
+    {
+      "id": "J6_ROUTE_PAD_UPPER_TRANSIT__UPPER_HALL_3",
+      "hits": []
+    },
+    {
+      "id": "J6_ROUTE_PAD_UPPER_HALL__EAST_TRANSIT_LOWER_1",
+      "hits": []
+    },
+    {
+      "id": "J6_ROUTE_PAD_EAST_TRANSIT_UPPER__EAST_LIVING_CITY_1",
+      "hits": []
+    },
+    {
+      "id": "J6_ROUTE_PAD_EAST_TRANSIT_UPPER__EAST_LIVING_CITY_2",
+      "hits": []
+    }
+  ],
+  "limitations": [
+    "0 BOX events is not real walkability",
+    "Only overhead 3m space from beam centre+6.25m is checked; no floor seam or pad grade evidence",
+    "Surface support, slopes, turns, wheelchair access, lifter boarding, taper triangles and full public room volumes unverified",
+    "Not Blender reimported, not accepted art, not canonical Minecraft geometry"
+  ]
+}

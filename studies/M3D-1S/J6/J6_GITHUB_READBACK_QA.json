@@ -1,0 +1,44 @@
+{
+  "schema": "m3d1s.j6.github_readback.v1",
+  "date_jst": "2026-10-24",
+  "research_branch": "research/m3d1s-j6-upper-east-route-proof-20261024",
+  "source": {
+    "path": "studies/M3D-1S/J6/junction_J6_source.json",
+    "blob_sha": "97dff44f49477927fbe8c1caace2aab61b8c4a63",
+    "objects": 444
+  },
+  "obj": {
+    "path": "studies/M3D-1S/J6/M3D1S_J6_UPPER_EAST.obj",
+    "blob_sha": "b0e37cf475d0c75c5eb9a1c497a205b720d1ea42",
+    "objects": 444,
+    "vertices": 3552,
+    "triangles": 5328
+  },
+  "glb": {
+    "path": "studies/M3D-1S/J6/M3D1S_J6_UPPER_EAST.glb",
+    "blob_sha": "8643e7744c63f17d6cf9f191630e6e64f015bfd8",
+    "bytes": 300240,
+    "nodes": 444,
+    "meshes": 444,
+    "materials": 10,
+    "buffer_bytes": 73728,
+    "version": "2.0",
+    "vertices_vs_OBJ_error_over_0_00015m": 0,
+    "unchanged_original_mesh_binary_verified": true
+  },
+  "box_audit": {
+    "path": "studies/M3D-1S/J6/J6_FULL_WIDTH_BOX_QA.json",
+    "blob_sha": "63fe0d60def4c311c4a97b5ebaa6ad0b5b86af98",
+    "j5_events": 100,
+    "j6_events": 0,
+    "method": "J5 full width BOX SAT"
+  },
+  "status": "LIMITED_BINARY_AND_GEOMETRY_READBACK_PASS",
+  "not_verified": [
+    "Blender/Unreal GUI import",
+    "Complete human walkability",
+    "Corner pads slope seams and support",
+    "Public room full interior volume",
+    "Architectural art quality"
+  ]
+}
