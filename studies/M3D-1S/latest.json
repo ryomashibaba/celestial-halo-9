@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R0",
+  "research_id": "M3D-1S/J7-R1",
   "date_jst": "2026-10-24",
-  "status": "J7_R0_ART_STOP_AND_MEASURED_BASELINE__ACTUAL_BLENDER_REVIEW_PENDING",
-  "research_branch": "research/m3d1s-j7-artfirst-civic-rift-section-20261024",
+  "status": "J7_R1_REAL_GLTF_8_VIEW_ART_REJECT__METHOD_SWITCH_PENDING",
+  "research_branch": "research/m3d1s-j7-r1-realglb-art-reject-20261024",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "NO_WORK_OR_BLENDER_GUI__GITHUB_ART_GATE_ONLY",
+  "work_status": "CHAT_EXECUTION_ENV_REAL_GLTF_RENDER__NO_BLENDER_GUI_OR_WORK",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -127,7 +127,23 @@
       "blender_review": "NOT_EXECUTED",
       "new_art_glb": "NOT_CREATED",
       "construction": "HOLD",
-      "central_art_accepted": 0
+      "central_art_accepted": 0,
+      "r1": {
+        "status": "REAL_GLTF_8_VIEW_SUCCESS__ART_REJECT",
+        "report": "studies/M3D-1S/J7/R1/J7_R1_REPORT_JA.md",
+        "measured": "studies/M3D-1S/J7/R1/J7_R1_MEASURED_MANIFEST.json",
+        "local_artifact_model_sha256": "de943760c8221c80469b7cac6fa070f4cc0d8feb806783af7baf23372713092a",
+        "glb_bytes": 1933880,
+        "objects": 3085,
+        "source_vertices": 29234,
+        "triangles": 46200,
+        "visual_views": 8,
+        "glb_reimport": "TRIMESH_PASS",
+        "github_model_binary": "NOT_UPLOADED_CONVERSATION_ATTACHMENT_ONLY",
+        "github_multiview_images": "NOT_UPLOADED_CONVERSATION_ATTACHMENT_ONLY",
+        "artistic_judgement": "REJECT",
+        "construction": "HOLD"
+      }
     }
   },
   "missing": [
@@ -149,9 +165,11 @@
     "ACTUAL_J6_BLENDER_IMPORT",
     "J7_REAL_BLENDER_EIGHT_VIEW_RENDER",
     "J7_NEW_MACRO_3D_WITH_OCCUPIABLE_CIVIC_VOID",
-    "VISUAL_ART_APPROVAL"
+    "VISUAL_ART_APPROVAL",
+    "J7_R1_GITHUB_BINARY_PERSISTENCE",
+    "J7_R2_TRUE_DIRECT_VISUAL_MODELING"
   ],
-  "next_gate": "J7-R1: real Blender multiview J6 art baseline, then produce genuinely integrated full-scale inhabited-city massing with cutaway; reject another boxed/loft shell if artistic quality fails",
+  "next_gate": "J7-R2: visually directed Blender 3D editing of integrated primary city mass and civic void; stop multiplying slab/box procedural fragments; GitHub binary persistence still missing",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "PYTHON_SOURCE_CREATED_NOT_YET_EXECUTED_IN_USER_BLENDER",
   "art_review": "NOT_ACCEPTED"
