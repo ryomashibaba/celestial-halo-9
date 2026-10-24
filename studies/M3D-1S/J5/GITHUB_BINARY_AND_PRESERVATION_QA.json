@@ -1,0 +1,45 @@
+{
+  "schema": "m3d1s.j5.github_readback.v1",
+  "origin": "GitHub fetch_file from J5 research branch",
+  "preservation": {
+    "objects": 431,
+    "vertices": 3448,
+    "triangles": 5172,
+    "preserved": 418,
+    "changed_existing": [
+      "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_0",
+      "WALK_DECK_LOWER_HALL__LOWER_TRANSIT_1",
+      "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_0",
+      "WALK_DECK_LOWER_HALL__WEST_TRANSIT_LOWER_1",
+      "WALK_DECK_WEST_TRANSIT_UPPER__WEST_LIVING_CITY_0"
+    ],
+    "new_objects": 8,
+    "source_names_match": true,
+    "obj_indices_valid": true
+  },
+  "glb": {
+    "blob_sha": "cb2b4706427235c7da38cc94a824dd921c14850c",
+    "bytes": 293824,
+    "header_valid": true,
+    "chunk_bounds_end": 293824,
+    "mesh": {
+      "nodes": 431,
+      "meshes": 431,
+      "vertices": 3448,
+      "triangles": 5172,
+      "index_errors": 0
+    },
+    "asset": {
+      "version": "2.0",
+      "generator": "HALO9 M3D-1S J5 OBJ->GLB independent research export"
+    },
+    "consistency": true
+  },
+  "previous_audit_caveat": "J4 direct-node straight-line probes ignored actual J3 deck waypoints; J5 compares actual segmented geometry.",
+  "observed_problems": [
+    "Full collision volumes not tested",
+    "headroom only proposed on nominal deck surface",
+    "actual supports/ramp slopes not proven",
+    "Blender real render and art review not done"
+  ]
+}
