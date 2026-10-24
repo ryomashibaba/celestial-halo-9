@@ -1,0 +1,55 @@
+name: J7-R7 actual Blender graphical viewport editing experiment
+on:
+  push:
+    branches: [research/m3d1s-j7-r7-real-blender-viewport-gui-probe-20261024]
+    paths:
+      - .github/workflows/halo9-j7-r7-real-blender-gui.yml
+      - studies/M3D-1S/J7/R7/prepare_gui_scene.py
+      - studies/M3D-1S/J7/R7/verify_gui_mesh_change.py
+      - studies/M3D-1S/J7/R7/run_gui_edit.sh
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-blender-x11-gui-edit:
+    name: Real Blender UI viewport keyboard edit plus PNG and mesh proof
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout isolated research branch
+        uses: actions/checkout@v4
+      - name: Install actual Blender GUI, xdotool and framebuffer screen capture
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
+            blender xvfb xdotool scrot python3-numpy libgl1-mesa-dri
+          blender --version | head -2
+      - name: Drive actual Blender GUI and verify real saved geometry change
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          rm -rf studies/M3D-1S/J7/R7/outputs
+          mkdir -p studies/M3D-1S/J7/R7/outputs
+          xvfb-run -a -s "-screen 0 1440x900x24" bash studies/M3D-1S/J7/R7/run_gui_edit.sh
+          test -s studies/M3D-1S/J7/R7/outputs/J7R7_AFTER_REAL_GUI_EDIT.blend
+          test -s studies/M3D-1S/J7/R7/outputs/01_REAL_GUI_BEFORE.png
+          test -s studies/M3D-1S/J7/R7/outputs/02_REAL_GUI_AFTER.png
+          test -s studies/M3D-1S/J7/R7/outputs/J7R7_GUI_EDITED_ACTUAL_MODEL.glb
+          test -s studies/M3D-1S/J7/R7/outputs/J7R7_REAL_GUI_EXECUTION_PROOF.json
+      - name: Upload immutable proof, including failure logs if available
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: halo9-j7r7-real-desktop-blender-gui-proof
+          path: studies/M3D-1S/J7/R7/outputs
+          if-no-files-found: warn
+      - name: Commit proof only onto isolated research branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R7/outputs/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "[skip ci] J7-R7: actual X11 Blender interactive GUI viewport mesh edit evidence"
+          git push origin HEAD:research/m3d1s-j7-r7-real-blender-viewport-gui-probe-20261024
