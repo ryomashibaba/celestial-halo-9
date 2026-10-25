@@ -56,7 +56,12 @@
   "actual_minecraft_saves_accessed": false,
   "foreground_computer_use": false,
   "auto_merge": false,
-  "github_delivery": "PENDING",
-  "draft_pr": null,
-  "artifact_commit": null
+  "github_delivery": "COMPLETE",
+  "draft_pr": 54,
+  "artifact_commit": "e8c7ae4bfedbdecc0398a50ac56fac253c1df064",
+  "pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/54",
+  "github_readback": "qa/GITHUB_READBACK.json",
+  "github_readback_files": 77,
+  "github_readback_bytes": 41436605,
+  "github_all_bytes_match": true
 }
