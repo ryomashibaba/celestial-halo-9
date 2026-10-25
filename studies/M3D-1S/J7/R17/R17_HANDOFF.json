@@ -147,5 +147,12 @@
     "Formal art adoption"
   ],
   "next_priority": "Replace shell-and-shelf grammar itself with individually authored district terrains and civic sections in the shared km-scale composition. Do not detail or adopt this rejected main form.",
-  "github_delivery": "ARTIFACTS_READY_FOR_NEW_BRANCH_PUSH_AND_DRAFT_PR"
+  "github_delivery": "PUSHED_NEW_DRAFT_PR_ALL_ARTIFACT_FILES_HTTPS_READBACK_MATCH",
+  "draft_pr": 49,
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/49",
+  "artifact_commit": "58d72ba6715954c50ceb6d149a91b419361ac28c",
+  "remote_checked_files": 109,
+  "remote_checked_bytes": 73914705,
+  "remote_all_hashes_match": true,
+  "branch_head": "Resolve from Draft PR head; artifact bytes pinned by artifact_commit"
 }

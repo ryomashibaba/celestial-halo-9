@@ -25,5 +25,8 @@
     "path": "studies/M3D-1S/latest.json",
     "research_id": "M3D-1S/J7-R16"
   },
-  "next_priority": "Replace shell-and-shelf grammar itself with individually authored district terrains and civic sections in the shared km-scale composition. Do not detail or adopt this rejected main form."
+  "next_priority": "Replace shell-and-shelf grammar itself with individually authored district terrains and civic sections in the shared km-scale composition. Do not detail or adopt this rejected main form.",
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/49",
+  "artifact_commit": "58d72ba6715954c50ceb6d149a91b419361ac28c",
+  "github_readback_all_files_match": true
 }

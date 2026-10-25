@@ -111,3 +111,7 @@ Blender 5.2.1 LTSのMCP接続を読取り確認したが、旧プロトコルだ
 再現用スクリプト：`atelier.py`、`explore.py`、`sculpt_c.py`、`revise.py`。内部と縮尺比較：`spatial_review.py`、`find_interior_views.py`。独立QA：`verify_and_section.py`。オフライン確認：`python -B -X utf8 studies/M3D-1S/J7/R17/package_evidence.py`。モデル再制作は出力を上書きするため、別コピーで行う。過去研究やarchives/handoff/upstreamで実行しない。
 
 主要モデル：[BLEND](revision_2/R17_REVISION_2.blend) / [GLB](revision_2/R17_REVISION_2.glb)。機械引継ぎ：[R17_HANDOFF.json](R17_HANDOFF.json)。全モデル・画像ハッシュ：[MODEL_IMAGE_MANIFEST.json](qa/MODEL_IMAGE_MANIFEST.json)。新規Draft PR・成果固定コミット・GitHub再取得照合は納品記録追記で示す。既存PR #48およびmainは変更しない。
+
+## GitHub納品記録
+
+新規[Draft PR #49](https://github.com/ryomashibaba/celestial-halo-9/pull/49)。baseはR16、既存PR #48・mainは変更なし。成果固定コミット `58d72ba6715954c50ceb6d149a91b419361ac28c`。そのコミットからR17全ファイルとlatest.jsonの **109ファイル・73,914,705 bytes** を独立HTTPSで再取得し、全サイズ・SHA256が一致。記録は `qa/GITHUB_READBACK.json`、納品識別は `qa/GITHUB_DELIVERY.json`。納品メタデータは後続コミットで追加するため、最新HEADはPRのheadを参照。再取得成功はART REJECTを変更しない。

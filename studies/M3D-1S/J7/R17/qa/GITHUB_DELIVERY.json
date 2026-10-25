@@ -1,0 +1,18 @@
+{
+  "artifact_commit": "58d72ba6715954c50ceb6d149a91b419361ac28c",
+  "draft_pr": 49,
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/49",
+  "branch": "research/m3d1s-j7-r17-grand-central-blender-20261025",
+  "base": "research/m3d1s-j7-r16-grand-central-art-reset-20261025",
+  "base_head": "0eed6bed7072ceb0782341dad9b50daef523286e",
+  "remote_checked_files": 109,
+  "remote_checked_bytes": 73914705,
+  "remote_all_hashes_match": true,
+  "readback": "qa/GITHUB_READBACK.json",
+  "art": "ART_REJECT",
+  "construction": "HOLD",
+  "formal_art_adopted": 0,
+  "main_changed": false,
+  "existing_pr_48_changed": false,
+  "note": "Artifact bytes are pinned to artifact_commit. Delivery metadata follows in a later commit; latest branch HEAD is available from Draft PR head. No merge or canonical adoption."
+}
