@@ -28,7 +28,7 @@ AXES = {
 AREA_THRESH_M2 = 100.0 # remove rail/detail triangles from diagnostic maps ONLY
 
 
-def spatial_metrics(scene):
+def spatial_metrics(scene, gltf_y_up=True):
     counts = collections.Counter()
     surface_buckets = collections.defaultdict(float)
     area_records = []
@@ -46,6 +46,10 @@ def spatial_metrics(scene):
         if not isinstance(mesh, trimesh.Trimesh) or len(mesh.vertices) == 0 or len(mesh.faces) == 0:
             continue
         vertices = trimesh.transform_points(np.asarray(mesh.vertices, dtype=float), matrix)
+        # GLTF Y-up (x,y,z) maps back to Blender Z-up (x,-z,y).
+        # Omitting this step swaps original Blender Y and Z spans.
+        if gltf_y_up:
+            vertices = np.column_stack((vertices[:, 0], -vertices[:, 2], vertices[:, 1]))
         faces = np.asarray(mesh.faces, dtype=int)
         if not np.isfinite(vertices).all():
             bad += 1
@@ -159,7 +163,7 @@ def test_geometry():
     box=trimesh.creation.box(extents=[10,20,30])
     sc=trimesh.Scene()
     sc.add_geometry(box,node_name="synthetic_baseline_box")
-    metrics, grid=spatial_metrics(sc)
+    metrics, grid=spatial_metrics(sc,gltf_y_up=False)
     assert metrics["objects_examined"]==1,metrics
     assert metrics["triangles_examined"]==12,metrics
     assert [round(x) for x in metrics["model_span_xyz_m"]]==[10,20,30],metrics
@@ -204,6 +208,17 @@ def main():
         if not isinstance(sc,trimesh.Scene):
             raise RuntimeError("Unexpected scene type")
         result, g=spatial_metrics(sc)
+        # Independently ground GLB world-space dimensions in original Blender
+        # measurement receipts, not merely model-output self-consistency.
+        original=json.loads((args.r11 / rel.split("/")[0] / "measured.json").read_text(encoding="utf-8"))
+        source_span=np.array(original["span_m"],dtype=float)
+        glb_span=np.array(result["model_span_xyz_m"],dtype=float)
+        dim_error=float(np.max(np.abs(source_span-glb_span)))
+        result["blender_reference_extent_m"]=source_span.tolist()
+        result["GLB_blender_Zup_bounds_max_span_delta_m"]=round(dim_error,4)
+        result["basis_conversion"]="trimesh Y-up -> Blender Z-up: [x,-z,y]"
+        if dim_error>0.05:
+            raise RuntimeError("GLB axis conversion/bounds disagrees with Blender readback: "+name+" "+str((glb_span,source_span,dim_error)))
         if result["invalid_vertex_objects"]:
             raise RuntimeError("Bad vertices in "+name)
         result["glb_bytes"]=path.stat().st_size
