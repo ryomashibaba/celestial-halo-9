@@ -11,5 +11,11 @@
   "stage_two_started": false,
   "main_merge": false,
   "actual_minecraft_saves_accessed": false,
-  "foreground_computer_use": false
+  "foreground_computer_use": false,
+  "delivery_metadata_verified_commit": "539ae98689a671f7801ef3e46a2fbf15022423e9",
+  "delivery_metadata_files": 3,
+  "delivery_metadata_all_match": true,
+  "delta_readback": "GITHUB_DELTA_READBACK.json",
+  "remote_main_unchanged": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "remote_r21_unchanged": "628abb8d80e3e39a9bad6dd5fe7dec7556a0bcd9"
 }
