@@ -1,0 +1,165 @@
+{
+  "schema": "halo9.j7r16.grand_central_art_gate.v1",
+  "date_jst": "2026-10-25",
+  "scope": "RESEARCH_ONLY_PRE_WORK_NO_MODEL_PRODUCED",
+  "user_binding_decisions": {
+    "central_is_grand": true,
+    "R15_is_only_potential_TINY_internal_spatial_idea": true,
+    "R15_not_entire_central_mass": true,
+    "R15_symmetry_not_global_central_constraint": true,
+    "R15_original_model_not_modified": true,
+    "R15_local_reuse_not_required": true,
+    "non_occupying_Blender_first": true,
+    "local_Work_announced_now_J7_R16_and_prompt_next_stage_J7_R17": true,
+    "no_Chat_Work_handoff_dialog": true
+  },
+  "project_lock": {
+    "ART_FIRST": true,
+    "MACRO_IMPACT_FIRST": true,
+    "CITY_MASTER_3D_FIRST": true,
+    "original_and_main_preserved": true,
+    "formal_central_art_adopted": 0,
+    "minecraft_construction": "HOLD",
+    "full_10km_editable_model_completed": false,
+    "M247_C_protected_study_direction": "PRESERVED_NOT_NEW_APPROVAL",
+    "W0_H1_H6_SB01_SB16_HERO4_axes_V1_V3": "PRESERVE_ALL"
+  },
+  "candidate_concepts": [
+    {
+      "id": "A",
+      "name_ja": "天隙大陸",
+      "name_en": "Continent of the Open Sky",
+      "spatial_principle": "Mighty thick inhabited urban continental strata fold upward and fracture, generating a depth-shifting connected sky rift.",
+      "recognition": "A 10km civilization contains a single mega-inhabited landform, not two giant pillars around an empty gate.",
+      "risk": [
+        "twin blank canyon pillars",
+        "two sharp wings",
+        "stacked shelves",
+        "all inhabited rooms appear as tiny decorations"
+      ],
+      "art_view_test": [
+        "front open fissure reveals multiple substantial urban strata",
+        "side shows thick inhabited depth, not slab edge",
+        "rear reveals secondary built city underside not blank rock",
+        "civic void camera observes distant inhabited world",
+        "aerial reveals city continent folding, not symmetric emblem"
+      ]
+    },
+    {
+      "id": "B",
+      "name_ja": "反重層天域",
+      "name_en": "Inverted Lived Horizons",
+      "spatial_principle": "Urban upper/underside horizons mutually invert and cross, forming living interior skies and many altitudes of cities.",
+      "recognition": "Three-dimensional occupation creates the macro silhouette rather than thin floating plates.",
+      "risk": [
+        "thin floating islands",
+        "bent bridge",
+        "enormous wing with toy settlement",
+        "featureless underside"
+      ],
+      "art_view_test": [
+        "underside actively inhabited",
+        "section exposes actual thick distinct urban worlds",
+        "side not a monotone floating bridge"
+      ]
+    },
+    {
+      "id": "C",
+      "name_ja": "大空洞の多都市核",
+      "name_en": "Many Worlds in a Living Void",
+      "spatial_principle": "Multiple radically different inhabited urban geographies wrap and open to a metropolis-scale connected interior exterior public void.",
+      "recognition": "Void and habitation together shape the coherent body, beyond stadium/ring appearance.",
+      "risk": [
+        "decorative giant ring",
+        "stadium",
+        "hollow rock punctured with repeated windows",
+        "flower/crown sculpture"
+      ],
+      "art_view_test": [
+        "two sections show cavity complexity and real urban floor volumes",
+        "rear and underside communicate city not closed shell"
+      ]
+    }
+  ],
+  "priority_study": "A as initial hypothesis but all are non-adopted; choose or invent better fourth direction according to actual Blender render.",
+  "reference_scale_m_noncanonical": {
+    "world_city_span_approx": 10000,
+    "central_span_exploration": [
+      4500,
+      7000
+    ],
+    "central_height_exploration": [
+      3000,
+      5000
+    ],
+    "major_void_width_exploration": [
+      400,
+      2000
+    ],
+    "major_habitable_district_scale_exploration": [
+      300,
+      1200
+    ],
+    "midscale_architecture_exploration": [
+      30,
+      200
+    ],
+    "R15_reference_final_spans": [
+      2740,
+      1699.8538208007812,
+      1884
+    ]
+  },
+  "non_numerical_criterion": "Larger dimension is never artistic PASS. Any study dimensions can change on artistic grounds.",
+  "required_art_hierarchy": [
+    "global 10km context and central dominance",
+    "megaform several km each axis",
+    "coupled monumental negative spaces and inhabited thick volumes",
+    "multiple genuinely different 300-1200m urban worlds",
+    "midscale civic buildings integrated into world strata",
+    "human eye view with actual 1.7m ground verification only once genuine ground exists"
+  ],
+  "upcoming_local_Work_stage": {
+    "stage": "J7-R17",
+    "user_action": "NEXT user continuation -> provide paste-ready prompt, no handoff tool",
+    "environment": "EXISTING LOCAL CELESTIAL HALO-9 project; verify Blender/MCP and optional local GitHub",
+    "default": "nonoccupying Blender MCP / bpy / background Blender process; no foreground Computer Use without prior explicit opt-in",
+    "objective": "At least two radically different editable real Blender central megastructure concepts with multiple inhabited macro strata; compare genuine multi-camera views and materially revise promising central form twice.",
+    "reuse_R15": "Optional only as local spatial conceptual inspiration; do NOT paste its 2.74km gate as the central building.",
+    "image_proof": [
+      "front",
+      "oblique",
+      "side",
+      "rear",
+      "aerial",
+      "underside",
+      "ground or outer 10km context",
+      "giant interior from at least three altitudes/depths",
+      "two real Blender sectional cuts",
+      "inhabited 300-1200m district observation"
+    ],
+    "integrity": [
+      "native editable .blend and GLB saved per candidate and substantive refinement",
+      "re-open .blend, import GLB in empty scene, verify bounds and triangles",
+      "working source, image evidence, SHA and exact GitHub Draft PR",
+      "all results in isolated research branch; no edits to canonical assets"
+    ],
+    "fail_flags": [
+      "giant gate despite R15-only-local decision",
+      "two cliffs without 3D inhabited thickness",
+      "no public void except background",
+      "flattened city plate",
+      "symmetric motif dominates skyline because previous R15 influenced it",
+      "R1-R15 visual failure repeated",
+      "technical success mistakenly ART PASS",
+      "formal adoption without user review"
+    ]
+  },
+  "R16_deliverables": {
+    "art_charter": "studies/M3D-1S/J7/R16/R16_GRAND_CENTRAL_ART_CHARTER_JA.md",
+    "work_gate": "studies/M3D-1S/J7/R16/R16_CENTRAL_GRANDEUR_WORK_GATE.json",
+    "user_decisions": "docs/policy/DECISION_LOG.md (research branch append only)",
+    "no_new_3d": true,
+    "no_local_Work": true
+  }
+}
