@@ -81,3 +81,11 @@ GLBだけから読み込んだ建築へ、原本のスタジオ・カメラ・�
 次工程の最優先は、左右骨格の装飾ではなく、**一方の500〜900mの地区で、公共室・街路・斜面地盤・昇降到着部・中層街区が一続きの空間になるよう主要質量を再構成すること**。中景と1.7m視点を先に評価し、それが都市級対称構図を生むよう外形へ戻す。単純な大断崖へ住宅アイコンを載せる方式を延長しない。R15の形状は採用前提にしない。
 
 編集可能原本：[BLEND](revision_2/R15_FINAL.blend) ／ [GLB](revision_2/R15_FINAL.glb)。技術証拠は `qa/BLEND_GLB_READBACK.json`、床証拠は `revision_2/BUILD_EVIDENCE.json`。新規Draft PRと固定成果コミットは納品追記を参照。
+
+## GitHub納品記録
+
+新規[Draft PR #47](https://github.com/ryomashibaba/celestial-halo-9/pull/47)。baseはR14、既存PR #44／#45／#46は編集していない。成果固定コミットは `96ba4880ce28317b2d7fcb618d3f9cfeab304d00`。納品メタデータはその後のコミットで追加するため、最終ブランチHEADはPRのheadを参照する。
+
+固定成果：[BLEND](https://github.com/ryomashibaba/celestial-halo-9/blob/96ba4880ce28317b2d7fcb618d3f9cfeab304d00/studies/M3D-1S/J7/R15/revision_2/R15_FINAL.blend) ／ [GLB](https://github.com/ryomashibaba/celestial-halo-9/blob/96ba4880ce28317b2d7fcb618d3f9cfeab304d00/studies/M3D-1S/J7/R15/revision_2/R15_FINAL.glb) ／ [広域比較](https://github.com/ryomashibaba/celestial-halo-9/blob/96ba4880ce28317b2d7fcb618d3f9cfeab304d00/studies/M3D-1S/J7/R15/qa/R15_MACRO_VIEWS.jpg) ／ [主形状修正比較](https://github.com/ryomashibaba/celestial-halo-9/blob/96ba4880ce28317b2d7fcb618d3f9cfeab304d00/studies/M3D-1S/J7/R15/qa/R15_MAIN_FORM_REVISIONS.jpg) ／ [人間視点と実断面](https://github.com/ryomashibaba/celestial-halo-9/blob/96ba4880ce28317b2d7fcb618d3f9cfeab304d00/studies/M3D-1S/J7/R15/qa/R15_SPATIAL_EVIDENCE.jpg)。
+
+GitHubの固定コミットから独立HTTPSで **45ファイル・82,453,298 bytes** を再取得し、サイズとSHA256がすべて一致。記録は `qa/GITHUB_READBACK.json`。これは保存と受渡しの確認であり、美術の不合格を変更しない。

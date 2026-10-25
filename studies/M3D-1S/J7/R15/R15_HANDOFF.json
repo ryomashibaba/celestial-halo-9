@@ -105,5 +105,18 @@
     "Formal art adoption"
   ],
   "next_priority": "Recompose one 500-900m district as a continuous lived public terrain and occupied civic world before another macro refinement.",
-  "github_delivery": "PENDING_PUSH_AND_NEW_DRAFT_PR"
+  "github_delivery": "PUSHED_NEW_DRAFT_PR_CREATED_ALL_MODEL_IMAGE_BYTES_REDOWNLOADED_MATCH",
+  "draft_pr": 47,
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/47",
+  "artifact_commit": "96ba4880ce28317b2d7fcb618d3f9cfeab304d00",
+  "remote_checked_files": 45,
+  "remote_checked_bytes": 82453298,
+  "remote_all_hashes_match": true,
+  "remote_readback": "qa/GITHUB_READBACK.json",
+  "section_topology": {
+    "SECTION_XZ_Y0": 88,
+    "SECTION_YZ_X0": 0
+  },
+  "section_limitation": "XZ section has 88 nonmanifold edges; use as an actual cut visualization, not a closed volume model.",
+  "final_branch_head": "Current new PR head; artifact bytes pinned separately by artifact_commit. This metadata commit is later."
 }
