@@ -1,5 +1,5 @@
 00:01.641  blend            | Read blend: "<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\models\C55A_BEFORE.blend"
-00:04.313  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_47572_d2d808ccb5518a630b76bf536d56c1e9.png.png"
+00:04.313  image.write      | ERROR OpenImageIO write failed: Could not open file "<USER_PROFILE>\.thumbnails\large\blender_47572_d2d808ccb5518a630b76bf536d56c1e9.png.png"
 00:16.438  render           | Saved: '<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\renders\after_01_local.png'
 BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
 BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender

@@ -3,8 +3,8 @@
 BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
 BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
 BlenderMCP addon registered
-INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
-INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+INFO Draco is available, use library at <BLENDER_INSTALL>\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at <BLENDER_INSTALL>\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
 20:01:18 | INFO: Starting glTF 2.0 export
 20:01:18 | INFO: Extracting primitive: R25_CHAMBER_END_E
 20:01:18 | INFO: Primitives created: 1

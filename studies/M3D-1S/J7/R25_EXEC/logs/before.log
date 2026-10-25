@@ -3,7 +3,7 @@
   s.world=bpy.data.worlds.new('R25_FIXED_WORLD');s.world.use_nodes=True
 <WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\code\prepare.py:19: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m=bpy.data.materials.new('R25_NEUTRAL_CLAY');m.use_nodes=True
-00:01.797  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_30208_2183874e47b444db1b6bf9cc06092ae8.png.png"
+00:01.797  image.write      | ERROR OpenImageIO write failed: Could not open file "<USER_PROFILE>\.thumbnails\large\blender_30208_2183874e47b444db1b6bf9cc06092ae8.png.png"
 00:14.078  render           | Saved: '<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\renders\before_01_local.png'
 BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
 BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
