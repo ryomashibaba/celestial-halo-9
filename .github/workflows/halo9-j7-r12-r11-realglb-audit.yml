@@ -1,0 +1,50 @@
+name: J7-R12 real R11 GLB spatial surface audit (no art acceptance)
+on:
+  push:
+    branches: [research/m3d1s-j7-r12-evidence-led-megastructure-gate-20261025]
+    paths:
+      - .github/workflows/halo9-j7-r12-r11-realglb-audit.yml
+      - studies/M3D-1S/J7/R12/audit_r11_macro_surface.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual-r11-glb-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout original R11 GLBs plus independent R12 audit
+        uses: actions/checkout@v4
+      - name: Python and surface-mesh libraries
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check numpy trimesh matplotlib pillow
+      - name: Verify face-area audit algorithm on independent synthetic cube
+        run: python studies/M3D-1S/J7/R12/audit_r11_macro_surface.py --self-test
+      - name: Audit all THREE original R11 GLBs, failure cannot be covered by old results
+        run: |
+          rm -rf studies/M3D-1S/J7/R12/outputs
+          mkdir -p studies/M3D-1S/J7/R12/outputs
+          python studies/M3D-1S/J7/R12/audit_r11_macro_surface.py --r11 studies/M3D-1S/J7/R11 --out studies/M3D-1S/J7/R12/outputs
+          test -s studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_AUDIT.json
+          test -s studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_XZ.png
+          test -s studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_YZ.png
+      - name: Preserve exact audit as downloadable artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: halo9-j7r12-real-r11-macro-surface-evidence
+          path: studies/M3D-1S/J7/R12/outputs/
+          if-no-files-found: warn
+      - name: Commit only audited outputs on research branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R12/outputs/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "[skip ci] J7-R12: independent real R11 GLB macro surface diagnostic and images"
+          git fetch origin research/m3d1s-j7-r12-evidence-led-megastructure-gate-20261025
+          git rebase FETCH_HEAD
+          git push origin HEAD:research/m3d1s-j7-r12-evidence-led-megastructure-gate-20261025
