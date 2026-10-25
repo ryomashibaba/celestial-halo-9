@@ -1,0 +1,103 @@
+{
+  "schema": "halo9.j7r20.c55a_r19_comparison.v1",
+  "date_jst": "2026-10-25",
+  "research_stage": "J7-R20",
+  "mode": "CHAT_PREPARATION_WITH_LOCAL_ZIP_INDEPENDENT_INSPECTION",
+  "based_on_R19": {
+    "pr": 51,
+    "branch": "research/m3d1s-j7-r19-living-horizon-blender-20261025",
+    "verified_head": "5d83a66de5ac4208f0da24c4208aa1deb0ba84c1",
+    "art": "REJECT",
+    "bbox_m": [
+      6100,
+      5400,
+      4372.572265625
+    ],
+    "mesh_objects": 2974,
+    "triangles": 75632,
+    "has_blend": true,
+    "has_glb": true
+  },
+  "based_on_C55A": {
+    "original_attachment": "C55A_independent_research_payload(2).zip",
+    "title": "七環天裂都 / SEVENFOLD HALO RIFT",
+    "glb_path": "model/C55A_SevenfoldHaloRift.glb",
+    "glb_sha256": "4e0d8092c2bbe59ad6553d81e1a44594e7ff0dac3cfbc1ce1a9fb60144b76ae0",
+    "manifest_file_hashes_ok": true,
+    "independent_glb_json_read": true,
+    "glb_version": 2,
+    "glb_meshes": 290,
+    "glb_nodes": 303,
+    "glb_materials": 38,
+    "glb_triangles": 668623,
+    "source_axes": "Z-up metre",
+    "export_axes": "glTF Y-up",
+    "central_bbox_m": [
+      6956.8,
+      4729.4,
+      5794.6
+    ],
+    "context_bbox_not_to_use": true,
+    "renders": 11,
+    "render_engine": "custom numpy PIL rasterizer NOT Blender",
+    "blend_exists": false,
+    "blender_import_tested": false,
+    "art_status": "HOLD_SELF_REVIEW_ONLY",
+    "official_art_adoption": false,
+    "git_uploaded": false
+  },
+  "evaluation": {
+    "user_assessment": "C55-A largely resolves single-precinct impression; its artistic completion remains insufficient",
+    "root_success_principles": [
+      "longitudinal ~4.6km route and legible destination",
+      "hierarchy of large structural elements and settlement scales",
+      "ground-to-sky multimodal viewpoints",
+      "long-distance sightlines and distinct nested public spaces"
+    ],
+    "copy_as_fixed_forms": [
+      "seven rings",
+      "apse",
+      "cathedral",
+      "draped shell"
+    ],
+    "copy_as_fixed_forms_prohibited": true,
+    "perceived_scale_must_be_assessed_qualitatively": true
+  },
+  "next_work": {
+    "stage": "J7-R21",
+    "local_work_requires_user_approval": true,
+    "suggested_model": "GPT-6.1 Sol",
+    "thinking_effort": "High",
+    "foreground_computer_use_requires_separate_approval": true,
+    "workflow": "Background Blender bpy/MCP on isolated clones; C55-A GLB import and save BLEND, standardized view comparisons with R19, early ART gate; preserve originals",
+    "geometry_native_scale_m": true,
+    "neutral_clay_cameras_required": true,
+    "material_compare_required": true,
+    "sections_required": 2,
+    "grounded_eye_height_m": 1.7,
+    "do_not_claim_walkability_without_test": true,
+    "do_not_mass_produce_detail_QA_before_art": true
+  },
+  "safety": {
+    "main_unmodified": true,
+    "freeze_preserve": true,
+    "old_originals_preserve": true,
+    "formal_art_adopted_count": 0,
+    "minecraft_build": "HOLD",
+    "city_master_done": false,
+    "do_not_auto_merge": true
+  },
+  "documents": [
+    "R20_C55A_R19_COMPARISON_SPEC_JA.md"
+  ],
+  "outputs_actual": [
+    "GitHub isolated branch comparison specification",
+    "metadata and next-stage gate"
+  ],
+  "outputs_not_claimed": [
+    "Unified Blender model comparison",
+    "C55-A blend conversion",
+    "Official art acceptance",
+    "Minecraft construction"
+  ]
+}
