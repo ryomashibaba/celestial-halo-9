@@ -1,0 +1,277 @@
+{
+  "schema": "celestial-halo9.j7.r26.whole-city-art-contract.v1",
+  "date_jst": "2026-10-25",
+  "stage": "J7-R26",
+  "evidence_status": "CONCEPT_ONLY_NOT_IMPLEMENTED",
+  "official_sources": [
+    "main:AGENTS.md",
+    "main:docs/policy/START_HERE.md",
+    "main:docs/policy/PROJECT_CONSTITUTION.md",
+    "main:docs/policy/CITY_MASTER_3D_STANDARD.md",
+    "main:docs/policy/CURRENT_STATUS.md",
+    "main:docs/policy/DECISION_LOG.md",
+    "main:docs/policy/SOURCE_REGISTER.md"
+  ],
+  "preceding_proof": {
+    "pr": 57,
+    "head": "d93e7806034856a00255ec25a439c9238327b3fa",
+    "local_edit_G1": "FAIL",
+    "local_edit_G2": "ART_REJECT",
+    "C55A": "ART_HOLD",
+    "formal_art_adoption": 0,
+    "construction": "HOLD"
+  },
+  "fixed_scope": {
+    "city_approx_km": 10,
+    "overall_style": "one coherent ultrafuture civilization; single monumental central complex + few distinct secondary giants; avoid symmetrical generic pods",
+    "central": [
+      "HALO-9",
+      "CELESTIAL SPINE"
+    ],
+    "central_research_direction": "M247-C protected (alpha double broken shell + beta rising fracture); concrete appearance not approved",
+    "terrain": "W0 — Fractured Metropolitan Basin",
+    "sky_district_identifiers": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "megastructure_identifiers": [
+      "SB01",
+      "SB02",
+      "SB03",
+      "SB04",
+      "SB05",
+      "SB06",
+      "SB07",
+      "SB08",
+      "SB09",
+      "SB10",
+      "SB11",
+      "SB12",
+      "SB13",
+      "SB14",
+      "SB15",
+      "SB16"
+    ],
+    "hero_megastructures": {
+      "SB05": "RADIANT SAIL CITADEL",
+      "SB08": "AURORA TWIN VAULT",
+      "SB09": "GRAND HALO GATEWAY",
+      "SB12": "MOUNTAIN HALO SANCTUARY"
+    },
+    "view_corridors": [
+      "V1",
+      "V2",
+      "V3"
+    ],
+    "metropolitan_axes_count": 3,
+    "accepted_main_city_composition": "C: central dominant, smaller number of highly distinctive surrounding major structures",
+    "city_master_3d_first": true,
+    "private_general_building_interiors_only_optional": true,
+    "minecraft_build": "HOLD",
+    "canonical_coordinate_registration": "UNVERIFIED; do not place assets at invented coordinates",
+    "unified_reference_transform": "UNVERIFIED; no M204-W0/M207 approved alignment",
+    "main_and_research_origins_preserved": true
+  },
+  "hypothesis": {
+    "working_name": "天盆と二つの地平 — THE LIVING HORIZONS",
+    "adopted": false,
+    "geometrically_prescriptive": false,
+    "visual_strategy": "W0 natural horizons, towering inhabited central civic megastructure, distinct secondary sky-city worlds, ports and cliff streets read as one civilization at 10km, 1km and 10–100m scales",
+    "narrative": "water and western cliffs lead sightlines to a living mountainous center, which in turn leads to genuinely inhabited sky districts; large voids reveal rather than separate city worlds",
+    "world_basin": [
+      {
+        "zone": "NORTH",
+        "official": "giant mountain/highland",
+        "hypothesis": "skyline anchors and lived mountain-city edge",
+        "coordinates": null
+      },
+      {
+        "zone": "WEST",
+        "official": "giant escarpment",
+        "hypothesis": "public vertical urban sections and intermodal access",
+        "coordinates": null
+      },
+      {
+        "zone": "EAST",
+        "official": "artificial inland sea",
+        "hypothesis": "sea horizon and multi-height coastal public spaces",
+        "coordinates": null
+      },
+      {
+        "zone": "SOUTHWEST",
+        "official": "intentional gigantic negative space",
+        "hypothesis": "protect negative space for city-wide vista, no filling",
+        "coordinates": null
+      }
+    ],
+    "unassigned_art_life_worlds": [
+      {
+        "id": "ARC-A",
+        "idea": "inhabited highland ridge",
+        "archetype": "mountain morphology with public circulation"
+      },
+      {
+        "id": "ARC-B",
+        "idea": "interweaving public living strata",
+        "archetype": "multiple-level inhabited streets"
+      },
+      {
+        "id": "ARC-C",
+        "idea": "sea-facing sky harbour district",
+        "archetype": "sky-water civic transition"
+      },
+      {
+        "id": "ARC-D",
+        "idea": "large public void culture district",
+        "archetype": "public buildings that articulate urban void"
+      },
+      {
+        "id": "ARC-E",
+        "idea": "asymmetric high altitude lived horizons",
+        "archetype": "thick inhabited inverted/offset landforms"
+      },
+      {
+        "id": "ARC-F",
+        "idea": "inhabited rear and underside",
+        "archetype": "underside city with genuine public front"
+      }
+    ],
+    "archetypes_are_not_mapped_to_H1_H6": true,
+    "secondary_facilities_program_proposal_only": true,
+    "hero_names_not_locations": true,
+    "nonhero_facilities_mapping_unknown": [
+      "SB01",
+      "SB02",
+      "SB03",
+      "SB04",
+      "SB06",
+      "SB07",
+      "SB10",
+      "SB11",
+      "SB13",
+      "SB14",
+      "SB15",
+      "SB16"
+    ],
+    "master_constraints": "Appearance, material, structure and sizes are open; canon site roles/coordinates and names cannot be changed by hypotheses",
+    "mechanisms_of_scale": [
+      "natural horizon contrasted with artificial inhabited skyline",
+      "perceptible destination across long public space",
+      "multiple distant independent skylines visible from lived street",
+      "rear/underside and interiors as populated architecture",
+      "strong central-vs-hero-vs-district hierarchy"
+    ],
+    "past_failure_avoids": [
+      "R9 modern mini-city with simple civic nodes",
+      "R14 uniform multi-pod districts",
+      "R19 bands and shelf city",
+      "R23 lofted slab-like giant sculpture",
+      "R25 isolated dark box tunnel and unverified endpoints"
+    ],
+    "scene_requirements": [
+      {
+        "id": "S01",
+        "experience": "southwest negative void wide-city view",
+        "evidence": "urban hierarchy with mountain+west cliff+central+sky worlds",
+        "camera": "unlocated conceptual"
+      },
+      {
+        "id": "S02",
+        "experience": "east sea wide city",
+        "evidence": "sea horizon with city-scale vertical depth",
+        "camera": "unlocated conceptual"
+      },
+      {
+        "id": "S03",
+        "experience": "west escarpment inhabitable sections",
+        "evidence": "streets and interiors, real city face",
+        "camera": "unlocated conceptual"
+      },
+      {
+        "id": "S04",
+        "experience": "north highland urban view",
+        "evidence": "natural/urban skyline hierarchy",
+        "camera": "unlocated conceptual"
+      },
+      {
+        "id": "S05",
+        "experience": "central entrance and public city inside",
+        "evidence": "supported floor, legible destinations, distant district",
+        "camera": "unlocated conceptual"
+      },
+      {
+        "id": "S06",
+        "experience": "central high altitude and underside",
+        "evidence": "populated underside and nonblank rear city",
+        "camera": "unlocated conceptual"
+      },
+      {
+        "id": "S07",
+        "experience": "H sky district lived street",
+        "evidence": "one real lived place and another district in view",
+        "camera": "unlocated conceptual"
+      },
+      {
+        "id": "S08",
+        "experience": "HERO4 major facility entering and looking back",
+        "evidence": "unique hero art with central dominant",
+        "camera": "unlocated conceptual"
+      }
+    ]
+  },
+  "next_execution": {
+    "stage": "J7-R27",
+    "requires_explicit_work_permission": true,
+    "no_foreground_control_without_separate_permission": true,
+    "task": "First read certified source asset anchors and actual models; only then create bounded, low-cost whole-city integrated art composition proof; if no shared anchor is verified, produce relative art study only, never pass it off as canonical master",
+    "initial_render_focus": [
+      "S01",
+      "S02",
+      "S04",
+      "S05"
+    ],
+    "secondary_gate": [
+      "S03",
+      "S06",
+      "S07",
+      "S08"
+    ],
+    "early_art_gate": "whole-city silhouette, central-vs-secondary hierarchy, visibly lived city, large negative spaces and terrain/sea relationships must be legible; do not certify from geometry size or image count",
+    "stop_if": "central and sky city read as object on base and toy pods, citywide articulation missing, or can't verify key spatial relations",
+    "do_not_build_rest_before_art_gate": true,
+    "do_not_invent_unverified_positions": true,
+    "deliver_if_run": [
+      "independent editable citywide scene or transparent relative concept scene",
+      "camera and source-asset provenance manifest",
+      "limited actual render views",
+      "independent art judgment",
+      "unverified official anchor register",
+      "Draft PR"
+    ],
+    "current_files_not_delivered": [
+      "new BLEND",
+      "new GLB",
+      "actual rendered city",
+      "certified city anchor map"
+    ]
+  },
+  "preservation": {
+    "main": true,
+    "Freeze": true,
+    "M247C": true,
+    "W0": true,
+    "H1_H6": true,
+    "SB01_SB16": true,
+    "HERO4": true,
+    "three_axes": true,
+    "V1_V3": true,
+    "official_3d_master_completed": false,
+    "minecraft_construction": "HOLD",
+    "art_adoptions": 0,
+    "no_auto_merge": true
+  }
+}
