@@ -1,0 +1,26 @@
+{
+  "file": "renders\\R19\\fixed16km_oblique.png",
+  "position_m": [
+    9359.2861328125,
+    -11699.107421875,
+    7711.857421875
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2096.2861328125
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "center_distance_m": 16000,
+  "regime": "fixed16km"
+}

@@ -1,0 +1,26 @@
+{
+  "file": "renders\\C55A\\fixed10km_oblique.png",
+  "position_m": [
+    5849.5537109375,
+    -7311.94189453125,
+    6202.7919921875
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2693.06005859375
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "center_distance_m": 10000,
+  "regime": "fixed10km"
+}

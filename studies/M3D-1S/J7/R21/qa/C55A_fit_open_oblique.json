@@ -1,0 +1,35 @@
+{
+  "file": "renders\\C55A\\fit_open_oblique.png",
+  "position_m": [
+    -11129.625,
+    -13912.0302734375,
+    9370.8349609375
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2693.06005859375
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "effect_meshes_hidden": [
+    "sacred_light_cone",
+    "sunshaft_1",
+    "sunshaft_2",
+    "sunshaft_3",
+    "sunshaft_4",
+    "sunshaft_5"
+  ],
+  "center_distance_m": 19026.452106396307,
+  "regime": "fit",
+  "flank": "west / C55A source south"
+}

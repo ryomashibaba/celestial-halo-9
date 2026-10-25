@@ -1,0 +1,360 @@
+{
+  "required_images": 58,
+  "all_images_and_camera_records_present": true,
+  "images": [
+    {
+      "model": "R19",
+      "tag": "fixed16km_front",
+      "file": "renders\\R19\\fixed16km_front.png",
+      "sha256": "da624b68db8ef729f2f9727737384012e3f3ad755015fc17646d2c8baeb10686"
+    },
+    {
+      "model": "R19",
+      "tag": "fixed16km_oblique",
+      "file": "renders\\R19\\fixed16km_oblique.png",
+      "sha256": "23c4d66abfd8090e106aae97bd549ad2f02273541e2462ab6b3d8c0e5dc459a0"
+    },
+    {
+      "model": "R19",
+      "tag": "fixed16km_side",
+      "file": "renders\\R19\\fixed16km_side.png",
+      "sha256": "e5a7c46259be0175fcb4f67c6e7ad3662b3aa7922285246b63644a8c887010e4"
+    },
+    {
+      "model": "R19",
+      "tag": "fixed16km_rear",
+      "file": "renders\\R19\\fixed16km_rear.png",
+      "sha256": "c1a219347d85a20461b78227216a9195504fbdbce91da1f7dd2be52d47de9096"
+    },
+    {
+      "model": "R19",
+      "tag": "fixed16km_aerial",
+      "file": "renders\\R19\\fixed16km_aerial.png",
+      "sha256": "e1a65ee382bfacc83d806630068506d747bc34d8ec8fe3f86b8ffd244deb8d28"
+    },
+    {
+      "model": "R19",
+      "tag": "fixed16km_underside",
+      "file": "renders\\R19\\fixed16km_underside.png",
+      "sha256": "9a8e1aec1e0d3eea5044ba312868873c76394bee5ecf77f512e337cb8c866858"
+    },
+    {
+      "model": "R19",
+      "tag": "fit_front",
+      "file": "renders\\R19\\fit_front.png",
+      "sha256": "9400c0bdeb024ad0d8a7b63b44b48bd1a164b54940299d2586454c29beb5df2a"
+    },
+    {
+      "model": "R19",
+      "tag": "fit_oblique",
+      "file": "renders\\R19\\fit_oblique.png",
+      "sha256": "8a5f3279cc0ceab8bef72a1fe76f100e0bb7c5035bcfd73a860e32876ec58f1f"
+    },
+    {
+      "model": "R19",
+      "tag": "fit_side",
+      "file": "renders\\R19\\fit_side.png",
+      "sha256": "0b28ca5a1d863957a84f8a8d807abc8010e5ca7383b813226e577a1dde2de6d2"
+    },
+    {
+      "model": "R19",
+      "tag": "fit_rear",
+      "file": "renders\\R19\\fit_rear.png",
+      "sha256": "095c6a05545e65a541a3aa71cb6dca7131d57b3e514a788a4e86203afb120496"
+    },
+    {
+      "model": "R19",
+      "tag": "fit_aerial",
+      "file": "renders\\R19\\fit_aerial.png",
+      "sha256": "2e87fe140654a3755b6bff53f3d3116dc53dd6bd02e82bc6a21cbf184fc51b78"
+    },
+    {
+      "model": "R19",
+      "tag": "fit_underside",
+      "file": "renders\\R19\\fit_underside.png",
+      "sha256": "224e6293f0df29fd0b02aec25297b0252555dcbb21eb9664da4fe7e4450e89fe"
+    },
+    {
+      "model": "R19",
+      "tag": "material_oblique",
+      "file": "renders\\R19\\material_oblique.png",
+      "sha256": "2f1e21958baac11b38c4214411a8b0599cad2f993b4f27b9136cf56d4a6a7777"
+    },
+    {
+      "model": "R19",
+      "tag": "material_rear",
+      "file": "renders\\R19\\material_rear.png",
+      "sha256": "a775193927d01735031aa075e46700e77cd0dc54b6047112159c6d410866d9fd"
+    },
+    {
+      "model": "R19",
+      "tag": "material_underside",
+      "file": "renders\\R19\\material_underside.png",
+      "sha256": "85fd6dcda9c79d48f5c984fe4f03e3c1ee9e62341d756fedaf78da6bd573edbe"
+    },
+    {
+      "model": "R19",
+      "tag": "material_open_oblique",
+      "file": "renders\\R19\\material_open_oblique.png",
+      "sha256": "acd6514c806fa372ebd376e03fb084f9710f572eaa880b89485755f055cae499"
+    },
+    {
+      "model": "R19",
+      "tag": "material_floor_axis_middle",
+      "file": "renders\\R19\\material_floor_axis_middle.png",
+      "sha256": "236ed7223f457d8f02e9d1fde88fa8990fd11d2d2d75a8eb17afceb4018e17d1"
+    },
+    {
+      "model": "R19",
+      "tag": "material_floor_high",
+      "file": "renders\\R19\\material_floor_high.png",
+      "sha256": "bfbf93ef42f020f7f79d08371ceedb98d71dd402000d47e030b54138eb9e1120"
+    },
+    {
+      "model": "R19",
+      "tag": "floor_low",
+      "file": "renders\\R19\\floor_low.png",
+      "sha256": "501dc3d42aa962ab7b162c96162ef398e923f0e21168814476f6b046e17c534a"
+    },
+    {
+      "model": "R19",
+      "tag": "floor_mid",
+      "file": "renders\\R19\\floor_mid.png",
+      "sha256": "7ed234da4e9acdf8f7197d672ba42b308118d193fb248e83c3ab205dab0e10f2"
+    },
+    {
+      "model": "R19",
+      "tag": "floor_high",
+      "file": "renders\\R19\\floor_high.png",
+      "sha256": "5d452cd9fb4f14d1b1d46e423dce4c5b873ef3c0c35538b76fed3545a092b86c"
+    },
+    {
+      "model": "R19",
+      "tag": "floor_axis_entry",
+      "file": "renders\\R19\\floor_axis_entry.png",
+      "sha256": "ce5fb0e0fb58f12e9696eb198e13029a9655be1c2cbaa5797c8fec949127b917"
+    },
+    {
+      "model": "R19",
+      "tag": "floor_axis_middle",
+      "file": "renders\\R19\\floor_axis_middle.png",
+      "sha256": "a5315d62bf52d8db6c0a528896807257294be9a22b68380dcd223b3d674e5741"
+    },
+    {
+      "model": "R19",
+      "tag": "floor_axis_arrival",
+      "file": "renders\\R19\\floor_axis_arrival.png",
+      "sha256": "e5f12ebe1dc7f148a1949ef1ea4603ef9162936553d96fe913d5d33be5f3390f"
+    },
+    {
+      "model": "R19",
+      "tag": "floor_low_axis15",
+      "file": "renders\\R19\\floor_low_axis15.png",
+      "sha256": "ad7029b9dc79f5cd45f856301f76007bfb3f61fcd1aa1b5fe2eee3dee4efc430"
+    },
+    {
+      "model": "R19",
+      "tag": "fit_open_oblique",
+      "file": "renders\\R19\\fit_open_oblique.png",
+      "sha256": "a560df223ecd8a38f3b4b04827fdacfa22a4e61cb7aec637dc81a91442ae80f1"
+    },
+    {
+      "model": "R19",
+      "tag": "inspection_interior",
+      "file": "renders\\R19\\inspection_interior.png",
+      "sha256": "663345ac73fe3faf60b0110c29ccbd6d0748c0602691f1d1876853ca5cb8013c"
+    },
+    {
+      "model": "C55A",
+      "tag": "fixed16km_front",
+      "file": "renders\\C55A\\fixed16km_front.png",
+      "sha256": "62427d05a7939eae675d58b9d4b1fd9418b47f3145505e744bfa82fd4717cd98"
+    },
+    {
+      "model": "C55A",
+      "tag": "fixed16km_oblique",
+      "file": "renders\\C55A\\fixed16km_oblique.png",
+      "sha256": "7dbd29b939663e9c220a5724fec8be5829f5979fe0ca5fafd7fa14a9e57cad3e"
+    },
+    {
+      "model": "C55A",
+      "tag": "fixed16km_side",
+      "file": "renders\\C55A\\fixed16km_side.png",
+      "sha256": "4458f9174b0835f6bfbe5a8da2babaf5a39b4fbaea2c0f7a253e9ab3884edb0b"
+    },
+    {
+      "model": "C55A",
+      "tag": "fixed16km_rear",
+      "file": "renders\\C55A\\fixed16km_rear.png",
+      "sha256": "a000792c7103c39705b84c08bd610a1772106b71466e4c5a8f0960e052a63a37"
+    },
+    {
+      "model": "C55A",
+      "tag": "fixed16km_aerial",
+      "file": "renders\\C55A\\fixed16km_aerial.png",
+      "sha256": "738a1f4b28ba3e6f7afae3bf82a89f41819e0e347caca35697d57497342a30ff"
+    },
+    {
+      "model": "C55A",
+      "tag": "fixed16km_underside",
+      "file": "renders\\C55A\\fixed16km_underside.png",
+      "sha256": "294a37b43dcb81c2098e417c3ac250a1d142aa137e597e7aeec4f9eae7a92e7f"
+    },
+    {
+      "model": "C55A",
+      "tag": "fit_front",
+      "file": "renders\\C55A\\fit_front.png",
+      "sha256": "33a8925a29c4214e676b5b558d16797158fa96d12f7cd04632d3b91a53a64f37"
+    },
+    {
+      "model": "C55A",
+      "tag": "fit_oblique",
+      "file": "renders\\C55A\\fit_oblique.png",
+      "sha256": "81c3f117a509fca5d3ed229c395e74e2aff2ab7d9dd864ca41ac257bfe0124e9"
+    },
+    {
+      "model": "C55A",
+      "tag": "fit_side",
+      "file": "renders\\C55A\\fit_side.png",
+      "sha256": "6b87fcfc4deecde7b85d813012cd4624ca8c225e7958001028dcb4cc2551dd25"
+    },
+    {
+      "model": "C55A",
+      "tag": "fit_rear",
+      "file": "renders\\C55A\\fit_rear.png",
+      "sha256": "2715b6a097376fbd0a4bf1c1a1afcb15fdce6666f729b95c28f43378593e4294"
+    },
+    {
+      "model": "C55A",
+      "tag": "fit_aerial",
+      "file": "renders\\C55A\\fit_aerial.png",
+      "sha256": "0836d7f1c97a101337d368c6a4fd62bdc4d8596b6186c372cbc6b2acd9fabb1e"
+    },
+    {
+      "model": "C55A",
+      "tag": "fit_underside",
+      "file": "renders\\C55A\\fit_underside.png",
+      "sha256": "3d403dd3d209172562685161562d5bcf2872a38143ded6035e67a093c8679a36"
+    },
+    {
+      "model": "C55A",
+      "tag": "material_oblique",
+      "file": "renders\\C55A\\material_oblique.png",
+      "sha256": "88697066def895f006bacbff9c8312761b5b145b6711d06e7e02c44ab4467b3b"
+    },
+    {
+      "model": "C55A",
+      "tag": "material_rear",
+      "file": "renders\\C55A\\material_rear.png",
+      "sha256": "48d542c5a116806a453a63535e2a57f7dfdb76bbf22c9994b26af6b1fc46c4b3"
+    },
+    {
+      "model": "C55A",
+      "tag": "material_underside",
+      "file": "renders\\C55A\\material_underside.png",
+      "sha256": "0713cae65821c57cb39aa8a6f61330fd0186bd0412a22c7ad3ea5e397c567a6c"
+    },
+    {
+      "model": "C55A",
+      "tag": "material_open_oblique",
+      "file": "renders\\C55A\\material_open_oblique.png",
+      "sha256": "20cdba5c4cda817ee0f42b2ec6186bcbe2788e95cd89cc410f2f65c625a1a085"
+    },
+    {
+      "model": "C55A",
+      "tag": "material_floor_axis_middle",
+      "file": "renders\\C55A\\material_floor_axis_middle.png",
+      "sha256": "6b84ee61b374d0dbbf03f85f097368b67d8d5f5c56078e9b5348e56d5cd51e09"
+    },
+    {
+      "model": "C55A",
+      "tag": "material_floor_high",
+      "file": "renders\\C55A\\material_floor_high.png",
+      "sha256": "c6a82d0ff0620792502098d7674a2b480595078e0e6e381d69d51ed0f64d5b55"
+    },
+    {
+      "model": "C55A",
+      "tag": "floor_low",
+      "file": "renders\\C55A\\floor_low.png",
+      "sha256": "705770101259383efd0c262d439dbda49b99d2c58f9f0299b8f1ee031b9dfd4a"
+    },
+    {
+      "model": "C55A",
+      "tag": "floor_mid",
+      "file": "renders\\C55A\\floor_mid.png",
+      "sha256": "5a7d00b303622c2cca9629451e56422bee9a59be91ee8958258128831d7d59d9"
+    },
+    {
+      "model": "C55A",
+      "tag": "floor_high",
+      "file": "renders\\C55A\\floor_high.png",
+      "sha256": "d4113e9e8087ab97271d94a49e09368c784f84437a5171375f9c15d35aaea03e"
+    },
+    {
+      "model": "C55A",
+      "tag": "floor_axis_entry",
+      "file": "renders\\C55A\\floor_axis_entry.png",
+      "sha256": "b1a74ccb0774ea6520b5be4ad02672735d5b7786452a9fc8a6ff2da0c1375b4f"
+    },
+    {
+      "model": "C55A",
+      "tag": "floor_axis_middle",
+      "file": "renders\\C55A\\floor_axis_middle.png",
+      "sha256": "191be80773d0b63fba2115d48f7239f504907e5c4e9b99ba9b3ebf896ec70d07"
+    },
+    {
+      "model": "C55A",
+      "tag": "floor_axis_arrival",
+      "file": "renders\\C55A\\floor_axis_arrival.png",
+      "sha256": "acc91f8aff692268e9d4a63cdbf58716a1f7864bab4f8f5f8d08d8fd6997b9f9"
+    },
+    {
+      "model": "C55A",
+      "tag": "floor_low_axis15",
+      "file": "renders\\C55A\\floor_low_axis15.png",
+      "sha256": "d4f30f305ed5561c0c3305fb0511c280b2f54158b4ee82509a344008f3542c1a"
+    },
+    {
+      "model": "C55A",
+      "tag": "fit_open_oblique",
+      "file": "renders\\C55A\\fit_open_oblique.png",
+      "sha256": "3a52416b7f1b5cf82d25e616f4bc86560efd422801883a6b047044bb9fffa31b"
+    },
+    {
+      "model": "C55A",
+      "tag": "inspection_interior",
+      "file": "renders\\C55A\\inspection_interior.png",
+      "sha256": "9a1c14724453ec2504812f25d5e0dd0e1c043237e10d36e1070ff8458055861c"
+    },
+    {
+      "model": "C55A",
+      "tag": "clay_decals_on_oblique",
+      "file": "renders\\C55A\\clay_decals_on_oblique.png",
+      "sha256": "7efe74ee600ae4a3d8661ed63059bd59114426c3b622f85636f4501d34664d1f"
+    },
+    {
+      "model": "C55A",
+      "tag": "floor_hall",
+      "file": "renders\\C55A\\floor_hall.png",
+      "sha256": "2e4fc18cca6dc46d623c1922fc6b79fbbb10f411d687e0234e97e60b744fe34c"
+    },
+    {
+      "model": "C55A",
+      "tag": "section_longitudinal_X860",
+      "file": "renders\\C55A\\section_longitudinal_X860.png",
+      "sha256": "21f4ce599face349b4dcc587b0bac2c84eee7f3c9d2f5fa297ed21275de474d1"
+    },
+    {
+      "model": "C55A",
+      "tag": "section_cross_Yminus600",
+      "file": "renders\\C55A\\section_cross_Yminus600.png",
+      "sha256": "5615d459be80e402acb7c8f70476bc7deb9cb26185a6f24e0f85f71d9800a1db"
+    }
+  ],
+  "glb_accessor_vertices": 895504,
+  "referenced_vertices": 895002,
+  "unreferenced_vertices_discarded_by_importer": 502,
+  "original_sources_unchanged": true,
+  "only_r21_tracked_changes": true,
+  "scope": "Focused source/readback/camera/completeness checks, not building or occupancy certification."
+}

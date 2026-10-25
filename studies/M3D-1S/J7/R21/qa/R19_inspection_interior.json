@@ -1,0 +1,50 @@
+{
+  "file": "renders\\R19\\inspection_interior.png",
+  "position_m": [
+    -550.0,
+    -265.0,
+    1219.699951171875
+  ],
+  "target_m": [
+    -1650.0,
+    400.0,
+    2200.0
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "effect_meshes_hidden": [],
+  "supplemental_inspection_only": true,
+  "common_sun_art_set": false,
+  "point_lamp_energy": 10000000.0,
+  "point_lamp_radius_m": 3,
+  "point_lamp_eye_offset_m": [
+    0,
+    0,
+    3
+  ],
+  "eye_above_floor_m": 1.699951171875,
+  "floor": {
+    "point_m": [
+      -550.0,
+      -265.0,
+      1218.0
+    ],
+    "normal": [
+      0.0,
+      -0.0,
+      0.9999999403953552
+    ],
+    "object": "F_PUBLIC_ISTHMUS_middle_public_street_public_deck",
+    "distance_m": 1.6999412775039673
+  },
+  "note": "Identical point lamp relative to each supported camera. Different interior spaces; diagnostic shape visibility only, not aesthetic success or global scale comparison."
+}

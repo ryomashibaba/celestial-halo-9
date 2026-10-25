@@ -1,0 +1,6 @@
+# Keep supplied source evidence byte-identical on future Windows checkouts.
+source/** -text
+*.blend -text
+*.glb -text
+*.png -text
+*.jpg -text

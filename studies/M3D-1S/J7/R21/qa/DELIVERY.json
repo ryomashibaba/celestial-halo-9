@@ -1,0 +1,33 @@
+{
+  "date_jst": "2026-10-25",
+  "pr": 53,
+  "draft": true,
+  "merged": false,
+  "branch": "research/m3d1s-j7-r21-c55a-r19-blender-comparison-20261025",
+  "base_r20_head": "8ed17bcb0078e5fcd276e5db72954791d2ae1338",
+  "artifact_commit": "8d123566b7a3a88357de099dfc8de821d1f27833",
+  "first_full_check": {
+    "commit": "c629e3bad8b27925642d29e2940c471e30a76c0f",
+    "files": 197,
+    "bytes": 169348570,
+    "all_match": true
+  },
+  "additional_artifact_check": {
+    "commit": "8d123566b7a3a88357de099dfc8de821d1f27833",
+    "files": 16,
+    "bytes": 3042345,
+    "all_match": true
+  },
+  "original_pr_51_52_heads_unchanged": true,
+  "official_art_adoptions": 0,
+  "minecraft": "HOLD",
+  "foreground_control": false,
+  "limitations": [
+    "Continuous walkability or entry route",
+    "Enclosed connected void volumes",
+    "Solid occupancy and inhabited-wall completeness",
+    "Transport operation, safety, structural or voxel clearance",
+    "Formal city coordinate integration"
+  ],
+  "approval_review": "One follow-up push was initially misclassified as an old Draft PR edit. Re-read current user request section 8, verified PR 53 was newly created for this R21 task and PR 51/52 unchanged, inspected R21-only diff; the same narrowly scoped push was approved on re-review. No workaround or user permission expansion."
+}

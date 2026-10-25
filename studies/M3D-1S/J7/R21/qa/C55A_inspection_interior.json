@@ -1,0 +1,57 @@
+{
+  "file": "renders\\C55A\\inspection_interior.png",
+  "position_m": [
+    872.4672241210938,
+    -159.7389373779297,
+    441.70001220703125
+  ],
+  "target_m": [
+    872.4671630859375,
+    -1109.7388916015625,
+    680.0
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "effect_meshes_hidden": [
+    "sacred_light_cone",
+    "sunshaft_1",
+    "sunshaft_2",
+    "sunshaft_3",
+    "sunshaft_4",
+    "sunshaft_5"
+  ],
+  "supplemental_inspection_only": true,
+  "common_sun_art_set": false,
+  "point_lamp_energy": 10000000.0,
+  "point_lamp_radius_m": 3,
+  "point_lamp_eye_offset_m": [
+    0,
+    0,
+    3
+  ],
+  "eye_above_floor_m": 1.70001220703125,
+  "floor": {
+    "point_m": [
+      872.4672241210938,
+      -159.7389373779297,
+      440.0
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "object": "hall_floor",
+    "distance_m": 1.7000021934509277
+  },
+  "note": "Identical point lamp relative to each supported camera. Different interior spaces; diagnostic shape visibility only, not aesthetic success or global scale comparison."
+}

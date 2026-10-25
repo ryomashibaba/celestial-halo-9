@@ -1,0 +1,121 @@
+{
+  "artifact_commit": "8d123566b7a3a88357de099dfc8de821d1f27833",
+  "base_previously_verified_commit": "c629e3bad8b27925642d29e2940c471e30a76c0f",
+  "checked_files": 16,
+  "checked_bytes": 3042345,
+  "all_match": true,
+  "files": [
+    {
+      "path": "studies/M3D-1S/J7/R21/COMPARISON_SETTINGS.json",
+      "bytes": 5691,
+      "sha256": "37716007e49326f3528977823f98370c93ef9aa0f95aaae0d1c18358ad740879",
+      "expected_sha256": "37716007e49326f3528977823f98370c93ef9aa0f95aaae0d1c18358ad740879",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/R21_ART_REVIEW_JA.md",
+      "bytes": 11299,
+      "sha256": "8242a95b173e03116610cf9104c01675ac6bc1781a055def8a1a2e836c28b078",
+      "expected_sha256": "8242a95b173e03116610cf9104c01675ac6bc1781a055def8a1a2e836c28b078",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/R21_HANDOFF.json",
+      "bytes": 2283,
+      "sha256": "4d8ce9af554774df7fd5c0ad595b57337ae860817a7a51ef61f078316f0f812d",
+      "expected_sha256": "4d8ce9af554774df7fd5c0ad595b57337ae860817a7a51ef61f078316f0f812d",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/README_JA.md",
+      "bytes": 3228,
+      "sha256": "7e785be91b5cb199c4b6d69d08d1036758828eecebb0eb9bab405eecea644c5b",
+      "expected_sha256": "7e785be91b5cb199c4b6d69d08d1036758828eecebb0eb9bab405eecea644c5b",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/assemble.py",
+      "bytes": 3971,
+      "sha256": "e2faa457823c2e4d5b467aad146cc4e81754d8f072ca9a376111dc9f927fdf98",
+      "expected_sha256": "e2faa457823c2e4d5b467aad146cc4e81754d8f072ca9a376111dc9f927fdf98",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/finalize.py",
+      "bytes": 4429,
+      "sha256": "705df73ef8c42f4d9aa6a96d1413f3fd4b62d707f009b04d31c01ffe7290e2cf",
+      "expected_sha256": "705df73ef8c42f4d9aa6a96d1413f3fd4b62d707f009b04d31c01ffe7290e2cf",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/inspect_interiors.py",
+      "bytes": 1236,
+      "sha256": "fde33867985324e9651ac1c2e430c57c1ccab1fc9adf7c2aebc890b2b4b30bf4",
+      "expected_sha256": "fde33867985324e9651ac1c2e430c57c1ccab1fc9adf7c2aebc890b2b4b30bf4",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/interior_inspection.log",
+      "bytes": 1068,
+      "sha256": "b15652e0b72a118a0b116669c71863d5660debfadc2982cc2c3bcc39c5ebb5a8",
+      "expected_sha256": "b15652e0b72a118a0b116669c71863d5660debfadc2982cc2c3bcc39c5ebb5a8",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/qa/C55A_inspection_interior.json",
+      "bytes": 1209,
+      "sha256": "d2c9f2e7dc50709a2381602505b6f868193baae7c6b1aa683941cfb3c0d67c5f",
+      "expected_sha256": "d2c9f2e7dc50709a2381602505b6f868193baae7c6b1aa683941cfb3c0d67c5f",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/qa/FINAL_VERIFICATION.json",
+      "bytes": 12125,
+      "sha256": "c4c18dd80262d542a772f2bbbd13e9948e140c860aa86d9e13943adbbcf03879",
+      "expected_sha256": "c4c18dd80262d542a772f2bbbd13e9948e140c860aa86d9e13943adbbcf03879",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/qa/GITHUB_READBACK.json",
+      "bytes": 59152,
+      "sha256": "c4aa6987b356fecef868df55c50bbfef5cc13390fb3fa15d9e6770f91518dc18",
+      "expected_sha256": "c4aa6987b356fecef868df55c50bbfef5cc13390fb3fa15d9e6770f91518dc18",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/qa/R19_inspection_interior.json",
+      "bytes": 1075,
+      "sha256": "4b52e7eb5f3124cfe0c2f4a533dcd4cd6f0ec5e9b300ca1c614fb9dbd476a469",
+      "expected_sha256": "4b52e7eb5f3124cfe0c2f4a533dcd4cd6f0ec5e9b300ca1c614fb9dbd476a469",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/renders/C55A/inspection_interior.png",
+      "bytes": 1581411,
+      "sha256": "9a1c14724453ec2504812f25d5e0dd0e1c043237e10d36e1070ff8458055861c",
+      "expected_sha256": "9a1c14724453ec2504812f25d5e0dd0e1c043237e10d36e1070ff8458055861c",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/renders/R19/inspection_interior.png",
+      "bytes": 1275443,
+      "sha256": "663345ac73fe3faf60b0110c29ccbd6d0748c0602691f1d1876853ca5cb8013c",
+      "expected_sha256": "663345ac73fe3faf60b0110c29ccbd6d0748c0602691f1d1876853ca5cb8013c",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/sheets/INTERIOR_INSPECTION.jpg",
+      "bytes": 76501,
+      "sha256": "3c12a6c3b45813fe5b62651f3dbdf1c703dd9c6bd145d795d9e10c8ff72c22ac",
+      "expected_sha256": "3c12a6c3b45813fe5b62651f3dbdf1c703dd9c6bd145d795d9e10c8ff72c22ac",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/verify_github.py",
+      "bytes": 2224,
+      "sha256": "ee43cfc92924038b6fd75d3d939ef5317c93a998db3d383b5bdf39ceee9a651f",
+      "expected_sha256": "ee43cfc92924038b6fd75d3d939ef5317c93a998db3d383b5bdf39ceee9a651f",
+      "match": true
+    }
+  ]
+}

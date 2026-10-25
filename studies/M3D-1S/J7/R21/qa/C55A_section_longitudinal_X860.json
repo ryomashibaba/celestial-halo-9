@@ -1,0 +1,36 @@
+{
+  "file": "renders\\C55A\\section_longitudinal_X860.png",
+  "position_m": [
+    -12870.4462890625,
+    0.0,
+    2943.5224609375
+  ],
+  "target_m": [
+    0,
+    0,
+    2300
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "effect_meshes_hidden": [
+    "sacred_light_cone",
+    "sunshaft_1",
+    "sunshaft_2",
+    "sunshaft_3",
+    "sunshaft_4",
+    "sunshaft_5"
+  ],
+  "plane_axis": 0,
+  "coordinate_m": 860,
+  "cap_added": false,
+  "recovered_from_saved_section_camera": true
+}

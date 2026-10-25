@@ -1,0 +1,39 @@
+00:02.391  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R19\final\R19_LIVING_HORIZON.blend"
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\compare.py:58: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world=bpy.data.worlds.new('R21_COMMON_WORLD');s.world.use_nodes=True
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\compare.py:63: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  clay=bpy.data.materials.new('R21_IDENTICAL_NEUTRAL_CLAY');clay.use_nodes=True
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\compare.py:67: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if m.use_nodes:
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+R21_RENDER_START R19 floor_low
+00:42.641  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\floor_low.png'
+R21_RENDER_DONE R19 floor_low
+R21_RENDER_START R19 floor_mid
+01:34.531  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\floor_mid.png'
+R21_RENDER_DONE R19 floor_mid
+R21_RENDER_START R19 floor_high
+02:13.953  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\floor_high.png'
+R21_RENDER_DONE R19 floor_high
+R21_RENDER_START R19 floor_axis_entry
+02:57.063  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\floor_axis_entry.png'
+R21_RENDER_DONE R19 floor_axis_entry
+R21_RENDER_START R19 floor_axis_middle
+03:54.344  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\floor_axis_middle.png'
+R21_RENDER_DONE R19 floor_axis_middle
+R21_RENDER_START R19 floor_axis_arrival
+04:49.516  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\floor_axis_arrival.png'
+R21_RENDER_DONE R19 floor_axis_arrival
+R21_RENDER_START R19 material_floor_axis_middle
+05:43.313  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\material_floor_axis_middle.png'
+R21_RENDER_DONE R19 material_floor_axis_middle
+R21_RENDER_START R19 material_floor_high
+06:25.219  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\material_floor_high.png'
+R21_RENDER_DONE R19 material_floor_high
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,25 @@
+{
+  "file": "renders\\R19\\material_floor_high.png",
+  "position_m": [
+    1620.0,
+    280.0,
+    2521.699951171875
+  ],
+  "target_m": [
+    -600.0,
+    1340.0,
+    3500.0
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": false,
+  "light_decals_visible": true,
+  "emission": false,
+  "terrain_context": false,
+  "effect_meshes_hidden": []
+}

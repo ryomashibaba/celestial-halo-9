@@ -1,0 +1,603 @@
+{
+  "file": "renders\\R19\\floor_low_axis15.png",
+  "position_m": [
+    650.0,
+    -800.0,
+    307.70001220703125
+  ],
+  "target_m": [
+    650.0,
+    3200.0,
+    1379.496826171875
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "effect_meshes_hidden": [],
+  "eye_above_floor_m": 1.70001220703125,
+  "floor": {
+    "point_m": [
+      650.0,
+      -800.0,
+      306.0
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "object": "A_INNER_public_surface",
+    "distance_m": 1.7000021934509277
+  },
+  "pitch_degrees": 15,
+  "horizontal_direction": "comparison +Y (native main axis)",
+  "frustum_first_hits": [
+    {
+      "point_m": [
+        547.1719970703125,
+        -572.0282592773438,
+        308.9037170410156
+      ],
+      "object": "A_CONFLUENCE_civic_ground_0",
+      "distance_m": 250.09230041503906
+    },
+    {
+      "point_m": [
+        487.6700439453125,
+        -447.98883056640625,
+        339.0
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 388.8991394042969
+    },
+    {
+      "point_m": [
+        532.2882080078125,
+        -550.4553833007812,
+        351.71575927734375
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 279.40283203125
+    },
+    {
+      "point_m": [
+        530.2788696289062,
+        -552.0054931640625,
+        374.1499328613281
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 283.2843017578125
+    },
+    {
+      "point_m": [
+        528.1997680664062,
+        -553.609619140625,
+        397.36328125
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 289.1072998046875
+    },
+    {
+      "point_m": [
+        526.4801635742188,
+        -556.1251831054688,
+        421.0
+      ],
+      "object": "A_CONFLUENCE_occupied_floor_0_82",
+      "distance_m": 295.9205322265625
+    },
+    {
+      "point_m": [
+        524.9304809570312,
+        -559.135009765625,
+        445.0729064941406
+      ],
+      "object": "A_CONFLUENCE_occupied_floor_0_104",
+      "distance_m": 304.18682861328125
+    },
+    {
+      "point_m": [
+        563.2694702148438,
+        -559.645751953125,
+        308.9690856933594
+      ],
+      "object": "A_CONFLUENCE_civic_ground_0",
+      "distance_m": 255.5268096923828
+    },
+    {
+      "point_m": [
+        520.1360473632812,
+        -447.9888916015625,
+        339.0
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 376.5051574707031
+    },
+    {
+      "point_m": [
+        550.5220947265625,
+        -536.3880615234375,
+        354.1969909667969
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 285.5679626464844
+    },
+    {
+      "point_m": [
+        549.6217041015625,
+        -540.0911254882812,
+        377.3423767089844
+      ],
+      "object": "A_CONFLUENCE_occupied_floor_0_38",
+      "distance_m": 287.190673828125
+    },
+    {
+      "point_m": [
+        546.864990234375,
+        -539.20947265625,
+        402.60357666015625
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 296.0661926269531
+    },
+    {
+      "point_m": [
+        544.9337768554688,
+        -540.699462890625,
+        428.1665344238281
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 304.6109924316406
+    },
+    {
+      "point_m": [
+        542.9287719726562,
+        -542.2462158203125,
+        454.70513916015625
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 315.454833984375
+    },
+    {
+      "point_m": [
+        581.216064453125,
+        -545.8408813476562,
+        309.0419921875
+      ],
+      "object": "A_CONFLUENCE_civic_ground_0",
+      "distance_m": 263.3056945800781
+    },
+    {
+      "point_m": [
+        552.60205078125,
+        -447.98883056640625,
+        339.0
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 366.575927734375
+    },
+    {
+      "point_m": [
+        571.6343994140625,
+        -523.113037109375,
+        356.53851318359375
+      ],
+      "object": "A_CONFLUENCE_occupied_floor_0_16",
+      "distance_m": 291.8779296875
+    },
+    {
+      "point_m": [
+        569.4205322265625,
+        -521.80810546875,
+        382.2413024902344
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 299.0655212402344
+    },
+    {
+      "point_m": [
+        567.847412109375,
+        -523.021728515625,
+        408.49444580078125
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 305.98291015625
+    },
+    {
+      "point_m": [
+        566.211669921875,
+        -524.28369140625,
+        435.79302978515625
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 315.3534240722656
+    },
+    {
+      "point_m": [
+        564.5094604492188,
+        -525.596923828125,
+        464.20074462890625
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 327.2585144042969
+    },
+    {
+      "point_m": [
+        601.3497314453125,
+        -530.3535766601562,
+        309.1237487792969
+      ],
+      "object": "A_CONFLUENCE_civic_ground_0",
+      "distance_m": 274.0037536621094
+    },
+    {
+      "point_m": [
+        585.0679931640625,
+        -447.9888610839844,
+        339.0
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 359.3155517578125
+    },
+    {
+      "point_m": [
+        593.9407348632812,
+        -502.89093017578125,
+        360.1053771972656
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 306.8595275878906
+    },
+    {
+      "point_m": [
+        592.7976684570312,
+        -503.7727966308594,
+        387.0738525390625
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 311.9660949707031
+    },
+    {
+      "point_m": [
+        591.6070556640625,
+        -504.6913146972656,
+        415.1650085449219
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 319.6336669921875
+    },
+    {
+      "point_m": [
+        590.8944091796875,
+        -508.2581481933594,
+        443.23822021484375
+      ],
+      "object": "A_CONFLUENCE_occupied_floor_0_104",
+      "distance_m": 327.0739440917969
+    },
+    {
+      "point_m": [
+        590.3117065429688,
+        -512.6233520507812,
+        471.5999755859375
+      ],
+      "object": "A_CONFLUENCE_civic_ground_1",
+      "distance_m": 336.1714172363281
+    },
+    {
+      "point_m": [
+        624.096435546875,
+        -512.8563842773438,
+        309.2161560058594
+      ],
+      "object": "A_CONFLUENCE_civic_ground_0",
+      "distance_m": 288.3135986328125
+    },
+    {
+      "point_m": [
+        617.5339965820312,
+        -447.9888610839844,
+        339.0
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 354.8880920410156
+    },
+    {
+      "point_m": [
+        620.0686645507812,
+        -482.7334289550781,
+        363.66082763671875
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 323.5514831542969
+    },
+    {
+      "point_m": [
+        619.4160766601562,
+        -483.2369079589844,
+        392.576416015625
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 329.3603515625
+    },
+    {
+      "point_m": [
+        619.0120239257812,
+        -486.57147216796875,
+        421.7589416503906
+      ],
+      "object": "A_CONFLUENCE_occupied_floor_0_82",
+      "distance_m": 334.9732971191406
+    },
+    {
+      "point_m": [
+        618.0216064453125,
+        -484.312744140625,
+        454.36279296875
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 349.5583190917969
+    },
+    {
+      "point_m": [
+        620.1558227539062,
+        -512.6233520507812,
+        471.5999755859375
+      ],
+      "object": "A_CONFLUENCE_civic_ground_1",
+      "distance_m": 332.1734619140625
+    },
+    {
+      "point_m": [
+        650.0,
+        -492.9308166503906,
+        309.32135009765625
+      ],
+      "object": "A_CONFLUENCE_civic_ground_0",
+      "distance_m": 307.0734558105469
+    },
+    {
+      "point_m": [
+        650.0,
+        -447.9889221191406,
+        339.0
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 353.39990234375
+    },
+    {
+      "point_m": [
+        650.0,
+        -459.64166259765625,
+        367.7338562011719
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 345.6123046875
+    },
+    {
+      "point_m": [
+        650.0,
+        -459.64166259765625,
+        398.89874267578125
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 352.3648376464844
+    },
+    {
+      "point_m": [
+        650.0,
+        -459.64166259765625,
+        431.55889892578125
+      ],
+      "object": "A_CONFLUENCE_inhabited_depth_0",
+      "distance_m": 362.1944274902344
+    },
+    {
+      "point_m": [
+        650.0,
+        -461.4165954589844,
+        464.9999694824219
+      ],
+      "object": "A_CONFLUENCE_occupied_floor_0_126",
+      "distance_m": 373.3389892578125
+    },
+    {
+      "point_m": [
+        650.0,
+        -492.9307861328125,
+        482.831298828125
+      ],
+      "object": "A_CONFLUENCE_civic_ground_1",
+      "distance_m": 353.5002746582031
+    },
+    {
+      "point_m": [
+        833.0833129882812,
+        1140.6492919921875,
+        650.0
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 1979.0927734375
+    },
+    {
+      "point_m": [
+        822.4711303710938,
+        986.3133544921875,
+        786.3411865234375
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 1857.3526611328125
+    },
+    {
+      "point_m": [
+        853.2578735351562,
+        1255.857666015625,
+        1055.8416748046875
+      ],
+      "object": "C_REAR_CIVILIZATION_inhabited_depth_0",
+      "distance_m": 2197.17529296875
+    },
+    {
+      "point_m": [
+        858.126708984375,
+        1254.603759765625,
+        1262.233154296875
+      ],
+      "object": "C_REAR_CIVILIZATION_occupied_floor_1_38",
+      "distance_m": 2275.048583984375
+    },
+    {
+      "point_m": [
+        766.954833984375,
+        326.18701171875,
+        950.0000610351562
+      ],
+      "object": "F_INNER_CITY_deep_public_land",
+      "distance_m": 1301.7391357421875
+    },
+    {
+      "point_m": [
+        1016.1666259765625,
+        1140.6492919921875,
+        650.0
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 2004.337158203125
+    },
+    {
+      "point_m": [
+        1001.0278930664062,
+        1017.828369140625,
+        794.78564453125
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 1914.4117431640625
+    },
+    {
+      "point_m": [
+        1074.760986328125,
+        1348.128662109375,
+        1089.419921875
+      ],
+      "object": "C_REAR_CIVILIZATION_inhabited_depth_0",
+      "distance_m": 2325.072998046875
+    },
+    {
+      "point_m": [
+        1085.4429931640625,
+        1349.322265625,
+        1306.23779296875
+      ],
+      "object": "C_REAR_CIVILIZATION_occupied_floor_1_82",
+      "distance_m": 2409.62109375
+    },
+    {
+      "point_m": [
+        1098.1951904296875,
+        1357.890625,
+        1538.4130859375
+      ],
+      "object": "C_REAR_CIVILIZATION_inhabited_depth_2",
+      "distance_m": 2524.287109375
+    },
+    {
+      "point_m": [
+        1199.2498779296875,
+        1140.6494140625,
+        650.0
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 2045.7186279296875
+    },
+    {
+      "point_m": [
+        1185.99658203125,
+        1050.469970703125,
+        803.531982421875
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 1989.316650390625
+    },
+    {
+      "point_m": [
+        1317.081298828125,
+        1449.071044921875,
+        1126.153564453125
+      ],
+      "object": "C_REAR_CIVILIZATION_inhabited_depth_0",
+      "distance_m": 2484.58935546875
+    },
+    {
+      "point_m": [
+        1335.85400390625,
+        1456.8916015625,
+        1356.212646484375
+      ],
+      "object": "C_REAR_CIVILIZATION_inhabited_depth_1",
+      "distance_m": 2581.343505859375
+    },
+    {
+      "point_m": [
+        1355.7138671875,
+        1465.164306640625,
+        1599.5947265625
+      ],
+      "object": "C_REAR_CIVILIZATION_inhabited_depth_2",
+      "distance_m": 2701.4794921875
+    },
+    {
+      "point_m": [
+        1382.333251953125,
+        1140.6492919921875,
+        650.0
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 2102.28466796875
+    },
+    {
+      "point_m": [
+        1377.7294921875,
+        1084.3050537109375,
+        812.5980224609375
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 2082.094482421875
+    },
+    {
+      "point_m": [
+        1565.41650390625,
+        1140.6494140625,
+        650.0
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 2172.849853515625
+    },
+    {
+      "point_m": [
+        1576.6046142578125,
+        1119.4007568359375,
+        822.0018920898438
+      ],
+      "object": "C_REAR_DELTA_deep_public_land",
+      "distance_m": 2192.532958984375
+    },
+    {
+      "point_m": [
+        1907.461669921875,
+        1743.7265625,
+        1233.380859375
+      ],
+      "object": "T_REAR_LINK_public_deck",
+      "distance_m": 2984.734375
+    }
+  ],
+  "note": "Same supported low-level eye; matched 15 degree upward pitch. No route certification."
+}

@@ -1,0 +1,16 @@
+00:02.438  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\models\C55A_IMPORTED.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+R21_RENDER_START C55A inspection_interior
+00:49.875  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\inspection_interior.png'
+R21_RENDER_DONE C55A inspection_interior
+00:49.875  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R19\final\R19_LIVING_HORIZON.blend"
+R21_RENDER_START R19 inspection_interior
+01:33.563  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\R19\inspection_interior.png'
+R21_RENDER_DONE R19 inspection_interior
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

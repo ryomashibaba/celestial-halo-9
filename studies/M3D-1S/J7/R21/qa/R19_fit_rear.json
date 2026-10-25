@@ -1,0 +1,26 @@
+{
+  "file": "renders\\R19\\fit_rear.png",
+  "position_m": [
+    0.0,
+    10675.9892578125,
+    2736.845458984375
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2096.2861328125
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "center_distance_m": 10695.189874562671,
+  "regime": "fit"
+}
