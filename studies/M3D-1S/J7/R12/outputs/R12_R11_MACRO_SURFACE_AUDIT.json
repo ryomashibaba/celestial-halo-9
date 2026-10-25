@@ -11,19 +11,19 @@
       "model_bounds_m": [
         [
           -3059.57,
-          -61.79,
-          -1672.31
+          -1940.0,
+          -61.79
         ],
         [
           3060.67,
-          3610.45,
-          1940.0
+          1672.31,
+          3610.45
         ]
       ],
       "model_span_xyz_m": [
         6120.24,
-        3672.24,
-        3612.31
+        3612.31,
+        3672.24
       ],
       "all_face_area_proxy_m2": 112519686.27,
       "macro_face_area_at_or_above_100m2_m2": 103629676.73,
@@ -156,82 +156,82 @@
         {
           "z_from_m": -300,
           "z_to_m": -50,
-          "macro_face_area_m2": 6543491.03
+          "macro_face_area_m2": 0.0
         },
         {
           "z_from_m": -50,
           "z_to_m": 200,
-          "macro_face_area_m2": 227128.37
+          "macro_face_area_m2": 3403071.73
         },
         {
           "z_from_m": 200,
           "z_to_m": 450,
-          "macro_face_area_m2": 12495004.36
+          "macro_face_area_m2": 7498712.37
         },
         {
           "z_from_m": 450,
           "z_to_m": 700,
-          "macro_face_area_m2": 16269388.46
+          "macro_face_area_m2": 9396610.37
         },
         {
           "z_from_m": 700,
           "z_to_m": 950,
-          "macro_face_area_m2": 4283827.79
+          "macro_face_area_m2": 11891500.97
         },
         {
           "z_from_m": 950,
           "z_to_m": 1200,
-          "macro_face_area_m2": 6959312.32
+          "macro_face_area_m2": 12065190.16
         },
         {
           "z_from_m": 1200,
           "z_to_m": 1450,
-          "macro_face_area_m2": 6574682.2
+          "macro_face_area_m2": 11297073.39
         },
         {
           "z_from_m": 1450,
           "z_to_m": 1700,
-          "macro_face_area_m2": 2896279.01
+          "macro_face_area_m2": 10118907.69
         },
         {
           "z_from_m": 1700,
           "z_to_m": 1950,
-          "macro_face_area_m2": 171480.0
+          "macro_face_area_m2": 9688991.98
         },
         {
           "z_from_m": 1950,
           "z_to_m": 2200,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 8297354.33
         },
         {
           "z_from_m": 2200,
           "z_to_m": 2450,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 7006663.04
         },
         {
           "z_from_m": 2450,
           "z_to_m": 2700,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 5032310.41
         },
         {
           "z_from_m": 2700,
           "z_to_m": 2950,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 4226616.53
         },
         {
           "z_from_m": 2950,
           "z_to_m": 3200,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 2498983.88
         },
         {
           "z_from_m": 3200,
           "z_to_m": 3450,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 1070472.69
         },
         {
           "z_from_m": 3450,
           "z_to_m": 3700,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 137217.17
         },
         {
           "z_from_m": 3700,
@@ -270,8 +270,8 @@
             90,
             74
           ],
-          "occupied_cells_surface_centroid_proxy": 1055,
-          "sum_macro_face_area_m2": 56420593.54
+          "occupied_cells_surface_centroid_proxy": 1558,
+          "sum_macro_face_area_m2": 103629676.73
         },
         "YZ": {
           "x_axis": "Y_metres",
@@ -288,11 +288,18 @@
             90,
             74
           ],
-          "occupied_cells_surface_centroid_proxy": 652,
-          "sum_macro_face_area_m2": 53683128.94
+          "occupied_cells_surface_centroid_proxy": 1368,
+          "sum_macro_face_area_m2": 103629676.73
         }
       },
       "interpretation_warning": "Projected surface area and face-centroid occupancy are NOT a true solid-volume, hollow-void, clearance, traversal, habitation or artistic-quality test.",
+      "blender_reference_extent_m": [
+        6120.239013671875,
+        3612.312255859375,
+        3672.242874145508
+      ],
+      "GLB_blender_Zup_bounds_max_span_delta_m": 0.0029,
+      "basis_conversion": "trimesh Y-up -> Blender Z-up: [x,-z,y]",
       "glb_bytes": 3779456,
       "glb_sha256": "39101aee8454812f65af0e906b4eaf39e325ab5e148dffd5e9487674b316a94c"
     },
@@ -303,19 +310,19 @@
       "model_bounds_m": [
         [
           -2983.29,
-          -113.67,
-          -1444.55
+          -2900.0,
+          -113.67
         ],
         [
           3119.7,
-          3598.78,
-          2900.0
+          1444.55,
+          3598.78
         ]
       ],
       "model_span_xyz_m": [
         6102.99,
-        3712.44,
-        4344.55
+        4344.55,
+        3712.44
       ],
       "all_face_area_proxy_m2": 439300739.04,
       "macro_face_area_at_or_above_100m2_m2": 439207857.9,
@@ -448,82 +455,82 @@
         {
           "z_from_m": -300,
           "z_to_m": -50,
-          "macro_face_area_m2": 7987236.22
+          "macro_face_area_m2": 0.0
         },
         {
           "z_from_m": -50,
           "z_to_m": 200,
-          "macro_face_area_m2": 13682001.57
+          "macro_face_area_m2": 41756128.02
         },
         {
           "z_from_m": 200,
           "z_to_m": 450,
-          "macro_face_area_m2": 26699597.65
+          "macro_face_area_m2": 59942763.4
         },
         {
           "z_from_m": 450,
           "z_to_m": 700,
-          "macro_face_area_m2": 44455330.84
+          "macro_face_area_m2": 16808786.98
         },
         {
           "z_from_m": 700,
           "z_to_m": 950,
-          "macro_face_area_m2": 69873296.79
+          "macro_face_area_m2": 75714595.1
         },
         {
           "z_from_m": 950,
           "z_to_m": 1200,
-          "macro_face_area_m2": 53247862.5
+          "macro_face_area_m2": 20833834.36
         },
         {
           "z_from_m": 1200,
           "z_to_m": 1450,
-          "macro_face_area_m2": 15090516.59
+          "macro_face_area_m2": 60312795.12
         },
         {
           "z_from_m": 1450,
           "z_to_m": 1700,
-          "macro_face_area_m2": 1734213.27
+          "macro_face_area_m2": 26809194.28
         },
         {
           "z_from_m": 1700,
           "z_to_m": 1950,
-          "macro_face_area_m2": 2545788.34
+          "macro_face_area_m2": 25553197.93
         },
         {
           "z_from_m": 1950,
           "z_to_m": 2200,
-          "macro_face_area_m2": 4680.0
+          "macro_face_area_m2": 33172368.21
         },
         {
           "z_from_m": 2200,
           "z_to_m": 2450,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 16827741.84
         },
         {
           "z_from_m": 2450,
           "z_to_m": 2700,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 29788890.61
         },
         {
           "z_from_m": 2700,
           "z_to_m": 2950,
-          "macro_face_area_m2": 15946.72
+          "macro_face_area_m2": 8023955.47
         },
         {
           "z_from_m": 2950,
           "z_to_m": 3200,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 18729561.64
         },
         {
           "z_from_m": 3200,
           "z_to_m": 3450,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 4743209.33
         },
         {
           "z_from_m": 3450,
           "z_to_m": 3700,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 190835.61
         },
         {
           "z_from_m": 3700,
@@ -562,8 +569,8 @@
             90,
             74
           ],
-          "occupied_cells_surface_centroid_proxy": 774,
-          "sum_macro_face_area_m2": 235336470.49
+          "occupied_cells_surface_centroid_proxy": 1812,
+          "sum_macro_face_area_m2": 439207857.9
         },
         "YZ": {
           "x_axis": "Y_metres",
@@ -580,11 +587,18 @@
             90,
             74
           ],
-          "occupied_cells_surface_centroid_proxy": 609,
-          "sum_macro_face_area_m2": 213652971.37
+          "occupied_cells_surface_centroid_proxy": 1323,
+          "sum_macro_face_area_m2": 439207857.9
         }
       },
       "interpretation_warning": "Projected surface area and face-centroid occupancy are NOT a true solid-volume, hollow-void, clearance, traversal, habitation or artistic-quality test.",
+      "blender_reference_extent_m": [
+        6102.990234375,
+        4344.545166015625,
+        3712.444465637207
+      ],
+      "GLB_blender_Zup_bounds_max_span_delta_m": 0.0048,
+      "basis_conversion": "trimesh Y-up -> Blender Z-up: [x,-z,y]",
       "glb_bytes": 2546728,
       "glb_sha256": "1c3f967027431b0f2e6223b2a72768f29426e17c61befb51fe9030287631e97c"
     },
@@ -595,19 +609,19 @@
       "model_bounds_m": [
         [
           -3106.35,
-          -166.23,
-          -1993.59
+          -2900.0,
+          -166.23
         ],
         [
           2901.53,
-          4298.22,
-          2900.0
+          1993.59,
+          4298.22
         ]
       ],
       "model_span_xyz_m": [
         6007.88,
-        4464.45,
-        4893.59
+        4893.59,
+        4464.45
       ],
       "all_face_area_proxy_m2": 322821895.05,
       "macro_face_area_at_or_above_100m2_m2": 322356560.15,
@@ -646,19 +660,19 @@
       ],
       "largest_15_individual_mesh_nodes_by_surface_area": [
         {
-          "name": "R01 | ascending inhabited western fold_68fda9",
+          "name": "R01 | ascending inhabited western fold_f9fbc6",
           "face_area_m2": 18724773.366,
           "object_span_max_m": 6000.0,
           "triangles": 2031
         },
         {
-          "name": "R02 | front continent fractures upward_e4d885",
+          "name": "R02 | front continent fractures upward_54d4e1",
           "face_area_m2": 17177807.322,
           "object_span_max_m": 5600.0,
           "triangles": 1823
         },
         {
-          "name": "R03 | back return living cliff_30ff98",
+          "name": "R03 | back return living cliff_1d7d49",
           "face_area_m2": 12679862.998,
           "object_span_max_m": 4590.0,
           "triangles": 1352
@@ -740,97 +754,97 @@
         {
           "z_from_m": -300,
           "z_to_m": -50,
-          "macro_face_area_m2": 15119401.71
+          "macro_face_area_m2": 3366569.51
         },
         {
           "z_from_m": -50,
           "z_to_m": 200,
-          "macro_face_area_m2": 15343722.43
+          "macro_face_area_m2": 63644316.06
         },
         {
           "z_from_m": 200,
           "z_to_m": 450,
-          "macro_face_area_m2": 13037149.18
+          "macro_face_area_m2": 40116278.76
         },
         {
           "z_from_m": 450,
           "z_to_m": 700,
-          "macro_face_area_m2": 14769148.52
+          "macro_face_area_m2": 13257835.77
         },
         {
           "z_from_m": 700,
           "z_to_m": 950,
-          "macro_face_area_m2": 46247390.59
+          "macro_face_area_m2": 16188319.06
         },
         {
           "z_from_m": 950,
           "z_to_m": 1200,
-          "macro_face_area_m2": 27941661.73
+          "macro_face_area_m2": 32787288.6
         },
         {
           "z_from_m": 1200,
           "z_to_m": 1450,
-          "macro_face_area_m2": 20026910.88
+          "macro_face_area_m2": 34824947.06
         },
         {
           "z_from_m": 1450,
           "z_to_m": 1700,
-          "macro_face_area_m2": 4761654.52
+          "macro_face_area_m2": 17006099.61
         },
         {
           "z_from_m": 1700,
           "z_to_m": 1950,
-          "macro_face_area_m2": 6785616.97
+          "macro_face_area_m2": 8023426.46
         },
         {
           "z_from_m": 1950,
           "z_to_m": 2200,
-          "macro_face_area_m2": 211754.87
+          "macro_face_area_m2": 9073398.18
         },
         {
           "z_from_m": 2200,
           "z_to_m": 2450,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 16213157.7
         },
         {
           "z_from_m": 2450,
           "z_to_m": 2700,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 19280611.77
         },
         {
           "z_from_m": 2700,
           "z_to_m": 2950,
-          "macro_face_area_m2": 15946.72
+          "macro_face_area_m2": 16650820.46
         },
         {
           "z_from_m": 2950,
           "z_to_m": 3200,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 12660584.5
         },
         {
           "z_from_m": 3200,
           "z_to_m": 3450,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 8571997.61
         },
         {
           "z_from_m": 3450,
           "z_to_m": 3700,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 7106893.88
         },
         {
           "z_from_m": 3700,
           "z_to_m": 3950,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 3049167.65
         },
         {
           "z_from_m": 3950,
           "z_to_m": 4200,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 513027.78
         },
         {
           "z_from_m": 4200,
           "z_to_m": 4450,
-          "macro_face_area_m2": 0.0
+          "macro_face_area_m2": 21819.73
         },
         {
           "z_from_m": 4450,
@@ -854,8 +868,8 @@
             90,
             74
           ],
-          "occupied_cells_surface_centroid_proxy": 1212,
-          "sum_macro_face_area_m2": 164260358.13
+          "occupied_cells_surface_centroid_proxy": 2262,
+          "sum_macro_face_area_m2": 322356560.15
         },
         "YZ": {
           "x_axis": "Y_metres",
@@ -872,11 +886,18 @@
             90,
             74
           ],
-          "occupied_cells_surface_centroid_proxy": 914,
-          "sum_macro_face_area_m2": 144907838.74
+          "occupied_cells_surface_centroid_proxy": 2247,
+          "sum_macro_face_area_m2": 322356560.15
         }
       },
       "interpretation_warning": "Projected surface area and face-centroid occupancy are NOT a true solid-volume, hollow-void, clearance, traversal, habitation or artistic-quality test.",
+      "blender_reference_extent_m": [
+        6007.878662109375,
+        4893.5943603515625,
+        4464.448928833008
+      ],
+      "GLB_blender_Zup_bounds_max_span_delta_m": 0.0044,
+      "basis_conversion": "trimesh Y-up -> Blender Z-up: [x,-z,y]",
       "glb_bytes": 3112296,
       "glb_sha256": "6577ea488bf4825baa4cdbb863b23b928a9fcb21122a46ea60ef284b490a0a39"
     }
