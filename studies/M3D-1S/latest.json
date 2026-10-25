@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R14",
+  "research_id": "M3D-1S/J7-R16",
   "date_jst": "2026-10-25",
-  "status": "J7_R14_ACTUAL_BLENDER_6_SIMILAR_NEIGHBORHOODS_SPATIAL_PILOT_TECH_PASS__ART_REJECT",
-  "research_branch": "research/m3d1s-j7-r14-lived-world-spatial-pilot-20261025",
+  "status": "J7_R16_GRAND_CENTRAL_ART_DIRECTION_PREWORK_COMPLETE__R15_ONLY_OPTIONAL_TINY_LOCAL_COMPONENT__NO_REAL_3D",
+  "research_branch": "research/m3d1s-j7-r16-grand-central-art-reset-20261025",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "GITHUB_ACTIONS_BLENDER_4_0_2_REMOTE_ONLY__NO_LOCAL_COMPUTER_USE",
+  "work_status": "CHAT_ONLY_GITHUB_DESIGN_NO_LOCAL_WORK__J7_R17_WORK_NOTICE_MADE",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -584,6 +584,41 @@
         "formal_art_adoption": "NONE",
         "minecraft_construction": "HOLD",
         "city_master_complete": false
+      },
+      "r15": {
+        "stage": "M3D-1S/J7-R15",
+        "branch": "research/m3d1s-j7-r15-symmetric-lived-world-20261025",
+        "pr": 47,
+        "head": "a8bb4eab5ee3c5ea622f5233601c44fa291eef95",
+        "art": "ART_REJECT",
+        "final_blend": "studies/M3D-1S/J7/R15/revision_2/R15_FINAL.blend",
+        "final_glb": "studies/M3D-1S/J7/R15/revision_2/R15_FINAL.glb",
+        "review": "studies/M3D-1S/J7/R15/R15_ART_REVIEW_JA.md",
+        "handoff": "studies/M3D-1S/J7/R15/R15_HANDOFF.json",
+        "model_xyz_span_m": [
+          2740,
+          1699.8538208007812,
+          1884
+        ],
+        "persistence": "six_blend_and_glb_pairs_passed_basic_readback",
+        "user_reassessment": "R15 is ONLY potential tiny internal urban spatial concept; NEVER central megaform nor mandatory form or adopted component",
+        "formal_art_adopted": 0,
+        "construction": "HOLD"
+      },
+      "r16": {
+        "stage": "M3D-1S/J7-R16",
+        "art_charter": "studies/M3D-1S/J7/R16/R16_GRAND_CENTRAL_ART_CHARTER_JA.md",
+        "next_work_gate": "studies/M3D-1S/J7/R16/R16_CENTRAL_GRANDEUR_WORK_GATE.json",
+        "decision_log": "docs/policy/DECISION_LOG.md (research branch append)",
+        "status": "RESEARCH_PREWORK_GRAND_CENTRAL_ART_CHARTER_COMPLETE",
+        "new_blend": false,
+        "new_glb": false,
+        "local_work_used": false,
+        "R15_role": "OPTIONAL_TINY_INTERNAL_MOTIF_ONLY_NOT_CENTRAL_SILHOUETTE",
+        "grand_central_design_adopted": false,
+        "formal_art_adopted": 0,
+        "construction": "HOLD",
+        "next": "J7-R17 local Work paste-ready prompt on next user continuation"
       }
     }
   },
@@ -603,12 +638,17 @@
     "R14_ART_REJECT_GENERIC_REPETITIVE_NEIGHBORHOOD_PILOT",
     "R14_TRUE_PUBLIC_ACCESS_LINKS_AND_WALKABILITY_UNCERTIFIED",
     "R14_FULL_HABITABLE_WORLD_NOT_PROVEN",
-    "R14_CENTRAL_ARCHITECTURE_NOT_ACCEPTED"
+    "R14_CENTRAL_ARCHITECTURE_NOT_ACCEPTED",
+    "R15_ART_REJECT_NOT_A_CENTRAL_MEGA_STRUCTURE",
+    "R16_NO_NEW_BLENDER_MODEL_PREWORK_ONLY",
+    "R17_LOCAL_WORK_NOT_YET_EXECUTED",
+    "GRAND_CENTRAL_ART_STILL_UNADOPTED",
+    "10KM_CITY_MASTER_NOT_COMPLETE"
   ],
-  "next_gate": "J7-R15: if asked to continue provide paste-ready LOCAL WORK prompt. User explicitly prefers non-occupying Blender MCP/background bpy with no Computer Use foreground without prior approval. ART-FIRST: design one truly inhabited 300-1000m future urban world before macro shaping; preserve R13/R14 failures only as research, not expand them.",
+  "next_gate": "J7-R17: next user continuation gets paste-ready LOCAL WORK prompt. Use nonoccupying Blender MCP / background Blender; start with 2 truly distinct km-scale grand inhabited central master-art forms, observe actual front/rear/side/aerial/underside/cutaways, refine main 3D volumes and inhabited worlds twice, upload BLEND GLB and image proof to isolated GitHub branch. R15 is only optional tiny localized spatial vocabulary. No handoff popup; construction HOLD.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "REAL_BLENDER_5_2_1_MODELS_RENDERED_AND_GLB_REIMPORTED",
-  "art_review": "REJECT",
+  "art_review": "NOT_ACCEPTED__R15_REJECT__R16_NO_MODEL",
   "historical_missing_through_r10": [
     "BLEND",
     "MULTIVIEW_PHOTOREAL_ART_RENDERS",
