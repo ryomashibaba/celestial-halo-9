@@ -1,0 +1,267 @@
+{
+  "schema": "halo9.j7r14.single_real_urban_world_pilot.v1",
+  "art_evaluation": "TO_BE_IMAGE_REVIEWED_RESEARCH_ONLY_NOT_ACCEPTED",
+  "source": "Blender 4.0+ actual native mesh and Workbench render",
+  "model_role": "local_300_to_1000m_urban_world_section_NOT_CENTRAL_ART",
+  "coords": "NONCANONICAL_RESEARCH_Z_UP_METERS",
+  "Blender_version": "4.0.2",
+  "urban_world_count": 6,
+  "actual_nodes": [
+    {
+      "name": "D01_ORIGIN_CAVERN",
+      "center": [
+        -340,
+        -340,
+        79
+      ],
+      "entry": [
+        -140.8,
+        -340,
+        88
+      ],
+      "height_m": 60,
+      "levels": 3,
+      "rx": 240,
+      "ry": 160
+    },
+    {
+      "name": "D02_TIDE_GARDEN",
+      "center": [
+        345,
+        -270,
+        109
+      ],
+      "entry": [
+        519.3,
+        -270,
+        118
+      ],
+      "height_m": 90,
+      "levels": 4,
+      "rx": 210,
+      "ry": 165
+    },
+    {
+      "name": "D03_OVERHANG_COMMUNE",
+      "center": [
+        -305,
+        85,
+        264
+      ],
+      "entry": [
+        -105.80000000000001,
+        85,
+        273
+      ],
+      "height_m": 245,
+      "levels": 4,
+      "rx": 240,
+      "ry": 215
+    },
+    {
+      "name": "D04_SKYWEAVE",
+      "center": [
+        310,
+        205,
+        384
+      ],
+      "entry": [
+        488.45,
+        205,
+        393
+      ],
+      "height_m": 365,
+      "levels": 4,
+      "rx": 215,
+      "ry": 185
+    },
+    {
+      "name": "D05_HANGING_FOREST",
+      "center": [
+        -170,
+        425,
+        459
+      ],
+      "entry": [
+        -41.349999999999994,
+        425,
+        468
+      ],
+      "height_m": 440,
+      "levels": 3,
+      "rx": 155,
+      "ry": 185
+    },
+    {
+      "name": "D06_VERTICAL_HARBOR",
+      "center": [
+        90,
+        490,
+        534
+      ],
+      "entry": [
+        276.75,
+        490,
+        543
+      ],
+      "height_m": 515,
+      "levels": 3,
+      "rx": 225,
+      "ry": 140
+    }
+  ],
+  "explicit_access_links": [
+    {
+      "from": "D01_ORIGIN_CAVERN",
+      "to": "D02_TIDE_GARDEN",
+      "horizontal_separation_m": 663.8,
+      "level_difference_m": 30,
+      "type": "level_route_rough",
+      "spatial_geometry_created": true,
+      "human_walkability": "NOT_CERTIFIED"
+    },
+    {
+      "from": "D01_ORIGIN_CAVERN",
+      "to": "D03_OVERHANG_COMMUNE",
+      "horizontal_separation_m": 426.44,
+      "level_difference_m": 185,
+      "type": "two_lift_terminals_plus_high_crossing_unverified",
+      "spatial_geometry_created": true,
+      "human_walkability": "NOT_CERTIFIED"
+    },
+    {
+      "from": "D02_TIDE_GARDEN",
+      "to": "D04_SKYWEAVE",
+      "horizontal_separation_m": 476.0,
+      "level_difference_m": 275,
+      "type": "two_lift_terminals_plus_high_crossing_unverified",
+      "spatial_geometry_created": true,
+      "human_walkability": "NOT_CERTIFIED"
+    },
+    {
+      "from": "D03_OVERHANG_COMMUNE",
+      "to": "D04_SKYWEAVE",
+      "horizontal_separation_m": 606.25,
+      "level_difference_m": 120,
+      "type": "two_lift_terminals_plus_high_crossing_unverified",
+      "spatial_geometry_created": true,
+      "human_walkability": "NOT_CERTIFIED"
+    },
+    {
+      "from": "D03_OVERHANG_COMMUNE",
+      "to": "D05_HANGING_FOREST",
+      "horizontal_separation_m": 346.05,
+      "level_difference_m": 195,
+      "type": "two_lift_terminals_plus_high_crossing_unverified",
+      "spatial_geometry_created": true,
+      "human_walkability": "NOT_CERTIFIED"
+    },
+    {
+      "from": "D04_SKYWEAVE",
+      "to": "D06_VERTICAL_HARBOR",
+      "horizontal_separation_m": 355.02,
+      "level_difference_m": 150,
+      "type": "two_lift_terminals_plus_high_crossing_unverified",
+      "spatial_geometry_created": true,
+      "human_walkability": "NOT_CERTIFIED"
+    },
+    {
+      "from": "D05_HANGING_FOREST",
+      "to": "D06_VERTICAL_HARBOR",
+      "horizontal_separation_m": 324.67,
+      "level_difference_m": 75,
+      "type": "two_lift_terminals_plus_high_crossing_unverified",
+      "spatial_geometry_created": true,
+      "human_walkability": "NOT_CERTIFIED"
+    }
+  ],
+  "link_count": 7,
+  "connected_graph_topologically": true,
+  "floor_and_vertical_access": "GEOMETRY_PRESENT_NOT_REAL_WALKABILITY_CERTIFICATION",
+  "all_navigable": "NOT_CERTIFIED",
+  "true_void_volume": "NOT_MEASURED",
+  "main_city_master_completed": false,
+  "minecraft_construction": "HOLD",
+  "research_bounds": [
+    [
+      -579.711,
+      -648.452,
+      16.0
+    ],
+    [
+      542.536,
+      846.74,
+      748.0
+    ]
+  ],
+  "mesh_count": 316,
+  "vertices": 2644,
+  "triangles": 4024,
+  "mesh_roles": {
+    "multi_level_inhabited_open_precinct_floor": 147,
+    "distinct_open_public_world": 6,
+    "internal_promenade_with_measured_endpoints": 24,
+    "vertical_district_spatial_landmark": 24,
+    "exposed_inhabited_multilevel_urban_section": 84,
+    "occupied_fractured_crown_not_an_opaque_roof": 6,
+    "shared_floor_connected_city_route_proxy": 1,
+    "vertical_access_lift_shaft_geometry_not_certified": 12,
+    "high_city_route_physical_bridge": 6,
+    "distinct_urban_canyon_transfer_structure": 4,
+    "unverified_city_public_arrival": 1,
+    "unverified_north_city_release": 1
+  },
+  "rendered_views": [
+    {
+      "name": "01_FRONT",
+      "camera": "ORTHO",
+      "scale": 1675,
+      "bytes": 877471
+    },
+    {
+      "name": "02_OBLIQUE",
+      "camera": "ORTHO",
+      "scale": 1675,
+      "bytes": 891602
+    },
+    {
+      "name": "03_SIDE",
+      "camera": "ORTHO",
+      "scale": 1675,
+      "bytes": 802960
+    },
+    {
+      "name": "04_REAR",
+      "camera": "ORTHO",
+      "scale": 1675,
+      "bytes": 697790
+    },
+    {
+      "name": "05_AERIAL",
+      "camera": "ORTHO",
+      "scale": 1675,
+      "bytes": 978479
+    },
+    {
+      "name": "06_CIVIC_VOID",
+      "camera": "ORTHO",
+      "scale": 750,
+      "bytes": 972204
+    },
+    {
+      "name": "07_DISTRICT_INSIDE",
+      "camera": "ORTHO",
+      "scale": 590,
+      "bytes": 855492
+    },
+    {
+      "name": "08_HUMAN_SCALE",
+      "camera": "PERSP",
+      "scale": 24,
+      "bytes": 917306
+    }
+  ],
+  "native_blend_bytes": 173034,
+  "glb_bytes": 376020,
+  "reimport_meshes": 316
+}
