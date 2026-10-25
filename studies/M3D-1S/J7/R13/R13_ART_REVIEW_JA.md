@@ -75,6 +75,7 @@ R12と同様に、各メッシュの最大世界寸法で分類した三角形�
 - 断面と内部画像は、開口が本当の立体形状であり、周囲に厚い建築と複数高度の別地区があることを示す。ただし空洞のすべてが閉鎖空間というわけではなく、上空・外部に連なる部分もある。
 - 内部表面レイを記録。中高度視点では上方約268m、下方810m、東方約2589.5mに実表面が存在。1.7mカメラの直下は Human common floor、距離 **1.699951m**。
 - これらは少数の表面測定であり、全空洞の体積・連結クリアランス・全経路の歩行可能性・居住可能面積は**未検証**。名目的な地区用途や無交差のメッシュだけで居住可能性を認証していない。
+- 各 districts.json は生成時の地区・開口の仕様記録であり、後続の切削を反映した最終空洞体積の実測台帳ではない。最終実形状はBLEND/GLBと実断面を優先する。
 
 ## 実寸・保存検証
 
@@ -100,6 +101,8 @@ R12と同様に、各メッシュの最大世界寸法で分類した三角形�
 
 **J7-R14の最優先**は、この外郭を装飾して延命することではない。300〜1000mの一地区において、厚い居住質量・共有空間・複数高度の地盤・入口・上下移動を一体で造形し、人間視点と地区全景の双方で「生活世界」と読める密度を得る。その地区の内外関係が数kmの主形状を構成するよう再設計する。今回のような同型の六角開口、薄い外縁、無地の岩面を反復しない。
 
-GitHub納品の実HEAD・Draft PR・再取得結果は R13_HANDOFF.json と qa/GITHUB_READBACK.json に分離する。本文の美術不合格は、納品・技術QAの成否で変更しない。
+GitHub研究ブランチ：research/m3d1s-j7-r13-habitable-world-mass-20261025。[新規Draft PR #45](https://github.com/ryomashibaba/celestial-halo-9/pull/45) のbaseはR12、既存#44は変更していない。実モデル・画像を保存した成果コミットは f7334cf06a4374bcdff40c370618d7910d0e8842。その固定URLから75件・57,480,905 bytesを独立HTTPSで再取得し、すべてのSHA256とサイズが一致した。
+
+最終モデル：[BLEND](https://github.com/ryomashibaba/celestial-halo-9/blob/f7334cf06a4374bcdff40c370618d7910d0e8842/studies/M3D-1S/J7/R13/revision_2/R13_C_R2.blend) / [GLB](https://github.com/ryomashibaba/celestial-halo-9/blob/f7334cf06a4374bcdff40c370618d7910d0e8842/studies/M3D-1S/J7/R13/revision_2/R13_C_R2.glb)。再取得結果は qa/GITHUB_READBACK.json、Draft PRと成果コミットの対応は R13_HANDOFF.json。検証記録を追加した最終ブランチHEADはPRのheadを参照する。本文の美術不合格は、納品・技術QAの成否で変更しない。
 
 **ART REJECT。研究記録として保存。正式採択なし、Minecraft施工HOLD。**

@@ -45,5 +45,13 @@
   ],
   "next_R14_priority": "Create a convincing inhabited 300-1000m world with interconnected public space and vertical access, then make these worlds generate the macro silhouette. Do not detail or adopt R13 shell as final.",
   "official_integration": "W0/H1-H6/SB01-SB16/HERO4/three axes/V1-V3 obligations retained; exact anchors and integration unverified",
-  "github_delivery": "PENDING_PUSH_AND_INDEPENDENT_READBACK"
+  "github_delivery": "PUSHED_DRAFT_PR_CREATED_AND_75_ARTIFACTS_BYTE_VERIFIED",
+  "draft_pr": 45,
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/45",
+  "artifact_commit": "f7334cf06a4374bcdff40c370618d7910d0e8842",
+  "independent_remote_readback": "qa/GITHUB_READBACK.json",
+  "remote_checked_files": 75,
+  "remote_checked_bytes": 57480905,
+  "remote_all_hashes_match": true,
+  "delivery_record": "This handoff is a later metadata commit; exact final head is the current PR #45 head. Model bytes are pinned by artifact_commit."
 }

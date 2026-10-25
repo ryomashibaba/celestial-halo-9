@@ -1,0 +1,459 @@
+{
+  "source": "Independent HTTPS raw file byte downloads, not local Git objects",
+  "commit": "f7334cf06a4374bcdff40c370618d7910d0e8842",
+  "checked_files": 75,
+  "checked_bytes": 57480905,
+  "all_match": true,
+  "files": [
+    {
+      "path": "exploration_A/01_FRONT.png",
+      "bytes": 991451,
+      "sha256": "bc969684167ca708e9f2cc37d7eff57062de8962725aa7084e5c07d9e1ea5c24",
+      "match": true
+    },
+    {
+      "path": "exploration_A/02_OBLIQUE.png",
+      "bytes": 1180323,
+      "sha256": "c816102177266ab8bc14286cd7e4bcbfb39791290cffe62bb00af5a68cfcaa6b",
+      "match": true
+    },
+    {
+      "path": "exploration_A/03_SIDE.png",
+      "bytes": 920709,
+      "sha256": "4ef4c066ba21c29b9fbc8ec18a26e0303fc25b530e9e5796835c3ffeda266c64",
+      "match": true
+    },
+    {
+      "path": "exploration_A/04_REAR.png",
+      "bytes": 1013888,
+      "sha256": "a12ad9b3366969ba97b125ce8daa943e626c782ed6036221b2259bace43ef9f0",
+      "match": true
+    },
+    {
+      "path": "exploration_A/05_AERIAL.png",
+      "bytes": 1336523,
+      "sha256": "0385926ae6d032854ec9fb306691d6d07ac01049eeb75bc6ea9ce281575b5546",
+      "match": true
+    },
+    {
+      "path": "exploration_A/06_GROUND.png",
+      "bytes": 1033204,
+      "sha256": "35f2a4b1c51508bd49445cc2649dde59fb7e6d1462c5e33073027afcc06e6856",
+      "match": true
+    },
+    {
+      "path": "exploration_A/cameras.json",
+      "bytes": 1177,
+      "sha256": "a290ac67fc0fc29c694858c35e6b5521cbcfb6cd3b93db08b069da10e505b374",
+      "match": true
+    },
+    {
+      "path": "exploration_A/districts.json",
+      "bytes": 29174,
+      "sha256": "2406d6f08852404ad2fa2c727557522b634219fe662b9ae8a34786fa15864cc8",
+      "match": true
+    },
+    {
+      "path": "exploration_A/R13_A.blend",
+      "bytes": 332226,
+      "sha256": "74cc1467cfe8ff447e06b9b35e782abbfd317c069e26d0e29a3ef651bee330f6",
+      "match": true
+    },
+    {
+      "path": "exploration_A/R13_A.glb",
+      "bytes": 3345068,
+      "sha256": "d87f9804cdf9a614bbc6d318922b28e26701d91382faf5283f98c283d7ed56a3",
+      "match": true
+    },
+    {
+      "path": "exploration_B/01_FRONT.png",
+      "bytes": 990049,
+      "sha256": "9345efbd1e02d96b4dbe6c751155b45b8cc42242372d2f54c8d8129bd1721489",
+      "match": true
+    },
+    {
+      "path": "exploration_B/02_OBLIQUE.png",
+      "bytes": 1152585,
+      "sha256": "03610e74958ed3b9743299398cb48539f0f0a6a09c1f234b3f8cd44f2d308468",
+      "match": true
+    },
+    {
+      "path": "exploration_B/03_SIDE.png",
+      "bytes": 888732,
+      "sha256": "5e5859542e44a7d8a07b228f4f4e3ffc871545c112ab190dfcc1e61885169d2e",
+      "match": true
+    },
+    {
+      "path": "exploration_B/04_REAR.png",
+      "bytes": 987670,
+      "sha256": "be53ccd958f67324986c9551b24188fa8d97fc5d9b1d283e8d9d39587b3a1360",
+      "match": true
+    },
+    {
+      "path": "exploration_B/05_AERIAL.png",
+      "bytes": 1245624,
+      "sha256": "000e784d367c2b277c08eec80fe91eee1233e51af1d07de87813512733310eec",
+      "match": true
+    },
+    {
+      "path": "exploration_B/06_GROUND.png",
+      "bytes": 1011565,
+      "sha256": "a354e87ef1f8204df9dfa7243abeddddab215edcdc4aab4dd4d97ac29c0605ce",
+      "match": true
+    },
+    {
+      "path": "exploration_B/cameras.json",
+      "bytes": 1177,
+      "sha256": "a290ac67fc0fc29c694858c35e6b5521cbcfb6cd3b93db08b069da10e505b374",
+      "match": true
+    },
+    {
+      "path": "exploration_B/districts.json",
+      "bytes": 849,
+      "sha256": "218e6c05e4ff6f40cce7ebb110894fa5f78662b8e7b254901bf674cec30d4dbf",
+      "match": true
+    },
+    {
+      "path": "exploration_B/R13_B.blend",
+      "bytes": 128600,
+      "sha256": "7b81f9cbda5744dd423ef0e1814a14b78a8740110a0a599b4a8c15084bb0242c",
+      "match": true
+    },
+    {
+      "path": "exploration_B/R13_B.glb",
+      "bytes": 461932,
+      "sha256": "232155ff0d929e2388ed5f6d9293723f817e03302cf8daab39817fb33e28dbfa",
+      "match": true
+    },
+    {
+      "path": "exploration_C/01_FRONT.png",
+      "bytes": 978471,
+      "sha256": "46b2369dddadda5f208087aae85fd954f43a55c0dd45872b1eb0f2e869edbc3c",
+      "match": true
+    },
+    {
+      "path": "exploration_C/02_OBLIQUE.png",
+      "bytes": 1113940,
+      "sha256": "65f884cff939d7165cb90bfbc8456fdc9688d63a8e4e451d48cc13fb766aec8d",
+      "match": true
+    },
+    {
+      "path": "exploration_C/03_SIDE.png",
+      "bytes": 940003,
+      "sha256": "6dcc902f2c5a8b85d3b14c4e20d1b467b6ff1e00ed877c097c9d4a1729ea88c8",
+      "match": true
+    },
+    {
+      "path": "exploration_C/04_REAR.png",
+      "bytes": 995317,
+      "sha256": "aa043fb4584b8a9f183ee3d709e6b037675836031016d0faa6d305f8996838da",
+      "match": true
+    },
+    {
+      "path": "exploration_C/05_AERIAL.png",
+      "bytes": 1244101,
+      "sha256": "657fa0537c09f627d8f7814b8c9dfce52d35f0fd2c87fb7371808d0535f35a1e",
+      "match": true
+    },
+    {
+      "path": "exploration_C/06_GROUND.png",
+      "bytes": 1003411,
+      "sha256": "9496c6898e8605cf288d025a25e4973718c3d58484ad704e291733311beae367",
+      "match": true
+    },
+    {
+      "path": "exploration_C/cameras.json",
+      "bytes": 1177,
+      "sha256": "a290ac67fc0fc29c694858c35e6b5521cbcfb6cd3b93db08b069da10e505b374",
+      "match": true
+    },
+    {
+      "path": "exploration_C/districts.json",
+      "bytes": 3790,
+      "sha256": "85d91659a7344d66a08d75d99dd5d797b460566bef964cd5ff9d22003366ba9e",
+      "match": true
+    },
+    {
+      "path": "exploration_C/R13_C.blend",
+      "bytes": 146061,
+      "sha256": "e9b84a15314faf2606660c1ac6bf1e39923a584f8d0fddaf1c06bfb965de102c",
+      "match": true
+    },
+    {
+      "path": "exploration_C/R13_C.glb",
+      "bytes": 496228,
+      "sha256": "182d17a77aca86ab2e5c8958ec71c56193b0ee31d44b9e35a796d77babfedf4d",
+      "match": true
+    },
+    {
+      "path": "selected/01_FRONT.png",
+      "bytes": 978475,
+      "sha256": "ceea0c1702e4f8a048ea06ed0af9e8c2aadec7234d62a1551e548a29f868325b",
+      "match": true
+    },
+    {
+      "path": "selected/02_OBLIQUE.png",
+      "bytes": 1113944,
+      "sha256": "fabb1c96b7b8a4cab6c8f556b780d5494617c1244280156e6bfe2fe5b51f12b3",
+      "match": true
+    },
+    {
+      "path": "selected/03_SIDE.png",
+      "bytes": 940007,
+      "sha256": "395bbd28dcff758e5531ed8912b063ac80ca575869f66b921fbf770077691ea2",
+      "match": true
+    },
+    {
+      "path": "selected/04_REAR.png",
+      "bytes": 995321,
+      "sha256": "5bb8314b61b0b32891bff59189bb706d9842a470e0d15bdcbfa959bc187b7c8b",
+      "match": true
+    },
+    {
+      "path": "selected/05_AERIAL.png",
+      "bytes": 1244105,
+      "sha256": "b166f3d9c67ae2e2e5a6f57b920954d7a99c4e98505ebbf4408ace785253a2c6",
+      "match": true
+    },
+    {
+      "path": "selected/06_GROUND.png",
+      "bytes": 1003415,
+      "sha256": "d30954ead2c685af22e903080f0493b55ddfad4b71d1389b45c15c6ea63c547d",
+      "match": true
+    },
+    {
+      "path": "selected/cameras.json",
+      "bytes": 1177,
+      "sha256": "a290ac67fc0fc29c694858c35e6b5521cbcfb6cd3b93db08b069da10e505b374",
+      "match": true
+    },
+    {
+      "path": "selected/districts.json",
+      "bytes": 3790,
+      "sha256": "85d91659a7344d66a08d75d99dd5d797b460566bef964cd5ff9d22003366ba9e",
+      "match": true
+    },
+    {
+      "path": "selected/R13_C_SELECTED.blend",
+      "bytes": 145777,
+      "sha256": "cc278e0809b8f70382539b1e9e769660d1e0620616fa3bc7fe98f9a5a4fbd151",
+      "match": true
+    },
+    {
+      "path": "selected/R13_C_SELECTED.glb",
+      "bytes": 496228,
+      "sha256": "182d17a77aca86ab2e5c8958ec71c56193b0ee31d44b9e35a796d77babfedf4d",
+      "match": true
+    },
+    {
+      "path": "revision_1/01_FRONT.png",
+      "bytes": 985635,
+      "sha256": "9a91af659f5b930db8038fd364e6197c788f3026160fb82805a4953d4d68ef2e",
+      "match": true
+    },
+    {
+      "path": "revision_1/02_OBLIQUE.png",
+      "bytes": 1146457,
+      "sha256": "1f3b7dfd363ebaad11d950cb4179ed619a9c87a8bf51d09edff12f1c4b66d8e9",
+      "match": true
+    },
+    {
+      "path": "revision_1/03_SIDE.png",
+      "bytes": 937604,
+      "sha256": "d4e5f548076376ddf27a1d30c7ebf8025965c46f492ffbf074fd32ac2496f5b5",
+      "match": true
+    },
+    {
+      "path": "revision_1/04_REAR.png",
+      "bytes": 1002710,
+      "sha256": "37a9272ff865a12dfc188cfdaf7da924752f9a37c8fd00a075ba1098fed7cada",
+      "match": true
+    },
+    {
+      "path": "revision_1/05_AERIAL.png",
+      "bytes": 1273411,
+      "sha256": "71cab8e25119e66a899e73e2a6d38ae1c7dbdc21f9264b96a0eedb196806042d",
+      "match": true
+    },
+    {
+      "path": "revision_1/06_GROUND.png",
+      "bytes": 1009486,
+      "sha256": "80d35a4d44c1520706cffb5e4ab82872b89ab1ddfaef167a3cb543a94d541c10",
+      "match": true
+    },
+    {
+      "path": "revision_1/cameras.json",
+      "bytes": 1177,
+      "sha256": "a290ac67fc0fc29c694858c35e6b5521cbcfb6cd3b93db08b069da10e505b374",
+      "match": true
+    },
+    {
+      "path": "revision_1/districts.json",
+      "bytes": 6507,
+      "sha256": "d22c6a0f8ec558198674ecbbcf7bf32443647f832d9e8232fba7be04649527ed",
+      "match": true
+    },
+    {
+      "path": "revision_1/R13_C_R1.blend",
+      "bytes": 178335,
+      "sha256": "8d8f10d49fc23ce8e1a6b74b82027631711dfea34a6b02dc5f9a7b48d65a6036",
+      "match": true
+    },
+    {
+      "path": "revision_1/R13_C_R1.glb",
+      "bytes": 882816,
+      "sha256": "5a0835dccb872c4b6e8b8bc445287ccceda81dc741bf26e62ee67bc88efaf828",
+      "match": true
+    },
+    {
+      "path": "revision_2/01_FRONT.png",
+      "bytes": 997675,
+      "sha256": "ca1d6d652368e79353004ab5a2259c67a5001e43bb1f380dc9d5d34d3263d64c",
+      "match": true
+    },
+    {
+      "path": "revision_2/02_OBLIQUE.png",
+      "bytes": 1175635,
+      "sha256": "a9f7ff0cc26e398216418bf90d3c46ce20a5658fff3c533bffb654985093902e",
+      "match": true
+    },
+    {
+      "path": "revision_2/03_SIDE.png",
+      "bytes": 947565,
+      "sha256": "c8e53479ff75c59bc17077694e4577186cb699e34aed079473fad40d16535445",
+      "match": true
+    },
+    {
+      "path": "revision_2/04_REAR.png",
+      "bytes": 1023475,
+      "sha256": "0c46b3aadecc956e3447a5b709ba0e9489cbe48e1074cbfc6b3e25808fb09d6c",
+      "match": true
+    },
+    {
+      "path": "revision_2/05_AERIAL.png",
+      "bytes": 1317852,
+      "sha256": "9d7dfd2f665f5e7488162358bf40264f54ba53dcde627899413e9a6ff315110b",
+      "match": true
+    },
+    {
+      "path": "revision_2/06_GROUND.png",
+      "bytes": 1013241,
+      "sha256": "6ddd1cdca55543b26f0cbdd6f19ec0553c52c1d561ea650f52f70db56d155835",
+      "match": true
+    },
+    {
+      "path": "revision_2/07_MAIN_CAVERN.png",
+      "bytes": 1067052,
+      "sha256": "236962bc5fbe6e159e2a31f4f93f34cfb457683c9cef7b36f1312661605925ef",
+      "match": true
+    },
+    {
+      "path": "revision_2/08_MID_CITY.png",
+      "bytes": 1185595,
+      "sha256": "b7943f0e949651c36382cc54921cc8d1ac2c276506aa4d605cdf17e748f43858",
+      "match": true
+    },
+    {
+      "path": "revision_2/09_HUMAN_EYE_1_7M.png",
+      "bytes": 1148915,
+      "sha256": "83874e034715829247603210d516bc82c9cbbb8b7ca148d70b7a86c8f99db378",
+      "match": true
+    },
+    {
+      "path": "revision_2/10_REVERSE_WORLD.png",
+      "bytes": 1111152,
+      "sha256": "4d60fe63521e4157ae3ca395d2cc503ae0497d6f81de62a8e9d676bf99a05205",
+      "match": true
+    },
+    {
+      "path": "revision_2/11_ZENITH_WORLD.png",
+      "bytes": 1089116,
+      "sha256": "877dd9440f84125206265547898787dbf9f5dcd70da6f2725412491e62d209ca",
+      "match": true
+    },
+    {
+      "path": "revision_2/cameras.json",
+      "bytes": 2208,
+      "sha256": "ccbf7f2769133327348c9b100da493c417aa4d7d56c2ce0960ba442e9d135688",
+      "match": true
+    },
+    {
+      "path": "revision_2/districts.json",
+      "bytes": 8268,
+      "sha256": "61fa5018ae72bc9b9a38d19e2907778828ffad1e6848da94d619ca51b7247c0a",
+      "match": true
+    },
+    {
+      "path": "revision_2/R13_C_R2.blend",
+      "bytes": 249149,
+      "sha256": "fe75170aaf8893e7c244831586fc8a83f71f243722d4aeae7956341c0f327081",
+      "match": true
+    },
+    {
+      "path": "revision_2/R13_C_R2.glb",
+      "bytes": 1682764,
+      "sha256": "dae8ef9d46536d7af33abbcbf40b42c3e5d24b73b2cecf6c87035370b58ef786",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_XZ_Y680/actual_cut_manifest.json",
+      "bytes": 16277,
+      "sha256": "055b29e3782fbf1d6971a70459efbe773002a6da6b2e7760e75212bd79f95566",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_XZ_Y680/cameras.json",
+      "bytes": 210,
+      "sha256": "4d29f5cc3181b174271f8898a36ff6f859aa7d3a431099cb0692dc798f87d463",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_XZ_Y680/SECTION_XZ_Y680.blend",
+      "bytes": 356587,
+      "sha256": "3668ddbf6b20dd04873ec7b1a7d7b9b12d00c50f7c27de27f1575cf5c1759f16",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_XZ_Y680/SECTION_XZ_Y680.glb",
+      "bytes": 1008284,
+      "sha256": "29173de5864e390c9c44f1a462de8d02d69fe72dda2b753851d1e15926d1859b",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_XZ_Y680/SECTION_XZ_Y680.png",
+      "bytes": 1178573,
+      "sha256": "085b2c54c9d85abe3ac0ecb3de5a2533295f7ee49ddf8c9a87ac569f1007790e",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_YZ_X0/actual_cut_manifest.json",
+      "bytes": 16278,
+      "sha256": "fd6ef578c07481586c01e67c4e6dd0fb99fc3d891151bebd948a90407508a660",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_YZ_X0/cameras.json",
+      "bytes": 211,
+      "sha256": "e98558b57af39883ba2c6b785f7fb76c69efe392f0efd8d51af705a91541effc",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_YZ_X0/SECTION_YZ_X0.blend",
+      "bytes": 364619,
+      "sha256": "4eb2a48345b95df44288a6578e0773e7a79a1b733d244e37e718eb443687520f",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_YZ_X0/SECTION_YZ_X0.glb",
+      "bytes": 1091140,
+      "sha256": "896662306dcde88a0f9a53f7175e7cd8f913ec93c0a144893dcdd84cd2a8308e",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_YZ_X0/SECTION_YZ_X0.png",
+      "bytes": 1107662,
+      "sha256": "b0d33c06e1e7b08e796eb679ae17073be22070a5f28a63bb7c196a05f5b0faab",
+      "match": true
+    }
+  ]
+}
