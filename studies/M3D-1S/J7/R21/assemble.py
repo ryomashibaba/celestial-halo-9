@@ -44,5 +44,5 @@ for path in (R/'qa').glob('C55A_CUT_*.json'):
         coords=[(40+(p[horizontal]-xmin)*scale,H-40-(p[2]-zmin)*scale) for p in e['points_m']]
         dr.line(coords,fill=color,width=2)
     dr.text((35,H-28),'Blue: massif surfaces   Orange: great hall surfaces   Grey: other geometry',font=small,fill='black')
-    im.save(O/(path.stem.replace('_CUT_','_SECTION_')+'_CONTOUR.png'))
+    im.save(O/(path.stem.replace('_CUT_','_section_')+'_CONTOUR.png'))
 print('CONTACT_SHEETS',len(list(O.iterdir())))
