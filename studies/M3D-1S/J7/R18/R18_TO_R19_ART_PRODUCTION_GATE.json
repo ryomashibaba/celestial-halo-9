@@ -1,0 +1,106 @@
+{
+  "schema": "halo9.j7r18.j7r19_art_gate.v1",
+  "date_jst": "2026-10-25",
+  "phase": "J7-R18 CHAT DESIGN PREWORK",
+  "base_R17": {
+    "pr": 49,
+    "head": "18980c60ec7037d71d80a60d4821306d2ec8faa3",
+    "art": "REJECT",
+    "model_m": [
+      5710,
+      4270,
+      4470
+    ]
+  },
+  "binding_user_decisions": {
+    "central_must_be_grand": true,
+    "r15_r17_only_possible_tiny_local_spatial_motifs": true,
+    "no_R17_binary_reuse_as_central": true,
+    "symmetry_allowed_locally_not_forced_globally": true,
+    "work_one_stage_advance_notice": true,
+    "prefer_nonoccupying_Blender": true,
+    "no_foreground_Computer_Use_without_explicit_permission": true
+  },
+  "artistic_hypothesis": {
+    "name": "天環地脈 / LIVING HORIZON",
+    "approved_as_formal_art": false,
+    "idea": "A continuous inhabited urban landform with many worlds, skies, public voids; not one giant building object with appended miniature towns.",
+    "world_components": [
+      {
+        "id": "root",
+        "name": "底界・海霧の都市陸",
+        "role": "thick lived ground linked to metropolitan terrain"
+      },
+      {
+        "id": "ascent",
+        "name": "斜昇・連続都市峡谷",
+        "role": "interconnected rising metropolitan city-canyon"
+      },
+      {
+        "id": "rear",
+        "name": "背界・大陸裏側の文明",
+        "role": "actively inhabited reverse city and underside"
+      },
+      {
+        "id": "crown",
+        "name": "高層・幾重の空の都市",
+        "role": "multiple distinct high urban ground worlds"
+      },
+      {
+        "id": "void",
+        "name": "内空・交わる巨大な空洞群",
+        "role": "two or more actual mutually connected 3D public sky openings"
+      }
+    ],
+    "primary_direction_first": true,
+    "forced_two_or_three_models": false,
+    "conceptual_not_official_coordinates": true
+  },
+  "R19_mandatory_evidence": [
+    "Real editable Blender initial city-landform with at least 3 genuinely distinct inhabited spaces and 2 actual, spatially connected open voids",
+    "Front, oblique, side, rear, aerial, underside real consistent-geometry Blender renders",
+    "Low/mid/high internal views and floor-verified human view if geometrically appropriate",
+    "Two actual Blender sections showing inhabited urban depth and open void relation",
+    "Real visible macro editing based on image criticism, before/after exact BLEND and GLB",
+    "10km city context only as noncanonical composition with W0/H/SB obligations retained",
+    "GitHub research branch and Draft PR with raw art files, review and exact evidence"
+  ],
+  "art_fail_early": [
+    "One ordinary giant building masquerades as an entire civilization",
+    "Another two monolithic walls, blank rock, disconnected shelf/crown or gigantic white ribbon",
+    "Rear/underside have no city",
+    "City mini houses stuck onto external macro sculpture",
+    "Same district shape copied at all elevations",
+    "Open white background mislabeled connected urban void",
+    "Polygons/bounds/CI success used as substitute for artistic acceptance"
+  ],
+  "work_operating_contract": {
+    "next_stage": "J7-R19",
+    "announced_now": true,
+    "next_turn_action": "Provide paste-ready LOCAL Work prompt only, no Chat handoff popup",
+    "model_and_effort_outside_prompt": "GPT-6.1 Sol High, optional GPT-6 Luna High",
+    "default_edit_method": "nonoccupying Blender MCP/independent background bpy",
+    "computer_use_foreground": "Only if justified and separately approved in advance",
+    "preserve": [
+      "main",
+      "Freeze",
+      "past model originals",
+      "M247-C research",
+      "W0",
+      "H1-H6",
+      "SB01-SB16",
+      "HERO4",
+      "axes/V1-V3",
+      "official world"
+    ]
+  },
+  "evidence_this_turn": {
+    "new_real_3d": false,
+    "new_images": false,
+    "local_work": false,
+    "formal_art_adopted": 0,
+    "minecraft_construction": "HOLD",
+    "city_master_complete": false
+  },
+  "design_doc": "studies/M3D-1S/J7/R18/R18_CIVILIZATION_LANDSCAPE_ART_DIRECTION_JA.md"
+}
