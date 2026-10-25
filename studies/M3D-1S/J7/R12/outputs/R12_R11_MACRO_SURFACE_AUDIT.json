@@ -1,0 +1,888 @@
+{
+  "schema": "halo9.j7r12.r11_glb_macro_surface_audit.v1",
+  "source": "REAL_EXISTING_J7_R11_GLB",
+  "purpose": "Quantify visible distribution of large triangle surfaces, not judge art.",
+  "tri_threshold_for_map_m2": 100.0,
+  "cases": {
+    "A": {
+      "objects_examined": 1041,
+      "triangles_examined": 132304,
+      "invalid_vertex_objects": 0,
+      "model_bounds_m": [
+        [
+          -3059.57,
+          -61.79,
+          -1672.31
+        ],
+        [
+          3060.67,
+          3610.45,
+          1940.0
+        ]
+      ],
+      "model_span_xyz_m": [
+        6120.24,
+        3672.24,
+        3612.31
+      ],
+      "all_face_area_proxy_m2": 112519686.27,
+      "macro_face_area_at_or_above_100m2_m2": 103629676.73,
+      "macro_fraction_of_surface_area": 0.920992,
+      "size_bucket_by_object_max_span_m": [
+        {
+          "label": "under_20m",
+          "object_count": 64,
+          "surface_area_m2": 22.64,
+          "fraction_of_total_face_area": 0.0
+        },
+        {
+          "label": "20_to_100m",
+          "object_count": 864,
+          "surface_area_m2": 4747548.41,
+          "fraction_of_total_face_area": 0.042193
+        },
+        {
+          "label": "100_to_500m",
+          "object_count": 3,
+          "surface_area_m2": 238578.61,
+          "fraction_of_total_face_area": 0.00212
+        },
+        {
+          "label": "500_to_1500m",
+          "object_count": 12,
+          "surface_area_m2": 4278817.37,
+          "fraction_of_total_face_area": 0.038027
+        },
+        {
+          "label": "over_1500m",
+          "object_count": 98,
+          "surface_area_m2": 103254719.24,
+          "fraction_of_total_face_area": 0.917659
+        }
+      ],
+      "largest_15_individual_mesh_nodes_by_surface_area": [
+        {
+          "name": "A01 | lower inhabited tectonic keel",
+          "face_area_m2": 37676470.796,
+          "object_span_max_m": 6100.0,
+          "triangles": 1380
+        },
+        {
+          "name": "A03 | rear high continent",
+          "face_area_m2": 21525757.782,
+          "object_span_max_m": 5886.5,
+          "triangles": 1380
+        },
+        {
+          "name": "A02 | front returned continent",
+          "face_area_m2": 17561912.897,
+          "object_span_max_m": 6100.0,
+          "triangles": 1380
+        },
+        {
+          "name": "A30 | public inner promenade 0",
+          "face_area_m2": 3062807.772,
+          "object_span_max_m": 5673.0,
+          "triangles": 1380
+        },
+        {
+          "name": "A30 | public inner promenade 1",
+          "face_area_m2": 2608412.411,
+          "object_span_max_m": 4697.0,
+          "triangles": 1380
+        },
+        {
+          "name": "A30 | public inner promenade 2",
+          "face_area_m2": 2147366.44,
+          "object_span_max_m": 3782.0,
+          "triangles": 1380
+        },
+        {
+          "name": "A10 | oblique deep bulkhead 4",
+          "face_area_m2": 1685849.377,
+          "object_span_max_m": 2806.144,
+          "triangles": 12
+        },
+        {
+          "name": "A10 | oblique deep bulkhead 1",
+          "face_area_m2": 1685849.377,
+          "object_span_max_m": 2806.144,
+          "triangles": 12
+        },
+        {
+          "name": "A10 | oblique deep bulkhead 0",
+          "face_area_m2": 1685849.377,
+          "object_span_max_m": 2806.144,
+          "triangles": 12
+        },
+        {
+          "name": "A10 | oblique deep bulkhead 3",
+          "face_area_m2": 1685849.238,
+          "object_span_max_m": 2806.144,
+          "triangles": 12
+        },
+        {
+          "name": "A10 | oblique deep bulkhead 2",
+          "face_area_m2": 1685849.238,
+          "object_span_max_m": 2806.144,
+          "triangles": 12
+        },
+        {
+          "name": "A11 | lower return column 3",
+          "face_area_m2": 625862.031,
+          "object_span_max_m": 920.521,
+          "triangles": 12
+        },
+        {
+          "name": "A11 | lower return column 2",
+          "face_area_m2": 625862.031,
+          "object_span_max_m": 920.521,
+          "triangles": 12
+        },
+        {
+          "name": "A11 | lower return column 4",
+          "face_area_m2": 625861.953,
+          "object_span_max_m": 920.52,
+          "triangles": 12
+        },
+        {
+          "name": "A40 | inhabited ridgeline transit.001",
+          "face_area_m2": 614199.534,
+          "object_span_max_m": 6119.785,
+          "triangles": 1600
+        }
+      ],
+      "macro_area_by_z_250m": [
+        {
+          "z_from_m": -300,
+          "z_to_m": -50,
+          "macro_face_area_m2": 6543491.03
+        },
+        {
+          "z_from_m": -50,
+          "z_to_m": 200,
+          "macro_face_area_m2": 227128.37
+        },
+        {
+          "z_from_m": 200,
+          "z_to_m": 450,
+          "macro_face_area_m2": 12495004.36
+        },
+        {
+          "z_from_m": 450,
+          "z_to_m": 700,
+          "macro_face_area_m2": 16269388.46
+        },
+        {
+          "z_from_m": 700,
+          "z_to_m": 950,
+          "macro_face_area_m2": 4283827.79
+        },
+        {
+          "z_from_m": 950,
+          "z_to_m": 1200,
+          "macro_face_area_m2": 6959312.32
+        },
+        {
+          "z_from_m": 1200,
+          "z_to_m": 1450,
+          "macro_face_area_m2": 6574682.2
+        },
+        {
+          "z_from_m": 1450,
+          "z_to_m": 1700,
+          "macro_face_area_m2": 2896279.01
+        },
+        {
+          "z_from_m": 1700,
+          "z_to_m": 1950,
+          "macro_face_area_m2": 171480.0
+        },
+        {
+          "z_from_m": 1950,
+          "z_to_m": 2200,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 2200,
+          "z_to_m": 2450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 2450,
+          "z_to_m": 2700,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 2700,
+          "z_to_m": 2950,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 2950,
+          "z_to_m": 3200,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3200,
+          "z_to_m": 3450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3450,
+          "z_to_m": 3700,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3700,
+          "z_to_m": 3950,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3950,
+          "z_to_m": 4200,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 4200,
+          "z_to_m": 4450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 4450,
+          "z_to_m": 4700,
+          "macro_face_area_m2": 0.0
+        }
+      ],
+      "face_centroid_projection_maps": {
+        "XZ": {
+          "x_axis": "X_metres",
+          "y_axis": "Z_metres",
+          "x_range_m": [
+            -3600,
+            3700
+          ],
+          "z_range_m": [
+            -300,
+            4750
+          ],
+          "grid_bins": [
+            90,
+            74
+          ],
+          "occupied_cells_surface_centroid_proxy": 1055,
+          "sum_macro_face_area_m2": 56420593.54
+        },
+        "YZ": {
+          "x_axis": "Y_metres",
+          "y_axis": "Z_metres",
+          "x_range_m": [
+            -3100,
+            2600
+          ],
+          "z_range_m": [
+            -300,
+            4750
+          ],
+          "grid_bins": [
+            90,
+            74
+          ],
+          "occupied_cells_surface_centroid_proxy": 652,
+          "sum_macro_face_area_m2": 53683128.94
+        }
+      },
+      "interpretation_warning": "Projected surface area and face-centroid occupancy are NOT a true solid-volume, hollow-void, clearance, traversal, habitation or artistic-quality test.",
+      "glb_bytes": 3779456,
+      "glb_sha256": "39101aee8454812f65af0e906b4eaf39e325ab5e148dffd5e9487674b316a94c"
+    },
+    "B": {
+      "objects_examined": 1695,
+      "triangles_examined": 30860,
+      "invalid_vertex_objects": 0,
+      "model_bounds_m": [
+        [
+          -2983.29,
+          -113.67,
+          -1444.55
+        ],
+        [
+          3119.7,
+          3598.78,
+          2900.0
+        ]
+      ],
+      "model_span_xyz_m": [
+        6102.99,
+        3712.44,
+        4344.55
+      ],
+      "all_face_area_proxy_m2": 439300739.04,
+      "macro_face_area_at_or_above_100m2_m2": 439207857.9,
+      "macro_fraction_of_surface_area": 0.999789,
+      "size_bucket_by_object_max_span_m": [
+        {
+          "label": "under_20m",
+          "object_count": 64,
+          "surface_area_m2": 22.64,
+          "fraction_of_total_face_area": 0.0
+        },
+        {
+          "label": "20_to_100m",
+          "object_count": 383,
+          "surface_area_m2": 1233260.04,
+          "fraction_of_total_face_area": 0.002807
+        },
+        {
+          "label": "100_to_500m",
+          "object_count": 1149,
+          "surface_area_m2": 23045371.28,
+          "fraction_of_total_face_area": 0.052459
+        },
+        {
+          "label": "500_to_1500m",
+          "object_count": 6,
+          "surface_area_m2": 2627128.24,
+          "fraction_of_total_face_area": 0.00598
+        },
+        {
+          "label": "over_1500m",
+          "object_count": 93,
+          "surface_area_m2": 412394956.85,
+          "fraction_of_total_face_area": 0.938753
+        }
+      ],
+      "largest_15_individual_mesh_nodes_by_surface_area": [
+        {
+          "name": "B02 | sunward inhabited canopy 0",
+          "face_area_m2": 8497798.022,
+          "object_span_max_m": 4865.589,
+          "triangles": 132
+        },
+        {
+          "name": "B01 | sunward tectonic plinth 0",
+          "face_area_m2": 8497798.0,
+          "object_span_max_m": 4865.589,
+          "triangles": 132
+        },
+        {
+          "name": "B02 | landward inhabited canopy 0",
+          "face_area_m2": 7623396.929,
+          "object_span_max_m": 5353.62,
+          "triangles": 148
+        },
+        {
+          "name": "B01 | landward tectonic plinth 0",
+          "face_area_m2": 7623396.861,
+          "object_span_max_m": 5353.62,
+          "triangles": 148
+        },
+        {
+          "name": "B01 | sunward tectonic plinth 1",
+          "face_area_m2": 7581631.429,
+          "object_span_max_m": 4745.876,
+          "triangles": 132
+        },
+        {
+          "name": "B02 | sunward inhabited canopy 1",
+          "face_area_m2": 7581631.402,
+          "object_span_max_m": 4745.876,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.2",
+          "face_area_m2": 7262828.513,
+          "object_span_max_m": 4743.906,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.3",
+          "face_area_m2": 7262828.501,
+          "object_span_max_m": 4743.906,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.1",
+          "face_area_m2": 7262828.501,
+          "object_span_max_m": 4743.906,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.5",
+          "face_area_m2": 7262828.347,
+          "object_span_max_m": 4743.906,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.4",
+          "face_area_m2": 7262828.331,
+          "object_span_max_m": 4743.906,
+          "triangles": 132
+        },
+        {
+          "name": "B02 | landward inhabited canopy 1",
+          "face_area_m2": 7212171.372,
+          "object_span_max_m": 5223.421,
+          "triangles": 132
+        },
+        {
+          "name": "B01 | landward tectonic plinth 1",
+          "face_area_m2": 7212171.372,
+          "object_span_max_m": 5223.421,
+          "triangles": 132
+        },
+        {
+          "name": "B02 | sunward inhabited canopy 2",
+          "face_area_m2": 6772375.716,
+          "object_span_max_m": 4388.839,
+          "triangles": 132
+        },
+        {
+          "name": "B01 | sunward tectonic plinth 2",
+          "face_area_m2": 6772375.716,
+          "object_span_max_m": 4388.839,
+          "triangles": 132
+        }
+      ],
+      "macro_area_by_z_250m": [
+        {
+          "z_from_m": -300,
+          "z_to_m": -50,
+          "macro_face_area_m2": 7987236.22
+        },
+        {
+          "z_from_m": -50,
+          "z_to_m": 200,
+          "macro_face_area_m2": 13682001.57
+        },
+        {
+          "z_from_m": 200,
+          "z_to_m": 450,
+          "macro_face_area_m2": 26699597.65
+        },
+        {
+          "z_from_m": 450,
+          "z_to_m": 700,
+          "macro_face_area_m2": 44455330.84
+        },
+        {
+          "z_from_m": 700,
+          "z_to_m": 950,
+          "macro_face_area_m2": 69873296.79
+        },
+        {
+          "z_from_m": 950,
+          "z_to_m": 1200,
+          "macro_face_area_m2": 53247862.5
+        },
+        {
+          "z_from_m": 1200,
+          "z_to_m": 1450,
+          "macro_face_area_m2": 15090516.59
+        },
+        {
+          "z_from_m": 1450,
+          "z_to_m": 1700,
+          "macro_face_area_m2": 1734213.27
+        },
+        {
+          "z_from_m": 1700,
+          "z_to_m": 1950,
+          "macro_face_area_m2": 2545788.34
+        },
+        {
+          "z_from_m": 1950,
+          "z_to_m": 2200,
+          "macro_face_area_m2": 4680.0
+        },
+        {
+          "z_from_m": 2200,
+          "z_to_m": 2450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 2450,
+          "z_to_m": 2700,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 2700,
+          "z_to_m": 2950,
+          "macro_face_area_m2": 15946.72
+        },
+        {
+          "z_from_m": 2950,
+          "z_to_m": 3200,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3200,
+          "z_to_m": 3450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3450,
+          "z_to_m": 3700,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3700,
+          "z_to_m": 3950,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3950,
+          "z_to_m": 4200,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 4200,
+          "z_to_m": 4450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 4450,
+          "z_to_m": 4700,
+          "macro_face_area_m2": 0.0
+        }
+      ],
+      "face_centroid_projection_maps": {
+        "XZ": {
+          "x_axis": "X_metres",
+          "y_axis": "Z_metres",
+          "x_range_m": [
+            -3600,
+            3700
+          ],
+          "z_range_m": [
+            -300,
+            4750
+          ],
+          "grid_bins": [
+            90,
+            74
+          ],
+          "occupied_cells_surface_centroid_proxy": 774,
+          "sum_macro_face_area_m2": 235336470.49
+        },
+        "YZ": {
+          "x_axis": "Y_metres",
+          "y_axis": "Z_metres",
+          "x_range_m": [
+            -3100,
+            2600
+          ],
+          "z_range_m": [
+            -300,
+            4750
+          ],
+          "grid_bins": [
+            90,
+            74
+          ],
+          "occupied_cells_surface_centroid_proxy": 609,
+          "sum_macro_face_area_m2": 213652971.37
+        }
+      },
+      "interpretation_warning": "Projected surface area and face-centroid occupancy are NOT a true solid-volume, hollow-void, clearance, traversal, habitation or artistic-quality test.",
+      "glb_bytes": 2546728,
+      "glb_sha256": "1c3f967027431b0f2e6223b2a72768f29426e17c61befb51fe9030287631e97c"
+    },
+    "B_REFINED": {
+      "objects_examined": 1387,
+      "triangles_examined": 47724,
+      "invalid_vertex_objects": 0,
+      "model_bounds_m": [
+        [
+          -3106.35,
+          -166.23,
+          -1993.59
+        ],
+        [
+          2901.53,
+          4298.22,
+          2900.0
+        ]
+      ],
+      "model_span_xyz_m": [
+        6007.88,
+        4464.45,
+        4893.59
+      ],
+      "all_face_area_proxy_m2": 322821895.05,
+      "macro_face_area_at_or_above_100m2_m2": 322356560.15,
+      "macro_fraction_of_surface_area": 0.998559,
+      "size_bucket_by_object_max_span_m": [
+        {
+          "label": "under_20m",
+          "object_count": 64,
+          "surface_area_m2": 22.64,
+          "fraction_of_total_face_area": 0.0
+        },
+        {
+          "label": "20_to_100m",
+          "object_count": 241,
+          "surface_area_m2": 776019.97,
+          "fraction_of_total_face_area": 0.002404
+        },
+        {
+          "label": "100_to_500m",
+          "object_count": 996,
+          "surface_area_m2": 32614971.62,
+          "fraction_of_total_face_area": 0.101031
+        },
+        {
+          "label": "500_to_1500m",
+          "object_count": 8,
+          "surface_area_m2": 3461450.66,
+          "fraction_of_total_face_area": 0.010722
+        },
+        {
+          "label": "over_1500m",
+          "object_count": 78,
+          "surface_area_m2": 285969430.16,
+          "fraction_of_total_face_area": 0.885843
+        }
+      ],
+      "largest_15_individual_mesh_nodes_by_surface_area": [
+        {
+          "name": "R01 | ascending inhabited western fold_68fda9",
+          "face_area_m2": 18724773.366,
+          "object_span_max_m": 6000.0,
+          "triangles": 2031
+        },
+        {
+          "name": "R02 | front continent fractures upward_e4d885",
+          "face_area_m2": 17177807.322,
+          "object_span_max_m": 5600.0,
+          "triangles": 1823
+        },
+        {
+          "name": "R03 | back return living cliff_30ff98",
+          "face_area_m2": 12679862.998,
+          "object_span_max_m": 4590.0,
+          "triangles": 1352
+        },
+        {
+          "name": "B01 | sunward tectonic plinth 0",
+          "face_area_m2": 8497798.315,
+          "object_span_max_m": 4883.935,
+          "triangles": 132
+        },
+        {
+          "name": "B01 | landward tectonic plinth 0",
+          "face_area_m2": 7623397.832,
+          "object_span_max_m": 5344.105,
+          "triangles": 148
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.1",
+          "face_area_m2": 7262828.938,
+          "object_span_max_m": 4756.303,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.5",
+          "face_area_m2": 7262828.876,
+          "object_span_max_m": 4756.304,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.4",
+          "face_area_m2": 7262828.736,
+          "object_span_max_m": 4756.304,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.3",
+          "face_area_m2": 7262828.701,
+          "object_span_max_m": 4756.303,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | sunward occupied urban layer 0.2",
+          "face_area_m2": 7262828.628,
+          "object_span_max_m": 4756.303,
+          "triangles": 132
+        },
+        {
+          "name": "B01 | sunward tectonic plinth 2",
+          "face_area_m2": 6772376.246,
+          "object_span_max_m": 4214.285,
+          "triangles": 132
+        },
+        {
+          "name": "B03 | landward occupied urban layer 0.5",
+          "face_area_m2": 6336668.967,
+          "object_span_max_m": 5204.969,
+          "triangles": 148
+        },
+        {
+          "name": "B03 | landward occupied urban layer 0.2",
+          "face_area_m2": 6336668.593,
+          "object_span_max_m": 5204.968,
+          "triangles": 148
+        },
+        {
+          "name": "B03 | landward occupied urban layer 0.1",
+          "face_area_m2": 6336668.558,
+          "object_span_max_m": 5204.968,
+          "triangles": 148
+        },
+        {
+          "name": "B03 | landward occupied urban layer 0.3",
+          "face_area_m2": 6336668.505,
+          "object_span_max_m": 5204.968,
+          "triangles": 148
+        }
+      ],
+      "macro_area_by_z_250m": [
+        {
+          "z_from_m": -300,
+          "z_to_m": -50,
+          "macro_face_area_m2": 15119401.71
+        },
+        {
+          "z_from_m": -50,
+          "z_to_m": 200,
+          "macro_face_area_m2": 15343722.43
+        },
+        {
+          "z_from_m": 200,
+          "z_to_m": 450,
+          "macro_face_area_m2": 13037149.18
+        },
+        {
+          "z_from_m": 450,
+          "z_to_m": 700,
+          "macro_face_area_m2": 14769148.52
+        },
+        {
+          "z_from_m": 700,
+          "z_to_m": 950,
+          "macro_face_area_m2": 46247390.59
+        },
+        {
+          "z_from_m": 950,
+          "z_to_m": 1200,
+          "macro_face_area_m2": 27941661.73
+        },
+        {
+          "z_from_m": 1200,
+          "z_to_m": 1450,
+          "macro_face_area_m2": 20026910.88
+        },
+        {
+          "z_from_m": 1450,
+          "z_to_m": 1700,
+          "macro_face_area_m2": 4761654.52
+        },
+        {
+          "z_from_m": 1700,
+          "z_to_m": 1950,
+          "macro_face_area_m2": 6785616.97
+        },
+        {
+          "z_from_m": 1950,
+          "z_to_m": 2200,
+          "macro_face_area_m2": 211754.87
+        },
+        {
+          "z_from_m": 2200,
+          "z_to_m": 2450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 2450,
+          "z_to_m": 2700,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 2700,
+          "z_to_m": 2950,
+          "macro_face_area_m2": 15946.72
+        },
+        {
+          "z_from_m": 2950,
+          "z_to_m": 3200,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3200,
+          "z_to_m": 3450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3450,
+          "z_to_m": 3700,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3700,
+          "z_to_m": 3950,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 3950,
+          "z_to_m": 4200,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 4200,
+          "z_to_m": 4450,
+          "macro_face_area_m2": 0.0
+        },
+        {
+          "z_from_m": 4450,
+          "z_to_m": 4700,
+          "macro_face_area_m2": 0.0
+        }
+      ],
+      "face_centroid_projection_maps": {
+        "XZ": {
+          "x_axis": "X_metres",
+          "y_axis": "Z_metres",
+          "x_range_m": [
+            -3600,
+            3700
+          ],
+          "z_range_m": [
+            -300,
+            4750
+          ],
+          "grid_bins": [
+            90,
+            74
+          ],
+          "occupied_cells_surface_centroid_proxy": 1212,
+          "sum_macro_face_area_m2": 164260358.13
+        },
+        "YZ": {
+          "x_axis": "Y_metres",
+          "y_axis": "Z_metres",
+          "x_range_m": [
+            -3100,
+            2600
+          ],
+          "z_range_m": [
+            -300,
+            4750
+          ],
+          "grid_bins": [
+            90,
+            74
+          ],
+          "occupied_cells_surface_centroid_proxy": 914,
+          "sum_macro_face_area_m2": 144907838.74
+        }
+      },
+      "interpretation_warning": "Projected surface area and face-centroid occupancy are NOT a true solid-volume, hollow-void, clearance, traversal, habitation or artistic-quality test.",
+      "glb_bytes": 3112296,
+      "glb_sha256": "6577ea488bf4825baa4cdbb863b23b928a9fcb21122a46ea60ef284b490a0a39"
+    }
+  },
+  "formal_art_adoption": "NONE",
+  "minecraft_construction": "HOLD",
+  "actual_new_blender_design": "NOT_MADE_BY_THIS_AUDIT",
+  "method_limitation": "Triangle centroid and area summary. No exact void volume/watertightness, no traversability, no aesthetic PASS."
+}
