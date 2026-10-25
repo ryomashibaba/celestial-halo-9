@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R11",
+  "research_id": "M3D-1S/J7-R12",
   "date_jst": "2026-10-25",
-  "status": "LOCAL_BLENDER_TWO_CONCEPTS_AND_LIVE_PRIMARY_REVISION_DELIVERED__ART_REJECT",
-  "research_branch": "research/m3d1s-j7-r11-local-blender-art-20261025",
+  "status": "J7_R12_REAL_R11_GLB_MACRO_SURFACE_DISTRIBUTION_AUDITED_AND_NEW_URBAN_VOID_ART_METHOD_DOCUMENTED__NO_WORK_OR_NEW_MODEL",
+  "research_branch": "research/m3d1s-j7-r12-evidence-led-megastructure-gate-20261025",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "EXECUTED_BY_EXPLICIT_J7_R11_USER_REQUEST",
+  "work_status": "CHAT_ONLY_WITH_INDEPENDENT_GITHUB_ACTIONS_GLB_QA__J7_R13_LOCAL_WORK_PROMPT_NEXT_TURN",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -440,6 +440,61 @@
         "final_actual_renders": 27,
         "formal_art_accepted": 0,
         "construction": "HOLD"
+      },
+      "r12": {
+        "status": "ACTUAL_R11_GLB_COORDINATE_CORRECTED_MACRO_AUDIT_COMPLETE__ART_METHOD_DEFINED__NO_NEW_BLENDER_ART_THIS_TURN",
+        "source": "studies/M3D-1S/J7/R12/audit_r11_macro_surface.py",
+        "workflow": ".github/workflows/halo9-j7-r12-r11-realglb-audit.yml",
+        "run": 40147599395,
+        "data": "studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_AUDIT.json",
+        "XZ": "studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_XZ.png",
+        "YZ": "studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_YZ.png",
+        "report": "studies/M3D-1S/J7/R12/R12_REAL_GLB_ART_DIAGNOSTIC_JA.md",
+        "new_art_method": "studies/M3D-1S/J7/R12/R12_HABITABLE_VOLUME_ART_METHOD_JA.md",
+        "work_next_gate": "studies/M3D-1S/J7/R12/J7R12_WORK_GATE.json",
+        "source_GLB_surface_findings": {
+          "A": {
+            "triangle_count": 132304,
+            "max_dim_more1500_surface_fraction": 0.917659,
+            "midscale_100_500_surface_fraction": 0.00212,
+            "original_blender_Z_up_xyz_span_m": [
+              6120.24,
+              3612.31,
+              3672.24
+            ],
+            "independent_blend_glb_extent_maxdelta_m": 0.0029
+          },
+          "B": {
+            "triangle_count": 30860,
+            "max_dim_more1500_surface_fraction": 0.938753,
+            "midscale_100_500_surface_fraction": 0.052459,
+            "original_blender_Z_up_xyz_span_m": [
+              6102.99,
+              4344.55,
+              3712.44
+            ],
+            "independent_blend_glb_extent_maxdelta_m": 0.0048
+          },
+          "B_REFINED": {
+            "triangle_count": 47724,
+            "max_dim_more1500_surface_fraction": 0.885843,
+            "midscale_100_500_surface_fraction": 0.101031,
+            "original_blender_Z_up_xyz_span_m": [
+              6007.88,
+              4893.59,
+              4464.45
+            ],
+            "independent_blend_glb_extent_maxdelta_m": 0.0044
+          }
+        },
+        "coordinate_transform": "GLTF Y-up to Blender Z-up [x,-z,y] with independent extents gate <5cm",
+        "metric_warning": "Largest mesh surface area fraction is NOT inhabited volume, aesthetic quality or confirmed void continuity.",
+        "new_blend_created": false,
+        "new_glb_created": false,
+        "work_used": false,
+        "formal_central_art_accepted": 0,
+        "minecraft_construction": "HOLD",
+        "city_master_3d_finished": false
       }
     }
   },
@@ -451,12 +506,16 @@
     "VALIDATED_CANONICAL_COORDINATES",
     "FULL_COLLISION_VOID_CLEARANCE_AND_STRUCTURAL_VALIDATION",
     "REAL_10KM_CITY_ALL_DETAIL",
-    "HUMAN_ART_ACCEPTANCE"
+    "HUMAN_ART_ACCEPTANCE",
+    "J7_R12_INHABITED_VOLUME_NOT_PROVEN",
+    "J7_R13_WORK_PROMPT_NOT_YET_PROVIDED",
+    "J7_R13_REAL_BLENDER_EXECUTION_NOT_PERFORMED",
+    "J7_R12_METRICS_ONLY_SURFACE_PROXIES_NOT_VOID_VOLUME"
   ],
-  "next_gate": "J7-R12: overcome ramp/shelf/blade macro and prove inhabited urban scale; no formal adoption or Minecraft construction.",
+  "next_gate": "J7-R13: Present a paste-ready local Work prompt in the NEXT reply when the user requests to continue; user launches local Work. Use inspected R11 macro geometry failure results; directly design one coherent spatially multi-scale inhabited mass/void city in real Blender, with two rough directions then focus on one and two real macro visual revisions. Save research-only Blender artifacts and multi-angle/real cross-sections to GitHub; no Chat handoff popup.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "REAL_BLENDER_5_2_1_MODELS_RENDERED_AND_GLB_REIMPORTED",
-  "art_review": "REJECT",
+  "art_review": "REJECT_CURRENT_R11_AND_PENDING_NEW_J7_R13_ART",
   "historical_missing_through_r10": [
     "BLEND",
     "MULTIVIEW_PHOTOREAL_ART_RENDERS",
