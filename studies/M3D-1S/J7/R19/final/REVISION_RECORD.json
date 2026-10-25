@@ -1,0 +1,20 @@
+{
+  "source": "revision_1/R19_REVISION_1.blend",
+  "source_sha256": "4e2927474f51a4370ec35ae3e043c7531e489bb1c54959ba69088be44e69d64b",
+  "observed_before": [
+    "revision_1/01_FRONT.png",
+    "revision_1/02_OBLIQUE.png"
+  ],
+  "revision_1_art": "ART_REJECT: repeated detached stack cells, still a facility model rather than inhabited terrain",
+  "mesh_edits": [
+    "Reshaped 16 western/hinge precincts into tapered sheared horizons in actual vertex positions.",
+    "Added five 480\u2013640m-wide inhabited shared urban grounds with actual interior streets, connecting separate western precincts.",
+    "Removed eastern U-building and rebuilt three unlike sky ridges around a diagonal basin.",
+    "Replaced inner confluence bands with two broad occupied public isthmuses; added independent north-facing high city.",
+    "Closed the measured 31m eastern ground/precinct gap."
+  ],
+  "removed_meshes": 586,
+  "not_formal_art": true,
+  "art_success_not_presumed": true,
+  "technical_repair": "Actual floor-collar vertices offset 1.2m to eliminate coplanar outer/inner faces; pre-repair R2 models and renders preserved in revision_2. Does not improve the art verdict."
+}

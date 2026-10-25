@@ -1,0 +1,25 @@
+{
+  "source": "initial/R19_INITIAL.blend",
+  "source_sha256": "4d3102cdf5f93d9c13b0ca599da02da6d5fb37519199ee1b5e4f99475748404f",
+  "observed_images": [
+    "qa/INITIAL_SIX.jpg",
+    "initial/01_FRONT.png"
+  ],
+  "initial_art_decision": "ART_REJECT: disconnected repetitive shopping-centre bands on blank slab grounds; floating rib pivot bug",
+  "removed_mesh_count": 1519,
+  "removed_prefixes": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "E_HIGH",
+    "D_WEST",
+    "D_HIGH_WEST",
+    "D_HIGH_EAST",
+    "D_UNDERSIDE"
+  ],
+  "new_macro_geometry": "12 individually fitted pierced western precincts, four central hinge precincts, three reverse underside precincts; real galleries carved into east terrain and base",
+  "initial_rib_bug_fixed": true,
+  "success_not_presumed": true,
+  "canonical_adoption": false
+}

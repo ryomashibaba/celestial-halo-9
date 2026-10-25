@@ -1,0 +1,32 @@
+[
+  {
+    "id": "A_ESTUARY",
+    "altitude_m": 120,
+    "spatial_role": "Three public land fingers around water, buried urban streets open to estuary."
+  },
+  {
+    "id": "B_ASCENT",
+    "altitude_m": 800,
+    "spatial_role": "Stepped urban ridge, split living banks around diagonal canyon, distinct cross-city streets."
+  },
+  {
+    "id": "C_REVERSE",
+    "altitude_m": 950,
+    "spatial_role": "North-facing amphitheatre city, elevated ground shared with inner high city; underside loggias."
+  },
+  {
+    "id": "D_SKY_BASIN",
+    "altitude_m": 2380,
+    "spatial_role": "High inhabited basin, housing depth is its ground; 1100m public sky between non-identical city shores."
+  },
+  {
+    "id": "E_ZENITH",
+    "altitude_m": 3350,
+    "spatial_role": "Uppermost tilted horizon: long urban trench, roof gardens and higher civic precinct at asymmetric western end."
+  },
+  {
+    "id": "F_INNER_CONFLUENCE",
+    "altitude_m": 1170,
+    "spatial_role": "Internal civic island, divides low public sky from upper diagonal sky, not a frontal gate."
+  }
+]

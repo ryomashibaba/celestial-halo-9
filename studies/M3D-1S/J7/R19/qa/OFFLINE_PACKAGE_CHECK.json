@@ -1,0 +1,38 @@
+{
+  "offline_pass": true,
+  "model_pairs": [
+    {
+      "id": "initial/R19_INITIAL",
+      "blend_nonempty": true,
+      "glb_header_valid": true
+    },
+    {
+      "id": "revision_1/R19_REVISION_1",
+      "blend_nonempty": true,
+      "glb_header_valid": true
+    },
+    {
+      "id": "revision_2/R19_LIVING_HORIZON",
+      "blend_nonempty": true,
+      "glb_header_valid": true
+    },
+    {
+      "id": "final/R19_LIVING_HORIZON",
+      "blend_nonempty": true,
+      "glb_header_valid": true
+    },
+    {
+      "id": "sections/XZ_Y200/XZ_Y200",
+      "blend_nonempty": true,
+      "glb_header_valid": true
+    },
+    {
+      "id": "sections/YZ_X0/YZ_X0",
+      "blend_nonempty": true,
+      "glb_header_valid": true
+    }
+  ],
+  "real_blender_pngs": 30,
+  "persistence_pass": true,
+  "does_not_certify": "Art, walking, traffic operation, connected enclosed void volume, structural or occupancy safety, W0 anchoring."
+}
