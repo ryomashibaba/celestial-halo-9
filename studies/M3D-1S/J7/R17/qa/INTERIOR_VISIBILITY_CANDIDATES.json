@@ -1,0 +1,1058 @@
+{
+  "08_INTERIOR_LOW": [
+    {
+      "score": 8109.782622376135,
+      "eye": [
+        -950.0,
+        1250.0,
+        650.0
+      ],
+      "target": [
+        -158.85089111328125,
+        -120.3104248046875,
+        887.3447265625
+      ],
+      "surface_distances_m": [
+        1342.3082338014806,
+        1975.8430321004753,
+        942.1181040467571,
+        1599.4931863327834,
+        1318.721942829496,
+        2194.370540795811,
+        5426.602859409374,
+        1759.0309210613666,
+        1256.1576404170478
+      ],
+      "visible_objects": [
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_WEST_INNER_RIDGE",
+        "C_LOW_CONFLUENCE",
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "Review ground",
+        "R2_PENINSULA_INHABITED_CHEEK.001",
+        "R1_RISING_thick_inhabited_ground"
+      ]
+    },
+    {
+      "score": 7453.412599374244,
+      "eye": [
+        -650.0,
+        -150.0,
+        650.0
+      ],
+      "target": [
+        141.14910888671875,
+        1220.3104248046875,
+        887.3447265625
+      ],
+      "surface_distances_m": [
+        2502.851551855403,
+        1962.5974948414187,
+        287.7069726718896,
+        3136.5608654225093,
+        2265.7223737695667,
+        5426.600938893517,
+        1898.312317889235,
+        1432.2691308833162,
+        331.2535524573661
+      ],
+      "visible_objects": [
+        "R1_REAR_EAST_RIDGE",
+        "R1_REAR_WEST_RIDGE",
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "Review ground",
+        "R2_INTERIOR_CIVIC_CONTINENT",
+        "Review ground",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "C_R0_INNER_ORCHARD_urban_chamber_0",
+        "R2_PENINSULA_INHABITED_CHEEK"
+      ]
+    },
+    {
+      "score": 7178.780227799124,
+      "eye": [
+        -650.0,
+        1250.0,
+        650.0
+      ],
+      "target": [
+        -650.0,
+        -332.2982177734375,
+        412.6552734375
+      ],
+      "surface_distances_m": [
+        4853.7000512495615,
+        1899.6692341612395,
+        1279.6276626730626,
+        1049.4791863110006,
+        10000,
+        1316.453260659109,
+        510.29966686252106,
+        1211.3749347010096,
+        942.1181048241775
+      ],
+      "visible_objects": [
+        "Review ground",
+        "R2_VERTICAL_PUBLIC_QUARTER.001",
+        "C_W0_ESTUARY_urban_chamber_1",
+        "C_LOWEST_URBAN_DELTA",
+        null,
+        "C_SHARED_INNER_SEA",
+        "R1_WEST_INNER_RIDGE",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R1_WEST_INNER_RIDGE"
+      ]
+    },
+    {
+      "score": 7091.412660713566,
+      "eye": [
+        -650.0,
+        850.0,
+        650.0
+      ],
+      "target": [
+        -650.0,
+        -732.2982177734375,
+        412.6552734375
+      ],
+      "surface_distances_m": [
+        4853.705523875547,
+        1799.8209166556683,
+        1122.3172544032502,
+        1037.5982182424948,
+        10000,
+        1191.751101321077,
+        449.85265599902266,
+        879.255694976403,
+        942.1181048241775
+      ],
+      "visible_objects": [
+        "Review ground",
+        "R2_VERTICAL_PUBLIC_QUARTER.001",
+        "C_W0_ESTUARY_inhabited_vertical_cheek.003",
+        "C_SHARED_INNER_SEA",
+        null,
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R1_WEST_INNER_RIDGE",
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "R1_WEST_INNER_RIDGE"
+      ]
+    },
+    {
+      "score": 6695.919639853775,
+      "eye": [
+        550.0,
+        850.0,
+        650.0
+      ],
+      "target": [
+        550.0,
+        -732.2982177734375,
+        412.6552734375
+      ],
+      "surface_distances_m": [
+        4853.705523875547,
+        439.84682531118506,
+        1733.497476202374,
+        1037.5982182424948,
+        927.8995791066241,
+        530.6340988619182,
+        944.7252370067712,
+        470.8918221357182,
+        778.1835018168915
+      ],
+      "visible_objects": [
+        "Review ground",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R2_VERTICAL_PUBLIC_QUARTER",
+        "C_SHARED_INNER_SEA",
+        "R2_PENINSULA_INHABITED_CHEEK.001",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "C_LOW_CONFLUENCE",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R2_INNER_METROPOLITAN_PENINSULA"
+      ]
+    },
+    {
+      "score": 6581.029359431483,
+      "eye": [
+        -950.0,
+        -150.0,
+        650.0
+      ],
+      "target": [
+        -158.85089111328125,
+        1220.3104248046875,
+        412.6552734375
+      ],
+      "surface_distances_m": [
+        4853.698100417866,
+        5426.605380265364,
+        2114.11353319778,
+        289.64951207234924,
+        1666.757330867334,
+        464.77830027681273,
+        1316.4532131830588,
+        1959.6040137295597,
+        2217.9083315564462
+      ],
+      "visible_objects": [
+        "Review ground",
+        "Review ground",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_WEST_INNER_RIDGE",
+        "R1_REAR_LOWER_thick_inhabited_ground",
+        "R1_WEST_INNER_RIDGE",
+        "C_SHARED_INNER_SEA",
+        "R1_REAR_WEST_RIDGE",
+        "R2_EAST_INLAND_CIVILIZATION"
+      ]
+    },
+    {
+      "score": 6572.181028919105,
+      "eye": [
+        -650.0,
+        350.0,
+        650.0
+      ],
+      "target": [
+        92.7813720703125,
+        1636.5350341796875,
+        1244.22509765625
+      ],
+      "surface_distances_m": [
+        1124.6599972324968,
+        1128.8994480763943,
+        2363.163081549811,
+        10000,
+        1718.2499272515624,
+        1595.1329404335709,
+        1991.368155039708,
+        1376.1823263689141,
+        1651.973384319493
+      ],
+      "visible_objects": [
+        "R1_REAR_LOWER_thick_inhabited_ground",
+        "R1_REAR_LOWER_thick_inhabited_ground",
+        "R2_EAST_INLAND_CIVILIZATION",
+        null,
+        "R1_REAR_MID_thick_inhabited_ground",
+        "R1_REAR_WEST_RIDGE",
+        "R1_REAR_EAST_RIDGE",
+        "R1_REAR_CIVIC_OVERWORLD",
+        "R2_EAST_INLAND_CIVILIZATION"
+      ]
+    },
+    {
+      "score": 6522.165940045252,
+      "eye": [
+        -650.0,
+        -650.0,
+        650.0
+      ],
+      "target": [
+        -2232.29833984375,
+        -650.0,
+        887.3447265625
+      ],
+      "surface_distances_m": [
+        959.4502220103058,
+        10000,
+        751.8103827179431,
+        1089.0822971658295,
+        1888.5148430711367,
+        5426.6007315814195,
+        1482.936509566829,
+        10000,
+        327.6992058752203
+      ],
+      "visible_objects": [
+        "C_PRIMARY_ASCENSION",
+        null,
+        "R1_WEST_INNER_RIDGE",
+        "C_W0_ESTUARY_public_ground",
+        "R1_WEST_OCEAN_RIDGE",
+        "Review ground",
+        "C_W0_ESTUARY_urban_chamber_2",
+        null,
+        "R1_WEST_INNER_RIDGE"
+      ]
+    },
+    {
+      "score": 6493.256934221599,
+      "eye": [
+        -350.0,
+        850.0,
+        650.0
+      ],
+      "target": [
+        1020.3104248046875,
+        1641.149169921875,
+        887.3447265625
+      ],
+      "surface_distances_m": [
+        1517.103645983441,
+        1693.275299022947,
+        1082.7155765829689,
+        3136.556312263499,
+        883.1465407847103,
+        5426.606403867891,
+        1198.6002643709037,
+        942.1183245749974,
+        1922.3527566744222
+      ],
+      "visible_objects": [
+        "R1_REAR_EAST_RIDGE",
+        "R1_REAR_EAST_RIDGE",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "Review ground",
+        "C_R0_INNER_ORCHARD_public_ground",
+        "Review ground",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_REAR_LOWER_thick_inhabited_ground",
+        "R2_EAST_SECTIONAL_QUARTER.004"
+      ]
+    },
+    {
+      "score": 6441.370999666314,
+      "eye": [
+        -650.0,
+        1250.0,
+        650.0
+      ],
+      "target": [
+        141.14910888671875,
+        -120.3104248046875,
+        412.6552734375
+      ],
+      "surface_distances_m": [
+        1952.5131221550087,
+        1670.6930296193702,
+        5426.599542416042,
+        1037.5982257719024,
+        1191.6765861329575,
+        1316.453189445033,
+        1316.453078914845,
+        1742.550380369245,
+        1544.4013845884592
+      ],
+      "visible_objects": [
+        "R2_VERTICAL_PUBLIC_QUARTER.001",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "Review ground",
+        "C_SHARED_INNER_SEA",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "C_SHARED_INNER_SEA",
+        "C_SHARED_INNER_SEA",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R2_PENINSULA_INHABITED_CHEEK"
+      ]
+    }
+  ],
+  "09_INTERIOR_MID": [
+    {
+      "score": 8408.46967531287,
+      "eye": [
+        -650.0,
+        350.0,
+        1550.0
+      ],
+      "target": [
+        141.14910888671875,
+        1720.3104248046875,
+        1787.3447265625
+      ],
+      "surface_distances_m": [
+        1921.2557742268466,
+        1550.2437525701603,
+        328.9831544221599,
+        1819.423608076195,
+        523.6951380872749,
+        1401.8720825872451,
+        1930.4629019033232,
+        1123.61348456456,
+        276.67718137806827
+      ],
+      "visible_objects": [
+        "R1_REAR_MID_thick_inhabited_ground",
+        "R1_REAR_WEST_RIDGE",
+        "R2_PENINSULA_PUBLIC_WORLD.002",
+        "C_R0_INNER_ORCHARD_inhabited_vertical_cheek.006",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "C_R0_INNER_ORCHARD_roof_garden.001",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "C_R1_DEEP_METROPOLIS_urban_chamber_0",
+        "R2_PENINSULA_INHABITED_CHEEK"
+      ]
+    },
+    {
+      "score": 7264.643253577594,
+      "eye": [
+        250.0,
+        1250.0,
+        1550.0
+      ],
+      "target": [
+        -1120.3104248046875,
+        458.85089111328125,
+        1312.6552734375
+      ],
+      "surface_distances_m": [
+        1521.526958406012,
+        1063.1161007857984,
+        10000,
+        1512.9220278983316,
+        1239.0144394840602,
+        2889.1625516747927,
+        653.2020659526758,
+        760.2211784963472,
+        2342.6239595003294
+      ],
+      "visible_objects": [
+        "C_W1_RISING_GARDENS_urban_chamber_3",
+        "R2_PENINSULA_INHABITED_CHEEK",
+        null,
+        "R1_WEST_INNER_RIDGE",
+        "R1_WEST_INNER_RIDGE",
+        "C_W0_ESTUARY_public_ground",
+        "C_R0_INNER_ORCHARD_urban_chamber_0",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R1_WEST_OCEAN_RIDGE"
+      ]
+    },
+    {
+      "score": 7203.958942219464,
+      "eye": [
+        -950.0,
+        1250.0,
+        1550.0
+      ],
+      "target": [
+        632.2982177734375,
+        1250.0,
+        1312.6552734375
+      ],
+      "surface_distances_m": [
+        3195.352249752756,
+        429.6445961535025,
+        2864.8706831635527,
+        522.7865990296615,
+        1241.5536134215067,
+        1080.2955831044576,
+        1968.0554489139781,
+        1862.3221307684662,
+        1466.101825420049
+      ],
+      "visible_objects": [
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_REAR_CIVIC_OVERWORLD",
+        "C_E1_SPLIT_CITY_urban_chamber_1",
+        "C_R0_INNER_ORCHARD_urban_chamber_0",
+        "R1_REAR_MID_thick_inhabited_ground",
+        "C_R0_INNER_ORCHARD_public_ground",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_REAR_EAST_RIDGE",
+        "R2_EAST_INLAND_CIVILIZATION"
+      ]
+    },
+    {
+      "score": 7033.71752824908,
+      "eye": [
+        -950.0,
+        350.0,
+        1550.0
+      ],
+      "target": [
+        420.3104248046875,
+        1141.149169921875,
+        1787.3447265625
+      ],
+      "surface_distances_m": [
+        1563.1104032705111,
+        2148.0295330837516,
+        505.2907808919479,
+        1699.2520505357645,
+        570.703865716494,
+        1944.3495618715272,
+        3226.519709764687,
+        963.99303842144,
+        508.7285204502803
+      ],
+      "visible_objects": [
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_REAR_MID_thick_inhabited_ground",
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "C_R0_INNER_ORCHARD_inhabited_vertical_cheek.005",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "C_R0_INNER_ORCHARD_inhabited_vertical_cheek.006",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R2_INTERIOR_CIVIC_CONTINENT",
+        "R2_INNER_METROPOLITAN_PENINSULA"
+      ]
+    },
+    {
+      "score": 6948.988250683109,
+      "eye": [
+        -50.0,
+        -650.0,
+        1550.0
+      ],
+      "target": [
+        -1632.2982177734375,
+        -650.0,
+        1312.6552734375
+      ],
+      "surface_distances_m": [
+        1988.2299583266267,
+        10000,
+        1213.448340474369,
+        2262.5741700549843,
+        10000,
+        4069.95463733934,
+        896.838897356989,
+        10000,
+        979.8028899350114
+      ],
+      "visible_objects": [
+        "R1_WEST_OCEAN_RIDGE",
+        null,
+        "C_W1_RISING_GARDENS_roof_garden.002",
+        "C_W0_ESTUARY_inhabited_vertical_cheek.001",
+        null,
+        "Review ground",
+        "R1_RISING_thick_inhabited_ground",
+        null,
+        "R1_WEST_INNER_RIDGE"
+      ]
+    },
+    {
+      "score": 6927.272403729438,
+      "eye": [
+        -950.0,
+        -650.0,
+        1550.0
+      ],
+      "target": [
+        -158.85089111328125,
+        720.3104248046875,
+        1787.3447265625
+      ],
+      "surface_distances_m": [
+        974.8546936995918,
+        979.8028417199953,
+        690.9145737659522,
+        2242.1798266419223,
+        980.1738764754955,
+        2954.130556314328,
+        687.1785001115976,
+        326.60099709540225,
+        2109.615767740657
+      ],
+      "visible_objects": [
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "R1_WEST_INNER_RIDGE",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R1_REAR_LOWER_thick_inhabited_ground",
+        "R1_UPPER_thick_inhabited_ground",
+        "R1_REAR_WEST_RIDGE",
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "R1_WEST_INNER_RIDGE",
+        "R2_EAST_INLAND_CIVILIZATION"
+      ]
+    },
+    {
+      "score": 6885.129878174088,
+      "eye": [
+        -650.0,
+        350.0,
+        1550.0
+      ],
+      "target": [
+        141.14910888671875,
+        1720.3104248046875,
+        1312.6552734375
+      ],
+      "surface_distances_m": [
+        1825.8554416355091,
+        10000,
+        2212.30783240319,
+        3207.845129522309,
+        1241.5535001561552,
+        879.6316578634634,
+        2228.636228167352,
+        10000,
+        1378.1842433411252
+      ],
+      "visible_objects": [
+        "C_R0_INNER_ORCHARD_inhabited_vertical_cheek.006",
+        null,
+        "R2_EAST_INLAND_CIVILIZATION",
+        "Review ground",
+        "R1_REAR_MID_thick_inhabited_ground",
+        "C_R0_INNER_ORCHARD_inhabited_vertical_cheek",
+        "R1_REAR_EAST_RIDGE",
+        null,
+        "R2_EAST_INLAND_CIVILIZATION"
+      ]
+    },
+    {
+      "score": 6873.292873349541,
+      "eye": [
+        -950.0,
+        -650.0,
+        1550.0
+      ],
+      "target": [
+        -950.0,
+        932.2982177734375,
+        1312.6552734375
+      ],
+      "surface_distances_m": [
+        854.7208585811803,
+        726.7220483423322,
+        2441.159046884799,
+        409.7961049793543,
+        566.3228154065489,
+        404.48281020335094,
+        4069.9567872398843,
+        908.4026717609872,
+        2148.029503987317
+      ],
+      "visible_objects": [
+        "C_W1_RISING_GARDENS_urban_chamber_3",
+        "R1_WEST_INNER_RIDGE",
+        "C_R0_INNER_ORCHARD_inhabited_vertical_cheek.004",
+        "C_W1_RISING_GARDENS_urban_chamber_2",
+        "R1_WEST_INNER_RIDGE",
+        "C_W1_RISING_GARDENS_roof_garden.002",
+        "Review ground",
+        "R1_WEST_INNER_RIDGE",
+        "R1_REAR_MID_thick_inhabited_ground"
+      ]
+    },
+    {
+      "score": 6639.720451215166,
+      "eye": [
+        -950.0,
+        -150.0,
+        1550.0
+      ],
+      "target": [
+        -158.85089111328125,
+        1220.3104248046875,
+        1312.6552734375
+      ],
+      "surface_distances_m": [
+        2405.6291488013067,
+        10000,
+        636.2255781781529,
+        3207.856020771506,
+        1531.1322123064683,
+        403.15766824996643,
+        4069.952211021648,
+        1941.5698766558726,
+        639.7695767447253
+      ],
+      "visible_objects": [
+        "C_R0_INNER_ORCHARD_inhabited_vertical_cheek.006",
+        null,
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "Review ground",
+        "R2_INTERIOR_CIVIC_CONTINENT",
+        "C_W1_RISING_GARDENS_urban_chamber_3",
+        "Review ground",
+        "R1_REAR_WEST_RIDGE",
+        "R2_PENINSULA_INHABITED_CHEEK"
+      ]
+    },
+    {
+      "score": 6526.862405308279,
+      "eye": [
+        -650.0,
+        -650.0,
+        1550.0
+      ],
+      "target": [
+        -650.0,
+        932.2982177734375,
+        1787.3447265625
+      ],
+      "surface_distances_m": [
+        1921.2558392884587,
+        979.8029298027232,
+        516.6819484362152,
+        1301.3302688979459,
+        980.1739003870691,
+        912.5176303947502,
+        633.1753882342751,
+        504.93342112166135,
+        591.8903212114133
+      ],
+      "visible_objects": [
+        "R1_REAR_MID_thick_inhabited_ground",
+        "R1_WEST_INNER_RIDGE",
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "C_MID_TRANSIT_public_surface",
+        "R1_UPPER_thick_inhabited_ground",
+        "C_W1_RISING_GARDENS_urban_chamber_3",
+        "R2_PENINSULA_INHABITED_CHEEK",
+        "R1_WEST_INNER_RIDGE",
+        "R2_INNER_METROPOLITAN_PENINSULA"
+      ]
+    }
+  ],
+  "10_INTERIOR_HIGH": [
+    {
+      "score": 8143.516105656255,
+      "eye": [
+        -50.0,
+        -650.0,
+        2650.0
+      ],
+      "target": [
+        -50.0,
+        932.2982177734375,
+        2412.6552734375
+      ],
+      "surface_distances_m": [
+        2629.0877695504955,
+        10000,
+        1394.700184795553,
+        1130.7359881952993,
+        1176.2085805672393,
+        1344.0884573754809,
+        1870.4025218519141,
+        1276.0217597086657,
+        1870.3996888616482
+      ],
+      "visible_objects": [
+        "R1_REAR_CIVIC_OVERWORLD.001",
+        null,
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R1_ZENITH_thick_inhabited_ground",
+        "R1_UPPER_thick_inhabited_ground",
+        "C_E2_HANGING_GARDEN_inhabited_vertical_cheek.002",
+        "R1_WEST_INNER_RIDGE",
+        "C_R2_SHARED_SKY_urban_chamber_1"
+      ]
+    },
+    {
+      "score": 7902.814323501584,
+      "eye": [
+        250.0,
+        350.0,
+        2650.0
+      ],
+      "target": [
+        -541.1491088867188,
+        1720.3104248046875,
+        2412.6552734375
+      ],
+      "surface_distances_m": [
+        1543.6061458784588,
+        10000,
+        489.901388156012,
+        1119.9492594533021,
+        867.6928752624686,
+        6833.492920900701,
+        1808.867056293455,
+        1045.1048130749853,
+        650.207373395572
+      ],
+      "visible_objects": [
+        "R1_REAR_WEST_RIDGE",
+        null,
+        "R2_EAST_INLAND_CIVILIZATION",
+        "C_HIGH_PROMENADE_public_surface",
+        "C_R2_SHARED_SKY_urban_chamber_0",
+        "Review ground",
+        "C_R1_DEEP_METROPOLIS_public_ground",
+        "R1_WEST_INNER_RIDGE",
+        "R1_REAR_HIGH_thick_inhabited_ground"
+      ]
+    },
+    {
+      "score": 7799.3633505744765,
+      "eye": [
+        -50.0,
+        -650.0,
+        2650.0
+      ],
+      "target": [
+        741.1491088867188,
+        720.3104248046875,
+        2412.6552734375
+      ],
+      "surface_distances_m": [
+        1410.7228103551208,
+        2939.408350863316,
+        10000,
+        1504.0790371519709,
+        1885.9034265770345,
+        2040.9279168355629,
+        1899.3104669853215,
+        2113.9181464019603,
+        10000
+      ],
+      "visible_objects": [
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_REAR_CIVIC_OVERWORLD.001",
+        null,
+        "C_E2_HANGING_GARDEN_inhabited_vertical_cheek",
+        "R1_REAR_EAST_RIDGE",
+        "R1_REAR_MID_thick_inhabited_ground",
+        "C_E2_HANGING_GARDEN_roof_garden.002",
+        "C_SECONDARY_ASCENSION",
+        null
+      ]
+    },
+    {
+      "score": 7509.615863202439,
+      "eye": [
+        -350.0,
+        350.0,
+        2650.0
+      ],
+      "target": [
+        -350.0,
+        1932.2982177734375,
+        2412.6552734375
+      ],
+      "surface_distances_m": [
+        1550.4879876993566,
+        577.8842763187162,
+        1065.7633332132773,
+        1162.0089150905858,
+        740.5758106028038,
+        1783.7434740595409,
+        1806.3546595976106,
+        597.0086904433165,
+        702.7156217967461
+      ],
+      "visible_objects": [
+        "R1_REAR_CIVIC_OVERWORLD.001",
+        "R1_WEST_INNER_RIDGE",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "C_R1_DEEP_METROPOLIS_urban_chamber_0",
+        "C_R2_SHARED_SKY_floor_street.002",
+        "R1_REAR_WEST_RIDGE",
+        "C_R1_DEEP_METROPOLIS_inland_water",
+        "R1_WEST_INNER_RIDGE",
+        "R1_REAR_HIGH_thick_inhabited_ground"
+      ]
+    },
+    {
+      "score": 7499.28484696312,
+      "eye": [
+        -350.0,
+        -150.0,
+        2650.0
+      ],
+      "target": [
+        -350.0,
+        1432.2982177734375,
+        2887.3447265625
+      ],
+      "surface_distances_m": [
+        1241.803564880533,
+        466.78859380729705,
+        1589.0248201039058,
+        1650.768859690841,
+        534.6404896049307,
+        1914.7735383394559,
+        1386.650331058627,
+        430.7884690635591,
+        678.3249561189313
+      ],
+      "visible_objects": [
+        "C_R2_SHARED_SKY_urban_chamber_0",
+        "R1_WEST_INNER_RIDGE",
+        "C_R2_SHARED_SKY_inhabited_vertical_cheek.002",
+        "R1_REAR_CIVIC_OVERWORLD.001",
+        "R1_ZENITH_thick_inhabited_ground",
+        "R1_REAR_WEST_RIDGE",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "C_PRIMARY_ASCENSION",
+        "R1_ZENITH_thick_inhabited_ground"
+      ]
+    },
+    {
+      "score": 7417.494556484624,
+      "eye": [
+        -650.0,
+        -650.0,
+        2650.0
+      ],
+      "target": [
+        141.14910888671875,
+        720.3104248046875,
+        2412.6552734375
+      ],
+      "surface_distances_m": [
+        1727.7746231605267,
+        2239.122285271271,
+        2118.9744331722127,
+        1128.6849787473916,
+        1176.208514146195,
+        1344.088373094381,
+        1823.9407713793778,
+        1798.6570293902614,
+        10000
+      ],
+      "visible_objects": [
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_REAR_CIVIC_OVERWORLD.001",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R1_ZENITH_thick_inhabited_ground",
+        "R1_UPPER_thick_inhabited_ground",
+        "C_E2_HANGING_GARDEN_roof_garden",
+        "C_R2_SHARED_SKY_urban_chamber_0",
+        null
+      ]
+    },
+    {
+      "score": 7191.6864155521525,
+      "eye": [
+        550.0,
+        -150.0,
+        2650.0
+      ],
+      "target": [
+        -241.14910888671875,
+        1220.3104248046875,
+        2887.3447265625
+      ],
+      "surface_distances_m": [
+        1441.4496311222601,
+        1273.9749402706084,
+        1235.9514976293315,
+        3060.8625214145113,
+        1564.2773790955362,
+        10000,
+        836.3069265470812,
+        754.3451526821127,
+        1218.8722126224409
+      ],
+      "visible_objects": [
+        "C_R2_SHARED_SKY_urban_chamber_0",
+        "R1_WEST_INNER_RIDGE",
+        "C_R2_SHARED_SKY_urban_chamber_1",
+        "R1_REAR_WEST_RIDGE",
+        "R1_REAR_WEST_RIDGE",
+        null,
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_ZENITH_thick_inhabited_ground",
+        "R1_REAR_EAST_RIDGE"
+      ]
+    },
+    {
+      "score": 7147.421028907827,
+      "eye": [
+        250.0,
+        -150.0,
+        2650.0
+      ],
+      "target": [
+        -541.1491088867188,
+        1220.3104248046875,
+        2412.6552734375
+      ],
+      "surface_distances_m": [
+        2076.495622512241,
+        1579.1425655042992,
+        999.4990888995035,
+        1128.6849233732148,
+        1176.2085672830308,
+        1248.3488094278778,
+        1716.3603046308488,
+        1002.049378539426,
+        10000
+      ],
+      "visible_objects": [
+        "R1_REAR_WEST_RIDGE",
+        "R1_WEST_INNER_RIDGE",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R1_ZENITH_thick_inhabited_ground",
+        "C_W2_UPPER_CONCOURSE_inhabited_vertical_cheek.007",
+        "R2_INTERIOR_CIVIC_GROUND",
+        "R1_WEST_INNER_RIDGE",
+        null
+      ]
+    },
+    {
+      "score": 7064.825721729775,
+      "eye": [
+        550.0,
+        -150.0,
+        2650.0
+      ],
+      "target": [
+        -820.3104248046875,
+        641.1491088867188,
+        2887.3447265625
+      ],
+      "surface_distances_m": [
+        1228.2863491339265,
+        1192.8441755111105,
+        1475.2065983490245,
+        1594.4162920956371,
+        1435.6083205387185,
+        1344.6780748565807,
+        2300.3645991586855,
+        1879.6712447343684,
+        732.3558411899232
+      ],
+      "visible_objects": [
+        "R1_WEST_INNER_RIDGE",
+        "R1_WEST_INNER_RIDGE",
+        "C_R2_SHARED_SKY_urban_chamber_0",
+        "C_W2_UPPER_CONCOURSE_roof_garden.003",
+        "R1_WEST_INNER_RIDGE",
+        "C_PRIMARY_ASCENSION",
+        "R1_REAR_WEST_RIDGE",
+        "R1_WEST_OCEAN_RIDGE",
+        "R1_ZENITH_thick_inhabited_ground"
+      ]
+    },
+    {
+      "score": 6967.154551467364,
+      "eye": [
+        -350.0,
+        -650.0,
+        2650.0
+      ],
+      "target": [
+        -350.0,
+        932.2982177734375,
+        2412.6552734375
+      ],
+      "surface_distances_m": [
+        2155.6174851275214,
+        652.0441688601557,
+        1486.3454868401222,
+        1128.6849649038477,
+        1176.2085805672393,
+        853.303259764663,
+        2173.1529513589235,
+        677.6818061384663,
+        2001.3522596453379
+      ],
+      "visible_objects": [
+        "R1_REAR_CIVIC_OVERWORLD.001",
+        "R1_WEST_INNER_RIDGE",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R2_INNER_METROPOLITAN_PENINSULA",
+        "R1_ZENITH_thick_inhabited_ground",
+        "C_W2_UPPER_CONCOURSE_urban_chamber_1",
+        "R2_EAST_INLAND_CIVILIZATION",
+        "R1_WEST_INNER_RIDGE",
+        "C_R2_SHARED_SKY_inhabited_vertical_cheek.002"
+      ]
+    }
+  ]
+}

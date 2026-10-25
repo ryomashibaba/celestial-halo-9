@@ -1,0 +1,190 @@
+{
+  "source_blend_sha256": "9cd87b812e086500b8faad314299c0f843d2b3785d97c75c4c2ba675267b6bec",
+  "floor_ray": {
+    "hit": true,
+    "camera_xyz_m": [
+      -1710.0,
+      -520.0,
+      401.70001220703125
+    ],
+    "floor_xyz_m": [
+      -1710.0,
+      -520.0,
+      400.0
+    ],
+    "object": "C_W0_ESTUARY_public_ground",
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "distance_m": 1.700012232231562,
+    "pass_1_7m_2mm": true
+  },
+  "cameras": {
+    "08_INTERIOR_LOW": {
+      "xyz_m": [
+        -950.0,
+        1250.0,
+        650.0
+      ],
+      "rotation_euler_rad": [
+        1.719686508178711,
+        -2.516466146573748e-08,
+        -2.6179938316345215
+      ],
+      "lens_mm": 23.0
+    },
+    "09_INTERIOR_MID": {
+      "xyz_m": [
+        -650.0,
+        350.0,
+        1550.0
+      ],
+      "rotation_euler_rad": [
+        1.7196862697601318,
+        -7.929721590471672e-08,
+        -0.523598849773407
+      ],
+      "lens_mm": 23.0
+    },
+    "10_INTERIOR_HIGH": {
+      "xyz_m": [
+        -50.0,
+        -650.0,
+        2650.0
+      ],
+      "rotation_euler_rad": [
+        1.4219062328338623,
+        -0.0,
+        0.0
+      ],
+      "lens_mm": 23.0
+    },
+    "11_DISTRICT": {
+      "xyz_m": [
+        -2700.0,
+        -1500.0,
+        1050.0
+      ],
+      "rotation_euler_rad": [
+        1.3030163049697876,
+        1.068074961807497e-08,
+        -0.6556957960128784
+      ],
+      "lens_mm": 30.0
+    },
+    "13_HUMAN_ESTUARY": {
+      "xyz_m": [
+        -1710.0,
+        -520.0,
+        401.70001220703125
+      ],
+      "rotation_euler_rad": [
+        1.723284125328064,
+        -1.1671001942659132e-08,
+        -1.0023752450942993
+      ],
+      "lens_mm": 22.0
+    }
+  },
+  "six_axis_surface_samples": {
+    "08_INTERIOR_LOW": {
+      "X+": {
+        "hit": true,
+        "distance_m": 1862.162385507773,
+        "surface": "R2_EAST_INLAND_CIVILIZATION"
+      },
+      "X-": {
+        "hit": false,
+        "distance_m": null,
+        "surface": null
+      },
+      "Y+": {
+        "hit": true,
+        "distance_m": 562.1691804964054,
+        "surface": "R1_REAR_WEST_RIDGE"
+      },
+      "Y-": {
+        "hit": false,
+        "distance_m": null,
+        "surface": null
+      },
+      "Z+": {
+        "hit": true,
+        "distance_m": 2890.0,
+        "surface": "R2_ZENITH_METROPOLITAN_GROUND"
+      },
+      "Z-": {
+        "hit": true,
+        "distance_m": 720.0,
+        "surface": "Review ground"
+      }
+    },
+    "09_INTERIOR_MID": {
+      "X+": {
+        "hit": true,
+        "distance_m": 213.3385934816999,
+        "surface": "R2_PENINSULA_INHABITED_CHEEK"
+      },
+      "X-": {
+        "hit": true,
+        "distance_m": 625.0,
+        "surface": "R1_WEST_INNER_RIDGE"
+      },
+      "Y+": {
+        "hit": true,
+        "distance_m": 1161.2963661357078,
+        "surface": "R1_REAR_CIVIC_OVERWORLD"
+      },
+      "Y-": {
+        "hit": false,
+        "distance_m": null,
+        "surface": null
+      },
+      "Z+": {
+        "hit": true,
+        "distance_m": 487.9295703531402,
+        "surface": "R2_INNER_METROPOLITAN_PENINSULA"
+      },
+      "Z-": {
+        "hit": true,
+        "distance_m": 1430.0,
+        "surface": "C_LOWEST_URBAN_DELTA"
+      }
+    },
+    "10_INTERIOR_HIGH": {
+      "X+": {
+        "hit": false,
+        "distance_m": null,
+        "surface": null
+      },
+      "X-": {
+        "hit": false,
+        "distance_m": null,
+        "surface": null
+      },
+      "Y+": {
+        "hit": false,
+        "distance_m": null,
+        "surface": null
+      },
+      "Y-": {
+        "hit": false,
+        "distance_m": null,
+        "surface": null
+      },
+      "Z+": {
+        "hit": false,
+        "distance_m": null,
+        "surface": null
+      },
+      "Z-": {
+        "hit": true,
+        "distance_m": 1525.000081967211,
+        "surface": "R2_INNER_METROPOLITAN_PENINSULA"
+      }
+    }
+  },
+  "scope": "Single-line surface rays only. No connected void volume, full path, collision, usable habitat or lift operation certified."
+}

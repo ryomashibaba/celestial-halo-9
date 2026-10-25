@@ -1,0 +1,13 @@
+{
+  "mean_absolute_rgb_difference_0_255": [
+    0.10472363636363637,
+    0.10088181818181818,
+    0.09863818181818182
+  ],
+  "max_absolute_rgb_difference_0_255": [
+    48,
+    47,
+    46
+  ],
+  "scope": "Native final macro render versus independently imported GLB with appended original studio only. Cycles denoising and normals may differ; not an art certificate."
+}

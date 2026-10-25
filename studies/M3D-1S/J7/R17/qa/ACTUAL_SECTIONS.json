@@ -1,0 +1,18 @@
+{
+  "SECTION_XZ_Y500": {
+    "source_sha256": "9cd87b812e086500b8faad314299c0f843d2b3785d97c75c4c2ba675267b6bec",
+    "plane_axis": 1,
+    "coordinate_m": 500,
+    "kept_positive": true,
+    "cut_meshes": 75,
+    "removed_meshes": 281
+  },
+  "SECTION_YZ_X0": {
+    "source_sha256": "9cd87b812e086500b8faad314299c0f843d2b3785d97c75c4c2ba675267b6bec",
+    "plane_axis": 0,
+    "coordinate_m": 0,
+    "kept_positive": true,
+    "cut_meshes": 61,
+    "removed_meshes": 297
+  }
+}

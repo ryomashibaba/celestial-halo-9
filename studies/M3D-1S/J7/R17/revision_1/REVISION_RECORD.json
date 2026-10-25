@@ -1,0 +1,17 @@
+{
+  "source": "exploration_C\\R17_C.blend",
+  "source_sha256": "a866ddc8c3ec27f3efb3b66083507feebf2dc744969c4e2468c1eebc396476dc",
+  "observed_predecessor_images": [
+    "01_FRONT.png",
+    "02_OBLIQUE.png"
+  ],
+  "removed_primary_meshes": [
+    "C_WEST_RISING_CONTINENT",
+    "C_REAR_HANGING_CIVILIZATION"
+  ],
+  "main_form_edits": [
+    "Removed original broad west and rear monoliths; rebuilt four staggered inhabited ridges with actual city chambers.",
+    "Extended seven district grounds to inhabit the opened side/rear, moved highest occupied skyline to an asymmetric 4440m ridge."
+  ],
+  "not_formal_adoption": true
+}
