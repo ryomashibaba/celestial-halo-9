@@ -1,0 +1,95 @@
+{
+  "schema": "halo9.j7r12.evidence_led_prework_gate.v1",
+  "date_jst": "2026-10-25",
+  "stage": "R12_CHAT_PRELOCALWORK_WITH_ACTUAL_R11_GLB_AUDIT",
+  "research_only": true,
+  "inherited": {
+    "repo": "ryomashibaba/celestial-halo-9",
+    "base_R11_PR": 43,
+    "base_sha": "5691714f667fa462b3fa1afa2096f1129d2ad3cf",
+    "base_art_status": "A/B/B_REF_ARE_ALL_REJECT",
+    "all_city_master_3d_first": "LOCKED",
+    "original_preservation": true,
+    "construction": "HOLD",
+    "formal_art_adopted": 0
+  },
+  "current_progress": {
+    "real_R11_originals_reaudited": true,
+    "script": "studies/M3D-1S/J7/R12/audit_r11_macro_surface.py",
+    "action": ".github/workflows/halo9-j7-r12-r11-realglb-audit.yml",
+    "audit_output": "studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_AUDIT.json",
+    "diagnostic_XZ": "studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_XZ.png",
+    "diagnostic_YZ": "studies/M3D-1S/J7/R12/outputs/R12_R11_MACRO_SURFACE_YZ.png",
+    "new_3D_city_model_this_stage": false,
+    "blender_local_work_used": false,
+    "art_quality_pass": false,
+    "measurement_warning": "Area-weighted triangle centroid distributions and mesh max dimension are NOT real inhabited volume or actual connected void space.",
+    "blender_gltf_basis_note": "Y-up GLTF decoded with [x,-z,y] to native Blender Z-up; original readback extents required to agree within 5cm."
+  },
+  "next_local_Work_declaration": {
+    "upcoming_stage": "J7-R13",
+    "announcement_made_in_stage": "J7-R12",
+    "next_turn_response": "A paste-ready LOCAL Work prompt; do not invoke the Chat-to-Work handoff dialog.",
+    "launch": "Only user launches the local Work session and chooses to run it; Chat may not control their machine.",
+    "existing_environment": "Reuse original local Blender 5.2.1 and existing MCP/RTX environment only after verification; allow direct Blender GUI work when feasible.",
+    "priority": "One major internally inhabited city body with meaningful multilayer void, not 2 procedural variant final models.",
+    "approach": "Start with 2 truly different rough 3D inhabited volume/void sketches; after inspecting actual 6-direction rendered geometry, choose the better concept and materially remodel macro mass at least twice.",
+    "art_pitfalls": [
+      "thin parallel ribbon elevated bridge",
+      "evenly stacked shelf city",
+      "angular sword-fin city",
+      "monolithic blank canyon rock with stuck-on windows",
+      "groundsheet with toy buildings",
+      "present-day library/auditorium/office as mandatory form"
+    ],
+    "deliverables": [
+      "real native Blender .blend and GLB for two genuinely different core spatial sketches",
+      "chosen concept before and after two meaningful macro form changes",
+      "six matched km-scale camera views for each",
+      "two real Blender cross-section geometry views of one cavern/inhabited layer",
+      "one mid-city district scale view and 1.7m human-eye view",
+      "actual measured bounds and references, GLB/blend readback and binary identities",
+      "readable real city strata and negative space proof, no overstating volume or traversal QA",
+      "GitHub research-only branch and Draft PR or honest blocked disclosure"
+    ],
+    "stop_conditions": [
+      "No formal world or canonical assets modified",
+      "Do not treat quantitative surface-area or render counts as ART PASS",
+      "No construction without authorization",
+      "Do not spend entire Work session generating windows/rails/detail without fixing macro urban spatial form"
+    ]
+  },
+  "next_art_criteria": {
+    "must_be_visible": [
+      "km main inhabited mass, not isolated board or thin wing",
+      "several different 300-1200m internal inhabited district worlds",
+      "continuous interplay of public cavern and district spaces",
+      "urban sky terrace above, below and inside a coherent living structure",
+      "large void exposed in real 3D, visible by both section view and internal camera",
+      "legibility from front/side/rear/aerial/human views"
+    ],
+    "may_use_any_forms": [
+      "arches",
+      "rings",
+      "sculpted rocks",
+      "towers",
+      "tension bridges",
+      "thin suspension decks",
+      "caves",
+      "shells",
+      "floating districts",
+      "negative space"
+    ],
+    "must_not_claim_complete": [
+      "W0 integrated",
+      "H1-H6 finished",
+      "SB01-SB16 finished",
+      "public interiors fully detailed",
+      "full walkability",
+      "city master complete",
+      "formal art adoption"
+    ]
+  },
+  "review_mode": "Observe actual Blender frames and make real shape edits. Do not repeat the earlier procedural GLB-only aesthetic loop.",
+  "work_efficiency_goal": "One high-impact art study + two substantial visual iterations instead of a large count of procedural variants."
+}
