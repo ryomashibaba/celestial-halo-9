@@ -1,0 +1,253 @@
+{
+  "date_jst": "2026-10-25",
+  "main_verified_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "base_verified_head": "61608a286922e296ffc129f844fe0e700dae0518",
+  "base_pr": 59,
+  "branch": "research/m3d1s-j7-r27b-living-horizons-20261025",
+  "records": [
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "AGENTS.md",
+      "bytes": 2861,
+      "sha256": "7bd04b75e2305edec473656194ce7f251e54bc60270d251919d46b1409ccb586",
+      "blob": "dc376946a7261137abbdaee68373ea67ce4d34c5"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/START_HERE.md",
+      "bytes": 5303,
+      "sha256": "3061cc6a35cf3e47968400d49538ed218d9cd9debfc5e40c4193ca5922582f01",
+      "blob": "31409773da67b3212a0ecae14e603f7af2c260a8"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/PROJECT_CONSTITUTION.md",
+      "bytes": 15410,
+      "sha256": "bb5104cf6e293553dbab483eb80dfed0b98749a27d307bf0aa2cecb8c640594d",
+      "blob": "9afa293268492ed0f70a0b2221ab3277dff48f32"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CITY_MASTER_3D_STANDARD.md",
+      "bytes": 8311,
+      "sha256": "2f8004e87ebf7d441e58ee82964815091d5f247d0ff6d4bd995d63544b3f2805",
+      "blob": "b3fcf9d02c4de5566f3ed506c43df6a2db3817e4"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CURRENT_STATUS.md",
+      "bytes": 3730,
+      "sha256": "2f083a22b3425379a9353ea74fc003fc0bd83fd8b6bb5969eeecf27a67e01d15",
+      "blob": "715ad111ca335735d3723cf5d86a14cb8aa543f2"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/DECISION_LOG.md",
+      "bytes": 4111,
+      "sha256": "33df9739248908fa7b92607c47814225169f582056ae4a7319cdad2222d3ad2b",
+      "blob": "c5a60bde5b4c2b13256cdf30fb3ff78210ac7971"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/SOURCE_REGISTER.md",
+      "bytes": 3557,
+      "sha256": "d022a2df36b4abed8b24c4d1da853f05cfb586cb08567d26b8d5745503ddd1ee",
+      "blob": "21c91de3a0b5f5720295ba4b7dcec59eda6ea44b"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R26/R26_WHOLE_CITY_ART_DIRECTION_JA.md",
+      "bytes": 19563,
+      "sha256": "20499167773ace6187b756de253e847ba4001af852de218cd57eb452c08d6c57",
+      "blob": "adbffe1f6d4a4ddf28c005582db5a29cf8ea3211"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R26/R26_CITYWIDE_MASTER_GATE.json",
+      "bytes": 9325,
+      "sha256": "0a1362f0aa96eae7f9364cb3ad0ebf86a91b675eb2251f2dd862bd79d9a25a3d",
+      "blob": "94958698b7097172f6f0d237e30ff23e0222a45d"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R27/R27_CITYWIDE_INTEGRATION_REALITY_GATE_JA.md",
+      "bytes": 9639,
+      "sha256": "0f575bac16608c384b6ab6056a347a8d3779ed1de8aaa257befbf2ca81f754b9",
+      "blob": "dad98963a2ea4ec47fc3cbb2bd8c6615a388ecd1"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R27/R27_VERIFIED_ASSET_ANCHOR_REGISTER.json",
+      "bytes": 12497,
+      "sha256": "a9c51385c784357c15ffe9e3fd04a72c774fdafe1d4990fd201b13157f2e0472",
+      "blob": "ac5691ab5019ce460fe1d34204c2b269aab2bd12"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R9/REPORT_JA.md",
+      "bytes": 10164,
+      "sha256": "79df125f44ea7565fc3fbaf1af0d95484476cb64f6193af18dbc6adaa57d49b0",
+      "blob": "e50db5692d178d682a8c755bf4ab501096c7082d"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R14/R14_ART_AND_QA_JA.md",
+      "bytes": 5317,
+      "sha256": "455174884555dca8e7a44c28352236b1e42900b3e46a4c2bdd2c381fbcd9bf2d",
+      "blob": "3e65d254bc398332d16be51429475a18cffa9471"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R18/R18_CIVILIZATION_LANDSCAPE_ART_DIRECTION_JA.md",
+      "bytes": 13717,
+      "sha256": "98022a400a012fd70ab5e5d5f6e33b8f98b3e8c4e9af188a2fab5b3a108cb577",
+      "blob": "48b76e62291518d90c1a08c6974d70da5805ccfb"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R19/R19_ART_REVIEW_JA.md",
+      "bytes": 15918,
+      "sha256": "699ea3fc3cf20990399dd36ca011fe61ff6021aba540e61bcab39961af09443e",
+      "blob": "6206e646996e4b6ebc06e91033e87f00b9c71cad"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R21/R21_ART_REVIEW_JA.md",
+      "bytes": 11919,
+      "sha256": "09f37cdbdb1ca83e4f72b08d135c67e887aae9347f6d26bf06307278d666f090",
+      "blob": "8f171d207e9a4f3a3e96d153a52fa17523974106"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R23/R23_ART_REVIEW_JA.md",
+      "bytes": 8069,
+      "sha256": "87490d6a67822f91f38661cd0c22111ff1e0ee56f4d8b3950c1ff1020b0e8a53",
+      "blob": "0b664f605a8a5dbf562f25fe32bad15e77129c58"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/INDEPENDENT_ART_REVIEW_JA.md",
+      "bytes": 6626,
+      "sha256": "0d0981d07233940025eaf4c75d4ff9ce14ad4122a4dea46ff53179a2b1e10ccd",
+      "blob": "19ff9256a2b8d56cb0147b250475fb341ed65f6d"
+    },
+    {
+      "ref": "61608a286922e296ffc129f844fe0e700dae0518",
+      "path": "studies/M3D-1S/proxies/COMMON_W0_NONCANONICAL_CONTEXT.obj",
+      "bytes": 95987,
+      "sha256": "511faa5e4f09cc05c2e9a8e595a3979e7822e2bb1379b4f237b5c2abd88d9bde",
+      "blob": "f9ddf33731e2166e090c3228c914a8dfb006617a"
+    }
+  ],
+  "legacy_read_only_files": [
+    {
+      "path": "research\\m121\\upstream\\data\\M117_USER_READONLY_ATLAS.json",
+      "sha256": "052d6ec308f842573b8fa9933266eb566508004caccdbd824812dbf94273f4f6",
+      "git_blob": "02387e73bd6a4022d6339bfa0f64ece2b9d8e8b4",
+      "actual_read_summary": {
+        "top_level_keys": [
+          "project",
+          "phase",
+          "mode",
+          "world_save_folder",
+          "world_role",
+          "observed_level_dat_sha256",
+          "matches_m115_snapshot",
+          "hash_can_change_after_normal_gameplay",
+          "model_H_to_world_Y",
+          "construction_target_registered",
+          "construction_approved",
+          "world_writes",
+          "coordinates_are_real_saved_block_positions",
+          "total_distinct_chunks_requested",
+          "chunks_readable",
+          "chunks_missing",
+          "artificial_material_definition",
+          "sites",
+          "regions",
+          "errors",
+          "survey_complete",
+          "limitations"
+        ]
+      },
+      "json_keys": [
+        "project",
+        "phase",
+        "mode",
+        "world_save_folder",
+        "world_role",
+        "observed_level_dat_sha256",
+        "matches_m115_snapshot",
+        "hash_can_change_after_normal_gameplay",
+        "model_H_to_world_Y",
+        "construction_target_registered",
+        "construction_approved",
+        "world_writes",
+        "coordinates_are_real_saved_block_positions",
+        "total_distinct_chunks_requested",
+        "chunks_readable",
+        "chunks_missing",
+        "artificial_material_definition",
+        "sites",
+        "regions",
+        "errors",
+        "survey_complete",
+        "limitations"
+      ]
+    },
+    {
+      "path": "research\\m121\\upstream\\data\\M121_B_PUBLIC_REALM_RESEARCH.json",
+      "sha256": "0e1b8fbe23cbc9a6e9ec1db0f1ea91257a2e10f58c8af5037f4aff19fcea1713",
+      "git_blob": "41cb54922fff528118ed660dbc7e39f870e39a39",
+      "actual_read_summary": {
+        "meshes": 1299,
+        "facilities": 16,
+        "route_intents": 24
+      },
+      "json_keys": [
+        "phase",
+        "variant",
+        "research_not_approved",
+        "minecraft_save_to_modify",
+        "reference_review_copy",
+        "world_y_for_rendering",
+        "model_relative_H_mapping_still",
+        "world_writes",
+        "protected_mesh_collision_certified",
+        "all_facility_entrances_walkable",
+        "protected_existing_geometry_intentionally_unmodified",
+        "observed_legacy_blocks_deleted",
+        "meshes",
+        "facility_programs",
+        "proposed_courts_and_voids",
+        "unverified_route_intents",
+        "warnings",
+        "original_M119_mesh_count",
+        "model_reference",
+        "all_new_geometry_requires_exterior_protected_classification",
+        "new_meshes_start_index",
+        "m120_added_meshes",
+        "public_route_concept",
+        "governance",
+        "collision_certified",
+        "accessible_continuous_public_route",
+        "model_H_to_world_Y",
+        "unverified_site_programs_count",
+        "m121_new_mesh_count",
+        "m121_meshes_start_index",
+        "experience"
+      ]
+    }
+  ],
+  "canonical_common_anchors_certified": 0,
+  "official_terrain_source": "NOT_LOCATED in inspected repository tree, R27A register and local M121 sources",
+  "M247_C": "Protected direction confirmed from main. No adopted central original imported; no original modified.",
+  "existing_W0_proxy": "Noncanonical marked proxy inspected, not imported as official terrain",
+  "sky_and_facility_sources": "No certified current six-district or sixteen-facility integrated master located in inspected sources",
+  "new_geometry_provenance": "All model geometry newly authored in build_city.py. No old 912x416 block cluster scaling or old mesh import.",
+  "authorization": "User pasted R27B request explicitly permits background local Blender, new branch, push and NEW Draft PR only",
+  "policy_amendments": null,
+  "actual_save_access": false,
+  "foreground_UI_control": false,
+  "untracked_research_preserved": true
+}

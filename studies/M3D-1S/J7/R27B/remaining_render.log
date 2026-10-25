@@ -1,0 +1,25 @@
+00:02.031  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\model\R27B_LIVING_HORIZONS.blend"
+RENDER_START 02_EAST_SEA
+00:24.781  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\02_EAST_SEA.png'
+RENDER_DONE 02_EAST_SEA
+RENDER_START 03_NORTH_HIGHLAND
+00:41.828  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\03_NORTH_HIGHLAND.png'
+RENDER_DONE 03_NORTH_HIGHLAND
+RENDER_START 04_CENTRAL_OBLIQUE
+01:05.390  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\04_CENTRAL_OBLIQUE.png'
+RENDER_DONE 04_CENTRAL_OBLIQUE
+RENDER_START 06_PUBLIC_PLAZA
+01:37.000  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\06_PUBLIC_PLAZA.png'
+RENDER_DONE 06_PUBLIC_PLAZA
+RENDER_START 07_SKY_HARBOR
+02:00.718  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\07_SKY_HARBOR.png'
+RENDER_DONE 07_SKY_HARBOR
+RENDER_START 08_REAR_UNDERSIDE
+02:27.750  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\08_REAR_UNDERSIDE.png'
+RENDER_DONE 08_REAR_UNDERSIDE
+RENDER_START 09_WHOLE_AERIAL
+02:46.843  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\09_WHOLE_AERIAL.png'
+RENDER_DONE 09_WHOLE_AERIAL
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,356 @@
+{
+  "geometry_readback_pass": true,
+  "saved_blend": {
+    "meshes": 1243,
+    "vertices": 25421,
+    "triangles": 45392,
+    "min_m": [
+      -5400.0,
+      -5400.0,
+      -149.9763946533203
+    ],
+    "max_m": [
+      5400.0,
+      5400.0,
+      3340.0
+    ],
+    "dimensions_m": [
+      10800.0,
+      10800.0,
+      3489.9763946533203
+    ],
+    "group_bounds": {
+      "TERRAIN_STUDY": {
+        "min_m": [
+          -5400.0,
+          -5400.0,
+          -149.9763946533203
+        ],
+        "max_m": [
+          5400.0,
+          5400.0,
+          2334.958740234375
+        ],
+        "dimensions_m": [
+          10800.0,
+          10800.0,
+          2484.9351348876953
+        ]
+      },
+      "WEST_ESCARPMENT_PUBLIC_STUDY": {
+        "min_m": [
+          -3581.5,
+          -1400.0,
+          238.0
+        ],
+        "max_m": [
+          -3254.0,
+          2450.0,
+          738.0
+        ],
+        "dimensions_m": [
+          327.5,
+          3850.0,
+          500.0
+        ]
+      },
+      "CENTRAL_CIVIC_GROUND": {
+        "min_m": [
+          -340.0,
+          -2220.0,
+          125.0
+        ],
+        "max_m": [
+          340.0,
+          1225.0,
+          167.5
+        ],
+        "dimensions_m": [
+          680.0,
+          3445.0,
+          42.5
+        ]
+      },
+      "CENTRAL_INHABITED_BANKS": {
+        "min_m": [
+          -1397.0,
+          -1004.7999877929688,
+          145.0
+        ],
+        "max_m": [
+          1327.4000244140625,
+          1683.800048828125,
+          2795.0
+        ],
+        "dimensions_m": [
+          2724.4000244140625,
+          2688.6000366210938,
+          2650.0
+        ]
+      },
+      "CENTRAL_PUBLIC_NAVE": {
+        "min_m": [
+          -567.47216796875,
+          -742.4391479492188,
+          155.1839141845703
+        ],
+        "max_m": [
+          567.47216796875,
+          1916.800048828125,
+          3340.0
+        ],
+        "dimensions_m": [
+          1134.9443359375,
+          2659.2391967773438,
+          3184.8160858154297
+        ]
+      },
+      "CENTRAL_REPRESENTATIVE_QUARTERS": {
+        "min_m": [
+          -1640.0,
+          -1190.0,
+          115.0
+        ],
+        "max_m": [
+          1640.0,
+          840.0,
+          335.0
+        ],
+        "dimensions_m": [
+          3280.0,
+          2030.0,
+          220.0
+        ]
+      },
+      "SKY_PROTOTYPE_A_RIDGE": {
+        "min_m": [
+          -3400.0,
+          1090.0,
+          920.1677856445312
+        ],
+        "max_m": [
+          -1700.0,
+          1900.0,
+          1524.0
+        ],
+        "dimensions_m": [
+          1700.0,
+          810.0,
+          603.8322143554688
+        ]
+      },
+      "SKY_PROTOTYPE_B_CASCADE": {
+        "min_m": [
+          -2850.0,
+          -1020.0,
+          441.2974853515625
+        ],
+        "max_m": [
+          -1470.0,
+          -10.0,
+          919.0
+        ],
+        "dimensions_m": [
+          1380.0,
+          1010.0,
+          477.7025146484375
+        ]
+      },
+      "SKY_PROTOTYPE_C_HARBOR": {
+        "min_m": [
+          1710.0,
+          -1450.0,
+          530.623291015625
+        ],
+        "max_m": [
+          3320.0,
+          -610.0,
+          968.67724609375
+        ],
+        "dimensions_m": [
+          1610.0,
+          840.0,
+          438.053955078125
+        ]
+      },
+      "SKY_PROTOTYPE_D_CULTURE": {
+        "min_m": [
+          1200.0,
+          1210.0,
+          1031.123291015625
+        ],
+        "max_m": [
+          2660.0,
+          2330.0,
+          1738.5550537109375
+        ],
+        "dimensions_m": [
+          1460.0,
+          1120.0,
+          707.4317626953125
+        ]
+      },
+      "SKY_PROTOTYPE_E_HIGH": {
+        "min_m": [
+          -850.0,
+          2740.0,
+          1532.0206298828125
+        ],
+        "max_m": [
+          700.0,
+          3640.0,
+          2184.0
+        ],
+        "dimensions_m": [
+          1550.0,
+          900.0,
+          651.9793701171875
+        ]
+      },
+      "SKY_PROTOTYPE_F_REVERSE": {
+        "min_m": [
+          -2290.0,
+          2550.0,
+          1240.9525146484375
+        ],
+        "max_m": [
+          -1010.0,
+          3710.0,
+          1734.0
+        ],
+        "dimensions_m": [
+          1280.0,
+          1160.0,
+          493.0474853515625
+        ]
+      },
+      "FOUR_UNASSIGNED_SECONDARY_LANDMARKS": {
+        "min_m": [
+          -445.0,
+          -3300.0,
+          80.0
+        ],
+        "max_m": [
+          3740.0,
+          3655.0,
+          1010.0
+        ],
+        "dimensions_m": [
+          4185.0,
+          6955.0,
+          930.0
+        ]
+      },
+      "RESEARCH_TRANSIT_NOT_OFFICIAL_AXES": {
+        "min_m": [
+          -3271.773193359375,
+          -1122.5,
+          -75.53765869140625
+        ],
+        "max_m": [
+          3303.057373046875,
+          3220.0,
+          1852.0
+        ],
+        "dimensions_m": [
+          6574.83056640625,
+          4342.5,
+          1927.5376586914062
+        ]
+      },
+      "HUMAN_SCALE_REPRESENTATIVE_STREET": {
+        "min_m": [
+          -741.5,
+          -2080.0,
+          133.0
+        ],
+        "max_m": [
+          1875.18994140625,
+          -1337.875,
+          745.75
+        ],
+        "dimensions_m": [
+          2616.68994140625,
+          742.125,
+          612.75
+        ]
+      }
+    }
+  },
+  "reimported_glb": {
+    "meshes": 1243,
+    "vertices": 119567,
+    "triangles": 45392,
+    "min_m": [
+      -5400.0,
+      -5400.0,
+      -149.9763946533203
+    ],
+    "max_m": [
+      5400.0,
+      5400.0,
+      3340.0
+    ],
+    "dimensions_m": [
+      10800.0,
+      10800.0,
+      3489.9763946533203
+    ],
+    "group_bounds": {
+      "glTF imported": {
+        "min_m": [
+          -5400.0,
+          -5400.0,
+          -149.9763946533203
+        ],
+        "max_m": [
+          5400.0,
+          5400.0,
+          3340.0
+        ],
+        "dimensions_m": [
+          10800.0,
+          10800.0,
+          3489.9763946533203
+        ]
+      }
+    }
+  },
+  "max_boundary_error_m": 0.0,
+  "nearest_geometry_errors": {
+    "blend_to_glb_vertices_m": 0.0002796982298605144,
+    "glb_to_blend_vertices_m": 0.0002796982298605144,
+    "blend_to_glb_triangle_centers_m": 0.0003662109375,
+    "glb_to_blend_triangle_centers_m": 0.0003662109375
+  },
+  "tolerance_m": 0.01,
+  "saved_floor_recheck": [
+    {
+      "camera": "05_ENTRY_HUMAN",
+      "support": "ENTRY_PROMENADE_REAL_FLOOR",
+      "eye_above_floor_m": 1.6999969482421875
+    },
+    {
+      "camera": "06_PUBLIC_PLAZA",
+      "support": "PLAZA_REAL_FLOOR",
+      "eye_above_floor_m": 1.6999969482421875
+    },
+    {
+      "camera": "07_SKY_HARBOR",
+      "support": "C_HARBOR_public_surface",
+      "eye_above_floor_m": 1.70001220703125
+    }
+  ],
+  "scope": "Both saved files independently loaded. All vertices and triangle centers checked bidirectionally. Not exact topology identity or collision QA.",
+  "not_verified": [
+    "global intersections",
+    "structural integrity",
+    "enclosed public volumes",
+    "continuous pedestrian routes",
+    "rail slopes and vehicle operation",
+    "official W0/H/SB/axis/V registration",
+    "Minecraft conversion"
+  ],
+  "art_judgment": "REJECT regardless of this technical result",
+  "heavy_QA_or_stage_D": false
+}

@@ -1,0 +1,10 @@
+{
+  "blender": "5.2.1 LTS",
+  "mesh_count": 1243,
+  "seed": 270025,
+  "base_head": "61608a286922e296ffc129f844fe0e700dae0518",
+  "canonical_coordinate_transform": null,
+  "facility_status": "4 unassigned analogues only; SB01-SB16 formal models and interiors NOT produced",
+  "art_status": "PENDING_RENDER_REVIEW",
+  "scene_units": "metres +X east +Y north +Z up, study origin only"
+}
