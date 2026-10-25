@@ -179,6 +179,16 @@
   "connected_graph_topologically": true,
   "floor_and_vertical_access": "GEOMETRY_PRESENT_NOT_REAL_WALKABILITY_CERTIFICATION",
   "all_navigable": "NOT_CERTIFIED",
+  "human_view_camera_verified": {
+    "camera_position_m": [
+      -340.0,
+      -340.0,
+      75.69999694824219
+    ],
+    "hit": true,
+    "floor_name": "D01_ORIGIN_CAVERN_INTERIOR_PUBLIC_COURT",
+    "eye_to_floor_m": 1.7
+  },
   "true_void_volume": "NOT_MEASURED",
   "main_city_master_completed": false,
   "minecraft_construction": "HOLD",
@@ -234,7 +244,7 @@
       "name": "04_REAR",
       "camera": "ORTHO",
       "scale": 1675,
-      "bytes": 697790
+      "bytes": 694742
     },
     {
       "name": "05_AERIAL",
@@ -252,16 +262,16 @@
       "name": "07_DISTRICT_INSIDE",
       "camera": "ORTHO",
       "scale": 590,
-      "bytes": 855492
+      "bytes": 856658
     },
     {
       "name": "08_HUMAN_SCALE",
       "camera": "PERSP",
       "scale": 24,
-      "bytes": 917306
+      "bytes": 1212546
     }
   ],
-  "native_blend_bytes": 173034,
+  "native_blend_bytes": 172760,
   "glb_bytes": 376020,
   "reimport_meshes": 316
 }
