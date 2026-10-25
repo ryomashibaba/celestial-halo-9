@@ -1,0 +1,342 @@
+{
+  "scope": "Actual saved BLEND open, GLB empty-scene import, world bounds, triangles, finite vertices and independent solid edge topology only. No full occupancy, collisions, structure or art certification.",
+  "models": {
+    "R15_CONCEPT": {
+      "blend_sha256": "abad201b5bf094ff28c31404b1be3207456c429460d2db588f7ba508e28418a8",
+      "glb_sha256": "860431e9bf3f86b512b0cea5458941a8b15270891cb503be91c516c039a3370b",
+      "native": {
+        "min_m": [
+          -1200.0,
+          -951.8377075195312,
+          -40.0
+        ],
+        "max_m": [
+          1200.0,
+          695.0,
+          1870.0
+        ],
+        "span_xyz_m": [
+          2400.0,
+          1646.8377075195312,
+          1910.0
+        ],
+        "meshes": 3537,
+        "vertices": 39322,
+        "triangles": 64496,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 0
+      },
+      "glb_import": {
+        "min_m": [
+          -1200.0,
+          -951.8377075195312,
+          -40.0
+        ],
+        "max_m": [
+          1200.0,
+          695.0,
+          1870.0
+        ],
+        "span_xyz_m": [
+          2400.0,
+          1646.8377075195312,
+          1910.0
+        ],
+        "meshes": 3537,
+        "vertices": 127032,
+        "triangles": 64496,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 126264
+      },
+      "checks": {
+        "actual_saved_blend_open": true,
+        "actual_empty_scene_glb_import": true,
+        "bounds_max_error_m": 0.0,
+        "bounds_under_2cm": true,
+        "triangles_equal": true,
+        "finite": true
+      }
+    },
+    "R15_REVISION_1": {
+      "blend_sha256": "e9f112e98960675ce80a4fee3dbbc32f6e3b403e660e9ece6ff72eed2d1b9a06",
+      "glb_sha256": "99fda667110c2bbe37a3f037376c36dafa8398325bb9feb93e81a5f7e23f7180",
+      "native": {
+        "min_m": [
+          -1370.0,
+          -954.8538208007812,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          2740.0,
+          1699.8538208007812,
+          1884.0
+        ],
+        "meshes": 3761,
+        "vertices": 44628,
+        "triangles": 74276,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 0
+      },
+      "glb_import": {
+        "min_m": [
+          -1370.0,
+          -954.8538208007812,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          2740.0,
+          1699.8538208007812,
+          1884.0
+        ],
+        "meshes": 3761,
+        "vertices": 147960,
+        "triangles": 74276,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 147528
+      },
+      "checks": {
+        "actual_saved_blend_open": true,
+        "actual_empty_scene_glb_import": true,
+        "bounds_max_error_m": 0.0,
+        "bounds_under_2cm": true,
+        "triangles_equal": true,
+        "finite": true
+      }
+    },
+    "R15_OPEN_CLEFT_ATTEMPT": {
+      "blend_sha256": "7a3c75e8b9aa929b7116499c1887f57af6fd495e412dea0ae6227d18704e9156",
+      "glb_sha256": "77855b9a30478349c35eb61215a40edd5dfae87ad440c382f6e40b8737f6c924",
+      "native": {
+        "min_m": [
+          -1370.0,
+          -954.8538208007812,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          2740.0,
+          1699.8538208007812,
+          1884.0
+        ],
+        "meshes": 5355,
+        "vertices": 58781,
+        "triangles": 96198,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 0
+      },
+      "glb_import": {
+        "min_m": [
+          -1370.0,
+          -954.8538208007812,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          2740.0,
+          1699.8538208007812,
+          1884.0
+        ],
+        "meshes": 5355,
+        "vertices": 191566,
+        "triangles": 96198,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 191134
+      },
+      "checks": {
+        "actual_saved_blend_open": true,
+        "actual_empty_scene_glb_import": true,
+        "bounds_max_error_m": 0.0,
+        "bounds_under_2cm": true,
+        "triangles_equal": true,
+        "finite": true
+      }
+    },
+    "R15_FINAL": {
+      "blend_sha256": "3ff8453b6344f6ef399c65b0c28de95d773fa612c637ea6ff34036498f746257",
+      "glb_sha256": "e4635c013a81f2f75ba1b38dd60401548fb357f8c0d0ac415eb248afb1b51a0d",
+      "native": {
+        "min_m": [
+          -1370.0,
+          -954.8538208007812,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          2740.0,
+          1699.8538208007812,
+          1884.0
+        ],
+        "meshes": 4708,
+        "vertices": 52627,
+        "triangles": 86478,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 0
+      },
+      "glb_import": {
+        "min_m": [
+          -1370.0,
+          -954.8538208007812,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          2740.0,
+          1699.8538208007812,
+          1884.0
+        ],
+        "meshes": 4708,
+        "vertices": 172170,
+        "triangles": 86478,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 171738
+      },
+      "checks": {
+        "actual_saved_blend_open": true,
+        "actual_empty_scene_glb_import": true,
+        "bounds_max_error_m": 0.0,
+        "bounds_under_2cm": true,
+        "triangles_equal": true,
+        "finite": true
+      }
+    },
+    "SECTION_XZ_Y0": {
+      "blend_sha256": "c7e3bb65e2d6fe994980e6de5397fb33428c32db582bddf4c06b6c317e3e6991",
+      "glb_sha256": "2df37aa1b8447bf9e3c7cbd159adb4b69b7e2b89ea0a5b7c64eb02864a1bce7c",
+      "native": {
+        "min_m": [
+          -1370.0,
+          -6.103515625e-05,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          2740.0,
+          745.0000610351562,
+          1884.0
+        ],
+        "meshes": 2929,
+        "vertices": 28868,
+        "triangles": 45976,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 88
+      },
+      "glb_import": {
+        "min_m": [
+          -1370.0,
+          -6.103515625e-05,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          2740.0,
+          745.0000610351562,
+          1884.0
+        ],
+        "meshes": 2929,
+        "vertices": 92300,
+        "triangles": 45976,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 92300
+      },
+      "checks": {
+        "actual_saved_blend_open": true,
+        "actual_empty_scene_glb_import": true,
+        "bounds_max_error_m": 0.0,
+        "bounds_under_2cm": true,
+        "triangles_equal": true,
+        "finite": true
+      }
+    },
+    "SECTION_YZ_X0": {
+      "blend_sha256": "18573d155316143263bb0c8e6b9815bf6dd0d1969bcfa8988183248b0184ac66",
+      "glb_sha256": "76aa8ba6d13f74e3f7d824cf5d7f95ba195d0f4198bbe7e19b04abc5288a518b",
+      "native": {
+        "min_m": [
+          0.0,
+          -954.8538208007812,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          1370.0,
+          1699.8538208007812,
+          1884.0
+        ],
+        "meshes": 2134,
+        "vertices": 22697,
+        "triangles": 36886,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 0
+      },
+      "glb_import": {
+        "min_m": [
+          0.0,
+          -954.8538208007812,
+          -40.0
+        ],
+        "max_m": [
+          1370.0,
+          745.0,
+          1844.0
+        ],
+        "span_xyz_m": [
+          1370.0,
+          1699.8538208007812,
+          1884.0
+        ],
+        "meshes": 2134,
+        "vertices": 72602,
+        "triangles": 36886,
+        "nonfinite_vertices": 0,
+        "separate_solid_nonmanifold_edges": 72434
+      },
+      "checks": {
+        "actual_saved_blend_open": true,
+        "actual_empty_scene_glb_import": true,
+        "bounds_max_error_m": 0.0,
+        "bounds_under_2cm": true,
+        "triangles_equal": true,
+        "finite": true
+      }
+    }
+  },
+  "pass_basic_persistence": true
+}

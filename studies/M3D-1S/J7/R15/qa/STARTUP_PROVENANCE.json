@@ -1,0 +1,117 @@
+{
+  "date_jst": "2026-10-25",
+  "repository": "ryomashibaba/celestial-halo-9",
+  "main_verified": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "R14_verified_latest_head": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+  "user_supplied_historical_R14_head": "22b6a0092b91fdcfaf7b7eb78bbf4b6c8f04ed07",
+  "branch": "research/m3d1s-j7-r15-symmetric-lived-world-20261025",
+  "sources": [
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "AGENTS.md",
+      "bytes": 2861,
+      "sha256": "7bd04b75e2305edec473656194ce7f251e54bc60270d251919d46b1409ccb586"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/START_HERE.md",
+      "bytes": 5303,
+      "sha256": "3061cc6a35cf3e47968400d49538ed218d9cd9debfc5e40c4193ca5922582f01"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/PROJECT_CONSTITUTION.md",
+      "bytes": 15410,
+      "sha256": "bb5104cf6e293553dbab483eb80dfed0b98749a27d307bf0aa2cecb8c640594d"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CITY_MASTER_3D_STANDARD.md",
+      "bytes": 8311,
+      "sha256": "2f8004e87ebf7d441e58ee82964815091d5f247d0ff6d4bd995d63544b3f2805"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CURRENT_STATUS.md",
+      "bytes": 3730,
+      "sha256": "2f083a22b3425379a9353ea74fc003fc0bd83fd8b6bb5969eeecf27a67e01d15"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/DECISION_LOG.md",
+      "bytes": 4111,
+      "sha256": "33df9739248908fa7b92607c47814225169f582056ae4a7319cdad2222d3ad2b"
+    },
+    {
+      "ref": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+      "path": "studies/M3D-1S/latest.json",
+      "bytes": 29805,
+      "sha256": "149e2a3c547d97306df49a428834067c64112cf7d6581ec26656b522e68655ed"
+    },
+    {
+      "ref": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+      "path": "studies/M3D-1S/J7/R13/R13_ART_REVIEW_JA.md",
+      "bytes": 14163,
+      "sha256": "14604562605f81c06b33d6da744bedd4900fcdf76e474f1865d5a7d95f0cafe8"
+    },
+    {
+      "ref": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+      "path": "studies/M3D-1S/J7/R13/R13_HANDOFF.json",
+      "bytes": 2633,
+      "sha256": "1bf1360a2c821d260b4e390501bc9e0abe937b13f29d1534282ab08bc349385b"
+    },
+    {
+      "ref": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+      "path": "studies/M3D-1S/J7/R14/R14_ART_AND_QA_JA.md",
+      "bytes": 5317,
+      "sha256": "455174884555dca8e7a44c28352236b1e42900b3e46a4c2bdd2c381fbcd9bf2d"
+    },
+    {
+      "ref": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+      "path": "studies/M3D-1S/J7/R14/R14_HANDOFF.json",
+      "bytes": 2989,
+      "sha256": "2215067a2b15aad76e54598c9e2546dd9376af47899b7ec01ab7973e2b81ed8a"
+    },
+    {
+      "ref": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+      "path": "studies/M3D-1S/J7/R14/outputs/R14_ACTUAL_BLENDER_PILOT_QA.json",
+      "bytes": 6391,
+      "sha256": "37d34f43d82c6462b36dae477dac205a34c0e0e4e39137b4e6e125b9b73aa281"
+    }
+  ],
+  "operation": "Explicit user instruction authorizes background Blender, new research branch, push and new Draft PR only.",
+  "method": "Separate background Blender 5.2.1; no Computer Use, no live Blender scene changes, 8 render threads.",
+  "boundary": "R15 independent noncanonical coordinates. No actual Minecraft saves read or written; main, Freeze, M247-C and all earlier research unchanged.",
+  "retained_obligations": [
+    "W0",
+    "H1-H6",
+    "SB01-SB16",
+    "HERO4",
+    "three metropolitan axes",
+    "V1-V3"
+  ],
+  "formal_central_art_accepted": 0,
+  "minecraft_construction": "HOLD",
+  "master_10km_complete": false,
+  "R14_actual_QA_note": "Latest R14 pilot QA contains a successful 1.7m ray; R14 report/handoff pending wording is stale. Art remains REJECT.",
+  "existing_pr_readonly_snapshot": {
+    "44": {
+      "draft": true,
+      "state": "open",
+      "head": "f8af02a57c3370ed3d5c38b1496757d6a913b0b4",
+      "base": "research/m3d1s-j7-r11-local-blender-art-20261025"
+    },
+    "45": {
+      "draft": true,
+      "state": "open",
+      "head": "2bb831bfa19a989ffadc3bbcb675eb8797faf6e9",
+      "base": "research/m3d1s-j7-r12-evidence-led-megastructure-gate-20261025"
+    },
+    "46": {
+      "draft": true,
+      "state": "open",
+      "head": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+      "base": "research/m3d1s-j7-r13-habitable-world-mass-20261025"
+    }
+  }
+}

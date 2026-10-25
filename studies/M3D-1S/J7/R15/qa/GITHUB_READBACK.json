@@ -1,0 +1,279 @@
+{
+  "source": "Independent HTTPS file byte downloads at fixed commit; not local Git objects",
+  "commit": "96ba4880ce28317b2d7fcb618d3f9cfeab304d00",
+  "checked_files": 45,
+  "checked_bytes": 82453298,
+  "all_match": true,
+  "files": [
+    {
+      "path": "concept/01_FRONT.png",
+      "bytes": 1359151,
+      "sha256": "2ac347faf1f07cb1dd422adf8e9de438ef8a8b8075dc12eb6e4e3af7611da42b",
+      "match": true
+    },
+    {
+      "path": "concept/02_OBLIQUE.png",
+      "bytes": 1532387,
+      "sha256": "f1f48e539f84266deecb2284d963051c0af0ea05328c939bb3b8e9cff4b7a547",
+      "match": true
+    },
+    {
+      "path": "concept/R15_CONCEPT.blend",
+      "bytes": 1303236,
+      "sha256": "abad201b5bf094ff28c31404b1be3207456c429460d2db588f7ba508e28418a8",
+      "match": true
+    },
+    {
+      "path": "concept/R15_CONCEPT.glb",
+      "bytes": 4968476,
+      "sha256": "860431e9bf3f86b512b0cea5458941a8b15270891cb503be91c516c039a3370b",
+      "match": true
+    },
+    {
+      "path": "qa/GLB_REIMPORT_OBLIQUE.png",
+      "bytes": 1535951,
+      "sha256": "eb942db4c1234ed5bddaeaf2ec916f45a1284d5d85be60a67ad076d070caa583",
+      "match": true
+    },
+    {
+      "path": "qa/R15_MACRO_VIEWS.jpg",
+      "bytes": 283099,
+      "sha256": "b16ff4f58209c66c3003b325033f63e31c685155ecfc7eca5afa758832032a16",
+      "match": true
+    },
+    {
+      "path": "qa/R15_MAIN_FORM_REVISIONS.jpg",
+      "bytes": 292514,
+      "sha256": "a04ba39623f1fa33eb14c862ecc94ed263c996e50e62a5f31568ed87d1970e58",
+      "match": true
+    },
+    {
+      "path": "qa/R15_SPATIAL_EVIDENCE.jpg",
+      "bytes": 244833,
+      "sha256": "627d04c66495c2471a56806846254d0b92efeb043ad5a87331d9ac27faa67fb6",
+      "match": true
+    },
+    {
+      "path": "revision_1/01_FRONT.png",
+      "bytes": 1379692,
+      "sha256": "82ae062351663b62901b35fa0efc59c05820776d2f4116763eefc36ceace2e77",
+      "match": true
+    },
+    {
+      "path": "revision_1/02_OBLIQUE.png",
+      "bytes": 1504693,
+      "sha256": "2de7a5b7110ebdea5b16918ee7b80bcccbcb97b0f36e09ce718f5dc31ede1ec9",
+      "match": true
+    },
+    {
+      "path": "revision_1/08_HUMAN_WEST.png",
+      "bytes": 951392,
+      "sha256": "64d859ab1b110dc638b14abf17e2f357d250f71698062f001809a5cedffcf5f4",
+      "match": true
+    },
+    {
+      "path": "revision_1/R15_REVISION_1.blend",
+      "bytes": 1461591,
+      "sha256": "e9f112e98960675ce80a4fee3dbbc32f6e3b403e660e9ece6ff72eed2d1b9a06",
+      "match": true
+    },
+    {
+      "path": "revision_1/R15_REVISION_1.glb",
+      "bytes": 5654012,
+      "sha256": "99fda667110c2bbe37a3f037376c36dafa8398325bb9feb93e81a5f7e23f7180",
+      "match": true
+    },
+    {
+      "path": "revision_2/01_FRONT.png",
+      "bytes": 1390404,
+      "sha256": "2cef87a07b9cd0c58b1e0396cfce183bb3071efef9aced9c500dca0187706c30",
+      "match": true
+    },
+    {
+      "path": "revision_2/02_OBLIQUE.png",
+      "bytes": 1535780,
+      "sha256": "c34ab98a63eeddda83dbb203c8fb98e438e1af14b384b7a77dba66a5e7edcf07",
+      "match": true
+    },
+    {
+      "path": "revision_2/03_SIDE.png",
+      "bytes": 1313527,
+      "sha256": "2d021f7d32f34381440476588c10a6238578f8d7cfccb4059c959463a02217d9",
+      "match": true
+    },
+    {
+      "path": "revision_2/04_REAR.png",
+      "bytes": 1324940,
+      "sha256": "9b54b8c117a7050ce08f54acc96f99325b458f2ca9345aef4bf0f03ee43c23ac",
+      "match": true
+    },
+    {
+      "path": "revision_2/05_AERIAL.png",
+      "bytes": 1603672,
+      "sha256": "eb225daf1ac8f36765e2d054e15c0b764501ef240ae3cae50e4603eeda6fa33f",
+      "match": true
+    },
+    {
+      "path": "revision_2/06_SHARED_CANYON.png",
+      "bytes": 1481041,
+      "sha256": "6445cde067f4b020d3579784756e6351625c0cca8d8d5e011a924acfc8650e93",
+      "match": true
+    },
+    {
+      "path": "revision_2/07_WEST_DISTRICT.png",
+      "bytes": 1581268,
+      "sha256": "b689acd8bffa3a468f72ca4e66054d063cba0a869498d60d57983383f54db0ca",
+      "match": true
+    },
+    {
+      "path": "revision_2/08_HUMAN_WEST.png",
+      "bytes": 1384129,
+      "sha256": "ad4f85e8d2b02ce9540c6f7c137d0ea6f4aa27cfab83b402c460cc49199bca20",
+      "match": true
+    },
+    {
+      "path": "revision_2/09_EAST_DISTRICT.png",
+      "bytes": 1571122,
+      "sha256": "bee1d31a05482dc3e65390d512f9517c1b3537c969471fe8e70eb7b21d012bb2",
+      "match": true
+    },
+    {
+      "path": "revision_2/10_HUMAN_CANYON.png",
+      "bytes": 1425702,
+      "sha256": "b01e3f533a882122a985aaed50910d07aca3ae444164137a0ec81916385c25cf",
+      "match": true
+    },
+    {
+      "path": "revision_2/11_WEST_STREET_WORLD.png",
+      "bytes": 1418005,
+      "sha256": "456bbe6211ec1735ec7fcce77f91bb61f2b336f3b57ecba35b7e65cf8c9b27eb",
+      "match": true
+    },
+    {
+      "path": "revision_2/12_EAST_CANAL_WORLD.png",
+      "bytes": 1454520,
+      "sha256": "b065f77a890d38421b3869ef65fef11b6973fe8feba63319414cb7b561e0257e",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/01_FRONT.png",
+      "bytes": 1401188,
+      "sha256": "aea8c298a0bd6fea6aaea27c3ed56b4f0e694a02178c0667afe74a553d8a7166",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/02_OBLIQUE.png",
+      "bytes": 1576110,
+      "sha256": "f43a3f3e58d8ec22b4a59411f0911e3a0a7c7b064dcd7e4402bbb097da855fa0",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/03_SIDE.png",
+      "bytes": 1334054,
+      "sha256": "ed1550eb0f2cf0c84fb53b9000a587aa6655f9506fac73ffd53781047f06b25f",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/04_REAR.png",
+      "bytes": 1329226,
+      "sha256": "63101f27b855a573c2ac06c6a6b89bd3b2a12ca0de3630f2cb6549fcf32d7a1b",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/05_AERIAL.png",
+      "bytes": 1669174,
+      "sha256": "7f3f52f5131569ee184ebb003f294e8c0ca63a33c0d50c167882c0c8089ba906",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/06_SHARED_CANYON.png",
+      "bytes": 1512674,
+      "sha256": "6c47260a31c0cef9235b450ace1024d807503fd617a9dd9f296d42f7d8867115",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/07_WEST_DISTRICT.png",
+      "bytes": 1566039,
+      "sha256": "42bac3f183b9cfe024e06e4be52bda7c2afa00ac1c96e38144dbb5d9531c52b7",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/08_HUMAN_WEST.png",
+      "bytes": 964838,
+      "sha256": "bb87cde190869451d7a76fc16a79302f53335d1cb646ee77ea9ab1ce6a614318",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/09_EAST_DISTRICT.png",
+      "bytes": 1520996,
+      "sha256": "cec929f562182f30ddd9b0b07911b0d0750fbd1b5e6fb53b658ff47adca28129",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/10_HUMAN_CANYON.png",
+      "bytes": 302229,
+      "sha256": "b178dc004e4bce662bcce76dcf42374d6a7e1a62a4f5a2a02581adb1e9568928",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/R15_OPEN_CLEFT_ATTEMPT.blend",
+      "bytes": 1885246,
+      "sha256": "7a3c75e8b9aa929b7116499c1887f57af6fd495e412dea0ae6227d18704e9156",
+      "match": true
+    },
+    {
+      "path": "revision_2/observed_before_refinement/R15_OPEN_CLEFT_ATTEMPT.glb",
+      "bytes": 7584168,
+      "sha256": "77855b9a30478349c35eb61215a40edd5dfae87ad440c382f6e40b8737f6c924",
+      "match": true
+    },
+    {
+      "path": "revision_2/R15_FINAL.blend",
+      "bytes": 1670764,
+      "sha256": "3ff8453b6344f6ef399c65b0c28de95d773fa612c637ea6ff34036498f746257",
+      "match": true
+    },
+    {
+      "path": "revision_2/R15_FINAL.glb",
+      "bytes": 6761812,
+      "sha256": "e4635c013a81f2f75ba1b38dd60401548fb357f8c0d0ac415eb248afb1b51a0d",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_XZ_Y0/SECTION_XZ_Y0.blend",
+      "bytes": 1068760,
+      "sha256": "c7e3bb65e2d6fe994980e6de5397fb33428c32db582bddf4c06b6c317e3e6991",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_XZ_Y0/SECTION_XZ_Y0.glb",
+      "bytes": 3910924,
+      "sha256": "2df37aa1b8447bf9e3c7cbd159adb4b69b7e2b89ea0a5b7c64eb02864a1bce7c",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_XZ_Y0/SECTION_XZ_Y0.png",
+      "bytes": 1348578,
+      "sha256": "055971f46bde10fbc4a84e2bc9c07a0afab6698dc2ea466be998efb6e869b89f",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_YZ_X0/SECTION_YZ_X0.blend",
+      "bytes": 814950,
+      "sha256": "18573d155316143263bb0c8e6b9815bf6dd0d1969bcfa8988183248b0184ac66",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_YZ_X0/SECTION_YZ_X0.glb",
+      "bytes": 2940916,
+      "sha256": "76aa8ba6d13f74e3f7d824cf5d7f95ba195d0f4198bbe7e19b04abc5288a518b",
+      "match": true
+    },
+    {
+      "path": "sections/SECTION_YZ_X0/SECTION_YZ_X0.png",
+      "bytes": 1335515,
+      "sha256": "8cd701d015adac0a818f9731e374820275768afad7369f332123362d3b4c62a6",
+      "match": true
+    }
+  ]
+}

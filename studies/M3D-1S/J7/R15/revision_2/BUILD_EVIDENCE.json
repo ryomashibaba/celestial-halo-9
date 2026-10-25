@@ -1,0 +1,144 @@
+{
+  "revision": 2,
+  "blender_version": "5.2.1 LTS",
+  "units": "metres; independent study coordinates, not official world anchors",
+  "districts": [
+    {
+      "name": "WEST_GARDEN_T0",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 240,
+      "role": "garden courts"
+    },
+    {
+      "name": "WEST_GARDEN_T1",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 355,
+      "role": "garden courts"
+    },
+    {
+      "name": "WEST_GARDEN_T2",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 470,
+      "role": "garden courts"
+    },
+    {
+      "name": "EAST_WATER_T0",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 240,
+      "role": "canal and vertical gardens"
+    },
+    {
+      "name": "EAST_WATER_T1",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 355,
+      "role": "canal and vertical gardens"
+    },
+    {
+      "name": "EAST_WATER_T2",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 470,
+      "role": "canal and vertical gardens"
+    }
+  ],
+  "human_floor_rays": {
+    "08_HUMAN_WEST": {
+      "camera_xyz_m": [
+        -545.0,
+        -450.0,
+        241.75999450683594
+      ],
+      "hit": true,
+      "object": "WEST_GARDEN_T0_walkable_ground",
+      "floor_xyz_m": [
+        -545.0,
+        -450.0,
+        240.05999755859375
+      ],
+      "distance_m": 1.6999969454345187,
+      "floor_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "higher_origin_hit": "WEST_GARDEN_T0_walkable_ground",
+      "higher_origin_floor_xyz_m": [
+        -545.0,
+        -450.0,
+        240.05999755859375
+      ],
+      "higher_origin_matches_floor": true,
+      "pass_1_7m_2mm": true
+    },
+    "10_HUMAN_CANYON": {
+      "camera_xyz_m": [
+        -390.0,
+        -620.0,
+        63.70000076293945
+      ],
+      "hit": true,
+      "object": "Lower_public_promenade",
+      "floor_xyz_m": [
+        -390.0,
+        -620.0,
+        62.0
+      ],
+      "distance_m": 1.7000007320851265,
+      "floor_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "higher_origin_hit": "Lower_public_promenade",
+      "higher_origin_floor_xyz_m": [
+        -390.0,
+        -620.0,
+        62.0
+      ],
+      "higher_origin_matches_floor": true,
+      "pass_1_7m_2mm": true
+    }
+  },
+  "camera_correction": "Canyon camera moved from Y=-650 to -620m, clear of the overlapping Z=64m southern forecourt. Promenade actual top is Z=62m, eye Z=63.7m. Two-origin downward rays exclude the earlier below-slab camera. West paving raised 6cm to avoid coincident faces."
+}

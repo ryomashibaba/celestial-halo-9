@@ -1,0 +1,11 @@
+{
+  "required_final_images": 14,
+  "all_pngs_decode": true,
+  "human_both_actual_floor_rays_pass": true,
+  "readback_models_pass": 6,
+  "manifest_files": 45,
+  "actual_blender_render_pngs": 30,
+  "image_processing": "Resize, label and arrange only. No image generation, architectural enhancement or painted geometry.",
+  "walkability": "NOT_CERTIFIED",
+  "art": "SEPARATE_HUMAN_AND_RESEARCH_JUDGMENT_REQUIRED"
+}
