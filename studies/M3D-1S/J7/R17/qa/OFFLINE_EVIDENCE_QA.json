@@ -1,0 +1,13 @@
+{
+  "all_source_ast_parse": true,
+  "all_png_decode": true,
+  "saved_model_pairs": 7,
+  "saved_geometry_basic_QA_pass": true,
+  "human_floor_1_7m": true,
+  "model_image_files": 71,
+  "actual_blender_pngs": 50,
+  "pixel_processing": "Contact sheets resize/place/label only; no generated or painted architectural imagery.",
+  "art": "ART_REJECT",
+  "construction": "HOLD",
+  "full_city_master_complete": false
+}

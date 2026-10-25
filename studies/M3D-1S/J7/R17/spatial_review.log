@@ -1,0 +1,20 @@
+00:01.641  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R17\revision_2\R17_REVISION_2.blend"
+00:01.719  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_23660_cb48cfec99dabf0557a891e1a92e23b5.png.png"
+00:17.281  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R17\revision_2\08_INTERIOR_LOW.png'
+Info: Saved as "R17_REVISION_2.blend"
+RENDERED 08_INTERIOR_LOW
+00:32.938  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R17\revision_2\09_INTERIOR_MID.png'
+RENDERED 09_INTERIOR_MID
+00:46.031  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R17\revision_2\10_INTERIOR_HIGH.png'
+RENDERED 10_INTERIOR_HIGH
+00:58.016  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R17\revision_2\11_DISTRICT.png'
+RENDERED 11_DISTRICT
+01:13.672  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R17\revision_2\13_HUMAN_ESTUARY.png'
+RENDERED 13_HUMAN_ESTUARY
+01:13.703  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_23660_8bfb3483d7a97398e2ddadbebf97808d.png.png"
+01:21.016  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R17\context\12_CITY_10KM.png'
+Info: Saved as "R17_NONCANONICAL_10KM.blend"
+SPATIAL REVIEW COMPLETE {'hit': True, 'camera_xyz_m': [-1710.0, -520.0, 401.70001220703125], 'floor_xyz_m': [-1710.0, -520.0, 400.0], 'object': 'C_W0_ESTUARY_public_ground', 'normal': [0.0, 0.0, 1.0], 'distance_m': 1.700012232231562, 'pass_1_7m_2mm': True}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "C_W0_ESTUARY",
+    "center_m": [
+      -1720,
+      -310,
+      400
+    ],
+    "span_plan_m": [
+      1500,
+      1220
+    ],
+    "type": "canal"
+  },
+  {
+    "name": "C_W1_RISING_GARDENS",
+    "center_m": [
+      -1410,
+      50,
+      1245
+    ],
+    "span_plan_m": [
+      1200,
+      1130
+    ],
+    "type": "terraced"
+  },
+  {
+    "name": "C_W2_UPPER_CONCOURSE",
+    "center_m": [
+      -1080,
+      350,
+      2140
+    ],
+    "span_plan_m": [
+      1060,
+      1060
+    ],
+    "type": "forum"
+  },
+  {
+    "name": "C_W3_ZENITH_QUARTER",
+    "center_m": [
+      -360,
+      650,
+      3015
+    ],
+    "span_plan_m": [
+      1100,
+      900
+    ],
+    "type": "terraced"
+  },
+  {
+    "name": "C_E0_TIDAL_WORLD",
+    "center_m": [
+      1490,
+      -10,
+      295
+    ],
+    "span_plan_m": [
+      1460,
+      1220
+    ],
+    "type": "canal"
+  },
+  {
+    "name": "C_E1_SPLIT_CITY",
+    "center_m": [
+      1330,
+      300,
+      975
+    ],
+    "span_plan_m": [
+      1300,
+      1250
+    ],
+    "type": "forum"
+  },
+  {
+    "name": "C_E2_HANGING_GARDEN",
+    "center_m": [
+      1030,
+      750,
+      1750
+    ],
+    "span_plan_m": [
+      1050,
+      1150
+    ],
+    "type": "terraced"
+  },
+  {
+    "name": "C_R0_INNER_ORCHARD",
+    "center_m": [
+      0,
+      1580,
+      1120
+    ],
+    "span_plan_m": [
+      1350,
+      1050
+    ],
+    "type": "terraced"
+  },
+  {
+    "name": "C_R1_DEEP_METROPOLIS",
+    "center_m": [
+      50,
+      1750,
+      1930
+    ],
+    "span_plan_m": [
+      1590,
+      1080
+    ],
+    "type": "canal"
+  },
+  {
+    "name": "C_R2_SHARED_SKY",
+    "center_m": [
+      140,
+      1450,
+      2770
+    ],
+    "span_plan_m": [
+      1480,
+      900
+    ],
+    "type": "forum"
+  }
+]

@@ -1,0 +1,7 @@
+00:01.641  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R17\revision_2\R17_REVISION_2.blend"
+08_INTERIOR_LOW {'location': [-950.0, 1250.0, 650.0], 'target': [-158.85089111328125, -120.3104248046875, 887.3447265625], 'lens_mm': 23} 8109.782622376135
+09_INTERIOR_MID {'location': [-650.0, 350.0, 1550.0], 'target': [141.14910888671875, 1720.3104248046875, 1787.3447265625], 'lens_mm': 23} 8408.46967531287
+10_INTERIOR_HIGH {'location': [-50.0, -650.0, 2650.0], 'target': [-50.0, 932.2982177734375, 2412.6552734375], 'lens_mm': 23} 8143.516105656255
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

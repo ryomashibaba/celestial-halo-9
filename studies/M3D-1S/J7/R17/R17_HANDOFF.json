@@ -1,0 +1,158 @@
+{
+  "schema": "halo9.j7r17.grand_central_blender.v1",
+  "date_jst": "2026-10-25",
+  "research_only": true,
+  "branch": "research/m3d1s-j7-r17-grand-central-blender-20261025",
+  "base_R16_head": "0eed6bed7072ceb0782341dad9b50daef523286e",
+  "base_R16_pr": 48,
+  "verified_main_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "art_decision": "ART_REJECT",
+  "art_improvement_goal_reached": false,
+  "formal_central_art_adoptions": 0,
+  "minecraft_construction": "HOLD",
+  "city_master_complete": false,
+  "official_coordinate_alignment": "UNVERIFIED",
+  "directions": [
+    {
+      "id": "A",
+      "name_ja": "天隙大陸",
+      "result": "REJECT repeated terraced paired modules; fragmented mass"
+    },
+    {
+      "id": "B",
+      "name_ja": "反重層天域",
+      "result": "REJECT inverted shelves and disconnected worlds"
+    },
+    {
+      "id": "C",
+      "name_ja": "裂層多都市核",
+      "result": "REJECT initial blank mass; used only as reconstruction source"
+    }
+  ],
+  "concentrated_working_source": "exploration_C/R17_C.blend",
+  "selected_for_formal_art": null,
+  "main_form_revisions": [
+    {
+      "source": "exploration_C\\R17_C.blend",
+      "source_sha256": "a866ddc8c3ec27f3efb3b66083507feebf2dc744969c4e2468c1eebc396476dc",
+      "observed_predecessor_images": [
+        "01_FRONT.png",
+        "02_OBLIQUE.png"
+      ],
+      "removed_primary_meshes": [
+        "C_WEST_RISING_CONTINENT",
+        "C_REAR_HANGING_CIVILIZATION"
+      ],
+      "main_form_edits": [
+        "Removed original broad west and rear monoliths; rebuilt four staggered inhabited ridges with actual city chambers.",
+        "Extended seven district grounds to inhabit the opened side/rear, moved highest occupied skyline to an asymmetric 4440m ridge."
+      ],
+      "not_formal_adoption": true
+    },
+    {
+      "source": "revision_1\\R17_REVISION_1.blend",
+      "source_sha256": "1c8c9ff23d8b8b5a6a6ac03729e730344f4861096a63d27cb18e76e8573d5278",
+      "observed_predecessor_images": [
+        "01_FRONT.png",
+        "02_OBLIQUE.png"
+      ],
+      "removed_primary_meshes": [
+        "C_EAST_INLAND"
+      ],
+      "main_form_edits": [
+        "Replaced closed eastern mass with deep open inland city and two vertical ravines.",
+        "Inserted a thick inhabited central peninsula, splitting the former frontal hole into successive low and high civic spaces.",
+        "Split crown into high-altitude urban grounds and widened the interior diagonal into a 320m city continent."
+      ],
+      "not_formal_adoption": true
+    }
+  ],
+  "latest_attempt_blend": "revision_2/R17_REVISION_2.blend",
+  "latest_attempt_glb": "revision_2/R17_REVISION_2.glb",
+  "latest_attempt_geometry": {
+    "min_m": [
+      -2850.0,
+      -1700.0,
+      -30.0
+    ],
+    "max_m": [
+      2860.0,
+      2570.0,
+      4440.0
+    ],
+    "span_xyz_m": [
+      5710.0,
+      4270.0,
+      4470.0
+    ],
+    "triangles": 18707,
+    "mesh_objects": 602,
+    "vertices": 10488,
+    "nonfinite_vertices": 0,
+    "separate_mesh_nonmanifold_edges": 3
+  },
+  "sections": [
+    "sections/SECTION_XZ_Y500/SECTION_XZ_Y500.blend",
+    "sections/SECTION_YZ_X0/SECTION_YZ_X0.blend"
+  ],
+  "technical_QA": "qa/BLEND_GLB_READBACK.json",
+  "basic_saved_geometry_readback_pass": true,
+  "saved_blend_glb_pairs_checked": 7,
+  "human_floor_ray": {
+    "hit": true,
+    "camera_xyz_m": [
+      -1710.0,
+      -520.0,
+      401.70001220703125
+    ],
+    "floor_xyz_m": [
+      -1710.0,
+      -520.0,
+      400.0
+    ],
+    "object": "C_W0_ESTUARY_public_ground",
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "distance_m": 1.700012232231562,
+    "pass_1_7m_2mm": true
+  },
+  "interior_altitudes_m": [
+    650.0,
+    1550.0,
+    2650.0
+  ],
+  "actual_internal_space": "Real subtracted civic chambers, thick grounds, interior borough masses and cross-level galleries exist. No connected enclosed cavity volume or complete city certified. Visual quality still insufficient.",
+  "void_volume_m3": null,
+  "void_volume_status": "UNVERIFIED",
+  "foreground_computer_use": false,
+  "live_blender_modified": false,
+  "actual_minecraft_saves_accessed": false,
+  "protected_assets_changed": false,
+  "production": "Blender 5.2.1 LTS background bpy, six CPU threads; actual render review and native mesh replacements; no ImageGen enhancement",
+  "report": "R17_ART_REVIEW_JA.md",
+  "context": "context/R17_NONCANONICAL_10KM.blend",
+  "context_W0_H_SB_integration": false,
+  "unverified": [
+    "Full walkability",
+    "All inter-solid collisions",
+    "Connected void volume",
+    "Operational vertical transit",
+    "Structural/occupancy feasibility",
+    "Detailed human-scale city life",
+    "Public interiors completion",
+    "W0/H1-H6/SB01-SB16/HERO4/V/axes integration",
+    "Formal art adoption"
+  ],
+  "next_priority": "Replace shell-and-shelf grammar itself with individually authored district terrains and civic sections in the shared km-scale composition. Do not detail or adopt this rejected main form.",
+  "github_delivery": "PUSHED_NEW_DRAFT_PR_ALL_ARTIFACT_FILES_HTTPS_READBACK_MATCH",
+  "draft_pr": 49,
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/49",
+  "artifact_commit": "58d72ba6715954c50ceb6d149a91b419361ac28c",
+  "remote_checked_files": 109,
+  "remote_checked_bytes": 73914705,
+  "remote_all_hashes_match": true,
+  "branch_head": "Resolve from Draft PR head; artifact bytes pinned by artifact_commit"
+}

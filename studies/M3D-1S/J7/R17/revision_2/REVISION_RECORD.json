@@ -1,0 +1,17 @@
+{
+  "source": "revision_1\\R17_REVISION_1.blend",
+  "source_sha256": "1c8c9ff23d8b8b5a6a6ac03729e730344f4861096a63d27cb18e76e8573d5278",
+  "observed_predecessor_images": [
+    "01_FRONT.png",
+    "02_OBLIQUE.png"
+  ],
+  "removed_primary_meshes": [
+    "C_EAST_INLAND"
+  ],
+  "main_form_edits": [
+    "Replaced closed eastern mass with deep open inland city and two vertical ravines.",
+    "Inserted a thick inhabited central peninsula, splitting the former frontal hole into successive low and high civic spaces.",
+    "Split crown into high-altitude urban grounds and widened the interior diagonal into a 320m city continent."
+  ],
+  "not_formal_adoption": true
+}
