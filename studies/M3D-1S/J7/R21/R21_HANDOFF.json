@@ -3,7 +3,7 @@
   "date_jst": "2026-10-25",
   "stage": "J7-R21",
   "production": "COMPLETE",
-  "github_delivery": "PENDING",
+  "github_delivery": "COMPLETE",
   "base_r20_head": "8ed17bcb0078e5fcd276e5db72954791d2ae1338",
   "branch": "research/m3d1s-j7-r21-c55a-r19-blender-comparison-20261025",
   "source_glb_sha256": "4e0d8092c2bbe59ad6553d81e1a44594e7ff0dac3cfbc1ce1a9fb60144b76ae0",
@@ -19,9 +19,20 @@
   "r19_art": "REJECT_UNCHANGED",
   "c55a_art": "HOLD; long-axis macro depth promising, all-around architecture and lived-city completion insufficient",
   "scale_principle": "Continuous city-sized negative space, legible direction and destination, overlapping near/middle/far structures, distinct mass hierarchy. Not seven rings as a mandatory shape.",
-  "c55a_limits": ["Unpartitioned massif interior around partial real great hall", "Sampled windows are backed decals", "Public streets, rooms, vertical transport and external/internal access incomplete or unverified", "Rear/underside and high-level lived-city views weak"],
+  "c55a_limits": [
+    "Unpartitioned massif interior around partial real great hall",
+    "Sampled windows are backed decals",
+    "Public streets, rooms, vertical transport and external/internal access incomplete or unverified",
+    "Rear/underside and high-level lived-city views weak"
+  ],
   "r22_proposal": "Author one coherent inhabited urban body around a multi-km public void. Design three distinct connected urban worlds and floor-level destinations with real openings, cross-sections and rear/underside views before decoration. Preserve M247-C research direction. No R22 implementation in R21.",
-  "not_certified": ["Continuous walkability or entry route", "Enclosed connected void volumes", "Solid occupancy and inhabited-wall completeness", "Transport operation, safety, structural or voxel clearance", "Formal city coordinate integration"],
+  "not_certified": [
+    "Continuous walkability or entry route",
+    "Enclosed connected void volumes",
+    "Solid occupancy and inhabited-wall completeness",
+    "Transport operation, safety, structural or voxel clearance",
+    "Formal city coordinate integration"
+  ],
   "settings": "COMPARISON_SETTINGS.json",
   "art_review": "R21_ART_REVIEW_JA.md",
   "technical_verification": "qa/FINAL_VERIFICATION.json",
@@ -31,5 +42,10 @@
   "main_existing_pr_originals_freeze_protected_assets_changed": false,
   "actual_minecraft_saves_accessed": false,
   "foreground_computer_use": false,
-  "auto_merge": false
+  "auto_merge": false,
+  "draft_pr": 53,
+  "pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/53",
+  "artifact_commit": "8d123566b7a3a88357de099dfc8de821d1f27833",
+  "github_full_readback": "qa/GITHUB_READBACK.json",
+  "github_additional_readback": "qa/GITHUB_DELTA_READBACK.json"
 }

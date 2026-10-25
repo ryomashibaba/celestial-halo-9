@@ -79,6 +79,8 @@ C55-Aは比較座標X=860m（原座標Y≈1187.533m）の長手断面と、Y=−
 
 ## 保存・失敗・未実施
 
+保存先は [独立Draft PR #53](https://github.com/ryomashibaba/celestial-halo-9/pull/53)、ブランチ `research/m3d1s-j7-r21-c55a-r19-blender-comparison-20261025`。固定制作成果は `8d123566b7a3a88357de099dfc8de821d1f27833`。最初の197ファイルと、その後の補足差分16ファイルをGitHub HTTPSから独立再取得し、全バイト一致を確認した。通常比較56＋点検2＝58画像。納品メタデータは後続HEADに保存し、[引継ぎJSON](R21_HANDOFF.json) と [読戻し記録](qa/DELIVERY.json) に区別する。未保存のBLEND・GLB・必須比較画像はない。
+
 R20のGitHub確認済みHEADから独立R21ブランチを作成。mainの方針を明示refで読了したが、CURRENT_STATUSとSETUP_STATUSの古い工程表示は最新実績と扱わない。指定の旧ローカルセットアップ報告は現checkoutに存在しなかった。既存未追跡researchは保持・納品対象外。
 
 初回の10km構図は切れ、初回C55-Aクレイは光芒面を不透明化した。床上の最初の低位・高位にも遮蔽があった。[初回失敗記録](qa/FAILED_INITIAL_SETUP/) を保持し、最終比較は設定修正後に再描画した。これは建築造形の改善として数えない。背景MCP警告と作業外サムネイルキャッシュ書込失敗は出たが、成果BLEND・画像の書込と再読込を別途検証した。
