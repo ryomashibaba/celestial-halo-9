@@ -1,0 +1,38 @@
+{
+  "date_jst": "2026-10-25",
+  "base_R18_branch": "research/m3d1s-j7-r18-civilization-landscape-art-20261025",
+  "base_R18_actual_head": "dcbe2b3bdb19b1b7c500aab6b3c1ceddd0fb8bca",
+  "base_R18_pr": 50,
+  "pr50_verified_open_draft_unmerged": true,
+  "main_fetched_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "main_policy_access": "GitHub connector explicit main ref; all five required documents fetched in this session",
+  "policy_blob_shas": {
+    "AGENTS.md": "dc376946a7261137abbdaee68373ea67ce4d34c5",
+    "docs/policy/START_HERE.md": "31409773da67b3212a0ecae14e603f7af2c260a8",
+    "docs/policy/PROJECT_CONSTITUTION.md": "9afa293268492ed0f70a0b2221ab3277dff48f32",
+    "docs/policy/CITY_MASTER_3D_STANDARD.md": "b3fcf9d02c4de5566f3ed506c43df6a2db3817e4",
+    "docs/policy/CURRENT_STATUS.md": "715ad111ca335735d3723cf5d86a14cb8aa543f2"
+  },
+  "read_research": [
+    "studies/M3D-1S/latest.json at R18",
+    "studies/M3D-1S/J7/R17/R17_ART_REVIEW_JA.md",
+    "studies/M3D-1S/J7/R17/R17_HANDOFF.json",
+    "studies/M3D-1S/J7/R18/R18_CIVILIZATION_LANDSCAPE_ART_DIRECTION_JA.md",
+    "studies/M3D-1S/J7/R18/R18_TO_R19_ART_PRODUCTION_GATE.json"
+  ],
+  "local_setup_status": "2026-10-14 file is stale; actual starting checkout was R17 with untracked research/ preserved",
+  "missing_old_setup_report": "docs/LOCAL_WORK_SETUP_20261014_JA.md absent from current checkout; not claimed read",
+  "user_authorization": "Current attached R19 request explicitly authorizes isolated local Blender production, a new R19 research branch, push and new Draft PR; no main/previous PR mutation or merge",
+  "blender": "5.2.1 LTS",
+  "mcp_startup_connection": true,
+  "mcp_addon_protocol": 5,
+  "mcp_server_expected_protocol": 15,
+  "live_scene_on_start": "R13/revision_2/R13_C_R2.blend",
+  "live_scene_mutated": false,
+  "method": "Independent background Blender+bpy, Cycles CPU, no foreground computer use, no external generated image enhancement",
+  "cpu_threads": "Main render 5, verification render 3, spatial sample 1; machine reports 24 logical processors; background work still consumes CPU",
+  "actual_minecraft_saves_accessed": false,
+  "formal_world_or_Freeze_or_old_models_mutated": false,
+  "formal_art_adoptions": 0,
+  "minecraft_construction": "HOLD"
+}

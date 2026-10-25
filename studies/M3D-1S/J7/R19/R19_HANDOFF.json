@@ -1,0 +1,402 @@
+{
+  "schema": "halo9.j7r19.living_horizon.research.v1",
+  "date_jst": "2026-10-25",
+  "branch": "research/m3d1s-j7-r19-living-horizon-blender-20261025",
+  "base_R18_head": "dcbe2b3bdb19b1b7c500aab6b3c1ceddd0fb8bca",
+  "base_R18_pr": 50,
+  "verified_main_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "research_only": true,
+  "art_decision": "ART_REJECT",
+  "art_improvement_goal_reached": false,
+  "formal_central_art_adoptions": 0,
+  "minecraft_construction": "HOLD",
+  "city_master_complete": false,
+  "name_ja": "天環地脈",
+  "name_en": "LIVING HORIZON",
+  "name_formally_adopted": false,
+  "production_completed": "Real editable initial model, two macro reconstruction attempts, before/after source models and actual images, floor-verified internal views, two physical mesh sections, GLB persistence and noncanonical 10km scale scene.",
+  "art_goal_not_completed": "Still reads as repeated precinct stacks / horizontal bands; side disconnected, ground underside blank; does not achieve a grand civilization continuum.",
+  "initial_blend": "initial/R19_INITIAL.blend",
+  "revision_1_blend": "revision_1/R19_REVISION_1.blend",
+  "revision_2_before_collar_repair": "revision_2/R19_LIVING_HORIZON.blend",
+  "latest_attempt_blend": "final/R19_LIVING_HORIZON.blend",
+  "latest_attempt_glb": "final/R19_LIVING_HORIZON.glb",
+  "model_geometry": {
+    "min_m": [
+      -3100.0,
+      -2500.0,
+      -90.0
+    ],
+    "max_m": [
+      3000.0,
+      2900.0,
+      4282.572265625
+    ],
+    "span_xyz_m": [
+      6100.0,
+      5400.0,
+      4372.572265625
+    ],
+    "mesh_objects": 2974,
+    "triangles": 75632,
+    "vertices": 42882,
+    "nonfinite_vertices": 0,
+    "separate_mesh_nonmanifold_edges": 0
+  },
+  "persistence_checks": {
+    "saved_blend_open": true,
+    "empty_scene_glb_import": true,
+    "bounds_max_error_m": 0.0,
+    "vertex_bidirectional_max_error_m": 0.0,
+    "triangle_centroid_bidirectional_max_error_m": 0.0,
+    "geometry_under_2cm": true,
+    "triangles_equal": true,
+    "finite": true
+  },
+  "basic_saved_geometry_readback_pass": true,
+  "model_pairs_checked": 6,
+  "sections": [
+    "sections/XZ_Y200/XZ_Y200.blend",
+    "sections/YZ_X0/YZ_X0.blend"
+  ],
+  "actual_section_source_before_camera_only_edits_retained": "qa/INITIAL_FLOATING_CAMERAS/R19_BEFORE_FLOOR_VIEWS.blend",
+  "floor_verified_internal_cameras": {
+    "08_LOW": {
+      "prior_camera_m": [
+        600.0,
+        -600.0,
+        307.70001220703125
+      ],
+      "floor_object": "A_INNER_public_surface",
+      "floor_m": [
+        600.0,
+        -600.0,
+        306.0
+      ],
+      "eye_m": [
+        600.0,
+        -600.0,
+        307.70001220703125
+      ],
+      "eye_above_floor_m": 1.70001220703125,
+      "target_m": [
+        1500,
+        450,
+        2100
+      ]
+    },
+    "09_MID": {
+      "prior_camera_m": [
+        -600.0,
+        -65.0,
+        1219.699951171875
+      ],
+      "floor_object": "F_PUBLIC_ISTHMUS_middle_public_street_public_deck",
+      "floor_m": [
+        -600.0,
+        -65.0,
+        1218.0
+      ],
+      "eye_m": [
+        -600.0,
+        -65.0,
+        1219.699951171875
+      ],
+      "eye_above_floor_m": 1.699951171875,
+      "target_m": [
+        -1700,
+        600,
+        2200
+      ]
+    },
+    "10_HIGH": {
+      "prior_camera_m": [
+        1570.0,
+        480.0,
+        2521.699951171875
+      ],
+      "floor_object": "H_CANYON_GROUND_shared_roof_land",
+      "floor_m": [
+        1570.0,
+        480.0,
+        2520.0
+      ],
+      "eye_m": [
+        1570.0,
+        480.0,
+        2521.699951171875
+      ],
+      "eye_above_floor_m": 1.699951171875,
+      "target_m": [
+        -650,
+        1540,
+        3500
+      ]
+    }
+  },
+  "interior_visibility_groups": {
+    "08_LOW": {
+      "D": 8,
+      "T": 4,
+      "M04": 20,
+      "U01": 28,
+      "U02": 31,
+      "U03": 24,
+      "U": 5
+    },
+    "09_MID": {
+      "W05": 8,
+      "W07": 8,
+      "W08": 2,
+      "L": 1,
+      "F": 3
+    },
+    "10_HIGH": {
+      "W07": 5,
+      "W08": 4,
+      "W09": 8,
+      "W10": 22,
+      "W11": 31,
+      "M01": 15,
+      "M02": 52,
+      "M03": 36,
+      "M04": 13,
+      "M": 1,
+      "H": 16
+    },
+    "11_REVERSE_CITY": {
+      "C": 171,
+      "D": 15,
+      "T": 4,
+      "W03": 52,
+      "W04": 38,
+      "W05": 14,
+      "W06": 6,
+      "W07": 37,
+      "W08": 46,
+      "W10": 1,
+      "W11": 17,
+      "W12": 4,
+      "M02": 73,
+      "M03": 43,
+      "M": 9,
+      "U01": 7,
+      "U02": 11,
+      "R1": 2,
+      "L": 29,
+      "H": 51,
+      "F": 4,
+      "N": 41
+    },
+    "13_HUMAN": {
+      "D": 6,
+      "U02": 4,
+      "H": 19
+    }
+  },
+  "free_air_connectivity_samples": {
+    "candidate_count": 126,
+    "graph_edge_count": 458,
+    "low_to_high_sample_path_found": true,
+    "points_m": [
+      [
+        750.0,
+        -200.0,
+        1000.0
+      ],
+      [
+        750.0,
+        -200.0,
+        1350.0
+      ],
+      [
+        750.0,
+        200.0,
+        1700.0
+      ],
+      [
+        350.0,
+        200.0,
+        1700.0
+      ],
+      [
+        350.0,
+        200.0,
+        2050.0
+      ],
+      [
+        350.0,
+        200.0,
+        2400.0
+      ],
+      [
+        350.0,
+        200.0,
+        2750.0
+      ]
+    ],
+    "sample_offset_m": 25,
+    "tested_parallel_rays_per_edge": 5,
+    "edge_segments": [
+      {
+        "a": [
+          750.0,
+          -200.0,
+          1000.0
+        ],
+        "b": [
+          750.0,
+          -200.0,
+          1350.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          750.0,
+          -200.0,
+          1350.0
+        ],
+        "b": [
+          750.0,
+          200.0,
+          1700.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          750.0,
+          200.0,
+          1700.0
+        ],
+        "b": [
+          350.0,
+          200.0,
+          1700.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          350.0,
+          200.0,
+          1700.0
+        ],
+        "b": [
+          350.0,
+          200.0,
+          2050.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          350.0,
+          200.0,
+          2050.0
+        ],
+        "b": [
+          350.0,
+          200.0,
+          2400.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          350.0,
+          200.0,
+          2400.0
+        ],
+        "b": [
+          350.0,
+          200.0,
+          2750.0
+        ],
+        "clear_5_rays": true
+      }
+    ],
+    "cavity_volume_m3": null,
+    "cavity_volume_status": "UNVERIFIED",
+    "walkability": "UNVERIFIED"
+  },
+  "human_floor_ray": {
+    "camera_xyz_m": [
+      -2500.0,
+      -2040.0,
+      153.6999969482422
+    ],
+    "down_ray": {
+      "object": "A_PUBLIC_CAUSEWAY_public_deck",
+      "point_m": [
+        -2500.0,
+        -2040.0,
+        152.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "distance_m": 1.699997067451477
+    },
+    "pass_1_7m_2mm": true
+  },
+  "connected_enclosed_cavity_volume_m3": null,
+  "void_volume_status": "UNVERIFIED",
+  "traffic": "Real mesh route placements exist; grade, every junction, lifts and operation UNVERIFIED.",
+  "walkability": "UNVERIFIED",
+  "all_inter_solid_collisions": "UNVERIFIED",
+  "occupancy_and_structural_safety": "UNVERIFIED",
+  "R15_R17_binary_or_dimensions_reused": false,
+  "foreground_computer_use": false,
+  "live_blender_modified": false,
+  "actual_minecraft_saves_accessed": false,
+  "protected_assets_changed": false,
+  "production_method": "Independent background Blender 5.2.1 LTS bpy, actual Cycles CPU images, actual vertex/mesh replacements, no ImageGen enhancement.",
+  "cpu": "24 logical CPU machine; 5 main render threads, 3 verification render threads, 1 spatial worker; still consumes CPU.",
+  "mcp": "Connected, addon protocol 5 vs expected 15; live R13 inspected read-only at start and close.",
+  "context": "context/R19_NONCANONICAL_10KM.blend",
+  "official_alignment": "UNVERIFIED",
+  "W0_H_SB_integrated": false,
+  "protected_obligations_retained": [
+    "W0",
+    "HALO-9 / CELESTIAL SPINE",
+    "H1-H6",
+    "SB01-SB16",
+    "HERO4",
+    "three metropolitan axes",
+    "V1-V3",
+    "M247-C research direction",
+    "Freeze and original models"
+  ],
+  "report": "R19_ART_REVIEW_JA.md",
+  "comparison": "qa/FORM_COMPARISON.jpg",
+  "all_directions": "qa/FINAL_SIX.jpg",
+  "interiors": "qa/INTERIOR_VIEWS.jpg",
+  "source_pipeline": [
+    "atelier.py",
+    "revise_landform.py",
+    "compose_worlds.py",
+    "floor_views.py"
+  ],
+  "qa": [
+    "qa/BLEND_GLB_READBACK.json",
+    "qa/SPATIAL_SAMPLES.json",
+    "qa/FLOOR_VERIFIED_CAMERAS.json",
+    "qa/ACTUAL_SECTIONS.json",
+    "qa/OFFLINE_PACKAGE_CHECK.json"
+  ],
+  "source_iteration_limits": "The generator grammar is still two main families, path-bank and court-section. Vertex shearing and shared grounds did not resolve the visual repetition.",
+  "next_priority": "Do not decorate/adopt this rejected arrangement. Replace the repeated section grammar, design genuinely different contiguous city terrains and independent public skies from real 3D sections, with side/underside equally primary in first art review.",
+  "next_stage": "J7-R20; not started",
+  "github_delivery": "PUSHED_NEW_DRAFT_PR_FULL_ARTIFACT_COMMIT_HTTPS_READBACK_MATCH",
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/51",
+  "artifact_commit": "1481d6ef019acb0af55513eeabf11ea386613a58",
+  "draft_pr": 51,
+  "remote_checked_files": 99,
+  "remote_checked_bytes": 106416894,
+  "remote_all_hashes_match": true,
+  "branch_head": "Resolve from Draft PR head; art bytes pinned at artifact_commit"
+}

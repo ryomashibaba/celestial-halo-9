@@ -1,0 +1,220 @@
+00:04.375  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R19\final\R19_LIVING_HORIZON.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+{
+  "public_air_path": {
+    "candidate_count": 126,
+    "graph_edge_count": 458,
+    "low_to_high_sample_path_found": true,
+    "points_m": [
+      [
+        750.0,
+        -200.0,
+        1000.0
+      ],
+      [
+        750.0,
+        -200.0,
+        1350.0
+      ],
+      [
+        750.0,
+        200.0,
+        1700.0
+      ],
+      [
+        350.0,
+        200.0,
+        1700.0
+      ],
+      [
+        350.0,
+        200.0,
+        2050.0
+      ],
+      [
+        350.0,
+        200.0,
+        2400.0
+      ],
+      [
+        350.0,
+        200.0,
+        2750.0
+      ]
+    ],
+    "sample_offset_m": 25,
+    "tested_parallel_rays_per_edge": 5,
+    "edge_segments": [
+      {
+        "a": [
+          750.0,
+          -200.0,
+          1000.0
+        ],
+        "b": [
+          750.0,
+          -200.0,
+          1350.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          750.0,
+          -200.0,
+          1350.0
+        ],
+        "b": [
+          750.0,
+          200.0,
+          1700.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          750.0,
+          200.0,
+          1700.0
+        ],
+        "b": [
+          350.0,
+          200.0,
+          1700.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          350.0,
+          200.0,
+          1700.0
+        ],
+        "b": [
+          350.0,
+          200.0,
+          2050.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          350.0,
+          200.0,
+          2050.0
+        ],
+        "b": [
+          350.0,
+          200.0,
+          2400.0
+        ],
+        "clear_5_rays": true
+      },
+      {
+        "a": [
+          350.0,
+          200.0,
+          2400.0
+        ],
+        "b": [
+          350.0,
+          200.0,
+          2750.0
+        ],
+        "clear_5_rays": true
+      }
+    ],
+    "cavity_volume_m3": null,
+    "cavity_volume_status": "UNVERIFIED",
+    "walkability": "UNVERIFIED"
+  },
+  "human_floor": {
+    "camera_xyz_m": [
+      -2500.0,
+      -2040.0,
+      153.6999969482422
+    ],
+    "down_ray": {
+      "object": "A_PUBLIC_CAUSEWAY_public_deck",
+      "point_m": [
+        -2500.0,
+        -2040.0,
+        152.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "distance_m": 1.699997067451477
+    },
+    "pass_1_7m_2mm": true
+  },
+  "camera_visible_groups": {
+    "08_LOW": {
+      "D": 8,
+      "T": 4,
+      "M04": 20,
+      "U01": 28,
+      "U02": 31,
+      "U03": 24,
+      "U": 5
+    },
+    "09_MID": {
+      "W05": 8,
+      "W07": 8,
+      "W08": 2,
+      "L": 1,
+      "F": 3
+    },
+    "10_HIGH": {
+      "W07": 5,
+      "W08": 4,
+      "W09": 8,
+      "W10": 22,
+      "W11": 31,
+      "M01": 15,
+      "M02": 52,
+      "M03": 36,
+      "M04": 13,
+      "M": 1,
+      "H": 16
+    },
+    "11_REVERSE_CITY": {
+      "C": 171,
+      "D": 15,
+      "T": 4,
+      "W03": 52,
+      "W04": 38,
+      "W05": 14,
+      "W06": 6,
+      "W07": 37,
+      "W08": 46,
+      "W10": 1,
+      "W11": 17,
+      "W12": 4,
+      "M02": 73,
+      "M03": 43,
+      "M": 9,
+      "U01": 7,
+      "U02": 11,
+      "R1": 2,
+      "L": 29,
+      "H": 51,
+      "F": 4,
+      "N": 41
+    },
+    "13_HUMAN": {
+      "D": 6,
+      "U02": 4,
+      "H": 19
+    }
+  }
+}
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

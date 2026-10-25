@@ -1,0 +1,78 @@
+{
+  "source_before_camera_repair_sha256": "31c5218e4a2b3c20f1bf36431484098fdf39cf81aa1e8729321491cf62a1001e",
+  "geometry_changed": false,
+  "views": {
+    "08_LOW": {
+      "prior_camera_m": [
+        600.0,
+        -600.0,
+        307.70001220703125
+      ],
+      "floor_object": "A_INNER_public_surface",
+      "floor_m": [
+        600.0,
+        -600.0,
+        306.0
+      ],
+      "eye_m": [
+        600.0,
+        -600.0,
+        307.70001220703125
+      ],
+      "eye_above_floor_m": 1.70001220703125,
+      "target_m": [
+        1500,
+        450,
+        2100
+      ]
+    },
+    "09_MID": {
+      "prior_camera_m": [
+        -600.0,
+        -65.0,
+        1219.699951171875
+      ],
+      "floor_object": "F_PUBLIC_ISTHMUS_middle_public_street_public_deck",
+      "floor_m": [
+        -600.0,
+        -65.0,
+        1218.0
+      ],
+      "eye_m": [
+        -600.0,
+        -65.0,
+        1219.699951171875
+      ],
+      "eye_above_floor_m": 1.699951171875,
+      "target_m": [
+        -1700,
+        600,
+        2200
+      ]
+    },
+    "10_HIGH": {
+      "prior_camera_m": [
+        1570.0,
+        480.0,
+        2521.699951171875
+      ],
+      "floor_object": "H_CANYON_GROUND_shared_roof_land",
+      "floor_m": [
+        1570.0,
+        480.0,
+        2520.0
+      ],
+      "eye_m": [
+        1570.0,
+        480.0,
+        2521.699951171875
+      ],
+      "eye_above_floor_m": 1.699951171875,
+      "target_m": [
+        -650,
+        1540,
+        3500
+      ]
+    }
+  }
+}

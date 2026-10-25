@@ -1,0 +1,801 @@
+{
+  "artifact_commit": "1481d6ef019acb0af55513eeabf11ea386613a58",
+  "source": "Independent GitHub HTTPS contents downloads, full exact bytes against local artifact commit",
+  "checked_files": 99,
+  "checked_bytes": 106416894,
+  "all_match": true,
+  "files": [
+    {
+      "path": "studies/M3D-1S/J7/R19/R19_ART_REVIEW_JA.md",
+      "bytes": 14914,
+      "expected_bytes": 14914,
+      "sha256": "cf297025f5c3326b8bc3113476728de71cda162419b58246429ead4b73f0af14",
+      "expected_sha256": "cf297025f5c3326b8bc3113476728de71cda162419b58246429ead4b73f0af14",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/R19_HANDOFF.json",
+      "bytes": 9329,
+      "expected_bytes": 9329,
+      "sha256": "9c029d83680973f9a74728773046537f9ae6f0eb49917cc1accdd795ef64fb34",
+      "expected_sha256": "9c029d83680973f9a74728773046537f9ae6f0eb49917cc1accdd795ef64fb34",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/atelier.py",
+      "bytes": 15658,
+      "expected_bytes": 15658,
+      "sha256": "c9203fb6e9a30250330748b4c3fe5f4b9e308db5401cb51eead6a11ec67dc889",
+      "expected_sha256": "c9203fb6e9a30250330748b4c3fe5f4b9e308db5401cb51eead6a11ec67dc889",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/check_package.py",
+      "bytes": 2030,
+      "expected_bytes": 2030,
+      "sha256": "f174aad87060b7b77853b89c6ea2471c7a46ca09981987e1a7f5b6c3d3dcd77a",
+      "expected_sha256": "f174aad87060b7b77853b89c6ea2471c7a46ca09981987e1a7f5b6c3d3dcd77a",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/compose_worlds.py",
+      "bytes": 9271,
+      "expected_bytes": 9271,
+      "sha256": "4187f265e8592cf299fed314fefa4cd22c1f62365cadb09dfbd416987fb7a489",
+      "expected_sha256": "4187f265e8592cf299fed314fefa4cd22c1f62365cadb09dfbd416987fb7a489",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/context/12_CITY_10KM.png",
+      "bytes": 1661574,
+      "expected_bytes": 1661574,
+      "sha256": "b334773649ebd0c80780f0c861915b1e939e97d4f2ee6fc28043b4d0419062e3",
+      "expected_sha256": "b334773649ebd0c80780f0c861915b1e939e97d4f2ee6fc28043b4d0419062e3",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/context/LIMITS.json",
+      "bytes": 218,
+      "expected_bytes": 218,
+      "sha256": "4fcfd6da52ed2060d5eb52dc8dc4891d1faf8a2caa769b4f2b8f4365c262e105",
+      "expected_sha256": "4fcfd6da52ed2060d5eb52dc8dc4891d1faf8a2caa769b4f2b8f4365c262e105",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/context/R19_NONCANONICAL_10KM.blend",
+      "bytes": 1257044,
+      "expected_bytes": 1257044,
+      "sha256": "236ba2627c8063a902ebf0f7f23faf99911013faf72a0050372fe25a389b242f",
+      "expected_sha256": "236ba2627c8063a902ebf0f7f23faf99911013faf72a0050372fe25a389b242f",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final.log",
+      "bytes": 326096,
+      "expected_bytes": 326096,
+      "sha256": "8c46212a886a841b74e88fa78554e1868c614d0799e5c37b3cb94bbc1cf687e4",
+      "expected_sha256": "8c46212a886a841b74e88fa78554e1868c614d0799e5c37b3cb94bbc1cf687e4",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/01_FRONT.png",
+      "bytes": 1817129,
+      "expected_bytes": 1817129,
+      "sha256": "19773f4ff2cf428a62bb7c0186b36d5e072cef5a53414a1da6d023ff92b470ca",
+      "expected_sha256": "19773f4ff2cf428a62bb7c0186b36d5e072cef5a53414a1da6d023ff92b470ca",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/02_OBLIQUE.png",
+      "bytes": 1850026,
+      "expected_bytes": 1850026,
+      "sha256": "74ff84eae37d6fd77f961cc6036f4e89697d779d7ea5d05f4a2a117f2d28fe43",
+      "expected_sha256": "74ff84eae37d6fd77f961cc6036f4e89697d779d7ea5d05f4a2a117f2d28fe43",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/03_SIDE.png",
+      "bytes": 1647686,
+      "expected_bytes": 1647686,
+      "sha256": "8e4aa121839ad47ca1f02b9f2be5ba3fdc2ff3f12d9ba991d6ffc2d94a954eb8",
+      "expected_sha256": "8e4aa121839ad47ca1f02b9f2be5ba3fdc2ff3f12d9ba991d6ffc2d94a954eb8",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/04_REAR.png",
+      "bytes": 1768114,
+      "expected_bytes": 1768114,
+      "sha256": "e2ed96682869e17b7eda90de4d7fd6b3a85ee74ed0e1aee1a512cf0b94cb0a9e",
+      "expected_sha256": "e2ed96682869e17b7eda90de4d7fd6b3a85ee74ed0e1aee1a512cf0b94cb0a9e",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/05_AERIAL.png",
+      "bytes": 1849145,
+      "expected_bytes": 1849145,
+      "sha256": "c068d1c215af22a787dafd0d99bfd1ff170d4844b59b9edb42f7da80533477dc",
+      "expected_sha256": "c068d1c215af22a787dafd0d99bfd1ff170d4844b59b9edb42f7da80533477dc",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/06_UNDERSIDE.png",
+      "bytes": 1482859,
+      "expected_bytes": 1482859,
+      "sha256": "b690245bf794c41b10a07eed47d108e9a85bdaae0393d430de1d8c0e32d28ae6",
+      "expected_sha256": "b690245bf794c41b10a07eed47d108e9a85bdaae0393d430de1d8c0e32d28ae6",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/07_GROUND.png",
+      "bytes": 1835049,
+      "expected_bytes": 1835049,
+      "sha256": "62911beefd91792235926a7ff0891c92e0d3fc70fa04f2ed2af38fd9464962d3",
+      "expected_sha256": "62911beefd91792235926a7ff0891c92e0d3fc70fa04f2ed2af38fd9464962d3",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/08_LOW.png",
+      "bytes": 1753233,
+      "expected_bytes": 1753233,
+      "sha256": "69b5c5f008adb3807ece7b743f8af6019e8ba0a1255a265fe253a8651069ba34",
+      "expected_sha256": "69b5c5f008adb3807ece7b743f8af6019e8ba0a1255a265fe253a8651069ba34",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/09_MID.png",
+      "bytes": 1610822,
+      "expected_bytes": 1610822,
+      "sha256": "01c1dc0c0c7dfc15fbb5520a4d37e11c64e64721d6866bc11234f6d269d1141a",
+      "expected_sha256": "01c1dc0c0c7dfc15fbb5520a4d37e11c64e64721d6866bc11234f6d269d1141a",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/10_HIGH.png",
+      "bytes": 1537367,
+      "expected_bytes": 1537367,
+      "sha256": "39a7af9ff94ca3e91dbd555b79da8cdd984b3f22b1fb4f999d03460affbbf8fc",
+      "expected_sha256": "39a7af9ff94ca3e91dbd555b79da8cdd984b3f22b1fb4f999d03460affbbf8fc",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/11_REVERSE_CITY.png",
+      "bytes": 2138201,
+      "expected_bytes": 2138201,
+      "sha256": "e12f8a71eb7ca58beac44c592edc7bd17e4cfcea448afb962df287e029ff2409",
+      "expected_sha256": "e12f8a71eb7ca58beac44c592edc7bd17e4cfcea448afb962df287e029ff2409",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/13_HUMAN.png",
+      "bytes": 1621496,
+      "expected_bytes": 1621496,
+      "sha256": "724c8fb2a91c3a648ea035782ebba2a3d318f61e592ee4c1b7d49754bce678e5",
+      "expected_sha256": "724c8fb2a91c3a648ea035782ebba2a3d318f61e592ee4c1b7d49754bce678e5",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/R19_LIVING_HORIZON.blend",
+      "bytes": 1254227,
+      "expected_bytes": 1254227,
+      "sha256": "b929272e95bcee9a162f15e06d9e2321eeb38b7d0e21f16d3d8263ff42597374",
+      "expected_sha256": "b929272e95bcee9a162f15e06d9e2321eeb38b7d0e21f16d3d8263ff42597374",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/R19_LIVING_HORIZON.glb",
+      "bytes": 4880856,
+      "expected_bytes": 4880856,
+      "sha256": "45e8eaeefa86d0c461da1abc4fc730cb98481e304948b66cebaa5015710982d4",
+      "expected_sha256": "45e8eaeefa86d0c461da1abc4fc730cb98481e304948b66cebaa5015710982d4",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/final/REVISION_RECORD.json",
+      "bytes": 1170,
+      "expected_bytes": 1170,
+      "sha256": "d0427d0fb91efa1d04b6b9b130a37cb9ee39cf4664716b401521bd5df29b726a",
+      "expected_sha256": "d0427d0fb91efa1d04b6b9b130a37cb9ee39cf4664716b401521bd5df29b726a",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/finish_metadata.py",
+      "bytes": 6107,
+      "expected_bytes": 6107,
+      "sha256": "c8a29e94b81c7dd9fbefed8a6fe96827731757d269e230fa939d3f634566731f",
+      "expected_sha256": "c8a29e94b81c7dd9fbefed8a6fe96827731757d269e230fa939d3f634566731f",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/floor_views.py",
+      "bytes": 2060,
+      "expected_bytes": 2060,
+      "sha256": "f3dadc88d8bc6c1475e6622bc0ff380b93259e1eb11d1036abc47388bdb8306c",
+      "expected_sha256": "f3dadc88d8bc6c1475e6622bc0ff380b93259e1eb11d1036abc47388bdb8306c",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial.log",
+      "bytes": 386152,
+      "expected_bytes": 386152,
+      "sha256": "d3622ce5deb580027000352534d3334aefceb5e2f51765f9e7f2842f0b8fdc17",
+      "expected_sha256": "d3622ce5deb580027000352534d3334aefceb5e2f51765f9e7f2842f0b8fdc17",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial/01_FRONT.png",
+      "bytes": 1734067,
+      "expected_bytes": 1734067,
+      "sha256": "bbdb3533aa35d5a06d27bf007b9c47dd45f00a6d628b39140737b3a6997e093b",
+      "expected_sha256": "bbdb3533aa35d5a06d27bf007b9c47dd45f00a6d628b39140737b3a6997e093b",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial/02_OBLIQUE.png",
+      "bytes": 1864702,
+      "expected_bytes": 1864702,
+      "sha256": "71c9b347453681861e3ae975a0deb126b56e0a185386734031b1d5e65f7ff017",
+      "expected_sha256": "71c9b347453681861e3ae975a0deb126b56e0a185386734031b1d5e65f7ff017",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial/03_SIDE.png",
+      "bytes": 1672186,
+      "expected_bytes": 1672186,
+      "sha256": "9a14de2dd98ca558d791f3f32eb9dc899e253972d6283e6fc7d473fa91fa3aaf",
+      "expected_sha256": "9a14de2dd98ca558d791f3f32eb9dc899e253972d6283e6fc7d473fa91fa3aaf",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial/04_REAR.png",
+      "bytes": 1710634,
+      "expected_bytes": 1710634,
+      "sha256": "791530441d0d1d912f3e7f4594493479642a4cb2a74f1c82667a1eb83606f560",
+      "expected_sha256": "791530441d0d1d912f3e7f4594493479642a4cb2a74f1c82667a1eb83606f560",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial/05_AERIAL.png",
+      "bytes": 1817131,
+      "expected_bytes": 1817131,
+      "sha256": "488baf6f72ff8d93e6b9a9b5106e36a210cf99611ead1fcce5ac81e3e4a92fbf",
+      "expected_sha256": "488baf6f72ff8d93e6b9a9b5106e36a210cf99611ead1fcce5ac81e3e4a92fbf",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial/06_UNDERSIDE.png",
+      "bytes": 1498353,
+      "expected_bytes": 1498353,
+      "sha256": "1606d735f87ee058cb8894553f3eb102e0fc136a37e94f33449180f97e0ec257",
+      "expected_sha256": "1606d735f87ee058cb8894553f3eb102e0fc136a37e94f33449180f97e0ec257",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial/R19_INITIAL.blend",
+      "bytes": 1149862,
+      "expected_bytes": 1149862,
+      "sha256": "4d3102cdf5f93d9c13b0ca599da02da6d5fb37519199ee1b5e4f99475748404f",
+      "expected_sha256": "4d3102cdf5f93d9c13b0ca599da02da6d5fb37519199ee1b5e4f99475748404f",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/initial/R19_INITIAL.glb",
+      "bytes": 4535200,
+      "expected_bytes": 4535200,
+      "sha256": "15556b0b8cb1e728cd0f6ab6809b803d720478bf5a0a04615dddc9ade374290b",
+      "expected_sha256": "15556b0b8cb1e728cd0f6ab6809b803d720478bf5a0a04615dddc9ade374290b",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/probe_space.py",
+      "bytes": 5358,
+      "expected_bytes": 5358,
+      "sha256": "b873501f2f2b8d51b56a6163a85f3ea490828bfab12331a1bb164a5d28c1c9b3",
+      "expected_sha256": "b873501f2f2b8d51b56a6163a85f3ea490828bfab12331a1bb164a5d28c1c9b3",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/ACTUAL_SECTIONS.json",
+      "bytes": 472,
+      "expected_bytes": 472,
+      "sha256": "075da8b9059285483e2e16dcb5de1553252816e0fdd8b28d1a6d47cb9d9e87c0",
+      "expected_sha256": "075da8b9059285483e2e16dcb5de1553252816e0fdd8b28d1a6d47cb9d9e87c0",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/ASSET_MANIFEST.json",
+      "bytes": 8548,
+      "expected_bytes": 8548,
+      "sha256": "7688784931d37bc284cfef77516e6e1e3cc2855a5feec54c1b667ac31f6c551b",
+      "expected_sha256": "7688784931d37bc284cfef77516e6e1e3cc2855a5feec54c1b667ac31f6c551b",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/BLEND_GLB_READBACK.json",
+      "bytes": 9354,
+      "expected_bytes": 9354,
+      "sha256": "3af0c5d56d9ae09d1679fb1c42bdaa1787ef175ae2925bf8f5cb705a665434f6",
+      "expected_sha256": "3af0c5d56d9ae09d1679fb1c42bdaa1787ef175ae2925bf8f5cb705a665434f6",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/COMPOSE_BEFORE_COLLAR_FIX.py",
+      "bytes": 8515,
+      "expected_bytes": 8515,
+      "sha256": "199e55376d1736581ee4d3cfa6fa229bc2416d94bd62aa0233eb9044f21ffe9b",
+      "expected_sha256": "199e55376d1736581ee4d3cfa6fa229bc2416d94bd62aa0233eb9044f21ffe9b",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/DISTRICT_DESIGN.json",
+      "bytes": 1048,
+      "expected_bytes": 1048,
+      "sha256": "ab1b3edd701b5d2324ac9e8410c7586ef9a83baffb5b68809670676f05f2523f",
+      "expected_sha256": "ab1b3edd701b5d2324ac9e8410c7586ef9a83baffb5b68809670676f05f2523f",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/FINAL_PERSISTENCE.log",
+      "bytes": 216690,
+      "expected_bytes": 216690,
+      "sha256": "ed37c2023297b209bd27c157c3f2311e28ae1046b44496db9af0f2d3c37c2ea4",
+      "expected_sha256": "ed37c2023297b209bd27c157c3f2311e28ae1046b44496db9af0f2d3c37c2ea4",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/FINAL_READBACK_AFTER_CAMERA_REPAIR.log",
+      "bytes": 216817,
+      "expected_bytes": 216817,
+      "sha256": "b6e4c7ea103a903021ff8f1384795ade8d4085736694afd602d247b709ee6fff",
+      "expected_sha256": "b6e4c7ea103a903021ff8f1384795ade8d4085736694afd602d247b709ee6fff",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/FINAL_SIX.jpg",
+      "bytes": 360807,
+      "expected_bytes": 360807,
+      "sha256": "01498b3873f41d0325598a3ab56c225341128d0e3e6f8905be8ab234d09ecf21",
+      "expected_sha256": "01498b3873f41d0325598a3ab56c225341128d0e3e6f8905be8ab234d09ecf21",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/FLOOR_VERIFIED_CAMERAS.json",
+      "bytes": 1492,
+      "expected_bytes": 1492,
+      "sha256": "c4734865281934886812af45432b4b8509b2cc18f431c34910e88ec2856ce942",
+      "expected_sha256": "c4734865281934886812af45432b4b8509b2cc18f431c34910e88ec2856ce942",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/FLOOR_VIEWS.log",
+      "bytes": 325913,
+      "expected_bytes": 325913,
+      "sha256": "b95a59e8c29ce405d4a2d6507755dcad263c4563c41c2a964f0b998c92e56100",
+      "expected_sha256": "b95a59e8c29ce405d4a2d6507755dcad263c4563c41c2a964f0b998c92e56100",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/FLOOR_VIEW_OCCLUSION_REPAIR.log",
+      "bytes": 325808,
+      "expected_bytes": 325808,
+      "sha256": "dc7bda98dfba07bde5e67aeb549f71514647683ef60adb11a379adc5fec7d12c",
+      "expected_sha256": "dc7bda98dfba07bde5e67aeb549f71514647683ef60adb11a379adc5fec7d12c",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/FORM_COMPARISON.jpg",
+      "bytes": 280483,
+      "expected_bytes": 280483,
+      "sha256": "37eca2859d1b345d1c928c7dd0721930b6e2700b9a05f5bd4a9ff2d242b85fdf",
+      "expected_sha256": "37eca2859d1b345d1c928c7dd0721930b6e2700b9a05f5bd4a9ff2d242b85fdf",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/GEOMETRY_VERIFICATION.log",
+      "bytes": 1521865,
+      "expected_bytes": 1521865,
+      "sha256": "cfc558cbe3dae05dd666e388aaa23387830f4af1e4ccf18f4f4544c461f18693",
+      "expected_sha256": "cfc558cbe3dae05dd666e388aaa23387830f4af1e4ccf18f4f4544c461f18693",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/GLB_COMPARISON.jpg",
+      "bytes": 140849,
+      "expected_bytes": 140849,
+      "sha256": "ae1004be5b0977c238946b1c3f59f370e08efaf222ca92311bca30ea18c1bc6f",
+      "expected_sha256": "ae1004be5b0977c238946b1c3f59f370e08efaf222ca92311bca30ea18c1bc6f",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/GLB_REIMPORTED.png",
+      "bytes": 1849136,
+      "expected_bytes": 1849136,
+      "sha256": "0111e401d05ece8ce2f546f86f2141ac08281d1f7cce998a76b69b410f853c14",
+      "expected_sha256": "0111e401d05ece8ce2f546f86f2141ac08281d1f7cce998a76b69b410f853c14",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/INITIAL_FLOATING_CAMERAS/08_LOW.png",
+      "bytes": 1595125,
+      "expected_bytes": 1595125,
+      "sha256": "b4783265e74c1ccc3b6c9f65017637ffae886a1a19aab9ba280143e7f4587995",
+      "expected_sha256": "b4783265e74c1ccc3b6c9f65017637ffae886a1a19aab9ba280143e7f4587995",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/INITIAL_FLOATING_CAMERAS/09_MID.png",
+      "bytes": 1663859,
+      "expected_bytes": 1663859,
+      "sha256": "061d45c6a0e71e5179106e579d7849c572d907f32f82e670393600c7c967e78a",
+      "expected_sha256": "061d45c6a0e71e5179106e579d7849c572d907f32f82e670393600c7c967e78a",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/INITIAL_FLOATING_CAMERAS/10_HIGH.png",
+      "bytes": 1558401,
+      "expected_bytes": 1558401,
+      "sha256": "c42ccb62fa307f95545d6f29a073a0dd2c6b86c68f0c4e497a84f70f933da440",
+      "expected_sha256": "c42ccb62fa307f95545d6f29a073a0dd2c6b86c68f0c4e497a84f70f933da440",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/INITIAL_FLOATING_CAMERAS/R19_BEFORE_FLOOR_VIEWS.blend",
+      "bytes": 1254056,
+      "expected_bytes": 1254056,
+      "sha256": "23b553236f50958731b55c9e7f253bab934e4c7a7ecedd8a373bea563898368a",
+      "expected_sha256": "23b553236f50958731b55c9e7f253bab934e4c7a7ecedd8a373bea563898368a",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/INITIAL_SIX.jpg",
+      "bytes": 355283,
+      "expected_bytes": 355283,
+      "sha256": "dae4290c38b55d49ea5deceba689d62bcc3c76672b6cd5b40ee527d6f3ecdc97",
+      "expected_sha256": "dae4290c38b55d49ea5deceba689d62bcc3c76672b6cd5b40ee527d6f3ecdc97",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/INTERIOR_VIEWS.jpg",
+      "bytes": 443968,
+      "expected_bytes": 443968,
+      "sha256": "273aa65b8358068e0fa01728115953367089ecec7cc4dfb898e579ddc776527d",
+      "expected_sha256": "273aa65b8358068e0fa01728115953367089ecec7cc4dfb898e579ddc776527d",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/MID_EXIT_VIEW_REPAIR.log",
+      "bytes": 325669,
+      "expected_bytes": 325669,
+      "sha256": "52e42593b98f2fff51a44da20a0896ae7605f8a2ee9c8d404b94177126d291a4",
+      "expected_sha256": "52e42593b98f2fff51a44da20a0896ae7605f8a2ee9c8d404b94177126d291a4",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/OCCLUDED_FLOOR_CAMERAS/08_LOW.png",
+      "bytes": 1753233,
+      "expected_bytes": 1753233,
+      "sha256": "69b5c5f008adb3807ece7b743f8af6019e8ba0a1255a265fe253a8651069ba34",
+      "expected_sha256": "69b5c5f008adb3807ece7b743f8af6019e8ba0a1255a265fe253a8651069ba34",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/OCCLUDED_FLOOR_CAMERAS/09_MID.png",
+      "bytes": 1409740,
+      "expected_bytes": 1409740,
+      "sha256": "3c964f834e20ae1bdc84530aedc4b2b9554123698294ae40e45ff9df2710ffe4",
+      "expected_sha256": "3c964f834e20ae1bdc84530aedc4b2b9554123698294ae40e45ff9df2710ffe4",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/OCCLUDED_FLOOR_CAMERAS/09_MID_UPWARD_FAILURE.png",
+      "bytes": 1363952,
+      "expected_bytes": 1363952,
+      "sha256": "710a59fcd1a06230fcec83b1eafafa88df79e9200d718ad3fb4e3375bf5cd42c",
+      "expected_sha256": "710a59fcd1a06230fcec83b1eafafa88df79e9200d718ad3fb4e3375bf5cd42c",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/OCCLUDED_FLOOR_CAMERAS/10_HIGH.png",
+      "bytes": 1537367,
+      "expected_bytes": 1537367,
+      "sha256": "39a7af9ff94ca3e91dbd555b79da8cdd984b3f22b1fb4f999d03460affbbf8fc",
+      "expected_sha256": "39a7af9ff94ca3e91dbd555b79da8cdd984b3f22b1fb4f999d03460affbbf8fc",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/OCCLUDED_FLOOR_CAMERAS/BEFORE_FIRST_OCCLUSION_REPAIR.blend",
+      "bytes": 1254207,
+      "expected_bytes": 1254207,
+      "sha256": "c8a4386733b9a5fcfad298d2d661aaca11b3e6beca2c2f2eade2e2a6eb4a42f8",
+      "expected_sha256": "c8a4386733b9a5fcfad298d2d661aaca11b3e6beca2c2f2eade2e2a6eb4a42f8",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/OCCLUDED_FLOOR_CAMERAS/BEFORE_MID_EXIT_REPAIR.blend",
+      "bytes": 1254181,
+      "expected_bytes": 1254181,
+      "sha256": "31c5218e4a2b3c20f1bf36431484098fdf39cf81aa1e8729321491cf62a1001e",
+      "expected_sha256": "31c5218e4a2b3c20f1bf36431484098fdf39cf81aa1e8729321491cf62a1001e",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/OCCLUDED_FLOOR_CAMERAS/PRIOR_FLOOR_CAMERAS.json",
+      "bytes": 1492,
+      "expected_bytes": 1492,
+      "sha256": "6f180393de119cf7b61464061289e42c852c6553affa93e7e5fd79dbcff11c92",
+      "expected_sha256": "6f180393de119cf7b61464061289e42c852c6553affa93e7e5fd79dbcff11c92",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/OFFLINE_PACKAGE_CHECK.json",
+      "bytes": 921,
+      "expected_bytes": 921,
+      "sha256": "ec37db45499d46c8743fa2e42f29dcc8bf76808db4816b8d853bab0686dbf4e8",
+      "expected_sha256": "ec37db45499d46c8743fa2e42f29dcc8bf76808db4816b8d853bab0686dbf4e8",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/SECTIONS.jpg",
+      "bytes": 97578,
+      "expected_bytes": 97578,
+      "sha256": "cd5e5e87be4cc71e9cf9826071900c1fc7fd5908184a8ef34e381c9ff3455706",
+      "expected_sha256": "cd5e5e87be4cc71e9cf9826071900c1fc7fd5908184a8ef34e381c9ff3455706",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/SLOW_BOOLEAN_ATTEMPT.log",
+      "bytes": 137,
+      "expected_bytes": 137,
+      "sha256": "bca5e4a5edd1dc1477393ca6b8923d3d37c599f731b531780af5dedd17d75845",
+      "expected_sha256": "bca5e4a5edd1dc1477393ca6b8923d3d37c599f731b531780af5dedd17d75845",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/SPATIAL_PROBE.log",
+      "bytes": 3776,
+      "expected_bytes": 3776,
+      "sha256": "00611f0023da0c5c1f2349c8cd3ab6970feb5716ce35998a8ce40cf245629630",
+      "expected_sha256": "00611f0023da0c5c1f2349c8cd3ab6970feb5716ce35998a8ce40cf245629630",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/SPATIAL_SAMPLES.json",
+      "bytes": 62044,
+      "expected_bytes": 62044,
+      "sha256": "8ffaf44ad61dde77f6d0ab0d7e4ee13b2e5d9ef4429f97e1780ce6387e6404dc",
+      "expected_sha256": "8ffaf44ad61dde77f6d0ab0d7e4ee13b2e5d9ef4429f97e1780ce6387e6404dc",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/qa/STARTUP_PROVENANCE.json",
+      "bytes": 2258,
+      "expected_bytes": 2258,
+      "sha256": "fcd289442f00a04cd2617b8c8070d879d80af6d821d92fa5e28aec7f86a84958",
+      "expected_sha256": "fcd289442f00a04cd2617b8c8070d879d80af6d821d92fa5e28aec7f86a84958",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revise_landform.py",
+      "bytes": 7943,
+      "expected_bytes": 7943,
+      "sha256": "368c95f36c2a6dda114487f4702800e7dbd3ab72c13313baac1bfcf0d44bc462",
+      "expected_sha256": "368c95f36c2a6dda114487f4702800e7dbd3ab72c13313baac1bfcf0d44bc462",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_1.log",
+      "bytes": 331441,
+      "expected_bytes": 331441,
+      "sha256": "6949541c5975a879182a5e7d34e42672e7c36a66894cfc4f265961291a03dca1",
+      "expected_sha256": "6949541c5975a879182a5e7d34e42672e7c36a66894cfc4f265961291a03dca1",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_1/01_FRONT.png",
+      "bytes": 1731771,
+      "expected_bytes": 1731771,
+      "sha256": "4fad01dc474724357f9448181eff3ea1d638eee9bf08d534e98ef02c0597a540",
+      "expected_sha256": "4fad01dc474724357f9448181eff3ea1d638eee9bf08d534e98ef02c0597a540",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_1/02_OBLIQUE.png",
+      "bytes": 1811264,
+      "expected_bytes": 1811264,
+      "sha256": "47ce794c60dfdc9231252546459cf62bd2d8721f3e95283fe601e746bcae18de",
+      "expected_sha256": "47ce794c60dfdc9231252546459cf62bd2d8721f3e95283fe601e746bcae18de",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_1/04_REAR.png",
+      "bytes": 1725125,
+      "expected_bytes": 1725125,
+      "sha256": "68f63e34fb1eb62e4a6d97114d40b47b567f2ccec3d3a46e7e002fac9610f46e",
+      "expected_sha256": "68f63e34fb1eb62e4a6d97114d40b47b567f2ccec3d3a46e7e002fac9610f46e",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_1/06_UNDERSIDE.png",
+      "bytes": 1473000,
+      "expected_bytes": 1473000,
+      "sha256": "317a15dca49c7b39b3f44301421487d8669fc415011d84fd5750e0cba5c534ff",
+      "expected_sha256": "317a15dca49c7b39b3f44301421487d8669fc415011d84fd5750e0cba5c534ff",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_1/R19_REVISION_1.blend",
+      "bytes": 1099038,
+      "expected_bytes": 1099038,
+      "sha256": "4e2927474f51a4370ec35ae3e043c7531e489bb1c54959ba69088be44e69d64b",
+      "expected_sha256": "4e2927474f51a4370ec35ae3e043c7531e489bb1c54959ba69088be44e69d64b",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_1/R19_REVISION_1.glb",
+      "bytes": 4803492,
+      "expected_bytes": 4803492,
+      "sha256": "3794992a9719a6159351a0cb1faa9d366e7eaa7e0a60cb012b31df621b659b62",
+      "expected_sha256": "3794992a9719a6159351a0cb1faa9d366e7eaa7e0a60cb012b31df621b659b62",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_1/REVISION_RECORD.json",
+      "bytes": 814,
+      "expected_bytes": 814,
+      "sha256": "1b06ef3d3f14975e8ee46b88bc507179d40b36894e9bd21334fd4edbf11ae54e",
+      "expected_sha256": "1b06ef3d3f14975e8ee46b88bc507179d40b36894e9bd21334fd4edbf11ae54e",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2.log",
+      "bytes": 324598,
+      "expected_bytes": 324598,
+      "sha256": "a72133ee3139209153451d1010695485a0d457a8c4066b2272baf1b086485969",
+      "expected_sha256": "a72133ee3139209153451d1010695485a0d457a8c4066b2272baf1b086485969",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2/01_FRONT.png",
+      "bytes": 1773998,
+      "expected_bytes": 1773998,
+      "sha256": "ff41d4dde03550a6b5645551e6e7ef92ad71ca0bac6f99328c4ffdb9cbf9bf87",
+      "expected_sha256": "ff41d4dde03550a6b5645551e6e7ef92ad71ca0bac6f99328c4ffdb9cbf9bf87",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2/02_OBLIQUE.png",
+      "bytes": 1799480,
+      "expected_bytes": 1799480,
+      "sha256": "033272aab78385b6993c809978b95d3719677abea03c48f1121e1196024d57ca",
+      "expected_sha256": "033272aab78385b6993c809978b95d3719677abea03c48f1121e1196024d57ca",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2/03_SIDE.png",
+      "bytes": 1631016,
+      "expected_bytes": 1631016,
+      "sha256": "db9e4f2461b15f6c13f16d24d2b40e5ecf280c4f71f0ee0a2a140b9b8d86aa16",
+      "expected_sha256": "db9e4f2461b15f6c13f16d24d2b40e5ecf280c4f71f0ee0a2a140b9b8d86aa16",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2/04_REAR.png",
+      "bytes": 1754162,
+      "expected_bytes": 1754162,
+      "sha256": "bf3f8a409c5c27220175c326e553a219b177a030be5e6d643960d0675d85256a",
+      "expected_sha256": "bf3f8a409c5c27220175c326e553a219b177a030be5e6d643960d0675d85256a",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2/05_AERIAL.png",
+      "bytes": 1818806,
+      "expected_bytes": 1818806,
+      "sha256": "27997980ece318ed0219a30372629a25edb6ca3b525c3ab717c6e73df5202ebe",
+      "expected_sha256": "27997980ece318ed0219a30372629a25edb6ca3b525c3ab717c6e73df5202ebe",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2/R19_LIVING_HORIZON.blend",
+      "bytes": 1253995,
+      "expected_bytes": 1253995,
+      "sha256": "00d897fa39f71d8ee82528a5f5935eb234e512e9e0879381794bd11b0498bbba",
+      "expected_sha256": "00d897fa39f71d8ee82528a5f5935eb234e512e9e0879381794bd11b0498bbba",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2/R19_LIVING_HORIZON.glb",
+      "bytes": 4878148,
+      "expected_bytes": 4878148,
+      "sha256": "e118be99d6418f856ded54ffe28da98be662c1b4aa0a9f79d6a11a3882549cd7",
+      "expected_sha256": "e118be99d6418f856ded54ffe28da98be662c1b4aa0a9f79d6a11a3882549cd7",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/revision_2/REVISION_RECORD.json",
+      "bytes": 971,
+      "expected_bytes": 971,
+      "sha256": "66c3c528d49da0fc17ec73d5bbe937facfaa681183f96ea691343ffb9c996045",
+      "expected_sha256": "66c3c528d49da0fc17ec73d5bbe937facfaa681183f96ea691343ffb9c996045",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/sections/XZ_Y200/XZ_Y200.blend",
+      "bytes": 885086,
+      "expected_bytes": 885086,
+      "sha256": "4606510a16a1c385f893f26ff3f5dea11faee988db54252acd0cf5915fb60199",
+      "expected_sha256": "4606510a16a1c385f893f26ff3f5dea11faee988db54252acd0cf5915fb60199",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/sections/XZ_Y200/XZ_Y200.glb",
+      "bytes": 3345024,
+      "expected_bytes": 3345024,
+      "sha256": "cb3622fd9c0abaa09ccef0524ff0c7ab6b1d779606e1256b9a3b076a38884800",
+      "expected_sha256": "cb3622fd9c0abaa09ccef0524ff0c7ab6b1d779606e1256b9a3b076a38884800",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/sections/XZ_Y200/XZ_Y200.png",
+      "bytes": 1581689,
+      "expected_bytes": 1581689,
+      "sha256": "d126b40d31af041b5d10a9e371e7c5237f4a840384709397f23db93cd3be7c08",
+      "expected_sha256": "d126b40d31af041b5d10a9e371e7c5237f4a840384709397f23db93cd3be7c08",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/sections/YZ_X0/YZ_X0.blend",
+      "bytes": 638412,
+      "expected_bytes": 638412,
+      "sha256": "cf63db2147f54d6e4db564dd61012acea4e0e344aadb81ee3ad4b41b006cdee8",
+      "expected_sha256": "cf63db2147f54d6e4db564dd61012acea4e0e344aadb81ee3ad4b41b006cdee8",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/sections/YZ_X0/YZ_X0.glb",
+      "bytes": 2327052,
+      "expected_bytes": 2327052,
+      "sha256": "a507548bf29886a41aee72b42216cbfd24ffd1cd36d195f2bce3944999ba8bd0",
+      "expected_sha256": "a507548bf29886a41aee72b42216cbfd24ffd1cd36d195f2bce3944999ba8bd0",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/sections/YZ_X0/YZ_X0.png",
+      "bytes": 1480251,
+      "expected_bytes": 1480251,
+      "sha256": "43074707002da0186d58a42a7b4dda277348e92cf78b13cd3e6ff07a9690332d",
+      "expected_sha256": "43074707002da0186d58a42a7b4dda277348e92cf78b13cd3e6ff07a9690332d",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/sheet.py",
+      "bytes": 679,
+      "expected_bytes": 679,
+      "sha256": "45a596994e73ad299158f741d2d31fad5455968bd50d831857b9a974eaacbea4",
+      "expected_sha256": "45a596994e73ad299158f741d2d31fad5455968bd50d831857b9a974eaacbea4",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/verify_geometry.py",
+      "bytes": 5944,
+      "expected_bytes": 5944,
+      "sha256": "629087c2dcf1372d0fe0f258684c0b31f57901a3092f0790c113c7fe9b8ba1fd",
+      "expected_sha256": "629087c2dcf1372d0fe0f258684c0b31f57901a3092f0790c113c7fe9b8ba1fd",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R19/verify_remote.py",
+      "bytes": 1625,
+      "expected_bytes": 1625,
+      "sha256": "8736568d0fdf3ca568bed6dde3ed296ac3a146c8567e504be81953ce95e1f95d",
+      "expected_sha256": "8736568d0fdf3ca568bed6dde3ed296ac3a146c8567e504be81953ce95e1f95d",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/latest.json",
+      "bytes": 1700,
+      "expected_bytes": 1700,
+      "sha256": "01e367003bbe58bddce92d33640935112a6f67c7def20f5a13b315c1d3beaa89",
+      "expected_sha256": "01e367003bbe58bddce92d33640935112a6f67c7def20f5a13b315c1d3beaa89",
+      "match": true
+    }
+  ]
+}
