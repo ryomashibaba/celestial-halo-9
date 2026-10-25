@@ -1,0 +1,62 @@
+{
+  "schema": "halo9.j7r23.v1",
+  "date_jst": "2026-10-25",
+  "stage": "J7-R23",
+  "art": "REJECT",
+  "initial_art_gate": "FAIL",
+  "second_stage_started": false,
+  "base_r21_head": "628abb8d80e3e39a9bad6dd5fe7dec7556a0bcd9",
+  "verified_main_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "branch": "research/m3d1s-j7-r23-crossing-horizons-20261025",
+  "title": "交叉天陸 / CROSSING HORIZONS",
+  "macro_revisions": 2,
+  "models": [
+    "initial/R23_INITIAL.blend",
+    "revision/R23_REVISED.blend",
+    "final/R23_CROSSING_HORIZONS.blend",
+    "final/R23_CROSSING_HORIZONS.glb"
+  ],
+  "principal_renders": {
+    "initial": 8,
+    "revision": 8,
+    "final": 11,
+    "sections": 2,
+    "retained_failed": 1
+  },
+  "actual_sections": [
+    "sections/LONG_Xminus800.blend",
+    "sections/CROSS_Y500.blend"
+  ],
+  "geometry_dimensions_m": [
+    7550,
+    7241.93408203125,
+    5150
+  ],
+  "highest_point_m": 4930,
+  "save_reload": "BLEND exact vertex fingerprint and triangle count match; GLB AABB error 0m and same 3481 triangles",
+  "quality": "FAIL: transverse continent has 3 boundary/nonmanifold edges and 1 degenerate face; overlapping surfaces produce visible artifacts",
+  "art_reason": "Blank folded giant parts still dominate. Distinct inhabited urban worlds, destinations, rear/underside architecture and human-scale depth not achieved.",
+  "next": "Do not decorate or adopt this massing. Re-design concrete connected floor-level destinations and their joins in parallel with the entire silhouette; change the mass-first loft/carve method.",
+  "not_verified": [
+    "global intersections/unions",
+    "closed connected air volume",
+    "continuous walkability",
+    "ground-to-sky transport",
+    "structural safety",
+    "inhabited room capacity",
+    "official city coordinates",
+    "Minecraft suitability"
+  ],
+  "art_review": "R23_ART_REVIEW_JA.md",
+  "qa": "qa/FINAL_VERIFICATION.json",
+  "official_art_adoptions": 0,
+  "minecraft_construction": "HOLD",
+  "detailed_10km_city_master_complete": false,
+  "main_existing_pr_originals_freeze_protected_changed": false,
+  "actual_minecraft_saves_accessed": false,
+  "foreground_computer_use": false,
+  "auto_merge": false,
+  "github_delivery": "PENDING",
+  "draft_pr": null,
+  "artifact_commit": null
+}

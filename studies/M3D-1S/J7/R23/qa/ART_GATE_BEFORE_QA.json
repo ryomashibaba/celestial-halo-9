@@ -1,0 +1,30 @@
+{
+  "stage": "R23",
+  "art": "REJECT",
+  "initial_gate": "FAIL",
+  "revision_gate": "FAIL",
+  "final_macro_gate": "FAIL",
+  "second_stage_started": false,
+  "reviewed_initial_and_revision": [
+    "front",
+    "oblique",
+    "side",
+    "rear",
+    "aerial",
+    "underside",
+    "ground_1p7",
+    "mid_1p7"
+  ],
+  "reviewed_final_before_technical_qa": [
+    "front",
+    "oblique",
+    "side",
+    "rear",
+    "aerial",
+    "underside",
+    "ground_1p7",
+    "mid_1p7"
+  ],
+  "reason": "Whole central architecture still reads as blank folded masses; distinct inhabited city worlds, all-around architecture and human-scale urban depth absent.",
+  "technical_qa_can_override_art": false
+}

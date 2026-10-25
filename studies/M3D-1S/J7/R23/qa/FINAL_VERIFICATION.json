@@ -1,0 +1,796 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "unit_scale": 1,
+  "blend_exact_geometry_reload": true,
+  "blend": {
+    "meshes": 14,
+    "vertices": 1753,
+    "triangles": 3481,
+    "min_m": [
+      -3800.0,
+      -3700.0,
+      -220.0
+    ],
+    "max_m": [
+      3750.0,
+      3541.93408203125,
+      4930.0
+    ],
+    "dimensions_m": [
+      7550.0,
+      7241.93408203125,
+      5150.0
+    ],
+    "fingerprint": "2c6886033668dc8cafdf9f2f4471ffd89cc99a8352229b1e9b56fe918f3163d4",
+    "objects": [
+      {
+        "name": "01 FRACTURED CIVIC MASSIF",
+        "role": "architecture",
+        "vertices": 197,
+        "faces": 157,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "02 TRANSVERSE CONTINENT",
+        "role": "architecture",
+        "vertices": 431,
+        "faces": 322,
+        "boundary_edges": 3,
+        "nonmanifold_edges": 3,
+        "zero_area_faces": 1
+      },
+      {
+        "name": "03 EASTERN UPLAND",
+        "role": "architecture",
+        "vertices": 424,
+        "faces": 308,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "04 REAR SKY CONTINENT",
+        "role": "architecture",
+        "vertices": 361,
+        "faces": 250,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "05 GROUND DELTA WEST",
+        "role": "terrain",
+        "vertices": 34,
+        "faces": 21,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "06 GROUND DELTA EAST",
+        "role": "terrain",
+        "vertices": 18,
+        "faces": 11,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "07 PROCESSIONAL COMMON",
+        "role": "public_floor",
+        "vertices": 232,
+        "faces": 226,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human 1.75m",
+        "role": "scale_witness",
+        "vertices": 8,
+        "faces": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human 1.75m.001",
+        "role": "scale_witness",
+        "vertices": 8,
+        "faces": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human 1.75m.002",
+        "role": "scale_witness",
+        "vertices": 8,
+        "faces": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human scale curb",
+        "role": "scale_witness",
+        "vertices": 8,
+        "faces": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human scale curb.001",
+        "role": "scale_witness",
+        "vertices": 8,
+        "faces": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human scale seating",
+        "role": "scale_witness",
+        "vertices": 8,
+        "faces": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human scale seating.001",
+        "role": "scale_witness",
+        "vertices": 8,
+        "faces": 6,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      }
+    ]
+  },
+  "glb": {
+    "meshes": 14,
+    "vertices": 6038,
+    "triangles": 3481,
+    "min_m": [
+      -3800.0,
+      -3700.0,
+      -220.0
+    ],
+    "max_m": [
+      3750.0,
+      3541.93408203125,
+      4930.0
+    ],
+    "dimensions_m": [
+      7550.0,
+      7241.93408203125,
+      5150.0
+    ],
+    "fingerprint": "08fb6dd80e6d2b40749eac36ed45a49a8643cafdc522d3461adaac9fb0730077",
+    "objects": [
+      {
+        "name": "01 FRACTURED CIVIC MASSIF",
+        "role": "architecture",
+        "vertices": 688,
+        "faces": 398,
+        "boundary_edges": 688,
+        "nonmanifold_edges": 688,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "02 TRANSVERSE CONTINENT",
+        "role": "architecture",
+        "vertices": 1496,
+        "faces": 869,
+        "boundary_edges": 1493,
+        "nonmanifold_edges": 1493,
+        "zero_area_faces": 2
+      },
+      {
+        "name": "03 EASTERN UPLAND",
+        "role": "architecture",
+        "vertices": 1464,
+        "faces": 848,
+        "boundary_edges": 1464,
+        "nonmanifold_edges": 1464,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "04 REAR SKY CONTINENT",
+        "role": "architecture",
+        "vertices": 1222,
+        "faces": 722,
+        "boundary_edges": 1222,
+        "nonmanifold_edges": 1222,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "05 GROUND DELTA WEST",
+        "role": "terrain",
+        "vertices": 102,
+        "faces": 68,
+        "boundary_edges": 102,
+        "nonmanifold_edges": 102,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "06 GROUND DELTA EAST",
+        "role": "terrain",
+        "vertices": 54,
+        "faces": 32,
+        "boundary_edges": 54,
+        "nonmanifold_edges": 54,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "07 PROCESSIONAL COMMON",
+        "role": "public_floor",
+        "vertices": 844,
+        "faces": 460,
+        "boundary_edges": 844,
+        "nonmanifold_edges": 844,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human 1.75m",
+        "role": "scale_witness",
+        "vertices": 24,
+        "faces": 12,
+        "boundary_edges": 24,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human 1.75m.001",
+        "role": "scale_witness",
+        "vertices": 24,
+        "faces": 12,
+        "boundary_edges": 24,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human 1.75m.002",
+        "role": "scale_witness",
+        "vertices": 24,
+        "faces": 12,
+        "boundary_edges": 24,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human scale curb",
+        "role": "scale_witness",
+        "vertices": 24,
+        "faces": 12,
+        "boundary_edges": 24,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human scale curb.001",
+        "role": "scale_witness",
+        "vertices": 24,
+        "faces": 12,
+        "boundary_edges": 24,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human scale seating",
+        "role": "scale_witness",
+        "vertices": 24,
+        "faces": 12,
+        "boundary_edges": 24,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0
+      },
+      {
+        "name": "Human scale seating.001",
+        "role": "scale_witness",
+        "vertices": 24,
+        "faces": 12,
+        "boundary_edges": 24,
+        "nonmanifold_edges": 24,
+        "zero_area_faces": 0
+      }
+    ]
+  },
+  "glb_aabb_max_error_m": 0.0,
+  "glb_triangle_count_matches": true,
+  "floor_samples": [
+    {
+      "camera": "ground_1p7",
+      "eye_m": [
+        0.0,
+        -2900.0,
+        81.69999694824219
+      ],
+      "floor_hit": true,
+      "floor_object": "07 PROCESSIONAL COMMON",
+      "floor_point": [
+        0.0,
+        -2900.0,
+        80.0
+      ],
+      "eye_above_floor_m": 1.6999969454345187,
+      "floor_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "next_surface_below_same_support_m": 55.15518545360785,
+      "surrounding_1m_support": [
+        {
+          "offset": [
+            -0.5,
+            -0.5
+          ],
+          "hit": true,
+          "distance": 1.6999969454345187
+        },
+        {
+          "offset": [
+            -0.5,
+            0.5
+          ],
+          "hit": true,
+          "distance": 1.6999969454345187
+        },
+        {
+          "offset": [
+            0.5,
+            -0.5
+          ],
+          "hit": true,
+          "distance": 1.6999969454345187
+        },
+        {
+          "offset": [
+            0.5,
+            0.5
+          ],
+          "hit": true,
+          "distance": 1.6999969454345187
+        }
+      ],
+      "local_clearance": [
+        {
+          "offset_z": 0,
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        }
+      ],
+      "first_forward_surface_m": 3855.2543002035914,
+      "first_forward_object": "01 FRACTURED CIVIC MASSIF"
+    },
+    {
+      "camera": "mid_1p7",
+      "eye_m": [
+        -600.0,
+        -400.0,
+        2201.699951171875
+      ],
+      "floor_hit": true,
+      "floor_object": "02 TRANSVERSE CONTINENT",
+      "floor_point": [
+        -600.0,
+        -400.0,
+        2200.0
+      ],
+      "eye_above_floor_m": 1.6999511543437185,
+      "floor_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "next_surface_below_same_support_m": 513.3747412952843,
+      "surrounding_1m_support": [
+        {
+          "offset": [
+            -0.5,
+            -0.5
+          ],
+          "hit": true,
+          "distance": 1.6999511543437185
+        },
+        {
+          "offset": [
+            -0.5,
+            0.5
+          ],
+          "hit": true,
+          "distance": 1.6999511543437185
+        },
+        {
+          "offset": [
+            0.5,
+            -0.5
+          ],
+          "hit": true,
+          "distance": 1.6999511543437185
+        },
+        {
+          "offset": [
+            0.5,
+            0.5
+          ],
+          "hit": true,
+          "distance": 1.6999511543437185
+        }
+      ],
+      "local_clearance": [
+        {
+          "offset_z": 0,
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        }
+      ],
+      "first_forward_surface_m": 502.1939468511207,
+      "first_forward_object": "02 TRANSVERSE CONTINENT"
+    },
+    {
+      "camera": "high_1p7",
+      "eye_m": [
+        650.0,
+        2100.0,
+        3261.699951171875
+      ],
+      "floor_hit": true,
+      "floor_object": "04 REAR SKY CONTINENT",
+      "floor_point": [
+        650.0,
+        2100.0,
+        3260.0
+      ],
+      "eye_above_floor_m": 1.6999511543437185,
+      "floor_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "next_surface_below_same_support_m": 33.6364753740034,
+      "surrounding_1m_support": [
+        {
+          "offset": [
+            -0.5,
+            -0.5
+          ],
+          "hit": true,
+          "distance": 1.6999511543437185
+        },
+        {
+          "offset": [
+            -0.5,
+            0.5
+          ],
+          "hit": true,
+          "distance": 1.6999511543437185
+        },
+        {
+          "offset": [
+            0.5,
+            -0.5
+          ],
+          "hit": true,
+          "distance": 1.6999511543437185
+        },
+        {
+          "offset": [
+            0.5,
+            0.5
+          ],
+          "hit": true,
+          "distance": 1.6999511543437185
+        }
+      ],
+      "local_clearance": [
+        {
+          "offset_z": 0,
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": 0,
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        },
+        {
+          "offset_z": -0.8,
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "hit_within_0p6m": false,
+          "object": null
+        }
+      ],
+      "first_forward_surface_m": 49.85803396823804,
+      "first_forward_object": "01 FRACTURED CIVIC MASSIF"
+    }
+  ],
+  "not_verified": [
+    "global self-intersections and inter-object unions",
+    "connected enclosed air volume",
+    "continuous walkability or ground-to-sky route",
+    "inhabited room capacity or utility service",
+    "transport operation or structural safety",
+    "Minecraft voxel conversion or official coordinates"
+  ],
+  "stage_two_started": false
+}

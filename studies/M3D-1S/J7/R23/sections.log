@@ -1,0 +1,20 @@
+00:02.532  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\R23_CROSSING_HORIZONS.blend"
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\verify.py:78: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('ORANGE ACTUAL SECTION EDGE');mat.diffuse_color=(.9,.22,.025,1);mat.use_nodes=True
+00:02.563  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_48528_99c2564ade264918ecca99c13f132054.png.png"
+00:02.563  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\sections\LONG_Xminus800.blend"
+00:23.907  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\sections\LONG_Xminus800.png'
+00:23.907  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\R23_CROSSING_HORIZONS.blend"
+00:23.938  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_48528_9cbc27e5abc5da652bee436bd8a1801d.png.png"
+00:23.938  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\sections\CROSS_Y500.blend"
+00:52.750  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\sections\CROSS_Y500.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "LONG_Xminus800.blend"
+Info: Saved as "CROSS_Y500.blend"
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
