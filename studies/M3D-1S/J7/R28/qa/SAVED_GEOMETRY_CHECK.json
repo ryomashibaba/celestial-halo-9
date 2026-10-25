@@ -1,0 +1,219 @@
+{
+  "geometry_readback_pass": true,
+  "saved_blend": {
+    "meshes": 244,
+    "vertices": 796393,
+    "triangles": 1265352,
+    "min_m": [
+      -150000.0,
+      -150000.0,
+      -200.0
+    ],
+    "max_m": [
+      150000.0,
+      150000.0,
+      3712.45947265625
+    ],
+    "dimensions_m": [
+      300000.0,
+      300000.0,
+      3912.45947265625
+    ],
+    "group_bounds": {
+      "CONTEXT_TERRAIN_PROVISIONAL": {
+        "min_m": [
+          -150000.0,
+          -150000.0,
+          -200.0
+        ],
+        "max_m": [
+          150000.0,
+          150000.0,
+          3712.45947265625
+        ],
+        "dimensions_m": [
+          300000.0,
+          300000.0,
+          3912.45947265625
+        ]
+      },
+      "CENTRAL_OCCUPIED_CRESCENTS": {
+        "min_m": [
+          -1512.04931640625,
+          -1216.70458984375,
+          102.19999694824219
+        ],
+        "max_m": [
+          1086.7711181640625,
+          2067.533935546875,
+          2427.2783203125
+        ],
+        "dimensions_m": [
+          2598.8204345703125,
+          3284.238525390625,
+          2325.078323364258
+        ]
+      },
+      "CENTRAL_SPINE": {
+        "min_m": [
+          -1013.9100341796875,
+          693.4996337890625,
+          99.78382110595703
+        ],
+        "max_m": [
+          653.9100341796875,
+          1332.0023193359375,
+          3270.754638671875
+        ],
+        "dimensions_m": [
+          1667.820068359375,
+          638.502685546875,
+          3170.970817565918
+        ]
+      },
+      "CENTRAL_PUBLIC_FORUM": {
+        "min_m": [
+          -909.7606811523438,
+          -1635.0,
+          87.0
+        ],
+        "max_m": [
+          1740.0,
+          1619.977294921875,
+          651.6499633789062
+        ],
+        "dimensions_m": [
+          2649.7606811523438,
+          3254.977294921875,
+          564.6499633789062
+        ]
+      },
+      "SIX_UNASSIGNED_SKY_STUDIES": {
+        "min_m": [
+          -3439.11376953125,
+          -1622.35791015625,
+          272.5005798339844
+        ],
+        "max_m": [
+          3009.951171875,
+          3449.880126953125,
+          2109.99609375
+        ],
+        "dimensions_m": [
+          6449.06494140625,
+          5072.238037109375,
+          1837.4955139160156
+        ]
+      },
+      "SECONDARY_CITY_RESEARCH": {
+        "min_m": [
+          -2410.6650390625,
+          34.78731155395508,
+          0.4232565462589264
+        ],
+        "max_m": [
+          2179.222900390625,
+          2562.67822265625,
+          206.0935821533203
+        ],
+        "dimensions_m": [
+          4589.887939453125,
+          2527.890911102295,
+          205.6703256070614
+        ]
+      },
+      "FOUR_UNASSIGNED_LANDMARKS": {
+        "min_m": [
+          -520.0,
+          -2790.0,
+          95.0
+        ],
+        "max_m": [
+          4040.0,
+          3759.980224609375,
+          939.9639282226562
+        ],
+        "dimensions_m": [
+          4560.0,
+          6549.980224609375,
+          844.9639282226562
+        ]
+      },
+      "TRANSIT_RESEARCH": {
+        "min_m": [
+          -2709.288330078125,
+          -2400.0,
+          20.523693084716797
+        ],
+        "max_m": [
+          2257.417724609375,
+          3105.92236328125,
+          1903.596923828125
+        ],
+        "dimensions_m": [
+          4966.7060546875,
+          5505.92236328125,
+          1883.0732307434082
+        ]
+      }
+    }
+  },
+  "reimported_glb": {
+    "meshes": 244,
+    "vertices": 2439503,
+    "triangles": 1265352,
+    "min_m": [
+      -150000.0,
+      -150000.0,
+      -200.0
+    ],
+    "max_m": [
+      150000.0,
+      150000.0,
+      3712.45947265625
+    ],
+    "dimensions_m": [
+      300000.0,
+      300000.0,
+      3912.45947265625
+    ],
+    "group_bounds": {
+      "glTF imported": {
+        "min_m": [
+          -150000.0,
+          -150000.0,
+          -200.0
+        ],
+        "max_m": [
+          150000.0,
+          150000.0,
+          3712.45947265625
+        ],
+        "dimensions_m": [
+          300000.0,
+          300000.0,
+          3912.45947265625
+        ]
+      }
+    }
+  },
+  "max_boundary_error_m": 0.0,
+  "nearest_geometry_errors": {
+    "blend_to_glb_vertex_m": 0.0,
+    "glb_to_blend_vertex_m": 0.0,
+    "blend_to_glb_triangle_center_m": 0.0,
+    "glb_to_blend_triangle_center_m": 0.0
+  },
+  "tolerance_m": 0.01,
+  "scope": "Both actual saved files independently opened. All vertices/triangle centers tested bidirectionally; not exact topology identity.",
+  "not_verified": [
+    "all interpenetrations",
+    "structural integrity",
+    "all public volumes",
+    "continuous pedestrian routes",
+    "transit operational design",
+    "canonical coordinates and asset integration",
+    "Minecraft conversion"
+  ],
+  "art_judgment": "Separate image-based producer review; no formal adoption"
+}

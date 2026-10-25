@@ -1,0 +1,210 @@
+{
+  "scope": "R28 files except this manifest itself",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "ART_REVIEW_JA.md",
+      "bytes": 6076,
+      "sha256": "5ad6906d7fd73583081d51bc57869ab6fd7c8b5ab03651841b6abfb46d8da25b"
+    },
+    {
+      "path": "build.log",
+      "bytes": 27353,
+      "sha256": "f291d239dc7ff67db275d8990147685f8cfee42d1873be42fdf3bde142aae5c3"
+    },
+    {
+      "path": "build_estuary.py",
+      "bytes": 28015,
+      "sha256": "fb5308911a8c9b22f2df7c09c7043e6bca3f24283cf7159c9b4de541b1f6e918"
+    },
+    {
+      "path": "capture_sources.py",
+      "bytes": 2654,
+      "sha256": "045ac11a755facbecd57140c6ffc760245765440ef302a9887d896ac6059d400"
+    },
+    {
+      "path": "model/R28_CELESTIAL_ESTUARY.blend",
+      "bytes": 13741114,
+      "sha256": "9ad79426b4670a1652685e770b5aee38dfe66b78c5a9b4e50f844bd8ec5d1355"
+    },
+    {
+      "path": "model/R28_CELESTIAL_ESTUARY.glb",
+      "bytes": 68613152,
+      "sha256": "ffa7c5390c515195313f60b2d54ffcf8145b3a2f932631a923c12458ac20844a"
+    },
+    {
+      "path": "package_review.py",
+      "bytes": 3413,
+      "sha256": "18194d33d8ed1415599a90d5de9ed088142975cc7e1e66e1e83c358433d46448"
+    },
+    {
+      "path": "process/FAILED_NORTH_CAMERA_TERRAIN.png",
+      "bytes": 1324218,
+      "sha256": "b4770784f4198c36eb49bea61514237183f5958175b732275747e28be4ca154a"
+    },
+    {
+      "path": "process/INITIAL_CITY.png",
+      "bytes": 705835,
+      "sha256": "e9f13377ffbda1e346292c56f5c8e1a599542e2852060058ed7a683a32dd8312"
+    },
+    {
+      "path": "process/INITIAL_FORUM.png",
+      "bytes": 756321,
+      "sha256": "5593604bf42bdf5948e911b11cd4b1206e34fe097a8fc1768511e69f570676a7"
+    },
+    {
+      "path": "process/INITIAL_LANE.png",
+      "bytes": 754673,
+      "sha256": "4e1ff2348604ae2d8ab65ad562da1e647cf04cf32fe01448aa14828dff1d9735"
+    },
+    {
+      "path": "process/INITIAL_READING_GALLERY_CEILING.png",
+      "bytes": 624194,
+      "sha256": "1f110ae7e7ecc5a4238fdc2056412a1e9daba3539f59fd0e1e874c112b1d5d02"
+    },
+    {
+      "path": "promenade_render.log",
+      "bytes": 448,
+      "sha256": "32800d5760df62c418279797ea580a26c63a6f7cb55c0e29f7c9bdd569348e44"
+    },
+    {
+      "path": "qa/BUILD.json",
+      "bytes": 390,
+      "sha256": "b35c33e56e8cf84f19f3c662562d5beb4b7bdbd1b6c6a9b826fad181cc11cdd5"
+    },
+    {
+      "path": "qa/CAMERAS.json",
+      "bytes": 4567,
+      "sha256": "10935d5323bfd44a92905e6e5ac5cb48feac25cb69eee886cc9c07fee90ace2b"
+    },
+    {
+      "path": "qa/DELIVERY_SUMMARY.json",
+      "bytes": 1394,
+      "sha256": "f2d925add5b00dc0dab0b5ef8b1360e3c6c34fb6acc0237135a9ef06a56c6efd"
+    },
+    {
+      "path": "qa/REVIEW_SHEET.jpg",
+      "bytes": 605081,
+      "sha256": "708cff1e110f634257e9464691fe6eeccaf596df65f5d57107deb6b64b0fdc1f"
+    },
+    {
+      "path": "qa/SAVED_GEOMETRY_CHECK.json",
+      "bytes": 5008,
+      "sha256": "47c8176fc0c061dd16f64538df4a9ab4cb42e2e1c661ce538a410c5a69203bdd"
+    },
+    {
+      "path": "qa/SCOPE.json",
+      "bytes": 1275,
+      "sha256": "8fc5753318bf35859508e3fde8e48a64955c11d8a58505009ff65a47acd2d37e"
+    },
+    {
+      "path": "qa/SPACE_SAMPLES.json",
+      "bytes": 1177,
+      "sha256": "33c0c8ea74ec5790c182e00add4ae2803ed024b0863a3524d577894c484873d1"
+    },
+    {
+      "path": "qa/STARTUP_PROVENANCE.json",
+      "bytes": 7152,
+      "sha256": "24510429282d6a0459416765fdbc224ba8e9b4300f04f06f9f7cc78ba5afa148"
+    },
+    {
+      "path": "qa/TRANSIT.json",
+      "bytes": 1251,
+      "sha256": "7a457e6e0ccea626c9303e03b58931471fef27d8e4c74961d7198e4c29dd05dc"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 9344,
+      "sha256": "904c7984fdac7056241aaa0c910744f8a3fe7a8161e31c114070eed29004c868"
+    },
+    {
+      "path": "refine_views.log",
+      "bytes": 496,
+      "sha256": "ab946d400511b8bc00316438395521a1e3ee0163cecb74ed992cf6f8bce52bfb"
+    },
+    {
+      "path": "refine_views.py",
+      "bytes": 1374,
+      "sha256": "5bd4a1a5ce07e74e7791e7724f466706fcf1b1d5895396f8207ebf15497fa4b6"
+    },
+    {
+      "path": "refined_render.log",
+      "bytes": 803,
+      "sha256": "b25178cfeb865cafe136b8c1d526be278a93b3011270b55f33cc3a79acbf6b01"
+    },
+    {
+      "path": "render.log",
+      "bytes": 1973,
+      "sha256": "d64510a56e3f20da813e0356fe17abc4a9d4280816212b7833ba606d62db6925"
+    },
+    {
+      "path": "renders/01_ESTUARY_CITY.png",
+      "bytes": 1688607,
+      "sha256": "68a8e7b94ea337312ab3a5070033b3778f1f77c9cbbca992f4db08745aafc3b1"
+    },
+    {
+      "path": "renders/02_CENTRAL_CHOIR.png",
+      "bytes": 1923184,
+      "sha256": "b03644701562fab57989cb473a7a809e565ec6d66e99dde0295f719661cc0517"
+    },
+    {
+      "path": "renders/03_FORUM_HUMAN.png",
+      "bytes": 1800821,
+      "sha256": "3296c7f14347aaa52db50358f0d16a417fcbf8537676fff45f6e4b0e4c916be6"
+    },
+    {
+      "path": "renders/04_LIBRARY_LANE.png",
+      "bytes": 1721794,
+      "sha256": "2f137024a6290887ab18bef891891cef5cd94264ccf8615601f5b3a1c182b276"
+    },
+    {
+      "path": "renders/05_SEA_TERRACE.png",
+      "bytes": 1978482,
+      "sha256": "960d27938a94f6eb6ef5af1b6809ea4b4766175ac41c48c41d79e50ab5ccb79c"
+    },
+    {
+      "path": "renders/06_REAR_NORTH.png",
+      "bytes": 2199004,
+      "sha256": "bd709ffce998af6c34e0384863a392599994c24907fb118e36d55e7a137e5950"
+    },
+    {
+      "path": "renders/07_SKY_COURT.png",
+      "bytes": 1740329,
+      "sha256": "a4f17e7e89ca94496559797b960d1dbfbec409a244e6b0cde68a3f4f67bf35f3"
+    },
+    {
+      "path": "renders/08_WHOLE_CITY.png",
+      "bytes": 1670528,
+      "sha256": "d49f48d2d180629121e16982b2c38af5d7cb8e901b3939effb8424c7576327c6"
+    },
+    {
+      "path": "renders/09_UPPER_CIVIC_PROMENADE.png",
+      "bytes": 1416502,
+      "sha256": "1369058680e5ab87dfecc79b41468e0cf17f7ef934fbef094ec365ba8f07855b"
+    },
+    {
+      "path": "verify_github.py",
+      "bytes": 1705,
+      "sha256": "0ebd6080cf6d6530ff125037c637f7fd5a00358b95b76af121374e660c7beb95"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 1148,
+      "sha256": "20ec814d372ad32e05dc017311d3cd4ddcb312601bd8ba24a3d76a1ee6a4ed90"
+    },
+    {
+      "path": "verify_saved.log",
+      "bytes": 17593,
+      "sha256": "f76f0b9b7ce5d5b652a64d6bfaccaccf61bf0405d3753109721e1cb766f802fe"
+    },
+    {
+      "path": "verify_saved.py",
+      "bytes": 5391,
+      "sha256": "8387a47fb44bee71d27ad8b87cbc63775a14d4df0f6aed15c1b980a6378433d2"
+    }
+  ]
+}

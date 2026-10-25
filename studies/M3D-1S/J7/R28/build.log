@@ -1,0 +1,503 @@
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\build_estuary.py:22: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*rgb,1);m.use_nodes=True
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\build_estuary.py:426: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc.world=bpy.data.worlds.new('pearl marine daylight');sc.world.use_nodes=True
+00:03.407  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_39548_8c5113aecd1fe2192caf00a93d0b104d.png.png"
+Info: Saved as "R28_CELESTIAL_ESTUARY.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+06:29:07 | INFO: Starting glTF 2.0 export
+06:29:07 | INFO: Extracting primitive: A_GARDEN civic canopy
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN interior boulevard
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN mixed use arcade supports
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN mixed use entry lintel
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN mixed use facade fins
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN mixed use floor
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN mixed use private core
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN mixed use shelter
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN mixed use shop transom
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN mixed use shopfront
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN occupied decks
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN recessed bands
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: A_GARDEN underside basket arches
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: B_HARBOR interior boulevard
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: B_HARBOR mixed use arcade supports
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: B_HARBOR mixed use entry lintel
+06:29:07 | INFO: Primitives created: 1
+06:29:07 | INFO: Extracting primitive: B_HARBOR mixed use facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR mixed use floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR mixed use private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR mixed use shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR mixed use shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR mixed use shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR occupied decks
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR recessed bands
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR stepped civic library arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR stepped civic library entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR stepped civic library facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR stepped civic library floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR stepped civic library private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR stepped civic library shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR stepped civic library shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR stepped civic library shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: B_HARBOR underside basket arches
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: bridge parapet
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE civic canopy
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE interior boulevard
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE mixed use arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE mixed use entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE mixed use facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE mixed use floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE mixed use private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE mixed use shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE mixed use shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE mixed use shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE occupied decks
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE recessed bands
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: C_CULTURE underside basket arches
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 0 arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 0 entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 0 facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 0 floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 0 private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 0 shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 0 shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 0 shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 1 arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 1 entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 1 facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 1 floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 1 private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 1 shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 1 shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 1 shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 2 arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 2 entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 2 facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 2 floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 2 private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 2 shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 2 shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: city fabric 2 shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: civic court bench
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: conservatory vaults
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE interior boulevard
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE mixed use arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE mixed use entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE mixed use facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE mixed use floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE mixed use private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE mixed use shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE mixed use shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE mixed use shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE occupied decks
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE recessed bands
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE stepped civic library arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE stepped civic library entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE stepped civic library facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE stepped civic library floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE stepped civic library private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE stepped civic library shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE stepped civic library shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE stepped civic library shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: D_RIDGE underside basket arches
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY civic canopy
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY interior boulevard
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY mixed use arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY mixed use entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY mixed use facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY mixed use floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY mixed use private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY mixed use shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY mixed use shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY mixed use shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY occupied decks
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY recessed bands
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: E_OBSERVATORY underside basket arches
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: east gallery colonnade
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: east gallery reading benches
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: east gallery roof
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: EAST LANTERN continuous buttress
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: EAST LANTERN room bands
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: EAST LANTERN storeys
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: EAST LANTERN vertical facade blades
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: EAST_GALLERY_REAL_FLOOR
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: eastern inland sea
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE interior boulevard
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE mixed use arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE mixed use entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE mixed use facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE mixed use floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE mixed use private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE mixed use shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE mixed use shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE mixed use shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE occupied decks
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE recessed bands
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE stepped civic library arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE stepped civic library entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE stepped civic library facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE stepped civic library floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE stepped civic library private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE stepped civic library shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE stepped civic library shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE stepped civic library shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: F_CASCADE underside basket arches
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: far ground
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum benches
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum branching vault ribs
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum civic island
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum cross bridge
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum gallery floors
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum gallery piers
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum market arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum market entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum market facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum market floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum market private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum market shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum market shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum market shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum reflecting channel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum silver roof petals
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum splayed root
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: forum tree planters
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: FORUM_REAL_FLOOR
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: gallery lift shaft
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: gallery rail posts
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: gallery safety rail
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: gallery stair flights
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden branches
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden branches.001
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden branches.002
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden crowns
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden crowns.001
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden crowns.002
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden layered foliage
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden layered foliage.001
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden layered foliage.002
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden trunks
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden trunks.001
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: garden trunks.002
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: gateway rising lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: halo bronze inner seam
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: harbor terraces arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: harbor terraces entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: harbor terraces facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: harbor terraces floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: harbor terraces private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: harbor terraces shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: harbor terraces shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: harbor terraces shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: inclined crown halo
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: landform research
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: lane planter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: lane seating
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library awning
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library awning posts
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library lane arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library lane entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library lane facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library lane floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library lane private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library lane shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library lane shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: library lane shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: mountain sanctuary galleries
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: NORTH CHOIR continuous buttress
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: NORTH CHOIR room bands
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: NORTH CHOIR storeys
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: NORTH CHOIR vertical facade blades
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: people 1.75m
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: people arms
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: people heads
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: people legs
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: public reading pavilion arcade supports
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: public reading pavilion entry lintel
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: public reading pavilion facade fins
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: public reading pavilion floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: public reading pavilion private core
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: public reading pavilion shelter
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: public reading pavilion shop transom
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: public reading pavilion shopfront
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: reading gallery edge posts
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: reading gallery open parapet
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: reading seat backs
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: reading seats
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: reading table legs
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: reading tables
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: sea sail floors
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: SEA_TERRACE_REAL_FLOOR
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: south gateway inhabited pier
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: spine ascending flutes
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: spine occupied ring
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: spine recessed rooms
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit piers
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit rails 0
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit rails 1
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit rails 2
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit rails 3
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit rails 4
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit rails 5
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit viaduct 0
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit viaduct 1
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit viaduct 2
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit viaduct 3
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit viaduct 4
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: transit viaduct 5
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: twin conservatory floor
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: upper civic promenade
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: water stairs landing
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: WEST CHOIR continuous buttress
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: WEST CHOIR room bands
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: WEST CHOIR storeys
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Extracting primitive: WEST CHOIR vertical facade blades
+06:29:08 | INFO: Primitives created: 1
+06:29:08 | INFO: Finished glTF 2.0 export in 0.9409949779510498 s
+
+R28_BUILD_FINISHED
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

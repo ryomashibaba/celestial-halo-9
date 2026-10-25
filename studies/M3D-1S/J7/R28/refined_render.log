@@ -1,0 +1,13 @@
+00:02.281  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\model\R28_CELESTIAL_ESTUARY.blend"
+RENDER_START 02_CENTRAL_CHOIR
+00:31.937  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\02_CENTRAL_CHOIR.png'
+RENDER_DONE 02_CENTRAL_CHOIR
+RENDER_START 05_SEA_TERRACE
+01:00.968  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\05_SEA_TERRACE.png'
+RENDER_DONE 05_SEA_TERRACE
+RENDER_START 06_REAR_NORTH
+01:32.656  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\06_REAR_NORTH.png'
+RENDER_DONE 06_REAR_NORTH
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

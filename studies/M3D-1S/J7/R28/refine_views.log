@@ -1,0 +1,7 @@
+00:01.688  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\model\R28_CELESTIAL_ESTUARY.blend"
+00:01.859  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_40928_8c5113aecd1fe2192caf00a93d0b104d.png.png"
+Info: Saved as "R28_CELESTIAL_ESTUARY.blend"
+R28 camera corrections saved, unchanged geometry
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
