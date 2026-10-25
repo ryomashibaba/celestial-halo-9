@@ -1,0 +1,464 @@
+{
+  "schema": "halo9.j7r27.readonly_legacy_anchor_audit.v1",
+  "date_jst": "2026-10-25",
+  "stage": "J7-R27A",
+  "research_status": "SOURCE_GROUNDED_INVENTORY_NO_NEW_ACTUAL_3D",
+  "actual_legacy_source": {
+    "branch": "integration/local-work-m121-setup-20261014",
+    "path": "research/m121/upstream/data/M117_USER_READONLY_ATLAS.json",
+    "github_blob_sha": "df3098356499e1767563995a398ac7c7c824c30a",
+    "review_save_name": "CH9_D6D_REVIEW_COPY",
+    "role": "USER_VERIFIED_OLD_ARCHITECTURE_REVIEW_COPY_ONLY",
+    "full_requested_chunks": 1456,
+    "readable_chunks": 1456,
+    "missing_chunks": 0,
+    "model_H_to_absolute_world_Y": "UNVERIFIED",
+    "not_formal_canonical_world": true
+  },
+  "legacy_survey": {
+    "site_count": 16,
+    "old_16_site_observed_tile_envelope_xz": [
+      3248,
+      -2392,
+      4160,
+      -1976
+    ],
+    "observed_tile_envelope_span_minecraft_blocks": [
+      912,
+      416
+    ],
+    "observed_y_material_bounds": [
+      -1865,
+      -1703
+    ],
+    "tile_8x8_count": 2096,
+    "material_candidate_blocks": 1095343,
+    "only_old_sampled_16_sites": true,
+    "neither_full_city_nor_land_rights": true,
+    "site_rows": [
+      {
+        "site_id": "SB01",
+        "kind": "FRAME8",
+        "observed_tile_bbox_xz": [
+          3248,
+          -2384,
+          3416,
+          -2312
+        ],
+        "observed_tile_center_xz": [
+          3332,
+          -2348
+        ],
+        "real_saved_artificial_y_span": [
+          -1863,
+          -1797
+        ],
+        "observed_8x8_tiles": 108,
+        "detected_artificial_material_candidate_blocks": 57873,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB02",
+        "kind": "FRAME8",
+        "observed_tile_bbox_xz": [
+          3248,
+          -2280,
+          3424,
+          -2208
+        ],
+        "observed_tile_center_xz": [
+          3336,
+          -2244
+        ],
+        "real_saved_artificial_y_span": [
+          -1863,
+          -1783
+        ],
+        "observed_8x8_tiles": 103,
+        "detected_artificial_material_candidate_blocks": 63956,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB03",
+        "kind": "FRAME8",
+        "observed_tile_bbox_xz": [
+          3256,
+          -2160,
+          3424,
+          -2088
+        ],
+        "observed_tile_center_xz": [
+          3340,
+          -2124
+        ],
+        "real_saved_artificial_y_span": [
+          -1865,
+          -1785
+        ],
+        "observed_8x8_tiles": 99,
+        "detected_artificial_material_candidate_blocks": 54051,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB04",
+        "kind": "FRAME8",
+        "observed_tile_bbox_xz": [
+          3256,
+          -2056,
+          3424,
+          -1984
+        ],
+        "observed_tile_center_xz": [
+          3340,
+          -2020
+        ],
+        "real_saved_artificial_y_span": [
+          -1864,
+          -1796
+        ],
+        "observed_8x8_tiles": 88,
+        "detected_artificial_material_candidate_blocks": 46448,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB05",
+        "kind": "HERO4",
+        "observed_tile_bbox_xz": [
+          3456,
+          -2392,
+          3688,
+          -2296
+        ],
+        "observed_tile_center_xz": [
+          3572,
+          -2344
+        ],
+        "real_saved_artificial_y_span": [
+          -1849,
+          -1741
+        ],
+        "observed_8x8_tiles": 162,
+        "detected_artificial_material_candidate_blocks": 101930,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB06",
+        "kind": "CIVIC4",
+        "observed_tile_bbox_xz": [
+          3456,
+          -2296,
+          3696,
+          -2200
+        ],
+        "observed_tile_center_xz": [
+          3576,
+          -2248
+        ],
+        "real_saved_artificial_y_span": [
+          -1849,
+          -1782
+        ],
+        "observed_8x8_tiles": 170,
+        "detected_artificial_material_candidate_blocks": 65790,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB07",
+        "kind": "CIVIC4",
+        "observed_tile_bbox_xz": [
+          3456,
+          -2168,
+          3696,
+          -2072
+        ],
+        "observed_tile_center_xz": [
+          3576,
+          -2120
+        ],
+        "real_saved_artificial_y_span": [
+          -1851,
+          -1792
+        ],
+        "observed_8x8_tiles": 167,
+        "detected_artificial_material_candidate_blocks": 63798,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB08",
+        "kind": "HERO4",
+        "observed_tile_bbox_xz": [
+          3456,
+          -2072,
+          3688,
+          -1976
+        ],
+        "observed_tile_center_xz": [
+          3572,
+          -2024
+        ],
+        "real_saved_artificial_y_span": [
+          -1851,
+          -1745
+        ],
+        "observed_8x8_tiles": 151,
+        "detected_artificial_material_candidate_blocks": 105911,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB09",
+        "kind": "HERO4",
+        "observed_tile_bbox_xz": [
+          3712,
+          -2392,
+          3944,
+          -2296
+        ],
+        "observed_tile_center_xz": [
+          3828,
+          -2344
+        ],
+        "real_saved_artificial_y_span": [
+          -1825,
+          -1703
+        ],
+        "observed_8x8_tiles": 154,
+        "detected_artificial_material_candidate_blocks": 104539,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB10",
+        "kind": "CIVIC4",
+        "observed_tile_bbox_xz": [
+          3712,
+          -2296,
+          3944,
+          -2200
+        ],
+        "observed_tile_center_xz": [
+          3828,
+          -2248
+        ],
+        "real_saved_artificial_y_span": [
+          -1825,
+          -1760
+        ],
+        "observed_8x8_tiles": 152,
+        "detected_artificial_material_candidate_blocks": 60908,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB11",
+        "kind": "CIVIC4",
+        "observed_tile_bbox_xz": [
+          3712,
+          -2168,
+          3944,
+          -2072
+        ],
+        "observed_tile_center_xz": [
+          3828,
+          -2120
+        ],
+        "real_saved_artificial_y_span": [
+          -1835,
+          -1765
+        ],
+        "observed_8x8_tiles": 167,
+        "detected_artificial_material_candidate_blocks": 61523,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB12",
+        "kind": "HERO4",
+        "observed_tile_bbox_xz": [
+          3712,
+          -2072,
+          3944,
+          -1976
+        ],
+        "observed_tile_center_xz": [
+          3828,
+          -2024
+        ],
+        "real_saved_artificial_y_span": [
+          -1837,
+          -1721
+        ],
+        "observed_8x8_tiles": 145,
+        "detected_artificial_material_candidate_blocks": 104233,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB13",
+        "kind": "FRAME8",
+        "observed_tile_bbox_xz": [
+          3968,
+          -2392,
+          4152,
+          -2296
+        ],
+        "observed_tile_center_xz": [
+          4060,
+          -2344
+        ],
+        "real_saved_artificial_y_span": [
+          -1808,
+          -1746
+        ],
+        "observed_8x8_tiles": 103,
+        "detected_artificial_material_candidate_blocks": 48855,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB14",
+        "kind": "FRAME8",
+        "observed_tile_bbox_xz": [
+          3968,
+          -2296,
+          4144,
+          -2200
+        ],
+        "observed_tile_center_xz": [
+          4056,
+          -2248
+        ],
+        "real_saved_artificial_y_span": [
+          -1807,
+          -1724
+        ],
+        "observed_8x8_tiles": 117,
+        "detected_artificial_material_candidate_blocks": 55882,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB15",
+        "kind": "FRAME8",
+        "observed_tile_bbox_xz": [
+          3968,
+          -2168,
+          4160,
+          -2072
+        ],
+        "observed_tile_center_xz": [
+          4064,
+          -2120
+        ],
+        "real_saved_artificial_y_span": [
+          -1811,
+          -1729
+        ],
+        "observed_8x8_tiles": 108,
+        "detected_artificial_material_candidate_blocks": 54364,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      },
+      {
+        "site_id": "SB16",
+        "kind": "FRAME8",
+        "observed_tile_bbox_xz": [
+          3968,
+          -2072,
+          4160,
+          -1976
+        ],
+        "observed_tile_center_xz": [
+          4064,
+          -2024
+        ],
+        "real_saved_artificial_y_span": [
+          -1818,
+          -1754
+        ],
+        "observed_8x8_tiles": 102,
+        "detected_artificial_material_candidate_blocks": 45282,
+        "legacy_review_copy_only": true,
+        "official_10km_position_approved": false,
+        "protection_class_unresolved": true
+      }
+    ]
+  },
+  "old_study": {
+    "branch": "integration/local-work-m121-setup-20261014",
+    "path": "research/m121/upstream/data/M121_B_PUBLIC_REALM_RESEARCH.json",
+    "github_blob_sha": "41cb54922fff528118ed660dbc7e39f870e39a39",
+    "mesh_count": 1299,
+    "proposed_void_count": 10,
+    "unverified_route_intents": 24,
+    "facilities_with_proposed_programs": 16,
+    "research_not_approved": true,
+    "site_and_non_site_labels": [
+      "CIVIC_CORE",
+      "MACRO",
+      "PUBLIC_EXPERIENCE_SPINE",
+      "PUBLIC_ROUTE",
+      "SB01",
+      "SB02",
+      "SB03",
+      "SB04",
+      "SB05",
+      "SB06",
+      "SB07",
+      "SB08",
+      "SB09",
+      "SB10",
+      "SB11",
+      "SB12",
+      "SB13",
+      "SB14",
+      "SB15",
+      "SB16"
+    ],
+    "all_meshes_not_authorized_for_world_write": true,
+    "model_H_to_world_Y": "UNVERIFIED",
+    "actual_entrance_routes_accessible": false,
+    "m121_mixed_vertex_convention": "CHECK SOURCE: triangle vertex array uses X, Z, Y to render; must explicitly verify conversion rather than assume Blender XYZ"
+  },
+  "master_readiness": {
+    "W0_terrain_full_3d": "NOT_LOCATED_IN_SEARCHED_SOURCES",
+    "official_H1_to_H6_design": "NOT_GROUNDED",
+    "SB01_to_SB16_detail_master": "NOT_GROUNDED",
+    "M204_to_W0_common_coordinate_anchors": "ZERO_CERTIFIED_ACCORDING_TO_POLICY",
+    "central_approved": "NONE",
+    "V1_to_V3_authoritative_geometry": "NOT_GROUNDED",
+    "unified_10km_editable_city_master": false,
+    "never_scale_legacy_survey_to_fake_10km": true
+  },
+  "gate": "Next real integration must verify W0+H1-H6+SB01-SB16 sources and authoritative anchors; until then only clearly marked relative art study. Do not inflate old 912x416 BLOCK sampled footprint into the 10km city or treat 1299 historical meshes as accepted assets.",
+  "protection": {
+    "main_unmodified": true,
+    "freeze_unchanged": true,
+    "minecraft_construction": "HOLD",
+    "formal_central_adoptions": 0,
+    "local_work_not_run": true,
+    "art_progress_from_new_3d_not_claimed": true
+  }
+}
