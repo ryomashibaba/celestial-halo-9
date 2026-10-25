@@ -120,3 +120,9 @@ Blender MCPは開始時に接続確認できたが、addon protocol 5／server e
 **ART REJECTを保持する。正式中央全体として成功したとは報告しない。** 今回の技術的証拠と失敗した美術を保存し、現形状を正式採択・施工へ進めない。[R20引継ぎ](R19_HANDOFF.json) に、達成済みの実制作と未達の美術を分けて記録した。
 
 GitHubの新規Draft PR、固定成果コミット、全ファイル再取得の結果は `qa/GITHUB_DELIVERY.json` と `qa/GITHUB_READBACK.json` に記録する。R18の既存PR #50とmainは変更しない。
+
+## GitHub納品確認
+
+新規[Draft PR #51](https://github.com/ryomashibaba/celestial-halo-9/pull/51)。baseはR18。既存PR #50・main・既存原本は変更なし。固定成果コミット `1481d6ef019acb0af55513eeabf11ea386613a58` から、R19全ファイルとlatest.jsonの **99ファイル・106,416,894 bytes** をGitHub HTTPSで独立再取得し、全サイズ・SHA256・実バイト列が一致。`qa/GITHUB_READBACK.json` が個別証跡、`qa/GITHUB_DELIVERY.json` が納品識別である。
+
+最初のGitHub CLI取得は圧縮通信エラー（transform: short source buffer）で失敗し、HTTPSの生ファイル読取りへ修理して全件照合した。納品メタデータと読取りソースの修理は後続コミットとして追加する。固定成果コミットの完全照合を、後から追加されたメタデータ自身の再帰照合と混同しない。最新HEADはPRのheadを参照。**保存と同一性確認の成功はART REJECTを変えない。**

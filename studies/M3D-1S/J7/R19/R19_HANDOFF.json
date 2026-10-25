@@ -391,7 +391,12 @@
   "source_iteration_limits": "The generator grammar is still two main families, path-bank and court-section. Vertex shearing and shared grounds did not resolve the visual repetition.",
   "next_priority": "Do not decorate/adopt this rejected arrangement. Replace the repeated section grammar, design genuinely different contiguous city terrains and independent public skies from real 3D sections, with side/underside equally primary in first art review.",
   "next_stage": "J7-R20; not started",
-  "github_delivery": "PENDING_NEW_DRAFT_RESEARCH_PR",
-  "draft_pr_url": null,
-  "artifact_commit": null
+  "github_delivery": "PUSHED_NEW_DRAFT_PR_FULL_ARTIFACT_COMMIT_HTTPS_READBACK_MATCH",
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/51",
+  "artifact_commit": "1481d6ef019acb0af55513eeabf11ea386613a58",
+  "draft_pr": 51,
+  "remote_checked_files": 99,
+  "remote_checked_bytes": 106416894,
+  "remote_all_hashes_match": true,
+  "branch_head": "Resolve from Draft PR head; art bytes pinned at artifact_commit"
 }
