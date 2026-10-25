@@ -32,6 +32,8 @@ sheet('OPEN_OBLIQUE.jpg',[('open oblique CLAY',R/'renders/R19/fit_open_oblique.p
 sheet('SECTIONS.jpg',[(label,R.parent/'R19/sections'/old/(old+'.png'),R/'renders/C55A'/('section_'+new+'.png'))
       for label,old,new in [('longitudinal','XZ_Y200','longitudinal_X860'),('cross','YZ_X0','cross_Yminus600')]],
       'REAL MESH CUTS / R19 prior evidence reused (different studio) / C55-A new cuts, UNCAPPED')
+sheet('INTERIOR_INSPECTION.jpg',[('interior / added inspection lamp',R/'renders/R19/inspection_interior.png',R/'renders/C55A/inspection_interior.png')],
+      'SUPPLEMENTAL shape inspection / same camera-relative lamp / NOT common-sun art comparison')
 for path in (R/'qa').glob('C55A_CUT_*.json'):
     j=json.loads(path.read_text(encoding='utf8'));axis=j['plane_axis'];horizontal=1-axis
     seg=j['cut_segments'];points=[p for e in seg for p in e['points_m']]

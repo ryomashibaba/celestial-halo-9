@@ -8,7 +8,7 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 views=['front','oblique','side','rear','aerial','underside']
 required={m:[f'{regime}_{v}' for regime in ['fixed16km','fit'] for v in views]+
           ['material_'+v for v in ['oblique','rear','underside','open_oblique','floor_axis_middle','floor_high']]+
-          ['floor_'+v for v in ['low','mid','high','axis_entry','axis_middle','axis_arrival','low_axis15']]+['fit_open_oblique'] for m in ['R19','C55A']}
+          ['floor_'+v for v in ['low','mid','high','axis_entry','axis_middle','axis_arrival','low_axis15']]+['fit_open_oblique','inspection_interior'] for m in ['R19','C55A']}
 required['C55A']+=['clay_decals_on_oblique','floor_hall','section_longitudinal_X860','section_cross_Yminus600']
 checks=[]
 for model,tags in required.items():
@@ -16,6 +16,7 @@ for model,tags in required.items():
         image=R/'renders'/model/(tag+'.png');j=load(Q/(model+'_'+tag+'.json'))
         assert image.exists() and Image.open(image).size==(1600,900),(model,tag)
         assert j['hfov_degrees']==50 and j['emission'] is False
+        if tag=='inspection_interior':assert j['supplemental_inspection_only'] and not j['common_sun_art_set']
         if model=='C55A':assert len(j['effect_meshes_hidden'])==6,(model,tag)
         if tag.startswith('fixed16km'):assert abs(j['center_distance_m']-16000)<.01
         checks.append(dict(model=model,tag=tag,file=str(image.relative_to(R)),sha256=sha(image)))

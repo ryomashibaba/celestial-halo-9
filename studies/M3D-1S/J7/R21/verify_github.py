@@ -7,6 +7,11 @@ sys.dont_write_bytecode=True
 R=Path(__file__).resolve().parent;commit=sys.argv[1]
 assert len(commit)==40 and all(c in '0123456789abcdef' for c in commit)
 paths=subprocess.check_output(['git','ls-tree','-r','--name-only',commit,'--','studies/M3D-1S/J7/R21/'],text=True,encoding='utf8').splitlines()
+base=sys.argv[2] if len(sys.argv)>2 else None
+if base:
+    assert len(base)==40 and all(c in '0123456789abcdef' for c in base)
+    changed=set(subprocess.check_output(['git','diff','--name-only',base,commit,'--','studies/M3D-1S/J7/R21/'],text=True,encoding='utf8').splitlines())
+    paths=[p for p in paths if p in changed]
 credential=subprocess.check_output(['gh','auth','token'],text=True).strip()
 def check(path):
     expected=subprocess.check_output(['git','show',commit+':'+path])
@@ -22,6 +27,6 @@ def check(path):
     return dict(path=path,bytes=len(actual),sha256=hashlib.sha256(actual).hexdigest(),
                 expected_sha256=hashlib.sha256(expected).hexdigest(),match=actual==expected)
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:results=list(pool.map(check,paths))
-out=dict(artifact_commit=commit,checked_files=len(results),checked_bytes=sum(v['bytes'] for v in results),all_match=all(v['match'] for v in results),files=results)
-(R/'qa/GITHUB_READBACK.json').write_text(json.dumps(out,indent=2),encoding='utf8')
+out=dict(artifact_commit=commit,base_previously_verified_commit=base,checked_files=len(results),checked_bytes=sum(v['bytes'] for v in results),all_match=all(v['match'] for v in results),files=results)
+(R/('qa/GITHUB_DELTA_READBACK.json' if base else 'qa/GITHUB_READBACK.json')).write_text(json.dumps(out,indent=2),encoding='utf8')
 print(json.dumps({k:v for k,v in out.items() if k!='files'}));assert out['all_match']

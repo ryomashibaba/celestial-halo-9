@@ -1,5 +1,5 @@
 {
-  "required_images": 56,
+  "required_images": 58,
   "all_images_and_camera_records_present": true,
   "images": [
     {
@@ -159,6 +159,12 @@
       "sha256": "a560df223ecd8a38f3b4b04827fdacfa22a4e61cb7aec637dc81a91442ae80f1"
     },
     {
+      "model": "R19",
+      "tag": "inspection_interior",
+      "file": "renders\\R19\\inspection_interior.png",
+      "sha256": "663345ac73fe3faf60b0110c29ccbd6d0748c0602691f1d1876853ca5cb8013c"
+    },
+    {
       "model": "C55A",
       "tag": "fixed16km_front",
       "file": "renders\\C55A\\fixed16km_front.png",
@@ -313,6 +319,12 @@
       "tag": "fit_open_oblique",
       "file": "renders\\C55A\\fit_open_oblique.png",
       "sha256": "3a52416b7f1b5cf82d25e616f4bc86560efd422801883a6b047044bb9fffa31b"
+    },
+    {
+      "model": "C55A",
+      "tag": "inspection_interior",
+      "file": "renders\\C55A\\inspection_interior.png",
+      "sha256": "9a1c14724453ec2504812f25d5e0dd0e1c043237e10d36e1070ff8458055861c"
     },
     {
       "model": "C55A",

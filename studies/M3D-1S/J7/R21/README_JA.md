@@ -7,7 +7,7 @@
 - `source/model/C55A_SevenfoldHaloRift.glb`：指定ハッシュの原GLB。
 - `models/C55A_IMPORTED.blend`：変換した原座標・原材質の編集可能モデル。303オブジェクト／38材質。
 - `models/C55A_COMPARISON.blend`、`models/R19_COMPARISON.blend`：共通照明の比較コピー。保存したカメラバンクは28／26。各カメラの材質・非表示条件は対応JSONを参照。
-- `renders/`：最終の実Cycles画像56枚。`fixed16km_*` は等距離、`fit_*` は個別距離。`material_*` は原PBR・発光なし。`floor_*` は実床上1.7m。`floor_low_axis15` は双方の仰角15°対照。
+- `renders/`：通常比較56枚と補助点検2枚、計58枚の実Cycles画像。`fixed16km_*` は等距離、`fit_*` は個別距離。`material_*` は原PBR・発光なし。`floor_*` は実床上1.7m。`floor_low_axis15` は双方の仰角15°対照。`inspection_interior` はカメラに対し同じ位置・出力の白色補助灯を加えた形状点検で、通常の美術比較から分離。
 - `sections/`：C55-Aの実切断BLEND 2方向。新しい閉塞キャップは足していない。R19の既存断面は隣のR19フォルダから参照。
 - `sheets/`：画像を改変せず縮小配置した比較表、実切断エッジ図。
 - `COMPARISON_SETTINGS.json`：単位・光・軸・除外対象・GitHub方針読了版・保護範囲。
