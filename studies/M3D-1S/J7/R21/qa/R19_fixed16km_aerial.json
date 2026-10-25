@@ -1,0 +1,26 @@
+{
+  "file": "renders\\R19\\fixed16km_aerial.png",
+  "position_m": [
+    4146.56884765625,
+    -6910.947265625,
+    15918.1806640625
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2096.2861328125
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "center_distance_m": 16000,
+  "regime": "fixed16km"
+}

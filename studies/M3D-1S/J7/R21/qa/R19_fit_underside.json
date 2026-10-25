@@ -1,0 +1,26 @@
+{
+  "file": "renders\\R19\\fit_underside.png",
+  "position_m": [
+    5166.64306640625,
+    -6458.30419921875,
+    -10820.322265625
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2096.2861328125
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "center_distance_m": 15337.62208837181,
+  "regime": "fit"
+}

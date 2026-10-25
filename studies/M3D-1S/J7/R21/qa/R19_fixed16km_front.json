@@ -1,0 +1,26 @@
+{
+  "file": "renders\\R19\\fixed16km_front.png",
+  "position_m": [
+    0.0,
+    -15971.27734375,
+    3054.562744140625
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2096.2861328125
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "center_distance_m": 16000,
+  "regime": "fixed16km"
+}

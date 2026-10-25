@@ -1,0 +1,65 @@
+00:01.844  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\models\C55A_IMPORTED.blend"
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\compare.py:58: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world=bpy.data.worlds.new('R21_COMMON_WORLD');s.world.use_nodes=True
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\compare.py:63: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  clay=bpy.data.materials.new('R21_IDENTICAL_NEUTRAL_CLAY');clay.use_nodes=True
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\compare.py:67: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if m.use_nodes:
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+R21_RENDER_START C55A fixed16km_front
+00:18.609  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fixed16km_front.png'
+R21_RENDER_DONE C55A fixed16km_front
+R21_RENDER_START C55A fit_front
+00:28.906  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fit_front.png'
+R21_RENDER_DONE C55A fit_front
+R21_RENDER_START C55A fixed16km_oblique
+00:39.078  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fixed16km_oblique.png'
+R21_RENDER_DONE C55A fixed16km_oblique
+R21_RENDER_START C55A fit_oblique
+00:48.672  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fit_oblique.png'
+R21_RENDER_DONE C55A fit_oblique
+R21_RENDER_START C55A fixed16km_side
+00:59.594  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fixed16km_side.png'
+R21_RENDER_DONE C55A fixed16km_side
+R21_RENDER_START C55A fit_side
+01:10.094  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fit_side.png'
+R21_RENDER_DONE C55A fit_side
+R21_RENDER_START C55A fixed16km_rear
+01:18.781  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fixed16km_rear.png'
+R21_RENDER_DONE C55A fixed16km_rear
+R21_RENDER_START C55A fit_rear
+01:27.406  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fit_rear.png'
+R21_RENDER_DONE C55A fit_rear
+R21_RENDER_START C55A fixed16km_aerial
+01:38.766  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fixed16km_aerial.png'
+R21_RENDER_DONE C55A fixed16km_aerial
+R21_RENDER_START C55A fit_aerial
+01:48.156  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fit_aerial.png'
+R21_RENDER_DONE C55A fit_aerial
+R21_RENDER_START C55A fixed16km_underside
+01:59.281  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fixed16km_underside.png'
+R21_RENDER_DONE C55A fixed16km_underside
+R21_RENDER_START C55A fit_underside
+02:09.859  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\fit_underside.png'
+R21_RENDER_DONE C55A fit_underside
+R21_RENDER_START C55A material_oblique
+02:19.984  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\material_oblique.png'
+R21_RENDER_DONE C55A material_oblique
+R21_RENDER_START C55A material_rear
+02:30.641  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\material_rear.png'
+R21_RENDER_DONE C55A material_rear
+R21_RENDER_START C55A material_underside
+02:42.156  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\material_underside.png'
+R21_RENDER_DONE C55A material_underside
+R21_RENDER_START C55A clay_decals_on_oblique
+02:50.438  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R21\renders\C55A\clay_decals_on_oblique.png'
+R21_RENDER_DONE C55A clay_decals_on_oblique
+02:50.563  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_11584_cb8e28f040e42081ddc4db7a4d0e028c.png.png"
+Info: Saved as "C55A_COMPARISON.blend"
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

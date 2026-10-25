@@ -1,0 +1,34 @@
+{
+  "file": "renders\\C55A\\fixed16km_front.png",
+  "position_m": [
+    0.0,
+    -15971.27734375,
+    3651.336669921875
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2693.06005859375
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "effect_meshes_hidden": [
+    "sacred_light_cone",
+    "sunshaft_1",
+    "sunshaft_2",
+    "sunshaft_3",
+    "sunshaft_4",
+    "sunshaft_5"
+  ],
+  "center_distance_m": 16000,
+  "regime": "fixed16km"
+}

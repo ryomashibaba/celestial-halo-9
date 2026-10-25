@@ -1,0 +1,73 @@
+{
+  "matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      50.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -200.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "native_stats": {
+    "meshes": 2974,
+    "vertices": 42882,
+    "triangles": 75632,
+    "min_m": [
+      -3100.0,
+      -2500.0,
+      -90.0
+    ],
+    "max_m": [
+      3000.0,
+      2900.0,
+      4282.572265625
+    ],
+    "dimensions_m": [
+      6100.0,
+      5400.0,
+      4372.572265625
+    ],
+    "world_vertex_fingerprint": "396b301e3691cb9e947549f9b37c7db49923beba3b28d06498f360812c23af9f"
+  },
+  "comparison_stats": {
+    "meshes": 2974,
+    "vertices": 42882,
+    "triangles": 75632,
+    "min_m": [
+      -3050.0,
+      -2700.0,
+      -90.0
+    ],
+    "max_m": [
+      3050.0,
+      2700.0,
+      4282.572265625
+    ],
+    "dimensions_m": [
+      6100.0,
+      5400.0,
+      4372.572265625
+    ],
+    "world_vertex_fingerprint": "5e324322503400e2d41eb86c2769f4bc931ef71953b2c1ba017d25f2272b0c12"
+  },
+  "rotation_z_degrees": 0,
+  "scaling_applied": false,
+  "canonical_coordinates": false
+}

@@ -1,0 +1,1458 @@
+{
+  "scope": "12 deterministic face samples per named decal mesh. Actual architecture first hit; no global opening or occupancy certification.",
+  "objects": {
+    "N_win_win_warm": [
+      {
+        "window_point_m": [
+          -1236.517578125,
+          752.9667358398438,
+          1323.596435546875
+        ],
+        "nearest_architecture_distance_m": 0.827409029006958,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.8274884206416918,
+            "point_m": [
+              -1236.5517578125,
+              753.793212890625,
+              1323.573974609375
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.8274257334721045,
+            "point_m": [
+              -1236.5516357421875,
+              753.7931518554688,
+              1323.5738525390625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1320.470703125,
+          742.4619140625,
+          1863.0072021484375
+        ],
+        "nearest_architecture_distance_m": 0.7000371813774109,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.7000371842215193,
+            "point_m": [
+              1320.6282958984375,
+              743.1439819335938,
+              1863.0072021484375
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.7000371842215193,
+            "point_m": [
+              1320.6282958984375,
+              743.1439819335938,
+              1863.0072021484375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1207.542724609375,
+          1081.5267333984375,
+          2352.23046875
+        ],
+        "nearest_architecture_distance_m": 0.6999619603157043,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6998418663427098,
+            "point_m": [
+              -1207.6669921875,
+              1082.2154541015625,
+              2352.23046875
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999619865313821,
+            "point_m": [
+              -1207.6669921875,
+              1082.215576171875,
+              2352.23046875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1420.2724609375,
+          723.41357421875,
+          1866.6552734375
+        ],
+        "nearest_architecture_distance_m": 0.6999771595001221,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999945572232772,
+            "point_m": [
+              1420.3720703125,
+              724.1064453125,
+              1866.6552734375
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6998563555233547,
+            "point_m": [
+              1420.3719482421875,
+              724.1063232421875,
+              1866.6552734375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1155.741943359375,
+          1054.641357421875,
+          2263.294921875
+        ],
+        "nearest_architecture_distance_m": 0.6997951865196228,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6997952029676502,
+            "point_m": [
+              -1155.8468017578125,
+              1055.333251953125,
+              2263.294921875
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6997952029676502,
+            "point_m": [
+              -1155.8468017578125,
+              1055.333251953125,
+              2263.294921875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1450.0574951171875,
+          755.7155151367188,
+          1987.7493896484375
+        ],
+        "nearest_architecture_distance_m": 0.7000347971916199,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999742699049561,
+            "point_m": [
+              1450.1475830078125,
+              756.40966796875,
+              1987.7493896484375
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999742699049561,
+            "point_m": [
+              1450.1475830078125,
+              756.40966796875,
+              1987.7493896484375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1132.445068359375,
+          1195.5853271484375,
+          2749.94970703125
+        ],
+        "nearest_architecture_distance_m": 0.6998925805091858,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.7000133751545057,
+            "point_m": [
+              -1132.545654296875,
+              1196.278076171875,
+              2749.94970703125
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6998925824853232,
+            "point_m": [
+              -1132.545654296875,
+              1196.2779541015625,
+              2749.94970703125
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1441.15478515625,
+          756.9381713867188,
+          1965.7578125
+        ],
+        "nearest_architecture_distance_m": 0.699867308139801,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999277111601702,
+            "point_m": [
+              1441.255615234375,
+              757.6307983398438,
+              1965.7578125
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999277111601702,
+            "point_m": [
+              1441.255615234375,
+              757.6307983398438,
+              1965.7578125
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1151.53955078125,
+          920.94140625,
+          2019.702880859375
+        ],
+        "nearest_architecture_distance_m": 0.6999744176864624,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999744189220297,
+            "point_m": [
+              -1151.64599609375,
+              921.6332397460938,
+              2019.702880859375
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.699914085701657,
+            "point_m": [
+              -1151.64599609375,
+              921.6331787109375,
+              2019.702880859375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1436.784912109375,
+          741.3406982421875,
+          1927.6585693359375
+        ],
+        "nearest_architecture_distance_m": 0.7000212669372559,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999608475941429,
+            "point_m": [
+              1436.8851318359375,
+              742.033447265625,
+              1927.6585693359375
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999783359308719,
+            "point_m": [
+              1436.88525390625,
+              742.033447265625,
+              1927.6585693359375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1200.418212890625,
+          1355.3480224609375,
+          3081.36376953125
+        ],
+        "nearest_architecture_distance_m": 0.6999155879020691,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.7000355558220815,
+            "point_m": [
+              -1200.546875,
+              1356.0361328125,
+              3081.36376953125
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999155759991011,
+            "point_m": [
+              -1200.546875,
+              1356.0360107421875,
+              3081.36376953125
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1278.468505859375,
+          252.3848114013672,
+          586.2684936523438
+        ],
+        "nearest_architecture_distance_m": 0.7000073790550232,
+        "nearest_architecture_object": "N_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.7000084259173225,
+            "point_m": [
+              1278.5614013671875,
+              253.07862854003906,
+              586.2684936523438
+            ]
+          },
+          {
+            "backing_object": "N_wall_risers",
+            "distance_from_window_m": 0.6999922368777183,
+            "point_m": [
+              1278.561279296875,
+              253.07862854003906,
+              586.2684936523438
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      }
+    ],
+    "S_win_win_warm": [
+      {
+        "window_point_m": [
+          -1060.520263671875,
+          -421.5936279296875,
+          1841.439697265625
+        ],
+        "nearest_architecture_distance_m": 0.6999941468238831,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999941421161504,
+            "point_m": [
+              -1060.4886474609375,
+              -422.29290771484375,
+              1841.439697265625
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000246252258449,
+            "point_m": [
+              -1060.4886474609375,
+              -422.2929382324219,
+              1841.439697265625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1063.6112060546875,
+          -389.72064208984375,
+          278.80572509765625
+        ],
+        "nearest_architecture_distance_m": 0.6999894976615906,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000089580950427,
+            "point_m": [
+              1063.33837890625,
+              -390.36529541015625,
+              278.80572509765625
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000457305956747,
+            "point_m": [
+              1063.3385009765625,
+              -390.3653869628906,
+              278.80572509765625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1013.9955444335938,
+          -778.2435913085938,
+          2651.83740234375
+        ],
+        "nearest_architecture_distance_m": 0.699943482875824,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000044798069044,
+            "point_m": [
+              -1014.0179443359375,
+              -778.9432373046875,
+              2651.83740234375
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000044798069044,
+            "point_m": [
+              -1014.0179443359375,
+              -778.9432373046875,
+              2651.83740234375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          988.0905151367188,
+          -346.4607849121094,
+          257.562255859375
+        ],
+        "nearest_architecture_distance_m": 0.6999897360801697,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999609646812343,
+            "point_m": [
+              987.8566284179688,
+              -347.1205139160156,
+              257.562255859375
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999609646812343,
+            "point_m": [
+              987.8566284179688,
+              -347.1205139160156,
+              257.562255859375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1058.965087890625,
+          -676.8817749023438,
+          2549.256591796875
+        ],
+        "nearest_architecture_distance_m": 0.6999188661575317,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999213668390493,
+            "point_m": [
+              -1058.979736328125,
+              -677.58154296875,
+              2549.256591796875
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999798367355169,
+            "point_m": [
+              -1058.9796142578125,
+              -677.5816040039062,
+              2549.256591796875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1037.025634765625,
+          -405.86175537109375,
+          301.446044921875
+        ],
+        "nearest_architecture_distance_m": 0.6999992728233337,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999992723972082,
+            "point_m": [
+              1036.7623291015625,
+              -406.5103454589844,
+              301.446044921875
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999992723972082,
+            "point_m": [
+              1036.7623291015625,
+              -406.5103454589844,
+              301.446044921875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1037.270263671875,
+          -268.5408020019531,
+          1515.78369140625
+        ],
+        "nearest_architecture_distance_m": 0.733068585395813,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7330713876241906,
+            "point_m": [
+              -1037.1998291015625,
+              -269.2704772949219,
+              1515.7811279296875
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7331134938494055,
+            "point_m": [
+              -1037.19970703125,
+              -269.2705078125,
+              1515.7811279296875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1120.21435546875,
+          -379.60321044921875,
+          215.08648681640625
+        ],
+        "nearest_architecture_distance_m": 0.6999821662902832,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999316177856754,
+            "point_m": [
+              1119.9246826171875,
+              -380.2403869628906,
+              215.08648681640625
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999821464782227,
+            "point_m": [
+              1119.924560546875,
+              -380.2403869628906,
+              215.08648681640625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1006.7868041992188,
+          -658.9215698242188,
+          2481.21337890625
+        ],
+        "nearest_architecture_distance_m": 0.700014591217041,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000145991540033,
+            "point_m": [
+              -1006.7849731445312,
+              -659.62158203125,
+              2481.21337890625
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000145991540033,
+            "point_m": [
+              -1006.7849731445312,
+              -659.62158203125,
+              2481.21337890625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1097.808349609375,
+          -459.52197265625,
+          337.3471374511719
+        ],
+        "nearest_architecture_distance_m": 0.7000659108161926,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000380676000215,
+            "point_m": [
+              1097.5205078125,
+              -460.16009521484375,
+              337.3471374511719
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000658881309195,
+            "point_m": [
+              1097.5205078125,
+              -460.1601257324219,
+              337.3471374511719
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1088.884765625,
+          -142.0370330810547,
+          981.7833251953125
+        ],
+        "nearest_architecture_distance_m": 0.700007975101471,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999776014933836,
+            "point_m": [
+              -1088.8177490234375,
+              -142.73379516601562,
+              981.7833251953125
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.7000079788877248,
+            "point_m": [
+              -1088.8177490234375,
+              -142.73382568359375,
+              981.7833251953125
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1066.417724609375,
+          -336.31060791015625,
+          214.404296875
+        ],
+        "nearest_architecture_distance_m": 0.6999762058258057,
+        "nearest_architecture_object": "S_wall_risers",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999479785389966,
+            "point_m": [
+              1066.15283203125,
+              -336.95849609375,
+              214.404296875
+            ]
+          },
+          {
+            "backing_object": "S_wall_risers",
+            "distance_from_window_m": 0.6999762284125342,
+            "point_m": [
+              1066.15283203125,
+              -336.9585266113281,
+              214.404296875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      }
+    ],
+    "N_outwin_win_warm": [
+      {
+        "window_point_m": [
+          -2571.80859375,
+          1706.876953125,
+          1090.9638671875
+        ],
+        "nearest_architecture_distance_m": 1.0242102146148682,
+        "nearest_architecture_object": "N_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 1.0243106131599407,
+            "point_m": [
+              -2572.3271484375,
+              1706.0118408203125,
+              1090.7852783203125
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 1.024228816561255,
+            "point_m": [
+              -2572.3271484375,
+              1706.011962890625,
+              1090.78515625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -2042.8607177734375,
+          1532.262451171875,
+          2313.91943359375
+        ],
+        "nearest_architecture_distance_m": 0.7158528566360474,
+        "nearest_architecture_object": "N_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 0.7158012439639166,
+            "point_m": [
+              -2042.27392578125,
+              1531.865234375,
+              2313.818115234375
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 0.7158689911698238,
+            "point_m": [
+              -2042.27392578125,
+              1531.8651123046875,
+              2313.818115234375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1520.8193359375,
+          1551.765625,
+          3368.9169921875
+        ],
+        "nearest_architecture_distance_m": 1.9827897548675537,
+        "nearest_architecture_object": "N_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 1.988491114724355,
+            "point_m": [
+              -1520.1256103515625,
+              1549.92333984375,
+              3368.63623046875
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 1.9884551296384845,
+            "point_m": [
+              -1520.12548828125,
+              1549.9234619140625,
+              3368.635986328125
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1099.3790283203125,
+          1948.5989990234375,
+          2141.4755859375
+        ],
+        "nearest_architecture_distance_m": 0.8616579174995422,
+        "nearest_architecture_object": "N_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 0.8617253847117515,
+            "point_m": [
+              -1098.719482421875,
+              1948.060546875,
+              2141.3427734375
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 0.8614622604176052,
+            "point_m": [
+              -1098.7197265625,
+              1948.0606689453125,
+              2141.3427734375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -550.0353393554688,
+          2017.1209716796875,
+          1491.960693359375
+        ],
+        "nearest_architecture_distance_m": 1.0862071514129639,
+        "nearest_architecture_object": "N_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 1.0862378109971282,
+            "point_m": [
+              -551.0149536132812,
+              2016.6650390625,
+              1491.849365234375
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 1.0861664743322808,
+            "point_m": [
+              -551.0148315429688,
+              2016.6649169921875,
+              1491.8494873046875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          3.496352195739746,
+          1704.7548828125,
+          1682.71044921875
+        ],
+        "nearest_architecture_distance_m": 1.0844831466674805,
+        "nearest_architecture_object": "N_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 1.0845053443293358,
+            "point_m": [
+              3.39646577835083,
+              1703.7100830078125,
+              1682.4373779296875
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 1.084505959196545,
+            "point_m": [
+              3.3964591026306152,
+              1703.7100830078125,
+              1682.4373779296875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          496.38153076171875,
+          1270.77001953125,
+          2240.63134765625
+        ],
+        "nearest_architecture_distance_m": 0.5443128943443298,
+        "nearest_architecture_object": "N_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 0.5446794613306837,
+            "point_m": [
+              496.337890625,
+              1270.24267578125,
+              2240.502197265625
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 0.5445588185967868,
+            "point_m": [
+              496.3379211425781,
+              1270.2427978515625,
+              2240.502197265625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1026.5833740234375,
+          1157.2679443359375,
+          1852.952392578125
+        ],
+        "nearest_architecture_distance_m": 0.9780486226081848,
+        "nearest_architecture_object": "N_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 0.9778518100247984,
+            "point_m": [
+              1026.4102783203125,
+              1156.3359375,
+              1852.71240234375
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 0.9779382170862707,
+            "point_m": [
+              1026.4102783203125,
+              1156.3358154296875,
+              1852.7125244140625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1422.956298828125,
+          1235.7952880859375,
+          995.3099365234375
+        ],
+        "nearest_architecture_distance_m": 1.0934242010116577,
+        "nearest_architecture_object": "N_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 1.0932583998390786,
+            "point_m": [
+              1421.9085693359375,
+              1235.5198974609375,
+              995.162841796875
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 1.093414359023639,
+            "point_m": [
+              1421.908447265625,
+              1235.519775390625,
+              995.1627807617188
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1683.667724609375,
+          943.3786010742188,
+          1842.687255859375
+        ],
+        "nearest_architecture_distance_m": 0.9600747227668762,
+        "nearest_architecture_object": "N_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 0.9602261833627974,
+            "point_m": [
+              1683.623046875,
+              942.4401245117188,
+              1842.489013671875
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 0.9601356603464936,
+            "point_m": [
+              1683.6231689453125,
+              942.440185546875,
+              1842.4891357421875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          2054.7353515625,
+          1231.24462890625,
+          857.6494140625
+        ],
+        "nearest_architecture_distance_m": 0.9930345416069031,
+        "nearest_architecture_object": "N_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 0.9931971001545472,
+            "point_m": [
+              2055.54052734375,
+              1230.67822265625,
+              857.517822265625
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_band",
+            "distance_from_window_m": 0.9930688142817631,
+            "point_m": [
+              2055.540283203125,
+              1230.6781005859375,
+              857.517822265625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          2307.15966796875,
+          1090.2001953125,
+          1294.3612060546875
+        ],
+        "nearest_architecture_distance_m": 1.0838087797164917,
+        "nearest_architecture_object": "N_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 1.083748621692243,
+            "point_m": [
+              2306.29443359375,
+              1089.575927734375,
+              1294.1710205078125
+            ]
+          },
+          {
+            "backing_object": "N_wall_outer_shell",
+            "distance_from_window_m": 1.0840352708020071,
+            "point_m": [
+              2306.294189453125,
+              1089.5758056640625,
+              1294.1708984375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      }
+    ],
+    "S_outwin_win_warm": [
+      {
+        "window_point_m": [
+          -1740.669189453125,
+          -1240.396728515625,
+          1026.189697265625
+        ],
+        "nearest_architecture_distance_m": 1.0354254245758057,
+        "nearest_architecture_object": "S_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0355609318697572,
+            "point_m": [
+              -1741.66357421875,
+              -1240.134765625,
+              1026.0673828125
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0355609318697572,
+            "point_m": [
+              -1741.66357421875,
+              -1240.134765625,
+              1026.0673828125
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1380.9456787109375,
+          -1181.0281982421875,
+          966.4727783203125
+        ],
+        "nearest_architecture_distance_m": 1.0689358711242676,
+        "nearest_architecture_object": "S_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0689731278539085,
+            "point_m": [
+              -1380.86376953125,
+              -1179.994140625,
+              966.2144775390625
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0691005778730645,
+            "point_m": [
+              -1380.8636474609375,
+              -1179.9940185546875,
+              966.2144775390625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -1128.4935302734375,
+          -809.818359375,
+          2538.121826171875
+        ],
+        "nearest_architecture_distance_m": 0.7687671780586243,
+        "nearest_architecture_object": "S_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 0.7691256233484355,
+            "point_m": [
+              -1128.3328857421875,
+              -809.0774536132812,
+              2537.9921875
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 0.7690413120796888,
+            "point_m": [
+              -1128.3330078125,
+              -809.0775146484375,
+              2537.9921875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -840.239013671875,
+          -828.702392578125,
+          1924.7904052734375
+        ],
+        "nearest_architecture_distance_m": 1.053694486618042,
+        "nearest_architecture_object": "S_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0535881759363726,
+            "point_m": [
+              -841.2918090820312,
+              -828.6704711914062,
+              1924.764892578125
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0537071917363887,
+            "point_m": [
+              -841.2919311523438,
+              -828.6704711914062,
+              1924.7650146484375
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -537.6205444335938,
+          -178.16722106933594,
+          576.586669921875
+        ],
+        "nearest_architecture_distance_m": 0.8431665897369385,
+        "nearest_architecture_object": "S_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 0.8433192199822935,
+            "point_m": [
+              -537.7113037109375,
+              -177.393310546875,
+              576.26416015625
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 0.8433499889196014,
+            "point_m": [
+              -537.7112426757812,
+              -177.39329528808594,
+              576.2640991210938
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          -202.833984375,
+          -210.6309814453125,
+          430.11920166015625
+        ],
+        "nearest_architecture_distance_m": 1.0472757816314697,
+        "nearest_architecture_object": "S_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 1.047252273901326,
+            "point_m": [
+              -202.92771911621094,
+              -209.66781616210938,
+              429.7188720703125
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 1.0472663034211365,
+            "point_m": [
+              -202.92771911621094,
+              -209.6678009033203,
+              429.7188720703125
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          107.5346908569336,
+          -251.06613159179688,
+          379.2862243652344
+        ],
+        "nearest_architecture_distance_m": 0.9370184540748596,
+        "nearest_architecture_object": "S_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 0.9370325353555418,
+            "point_m": [
+              107.70970916748047,
+              -250.23806762695312,
+              378.88409423828125
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 0.9370445963313169,
+            "point_m": [
+              107.70970153808594,
+              -250.23805236816406,
+              378.88409423828125
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          486.26239013671875,
+          -336.4367370605469,
+          342.95404052734375
+        ],
+        "nearest_architecture_distance_m": 1.0361924171447754,
+        "nearest_architecture_object": "S_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 1.0361930639094694,
+            "point_m": [
+              486.3968505859375,
+              -335.5215148925781,
+              342.4871520996094
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 1.0362509211638513,
+            "point_m": [
+              486.3968811035156,
+              -335.5214538574219,
+              342.4871520996094
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          850.60986328125,
+          -550.4537963867188,
+          150.95034790039062
+        ],
+        "nearest_architecture_distance_m": 1.0193413496017456,
+        "nearest_architecture_object": "S_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0192852107047483,
+            "point_m": [
+              850.8095092773438,
+              -549.6561889648438,
+              150.34793090820312
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0193629801946094,
+            "point_m": [
+              850.8095703125,
+              -549.6561279296875,
+              150.347900390625
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1261.160400390625,
+          -588.36328125,
+          351.05499267578125
+        ],
+        "nearest_architecture_distance_m": 1.0276800394058228,
+        "nearest_architecture_object": "S_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 1.027723238662474,
+            "point_m": [
+              1262.0482177734375,
+              -587.9404907226562,
+              350.7562561035156
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 1.027642909974499,
+            "point_m": [
+              1262.048095703125,
+              -587.9404296875,
+              350.7562561035156
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1553.7620849609375,
+          -1234.4287109375,
+          1249.3515625
+        ],
+        "nearest_architecture_distance_m": 1.0780344009399414,
+        "nearest_architecture_object": "S_wall_outer_band",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0780044432974916,
+            "point_m": [
+              1554.0689697265625,
+              -1233.4371337890625,
+              1249.060546875
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_band",
+            "distance_from_window_m": 1.0780044432974916,
+            "point_m": [
+              1554.0689697265625,
+              -1233.4371337890625,
+              1249.060546875
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      },
+      {
+        "window_point_m": [
+          1922.064697265625,
+          -1466.56982421875,
+          823.4957275390625
+        ],
+        "nearest_architecture_distance_m": 1.0444778203964233,
+        "nearest_architecture_object": "S_wall_outer_shell",
+        "normal_rays": [
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 1.044446255828733,
+            "point_m": [
+              1921.6722412109375,
+              -1465.635498046875,
+              823.2429809570312
+            ]
+          },
+          {
+            "backing_object": "S_wall_outer_shell",
+            "distance_from_window_m": 1.044446255828733,
+            "point_m": [
+              1921.6722412109375,
+              -1465.635498046875,
+              823.2429809570312
+            ]
+          }
+        ],
+        "backing_within_2m": true
+      }
+    ]
+  },
+  "named_west_portal": {
+    "mesh_name": "west_portal_glow",
+    "triangles": 96,
+    "observation": "Filled emissive ellipse mesh; name does not certify an open doorway. Emission disabled for R21 renders."
+  }
+}

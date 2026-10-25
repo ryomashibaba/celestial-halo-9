@@ -1,0 +1,740 @@
+{
+  "R19": {
+    "low": {
+      "floor_native_m": [
+        600.0,
+        -600.0,
+        306.0
+      ],
+      "floor_object": "A_INNER_public_surface",
+      "max_sampled_first_hit_distance_m": 2732.908447265625,
+      "far_first_hit_examples": [
+        {
+          "point_m": [
+            2238.93505859375,
+            676.4647216796875,
+            1970.2666015625
+          ],
+          "normal": [
+            0.17405135929584503,
+            -0.7776769995689392,
+            -0.6040899157524109
+          ],
+          "object": "T_REAR_LINK_public_deck",
+          "distance_m": 2732.908447265625
+        },
+        {
+          "point_m": [
+            1734.763671875,
+            838.478759765625,
+            2090.000244140625
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "object": "D_EAST_REAL_INHABITED_TERRAIN_0",
+          "distance_m": 2652.907470703125
+        },
+        {
+          "point_m": [
+            2103.2978515625,
+            522.5919189453125,
+            2090.0
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "object": "D_EAST_REAL_INHABITED_TERRAIN_0",
+          "distance_m": 2652.9072265625
+        },
+        {
+          "point_m": [
+            1919.0306396484375,
+            680.53515625,
+            2090.0
+          ],
+          "normal": [
+            -0.0,
+            0.0,
+            -1.0
+          ],
+          "object": "D_EAST_REAL_INHABITED_TERRAIN_0",
+          "distance_m": 2641.78271484375
+        }
+      ],
+      "distinct_hit_objects": [
+        "A_CONFLUENCE_civic_ground_2",
+        "A_CONFLUENCE_inhabited_depth_2",
+        "A_CONFLUENCE_occupied_floor_2_38",
+        "A_CONFLUENCE_roof_avenue_2",
+        "D_EAST_REAL_INHABITED_TERRAIN_0",
+        "D_UNDERWORLD_COURT_public_deck",
+        "F_INNER_CITY_deep_public_land",
+        "M04_inhabited_cliff_lower_0",
+        "T_REAR_LINK_public_deck",
+        "U01_inhabited_cliff_lower_0",
+        "U01_inhabited_cliff_upper_0",
+        "U02_inhabited_cliff_1",
+        "U02_inhabited_cliff_lower_0",
+        "U02_inhabited_cliff_portal_0",
+        "U02_inhabited_cliff_portal_2",
+        "U02_inhabited_cliff_upper_0",
+        "U03_inhabited_cliff_1",
+        "U03_inhabited_cliff_portal_0",
+        "U03_inhabited_cliff_upper_0",
+        "U_SHARED_HANGING_CITY_public_deck"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "mid": {
+      "floor_native_m": [
+        -600.0,
+        -65.0,
+        1218.0
+      ],
+      "floor_object": "F_PUBLIC_ISTHMUS_middle_public_street_public_deck",
+      "max_sampled_first_hit_distance_m": 1750.6077880859375,
+      "far_first_hit_examples": [],
+      "distinct_hit_objects": [
+        "F_PUBLIC_ISTHMUS_outer_urban_floor.003",
+        "F_PUBLIC_ISTHMUS_outer_urban_floor.004",
+        "F_PUBLIC_ISTHMUS_outer_urban_shore",
+        "F_PUBLIC_ISTHMUS_shared_roof_land",
+        "L_WEST_MIDDLE_lower_ground",
+        "W05_inhabited_cliff_1",
+        "W05_roof_ground_0",
+        "W07_inhabited_cliff_lower_0",
+        "W08_inhabited_cliff_lower_0",
+        "W08_occupied_floor_0_23"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "high": {
+      "floor_native_m": [
+        1570.0,
+        480.0,
+        2520.0
+      ],
+      "floor_object": "H_CANYON_GROUND_shared_roof_land",
+      "max_sampled_first_hit_distance_m": 3546.915283203125,
+      "far_first_hit_examples": [
+        {
+          "point_m": [
+            -1369.017822265625,
+            1343.584228515625,
+            4107.62841796875
+          ],
+          "normal": [
+            0.19016428291797638,
+            -0.9788327217102051,
+            0.07565775513648987
+          ],
+          "object": "W10_inhabited_cliff_3",
+          "distance_m": 3546.915283203125
+        },
+        {
+          "point_m": [
+            -1004.669189453125,
+            1533.2210693359375,
+            3983.451171875
+          ],
+          "normal": [
+            0.8837643265724182,
+            -0.46247628331184387,
+            -0.07124783843755722
+          ],
+          "object": "W10_inhabited_cliff_3",
+          "distance_m": 3255.175537109375
+        },
+        {
+          "point_m": [
+            -297.4395751953125,
+            1761.8272705078125,
+            3979.282470703125
+          ],
+          "normal": [
+            0.9544442296028137,
+            -0.1908068060874939,
+            -0.22941039502620697
+          ],
+          "object": "W11_occupied_floor_2_212",
+          "distance_m": 2827.884765625
+        },
+        {
+          "point_m": [
+            -431.44677734375,
+            1546.0054931640625,
+            3996.47216796875
+          ],
+          "normal": [
+            0.44320881366729736,
+            -0.8959211111068726,
+            -0.02985755167901516
+          ],
+          "object": "W11_roof_ground_2",
+          "distance_m": 2825.978759765625
+        }
+      ],
+      "distinct_hit_objects": [
+        "D_SKY_CONFLUENCE_public_deck",
+        "H_HIGH_HORIZON_arrival_light_1_0",
+        "H_HIGH_HORIZON_civic_ground_1",
+        "H_HIGH_HORIZON_inhabited_depth_0",
+        "H_HIGH_HORIZON_inhabited_depth_1",
+        "H_HIGH_HORIZON_occupied_floor_0_104",
+        "H_HIGH_HORIZON_roof_avenue_0",
+        "M01_inhabited_cliff_3",
+        "M02_inhabited_cliff_1",
+        "M02_inhabited_cliff_3",
+        "M02_inhabited_cliff_upper_2",
+        "M02_occupied_floor_2_77",
+        "M03_inhabited_cliff_1",
+        "M03_inhabited_cliff_portal_2",
+        "M03_inhabited_cliff_upper_2",
+        "M03_occupied_floor_2_104",
+        "M04_inhabited_cliff_upper_2",
+        "M04_occupied_floor_2_212",
+        "M04_roof_ground_2",
+        "M_SHARED_SKY_GROUND_public_deck",
+        "W08_inhabited_cliff_3",
+        "W10_inhabited_cliff_3",
+        "W11_inhabited_cliff_1",
+        "W11_occupied_floor_2_212",
+        "W11_roof_ground_1",
+        "W11_roof_ground_2"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "axis_entry": {
+      "floor_native_m": [
+        -2191.347412109375,
+        -1952.65869140625,
+        152.0
+      ],
+      "floor_object": "A_PUBLIC_CAUSEWAY_public_deck",
+      "max_sampled_first_hit_distance_m": 814.9179077148438,
+      "far_first_hit_examples": [],
+      "distinct_hit_objects": [
+        "A_PUBLIC_CAUSEWAY_lit_edge",
+        "A_PUBLIC_CAUSEWAY_public_deck",
+        "A_TIDE_INNER_civic_ground_0",
+        "A_TIDE_WEST_inhabited_depth_0",
+        "A_TIDE_WEST_occupied_floor_0_16",
+        "A_TIDE_WEST_occupied_floor_0_38"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "axis_middle": {
+      "floor_native_m": [
+        400.0,
+        -533.3333740234375,
+        306.0
+      ],
+      "floor_object": "A_INNER_public_surface",
+      "max_sampled_first_hit_distance_m": 230.0360107421875,
+      "far_first_hit_examples": [],
+      "distinct_hit_objects": [
+        "A_CONFLUENCE_civic_ground_0",
+        "A_CONFLUENCE_inhabited_depth_0",
+        "A_CONFLUENCE_occupied_floor_0_16",
+        "A_CONFLUENCE_occupied_floor_0_38",
+        "A_CONFLUENCE_occupied_floor_0_60"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "axis_arrival": {
+      "floor_native_m": [
+        209.79693603515625,
+        2558.86083984375,
+        971.0
+      ],
+      "floor_object": "C_REVERSE_SHORE_civic_ground_0",
+      "max_sampled_first_hit_distance_m": 1062.3994140625,
+      "far_first_hit_examples": [],
+      "distinct_hit_objects": [
+        "C_REAR_CIVILIZATION_city_rib_0_2_5_1",
+        "C_REAR_CIVILIZATION_city_rib_0_2_9_-1",
+        "C_REAR_CIVILIZATION_city_rib_0_3_0_1",
+        "C_REAR_CIVILIZATION_inhabited_depth_0",
+        "C_REAR_CIVILIZATION_occupied_floor_0_104",
+        "C_REAR_CIVILIZATION_roof_avenue_0",
+        "C_REVERSE_SHORE_civic_ground_0",
+        "C_REVERSE_SHORE_inhabited_depth_0"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    }
+  },
+  "C55A": {
+    "low": {
+      "floor_native_m": [
+        1778.9998779296875,
+        -54.0,
+        0.0
+      ],
+      "floor_object": "floor_N",
+      "max_sampled_first_hit_distance_m": 5924.9970703125,
+      "far_first_hit_examples": [
+        {
+          "point_m": [
+            77.63543701171875,
+            2336.525390625,
+            2938.778076171875
+          ],
+          "normal": [
+            0.028832878917455673,
+            0.9995841979980469,
+            0.0
+          ],
+          "object": "apse_risers",
+          "distance_m": 5924.9970703125
+        },
+        {
+          "point_m": [
+            542.2137451171875,
+            1993.6396484375,
+            2738.224365234375
+          ],
+          "normal": [
+            0.8319314122200012,
+            0.5548784732818604,
+            0.0
+          ],
+          "object": "apse_risers",
+          "distance_m": 5586.861328125
+        },
+        {
+          "point_m": [
+            -445.6362609863281,
+            1698.509765625,
+            2576.978271484375
+          ],
+          "normal": [
+            0.2592492997646332,
+            0.9658104777336121,
+            0.0
+          ],
+          "object": "apse_risers",
+          "distance_m": 5174.12451171875
+        },
+        {
+          "point_m": [
+            -26.315826416015625,
+            1651.90673828125,
+            796.1195068359375
+          ],
+          "normal": [
+            0.6767077445983887,
+            0.736251711845398,
+            0.0
+          ],
+          "object": "apse_risers",
+          "distance_m": 4525.109375
+        }
+      ],
+      "distinct_hit_objects": [
+        "N_wall_risers",
+        "S_wall_ledges",
+        "S_wall_outer_band",
+        "S_wall_outer_shell",
+        "S_wall_risers",
+        "apse_risers",
+        "canal_cascade",
+        "floor_N",
+        "halo1_body_0",
+        "halo1_inner_glow_0",
+        "halo2_body_0",
+        "halo3_body_0",
+        "halo3_teeth0",
+        "halo4_body_0",
+        "halo4_teeth0",
+        "sanctum_lens_underside",
+        "sky_isle_1_top_risers",
+        "sky_isle_2_underside",
+        "sky_isle_4_underside",
+        "veil_2"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "mid": {
+      "floor_native_m": [
+        -1022.23193359375,
+        758.4713134765625,
+        1298.91943359375
+      ],
+      "floor_object": "N_wall_ledges",
+      "max_sampled_first_hit_distance_m": 3436.195556640625,
+      "far_first_hit_examples": [
+        {
+          "point_m": [
+            -1924.8984375,
+            -2360.923828125,
+            2090.786865234375
+          ],
+          "normal": [
+            0.12049740552902222,
+            0.9902597665786743,
+            -0.06975636631250381
+          ],
+          "object": "halo7_teeth0",
+          "distance_m": 3436.195556640625
+        },
+        {
+          "point_m": [
+            -1180.204833984375,
+            -2382.701171875,
+            1241.68994140625
+          ],
+          "normal": [
+            -0.21896374225616455,
+            -0.8932403922080994,
+            -0.39265328645706177
+          ],
+          "object": "S_wall_ledges",
+          "distance_m": 2887.24951171875
+        },
+        {
+          "point_m": [
+            109.07098388671875,
+            -2489.3798828125,
+            2278.878173828125
+          ],
+          "normal": [
+            0.6358039379119873,
+            0.3268297016620636,
+            0.6992394328117371
+          ],
+          "object": "halo6_body_0",
+          "distance_m": 2705.5419921875
+        },
+        {
+          "point_m": [
+            89.11587524414062,
+            -2474.525390625,
+            2056.010986328125
+          ],
+          "normal": [
+            -0.38970568776130676,
+            0.41953787207603455,
+            -0.819827675819397
+          ],
+          "object": "halo6_inner_glow_0",
+          "distance_m": 2621.5869140625
+        }
+      ],
+      "distinct_hit_objects": [
+        "S_wall_ledges",
+        "halo3_body_0",
+        "halo3_inner_glow_0",
+        "halo4_body_0",
+        "halo4_teeth0",
+        "halo5_body_0",
+        "halo5_inner_glow_0",
+        "halo5_teeth0",
+        "halo6_body_0",
+        "halo6_inner_glow_0",
+        "halo6_teeth0",
+        "halo7_teeth0",
+        "sky_isle_2_top_risers",
+        "veil_4",
+        "veil_6"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "high": {
+      "floor_native_m": [
+        -1059.798583984375,
+        1188.403564453125,
+        2734.784912109375
+      ],
+      "floor_object": "N_wall_ledges",
+      "max_sampled_first_hit_distance_m": 3505.358642578125,
+      "far_first_hit_examples": [
+        {
+          "point_m": [
+            -1654.339111328125,
+            -2370.744873046875,
+            2418.735107421875
+          ],
+          "normal": [
+            0.12049800902605057,
+            0.9902598261833191,
+            -0.06975551694631577
+          ],
+          "object": "halo7_teeth0",
+          "distance_m": 3505.358642578125
+        },
+        {
+          "point_m": [
+            -1248.712890625,
+            -2398.619384765625,
+            2723.7001953125
+          ],
+          "normal": [
+            0.12049823254346848,
+            0.9902596473693848,
+            -0.0697566568851471
+          ],
+          "object": "halo7_teeth0",
+          "distance_m": 3232.110107421875
+        },
+        {
+          "point_m": [
+            -910.9425048828125,
+            -2439.667724609375,
+            2724.44921875
+          ],
+          "normal": [
+            0.12049499899148941,
+            0.990260124206543,
+            -0.06975696980953217
+          ],
+          "object": "halo7_teeth0",
+          "distance_m": 3055.848388671875
+        },
+        {
+          "point_m": [
+            -604.8695068359375,
+            -2466.4013671875,
+            2725.159423828125
+          ],
+          "normal": [
+            0.03392796963453293,
+            0.7756244540214539,
+            0.6302821040153503
+          ],
+          "object": "halo7_body_0",
+          "distance_m": 2912.232421875
+        }
+      ],
+      "distinct_hit_objects": [
+        "N_wall_ledges",
+        "halo6_teeth0",
+        "halo7_body_0",
+        "halo7_teeth0"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "axis_entry": {
+      "floor_native_m": [
+        2050.0,
+        -119.99998474121094,
+        0.0
+      ],
+      "floor_object": "floor_N",
+      "max_sampled_first_hit_distance_m": 4093.4716796875,
+      "far_first_hit_examples": [
+        {
+          "point_m": [
+            90.6160888671875,
+            976.669189453125,
+            419.2119445800781
+          ],
+          "normal": [
+            -0.9490212202072144,
+            -0.31476348638534546,
+            0.016813013702630997
+          ],
+          "object": "N_wall_risers",
+          "distance_m": 4093.4716796875
+        },
+        {
+          "point_m": [
+            386.51715087890625,
+            511.377685546875,
+            1353.56396484375
+          ],
+          "normal": [
+            -0.9865580797195435,
+            -0.163410946726799,
+            0.0
+          ],
+          "object": "N_wall_risers",
+          "distance_m": 3908.458251953125
+        },
+        {
+          "point_m": [
+            59.0205078125,
+            715.350341796875,
+            730.2991943359375
+          ],
+          "normal": [
+            -0.23105652630329132,
+            0.9729403257369995,
+            0.0
+          ],
+          "object": "bridge2_arch",
+          "distance_m": 3877.982421875
+        },
+        {
+          "point_m": [
+            -305.9512634277344,
+            563.08056640625,
+            1362.8076171875
+          ],
+          "normal": [
+            0.4361867606639862,
+            -0.8890289664268494,
+            -0.13917118310928345
+          ],
+          "object": "halo1_teeth0",
+          "distance_m": 3872.65771484375
+        }
+      ],
+      "distinct_hit_objects": [
+        "N_wall_ledges",
+        "N_wall_risers",
+        "S_wall_ledges",
+        "S_wall_outer_shell",
+        "S_wall_risers",
+        "bridge2_arch",
+        "bridge3_hangers",
+        "canal_cascade",
+        "floor_N",
+        "floor_S",
+        "halo1_teeth0",
+        "halo3_body_0",
+        "halo4_body_0",
+        "sanctum_lens_underside",
+        "sky_isle_1_underside",
+        "veil_2"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "axis_middle": {
+      "floor_native_m": [
+        -9.820722652875702e-07,
+        350.0,
+        88.00001525878906
+      ],
+      "floor_object": "floor_N",
+      "max_sampled_first_hit_distance_m": 2856.669677734375,
+      "far_first_hit_examples": [
+        {
+          "point_m": [
+            -575.22265625,
+            1641.1927490234375,
+            970.5460815429688
+          ],
+          "normal": [
+            -0.07828158140182495,
+            0.996931254863739,
+            0.0
+          ],
+          "object": "apse_risers",
+          "distance_m": 2856.669677734375
+        },
+        {
+          "point_m": [
+            -50.447418212890625,
+            1694.7657470703125,
+            966.6602783203125
+          ],
+          "normal": [
+            0.6011635661125183,
+            0.7991259694099426,
+            0.0
+          ],
+          "object": "apse_risers",
+          "distance_m": 2844.067626953125
+        },
+        {
+          "point_m": [
+            -565.650146484375,
+            1622.7823486328125,
+            711.7281494140625
+          ],
+          "normal": [
+            -0.2030198574066162,
+            0.9791746735572815,
+            0.0
+          ],
+          "object": "apse_risers",
+          "distance_m": 2768.206787109375
+        },
+        {
+          "point_m": [
+            -57.085784912109375,
+            1572.4871826171875,
+            453.2995300292969
+          ],
+          "normal": [
+            0.6673628091812134,
+            0.7447327375411987,
+            0.0
+          ],
+          "object": "apse_risers",
+          "distance_m": 2608.912353515625
+        }
+      ],
+      "distinct_hit_objects": [
+        "N_wall_risers",
+        "S_wall_ledges",
+        "S_wall_risers",
+        "apse_risers",
+        "bridge1_deck",
+        "canal_cascade",
+        "floor_N",
+        "floor_S",
+        "nave_people",
+        "sanctum_lens_spires",
+        "sanctum_lens_underside"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "axis_arrival": {
+      "floor_native_m": [
+        -2350.0,
+        100.00001525878906,
+        250.00001525878906
+      ],
+      "floor_object": "apse_floor",
+      "max_sampled_first_hit_distance_m": 535.651123046875,
+      "far_first_hit_examples": [],
+      "distinct_hit_objects": [
+        "apse_ledges",
+        "apse_risers"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    },
+    "hall": {
+      "floor_native_m": [
+        -850.0,
+        1200.0,
+        440.0
+      ],
+      "floor_object": "hall_floor",
+      "max_sampled_first_hit_distance_m": 1054.4505615234375,
+      "far_first_hit_examples": [],
+      "distinct_hit_objects": [
+        "endwall_E",
+        "floor_pavilions",
+        "gallery_E_columns",
+        "gallery_E_risers",
+        "gallery_E_win_warm",
+        "gallery_W_columns",
+        "gallery_W_risers",
+        "gallery_W_win_warm",
+        "hall_bridge1_arch",
+        "hall_bridge2_arch",
+        "hall_bridge2_hangers",
+        "hall_bridge3_deck",
+        "hall_bridge4_arch",
+        "hall_floor",
+        "people",
+        "rose_frame",
+        "rose_spokes",
+        "rose_window",
+        "vault_panel_12",
+        "vault_panel_13",
+        "vault_panel_15",
+        "vault_panel_18",
+        "vault_ribs"
+      ],
+      "note": "77 finite frustum directions; far hits may be walls/rings, not habitable districts. No continuous route proof."
+    }
+  }
+}

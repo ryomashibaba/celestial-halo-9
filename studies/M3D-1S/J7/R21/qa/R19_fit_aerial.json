@@ -1,0 +1,26 @@
+{
+  "file": "renders\\R19\\fit_aerial.png",
+  "position_m": [
+    4490.259765625,
+    -7483.765625,
+    17063.81640625
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2096.2861328125
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "center_distance_m": 17326.169524832905,
+  "regime": "fit"
+}

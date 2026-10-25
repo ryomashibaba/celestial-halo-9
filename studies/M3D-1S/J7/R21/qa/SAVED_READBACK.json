@@ -1,0 +1,76 @@
+{
+  "C55A_native": {
+    "reopened": true,
+    "geometry_exact": true,
+    "objects": 303,
+    "meshes": 290,
+    "materials": 38,
+    "parent_empty_nodes": 13
+  },
+  "C55A": {
+    "path": "models\\C55A_COMPARISON.blend",
+    "geometry_readback_exact": true,
+    "central": {
+      "meshes": 278,
+      "vertices": 845364,
+      "triangles": 591481,
+      "min_m": [
+        -2364.706787109375,
+        -3478.378173828125,
+        -204.2339630126953
+      ],
+      "max_m": [
+        2364.706787109375,
+        3478.378173828125,
+        5590.35400390625
+      ],
+      "dimensions_m": [
+        4729.41357421875,
+        6956.75634765625,
+        5794.587966918945
+      ],
+      "world_vertex_fingerprint": "7f52c7596a32e706dc03e9fee44d993175b0de3dd71516c1558edd2527b55a33"
+    },
+    "cameras_saved": 28,
+    "hfov_degrees": 50,
+    "unit_scale": 1.0
+  },
+  "R19": {
+    "path": "models\\R19_COMPARISON.blend",
+    "geometry_readback_exact": true,
+    "central": {
+      "meshes": 2974,
+      "vertices": 42882,
+      "triangles": 75632,
+      "min_m": [
+        -3050.0,
+        -2700.0,
+        -90.0
+      ],
+      "max_m": [
+        3050.0,
+        2700.0,
+        4282.572265625
+      ],
+      "dimensions_m": [
+        6100.0,
+        5400.0,
+        4372.572265625
+      ],
+      "world_vertex_fingerprint": "5e324322503400e2d41eb86c2769f4bc931ef71953b2c1ba017d25f2272b0c12"
+    },
+    "cameras_saved": 26,
+    "hfov_degrees": 50,
+    "unit_scale": 1.0
+  },
+  "C55A_cross_Yminus600": {
+    "reopened": true,
+    "section_geometry_exact": true,
+    "kept_half_check": true
+  },
+  "C55A_longitudinal_X860": {
+    "reopened": true,
+    "section_geometry_exact": true,
+    "kept_half_check": true
+  }
+}

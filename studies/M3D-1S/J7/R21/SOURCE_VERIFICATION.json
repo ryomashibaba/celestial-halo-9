@@ -1,0 +1,163 @@
+{
+  "zip_original_path": "C:\\Users\\ryoma\\Downloads\\C55A_independent_research_payload.zip",
+  "zip_sha256": "0d46de1a46f68ad8a429782efb8318807ed68bcdd921cc402ac09fc0977c71c6",
+  "zip_crc_pass": true,
+  "recorded_filename_differs": true,
+  "identity_by_glb_hash": true,
+  "manifest_checks": [
+    {
+      "path": "ART_SELF_ASSESSMENT.md",
+      "sha256": "552febfbbe29839714d936873cf9bc5451a5a37012ca6a1d5b71cecceb5ed7a2",
+      "match": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "12985be437d23528a05ab5095d60762f72aecb99ae7d5f826ec384ea60fb47e4",
+      "match": true
+    },
+    {
+      "path": "STATUS_REPORT.md",
+      "sha256": "c9ad6fad0c7ad9b4f7d2b98c4963f20fd96725729eb4a855a169a55ec12c9c7f",
+      "match": true
+    },
+    {
+      "path": "code/blender_build.py",
+      "sha256": "3e915cf5262066688b799208b94f861340b18c755d1f41499f527146536df143",
+      "match": true
+    },
+    {
+      "path": "code/c55a_city.py",
+      "sha256": "dd9c56652a57244a6ad38bc86817471dae5437a16461f053a3181a09db215bfb",
+      "match": true
+    },
+    {
+      "path": "code/c55a_geom.py",
+      "sha256": "df932224ec81525450dd571800bb4e70e95a72d5f7114fecff750eefdeaf9432",
+      "match": true
+    },
+    {
+      "path": "code/c55a_hall.py",
+      "sha256": "a9256b786a64a967638395739b7fa7fd9598f75c6d067817a8a86ec363c736e6",
+      "match": true
+    },
+    {
+      "path": "code/c55a_render.py",
+      "sha256": "d1c371713822637089a88fce96ef0bdad90c57d167aad2965135ef89401e8985",
+      "match": true
+    },
+    {
+      "path": "code/camera_specs.py",
+      "sha256": "7dcac0a605ec53549923d185c31581c6c23e145a04f5468312ddb1f6d6e9c499",
+      "match": true
+    },
+    {
+      "path": "code/glb_export.py",
+      "sha256": "05f9ce876102dce1925f58671d9b95c7bc0b0089f72ed3424356af8728d04ef5",
+      "match": true
+    },
+    {
+      "path": "code/make_validation.py",
+      "sha256": "05eeca271b82607c6504ba689d86bdca5c9e090e24cd52a86a79e7755c363df2",
+      "match": true
+    },
+    {
+      "path": "code/run_views.py",
+      "sha256": "8485c24ec84474af32aff6f70593383ced0f508d2e7bb94832086c8cbc258b3d",
+      "match": true
+    },
+    {
+      "path": "code/views.py",
+      "sha256": "d2bdc1f0e4c4a216a03e43f0788a7e45b189c2faadf7a574515173877d5fd194",
+      "match": true
+    },
+    {
+      "path": "model/C55A_SevenfoldHaloRift.glb",
+      "sha256": "4e0d8092c2bbe59ad6553d81e1a44594e7ff0dac3cfbc1ce1a9fb60144b76ae0",
+      "match": true
+    },
+    {
+      "path": "push_to_github.sh",
+      "sha256": "4e1b199b54a2fde689838b6d9420053f95060ad06aa39821d25783faf3ce0d48",
+      "match": true
+    },
+    {
+      "path": "renders/01_front_sea_gate.png",
+      "sha256": "8e32ed5b4a336ab2b8819583267066425fea45e360a53d0546c9f9132f409986",
+      "match": true
+    },
+    {
+      "path": "renders/02_oblique_SE.png",
+      "sha256": "56050bd78fb1bae42d8f9122a09e566f723516112db484771a193115f2ae48f5",
+      "match": true
+    },
+    {
+      "path": "renders/03_side_south.png",
+      "sha256": "55c7dfc232ffe439ebf503588bada319e582fe746ca6825276af2968a448fe5e",
+      "match": true
+    },
+    {
+      "path": "renders/04_rear_apse.png",
+      "sha256": "7e6e3df08ede96750681f92cb328f99ba202d54aa52c3f87ef97e4c68f46113b",
+      "match": true
+    },
+    {
+      "path": "renders/05_aerial.png",
+      "sha256": "f28b0a6916cf704952a80ebed81f24343cad17e85f6710e91e05d23106c34b34",
+      "match": true
+    },
+    {
+      "path": "renders/06_ground_plaza.png",
+      "sha256": "850df3ca62b391af53ccdd5b2f7f8290f88159c11659b314b608b3d96d208bbe",
+      "match": true
+    },
+    {
+      "path": "renders/07_interior_great_hall.png",
+      "sha256": "c8c7568b5b34b73095600889d78645f55a0b03525b5d55b78823c354f3e9fd0a",
+      "match": true
+    },
+    {
+      "path": "renders/08_high_altitude_lens_district.png",
+      "sha256": "fb34efaed4093723a6cc5f7e8de0dd63323959e9b3716c59a623bd1cd5ee3fea",
+      "match": true
+    },
+    {
+      "path": "renders/09_nave_floor_looking_apse.png",
+      "sha256": "b48c0dd3147b55d0a2c812e1b4e0a23638c285e82885930dd7da1f6458b68e89",
+      "match": true
+    },
+    {
+      "path": "renders/10_wall_plaza_district.png",
+      "sha256": "2bdbc42755ac5e9982e9d96e2d6e0311eee350f6ea5d36e91d5c418ed7a4b7ba",
+      "match": true
+    },
+    {
+      "path": "renders/11_skyline_NE_dusk.png",
+      "sha256": "20ef4060869f37714dd15ce2da6a47fdd5bb0cfdc2b83d4a3d6a2585b4090c46",
+      "match": true
+    },
+    {
+      "path": "renders/_contact.png",
+      "sha256": "56f68e199019e752960c8f1522c6638e60bf9f5dc571f1444616e253a265e234",
+      "match": true
+    },
+    {
+      "path": "renders/_render_stats.json",
+      "sha256": "23f59f91440c08acd428b8569ca9c5510e8e36fde93fc06aae91e2ae93fab7bc",
+      "match": true
+    },
+    {
+      "path": "validation/C55A_validation.json",
+      "sha256": "c2ea1817bd442ffab164f23465f34720482e797356026a873579adcb4bbfd65a",
+      "match": true
+    }
+  ],
+  "glb_sha256": "4e0d8092c2bbe59ad6553d81e1a44594e7ff0dac3cfbc1ce1a9fb60144b76ae0",
+  "glb_triangles": 668623,
+  "meshes": 290,
+  "nodes": 303,
+  "materials": 38,
+  "source_scripts_executed": false,
+  "git_start_head": "5d83a66de5ac4208f0da24c4208aa1deb0ba84c1",
+  "r20_verified_head": "8ed17bcb0078e5fcd276e5db72954791d2ae1338",
+  "r19_original_sha256": "b929272e95bcee9a162f15e06d9e2321eeb38b7d0e21f16d3d8263ff42597374"
+}

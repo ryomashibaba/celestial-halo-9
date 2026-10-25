@@ -1,0 +1,26 @@
+{
+  "file": "renders\\R19\\fit_oblique.png",
+  "position_m": [
+    9779.1533203125,
+    -12223.9404296875,
+    7963.77734375
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2096.2861328125
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": true,
+  "light_decals_visible": false,
+  "emission": false,
+  "terrain_context": false,
+  "center_distance_m": 16717.77513663882,
+  "regime": "fit"
+}

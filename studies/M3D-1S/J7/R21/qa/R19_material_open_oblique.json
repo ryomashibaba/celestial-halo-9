@@ -1,0 +1,26 @@
+{
+  "file": "renders\\R19\\material_open_oblique.png",
+  "position_m": [
+    -9944.056640625,
+    -12430.0703125,
+    8062.7197265625
+  ],
+  "target_m": [
+    0.0,
+    0.0,
+    2096.2861328125
+  ],
+  "hfov_degrees": 50,
+  "resolution": [
+    1600,
+    900
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "clay": false,
+  "light_decals_visible": true,
+  "emission": false,
+  "terrain_context": false,
+  "effect_meshes_hidden": [],
+  "center_distance_m": 16999.683615948572
+}

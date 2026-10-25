@@ -1,0 +1,528 @@
+{
+ "project": "CELESTIAL HALO-9 independent research C55-A",
+ "model": "Claude Sonnet 5.5",
+ "concept_ja": "七環天裂都",
+ "concept_en": "Sevenfold Halo Rift",
+ "date": "2026-10-25",
+ "generator_seed": 7,
+ "deterministic_rebuild_identical": true,
+ "geometry_sha256": "5e8cd921b35ba355338d63ea78134a0daf0bede2c9abf3cbb8275aeaaf0eafbe",
+ "geometry": {
+  "parts": 290,
+  "collections": {
+   "NAVE_MASSIF_NORTH": {
+    "parts": 4,
+    "verts": 35650,
+    "tris": 39388
+   },
+   "LIGHT_DECALS": {
+    "parts": 84,
+    "verts": 472474,
+    "tris": 236728
+   },
+   "NAVE_MASSIF_SOUTH": {
+    "parts": 4,
+    "verts": 35650,
+    "tris": 39388
+   },
+   "NAVE_FLOOR_CANAL": {
+    "parts": 5,
+    "verts": 57421,
+    "tris": 29413
+   },
+   "APSE_SACRED_FACE": {
+    "parts": 8,
+    "verts": 10014,
+    "tris": 12780
+   },
+   "BRIDGES_VEILS_BEAMS": {
+    "parts": 29,
+    "verts": 6420,
+    "tris": 10186
+   },
+   "SEVEN_HALOS": {
+    "parts": 21,
+    "verts": 15052,
+    "tris": 23540
+   },
+   "OBSIDIAN_BLADES": {
+    "parts": 20,
+    "verts": 1120,
+    "tris": 1460
+   },
+   "SANCTUM_LENS": {
+    "parts": 5,
+    "verts": 6683,
+    "tris": 8140
+   },
+   "FLOATING_DISTRICTS": {
+    "parts": 20,
+    "verts": 13500,
+    "tris": 16640
+   },
+   "PLAZA_DISTRICTS": {
+    "parts": 4,
+    "verts": 142343,
+    "tris": 124716
+   },
+   "TERRAIN_CONTEXT": {
+    "parts": 12,
+    "verts": 49638,
+    "tris": 77142
+   },
+   "GREAT_HALL_INTERIOR": {
+    "parts": 74,
+    "verts": 49539,
+    "tris": 49102
+   }
+  },
+  "triangles": 668623,
+  "vertices": 895504,
+  "materials": 38,
+  "nan_parts": [],
+  "parts_with_bad_indices": []
+ },
+ "glb": {
+  "path": "C55A_SevenfoldHaloRift.glb",
+  "file_bytes": 18964568,
+  "meshes": 290,
+  "nodes": 303,
+  "materials": 38,
+  "triangles": 668623,
+  "vertices": 895504,
+  "meshes_with_bad_indices": 0,
+  "meshes_with_nonfinite": 0,
+  "degenerate_triangles": 0,
+  "bbox_gltf_yup_min": [
+   -16000.0,
+   -204.2339630126953,
+   -15400.0
+  ],
+  "bbox_gltf_yup_max": [
+   15800.0,
+   5590.35400390625,
+   16000.0
+  ],
+  "triangles_match_scene": true
+ },
+ "scale_m": {
+  "central_complex_bbox_min": [
+   -4488.1,
+   -2037.2,
+   -204.2
+  ],
+  "central_complex_bbox_max": [
+   2468.6,
+   2692.2,
+   5590.4
+  ],
+  "extent_x": 6956.8,
+  "extent_y": 4729.4,
+  "extent_z": 5794.6,
+  "nave_length": 4600.0,
+  "nave_width_range": [
+   420.0,
+   980.0
+  ],
+  "crest_peak_absolute_height": 4125.4,
+  "obsidian_blade_heights": [
+   880,
+   1180,
+   1480,
+   2050,
+   1250,
+   820,
+   640,
+   700,
+   980,
+   520
+  ],
+  "halos": [
+   {
+    "index": 1,
+    "radius_m": 640,
+    "diameter_m": 1280,
+    "t_along_nave": 0.115
+   },
+   {
+    "index": 2,
+    "radius_m": 760,
+    "diameter_m": 1520,
+    "t_along_nave": 0.235
+   },
+   {
+    "index": 3,
+    "radius_m": 880,
+    "diameter_m": 1760,
+    "t_along_nave": 0.355
+   },
+   {
+    "index": 4,
+    "radius_m": 1010,
+    "diameter_m": 2020,
+    "t_along_nave": 0.475
+   },
+   {
+    "index": 5,
+    "radius_m": 1150,
+    "diameter_m": 2300,
+    "t_along_nave": 0.595
+   },
+   {
+    "index": 6,
+    "radius_m": 1300,
+    "diameter_m": 2600,
+    "t_along_nave": 0.715
+   },
+   {
+    "index": 7,
+    "radius_m": 1480,
+    "diameter_m": 2960,
+    "t_along_nave": 0.86
+   }
+  ],
+  "sanctum_lens_radius": 520.0,
+  "great_hall_length": 1100.0,
+  "great_hall_width": 460.0,
+  "great_hall_vault_apex_height": 430.0,
+  "window_count": 70284
+ },
+ "cameras": {
+  "count": 11,
+  "match_render_log": true,
+  "specs": [
+   {
+    "name": "01_front_sea_gate",
+    "pos": [
+     8800.0,
+     -120.0,
+     560.0
+    ],
+    "target": [
+     -1500.0,
+     150.0,
+     1250.0
+    ],
+    "hfov": 56.0,
+    "interior": false
+   },
+   {
+    "name": "02_oblique_SE",
+    "pos": [
+     6600.0,
+     -5600.0,
+     2300.0
+    ],
+    "target": [
+     -300.0,
+     200.0,
+     1250.0
+    ],
+    "hfov": 52.0,
+    "interior": false
+   },
+   {
+    "name": "03_side_south",
+    "pos": [
+     300.0,
+     -9800.0,
+     1100.0
+    ],
+    "target": [
+     0.0,
+     200.0,
+     1500.0
+    ],
+    "hfov": 50.0,
+    "interior": false
+   },
+   {
+    "name": "04_rear_apse",
+    "pos": [
+     -13800.0,
+     1800.0,
+     2600.0
+    ],
+    "target": [
+     -1500.0,
+     150.0,
+     1750.0
+    ],
+    "hfov": 58.0,
+    "interior": false
+   },
+   {
+    "name": "05_aerial",
+    "pos": [
+     4200.0,
+     -7800.0,
+     8600.0
+    ],
+    "target": [
+     -250.0,
+     250.0,
+     900.0
+    ],
+    "hfov": 46.0,
+    "interior": false
+   },
+   {
+    "name": "06_ground_plaza",
+    "pos": [
+     1788.7780952603498,
+     -55.125207072477195,
+     1.8
+    ],
+    "target": [
+     -1011.2219047396502,
+     -95.1252070724772,
+     761.8
+    ],
+    "hfov": 72.0,
+    "interior": false
+   },
+   {
+    "name": "07_interior_great_hall",
+    "pos": [
+     -920.3538965919923,
+     1231.855291410625,
+     484.0
+    ],
+    "target": [
+     117.4660801536935,
+     1163.8134229208179,
+     645.0
+    ],
+    "hfov": 74.0,
+    "interior": true
+   },
+   {
+    "name": "08_high_altitude_lens_district",
+    "pos": [
+     -2388.515283842795,
+     636.2207142215756,
+     1430.0
+    ],
+    "target": [
+     -1898.5152838427948,
+     56.22071422157562,
+     1170.0
+    ],
+    "hfov": 68.0,
+    "interior": false
+   },
+   {
+    "name": "09_nave_floor_looking_apse",
+    "pos": [
+     -10.043668122270901,
+     244.38725323033145,
+     97.0
+    ],
+    "target": [
+     -2210.043668122271,
+     284.38725323033145,
+     877.0
+    ],
+    "hfov": 72.0,
+    "interior": false
+   },
+   {
+    "name": "10_wall_plaza_district",
+    "pos": [
+     -962.1843869763308,
+     982.3648831653762,
+     2084.945516458531
+    ],
+    "target": [
+     -2344.8802065544673,
+     685.4604026987708,
+     2504.945516458531
+    ],
+    "hfov": 80.0,
+    "interior": false
+   },
+   {
+    "name": "11_skyline_NE_dusk",
+    "pos": [
+     9500.0,
+     5200.0,
+     900.0
+    ],
+    "target": [
+     -800.0,
+     150.0,
+     1500.0
+    ],
+    "hfov": 44.0,
+    "interior": false
+   }
+  ]
+ },
+ "renders": [
+  {
+   "file": "01_front_sea_gate.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.605,
+   "p1": 69,
+   "p99": 239,
+   "geometry_coverage": 0.603,
+   "faces_drawn": 582603,
+   "render_seconds": 9.0,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "02_oblique_SE.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.564,
+   "p1": 50,
+   "p99": 243,
+   "geometry_coverage": 0.749,
+   "faces_drawn": 579610,
+   "render_seconds": 8.6,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "03_side_south.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.597,
+   "p1": 55,
+   "p99": 242,
+   "geometry_coverage": 0.651,
+   "faces_drawn": 578455,
+   "render_seconds": 8.9,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "04_rear_apse.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.572,
+   "p1": 60,
+   "p99": 241,
+   "geometry_coverage": 0.539,
+   "faces_drawn": 589046,
+   "render_seconds": 8.4,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "05_aerial.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.518,
+   "p1": 55,
+   "p99": 240,
+   "geometry_coverage": 0.994,
+   "faces_drawn": 563662,
+   "render_seconds": 9.0,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "06_ground_plaza.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.575,
+   "p1": 50,
+   "p99": 244,
+   "geometry_coverage": 0.977,
+   "faces_drawn": 336348,
+   "render_seconds": 8.6,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "07_interior_great_hall.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.523,
+   "p1": 48,
+   "p99": 244,
+   "geometry_coverage": 1.0,
+   "faces_drawn": 39151,
+   "render_seconds": 3.0,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "08_high_altitude_lens_district.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.423,
+   "p1": 26,
+   "p99": 239,
+   "geometry_coverage": 0.995,
+   "faces_drawn": 225671,
+   "render_seconds": 8.7,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "09_nave_floor_looking_apse.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.532,
+   "p1": 30,
+   "p99": 241,
+   "geometry_coverage": 0.999,
+   "faces_drawn": 140514,
+   "render_seconds": 7.5,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "10_wall_plaza_district.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.562,
+   "p1": 30,
+   "p99": 239,
+   "geometry_coverage": 0.797,
+   "faces_drawn": 34113,
+   "render_seconds": 7.2,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  },
+  {
+   "file": "11_skyline_NE_dusk.png",
+   "size": [
+    1920,
+    1080
+   ],
+   "mean_luma": 0.629,
+   "p1": 77,
+   "p99": 240,
+   "geometry_coverage": 0.578,
+   "faces_drawn": 580084,
+   "render_seconds": 8.8,
+   "renderer": "C55A software rasteriser (numpy+PIL) -- NOT Blender"
+  }
+ ],
+ "not_verified": [
+  "Blender: no bpy in sandbox -> .blend NOT produced; blender_build.py never executed.",
+  "GitHub: no network/credentials in sandbox -> nothing pushed; push_to_github.sh never executed.",
+  "GLB opened in an external viewer (Blender/three.js): NOT done; only self-written re-parser used.",
+  "CITY_MASTER_3D_STANDARD.md and other policy sub-docs not read (fetch not permitted for that URL in this session).",
+  "Walkable connectivity (stairs/lifts between tiers, hall portal cut through the massif) is NOT modelled.",
+  "Structural/physical plausibility, collision and water-tightness: NOT checked.",
+  "10 km city-wide detail: NOT done (terrain/roads/light carpets are non-design context placeholders).",
+  "Minecraft conversion: out of scope (HOLD)."
+ ],
+ "build_validation_seconds": 1.9
+}
