@@ -1,0 +1,68 @@
+[
+  {
+    "prototype": "A_RIDGE",
+    "official_H_assignment": null,
+    "origin_m": [
+      -2550,
+      1550,
+      1100
+    ],
+    "ground_thickness_m": 170,
+    "status": "PARTIAL_RESEARCH_NOT_DISTRICT_COMPLETE"
+  },
+  {
+    "prototype": "B_CASCADE",
+    "official_H_assignment": null,
+    "origin_m": [
+      -2150,
+      -500,
+      690
+    ],
+    "ground_thickness_m": 240,
+    "status": "PARTIAL_RESEARCH_NOT_DISTRICT_COMPLETE"
+  },
+  {
+    "prototype": "C_HARBOR",
+    "official_H_assignment": null,
+    "origin_m": [
+      2380,
+      -1050,
+      740
+    ],
+    "ground_thickness_m": 200,
+    "status": "PARTIAL_RESEARCH_NOT_DISTRICT_COMPLETE"
+  },
+  {
+    "prototype": "D_CULTURE",
+    "official_H_assignment": null,
+    "origin_m": [
+      1850,
+      1760,
+      1270
+    ],
+    "ground_thickness_m": 230,
+    "status": "PARTIAL_RESEARCH_NOT_DISTRICT_COMPLETE"
+  },
+  {
+    "prototype": "E_HIGH",
+    "official_H_assignment": null,
+    "origin_m": [
+      0,
+      3220,
+      1820
+    ],
+    "ground_thickness_m": 280,
+    "status": "PARTIAL_RESEARCH_NOT_DISTRICT_COMPLETE"
+  },
+  {
+    "prototype": "F_REVERSE",
+    "official_H_assignment": null,
+    "origin_m": [
+      -1700,
+      3100,
+      1470
+    ],
+    "ground_thickness_m": 220,
+    "status": "PARTIAL_RESEARCH_NOT_DISTRICT_COMPLETE"
+  }
+]

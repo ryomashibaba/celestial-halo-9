@@ -1,0 +1,2501 @@
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\build_city.py:22: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\build_city.py:315: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc.world=bpy.data.worlds.new('Clear pale atmosphere');sc.world.use_nodes=True
+00:02.500  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_49456_f47f656ee9cbe7a7afe340e6d9a6d01b.png.png"
+Info: Saved as "R27B_LIVING_HORIZONS.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+22:04:11 | INFO: Starting glTF 2.0 export
+22:04:11 | INFO: Extracting primitive: A_RIDGE_city_ground
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: A_RIDGE_main_street
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: A_RIDGE_public_surface
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.020
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.021
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.022
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_arcade_pier.023
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.020
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.021
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.022
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.023
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.024
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.025
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.026
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.027
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.028
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.029
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.030
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.031
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.032
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.033
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.034
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.035
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.036
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.037
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.038
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_inset_glazing.039
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_roof.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_roof.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_roof.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_upper.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_upper.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Arrival mixed use_upper.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Artificial inland sea study
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: B_CASCADE_city_ground
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: B_CASCADE_main_street
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: B_CASCADE_public_surface
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Bank bronze reveal.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: C_HARBOR_city_ground
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: C_HARBOR_main_street
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: C_HARBOR_public_surface
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_court.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_court.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_east.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_east.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_entry.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_entry.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_entry.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_entry.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_north
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_north.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_north.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_west
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_west.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade court_west.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade sloped street
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade sloped street.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cascade sloped street.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Celestial spine
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 0_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 0_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 0_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 0_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 0_north
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 0_west
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 1_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 1_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 1_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 1_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 1_north
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 1_west
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 2_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 2_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 2_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 2_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 2_north
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 2_west
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 3_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 3_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 3_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 3_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 3_north
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central court 3_west
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central occupied bank 1
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central occupied bank 2
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central occupied bank 3
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central occupied bank 4
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central occupied bank 5
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Central occupied bank 6
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Civic water channel
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Civic water channel.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cliff concourse
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cliff concourse.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Cliff concourse.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_0_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_1_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_inset_glazing.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_2_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_3_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_0_4_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_0_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_1_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_inset_glazing.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_2_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_3_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_1_4_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_0_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_1_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_inset_glazing.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_2_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_3_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: cliff_2_4_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Crown structural bridge
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture branch pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture branch transit guideway
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture branch transit viaduct
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_court.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_east.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_entry.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_entry.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_north
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_north.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_west
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture living court_west.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture open civic room
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_00
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_01
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_02
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_03
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_04
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_05
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_06
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_07
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_08
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_09
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_10
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_11
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_12
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_13
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_14
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_15
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_16
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_17
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_18
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_19
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_20
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_21
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_22
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Culture opera vault_23
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: D_CULTURE_city_ground
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: D_CULTURE_main_street
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: D_CULTURE_public_surface
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Displaced high civic citadel
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: E_HIGH_city_ground
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: E_HIGH_main_street
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: E_HIGH_public_surface
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: East harbor pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: East harbor pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: East harbor transit guideway
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: East harbor transit viaduct
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Eastern nave canopy
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: ENTRY_PROMENADE_REAL_FLOOR
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Escarpment rail
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Escarpment rail.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Escarpment rail.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: F_REVERSE_city_ground
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: F_REVERSE_main_street
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: F_REVERSE_public_surface
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.020
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.021
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.022
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.023
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.024
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.025
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.026
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.027
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.028
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.029
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.030
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.031
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.032
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.033
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.034
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.035
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.036
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.037
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.038
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.039
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.040
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.041
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.042
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.043
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.044
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.045
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.046
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.047
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.048
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.049
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.050
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.051
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.052
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.053
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.054
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.055
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.056
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.057
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.058
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.059
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.060
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.061
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.062
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.063
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.064
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.065
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.066
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.067
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.068
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.069
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.070
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.071
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.072
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.073
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.074
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.075
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.076
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.077
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.078
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_canopy.079
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.020
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.021
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.022
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.023
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.024
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.025
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.026
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.027
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.028
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.029
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.030
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.031
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.032
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.033
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.034
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.035
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.036
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.037
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.038
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.039
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.040
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.041
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.042
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.043
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.044
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.045
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.046
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.047
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.048
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.049
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.050
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.051
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.052
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.053
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.054
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.055
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.056
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.057
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.058
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.059
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.060
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.061
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.062
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.063
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.064
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.065
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.066
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.067
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.068
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.069
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.070
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.071
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.072
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.073
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.074
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.075
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.076
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.077
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.078
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: garden_trunk.079
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Gateway arrival floor
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Gateway lintel
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Gateway occupied pylon / unassigned
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Gateway occupied pylon / unassigned.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.020
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.021
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.022
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.023
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.024
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.025
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.026
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.027
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.028
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.029
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.030
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.031
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.032
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.033
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.034
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_arcade_pier.035
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.020
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.021
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.022
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.023
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.024
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.025
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.026
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.027
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.028
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.029
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.030
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.031
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.032
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.033
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.034
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.035
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.036
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.037
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.038
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.039
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.040
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_inset_glazing.041
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_roof.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_roof.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_roof.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_roof.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_roof.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_upper.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_upper.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_upper.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_upper.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor arcade_upper.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_00
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_00.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_01
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_01.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_02
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_02.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_03
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_03.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_04
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_04.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_05
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_05.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_06
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_06.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_07
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_07.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_08
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_08.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_09
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_09.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_10
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_10.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_11
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_11.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_12
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_12.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_13
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_13.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_14
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_14.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_15
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_15.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_16
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_16.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_17
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_17.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_18
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_18.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_19
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_19.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_20
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_20.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_21
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_21.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_22
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_22.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_23
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor canopy_23.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.020
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.021
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.022
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.023
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.024
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.025
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.026
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.027
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.028
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.029
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.030
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.031
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.032
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.033
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.034
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_arcade_pier.035
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.008
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.009
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.010
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.011
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.012
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.013
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.014
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.015
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.016
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.017
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.018
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.019
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.020
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.021
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.022
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.023
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.024
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.025
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.026
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.027
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.028
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.029
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.030
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.031
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.032
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.033
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.034
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.035
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.036
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.037
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.038
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.039
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.040
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.041
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.042
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.043
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.044
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.045
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.046
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.047
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.048
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.049
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.050
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.051
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.052
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.053
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.054
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.055
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.056
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.057
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.058
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.059
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.060
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.061
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.062
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.063
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.064
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.065
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.066
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.067
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.068
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.069
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.070
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_inset_glazing.071
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_roof.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_roof.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_roof.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_roof.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_roof.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_upper
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_upper.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_upper.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_upper.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_upper.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Harbor residence_upper.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High garden diagonal
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High garden inhabited court_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High garden inhabited court_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High garden inhabited court_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High garden inhabited court_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High garden inhabited court_north
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High garden inhabited court_west
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High hall pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High hall pier.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High hall roof
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High public hall floor
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: High school citadel
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human 1.75m
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human 1.75m.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human 1.75m.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human 1.75m.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human 1.75m.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human 1.75m.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human 1.75m.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human 1.75m.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human head
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human head.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human head.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human head.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human head.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human head.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human head.006
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Human head.007
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Mountain sanctuary analogue / unassigned
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Mountain sanctuary analogue / unassigned.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Mountain sanctuary analogue / unassigned.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_00
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_00.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_00.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_00.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_01
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_01.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_01.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_01.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_02
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_02.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_02.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_02.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_03
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_03.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_03.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_03.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_04
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_04.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_04.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_04.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_05
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_05.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_05.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_05.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_06
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_06.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_06.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_06.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_07
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_07.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_07.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_07.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_08
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_08.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_08.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_08.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_09
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_09.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_09.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_09.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_10
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_10.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_10.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_10.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_11
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_11.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_11.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_11.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_12
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_12.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_12.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_12.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_13
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_13.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_13.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_13.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_14
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_14.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_14.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_14.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_15
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_15.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_15.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_15.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_16
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_16.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_16.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_16.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_17
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_17.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_17.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_17.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_18
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_18.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_18.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_18.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_19
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_19.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_19.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_19.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_20
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_20.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_20.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_20.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_21
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_21.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_21.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_21.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_22
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_22.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_22.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_22.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_23
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_23.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_23.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Nave structural arch_23.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: NAVE_REAL_FLOOR
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: New hypothetical basin / NOT W0 source
+22:04:11 | INFO: Primitives created: 3
+22:04:11 | INFO: Extracting primitive: North high pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: North high transit guideway
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: North high transit viaduct
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: PLAZA_REAL_FLOOR
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Quarter ground
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Quarter ground.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Quarter ground.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Quarter ground.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse approach pier
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse approach transit guideway
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse approach transit viaduct
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_court.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_court.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_east.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_east.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_entry.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_entry.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_entry.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_entry.005
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_north
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_north.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_north.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_west
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_west.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Reverse living courtyard_west.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge approach transit guideway
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge approach transit viaduct
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge civic needle
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_court
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_court.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_court.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_court.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_court.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_east
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_east.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_east.002
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_east.003
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_east.004
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_entry
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_entry.001
+22:04:11 | INFO: Primitives created: 1
+22:04:11 | INFO: Extracting primitive: Ridge residential court_entry.002
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_entry.003
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_entry.004
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_entry.005
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_entry.006
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_entry.007
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_entry.008
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_entry.009
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_north
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_north.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_north.002
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_north.003
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_north.004
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_west
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_west.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_west.002
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_west.003
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Ridge residential court_west.004
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Sail citadel analogue / unassigned
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Sail companion
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.002
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.003
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.004
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.005
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.006
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.007
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.008
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.009
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.010
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Stone bench.011
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_00
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_00.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_01
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_01.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_02
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_02.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_03
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_03.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_04
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_04.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_05
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_05.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_06
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_06.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_07
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_07.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_08
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_08.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_09
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_09.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_10
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_10.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_11
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_11.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_12
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_12.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_13
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_13.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_14
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_14.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_15
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_15.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_16
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_16.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_17
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_17.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_18
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_18.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_19
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_19.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_20
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_20.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_21
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_21.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_22
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_22.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_23
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault analogue / unassigned_23.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault public floor
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Twin vault public floor.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Undercroft arrival
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Undercroft public station
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.002
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.003
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.004
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.005
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.006
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.007
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.008
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.009
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.010
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.011
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.012
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.013
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.014
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.015
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.016
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Underside buttress.017
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: West ascent pier
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: West ascent pier.001
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: West ascent transit guideway
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: West ascent transit viaduct
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Extracting primitive: Western nave canopy
+22:04:12 | INFO: Primitives created: 1
+22:04:12 | INFO: Finished glTF 2.0 export in 1.888706922531128 s
+
+R27B_BUILD_FINISHED
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

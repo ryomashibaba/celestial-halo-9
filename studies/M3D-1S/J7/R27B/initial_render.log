@@ -1,0 +1,10 @@
+00:01.781  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\model\R27B_LIVING_HORIZONS.blend"
+RENDER_START 01_SW_VOID
+00:12.391  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\01_SW_VOID.png'
+RENDER_DONE 01_SW_VOID
+RENDER_START 05_ENTRY_HUMAN
+00:29.859  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R27B\renders\05_ENTRY_HUMAN.png'
+RENDER_DONE 05_ENTRY_HUMAN
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

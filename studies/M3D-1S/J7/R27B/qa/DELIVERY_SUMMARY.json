@@ -1,0 +1,50 @@
+{
+  "all_geometry_m": [
+    10800.0,
+    10800.0,
+    3489.9763946533203
+  ],
+  "architecture_excluding_terrain_and_water": {
+    "min_m": [
+      -3581.5,
+      -3300.0,
+      -75.53765869140625
+    ],
+    "max_m": [
+      3740.0,
+      3710.0,
+      3340.0
+    ],
+    "dimensions_m": [
+      7321.5,
+      7010.0,
+      3415.5376586914062
+    ]
+  },
+  "central_architecture": {
+    "min_m": [
+      -1640.0,
+      -2220.0,
+      115.0
+    ],
+    "max_m": [
+      1640.0,
+      1916.800048828125,
+      3340.0
+    ],
+    "dimensions_m": [
+      3280.0,
+      4136.800048828125,
+      3225.0
+    ]
+  },
+  "render_count": 9,
+  "floor_camera_count": 3,
+  "geometry_readback": true,
+  "art": "REJECT",
+  "Stage_D": false,
+  "official_master_complete": false,
+  "coordinate_transform_verified": false,
+  "formal_art_adoptions": 0,
+  "minecraft": "HOLD"
+}

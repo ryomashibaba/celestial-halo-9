@@ -1,0 +1,160 @@
+{
+  "scope": "R27B files except this manifest itself",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "ART_REVIEW_JA.md",
+      "bytes": 4825,
+      "sha256": "43d351ac2a3c7a169b2076d242f48d0632d16dc9348970c62e80ea8c5dc5adab"
+    },
+    {
+      "path": "build.log",
+      "bytes": 133374,
+      "sha256": "3678a0671faa744d8d83cc1c6510c102ca7dbd24f170f897101ca73f5bb3974f"
+    },
+    {
+      "path": "build_city.py",
+      "bytes": 22333,
+      "sha256": "1d0129e1a9290792681a29fb2d0eb061ca966c4ab40271f6ecaba2eddf72437f"
+    },
+    {
+      "path": "capture_sources.py",
+      "bytes": 3228,
+      "sha256": "3ca249ef9c461ee0aaca52c146a9a6c3c5705e6115c076f511893c3c5859a948"
+    },
+    {
+      "path": "initial_render.log",
+      "bytes": 599,
+      "sha256": "0aa41d31b753b0eff562125a0065f716df5353cdb6fe9d118b924fe87da430fa"
+    },
+    {
+      "path": "model/R27B_LIVING_HORIZONS.blend",
+      "bytes": 1101204,
+      "sha256": "1f573d82b8cbca1f526a66a5f2851f900346b1fb360a6e8f91976f8289292654"
+    },
+    {
+      "path": "model/R27B_LIVING_HORIZONS.glb",
+      "bytes": 3762320,
+      "sha256": "5ab2a66b75c00e044d24055d429493416ba0f29494a6dc00a6c2255c3243d80c"
+    },
+    {
+      "path": "package_review.py",
+      "bytes": 2824,
+      "sha256": "1da6273576139d55e1ac648f3c626e15fe54a4c08a7f998a4ca01db54fab329e"
+    },
+    {
+      "path": "qa/BUILD.json",
+      "bytes": 392,
+      "sha256": "e0eacb10a0af1e48ab50cb3737fe35c2aa40d874b2a0e29bcdce1ca5e1c665c2"
+    },
+    {
+      "path": "qa/CAMERAS.json",
+      "bytes": 3094,
+      "sha256": "d5a31f5d4f2853d7f5a2100403a19f358ce0275d25c5dd32fc98275c2946cf8d"
+    },
+    {
+      "path": "qa/DELIVERY_SUMMARY.json",
+      "bytes": 899,
+      "sha256": "1516897eb29b4a9cbc9dbf7535f09451ae3693ec314ca86f80001c788ba3bdf3"
+    },
+    {
+      "path": "qa/REVIEW_SHEET.jpg",
+      "bytes": 412381,
+      "sha256": "a5dcbeaf645cc4f23f04969bab335bdb6308bed086f49e4b25f8160649dfa288"
+    },
+    {
+      "path": "qa/SAVED_GEOMETRY_CHECK.json",
+      "bytes": 7574,
+      "sha256": "7f4f3915698da8c4a49b5ed7404ca836f29a38b47dab92a0a6a729e9f59f3b1e"
+    },
+    {
+      "path": "qa/SKY_PROTOTYPES.json",
+      "bytes": 1382,
+      "sha256": "7286a29c4bef5a2bd3aea1486b45583886b8c4af5b7ac97e90e9c596e94246e0"
+    },
+    {
+      "path": "qa/STARTUP_PROVENANCE.json",
+      "bytes": 10154,
+      "sha256": "26dbcd89c1a4ecb92f0cbcb478010d64093c839788a533e8f996b39d05af299b"
+    },
+    {
+      "path": "qa/TRANSIT_LIMITS.json",
+      "bytes": 1982,
+      "sha256": "67774f44db22d1a0ca904ea1836cd942c224d5bbfdd5673799c305b0ddba78f4"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 9545,
+      "sha256": "0cff588f57d3fd9e0dd161c3679d2a6008d4b870b9f391c354b3ec41db7f8237"
+    },
+    {
+      "path": "remaining_render.log",
+      "bytes": 1595,
+      "sha256": "91b7dd05b170b52df167d0f0008c6a281d02902431c065868cde08337d6af3d0"
+    },
+    {
+      "path": "renders/01_SW_VOID.png",
+      "bytes": 1246457,
+      "sha256": "bb9012990ca0b66fdb6cca4eae52977e990c3188c25083dd6e475c4f1c90a69f"
+    },
+    {
+      "path": "renders/02_EAST_SEA.png",
+      "bytes": 1295089,
+      "sha256": "0f23523a2f9ba8e2fe17553bbf7b9fa80efa888d6cbfc880276dc61ccff7e08f"
+    },
+    {
+      "path": "renders/03_NORTH_HIGHLAND.png",
+      "bytes": 1330389,
+      "sha256": "557ae1d6492e3c3a63688b90bc6abfd1946729476f9439bd634864b22a720b70"
+    },
+    {
+      "path": "renders/04_CENTRAL_OBLIQUE.png",
+      "bytes": 1350525,
+      "sha256": "a002b99926eaff559de9d96a2f0704a1c124694f4d4b8788f1059a001cdcc7c0"
+    },
+    {
+      "path": "renders/05_ENTRY_HUMAN.png",
+      "bytes": 1252521,
+      "sha256": "7efffcb234feb6f3ffeeeefe79442f9f0c3eaa7f5b7d72ba9ee96243cd55ff22"
+    },
+    {
+      "path": "renders/06_PUBLIC_PLAZA.png",
+      "bytes": 1272379,
+      "sha256": "01a6d50a2d78eba67da959a50fa33cf768964bc4ba122cb22071725baa66b494"
+    },
+    {
+      "path": "renders/07_SKY_HARBOR.png",
+      "bytes": 1194635,
+      "sha256": "3697d51f94bdaa8f2cd84b6a6f45d463d4c2a9deea4cb8b1fa996dd335fc516d"
+    },
+    {
+      "path": "renders/08_REAR_UNDERSIDE.png",
+      "bytes": 1227422,
+      "sha256": "8bc016baefea405cd3c2bf82c1f3c3645a3ee415d1587c015a1ff2053533a809"
+    },
+    {
+      "path": "renders/09_WHOLE_AERIAL.png",
+      "bytes": 1302968,
+      "sha256": "b1f6eaf8a6283ac95f9a54717f0c04b2c228178c249ea36584779e4c465d4886"
+    },
+    {
+      "path": "verify_github.py",
+      "bytes": 1799,
+      "sha256": "aa340e0d0e5d13cfdef24ecc62f9ec42e4c8e4a807660f0517f75d77215f33e1"
+    },
+    {
+      "path": "verify_saved.log",
+      "bytes": 86747,
+      "sha256": "042564e65212a60619b749b9ce7bd458905b4d2f7edeb38193a8c89582513864"
+    },
+    {
+      "path": "verify_saved.py",
+      "bytes": 3301,
+      "sha256": "e5d7aa5373bce000b80d935734a26a75c53eb5ea34698bfc9f9368e46e6cfaea"
+    }
+  ]
+}

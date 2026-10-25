@@ -1,0 +1,170 @@
+[
+  {
+    "name": "01_SW_VOID",
+    "position_m": [
+      -10500,
+      -11500,
+      5700
+    ],
+    "target_m": [
+      0,
+      500,
+      900
+    ],
+    "lens_mm": 39,
+    "floor_claim": null,
+    "camera_kind": "AERIAL_OR_FLOATING_STUDY_VIEW"
+  },
+  {
+    "name": "02_EAST_SEA",
+    "position_m": [
+      10900,
+      -5000,
+      3200
+    ],
+    "target_m": [
+      0,
+      600,
+      1000
+    ],
+    "lens_mm": 40,
+    "floor_claim": null,
+    "camera_kind": "AERIAL_OR_FLOATING_STUDY_VIEW"
+  },
+  {
+    "name": "03_NORTH_HIGHLAND",
+    "position_m": [
+      2500,
+      9100,
+      4300
+    ],
+    "target_m": [
+      0,
+      400,
+      700
+    ],
+    "lens_mm": 36,
+    "floor_claim": null,
+    "camera_kind": "AERIAL_OR_FLOATING_STUDY_VIEW"
+  },
+  {
+    "name": "04_CENTRAL_OBLIQUE",
+    "position_m": [
+      -5200,
+      -7100,
+      3650
+    ],
+    "target_m": [
+      0,
+      700,
+      1250
+    ],
+    "lens_mm": 38,
+    "floor_claim": null,
+    "camera_kind": "AERIAL_OR_FLOATING_STUDY_VIEW"
+  },
+  {
+    "name": "05_ENTRY_HUMAN",
+    "position_m": [
+      24,
+      -2010,
+      146.7
+    ],
+    "target_m": [
+      0,
+      600,
+      700
+    ],
+    "lens_mm": 24,
+    "floor_claim": "REAL_STUDY_FLOOR_1.7m_NOT_ROUTE_CERTIFICATION",
+    "camera_kind": "SUPPORTED_HUMAN_VIEW",
+    "down_ray_hit": true,
+    "hit_object": "ENTRY_PROMENADE_REAL_FLOOR",
+    "hit_m": [
+      24.0,
+      -2010.0,
+      145.0
+    ],
+    "eye_above_floor_m": 1.6999999999999886
+  },
+  {
+    "name": "06_PUBLIC_PLAZA",
+    "position_m": [
+      -470,
+      -1940,
+      156.7
+    ],
+    "target_m": [
+      200,
+      -100,
+      520
+    ],
+    "lens_mm": 26,
+    "floor_claim": "REAL_STUDY_FLOOR_1.7m_NOT_ROUTE_CERTIFICATION",
+    "camera_kind": "SUPPORTED_HUMAN_VIEW",
+    "down_ray_hit": true,
+    "hit_object": "PLAZA_REAL_FLOOR",
+    "hit_m": [
+      -470.0,
+      -1940.0,
+      155.0
+    ],
+    "eye_above_floor_m": 1.6999999999999886
+  },
+  {
+    "name": "07_SKY_HARBOR",
+    "position_m": [
+      1870,
+      -1350,
+      745.7
+    ],
+    "target_m": [
+      -200,
+      700,
+      1400
+    ],
+    "lens_mm": 24,
+    "floor_claim": "REAL_STUDY_FLOOR_1.7m_NOT_ROUTE_CERTIFICATION",
+    "camera_kind": "SUPPORTED_HUMAN_VIEW",
+    "down_ray_hit": true,
+    "hit_object": "C_HARBOR_public_surface",
+    "hit_m": [
+      1870.0,
+      -1350.0,
+      744.0
+    ],
+    "eye_above_floor_m": 1.7000000000000455
+  },
+  {
+    "name": "08_REAR_UNDERSIDE",
+    "position_m": [
+      -1450,
+      3990,
+      1130
+    ],
+    "target_m": [
+      0,
+      1000,
+      1600
+    ],
+    "lens_mm": 28,
+    "floor_claim": null,
+    "camera_kind": "AERIAL_OR_FLOATING_STUDY_VIEW"
+  },
+  {
+    "name": "09_WHOLE_AERIAL",
+    "position_m": [
+      9300,
+      -11700,
+      13500
+    ],
+    "target_m": [
+      0,
+      400,
+      400
+    ],
+    "lens_mm": 39,
+    "floor_claim": null,
+    "camera_kind": "AERIAL_OR_FLOATING_STUDY_VIEW"
+  }
+]
