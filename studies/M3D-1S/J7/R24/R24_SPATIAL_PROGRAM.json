@@ -1,0 +1,490 @@
+{
+  "schema": "halo9.j7.r24.spatial_first_design_hypothesis.v1",
+  "date_jst": "2026-10-25",
+  "status": "UNBUILT_CONCEPT_GRAPH_ONLY",
+  "units": "m",
+  "coordinates": "ISOLATED_RESEARCH_VIRTUAL_FRAME_UNAPPROVED_NOT_CITY_MASTER",
+  "purpose": "Replace R23 mass-first loft+carve with inhabited worlds+destinations+public route+negative-space simultaneously",
+  "source_pr53": 53,
+  "source_pr54": 54,
+  "source_r23_head": "93fafe3705dc4198a84697327977e59e080de2ac",
+  "creative_constraints": {
+    "city_target": "~10km unified future civilization",
+    "center_art": "sacred majestic 80 / dangerous anomalous 20 as impression",
+    "formal_shape": "NOT LOCKED",
+    "no_prohibited_shape_categories": true,
+    "minecraft_block_constraints_on_first_idea": false
+  },
+  "districts": [
+    {
+      "id": "D1",
+      "title": "海辺・水平に層をなす生活都市",
+      "distinction": "水際交通、低地街路、昼夜の商業、公園と公共水路が遠景の地形線を形づくる"
+    },
+    {
+      "id": "D2",
+      "title": "断崖・上下に交差する生活都市",
+      "distinction": "内部に立体街路と実開口を含み、公共施設・交通の動線が断面と外観を決める"
+    },
+    {
+      "id": "D3",
+      "title": "上空・背面・下面へ連続する複合都市",
+      "distinction": "屋上都市ではなく高高度の日常街路・広場・上空交通・背面居住・下面の公共正面を持つ"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "N00",
+      "name": "潮門・地上入口",
+      "district": "D1",
+      "xyz_m": [
+        0,
+        -2850,
+        80
+      ],
+      "program": "内海の交通ターミナル、海面と都市接点。人が入る実入口と近景の街路を持つ"
+    },
+    {
+      "id": "N01",
+      "name": "水辺の生活市場",
+      "district": "D1",
+      "xyz_m": [
+        -350,
+        -1950,
+        120
+      ],
+      "program": "軒・街路・中庭・運河に沿う開放商業。独立した中景の暮らしの輪郭"
+    },
+    {
+      "id": "N02",
+      "name": "地峡の公共広場",
+      "district": "D1",
+      "xyz_m": [
+        150,
+        -850,
+        260
+      ],
+      "program": "低層都市の公共集積。上空都市を望む眺望と地上の実開口"
+    },
+    {
+      "id": "N03",
+      "name": "交差域・都市間接続広場",
+      "district": "D2",
+      "xyz_m": [
+        -150,
+        350,
+        680
+      ],
+      "program": "低層から崖上街区への分岐、公開施設と街路。巨大板の接合線を出入口・通路へ変換"
+    },
+    {
+      "id": "N04",
+      "name": "西の居住断崖街区",
+      "district": "D2",
+      "xyz_m": [
+        -1950,
+        550,
+        1180
+      ],
+      "program": "複数の段状街路、実開口、都市施設を断崖断面に内蔵。窓デカールは禁止しないが実開口の代替不可"
+    },
+    {
+      "id": "N05",
+      "name": "西側の遠景広場",
+      "district": "D2",
+      "xyz_m": [
+        -2650,
+        1600,
+        1320
+      ],
+      "program": "別の生活都市と遠い上層都市を望む。外部の巨大広場を行止り模型にしない"
+    },
+    {
+      "id": "N06",
+      "name": "中層交通結節点",
+      "district": "D2",
+      "xyz_m": [
+        -250,
+        900,
+        820
+      ],
+      "program": "複数の運行レベルを持つ実交通ハブ候補。路線の上下接続を図式ではなく空間で表現"
+    },
+    {
+      "id": "N07",
+      "name": "中空の公開市場",
+      "district": "D3",
+      "xyz_m": [
+        450,
+        1350,
+        1920
+      ],
+      "program": "大きな内部街路と公開室の階層、階下の都市を見渡す開放部。外皮の中に本当の地区を配置"
+    },
+    {
+      "id": "N08",
+      "name": "上空の都市広場",
+      "district": "D3",
+      "xyz_m": [
+        900,
+        2150,
+        2520
+      ],
+      "program": "高所の主公共空。前景街区、中景の橋、遠景の裏側都市が同時に存在"
+    },
+    {
+      "id": "N09",
+      "name": "背面の生活大通り",
+      "district": "D3",
+      "xyz_m": [
+        -500,
+        2600,
+        3050
+      ],
+      "program": "背面も独立した主要都市正面。背面の大窓貼りではなく道路と建築の実体を持つ"
+    },
+    {
+      "id": "N10",
+      "name": "天空の公共到達広場",
+      "district": "D3",
+      "xyz_m": [
+        -250,
+        3150,
+        3700
+      ],
+      "program": "地上からの行先。全行程の終点となる公共広場と遠景。単体の冠飾りではない"
+    },
+    {
+      "id": "N11",
+      "name": "下面の居住回廊",
+      "district": "D2",
+      "xyz_m": [
+        1650,
+        1050,
+        1410
+      ],
+      "program": "上空地盤の下面を第二の公共正面として扱う、明確な通行・室・張出し構造"
+    },
+    {
+      "id": "N12",
+      "name": "東の連絡都市広場",
+      "district": "D3",
+      "xyz_m": [
+        2350,
+        1750,
+        1950
+      ],
+      "program": "下面の公開回廊から上空都市へ回り込む側方の二次到着先"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E00",
+      "a": "N00",
+      "b": "N01",
+      "mode": "pedestrian",
+      "conceptual_straight_line_distance_m": 966,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E01",
+      "a": "N01",
+      "b": "N02",
+      "mode": "pedestrian",
+      "conceptual_straight_line_distance_m": 1216,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E02",
+      "a": "N02",
+      "b": "N03",
+      "mode": "public_transfer",
+      "conceptual_straight_line_distance_m": 1306,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E03",
+      "a": "N03",
+      "b": "N04",
+      "mode": "public_transfer",
+      "conceptual_straight_line_distance_m": 1879,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E04",
+      "a": "N04",
+      "b": "N05",
+      "mode": "pedestrian",
+      "conceptual_straight_line_distance_m": 1270,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E05",
+      "a": "N05",
+      "b": "N09",
+      "mode": "vertical_transit",
+      "conceptual_straight_line_distance_m": 2935,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E06",
+      "a": "N03",
+      "b": "N06",
+      "mode": "pedestrian",
+      "conceptual_straight_line_distance_m": 576,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E07",
+      "a": "N06",
+      "b": "N07",
+      "mode": "vertical_transit",
+      "conceptual_straight_line_distance_m": 1379,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E08",
+      "a": "N07",
+      "b": "N08",
+      "mode": "vertical_transit",
+      "conceptual_straight_line_distance_m": 1097,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E09",
+      "a": "N08",
+      "b": "N09",
+      "mode": "vertical_transit",
+      "conceptual_straight_line_distance_m": 1563,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E10",
+      "a": "N09",
+      "b": "N10",
+      "mode": "vertical_transit",
+      "conceptual_straight_line_distance_m": 887,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E11",
+      "a": "N03",
+      "b": "N11",
+      "mode": "vertical_transit",
+      "conceptual_straight_line_distance_m": 2065,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E12",
+      "a": "N11",
+      "b": "N12",
+      "mode": "public_transfer",
+      "conceptual_straight_line_distance_m": 1128,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E13",
+      "a": "N12",
+      "b": "N08",
+      "mode": "vertical_transit",
+      "conceptual_straight_line_distance_m": 1609,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E14",
+      "a": "N07",
+      "b": "N11",
+      "mode": "public_transfer",
+      "conceptual_straight_line_distance_m": 1338,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E15",
+      "a": "N02",
+      "b": "N11",
+      "mode": "vertical_transit",
+      "conceptual_straight_line_distance_m": 2680,
+      "alignment_geometry_verified": false
+    },
+    {
+      "id": "E16",
+      "a": "N04",
+      "b": "N06",
+      "mode": "public_transfer",
+      "conceptual_straight_line_distance_m": 1773,
+      "alignment_geometry_verified": false
+    }
+  ],
+  "experience_routes": {
+    "primary": {
+      "nodes": [
+        "N00",
+        "N01",
+        "N02",
+        "N03",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "estimated_unbuilt_straight_segment_sum_m": 8990,
+      "mode": "mixed pedestrian + designated vertical transit; no accessibility or continuous walkability certified"
+    },
+    "branch_west": {
+      "nodes": [
+        "N03",
+        "N04",
+        "N05",
+        "N09"
+      ],
+      "purpose": "裏側への第二経路; initial topology only"
+    },
+    "branch_east": {
+      "nodes": [
+        "N03",
+        "N11",
+        "N12",
+        "N08"
+      ],
+      "purpose": "下面の公共都市から上層への第二経路; initial topology only"
+    }
+  },
+  "public_voids": [
+    {
+      "id": "V1",
+      "name": "地上から中層へ続く広域公開空",
+      "district_interface": [
+        "D1",
+        "D2"
+      ],
+      "reference_extent_m": [
+        1000,
+        3000,
+        1200
+      ],
+      "purpose": "地上市場・前広場・交差域が見通せる空間。外から内部への入口を見せる"
+    },
+    {
+      "id": "V2",
+      "name": "東西に開く中層都市の空",
+      "district_interface": [
+        "D2",
+        "D3"
+      ],
+      "reference_extent_m": [
+        3200,
+        1600,
+        1750
+      ],
+      "purpose": "主軸だけでなく都市を横に分岐する別世界として見せる。少なくとも2つの実開口と地上/上方の空を見る"
+    },
+    {
+      "id": "V3",
+      "name": "上空と背面へ貫く公開空",
+      "district_interface": [
+        "D3"
+      ],
+      "reference_extent_m": [
+        1800,
+        2100,
+        1500
+      ],
+      "purpose": "背面も都市として成立する終着空間。下面の公共回廊との視覚的・空間的つながり"
+    }
+  ],
+  "camera_test_hypotheses": [
+    {
+      "id": "C00",
+      "from": "N00",
+      "look_at": "N03",
+      "desired_visible_worlds": [
+        "D1",
+        "D2"
+      ],
+      "desired_visible_anchor": "N07",
+      "shot_type": "street-eye 1.7m on real support"
+    },
+    {
+      "id": "C01",
+      "from": "N02",
+      "look_at": "N07",
+      "desired_visible_worlds": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "desired_visible_anchor": "N08",
+      "shot_type": "street-eye 1.7m on real support"
+    },
+    {
+      "id": "C02",
+      "from": "N03",
+      "look_at": "N11",
+      "desired_visible_worlds": [
+        "D2",
+        "D3"
+      ],
+      "desired_visible_anchor": "N12",
+      "shot_type": "branch intersection eye"
+    },
+    {
+      "id": "C03",
+      "from": "N07",
+      "look_at": "N09",
+      "desired_visible_worlds": [
+        "D2",
+        "D3"
+      ],
+      "desired_visible_anchor": "N10",
+      "shot_type": "real interior public street eye"
+    },
+    {
+      "id": "C04",
+      "from": "N09",
+      "look_at": "N11",
+      "desired_visible_worlds": [
+        "D2",
+        "D3"
+      ],
+      "desired_visible_anchor": "N12",
+      "shot_type": "rear-city public street eye"
+    },
+    {
+      "id": "C05",
+      "from": "N11",
+      "look_at": "N08",
+      "desired_visible_worlds": [
+        "D2",
+        "D3"
+      ],
+      "desired_visible_anchor": "N10",
+      "shot_type": "inhabited underside public route eye"
+    }
+  ],
+  "validation_claims": {
+    "node_count": 13,
+    "edge_count": 17,
+    "connected_component_count": 1,
+    "connected_all_nodes": true,
+    "cycle_rank": 5,
+    "district_count": 3,
+    "primary_route_graph_exists": true,
+    "routing_distance_is_not_actual_road_length": true,
+    "walkable_or_transit_routes_exist_in_geometry": false,
+    "spatial_voids_are_not_tested_meshes": true,
+    "visibility_not_yet_tested": true
+  },
+  "restrictions": {
+    "rejected_r23_mesh_not_a_design_base": true,
+    "r23_assets_preserve": true,
+    "r21_comparison_informs_design": true,
+    "c55a_seven_rings_not_required": true,
+    "main_or_canonical_changes": false,
+    "official_art_adoptions": 0,
+    "minecraft_build": "HOLD",
+    "detailed_10km_master_done": false,
+    "work_or_foreground_control_authorized": false,
+    "note": "The number of nodes/edges/voids is a testable early design sketch; not a fixed global rule, official city coordinates, walkability guarantee or accepted art."
+  }
+}

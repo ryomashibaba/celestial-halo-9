@@ -1,0 +1,62 @@
+{
+  "schema": "halo9.j7.r24.gates.v1",
+  "date_jst": "2026-10-25",
+  "stage": "J7-R24",
+  "type": "METHOD_RESET_AND_TESTABLE_DESIGN",
+  "art": "NOT_TESTED",
+  "r23": "ART_REJECT",
+  "c55a": "ART_HOLD",
+  "r19": "ART_REJECT",
+  "r24_work_completed": [
+    "source-aligned failure causal analysis",
+    "spatial programming graph with distinct inhabited destinations",
+    "route graph reachability and multiple branch check",
+    "future gate criteria"
+  ],
+  "spatial_program_validation": {
+    "node_count": 13,
+    "edge_count": 17,
+    "connected_component_count": 1,
+    "connected_all_nodes": true,
+    "cycle_rank": 5,
+    "district_count": 3,
+    "primary_route_graph_exists": true,
+    "routing_distance_is_not_actual_road_length": true,
+    "walkable_or_transit_routes_exist_in_geometry": false,
+    "spatial_voids_are_not_tested_meshes": true,
+    "visibility_not_yet_tested": true
+  },
+  "r25_preconditions": [
+    "Obtain explicit new local Work approval",
+    "Use background or nonforeground Blender; no Computer Use without distinct approval",
+    "Instantiate three inhabited program slices and large public voids together, not shell-first",
+    "Prepare exterior and supported human-eye scenes before detail",
+    "No decorative salvage after failed macro-art",
+    "Do not assume conceptual node edges constitute walkable 3D routes"
+  ],
+  "not_done": [
+    "actual mesh geometry",
+    "Blender proof",
+    "geometry route accessibility",
+    "rendered aesthetic improvement",
+    "adoption",
+    "Minecraft work"
+  ],
+  "protected": {
+    "main_unchanged": true,
+    "old_research_preserve": true,
+    "M247C": true,
+    "W0": true,
+    "H1_H6": true,
+    "SB01_SB16": true,
+    "HERO4": true,
+    "three_axes": true,
+    "V1_V3": true,
+    "formal_art_adoptions": 0,
+    "construction": "HOLD",
+    "detailed_city_master_complete": false
+  },
+  "review": "R24_SPATIAL_FIRST_RESET_JA.md",
+  "program": "R24_SPATIAL_PROGRAM.json",
+  "next": "J7-R25 concrete spatial seed+macro visual test"
+}
