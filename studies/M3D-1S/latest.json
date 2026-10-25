@@ -1,13 +1,13 @@
 {
   "schema": "halo9.research.latest.v1",
-  "research_id": "M3D-1S/J7-R13",
+  "research_id": "M3D-1S/J7-R14",
   "date_jst": "2026-10-25",
-  "status": "REAL_BLENDER_EXPLORATIONS_AND_TWO_MACRO_REVISIONS__ART_REJECT",
-  "research_branch": "research/m3d1s-j7-r13-habitable-world-mass-20261025",
+  "status": "J7_R14_ACTUAL_BLENDER_6_SIMILAR_NEIGHBORHOODS_SPATIAL_PILOT_TECH_PASS__ART_REJECT",
+  "research_branch": "research/m3d1s-j7-r14-lived-world-spatial-pilot-20261025",
   "approval": "RESEARCH_ONLY",
   "canonical_adoption": "NONE",
   "construction": "HOLD",
-  "work_status": "LOCAL_BLENDER_GUI_MCP_AND_BACKGROUND_RENDER_EXECUTED",
+  "work_status": "GITHUB_ACTIONS_BLENDER_4_0_2_REMOTE_ONLY__NO_LOCAL_COMPUTER_USE",
   "outputs": {
     "report": "studies/M3D-1S/REVIEW_PLAN_JA.md",
     "config": "studies/M3D-1S/scenarios.json",
@@ -520,7 +520,7 @@
         "final_spans_m_xyz": [
           5429.8974609375,
           4203.66796875,
-          4560.0
+          4560
         ],
         "report": "R13_ART_REVIEW_JA.md",
         "section_sources": [
@@ -552,6 +552,38 @@
         "remote_checked_bytes": 57480905,
         "remote_all_hashes_match": true,
         "delivery_record": "This handoff is a later metadata commit; exact final head is the current PR #45 head. Model bytes are pinned by artifact_commit."
+      },
+      "r14": {
+        "status": "ART_REJECT_LOCAL_LIVED_WORLD_PILOT_ONLY",
+        "report": "studies/M3D-1S/J7/R14/R14_ART_AND_QA_JA.md",
+        "source": "studies/M3D-1S/J7/R14/build_lived_world_blender.py",
+        "workflow": ".github/workflows/halo9-j7-r14-urban-world.yml",
+        "handoff": "studies/M3D-1S/J7/R14/R14_HANDOFF.json",
+        "native_blend": "studies/M3D-1S/J7/R14/outputs/R14_INHABITED_WORLD_PILOT.blend",
+        "glb": "studies/M3D-1S/J7/R14/outputs/R14_INHABITED_WORLD_PILOT.glb",
+        "qa": "studies/M3D-1S/J7/R14/outputs/R14_ACTUAL_BLENDER_PILOT_QA.json",
+        "eight_real_images": "studies/M3D-1S/J7/R14/outputs/01_FRONT.png..08_HUMAN_SCALE.png",
+        "first_tech_pass_run": 40154645603,
+        "human_camera_fix_run": 40154962654,
+        "initial_measured": {
+          "span_xyz_m": [
+            1122.247,
+            1495.192,
+            732
+          ],
+          "meshes": 316,
+          "vertices": 2644,
+          "triangles": 4024,
+          "views": 8,
+          "GLB_reimport_meshes": 316,
+          "urban_nodes": 6,
+          "link_proxies": 7
+        },
+        "humanscale_last_gate": "Pending Blender raycast verification in corrected run, only initial view ungrounded",
+        "city_world_quality": "Six generic same-shape multilevel stacks; urban scale remains insufficient",
+        "formal_art_adoption": "NONE",
+        "minecraft_construction": "HOLD",
+        "city_master_complete": false
       }
     }
   },
@@ -567,12 +599,16 @@
     "J7_R12_INHABITED_VOLUME_NOT_PROVEN",
     "J7_R13_WORK_PROMPT_NOT_YET_PROVIDED",
     "J7_R13_REAL_BLENDER_EXECUTION_NOT_PERFORMED",
-    "J7_R12_METRICS_ONLY_SURFACE_PROXIES_NOT_VOID_VOLUME"
+    "J7_R12_METRICS_ONLY_SURFACE_PROXIES_NOT_VOID_VOLUME",
+    "R14_ART_REJECT_GENERIC_REPETITIVE_NEIGHBORHOOD_PILOT",
+    "R14_TRUE_PUBLIC_ACCESS_LINKS_AND_WALKABILITY_UNCERTIFIED",
+    "R14_FULL_HABITABLE_WORLD_NOT_PROVEN",
+    "R14_CENTRAL_ARCHITECTURE_NOT_ACCEPTED"
   ],
-  "next_gate": "J7-R13: Present a paste-ready local Work prompt in the NEXT reply when the user requests to continue; user launches local Work. Use inspected R11 macro geometry failure results; directly design one coherent spatially multi-scale inhabited mass/void city in real Blender, with two rough directions then focus on one and two real macro visual revisions. Save research-only Blender artifacts and multi-angle/real cross-sections to GitHub; no Chat handoff popup.",
+  "next_gate": "J7-R15: if asked to continue provide paste-ready LOCAL WORK prompt. User explicitly prefers non-occupying Blender MCP/background bpy with no Computer Use foreground without prior approval. ART-FIRST: design one truly inhabited 300-1000m future urban world before macro shaping; preserve R13/R14 failures only as research, not expand them.",
   "policy": "main/docs/policy/START_HERE.md",
   "rebuild_status": "REAL_BLENDER_5_2_1_MODELS_RENDERED_AND_GLB_REIMPORTED",
-  "art_review": "REJECT_CURRENT_R11_AND_PENDING_NEW_J7_R13_ART",
+  "art_review": "REJECT",
   "historical_missing_through_r10": [
     "BLEND",
     "MULTIVIEW_PHOTOREAL_ART_RENDERS",

@@ -1,0 +1,50 @@
+name: J7-R14 genuine Blender inhabited civic world pilot
+on:
+  push:
+    branches: [research/m3d1s-j7-r14-lived-world-spatial-pilot-20261025]
+    paths:
+      - .github/workflows/halo9-j7-r14-urban-world.yml
+      - studies/M3D-1S/J7/R14/build_lived_world_blender.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  true-blender-livable-city-pilot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install genuine Blender
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb libgl1-mesa-dri python3-numpy
+          blender --version | head -3
+      - name: Produce real BLEND GLB eight views and research QA
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+        run: |
+          rm -rf studies/M3D-1S/J7/R14/outputs
+          mkdir -p studies/M3D-1S/J7/R14/outputs
+          xvfb-run -a blender --background --factory-startup --python-exit-code 23 --python studies/M3D-1S/J7/R14/build_lived_world_blender.py -- studies/M3D-1S/J7/R14/outputs
+          test -s studies/M3D-1S/J7/R14/outputs/R14_INHABITED_WORLD_PILOT.blend
+          test -s studies/M3D-1S/J7/R14/outputs/R14_INHABITED_WORLD_PILOT.glb
+          test -s studies/M3D-1S/J7/R14/outputs/R14_ACTUAL_BLENDER_PILOT_QA.json
+          test "$(find studies/M3D-1S/J7/R14/outputs -name '*.png' | wc -l)" -eq 8
+      - name: Preserve actual output even if later GitHub update fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: halo9-r14-blender-livable-world-pilot
+          path: studies/M3D-1S/J7/R14/outputs
+          if-no-files-found: warn
+      - name: Save binary originals only in research branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R14/outputs/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "[skip ci] J7-R14 actual Blender inhabited spatial district pilot and 8-view imagery"
+          git fetch origin research/m3d1s-j7-r14-lived-world-spatial-pilot-20261025
+          git rebase FETCH_HEAD
+          git push origin HEAD:research/m3d1s-j7-r14-lived-world-spatial-pilot-20261025
