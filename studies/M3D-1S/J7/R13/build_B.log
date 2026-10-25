@@ -1,0 +1,230 @@
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\build_r13.py:11: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\build_r13.py:115: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc.world=bpy.data.worlds.new('Cool neutral daylight');sc.world.use_nodes=True
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Applied modifier was not first, result may not be as expected
+Info: Saved as "R13_B.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+10:04:37 | INFO: Starting glTF 2.0 export
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_00
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_01
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_02
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_03
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_04
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_05
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_06
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_07
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_08
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_09
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_10
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_11
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_12
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_13
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_14
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_15
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B01_LOWER_SEA__inner_landscape
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_00
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_01
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_02
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_03
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_04
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_05
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_06
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_07
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_08
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_09
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_10
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_11
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_12
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_13
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_14
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_15
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B02_EAST_INNER__inner_landscape
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_00
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_01
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_02
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_03
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_04
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_05
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_06
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_07
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_08
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_09
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_10
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_11
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_12
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_13
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_14
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_15
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B03_HIGH_SEED__inner_landscape
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_00
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_01
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_02
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_03
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_04
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_05
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_06
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_07
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_08
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_09
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_10
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_11
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_12
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_13
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_14
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_15
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Extracting primitive: B04_REVERSE_WORLD__inner_landscape
+10:04:37 | INFO: Primitives created: 1
+10:04:37 | INFO: Finished glTF 2.0 export in 0.07580971717834473 s
+00:03.985  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_B\01_FRONT.png'
+
+RENDER_DONE 01_FRONT
+00:04.266  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_B\02_OBLIQUE.png'
+RENDER_DONE 02_OBLIQUE
+00:04.516  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_B\03_SIDE.png'
+RENDER_DONE 03_SIDE
+00:04.766  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_B\04_REAR.png'
+RENDER_DONE 04_REAR
+00:05.079  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_B\05_AERIAL.png'
+RENDER_DONE 05_AERIAL
+00:05.422  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_B\06_GROUND.png'
+RENDER_DONE 06_GROUND
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

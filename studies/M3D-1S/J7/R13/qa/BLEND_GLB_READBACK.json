@@ -1,0 +1,1854 @@
+{
+  "scope": "Persistence, finite coordinates, dimensions, triangle counts and separate solid topology. NOT occupancy, habitation, route, load, art or construction approval. Object-size area bins depend on modelling organisation; no objects are split to improve the score.",
+  "models": {
+    "A": {
+      "blend_sha256": "74cc1467cfe8ff447e06b9b35e782abbfd317c069e26d0e29a3ef651bee330f6",
+      "glb_sha256": "d87f9804cdf9a614bbc6d318922b28e26701d91382faf5283f98c283d7ed56a3",
+      "blend_bytes": 332226,
+      "glb_bytes": 3345068,
+      "native": {
+        "min_m": [
+          -2671.294189453125,
+          -1356.7044677734375,
+          0.0
+        ],
+        "max_m": [
+          2632.649658203125,
+          2141.11767578125,
+          4480.0
+        ],
+        "span_m": [
+          5303.94384765625,
+          3497.822265625,
+          4480.0
+        ],
+        "mesh_objects": 532,
+        "vertices": 30272,
+        "triangles": 58416,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 0,
+        "boundary_edges": 0,
+        "summed_solid_volume_not_habitable_m3": 15921491541.30438,
+        "summed_triangle_area_m2": 388457324.58069235,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 22600655.219477605,
+          "500_1500": 365856669.36121476,
+          "over_1500": 0.0
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.05818053564538434,
+          "500_1500": 0.9418194643546157,
+          "over_1500": 0.0
+        },
+        "top_area_objects": [
+          {
+            "name": "A01_TIDE_ROOT__inner_water_basin",
+            "max_dimension_m": 1083.76806640625,
+            "summed_triangle_area_m2": 1652448.5600814107,
+            "triangles": 28,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A09_SKY_TIDE__inner_water_basin",
+            "max_dimension_m": 1025.29296875,
+            "summed_triangle_area_m2": 1500068.8781006774,
+            "triangles": 28,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A05_EAST_TIDE__inner_water_basin",
+            "max_dimension_m": 1036.980712890625,
+            "summed_triangle_area_m2": 1468872.2405900913,
+            "triangles": 28,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A02_SEED_ROOT__deep_civic_buttress_4",
+            "max_dimension_m": 805.0,
+            "summed_triangle_area_m2": 1364068.9988160105,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A02_SEED_ROOT__deep_civic_buttress_7",
+            "max_dimension_m": 805.0,
+            "summed_triangle_area_m2": 1356269.046119426,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A08_HIGH_GARDEN__deep_civic_buttress_5",
+            "max_dimension_m": 825.0,
+            "summed_triangle_area_m2": 1344510.2969473673,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A02_SEED_ROOT__deep_civic_buttress_5",
+            "max_dimension_m": 805.0,
+            "summed_triangle_area_m2": 1336357.8475838804,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A02_SEED_ROOT__deep_civic_buttress_3",
+            "max_dimension_m": 805.0,
+            "summed_triangle_area_m2": 1335815.4195934115,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A08_HIGH_GARDEN__deep_civic_buttress_4",
+            "max_dimension_m": 825.0,
+            "summed_triangle_area_m2": 1325721.035660794,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A08_HIGH_GARDEN__deep_civic_buttress_7",
+            "max_dimension_m": 825.0,
+            "summed_triangle_area_m2": 1318506.7504127377,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A11_ZENITH__deep_civic_buttress_5",
+            "max_dimension_m": 835.0,
+            "summed_triangle_area_m2": 1307267.0343364005,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "A08_HIGH_GARDEN__deep_civic_buttress_3",
+            "max_dimension_m": 825.0,
+            "summed_triangle_area_m2": 1294432.050873483,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          }
+        ]
+      },
+      "glb_reimport": {
+        "min_m": [
+          -2671.294189453125,
+          -1356.7044677734375,
+          0.0
+        ],
+        "max_m": [
+          2632.649658203125,
+          2141.11767578125,
+          4480.0
+        ],
+        "span_m": [
+          5303.94384765625,
+          3497.822265625,
+          4480.0
+        ],
+        "mesh_objects": 532,
+        "vertices": 116712,
+        "triangles": 58416,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 116712,
+        "boundary_edges": 116712,
+        "summed_solid_volume_not_habitable_m3": 0,
+        "summed_triangle_area_m2": 388457324.5806924,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 22600655.219477605,
+          "500_1500": 365856669.3612148,
+          "over_1500": 0.0
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.05818053564538433,
+          "500_1500": 0.9418194643546157,
+          "over_1500": 0.0
+        },
+        "top_area_objects": [
+          {
+            "name": "A01_TIDE_ROOT__inner_water_basin",
+            "max_dimension_m": 1083.76806640625,
+            "summed_triangle_area_m2": 1652448.5600814107,
+            "triangles": 28,
+            "nonmanifold_edges": 48
+          },
+          {
+            "name": "A09_SKY_TIDE__inner_water_basin",
+            "max_dimension_m": 1025.29296875,
+            "summed_triangle_area_m2": 1500068.8781006774,
+            "triangles": 28,
+            "nonmanifold_edges": 48
+          },
+          {
+            "name": "A05_EAST_TIDE__inner_water_basin",
+            "max_dimension_m": 1036.980712890625,
+            "summed_triangle_area_m2": 1468872.2405900913,
+            "triangles": 28,
+            "nonmanifold_edges": 48
+          },
+          {
+            "name": "A02_SEED_ROOT__deep_civic_buttress_4",
+            "max_dimension_m": 805.0,
+            "summed_triangle_area_m2": 1364068.9988160105,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "A02_SEED_ROOT__deep_civic_buttress_7",
+            "max_dimension_m": 805.0,
+            "summed_triangle_area_m2": 1356269.046119426,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "A08_HIGH_GARDEN__deep_civic_buttress_5",
+            "max_dimension_m": 825.0,
+            "summed_triangle_area_m2": 1344510.2969473673,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "A02_SEED_ROOT__deep_civic_buttress_5",
+            "max_dimension_m": 805.0,
+            "summed_triangle_area_m2": 1336357.8475838804,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "A02_SEED_ROOT__deep_civic_buttress_3",
+            "max_dimension_m": 805.0,
+            "summed_triangle_area_m2": 1335815.4195934115,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "A08_HIGH_GARDEN__deep_civic_buttress_4",
+            "max_dimension_m": 825.0,
+            "summed_triangle_area_m2": 1325721.035660794,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "A08_HIGH_GARDEN__deep_civic_buttress_7",
+            "max_dimension_m": 825.0,
+            "summed_triangle_area_m2": 1318506.7504127377,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "A11_ZENITH__deep_civic_buttress_5",
+            "max_dimension_m": 835.0,
+            "summed_triangle_area_m2": 1307267.0343364005,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "A08_HIGH_GARDEN__deep_civic_buttress_3",
+            "max_dimension_m": 825.0,
+            "summed_triangle_area_m2": 1294432.050873483,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          }
+        ]
+      },
+      "checks": {
+        "actual_blend_open": true,
+        "actual_glb_import": true,
+        "bounds_error_m": 0.0,
+        "bounds_match_2cm": true,
+        "triangle_counts_equal": true,
+        "all_vertices_finite": true
+      }
+    },
+    "B": {
+      "blend_sha256": "7b81f9cbda5744dd423ef0e1814a14b78a8740110a0a599b4a8c15084bb0242c",
+      "glb_sha256": "232155ff0d929e2388ed5f6d9293723f817e03302cf8daab39817fb33e28dbfa",
+      "blend_bytes": 128600,
+      "glb_bytes": 461932,
+      "native": {
+        "min_m": [
+          -2921.864501953125,
+          -550.0,
+          2.152617931365967
+        ],
+        "max_m": [
+          2678.1474609375,
+          2160.0,
+          4663.61328125
+        ],
+        "span_m": [
+          5600.01171875,
+          2710.0,
+          4661.46044921875
+        ],
+        "mesh_objects": 68,
+        "vertices": 3999,
+        "triangles": 7734,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 0,
+        "boundary_edges": 0,
+        "summed_solid_volume_not_habitable_m3": 15879502638.4827,
+        "summed_triangle_area_m2": 178961923.5522078,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.0,
+          "500_1500": 163993890.15072203,
+          "over_1500": 14968033.401485762
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.0,
+          "500_1500": 0.9163619103752022,
+          "over_1500": 0.08363808962479777
+        },
+        "top_area_objects": [
+          {
+            "name": "B02_EAST_INNER__inner_landscape",
+            "max_dimension_m": 1559.23876953125,
+            "summed_triangle_area_m2": 4171947.31630792,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B01_LOWER_SEA__inner_landscape",
+            "max_dimension_m": 2038.6978759765625,
+            "summed_triangle_area_m2": 4165839.2837721924,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_15",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3595265.862493548,
+            "triangles": 248,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B04_REVERSE_WORLD__inner_landscape",
+            "max_dimension_m": 1535.0958251953125,
+            "summed_triangle_area_m2": 3442085.4127521645,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_09",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3323949.037648188,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_01",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3323948.7835400933,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_14",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3323948.727055013,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_06",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3323947.0878345775,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_08",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3316910.2413223065,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_00",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3316910.0431111306,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_07",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3316909.7027848167,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_05",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3308656.7918937807,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          }
+        ]
+      },
+      "glb_reimport": {
+        "min_m": [
+          -2921.864501953125,
+          -550.0,
+          2.152617931365967
+        ],
+        "max_m": [
+          2678.1474609375,
+          2160.0,
+          4663.61328125
+        ],
+        "span_m": [
+          5600.01171875,
+          2710.0,
+          4661.46044921875
+        ],
+        "mesh_objects": 68,
+        "vertices": 15412,
+        "triangles": 7734,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 15412,
+        "boundary_edges": 15412,
+        "summed_solid_volume_not_habitable_m3": 0,
+        "summed_triangle_area_m2": 178961923.5522078,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.0,
+          "500_1500": 163993890.15072203,
+          "over_1500": 14968033.401485762
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.0,
+          "500_1500": 0.9163619103752022,
+          "over_1500": 0.08363808962479777
+        },
+        "top_area_objects": [
+          {
+            "name": "B02_EAST_INNER__inner_landscape",
+            "max_dimension_m": 1559.23876953125,
+            "summed_triangle_area_m2": 4171947.31630792,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B01_LOWER_SEA__inner_landscape",
+            "max_dimension_m": 2038.6978759765625,
+            "summed_triangle_area_m2": 4165839.2837721924,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_15",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3595265.862493548,
+            "triangles": 248,
+            "nonmanifold_edges": 486
+          },
+          {
+            "name": "B04_REVERSE_WORLD__inner_landscape",
+            "max_dimension_m": 1535.0958251953125,
+            "summed_triangle_area_m2": 3442085.4127521645,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_09",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3323949.037648188,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_01",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3323948.7835400933,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_14",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3323948.727055013,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_06",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3323947.0878345775,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_08",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3316910.2413223065,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_00",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3316910.0431111306,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_07",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3316909.7027848167,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "B02_EAST_INNER__inhabited_sector_05",
+            "max_dimension_m": 1450.0,
+            "summed_triangle_area_m2": 3308656.7918937807,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          }
+        ]
+      },
+      "checks": {
+        "actual_blend_open": true,
+        "actual_glb_import": true,
+        "bounds_error_m": 0.0,
+        "bounds_match_2cm": true,
+        "triangle_counts_equal": true,
+        "all_vertices_finite": true
+      }
+    },
+    "C_SELECTED": {
+      "blend_sha256": "cc278e0809b8f70382539b1e9e769660d1e0620616fa3bc7fe98f9a5a4fbd151",
+      "glb_sha256": "182d17a77aca86ab2e5c8958ec71c56193b0ee31d44b9e35a796d77babfedf4d",
+      "blend_bytes": 145777,
+      "glb_bytes": 496228,
+      "native": {
+        "min_m": [
+          -2749.968994140625,
+          -1699.818359375,
+          0.0
+        ],
+        "max_m": [
+          2679.916015625,
+          2569.496826171875,
+          4560.0
+        ],
+        "span_m": [
+          5429.884765625,
+          4269.3154296875,
+          4560.0
+        ],
+        "mesh_objects": 13,
+        "vertices": 4724,
+        "triangles": 9484,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 0,
+        "boundary_edges": 0,
+        "summed_solid_volume_not_habitable_m3": 28088358090.462036,
+        "summed_triangle_area_m2": 205932890.1328989,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.0,
+          "500_1500": 10178758.94402674,
+          "over_1500": 195754131.18887216
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.0,
+          "500_1500": 0.04942755349792776,
+          "over_1500": 0.9505724465020723
+        },
+        "top_area_objects": [
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 51314451.102511294,
+            "triangles": 2852,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C03_REAR_ARCHIVE__inhabited_land",
+            "max_dimension_m": 4240.0,
+            "summed_triangle_area_m2": 46297960.147315525,
+            "triangles": 1638,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C02_EAST_TIDELAND__inhabited_land",
+            "max_dimension_m": 3510.0,
+            "summed_triangle_area_m2": 45278414.03774192,
+            "triangles": 1800,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 3399.7685546875,
+            "summed_triangle_area_m2": 23307286.275184475,
+            "triangles": 1530,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C05_INNER_SEED__inhabited_land",
+            "max_dimension_m": 2198.255615234375,
+            "summed_triangle_area_m2": 12108091.661953919,
+            "triangles": 588,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C06_TIDAL_APPROACH__inhabited_land",
+            "max_dimension_m": 2178.934814453125,
+            "summed_triangle_area_m2": 10837664.884134522,
+            "triangles": 608,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 2300.0,
+            "summed_triangle_area_m2": 6610263.080030486,
+            "triangles": 12,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "Upper tidal world",
+            "max_dimension_m": 1350.0,
+            "summed_triangle_area_m2": 2200185.279483362,
+            "triangles": 12,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "Rear deep cultivation",
+            "max_dimension_m": 1426.442138671875,
+            "summed_triangle_area_m2": 2159092.6367012477,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "East inner sea",
+            "max_dimension_m": 1300.0,
+            "summed_triangle_area_m2": 2122076.7938669645,
+            "triangles": 12,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "High confluence common",
+            "max_dimension_m": 1046.5440673828125,
+            "summed_triangle_area_m2": 1687891.1586675711,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "East collective ground",
+            "max_dimension_m": 923.7557983398438,
+            "summed_triangle_area_m2": 1084089.6559807267,
+            "triangles": 108,
+            "nonmanifold_edges": 0
+          }
+        ]
+      },
+      "glb_reimport": {
+        "min_m": [
+          -2749.968994140625,
+          -1699.818359375,
+          0.0
+        ],
+        "max_m": [
+          2679.916015625,
+          2569.496826171875,
+          4560.0
+        ],
+        "span_m": [
+          5429.884765625,
+          4269.3154296875,
+          4560.0
+        ],
+        "mesh_objects": 13,
+        "vertices": 17898,
+        "triangles": 9484,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 17956,
+        "boundary_edges": 17956,
+        "summed_solid_volume_not_habitable_m3": 0,
+        "summed_triangle_area_m2": 205932890.1328989,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.0,
+          "500_1500": 10178758.94402674,
+          "over_1500": 195754131.18887216
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.0,
+          "500_1500": 0.04942755349792776,
+          "over_1500": 0.9505724465020723
+        },
+        "top_area_objects": [
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 51314451.102511294,
+            "triangles": 2852,
+            "nonmanifold_edges": 5260
+          },
+          {
+            "name": "C03_REAR_ARCHIVE__inhabited_land",
+            "max_dimension_m": 4240.0,
+            "summed_triangle_area_m2": 46297960.147315525,
+            "triangles": 1638,
+            "nonmanifold_edges": 3132
+          },
+          {
+            "name": "C02_EAST_TIDELAND__inhabited_land",
+            "max_dimension_m": 3510.0,
+            "summed_triangle_area_m2": 45278414.03774192,
+            "triangles": 1800,
+            "nonmanifold_edges": 3406
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 3399.7685546875,
+            "summed_triangle_area_m2": 23307286.275184475,
+            "triangles": 1530,
+            "nonmanifold_edges": 2890
+          },
+          {
+            "name": "C05_INNER_SEED__inhabited_land",
+            "max_dimension_m": 2198.255615234375,
+            "summed_triangle_area_m2": 12108091.661953919,
+            "triangles": 588,
+            "nonmanifold_edges": 1138
+          },
+          {
+            "name": "C06_TIDAL_APPROACH__inhabited_land",
+            "max_dimension_m": 2178.934814453125,
+            "summed_triangle_area_m2": 10837664.884134522,
+            "triangles": 608,
+            "nonmanifold_edges": 1194
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 2300.0,
+            "summed_triangle_area_m2": 6610263.080030486,
+            "triangles": 12,
+            "nonmanifold_edges": 24
+          },
+          {
+            "name": "Upper tidal world",
+            "max_dimension_m": 1350.0,
+            "summed_triangle_area_m2": 2200185.279483362,
+            "triangles": 12,
+            "nonmanifold_edges": 24
+          },
+          {
+            "name": "Rear deep cultivation",
+            "max_dimension_m": 1426.442138671875,
+            "summed_triangle_area_m2": 2159092.6367012477,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "East inner sea",
+            "max_dimension_m": 1300.0,
+            "summed_triangle_area_m2": 2122076.7938669645,
+            "triangles": 12,
+            "nonmanifold_edges": 24
+          },
+          {
+            "name": "High confluence common",
+            "max_dimension_m": 1046.5440673828125,
+            "summed_triangle_area_m2": 1687891.1586675711,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          },
+          {
+            "name": "East collective ground",
+            "max_dimension_m": 923.7557983398438,
+            "summed_triangle_area_m2": 1084089.6559807267,
+            "triangles": 108,
+            "nonmanifold_edges": 216
+          }
+        ]
+      },
+      "checks": {
+        "actual_blend_open": true,
+        "actual_glb_import": true,
+        "bounds_error_m": 0.0,
+        "bounds_match_2cm": true,
+        "triangle_counts_equal": true,
+        "all_vertices_finite": true
+      }
+    },
+    "C_R1": {
+      "blend_sha256": "8d8f10d49fc23ce8e1a6b74b82027631711dfea34a6b02dc5f9a7b48d65a6036",
+      "glb_sha256": "5a0835dccb872c4b6e8b8bc445287ccceda81dc741bf26e62ee67bc88efaf828",
+      "blend_bytes": 178335,
+      "glb_bytes": 882816,
+      "native": {
+        "min_m": [
+          -2750.0,
+          -1599.9228515625,
+          0.0
+        ],
+        "max_m": [
+          2679.929443359375,
+          2569.7412109375,
+          4560.0
+        ],
+        "span_m": [
+          5429.9296875,
+          4169.6640625,
+          4560.0
+        ],
+        "mesh_objects": 32,
+        "vertices": 9188,
+        "triangles": 18316,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 0,
+        "boundary_edges": 0,
+        "summed_solid_volume_not_habitable_m3": 21858456539.561928,
+        "summed_triangle_area_m2": 194421455.2272052,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 1330345.0543609501,
+          "500_1500": 42822285.61766415,
+          "over_1500": 150268824.55518007
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.006842583565719533,
+          "500_1500": 0.22025493826090894,
+          "over_1500": 0.7729024781733714
+        },
+        "top_area_objects": [
+          {
+            "name": "C03_REAR_ARCHIVE__inhabited_land",
+            "max_dimension_m": 4240.0,
+            "summed_triangle_area_m2": 41168631.92444733,
+            "triangles": 1932,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 38279737.273305155,
+            "triangles": 4204,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C02_EAST_TIDELAND__inhabited_land",
+            "max_dimension_m": 3510.0,
+            "summed_triangle_area_m2": 34493937.49935831,
+            "triangles": 2718,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 3399.7685546875,
+            "summed_triangle_area_m2": 23307286.275184475,
+            "triangles": 1530,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 2300.0,
+            "summed_triangle_area_m2": 6610263.080030486,
+            "triangles": 12,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_INNER_COAST__inhabited_land",
+            "max_dimension_m": 1596.795166015625,
+            "summed_triangle_area_m2": 6408968.502854283,
+            "triangles": 628,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_S01__inhabited_land",
+            "max_dimension_m": 1025.457275390625,
+            "summed_triangle_area_m2": 4234480.654184363,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_S02__inhabited_land",
+            "max_dimension_m": 1003.7842407226562,
+            "summed_triangle_area_m2": 3812648.7804682534,
+            "triangles": 588,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_E02__inhabited_land",
+            "max_dimension_m": 964.4050903320312,
+            "summed_triangle_area_m2": 3422359.3122892994,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_E01__inhabited_land",
+            "max_dimension_m": 926.3450927734375,
+            "summed_triangle_area_m2": 3212585.2684830683,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_N01__inhabited_land",
+            "max_dimension_m": 952.1806640625,
+            "summed_triangle_area_m2": 2931160.0577418543,
+            "triangles": 576,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_W01__inhabited_land",
+            "max_dimension_m": 916.3486938476562,
+            "summed_triangle_area_m2": 2866530.202803819,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          }
+        ]
+      },
+      "glb_reimport": {
+        "min_m": [
+          -2750.0,
+          -1599.9228515625,
+          0.0
+        ],
+        "max_m": [
+          2679.929443359375,
+          2569.7412109375,
+          4560.0
+        ],
+        "span_m": [
+          5429.9296875,
+          4169.6640625,
+          4560.0
+        ],
+        "mesh_objects": 32,
+        "vertices": 31537,
+        "triangles": 18316,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 31056,
+        "boundary_edges": 31056,
+        "summed_solid_volume_not_habitable_m3": 0,
+        "summed_triangle_area_m2": 194421455.22720516,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 1330345.0543609501,
+          "500_1500": 42822285.61766414,
+          "over_1500": 150268824.55518007
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 0.0,
+          "20_100": 0.0,
+          "100_500": 0.006842583565719534,
+          "500_1500": 0.22025493826090894,
+          "over_1500": 0.7729024781733715
+        },
+        "top_area_objects": [
+          {
+            "name": "C03_REAR_ARCHIVE__inhabited_land",
+            "max_dimension_m": 4240.0,
+            "summed_triangle_area_m2": 41168631.92444733,
+            "triangles": 1932,
+            "nonmanifold_edges": 3640
+          },
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 38279737.273305155,
+            "triangles": 4204,
+            "nonmanifold_edges": 4024
+          },
+          {
+            "name": "C02_EAST_TIDELAND__inhabited_land",
+            "max_dimension_m": 3510.0,
+            "summed_triangle_area_m2": 34493937.49935831,
+            "triangles": 2718,
+            "nonmanifold_edges": 5038
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 3399.7685546875,
+            "summed_triangle_area_m2": 23307286.275184475,
+            "triangles": 1530,
+            "nonmanifold_edges": 2890
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 2300.0,
+            "summed_triangle_area_m2": 6610263.080030486,
+            "triangles": 12,
+            "nonmanifold_edges": 24
+          },
+          {
+            "name": "R1_INNER_COAST__inhabited_land",
+            "max_dimension_m": 1596.795166015625,
+            "summed_triangle_area_m2": 6408968.502854283,
+            "triangles": 628,
+            "nonmanifold_edges": 1214
+          },
+          {
+            "name": "R1_S01__inhabited_land",
+            "max_dimension_m": 1025.457275390625,
+            "summed_triangle_area_m2": 4234480.654184363,
+            "triangles": 572,
+            "nonmanifold_edges": 1112
+          },
+          {
+            "name": "R1_S02__inhabited_land",
+            "max_dimension_m": 1003.7842407226562,
+            "summed_triangle_area_m2": 3812648.7804682534,
+            "triangles": 588,
+            "nonmanifold_edges": 1134
+          },
+          {
+            "name": "R1_E02__inhabited_land",
+            "max_dimension_m": 964.4050903320312,
+            "summed_triangle_area_m2": 3422359.3122892994,
+            "triangles": 572,
+            "nonmanifold_edges": 1104
+          },
+          {
+            "name": "R1_E01__inhabited_land",
+            "max_dimension_m": 926.3450927734375,
+            "summed_triangle_area_m2": 3212585.2684830683,
+            "triangles": 572,
+            "nonmanifold_edges": 1104
+          },
+          {
+            "name": "R1_N01__inhabited_land",
+            "max_dimension_m": 952.1806640625,
+            "summed_triangle_area_m2": 2931160.0577418543,
+            "triangles": 576,
+            "nonmanifold_edges": 1116
+          },
+          {
+            "name": "R1_W01__inhabited_land",
+            "max_dimension_m": 916.3486938476562,
+            "summed_triangle_area_m2": 2866530.202803819,
+            "triangles": 572,
+            "nonmanifold_edges": 1104
+          }
+        ]
+      },
+      "checks": {
+        "actual_blend_open": true,
+        "actual_glb_import": true,
+        "bounds_error_m": 0.0,
+        "bounds_match_2cm": true,
+        "triangle_counts_equal": true,
+        "all_vertices_finite": true
+      }
+    },
+    "C_R2": {
+      "blend_sha256": "fe75170aaf8893e7c244831586fc8a83f71f243722d4aeae7956341c0f327081",
+      "glb_sha256": "dae8ef9d46536d7af33abbcbf40b42c3e5d24b73b2cecf6c87035370b58ef786",
+      "blend_bytes": 249149,
+      "glb_bytes": 1682764,
+      "native": {
+        "min_m": [
+          -2750.0,
+          -1599.9228515625,
+          0.0
+        ],
+        "max_m": [
+          2679.8974609375,
+          2603.745361328125,
+          4560.0
+        ],
+        "span_m": [
+          5429.8974609375,
+          4203.66796875,
+          4560.0
+        ],
+        "mesh_objects": 111,
+        "vertices": 17573,
+        "triangles": 34806,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 0,
+        "boundary_edges": 0,
+        "summed_solid_volume_not_habitable_m3": 17574682159.346844,
+        "summed_triangle_area_m2": 218278756.14157698,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 2253.729848980092,
+          "20_100": 0.0,
+          "100_500": 4596960.243151697,
+          "500_1500": 65998258.309888035,
+          "over_1500": 147681283.85868827
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 1.0325007750723613e-05,
+          "20_100": 0.0,
+          "100_500": 0.021060044158260093,
+          "500_1500": 0.3023576800441411,
+          "over_1500": 0.6765719507898481
+        },
+        "top_area_objects": [
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 39303774.25662713,
+            "triangles": 4570,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C02_EAST_TIDELAND__inhabited_land",
+            "max_dimension_m": 3510.0,
+            "summed_triangle_area_m2": 33491156.147440962,
+            "triangles": 3700,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C03_REAR_ARCHIVE__inhabited_land",
+            "max_dimension_m": 4240.0,
+            "summed_triangle_area_m2": 33184231.497074984,
+            "triangles": 3576,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 3399.91796875,
+            "summed_triangle_area_m2": 18214953.61759589,
+            "triangles": 1792,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R2_INTERWORLD_COMMON__inhabited_land",
+            "max_dimension_m": 1733.3935546875,
+            "summed_triangle_area_m2": 10467936.757064557,
+            "triangles": 1508,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 2300.0,
+            "summed_triangle_area_m2": 6610263.080030486,
+            "triangles": 12,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_INNER_COAST__inhabited_land",
+            "max_dimension_m": 1596.795166015625,
+            "summed_triangle_area_m2": 6408968.502854283,
+            "triangles": 628,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_S01__inhabited_land",
+            "max_dimension_m": 1025.457275390625,
+            "summed_triangle_area_m2": 4234480.654184363,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_S02__inhabited_land",
+            "max_dimension_m": 1003.7842407226562,
+            "summed_triangle_area_m2": 3812648.7804682534,
+            "triangles": 588,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R2_SIDE_INNER__inhabited_land",
+            "max_dimension_m": 913.329345703125,
+            "summed_triangle_area_m2": 3623381.6905226344,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_E02__inhabited_land",
+            "max_dimension_m": 964.4050903320312,
+            "summed_triangle_area_m2": 3508804.5965169775,
+            "triangles": 972,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R2_N_EAST__inhabited_land",
+            "max_dimension_m": 940.6431884765625,
+            "summed_triangle_area_m2": 3413300.9869910437,
+            "triangles": 556,
+            "nonmanifold_edges": 0
+          }
+        ]
+      },
+      "glb_reimport": {
+        "min_m": [
+          -2750.0,
+          -1599.9228515625,
+          0.0
+        ],
+        "max_m": [
+          2679.8974609375,
+          2603.745361328125,
+          4560.0
+        ],
+        "span_m": [
+          5429.8974609375,
+          4203.66796875,
+          4560.0
+        ],
+        "mesh_objects": 111,
+        "vertices": 59627,
+        "triangles": 34806,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 58500,
+        "boundary_edges": 58500,
+        "summed_solid_volume_not_habitable_m3": 0,
+        "summed_triangle_area_m2": 218278756.18307897,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 2253.7298489800924,
+          "20_100": 0.0,
+          "100_500": 4596960.289728005,
+          "500_1500": 65998258.30481373,
+          "over_1500": 147681283.85868827
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 1.032500774876049e-05,
+          "20_100": 0.0,
+          "100_500": 0.021060044367635825,
+          "500_1500": 0.302357679963406,
+          "over_1500": 0.6765719506612095
+        },
+        "top_area_objects": [
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 39303774.25662713,
+            "triangles": 4570,
+            "nonmanifold_edges": 4274
+          },
+          {
+            "name": "C02_EAST_TIDELAND__inhabited_land",
+            "max_dimension_m": 3510.0,
+            "summed_triangle_area_m2": 33491156.147440962,
+            "triangles": 3700,
+            "nonmanifold_edges": 6786
+          },
+          {
+            "name": "C03_REAR_ARCHIVE__inhabited_land",
+            "max_dimension_m": 4240.0,
+            "summed_triangle_area_m2": 33184231.497074984,
+            "triangles": 3576,
+            "nonmanifold_edges": 2966
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 3399.91796875,
+            "summed_triangle_area_m2": 18214953.61759589,
+            "triangles": 1792,
+            "nonmanifold_edges": 3342
+          },
+          {
+            "name": "R2_INTERWORLD_COMMON__inhabited_land",
+            "max_dimension_m": 1733.3935546875,
+            "summed_triangle_area_m2": 10467936.757064557,
+            "triangles": 1508,
+            "nonmanifold_edges": 2856
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 2300.0,
+            "summed_triangle_area_m2": 6610263.080030486,
+            "triangles": 12,
+            "nonmanifold_edges": 24
+          },
+          {
+            "name": "R1_INNER_COAST__inhabited_land",
+            "max_dimension_m": 1596.795166015625,
+            "summed_triangle_area_m2": 6408968.502854283,
+            "triangles": 628,
+            "nonmanifold_edges": 1214
+          },
+          {
+            "name": "R1_S01__inhabited_land",
+            "max_dimension_m": 1025.457275390625,
+            "summed_triangle_area_m2": 4234480.654184363,
+            "triangles": 572,
+            "nonmanifold_edges": 1112
+          },
+          {
+            "name": "R1_S02__inhabited_land",
+            "max_dimension_m": 1003.7842407226562,
+            "summed_triangle_area_m2": 3812648.7804682534,
+            "triangles": 588,
+            "nonmanifold_edges": 1134
+          },
+          {
+            "name": "R2_SIDE_INNER__inhabited_land",
+            "max_dimension_m": 913.329345703125,
+            "summed_triangle_area_m2": 3623381.6905226344,
+            "triangles": 572,
+            "nonmanifold_edges": 1110
+          },
+          {
+            "name": "R1_E02__inhabited_land",
+            "max_dimension_m": 964.4050903320312,
+            "summed_triangle_area_m2": 3508804.5965169775,
+            "triangles": 972,
+            "nonmanifold_edges": 1782
+          },
+          {
+            "name": "R2_N_EAST__inhabited_land",
+            "max_dimension_m": 940.6431884765625,
+            "summed_triangle_area_m2": 3413300.9869910437,
+            "triangles": 556,
+            "nonmanifold_edges": 1080
+          }
+        ]
+      },
+      "checks": {
+        "actual_blend_open": true,
+        "actual_glb_import": true,
+        "bounds_error_m": 0.0,
+        "bounds_match_2cm": true,
+        "triangle_counts_equal": true,
+        "all_vertices_finite": true
+      }
+    },
+    "SECTION_XZ": {
+      "blend_sha256": "3668ddbf6b20dd04873ec7b1a7d7b9b12d00c50f7c27de27f1575cf5c1759f16",
+      "glb_sha256": "29173de5864e390c9c44f1a462de8d02d69fe72dda2b753851d1e15926d1859b",
+      "blend_bytes": 356587,
+      "glb_bytes": 1008284,
+      "native": {
+        "min_m": [
+          -2750.0,
+          -1599.9228515625,
+          0.0
+        ],
+        "max_m": [
+          2679.8974609375,
+          680.0001220703125,
+          4560.0
+        ],
+        "span_m": [
+          5429.8974609375,
+          2279.9228515625,
+          4560.0
+        ],
+        "mesh_objects": 86,
+        "vertices": 10144,
+        "triangles": 19976,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 0,
+        "boundary_edges": 0,
+        "summed_solid_volume_not_habitable_m3": 9251355259.68578,
+        "summed_triangle_area_m2": 122901771.35498075,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 2253.729848980092,
+          "20_100": 0.0,
+          "100_500": 3856181.3361906074,
+          "500_1500": 31634234.491626546,
+          "over_1500": 87409101.79731461
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 1.833765147672753e-05,
+          "20_100": 0.0,
+          "100_500": 0.031376124962859055,
+          "500_1500": 0.25739445528621774,
+          "over_1500": 0.7112110820994465
+        },
+        "top_area_objects": [
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 35286553.772275805,
+            "triangles": 3500,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C02_EAST_TIDELAND__inhabited_land",
+            "max_dimension_m": 3510.0,
+            "summed_triangle_area_m2": 23278478.32028642,
+            "triangles": 2778,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 3388.36865234375,
+            "summed_triangle_area_m2": 10701368.148748338,
+            "triangles": 1056,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_INNER_COAST__inhabited_land",
+            "max_dimension_m": 1596.795166015625,
+            "summed_triangle_area_m2": 6408968.502854283,
+            "triangles": 628,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R2_INTERWORLD_COMMON__inhabited_land",
+            "max_dimension_m": 1733.3935546875,
+            "summed_triangle_area_m2": 6114645.158862378,
+            "triangles": 890,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 1980.0,
+            "summed_triangle_area_m2": 5619087.894287384,
+            "triangles": 12,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_S01__inhabited_land",
+            "max_dimension_m": 1025.457275390625,
+            "summed_triangle_area_m2": 4234480.654184363,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_S02__inhabited_land",
+            "max_dimension_m": 1003.7842407226562,
+            "summed_triangle_area_m2": 3812648.7804682534,
+            "triangles": 588,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_E01__inhabited_land",
+            "max_dimension_m": 926.3450927734375,
+            "summed_triangle_area_m2": 3212585.2684830683,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_W01__inhabited_land",
+            "max_dimension_m": 916.3486938476562,
+            "summed_triangle_area_m2": 2866530.202803819,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_W03__inhabited_land",
+            "max_dimension_m": 688.9674072265625,
+            "summed_triangle_area_m2": 2277350.6648119297,
+            "triangles": 1062,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_E03__inhabited_land",
+            "max_dimension_m": 681.5032348632812,
+            "summed_triangle_area_m2": 2161594.506356195,
+            "triangles": 428,
+            "nonmanifold_edges": 0
+          }
+        ]
+      },
+      "glb_reimport": {
+        "min_m": [
+          -2750.0,
+          -1599.9228515625,
+          0.0
+        ],
+        "max_m": [
+          2679.8974609375,
+          680.0001220703125,
+          4560.0
+        ],
+        "span_m": [
+          5429.8974609375,
+          2279.9228515625,
+          4560.0
+        ],
+        "mesh_objects": 86,
+        "vertices": 34509,
+        "triangles": 19976,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 34238,
+        "boundary_edges": 34238,
+        "summed_solid_volume_not_habitable_m3": 0,
+        "summed_triangle_area_m2": 122901771.35668606,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 2253.7298489800924,
+          "20_100": 0.0,
+          "100_500": 3856181.3378959363,
+          "500_1500": 31634234.49162655,
+          "over_1500": 87409101.79731458
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 1.833765147647309e-05,
+          "20_100": 0.0,
+          "100_500": 0.03137612497629924,
+          "500_1500": 0.2573944552826463,
+          "over_1500": 0.711211082089578
+        },
+        "top_area_objects": [
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 35286553.77227579,
+            "triangles": 3500,
+            "nonmanifold_edges": 3578
+          },
+          {
+            "name": "C02_EAST_TIDELAND__inhabited_land",
+            "max_dimension_m": 3510.0,
+            "summed_triangle_area_m2": 23278478.32028641,
+            "triangles": 2778,
+            "nonmanifold_edges": 4852
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 3388.36865234375,
+            "summed_triangle_area_m2": 10701368.148748338,
+            "triangles": 1056,
+            "nonmanifold_edges": 1858
+          },
+          {
+            "name": "R1_INNER_COAST__inhabited_land",
+            "max_dimension_m": 1596.795166015625,
+            "summed_triangle_area_m2": 6408968.502854283,
+            "triangles": 628,
+            "nonmanifold_edges": 1214
+          },
+          {
+            "name": "R2_INTERWORLD_COMMON__inhabited_land",
+            "max_dimension_m": 1733.3935546875,
+            "summed_triangle_area_m2": 6114645.158862381,
+            "triangles": 890,
+            "nonmanifold_edges": 1604
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 1980.0,
+            "summed_triangle_area_m2": 5619087.894287384,
+            "triangles": 12,
+            "nonmanifold_edges": 24
+          },
+          {
+            "name": "R1_S01__inhabited_land",
+            "max_dimension_m": 1025.457275390625,
+            "summed_triangle_area_m2": 4234480.654184363,
+            "triangles": 572,
+            "nonmanifold_edges": 1112
+          },
+          {
+            "name": "R1_S02__inhabited_land",
+            "max_dimension_m": 1003.7842407226562,
+            "summed_triangle_area_m2": 3812648.7804682534,
+            "triangles": 588,
+            "nonmanifold_edges": 1134
+          },
+          {
+            "name": "R1_E01__inhabited_land",
+            "max_dimension_m": 926.3450927734375,
+            "summed_triangle_area_m2": 3212585.2684830683,
+            "triangles": 572,
+            "nonmanifold_edges": 1104
+          },
+          {
+            "name": "R1_W01__inhabited_land",
+            "max_dimension_m": 916.3486938476562,
+            "summed_triangle_area_m2": 2866530.202803819,
+            "triangles": 572,
+            "nonmanifold_edges": 1104
+          },
+          {
+            "name": "R1_W03__inhabited_land",
+            "max_dimension_m": 688.9674072265625,
+            "summed_triangle_area_m2": 2277350.6648119306,
+            "triangles": 1062,
+            "nonmanifold_edges": 1832
+          },
+          {
+            "name": "R1_E03__inhabited_land",
+            "max_dimension_m": 681.5032348632812,
+            "summed_triangle_area_m2": 2161594.506356196,
+            "triangles": 428,
+            "nonmanifold_edges": 754
+          }
+        ]
+      },
+      "checks": {
+        "actual_blend_open": true,
+        "actual_glb_import": true,
+        "bounds_error_m": 0.0,
+        "bounds_match_2cm": true,
+        "triangle_counts_equal": true,
+        "all_vertices_finite": true
+      }
+    },
+    "SECTION_YZ": {
+      "blend_sha256": "4eb2a48345b95df44288a6578e0773e7a79a1b733d244e37e718eb443687520f",
+      "glb_sha256": "896662306dcde88a0f9a53f7175e7cd8f913ec93c0a144893dcdd84cd2a8308e",
+      "blend_bytes": 364619,
+      "glb_bytes": 1091140,
+      "native": {
+        "min_m": [
+          -2750.0,
+          -1599.9228515625,
+          0.0
+        ],
+        "max_m": [
+          6.103515625e-05,
+          2552.553955078125,
+          4560.0
+        ],
+        "span_m": [
+          2750.0,
+          4152.4765625,
+          4560.0
+        ],
+        "mesh_objects": 89,
+        "vertices": 11575,
+        "triangles": 22854,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 0,
+        "boundary_edges": 0,
+        "summed_solid_volume_not_habitable_m3": 9544756199.72858,
+        "summed_triangle_area_m2": 125619286.9628465,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 2253.729848980092,
+          "20_100": 0.0,
+          "100_500": 3628598.418089834,
+          "500_1500": 42985534.7500448,
+          "over_1500": 79002900.06486289
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 1.7940954000532266e-05,
+          "20_100": 0.0,
+          "100_500": 0.02888567914864091,
+          "500_1500": 0.342188972643654,
+          "over_1500": 0.6289074072537046
+        },
+        "top_area_objects": [
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 39303774.25662713,
+            "triangles": 4570,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C03_REAR_ARCHIVE__inhabited_land",
+            "max_dimension_m": 4240.0,
+            "summed_triangle_area_m2": 19945014.824526098,
+            "triangles": 2376,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 1829.96435546875,
+            "summed_triangle_area_m2": 10740703.726999024,
+            "triangles": 1008,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_INNER_COAST__inhabited_land",
+            "max_dimension_m": 1223.336181640625,
+            "summed_triangle_area_m2": 5875150.765525629,
+            "triangles": 626,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R2_INTERWORLD_COMMON__inhabited_land",
+            "max_dimension_m": 1533.3104248046875,
+            "summed_triangle_area_m2": 5772937.370433943,
+            "triangles": 808,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_S01__inhabited_land",
+            "max_dimension_m": 1025.457275390625,
+            "summed_triangle_area_m2": 4234480.654184363,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 2300.0,
+            "summed_triangle_area_m2": 3240469.886276689,
+            "triangles": 12,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R2_N_HIGH__inhabited_land",
+            "max_dimension_m": 827.9681396484375,
+            "summed_triangle_area_m2": 3202756.521953043,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R2_N_LOWER__inhabited_land",
+            "max_dimension_m": 843.1502685546875,
+            "summed_triangle_area_m2": 3195530.446551495,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_N01__inhabited_land",
+            "max_dimension_m": 870.9772338867188,
+            "summed_triangle_area_m2": 2888423.968453157,
+            "triangles": 590,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R1_W01__inhabited_land",
+            "max_dimension_m": 916.3486938476562,
+            "summed_triangle_area_m2": 2866530.202803819,
+            "triangles": 572,
+            "nonmanifold_edges": 0
+          },
+          {
+            "name": "R2_ZENITH__inhabited_land",
+            "max_dimension_m": 870.77392578125,
+            "summed_triangle_area_m2": 2863153.036527922,
+            "triangles": 1196,
+            "nonmanifold_edges": 0
+          }
+        ]
+      },
+      "glb_reimport": {
+        "min_m": [
+          -2750.0,
+          -1599.9228515625,
+          0.0
+        ],
+        "max_m": [
+          6.103515625e-05,
+          2552.553955078125,
+          4560.0
+        ],
+        "span_m": [
+          2750.0,
+          4152.4765625,
+          4560.0
+        ],
+        "mesh_objects": 89,
+        "vertices": 37964,
+        "triangles": 22854,
+        "nonfinite_vertices": 0,
+        "nonmanifold_edges": 36970,
+        "boundary_edges": 36970,
+        "summed_solid_volume_not_habitable_m3": 0,
+        "summed_triangle_area_m2": 125619287.00942281,
+        "area_by_object_max_dimension_m2": {
+          "under_20": 2253.7298489800924,
+          "20_100": 0.0,
+          "100_500": 3628598.464666145,
+          "500_1500": 42985534.75004479,
+          "over_1500": 79002900.06486289
+        },
+        "area_fraction_by_object_max_dimension": {
+          "under_20": 1.7940953993880242e-05,
+          "20_100": 0.0,
+          "100_500": 0.02888567950870443,
+          "500_1500": 0.3421889725167793,
+          "over_1500": 0.6289074070205224
+        },
+        "top_area_objects": [
+          {
+            "name": "C01_WEST_DEEP__inhabited_land",
+            "max_dimension_m": 4550.0,
+            "summed_triangle_area_m2": 39303774.25662713,
+            "triangles": 4570,
+            "nonmanifold_edges": 4274
+          },
+          {
+            "name": "C03_REAR_ARCHIVE__inhabited_land",
+            "max_dimension_m": 4240.0,
+            "summed_triangle_area_m2": 19945014.824526098,
+            "triangles": 2376,
+            "nonmanifold_edges": 1950
+          },
+          {
+            "name": "C04_CONFLUENCE_SKY__inhabited_land",
+            "max_dimension_m": 1829.96435546875,
+            "summed_triangle_area_m2": 10740703.726999022,
+            "triangles": 1008,
+            "nonmanifold_edges": 1878
+          },
+          {
+            "name": "R1_INNER_COAST__inhabited_land",
+            "max_dimension_m": 1223.336181640625,
+            "summed_triangle_area_m2": 5875150.765525624,
+            "triangles": 626,
+            "nonmanifold_edges": 1168
+          },
+          {
+            "name": "R2_INTERWORLD_COMMON__inhabited_land",
+            "max_dimension_m": 1533.3104248046875,
+            "summed_triangle_area_m2": 5772937.3704339415,
+            "triangles": 808,
+            "nonmanifold_edges": 1458
+          },
+          {
+            "name": "R1_S01__inhabited_land",
+            "max_dimension_m": 1025.457275390625,
+            "summed_triangle_area_m2": 4234480.654184363,
+            "triangles": 572,
+            "nonmanifold_edges": 1112
+          },
+          {
+            "name": "Lower confluence water",
+            "max_dimension_m": 2300.0,
+            "summed_triangle_area_m2": 3240469.8862766894,
+            "triangles": 12,
+            "nonmanifold_edges": 24
+          },
+          {
+            "name": "R2_N_HIGH__inhabited_land",
+            "max_dimension_m": 827.9681396484375,
+            "summed_triangle_area_m2": 3202756.521953043,
+            "triangles": 572,
+            "nonmanifold_edges": 1120
+          },
+          {
+            "name": "R2_N_LOWER__inhabited_land",
+            "max_dimension_m": 843.1502685546875,
+            "summed_triangle_area_m2": 3195530.446551495,
+            "triangles": 572,
+            "nonmanifold_edges": 1106
+          },
+          {
+            "name": "R1_N01__inhabited_land",
+            "max_dimension_m": 870.9772338867188,
+            "summed_triangle_area_m2": 2888423.968453157,
+            "triangles": 590,
+            "nonmanifold_edges": 1114
+          },
+          {
+            "name": "R1_W01__inhabited_land",
+            "max_dimension_m": 916.3486938476562,
+            "summed_triangle_area_m2": 2866530.202803819,
+            "triangles": 572,
+            "nonmanifold_edges": 1104
+          },
+          {
+            "name": "R2_ZENITH__inhabited_land",
+            "max_dimension_m": 870.77392578125,
+            "summed_triangle_area_m2": 2863153.036527922,
+            "triangles": 1196,
+            "nonmanifold_edges": 2218
+          }
+        ]
+      },
+      "checks": {
+        "actual_blend_open": true,
+        "actual_glb_import": true,
+        "bounds_error_m": 0.0,
+        "bounds_match_2cm": true,
+        "triangle_counts_equal": true,
+        "all_vertices_finite": true
+      }
+    }
+  },
+  "basic_persistence_pass": true
+}

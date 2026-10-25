@@ -1,0 +1,156 @@
+{
+  "07_MAIN_CAVERN": {
+    "location_m": [
+      0,
+      -250,
+      1000
+    ],
+    "target_m": [
+      -50,
+      1350,
+      2450
+    ],
+    "projection": "PERSP",
+    "value": 21
+  },
+  "08_MID_CITY": {
+    "location_m": [
+      -2110,
+      -600,
+      1830
+    ],
+    "target_m": [
+      -1300,
+      900,
+      2110
+    ],
+    "projection": "PERSP",
+    "value": 27
+  },
+  "09_HUMAN_EYE_1_7M": {
+    "location_m": [
+      -1985,
+      -180,
+      1601.7
+    ],
+    "target_m": [
+      -1750,
+      500,
+      1770
+    ],
+    "projection": "PERSP",
+    "value": 24
+  },
+  "10_REVERSE_WORLD": {
+    "location_m": [
+      100,
+      2360,
+      1030
+    ],
+    "target_m": [
+      -300,
+      1500,
+      2670
+    ],
+    "projection": "PERSP",
+    "value": 23
+  },
+  "11_ZENITH_WORLD": {
+    "location_m": [
+      -200,
+      500,
+      3540
+    ],
+    "target_m": [
+      -520,
+      1050,
+      4000
+    ],
+    "projection": "PERSP",
+    "value": 24
+  },
+  "01_FRONT": {
+    "location_m": [
+      0,
+      -13000,
+      2350
+    ],
+    "target_m": [
+      0,
+      0,
+      2300
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "02_OBLIQUE": {
+    "location_m": [
+      9800,
+      -13000,
+      8200
+    ],
+    "target_m": [
+      0,
+      0,
+      2200
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "03_SIDE": {
+    "location_m": [
+      14000,
+      0,
+      2300
+    ],
+    "target_m": [
+      0,
+      0,
+      2300
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "04_REAR": {
+    "location_m": [
+      0,
+      14000,
+      2400
+    ],
+    "target_m": [
+      0,
+      0,
+      2300
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "05_AERIAL": {
+    "location_m": [
+      5000,
+      -6200,
+      15000
+    ],
+    "target_m": [
+      0,
+      0,
+      2200
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "06_GROUND": {
+    "location_m": [
+      350,
+      -6400,
+      1.7
+    ],
+    "target_m": [
+      0,
+      0,
+      2000
+    ],
+    "projection": "PERSP",
+    "value": 20
+  }
+}

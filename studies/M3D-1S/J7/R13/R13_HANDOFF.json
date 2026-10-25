@@ -1,0 +1,57 @@
+{
+  "schema": "halo9.j7r13.handoff.v1",
+  "date_jst": "2026-10-25",
+  "research_only": true,
+  "branch": "research/m3d1s-j7-r13-habitable-world-mass-20261025",
+  "base_R12_head": "f8af02a57c3370ed3d5c38b1496757d6a913b0b4",
+  "base_R12_pr": 44,
+  "art_decision": "ART_REJECT",
+  "formal_central_art_accepted": 0,
+  "construction": "HOLD",
+  "city_master_complete": false,
+  "explorations": {
+    "A": "exploration_A/R13_A.blend",
+    "B": "exploration_B/R13_B.blend",
+    "third_C": "exploration_C/R13_C.blend"
+  },
+  "selected": "C_FOR_REVISION_ONLY_NOT_ART_ADOPTION",
+  "selected_before": "selected/R13_C_SELECTED.blend",
+  "revision_1": "revision_1/R13_C_R1.blend",
+  "revision_2": "revision_2/R13_C_R2.blend",
+  "final_glb": "revision_2/R13_C_R2.glb",
+  "final_spans_m_xyz": [
+    5429.8974609375,
+    4203.66796875,
+    4560.0
+  ],
+  "report": "R13_ART_REVIEW_JA.md",
+  "section_sources": [
+    "sections/SECTION_XZ_Y680/SECTION_XZ_Y680.blend",
+    "sections/SECTION_YZ_X0/SECTION_YZ_X0.blend"
+  ],
+  "readback_qa": "qa/BLEND_GLB_READBACK.json",
+  "manifest": "qa/MODEL_IMAGE_MANIFEST.json",
+  "technical": "7 BLEND opens and 7 actual GLB imports PASS; exact bounds and triangle counts match; each separate solid nonmanifold edges zero",
+  "actual_model_section_pngs": 43,
+  "independent_glb_import_pngs": 1,
+  "cavity_volume": "NOT_MEASURED",
+  "walkability": "NOT_CERTIFIED",
+  "urban_inhabitation": "NOT_SUFFICIENTLY_REALIZED",
+  "problems": [
+    "Exterior arch/rock macro still dominates",
+    "Repetitive polygonal openings and precincts",
+    "Blank internal surfaces and isolated grounds",
+    "Human-to-district scale not convincingly connected"
+  ],
+  "next_R14_priority": "Create a convincing inhabited 300-1000m world with interconnected public space and vertical access, then make these worlds generate the macro silhouette. Do not detail or adopt R13 shell as final.",
+  "official_integration": "W0/H1-H6/SB01-SB16/HERO4/three axes/V1-V3 obligations retained; exact anchors and integration unverified",
+  "github_delivery": "PUSHED_DRAFT_PR_CREATED_AND_75_ARTIFACTS_BYTE_VERIFIED",
+  "draft_pr": 45,
+  "draft_pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/45",
+  "artifact_commit": "f7334cf06a4374bcdff40c370618d7910d0e8842",
+  "independent_remote_readback": "qa/GITHUB_READBACK.json",
+  "remote_checked_files": 75,
+  "remote_checked_bytes": 57480905,
+  "remote_all_hashes_match": true,
+  "delivery_record": "This handoff is a later metadata commit; exact final head is the current PR #45 head. Model bytes are pinned by artifact_commit."
+}

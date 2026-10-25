@@ -1,0 +1,52 @@
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Info: Saved as "R13_C.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+10:12:48 | INFO: Starting glTF 2.0 export
+10:12:48 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: C05_INNER_SEED__inhabited_land
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: C06_TIDAL_APPROACH__inhabited_land
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: East collective ground
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: East inner sea
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: High confluence common
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: Lower confluence water
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: Rear deep cultivation
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: Upper tidal world
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Extracting primitive: West suspended cultivation
+10:12:48 | INFO: Primitives created: 1
+10:12:48 | INFO: Finished glTF 2.0 export in 0.057254791259765625 s
+00:04.141  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_C\01_FRONT.png'
+
+RENDER_DONE 01_FRONT
+00:04.422  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_C\02_OBLIQUE.png'
+RENDER_DONE 02_OBLIQUE
+00:04.672  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_C\03_SIDE.png'
+RENDER_DONE 03_SIDE
+00:04.922  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_C\04_REAR.png'
+RENDER_DONE 04_REAR
+00:05.219  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_C\05_AERIAL.png'
+RENDER_DONE 05_AERIAL
+00:05.563  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_C\06_GROUND.png'
+RENDER_DONE 06_GROUND
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

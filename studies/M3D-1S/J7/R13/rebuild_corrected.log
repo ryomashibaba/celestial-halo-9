@@ -1,0 +1,371 @@
+00:01.453  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_C\R13_C.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R13_C_SELECTED.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+10:13:13 | INFO: Starting glTF 2.0 export
+10:13:13 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: C05_INNER_SEED__inhabited_land
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: C06_TIDAL_APPROACH__inhabited_land
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: East collective ground
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: East inner sea
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: High confluence common
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: Lower confluence water
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: Rear deep cultivation
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: Upper tidal world
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Extracting primitive: West suspended cultivation
+10:13:13 | INFO: Primitives created: 1
+10:13:13 | INFO: Finished glTF 2.0 export in 0.0540614128112793 s
+00:03.688  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\selected\01_FRONT.png'
+
+RENDER_DONE 01_FRONT
+00:03.969  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\selected\02_OBLIQUE.png'
+RENDER_DONE 02_OBLIQUE
+00:04.219  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\selected\03_SIDE.png'
+RENDER_DONE 03_SIDE
+00:04.469  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\selected\04_REAR.png'
+RENDER_DONE 04_REAR
+00:04.766  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\selected\05_AERIAL.png'
+RENDER_DONE 05_AERIAL
+00:05.094  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\selected\06_GROUND.png'
+RENDER_DONE 06_GROUND
+Info: Saved as "R13_C_R1.blend"
+10:13:17 | INFO: Starting glTF 2.0 export
+10:13:17 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: East collective ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: East inner sea
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: High confluence common
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: Lower confluence water
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_E01__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_E01__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_E02__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_E02__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_E03__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_E03__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_INNER_COAST__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_N01__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_N01__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_S01__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_S01__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_S02__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_S02__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_W01__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_W01__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_W02__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_W02__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_W03__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_W03__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_W04__inhabited_land
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: R1_W04__living_common_ground
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: Rear deep cultivation
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: Upper tidal world
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Extracting primitive: West suspended cultivation
+10:13:17 | INFO: Primitives created: 1
+10:13:17 | INFO: Finished glTF 2.0 export in 0.03191828727722168 s
+00:06.157  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_1\01_FRONT.png'
+
+RENDER_DONE 01_FRONT
+00:06.438  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_1\02_OBLIQUE.png'
+RENDER_DONE 02_OBLIQUE
+00:06.672  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_1\03_SIDE.png'
+RENDER_DONE 03_SIDE
+00:06.922  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_1\04_REAR.png'
+RENDER_DONE 04_REAR
+00:07.235  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_1\05_AERIAL.png'
+RENDER_DONE 05_AERIAL
+00:07.578  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_1\06_GROUND.png'
+RENDER_DONE 06_GROUND
+Info: Saved as "R13_C_R2.blend"
+10:13:20 | INFO: Starting glTF 2.0 export
+10:13:20 | INFO: Extracting primitive: 1.75m figure head 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: 1.75m figure head 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: 1.75m figure torso 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: 1.75m figure torso 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Actual public threshold light
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Common growing bed
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Common growing bed.001
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Common growing bed.002
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: E cultivation exchange enclosing common wall 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: E cultivation exchange enclosing common wall 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: E cultivation exchange lower interior ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: E cultivation exchange passage lintel
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: E cultivation exchange precinct contour 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: E cultivation exchange precinct contour 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: East collective ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: East deep inclined transfer
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: East inner sea
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Figure leg
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Figure leg.001
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Figure leg.002
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Figure leg.003
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: High confluence common
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human common floor
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human continuous edge rail
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.001
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.002
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.003
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.004
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.005
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.006
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.007
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.008
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.009
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.010
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human edge post.011
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human inhabited threshold head 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human inhabited threshold head 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human inhabited threshold head 2
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human inhabited threshold pier 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human inhabited threshold pier 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human inhabited threshold pier 2
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human recessed common room 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human recessed common room 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Human recessed common room 2
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Interworld transfer
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Lower confluence water
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: N reverse cultivation enclosing common wall 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: N reverse cultivation enclosing common wall 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: N reverse cultivation lower interior ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: N reverse cultivation passage lintel
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: N reverse cultivation precinct contour 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: N reverse cultivation precinct contour 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_E01__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_E01__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_E02__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_E02__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_E03__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_E03__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_INNER_COAST__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_N01__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_N01__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_S01__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_S01__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_S02__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_S02__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_W01__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_W01__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_W02__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_W02__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_W03__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_W03__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_W04__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R1_W04__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_INTERWORLD_COMMON__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_N_EAST__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_N_EAST__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_N_HIGH__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_N_HIGH__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_N_LOWER__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_N_LOWER__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_SIDE_INNER__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_SIDE_INNER__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_ZENITH__inhabited_land
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: R2_ZENITH__living_common_ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Rear deep cultivation
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Upper tidal world
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W living inlet enclosing common wall 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W living inlet enclosing common wall 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W living inlet lower interior ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W living inlet passage lintel
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W living inlet precinct contour 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W living inlet precinct contour 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W upper common enclosing common wall 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W upper common enclosing common wall 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W upper common lower interior ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W upper common passage lintel
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W upper common precinct contour 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: W upper common precinct contour 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: West deep inclined transfer
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: West suspended cultivation
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Zenith common enclosing common wall 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Zenith common enclosing common wall 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Zenith common lower interior ground
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Zenith common passage lintel
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Zenith common precinct contour 0
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Extracting primitive: Zenith common precinct contour 1
+10:13:20 | INFO: Primitives created: 1
+10:13:20 | INFO: Finished glTF 2.0 export in 0.08457612991333008 s
+00:08.657  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\01_FRONT.png'
+
+RENDER_DONE 01_FRONT
+00:08.969  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\02_OBLIQUE.png'
+RENDER_DONE 02_OBLIQUE
+00:09.235  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\03_SIDE.png'
+RENDER_DONE 03_SIDE
+00:09.516  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\04_REAR.png'
+RENDER_DONE 04_REAR
+00:09.860  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\05_AERIAL.png'
+RENDER_DONE 05_AERIAL
+00:10.219  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\06_GROUND.png'
+RENDER_DONE 06_GROUND
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,86 @@
+{
+  "01_FRONT": {
+    "location_m": [
+      0,
+      -13000,
+      2350
+    ],
+    "target_m": [
+      0,
+      0,
+      2300
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "02_OBLIQUE": {
+    "location_m": [
+      9800,
+      -13000,
+      8200
+    ],
+    "target_m": [
+      0,
+      0,
+      2200
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "03_SIDE": {
+    "location_m": [
+      14000,
+      0,
+      2300
+    ],
+    "target_m": [
+      0,
+      0,
+      2300
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "04_REAR": {
+    "location_m": [
+      0,
+      14000,
+      2400
+    ],
+    "target_m": [
+      0,
+      0,
+      2300
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "05_AERIAL": {
+    "location_m": [
+      5000,
+      -6200,
+      15000
+    ],
+    "target_m": [
+      0,
+      0,
+      2200
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  },
+  "06_GROUND": {
+    "location_m": [
+      350,
+      -6400,
+      1.7
+    ],
+    "target_m": [
+      0,
+      0,
+      2000
+    ],
+    "projection": "PERSP",
+    "value": 20
+  }
+}
