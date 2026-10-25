@@ -1,0 +1,60 @@
+{
+  "schema": "halo9.j7r14.local_urban_world_spatial_pilot.v1",
+  "date_jst": "2026-10-25",
+  "branch": "research/m3d1s-j7-r14-lived-world-spatial-pilot-20261025",
+  "base_R13_pr": 45,
+  "base_R13_sha": "2bb831bfa19a989ffadc3bbcb675eb8797faf6e9",
+  "focus": "Different internal inhabited 300-1000m communities shape the architecture, rather than decorate a rejected kilometer-scale shell.",
+  "new_model_from_R13": "INDEPENDENT_NONCANONICAL_RESEARCH_SCENE",
+  "actual_blender_renders": 8,
+  "Blender_version": "4.0.2_GITHUB_ACTIONS_CLOUD_NON_USER_PC",
+  "mesh_objects": 316,
+  "vertices": 2644,
+  "triangles": 4024,
+  "dimensions_m_xyz": [
+    1122.247,
+    1495.192,
+    732
+  ],
+  "urban_neighborhood_study_nodes": 6,
+  "urban_graph_links": 7,
+  "blender": "studies/M3D-1S/J7/R14/outputs/R14_INHABITED_WORLD_PILOT.blend",
+  "glb": "studies/M3D-1S/J7/R14/outputs/R14_INHABITED_WORLD_PILOT.glb",
+  "qa": "studies/M3D-1S/J7/R14/outputs/R14_ACTUAL_BLENDER_PILOT_QA.json",
+  "source": "studies/M3D-1S/J7/R14/build_lived_world_blender.py",
+  "report": "studies/M3D-1S/J7/R14/R14_ART_AND_QA_JA.md",
+  "workflow": ".github/workflows/halo9-j7-r14-urban-world.yml",
+  "art_status": "ART_REJECT",
+  "formal_central_art_accepted": 0,
+  "minecraft_build": "HOLD",
+  "city_master_done": false,
+  "technical_gate": "Initial model GLB mesh count 316/316 verified, actual 8 Blender Workbench renders persisted. Human eye 1.7m grounding recheck separately underway.",
+  "no_local_computer_use": true,
+  "no_user_pc_occupation": true,
+  "fundamental_visual_failures": [
+    "6 near-identical circular or polygonal stepped neighborhoods look like toy models",
+    "Uniform thick floors do not expose actually different inhabited city worlds",
+    "Connecting structural shafts and flat beams do not read as a credible metropolitan transport system",
+    "Central white void is not a verified habitable canyon",
+    "Human-level scene lacks experiential district architecture"
+  ],
+  "unverified": [
+    "human_elevated_camera_ray_until_fixed_run_reports_PASS",
+    "full walkability",
+    "real vertical access operation",
+    "continuous volume of enclosed cavern",
+    "structural integrity",
+    "official W0 integration",
+    "formal aesthetics"
+  ],
+  "next_R15": {
+    "intent": "LOCAL_WORK_ART_FIRST_NON_OCCUPYING_BLENDER",
+    "prior_announcement": "R14",
+    "next_chat_turn": "Paste-ready Work prompt, no in-chat Work handoff",
+    "default_method": "Blender MCP + background bpy + captured renders. User mouse/keyboard never seized.",
+    "computer_use": "Avoid unless strong art-quality need, explain and seek user approval FIRST.",
+    "model_recommendation_outside_prompt": "GPT-6.1 Sol / High; alternative GPT-6 Luna / High when creative approach is stuck",
+    "creative_goal": "ONE artistically coherent 300-1000m inhabited urban environment with true district-specific volumes, access and giant civic void; only then scale outward.",
+    "do_not_reuse_R14_repetitive_polygons": true
+  }
+}
