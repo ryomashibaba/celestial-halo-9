@@ -1,0 +1,183 @@
+{
+  "scope_native_m": [
+    [
+      [
+        -498,
+        600,
+        647.5
+      ],
+      [
+        -402,
+        700,
+        770
+      ]
+    ],
+    [
+      [
+        -498,
+        700,
+        647.5
+      ],
+      [
+        -338,
+        880,
+        815
+      ]
+    ],
+    [
+      [
+        -450,
+        880,
+        647.5
+      ],
+      [
+        -370,
+        985,
+        720
+      ]
+    ]
+  ],
+  "changed_source_meshes": [
+    {
+      "name": "N_wall_risers",
+      "old_triangles": 13740,
+      "new_triangles": 13769,
+      "clip_events": 12
+    },
+    {
+      "name": "N_wall_ledges",
+      "old_triangles": 13740,
+      "new_triangles": 13747,
+      "clip_events": 6
+    },
+    {
+      "name": "N_win_win_warm",
+      "old_triangles": 39646,
+      "new_triangles": 39634,
+      "clip_events": 18
+    },
+    {
+      "name": "N_win_win_cool",
+      "old_triangles": 8094,
+      "new_triangles": 8087,
+      "clip_events": 10
+    },
+    {
+      "name": "N_ledge_lights",
+      "old_triangles": 13740,
+      "new_triangles": 13744,
+      "clip_events": 2
+    },
+    {
+      "name": "gallery_W_ledges",
+      "old_triangles": 660,
+      "new_triangles": 670,
+      "clip_events": 10
+    },
+    {
+      "name": "gallery_W_wall",
+      "old_triangles": 110,
+      "new_triangles": 106,
+      "clip_events": 10
+    },
+    {
+      "name": "gallery_W_gardens",
+      "old_triangles": 1594,
+      "new_triangles": 1578,
+      "clip_events": 19
+    },
+    {
+      "name": "gallery_W_trees",
+      "old_triangles": 3000,
+      "new_triangles": 2960,
+      "clip_events": 48
+    },
+    {
+      "name": "vault_ribs",
+      "old_triangles": 6720,
+      "new_triangles": 6714,
+      "clip_events": 21
+    },
+    {
+      "name": "vault_panel_09",
+      "old_triangles": 60,
+      "new_triangles": 65,
+      "clip_events": 4
+    },
+    {
+      "name": "vault_panel_10",
+      "old_triangles": 60,
+      "new_triangles": 66,
+      "clip_events": 5
+    },
+    {
+      "name": "people",
+      "old_triangles": 2200,
+      "new_triangles": 2198,
+      "clip_events": 2
+    }
+  ],
+  "sections": [
+    [
+      582,
+      647.779,
+      -498,
+      -402
+    ],
+    [
+      700,
+      653.5,
+      -498,
+      -402
+    ],
+    [
+      725,
+      654.7,
+      -498,
+      -338
+    ],
+    [
+      855,
+      661,
+      -498,
+      -338
+    ],
+    [
+      880,
+      662.2,
+      -450,
+      -370
+    ],
+    [
+      955,
+      668,
+      -450,
+      -370
+    ],
+    [
+      975,
+      668,
+      -450,
+      -370
+    ]
+  ],
+  "method": "triangle clipping of actual existing surfaces plus bounded floor/reveal/soffit meshes; source generator not executed",
+  "new_objects": [
+    "R25_PUBLIC_RAMP_AND_ARRIVAL",
+    "R25_REVEAL_W_0",
+    "R25_REVEAL_E_0",
+    "R25_SOFFIT_0",
+    "R25_REVEAL_W_1",
+    "R25_REVEAL_E_1",
+    "R25_SOFFIT_1",
+    "R25_REVEAL_W_2",
+    "R25_REVEAL_E_2",
+    "R25_SOFFIT_2",
+    "R25_ENTRY_CHAMBER_RETURN",
+    "R25_EXIT_CHAMBER_RETURN",
+    "R25_CHAMBER_END_W",
+    "R25_CHAMBER_END_E",
+    "R25_OVERLOOK_PARAPET"
+  ],
+  "source_overwritten": false
+}

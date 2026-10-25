@@ -1,0 +1,23 @@
+00:01.641  blend            | Read blend: "<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\models\C55A_BEFORE.blend"
+00:04.313  image.write      | ERROR OpenImageIO write failed: Could not open file "<USER_PROFILE>\.thumbnails\large\blender_47572_d2d808ccb5518a630b76bf536d56c1e9.png.png"
+00:16.438  render           | Saved: '<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\renders\after_01_local.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "C55A_R25_LOCAL_EDIT.blend"
+DONE 01_local
+00:27.766  render           | Saved: '<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\renders\after_02_entrance.png'
+DONE 02_entrance
+00:38.641  render           | Saved: '<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\renders\after_03_interior.png'
+DONE 03_interior
+00:49.922  render           | Saved: '<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\renders\after_04_destination.png'
+DONE 04_destination
+00:54.563  render           | Saved: '<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\renders\after_05_front_wide.png'
+DONE 05_front_wide
+00:58.688  render           | Saved: '<WORKSPACE>\studies\M3D-1S\J7\R25_EXEC\renders\after_06_rear_wide.png'
+DONE 06_rear_wide
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

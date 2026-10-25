@@ -1,0 +1,35 @@
+{
+  "camera_light_render_conditions_exact": true,
+  "exported_visible_geometry": {
+    "meshes": 203,
+    "triangles": 354856,
+    "min": [
+      -4488.11669921875,
+      -2036.907470703125,
+      -204.2339630126953
+    ],
+    "max": [
+      2468.638916015625,
+      2692.2392578125,
+      5590.35400390625
+    ]
+  },
+  "imported_glb": {
+    "meshes": 203,
+    "triangles": 354856,
+    "min": [
+      -4488.11669921875,
+      -2036.907470703125,
+      -204.2339630126953
+    ],
+    "max": [
+      2468.638916015625,
+      2692.2392578125,
+      5590.35400390625
+    ]
+  },
+  "triangle_match": true,
+  "max_bounds_error_m": 0.0,
+  "pass_basic": true,
+  "scope": "Basic file and geometry readback only; no art or endpoint success implied."
+}

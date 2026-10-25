@@ -1,0 +1,94 @@
+{
+  "models/C55A_BASELINE.blend": {
+    "bytes": 16016960,
+    "sha256": "1e42c66982fd85231e5e4d6812258cdff2231cd7850c3fe58c26079e9f4e9bda"
+  },
+  "models/C55A_BEFORE.blend": {
+    "bytes": 16020333,
+    "sha256": "adc8c37ade9dc790c198277706daacd929a6055c37f3679ec5171aeb6b8c2d4f"
+  },
+  "models/C55A_R25_LOCAL_EDIT.blend": {
+    "bytes": 17599248,
+    "sha256": "6b0bedde4f7e49b482f5d850088333aee75ac6849454119084f14ae0ca4f243e"
+  },
+  "models/C55A_R25_LOCAL_EDIT.glb": {
+    "bytes": 23624144,
+    "sha256": "f31373a5804bb6cdb77466bd95084507b7ab72612e4d77a727e55e0ea4f5878c"
+  },
+  "renders/actual_section.png": {
+    "bytes": 71590,
+    "sha256": "b2f692ae683a13b6953279a53302aefdc8781344face8525436d81f0bc651051"
+  },
+  "renders/after_01_local.png": {
+    "bytes": 819619,
+    "sha256": "e40b0d84475de6ef71d9b419e8dce5ba50c35c49692650e6e2494f6b9226a935"
+  },
+  "renders/after_02_entrance.png": {
+    "bytes": 762261,
+    "sha256": "c03f561aebbd9a3d64b20190d129558421a529c440fb27f7401a8e7b0ae946b5"
+  },
+  "renders/after_03_interior.png": {
+    "bytes": 763927,
+    "sha256": "6ccd330073da891977665e33d5ba5fee860eb56e7592f2710a533b216b31d3b7"
+  },
+  "renders/after_04_destination.png": {
+    "bytes": 189278,
+    "sha256": "274bb16fcf98c662f8be3ab824d58c39e156c85187a10498b08ef81e8bbc981c"
+  },
+  "renders/after_05_front_wide.png": {
+    "bytes": 915815,
+    "sha256": "4fcf2d3e793ca340fa074a878de45190729c2d9b68e03e59ae2ce8ff8a4172fe"
+  },
+  "renders/after_06_rear_wide.png": {
+    "bytes": 832354,
+    "sha256": "95180c4a2798a641f4f4a3f553ae3653623f7a070303b7ef140d45882a2071e7"
+  },
+  "renders/before_01_local.png": {
+    "bytes": 811201,
+    "sha256": "bb65039308088bf264fbca79bfe3eac1794e686d534499d47577b2691c0eb3d8"
+  },
+  "renders/before_02_entrance.png": {
+    "bytes": 801221,
+    "sha256": "140564bdac21b9654c0ed53dacf549eecc04f4e1c412daef422632eb57cebebc"
+  },
+  "renders/before_03_interior.png": {
+    "bytes": 825526,
+    "sha256": "243a85b64e507dfad7c4fc0193e19023f4d8f750f9b75d78faba68148c1d407f"
+  },
+  "renders/before_04_destination.png": {
+    "bytes": 288303,
+    "sha256": "2e94ae5983f1ac2038e500e2e5de37424ec189b3f447c7ccaac4e190b9c8ce1f"
+  },
+  "renders/before_05_front_wide.png": {
+    "bytes": 915888,
+    "sha256": "ae9752f2965579e90fb06b375aa1bf4312a133f6e4d0a69d26d926371cb92a87"
+  },
+  "renders/before_06_rear_wide.png": {
+    "bytes": 832368,
+    "sha256": "054e24ae0ea3a7cc208e30df678b09e51b3a190ff478c5d3ee900fb6bc92e796"
+  },
+  "renders/comparison_01.jpg": {
+    "bytes": 63776,
+    "sha256": "870ffc5caa8bc398d59ece1da566e833ec89b36ecb96db6af375a994e9d49407"
+  },
+  "renders/comparison_02.jpg": {
+    "bytes": 50465,
+    "sha256": "bfd81bbbcc49eb2ebbb0aadc87072b7387f319d734df91f602ca439ccf4fae5e"
+  },
+  "renders/comparison_03.jpg": {
+    "bytes": 58246,
+    "sha256": "9e8da12d5cfc6b12f9660623efbea7762b3a7bfb59ff4e046ce93eea2784dc4c"
+  },
+  "renders/comparison_04.jpg": {
+    "bytes": 39178,
+    "sha256": "aaf2f5472a8afd9253299fd1c0733aa0a57c7c06d1cad43704b646590ad2542d"
+  },
+  "renders/comparison_05.jpg": {
+    "bytes": 100092,
+    "sha256": "f0e6ec5c4acafd0d690ae3f17c8b189353a44889e34517951d7c6abead4c79bd"
+  },
+  "renders/comparison_06.jpg": {
+    "bytes": 74480,
+    "sha256": "780dba4f3045db6f727a0c956b8b6dad4a97dc243985acccbb171e83ec2b44c3"
+  }
+}
