@@ -9,7 +9,7 @@ from math import sin,cos,pi
 from mathutils import Vector
 out=Path(sys.argv[sys.argv.index("--")+1]).resolve()
 if out.exists() and list(out.iterdir()):raise RuntimeError("Output not empty")
-out.mkdir(parents=True)
+out.mkdir(parents=True,exist_ok=True)
 bpy.ops.wm.read_factory_settings(use_empty=True)
 sc=bpy.context.scene;sc.unit_settings.system="METRIC"
 COLORS={
