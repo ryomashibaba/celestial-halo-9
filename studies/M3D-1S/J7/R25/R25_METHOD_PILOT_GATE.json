@@ -1,0 +1,159 @@
+{
+  "schema": "halo9.j7r25.method_ability_pilot.v1",
+  "date_jst": "2026-10-25",
+  "stage": "J7-R25",
+  "status": "PREFLIGHT_READY_NOT_EXECUTED",
+  "output_kind": "historical_correction_and_controlled_3d_editing_proof_contract",
+  "supersedes_unapproved_r24": {
+    "branch": "research/m3d1s-j7-r24-spatial-first-reset-20261025",
+    "pr": 55,
+    "graph_as_form_constraint": false,
+    "preserve_historical_r24_files": true,
+    "r24_graph": "nonbinding hypothetical reference only",
+    "reason": "J7 R9/R14/R18 already tested destination-first/connected-district-first; no proven art result"
+  },
+  "source_evidence": [
+    {
+      "pr": 41,
+      "id": "J7-R9",
+      "finding": "six civic destinations and physical road, still tiny modern village",
+      "art": "REJECT"
+    },
+    {
+      "pr": 42,
+      "id": "J7-R10",
+      "finding": "user-required art-first ultrafuture reset; do not start with present-day library or halls"
+    },
+    {
+      "pr": 46,
+      "id": "J7-R14",
+      "finding": "six inhabited district nodes and seven edges produced same repeated disks",
+      "art": "REJECT"
+    },
+    {
+      "pr": 50,
+      "id": "J7-R18",
+      "finding": "three worlds and two voids design criterion already tried, followed by R19 failure"
+    },
+    {
+      "pr": 51,
+      "id": "J7-R19",
+      "finding": "repeated shelf-band forms despite spatial-first premise",
+      "art": "REJECT"
+    },
+    {
+      "pr": 53,
+      "id": "J7-R21",
+      "finding": "independent Blender comparison found C55-A scale-depth success and weak inhabited interiors",
+      "art": "C55A HOLD"
+    },
+    {
+      "pr": 54,
+      "id": "J7-R23",
+      "finding": "loft-and-carve produced shells and planes",
+      "art": "REJECT"
+    }
+  ],
+  "test_base": {
+    "independent_original": "studies/M3D-1S/J7/R21/models/C55A_IMPORTED.blend",
+    "comparison_only_copy": "studies/M3D-1S/J7/R21/models/C55A_COMPARISON.blend",
+    "baseline_branch": "research/m3d1s-j7-r21-c55a-r19-blender-comparison-20261025",
+    "baseline_glb_original_sha256": "4e0d8092c2bbe59ad6553d81e1a44594e7ff0dac3cfbc1ce1a9fb60144b76ae0",
+    "native_central_meshes": 278,
+    "native_central_triangles": 591481,
+    "candidate_objects": [
+      "N_wall_risers",
+      "N_wall_ledges",
+      "N_wall_outer_shell",
+      "N_win_win_warm"
+    ],
+    "diagnostic_window_example": {
+      "source": "studies/M3D-1S/J7/R21/qa/WINDOW_BACKING_SAMPLES.json",
+      "name": "N_win_win_warm",
+      "estimated_backing_distance_m": 0.83
+    },
+    "candidate_selection": "Do not use old world coords blindly. Verify sample transform, adjacent floor, wall thickness and large-void relation in actual Blender; change location if unsuitable.",
+    "original_research_model_must_be_read_only": true
+  },
+  "task": {
+    "scope": "ONE located architectural transformation within existing C55-A research copy; no new full megacity massing",
+    "before": "Unedited source duplicate and unchanged fixed cameras",
+    "after": "Actual exterior entrance or aperture + linked internal public street / stepped public space + second opening to a distinct view or vertical arrival",
+    "not_acceptable": [
+      "decal window replaced by facade ornament",
+      "surface-only patch or detached platform",
+      "unknown camera location used as walkable sample",
+      "blind new giant shell",
+      "large batch of unreviewed variations",
+      "technical geometry PASS called art PASS"
+    ],
+    "method": "Visible model/scene review -> intentional architectural edit -> same-camera Blender review -> one cause-based revision only if informative; no scripted same-grammar repeats",
+    "camera_conditions": "Fixed focal lengths and cameras; compare exterior local/wide (front and rear), entrance, public interior, opposing exit; if pre-existing interior absent report absent",
+    "precheck": [
+      "Confirm copy and exact SHA/provenance",
+      "Check coordinate space native vs transformed",
+      "Record before appearance and selected region",
+      "Verify actual surrounding mesh and visual viability"
+    ],
+    "gates": [
+      {
+        "id": "G0",
+        "kind": "TECH",
+        "pass_if": "Can open original as noncanonical independent editable copy, identify real surface and floor in Blender",
+        "on_fail": "STOP, no design claims"
+      },
+      {
+        "id": "G1",
+        "kind": "GEOMETRY",
+        "pass_if": "Actual wall opening + inhabitable public volume + actual floor and a coherent second destination; inspect sectional evidence",
+        "on_fail": "STOP or clearly record not verified; no art claims"
+      },
+      {
+        "id": "G2",
+        "kind": "ART",
+        "pass_if": "Independent fixed-camera review finds meaningful spatial/architectural improvement and preserved C55A macro hierarchy; local only",
+        "on_fail": "STOP, no polish/QA inflation"
+      },
+      {
+        "id": "G3",
+        "kind": "TRANSFER",
+        "pass_if": "If local G2 passes, separately repeat on a materially different source before treating as generally useful",
+        "on_fail": "Method generality NOT PROVEN"
+      }
+    ],
+    "max_auto_art_revisions_after_first_preview": 1,
+    "deliverables_only_when_executed": [
+      "source-preserved edited BLEND and GLB on new independent research PR",
+      "before/after fixed-view images and one real cross-section if required",
+      "exact selected object names and method used",
+      "geometry QA relevant to aperture/public floor",
+      "independent visual review and limitations"
+    ],
+    "not_deliverables_now": [
+      "new BLEND or GLB",
+      "new actual Blender render",
+      "local art improvement proof",
+      "formal art adoption",
+      "Minecraft construction"
+    ]
+  },
+  "permissions": {
+    "local_work": "requires host user initiation/explicit approval",
+    "foreground_computer_use": "not allowed without separate explicit approval",
+    "origin_preserve": true,
+    "main_unmodified": true,
+    "no_auto_merge": true,
+    "freeze_preserve": true,
+    "M247C_preserve": true,
+    "W0_H1H6_SB01SB16_HERO4_axes_V_preserve": true,
+    "formal_art_adoptions": 0,
+    "minecraft_construction": "HOLD",
+    "city_master_3d_complete": false
+  },
+  "readiness_record": {
+    "independent_repo_evidence_verified": true,
+    "R21_source_model_content_and_art_not_byte_fetched_for_this_stage": true,
+    "visual_method_effect_not_proven": true,
+    "next": "Run single controlled edit only when user launches Work; return real evidence for independent art audit"
+  }
+}
