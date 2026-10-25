@@ -1,0 +1,286 @@
+{
+  "commit_verified": "f50679d02fb40d4aa27b770ac6d8ef476ca7bc96",
+  "pr": 57,
+  "method": "Independent HTTPS raw file retrieval compared byte-for-byte with committed Git blobs; all files in execution folder.",
+  "file_count": 46,
+  "total_bytes": 83003116,
+  "all_exact": true,
+  "files": [
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/README_JA.md",
+      "bytes": 7581,
+      "sha256": "9c5ff76bda10fb834bfc259eb83e660299346d42543953e142da14b179bde70c",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/code/edit.py",
+      "bytes": 4798,
+      "sha256": "401bcc98f370f310103e93754da3e0e0078f2e6532270b8b29b841a614c6342d",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/code/inspect_scene.py",
+      "bytes": 1754,
+      "sha256": "28a2068a57bf8a0b3198ca15ebc87f5aa20af22c110a66c870c9911fcb1e6716",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/code/package_evidence.py",
+      "bytes": 1725,
+      "sha256": "5c45e000d489e2ffde0580d34242613fe9c7a635804da0d0e64205d19e2e27ed",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/code/prepare.py",
+      "bytes": 2591,
+      "sha256": "e71ae957d581a30d81d97813f61c82f3f6d052cb13dea0ef47220d9b1d9998ef",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/code/readback.py",
+      "bytes": 2091,
+      "sha256": "7012aaf467fddda278d1902192c6e803998530f077eb017830a8c995ffca60d8",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/code/section.py",
+      "bytes": 1196,
+      "sha256": "be21b7a2f668fc7b2310004dc88257891e83a1659af9e6fb5976ed39cd17becf",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/code/verify.py",
+      "bytes": 3600,
+      "sha256": "ab499dfa768e9114d8c45ee6a4449896ffdcfaf1bbf06e4c196faf0878b8b96c",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/latest.json",
+      "bytes": 1397,
+      "sha256": "223f6e356ad567d1ac256ba7db4b78ecb2d2bb8d2d58f98ed65d09aa3435a742",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/logs/before.log",
+      "bytes": 1833,
+      "sha256": "5e1bbae433a0bc8a77c82b683156cd735a384495725fb471039a85fa92558aa9",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/logs/edit.log",
+      "bytes": 1418,
+      "sha256": "787dd6cc37798401f57d3116a6b8f77ebbd23356e8500436745c2584f85f5e8b",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/logs/inspect.log",
+      "bytes": 465,
+      "sha256": "d4b071d9f4681fde87031f1c4a12b75248c731dda61ab13cef466e5a1b1eb835",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/logs/readback.log",
+      "bytes": 12554,
+      "sha256": "948135b37bd5eb71b187dc9a66c3147e2f2c0b5403a3f98719d908ce1945e105",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/logs/section.log",
+      "bytes": 576,
+      "sha256": "74d7f34a3622f5bdfd3a89b94d86752f6945a67ec9d813e5323a555bfecc52f5",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/logs/verify.log",
+      "bytes": 20769,
+      "sha256": "3ae2518bf333c868cf191419f4fbf3099876176399cd56de4a53b72438778bb1",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/models/C55A_BASELINE.blend",
+      "bytes": 16016960,
+      "sha256": "1e42c66982fd85231e5e4d6812258cdff2231cd7850c3fe58c26079e9f4e9bda",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/models/C55A_BEFORE.blend",
+      "bytes": 16020333,
+      "sha256": "adc8c37ade9dc790c198277706daacd929a6055c37f3679ec5171aeb6b8c2d4f",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/models/C55A_R25_LOCAL_EDIT.blend",
+      "bytes": 17599248,
+      "sha256": "6b0bedde4f7e49b482f5d850088333aee75ac6849454119084f14ae0ca4f243e",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/models/C55A_R25_LOCAL_EDIT.glb",
+      "bytes": 23624144,
+      "sha256": "f31373a5804bb6cdb77466bd95084507b7ab72612e4d77a727e55e0ea4f5878c",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/ACTUAL_SECTION.json",
+      "bytes": 42999,
+      "sha256": "3660baed2e181f0eb4db4f06aad21a7a756ecd07dcaca5f24292d76472d483a7",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/ARTIFACT_HASHES.json",
+      "bytes": 3297,
+      "sha256": "3cd05b9f44824c5cfc1ce9368d2dee955afc2a4531e29cd611c633545c07459a",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/CAMERAS.json",
+      "bytes": 764,
+      "sha256": "1a381db8568b579573947d152ec6f77b84d74ec16264b2a4bf3b5ec68f8b9371",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/EDIT_MANIFEST.json",
+      "bytes": 3063,
+      "sha256": "797d121ec8dfca165005bd194b315718763a964040f7c06e6be298594bacea5e",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/FILE_READBACK.json",
+      "bytes": 739,
+      "sha256": "ad4224c25a6ba43749a9dd9bf82fe611cd4bea9352fe33c39356fc4f4ab6bd6e",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/INDEPENDENT_ART_REVIEW_JA.md",
+      "bytes": 6626,
+      "sha256": "0d0981d07233940025eaf4c75d4ff9ce14ad4122a4dea46ff53179a2b1e10ccd",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/INSPECT.json",
+      "bytes": 125008,
+      "sha256": "b3b69b72a2578d24b2bbe0fda24c95c061232d3036b30d648bff746dfdade557",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/qa/LIMITED_GEOMETRY.json",
+      "bytes": 279999,
+      "sha256": "03d02bd501af5a62641229c81b880f4d2d09a21bbba4272f0e03beade28e99b2",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/actual_section.png",
+      "bytes": 71590,
+      "sha256": "b2f692ae683a13b6953279a53302aefdc8781344face8525436d81f0bc651051",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/after_01_local.png",
+      "bytes": 819619,
+      "sha256": "e40b0d84475de6ef71d9b419e8dce5ba50c35c49692650e6e2494f6b9226a935",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/after_02_entrance.png",
+      "bytes": 762261,
+      "sha256": "c03f561aebbd9a3d64b20190d129558421a529c440fb27f7401a8e7b0ae946b5",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/after_03_interior.png",
+      "bytes": 763927,
+      "sha256": "6ccd330073da891977665e33d5ba5fee860eb56e7592f2710a533b216b31d3b7",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/after_04_destination.png",
+      "bytes": 189278,
+      "sha256": "274bb16fcf98c662f8be3ab824d58c39e156c85187a10498b08ef81e8bbc981c",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/after_05_front_wide.png",
+      "bytes": 915815,
+      "sha256": "4fcf2d3e793ca340fa074a878de45190729c2d9b68e03e59ae2ce8ff8a4172fe",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/after_06_rear_wide.png",
+      "bytes": 832354,
+      "sha256": "95180c4a2798a641f4f4a3f553ae3653623f7a070303b7ef140d45882a2071e7",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/before_01_local.png",
+      "bytes": 811201,
+      "sha256": "bb65039308088bf264fbca79bfe3eac1794e686d534499d47577b2691c0eb3d8",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/before_02_entrance.png",
+      "bytes": 801221,
+      "sha256": "140564bdac21b9654c0ed53dacf549eecc04f4e1c412daef422632eb57cebebc",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/before_03_interior.png",
+      "bytes": 825526,
+      "sha256": "243a85b64e507dfad7c4fc0193e19023f4d8f750f9b75d78faba68148c1d407f",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/before_04_destination.png",
+      "bytes": 288303,
+      "sha256": "2e94ae5983f1ac2038e500e2e5de37424ec189b3f447c7ccaac4e190b9c8ce1f",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/before_05_front_wide.png",
+      "bytes": 915888,
+      "sha256": "ae9752f2965579e90fb06b375aa1bf4312a133f6e4d0a69d26d926371cb92a87",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/before_06_rear_wide.png",
+      "bytes": 832368,
+      "sha256": "054e24ae0ea3a7cc208e30df678b09e51b3a190ff478c5d3ee900fb6bc92e796",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/comparison_01.jpg",
+      "bytes": 63776,
+      "sha256": "870ffc5caa8bc398d59ece1da566e833ec89b36ecb96db6af375a994e9d49407",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/comparison_02.jpg",
+      "bytes": 50465,
+      "sha256": "bfd81bbbcc49eb2ebbb0aadc87072b7387f319d734df91f602ca439ccf4fae5e",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/comparison_03.jpg",
+      "bytes": 58246,
+      "sha256": "9e8da12d5cfc6b12f9660623efbea7762b3a7bfb59ff4e046ce93eea2784dc4c",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/comparison_04.jpg",
+      "bytes": 39178,
+      "sha256": "aaf2f5472a8afd9253299fd1c0733aa0a57c7c06d1cad43704b646590ad2542d",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/comparison_05.jpg",
+      "bytes": 100092,
+      "sha256": "f0e6ec5c4acafd0d690ae3f17c8b189353a44889e34517951d7c6abead4c79bd",
+      "exact": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R25_EXEC/renders/comparison_06.jpg",
+      "bytes": 74480,
+      "sha256": "780dba4f3045db6f727a0c956b8b6dad4a97dc243985acccbb171e83ec2b44c3",
+      "exact": true
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 2026-10-25 JST。研究専用。**G0 TECH確認、G1接続FAIL、独立G2 ART REJECT。建築空間の品質改善能力は今回確認できなかった。** 実モデルの制作・保存と、美術的成功を区別する。C55-A全体のART HOLD、正式中央採択0件、Minecraft施工HOLD、CITY MASTER 3D FIRSTは維持。
 
+保存先は[独立Draft PR #57](https://github.com/ryomashibaba/celestial-halo-9/pull/57)。実成果コミット `f50679d02fb40d4aa27b770ac6d8ef476ca7bc96` の46ファイル・83,003,116バイトをGitHub HTTPSから独立再取得し、コミット済みGit blobと全バイト一致を確認した。[読戻し記録](qa/GITHUB_READBACK.json)を後続メタデータコミットに保存。後続の本文・latest更新は実モデル変更ではない。
+
 ## 最初に見る証拠
 
 - [独立した日本語美術評価](qa/INDEPENDENT_ART_REVIEW_JA.md)
