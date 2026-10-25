@@ -212,7 +212,16 @@ C=[
  ("05_AERIAL",(1600,-1200,2600),center,1675),
  ("06_CIVIC_VOID",(0,-730,470),(0,105,345),750),
  ("07_DISTRICT_INSIDE",(60,150,390),(320,245,415),590),
- ("08_HUMAN_SCALE",(-80,60,35),(100,130,260),24,"PERSP")]
+ ("08_HUMAN_SCALE",(-340,-340,75.7),(50,-10,275),24,"PERSP")]
+# Certified ONLY as a correctly measured 1.7m camera above real floor,
+# never confuse a low floating viewpoint with human-height perspective.
+eye=Vector((-340,-340,75.7))
+h,point,norm,face_idx,floor_obj,_=sc.ray_cast(
+ bpy.context.evaluated_depsgraph_get(),eye,Vector((0,0,-1)),distance=12)
+human_ray={"camera_position_m":list(eye),"hit":bool(h),
+ "floor_name":floor_obj.name if floor_obj else None,
+ "eye_to_floor_m":round((eye-point).length,5) if h else None}
+assert h and abs((eye-point).length-1.7)<.02 and "INTERIOR_PUBLIC_COURT" in floor_obj.name,human_ray
 rendered=[cam_render(*v) for v in C]
 before=out/"R14_INHABITED_WORLD_PILOT.blend"
 bpy.ops.wm.save_as_mainfile(filepath=str(before),compress=True)
@@ -231,6 +240,7 @@ ev={"schema":"halo9.j7r14.single_real_urban_world_pilot.v1",
  "connected_graph_topologically":True,
  "floor_and_vertical_access":"GEOMETRY_PRESENT_NOT_REAL_WALKABILITY_CERTIFICATION",
  "all_navigable":"NOT_CERTIFIED",
+ "human_view_camera_verified":human_ray,
  "true_void_volume":"NOT_MEASURED",
  "main_city_master_completed":False,
  "minecraft_construction":"HOLD",
