@@ -1,0 +1,109 @@
+{
+  "schema": "halo9.j7r15.symmetric_lived_world.v1",
+  "date_jst": "2026-10-25",
+  "research_only": true,
+  "branch": "research/m3d1s-j7-r15-symmetric-lived-world-20261025",
+  "base_R14_head": "81cdbc878300f7a5a7e3b2309f90b395213bf604",
+  "base_R14_pr": 46,
+  "art_decision": "ART_REJECT",
+  "formal_central_art_accepted": 0,
+  "minecraft_construction": "HOLD",
+  "city_master_complete": false,
+  "canonical_coordinate_alignment": "UNVERIFIED",
+  "symmetry": "X=0 bilateral primary inhabited landforms, opposed public strata; west garden courts/east canals and vertical gardens vary contents",
+  "final_blend": "revision_2/R15_FINAL.blend",
+  "final_glb": "revision_2/R15_FINAL.glb",
+  "span_xyz_m": [
+    2740.0,
+    1699.8538208007812,
+    1884.0
+  ],
+  "meshes": 4708,
+  "triangles": 86478,
+  "human_floor_rays": {
+    "08_HUMAN_WEST": {
+      "camera_xyz_m": [
+        -545.0,
+        -450.0,
+        241.75999450683594
+      ],
+      "hit": true,
+      "object": "WEST_GARDEN_T0_walkable_ground",
+      "floor_xyz_m": [
+        -545.0,
+        -450.0,
+        240.05999755859375
+      ],
+      "distance_m": 1.6999969454345187,
+      "floor_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "higher_origin_hit": "WEST_GARDEN_T0_walkable_ground",
+      "higher_origin_floor_xyz_m": [
+        -545.0,
+        -450.0,
+        240.05999755859375
+      ],
+      "higher_origin_matches_floor": true,
+      "pass_1_7m_2mm": true
+    },
+    "10_HUMAN_CANYON": {
+      "camera_xyz_m": [
+        -390.0,
+        -620.0,
+        63.70000076293945
+      ],
+      "hit": true,
+      "object": "Lower_public_promenade",
+      "floor_xyz_m": [
+        -390.0,
+        -620.0,
+        62.0
+      ],
+      "distance_m": 1.7000007320851265,
+      "floor_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "higher_origin_hit": "Lower_public_promenade",
+      "higher_origin_floor_xyz_m": [
+        -390.0,
+        -620.0,
+        62.0
+      ],
+      "higher_origin_matches_floor": true,
+      "pass_1_7m_2mm": true
+    }
+  },
+  "actual_sections": [
+    "sections/SECTION_XZ_Y0/SECTION_XZ_Y0.blend",
+    "sections/SECTION_YZ_X0/SECTION_YZ_X0.blend"
+  ],
+  "technical_QA": "qa/BLEND_GLB_READBACK.json",
+  "basic_persistence_pass": true,
+  "saved_model_readback_pairs": 6,
+  "required_final_and_section_views": 14,
+  "report": "R15_ART_REVIEW_JA.md",
+  "foreground_computer_use": false,
+  "actual_saves_accessed": false,
+  "method": "Background Blender bpy + observed renders + main form revisions + separate process readback",
+  "revisions": [
+    "Cones and suspended trays replaced by continuous inhabited escarpments, real public cuts and stronger vertical shared canyon",
+    "Front-open civic clefts, recessed upper grounds, rear upper vessel, stepped receiving terrain and nonuniform public crossings"
+  ],
+  "unverified": [
+    "Full traversal",
+    "Inter-solid collisions",
+    "Operational lifts",
+    "Structure",
+    "Habitable volume",
+    "All public interior details",
+    "W0/H/SB/HERO/axes/V full-city integration",
+    "Formal art adoption"
+  ],
+  "next_priority": "Recompose one 500-900m district as a continuous lived public terrain and occupied civic world before another macro refinement.",
+  "github_delivery": "PENDING_PUSH_AND_NEW_DRAFT_PR"
+}

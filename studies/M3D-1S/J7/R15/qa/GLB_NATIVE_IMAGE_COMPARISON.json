@@ -1,0 +1,13 @@
+{
+  "mean_absolute_rgb_difference_0_255": [
+    0.03905681818181818,
+    0.035778030303030305,
+    0.033947727272727275
+  ],
+  "max_absolute_rgb_difference_0_255": [
+    17,
+    16,
+    15
+  ],
+  "scope": "Independent GLB render with identical studio and camera; stochastic Cycles and normal representation can differ."
+}

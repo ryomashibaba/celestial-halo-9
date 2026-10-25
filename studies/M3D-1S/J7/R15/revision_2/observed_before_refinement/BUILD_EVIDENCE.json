@@ -1,0 +1,119 @@
+{
+  "revision": 2,
+  "blender_version": "5.2.1 LTS",
+  "units": "metres; independent study coordinates, not official world anchors",
+  "districts": [
+    {
+      "name": "WEST_GARDEN_T0",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 240,
+      "role": "garden courts"
+    },
+    {
+      "name": "WEST_GARDEN_T1",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 355,
+      "role": "garden courts"
+    },
+    {
+      "name": "WEST_GARDEN_T2",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 470,
+      "role": "garden courts"
+    },
+    {
+      "name": "EAST_WATER_T0",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 240,
+      "role": "canal and vertical gardens"
+    },
+    {
+      "name": "EAST_WATER_T1",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 355,
+      "role": "canal and vertical gardens"
+    },
+    {
+      "name": "EAST_WATER_T2",
+      "plan_span_m": [
+        250,
+        1355
+      ],
+      "living_core_m": [
+        230,
+        930
+      ],
+      "floor_z_m": 470,
+      "role": "canal and vertical gardens"
+    }
+  ],
+  "human_floor_rays": {
+    "08_HUMAN_WEST": {
+      "camera_xyz_m": [
+        -545.0,
+        -450.0,
+        241.6999969482422
+      ],
+      "hit": true,
+      "object": "WEST_GARDEN_T0_inhabited_landform",
+      "floor_xyz_m": [
+        -545.0,
+        -450.0,
+        240.0
+      ],
+      "distance_m": 1.6999969454345187,
+      "pass_1_7m_2mm": true
+    },
+    "10_HUMAN_CANYON": {
+      "camera_xyz_m": [
+        -390.0,
+        -650.0,
+        61.70000076293945
+      ],
+      "hit": true,
+      "object": "LOWER_CIVIC_GROUND",
+      "floor_xyz_m": [
+        -390.0,
+        -650.0,
+        60.0
+      ],
+      "distance_m": 1.7000007320851265,
+      "pass_1_7m_2mm": true
+    }
+  }
+}
