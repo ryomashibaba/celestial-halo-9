@@ -1,0 +1,66 @@
+{
+  "sky_prototypes": [
+    {
+      "id": "A_GARDEN",
+      "origin_m": [
+        -2700,
+        700,
+        650
+      ],
+      "formal_H_assignment": null
+    },
+    {
+      "id": "B_HARBOR",
+      "origin_m": [
+        2250,
+        -650,
+        780
+      ],
+      "formal_H_assignment": null
+    },
+    {
+      "id": "C_CULTURE",
+      "origin_m": [
+        2050,
+        1900,
+        1240
+      ],
+      "formal_H_assignment": null
+    },
+    {
+      "id": "D_RIDGE",
+      "origin_m": [
+        -2100,
+        2700,
+        1450
+      ],
+      "formal_H_assignment": null
+    },
+    {
+      "id": "E_OBSERVATORY",
+      "origin_m": [
+        580,
+        3100,
+        1870
+      ],
+      "formal_H_assignment": null
+    },
+    {
+      "id": "F_CASCADE",
+      "origin_m": [
+        -2700,
+        -1250,
+        460
+      ],
+      "formal_H_assignment": null
+    }
+  ],
+  "status": "Independent provisional composition; NOT canonical H1-H6, SB, W0 or city master",
+  "unfinished": [
+    "All sky-district full public interiors",
+    "SB01-SB16 complete models",
+    "Official anchors and transforms",
+    "Full pedestrian/rail operations",
+    "General-building full exterior design across 10km"
+  ]
+}

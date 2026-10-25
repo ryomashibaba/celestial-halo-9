@@ -1,0 +1,12 @@
+{
+  "revision": 2,
+  "blender": "5.2.1 LTS",
+  "seed": 281026,
+  "meshes": 244,
+  "units": "metres",
+  "base": "60bff854b8cec7265a50de34190d740a626d4c13",
+  "canonical_transform": null,
+  "method": "Designed floor plates, occupied arc sectors, solid roof sweeps, articulated ribs, actual galleries; background Blender Python",
+  "formal_art_adoptions": 0,
+  "minecraft": "HOLD"
+}

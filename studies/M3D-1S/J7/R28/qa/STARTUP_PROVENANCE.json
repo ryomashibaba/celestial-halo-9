@@ -1,0 +1,155 @@
+{
+  "date_jst": "2026-10-26",
+  "verified_main_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "verified_R27B_head": "60bff854b8cec7265a50de34190d740a626d4c13",
+  "verification": "Live Git ls-remote after successful fetch + GitHub connector main files and PR60 metadata; PR60 draft/open/unmerged",
+  "policy_current_status_date": "2026-10-23; historical rolling contents are stale; do not treat listed old HEADs as current",
+  "branch": "research/m3d1s-j7-r28-celestial-estuary-20261026",
+  "sources": [
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "AGENTS.md",
+      "bytes": 2861,
+      "sha256": "7bd04b75e2305edec473656194ce7f251e54bc60270d251919d46b1409ccb586",
+      "git_blob": "dc376946a7261137abbdaee68373ea67ce4d34c5"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/START_HERE.md",
+      "bytes": 5303,
+      "sha256": "3061cc6a35cf3e47968400d49538ed218d9cd9debfc5e40c4193ca5922582f01",
+      "git_blob": "31409773da67b3212a0ecae14e603f7af2c260a8"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/PROJECT_CONSTITUTION.md",
+      "bytes": 15410,
+      "sha256": "bb5104cf6e293553dbab483eb80dfed0b98749a27d307bf0aa2cecb8c640594d",
+      "git_blob": "9afa293268492ed0f70a0b2221ab3277dff48f32"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CITY_MASTER_3D_STANDARD.md",
+      "bytes": 8311,
+      "sha256": "2f8004e87ebf7d441e58ee82964815091d5f247d0ff6d4bd995d63544b3f2805",
+      "git_blob": "b3fcf9d02c4de5566f3ed506c43df6a2db3817e4"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CURRENT_STATUS.md",
+      "bytes": 3730,
+      "sha256": "2f083a22b3425379a9353ea74fc003fc0bd83fd8b6bb5969eeecf27a67e01d15",
+      "git_blob": "715ad111ca335735d3723cf5d86a14cb8aa543f2"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/DECISION_LOG.md",
+      "bytes": 4111,
+      "sha256": "33df9739248908fa7b92607c47814225169f582056ae4a7319cdad2222d3ad2b",
+      "git_blob": "c5a60bde5b4c2b13256cdf30fb3ff78210ac7971"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R21/source/code/c55a_city.py",
+      "bytes": 42699,
+      "sha256": "dd9c56652a57244a6ad38bc86817471dae5437a16461f053a3181a09db215bfb",
+      "git_blob": "3c110430e800a223c29b1e8630933251e11f1173"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R21/source/code/c55a_geom.py",
+      "bytes": 8562,
+      "sha256": "df932224ec81525450dd571800bb4e70e95a72d5f7114fecff750eefdeaf9432",
+      "git_blob": "7cbe6eff5630389dae25fdd67f1ad1a142a75587"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R21/source/code/c55a_hall.py",
+      "bytes": 9917,
+      "sha256": "a9256b786a64a967638395739b7fa7fd9598f75c6d067817a8a86ec363c736e6",
+      "git_blob": "d2002110a918828f876a9a9a0b3a48f2f6db5ee8"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R21/source/code/blender_build.py",
+      "bytes": 6624,
+      "sha256": "3e915cf5262066688b799208b94f861340b18c755d1f41499f527146536df143",
+      "git_blob": "bbb52a31203649f59215d848d0f6a828188ab58c"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R21/R21_ART_REVIEW_JA.md",
+      "bytes": 11919,
+      "sha256": "09f37cdbdb1ca83e4f72b08d135c67e887aae9347f6d26bf06307278d666f090",
+      "git_blob": "8f171d207e9a4f3a3e96d153a52fa17523974106"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R26/R26_WHOLE_CITY_ART_DIRECTION_JA.md",
+      "bytes": 19563,
+      "sha256": "20499167773ace6187b756de253e847ba4001af852de218cd57eb452c08d6c57",
+      "git_blob": "adbffe1f6d4a4ddf28c005582db5a29cf8ea3211"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R27/R27_CITYWIDE_INTEGRATION_REALITY_GATE_JA.md",
+      "bytes": 9639,
+      "sha256": "0f575bac16608c384b6ab6056a347a8d3779ed1de8aaa257befbf2ca81f754b9",
+      "git_blob": "dad98963a2ea4ec47fc3cbb2bd8c6615a388ecd1"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R27/R27_VERIFIED_ASSET_ANCHOR_REGISTER.json",
+      "bytes": 12497,
+      "sha256": "a9c51385c784357c15ffe9e3fd04a72c774fdafe1d4990fd201b13157f2e0472",
+      "git_blob": "ac5691ab5019ce460fe1d34204c2b269aab2bd12"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R27B/build_city.py",
+      "bytes": 22333,
+      "sha256": "1d0129e1a9290792681a29fb2d0eb061ca966c4ab40271f6ecaba2eddf72437f",
+      "git_blob": "37043c4f7117ca440f53352eb8a6584a23140b27"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R27B/ART_REVIEW_JA.md",
+      "bytes": 4825,
+      "sha256": "43d351ac2a3c7a169b2076d242f48d0632d16dc9348970c62e80ea8c5dc5adab",
+      "git_blob": "0a128f6b3a0fd179dc6f0d07aea59e27969b7b76"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R27B/README_JA.md",
+      "bytes": 9545,
+      "sha256": "0cff588f57d3fd9e0dd161c3679d2a6008d4b870b9f391c354b3ec41db7f8237",
+      "git_blob": "0b4117361b61dbc445c5ec3689b75aa5181e3dfe"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R27B/model/R27B_LIVING_HORIZONS.blend",
+      "bytes": 1101204,
+      "sha256": "1f573d82b8cbca1f526a66a5f2851f900346b1fb360a6e8f91976f8289292654",
+      "git_blob": "4448e24ac462028e9ecb1cb83faf8b937b00f680"
+    },
+    {
+      "ref": "60bff854b8cec7265a50de34190d740a626d4c13",
+      "path": "studies/M3D-1S/J7/R27B/qa/REVIEW_SHEET.jpg",
+      "bytes": 412381,
+      "sha256": "a5dcbeaf645cc4f23f04969bab335bdb6308bed086f49e4b25f8160649dfa288",
+      "git_blob": "b737e27a50530f9e5626b987c00305358b41c274"
+    }
+  ],
+  "local_setup_status": "SETUP_STATUS.txt read; dated 2026-10-14. Referenced setup report absent in current checkout (also recorded by R21). Current R27B HEAD verified directly.",
+  "authorization": "2026-10-26 attached R28 request: background local Blender production, new R28 branch, push and new Draft PR. No merge or existing PR writes authorized.",
+  "canonical_common_coordinate_anchors": "Not certified; retain R27A unresolved asset/transform status",
+  "geometry": "Entire R28 newly authored; no legacy model import, no old city scaling. C55-A code read as principles only; no source code copied or executed.",
+  "canonical_changes": false,
+  "world_save_access": false,
+  "foreground_UI_control": false,
+  "paid_external_AI": false,
+  "policy_amendment": null,
+  "formal_central_art_adoptions": 0,
+  "minecraft": "HOLD",
+  "CITY_MASTER_3D_FIRST": "LOCKED"
+}

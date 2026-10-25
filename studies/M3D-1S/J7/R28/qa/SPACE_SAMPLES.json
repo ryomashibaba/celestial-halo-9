@@ -1,0 +1,56 @@
+{
+  "samples": [
+    {
+      "name": "roofed forum longitudinal lower void",
+      "start_m": [
+        0,
+        -1500,
+        112
+      ],
+      "end_m": [
+        0,
+        300,
+        112
+      ],
+      "length_m": 1800.0,
+      "first_hit": null,
+      "distance_to_hit_m": null,
+      "unobstructed_sample": true
+    },
+    {
+      "name": "east reading gallery open front",
+      "start_m": [
+        1035,
+        -917,
+        120.7
+      ],
+      "end_m": [
+        2250,
+        -650,
+        850
+      ],
+      "length_m": 1442.009882074322,
+      "first_hit": null,
+      "distance_to_hit_m": null,
+      "unobstructed_sample": true
+    },
+    {
+      "name": "north choir portal transverse sample",
+      "start_m": [
+        -80,
+        1300,
+        400
+      ],
+      "end_m": [
+        -80,
+        1950,
+        400
+      ],
+      "length_m": 650.0,
+      "first_hit": null,
+      "distance_to_hit_m": null,
+      "unobstructed_sample": true
+    }
+  ],
+  "limits": "Honest finite straight rays. A blocked ray is recorded, never silently removed. No enclosed-volume or building-wide access claim."
+}

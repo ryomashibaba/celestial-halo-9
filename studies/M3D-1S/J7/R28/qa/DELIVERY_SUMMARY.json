@@ -1,0 +1,50 @@
+{
+  "date_jst": "2026-10-26",
+  "art": "PRODUCER ART HOLD / promising partial architecture, breakthrough not established",
+  "central_architecture": {
+    "min_m": [
+      -1512.04931640625,
+      -1635.0,
+      87.0
+    ],
+    "max_m": [
+      1740.0,
+      2067.533935546875,
+      3270.754638671875
+    ],
+    "dimensions_m": [
+      3252.04931640625,
+      3702.533935546875,
+      3183.754638671875
+    ]
+  },
+  "architecture_and_transport_excluding_terrain_sea_far_ground": {
+    "min_m": [
+      -3439.11376953125,
+      -2790.0,
+      0.4232565462589264
+    ],
+    "max_m": [
+      4040.0,
+      3759.980224609375,
+      3270.754638671875
+    ],
+    "dimensions_m": [
+      7479.11376953125,
+      6549.980224609375,
+      3270.331382125616
+    ]
+  },
+  "background_extent_is_not_city_size": true,
+  "mesh_count": 244,
+  "triangles": 1265352,
+  "render_count": 9,
+  "saved_geometry_readback_pass": true,
+  "human_floor_camera_count": 5,
+  "public_volume_full_verification": false,
+  "formal_city_master_complete": false,
+  "canonical_transform_verified": false,
+  "formal_art_adoptions": 0,
+  "minecraft": "HOLD",
+  "next_value": "Co-design a specific inhabited wing slice, sky arrival station and public room as a connected architectural section; replace generic repeated districts and refine the silhouette after independent review."
+}

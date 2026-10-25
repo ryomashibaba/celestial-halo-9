@@ -1,0 +1,209 @@
+{
+  "cameras": [
+    {
+      "camera": "01_ESTUARY_CITY",
+      "position_m": [
+        8400.0,
+        -10600.0,
+        4200.0
+      ],
+      "target_m": [
+        -250,
+        550,
+        1050
+      ],
+      "lens_mm": 43.0,
+      "kind": "AERIAL_OR_FLOATING",
+      "floor_expected": null
+    },
+    {
+      "camera": "02_CENTRAL_CHOIR",
+      "position_m": [
+        3900.0,
+        -4900.0,
+        2100.0
+      ],
+      "target_m": [
+        -300,
+        620,
+        1370
+      ],
+      "lens_mm": 32.0,
+      "kind": "AERIAL_OR_FLOATING",
+      "floor_expected": null
+    },
+    {
+      "camera": "03_FORUM_HUMAN",
+      "position_m": [
+        105.0,
+        -1390.0,
+        106.69999694824219
+      ],
+      "target_m": [
+        -90,
+        580,
+        310
+      ],
+      "lens_mm": 23.0,
+      "kind": "REAL_STUDY_FLOOR_HUMAN_VIEW",
+      "floor_expected": "FORUM_REAL_FLOOR",
+      "hit": true,
+      "actual_support": "FORUM_REAL_FLOOR",
+      "eye_height_m": 1.6999969482421875,
+      "floor_pass": true,
+      "five_foot_support_samples": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "head_clearance_22cm_cardinal_hits": []
+    },
+    {
+      "camera": "04_LIBRARY_LANE",
+      "position_m": [
+        -168.0,
+        -1350.0,
+        106.69999694824219
+      ],
+      "target_m": [
+        -154,
+        -700,
+        145
+      ],
+      "lens_mm": 26.0,
+      "kind": "REAL_STUDY_FLOOR_HUMAN_VIEW",
+      "floor_expected": "FORUM_REAL_FLOOR",
+      "hit": true,
+      "actual_support": "FORUM_REAL_FLOOR",
+      "eye_height_m": 1.6999969482421875,
+      "floor_pass": true,
+      "five_foot_support_samples": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "head_clearance_22cm_cardinal_hits": []
+    },
+    {
+      "camera": "05_SEA_TERRACE",
+      "position_m": [
+        1460.0,
+        -1430.0,
+        106.69999694824219
+      ],
+      "target_m": [
+        -200,
+        800,
+        1700
+      ],
+      "lens_mm": 24.0,
+      "kind": "REAL_STUDY_FLOOR_HUMAN_VIEW",
+      "floor_expected": "SEA_TERRACE_REAL_FLOOR",
+      "hit": true,
+      "actual_support": "SEA_TERRACE_REAL_FLOOR",
+      "eye_height_m": 1.6999969482421875,
+      "floor_pass": true,
+      "five_foot_support_samples": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "head_clearance_22cm_cardinal_hits": []
+    },
+    {
+      "camera": "06_REAR_NORTH",
+      "position_m": [
+        1000.0,
+        5400.0,
+        4300.0
+      ],
+      "target_m": [
+        0,
+        800,
+        1300
+      ],
+      "lens_mm": 38.0,
+      "kind": "AERIAL_OR_FLOATING",
+      "floor_expected": null
+    },
+    {
+      "camera": "07_SKY_COURT",
+      "position_m": [
+        2280.0,
+        -769.0,
+        806.2000122070312
+      ],
+      "target_m": [
+        -200,
+        800,
+        1600
+      ],
+      "lens_mm": 25.0,
+      "kind": "REAL_STUDY_FLOOR_HUMAN_VIEW",
+      "floor_expected": "B_HARBOR interior boulevard",
+      "hit": true,
+      "actual_support": "B_HARBOR interior boulevard",
+      "eye_height_m": 1.70001220703125,
+      "floor_pass": true,
+      "five_foot_support_samples": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "head_clearance_22cm_cardinal_hits": []
+    },
+    {
+      "camera": "08_WHOLE_CITY",
+      "position_m": [
+        8500.0,
+        -11000.0,
+        11000.0
+      ],
+      "target_m": [
+        0,
+        600,
+        500
+      ],
+      "lens_mm": 43.0,
+      "kind": "AERIAL_OR_FLOATING",
+      "floor_expected": null
+    },
+    {
+      "camera": "09_UPPER_CIVIC_PROMENADE",
+      "position_m": [
+        860.0,
+        230.0,
+        651.7000122070312
+      ],
+      "target_m": [
+        2250,
+        -650,
+        850
+      ],
+      "lens_mm": 30.0,
+      "kind": "REAL_STUDY_FLOOR_HUMAN_VIEW",
+      "floor_expected": "upper civic promenade",
+      "hit": true,
+      "actual_support": "upper civic promenade",
+      "eye_height_m": 1.70001220703125,
+      "floor_pass": true,
+      "five_foot_support_samples": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "head_clearance_22cm_cardinal_hits": []
+    }
+  ],
+  "limits": "Floor support and tiny local head samples only, not continuous pedestrian/structural certification."
+}

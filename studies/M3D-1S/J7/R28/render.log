@@ -1,0 +1,31 @@
+00:01.641  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\model\R28_CELESTIAL_ESTUARY.blend"
+RENDER_START 01_ESTUARY_CITY
+00:25.953  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\01_ESTUARY_CITY.png'
+RENDER_DONE 01_ESTUARY_CITY
+RENDER_START 02_CENTRAL_CHOIR
+00:56.500  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\02_CENTRAL_CHOIR.png'
+RENDER_DONE 02_CENTRAL_CHOIR
+RENDER_START 03_FORUM_HUMAN
+01:42.625  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\03_FORUM_HUMAN.png'
+RENDER_DONE 03_FORUM_HUMAN
+RENDER_START 04_LIBRARY_LANE
+02:30.844  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\04_LIBRARY_LANE.png'
+RENDER_DONE 04_LIBRARY_LANE
+RENDER_START 05_SEA_TERRACE
+03:07.469  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\05_SEA_TERRACE.png'
+RENDER_DONE 05_SEA_TERRACE
+RENDER_START 06_REAR_NORTH
+03:28.859  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\06_REAR_NORTH.png'
+RENDER_DONE 06_REAR_NORTH
+RENDER_START 07_SKY_COURT
+04:08.719  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\07_SKY_COURT.png'
+RENDER_DONE 07_SKY_COURT
+RENDER_START 08_WHOLE_CITY
+04:33.109  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\08_WHOLE_CITY.png'
+RENDER_DONE 08_WHOLE_CITY
+RENDER_START 09_EAST_READING_GALLERY
+05:07.203  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\renders\09_EAST_READING_GALLERY.png'
+RENDER_DONE 09_EAST_READING_GALLERY
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

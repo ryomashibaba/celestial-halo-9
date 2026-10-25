@@ -1,0 +1,251 @@
+00:01.781  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\model\R28_CELESTIAL_ESTUARY.blend"
+06:36:50 | INFO: Data are loaded, start creating Blender stuff
+06:36:50 | INFO: Blender create Mesh node A_GARDEN civic canopy
+06:36:50 | INFO: Blender create Mesh node A_GARDEN interior boulevard
+06:36:50 | INFO: Blender create Mesh node A_GARDEN mixed use arcade supports
+06:36:50 | INFO: Blender create Mesh node A_GARDEN mixed use entry lintel
+06:36:50 | INFO: Blender create Mesh node A_GARDEN mixed use facade fins
+06:36:50 | INFO: Blender create Mesh node A_GARDEN mixed use floor
+06:36:50 | INFO: Blender create Mesh node A_GARDEN mixed use private core
+06:36:50 | INFO: Blender create Mesh node A_GARDEN mixed use shelter
+06:36:50 | INFO: Blender create Mesh node A_GARDEN mixed use shop transom
+06:36:50 | INFO: Blender create Mesh node A_GARDEN mixed use shopfront
+06:36:50 | INFO: Blender create Mesh node A_GARDEN occupied decks
+06:36:50 | INFO: Blender create Mesh node A_GARDEN recessed bands
+06:36:50 | INFO: Blender create Mesh node A_GARDEN underside basket arches
+06:36:50 | INFO: Blender create Mesh node B_HARBOR interior boulevard
+06:36:50 | INFO: Blender create Mesh node B_HARBOR mixed use arcade supports
+06:36:50 | INFO: Blender create Mesh node B_HARBOR mixed use entry lintel
+06:36:50 | INFO: Blender create Mesh node B_HARBOR mixed use facade fins
+06:36:50 | INFO: Blender create Mesh node B_HARBOR mixed use floor
+06:36:50 | INFO: Blender create Mesh node B_HARBOR mixed use private core
+06:36:50 | INFO: Blender create Mesh node B_HARBOR mixed use shelter
+06:36:50 | INFO: Blender create Mesh node B_HARBOR mixed use shop transom
+06:36:50 | INFO: Blender create Mesh node B_HARBOR mixed use shopfront
+06:36:50 | INFO: Blender create Mesh node B_HARBOR occupied decks
+06:36:50 | INFO: Blender create Mesh node B_HARBOR recessed bands
+06:36:50 | INFO: Blender create Mesh node B_HARBOR stepped civic library arcade supports
+06:36:50 | INFO: Blender create Mesh node B_HARBOR stepped civic library entry lintel
+06:36:50 | INFO: Blender create Mesh node B_HARBOR stepped civic library facade fins
+06:36:50 | INFO: Blender create Mesh node B_HARBOR stepped civic library floor
+06:36:50 | INFO: Blender create Mesh node B_HARBOR stepped civic library private core
+06:36:50 | INFO: Blender create Mesh node B_HARBOR stepped civic library shelter
+06:36:50 | INFO: Blender create Mesh node B_HARBOR stepped civic library shop transom
+06:36:50 | INFO: Blender create Mesh node B_HARBOR stepped civic library shopfront
+06:36:50 | INFO: Blender create Mesh node B_HARBOR underside basket arches
+06:36:50 | INFO: Blender create Mesh node bridge parapet
+06:36:50 | INFO: Blender create Mesh node C_CULTURE civic canopy
+06:36:50 | INFO: Blender create Mesh node C_CULTURE interior boulevard
+06:36:50 | INFO: Blender create Mesh node C_CULTURE mixed use arcade supports
+06:36:50 | INFO: Blender create Mesh node C_CULTURE mixed use entry lintel
+06:36:50 | INFO: Blender create Mesh node C_CULTURE mixed use facade fins
+06:36:50 | INFO: Blender create Mesh node C_CULTURE mixed use floor
+06:36:50 | INFO: Blender create Mesh node C_CULTURE mixed use private core
+06:36:50 | INFO: Blender create Mesh node C_CULTURE mixed use shelter
+06:36:50 | INFO: Blender create Mesh node C_CULTURE mixed use shop transom
+06:36:50 | INFO: Blender create Mesh node C_CULTURE mixed use shopfront
+06:36:50 | INFO: Blender create Mesh node C_CULTURE occupied decks
+06:36:50 | INFO: Blender create Mesh node C_CULTURE recessed bands
+06:36:50 | INFO: Blender create Mesh node C_CULTURE underside basket arches
+06:36:50 | INFO: Blender create Mesh node city fabric 0 arcade supports
+06:36:50 | INFO: Blender create Mesh node city fabric 0 entry lintel
+06:36:51 | INFO: Blender create Mesh node city fabric 0 facade fins
+06:36:51 | INFO: Blender create Mesh node city fabric 0 floor
+06:36:51 | INFO: Blender create Mesh node city fabric 0 private core
+06:36:51 | INFO: Blender create Mesh node city fabric 0 shelter
+06:36:51 | INFO: Blender create Mesh node city fabric 0 shop transom
+06:36:51 | INFO: Blender create Mesh node city fabric 0 shopfront
+06:36:51 | INFO: Blender create Mesh node city fabric 1 arcade supports
+06:36:51 | INFO: Blender create Mesh node city fabric 1 entry lintel
+06:36:51 | INFO: Blender create Mesh node city fabric 1 facade fins
+06:36:52 | INFO: Blender create Mesh node city fabric 1 floor
+06:36:52 | INFO: Blender create Mesh node city fabric 1 private core
+06:36:52 | INFO: Blender create Mesh node city fabric 1 shelter
+06:36:52 | INFO: Blender create Mesh node city fabric 1 shop transom
+06:36:52 | INFO: Blender create Mesh node city fabric 1 shopfront
+06:36:52 | INFO: Blender create Mesh node city fabric 2 arcade supports
+06:36:52 | INFO: Blender create Mesh node city fabric 2 entry lintel
+06:36:52 | INFO: Blender create Mesh node city fabric 2 facade fins
+06:36:52 | INFO: Blender create Mesh node city fabric 2 floor
+06:36:52 | INFO: Blender create Mesh node city fabric 2 private core
+06:36:52 | INFO: Blender create Mesh node city fabric 2 shelter
+06:36:52 | INFO: Blender create Mesh node city fabric 2 shop transom
+06:36:52 | INFO: Blender create Mesh node city fabric 2 shopfront
+06:36:52 | INFO: Blender create Mesh node civic court bench
+06:36:52 | INFO: Blender create Mesh node conservatory vaults
+06:36:52 | INFO: Blender create Mesh node D_RIDGE interior boulevard
+06:36:52 | INFO: Blender create Mesh node D_RIDGE mixed use arcade supports
+06:36:52 | INFO: Blender create Mesh node D_RIDGE mixed use entry lintel
+06:36:52 | INFO: Blender create Mesh node D_RIDGE mixed use facade fins
+06:36:52 | INFO: Blender create Mesh node D_RIDGE mixed use floor
+06:36:52 | INFO: Blender create Mesh node D_RIDGE mixed use private core
+06:36:52 | INFO: Blender create Mesh node D_RIDGE mixed use shelter
+06:36:52 | INFO: Blender create Mesh node D_RIDGE mixed use shop transom
+06:36:52 | INFO: Blender create Mesh node D_RIDGE mixed use shopfront
+06:36:52 | INFO: Blender create Mesh node D_RIDGE occupied decks
+06:36:52 | INFO: Blender create Mesh node D_RIDGE recessed bands
+06:36:52 | INFO: Blender create Mesh node D_RIDGE stepped civic library arcade supports
+06:36:52 | INFO: Blender create Mesh node D_RIDGE stepped civic library entry lintel
+06:36:52 | INFO: Blender create Mesh node D_RIDGE stepped civic library facade fins
+06:36:52 | INFO: Blender create Mesh node D_RIDGE stepped civic library floor
+06:36:52 | INFO: Blender create Mesh node D_RIDGE stepped civic library private core
+06:36:52 | INFO: Blender create Mesh node D_RIDGE stepped civic library shelter
+06:36:52 | INFO: Blender create Mesh node D_RIDGE stepped civic library shop transom
+06:36:52 | INFO: Blender create Mesh node D_RIDGE stepped civic library shopfront
+06:36:52 | INFO: Blender create Mesh node D_RIDGE underside basket arches
+06:36:52 | INFO: Blender create Mesh node E_OBSERVATORY civic canopy
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY interior boulevard
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY mixed use arcade supports
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY mixed use entry lintel
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY mixed use facade fins
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY mixed use floor
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY mixed use private core
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shelter
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shop transom
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shopfront
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY occupied decks
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY recessed bands
+06:36:53 | INFO: Blender create Mesh node E_OBSERVATORY underside basket arches
+06:36:53 | INFO: Blender create Mesh node east gallery colonnade
+06:36:53 | INFO: Blender create Mesh node east gallery reading benches
+06:36:53 | INFO: Blender create Mesh node east gallery roof
+06:36:53 | INFO: Blender create Mesh node EAST LANTERN continuous buttress
+06:36:53 | INFO: Blender create Mesh node EAST LANTERN room bands
+06:36:53 | INFO: Blender create Mesh node EAST LANTERN storeys
+06:36:53 | INFO: Blender create Mesh node EAST LANTERN vertical facade blades
+06:36:53 | INFO: Blender create Mesh node EAST_GALLERY_REAL_FLOOR
+06:36:53 | INFO: Blender create Mesh node eastern inland sea
+06:36:53 | INFO: Blender create Mesh node F_CASCADE interior boulevard
+06:36:53 | INFO: Blender create Mesh node F_CASCADE mixed use arcade supports
+06:36:53 | INFO: Blender create Mesh node F_CASCADE mixed use entry lintel
+06:36:53 | INFO: Blender create Mesh node F_CASCADE mixed use facade fins
+06:36:53 | INFO: Blender create Mesh node F_CASCADE mixed use floor
+06:36:53 | INFO: Blender create Mesh node F_CASCADE mixed use private core
+06:36:53 | INFO: Blender create Mesh node F_CASCADE mixed use shelter
+06:36:53 | INFO: Blender create Mesh node F_CASCADE mixed use shop transom
+06:36:53 | INFO: Blender create Mesh node F_CASCADE mixed use shopfront
+06:36:53 | INFO: Blender create Mesh node F_CASCADE occupied decks
+06:36:53 | INFO: Blender create Mesh node F_CASCADE recessed bands
+06:36:53 | INFO: Blender create Mesh node F_CASCADE stepped civic library arcade supports
+06:36:53 | INFO: Blender create Mesh node F_CASCADE stepped civic library entry lintel
+06:36:53 | INFO: Blender create Mesh node F_CASCADE stepped civic library facade fins
+06:36:53 | INFO: Blender create Mesh node F_CASCADE stepped civic library floor
+06:36:53 | INFO: Blender create Mesh node F_CASCADE stepped civic library private core
+06:36:53 | INFO: Blender create Mesh node F_CASCADE stepped civic library shelter
+06:36:53 | INFO: Blender create Mesh node F_CASCADE stepped civic library shop transom
+06:36:53 | INFO: Blender create Mesh node F_CASCADE stepped civic library shopfront
+06:36:53 | INFO: Blender create Mesh node F_CASCADE underside basket arches
+06:36:53 | INFO: Blender create Mesh node far ground
+06:36:53 | INFO: Blender create Mesh node forum benches
+06:36:53 | INFO: Blender create Mesh node forum branching vault ribs
+06:36:53 | INFO: Blender create Mesh node forum civic island
+06:36:53 | INFO: Blender create Mesh node forum cross bridge
+06:36:53 | INFO: Blender create Mesh node forum gallery floors
+06:36:53 | INFO: Blender create Mesh node forum gallery piers
+06:36:53 | INFO: Blender create Mesh node forum market arcade supports
+06:36:53 | INFO: Blender create Mesh node forum market entry lintel
+06:36:53 | INFO: Blender create Mesh node forum market facade fins
+06:36:53 | INFO: Blender create Mesh node forum market floor
+06:36:53 | INFO: Blender create Mesh node forum market private core
+06:36:53 | INFO: Blender create Mesh node forum market shelter
+06:36:53 | INFO: Blender create Mesh node forum market shop transom
+06:36:53 | INFO: Blender create Mesh node forum market shopfront
+06:36:53 | INFO: Blender create Mesh node forum reflecting channel
+06:36:53 | INFO: Blender create Mesh node forum silver roof petals
+06:36:53 | INFO: Blender create Mesh node forum splayed root
+06:36:53 | INFO: Blender create Mesh node forum tree planters
+06:36:53 | INFO: Blender create Mesh node FORUM_REAL_FLOOR
+06:36:53 | INFO: Blender create Mesh node gallery lift shaft
+06:36:53 | INFO: Blender create Mesh node gallery rail posts
+06:36:53 | INFO: Blender create Mesh node gallery safety rail
+06:36:53 | INFO: Blender create Mesh node gallery stair flights
+06:36:54 | INFO: Blender create Mesh node garden branches
+06:36:54 | INFO: Blender create Mesh node garden branches.001
+06:36:54 | INFO: Blender create Mesh node garden branches.002
+06:36:54 | INFO: Blender create Mesh node garden crowns
+06:36:54 | INFO: Blender create Mesh node garden crowns.001
+06:36:54 | INFO: Blender create Mesh node garden crowns.002
+06:36:54 | INFO: Blender create Mesh node garden layered foliage
+06:36:54 | INFO: Blender create Mesh node garden layered foliage.001
+06:36:54 | INFO: Blender create Mesh node garden layered foliage.002
+06:36:54 | INFO: Blender create Mesh node garden trunks
+06:36:54 | INFO: Blender create Mesh node garden trunks.001
+06:36:54 | INFO: Blender create Mesh node garden trunks.002
+06:36:54 | INFO: Blender create Mesh node gateway rising lintel
+06:36:54 | INFO: Blender create Mesh node halo bronze inner seam
+06:36:54 | INFO: Blender create Mesh node harbor terraces arcade supports
+06:36:54 | INFO: Blender create Mesh node harbor terraces entry lintel
+06:36:54 | INFO: Blender create Mesh node harbor terraces facade fins
+06:36:54 | INFO: Blender create Mesh node harbor terraces floor
+06:36:54 | INFO: Blender create Mesh node harbor terraces private core
+06:36:54 | INFO: Blender create Mesh node harbor terraces shelter
+06:36:54 | INFO: Blender create Mesh node harbor terraces shop transom
+06:36:54 | INFO: Blender create Mesh node harbor terraces shopfront
+06:36:54 | INFO: Blender create Mesh node inclined crown halo
+06:36:54 | INFO: Blender create Mesh node landform research
+06:36:54 | INFO: Blender create Mesh node lane planter
+06:36:54 | INFO: Blender create Mesh node lane seating
+06:36:54 | INFO: Blender create Mesh node library awning
+06:36:54 | INFO: Blender create Mesh node library awning posts
+06:36:54 | INFO: Blender create Mesh node library lane arcade supports
+06:36:54 | INFO: Blender create Mesh node library lane entry lintel
+06:36:54 | INFO: Blender create Mesh node library lane facade fins
+06:36:54 | INFO: Blender create Mesh node library lane floor
+06:36:54 | INFO: Blender create Mesh node library lane private core
+06:36:54 | INFO: Blender create Mesh node library lane shelter
+06:36:54 | INFO: Blender create Mesh node library lane shop transom
+06:36:54 | INFO: Blender create Mesh node library lane shopfront
+06:36:54 | INFO: Blender create Mesh node mountain sanctuary galleries
+06:36:54 | INFO: Blender create Mesh node NORTH CHOIR continuous buttress
+06:36:54 | INFO: Blender create Mesh node NORTH CHOIR room bands
+06:36:55 | INFO: Blender create Mesh node NORTH CHOIR storeys
+06:36:55 | INFO: Blender create Mesh node NORTH CHOIR vertical facade blades
+06:36:55 | INFO: Blender create Mesh node people 1.75m
+06:36:55 | INFO: Blender create Mesh node people arms
+06:36:55 | INFO: Blender create Mesh node people heads
+06:36:55 | INFO: Blender create Mesh node people legs
+06:36:55 | INFO: Blender create Mesh node public reading pavilion arcade supports
+06:36:55 | INFO: Blender create Mesh node public reading pavilion entry lintel
+06:36:55 | INFO: Blender create Mesh node public reading pavilion facade fins
+06:36:55 | INFO: Blender create Mesh node public reading pavilion floor
+06:36:55 | INFO: Blender create Mesh node public reading pavilion private core
+06:36:55 | INFO: Blender create Mesh node public reading pavilion shelter
+06:36:55 | INFO: Blender create Mesh node public reading pavilion shop transom
+06:36:55 | INFO: Blender create Mesh node public reading pavilion shopfront
+06:36:55 | INFO: Blender create Mesh node reading gallery edge posts
+06:36:55 | INFO: Blender create Mesh node reading gallery open parapet
+06:36:55 | INFO: Blender create Mesh node reading seat backs
+06:36:55 | INFO: Blender create Mesh node reading seats
+06:36:55 | INFO: Blender create Mesh node reading table legs
+06:36:55 | INFO: Blender create Mesh node reading tables
+06:36:55 | INFO: Blender create Mesh node sea sail floors
+06:36:55 | INFO: Blender create Mesh node SEA_TERRACE_REAL_FLOOR
+06:36:55 | INFO: Blender create Mesh node south gateway inhabited pier
+06:36:55 | INFO: Blender create Mesh node spine ascending flutes
+06:36:55 | INFO: Blender create Mesh node spine occupied ring
+06:36:55 | INFO: Blender create Mesh node spine recessed rooms
+06:36:55 | INFO: Blender create Mesh node transit piers
+06:36:55 | INFO: Blender create Mesh node transit rails 0
+06:36:55 | INFO: Blender create Mesh node transit rails 1
+06:36:55 | INFO: Blender create Mesh node transit rails 2
+06:36:55 | INFO: Blender create Mesh node transit rails 3
+06:36:55 | INFO: Blender create Mesh node transit rails 4
+06:36:55 | INFO: Blender create Mesh node transit rails 5
+06:36:55 | INFO: Blender create Mesh node transit viaduct 0
+06:36:55 | INFO: Blender create Mesh node transit viaduct 1
+06:36:55 | INFO: Blender create Mesh node transit viaduct 2
+06:36:55 | INFO: Blender create Mesh node transit viaduct 3
+06:36:55 | INFO: Blender create Mesh node transit viaduct 4
+06:36:55 | INFO: Blender create Mesh node transit viaduct 5
+06:36:55 | INFO: Blender create Mesh node twin conservatory floor
+06:36:55 | INFO: Blender create Mesh node upper civic promenade
+06:36:55 | INFO: Blender create Mesh node water stairs landing
+06:36:55 | INFO: Blender create Mesh node WEST CHOIR continuous buttress
+06:36:55 | INFO: Blender create Mesh node WEST CHOIR room bands
+06:36:56 | INFO: Blender create Mesh node WEST CHOIR storeys
+06:36:56 | INFO: Blender create Mesh node WEST CHOIR vertical facade blades
+06:36:56 | INFO: glTF import finished in 6.11s
+SAVED_GEOMETRY_CHECK_PASS 244 1265352 {'blend_to_glb_vertex_m': 0.0, 'glb_to_blend_vertex_m': 0.0, 'blend_to_glb_triangle_center_m': 0.0, 'glb_to_blend_triangle_center_m': 0.0}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
