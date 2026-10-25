@@ -1,0 +1,31 @@
+00:02.781  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\R23_CROSSING_HORIZONS.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+R23_RENDER final oblique
+00:18.297  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\oblique.png'
+R23_RENDER final front
+00:35.094  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\front.png'
+R23_RENDER final side
+00:51.219  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\side.png'
+R23_RENDER final rear
+01:06.797  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\rear.png'
+R23_RENDER final aerial
+01:22.750  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\aerial.png'
+R23_RENDER final underside
+01:37.390  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\underside.png'
+R23_RENDER final ground_1p7
+02:13.062  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\ground_1p7.png'
+R23_RENDER final mid_1p7
+03:02.031  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\mid_1p7.png'
+R23_RENDER final high_1p7
+03:49.187  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\high_1p7.png'
+R23_RENDER final rear_city
+04:14.359  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\rear_city.png'
+R23_RENDER final upper_underside
+04:32.406  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\renders\upper_underside.png'
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

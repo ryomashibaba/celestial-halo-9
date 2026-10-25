@@ -1,0 +1,25 @@
+00:02.531  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\R23_REVISED.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+R23_RENDER revision front
+00:18.922  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\renders\front.png'
+R23_RENDER revision oblique
+00:34.360  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\renders\oblique.png'
+R23_RENDER revision side
+00:51.141  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\renders\side.png'
+R23_RENDER revision rear
+01:07.750  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\renders\rear.png'
+R23_RENDER revision aerial
+01:24.672  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\renders\aerial.png'
+R23_RENDER revision underside
+01:39.797  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\renders\underside.png'
+R23_RENDER revision ground_1p7
+02:17.078  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\renders\ground_1p7.png'
+R23_RENDER revision mid_1p7
+03:11.797  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\revision\renders\mid_1p7.png'
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,10 @@
+{
+  "phase": "macro only",
+  "formal_coordinates": false,
+  "source": "new R23 geometry, no original imported",
+  "unit": "m",
+  "priority": "ART FIRST before technical QA",
+  "dimensions": "measured later",
+  "cpu_threads": 4,
+  "parallel_render_processes": 1
+}

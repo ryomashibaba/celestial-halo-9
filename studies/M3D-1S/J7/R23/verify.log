@@ -1,0 +1,62 @@
+00:02.516  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\R23_CROSSING_HORIZONS.blend"
+00:02.547  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_49864_a3203816b193172dbfda0a997283f606.png.png"
+00:02.547  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\R23_CROSSING_HORIZONS.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R23_CROSSING_HORIZONS.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:31:55 | INFO: Starting glTF 2.0 export
+18:31:55 | INFO: Extracting primitive: 01 FRACTURED CIVIC MASSIF
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: 02 TRANSVERSE CONTINENT
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: 03 EASTERN UPLAND
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: 04 REAR SKY CONTINENT
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: 05 GROUND DELTA WEST
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: 06 GROUND DELTA EAST
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: 07 PROCESSIONAL COMMON
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: Cube.002
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: Cube.003
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: Cube.004
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: Cube.005
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: Cube.007
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: Cube.006
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Extracting primitive: Cube.008
+18:31:55 | INFO: Primitives created: 1
+18:31:55 | INFO: Finished glTF 2.0 export in 0.17135000228881836 s
+
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+18:31:55 | INFO: Data are loaded, start creating Blender stuff
+18:31:55 | INFO: Blender create Mesh node 01 FRACTURED CIVIC MASSIF
+18:31:55 | INFO: Blender create Mesh node 02 TRANSVERSE CONTINENT
+18:31:55 | INFO: Blender create Mesh node 03 EASTERN UPLAND
+18:31:56 | INFO: Blender create Mesh node 04 REAR SKY CONTINENT
+18:31:56 | INFO: Blender create Mesh node 05 GROUND DELTA WEST
+18:31:56 | INFO: Blender create Mesh node 06 GROUND DELTA EAST
+18:31:56 | INFO: Blender create Mesh node 07 PROCESSIONAL COMMON
+18:31:56 | INFO: Blender create Mesh node Cube.002
+18:31:56 | INFO: Blender create Mesh node Cube.003
+18:31:56 | INFO: Blender create Mesh node Cube.004
+18:31:56 | INFO: Blender create Mesh node Cube.005
+18:31:56 | INFO: Blender create Mesh node Cube.007
+18:31:56 | INFO: Blender create Mesh node Cube.006
+18:31:56 | INFO: Blender create Mesh node Cube.008
+18:31:56 | INFO: glTF import finished in 0.04s
+{"blender_version": "5.2.1 LTS", "unit_scale": 1, "blend_exact_geometry_reload": true, "glb_aabb_max_error_m": 0.0, "glb_triangle_count_matches": true, "not_verified": ["global self-intersections and inter-object unions", "connected enclosed air volume", "continuous walkability or ground-to-sky route", "inhabited room capacity or utility service", "transport operation or structural safety", "Minecraft voxel conversion or official coordinates"], "stage_two_started": false}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

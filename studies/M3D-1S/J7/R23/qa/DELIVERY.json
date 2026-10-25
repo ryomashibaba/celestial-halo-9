@@ -1,0 +1,21 @@
+{
+  "pr_url": "https://github.com/ryomashibaba/celestial-halo-9/pull/54",
+  "artifact_commit": "e8c7ae4bfedbdecc0398a50ac56fac253c1df064",
+  "verified_files": 77,
+  "verified_bytes": 41436605,
+  "all_match": true,
+  "readback": "GITHUB_READBACK.json",
+  "production_scope": "Only studies/M3D-1S/J7/R23 added relative to R21",
+  "art": "REJECT",
+  "shape_quality": "FAIL",
+  "stage_two_started": false,
+  "main_merge": false,
+  "actual_minecraft_saves_accessed": false,
+  "foreground_computer_use": false,
+  "delivery_metadata_verified_commit": "539ae98689a671f7801ef3e46a2fbf15022423e9",
+  "delivery_metadata_files": 3,
+  "delivery_metadata_all_match": true,
+  "delta_readback": "GITHUB_DELTA_READBACK.json",
+  "remote_main_unchanged": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "remote_r21_unchanged": "628abb8d80e3e39a9bad6dd5fe7dec7556a0bcd9"
+}

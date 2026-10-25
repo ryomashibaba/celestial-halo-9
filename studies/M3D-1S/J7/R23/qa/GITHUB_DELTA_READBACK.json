@@ -1,0 +1,30 @@
+{
+  "artifact_commit": "539ae98689a671f7801ef3e46a2fbf15022423e9",
+  "base_previously_verified_commit": "e8c7ae4bfedbdecc0398a50ac56fac253c1df064",
+  "checked_files": 3,
+  "checked_bytes": 26289,
+  "all_match": true,
+  "files": [
+    {
+      "path": "studies/M3D-1S/J7/R23/R23_HANDOFF.json",
+      "bytes": 2530,
+      "sha256": "9aaa48e1863559e9f7548be45adc280b3f0d49b601d601b1e7729a3d35ec9e85",
+      "expected_sha256": "9aaa48e1863559e9f7548be45adc280b3f0d49b601d601b1e7729a3d35ec9e85",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R23/qa/DELIVERY.json",
+      "bytes": 505,
+      "sha256": "42055952e5bff7beb982d0bbfeb56c2a088ab31881863569293852f070140c3c",
+      "expected_sha256": "42055952e5bff7beb982d0bbfeb56c2a088ab31881863569293852f070140c3c",
+      "match": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R23/qa/GITHUB_READBACK.json",
+      "bytes": 23254,
+      "sha256": "e013f163be8743e808a4a9c8012192c468ced355aaa3206ea55325e4cb00ab7d",
+      "expected_sha256": "e013f163be8743e808a4a9c8012192c468ced355aaa3206ea55325e4cb00ab7d",
+      "match": true
+    }
+  ]
+}

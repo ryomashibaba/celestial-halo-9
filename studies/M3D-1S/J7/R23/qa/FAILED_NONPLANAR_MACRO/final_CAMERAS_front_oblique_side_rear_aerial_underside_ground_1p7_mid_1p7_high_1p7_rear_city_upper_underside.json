@@ -1,0 +1,145 @@
+[
+  {
+    "view": "front",
+    "position_m": [
+      0.0,
+      -16500.0,
+      3800.0
+    ],
+    "lens_mm": 38.0,
+    "hfov": 50.69235188389338,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "oblique",
+    "position_m": [
+      12500.0,
+      -15000.0,
+      10500.0
+    ],
+    "lens_mm": 38.0,
+    "hfov": 50.69235188389338,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "side",
+    "position_m": [
+      17000.0,
+      0.0,
+      4500.0
+    ],
+    "lens_mm": 38.0,
+    "hfov": 50.69235188389338,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "rear",
+    "position_m": [
+      0.0,
+      17000.0,
+      4500.0
+    ],
+    "lens_mm": 38.0,
+    "hfov": 50.69235188389338,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "aerial",
+    "position_m": [
+      7500.0,
+      -8500.0,
+      20000.0
+    ],
+    "lens_mm": 38.0,
+    "hfov": 50.69235188389338,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "underside",
+    "position_m": [
+      10000.0,
+      -12000.0,
+      -8500.0
+    ],
+    "lens_mm": 38.0,
+    "hfov": 50.69235188389338,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "ground_1p7",
+    "position_m": [
+      0.0,
+      -2900.0,
+      81.69999694824219
+    ],
+    "lens_mm": 30.0,
+    "hfov": 61.92751306414704,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "mid_1p7",
+    "position_m": [
+      -600.0,
+      -400.0,
+      2201.699951171875
+    ],
+    "lens_mm": 30.0,
+    "hfov": 61.92751306414704,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "high_1p7",
+    "position_m": [
+      650.0,
+      2100.0,
+      3261.699951171875
+    ],
+    "lens_mm": 30.0,
+    "hfov": 61.92751306414704,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "rear_city",
+    "position_m": [
+      2500.0,
+      5400.0,
+      2400.0
+    ],
+    "lens_mm": 32.0,
+    "hfov": 58.71550708558255,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  },
+  {
+    "view": "upper_underside",
+    "position_m": [
+      7500.0,
+      -10500.0,
+      350.0
+    ],
+    "lens_mm": 38.0,
+    "hfov": 50.69235188389338,
+    "neutral_material": true,
+    "emission": false,
+    "fog": false
+  }
+]

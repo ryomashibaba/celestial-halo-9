@@ -1,0 +1,40 @@
+{
+  "main_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "pr53_head": "628abb8d80e3e39a9bad6dd5fe7dec7556a0bcd9",
+  "pr53_state": "OPEN DRAFT UNMERGED verified via GitHub connector",
+  "R22": "Chat-only unadopted concept, not assumed in GitHub",
+  "policy_files": [
+    {
+      "path": "AGENTS.md",
+      "blob": "dc376946a7261137abbdaee68373ea67ce4d34c5",
+      "sha256": "7bd04b75e2305edec473656194ce7f251e54bc60270d251919d46b1409ccb586"
+    },
+    {
+      "path": "docs/policy/START_HERE.md",
+      "blob": "31409773da67b3212a0ecae14e603f7af2c260a8",
+      "sha256": "3061cc6a35cf3e47968400d49538ed218d9cd9debfc5e40c4193ca5922582f01"
+    },
+    {
+      "path": "docs/policy/PROJECT_CONSTITUTION.md",
+      "blob": "9afa293268492ed0f70a0b2221ab3277dff48f32",
+      "sha256": "bb5104cf6e293553dbab483eb80dfed0b98749a27d307bf0aa2cecb8c640594d"
+    },
+    {
+      "path": "docs/policy/CITY_MASTER_3D_STANDARD.md",
+      "blob": "b3fcf9d02c4de5566f3ed506c43df6a2db3817e4",
+      "sha256": "2f8004e87ebf7d441e58ee82964815091d5f247d0ff6d4bd995d63544b3f2805"
+    },
+    {
+      "path": "docs/policy/CURRENT_STATUS.md",
+      "blob": "715ad111ca335735d3723cf5d86a14cb8aa543f2",
+      "sha256": "2f083a22b3425379a9353ea74fc003fc0bd83fd8b6bb5969eeecf27a67e01d15"
+    },
+    {
+      "path": "docs/policy/DECISION_LOG.md",
+      "blob": "c5a60bde5b4c2b13256cdf30fb3ff78210ac7971",
+      "sha256": "33df9739248908fa7b92607c47814225169f582056ae4a7319cdad2222d3ad2b"
+    }
+  ],
+  "baseline_untracked_research_preserved": true,
+  "missing_old_setup_doc": "docs/LOCAL_WORK_SETUP_20261014_JA.md missing in current R21 checkout; root setup rules read"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "section": "LONG_Xminus800",
+    "plane_axis": "X",
+    "plane_coordinate_m": -800,
+    "cut_objects": [
+      "05 GROUND DELTA WEST",
+      "02 TRANSVERSE CONTINENT",
+      "04 REAR SKY CONTINENT",
+      "01 FRACTURED CIVIC MASSIF"
+    ],
+    "cut_segments": 92,
+    "caps_added": false,
+    "orange_line": "actual open boundary on the section plane; 5m diagrammatic radius",
+    "topology": "This inspection copy is intentionally open at the cuts."
+  },
+  {
+    "section": "CROSS_Y500",
+    "plane_axis": "Y",
+    "plane_coordinate_m": 500,
+    "cut_objects": [
+      "05 GROUND DELTA WEST",
+      "06 GROUND DELTA EAST",
+      "07 PROCESSIONAL COMMON",
+      "02 TRANSVERSE CONTINENT",
+      "03 EASTERN UPLAND",
+      "01 FRACTURED CIVIC MASSIF"
+    ],
+    "cut_segments": 95,
+    "caps_added": false,
+    "orange_line": "actual open boundary on the section plane; 5m diagrammatic radius",
+    "topology": "This inspection copy is intentionally open at the cuts."
+  }
+]

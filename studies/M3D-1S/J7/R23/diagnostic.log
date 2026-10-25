@@ -1,0 +1,10 @@
+00:03.375  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R23\final\R23_CROSSING_HORIZONS.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+[('05 GROUND DELTA WEST', 34, 21), ('06 GROUND DELTA EAST', 18, 11), ('07 PROCESSIONAL COMMON', 232, 226), ('02 TRANSVERSE CONTINENT', 431, 322), ('03 EASTERN UPLAND', 424, 308), ('04 REAR SKY CONTINENT', 361, 250), ('01 FRACTURED CIVIC MASSIF', 21, 11), ('MID ACTUAL COURT FLOOR', 10, 7), ('Human 1.75m', 8, 6), ('Human 1.75m.001', 8, 6), ('Human 1.75m.002', 8, 6), ('Human scale curb', 8, 6), ('Human scale seating', 8, 6), ('Human scale curb.001', 8, 6), ('Human scale seating.001', 8, 6)]
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
