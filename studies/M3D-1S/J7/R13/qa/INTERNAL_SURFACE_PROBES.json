@@ -1,0 +1,198 @@
+{
+  "07_MAIN_CAVERN": {
+    "eye_m": [
+      0.0,
+      -250.0,
+      1000.0
+    ],
+    "six_surface_rays": {
+      "up": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      },
+      "down": {
+        "hit": true,
+        "distance_m": 453.9840649736508,
+        "object": "R1_INNER_COAST__inhabited_land"
+      },
+      "east": {
+        "hit": true,
+        "distance_m": 272.7566165558592,
+        "object": "C02_EAST_TIDELAND__inhabited_land"
+      },
+      "west": {
+        "hit": true,
+        "distance_m": 472.75518902493286,
+        "object": "C01_WEST_DEEP__inhabited_land"
+      },
+      "north": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      },
+      "south": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      }
+    }
+  },
+  "08_MID_CITY": {
+    "eye_m": [
+      -2110.0,
+      -600.0,
+      1830.0
+    ],
+    "six_surface_rays": {
+      "up": {
+        "hit": true,
+        "distance_m": 268.3330049816832,
+        "object": "C01_WEST_DEEP__inhabited_land"
+      },
+      "down": {
+        "hit": true,
+        "distance_m": 810.0,
+        "object": "R1_W01__inhabited_land"
+      },
+      "east": {
+        "hit": true,
+        "distance_m": 2589.5278527175565,
+        "object": "C02_EAST_TIDELAND__inhabited_land"
+      },
+      "west": {
+        "hit": true,
+        "distance_m": 26.393555103027754,
+        "object": "C01_WEST_DEEP__inhabited_land"
+      },
+      "north": {
+        "hit": true,
+        "distance_m": 1024.074826367683,
+        "object": "R1_W02__inhabited_land"
+      },
+      "south": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      }
+    }
+  },
+  "09_HUMAN_EYE_1_7M": {
+    "eye_m": [
+      -1985.0,
+      -180.0,
+      1601.699951171875
+    ],
+    "six_surface_rays": {
+      "up": {
+        "hit": true,
+        "distance_m": 1460.800037650602,
+        "object": "C01_WEST_DEEP__inhabited_land"
+      },
+      "down": {
+        "hit": true,
+        "distance_m": 1.6999511543437185,
+        "object": "Human common floor"
+      },
+      "east": {
+        "hit": true,
+        "distance_m": 165.25634679566772,
+        "object": "West suspended cultivation"
+      },
+      "west": {
+        "hit": true,
+        "distance_m": 173.84912302949647,
+        "object": "C01_WEST_DEEP__inhabited_land"
+      },
+      "north": {
+        "hit": true,
+        "distance_m": 118.0,
+        "object": "Human recessed common room 1"
+      },
+      "south": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      }
+    }
+  },
+  "10_REVERSE_WORLD": {
+    "eye_m": [
+      100.0,
+      2360.0,
+      1030.0
+    ],
+    "six_surface_rays": {
+      "up": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      },
+      "down": {
+        "hit": true,
+        "distance_m": 810.0,
+        "object": "C03_REAR_ARCHIVE__inhabited_land"
+      },
+      "east": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      },
+      "west": {
+        "hit": true,
+        "distance_m": 659.5933880050649,
+        "object": "R2_N_LOWER__inhabited_land"
+      },
+      "north": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      },
+      "south": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      }
+    }
+  },
+  "11_ZENITH_WORLD": {
+    "eye_m": [
+      -200.0,
+      500.0,
+      3540.0
+    ],
+    "six_surface_rays": {
+      "up": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      },
+      "down": {
+        "hit": true,
+        "distance_m": 200.0,
+        "object": "High confluence common"
+      },
+      "east": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      },
+      "west": {
+        "hit": true,
+        "distance_m": 421.1563694163962,
+        "object": "C01_WEST_DEEP__inhabited_land"
+      },
+      "north": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      },
+      "south": {
+        "hit": false,
+        "distance_m": null,
+        "object": null
+      }
+    }
+  },
+  "scope": "Surface rays and source cross-sections only. No full enclosed volume, habitation capacity, route continuity, collision or walking certification."
+}

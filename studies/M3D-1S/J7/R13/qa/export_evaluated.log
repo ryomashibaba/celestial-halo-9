@@ -1,0 +1,1705 @@
+00:01.437  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_A\R13_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+10:16:41 | INFO: Starting glTF 2.0 export
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_civic_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_civic_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_civic_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_civic_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_civic_buttress_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_civic_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_living_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_living_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_living_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_living_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_living_buttress_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__deep_living_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_lower_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_lower_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_lower_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_lower_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_lower_world_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_lower_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_upper_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_upper_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_upper_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_upper_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_upper_world_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__gallery_upper_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__inner_water_basin
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__opening_east_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__opening_east_jamb_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__opening_west_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__opening_west_jamb_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__public_transfer_ground_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__public_transfer_ground_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__public_transfer_ground_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__thick_city_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__thick_city_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__thick_city_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__thick_city_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__thick_city_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__thick_city_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__thick_city_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__thick_city_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__upper_inhabited_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__upper_inhabited_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__upper_inhabited_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__upper_inhabited_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__upper_inhabited_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__upper_inhabited_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__upper_inhabited_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A01_TIDE_ROOT__upper_inhabited_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__cultivation_topography_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__cultivation_topography_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_civic_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_civic_buttress_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_civic_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_civic_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_civic_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_civic_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_living_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_living_buttress_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_living_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_living_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_living_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__deep_living_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_lower_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_lower_world_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_lower_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_lower_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_lower_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_lower_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_upper_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_upper_world_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_upper_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_upper_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_upper_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__gallery_upper_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__opening_east_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__opening_east_jamb_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__opening_west_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__opening_west_jamb_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__public_transfer_ground_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__public_transfer_ground_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__public_transfer_ground_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__thick_city_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__thick_city_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__thick_city_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__thick_city_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__thick_city_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__thick_city_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__thick_city_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__thick_city_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__upper_inhabited_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__upper_inhabited_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__upper_inhabited_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__upper_inhabited_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__upper_inhabited_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__upper_inhabited_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__upper_inhabited_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A02_SEED_ROOT__upper_inhabited_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__assembly_basin
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_civic_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_civic_buttress_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_civic_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_civic_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_civic_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_civic_buttress_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_living_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_living_buttress_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_living_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_living_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_living_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__deep_living_buttress_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_lower_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_lower_world_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_lower_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_lower_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_lower_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_lower_world_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_upper_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_upper_world_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_upper_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_upper_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_upper_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__gallery_upper_world_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__opening_east_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__opening_east_jamb_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__opening_west_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__opening_west_jamb_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__public_transfer_ground_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__public_transfer_ground_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__public_transfer_ground_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__thick_city_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__thick_city_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__thick_city_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__thick_city_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__thick_city_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__thick_city_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__thick_city_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__thick_city_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__upper_inhabited_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__upper_inhabited_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__upper_inhabited_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__upper_inhabited_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__upper_inhabited_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__upper_inhabited_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__upper_inhabited_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A03_MEMORY_DEPTH__upper_inhabited_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__cultivation_topography_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__cultivation_topography_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_civic_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_civic_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_civic_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_civic_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_civic_buttress_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_civic_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_living_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_living_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_living_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_living_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_living_buttress_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__deep_living_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_lower_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_lower_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_lower_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_lower_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_lower_world_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_lower_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_upper_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_upper_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_upper_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_upper_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_upper_world_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__gallery_upper_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__opening_east_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__opening_east_jamb_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__opening_west_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__opening_west_jamb_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__public_transfer_ground_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__public_transfer_ground_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__public_transfer_ground_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__thick_city_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__thick_city_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__thick_city_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__thick_city_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__thick_city_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__thick_city_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__thick_city_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__thick_city_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__upper_inhabited_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__upper_inhabited_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__upper_inhabited_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__upper_inhabited_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__upper_inhabited_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__upper_inhabited_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__upper_inhabited_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A04_WEST_SKY__upper_inhabited_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_civic_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_civic_buttress_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_civic_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_civic_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_civic_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_civic_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_living_buttress_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_living_buttress_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_living_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_living_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_living_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__deep_living_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_lower_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_lower_world_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_lower_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_lower_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_lower_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_lower_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_upper_world_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_upper_world_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_upper_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_upper_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_upper_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__gallery_upper_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__inner_water_basin
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__opening_east_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__opening_east_jamb_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__opening_west_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__opening_west_jamb_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__public_transfer_ground_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__public_transfer_ground_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__public_transfer_ground_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__thick_city_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__thick_city_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__thick_city_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__thick_city_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__thick_city_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__thick_city_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__thick_city_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__thick_city_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__upper_inhabited_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__upper_inhabited_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__upper_inhabited_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__upper_inhabited_ground_03
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__upper_inhabited_ground_04
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__upper_inhabited_ground_05
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__upper_inhabited_ground_06
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A05_EAST_TIDE__upper_inhabited_ground_07
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__assembly_basin
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_civic_buttress_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_civic_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_civic_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_civic_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_civic_buttress_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_civic_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_living_buttress_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_living_buttress_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_living_buttress_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_living_buttress_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_living_buttress_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__deep_living_buttress_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_lower_world_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_lower_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_lower_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_lower_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_lower_world_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_lower_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_upper_world_2
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_upper_world_3
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_upper_world_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_upper_world_5
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_upper_world_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__gallery_upper_world_7
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__opening_east_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__opening_east_jamb_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__opening_west_jamb_0
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__opening_west_jamb_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__public_transfer_ground_1
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__public_transfer_ground_4
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__public_transfer_ground_6
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__thick_city_ground_00
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__thick_city_ground_01
+10:16:41 | INFO: Primitives created: 1
+10:16:41 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__thick_city_ground_02
+10:16:41 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__thick_city_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__thick_city_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__thick_city_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__thick_city_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__thick_city_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__upper_inhabited_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__upper_inhabited_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__upper_inhabited_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__upper_inhabited_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__upper_inhabited_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__upper_inhabited_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__upper_inhabited_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A06_INNER_CONFLUENCE__upper_inhabited_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__assembly_basin
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_civic_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_civic_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_civic_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_civic_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_civic_buttress_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_civic_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_living_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_living_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_living_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_living_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_living_buttress_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__deep_living_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_lower_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_lower_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_lower_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_lower_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_lower_world_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_lower_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_upper_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_upper_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_upper_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_upper_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_upper_world_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__gallery_upper_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__opening_east_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__opening_east_jamb_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__opening_west_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__opening_west_jamb_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__public_transfer_ground_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__public_transfer_ground_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__public_transfer_ground_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__thick_city_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__thick_city_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__thick_city_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__thick_city_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__thick_city_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__thick_city_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__thick_city_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__thick_city_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__upper_inhabited_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__upper_inhabited_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__upper_inhabited_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__upper_inhabited_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__upper_inhabited_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__upper_inhabited_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__upper_inhabited_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A07_OUTER_WEST__upper_inhabited_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__cultivation_topography_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__cultivation_topography_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_civic_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_civic_buttress_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_civic_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_civic_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_civic_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_civic_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_living_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_living_buttress_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_living_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_living_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_living_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__deep_living_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_lower_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_lower_world_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_lower_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_lower_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_lower_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_lower_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_upper_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_upper_world_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_upper_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_upper_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_upper_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__gallery_upper_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__opening_east_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__opening_east_jamb_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__opening_west_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__opening_west_jamb_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__public_transfer_ground_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__public_transfer_ground_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__public_transfer_ground_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__thick_city_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__thick_city_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__thick_city_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__thick_city_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__thick_city_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__thick_city_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__thick_city_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__thick_city_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__upper_inhabited_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__upper_inhabited_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__upper_inhabited_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__upper_inhabited_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__upper_inhabited_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__upper_inhabited_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__upper_inhabited_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A08_HIGH_GARDEN__upper_inhabited_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_civic_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_civic_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_civic_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_civic_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_civic_buttress_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_civic_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_living_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_living_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_living_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_living_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_living_buttress_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__deep_living_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_lower_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_lower_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_lower_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_lower_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_lower_world_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_lower_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_upper_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_upper_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_upper_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_upper_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_upper_world_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__gallery_upper_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__inner_water_basin
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__opening_east_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__opening_east_jamb_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__opening_west_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__opening_west_jamb_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__public_transfer_ground_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__public_transfer_ground_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__public_transfer_ground_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__thick_city_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__thick_city_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__thick_city_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__thick_city_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__thick_city_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__thick_city_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__thick_city_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__thick_city_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__upper_inhabited_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__upper_inhabited_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__upper_inhabited_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__upper_inhabited_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__upper_inhabited_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__upper_inhabited_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__upper_inhabited_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A09_SKY_TIDE__upper_inhabited_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__assembly_basin
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_civic_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_civic_buttress_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_civic_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_civic_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_civic_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_civic_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_living_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_living_buttress_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_living_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_living_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_living_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__deep_living_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_lower_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_lower_world_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_lower_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_lower_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_lower_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_lower_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_upper_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_upper_world_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_upper_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_upper_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_upper_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__gallery_upper_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__opening_east_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__opening_east_jamb_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__opening_west_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__opening_west_jamb_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__public_transfer_ground_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__public_transfer_ground_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__public_transfer_ground_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__thick_city_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__thick_city_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__thick_city_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__thick_city_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__thick_city_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__thick_city_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__thick_city_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__thick_city_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__upper_inhabited_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__upper_inhabited_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__upper_inhabited_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__upper_inhabited_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__upper_inhabited_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__upper_inhabited_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__upper_inhabited_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A10_EAST_CROWN__upper_inhabited_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__cultivation_topography_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__cultivation_topography_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_civic_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_civic_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_civic_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_civic_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_civic_buttress_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_civic_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_living_buttress_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_living_buttress_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_living_buttress_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_living_buttress_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_living_buttress_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__deep_living_buttress_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_lower_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_lower_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_lower_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_lower_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_lower_world_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_lower_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_upper_world_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_upper_world_3
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_upper_world_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_upper_world_5
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_upper_world_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__gallery_upper_world_7
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__opening_east_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__opening_east_jamb_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__opening_west_jamb_0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__opening_west_jamb_2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__public_transfer_ground_1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__public_transfer_ground_4
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__public_transfer_ground_6
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__thick_city_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__thick_city_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__thick_city_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__thick_city_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__thick_city_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__thick_city_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__thick_city_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__thick_city_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__upper_inhabited_ground_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__upper_inhabited_ground_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__upper_inhabited_ground_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__upper_inhabited_ground_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__upper_inhabited_ground_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__upper_inhabited_ground_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__upper_inhabited_ground_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: A11_ZENITH__upper_inhabited_ground_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Finished glTF 2.0 export in 0.4751756191253662 s
+
+EVALUATED_EXPORT exploration_A
+00:02.328  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_B\R13_B.blend"
+10:16:42 | INFO: Starting glTF 2.0 export
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_08
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_09
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_10
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_11
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_12
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_13
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_14
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inhabited_sector_15
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B01_LOWER_SEA__inner_landscape
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_08
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_09
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_10
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_11
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_12
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_13
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_14
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inhabited_sector_15
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B02_EAST_INNER__inner_landscape
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_08
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_09
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_10
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_11
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_12
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_13
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_14
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inhabited_sector_15
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B03_HIGH_SEED__inner_landscape
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_00
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_01
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_02
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_03
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_04
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_05
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_06
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_07
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_08
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_09
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_10
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_11
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_12
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_13
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_14
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inhabited_sector_15
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: B04_REVERSE_WORLD__inner_landscape
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Finished glTF 2.0 export in 0.09891557693481445 s
+
+EVALUATED_EXPORT exploration_B
+00:02.453  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_C\R13_C.blend"
+10:16:42 | INFO: Starting glTF 2.0 export
+10:16:42 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C05_INNER_SEED__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C06_TIDAL_APPROACH__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East collective ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East inner sea
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: High confluence common
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Lower confluence water
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Rear deep cultivation
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Upper tidal world
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: West suspended cultivation
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Finished glTF 2.0 export in 0.0296781063079834 s
+
+EVALUATED_EXPORT exploration_C
+00:02.500  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\selected\R13_C_SELECTED.blend"
+10:16:42 | INFO: Starting glTF 2.0 export
+10:16:42 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C05_INNER_SEED__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C06_TIDAL_APPROACH__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East collective ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East inner sea
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: High confluence common
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Lower confluence water
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Rear deep cultivation
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Upper tidal world
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: West suspended cultivation
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Finished glTF 2.0 export in 0.029494285583496094 s
+
+EVALUATED_EXPORT selected
+00:02.531  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_1\R13_C_R1.blend"
+10:16:42 | INFO: Starting glTF 2.0 export
+10:16:42 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East collective ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East inner sea
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: High confluence common
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Lower confluence water
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E01__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E01__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E02__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E02__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E03__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E03__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_INNER_COAST__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_N01__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_N01__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_S01__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_S01__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_S02__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_S02__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W01__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W01__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W02__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W02__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W03__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W03__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W04__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W04__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Rear deep cultivation
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Upper tidal world
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: West suspended cultivation
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Finished glTF 2.0 export in 0.05522012710571289 s
+
+EVALUATED_EXPORT revision_1
+00:02.609  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\R13_C_R2.blend"
+10:16:42 | INFO: Starting glTF 2.0 export
+10:16:42 | INFO: Extracting primitive: 1.75m figure head 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: 1.75m figure head 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: 1.75m figure torso 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: 1.75m figure torso 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Actual public threshold light
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Common growing bed
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Common growing bed.001
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Common growing bed.002
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: E cultivation exchange enclosing common wall 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: E cultivation exchange enclosing common wall 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: E cultivation exchange lower interior ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: E cultivation exchange passage lintel
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: E cultivation exchange precinct contour 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: E cultivation exchange precinct contour 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East collective ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East deep inclined transfer
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: East inner sea
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Figure leg
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Figure leg.001
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Figure leg.002
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Figure leg.003
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: High confluence common
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human common floor
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human continuous edge rail
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.001
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.002
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.003
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.004
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.005
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.006
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.007
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.008
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.009
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.010
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human edge post.011
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human inhabited threshold head 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human inhabited threshold head 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human inhabited threshold head 2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human inhabited threshold pier 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human inhabited threshold pier 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human inhabited threshold pier 2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human recessed common room 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human recessed common room 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Human recessed common room 2
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Interworld transfer
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Lower confluence water
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: N reverse cultivation enclosing common wall 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: N reverse cultivation enclosing common wall 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: N reverse cultivation lower interior ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: N reverse cultivation passage lintel
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: N reverse cultivation precinct contour 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: N reverse cultivation precinct contour 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E01__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E01__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E02__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E02__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E03__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_E03__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_INNER_COAST__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_N01__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_N01__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_S01__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_S01__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_S02__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_S02__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W01__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W01__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W02__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W02__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W03__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W03__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W04__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R1_W04__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_INTERWORLD_COMMON__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_N_EAST__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_N_EAST__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_N_HIGH__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_N_HIGH__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_N_LOWER__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_N_LOWER__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_SIDE_INNER__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_SIDE_INNER__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_ZENITH__inhabited_land
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: R2_ZENITH__living_common_ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Rear deep cultivation
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Upper tidal world
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W living inlet enclosing common wall 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W living inlet enclosing common wall 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W living inlet lower interior ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W living inlet passage lintel
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W living inlet precinct contour 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W living inlet precinct contour 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W upper common enclosing common wall 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W upper common enclosing common wall 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W upper common lower interior ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W upper common passage lintel
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W upper common precinct contour 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: W upper common precinct contour 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: West deep inclined transfer
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: West suspended cultivation
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Zenith common enclosing common wall 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Zenith common enclosing common wall 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Zenith common lower interior ground
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Zenith common passage lintel
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Zenith common precinct contour 0
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Extracting primitive: Zenith common precinct contour 1
+10:16:42 | INFO: Primitives created: 1
+10:16:42 | INFO: Finished glTF 2.0 export in 0.12323403358459473 s
+
+EVALUATED_EXPORT revision_2
+00:04.672  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\01_FRONT.png'
+RENDER_DONE 01_FRONT
+00:04.984  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\02_OBLIQUE.png'
+RENDER_DONE 02_OBLIQUE
+00:05.265  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\03_SIDE.png'
+RENDER_DONE 03_SIDE
+00:05.547  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\04_REAR.png'
+RENDER_DONE 04_REAR
+00:05.875  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\05_AERIAL.png'
+RENDER_DONE 05_AERIAL
+00:06.234  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\06_GROUND.png'
+RENDER_DONE 06_GROUND
+10:16:46 | INFO: Data are loaded, start creating Blender stuff
+10:16:46 | INFO: Blender create Mesh node 1.75m figure head 0
+10:16:46 | INFO: Blender create Mesh node 1.75m figure head 1
+10:16:46 | INFO: Blender create Mesh node 1.75m figure torso 0
+10:16:46 | INFO: Blender create Mesh node 1.75m figure torso 1
+10:16:46 | INFO: Blender create Mesh node Actual public threshold light
+10:16:46 | INFO: Blender create Mesh node C01_WEST_DEEP__inhabited_land
+10:16:46 | INFO: Blender create Mesh node C02_EAST_TIDELAND__inhabited_land
+10:16:46 | INFO: Blender create Mesh node C03_REAR_ARCHIVE__inhabited_land
+10:16:46 | INFO: Blender create Mesh node C04_CONFLUENCE_SKY__inhabited_land
+10:16:46 | INFO: Blender create Mesh node Common growing bed
+10:16:46 | INFO: Blender create Mesh node Common growing bed.001
+10:16:46 | INFO: Blender create Mesh node Common growing bed.002
+10:16:46 | INFO: Blender create Mesh node E cultivation exchange enclosing common wall 0
+10:16:46 | INFO: Blender create Mesh node E cultivation exchange enclosing common wall 1
+10:16:46 | INFO: Blender create Mesh node E cultivation exchange lower interior ground
+10:16:46 | INFO: Blender create Mesh node E cultivation exchange passage lintel
+10:16:46 | INFO: Blender create Mesh node E cultivation exchange precinct contour 0
+10:16:46 | INFO: Blender create Mesh node E cultivation exchange precinct contour 1
+10:16:46 | INFO: Blender create Mesh node East collective ground
+10:16:46 | INFO: Blender create Mesh node East deep inclined transfer
+10:16:46 | INFO: Blender create Mesh node East inner sea
+10:16:46 | INFO: Blender create Mesh node Figure leg
+10:16:46 | INFO: Blender create Mesh node Figure leg.001
+10:16:46 | INFO: Blender create Mesh node Figure leg.002
+10:16:46 | INFO: Blender create Mesh node Figure leg.003
+10:16:46 | INFO: Blender create Mesh node High confluence common
+10:16:46 | INFO: Blender create Mesh node Human common floor
+10:16:46 | INFO: Blender create Mesh node Human continuous edge rail
+10:16:46 | INFO: Blender create Mesh node Human edge post
+10:16:46 | INFO: Blender create Mesh node Human edge post.001
+10:16:46 | INFO: Blender create Mesh node Human edge post.002
+10:16:46 | INFO: Blender create Mesh node Human edge post.003
+10:16:46 | INFO: Blender create Mesh node Human edge post.004
+10:16:46 | INFO: Blender create Mesh node Human edge post.005
+10:16:46 | INFO: Blender create Mesh node Human edge post.006
+10:16:46 | INFO: Blender create Mesh node Human edge post.007
+10:16:46 | INFO: Blender create Mesh node Human edge post.008
+10:16:46 | INFO: Blender create Mesh node Human edge post.009
+10:16:46 | INFO: Blender create Mesh node Human edge post.010
+10:16:46 | INFO: Blender create Mesh node Human edge post.011
+10:16:46 | INFO: Blender create Mesh node Human inhabited threshold head 0
+10:16:46 | INFO: Blender create Mesh node Human inhabited threshold head 1
+10:16:46 | INFO: Blender create Mesh node Human inhabited threshold head 2
+10:16:46 | INFO: Blender create Mesh node Human inhabited threshold pier 0
+10:16:46 | INFO: Blender create Mesh node Human inhabited threshold pier 1
+10:16:46 | INFO: Blender create Mesh node Human inhabited threshold pier 2
+10:16:46 | INFO: Blender create Mesh node Human recessed common room 0
+10:16:46 | INFO: Blender create Mesh node Human recessed common room 1
+10:16:46 | INFO: Blender create Mesh node Human recessed common room 2
+10:16:46 | INFO: Blender create Mesh node Interworld transfer
+10:16:46 | INFO: Blender create Mesh node Lower confluence water
+10:16:46 | INFO: Blender create Mesh node N reverse cultivation enclosing common wall 0
+10:16:46 | INFO: Blender create Mesh node N reverse cultivation enclosing common wall 1
+10:16:46 | INFO: Blender create Mesh node N reverse cultivation lower interior ground
+10:16:46 | INFO: Blender create Mesh node N reverse cultivation passage lintel
+10:16:46 | INFO: Blender create Mesh node N reverse cultivation precinct contour 0
+10:16:46 | INFO: Blender create Mesh node N reverse cultivation precinct contour 1
+10:16:46 | INFO: Blender create Mesh node R1_E01__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_E01__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_E02__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_E02__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_E03__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_E03__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_INNER_COAST__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_N01__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_N01__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_S01__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_S01__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_S02__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_S02__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_W01__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_W01__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_W02__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_W02__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_W03__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_W03__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R1_W04__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R1_W04__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R2_INTERWORLD_COMMON__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R2_N_EAST__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R2_N_EAST__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R2_N_HIGH__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R2_N_HIGH__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R2_N_LOWER__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R2_N_LOWER__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R2_SIDE_INNER__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R2_SIDE_INNER__living_common_ground
+10:16:46 | INFO: Blender create Mesh node R2_ZENITH__inhabited_land
+10:16:46 | INFO: Blender create Mesh node R2_ZENITH__living_common_ground
+10:16:46 | INFO: Blender create Mesh node Rear deep cultivation
+10:16:46 | INFO: Blender create Mesh node Upper tidal world
+10:16:46 | INFO: Blender create Mesh node W living inlet enclosing common wall 0
+10:16:46 | INFO: Blender create Mesh node W living inlet enclosing common wall 1
+10:16:46 | INFO: Blender create Mesh node W living inlet lower interior ground
+10:16:46 | INFO: Blender create Mesh node W living inlet passage lintel
+10:16:46 | INFO: Blender create Mesh node W living inlet precinct contour 0
+10:16:46 | INFO: Blender create Mesh node W living inlet precinct contour 1
+10:16:46 | INFO: Blender create Mesh node W upper common enclosing common wall 0
+10:16:46 | INFO: Blender create Mesh node W upper common enclosing common wall 1
+10:16:46 | INFO: Blender create Mesh node W upper common lower interior ground
+10:16:46 | INFO: Blender create Mesh node W upper common passage lintel
+10:16:46 | INFO: Blender create Mesh node W upper common precinct contour 0
+10:16:46 | INFO: Blender create Mesh node W upper common precinct contour 1
+10:16:46 | INFO: Blender create Mesh node West deep inclined transfer
+10:16:46 | INFO: Blender create Mesh node West suspended cultivation
+10:16:46 | INFO: Blender create Mesh node Zenith common enclosing common wall 0
+10:16:46 | INFO: Blender create Mesh node Zenith common enclosing common wall 1
+10:16:46 | INFO: Blender create Mesh node Zenith common lower interior ground
+10:16:46 | INFO: Blender create Mesh node Zenith common passage lintel
+10:16:46 | INFO: Blender create Mesh node Zenith common precinct contour 0
+10:16:46 | INFO: Blender create Mesh node Zenith common precinct contour 1
+10:16:46 | INFO: glTF import finished in 0.17s
+00:06.765  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\qa\ACTUAL_GLB_REIMPORT_OBLIQUE.png'
+RENDER_DONE ACTUAL_GLB_REIMPORT_OBLIQUE
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

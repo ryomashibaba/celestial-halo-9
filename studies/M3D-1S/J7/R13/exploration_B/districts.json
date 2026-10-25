@@ -1,0 +1,58 @@
+[
+  {
+    "label": "B01_LOWER_SEA",
+    "center_m": [
+      -1250,
+      0,
+      1300
+    ],
+    "radii_m": [
+      1700,
+      550.0,
+      1300
+    ],
+    "role": "ENCLOSED_MERIDIONAL_SKY"
+  },
+  {
+    "label": "B02_EAST_INNER",
+    "center_m": [
+      1340,
+      580,
+      1900
+    ],
+    "radii_m": [
+      1300,
+      725.0,
+      1750
+    ],
+    "role": "ENCLOSED_MERIDIONAL_SKY"
+  },
+  {
+    "label": "B03_HIGH_SEED",
+    "center_m": [
+      -430,
+      900,
+      3430
+    ],
+    "radii_m": [
+      1410,
+      500.0,
+      1210
+    ],
+    "role": "ENCLOSED_MERIDIONAL_SKY"
+  },
+  {
+    "label": "B04_REVERSE_WORLD",
+    "center_m": [
+      -1100,
+      1560,
+      2190
+    ],
+    "radii_m": [
+      1280,
+      600.0,
+      1250
+    ],
+    "role": "ENCLOSED_MERIDIONAL_SKY"
+  }
+]

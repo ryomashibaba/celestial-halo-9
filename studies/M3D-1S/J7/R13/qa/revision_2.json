@@ -1,0 +1,12 @@
+{
+  "revision": 2,
+  "reason": "R1 had a blank roof/rear and a weak side. These masses are re-excavated.",
+  "main_edits": [
+    "vertical 1.5km zenith incision changes silhouette and sky connection",
+    "rear 3km cavern replaces closed outer land",
+    "east 2km side mouth exposes district-depth interior",
+    "central 800m thick hollow common divides upper and lower civic skies"
+  ],
+  "mesh_validation_repairs": [],
+  "human_view": "1.7m above saved internal floor; not proof of route completeness"
+}

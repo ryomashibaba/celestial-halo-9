@@ -1,0 +1,526 @@
+00:01.453  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\R13_C_R2.blend"
+00:03.328  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\07_MAIN_CAVERN.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_DONE 07_MAIN_CAVERN
+00:03.656  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\08_MID_CITY.png'
+RENDER_DONE 08_MID_CITY
+00:04.000  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\09_HUMAN_EYE_1_7M.png'
+RENDER_DONE 09_HUMAN_EYE_1_7M
+00:04.328  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\10_REVERSE_WORLD.png'
+RENDER_DONE 10_REVERSE_WORLD
+00:04.625  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\11_ZENITH_WORLD.png'
+RENDER_DONE 11_ZENITH_WORLD
+00:04.641  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\R13_C_R2.blend"
+Info: Saved as "SECTION_XZ_Y680.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+10:14:30 | INFO: Starting glTF 2.0 export
+10:14:30 | INFO: Extracting primitive: 1.75m figure head 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: 1.75m figure head 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: 1.75m figure torso 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: 1.75m figure torso 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Actual public threshold light.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'C03_REAR_ARCHIVE__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: Common growing bed.003
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Common growing bed.004
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Common growing bed.005
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: E cultivation exchange enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: E cultivation exchange enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: E cultivation exchange lower interior ground.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: E cultivation exchange passage lintel.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: E cultivation exchange precinct contour 0.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: E cultivation exchange precinct contour 1.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: East collective ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: East deep inclined transfer.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: East inner sea.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: Figure leg.004
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Figure leg.005
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Figure leg.006
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Figure leg.007
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: High confluence common.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: Human common floor.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human continuous edge rail.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.012
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.013
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.014
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.015
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.016
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.017
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.018
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.019
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.020
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.021
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.022
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.023
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold head 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold head 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold head 2.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold pier 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold pier 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold pier 2.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human recessed common room 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human recessed common room 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human recessed common room 2.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Interworld transfer.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: Lower confluence water.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: N reverse cultivation enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'N reverse cultivation enclosing common wall 0.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: N reverse cultivation enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'N reverse cultivation enclosing common wall 1.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: N reverse cultivation lower interior ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'N reverse cultivation lower interior ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: N reverse cultivation passage lintel.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'N reverse cultivation passage lintel.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: N reverse cultivation precinct contour 0.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'N reverse cultivation precinct contour 0.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: N reverse cultivation precinct contour 1.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'N reverse cultivation precinct contour 1.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_E01__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_E01__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_E02__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_E02__living_common_ground.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_E03__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_E03__living_common_ground.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_INNER_COAST__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_N01__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_N01__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_N01__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_N01__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_S01__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_S01__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_S02__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_S02__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W01__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W01__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W02__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_W02__living_common_ground.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_W03__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_W03__living_common_ground.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_W04__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_W04__living_common_ground.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R2_INTERWORLD_COMMON__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R2_N_EAST__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_N_EAST__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_N_EAST__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_N_EAST__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_N_HIGH__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_N_HIGH__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_N_HIGH__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_N_HIGH__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_N_LOWER__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_N_LOWER__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_N_LOWER__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_N_LOWER__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_SIDE_INNER__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_SIDE_INNER__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_SIDE_INNER__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_SIDE_INNER__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_ZENITH__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R2_ZENITH__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_ZENITH__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: Rear deep cultivation.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'Rear deep cultivation.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: Upper tidal world.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: W living inlet enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet lower interior ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet passage lintel.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet precinct contour 0.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: W living inlet precinct contour 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common lower interior ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common passage lintel.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common precinct contour 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common precinct contour 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: West deep inclined transfer.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: West suspended cultivation.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Zenith common enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'Zenith common enclosing common wall 0.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: Zenith common enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'Zenith common enclosing common wall 1.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: Zenith common lower interior ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'Zenith common lower interior ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: Zenith common passage lintel.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'Zenith common passage lintel.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: Zenith common precinct contour 0.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'Zenith common precinct contour 0.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: Zenith common precinct contour 1.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'Zenith common precinct contour 1.001' has no primitives and will be omitted.
+10:14:30 | INFO: Finished glTF 2.0 export in 0.14986729621887207 s
+00:05.844  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\sections\SECTION_XZ_Y680\SECTION_XZ_Y680.png'
+
+RENDER_DONE SECTION_XZ_Y680
+00:05.859  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\R13_C_R2.blend"
+Info: Saved as "SECTION_YZ_X0.blend"
+10:14:30 | INFO: Starting glTF 2.0 export
+10:14:30 | INFO: Extracting primitive: 1.75m figure head 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: 1.75m figure head 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: 1.75m figure torso 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: 1.75m figure torso 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Actual public threshold light.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: C01_WEST_DEEP__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: C02_EAST_TIDELAND__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'C02_EAST_TIDELAND__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: C03_REAR_ARCHIVE__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: C04_CONFLUENCE_SKY__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: Common growing bed.003
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Common growing bed.004
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Common growing bed.005
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: E cultivation exchange enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'E cultivation exchange enclosing common wall 0.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: E cultivation exchange enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'E cultivation exchange enclosing common wall 1.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: E cultivation exchange lower interior ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'E cultivation exchange lower interior ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: E cultivation exchange passage lintel.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'E cultivation exchange passage lintel.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: E cultivation exchange precinct contour 0.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'E cultivation exchange precinct contour 0.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: E cultivation exchange precinct contour 1.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'E cultivation exchange precinct contour 1.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: East collective ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'East collective ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: East deep inclined transfer.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'East deep inclined transfer.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: East inner sea.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'East inner sea.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: Figure leg.004
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Figure leg.005
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Figure leg.006
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Figure leg.007
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: High confluence common.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: Human common floor.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human continuous edge rail.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.012
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.013
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.014
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.015
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.016
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.017
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.018
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.019
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.020
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.021
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.022
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human edge post.023
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold head 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold head 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold head 2.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold pier 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold pier 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human inhabited threshold pier 2.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human recessed common room 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human recessed common room 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Human recessed common room 2.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Interworld transfer.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Lower confluence water.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: N reverse cultivation enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: N reverse cultivation enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: N reverse cultivation lower interior ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: N reverse cultivation passage lintel.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: N reverse cultivation precinct contour 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: N reverse cultivation precinct contour 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_E01__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_E01__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_E01__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_E01__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_E02__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_E02__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_E02__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_E02__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_E03__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_E03__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_E03__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_E03__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_INNER_COAST__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_N01__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R1_N01__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_S01__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_S01__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_S02__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_S02__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_S02__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R1_S02__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R1_W01__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W01__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W02__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W02__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W03__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W03__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W04__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R1_W04__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R2_INTERWORLD_COMMON__inhabited_land.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: R2_N_EAST__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_N_EAST__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_N_EAST__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_N_EAST__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_N_HIGH__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R2_N_HIGH__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R2_N_LOWER__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R2_N_LOWER__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R2_SIDE_INNER__inhabited_land.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_SIDE_INNER__inhabited_land.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_SIDE_INNER__living_common_ground.001
+10:14:30 | INFO: Primitives created: 0
+10:14:30 | WARNING: Mesh 'R2_SIDE_INNER__living_common_ground.001' has no primitives and will be omitted.
+10:14:30 | INFO: Extracting primitive: R2_ZENITH__inhabited_land.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: R2_ZENITH__living_common_ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Rear deep cultivation.001
+10:14:30 | INFO: Primitives created: 2
+10:14:30 | INFO: Extracting primitive: Upper tidal world.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet lower interior ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet passage lintel.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet precinct contour 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W living inlet precinct contour 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common lower interior ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common passage lintel.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common precinct contour 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: W upper common precinct contour 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: West deep inclined transfer.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: West suspended cultivation.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Zenith common enclosing common wall 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Zenith common enclosing common wall 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Zenith common lower interior ground.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Zenith common passage lintel.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Zenith common precinct contour 0.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Extracting primitive: Zenith common precinct contour 1.001
+10:14:30 | INFO: Primitives created: 1
+10:14:30 | INFO: Finished glTF 2.0 export in 0.129058837890625 s
+00:06.500  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\sections\SECTION_YZ_X0\SECTION_YZ_X0.png'
+
+RENDER_DONE SECTION_YZ_X0
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

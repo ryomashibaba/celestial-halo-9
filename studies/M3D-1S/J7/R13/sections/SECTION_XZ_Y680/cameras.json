@@ -1,0 +1,16 @@
+{
+  "SECTION_XZ_Y680": {
+    "location_m": [
+      6500,
+      -11500,
+      7000
+    ],
+    "target_m": [
+      0,
+      400,
+      2300
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  }
+}

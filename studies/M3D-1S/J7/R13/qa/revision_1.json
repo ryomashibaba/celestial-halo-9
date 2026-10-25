@@ -1,0 +1,26 @@
+{
+  "revision": 1,
+  "reason": "A/B rejected. C had thick land but isolated chambers and blank sides.",
+  "main_edits": [
+    "merged western cavities into 2680m tall open canyon",
+    "merged eastern courts into a separate inclined 2300m world",
+    "cut transverse public connection through three principal lands",
+    "replaced blank foreground lands by inhabited 300-1000m precincts"
+  ],
+  "before_vertices": {
+    "C01_WEST_DEEP__inhabited_land": 338,
+    "C02_EAST_TIDELAND__inhabited_land": 206,
+    "C03_REAR_ARCHIVE__inhabited_land": 193,
+    "C04_CONFLUENCE_SKY__inhabited_land": 181,
+    "C05_INNER_SEED__inhabited_land": 64,
+    "C06_TIDAL_APPROACH__inhabited_land": 64,
+    "Lower confluence water": 8,
+    "Upper tidal world": 8,
+    "East inner sea": 8,
+    "West suspended cultivation": 8,
+    "East collective ground": 8,
+    "High confluence common": 8,
+    "Rear deep cultivation": 8
+  },
+  "after_meshes": 32
+}

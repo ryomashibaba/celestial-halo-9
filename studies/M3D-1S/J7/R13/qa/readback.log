@@ -1,0 +1,968 @@
+00:01.640  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_A\R13_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+10:17:10 | INFO: Data are loaded, start creating Blender stuff
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_civic_buttress_6
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_living_buttress_6
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_lower_world_6
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_upper_world_6
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__inner_water_basin
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__opening_east_jamb_2
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__opening_west_jamb_2
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A01_TIDE_ROOT__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__cultivation_topography_0
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__cultivation_topography_1
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_civic_buttress_2
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_living_buttress_2
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_lower_world_2
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_upper_world_2
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__opening_east_jamb_6
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__opening_west_jamb_6
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A02_SEED_ROOT__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__assembly_basin
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_civic_buttress_2
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_civic_buttress_6
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_living_buttress_2
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__deep_living_buttress_6
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_lower_world_2
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_lower_world_6
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_upper_world_2
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__gallery_upper_world_6
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__opening_east_jamb_7
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__opening_west_jamb_7
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A03_MEMORY_DEPTH__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__cultivation_topography_0
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__cultivation_topography_1
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_civic_buttress_6
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_living_buttress_6
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_lower_world_6
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_upper_world_6
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__opening_east_jamb_2
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__opening_west_jamb_2
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A04_WEST_SKY__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_civic_buttress_2
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_living_buttress_2
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_lower_world_2
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_upper_world_2
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__inner_water_basin
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__opening_east_jamb_6
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__opening_west_jamb_6
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A05_EAST_TIDE__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__assembly_basin
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_civic_buttress_2
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_civic_buttress_6
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_living_buttress_2
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_living_buttress_6
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_lower_world_2
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_lower_world_6
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_upper_world_2
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_upper_world_6
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__opening_east_jamb_1
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__opening_west_jamb_1
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A06_INNER_CONFLUENCE__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__assembly_basin
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_civic_buttress_6
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_living_buttress_6
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_lower_world_6
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_upper_world_6
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__opening_east_jamb_2
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__opening_west_jamb_2
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A07_OUTER_WEST__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__cultivation_topography_0
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__cultivation_topography_1
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_civic_buttress_2
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_living_buttress_2
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_lower_world_2
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_upper_world_2
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__opening_east_jamb_6
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__opening_west_jamb_6
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A08_HIGH_GARDEN__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_civic_buttress_6
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_living_buttress_6
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_lower_world_6
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_upper_world_6
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__inner_water_basin
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__opening_east_jamb_2
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__opening_west_jamb_2
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A09_SKY_TIDE__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__assembly_basin
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_civic_buttress_2
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_living_buttress_2
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_lower_world_2
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_upper_world_2
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__opening_east_jamb_6
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__opening_west_jamb_6
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A10_EAST_CROWN__upper_inhabited_ground_07
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__cultivation_topography_0
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__cultivation_topography_1
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_civic_buttress_1
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_civic_buttress_3
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_civic_buttress_4
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_civic_buttress_5
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_civic_buttress_6
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_civic_buttress_7
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_living_buttress_1
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_living_buttress_3
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_living_buttress_4
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_living_buttress_5
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_living_buttress_6
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__deep_living_buttress_7
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_lower_world_1
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_lower_world_3
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_lower_world_4
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_lower_world_5
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_lower_world_6
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_lower_world_7
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_upper_world_1
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_upper_world_3
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_upper_world_4
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_upper_world_5
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_upper_world_6
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__gallery_upper_world_7
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__opening_east_jamb_0
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__opening_east_jamb_2
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__opening_west_jamb_0
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__opening_west_jamb_2
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__public_transfer_ground_1
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__public_transfer_ground_4
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__public_transfer_ground_6
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__thick_city_ground_00
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__thick_city_ground_01
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__thick_city_ground_02
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__thick_city_ground_03
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__thick_city_ground_04
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__thick_city_ground_05
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__thick_city_ground_06
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__thick_city_ground_07
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__upper_inhabited_ground_00
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__upper_inhabited_ground_01
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__upper_inhabited_ground_02
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__upper_inhabited_ground_03
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__upper_inhabited_ground_04
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__upper_inhabited_ground_05
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__upper_inhabited_ground_06
+10:17:10 | INFO: Blender create Mesh node A11_ZENITH__upper_inhabited_ground_07
+10:17:10 | INFO: glTF import finished in 0.63s
+CHECK A {'actual_blend_open': True, 'actual_glb_import': True, 'bounds_error_m': 0.0, 'bounds_match_2cm': True, 'triangle_counts_equal': True, 'all_vertices_finite': True}
+00:03.437  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\exploration_B\R13_B.blend"
+10:17:11 | INFO: Data are loaded, start creating Blender stuff
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_00
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_01
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_02
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_03
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_04
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_05
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_06
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_07
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_08
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_09
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_10
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_11
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_12
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_13
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_14
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inhabited_sector_15
+10:17:11 | INFO: Blender create Mesh node B01_LOWER_SEA__inner_landscape
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_00
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_01
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_02
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_03
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_04
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_05
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_06
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_07
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_08
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_09
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_10
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_11
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_12
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_13
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_14
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inhabited_sector_15
+10:17:11 | INFO: Blender create Mesh node B02_EAST_INNER__inner_landscape
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_00
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_01
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_02
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_03
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_04
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_05
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_06
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_07
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_08
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_09
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_10
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_11
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_12
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_13
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_14
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inhabited_sector_15
+10:17:11 | INFO: Blender create Mesh node B03_HIGH_SEED__inner_landscape
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_00
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_01
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_02
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_03
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_04
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_05
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_06
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_07
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_08
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_09
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_10
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_11
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_12
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_13
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_14
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inhabited_sector_15
+10:17:11 | INFO: Blender create Mesh node B04_REVERSE_WORLD__inner_landscape
+10:17:11 | INFO: glTF import finished in 0.10s
+CHECK B {'actual_blend_open': True, 'actual_glb_import': True, 'bounds_error_m': 0.0, 'bounds_match_2cm': True, 'triangle_counts_equal': True, 'all_vertices_finite': True}
+00:03.734  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\selected\R13_C_SELECTED.blend"
+10:17:11 | INFO: Data are loaded, start creating Blender stuff
+10:17:11 | INFO: Blender create Mesh node C01_WEST_DEEP__inhabited_land
+10:17:11 | INFO: Blender create Mesh node C02_EAST_TIDELAND__inhabited_land
+10:17:11 | INFO: Blender create Mesh node C03_REAR_ARCHIVE__inhabited_land
+10:17:11 | INFO: Blender create Mesh node C04_CONFLUENCE_SKY__inhabited_land
+10:17:11 | INFO: Blender create Mesh node C05_INNER_SEED__inhabited_land
+10:17:11 | INFO: Blender create Mesh node C06_TIDAL_APPROACH__inhabited_land
+10:17:11 | INFO: Blender create Mesh node East collective ground
+10:17:11 | INFO: Blender create Mesh node East inner sea
+10:17:11 | INFO: Blender create Mesh node High confluence common
+10:17:11 | INFO: Blender create Mesh node Lower confluence water
+10:17:11 | INFO: Blender create Mesh node Rear deep cultivation
+10:17:11 | INFO: Blender create Mesh node Upper tidal world
+10:17:11 | INFO: Blender create Mesh node West suspended cultivation
+10:17:11 | INFO: glTF import finished in 0.09s
+CHECK C_SELECTED {'actual_blend_open': True, 'actual_glb_import': True, 'bounds_error_m': 0.0, 'bounds_match_2cm': True, 'triangle_counts_equal': True, 'all_vertices_finite': True}
+00:04.047  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_1\R13_C_R1.blend"
+10:17:11 | INFO: Data are loaded, start creating Blender stuff
+10:17:11 | INFO: Blender create Mesh node C01_WEST_DEEP__inhabited_land
+10:17:11 | INFO: Blender create Mesh node C02_EAST_TIDELAND__inhabited_land
+10:17:11 | INFO: Blender create Mesh node C03_REAR_ARCHIVE__inhabited_land
+10:17:11 | INFO: Blender create Mesh node C04_CONFLUENCE_SKY__inhabited_land
+10:17:11 | INFO: Blender create Mesh node East collective ground
+10:17:12 | INFO: Blender create Mesh node East inner sea
+10:17:12 | INFO: Blender create Mesh node High confluence common
+10:17:12 | INFO: Blender create Mesh node Lower confluence water
+10:17:12 | INFO: Blender create Mesh node R1_E01__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_E01__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_E02__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_E02__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_E03__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_E03__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_INNER_COAST__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_N01__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_N01__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_S01__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_S01__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_S02__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_S02__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_W01__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_W01__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_W02__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_W02__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_W03__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_W03__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_W04__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_W04__living_common_ground
+10:17:12 | INFO: Blender create Mesh node Rear deep cultivation
+10:17:12 | INFO: Blender create Mesh node Upper tidal world
+10:17:12 | INFO: Blender create Mesh node West suspended cultivation
+10:17:12 | INFO: glTF import finished in 0.12s
+CHECK C_R1 {'actual_blend_open': True, 'actual_glb_import': True, 'bounds_error_m': 0.0, 'bounds_match_2cm': True, 'triangle_counts_equal': True, 'all_vertices_finite': True}
+00:04.437  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\revision_2\R13_C_R2.blend"
+10:17:12 | INFO: Data are loaded, start creating Blender stuff
+10:17:12 | INFO: Blender create Mesh node 1.75m figure head 0
+10:17:12 | INFO: Blender create Mesh node 1.75m figure head 1
+10:17:12 | INFO: Blender create Mesh node 1.75m figure torso 0
+10:17:12 | INFO: Blender create Mesh node 1.75m figure torso 1
+10:17:12 | INFO: Blender create Mesh node Actual public threshold light
+10:17:12 | INFO: Blender create Mesh node C01_WEST_DEEP__inhabited_land
+10:17:12 | INFO: Blender create Mesh node C02_EAST_TIDELAND__inhabited_land
+10:17:12 | INFO: Blender create Mesh node C03_REAR_ARCHIVE__inhabited_land
+10:17:12 | INFO: Blender create Mesh node C04_CONFLUENCE_SKY__inhabited_land
+10:17:12 | INFO: Blender create Mesh node Common growing bed
+10:17:12 | INFO: Blender create Mesh node Common growing bed.001
+10:17:12 | INFO: Blender create Mesh node Common growing bed.002
+10:17:12 | INFO: Blender create Mesh node E cultivation exchange enclosing common wall 0
+10:17:12 | INFO: Blender create Mesh node E cultivation exchange enclosing common wall 1
+10:17:12 | INFO: Blender create Mesh node E cultivation exchange lower interior ground
+10:17:12 | INFO: Blender create Mesh node E cultivation exchange passage lintel
+10:17:12 | INFO: Blender create Mesh node E cultivation exchange precinct contour 0
+10:17:12 | INFO: Blender create Mesh node E cultivation exchange precinct contour 1
+10:17:12 | INFO: Blender create Mesh node East collective ground
+10:17:12 | INFO: Blender create Mesh node East deep inclined transfer
+10:17:12 | INFO: Blender create Mesh node East inner sea
+10:17:12 | INFO: Blender create Mesh node Figure leg
+10:17:12 | INFO: Blender create Mesh node Figure leg.001
+10:17:12 | INFO: Blender create Mesh node Figure leg.002
+10:17:12 | INFO: Blender create Mesh node Figure leg.003
+10:17:12 | INFO: Blender create Mesh node High confluence common
+10:17:12 | INFO: Blender create Mesh node Human common floor
+10:17:12 | INFO: Blender create Mesh node Human continuous edge rail
+10:17:12 | INFO: Blender create Mesh node Human edge post
+10:17:12 | INFO: Blender create Mesh node Human edge post.001
+10:17:12 | INFO: Blender create Mesh node Human edge post.002
+10:17:12 | INFO: Blender create Mesh node Human edge post.003
+10:17:12 | INFO: Blender create Mesh node Human edge post.004
+10:17:12 | INFO: Blender create Mesh node Human edge post.005
+10:17:12 | INFO: Blender create Mesh node Human edge post.006
+10:17:12 | INFO: Blender create Mesh node Human edge post.007
+10:17:12 | INFO: Blender create Mesh node Human edge post.008
+10:17:12 | INFO: Blender create Mesh node Human edge post.009
+10:17:12 | INFO: Blender create Mesh node Human edge post.010
+10:17:12 | INFO: Blender create Mesh node Human edge post.011
+10:17:12 | INFO: Blender create Mesh node Human inhabited threshold head 0
+10:17:12 | INFO: Blender create Mesh node Human inhabited threshold head 1
+10:17:12 | INFO: Blender create Mesh node Human inhabited threshold head 2
+10:17:12 | INFO: Blender create Mesh node Human inhabited threshold pier 0
+10:17:12 | INFO: Blender create Mesh node Human inhabited threshold pier 1
+10:17:12 | INFO: Blender create Mesh node Human inhabited threshold pier 2
+10:17:12 | INFO: Blender create Mesh node Human recessed common room 0
+10:17:12 | INFO: Blender create Mesh node Human recessed common room 1
+10:17:12 | INFO: Blender create Mesh node Human recessed common room 2
+10:17:12 | INFO: Blender create Mesh node Interworld transfer
+10:17:12 | INFO: Blender create Mesh node Lower confluence water
+10:17:12 | INFO: Blender create Mesh node N reverse cultivation enclosing common wall 0
+10:17:12 | INFO: Blender create Mesh node N reverse cultivation enclosing common wall 1
+10:17:12 | INFO: Blender create Mesh node N reverse cultivation lower interior ground
+10:17:12 | INFO: Blender create Mesh node N reverse cultivation passage lintel
+10:17:12 | INFO: Blender create Mesh node N reverse cultivation precinct contour 0
+10:17:12 | INFO: Blender create Mesh node N reverse cultivation precinct contour 1
+10:17:12 | INFO: Blender create Mesh node R1_E01__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_E01__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_E02__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_E02__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_E03__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_E03__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_INNER_COAST__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_N01__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_N01__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_S01__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_S01__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_S02__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_S02__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_W01__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_W01__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_W02__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_W02__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_W03__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_W03__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R1_W04__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R1_W04__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R2_INTERWORLD_COMMON__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R2_N_EAST__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R2_N_EAST__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R2_N_HIGH__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R2_N_HIGH__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R2_N_LOWER__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R2_N_LOWER__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R2_SIDE_INNER__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R2_SIDE_INNER__living_common_ground
+10:17:12 | INFO: Blender create Mesh node R2_ZENITH__inhabited_land
+10:17:12 | INFO: Blender create Mesh node R2_ZENITH__living_common_ground
+10:17:12 | INFO: Blender create Mesh node Rear deep cultivation
+10:17:12 | INFO: Blender create Mesh node Upper tidal world
+10:17:12 | INFO: Blender create Mesh node W living inlet enclosing common wall 0
+10:17:12 | INFO: Blender create Mesh node W living inlet enclosing common wall 1
+10:17:12 | INFO: Blender create Mesh node W living inlet lower interior ground
+10:17:12 | INFO: Blender create Mesh node W living inlet passage lintel
+10:17:12 | INFO: Blender create Mesh node W living inlet precinct contour 0
+10:17:12 | INFO: Blender create Mesh node W living inlet precinct contour 1
+10:17:12 | INFO: Blender create Mesh node W upper common enclosing common wall 0
+10:17:12 | INFO: Blender create Mesh node W upper common enclosing common wall 1
+10:17:12 | INFO: Blender create Mesh node W upper common lower interior ground
+10:17:12 | INFO: Blender create Mesh node W upper common passage lintel
+10:17:12 | INFO: Blender create Mesh node W upper common precinct contour 0
+10:17:12 | INFO: Blender create Mesh node W upper common precinct contour 1
+10:17:12 | INFO: Blender create Mesh node West deep inclined transfer
+10:17:12 | INFO: Blender create Mesh node West suspended cultivation
+10:17:12 | INFO: Blender create Mesh node Zenith common enclosing common wall 0
+10:17:12 | INFO: Blender create Mesh node Zenith common enclosing common wall 1
+10:17:12 | INFO: Blender create Mesh node Zenith common lower interior ground
+10:17:12 | INFO: Blender create Mesh node Zenith common passage lintel
+10:17:12 | INFO: Blender create Mesh node Zenith common precinct contour 0
+10:17:12 | INFO: Blender create Mesh node Zenith common precinct contour 1
+10:17:12 | INFO: glTF import finished in 0.29s
+CHECK C_R2 {'actual_blend_open': True, 'actual_glb_import': True, 'bounds_error_m': 0.0, 'bounds_match_2cm': True, 'triangle_counts_equal': True, 'all_vertices_finite': True}
+00:05.140  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\sections\SECTION_XZ_Y680\SECTION_XZ_Y680.blend"
+10:17:13 | INFO: Data are loaded, start creating Blender stuff
+10:17:13 | INFO: Blender create Mesh node 1.75m figure head 0.001
+10:17:13 | INFO: Blender create Mesh node 1.75m figure head 1.001
+10:17:13 | INFO: Blender create Mesh node 1.75m figure torso 0.001
+10:17:13 | INFO: Blender create Mesh node 1.75m figure torso 1.001
+10:17:13 | INFO: Blender create Mesh node Actual public threshold light.001
+10:17:13 | INFO: Blender create Mesh node C01_WEST_DEEP__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node C02_EAST_TIDELAND__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node C04_CONFLUENCE_SKY__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node Common growing bed.003
+10:17:13 | INFO: Blender create Mesh node Common growing bed.004
+10:17:13 | INFO: Blender create Mesh node Common growing bed.005
+10:17:13 | INFO: Blender create Mesh node E cultivation exchange enclosing common wall 0.001
+10:17:13 | INFO: Blender create Mesh node E cultivation exchange enclosing common wall 1.001
+10:17:13 | INFO: Blender create Mesh node E cultivation exchange lower interior ground.001
+10:17:13 | INFO: Blender create Mesh node E cultivation exchange passage lintel.001
+10:17:13 | INFO: Blender create Mesh node E cultivation exchange precinct contour 0.001
+10:17:13 | INFO: Blender create Mesh node E cultivation exchange precinct contour 1.001
+10:17:13 | INFO: Blender create Mesh node East collective ground.001
+10:17:13 | INFO: Blender create Mesh node East deep inclined transfer.001
+10:17:13 | INFO: Blender create Mesh node East inner sea.001
+10:17:13 | INFO: Blender create Mesh node Figure leg.004
+10:17:13 | INFO: Blender create Mesh node Figure leg.005
+10:17:13 | INFO: Blender create Mesh node Figure leg.006
+10:17:13 | INFO: Blender create Mesh node Figure leg.007
+10:17:13 | INFO: Blender create Mesh node High confluence common.001
+10:17:13 | INFO: Blender create Mesh node Human common floor.001
+10:17:13 | INFO: Blender create Mesh node Human continuous edge rail.001
+10:17:13 | INFO: Blender create Mesh node Human edge post.012
+10:17:13 | INFO: Blender create Mesh node Human edge post.013
+10:17:13 | INFO: Blender create Mesh node Human edge post.014
+10:17:13 | INFO: Blender create Mesh node Human edge post.015
+10:17:13 | INFO: Blender create Mesh node Human edge post.016
+10:17:13 | INFO: Blender create Mesh node Human edge post.017
+10:17:13 | INFO: Blender create Mesh node Human edge post.018
+10:17:13 | INFO: Blender create Mesh node Human edge post.019
+10:17:13 | INFO: Blender create Mesh node Human edge post.020
+10:17:13 | INFO: Blender create Mesh node Human edge post.021
+10:17:13 | INFO: Blender create Mesh node Human edge post.022
+10:17:13 | INFO: Blender create Mesh node Human edge post.023
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold head 0.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold head 1.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold head 2.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold pier 0.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold pier 1.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold pier 2.001
+10:17:13 | INFO: Blender create Mesh node Human recessed common room 0.001
+10:17:13 | INFO: Blender create Mesh node Human recessed common room 1.001
+10:17:13 | INFO: Blender create Mesh node Human recessed common room 2.001
+10:17:13 | INFO: Blender create Mesh node Interworld transfer.001
+10:17:13 | INFO: Blender create Mesh node Lower confluence water.001
+10:17:13 | INFO: Blender create Mesh node R1_E01__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_E01__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_E02__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_E02__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_E03__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_E03__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_INNER_COAST__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_S01__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_S01__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_S02__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_S02__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_W01__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_W01__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_W02__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_W02__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_W03__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_W03__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_W04__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_W04__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R2_INTERWORLD_COMMON__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R2_ZENITH__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node Upper tidal world.001
+10:17:13 | INFO: Blender create Mesh node W living inlet enclosing common wall 0.001
+10:17:13 | INFO: Blender create Mesh node W living inlet enclosing common wall 1.001
+10:17:13 | INFO: Blender create Mesh node W living inlet lower interior ground.001
+10:17:13 | INFO: Blender create Mesh node W living inlet passage lintel.001
+10:17:13 | INFO: Blender create Mesh node W living inlet precinct contour 0.001
+10:17:13 | INFO: Blender create Mesh node W living inlet precinct contour 1.001
+10:17:13 | INFO: Blender create Mesh node W upper common enclosing common wall 0.001
+10:17:13 | INFO: Blender create Mesh node W upper common enclosing common wall 1.001
+10:17:13 | INFO: Blender create Mesh node W upper common lower interior ground.001
+10:17:13 | INFO: Blender create Mesh node W upper common passage lintel.001
+10:17:13 | INFO: Blender create Mesh node W upper common precinct contour 0.001
+10:17:13 | INFO: Blender create Mesh node W upper common precinct contour 1.001
+10:17:13 | INFO: Blender create Mesh node West deep inclined transfer.001
+10:17:13 | INFO: Blender create Mesh node West suspended cultivation.001
+10:17:13 | INFO: glTF import finished in 0.19s
+CHECK SECTION_XZ {'actual_blend_open': True, 'actual_glb_import': True, 'bounds_error_m': 0.0, 'bounds_match_2cm': True, 'triangle_counts_equal': True, 'all_vertices_finite': True}
+00:05.593  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R13\sections\SECTION_YZ_X0\SECTION_YZ_X0.blend"
+10:17:13 | INFO: Data are loaded, start creating Blender stuff
+10:17:13 | INFO: Blender create Mesh node 1.75m figure head 0.001
+10:17:13 | INFO: Blender create Mesh node 1.75m figure head 1.001
+10:17:13 | INFO: Blender create Mesh node 1.75m figure torso 0.001
+10:17:13 | INFO: Blender create Mesh node 1.75m figure torso 1.001
+10:17:13 | INFO: Blender create Mesh node Actual public threshold light.001
+10:17:13 | INFO: Blender create Mesh node C01_WEST_DEEP__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node C03_REAR_ARCHIVE__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node C04_CONFLUENCE_SKY__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node Common growing bed.003
+10:17:13 | INFO: Blender create Mesh node Common growing bed.004
+10:17:13 | INFO: Blender create Mesh node Common growing bed.005
+10:17:13 | INFO: Blender create Mesh node Figure leg.004
+10:17:13 | INFO: Blender create Mesh node Figure leg.005
+10:17:13 | INFO: Blender create Mesh node Figure leg.006
+10:17:13 | INFO: Blender create Mesh node Figure leg.007
+10:17:13 | INFO: Blender create Mesh node High confluence common.001
+10:17:13 | INFO: Blender create Mesh node Human common floor.001
+10:17:13 | INFO: Blender create Mesh node Human continuous edge rail.001
+10:17:13 | INFO: Blender create Mesh node Human edge post.012
+10:17:13 | INFO: Blender create Mesh node Human edge post.013
+10:17:13 | INFO: Blender create Mesh node Human edge post.014
+10:17:13 | INFO: Blender create Mesh node Human edge post.015
+10:17:13 | INFO: Blender create Mesh node Human edge post.016
+10:17:13 | INFO: Blender create Mesh node Human edge post.017
+10:17:13 | INFO: Blender create Mesh node Human edge post.018
+10:17:13 | INFO: Blender create Mesh node Human edge post.019
+10:17:13 | INFO: Blender create Mesh node Human edge post.020
+10:17:13 | INFO: Blender create Mesh node Human edge post.021
+10:17:13 | INFO: Blender create Mesh node Human edge post.022
+10:17:13 | INFO: Blender create Mesh node Human edge post.023
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold head 0.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold head 1.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold head 2.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold pier 0.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold pier 1.001
+10:17:13 | INFO: Blender create Mesh node Human inhabited threshold pier 2.001
+10:17:13 | INFO: Blender create Mesh node Human recessed common room 0.001
+10:17:13 | INFO: Blender create Mesh node Human recessed common room 1.001
+10:17:13 | INFO: Blender create Mesh node Human recessed common room 2.001
+10:17:13 | INFO: Blender create Mesh node Interworld transfer.001
+10:17:13 | INFO: Blender create Mesh node Lower confluence water.001
+10:17:13 | INFO: Blender create Mesh node N reverse cultivation enclosing common wall 0.001
+10:17:13 | INFO: Blender create Mesh node N reverse cultivation enclosing common wall 1.001
+10:17:13 | INFO: Blender create Mesh node N reverse cultivation lower interior ground.001
+10:17:13 | INFO: Blender create Mesh node N reverse cultivation passage lintel.001
+10:17:13 | INFO: Blender create Mesh node N reverse cultivation precinct contour 0.001
+10:17:13 | INFO: Blender create Mesh node N reverse cultivation precinct contour 1.001
+10:17:13 | INFO: Blender create Mesh node R1_INNER_COAST__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_N01__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_N01__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_S01__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_S01__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_W01__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_W01__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_W02__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_W02__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_W03__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_W03__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R1_W04__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R1_W04__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R2_INTERWORLD_COMMON__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R2_N_HIGH__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R2_N_HIGH__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R2_N_LOWER__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R2_N_LOWER__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node R2_ZENITH__inhabited_land.001
+10:17:13 | INFO: Blender create Mesh node R2_ZENITH__living_common_ground.001
+10:17:13 | INFO: Blender create Mesh node Rear deep cultivation.001
+10:17:13 | INFO: Blender create Mesh node Upper tidal world.001
+10:17:13 | INFO: Blender create Mesh node W living inlet enclosing common wall 0.001
+10:17:13 | INFO: Blender create Mesh node W living inlet enclosing common wall 1.001
+10:17:13 | INFO: Blender create Mesh node W living inlet lower interior ground.001
+10:17:13 | INFO: Blender create Mesh node W living inlet passage lintel.001
+10:17:13 | INFO: Blender create Mesh node W living inlet precinct contour 0.001
+10:17:13 | INFO: Blender create Mesh node W living inlet precinct contour 1.001
+10:17:13 | INFO: Blender create Mesh node W upper common enclosing common wall 0.001
+10:17:13 | INFO: Blender create Mesh node W upper common enclosing common wall 1.001
+10:17:13 | INFO: Blender create Mesh node W upper common lower interior ground.001
+10:17:13 | INFO: Blender create Mesh node W upper common passage lintel.001
+10:17:13 | INFO: Blender create Mesh node W upper common precinct contour 0.001
+10:17:13 | INFO: Blender create Mesh node W upper common precinct contour 1.001
+10:17:13 | INFO: Blender create Mesh node West deep inclined transfer.001
+10:17:13 | INFO: Blender create Mesh node West suspended cultivation.001
+10:17:13 | INFO: Blender create Mesh node Zenith common enclosing common wall 0.001
+10:17:13 | INFO: Blender create Mesh node Zenith common enclosing common wall 1.001
+10:17:13 | INFO: Blender create Mesh node Zenith common lower interior ground.001
+10:17:13 | INFO: Blender create Mesh node Zenith common passage lintel.001
+10:17:13 | INFO: Blender create Mesh node Zenith common precinct contour 0.001
+10:17:13 | INFO: Blender create Mesh node Zenith common precinct contour 1.001
+10:17:13 | INFO: glTF import finished in 0.21s
+CHECK SECTION_YZ {'actual_blend_open': True, 'actual_glb_import': True, 'bounds_error_m': 0.0, 'bounds_match_2cm': True, 'triangle_counts_equal': True, 'all_vertices_finite': True}
+PERSISTENCE True
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

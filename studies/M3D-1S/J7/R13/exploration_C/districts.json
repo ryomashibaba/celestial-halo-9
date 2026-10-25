@@ -1,0 +1,197 @@
+[
+  {
+    "label": "C01_WEST_DEEP_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1650,
+      220,
+      180
+    ],
+    "nominal_width_m": 1140,
+    "nominal_depth_m": 3600,
+    "nominal_height_m": 870,
+    "axis": "Y"
+  },
+  {
+    "label": "C01_WEST_DEEP_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1490,
+      220,
+      1430
+    ],
+    "nominal_width_m": 940,
+    "nominal_depth_m": 3600,
+    "nominal_height_m": 950,
+    "axis": "Y"
+  },
+  {
+    "label": "C01_WEST_DEEP_space_2",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1300,
+      280,
+      2760
+    ],
+    "nominal_width_m": 740,
+    "nominal_depth_m": 3600,
+    "nominal_height_m": 1050,
+    "axis": "Y"
+  },
+  {
+    "label": "C01_WEST_DEEP_space_3",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1550,
+      260,
+      860
+    ],
+    "nominal_width_m": 880,
+    "nominal_depth_m": 3200,
+    "nominal_height_m": 620,
+    "axis": "X"
+  },
+  {
+    "label": "C01_WEST_DEEP_space_4",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1410,
+      220,
+      2170
+    ],
+    "nominal_width_m": 720,
+    "nominal_depth_m": 3200,
+    "nominal_height_m": 550,
+    "axis": "X"
+  },
+  {
+    "label": "C02_EAST_TIDELAND_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1550,
+      390,
+      200
+    ],
+    "nominal_width_m": 1200,
+    "nominal_depth_m": 3800,
+    "nominal_height_m": 1050,
+    "axis": "Y"
+  },
+  {
+    "label": "C02_EAST_TIDELAND_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1330,
+      390,
+      1660
+    ],
+    "nominal_width_m": 960,
+    "nominal_depth_m": 3800,
+    "nominal_height_m": 1090,
+    "axis": "Y"
+  },
+  {
+    "label": "C02_EAST_TIDELAND_space_2",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1550,
+      390,
+      1000
+    ],
+    "nominal_width_m": 940,
+    "nominal_depth_m": 3400,
+    "nominal_height_m": 680,
+    "axis": "X"
+  },
+  {
+    "label": "C03_REAR_ARCHIVE_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -100,
+      1630,
+      220
+    ],
+    "nominal_width_m": 1620,
+    "nominal_depth_m": 3200,
+    "nominal_height_m": 1300,
+    "axis": "Y"
+  },
+  {
+    "label": "C03_REAR_ARCHIVE_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -100,
+      1630,
+      1910
+    ],
+    "nominal_width_m": 1280,
+    "nominal_depth_m": 3400,
+    "nominal_height_m": 1100,
+    "axis": "Y"
+  },
+  {
+    "label": "C03_REAR_ARCHIVE_space_2",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -100,
+      1630,
+      1060
+    ],
+    "nominal_width_m": 840,
+    "nominal_depth_m": 3800,
+    "nominal_height_m": 800,
+    "axis": "X"
+  },
+  {
+    "label": "C04_CONFLUENCE_SKY_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -130,
+      650,
+      3210
+    ],
+    "nominal_width_m": 1700,
+    "nominal_depth_m": 3600,
+    "nominal_height_m": 850,
+    "axis": "Y"
+  },
+  {
+    "label": "C04_CONFLUENCE_SKY_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -130,
+      650,
+      3370
+    ],
+    "nominal_width_m": 780,
+    "nominal_depth_m": 4600,
+    "nominal_height_m": 660,
+    "axis": "X"
+  },
+  {
+    "label": "C05_INNER_SEED_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1100,
+      -950,
+      140
+    ],
+    "nominal_width_m": 980,
+    "nominal_depth_m": 2800,
+    "nominal_height_m": 590,
+    "axis": "Y"
+  },
+  {
+    "label": "C06_TIDAL_APPROACH_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1250,
+      -920,
+      100
+    ],
+    "nominal_width_m": 940,
+    "nominal_depth_m": 2800,
+    "nominal_height_m": 490,
+    "axis": "Y"
+  }
+]

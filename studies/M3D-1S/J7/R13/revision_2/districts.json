@@ -1,0 +1,431 @@
+[
+  {
+    "label": "C01_WEST_DEEP_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1650,
+      220,
+      180
+    ],
+    "nominal_width_m": 1140,
+    "nominal_depth_m": 3600,
+    "nominal_height_m": 870,
+    "axis": "Y"
+  },
+  {
+    "label": "C01_WEST_DEEP_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1490,
+      220,
+      1430
+    ],
+    "nominal_width_m": 940,
+    "nominal_depth_m": 3600,
+    "nominal_height_m": 950,
+    "axis": "Y"
+  },
+  {
+    "label": "C01_WEST_DEEP_space_2",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1300,
+      280,
+      2760
+    ],
+    "nominal_width_m": 740,
+    "nominal_depth_m": 3600,
+    "nominal_height_m": 1050,
+    "axis": "Y"
+  },
+  {
+    "label": "C01_WEST_DEEP_space_3",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1550,
+      260,
+      860
+    ],
+    "nominal_width_m": 880,
+    "nominal_depth_m": 3200,
+    "nominal_height_m": 620,
+    "axis": "X"
+  },
+  {
+    "label": "C01_WEST_DEEP_space_4",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1410,
+      220,
+      2170
+    ],
+    "nominal_width_m": 720,
+    "nominal_depth_m": 3200,
+    "nominal_height_m": 550,
+    "axis": "X"
+  },
+  {
+    "label": "C02_EAST_TIDELAND_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1550,
+      390,
+      200
+    ],
+    "nominal_width_m": 1200,
+    "nominal_depth_m": 3800,
+    "nominal_height_m": 1050,
+    "axis": "Y"
+  },
+  {
+    "label": "C02_EAST_TIDELAND_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1330,
+      390,
+      1660
+    ],
+    "nominal_width_m": 960,
+    "nominal_depth_m": 3800,
+    "nominal_height_m": 1090,
+    "axis": "Y"
+  },
+  {
+    "label": "C02_EAST_TIDELAND_space_2",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1550,
+      390,
+      1000
+    ],
+    "nominal_width_m": 940,
+    "nominal_depth_m": 3400,
+    "nominal_height_m": 680,
+    "axis": "X"
+  },
+  {
+    "label": "C03_REAR_ARCHIVE_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -100,
+      1630,
+      220
+    ],
+    "nominal_width_m": 1620,
+    "nominal_depth_m": 3200,
+    "nominal_height_m": 1300,
+    "axis": "Y"
+  },
+  {
+    "label": "C03_REAR_ARCHIVE_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -100,
+      1630,
+      1910
+    ],
+    "nominal_width_m": 1280,
+    "nominal_depth_m": 3400,
+    "nominal_height_m": 1100,
+    "axis": "Y"
+  },
+  {
+    "label": "C03_REAR_ARCHIVE_space_2",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -100,
+      1630,
+      1060
+    ],
+    "nominal_width_m": 840,
+    "nominal_depth_m": 3800,
+    "nominal_height_m": 800,
+    "axis": "X"
+  },
+  {
+    "label": "C04_CONFLUENCE_SKY_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -130,
+      650,
+      3210
+    ],
+    "nominal_width_m": 1700,
+    "nominal_depth_m": 3600,
+    "nominal_height_m": 850,
+    "axis": "Y"
+  },
+  {
+    "label": "C04_CONFLUENCE_SKY_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -130,
+      650,
+      3370
+    ],
+    "nominal_width_m": 780,
+    "nominal_depth_m": 4600,
+    "nominal_height_m": 660,
+    "axis": "X"
+  },
+  {
+    "label": "C05_INNER_SEED_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1100,
+      -950,
+      140
+    ],
+    "nominal_width_m": 980,
+    "nominal_depth_m": 2800,
+    "nominal_height_m": 590,
+    "axis": "Y"
+  },
+  {
+    "label": "C06_TIDAL_APPROACH_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1250,
+      -920,
+      100
+    ],
+    "nominal_width_m": 940,
+    "nominal_depth_m": 2800,
+    "nominal_height_m": 490,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_W01_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -2180,
+      -180,
+      1020
+    ],
+    "nominal_width_m": 350.0,
+    "nominal_depth_m": 1800,
+    "nominal_height_m": 324.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_W02_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1840,
+      680,
+      1570
+    ],
+    "nominal_width_m": 400.0,
+    "nominal_depth_m": 1360,
+    "nominal_height_m": 282.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_W03_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1440,
+      520,
+      2390
+    ],
+    "nominal_width_m": 335.0,
+    "nominal_depth_m": 1600,
+    "nominal_height_m": 312.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_W04_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1650,
+      700,
+      3060
+    ],
+    "nominal_width_m": 280.0,
+    "nominal_depth_m": 1400,
+    "nominal_height_m": 294.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_E01_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1980,
+      180,
+      780
+    ],
+    "nominal_width_m": 390.0,
+    "nominal_depth_m": 1900,
+    "nominal_height_m": 324.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_E02_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1520,
+      900,
+      1470
+    ],
+    "nominal_width_m": 425.0,
+    "nominal_depth_m": 1800,
+    "nominal_height_m": 360.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_E03_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1150,
+      580,
+      2280
+    ],
+    "nominal_width_m": 350.0,
+    "nominal_depth_m": 1660,
+    "nominal_height_m": 324.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_N01_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -400,
+      1720,
+      1290
+    ],
+    "nominal_width_m": 470.0,
+    "nominal_depth_m": 1400,
+    "nominal_height_m": 348.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_S01_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -1450,
+      -1070,
+      130
+    ],
+    "nominal_width_m": 500.0,
+    "nominal_depth_m": 1840,
+    "nominal_height_m": 426.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_S02_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1540,
+      -940,
+      140
+    ],
+    "nominal_width_m": 500.0,
+    "nominal_depth_m": 1800,
+    "nominal_height_m": 360.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R1_INNER_COAST_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -380,
+      -520,
+      160
+    ],
+    "nominal_width_m": 600,
+    "nominal_depth_m": 2400,
+    "nominal_height_m": 320,
+    "axis": "Y"
+  },
+  {
+    "label": "R2_N_LOWER_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -900,
+      2140,
+      670
+    ],
+    "nominal_width_m": 400.0,
+    "nominal_depth_m": 1700,
+    "nominal_height_m": 372.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R2_N_EAST_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      600,
+      2190,
+      1220
+    ],
+    "nominal_width_m": 460.0,
+    "nominal_depth_m": 1600,
+    "nominal_height_m": 390.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R2_N_HIGH_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -500,
+      2050,
+      2410
+    ],
+    "nominal_width_m": 415.0,
+    "nominal_depth_m": 1640,
+    "nominal_height_m": 378.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R2_ZENITH_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      -520,
+      1020,
+      3850
+    ],
+    "nominal_width_m": 425.0,
+    "nominal_depth_m": 1520,
+    "nominal_height_m": 318.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R2_SIDE_INNER_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      1740,
+      1160,
+      1880
+    ],
+    "nominal_width_m": 410.0,
+    "nominal_depth_m": 1880,
+    "nominal_height_m": 390.0,
+    "axis": "Y"
+  },
+  {
+    "label": "R2_INTERWORLD_COMMON_space_0",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      50,
+      650,
+      2610
+    ],
+    "nominal_width_m": 960,
+    "nominal_depth_m": 2600,
+    "nominal_height_m": 450,
+    "axis": "Y"
+  },
+  {
+    "label": "R2_INTERWORLD_COMMON_space_1",
+    "role": "CIVIC_CAVERN",
+    "origin_m": [
+      50,
+      650,
+      2720
+    ],
+    "nominal_width_m": 660,
+    "nominal_depth_m": 2800,
+    "nominal_height_m": 380,
+    "axis": "X"
+  }
+]

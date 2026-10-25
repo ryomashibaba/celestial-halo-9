@@ -1,0 +1,6 @@
+__pycache__/
+*.blend[1-9]
+# Failed technical attempts remain locally, separately from corrected deliverables.
+exploration_C_failed_boolean/
+revision_1_boolean_order_attempt/
+revision_2_boolean_attempt/

@@ -1,0 +1,29 @@
+{
+  "status": "CORRECTED_FINAL_DELIVERABLES",
+  "repairs": [
+    {
+      "problem": "Y-extruded cave cutter winding was reversed; first C attempt retained closed fronts.",
+      "correction": "Reverse Y profile faces; later recalculate outward normals and triangulate before exact Boolean operations.",
+      "local_failed_output": "exploration_C_failed_boolean/",
+      "included_in_final_evidence": false
+    },
+    {
+      "problem": "Warped loft faces and Boolean results produced invalid topology; one second-revision difference incorrectly extended outside original bounds.",
+      "correction": "Weld within 1mm, dissolve degenerate edges, recalculate outward normals, triangulate before/after Boolean, and fail if any output vertex extends over 2cm outside source bounds. Keep edge bevel after Boolean.",
+      "local_failed_outputs": ["revision_1_boolean_order_attempt/", "revision_2_boolean_attempt/"],
+      "included_in_final_evidence": false,
+      "final_individual_solid_nonmanifold_edges": 0
+    },
+    {
+      "problem": "Initial GLB export omitted evaluated bevel modifiers. Actual import triangle counts and bounds failed.",
+      "correction": "Export with export_apply=true; independently reopen every BLEND and import every GLB, then render the imported final GLB.",
+      "final_verification": "BLEND_GLB_READBACK.json and OFFLINE_EVIDENCE_QA.json"
+    },
+    {
+      "problem": "First additional-camera render replaced the wide-camera manifest.",
+      "correction": "Merge camera records and rerender the six wide views to restore actual recorded conditions."
+    }
+  ],
+  "art_status": "REJECT",
+  "raw_attempts": "Retained locally, ignored by Git to avoid confusing them with corrected model evidence. All corrected artistic stages are delivered."
+}

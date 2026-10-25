@@ -1,0 +1,6 @@
+# Keep generated evidence byte-identical for independent HTTPS readback.
+*.json -text
+*.blend binary
+*.glb binary
+*.png binary
+*.jpg binary

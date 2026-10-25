@@ -1,0 +1,16 @@
+{
+  "ACTUAL_GLB_REIMPORT_OBLIQUE": {
+    "location_m": [
+      9800,
+      -13000,
+      8200
+    ],
+    "target_m": [
+      0,
+      0,
+      2200
+    ],
+    "projection": "ORTHO",
+    "value": 8100
+  }
+}

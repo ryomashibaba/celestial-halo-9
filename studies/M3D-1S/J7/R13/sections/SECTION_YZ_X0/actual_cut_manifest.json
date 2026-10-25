@@ -1,0 +1,674 @@
+{
+  "source_sha256": "fe75170aaf8893e7c244831586fc8a83f71f243722d4aeae7956341c0f327081",
+  "plane_axis": "X",
+  "offset_m": 0,
+  "method": "evaluated source BMesh bisect + actual boundary caps",
+  "objects": [
+    {
+      "object": "C01_WEST_DEEP__inhabited_land",
+      "before_vertices": 2285,
+      "after_vertices": 2285,
+      "cap_faces": 0
+    },
+    {
+      "object": "C02_EAST_TIDELAND__inhabited_land",
+      "before_vertices": 1850,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "C03_REAR_ARCHIVE__inhabited_land",
+      "before_vertices": 1790,
+      "after_vertices": 1190,
+      "cap_faces": 3
+    },
+    {
+      "object": "C04_CONFLUENCE_SKY__inhabited_land",
+      "before_vertices": 894,
+      "after_vertices": 504,
+      "cap_faces": 1
+    },
+    {
+      "object": "Lower confluence water",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 1
+    },
+    {
+      "object": "Upper tidal world",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "East inner sea",
+      "before_vertices": 8,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "West suspended cultivation",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "East collective ground",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "High confluence common",
+      "before_vertices": 56,
+      "after_vertices": 40,
+      "cap_faces": 1
+    },
+    {
+      "object": "Rear deep cultivation",
+      "before_vertices": 56,
+      "after_vertices": 40,
+      "cap_faces": 1
+    },
+    {
+      "object": "R1_W01__inhabited_land",
+      "before_vertices": 286,
+      "after_vertices": 286,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_W01__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_W02__inhabited_land",
+      "before_vertices": 294,
+      "after_vertices": 294,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_W02__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_W03__inhabited_land",
+      "before_vertices": 576,
+      "after_vertices": 576,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_W03__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_W04__inhabited_land",
+      "before_vertices": 286,
+      "after_vertices": 286,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_W04__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_E01__inhabited_land",
+      "before_vertices": 286,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_E01__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_E02__inhabited_land",
+      "before_vertices": 484,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_E02__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_E03__inhabited_land",
+      "before_vertices": 286,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_E03__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_N01__inhabited_land",
+      "before_vertices": 288,
+      "after_vertices": 295,
+      "cap_faces": 1
+    },
+    {
+      "object": "R1_N01__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_S01__inhabited_land",
+      "before_vertices": 286,
+      "after_vertices": 286,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_S01__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_S02__inhabited_land",
+      "before_vertices": 294,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_S02__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R1_INNER_COAST__inhabited_land",
+      "before_vertices": 314,
+      "after_vertices": 313,
+      "cap_faces": 1
+    },
+    {
+      "object": "R2_N_LOWER__inhabited_land",
+      "before_vertices": 286,
+      "after_vertices": 286,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_N_LOWER__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_N_EAST__inhabited_land",
+      "before_vertices": 278,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_N_EAST__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_N_HIGH__inhabited_land",
+      "before_vertices": 286,
+      "after_vertices": 286,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_N_HIGH__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_ZENITH__inhabited_land",
+      "before_vertices": 596,
+      "after_vertices": 596,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_ZENITH__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_SIDE_INNER__inhabited_land",
+      "before_vertices": 286,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_SIDE_INNER__living_common_ground",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "R2_INTERWORLD_COMMON__inhabited_land",
+      "before_vertices": 750,
+      "after_vertices": 404,
+      "cap_faces": 2
+    },
+    {
+      "object": "W living inlet precinct contour 0",
+      "before_vertices": 96,
+      "after_vertices": 96,
+      "cap_faces": 0
+    },
+    {
+      "object": "W living inlet precinct contour 1",
+      "before_vertices": 88,
+      "after_vertices": 88,
+      "cap_faces": 0
+    },
+    {
+      "object": "W living inlet lower interior ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "W living inlet enclosing common wall 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "W living inlet enclosing common wall 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "W living inlet passage lintel",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "W upper common precinct contour 0",
+      "before_vertices": 88,
+      "after_vertices": 88,
+      "cap_faces": 0
+    },
+    {
+      "object": "W upper common precinct contour 1",
+      "before_vertices": 96,
+      "after_vertices": 96,
+      "cap_faces": 0
+    },
+    {
+      "object": "W upper common lower interior ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "W upper common enclosing common wall 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "W upper common enclosing common wall 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "W upper common passage lintel",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "E cultivation exchange precinct contour 0",
+      "before_vertices": 96,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "E cultivation exchange precinct contour 1",
+      "before_vertices": 96,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "E cultivation exchange lower interior ground",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "E cultivation exchange enclosing common wall 0",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "E cultivation exchange enclosing common wall 1",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "E cultivation exchange passage lintel",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "N reverse cultivation precinct contour 0",
+      "before_vertices": 96,
+      "after_vertices": 96,
+      "cap_faces": 0
+    },
+    {
+      "object": "N reverse cultivation precinct contour 1",
+      "before_vertices": 88,
+      "after_vertices": 88,
+      "cap_faces": 0
+    },
+    {
+      "object": "N reverse cultivation lower interior ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "N reverse cultivation enclosing common wall 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "N reverse cultivation enclosing common wall 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "N reverse cultivation passage lintel",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Zenith common precinct contour 0",
+      "before_vertices": 96,
+      "after_vertices": 96,
+      "cap_faces": 0
+    },
+    {
+      "object": "Zenith common precinct contour 1",
+      "before_vertices": 88,
+      "after_vertices": 88,
+      "cap_faces": 0
+    },
+    {
+      "object": "Zenith common lower interior ground",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Zenith common enclosing common wall 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Zenith common enclosing common wall 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Zenith common passage lintel",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "West deep inclined transfer",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "East deep inclined transfer",
+      "before_vertices": 56,
+      "after_vertices": 0,
+      "cap_faces": 0
+    },
+    {
+      "object": "Interworld transfer",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human common floor",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human inhabited threshold pier 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human inhabited threshold head 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human recessed common room 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human inhabited threshold pier 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human inhabited threshold head 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human recessed common room 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human inhabited threshold pier 2",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human inhabited threshold head 2",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human recessed common room 2",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.001",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.002",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.003",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.004",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.005",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.006",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.007",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.008",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.009",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.010",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human edge post.011",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Human continuous edge rail",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    },
+    {
+      "object": "Common growing bed",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Common growing bed.001",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Common growing bed.002",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "1.75m figure torso 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "1.75m figure head 0",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Figure leg",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Figure leg.001",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "1.75m figure torso 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "1.75m figure head 1",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Figure leg.002",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Figure leg.003",
+      "before_vertices": 56,
+      "after_vertices": 56,
+      "cap_faces": 0
+    },
+    {
+      "object": "Actual public threshold light",
+      "before_vertices": 8,
+      "after_vertices": 8,
+      "cap_faces": 0
+    }
+  ]
+}
