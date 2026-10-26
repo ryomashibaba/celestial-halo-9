@@ -1,0 +1,285 @@
+{
+  "blender": "5.2.1 LTS",
+  "saved_blend": {
+    "meshes": 2678,
+    "triangles": 773198,
+    "world_vertex_hash_1mm": "e5de67a733de8fc40d1cb7993b5f55ee39f84c7be03f137fc6946c197cf61771",
+    "finite": true,
+    "bounds_m": [
+      [
+        -7000.0,
+        -8400.0,
+        -96.89388275146484
+      ],
+      [
+        12600.0,
+        9600.0,
+        4240.0
+      ]
+    ],
+    "zero_area_triangles": 0,
+    "R32_bounds_m": [
+      [
+        -2367.835205078125,
+        -1610.125,
+        93.0
+      ],
+      [
+        2151.02197265625,
+        3098.829345703125,
+        4240.0
+      ]
+    ],
+    "R32_size_m": [
+      4518.857421875,
+      4708.9541015625,
+      4147.0
+    ]
+  },
+  "independent_glb_reload": {
+    "meshes": 2678,
+    "triangles": 773198,
+    "world_vertex_hash_1mm": "e5de67a733de8fc40d1cb7993b5f55ee39f84c7be03f137fc6946c197cf61771",
+    "finite": true,
+    "bounds_m": [
+      [
+        -7000.0,
+        -8400.0,
+        -96.89388275146484
+      ],
+      [
+        12600.0,
+        9600.0,
+        4240.0
+      ]
+    ],
+    "zero_area_triangles": 0,
+    "R32_bounds_m": [
+      [
+        -2367.835205078125,
+        -1610.125,
+        93.0
+      ],
+      [
+        2151.02197265625,
+        3098.829345703125,
+        4240.0
+      ]
+    ],
+    "R32_size_m": [
+      4518.857421875,
+      4708.9541015625,
+      4147.0
+    ]
+  },
+  "glb_match": {
+    "meshes": true,
+    "triangles": true,
+    "world_vertex_hash_1mm": true,
+    "bounds_m": true
+  },
+  "fixed_original_7_cameras": {
+    "01_CITY": true,
+    "02_CENTRAL": true,
+    "03_PUBLIC": true,
+    "04_HUMAN": true,
+    "05_REAR": true,
+    "06_UNDERSIDE": true,
+    "07_SKY_STREET": true
+  },
+  "sun_sky_exposure_units_match_R30": true,
+  "human_cameras": [
+    {
+      "camera": "03_PUBLIC",
+      "role": "fixed inherited comparison; changed subject may be invalid",
+      "eye_m": [
+        -2120.0,
+        320.0,
+        1001.7000122070312
+      ],
+      "expected_floor": "R32_1000_REAL_STREET",
+      "floor_samples": [
+        {
+          "actual_floor": "R32_1000_REAL_STREET",
+          "expected_floor": "R32_1000_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.70001220703125
+        },
+        {
+          "actual_floor": "R32_1000_REAL_STREET",
+          "expected_floor": "R32_1000_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.70001220703125
+        },
+        {
+          "actual_floor": "R32_1000_REAL_STREET",
+          "expected_floor": "R32_1000_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.70001220703125
+        },
+        {
+          "actual_floor": "R32_1000_REAL_STREET",
+          "expected_floor": "R32_1000_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.70001220703125
+        },
+        {
+          "actual_floor": "R32_1000_REAL_STREET",
+          "expected_floor": "R32_1000_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.70001220703125
+        }
+      ],
+      "inside_mesh_candidates_parity_3_rays": [
+        "LOWER_ESTUARY cavern district 9 step 3 deep occupied civic bank"
+      ],
+      "first_sightline_hit": "LOWER_ESTUARY cavern district 9 step 2 deep occupied civic bank",
+      "first_hit_distance_m": 42.90445931650862,
+      "limited_standing_pass": false
+    },
+    {
+      "camera": "04_HUMAN",
+      "role": "fixed inherited comparison; changed subject may be invalid",
+      "eye_m": [
+        100.0,
+        -1650.0,
+        106.69999694824219
+      ],
+      "expected_floor": "B_HUMAN_THRESHOLD_FLOOR",
+      "floor_samples": [
+        {
+          "actual_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "expected_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.6999969482421875
+        },
+        {
+          "actual_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "expected_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.6999969482421875
+        },
+        {
+          "actual_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "expected_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.6999969482421875
+        },
+        {
+          "actual_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "expected_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.6999969482421875
+        },
+        {
+          "actual_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "expected_floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.6999969482421875
+        }
+      ],
+      "inside_mesh_candidates_parity_3_rays": [],
+      "first_sightline_hit": "LOWER_ESTUARY cavern district 2 step 4 cavern lower city floor",
+      "first_hit_distance_m": 2818.63382313245,
+      "limited_standing_pass": true
+    },
+    {
+      "camera": "07_SKY_STREET",
+      "role": "fixed inherited comparison; changed subject may be invalid",
+      "eye_m": [
+        -650.0,
+        840.0,
+        2191.699951171875
+      ],
+      "expected_floor": "R32_2190_REAL_STREET",
+      "floor_samples": [
+        {
+          "actual_floor": "R32_2190_REAL_STREET",
+          "expected_floor": "R32_2190_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "actual_floor": "R32_2190_REAL_STREET",
+          "expected_floor": "R32_2190_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "actual_floor": "R32_2190_REAL_STREET",
+          "expected_floor": "R32_2190_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "actual_floor": "R32_2190_REAL_STREET",
+          "expected_floor": "R32_2190_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "actual_floor": "R32_2190_REAL_STREET",
+          "expected_floor": "R32_2190_REAL_STREET",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        }
+      ],
+      "inside_mesh_candidates_parity_3_rays": [
+        "UPPER_CONCORD cavern district 12 step 4 deep occupied civic bank",
+        "UPPER_CONCORD cavern district 12 step 4 inhabited bank ledge"
+      ],
+      "first_sightline_hit": "UPPER_CONCORD cavern district 12 step 4 inhabited bank ledge",
+      "first_hit_distance_m": 14.644201470846745,
+      "limited_standing_pass": false
+    },
+    {
+      "camera": "09_EXPLORATORY_FORUM",
+      "role": "exploratory, not fixed comparison",
+      "eye_m": [
+        100.0,
+        1100.0,
+        2191.699951171875
+      ],
+      "expected_floor": "R32_CONCORD_FORUM_FLOOR",
+      "floor_samples": [
+        {
+          "actual_floor": "R32_CONCORD_FORUM_FLOOR",
+          "expected_floor": "R32_CONCORD_FORUM_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "actual_floor": "R32_CONCORD_FORUM_FLOOR",
+          "expected_floor": "R32_CONCORD_FORUM_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "actual_floor": "R32_CONCORD_FORUM_FLOOR",
+          "expected_floor": "R32_CONCORD_FORUM_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "actual_floor": "R32_CONCORD_FORUM_FLOOR",
+          "expected_floor": "R32_CONCORD_FORUM_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "actual_floor": "R32_CONCORD_FORUM_FLOOR",
+          "expected_floor": "R32_CONCORD_FORUM_FLOOR",
+          "identity_match": true,
+          "eye_height_m": 1.699951171875
+        }
+      ],
+      "inside_mesh_candidates_parity_3_rays": [],
+      "first_sightline_hit": "concordance bridge bank 1 4 inhabited flank",
+      "first_hit_distance_m": 518.2212082722252,
+      "limited_standing_pass": true
+    }
+  ],
+  "external_unpacked_images": [],
+  "floor_policy": "Matching height alone never passes; exact expected floor identity and no camera containment required. Invalid old viewpoints are retained as failure evidence, not artistic success.",
+  "scope": "Finite geometry, 1mm world vertex set, export roundtrip, fixed cameras/light/units, four camera support footprints and mesh containment only. No complete collision, route, stair/lift operability, structure, evacuation, topology, canonical coordinate or Minecraft certification."
+}

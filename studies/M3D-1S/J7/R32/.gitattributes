@@ -1,0 +1,2 @@
+# Preserve exact artifact bytes, including generated JSON and source text.
+* -text
