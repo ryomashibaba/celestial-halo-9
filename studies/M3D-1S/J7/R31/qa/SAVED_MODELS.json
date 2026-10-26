@@ -1,0 +1,682 @@
+{
+  "blender": "5.2.1 LTS",
+  "saved_blend": {
+    "meshes": 455,
+    "triangles": 758014,
+    "raw_vertices": 476612,
+    "unique_vertices_1mm": 475237,
+    "world_vertex_hash_1mm": "31ff9f76e5d0095afe6bc396b5b725a954709bb1b113f6fa47535d3374ef0391",
+    "finite": true,
+    "bounds_m": [
+      [
+        -7000.0,
+        -8400.0,
+        -96.89388275146484
+      ],
+      [
+        12600.0,
+        9600.0,
+        4400.77490234375
+      ]
+    ],
+    "triangles_area_below_1e8": 0,
+    "new_R31_architecture_bounds_m": [
+      [
+        -2717.37060546875,
+        -1610.125,
+        -61.58399963378906
+      ],
+      [
+        2373.09130859375,
+        3091.3369140625,
+        4400.77490234375
+      ]
+    ],
+    "new_R31_architecture_size_m": [
+      5090.4619140625,
+      4701.4619140625,
+      4462.35888671875
+    ]
+  },
+  "independent_glb_reload": {
+    "meshes": 455,
+    "triangles": 758014,
+    "raw_vertices": 1433301,
+    "unique_vertices_1mm": 475237,
+    "world_vertex_hash_1mm": "31ff9f76e5d0095afe6bc396b5b725a954709bb1b113f6fa47535d3374ef0391",
+    "finite": true,
+    "bounds_m": [
+      [
+        -7000.0,
+        -8400.0,
+        -96.89388275146484
+      ],
+      [
+        12600.0,
+        9600.0,
+        4400.77490234375
+      ]
+    ],
+    "triangles_area_below_1e8": 0,
+    "new_R31_architecture_bounds_m": [
+      [
+        -2717.37060546875,
+        -1610.125,
+        -61.58399963378906
+      ],
+      [
+        2373.09130859375,
+        3091.3369140625,
+        4400.77490234375
+      ]
+    ],
+    "new_R31_architecture_size_m": [
+      5090.4619140625,
+      4701.4619140625,
+      4462.35888671875
+    ]
+  },
+  "glb_match": {
+    "meshes": true,
+    "triangles": true,
+    "world_vertex_hash_1mm": true,
+    "bounds_m": true
+  },
+  "original_7_cameras_unchanged": {
+    "01_CITY": true,
+    "02_CENTRAL": true,
+    "03_PUBLIC": true,
+    "04_HUMAN": true,
+    "05_REAR": true,
+    "06_UNDERSIDE": true,
+    "07_SKY_STREET": true
+  },
+  "sun_sky_exposure_scale_match_R30": true,
+  "human_cameras": [
+    {
+      "camera": "03_PUBLIC",
+      "eye_m": [
+        -2120.0,
+        320.0,
+        1001.7000122070312
+      ],
+      "expected_floor": "R31_1000_REAL_STREET",
+      "footprint_5": [
+        {
+          "floor": "R31_1000_REAL_STREET",
+          "eye_height_m": 1.70001220703125
+        },
+        {
+          "floor": "R31_1000_REAL_STREET",
+          "eye_height_m": 1.70001220703125
+        },
+        {
+          "floor": "R31_1000_REAL_STREET",
+          "eye_height_m": 1.70001220703125
+        },
+        {
+          "floor": "R31_1000_REAL_STREET",
+          "eye_height_m": 1.70001220703125
+        },
+        {
+          "floor": "R31_1000_REAL_STREET",
+          "eye_height_m": 1.70001220703125
+        }
+      ],
+      "head_23cm": [],
+      "sightline_first_hit": "R31 western harbour city inhabited threshold",
+      "sightline_hit_distance_m": 610.0579390228799,
+      "limited_floor_pass": true
+    },
+    {
+      "camera": "04_HUMAN",
+      "eye_m": [
+        100.0,
+        -1650.0,
+        106.69999694824219
+      ],
+      "expected_floor": "B_HUMAN_THRESHOLD_FLOOR",
+      "footprint_5": [
+        {
+          "floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "eye_height_m": 1.6999969482421875
+        },
+        {
+          "floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "eye_height_m": 1.6999969482421875
+        },
+        {
+          "floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "eye_height_m": 1.6999969482421875
+        },
+        {
+          "floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "eye_height_m": 1.6999969482421875
+        },
+        {
+          "floor": "B_HUMAN_THRESHOLD_FLOOR",
+          "eye_height_m": 1.6999969482421875
+        }
+      ],
+      "head_23cm": [],
+      "sightline_first_hit": null,
+      "sightline_hit_distance_m": null,
+      "limited_floor_pass": true
+    },
+    {
+      "camera": "07_SKY_STREET",
+      "eye_m": [
+        -650.0,
+        840.0,
+        2191.699951171875
+      ],
+      "expected_floor": "R31_2190_REAL_STREET",
+      "footprint_5": [
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        }
+      ],
+      "head_23cm": [],
+      "sightline_first_hit": null,
+      "sightline_hit_distance_m": null,
+      "limited_floor_pass": true
+    },
+    {
+      "camera": "09_EAST_PUBLIC",
+      "eye_m": [
+        1430.0,
+        1550.0,
+        2191.699951171875
+      ],
+      "expected_floor": "R31 east interchange courtyard",
+      "footprint_5": [
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        },
+        {
+          "floor": "R31_2190_REAL_STREET",
+          "eye_height_m": 1.699951171875
+        }
+      ],
+      "head_23cm": [],
+      "sightline_first_hit": "R31 East station occupied flank",
+      "sightline_hit_distance_m": 87.24730042049474,
+      "limited_floor_pass": true
+    }
+  ],
+  "high_street_centreline_samples_only": [
+    {
+      "point_m": [
+        -650.0,
+        840.0,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -624.0595703125,
+        839.554443359375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -592.4768676757812,
+        838.379638671875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -555.859375,
+        836.71875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -514.8148193359375,
+        834.8148193359375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -469.9508361816406,
+        832.910888671875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -421.875,
+        831.25,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -371.1950378417969,
+        830.0751953125,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -318.5185241699219,
+        829.629638671875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -264.453125,
+        830.15625,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -209.60647583007812,
+        831.898193359375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -154.5862274169922,
+        835.098388671875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -100.0,
+        840.0,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        -43.7702522277832,
+        846.4149169921875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        16.08796501159668,
+        853.9583129882812,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        78.828125,
+        862.578125,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        143.70370483398438,
+        872.2222290039062,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        209.96815490722656,
+        882.8385620117188,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        276.875,
+        894.375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        343.6776428222656,
+        906.7794799804688,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        409.629638671875,
+        920.0,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        473.984375,
+        933.984375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        535.995361328125,
+        948.6805419921875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        594.9161376953125,
+        964.0364990234375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        650.0,
+        980.0,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        702.2135620117188,
+        996.7274169921875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        752.986083984375,
+        1014.375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        802.265625,
+        1032.890625,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        850.0000610351562,
+        1052.2222900390625,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        896.1371459960938,
+        1072.3177490234375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        940.625,
+        1093.125,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        983.4114379882812,
+        1114.592041015625,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1024.4444580078125,
+        1136.6666259765625,
+        2190.0
+      ],
+      "floor": "R31 south bank open porch",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1063.671875,
+        1159.296875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1101.0416259765625,
+        1182.4305419921875,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1136.501708984375,
+        1206.015625,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1170.0,
+        1230.0,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1201.59716796875,
+        1255.7493896484375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1231.388916015625,
+        1284.1898193359375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1259.375,
+        1314.609375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1285.5555419921875,
+        1346.296142578125,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1309.9305419921875,
+        1378.538818359375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1332.5,
+        1410.625,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1353.263916015625,
+        1441.8431396484375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1372.22216796875,
+        1471.4815673828125,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1389.375,
+        1498.828125,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1404.72216796875,
+        1523.1712646484375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1418.263916015625,
+        1543.7991943359375,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    },
+    {
+      "point_m": [
+        1430.0,
+        1560.0,
+        2190.0
+      ],
+      "floor": "R31_2190_REAL_STREET",
+      "height_m": 1.699951171875
+    }
+  ],
+  "external_unpacked_images": [],
+  "scope": "Geometry finite, meshes, triangles, world-space vertex set at 1mm; fixed cameras/sun/sky/scale; four standing-camera footprint/head samples; high-street centreline floor only. No full-body sweep, route network, all collisions, topology/manifold, all rooms, structures, evacuation, rail operation, canonical coordinate or Minecraft certification."
+}

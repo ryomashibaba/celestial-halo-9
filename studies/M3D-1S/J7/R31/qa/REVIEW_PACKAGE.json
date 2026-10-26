@@ -1,0 +1,51 @@
+{
+  "actual_final_renders": 15,
+  "final_primary_review_renders": 13,
+  "final_failed_east_room_shots": 2,
+  "fixed_six_before_initial_after": true,
+  "R30_existing_renders_reused_without_duplicate": true,
+  "R30_extra_front": 1,
+  "initial_preview_resolution": [
+    960,
+    600
+  ],
+  "final_resolution": [
+    1600,
+    1000
+  ],
+  "comparison_method": "Actual Cycles images resized only for labelled review sheets. No ImageGen, retouch, added geometry or background compositing.",
+  "images": [
+    "comparison/FAILED_EAST_PUBLIC.jpg",
+    "comparison/FRONT.jpg",
+    "comparison/ITERATIONS.jpg",
+    "comparison/KEY.jpg",
+    "comparison/MATERIAL_HUMAN.jpg",
+    "comparison/R30_INITIAL_FINAL.jpg",
+    "comparison/R30_R31_NEUTRAL.jpg",
+    "process/initial/clay_01_CITY.png",
+    "process/initial/clay_02_CENTRAL.png",
+    "process/initial/clay_04_HUMAN.png",
+    "process/initial/clay_05_REAR.png",
+    "process/initial/clay_06_UNDERSIDE.png",
+    "process/initial/clay_07_SKY_STREET.png",
+    "renders/baseline/clay_08_FRONT.png",
+    "renders/final/art_02_CENTRAL.png",
+    "renders/final/art_04_HUMAN.png",
+    "renders/final/art_05_REAR.png",
+    "renders/final/art_06_UNDERSIDE.png",
+    "renders/final/art_07_SKY_STREET.png",
+    "renders/final/art_09_EAST_PUBLIC.png",
+    "renders/final/clay_01_CITY.png",
+    "renders/final/clay_02_CENTRAL.png",
+    "renders/final/clay_03_PUBLIC.png",
+    "renders/final/clay_04_HUMAN.png",
+    "renders/final/clay_05_REAR.png",
+    "renders/final/clay_06_UNDERSIDE.png",
+    "renders/final/clay_07_SKY_STREET.png",
+    "renders/final/clay_08_FRONT.png",
+    "renders/final/clay_09_EAST_PUBLIC.png",
+    "renders/revision2/clay_02_CENTRAL.png",
+    "renders/revision3/clay_02_CENTRAL.png",
+    "renders/revision3/clay_09_EAST_PUBLIC.png"
+  ]
+}

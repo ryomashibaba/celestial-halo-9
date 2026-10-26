@@ -1,0 +1,926 @@
+{
+  "date_jst": "2026-10-26",
+  "main_confirmed_live_HEAD": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "R30_confirmed_live_HEAD": "792dd34c96f6e9deefb8f8806fea478e5718b793",
+  "R30_PR": 63,
+  "R30_state_at_start": "open/draft/unmerged",
+  "live_verification": "GitHub connector explicit main-ref reads, get_pr_info(63), network-enabled git ls-remote. This offline script does not itself refresh remote state.",
+  "branch": "research/m3d1s-j7-r31-ascendant-confluence-20261026",
+  "authorization": "Current user explicitly authorizes R31 background Blender creation, isolated new branch, push and new Draft PR. Existing PR updates, main writes and merge are excluded.",
+  "policy_blobs": [
+    {
+      "path": "AGENTS.md",
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "blob": "dc376946a7261137abbdaee68373ea67ce4d34c5",
+      "sha256": "7bd04b75e2305edec473656194ce7f251e54bc60270d251919d46b1409ccb586"
+    },
+    {
+      "path": "docs/policy/START_HERE.md",
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "blob": "31409773da67b3212a0ecae14e603f7af2c260a8",
+      "sha256": "3061cc6a35cf3e47968400d49538ed218d9cd9debfc5e40c4193ca5922582f01"
+    },
+    {
+      "path": "docs/policy/PROJECT_CONSTITUTION.md",
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "blob": "9afa293268492ed0f70a0b2221ab3277dff48f32",
+      "sha256": "bb5104cf6e293553dbab483eb80dfed0b98749a27d307bf0aa2cecb8c640594d"
+    },
+    {
+      "path": "docs/policy/CITY_MASTER_3D_STANDARD.md",
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "blob": "b3fcf9d02c4de5566f3ed506c43df6a2db3817e4",
+      "sha256": "2f8004e87ebf7d441e58ee82964815091d5f247d0ff6d4bd995d63544b3f2805"
+    },
+    {
+      "path": "docs/policy/CURRENT_STATUS.md",
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "blob": "715ad111ca335735d3723cf5d86a14cb8aa543f2",
+      "sha256": "2f083a22b3425379a9353ea74fc003fc0bd83fd8b6bb5969eeecf27a67e01d15"
+    },
+    {
+      "path": "docs/policy/DECISION_LOG.md",
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "blob": "c5a60bde5b4c2b13256cdf30fb3ff78210ac7971",
+      "sha256": "33df9739248908fa7b92607c47814225169f582056ae4a7319cdad2222d3ad2b"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "studies/M3D-1S/J7/R29/.gitattributes",
+      "bytes": 86,
+      "sha256": "50f322d1f34e71ea8befd309bf05e5467a7e17894ce35487200d2f7236cf2757",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/ART_REVIEW_JA.md",
+      "bytes": 5733,
+      "sha256": "d0f6639fa49f46d6f10833b1d33321006a4a43f483265d8f2ee60c12cdd36434",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/HANDOFF_JA.md",
+      "bytes": 2409,
+      "sha256": "c8d6c868a361e366fcbd951c4820201772ae6415f42b94b3500c3f15d144da06",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/MANIFEST_SHA256.json",
+      "bytes": 11771,
+      "sha256": "adc397d1e666e50469cfea1f3aa7c130f25b60a7eb539bf5ffefb6d5cb64eea0",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/README_JA.md",
+      "bytes": 13287,
+      "sha256": "037611b484274ebf2f70c90787793af546d26e480738b485899f51f32b61c9fb",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/build_commons.py",
+      "bytes": 25723,
+      "sha256": "f0afdcbf2dbe6227c03d352a70167d82a22baa50a0797e890e481189984cdb2a",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/capture_sources.py",
+      "bytes": 3010,
+      "sha256": "19c6ed16b9dba63d1b471431ede97d8b92176dc9f06f478d8d937c7208bca30e",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/comparison/MATCHED_BEFORE_AFTER.jpg",
+      "bytes": 1199510,
+      "sha256": "cdec165e95d0fc8806f40c194d24fddc7ff70b78db81120136b85758ed528500",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/comparison/R28_02_CENTRAL_CHOIR.png",
+      "bytes": 1923184,
+      "sha256": "b03644701562fab57989cb473a7a809e565ec6d66e99dde0295f719661cc0517",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/comparison/R28_03_FORUM_HUMAN.png",
+      "bytes": 1800821,
+      "sha256": "3296c7f14347aaa52db50358f0d16a417fcbf8537676fff45f6e4b0e4c916be6",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/comparison/R28_06_REAR_NORTH.png",
+      "bytes": 2199004,
+      "sha256": "bd709ffce998af6c34e0384863a392599994c24907fb118e36d55e7a137e5950",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/comparison/R28_08_WHOLE_CITY.png",
+      "bytes": 1670528,
+      "sha256": "d49f48d2d180629121e16982b2c38af5d7cb8e901b3939effb8424c7576327c6",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/comparison/R28_10_EAST_CITY_SECTION.png",
+      "bytes": 2269880,
+      "sha256": "27eee2327b0365b58a072b74e7003cad88eed6b72000bc35f22b246b3b93040c",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/inspect_source.py",
+      "bytes": 2482,
+      "sha256": "a84a627c9a47fc06ab86c0729b33ca69da38df0cee9df6efe8c60654ed8aafbb",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/model/R29_TIDAL_COMMONS.blend",
+      "bytes": 15173132,
+      "sha256": "ce7da26db0e79cffc1f5be8e0f89b5828d74fb57dd9b85ede8f2b651e4d2b83f",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/model/R29_TIDAL_COMMONS.glb",
+      "bytes": 80330948,
+      "sha256": "0776211f3b96446addf58bc7f9ec29f234a75de389c8ba7b2fdb0350b6a78c3b",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/package_review.py",
+      "bytes": 4704,
+      "sha256": "e2b79d64d0d08659d629b5added6850c56254c7228e148d7a01bc2ab23c68268",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/11_SKY_READING_HUMAN.png",
+      "bytes": 721348,
+      "sha256": "218f4855aa9d626ffaa7093ee4b0de2af5347dbaed5913354ac521918d606ad5",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/14_LEARNING_HUMAN.png",
+      "bytes": 686273,
+      "sha256": "ac8233352139443c76e43c2d7ee28ed9f72d85c85588bda2f461fe14196efbf2",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/15_FORUM_EAST_STREET.png",
+      "bytes": 771051,
+      "sha256": "7e1871ec2606671d5a0f602fd6937dec8db5c1bfbd544830a67e8ff6a5d5d74b",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/16_B_LOWER_PUBLIC_CITY.png",
+      "bytes": 598275,
+      "sha256": "ddb74b11336e160683241a4aaa5d155905bbcbbe4ba783ab2a657aefa9bb5702",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/build.log",
+      "bytes": 54297,
+      "sha256": "31bc1512c4ad1e086e7d4c9fccfc1795f156fe02d6601922a72d0a2221308cd6",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/build_delivery.log",
+      "bytes": 56473,
+      "sha256": "fb9a6c99850954e750d4e2cb12ded4bc7f1945c0d1629b9053af077a135607bf",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/build_final.log",
+      "bytes": 55777,
+      "sha256": "c85c763a1735c123d1493535f33b646cc2d4679c77db838d1bb37a75386a4058",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/build_revision2.log",
+      "bytes": 53435,
+      "sha256": "a20d6b884a9711e04b0bf641a6d7a2ec790ef63ae3057fa85dd073d14430fc96",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/build_revision3.log",
+      "bytes": 55779,
+      "sha256": "94220fb71660ac78e13cd62b60260d798a72ecf9d1584e05e1a24de5d00a40df",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/camera_refinement.log",
+      "bytes": 464,
+      "sha256": "aaa087662eb4132a159f030b8dd0b22c5f80fb9bbe24c281c54bc4a8d37704d0",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/delivery_render.log",
+      "bytes": 2041,
+      "sha256": "99c197fc2c66c33ff5707252298bdea2659235d50147ad2a4eceb4b6a085124b",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/final_render.log",
+      "bytes": 2041,
+      "sha256": "4f8b985a0086e292dd59d7e4a1639cc7e3c2af6a5abb2db6e31addff9bf295aa",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/matched_R28_render.log",
+      "bytes": 443,
+      "sha256": "74484c887a46f33100740d9ef3d9a7cfdddbdd324823c9c831a36e795c93a98e",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/preview.log",
+      "bytes": 820,
+      "sha256": "b146d1394fade5730b03ea4ded7d89a8955f9b5d5cc875d0ba211110ce689b6f",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/preview_final.log",
+      "bytes": 1056,
+      "sha256": "6863b786c9d1fc30ffc42e71ecb7dcfc6b844a3c87b5e6080bb96f7641556e21",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/preview_revision2.log",
+      "bytes": 1468,
+      "sha256": "633124590868561421f7dbb3f5f9dc29e82e12be88e7ea16cd81f5d836c6b42c",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision1/02_CENTRAL_CHOIR.png",
+      "bytes": 842102,
+      "sha256": "ffda084e3f6461c6b2de22b27dcfa0b86ae22cc6411f955f7e9a7180d5df84dd",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision1/03_FORUM_HUMAN.png",
+      "bytes": 820865,
+      "sha256": "0e72590a7f71dadce7449376a7f07ad10fd11f4e7fa4494909e7dc153729eefe",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision1/11_SKY_READING_HUMAN.png",
+      "bytes": 537715,
+      "sha256": "5ef9449e12ee347976ddad2d70da60a87be08cc47f7c93ed29f64a3b7aa12a14",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision1/SPACE_AND_CONNECTIONS.json",
+      "bytes": 16878,
+      "sha256": "7b58d31df1d155e5a73e8f934af22d93d20a4261afbbd80d58c4f94763df57c9",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision2/02_CENTRAL_CHOIR.png",
+      "bytes": 842280,
+      "sha256": "772b015218fb52a5bb66922785c46369878b2302a8b1d6e96d50e4f316007282",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision2/10_EAST_CITY_SECTION.png",
+      "bytes": 1062951,
+      "sha256": "6bac9dbbabf30961bc8815bb25c886a20008236451759f6d9e1e5d892c91255f",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision2/11_SKY_READING_HUMAN.png",
+      "bytes": 711936,
+      "sha256": "706941d893c0795d54b379af1103095233aa00a5551a892d558e27903e6aea74",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision2/12_CENTRAL_ARRIVAL_HUMAN.png",
+      "bytes": 606735,
+      "sha256": "c1246c927e5fbd7ee831b63ae2e963252a7aa199195c58a464f2fc3b1616a463",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision2/14_LEARNING_HUMAN.png",
+      "bytes": 134011,
+      "sha256": "37975d4a63807904d62faedb87e279e2e76d9d948b34aa77fe58675716c31871",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision2/15_FORUM_EAST_STREET.png",
+      "bytes": 735590,
+      "sha256": "dc5eaccec24f6cd79495aa2a37d45e6bd51683d6b44a2857582d9d3e25d37198",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision2/CAMERAS.json",
+      "bytes": 6235,
+      "sha256": "4b787960a6e1a442ec6f71dc45e4190ec3a371b4882f33c1baada4d7bcc54377",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/process/revision2/SPACE_AND_CONNECTIONS.json",
+      "bytes": 16662,
+      "sha256": "5d5325abfc2c4143cdaa1c5d6d62385d5cdaacb05786cf86b13b1a22770e2256",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/ACTUAL_MESH_DELTA.json",
+      "bytes": 15304,
+      "sha256": "5571aa6ab549644aa6dcef72ec62a48d6dd6cc5d93d7621ad289fbec034c0f40",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/BUILD_CHANGES.json",
+      "bytes": 22388,
+      "sha256": "fcee2598d3f7b2025438c850c80c92583472b12bbbc8003777b688fec631c443",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/CAMERAS.json",
+      "bytes": 6761,
+      "sha256": "abb0a6f718434bb1a8123cd7784ac0b05f406f3b4046cfe3b38b695beb42b7bd",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/DELIVERY_SUMMARY.json",
+      "bytes": 989,
+      "sha256": "1f85cbe9776b4af7a3f46e63fcd851b5bb9e8b4823362b797b74e95f6c44a64a",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/NEW_CAMERA_CORRECTIONS.json",
+      "bytes": 751,
+      "sha256": "c7b0275d842c8a1fd093bcc673bdf1f3164980e66186e8ae505ee0f49aacfe3f",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/REVIEW_SHEET.jpg",
+      "bytes": 599085,
+      "sha256": "82c24ab2d72dbb089b56d706716d6466aa4730085b69ac8bf69761fb35548cc9",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/SAVED_GEOMETRY_CHECK.json",
+      "bytes": 6900,
+      "sha256": "572f6a7792fa869739e2f60823ef1d5085a040e88c286dae131ab95b685766a1",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/SOURCE_GEOMETRY.json",
+      "bytes": 97047,
+      "sha256": "d0129fc3bd02f9147d21ac51a850553ab36aba45ab695cb5a55a8b75646b59ba",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/SPACE_AND_CONNECTIONS.json",
+      "bytes": 20079,
+      "sha256": "4af2562dd2fb437dd5613dd9709562f7f0887f579301c23213119d03bc8286d6",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/STARTUP_AND_SOURCE_INTEGRITY.json",
+      "bytes": 16087,
+      "sha256": "646bd7e76437917323509591c119cb1d6ac99e5043b33b8f9b14af7141a453e8",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/source_inspection.log",
+      "bytes": 35093,
+      "sha256": "47f8f7dc4e992160716bd1c56ef484afb0af4526e3b3d9aff26d6c0c38b897d2",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/qa/verify_saved.log",
+      "bytes": 37593,
+      "sha256": "362c56f30b6917af65aa83137230bee2c242f0fcb18c848ee7318b5c920a864a",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/refine_views.py",
+      "bytes": 1304,
+      "sha256": "243ccaa4b451b8fdd403977559f3d92a9785ed51340bc4a2adc1e8970ad5d856",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/02_CENTRAL_CHOIR.png",
+      "bytes": 1932029,
+      "sha256": "4e5eae5de25b24ffacb41821407e889634fb74b954b50a6466f6271a9a5ccc00",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/03_FORUM_HUMAN.png",
+      "bytes": 1799080,
+      "sha256": "aa349e5ecd053e5298e60d73a9254958e35f2f17413391123388c2dc21eeb29f",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/06_REAR_NORTH.png",
+      "bytes": 2213374,
+      "sha256": "d6e21ad8b7ada2d4e390d69c3c357e8983bbb45261e462961a069f2698b738e9",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/08_WHOLE_CITY.png",
+      "bytes": 1673791,
+      "sha256": "7cba057dc7da13c6479eaa2b5e014c091800fbbb14787f562a9d736410d831af",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/10_EAST_CITY_SECTION.png",
+      "bytes": 2322577,
+      "sha256": "bf54a7317c85c255e8cf141456e1db2bcc38d29445b369b62b0d25c94b7f6acf",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/11_SKY_READING_HUMAN.png",
+      "bytes": 1591783,
+      "sha256": "05d2d2c56586eeeebcbfa0021ec33e6e6840976d1a54386fd665b4174dea5771",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/12_CENTRAL_ARRIVAL_HUMAN.png",
+      "bytes": 1343649,
+      "sha256": "c86dfd1b21d433383c087c05a5ea199566c05b1f445afead0407137a80bfe605",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/14_LEARNING_HUMAN.png",
+      "bytes": 1519254,
+      "sha256": "409f766b9b5cc168bd77e52a36b027290ff298306919e0405afbd0d50138d81b",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/renders/16_B_LOWER_PUBLIC_CITY.png",
+      "bytes": 1517944,
+      "sha256": "85096cb58502ce8c12248bacd7893ceacc1de5d4c5d0ee9cb1f531f2935642c3",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/verify_github.py",
+      "bytes": 1653,
+      "sha256": "f1dc76bcfff190f520399b11507447dcf1ba726e69aad6dc726e7551153ecdb8",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/verify_package.py",
+      "bytes": 1999,
+      "sha256": "8d47d29092c3f164be22de0d537ad43c86c648c48d31851dfd4751af1e1297aa",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R29/verify_saved.py",
+      "bytes": 7798,
+      "sha256": "fcf6875c1fed861ab07367e706e63ef71f2482b400578afcdea9453bfcb53372",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/.gitattributes",
+      "bytes": 29,
+      "sha256": "730a35ae3d558080083c3103d9ac8100c3f6561678092abe341701dfa331eb1d",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/ART_REVIEW_JA.md",
+      "bytes": 5949,
+      "sha256": "dd3054ae3f24332e54388d4144dab7f85d54a15bbb6f724af0838a0b50785cbf",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/EDIT_LOG_JA.md",
+      "bytes": 3759,
+      "sha256": "0c34b0246bf90704b86bfbd39d447bb13defbeca981ffa61abbd096cdf09ccd6",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/HANDOFF_JA.md",
+      "bytes": 2143,
+      "sha256": "5bd9ab88ceedd4ed5e9f1c1b5e619c4b38c1b55a38d7b92680368e212e565be3",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/MANIFEST_SHA256.json",
+      "bytes": 11923,
+      "sha256": "7f185da955de2bfa53c034fe5ceadb88d37db4802e03b0ea6f869eb5f28b3d94",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/README_JA.md",
+      "bytes": 7552,
+      "sha256": "def68fe8f5961931defd45098bdd10576b3797bc1ef831c31283b25e3bff36f9",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/build_a.py",
+      "bytes": 9492,
+      "sha256": "122ec9dd767c78dd728508b0260d85d1b3746d8644930747ef9ec88561f75d7f",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/build_b.py",
+      "bytes": 9354,
+      "sha256": "28415c45354f3e6a90247b8f7ca52820849f866333c15fb7ef93271f0c697a7d",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/cleanup_degenerate.py",
+      "bytes": 1985,
+      "sha256": "9dae8976800273ec396dfc4a1cae6ceaafa0beeaec81c9c66ce1d623fd2b10d6",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/clear_b_destination.py",
+      "bytes": 2586,
+      "sha256": "1c87a508b0bfa27660e8037e2e0d43065b7f82f5d4473641078ef3bc10db622c",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/comparison/AB_ART.jpg",
+      "bytes": 577566,
+      "sha256": "a6e3341229a588b0c29e04548ec5433db7c62912438334ec08a4edb875bd7846",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/comparison/AB_KEY.jpg",
+      "bytes": 333472,
+      "sha256": "b4d4d42d72e94c855c5cd81b70bf190d7d66f9e0884db23281bf43f8a1915cf9",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/comparison/AB_NEUTRAL.jpg",
+      "bytes": 864506,
+      "sha256": "031bff81f5c6fe4c05d4abcae9a2a1a5396b18a98df7696286b396ee0e564885",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/comparison/FAILED_EDITS.jpg",
+      "bytes": 265352,
+      "sha256": "9fbe6babcb00ffda84725ae387b0a0fc9a326c5866c04b66004b4d7d2a01ad93",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/comparison/ITERATION_SHAPE.jpg",
+      "bytes": 530302,
+      "sha256": "dbc740f502e6e9ae1118b56c00e43acb612e9379fd2a61530c90d9b24e89108b",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/comparison/R29_A_B_REFERENCE.jpg",
+      "bytes": 175934,
+      "sha256": "934102fbe74af848679cdfa354f4c61d9fb405833002d951b6ffc493df5a797a",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/comparison/R29_clay_02_CENTRAL.png",
+      "bytes": 1802286,
+      "sha256": "a6f5fc35e7c70e580c07759820c5181f45a4e53811a4745fde9b4aedeb387c0a",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/final_pass.py",
+      "bytes": 8838,
+      "sha256": "b465e6f5269c56454367155d9952d6d6191c11bcc0aa12db646b766b41b751e0",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/finish_spaces.py",
+      "bytes": 2638,
+      "sha256": "593cc578b6ec6e40a84977808ac715fbf2195b91ad4e1fd0c59d192e61d80b6a",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/geometry.py",
+      "bytes": 13809,
+      "sha256": "e6f1ef1cbbec3da3ac812b6484ca28613f22e208b6756e727642d64ec0faf9f9",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/inspect_r29.py",
+      "bytes": 1349,
+      "sha256": "a3c79f883fecc0e5ef66038e0d51e8ec5c59ba287cad1080a252c937d730acee",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/model/R30_A.blend",
+      "bytes": 7810747,
+      "sha256": "ebab3fbf78ce247e1361a734857243d9a044b2b753a9f561d912748dcd2caf62",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/model/R30_A.glb",
+      "bytes": 37908080,
+      "sha256": "cf6c655a70daa375ebf3233c34297fc51e7e05db0613e9113afff0f5193c3c12",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/model/R30_B.blend",
+      "bytes": 8018906,
+      "sha256": "64ec3e2c2f6da07877f22de1dc7be4ed2844872347f79cb137f05a5b2739517d",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/model/R30_B.glb",
+      "bytes": 40693816,
+      "sha256": "ce00eb7787b527a33b897b15f32936f2a886cf53e6ecca4ea2f27a0e0d6824a1",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/open_intersections.py",
+      "bytes": 2351,
+      "sha256": "e8ab2f1ab4b877e391f9e83baa7ea9605d67c7af4546af378768571eb4c260e3",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/package_review.py",
+      "bytes": 6011,
+      "sha256": "f5545797f250bdf143f44c179611748cbe53bf32cf79ef0b431e6003595d4c3d",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/process/A_clay_02_CENTRAL.png",
+      "bytes": 615111,
+      "sha256": "5677e880170f4355f4e37455b2f1e005e30ab01fb343a518afbbe0a06a1d34c1",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/process/A_clay_04_HUMAN.png",
+      "bytes": 542861,
+      "sha256": "cc0a95529417a2c00168fbf4a8f27d1862883f517c2c5f1f1aba5750e03288a3",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/process/BUILD_EDIT_EXPORT_LOG.txt",
+      "bytes": 165852,
+      "sha256": "b83ca4261ade205ad69828529764e27021510cbde8392dcdba48c9a54e59c56a",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/process/B_clay_02_CENTRAL.png",
+      "bytes": 736374,
+      "sha256": "e33880fdae930a122a2e79c48b2b79e75a0718d9e3dbe353b3d8cc86f9ce9eb3",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/process/B_clay_04_HUMAN.png",
+      "bytes": 689178,
+      "sha256": "05097ba9516e2fbe2ff11494be79a7e79d74f413fded6a32f53973abe7675a9b",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/process/RENDER_LOG.txt",
+      "bytes": 17862,
+      "sha256": "94442c5d3250831efef5e2a9bfc613bc57c7a9e7048226141645f24b5340d338",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/process/revision2/B_art_07_SKY_STREET.png",
+      "bytes": 571704,
+      "sha256": "ccc86dc9c0ba459418e3dfb99e576b2e56423fb557adf3a4c78d378457e16a4d",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/process/revision2/B_clay_02_CENTRAL.png",
+      "bytes": 746794,
+      "sha256": "35bf4b0692a812624ab3d63fbfd36144a4f88a3f1fbcf3e8cd1049db01d247fc",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/qa/A_BUILD.json",
+      "bytes": 2740,
+      "sha256": "49a45e17dc47481f84ee22ceb7cfc6da82ce62426cf4880cf80469384bc4d146",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/qa/B_BUILD.json",
+      "bytes": 2942,
+      "sha256": "2057700882eb0841d5cc8d0a764824e0436d0f669b70565e79e3880ca44407c3",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/qa/R29_INSPECTION.json",
+      "bytes": 165551,
+      "sha256": "f1eda577bfc4ca7ebee682133fea8bc5c129499542b1cc5a14d73bf63e9a7ab5",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/qa/R29_MATCHED_REFERENCE.json",
+      "bytes": 397,
+      "sha256": "ae4704eea551fabcf3a5384773f162018ac223c4343189b46f6fb261a123cea9",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/qa/REVIEW_PACKAGE.json",
+      "bytes": 1143,
+      "sha256": "02bb1d3ccaac684245e0053020c10b057a37fb5523314e7b7962a3456f6b2dee",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/qa/SAVED_MODELS.json",
+      "bytes": 86256,
+      "sha256": "a073a1a3e914274a5bb8adda3c9b919e6e153cc02599b9db96095ee8322f6d84",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/qa/SOURCE_INTEGRITY.json",
+      "bytes": 27037,
+      "sha256": "693dda66285cc8963433f136d9ef57c21a1b07b357db140ee1572ad4016a222b",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/qa/verify_models.log",
+      "bytes": 139812,
+      "sha256": "d8e982a165f022e3c4bc37dcca3cf607190054da5812ee98b0a85c4f68a026eb",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/refine.py",
+      "bytes": 11562,
+      "sha256": "7ed1125992196f87b4f2ab962b5519db6214f144e956ded5cc48441ec6c00220",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/render_batch.py",
+      "bytes": 655,
+      "sha256": "892fdc181b34e4cb22abb854e336078840b966ca7cc269cde6ef6f6ef0ed6874",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/render_r29_reference.py",
+      "bytes": 1100,
+      "sha256": "8bed86180d0626076d59d22494294769fb432fd2e765daa3d6680233a16c6603",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_art_02_CENTRAL.png",
+      "bytes": 1687934,
+      "sha256": "cb8ac6b675ead75e2079b39200eba2a228707419725b926b9fc57734723381b8",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_art_03_PUBLIC.png",
+      "bytes": 1515162,
+      "sha256": "006edab7ad13adf4efc9d84ad295af2fc5cf2518e7c48a0a5cb40e08671f1a59",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_art_04_HUMAN.png",
+      "bytes": 1549020,
+      "sha256": "ec1a65c00c4e8fa682ddb3ddfa35340f043ef11d6cb16a17ff3dba7f24d1d447",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_art_07_SKY_STREET.png",
+      "bytes": 1266574,
+      "sha256": "6479cf6526f331dff51f08d2f2b719361a6eae73858297af34e3cc32ab0a887d",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_clay_01_CITY.png",
+      "bytes": 1519329,
+      "sha256": "0a69570cce8511f10320edb0f04ae422221f904a29f0119d7da6433f71c8f325",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_clay_02_CENTRAL.png",
+      "bytes": 1625259,
+      "sha256": "e4633c3ef5ac7f97fe7417d7e9373eff13c673892b6f372ac144ded569cca079",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_clay_03_PUBLIC.png",
+      "bytes": 1461396,
+      "sha256": "2eecae677553027a6cf0681bacae42dc6367f04356dfbb04cc7d20d973875b82",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_clay_04_HUMAN.png",
+      "bytes": 1488442,
+      "sha256": "411039dcbc4ee9e5b67d940cfe47a17f8f358c0b228b29807a76d67e3e461846",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_clay_05_REAR.png",
+      "bytes": 1597505,
+      "sha256": "4611229e196fd571d3532f6b89f09ace955554d84cbe049034546b6a3082bac3",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_clay_06_UNDERSIDE.png",
+      "bytes": 1579872,
+      "sha256": "aeff331e49dd97bf10962b08a40b8ab305ec1c4ab56b30a3dbc68c8dee06f04e",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/A_clay_07_SKY_STREET.png",
+      "bytes": 1269909,
+      "sha256": "e9eea1a34383ea8ec276d274482b4debd739044dfa22feff824ee7250923cb76",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_art_02_CENTRAL.png",
+      "bytes": 2081637,
+      "sha256": "d02e4b956ab0def09b1ef4aa5bf7c9b9cb01a635d82e180876dd1f43fb869df0",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_art_03_PUBLIC.png",
+      "bytes": 1725222,
+      "sha256": "cf38f2b7f5c545468d4cb9bf467bf3f9a49307401f62cf102034834c82a1f989",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_art_04_HUMAN.png",
+      "bytes": 1956079,
+      "sha256": "a74e8454441160beb0729f02a41996ba7adb530445358d91bcc2ae0390f2903d",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_art_07_SKY_STREET.png",
+      "bytes": 1707818,
+      "sha256": "a9a90fd0de6b2cbdc24ad2d9ae45ea51a7d9376db7f4332fa02a1818fc295ecf",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_clay_01_CITY.png",
+      "bytes": 1822693,
+      "sha256": "cb2bd88fec167aa63f4d2a2599bd0db23d84f335abf77704e5686d8924241aea",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_clay_02_CENTRAL.png",
+      "bytes": 1982725,
+      "sha256": "0d3a85a1800e5ca64e1c9eabbfc2e1ce734cb80c999e4d7f7f20fb08a322cfc1",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_clay_03_PUBLIC.png",
+      "bytes": 1685851,
+      "sha256": "8c5707e5a2f0d886ba90542089af1979ded99ba8fffa927400edb5eaef3e6a3f",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_clay_04_HUMAN.png",
+      "bytes": 1872194,
+      "sha256": "4703151b732fdb3e8d66ef3249167ef388a346c194970d1b3b425ba266855d8f",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_clay_05_REAR.png",
+      "bytes": 1929792,
+      "sha256": "feef169e6fcde5cfaf2673afcede7d2c133597d27c53f05d6b2a1a1887d722a6",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_clay_06_UNDERSIDE.png",
+      "bytes": 1987001,
+      "sha256": "3d01151f8b88b7d79963c95e13aacaefc23ddf93d63f66100ed529f707e86aae",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/renders/B_clay_07_SKY_STREET.png",
+      "bytes": 1685557,
+      "sha256": "054afe89170f76766ff2b2832c0ab0029e51d87259e50ba1825c7968b53bbd77",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/resolve_b_floor_overlap.py",
+      "bytes": 1619,
+      "sha256": "fd72e53bc37ae9d13550ef044745e13ceae2e1767fd9aa1e2630e31ea053ebd7",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/stabilize_a_export.py",
+      "bytes": 1831,
+      "sha256": "fef4a9e1e4251d44fed815d3ca4ac2fd1a5aefcb6567ee81832de4110465dfaa",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/verify_github.py",
+      "bytes": 1897,
+      "sha256": "b61d67474094007f80c9bf08094a6a88a8bd7de70b581a92e4f2110d7271fc6e",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/verify_models.py",
+      "bytes": 5561,
+      "sha256": "e4d330feaf397ee6d5c6e2a0ad4d160f456f8fe08a21e51cfe16eaca3d5b84c0",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R30/verify_sources.py",
+      "bytes": 2515,
+      "sha256": "70f819c1509cb6407d9fbe0f03fb970a830a6df0495bd2abf3cbc78dcebb0edd",
+      "unchanged": true
+    },
+    {
+      "path": "studies/M3D-1S/J7/R21/sheets/MATERIALS.jpg",
+      "bytes": 305959,
+      "sha256": "9c79e280724fb951c0fd829a3e56b915bc7b6ba728d84e3d3e547d786ac072a2",
+      "unchanged": true
+    }
+  ],
+  "all_unchanged": true,
+  "R29_R30_count": 143,
+  "C55A_reference_sheet_count": 1,
+  "setup_rules": "LOCAL_WORK_RULES and SETUP_STATUS read. Missing current-branch local setup report read from integration/local-work-m121-setup-20261014 Git object.",
+  "current_status_warning": "main CURRENT_STATUS dated 2026-10-23 and SETUP_STATUS are historical, not live research progress.",
+  "actual_Minecraft_save_access": false,
+  "foreground_computer_use": false,
+  "new_paid_services": false,
+  "canonical_anchor_count": 0,
+  "formal_art_adoptions": 0,
+  "construction": "HOLD",
+  "CITY_MASTER_3D_FIRST": "LOCKED; all city except ordinary private interiors must ultimately be detailed"
+}
