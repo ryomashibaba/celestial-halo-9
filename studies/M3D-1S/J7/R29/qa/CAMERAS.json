@@ -1,0 +1,363 @@
+[
+  {
+    "camera": "01_ESTUARY_CITY",
+    "eye_m": [
+      8400.0,
+      -10600.0,
+      4200.0
+    ],
+    "target_m": [
+      -250,
+      550,
+      1050
+    ],
+    "lens_mm": 43.0,
+    "intended_support": ""
+  },
+  {
+    "camera": "02_CENTRAL_CHOIR",
+    "eye_m": [
+      3900.0,
+      -4900.0,
+      2100.0
+    ],
+    "target_m": [
+      -300,
+      620,
+      1370
+    ],
+    "lens_mm": 32.0,
+    "intended_support": ""
+  },
+  {
+    "camera": "03_FORUM_HUMAN",
+    "eye_m": [
+      105.0,
+      -1390.0,
+      106.69999694824219
+    ],
+    "target_m": [
+      -90,
+      580,
+      310
+    ],
+    "lens_mm": 23.0,
+    "intended_support": "FORUM_REAL_FLOOR",
+    "actual_support": "FORUM_REAL_FLOOR",
+    "eye_height_m": 1.6999969482421875,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "04_LIBRARY_LANE",
+    "eye_m": [
+      -168.0,
+      -1350.0,
+      106.69999694824219
+    ],
+    "target_m": [
+      -154,
+      -700,
+      145
+    ],
+    "lens_mm": 26.0,
+    "intended_support": "FORUM_REAL_FLOOR",
+    "actual_support": "FORUM_REAL_FLOOR",
+    "eye_height_m": 1.6999969482421875,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "05_SEA_TERRACE",
+    "eye_m": [
+      1460.0,
+      -1430.0,
+      106.69999694824219
+    ],
+    "target_m": [
+      -200,
+      800,
+      1700
+    ],
+    "lens_mm": 24.0,
+    "intended_support": "SEA_TERRACE_REAL_FLOOR",
+    "actual_support": "SEA_TERRACE_REAL_FLOOR",
+    "eye_height_m": 1.6999969482421875,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "06_REAR_NORTH",
+    "eye_m": [
+      1000.0,
+      5400.0,
+      4300.0
+    ],
+    "target_m": [
+      0,
+      800,
+      1300
+    ],
+    "lens_mm": 38.0,
+    "intended_support": ""
+  },
+  {
+    "camera": "07_SKY_COURT",
+    "eye_m": [
+      2280.0,
+      -769.0,
+      806.2000122070312
+    ],
+    "target_m": [
+      -200,
+      800,
+      1600
+    ],
+    "lens_mm": 25.0,
+    "intended_support": "B_HARBOR interior boulevard",
+    "actual_support": "B_HARBOR interior boulevard",
+    "eye_height_m": 1.70001220703125,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "08_WHOLE_CITY",
+    "eye_m": [
+      8500.0,
+      -11000.0,
+      11000.0
+    ],
+    "target_m": [
+      0,
+      600,
+      500
+    ],
+    "lens_mm": 43.0,
+    "intended_support": ""
+  },
+  {
+    "camera": "09_UPPER_CIVIC_PROMENADE",
+    "eye_m": [
+      860.0,
+      230.0,
+      651.7000122070312
+    ],
+    "target_m": [
+      2250,
+      -650,
+      850
+    ],
+    "lens_mm": 30.0,
+    "intended_support": "upper civic promenade",
+    "actual_support": "upper civic promenade",
+    "eye_height_m": 1.70001220703125,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "10_EAST_CITY_SECTION",
+    "eye_m": [
+      3200.0,
+      -2800.0,
+      1450.0
+    ],
+    "target_m": [
+      950,
+      340,
+      650
+    ],
+    "lens_mm": 40.0,
+    "intended_support": ""
+  },
+  {
+    "camera": "11_SKY_READING_HUMAN",
+    "eye_m": [
+      1074.4000244140625,
+      -139.5,
+      651.7000122070312
+    ],
+    "target_m": [
+      1880,
+      -500,
+      682
+    ],
+    "lens_mm": 28.0,
+    "intended_support": "R29_SKY_GARDEN_FLOOR",
+    "actual_support": "R29_SKY_GARDEN_FLOOR",
+    "eye_height_m": 1.70001220703125,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "12_CENTRAL_ARRIVAL_HUMAN",
+    "eye_m": [
+      1350.0,
+      -480.0,
+      806.7000122070312
+    ],
+    "target_m": [
+      1875,
+      -769,
+      840
+    ],
+    "lens_mm": 30.0,
+    "intended_support": "R29_CENTRAL_ARRIVAL_FLOOR",
+    "actual_support": "R29_CENTRAL_ARRIVAL_FLOOR",
+    "eye_height_m": 1.70001220703125,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "13_B_ARRIVAL_HUMAN",
+    "eye_m": [
+      1910.0,
+      -769.0,
+      806.2000122070312
+    ],
+    "target_m": [
+      950,
+      300,
+      1500
+    ],
+    "lens_mm": 25.0,
+    "intended_support": "R29_B_ARRIVAL_FLOOR",
+    "actual_support": "R29_B_ARRIVAL_FLOOR",
+    "eye_height_m": 1.70001220703125,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "14_LEARNING_HUMAN",
+    "eye_m": [
+      870.0,
+      -110.0,
+      346.70001220703125
+    ],
+    "target_m": [
+      900,
+      500,
+      470
+    ],
+    "lens_mm": 24.0,
+    "intended_support": "learning conservatory ground",
+    "actual_support": "learning ground civic landscape",
+    "eye_height_m": 1.70001220703125,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "15_FORUM_EAST_STREET",
+    "eye_m": [
+      695.0,
+      -615.0,
+      106.69999694824219
+    ],
+    "target_m": [
+      1050,
+      -230,
+      220
+    ],
+    "lens_mm": 28.0,
+    "intended_support": "SEA_TERRACE_REAL_FLOOR",
+    "actual_support": "SEA_TERRACE_REAL_FLOOR",
+    "eye_height_m": 1.6999969482421875,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  },
+  {
+    "camera": "16_B_LOWER_PUBLIC_CITY",
+    "eye_m": [
+      1910.0,
+      -491.0,
+      651.7000122070312
+    ],
+    "target_m": [
+      780,
+      300,
+      880
+    ],
+    "lens_mm": 25.0,
+    "intended_support": "R29_B_LOWER_PORT_FLOOR",
+    "actual_support": "R29_B_LOWER_PORT_FLOOR",
+    "eye_height_m": 1.70001220703125,
+    "floor_height_pass": true,
+    "five_foot_samples": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "head_22cm_hits": []
+  }
+]

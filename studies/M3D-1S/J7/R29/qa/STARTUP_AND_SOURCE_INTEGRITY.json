@@ -1,0 +1,387 @@
+{
+  "date_jst": "2026-10-26",
+  "main_head_verified_live": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "R28_head_verified_live": "da2a2e630b95c939881db7428ac21ac85342346e",
+  "PR61": "Draft/open/unmerged, base R27B; inspected via gh pr view before edits",
+  "branch": "research/m3d1s-j7-r29-tidal-commons-20261026",
+  "authorization": "User attached J7-R29 request: background Blender actual production, new branch and new Draft PR based on R28, push and download verification. No main/old PR/world edits.",
+  "policy_staleness": "CURRENT_STATUS dated 2026-10-23 is historical; current HEADs verified by live fetch and ls-remote, not taken from old setup table.",
+  "setup_report": "LOCAL_WORK_RULES and SETUP_STATUS read. Report absent in R28 tree, read via git show integration/local-work-m121-setup-20261014:docs/LOCAL_WORK_SETUP_20261014_JA.md.",
+  "sources": [
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "AGENTS.md",
+      "git_blob": "dc376946a7261137abbdaee68373ea67ce4d34c5",
+      "sha256": "7bd04b75e2305edec473656194ce7f251e54bc60270d251919d46b1409ccb586",
+      "bytes": 2861
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/START_HERE.md",
+      "git_blob": "31409773da67b3212a0ecae14e603f7af2c260a8",
+      "sha256": "3061cc6a35cf3e47968400d49538ed218d9cd9debfc5e40c4193ca5922582f01",
+      "bytes": 5303
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/PROJECT_CONSTITUTION.md",
+      "git_blob": "9afa293268492ed0f70a0b2221ab3277dff48f32",
+      "sha256": "bb5104cf6e293553dbab483eb80dfed0b98749a27d307bf0aa2cecb8c640594d",
+      "bytes": 15410
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CITY_MASTER_3D_STANDARD.md",
+      "git_blob": "b3fcf9d02c4de5566f3ed506c43df6a2db3817e4",
+      "sha256": "2f8004e87ebf7d441e58ee82964815091d5f247d0ff6d4bd995d63544b3f2805",
+      "bytes": 8311
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CURRENT_STATUS.md",
+      "git_blob": "715ad111ca335735d3723cf5d86a14cb8aa543f2",
+      "sha256": "2f083a22b3425379a9353ea74fc003fc0bd83fd8b6bb5969eeecf27a67e01d15",
+      "bytes": 3730
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/DECISION_LOG.md",
+      "git_blob": "c5a60bde5b4c2b13256cdf30fb3ff78210ac7971",
+      "sha256": "33df9739248908fa7b92607c47814225169f582056ae4a7319cdad2222d3ad2b",
+      "bytes": 4111
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/SOURCE_REGISTER.md",
+      "git_blob": "21c91de3a0b5f5720295ba4b7dcec59eda6ea44b",
+      "sha256": "d022a2df36b4abed8b24c4d1da853f05cfb586cb08567d26b8d5745503ddd1ee",
+      "bytes": 3557
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R28/README_JA.md",
+      "git_blob": "b839e11fabfc7df5028c34351303fc54ff8ff02c",
+      "sha256": "904c7984fdac7056241aaa0c910744f8a3fe7a8161e31c114070eed29004c868",
+      "bytes": 9344
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R28/ART_REVIEW_JA.md",
+      "git_blob": "6ce1384abc116df9a4612c1c50b9f04f0a48c7ee",
+      "sha256": "5ad6906d7fd73583081d51bc57869ab6fd7c8b5ab03651841b6abfb46d8da25b",
+      "bytes": 6076
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R28/build_estuary.py",
+      "git_blob": "830a555faeb0e1419f5af7f5ef6cb7e1069d29bf",
+      "sha256": "fb5308911a8c9b22f2df7c09c7043e6bca3f24283cf7159c9b4de541b1f6e918",
+      "bytes": 28015
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R28/model/R28_CELESTIAL_ESTUARY.blend",
+      "git_blob": "13e575796048af6d04cf2c811ca62443a24b2ff7",
+      "sha256": "9ad79426b4670a1652685e770b5aee38dfe66b78c5a9b4e50f844bd8ec5d1355",
+      "bytes": 13741114
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R28/model/R28_CELESTIAL_ESTUARY.glb",
+      "git_blob": "35cb1d0b71afc2431ca0cbb870bf55fdf9b4dfb0",
+      "sha256": "ffa7c5390c515195313f60b2d54ffcf8145b3a2f932631a923c12458ac20844a",
+      "bytes": 68613152
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R27B/ART_REVIEW_JA.md",
+      "git_blob": "0a128f6b3a0fd179dc6f0d07aea59e27969b7b76",
+      "sha256": "43d351ac2a3c7a169b2076d242f48d0632d16dc9348970c62e80ea8c5dc5adab",
+      "bytes": 4825
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R27B/qa/REVIEW_SHEET.jpg",
+      "git_blob": "b737e27a50530f9e5626b987c00305358b41c274",
+      "sha256": "a5dcbeaf645cc4f23f04969bab335bdb6308bed086f49e4b25f8160649dfa288",
+      "bytes": 412381
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R26/R26_WHOLE_CITY_ART_DIRECTION_JA.md",
+      "git_blob": "adbffe1f6d4a4ddf28c005582db5a29cf8ea3211",
+      "sha256": "20499167773ace6187b756de253e847ba4001af852de218cd57eb452c08d6c57",
+      "bytes": 19563
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R27/R27_CITYWIDE_INTEGRATION_REALITY_GATE_JA.md",
+      "git_blob": "dad98963a2ea4ec47fc3cbb2bd8c6615a388ecd1",
+      "sha256": "0f575bac16608c384b6ab6056a347a8d3779ed1de8aaa257befbf2ca81f754b9",
+      "bytes": 9639
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R27/R27_VERIFIED_ASSET_ANCHOR_REGISTER.json",
+      "git_blob": "ac5691ab5019ce460fe1d34204c2b269aab2bd12",
+      "sha256": "a9c51385c784357c15ffe9e3fd04a72c774fdafe1d4990fd201b13157f2e0472",
+      "bytes": 12497
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R21/R21_ART_REVIEW_JA.md",
+      "git_blob": "8f171d207e9a4f3a3e96d153a52fa17523974106",
+      "sha256": "09f37cdbdb1ca83e4f72b08d135c67e887aae9347f6d26bf06307278d666f090",
+      "bytes": 11919
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R21/source/code/c55a_city.py",
+      "git_blob": "3c110430e800a223c29b1e8630933251e11f1173",
+      "sha256": "dd9c56652a57244a6ad38bc86817471dae5437a16461f053a3181a09db215bfb",
+      "bytes": 42699
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R21/source/code/c55a_geom.py",
+      "git_blob": "7cbe6eff5630389dae25fdd67f1ad1a142a75587",
+      "sha256": "df932224ec81525450dd571800bb4e70e95a72d5f7114fecff750eefdeaf9432",
+      "bytes": 8562
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R21/source/code/c55a_hall.py",
+      "git_blob": "d2002110a918828f876a9a9a0b3a48f2f6db5ee8",
+      "sha256": "a9256b786a64a967638395739b7fa7fd9598f75c6d067817a8a86ec363c736e6",
+      "bytes": 9917
+    },
+    {
+      "ref": "da2a2e630b95c939881db7428ac21ac85342346e",
+      "path": "studies/M3D-1S/J7/R21/source/code/blender_build.py",
+      "git_blob": "bbb52a31203649f59215d848d0f6a828188ab58c",
+      "sha256": "3e915cf5262066688b799208b94f861340b18c755d1f41499f527146536df143",
+      "bytes": 6624
+    }
+  ],
+  "R28_original_files": [
+    {
+      "path": "studies/M3D-1S/J7/R28/.gitattributes",
+      "unchanged_bytes": true,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/ART_REVIEW_JA.md",
+      "unchanged_bytes": true,
+      "sha256": "5ad6906d7fd73583081d51bc57869ab6fd7c8b5ab03651841b6abfb46d8da25b"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/MANIFEST_SHA256.json",
+      "unchanged_bytes": true,
+      "sha256": "3437eabf6d32c276389ed6ce2f6b4f8cc6c22d3a3b2c9597268644e59d6613cd"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/README_JA.md",
+      "unchanged_bytes": true,
+      "sha256": "904c7984fdac7056241aaa0c910744f8a3fe7a8161e31c114070eed29004c868"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/build.log",
+      "unchanged_bytes": true,
+      "sha256": "f291d239dc7ff67db275d8990147685f8cfee42d1873be42fdf3bde142aae5c3"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/build_estuary.py",
+      "unchanged_bytes": true,
+      "sha256": "fb5308911a8c9b22f2df7c09c7043e6bca3f24283cf7159c9b4de541b1f6e918"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/capture_sources.py",
+      "unchanged_bytes": true,
+      "sha256": "045ac11a755facbecd57140c6ffc760245765440ef302a9887d896ac6059d400"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/model/R28_CELESTIAL_ESTUARY.blend",
+      "unchanged_bytes": true,
+      "sha256": "9ad79426b4670a1652685e770b5aee38dfe66b78c5a9b4e50f844bd8ec5d1355"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/model/R28_CELESTIAL_ESTUARY.glb",
+      "unchanged_bytes": true,
+      "sha256": "ffa7c5390c515195313f60b2d54ffcf8145b3a2f932631a923c12458ac20844a"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/package_review.py",
+      "unchanged_bytes": true,
+      "sha256": "18194d33d8ed1415599a90d5de9ed088142975cc7e1e66e1e83c358433d46448"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/process/FAILED_NORTH_CAMERA_TERRAIN.png",
+      "unchanged_bytes": true,
+      "sha256": "b4770784f4198c36eb49bea61514237183f5958175b732275747e28be4ca154a"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/process/INITIAL_CITY.png",
+      "unchanged_bytes": true,
+      "sha256": "e9f13377ffbda1e346292c56f5c8e1a599542e2852060058ed7a683a32dd8312"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/process/INITIAL_FORUM.png",
+      "unchanged_bytes": true,
+      "sha256": "5593604bf42bdf5948e911b11cd4b1206e34fe097a8fc1768511e69f570676a7"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/process/INITIAL_LANE.png",
+      "unchanged_bytes": true,
+      "sha256": "4e1ff2348604ae2d8ab65ad562da1e647cf04cf32fe01448aa14828dff1d9735"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/process/INITIAL_READING_GALLERY_CEILING.png",
+      "unchanged_bytes": true,
+      "sha256": "1f110ae7e7ecc5a4238fdc2056412a1e9daba3539f59fd0e1e874c112b1d5d02"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/promenade_render.log",
+      "unchanged_bytes": true,
+      "sha256": "32800d5760df62c418279797ea580a26c63a6f7cb55c0e29f7c9bdd569348e44"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/BUILD.json",
+      "unchanged_bytes": true,
+      "sha256": "b35c33e56e8cf84f19f3c662562d5beb4b7bdbd1b6c6a9b826fad181cc11cdd5"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/CAMERAS.json",
+      "unchanged_bytes": true,
+      "sha256": "10935d5323bfd44a92905e6e5ac5cb48feac25cb69eee886cc9c07fee90ace2b"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/DELIVERY_SUMMARY.json",
+      "unchanged_bytes": true,
+      "sha256": "f2d925add5b00dc0dab0b5ef8b1360e3c6c34fb6acc0237135a9ef06a56c6efd"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/REVIEW_SHEET.jpg",
+      "unchanged_bytes": true,
+      "sha256": "708cff1e110f634257e9464691fe6eeccaf596df65f5d57107deb6b64b0fdc1f"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/SAVED_GEOMETRY_CHECK.json",
+      "unchanged_bytes": true,
+      "sha256": "47c8176fc0c061dd16f64538df4a9ab4cb42e2e1c661ce538a410c5a69203bdd"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/SCOPE.json",
+      "unchanged_bytes": true,
+      "sha256": "8fc5753318bf35859508e3fde8e48a64955c11d8a58505009ff65a47acd2d37e"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/SPACE_SAMPLES.json",
+      "unchanged_bytes": true,
+      "sha256": "33c0c8ea74ec5790c182e00add4ae2803ed024b0863a3524d577894c484873d1"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/STARTUP_PROVENANCE.json",
+      "unchanged_bytes": true,
+      "sha256": "24510429282d6a0459416765fdbc224ba8e9b4300f04f06f9f7cc78ba5afa148"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/qa/TRANSIT.json",
+      "unchanged_bytes": true,
+      "sha256": "7a457e6e0ccea626c9303e03b58931471fef27d8e4c74961d7198e4c29dd05dc"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/refine_views.log",
+      "unchanged_bytes": true,
+      "sha256": "ab946d400511b8bc00316438395521a1e3ee0163cecb74ed992cf6f8bce52bfb"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/refine_views.py",
+      "unchanged_bytes": true,
+      "sha256": "5bd4a1a5ce07e74e7791e7724f466706fcf1b1d5895396f8207ebf15497fa4b6"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/refined_render.log",
+      "unchanged_bytes": true,
+      "sha256": "b25178cfeb865cafe136b8c1d526be278a93b3011270b55f33cc3a79acbf6b01"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/render.log",
+      "unchanged_bytes": true,
+      "sha256": "d64510a56e3f20da813e0356fe17abc4a9d4280816212b7833ba606d62db6925"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/01_ESTUARY_CITY.png",
+      "unchanged_bytes": true,
+      "sha256": "68a8e7b94ea337312ab3a5070033b3778f1f77c9cbbca992f4db08745aafc3b1"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/02_CENTRAL_CHOIR.png",
+      "unchanged_bytes": true,
+      "sha256": "b03644701562fab57989cb473a7a809e565ec6d66e99dde0295f719661cc0517"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/03_FORUM_HUMAN.png",
+      "unchanged_bytes": true,
+      "sha256": "3296c7f14347aaa52db50358f0d16a417fcbf8537676fff45f6e4b0e4c916be6"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/04_LIBRARY_LANE.png",
+      "unchanged_bytes": true,
+      "sha256": "2f137024a6290887ab18bef891891cef5cd94264ccf8615601f5b3a1c182b276"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/05_SEA_TERRACE.png",
+      "unchanged_bytes": true,
+      "sha256": "960d27938a94f6eb6ef5af1b6809ea4b4766175ac41c48c41d79e50ab5ccb79c"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/06_REAR_NORTH.png",
+      "unchanged_bytes": true,
+      "sha256": "bd709ffce998af6c34e0384863a392599994c24907fb118e36d55e7a137e5950"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/07_SKY_COURT.png",
+      "unchanged_bytes": true,
+      "sha256": "a4f17e7e89ca94496559797b960d1dbfbec409a244e6b0cde68a3f4f67bf35f3"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/08_WHOLE_CITY.png",
+      "unchanged_bytes": true,
+      "sha256": "d49f48d2d180629121e16982b2c38af5d7cb8e901b3939effb8424c7576327c6"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/renders/09_UPPER_CIVIC_PROMENADE.png",
+      "unchanged_bytes": true,
+      "sha256": "1369058680e5ab87dfecc79b41468e0cf17f7ef934fbef094ec365ba8f07855b"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/verify_github.py",
+      "unchanged_bytes": true,
+      "sha256": "0ebd6080cf6d6530ff125037c637f7fd5a00358b95b76af121374e660c7beb95"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/verify_package.py",
+      "unchanged_bytes": true,
+      "sha256": "20ec814d372ad32e05dc017311d3cd4ddcb312601bd8ba24a3d76a1ee6a4ed90"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/verify_saved.log",
+      "unchanged_bytes": true,
+      "sha256": "f76f0b9b7ce5d5b652a64d6bfaccaccf61bf0405d3753109721e1cb766f802fe"
+    },
+    {
+      "path": "studies/M3D-1S/J7/R28/verify_saved.py",
+      "unchanged_bytes": true,
+      "sha256": "8387a47fb44bee71d27ad8b87cbc63775a14d4df0f6aed15c1b980a6378433d2"
+    }
+  ],
+  "all_R28_original_files_unchanged": true,
+  "coordinates": "1 unit=1m, +X east/+Y north/+Z up. Relative R28 research frame only. No certified canonical anchors.",
+  "formal_art_adoptions": 0,
+  "minecraft": "HOLD",
+  "city_master_3d_first": "LOCKED",
+  "foreground_computer_use": false,
+  "paid_services": false,
+  "live_blender_mcp": false,
+  "actual_save_access": false
+}

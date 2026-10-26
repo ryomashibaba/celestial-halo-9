@@ -1,0 +1,711 @@
+{
+  "rays": [
+    {
+      "name": "forum east portal -1100",
+      "start_m": [
+        350,
+        -1100,
+        106.7
+      ],
+      "end_m": [
+        1100,
+        -1100,
+        106.7
+      ],
+      "clear": true,
+      "first_hit": null,
+      "hit_m": null
+    },
+    {
+      "name": "forum east portal -600",
+      "start_m": [
+        350,
+        -600,
+        106.7
+      ],
+      "end_m": [
+        1080,
+        -600,
+        106.7
+      ],
+      "clear": true,
+      "first_hit": null,
+      "hit_m": null
+    },
+    {
+      "name": "forum east portal -120",
+      "start_m": [
+        350,
+        -120,
+        106.7
+      ],
+      "end_m": [
+        1080,
+        -120,
+        106.7
+      ],
+      "clear": false,
+      "first_hit": "recessed private room bars",
+      "hit_m": [
+        864.7491455078125,
+        -120.0,
+        106.69999694824219
+      ]
+    },
+    {
+      "name": "east great civic rift",
+      "start_m": [
+        500,
+        150,
+        530
+      ],
+      "end_m": [
+        1350,
+        150,
+        530
+      ],
+      "clear": true,
+      "first_hit": null,
+      "hit_m": null
+    },
+    {
+      "name": "east upper arrival rift",
+      "start_m": [
+        400,
+        700,
+        1040
+      ],
+      "end_m": [
+        1250,
+        700,
+        1040
+      ],
+      "clear": true,
+      "first_hit": null,
+      "hit_m": null
+    },
+    {
+      "name": "sky walk first span",
+      "start_m": [
+        1370,
+        -480,
+        806.7
+      ],
+      "end_m": [
+        1600,
+        -769,
+        806.5
+      ],
+      "clear": true,
+      "first_hit": null,
+      "hit_m": null
+    },
+    {
+      "name": "B arrival actual opening",
+      "start_m": [
+        1510,
+        -769,
+        806.5
+      ],
+      "end_m": [
+        1900,
+        -769,
+        806.2
+      ],
+      "clear": true,
+      "first_hit": null,
+      "hit_m": null
+    },
+    {
+      "name": "reading room outlook",
+      "start_m": [
+        1074.4,
+        -139.5,
+        651.7
+      ],
+      "end_m": [
+        2100,
+        -650,
+        900
+      ],
+      "clear": false,
+      "first_hit": "B_HARBOR recessed bands",
+      "hit_m": [
+        1671.5372314453125,
+        -436.7294921875,
+        796.2682495117188
+      ]
+    }
+  ],
+  "sampled_floor_joins": [
+    {
+      "name": "reading ramp",
+      "start_m": [
+        680,
+        -1280,
+        105
+      ],
+      "end_m": [
+        680,
+        -1000,
+        119
+      ],
+      "samples": [
+        {
+          "t": 0.0,
+          "support": "SEA_TERRACE_REAL_FLOOR",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.05,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.1,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.15,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.2,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.25,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.3,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.35,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.4,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.45,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.5,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.55,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.6,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.65,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.7,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.75,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.8,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.85,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.9,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.95,
+          "support": "reading gallery accessible research ramp",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 1.0,
+          "support": "EAST_GALLERY_REAL_FLOOR",
+          "surface_error_m": 0.0,
+          "pass": true
+        }
+      ],
+      "all_floor_samples_pass": true
+    },
+    {
+      "name": "forum ramp",
+      "start_m": [
+        195,
+        -1440,
+        105
+      ],
+      "end_m": [
+        195,
+        -760,
+        139
+      ],
+      "samples": [
+        {
+          "t": 0.0,
+          "support": "FORUM_REAL_FLOOR",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.05,
+          "support": "forum garden ascent",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.1,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.15,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.2,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.25,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.3,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.35,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.4,
+          "support": "forum garden ascent",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.45,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.5,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.55,
+          "support": "forum garden ascent",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.6,
+          "support": "forum garden ascent",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.65,
+          "support": "forum garden ascent",
+          "surface_error_m": 7.62939453125e-06,
+          "pass": true
+        },
+        {
+          "t": 0.7,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.75,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.8,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.85,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.9,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.95,
+          "support": "forum garden ascent",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 1.0,
+          "support": "forum east raised street",
+          "surface_error_m": 0.0,
+          "pass": true
+        }
+      ],
+      "all_floor_samples_pass": true
+    },
+    {
+      "name": "sky first",
+      "start_m": [
+        1370,
+        -480,
+        805
+      ],
+      "end_m": [
+        1600,
+        -769,
+        804.8
+      ],
+      "samples": [
+        {
+          "t": 0.0,
+          "support": "R29_CENTRAL_ARRIVAL_FLOOR",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.05,
+          "support": "R29_CENTRAL_ARRIVAL_FLOOR",
+          "surface_error_m": 0.010009765625,
+          "pass": true
+        },
+        {
+          "t": 0.1,
+          "support": "R29_CENTRAL_ARRIVAL_FLOOR",
+          "surface_error_m": 0.01995849609375,
+          "pass": true
+        },
+        {
+          "t": 0.15,
+          "support": "R29_CENTRAL_ARRIVAL_FLOOR",
+          "surface_error_m": 0.030029296875,
+          "pass": false
+        },
+        {
+          "t": 0.2,
+          "support": "R29_CENTRAL_ARRIVAL_FLOOR",
+          "surface_error_m": 0.0400390625,
+          "pass": false
+        },
+        {
+          "t": 0.25,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.3,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.35,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 0.4,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 0.45,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.5,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.55,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.6,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.65,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.7,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.75,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.8,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 0.85,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.9,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 0.95,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 1.0,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        }
+      ],
+      "all_floor_samples_pass": false
+    },
+    {
+      "name": "sky second",
+      "start_m": [
+        1600,
+        -769,
+        804.8
+      ],
+      "end_m": [
+        1900,
+        -769,
+        804.5
+      ],
+      "samples": [
+        {
+          "t": 0.0,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.05,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 0.1,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 0.15,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.2,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.25,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.3,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.35,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.4,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.45,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 0.5,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.55,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.6,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.65,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.7,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.75,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.8,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 0.85,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.9,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 0.0,
+          "pass": true
+        },
+        {
+          "t": 0.95,
+          "support": "R29_SKY_WALK",
+          "surface_error_m": 6.103515625e-05,
+          "pass": true
+        },
+        {
+          "t": 1.0,
+          "support": "R29_B_ARRIVAL_FLOOR",
+          "surface_error_m": 0.0,
+          "pass": true
+        }
+      ],
+      "all_floor_samples_pass": true
+    }
+  ],
+  "limits": "Finite straight sight/head rays and 21 floor samples per named segment only. Not swept body, complete path graph, egress, vehicle operation, enclosure volume or structure certification."
+}
