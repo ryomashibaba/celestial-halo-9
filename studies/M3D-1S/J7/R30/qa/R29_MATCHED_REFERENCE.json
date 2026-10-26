@@ -1,0 +1,22 @@
+{
+  "source": "R29/model/R29_TIDAL_COMMONS.blend",
+  "source_head": "d9f30a36946138359667676a904eba1a9c34da72",
+  "camera": "R30 02_CENTRAL",
+  "eye": [
+    5300,
+    -7000,
+    3500
+  ],
+  "target": [
+    0,
+    800,
+    1800
+  ],
+  "lens": 38,
+  "lighting": "R30 common sun/sky/exposure and clay override",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "source_saved": false
+}

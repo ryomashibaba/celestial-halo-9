@@ -1,0 +1,2814 @@
+
+FILE: A_build.log
+00:02.547  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R29\model\R29_TIDAL_COMMONS.blend"
+00:03.500  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_47008_208c5ff0ee6af26392a8a44e0c64ac0e.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_A.blend"
+R30_SAVED A 1
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_cleanup.log
+00:03.188  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+00:04.219  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_14912_208c5ff0ee6af26392a8a44e0c64ac0e.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_A.blend"
+R30_SAVED A 5
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_consistent_final_art.log
+00:02.032  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START A art 02_CENTRAL
+00:10.219  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START A art 03_PUBLIC
+00:16.360  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START A art 04_HUMAN
+00:22.610  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START A art 07_SKY_STREET
+00:28.969  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_consistent_final_clay.log
+00:01.844  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START A clay 01_CITY
+00:12.578  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_01_CITY.png'
+RENDER_DONE 01_CITY
+RENDER_START A clay 02_CENTRAL
+00:22.078  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START A clay 03_PUBLIC
+00:33.250  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START A clay 04_HUMAN
+00:43.578  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START A clay 05_REAR
+00:53.281  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+RENDER_START A clay 06_UNDERSIDE
+01:03.281  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_06_UNDERSIDE.png'
+RENDER_DONE 06_UNDERSIDE
+RENDER_START A clay 07_SKY_STREET
+01:13.344  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_export.log
+00:02.750  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:31:43 | INFO: Starting glTF 2.0 export
+18:31:43 | INFO: Extracting primitive: A basin inhabited crossing continuous raked spine
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A basin inhabited crossing facade supports
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A basin inhabited crossing inhabited flank 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A basin inhabited crossing inhabited flank -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A basin inhabited crossing inhabited terrace
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A basin inhabited crossing public street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A basin inhabited crossing roof halves 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A basin inhabited crossing roof halves -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A canal bank handrail
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A canal bank handrail posts
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A canal inlet
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown arc
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown public suspension continuous raked spine
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown public suspension facade supports
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown public suspension inhabited flank 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown public suspension inhabited flank -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown public suspension inhabited terrace
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown public suspension public street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown public suspension roof halves 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A crown public suspension roof halves -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A east upper living cleft continuous raked spine
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A east upper living cleft facade supports
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A east upper living cleft inhabited flank 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A east upper living cleft inhabited flank -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A east upper living cleft inhabited terrace
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A east upper living cleft public street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A east upper living cleft roof halves 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A east upper living cleft roof halves -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 0 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 0 lenticular roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 0 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 0 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 0 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 1 folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 1 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 1 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 1 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 1 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 2 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 2 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 2 planted roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 2 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A embedded public house 2 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary aerial arrival
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary aerial arrival guard
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary aerial arrival guard posts
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary aerial arrival underside keel
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary arrival court folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary arrival court gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary arrival court occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary arrival court portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary arrival court street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A estuary shoulder
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A foreground crossing house folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A foreground crossing house gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A foreground crossing house occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A foreground crossing house portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A foreground crossing house street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A garden slope
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A garden slope guard
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A garden slope guard posts
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A high city causeway
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A high city causeway guard
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A high city causeway guard posts
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A high city causeway underside keel
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A lift arrival chamber
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A lift public apron
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A low-to-sea walk
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A low-to-sea walk guard
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A low-to-sea walk guard posts
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A north chamber occupied side rooms
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A north public chamber colossal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A north public chamber floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A north public portico roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A north spine stable actual export triangles
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A north-facing ground street
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A north-facing ground street guard
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A north-facing ground street guard posts
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A public lift ribs
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear winter quarter continuous raked spine
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear winter quarter facade supports
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear winter quarter inhabited flank 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear winter quarter inhabited flank -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear winter quarter inhabited terrace
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear winter quarter public street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear winter quarter roof halves 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear winter quarter roof halves -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear-to-west public link
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear-to-west public link guard
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A rear-to-west public link guard posts
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A river craft chambers gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A river craft chambers occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A river craft chambers planted roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A river craft chambers portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A river craft chambers street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea stair house gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea stair house lenticular roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea stair house occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea stair house portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea stair house street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea threshold district continuous raked spine
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea threshold district facade supports
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea threshold district inhabited flank 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea threshold district inhabited flank -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea threshold district inhabited terrace
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea threshold district public street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea threshold district roof halves 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A sea threshold district roof halves -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A seaward terrace
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A split crown counterleaf stable actual export triangles
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 0 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 0 lenticular roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 0 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 0 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 0 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 1 folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 1 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 1 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 1 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 1 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 2 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 2 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 2 planted roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 2 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 2 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 3 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 3 lenticular roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 3 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 3 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 3 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 4 folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 4 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 4 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 4 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 4 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 5 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 5 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 5 planted roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 5 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 5 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 6 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 6 lenticular roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 6 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 6 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 6 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 7 folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 7 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 7 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 7 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 7 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 8 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 8 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 8 planted roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 8 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A upper canyon neighbourhood 8 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 0 folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 0 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 0 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 0 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 0 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 1 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 1 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 1 planted roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 1 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 1 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 2 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 2 lenticular roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 2 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 2 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 2 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 3 folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 3 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 3 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 3 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 3 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 4 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 4 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 4 planted roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 4 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 4 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 5 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 5 lenticular roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 5 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 5 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 5 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 6 folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 6 gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 6 occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 6 portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A water street address 6 street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A waterfront seats
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west bronze reveals
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west canyon convergence continuous raked spine
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west canyon convergence facade supports
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west canyon convergence inhabited flank 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west canyon convergence inhabited flank -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west canyon convergence inhabited terrace
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west canyon convergence public street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west canyon convergence roof halves 1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west canyon convergence roof halves -1
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west garden arrival
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west garden arrival guard
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west garden arrival guard posts
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west garden arrival underside keel
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west high commons gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west high commons lenticular roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west high commons occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west high commons portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west high commons street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west processional street
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west rising buttress
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A west tidal wall stable actual export triangles
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A winter exchange folded roof
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A winter exchange gallery
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A winter exchange occupied flank
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A winter exchange portal piers
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A winter exchange street floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_EAST_805_FLOOR
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_EAST_1710_FLOOR
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_GARDEN civic canopy
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_GARDEN interior boulevard
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_GARDEN mixed use arcade supports
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_GARDEN mixed use entry lintel
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_GARDEN mixed use facade fins
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_GARDEN mixed use floor
+18:31:43 | INFO: Primitives created: 1
+18:31:43 | INFO: Extracting primitive: A_GARDEN mixed use private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_GARDEN mixed use shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_GARDEN mixed use shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_GARDEN mixed use shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_GARDEN occupied decks
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_GARDEN recessed bands
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_GARDEN underside basket arches
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_HUMAN_CANAL_BRIDGE_REAL_FLOOR
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_NORTH_1250_FLOOR
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_PUBLIC_ROOM_FLOOR
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_REAL_LOW_FLOOR
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_REAR_390_FLOOR
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_SPINE_2460_FLOOR
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_WEST_780_FLOOR
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: A_WEST_1430_FLOOR
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR interior boulevard
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR mixed use arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR mixed use entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR mixed use facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR mixed use floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR mixed use private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR mixed use shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR mixed use shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR mixed use shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR occupied decks
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR recessed bands
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR stepped civic library arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR stepped civic library entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR stepped civic library facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR stepped civic library floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR stepped civic library private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR stepped civic library shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR stepped civic library shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR stepped civic library shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: B_HARBOR underside basket arches
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE civic canopy
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE interior boulevard
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE mixed use arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE mixed use entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE mixed use facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE mixed use floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE mixed use private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE mixed use shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE mixed use shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE mixed use shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE occupied decks
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE recessed bands
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: C_CULTURE underside basket arches
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: canopy foliage
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: canopy foliage.001
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: canopy foliage.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: canopy foliage.003
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 0 arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 0 entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 0 facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 0 floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 0 private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 0 shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 0 shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 0 shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 1 arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 1 entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 1 facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 1 floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 1 private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 1 shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 1 shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 1 shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 2 arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 2 entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 2 facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 2 floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 2 private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 2 shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 2 shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: city fabric 2 shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: conservatory vaults
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE interior boulevard
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE mixed use arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE mixed use entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE mixed use facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE mixed use floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE mixed use private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE mixed use shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE mixed use shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE mixed use shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE occupied decks
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE recessed bands
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE stepped civic library arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE stepped civic library entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE stepped civic library facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE stepped civic library floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE stepped civic library private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE stepped civic library shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE stepped civic library shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE stepped civic library shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: D_RIDGE underside basket arches
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY civic canopy
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY interior boulevard
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY mixed use arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY mixed use entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY mixed use facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY mixed use floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY mixed use private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY mixed use shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY mixed use shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY mixed use shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY occupied decks
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY recessed bands
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: E_OBSERVATORY underside basket arches
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: eastern inland sea
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE interior boulevard
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE mixed use arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE mixed use entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE mixed use facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE mixed use floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE mixed use private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE mixed use shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE mixed use shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE mixed use shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE occupied decks
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE recessed bands
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE stepped civic library arcade supports
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE stepped civic library entry lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE stepped civic library facade fins
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE stepped civic library floor
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE stepped civic library private core
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE stepped civic library shelter
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE stepped civic library shop transom
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE stepped civic library shopfront
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: F_CASCADE underside basket arches
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: garden branches.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: garden crowns.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: garden layered foliage.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: garden trunks.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: gateway rising lintel
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale heads
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale heads.001
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale heads.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale legs
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale legs.001
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale legs.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale witnesses
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale witnesses.001
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: human scale witnesses.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: landform research
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: mountain sanctuary galleries
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: sea sail floors
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: south gateway inhabited pier
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: tree stems
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: tree stems.001
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: tree stems.002
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: tree stems.003
+18:31:44 | INFO: Primitives created: 1
+18:31:44 | INFO: Extracting primitive: twin conservatory floor
+18:31:44 | INFO: Primitives created: 1
+18:31:45 | INFO: Finished glTF 2.0 export in 1.9486815929412842 s
+
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_final_pass.log
+00:02.625  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+00:03.062  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_13364_208c5ff0ee6af26392a8a44e0c64ac0e.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_A.blend"
+R30_SAVED A 3
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_finish.log
+00:02.437  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+00:02.609  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_24824_208c5ff0ee6af26392a8a44e0c64ac0e.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_A.blend"
+R30_SAVED A 4
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_refine.log
+00:02.563  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+00:03.625  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_39876_208c5ff0ee6af26392a8a44e0c64ac0e.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_A.blend"
+R30_SAVED A 2
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_stabilize.log
+00:02.672  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+18:31:34 | INFO: Data are loaded, start creating Blender stuff
+18:31:34 | INFO: Blender create Mesh node A basin inhabited crossing continuous raked spine
+18:31:34 | INFO: Blender create Mesh node A basin inhabited crossing facade supports
+18:31:34 | INFO: Blender create Mesh node A basin inhabited crossing inhabited flank 1
+18:31:34 | INFO: Blender create Mesh node A basin inhabited crossing inhabited flank -1
+18:31:34 | INFO: Blender create Mesh node A basin inhabited crossing inhabited terrace
+18:31:34 | INFO: Blender create Mesh node A basin inhabited crossing public street floor
+18:31:34 | INFO: Blender create Mesh node A basin inhabited crossing roof halves 1
+18:31:34 | INFO: Blender create Mesh node A basin inhabited crossing roof halves -1
+18:31:34 | INFO: Blender create Mesh node A canal bank handrail
+18:31:34 | INFO: Blender create Mesh node A canal bank handrail posts
+18:31:34 | INFO: Blender create Mesh node A canal inlet
+18:31:34 | INFO: Blender create Mesh node A crown arc
+18:31:34 | INFO: Blender create Mesh node A crown public suspension continuous raked spine
+18:31:34 | INFO: Blender create Mesh node A crown public suspension facade supports
+18:31:34 | INFO: Blender create Mesh node A crown public suspension inhabited flank 1
+18:31:34 | INFO: Blender create Mesh node A crown public suspension inhabited flank -1
+18:31:34 | INFO: Blender create Mesh node A crown public suspension inhabited terrace
+18:31:34 | INFO: Blender create Mesh node A crown public suspension public street floor
+18:31:34 | INFO: Blender create Mesh node A crown public suspension roof halves 1
+18:31:34 | INFO: Blender create Mesh node A crown public suspension roof halves -1
+18:31:34 | INFO: Blender create Mesh node A east upper living cleft continuous raked spine
+18:31:34 | INFO: Blender create Mesh node A east upper living cleft facade supports
+18:31:34 | INFO: Blender create Mesh node A east upper living cleft inhabited flank 1
+18:31:34 | INFO: Blender create Mesh node A east upper living cleft inhabited flank -1
+18:31:34 | INFO: Blender create Mesh node A east upper living cleft inhabited terrace
+18:31:34 | INFO: Blender create Mesh node A east upper living cleft public street floor
+18:31:34 | INFO: Blender create Mesh node A east upper living cleft roof halves 1
+18:31:34 | INFO: Blender create Mesh node A east upper living cleft roof halves -1
+18:31:34 | INFO: Blender create Mesh node A embedded public house 0 gallery
+18:31:34 | INFO: Blender create Mesh node A embedded public house 0 lenticular roof
+18:31:34 | INFO: Blender create Mesh node A embedded public house 0 occupied flank
+18:31:34 | INFO: Blender create Mesh node A embedded public house 0 portal piers
+18:31:34 | INFO: Blender create Mesh node A embedded public house 0 street floor
+18:31:34 | INFO: Blender create Mesh node A embedded public house 1 folded roof
+18:31:34 | INFO: Blender create Mesh node A embedded public house 1 gallery
+18:31:34 | INFO: Blender create Mesh node A embedded public house 1 occupied flank
+18:31:34 | INFO: Blender create Mesh node A embedded public house 1 portal piers
+18:31:34 | INFO: Blender create Mesh node A embedded public house 1 street floor
+18:31:34 | INFO: Blender create Mesh node A embedded public house 2 gallery
+18:31:34 | INFO: Blender create Mesh node A embedded public house 2 occupied flank
+18:31:34 | INFO: Blender create Mesh node A embedded public house 2 planted roof
+18:31:34 | INFO: Blender create Mesh node A embedded public house 2 portal piers
+18:31:34 | INFO: Blender create Mesh node A embedded public house 2 street floor
+18:31:34 | INFO: Blender create Mesh node A estuary aerial arrival
+18:31:34 | INFO: Blender create Mesh node A estuary aerial arrival guard
+18:31:34 | INFO: Blender create Mesh node A estuary aerial arrival guard posts
+18:31:34 | INFO: Blender create Mesh node A estuary aerial arrival underside keel
+18:31:34 | INFO: Blender create Mesh node A estuary arrival court folded roof
+18:31:34 | INFO: Blender create Mesh node A estuary arrival court gallery
+18:31:34 | INFO: Blender create Mesh node A estuary arrival court occupied flank
+18:31:34 | INFO: Blender create Mesh node A estuary arrival court portal piers
+18:31:34 | INFO: Blender create Mesh node A estuary arrival court street floor
+18:31:34 | INFO: Blender create Mesh node A estuary shoulder
+18:31:34 | INFO: Blender create Mesh node A foreground crossing house folded roof
+18:31:34 | INFO: Blender create Mesh node A foreground crossing house gallery
+18:31:34 | INFO: Blender create Mesh node A foreground crossing house occupied flank
+18:31:34 | INFO: Blender create Mesh node A foreground crossing house portal piers
+18:31:34 | INFO: Blender create Mesh node A foreground crossing house street floor
+18:31:34 | INFO: Blender create Mesh node A garden slope
+18:31:34 | INFO: Blender create Mesh node A garden slope guard
+18:31:34 | INFO: Blender create Mesh node A garden slope guard posts
+18:31:34 | INFO: Blender create Mesh node A high city causeway
+18:31:34 | INFO: Blender create Mesh node A high city causeway guard
+18:31:34 | INFO: Blender create Mesh node A high city causeway guard posts
+18:31:34 | INFO: Blender create Mesh node A high city causeway underside keel
+18:31:34 | INFO: Blender create Mesh node A lift arrival chamber
+18:31:34 | INFO: Blender create Mesh node A lift public apron
+18:31:34 | INFO: Blender create Mesh node A low-to-sea walk
+18:31:34 | INFO: Blender create Mesh node A low-to-sea walk guard
+18:31:34 | INFO: Blender create Mesh node A low-to-sea walk guard posts
+18:31:34 | INFO: Blender create Mesh node A north chamber occupied side rooms
+18:31:34 | INFO: Blender create Mesh node A north public chamber colossal piers
+18:31:34 | INFO: Blender create Mesh node A north public chamber floor
+18:31:34 | INFO: Blender create Mesh node A north public portico roof
+18:31:34 | INFO: Blender create Mesh node A north spine
+18:31:34 | INFO: Blender create Mesh node A north-facing ground street
+18:31:34 | INFO: Blender create Mesh node A north-facing ground street guard
+18:31:34 | INFO: Blender create Mesh node A north-facing ground street guard posts
+18:31:34 | INFO: Blender create Mesh node A public lift ribs
+18:31:34 | INFO: Blender create Mesh node A rear winter quarter continuous raked spine
+18:31:34 | INFO: Blender create Mesh node A rear winter quarter facade supports
+18:31:34 | INFO: Blender create Mesh node A rear winter quarter inhabited flank 1
+18:31:34 | INFO: Blender create Mesh node A rear winter quarter inhabited flank -1
+18:31:34 | INFO: Blender create Mesh node A rear winter quarter inhabited terrace
+18:31:34 | INFO: Blender create Mesh node A rear winter quarter public street floor
+18:31:34 | INFO: Blender create Mesh node A rear winter quarter roof halves 1
+18:31:34 | INFO: Blender create Mesh node A rear winter quarter roof halves -1
+18:31:34 | INFO: Blender create Mesh node A rear-to-west public link
+18:31:34 | INFO: Blender create Mesh node A rear-to-west public link guard
+18:31:34 | INFO: Blender create Mesh node A rear-to-west public link guard posts
+18:31:34 | INFO: Blender create Mesh node A river craft chambers gallery
+18:31:34 | INFO: Blender create Mesh node A river craft chambers occupied flank
+18:31:34 | INFO: Blender create Mesh node A river craft chambers planted roof
+18:31:34 | INFO: Blender create Mesh node A river craft chambers portal piers
+18:31:34 | INFO: Blender create Mesh node A river craft chambers street floor
+18:31:34 | INFO: Blender create Mesh node A sea stair house gallery
+18:31:34 | INFO: Blender create Mesh node A sea stair house lenticular roof
+18:31:34 | INFO: Blender create Mesh node A sea stair house occupied flank
+18:31:34 | INFO: Blender create Mesh node A sea stair house portal piers
+18:31:34 | INFO: Blender create Mesh node A sea stair house street floor
+18:31:34 | INFO: Blender create Mesh node A sea threshold district continuous raked spine
+18:31:34 | INFO: Blender create Mesh node A sea threshold district facade supports
+18:31:34 | INFO: Blender create Mesh node A sea threshold district inhabited flank 1
+18:31:34 | INFO: Blender create Mesh node A sea threshold district inhabited flank -1
+18:31:34 | INFO: Blender create Mesh node A sea threshold district inhabited terrace
+18:31:34 | INFO: Blender create Mesh node A sea threshold district public street floor
+18:31:34 | INFO: Blender create Mesh node A sea threshold district roof halves 1
+18:31:34 | INFO: Blender create Mesh node A sea threshold district roof halves -1
+18:31:34 | INFO: Blender create Mesh node A seaward terrace
+18:31:34 | INFO: Blender create Mesh node A split crown counterleaf
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 0 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 0 lenticular roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 0 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 0 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 0 street floor
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 1 folded roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 1 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 1 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 1 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 1 street floor
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 2 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 2 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 2 planted roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 2 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 2 street floor
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 3 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 3 lenticular roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 3 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 3 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 3 street floor
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 4 folded roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 4 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 4 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 4 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 4 street floor
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 5 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 5 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 5 planted roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 5 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 5 street floor
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 6 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 6 lenticular roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 6 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 6 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 6 street floor
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 7 folded roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 7 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 7 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 7 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 7 street floor
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 8 gallery
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 8 occupied flank
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 8 planted roof
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 8 portal piers
+18:31:34 | INFO: Blender create Mesh node A upper canyon neighbourhood 8 street floor
+18:31:34 | INFO: Blender create Mesh node A water street address 0 folded roof
+18:31:34 | INFO: Blender create Mesh node A water street address 0 gallery
+18:31:34 | INFO: Blender create Mesh node A water street address 0 occupied flank
+18:31:34 | INFO: Blender create Mesh node A water street address 0 portal piers
+18:31:34 | INFO: Blender create Mesh node A water street address 0 street floor
+18:31:34 | INFO: Blender create Mesh node A water street address 1 gallery
+18:31:34 | INFO: Blender create Mesh node A water street address 1 occupied flank
+18:31:34 | INFO: Blender create Mesh node A water street address 1 planted roof
+18:31:34 | INFO: Blender create Mesh node A water street address 1 portal piers
+18:31:34 | INFO: Blender create Mesh node A water street address 1 street floor
+18:31:34 | INFO: Blender create Mesh node A water street address 2 gallery
+18:31:34 | INFO: Blender create Mesh node A water street address 2 lenticular roof
+18:31:34 | INFO: Blender create Mesh node A water street address 2 occupied flank
+18:31:34 | INFO: Blender create Mesh node A water street address 2 portal piers
+18:31:34 | INFO: Blender create Mesh node A water street address 2 street floor
+18:31:34 | INFO: Blender create Mesh node A water street address 3 folded roof
+18:31:34 | INFO: Blender create Mesh node A water street address 3 gallery
+18:31:34 | INFO: Blender create Mesh node A water street address 3 occupied flank
+18:31:34 | INFO: Blender create Mesh node A water street address 3 portal piers
+18:31:34 | INFO: Blender create Mesh node A water street address 3 street floor
+18:31:34 | INFO: Blender create Mesh node A water street address 4 gallery
+18:31:34 | INFO: Blender create Mesh node A water street address 4 occupied flank
+18:31:34 | INFO: Blender create Mesh node A water street address 4 planted roof
+18:31:34 | INFO: Blender create Mesh node A water street address 4 portal piers
+18:31:34 | INFO: Blender create Mesh node A water street address 4 street floor
+18:31:34 | INFO: Blender create Mesh node A water street address 5 gallery
+18:31:34 | INFO: Blender create Mesh node A water street address 5 lenticular roof
+18:31:34 | INFO: Blender create Mesh node A water street address 5 occupied flank
+18:31:34 | INFO: Blender create Mesh node A water street address 5 portal piers
+18:31:34 | INFO: Blender create Mesh node A water street address 5 street floor
+18:31:34 | INFO: Blender create Mesh node A water street address 6 folded roof
+18:31:34 | INFO: Blender create Mesh node A water street address 6 gallery
+18:31:34 | INFO: Blender create Mesh node A water street address 6 occupied flank
+18:31:34 | INFO: Blender create Mesh node A water street address 6 portal piers
+18:31:34 | INFO: Blender create Mesh node A water street address 6 street floor
+18:31:34 | INFO: Blender create Mesh node A waterfront seats
+18:31:34 | INFO: Blender create Mesh node A west bronze reveals
+18:31:34 | INFO: Blender create Mesh node A west canyon convergence continuous raked spine
+18:31:34 | INFO: Blender create Mesh node A west canyon convergence facade supports
+18:31:34 | INFO: Blender create Mesh node A west canyon convergence inhabited flank 1
+18:31:34 | INFO: Blender create Mesh node A west canyon convergence inhabited flank -1
+18:31:34 | INFO: Blender create Mesh node A west canyon convergence inhabited terrace
+18:31:34 | INFO: Blender create Mesh node A west canyon convergence public street floor
+18:31:34 | INFO: Blender create Mesh node A west canyon convergence roof halves 1
+18:31:34 | INFO: Blender create Mesh node A west canyon convergence roof halves -1
+18:31:34 | INFO: Blender create Mesh node A west garden arrival
+18:31:35 | INFO: Blender create Mesh node A west garden arrival guard
+18:31:35 | INFO: Blender create Mesh node A west garden arrival guard posts
+18:31:35 | INFO: Blender create Mesh node A west garden arrival underside keel
+18:31:35 | INFO: Blender create Mesh node A west high commons gallery
+18:31:35 | INFO: Blender create Mesh node A west high commons lenticular roof
+18:31:35 | INFO: Blender create Mesh node A west high commons occupied flank
+18:31:35 | INFO: Blender create Mesh node A west high commons portal piers
+18:31:35 | INFO: Blender create Mesh node A west high commons street floor
+18:31:35 | INFO: Blender create Mesh node A west processional street
+18:31:35 | INFO: Blender create Mesh node A west rising buttress
+18:31:35 | INFO: Blender create Mesh node A west tidal wall
+18:31:35 | INFO: Blender create Mesh node A winter exchange folded roof
+18:31:35 | INFO: Blender create Mesh node A winter exchange gallery
+18:31:35 | INFO: Blender create Mesh node A winter exchange occupied flank
+18:31:35 | INFO: Blender create Mesh node A winter exchange portal piers
+18:31:35 | INFO: Blender create Mesh node A winter exchange street floor
+18:31:35 | INFO: Blender create Mesh node A_EAST_805_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_EAST_1710_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_GARDEN civic canopy
+18:31:35 | INFO: Blender create Mesh node A_GARDEN interior boulevard
+18:31:35 | INFO: Blender create Mesh node A_GARDEN mixed use arcade supports
+18:31:35 | INFO: Blender create Mesh node A_GARDEN mixed use entry lintel
+18:31:35 | INFO: Blender create Mesh node A_GARDEN mixed use facade fins
+18:31:35 | INFO: Blender create Mesh node A_GARDEN mixed use floor
+18:31:35 | INFO: Blender create Mesh node A_GARDEN mixed use private core
+18:31:35 | INFO: Blender create Mesh node A_GARDEN mixed use shelter
+18:31:35 | INFO: Blender create Mesh node A_GARDEN mixed use shop transom
+18:31:35 | INFO: Blender create Mesh node A_GARDEN mixed use shopfront
+18:31:35 | INFO: Blender create Mesh node A_GARDEN occupied decks
+18:31:35 | INFO: Blender create Mesh node A_GARDEN recessed bands
+18:31:35 | INFO: Blender create Mesh node A_GARDEN underside basket arches
+18:31:35 | INFO: Blender create Mesh node A_HUMAN_CANAL_BRIDGE_REAL_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_NORTH_1250_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_PUBLIC_ROOM_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_REAL_LOW_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_REAR_390_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_SPINE_2460_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_WEST_780_FLOOR
+18:31:35 | INFO: Blender create Mesh node A_WEST_1430_FLOOR
+18:31:35 | INFO: Blender create Mesh node B_HARBOR interior boulevard
+18:31:35 | INFO: Blender create Mesh node B_HARBOR mixed use arcade supports
+18:31:35 | INFO: Blender create Mesh node B_HARBOR mixed use entry lintel
+18:31:35 | INFO: Blender create Mesh node B_HARBOR mixed use facade fins
+18:31:35 | INFO: Blender create Mesh node B_HARBOR mixed use floor
+18:31:35 | INFO: Blender create Mesh node B_HARBOR mixed use private core
+18:31:35 | INFO: Blender create Mesh node B_HARBOR mixed use shelter
+18:31:35 | INFO: Blender create Mesh node B_HARBOR mixed use shop transom
+18:31:35 | INFO: Blender create Mesh node B_HARBOR mixed use shopfront
+18:31:35 | INFO: Blender create Mesh node B_HARBOR occupied decks
+18:31:35 | INFO: Blender create Mesh node B_HARBOR recessed bands
+18:31:35 | INFO: Blender create Mesh node B_HARBOR stepped civic library arcade supports
+18:31:35 | INFO: Blender create Mesh node B_HARBOR stepped civic library entry lintel
+18:31:35 | INFO: Blender create Mesh node B_HARBOR stepped civic library facade fins
+18:31:35 | INFO: Blender create Mesh node B_HARBOR stepped civic library floor
+18:31:35 | INFO: Blender create Mesh node B_HARBOR stepped civic library private core
+18:31:35 | INFO: Blender create Mesh node B_HARBOR stepped civic library shelter
+18:31:35 | INFO: Blender create Mesh node B_HARBOR stepped civic library shop transom
+18:31:35 | INFO: Blender create Mesh node B_HARBOR stepped civic library shopfront
+18:31:35 | INFO: Blender create Mesh node B_HARBOR underside basket arches
+18:31:35 | INFO: Blender create Mesh node C_CULTURE civic canopy
+18:31:35 | INFO: Blender create Mesh node C_CULTURE interior boulevard
+18:31:35 | INFO: Blender create Mesh node C_CULTURE mixed use arcade supports
+18:31:35 | INFO: Blender create Mesh node C_CULTURE mixed use entry lintel
+18:31:35 | INFO: Blender create Mesh node C_CULTURE mixed use facade fins
+18:31:35 | INFO: Blender create Mesh node C_CULTURE mixed use floor
+18:31:35 | INFO: Blender create Mesh node C_CULTURE mixed use private core
+18:31:35 | INFO: Blender create Mesh node C_CULTURE mixed use shelter
+18:31:35 | INFO: Blender create Mesh node C_CULTURE mixed use shop transom
+18:31:35 | INFO: Blender create Mesh node C_CULTURE mixed use shopfront
+18:31:35 | INFO: Blender create Mesh node C_CULTURE occupied decks
+18:31:35 | INFO: Blender create Mesh node C_CULTURE recessed bands
+18:31:35 | INFO: Blender create Mesh node C_CULTURE underside basket arches
+18:31:35 | INFO: Blender create Mesh node canopy foliage
+18:31:35 | INFO: Blender create Mesh node canopy foliage.001
+18:31:35 | INFO: Blender create Mesh node canopy foliage.002
+18:31:35 | INFO: Blender create Mesh node canopy foliage.003
+18:31:35 | INFO: Blender create Mesh node city fabric 0 arcade supports
+18:31:35 | INFO: Blender create Mesh node city fabric 0 entry lintel
+18:31:35 | INFO: Blender create Mesh node city fabric 0 facade fins
+18:31:36 | INFO: Blender create Mesh node city fabric 0 floor
+18:31:36 | INFO: Blender create Mesh node city fabric 0 private core
+18:31:36 | INFO: Blender create Mesh node city fabric 0 shelter
+18:31:36 | INFO: Blender create Mesh node city fabric 0 shop transom
+18:31:36 | INFO: Blender create Mesh node city fabric 0 shopfront
+18:31:36 | INFO: Blender create Mesh node city fabric 1 arcade supports
+18:31:36 | INFO: Blender create Mesh node city fabric 1 entry lintel
+18:31:36 | INFO: Blender create Mesh node city fabric 1 facade fins
+18:31:36 | INFO: Blender create Mesh node city fabric 1 floor
+18:31:36 | INFO: Blender create Mesh node city fabric 1 private core
+18:31:36 | INFO: Blender create Mesh node city fabric 1 shelter
+18:31:36 | INFO: Blender create Mesh node city fabric 1 shop transom
+18:31:36 | INFO: Blender create Mesh node city fabric 1 shopfront
+18:31:36 | INFO: Blender create Mesh node city fabric 2 arcade supports
+18:31:36 | INFO: Blender create Mesh node city fabric 2 entry lintel
+18:31:36 | INFO: Blender create Mesh node city fabric 2 facade fins
+18:31:37 | INFO: Blender create Mesh node city fabric 2 floor
+18:31:37 | INFO: Blender create Mesh node city fabric 2 private core
+18:31:37 | INFO: Blender create Mesh node city fabric 2 shelter
+18:31:37 | INFO: Blender create Mesh node city fabric 2 shop transom
+18:31:37 | INFO: Blender create Mesh node city fabric 2 shopfront
+18:31:37 | INFO: Blender create Mesh node conservatory vaults
+18:31:37 | INFO: Blender create Mesh node D_RIDGE interior boulevard
+18:31:37 | INFO: Blender create Mesh node D_RIDGE mixed use arcade supports
+18:31:37 | INFO: Blender create Mesh node D_RIDGE mixed use entry lintel
+18:31:37 | INFO: Blender create Mesh node D_RIDGE mixed use facade fins
+18:31:37 | INFO: Blender create Mesh node D_RIDGE mixed use floor
+18:31:37 | INFO: Blender create Mesh node D_RIDGE mixed use private core
+18:31:37 | INFO: Blender create Mesh node D_RIDGE mixed use shelter
+18:31:37 | INFO: Blender create Mesh node D_RIDGE mixed use shop transom
+18:31:37 | INFO: Blender create Mesh node D_RIDGE mixed use shopfront
+18:31:37 | INFO: Blender create Mesh node D_RIDGE occupied decks
+18:31:37 | INFO: Blender create Mesh node D_RIDGE recessed bands
+18:31:37 | INFO: Blender create Mesh node D_RIDGE stepped civic library arcade supports
+18:31:37 | INFO: Blender create Mesh node D_RIDGE stepped civic library entry lintel
+18:31:37 | INFO: Blender create Mesh node D_RIDGE stepped civic library facade fins
+18:31:37 | INFO: Blender create Mesh node D_RIDGE stepped civic library floor
+18:31:37 | INFO: Blender create Mesh node D_RIDGE stepped civic library private core
+18:31:37 | INFO: Blender create Mesh node D_RIDGE stepped civic library shelter
+18:31:37 | INFO: Blender create Mesh node D_RIDGE stepped civic library shop transom
+18:31:37 | INFO: Blender create Mesh node D_RIDGE stepped civic library shopfront
+18:31:37 | INFO: Blender create Mesh node D_RIDGE underside basket arches
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY civic canopy
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY interior boulevard
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY mixed use arcade supports
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY mixed use entry lintel
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY mixed use facade fins
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY mixed use floor
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY mixed use private core
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shelter
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shop transom
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shopfront
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY occupied decks
+18:31:37 | INFO: Blender create Mesh node E_OBSERVATORY recessed bands
+18:31:38 | INFO: Blender create Mesh node E_OBSERVATORY underside basket arches
+18:31:38 | INFO: Blender create Mesh node eastern inland sea
+18:31:38 | INFO: Blender create Mesh node F_CASCADE interior boulevard
+18:31:38 | INFO: Blender create Mesh node F_CASCADE mixed use arcade supports
+18:31:38 | INFO: Blender create Mesh node F_CASCADE mixed use entry lintel
+18:31:38 | INFO: Blender create Mesh node F_CASCADE mixed use facade fins
+18:31:38 | INFO: Blender create Mesh node F_CASCADE mixed use floor
+18:31:38 | INFO: Blender create Mesh node F_CASCADE mixed use private core
+18:31:38 | INFO: Blender create Mesh node F_CASCADE mixed use shelter
+18:31:38 | INFO: Blender create Mesh node F_CASCADE mixed use shop transom
+18:31:38 | INFO: Blender create Mesh node F_CASCADE mixed use shopfront
+18:31:38 | INFO: Blender create Mesh node F_CASCADE occupied decks
+18:31:38 | INFO: Blender create Mesh node F_CASCADE recessed bands
+18:31:38 | INFO: Blender create Mesh node F_CASCADE stepped civic library arcade supports
+18:31:38 | INFO: Blender create Mesh node F_CASCADE stepped civic library entry lintel
+18:31:38 | INFO: Blender create Mesh node F_CASCADE stepped civic library facade fins
+18:31:38 | INFO: Blender create Mesh node F_CASCADE stepped civic library floor
+18:31:38 | INFO: Blender create Mesh node F_CASCADE stepped civic library private core
+18:31:38 | INFO: Blender create Mesh node F_CASCADE stepped civic library shelter
+18:31:38 | INFO: Blender create Mesh node F_CASCADE stepped civic library shop transom
+18:31:38 | INFO: Blender create Mesh node F_CASCADE stepped civic library shopfront
+18:31:38 | INFO: Blender create Mesh node F_CASCADE underside basket arches
+18:31:38 | INFO: Blender create Mesh node garden branches.002
+18:31:38 | INFO: Blender create Mesh node garden crowns.002
+18:31:38 | INFO: Blender create Mesh node garden layered foliage.002
+18:31:38 | INFO: Blender create Mesh node garden trunks.002
+18:31:38 | INFO: Blender create Mesh node gateway rising lintel
+18:31:38 | INFO: Blender create Mesh node human scale heads
+18:31:38 | INFO: Blender create Mesh node human scale heads.001
+18:31:38 | INFO: Blender create Mesh node human scale heads.002
+18:31:38 | INFO: Blender create Mesh node human scale legs
+18:31:38 | INFO: Blender create Mesh node human scale legs.001
+18:31:38 | INFO: Blender create Mesh node human scale legs.002
+18:31:38 | INFO: Blender create Mesh node human scale witnesses
+18:31:38 | INFO: Blender create Mesh node human scale witnesses.001
+18:31:38 | INFO: Blender create Mesh node human scale witnesses.002
+18:31:38 | INFO: Blender create Mesh node landform research
+18:31:38 | INFO: Blender create Mesh node mountain sanctuary galleries
+18:31:38 | INFO: Blender create Mesh node sea sail floors
+18:31:38 | INFO: Blender create Mesh node south gateway inhabited pier
+18:31:38 | INFO: Blender create Mesh node tree stems
+18:31:38 | INFO: Blender create Mesh node tree stems.001
+18:31:38 | INFO: Blender create Mesh node tree stems.002
+18:31:38 | INFO: Blender create Mesh node tree stems.003
+18:31:38 | INFO: Blender create Mesh node twin conservatory floor
+18:31:38 | INFO: glTF import finished in 4.74s
+00:08.328  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_46240_208c5ff0ee6af26392a8a44e0c64ac0e.png.png"
+Info: Saved as "R30_A.blend"
+R30_SAVED A 6
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_build.log
+00:04.062  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_46452_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 1
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_consistent_final_art.log
+00:02.016  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B art 02_CENTRAL
+00:10.297  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B art 03_PUBLIC
+00:21.782  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B art 04_HUMAN
+00:32.688  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B art 07_SKY_STREET
+00:43.641  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_consistent_final_clay.log
+00:02.969  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B clay 01_CITY
+00:16.563  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_01_CITY.png'
+RENDER_DONE 01_CITY
+RENDER_START B clay 02_CENTRAL
+00:27.016  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B clay 03_PUBLIC
+00:38.031  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B clay 04_HUMAN
+00:48.735  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B clay 05_REAR
+00:58.906  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+RENDER_START B clay 06_UNDERSIDE
+01:09.875  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_06_UNDERSIDE.png'
+RENDER_DONE 06_UNDERSIDE
+RENDER_START B clay 07_SKY_STREET
+01:18.250  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_export.log
+00:01.922  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:33:08 | INFO: Starting glTF 2.0 export
+18:33:08 | INFO: Extracting primitive: A_GARDEN civic canopy
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN interior boulevard
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN mixed use arcade supports
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN mixed use entry lintel
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN mixed use facade fins
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN mixed use floor
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN mixed use private core
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN mixed use shelter
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN mixed use shop transom
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN mixed use shopfront
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN occupied decks
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN recessed bands
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: A_GARDEN underside basket arches
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: B basin diagonal bridge
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: B basin diagonal bridge guard
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: B basin diagonal bridge guard posts
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: B central suspended city
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: B central-to-east avenue
+18:33:08 | INFO: Primitives created: 1
+18:33:08 | INFO: Extracting primitive: B central-to-east avenue guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B central-to-east avenue guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B civic front porch supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B connected lower structural sweep
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B east tidal route
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B east tidal route guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B east tidal route guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern convergence inhabited pier 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern convergence inhabited pier -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern convergence public galleries
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern convergence tilted upper room
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern metropolitan lantern continuous raked spine
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern metropolitan lantern facade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern metropolitan lantern inhabited flank 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern metropolitan lantern inhabited flank -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern metropolitan lantern inhabited terrace
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern metropolitan lantern public street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern metropolitan lantern roof halves 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern metropolitan lantern roof halves -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B eastern suspended city
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B elevator apron
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B elevator public portal
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B forecourt transit house folded roof
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B forecourt transit house gallery
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B forecourt transit house occupied flank
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B forecourt transit house portal piers
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B forecourt transit house street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B foreground water house gallery
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B foreground water house occupied flank
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B foreground water house planted roof
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B foreground water house portal piers
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B foreground water house street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B ground departure frames
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B ground tidal departure shell
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging convergence district continuous raked spine
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging convergence district facade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging convergence district inhabited flank 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging convergence district inhabited flank -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging convergence district inhabited terrace
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging convergence district public street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging convergence district roof halves 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging convergence district roof halves -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging eastern atrium gallery
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging eastern atrium lenticular roof
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging eastern atrium occupied flank
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging eastern atrium portal piers
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B hanging eastern atrium street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B harbor connector
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B harbor connector guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B harbor connector guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B horizon destination public bridge
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B horizon destination public bridge guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B horizon destination public bridge guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B horizon-to-highland public transit
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B horizon-to-highland public transit guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B horizon-to-highland public transit guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B human waterside portico gallery
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B human waterside portico lenticular roof
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B human waterside portico occupied flank
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B human waterside portico portal piers
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B human waterside portico street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B inhabited horizon
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B inhabited shore street
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B inhabited shore street guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B inhabited shore street guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B lift gantries
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B low cloud court gallery
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B low cloud court occupied flank
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B low cloud court planted roof
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B low cloud court portal piers
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B low cloud court street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B lower lee inhabited reach
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B north public chamber real floors
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B northern city-room party walls
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B northern city-room rear walls
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B northern city-room side gallery
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B northern observatory connector
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B northern observatory connector guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B northern observatory connector guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B public tide crossing
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B public tide crossing guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B public tide crossing guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B sculpted outer seam
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B shore civic threshold folded roof
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B shore civic threshold gallery
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B shore civic threshold occupied flank
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B shore civic threshold portal piers
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B shore civic threshold street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B shore seats
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern hanging garden terrace
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 0 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 0 -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 1 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 1 -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 2 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 2 -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 3 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 3 -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 4 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 4 -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 5 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B southern inhabited buttress court 5 -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B tidal public water
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B undertide exchange gallery
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B undertide exchange lenticular roof
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B undertide exchange occupied flank
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B undertide exchange portal piers
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B undertide exchange street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B unequal north civic roofs
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper city colossal branching portal
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper city diagonal public vault
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper eastern living terminus continuous raked spine
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper eastern living terminus facade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper eastern living terminus inhabited flank 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper eastern living terminus inhabited flank -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper eastern living terminus inhabited terrace
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper eastern living terminus public street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper eastern living terminus roof halves 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B upper eastern living terminus roof halves -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B waterward civil confluence continuous raked spine
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B waterward civil confluence facade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B waterward civil confluence inhabited flank 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B waterward civil confluence inhabited flank -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B waterward civil confluence inhabited terrace
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B waterward civil confluence public street floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B waterward civil confluence roof halves 1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B waterward civil confluence roof halves -1
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B west garden connector
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B west garden connector guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B west garden connector guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B west suspended city
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B west-to-central avenue
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B west-to-central avenue guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B west-to-central avenue guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B western amphitheatre chamber backs
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B western amphitheatre chamber roofs
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B western amphitheatre inhabited ground
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B winter harbour branching supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B winter harbour curved upper street
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_CENTRAL_930_FLOOR.001
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_DEPARTURE_REAL_FLOOR
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_EAST_1680_FLOOR.001
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_EAST_2190_DESTINATION_FLOOR
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR interior boulevard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR mixed use arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR mixed use entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR mixed use facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR mixed use floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR mixed use private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR mixed use shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR mixed use shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR mixed use shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR occupied decks
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR recessed bands
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR stepped civic library arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR stepped civic library entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR stepped civic library facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR stepped civic library floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR stepped civic library private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR stepped civic library shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR stepped civic library shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR stepped civic library shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HARBOR underside basket arches
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HORIZON_2190_FLOOR.001
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HORIZON_2190_FLOOR guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HORIZON_2190_FLOOR guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HORIZON_AXIS_REAL_FLOOR
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_HUMAN_THRESHOLD_FLOOR
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_REAL_LOW_FLOOR
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_UPPER_3020_FLOOR
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_UPPER_3020_FLOOR guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_UPPER_3020_FLOOR guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_WEST_1000_FLOOR.001
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_WEST_AXIS_REAL_FLOOR
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_WEST_AXIS_REAL_FLOOR guard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: B_WEST_AXIS_REAL_FLOOR guard posts
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE civic canopy
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE interior boulevard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE mixed use arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE mixed use entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE mixed use facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE mixed use floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE mixed use private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE mixed use shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE mixed use shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE mixed use shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE occupied decks
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE recessed bands
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: C_CULTURE underside basket arches
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: canopy foliage
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 0 arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 0 entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 0 facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 0 floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 0 private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 0 shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 0 shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 0 shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 1 arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 1 entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 1 facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 1 floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 1 private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 1 shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 1 shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 1 shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 2 arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 2 entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 2 facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 2 floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 2 private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 2 shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 2 shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: city fabric 2 shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: conservatory vaults
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE interior boulevard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE mixed use arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE mixed use entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE mixed use facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE mixed use floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE mixed use private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE mixed use shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE mixed use shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE mixed use shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE occupied decks
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE recessed bands
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE stepped civic library arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE stepped civic library entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE stepped civic library facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE stepped civic library floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE stepped civic library private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE stepped civic library shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE stepped civic library shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE stepped civic library shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: D_RIDGE underside basket arches
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY civic canopy
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY interior boulevard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY mixed use arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY mixed use entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY mixed use facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY mixed use floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY mixed use private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY mixed use shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY mixed use shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY mixed use shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY occupied decks
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY recessed bands
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: E_OBSERVATORY underside basket arches
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: eastern inland sea
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE interior boulevard
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE mixed use arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE mixed use entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE mixed use facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE mixed use floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE mixed use private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE mixed use shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE mixed use shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE mixed use shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE occupied decks
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE recessed bands
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE stepped civic library arcade supports
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE stepped civic library entry lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE stepped civic library facade fins
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE stepped civic library floor
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE stepped civic library private core
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE stepped civic library shelter
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE stepped civic library shop transom
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE stepped civic library shopfront
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: F_CASCADE underside basket arches
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: garden branches.002
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: garden crowns.002
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: garden layered foliage.002
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: garden trunks.002
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: gateway rising lintel
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale heads
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale heads.001
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale heads.002
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale heads.003
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale legs
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale legs.001
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale legs.002
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale legs.003
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale witnesses
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale witnesses.001
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale witnesses.002
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: human scale witnesses.003
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: landform research
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: mountain sanctuary galleries
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: sea sail floors
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: south gateway inhabited pier
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: tree stems
+18:33:09 | INFO: Primitives created: 1
+18:33:09 | INFO: Extracting primitive: twin conservatory floor
+18:33:09 | INFO: Primitives created: 1
+18:33:10 | INFO: Finished glTF 2.0 export in 1.1793999671936035 s
+
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_final_pass.log
+00:02.516  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+00:02.750  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_26688_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 3
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_finish.log
+00:02.453  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+00:02.625  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_11748_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 5
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_floor_overlap.log
+00:02.141  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+00:02.328  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_4384_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 6
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_open_intersections.log
+00:02.641  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+00:03.625  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_5848_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 4
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_rebuild_fix.log
+00:03.813  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_22460_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 1
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_refine.log
+00:02.547  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+00:03.219  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_15548_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 2
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_refine_fix.log
+00:02.485  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+00:03.156  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_9944_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 2
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_destination.log
+00:02.547  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+00:03.203  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_40868_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 7
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_destination_final.log
+00:02.515  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+00:02.718  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_34812_bd486ba3f25f40258e028e2b11178919.png.png"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+Info: Saved as "R30_B.blend"
+R30_SAVED B 8
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_export.log
+00:02.500  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:41:50 | INFO: Starting glTF 2.0 export
+18:41:50 | INFO: Extracting primitive: A_GARDEN civic canopy
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN interior boulevard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN mixed use arcade supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN mixed use entry lintel
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN mixed use facade fins
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN mixed use floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN mixed use private core
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN mixed use shelter
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN mixed use shop transom
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN mixed use shopfront
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN occupied decks
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN recessed bands
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: A_GARDEN underside basket arches
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B basin diagonal bridge
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B basin diagonal bridge guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B basin diagonal bridge guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B central suspended city
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B central-to-east avenue
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B central-to-east avenue guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B central-to-east avenue guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B civic front porch supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B connected lower structural sweep
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B east tidal route
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B east tidal route guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B east tidal route guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern convergence inhabited pier 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern convergence inhabited pier -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern convergence public galleries
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern convergence tilted upper room
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern metropolitan lantern continuous raked spine
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern metropolitan lantern facade supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern metropolitan lantern inhabited flank 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern metropolitan lantern inhabited flank -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern metropolitan lantern inhabited terrace
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern metropolitan lantern public street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern metropolitan lantern roof halves 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern metropolitan lantern roof halves -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B eastern suspended city
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B elevator apron
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B elevator public portal
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B forecourt transit house folded roof
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B forecourt transit house gallery
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B forecourt transit house occupied flank
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B forecourt transit house portal piers
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B forecourt transit house street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B foreground water house gallery
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B foreground water house occupied flank
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B foreground water house planted roof
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B foreground water house portal piers
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B foreground water house street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B ground departure frames
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B ground tidal departure shell
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging convergence district continuous raked spine
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging convergence district facade supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging convergence district inhabited flank 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging convergence district inhabited flank -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging convergence district inhabited terrace
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging convergence district public street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging convergence district roof halves 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging convergence district roof halves -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging eastern atrium gallery
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging eastern atrium lenticular roof
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging eastern atrium occupied flank
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging eastern atrium portal piers
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B hanging eastern atrium street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B harbor connector
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B harbor connector guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B harbor connector guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B horizon destination public bridge
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B horizon destination public bridge guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B horizon destination public bridge guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B horizon-to-highland public transit.001
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B horizon-to-highland public transit guard.001
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B horizon-to-highland public transit guard posts.001
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B human waterside portico gallery
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B human waterside portico lenticular roof
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B human waterside portico occupied flank
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B human waterside portico portal piers
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B human waterside portico street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B inhabited horizon
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B inhabited shore street
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B inhabited shore street guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B inhabited shore street guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B lift gantries
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B low cloud court gallery
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B low cloud court occupied flank
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B low cloud court planted roof
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B low cloud court portal piers
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B low cloud court street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B lower lee inhabited reach
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B north public chamber real floors
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B northern city-room party walls
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B northern city-room rear walls
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B northern city-room side gallery
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B northern observatory connector
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B northern observatory connector guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B northern observatory connector guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B public tide crossing
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B public tide crossing guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B public tide crossing guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B sculpted outer seam
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B shore civic threshold folded roof
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B shore civic threshold gallery
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B shore civic threshold occupied flank
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B shore civic threshold portal piers
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B shore civic threshold street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B shore seats
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern hanging garden terrace
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 0 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 0 -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 1 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 1 -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 2 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 2 -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 3 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 3 -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 4 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 4 -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 5 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B southern inhabited buttress court 5 -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B tidal public water
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B undertide exchange gallery
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B undertide exchange lenticular roof
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B undertide exchange occupied flank
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B undertide exchange portal piers
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B undertide exchange street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B unequal north civic roofs
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper city colossal branching portal
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper city diagonal public vault
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper eastern living terminus continuous raked spine
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper eastern living terminus facade supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper eastern living terminus inhabited flank 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper eastern living terminus inhabited flank -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper eastern living terminus inhabited terrace
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper eastern living terminus public street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper eastern living terminus roof halves 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B upper eastern living terminus roof halves -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B waterward civil confluence continuous raked spine
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B waterward civil confluence facade supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B waterward civil confluence inhabited flank 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B waterward civil confluence inhabited flank -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B waterward civil confluence inhabited terrace
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B waterward civil confluence public street floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B waterward civil confluence roof halves 1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B waterward civil confluence roof halves -1
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B west garden connector
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B west garden connector guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B west garden connector guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B west suspended city
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B west-to-central avenue
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B west-to-central avenue guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B west-to-central avenue guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B western amphitheatre chamber backs
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B western amphitheatre chamber roofs
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B western amphitheatre inhabited ground
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B winter harbour branching supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B winter harbour curved upper street
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_CENTRAL_930_FLOOR.001
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_DEPARTURE_REAL_FLOOR
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_EAST_1680_FLOOR.001
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_EAST_2190_DESTINATION_FLOOR
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR interior boulevard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR mixed use arcade supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR mixed use entry lintel
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR mixed use facade fins
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR mixed use floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR mixed use private core
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR mixed use shelter
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR mixed use shop transom
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR mixed use shopfront
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR occupied decks
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR recessed bands
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR stepped civic library arcade supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR stepped civic library entry lintel
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR stepped civic library facade fins
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR stepped civic library floor
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR stepped civic library private core
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR stepped civic library shelter
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR stepped civic library shop transom
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR stepped civic library shopfront
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HARBOR underside basket arches
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HORIZON_2190_FLOOR.001
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HORIZON_2190_FLOOR guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HORIZON_2190_FLOOR guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HORIZON_AXIS_REAL_FLOOR
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_HUMAN_THRESHOLD_FLOOR
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_REAL_LOW_FLOOR
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_UPPER_3020_FLOOR
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_UPPER_3020_FLOOR guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_UPPER_3020_FLOOR guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_WEST_1000_FLOOR.001
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_WEST_AXIS_REAL_FLOOR
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_WEST_AXIS_REAL_FLOOR guard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: B_WEST_AXIS_REAL_FLOOR guard posts
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: C_CULTURE civic canopy
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: C_CULTURE interior boulevard
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: C_CULTURE mixed use arcade supports
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: C_CULTURE mixed use entry lintel
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: C_CULTURE mixed use facade fins
+18:41:50 | INFO: Primitives created: 1
+18:41:50 | INFO: Extracting primitive: C_CULTURE mixed use floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: C_CULTURE mixed use private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: C_CULTURE mixed use shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: C_CULTURE mixed use shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: C_CULTURE mixed use shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: C_CULTURE occupied decks
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: C_CULTURE recessed bands
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: C_CULTURE underside basket arches
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: canopy foliage
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 0 arcade supports
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 0 entry lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 0 facade fins
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 0 floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 0 private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 0 shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 0 shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 0 shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 1 arcade supports
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 1 entry lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 1 facade fins
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 1 floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 1 private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 1 shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 1 shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 1 shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 2 arcade supports
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 2 entry lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 2 facade fins
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 2 floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 2 private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 2 shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 2 shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: city fabric 2 shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: conservatory vaults
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE interior boulevard
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE mixed use arcade supports
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE mixed use entry lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE mixed use facade fins
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE mixed use floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE mixed use private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE mixed use shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE mixed use shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE mixed use shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE occupied decks
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE recessed bands
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE stepped civic library arcade supports
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE stepped civic library entry lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE stepped civic library facade fins
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE stepped civic library floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE stepped civic library private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE stepped civic library shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE stepped civic library shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE stepped civic library shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: D_RIDGE underside basket arches
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY civic canopy
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY interior boulevard
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY mixed use arcade supports
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY mixed use entry lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY mixed use facade fins
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY mixed use floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY mixed use private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY mixed use shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY mixed use shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY mixed use shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY occupied decks
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY recessed bands
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: E_OBSERVATORY underside basket arches
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: eastern inland sea
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE interior boulevard
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE mixed use arcade supports
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE mixed use entry lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE mixed use facade fins
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE mixed use floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE mixed use private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE mixed use shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE mixed use shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE mixed use shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE occupied decks
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE recessed bands
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE stepped civic library arcade supports
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE stepped civic library entry lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE stepped civic library facade fins
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE stepped civic library floor
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE stepped civic library private core
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE stepped civic library shelter
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE stepped civic library shop transom
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE stepped civic library shopfront
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: F_CASCADE underside basket arches
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: garden branches.002
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: garden crowns.002
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: garden layered foliage.002
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: garden trunks.002
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: gateway rising lintel
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale heads
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale heads.001
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale heads.002
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale heads.003
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale legs
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale legs.001
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale legs.002
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale legs.003
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale witnesses
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale witnesses.001
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale witnesses.002
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: human scale witnesses.003
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: landform research
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: mountain sanctuary galleries
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: sea sail floors
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: south gateway inhabited pier
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: tree stems
+18:41:51 | INFO: Primitives created: 1
+18:41:51 | INFO: Extracting primitive: twin conservatory floor
+18:41:51 | INFO: Primitives created: 1
+18:41:52 | INFO: Finished glTF 2.0 export in 1.6925358772277832 s
+
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_final_art.log
+00:02.484  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B art 02_CENTRAL
+00:12.218  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B art 03_PUBLIC
+00:23.984  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B art 04_HUMAN
+00:35.687  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B art 07_SKY_STREET
+00:47.609  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_final_clay.log
+00:02.609  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B clay 01_CITY
+00:16.156  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_01_CITY.png'
+RENDER_DONE 01_CITY
+RENDER_START B clay 02_CENTRAL
+00:27.781  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B clay 03_PUBLIC
+00:39.844  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B clay 04_HUMAN
+00:51.797  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B clay 05_REAR
+01:03.078  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+RENDER_START B clay 06_UNDERSIDE
+01:14.640  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_06_UNDERSIDE.png'
+RENDER_DONE 06_UNDERSIDE
+RENDER_START B clay 07_SKY_STREET
+01:26.672  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

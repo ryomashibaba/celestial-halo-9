@@ -1,0 +1,300 @@
+
+FILE: A_open_preview.log
+00:02.500  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START A art 03_PUBLIC
+00:07.000  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\A_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START A art 04_HUMAN
+00:11.204  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\A_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: A_preview.log
+00:02.640  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START A clay 02_CENTRAL
+00:09.609  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\A_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START A clay 04_HUMAN
+00:13.078  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\A_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START A clay 05_REAR
+00:15.953  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\A_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_corrected_preview.log
+00:02.406  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B art 02_CENTRAL
+00:08.344  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_open_preview.log
+00:02.687  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B art 03_PUBLIC
+00:09.187  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B art 07_SKY_STREET
+00:13.656  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+RENDER_START B art 02_CENTRAL
+00:18.344  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_preview.log
+00:02.875  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B clay 02_CENTRAL
+00:07.890  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B clay 04_HUMAN
+00:12.375  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B clay 05_REAR
+00:16.953  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_spatial_preview.log
+00:02.484  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B art 03_PUBLIC
+00:09.218  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B art 07_SKY_STREET
+00:13.609  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+RENDER_START B art 02_CENTRAL
+00:18.062  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B art 04_HUMAN
+00:22.640  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: final_render.log
+00:02.844  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START A clay 01_CITY
+00:15.906  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_01_CITY.png'
+RENDER_DONE 01_CITY
+RENDER_START A clay 02_CENTRAL
+00:26.844  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START A clay 03_PUBLIC
+00:38.563  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START A clay 04_HUMAN
+00:49.766  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START A clay 05_REAR
+01:00.797  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+RENDER_START A clay 06_UNDERSIDE
+01:10.531  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_06_UNDERSIDE.png'
+RENDER_DONE 06_UNDERSIDE
+RENDER_START A clay 07_SKY_STREET
+01:22.297  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_clay_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+01:22.297  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+RENDER_START A art 02_CENTRAL
+01:33.141  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START A art 03_PUBLIC
+01:44.438  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START A art 04_HUMAN
+01:55.750  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START A art 07_SKY_STREET
+02:07.313  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\A_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+02:07.313  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+RENDER_START B clay 01_CITY
+02:17.453  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_01_CITY.png'
+RENDER_DONE 01_CITY
+RENDER_START B clay 02_CENTRAL
+02:27.766  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B clay 03_PUBLIC
+02:38.625  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B clay 04_HUMAN
+02:49.203  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B clay 05_REAR
+03:00.656  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+RENDER_START B clay 06_UNDERSIDE
+03:10.922  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_06_UNDERSIDE.png'
+RENDER_DONE 06_UNDERSIDE
+RENDER_START B clay 07_SKY_STREET
+03:18.797  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_clay_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+03:18.797  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+RENDER_START B art 02_CENTRAL
+03:29.656  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B art 03_PUBLIC
+03:40.625  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B art 04_HUMAN
+03:51.578  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B art 07_SKY_STREET
+04:03.047  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\renders\B_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: R29_reference_render.log
+00:01.859  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R29\model\R29_TIDAL_COMMONS.blend"
+00:08.297  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\comparison\R29_clay_02_CENTRAL.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: revision2_render.log
+00:02.469  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START A clay 01_CITY
+00:08.922  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_clay_01_CITY.png'
+RENDER_DONE 01_CITY
+RENDER_START A clay 02_CENTRAL
+00:13.235  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START A clay 03_PUBLIC
+00:17.563  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_clay_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START A clay 04_HUMAN
+00:22.125  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START A clay 05_REAR
+00:26.391  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+RENDER_START A clay 06_UNDERSIDE
+00:30.891  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_clay_06_UNDERSIDE.png'
+RENDER_DONE 06_UNDERSIDE
+RENDER_START A clay 07_SKY_STREET
+00:35.469  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_clay_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+00:35.469  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_A.blend"
+RENDER_START A art 02_CENTRAL
+00:39.954  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START A art 03_PUBLIC
+00:44.454  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START A art 04_HUMAN
+00:49.141  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START A art 07_SKY_STREET
+00:53.829  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\A_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+00:53.829  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+RENDER_START B clay 01_CITY
+00:58.532  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_clay_01_CITY.png'
+RENDER_DONE 01_CITY
+RENDER_START B clay 02_CENTRAL
+01:01.016  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_clay_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B clay 03_PUBLIC
+01:03.516  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_clay_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B clay 04_HUMAN
+01:07.313  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_clay_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B clay 05_REAR
+01:11.532  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_clay_05_REAR.png'
+RENDER_DONE 05_REAR
+RENDER_START B clay 06_UNDERSIDE
+01:15.704  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_clay_06_UNDERSIDE.png'
+RENDER_DONE 06_UNDERSIDE
+RENDER_START B clay 07_SKY_STREET
+01:20.047  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_clay_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+01:20.047  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+RENDER_START B art 02_CENTRAL
+01:24.625  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_art_02_CENTRAL.png'
+RENDER_DONE 02_CENTRAL
+RENDER_START B art 03_PUBLIC
+01:29.282  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_art_03_PUBLIC.png'
+RENDER_DONE 03_PUBLIC
+RENDER_START B art 04_HUMAN
+01:33.782  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_art_04_HUMAN.png'
+RENDER_DONE 04_HUMAN
+RENDER_START B art 07_SKY_STREET
+01:38.016  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\revision2\B_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+FILE: B_destination_preview.log
+00:02.469  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\model\R30_B.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START B art 07_SKY_STREET
+00:08.656  render           | Saved: 'C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R30\process\B_art_07_SKY_STREET.png'
+RENDER_DONE 07_SKY_STREET
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

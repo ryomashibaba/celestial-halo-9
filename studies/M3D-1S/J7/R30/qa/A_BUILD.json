@@ -1,0 +1,135 @@
+{
+  "variant": "A",
+  "revision": 6,
+  "changes": [
+    {
+      "actual_glb_triangulation_adopted_in_research_blend": [
+        {
+          "object": "A west tidal wall",
+          "native_triangles_before": 1292,
+          "actual_imported_triangles": 1290
+        },
+        {
+          "object": "A north spine",
+          "native_triangles_before": 1260,
+          "actual_imported_triangles": 1254
+        },
+        {
+          "object": "A split crown counterleaf",
+          "native_triangles_before": 946,
+          "actual_imported_triangles": 936
+        }
+      ],
+      "reason": "18-face native/export count difference persisted after explicit triangulation and 1cm welding. Use the real importer face stream rather than claim an unverified cause. Unique world vertices were already identical at 1mm.",
+      "limits": "This is a research-source topology normalization, not structural/manifold or art certification."
+    }
+  ],
+  "blender": "5.2.1 LTS",
+  "cameras": [
+    {
+      "name": "01_CITY",
+      "eye": [
+        11000.0,
+        -15000.0,
+        11000.0
+      ],
+      "target": [
+        0,
+        800,
+        1500
+      ],
+      "lens": 43.0,
+      "support": ""
+    },
+    {
+      "name": "02_CENTRAL",
+      "eye": [
+        5300.0,
+        -7000.0,
+        3500.0
+      ],
+      "target": [
+        0,
+        800,
+        1800
+      ],
+      "lens": 38.0,
+      "support": ""
+    },
+    {
+      "name": "03_PUBLIC",
+      "eye": [
+        -200.0,
+        -710.0,
+        106.69999694824219
+      ],
+      "target": [
+        80,
+        2100,
+        650
+      ],
+      "lens": 25.0,
+      "support": "A_REAL_LOW_FLOOR"
+    },
+    {
+      "name": "04_HUMAN",
+      "eye": [
+        100.0,
+        -1650.0,
+        106.69999694824219
+      ],
+      "target": [
+        -120,
+        1400,
+        700
+      ],
+      "lens": 25.0,
+      "support": "A_HUMAN_CANAL_BRIDGE_REAL_FLOOR"
+    },
+    {
+      "name": "05_REAR",
+      "eye": [
+        5300.0,
+        6200.0,
+        3500.0
+      ],
+      "target": [
+        0,
+        1100,
+        1700
+      ],
+      "lens": 32.0,
+      "support": ""
+    },
+    {
+      "name": "06_UNDERSIDE",
+      "eye": [
+        3500.0,
+        3300.0,
+        650.0
+      ],
+      "target": [
+        0,
+        1000,
+        1600
+      ],
+      "lens": 29.0,
+      "support": ""
+    },
+    {
+      "name": "07_SKY_STREET",
+      "eye": [
+        -910.0,
+        500.0,
+        1431.699951171875
+      ],
+      "target": [
+        950,
+        1150,
+        1400
+      ],
+      "lens": 27.0,
+      "support": "A_WEST_1430_FLOOR"
+    }
+  ]
+}

@@ -1,0 +1,8706 @@
+[
+  {
+    "name": "landform research",
+    "group": "CONTEXT_TERRAIN_PROVISIONAL",
+    "bounds": [
+      [
+        -7000.0,
+        -6500.0,
+        -96.89388275146484
+      ],
+      [
+        7400.0,
+        7900.0,
+        3712.45947265625
+      ]
+    ],
+    "vertices": 14641
+  },
+  {
+    "name": "eastern inland sea",
+    "group": "CONTEXT_TERRAIN_PROVISIONAL",
+    "bounds": [
+      [
+        1800.0,
+        -8400.0,
+        -16.0
+      ],
+      [
+        12600.0,
+        9600.0,
+        -4.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "far ground",
+    "group": "CONTEXT_TERRAIN_PROVISIONAL",
+    "bounds": [
+      [
+        -150000.0,
+        -150000.0,
+        -200.0
+      ],
+      [
+        150000.0,
+        150000.0,
+        -140.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "WEST CHOIR storeys",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1499.86865234375,
+        -1216.70458984375,
+        102.19999694824219
+      ],
+      [
+        -302.22869873046875,
+        2067.533935546875,
+        1845.0
+      ]
+    ],
+    "vertices": 28528
+  },
+  {
+    "name": "WEST CHOIR room bands",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1473.871337890625,
+        -1190.7559814453125,
+        108.0
+      ],
+      [
+        -304.3635559082031,
+        2042.3507080078125,
+        1860.0
+      ]
+    ],
+    "vertices": 21824
+  },
+  {
+    "name": "WEST CHOIR vertical facade blades",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1497.4249267578125,
+        -1210.92822265625,
+        105.0
+      ],
+      [
+        -323.427001953125,
+        2053.792724609375,
+        1843.0
+      ]
+    ],
+    "vertices": 28736
+  },
+  {
+    "name": "garden trunks",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1487.4853515625,
+        -1154.7777099609375,
+        105.0
+      ],
+      [
+        1055.232177734375,
+        2043.732421875,
+        2273.06005859375
+      ]
+    ],
+    "vertices": 2408
+  },
+  {
+    "name": "garden crowns",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1493.400390625,
+        -1160.52978515625,
+        110.19999694824219
+      ],
+      [
+        1061.147216796875,
+        2049.484375,
+        2279.56005859375
+      ]
+    ],
+    "vertices": 12642
+  },
+  {
+    "name": "garden branches",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1490.61962890625,
+        -1157.8792724609375,
+        110.70262908935547
+      ],
+      [
+        1058.342041015625,
+        2046.1788330078125,
+        2275.820556640625
+      ]
+    ],
+    "vertices": 12040
+  },
+  {
+    "name": "garden layered foliage",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1494.2591552734375,
+        -1161.5899658203125,
+        109.81501770019531
+      ],
+      [
+        1062.0572509765625,
+        2049.826904296875,
+        2279.804931640625
+      ]
+    ],
+    "vertices": 21070
+  },
+  {
+    "name": "WEST CHOIR continuous buttress",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1512.04931640625,
+        -1212.9935302734375,
+        104.01863861083984
+      ],
+      [
+        -427.48828125,
+        2030.5794677734375,
+        1867.9609375
+      ]
+    ],
+    "vertices": 1872
+  },
+  {
+    "name": "NORTH CHOIR storeys",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1220.931884765625,
+        505.1878662109375,
+        102.19999694824219
+      ],
+      [
+        1069.6297607421875,
+        1802.4012451171875,
+        2405.0
+      ]
+    ],
+    "vertices": 35280
+  },
+  {
+    "name": "NORTH CHOIR room bands",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1195.136962890625,
+        507.6346740722656,
+        108.0
+      ],
+      [
+        1043.63818359375,
+        1777.2025146484375,
+        2420.0
+      ]
+    ],
+    "vertices": 26928
+  },
+  {
+    "name": "NORTH CHOIR vertical facade blades",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1213.9521484375,
+        539.7214965820312,
+        105.0
+      ],
+      [
+        1067.497314453125,
+        1791.0328369140625,
+        2403.0
+      ]
+    ],
+    "vertices": 35424
+  },
+  {
+    "name": "NORTH CHOIR continuous buttress",
+    "group": "CENTRAL_OCCUPIED_CRESCENTS",
+    "bounds": [
+      [
+        -1213.5701904296875,
+        640.5486450195312,
+        104.34741973876953
+      ],
+      [
+        1086.7711181640625,
+        1850.125244140625,
+        2427.2783203125
+      ]
+    ],
+    "vertices": 1872
+  },
+  {
+    "name": "spine occupied ring",
+    "group": "CENTRAL_SPINE",
+    "bounds": [
+      [
+        -490.0,
+        814.4000244140625,
+        132.5
+      ],
+      [
+        130.0,
+        1285.5999755859375,
+        3215.0
+      ]
+    ],
+    "vertices": 20460
+  },
+  {
+    "name": "spine recessed rooms",
+    "group": "CENTRAL_SPINE",
+    "bounds": [
+      [
+        -481.0,
+        823.4000244140625,
+        139.0
+      ],
+      [
+        121.0,
+        1276.5999755859375,
+        3090.0
+      ]
+    ],
+    "vertices": 19536
+  },
+  {
+    "name": "spine ascending flutes",
+    "group": "CENTRAL_SPINE",
+    "bounds": [
+      [
+        -486.80194091796875,
+        803.9439697265625,
+        99.78382110595703
+      ],
+      [
+        146.16281127929688,
+        1295.1533203125,
+        3270.754638671875
+      ]
+    ],
+    "vertices": 2304
+  },
+  {
+    "name": "inclined crown halo",
+    "group": "CENTRAL_SPINE",
+    "bounds": [
+      [
+        -1013.9100341796875,
+        707.9977416992188,
+        1422.0025634765625
+      ],
+      [
+        653.9100341796875,
+        1332.0023193359375,
+        2597.997314453125
+      ]
+    ],
+    "vertices": 1024
+  },
+  {
+    "name": "halo bronze inner seam",
+    "group": "CENTRAL_SPINE",
+    "bounds": [
+      [
+        -1002.6720581054688,
+        693.4996337890625,
+        1437.00048828125
+      ],
+      [
+        642.6720581054688,
+        1298.5003662109375,
+        2582.99951171875
+      ]
+    ],
+    "vertices": 1024
+  },
+  {
+    "name": "FORUM_REAL_FLOOR",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -610.0,
+        -1635.0,
+        87.0
+      ],
+      [
+        610.0,
+        715.0,
+        105.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "upper civic promenade",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -909.7606811523438,
+        -677.730712890625,
+        635.0
+      ],
+      [
+        909.9511108398438,
+        1619.977294921875,
+        650.0
+      ]
+    ],
+    "vertices": 404
+  },
+  {
+    "name": "forum branching vault ribs",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -480.9127197265625,
+        -1454.0,
+        104.63462829589844
+      ],
+      [
+        480.43572998046875,
+        264.0,
+        470.9974365234375
+      ]
+    ],
+    "vertices": 7184
+  },
+  {
+    "name": "forum splayed root",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -566.3313598632812,
+        -1456.34521484375,
+        97.0
+      ],
+      [
+        566.3313598632812,
+        286.34521484375,
+        113.0
+      ]
+    ],
+    "vertices": 312
+  },
+  {
+    "name": "forum silver roof petals",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -474.9459228515625,
+        -1450.0,
+        106.0
+      ],
+      [
+        474.9459228515625,
+        260.0,
+        471.0
+      ]
+    ],
+    "vertices": 2645
+  },
+  {
+    "name": "forum gallery floors",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -545.0,
+        -1505.0,
+        102.19999694824219
+      ],
+      [
+        545.0,
+        325.0,
+        165.0
+      ]
+    ],
+    "vertices": 160
+  },
+  {
+    "name": "forum gallery piers",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -534.0,
+        -1486.0,
+        105.0
+      ],
+      [
+        534.0,
+        316.0,
+        181.0
+      ]
+    ],
+    "vertices": 3104
+  },
+  {
+    "name": "gallery stair flights",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -490.5,
+        -1300.1700439453125,
+        105.0
+      ],
+      [
+        490.5,
+        191.85000610351562,
+        165.0
+      ]
+    ],
+    "vertices": 14400
+  },
+  {
+    "name": "gallery lift shaft",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -556.5,
+        -1385.0,
+        105.0
+      ],
+      [
+        556.5,
+        195.0,
+        185.0
+      ]
+    ],
+    "vertices": 256
+  },
+  {
+    "name": "gallery safety rail",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -461.17498779296875,
+        -1505.0,
+        125.875
+      ],
+      [
+        461.17498779296875,
+        325.0,
+        166.32501220703125
+      ]
+    ],
+    "vertices": 120
+  },
+  {
+    "name": "gallery rail posts",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -461.0799865722656,
+        -1505.0799560546875,
+        125.0
+      ],
+      [
+        461.0799865722656,
+        319.0799865722656,
+        166.10000610351562
+      ]
+    ],
+    "vertices": 7032
+  },
+  {
+    "name": "forum market floor",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -598.0,
+        -1415.0,
+        112.6500015258789
+      ],
+      [
+        598.0,
+        95.0,
+        133.35000610351562
+      ]
+    ],
+    "vertices": 728
+  },
+  {
+    "name": "forum market private core",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -589.6799926757812,
+        -1399.699951171875,
+        113.3499984741211
+      ],
+      [
+        589.6799926757812,
+        79.69999694824219,
+        132.4499969482422
+      ]
+    ],
+    "vertices": 512
+  },
+  {
+    "name": "forum market facade fins",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -594.2750244140625,
+        -1414.5999755859375,
+        113.30000305175781
+      ],
+      [
+        594.2750244140625,
+        94.5999984741211,
+        132.6999969482422
+      ]
+    ],
+    "vertices": 6832
+  },
+  {
+    "name": "forum market arcade supports",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -593.9199829101562,
+        -1406.4000244140625,
+        105.0
+      ],
+      [
+        593.9199829101562,
+        86.4000015258789,
+        113.0
+      ]
+    ],
+    "vertices": 984
+  },
+  {
+    "name": "forum market shelter",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -601.5,
+        -1418.5,
+        112.5999984741211
+      ],
+      [
+        601.5,
+        98.5,
+        113.19999694824219
+      ]
+    ],
+    "vertices": 184
+  },
+  {
+    "name": "forum market shopfront",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -594.7999877929688,
+        -1397.199951171875,
+        105.25
+      ],
+      [
+        594.7999877929688,
+        77.19999694824219,
+        110.75
+      ]
+    ],
+    "vertices": 672
+  },
+  {
+    "name": "forum market shop transom",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -594.7999877929688,
+        -1397.5999755859375,
+        110.6500015258789
+      ],
+      [
+        594.7999877929688,
+        77.5999984741211,
+        110.94999694824219
+      ]
+    ],
+    "vertices": 704
+  },
+  {
+    "name": "forum market entry lintel",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -598.0,
+        -1397.4000244140625,
+        111.30000305175781
+      ],
+      [
+        598.0,
+        77.4000015258789,
+        112.0999984741211
+      ]
+    ],
+    "vertices": 336
+  },
+  {
+    "name": "forum cross bridge",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -540.0,
+        -987.5,
+        181.0
+      ],
+      [
+        540.0,
+        438.0,
+        650.0
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "bridge parapet",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -540.0,
+        -987.7999877929688,
+        185.5500030517578
+      ],
+      [
+        540.0,
+        438.29998779296875,
+        651.6499633789062
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "forum reflecting channel",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -311.0,
+        -1370.0,
+        104.9749984741211
+      ],
+      [
+        311.0,
+        270.0,
+        105.2249984741211
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "forum tree planters",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -329.5,
+        -1427.0,
+        105.0
+      ],
+      [
+        329.5,
+        212.0,
+        106.19999694824219
+      ]
+    ],
+    "vertices": 416
+  },
+  {
+    "name": "garden trunks.001",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -325.5849914550781,
+        -1420.5849609375,
+        105.0
+      ],
+      [
+        1590.5400390625,
+        205.5850067138672,
+        124.58000183105469
+      ]
+    ],
+    "vertices": 688
+  },
+  {
+    "name": "garden crowns.001",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -331.5,
+        -1426.3370361328125,
+        108.5999984741211
+      ],
+      [
+        1596.0,
+        211.3370361328125,
+        129.0800018310547
+      ]
+    ],
+    "vertices": 3612
+  },
+  {
+    "name": "garden branches.001",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -328.71917724609375,
+        -1423.6865234375,
+        108.9479751586914
+      ],
+      [
+        1593.4105224609375,
+        208.03152465820312,
+        126.49125671386719
+      ]
+    ],
+    "vertices": 3440
+  },
+  {
+    "name": "garden layered foliage.001",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -332.3586730957031,
+        -1427.3970947265625,
+        108.3334732055664
+      ],
+      [
+        1596.8399658203125,
+        211.67935180664062,
+        129.24949645996094
+      ]
+    ],
+    "vertices": 6020
+  },
+  {
+    "name": "forum benches",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -338.5,
+        -1422.5,
+        105.0
+      ],
+      [
+        338.5,
+        207.5,
+        105.9000015258789
+      ]
+    ],
+    "vertices": 416
+  },
+  {
+    "name": "people 1.75m",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -259.658935546875,
+        -1459.03076171875,
+        105.4800033569336
+      ],
+      [
+        1141.2099609375,
+        365.01312255859375,
+        120.4000015258789
+      ]
+    ],
+    "vertices": 1280
+  },
+  {
+    "name": "people heads",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -259.5789489746094,
+        -1459.0357666015625,
+        106.44999694824219
+      ],
+      [
+        1141.1300048828125,
+        365.01812744140625,
+        120.75
+      ]
+    ],
+    "vertices": 1280
+  },
+  {
+    "name": "people legs",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -259.6487121582031,
+        -1458.9658203125,
+        104.99441528320312
+      ],
+      [
+        1141.1998291015625,
+        364.9481201171875,
+        119.65558624267578
+      ]
+    ],
+    "vertices": 2560
+  },
+  {
+    "name": "people arms",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -259.7789306640625,
+        -1458.9608154296875,
+        105.64815521240234
+      ],
+      [
+        1141.3299560546875,
+        364.943115234375,
+        120.30184936523438
+      ]
+    ],
+    "vertices": 2560
+  },
+  {
+    "name": "civic court bench",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -197.0,
+        -1251.5,
+        105.5999984741211
+      ],
+      [
+        197.0,
+        69.5,
+        106.5
+      ]
+    ],
+    "vertices": 80
+  },
+  {
+    "name": "public reading pavilion floor",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -191.5,
+        -1296.0,
+        113.25
+      ],
+      [
+        191.5,
+        56.0,
+        118.94999694824219
+      ]
+    ],
+    "vertices": 80
+  },
+  {
+    "name": "public reading pavilion private core",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -185.91000366210938,
+        -1290.56005859375,
+        113.94999694824219
+      ],
+      [
+        185.91000366210938,
+        50.560001373291016,
+        118.05000305175781
+      ]
+    ],
+    "vertices": 40
+  },
+  {
+    "name": "public reading pavilion facade fins",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -187.77499389648438,
+        -1296.1800537109375,
+        113.9000015258789
+      ],
+      [
+        187.77499389648438,
+        56.18000030517578,
+        118.30000305175781
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "public reading pavilion arcade supports",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -188.88999938964844,
+        -1293.199951171875,
+        105.5999984741211
+      ],
+      [
+        188.88999938964844,
+        53.20000076293945,
+        113.5999984741211
+      ]
+    ],
+    "vertices": 240
+  },
+  {
+    "name": "public reading pavilion shelter",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -195.0,
+        -1299.5,
+        113.19999694824219
+      ],
+      [
+        195.0,
+        59.5,
+        113.80000305175781
+      ]
+    ],
+    "vertices": 40
+  },
+  {
+    "name": "public reading pavilion shopfront",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -189.35000610351562,
+        -1289.800048828125,
+        105.8499984741211
+      ],
+      [
+        189.35000610351562,
+        49.79999923706055,
+        111.3499984741211
+      ]
+    ],
+    "vertices": 160
+  },
+  {
+    "name": "public reading pavilion shop transom",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -189.35000610351562,
+        -1290.199951171875,
+        111.25
+      ],
+      [
+        189.35000610351562,
+        50.20000076293945,
+        111.55000305175781
+      ]
+    ],
+    "vertices": 160
+  },
+  {
+    "name": "public reading pavilion entry lintel",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -191.5,
+        -1290.0,
+        111.9000015258789
+      ],
+      [
+        191.5,
+        50.0,
+        112.69999694824219
+      ]
+    ],
+    "vertices": 80
+  },
+  {
+    "name": "library lane floor",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -229.0,
+        -1382.0,
+        112.6500015258789
+      ],
+      [
+        -181.0,
+        -1098.0,
+        128.35000610351562
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "library lane private core",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -222.75999450683594,
+        -1371.1199951171875,
+        113.3499984741211
+      ],
+      [
+        -187.24000549316406,
+        -1108.8800048828125,
+        127.44999694824219
+      ]
+    ],
+    "vertices": 72
+  },
+  {
+    "name": "library lane facade fins",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -225.27499389648438,
+        -1381.8599853515625,
+        113.30000305175781
+      ],
+      [
+        -184.72500610351562,
+        -1098.1400146484375,
+        127.69999694824219
+      ]
+    ],
+    "vertices": 720
+  },
+  {
+    "name": "library lane arcade supports",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -226.0399932861328,
+        -1376.0,
+        105.0
+      ],
+      [
+        -183.9600067138672,
+        -1104.0,
+        113.0
+      ]
+    ],
+    "vertices": 144
+  },
+  {
+    "name": "library lane shelter",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -232.5,
+        -1385.5,
+        112.5999984741211
+      ],
+      [
+        -177.5,
+        -1094.5,
+        113.19999694824219
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "library lane shopfront",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -226.60000610351562,
+        -1369.4000244140625,
+        105.25
+      ],
+      [
+        -183.39999389648438,
+        -1110.5999755859375,
+        110.75
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "library lane shop transom",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -226.60000610351562,
+        -1369.800048828125,
+        110.6500015258789
+      ],
+      [
+        -183.39999389648438,
+        -1110.199951171875,
+        110.94999694824219
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "library lane entry lintel",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -229.0,
+        -1369.5999755859375,
+        111.30000305175781
+      ],
+      [
+        -181.0,
+        -1110.4000244140625,
+        112.0999984741211
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "library awning",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -185.0,
+        -1410.0,
+        112.69999694824219
+      ],
+      [
+        -173.0,
+        -1130.0,
+        113.69999694824219
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "library awning posts",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -174.22500610351562,
+        -1390.2249755859375,
+        105.0
+      ],
+      [
+        -173.77499389648438,
+        -1123.7750244140625,
+        113.0
+      ]
+    ],
+    "vertices": 160
+  },
+  {
+    "name": "lane seating",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -161.6999969482422,
+        -1347.5,
+        105.0
+      ],
+      [
+        -160.3000030517578,
+        -1217.5,
+        105.9000015258789
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "lane planter",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        -146.0,
+        -1348.5,
+        105.0
+      ],
+      [
+        -142.0,
+        -1216.5,
+        106.19999694824219
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "EAST_GALLERY_REAL_FLOOR",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        640.0,
+        -1005.0,
+        111.0
+      ],
+      [
+        1200.0,
+        -915.0,
+        119.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "east gallery roof",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        640.0,
+        -1008.0,
+        140.0
+      ],
+      [
+        1200.0,
+        -912.0,
+        144.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "east gallery colonnade",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        659.0999755859375,
+        -1002.9000244140625,
+        117.0
+      ],
+      [
+        1170.9000244140625,
+        -917.0999755859375,
+        140.0
+      ]
+    ],
+    "vertices": 288
+  },
+  {
+    "name": "east gallery reading benches",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        676.0,
+        -970.7000122070312,
+        119.0
+      ],
+      [
+        1134.0,
+        -969.2999877929688,
+        119.9000015258789
+      ]
+    ],
+    "vertices": 56
+  },
+  {
+    "name": "reading tables",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        758.4000244140625,
+        -948.6500244140625,
+        119.72000122070312
+      ],
+      [
+        1161.5999755859375,
+        -947.3499755859375,
+        119.83999633789062
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "reading table legs",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        758.739990234375,
+        -948.2999877929688,
+        119.0
+      ],
+      [
+        1161.260009765625,
+        -947.7000122070312,
+        119.76000213623047
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "reading seats",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        758.7000122070312,
+        -949.625,
+        119.375
+      ],
+      [
+        1161.300048828125,
+        -946.375,
+        119.5250015258789
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "reading seat backs",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        758.7000122070312,
+        -949.4749755859375,
+        119.44999694824219
+      ],
+      [
+        1161.300048828125,
+        -946.5250244140625,
+        120.25
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "reading gallery edge posts",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        654.9249877929688,
+        -916.0750122070312,
+        119.0
+      ],
+      [
+        1195.074951171875,
+        -915.9249877929688,
+        120.0999984741211
+      ]
+    ],
+    "vertices": 368
+  },
+  {
+    "name": "reading gallery open parapet",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        650.0,
+        -916.0900268554688,
+        120.0
+      ],
+      [
+        1200.0,
+        -915.9099731445312,
+        120.19999694824219
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "SEA_TERRACE_REAL_FLOOR",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        370.6000061035156,
+        -1500.0,
+        87.0
+      ],
+      [
+        1660.0,
+        1330.0,
+        105.0
+      ]
+    ],
+    "vertices": 122
+  },
+  {
+    "name": "harbor terraces floor",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        976.0,
+        -400.6515808105469,
+        112.6500015258789
+      ],
+      [
+        1458.0,
+        -241.5816192626953,
+        143.35000610351562
+      ]
+    ],
+    "vertices": 352
+  },
+  {
+    "name": "harbor terraces private core",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        982.239990234375,
+        -387.9015808105469,
+        113.3499984741211
+      ],
+      [
+        1451.760009765625,
+        -254.3316192626953,
+        142.4499969482422
+      ]
+    ],
+    "vertices": 288
+  },
+  {
+    "name": "harbor terraces facade fins",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        979.7249755859375,
+        -400.4015808105469,
+        113.30000305175781
+      ],
+      [
+        1454.2750244140625,
+        -241.8316192626953,
+        142.6999969482422
+      ]
+    ],
+    "vertices": 2880
+  },
+  {
+    "name": "harbor terraces arcade supports",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        978.9600219726562,
+        -393.5516052246094,
+        105.0
+      ],
+      [
+        1455.0400390625,
+        -248.68161010742188,
+        113.0
+      ]
+    ],
+    "vertices": 384
+  },
+  {
+    "name": "harbor terraces shelter",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        972.5,
+        -404.1515808105469,
+        112.5999984741211
+      ],
+      [
+        1461.5,
+        -238.0816192626953,
+        113.19999694824219
+      ]
+    ],
+    "vertices": 64
+  },
+  {
+    "name": "harbor terraces shopfront",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        978.4000244140625,
+        -385.8515930175781,
+        105.25
+      ],
+      [
+        1455.5999755859375,
+        -256.3816223144531,
+        110.75
+      ]
+    ],
+    "vertices": 256
+  },
+  {
+    "name": "harbor terraces shop transom",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        978.4000244140625,
+        -386.2515869140625,
+        110.6500015258789
+      ],
+      [
+        1455.5999755859375,
+        -255.9816131591797,
+        110.94999694824219
+      ]
+    ],
+    "vertices": 256
+  },
+  {
+    "name": "harbor terraces entry lintel",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        976.0,
+        -386.0516052246094,
+        111.30000305175781
+      ],
+      [
+        1458.0,
+        -256.1816101074219,
+        112.0999984741211
+      ]
+    ],
+    "vertices": 128
+  },
+  {
+    "name": "water stairs landing",
+    "group": "CENTRAL_PUBLIC_FORUM",
+    "bounds": [
+      [
+        1560.0,
+        -1410.0,
+        95.0
+      ],
+      [
+        1740.0,
+        -590.0,
+        105.0
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "A_GARDEN occupied decks",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3439.11376953125,
+        467.8121337890625,
+        647.7000122070312
+      ],
+      [
+        -1969.9007568359375,
+        989.56201171875,
+        760.0
+      ]
+    ],
+    "vertices": 3504
+  },
+  {
+    "name": "A_GARDEN recessed bands",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3420.4140625,
+        482.1407470703125,
+        662.5
+      ],
+      [
+        -1988.37255859375,
+        980.5621337890625,
+        767.0
+      ]
+    ],
+    "vertices": 2336
+  },
+  {
+    "name": "A_GARDEN interior boulevard",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3211.5,
+        548.7000122070312,
+        669.5
+      ],
+      [
+        -2188.5,
+        851.2999877929688,
+        674.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "A_GARDEN mixed use floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3158.0,
+        506.0,
+        682.1500244140625
+      ],
+      [
+        -2268.39990234375,
+        894.0,
+        717.8499755859375
+      ]
+    ],
+    "vertices": 704
+  },
+  {
+    "name": "A_GARDEN mixed use private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3150.4599609375,
+        516.2000122070312,
+        682.8499755859375
+      ],
+      [
+        -2275.93994140625,
+        883.7999877929688,
+        716.9500122070312
+      ]
+    ],
+    "vertices": 592
+  },
+  {
+    "name": "A_GARDEN mixed use facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3154.27490234375,
+        506.1000061035156,
+        682.7999877929688
+      ],
+      [
+        -2272.125,
+        893.9000244140625,
+        717.2000122070312
+      ]
+    ],
+    "vertices": 7104
+  },
+  {
+    "name": "A_GARDEN mixed use arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3154.340087890625,
+        511.6000061035156,
+        674.5
+      ],
+      [
+        -2272.06005859375,
+        888.4000244140625,
+        682.5
+      ]
+    ],
+    "vertices": 672
+  },
+  {
+    "name": "A_GARDEN mixed use shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3161.5,
+        502.5,
+        682.0999755859375
+      ],
+      [
+        -2264.89990234375,
+        897.5,
+        682.7000122070312
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "A_GARDEN mixed use shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3155.10009765625,
+        517.7999877929688,
+        674.75
+      ],
+      [
+        -2271.300048828125,
+        882.2000122070312,
+        680.25
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "A_GARDEN mixed use shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3155.10009765625,
+        517.4000244140625,
+        680.1500244140625
+      ],
+      [
+        -2271.300048828125,
+        882.5999755859375,
+        680.4500122070312
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "A_GARDEN mixed use entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3158.0,
+        517.5999755859375,
+        680.7999877929688
+      ],
+      [
+        -2268.39990234375,
+        882.4000244140625,
+        681.5999755859375
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "garden trunks.002",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3129.449951171875,
+        -1356.449951171875,
+        484.5
+      ],
+      [
+        2714.050048828125,
+        3198.449951171875,
+        1900.699951171875
+      ]
+    ],
+    "vertices": 672
+  },
+  {
+    "name": "garden crowns.002",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3134.0,
+        -1360.8746337890625,
+        488.5
+      ],
+      [
+        2718.60009765625,
+        3202.874755859375,
+        1905.699951171875
+      ]
+    ],
+    "vertices": 3528
+  },
+  {
+    "name": "garden branches.002",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3131.86083984375,
+        -1358.835693359375,
+        488.88665771484375
+      ],
+      [
+        2716.442138671875,
+        3200.33203125,
+        1902.8236083984375
+      ]
+    ],
+    "vertices": 3360
+  },
+  {
+    "name": "garden layered foliage.002",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3134.660400390625,
+        -1361.6900634765625,
+        488.203857421875
+      ],
+      [
+        2719.300048828125,
+        3203.137939453125,
+        1905.8883056640625
+      ]
+    ],
+    "vertices": 5880
+  },
+  {
+    "name": "A_GARDEN underside basket arches",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3260.65478515625,
+        331.6839294433594,
+        462.50042724609375
+      ],
+      [
+        -2105.177001953125,
+        1068.3160400390625,
+        631.0706176757812
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "A_GARDEN civic canopy",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2914.99072265625,
+        767.0,
+        714.6971435546875
+      ],
+      [
+        -2485.00927734375,
+        893.0,
+        889.9960327148438
+      ]
+    ],
+    "vertices": 1536
+  },
+  {
+    "name": "B_HARBOR occupied decks",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1490.146484375,
+        -1009.97119140625,
+        777.7000122070312
+      ],
+      [
+        3009.951171875,
+        -290.0789489746094,
+        920.0
+      ]
+    ],
+    "vertices": 4170
+  },
+  {
+    "name": "B_HARBOR recessed bands",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1514.1177978515625,
+        -996.2472534179688,
+        792.5
+      ],
+      [
+        2995.977294921875,
+        -303.8009338378906,
+        927.0
+      ]
+    ],
+    "vertices": 2777
+  },
+  {
+    "name": "B_HARBOR interior boulevard",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1661.0,
+        -784.7999877929688,
+        799.5
+      ],
+      [
+        2839.0,
+        -515.2000122070312,
+        804.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "B_HARBOR mixed use floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1726.0,
+        -824.0,
+        812.1500244140625
+      ],
+      [
+        2743.60009765625,
+        -476.0,
+        847.8499755859375
+      ]
+    ],
+    "vertices": 704
+  },
+  {
+    "name": "B_HARBOR mixed use private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1733.800048828125,
+        -813.7999877929688,
+        812.8499755859375
+      ],
+      [
+        2735.800048828125,
+        -486.20001220703125,
+        846.9500122070312
+      ]
+    ],
+    "vertices": 592
+  },
+  {
+    "name": "B_HARBOR mixed use facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1729.7249755859375,
+        -823.9000244140625,
+        812.7999877929688
+      ],
+      [
+        2739.875,
+        -476.1000061035156,
+        847.2000122070312
+      ]
+    ],
+    "vertices": 7104
+  },
+  {
+    "name": "B_HARBOR mixed use arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1729.800048828125,
+        -818.4000244140625,
+        804.5
+      ],
+      [
+        2739.800048828125,
+        -481.6000061035156,
+        812.5
+      ]
+    ],
+    "vertices": 672
+  },
+  {
+    "name": "B_HARBOR mixed use shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1722.5,
+        -827.5,
+        812.0999755859375
+      ],
+      [
+        2747.10009765625,
+        -472.5,
+        812.7000122070312
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "B_HARBOR mixed use shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1729.0,
+        -812.2000122070312,
+        804.75
+      ],
+      [
+        2740.60009765625,
+        -487.79998779296875,
+        810.25
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "B_HARBOR mixed use shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1729.0,
+        -812.5999755859375,
+        810.1500244140625
+      ],
+      [
+        2740.60009765625,
+        -487.3999938964844,
+        810.4500122070312
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "B_HARBOR mixed use entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1726.0,
+        -812.4000244140625,
+        810.7999877929688
+      ],
+      [
+        2743.60009765625,
+        -487.6000061035156,
+        811.5999755859375
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "B_HARBOR underside basket arches",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1605.9876708984375,
+        -974.804931640625,
+        592.5003051757812
+      ],
+      [
+        2933.798583984375,
+        -325.1951599121094,
+        761.2288208007812
+      ]
+    ],
+    "vertices": 1428
+  },
+  {
+    "name": "B_HARBOR stepped civic library floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        2045.0,
+        -528.0,
+        917.6500244140625
+      ],
+      [
+        2455.0,
+        -448.0,
+        968.3499755859375
+      ]
+    ],
+    "vertices": 216
+  },
+  {
+    "name": "B_HARBOR stepped civic library private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        2059.300048828125,
+        -514.4000244140625,
+        918.3499755859375
+      ],
+      [
+        2440.699951171875,
+        -461.6000061035156,
+        967.4500122070312
+      ]
+    ],
+    "vertices": 192
+  },
+  {
+    "name": "B_HARBOR stepped civic library facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        2048.72509765625,
+        -527.7000122070312,
+        918.2999877929688
+      ],
+      [
+        2451.27490234375,
+        -448.29998779296875,
+        967.7000122070312
+      ]
+    ],
+    "vertices": 4608
+  },
+  {
+    "name": "B_HARBOR stepped civic library arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        2052.300048828125,
+        -520.4000244140625,
+        910.0
+      ],
+      [
+        2447.699951171875,
+        -455.6000061035156,
+        918.0
+      ]
+    ],
+    "vertices": 144
+  },
+  {
+    "name": "B_HARBOR stepped civic library shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        2041.5,
+        -531.5,
+        917.5999755859375
+      ],
+      [
+        2458.5,
+        -444.5,
+        918.2000122070312
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "B_HARBOR stepped civic library shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        2050.5,
+        -512.2000122070312,
+        910.25
+      ],
+      [
+        2449.5,
+        -463.79998779296875,
+        915.75
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "B_HARBOR stepped civic library shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        2050.5,
+        -512.5999755859375,
+        915.6500244140625
+      ],
+      [
+        2449.5,
+        -463.3999938964844,
+        915.9500122070312
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "B_HARBOR stepped civic library entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        2045.0,
+        -512.4000244140625,
+        916.2999877929688
+      ],
+      [
+        2455.0,
+        -463.6000061035156,
+        917.0999755859375
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "C_CULTURE occupied decks",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1430.305908203125,
+        1350.0535888671875,
+        1237.699951171875
+      ],
+      [
+        2639.655029296875,
+        2449.77197265625,
+        1410.0
+      ]
+    ],
+    "vertices": 5256
+  },
+  {
+    "name": "C_CULTURE recessed bands",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1447.4349365234375,
+        1366.270751953125,
+        1252.5
+      ],
+      [
+        2623.356201171875,
+        2433.559814453125,
+        1417.0
+      ]
+    ],
+    "vertices": 3504
+  },
+  {
+    "name": "C_CULTURE interior boulevard",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1569.5,
+        1702.5,
+        1259.5
+      ],
+      [
+        2530.5,
+        2097.5,
+        1264.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "C_CULTURE mixed use floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1616.0,
+        1650.0,
+        1272.1500244140625
+      ],
+      [
+        2459.199951171875,
+        2150.0,
+        1307.8499755859375
+      ]
+    ],
+    "vertices": 704
+  },
+  {
+    "name": "C_CULTURE mixed use private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1624.06005859375,
+        1660.199951171875,
+        1272.8499755859375
+      ],
+      [
+        2451.139892578125,
+        2139.800048828125,
+        1306.949951171875
+      ]
+    ],
+    "vertices": 592
+  },
+  {
+    "name": "C_CULTURE mixed use facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1619.7249755859375,
+        1650.0999755859375,
+        1272.800048828125
+      ],
+      [
+        2455.47509765625,
+        2149.89990234375,
+        1307.199951171875
+      ]
+    ],
+    "vertices": 7104
+  },
+  {
+    "name": "C_CULTURE mixed use arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1619.93994140625,
+        1655.5999755859375,
+        1264.5
+      ],
+      [
+        2455.260009765625,
+        2144.39990234375,
+        1272.5
+      ]
+    ],
+    "vertices": 672
+  },
+  {
+    "name": "C_CULTURE mixed use shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1612.5,
+        1646.5,
+        1272.0999755859375
+      ],
+      [
+        2462.699951171875,
+        2153.5,
+        1272.699951171875
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "C_CULTURE mixed use shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1619.0999755859375,
+        1661.800048828125,
+        1264.75
+      ],
+      [
+        2456.10009765625,
+        2138.199951171875,
+        1270.25
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "C_CULTURE mixed use shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1619.0999755859375,
+        1661.4000244140625,
+        1270.1500244140625
+      ],
+      [
+        2456.10009765625,
+        2138.60009765625,
+        1270.449951171875
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "C_CULTURE mixed use entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1616.0,
+        1661.5999755859375,
+        1270.800048828125
+      ],
+      [
+        2459.199951171875,
+        2138.39990234375,
+        1271.5999755859375
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "C_CULTURE underside basket arches",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1522.40625,
+        1409.3660888671875,
+        1052.50048828125
+      ],
+      [
+        2609.232177734375,
+        2390.6337890625,
+        1221.0072021484375
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "C_CULTURE civic canopy",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        1835.0091552734375,
+        1967.0,
+        1304.6971435546875
+      ],
+      [
+        2264.99072265625,
+        2093.0,
+        1479.99609375
+      ]
+    ],
+    "vertices": 1536
+  },
+  {
+    "name": "D_RIDGE occupied decks",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2689.817626953125,
+        2318.791748046875,
+        1447.699951171875
+      ],
+      [
+        -1517.263916015625,
+        3109.91015625,
+        1560.0
+      ]
+    ],
+    "vertices": 3504
+  },
+  {
+    "name": "D_RIDGE recessed bands",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2679.078857421875,
+        2334.1630859375,
+        1462.5
+      ],
+      [
+        -1539.801513671875,
+        3097.531982421875,
+        1567.0
+      ]
+    ],
+    "vertices": 2336
+  },
+  {
+    "name": "D_RIDGE interior boulevard",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2557.25,
+        2548.699951171875,
+        1469.5
+      ],
+      [
+        -1642.75,
+        2851.300048828125,
+        1474.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "D_RIDGE mixed use floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2515.5,
+        2506.0,
+        1482.1500244140625
+      ],
+      [
+        -1708.0999755859375,
+        2894.0,
+        1517.8499755859375
+      ]
+    ],
+    "vertices": 704
+  },
+  {
+    "name": "D_RIDGE mixed use private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2507.179931640625,
+        2516.199951171875,
+        1482.8499755859375
+      ],
+      [
+        -1716.4200439453125,
+        2883.800048828125,
+        1516.949951171875
+      ]
+    ],
+    "vertices": 592
+  },
+  {
+    "name": "D_RIDGE mixed use facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2511.77490234375,
+        2506.10009765625,
+        1482.800048828125
+      ],
+      [
+        -1711.824951171875,
+        2893.89990234375,
+        1517.199951171875
+      ]
+    ],
+    "vertices": 8288
+  },
+  {
+    "name": "D_RIDGE mixed use arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2511.419921875,
+        2511.60009765625,
+        1474.5
+      ],
+      [
+        -1712.1800537109375,
+        2888.39990234375,
+        1482.5
+      ]
+    ],
+    "vertices": 672
+  },
+  {
+    "name": "D_RIDGE mixed use shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2519.0,
+        2502.5,
+        1482.0999755859375
+      ],
+      [
+        -1704.5999755859375,
+        2897.5,
+        1482.699951171875
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "D_RIDGE mixed use shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2512.300048828125,
+        2517.800048828125,
+        1474.75
+      ],
+      [
+        -1711.300048828125,
+        2882.199951171875,
+        1480.25
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "D_RIDGE mixed use shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2512.300048828125,
+        2517.39990234375,
+        1480.1500244140625
+      ],
+      [
+        -1711.300048828125,
+        2882.60009765625,
+        1480.449951171875
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "D_RIDGE mixed use entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2515.5,
+        2517.60009765625,
+        1480.800048828125
+      ],
+      [
+        -1708.0999755859375,
+        2882.39990234375,
+        1481.5999755859375
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "D_RIDGE underside basket arches",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2602.241455078125,
+        2331.8056640625,
+        1262.50048828125
+      ],
+      [
+        -1567.4615478515625,
+        3068.1943359375,
+        1430.9591064453125
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "D_RIDGE stepped civic library floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2305.0,
+        2844.5,
+        1587.6500244140625
+      ],
+      [
+        -1895.0,
+        2924.5,
+        1638.3499755859375
+      ]
+    ],
+    "vertices": 216
+  },
+  {
+    "name": "D_RIDGE stepped civic library private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2290.699951171875,
+        2858.10009765625,
+        1588.3499755859375
+      ],
+      [
+        -1909.300048828125,
+        2910.89990234375,
+        1637.449951171875
+      ]
+    ],
+    "vertices": 192
+  },
+  {
+    "name": "D_RIDGE stepped civic library facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2301.27490234375,
+        2844.800048828125,
+        1588.300048828125
+      ],
+      [
+        -1898.7249755859375,
+        2924.199951171875,
+        1637.699951171875
+      ]
+    ],
+    "vertices": 4608
+  },
+  {
+    "name": "D_RIDGE stepped civic library arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2297.699951171875,
+        2852.10009765625,
+        1580.0
+      ],
+      [
+        -1902.300048828125,
+        2916.89990234375,
+        1588.0
+      ]
+    ],
+    "vertices": 144
+  },
+  {
+    "name": "D_RIDGE stepped civic library shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2308.5,
+        2841.0,
+        1587.5999755859375
+      ],
+      [
+        -1891.5,
+        2928.0,
+        1588.199951171875
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "D_RIDGE stepped civic library shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2299.5,
+        2860.300048828125,
+        1580.25
+      ],
+      [
+        -1900.5,
+        2908.699951171875,
+        1585.75
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "D_RIDGE stepped civic library shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2299.5,
+        2859.89990234375,
+        1585.6500244140625
+      ],
+      [
+        -1900.5,
+        2909.10009765625,
+        1585.949951171875
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "D_RIDGE stepped civic library entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2305.0,
+        2860.10009765625,
+        1586.300048828125
+      ],
+      [
+        -1895.0,
+        2908.89990234375,
+        1587.0999755859375
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "E_OBSERVATORY occupied decks",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -9.910140037536621,
+        2852.5126953125,
+        1867.699951171875
+      ],
+      [
+        1169.9775390625,
+        3449.880126953125,
+        2010.0
+      ]
+    ],
+    "vertices": 4380
+  },
+  {
+    "name": "E_OBSERVATORY recessed bands",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        23.325254440307617,
+        2865.80615234375,
+        1882.5
+      ],
+      [
+        1142.7386474609375,
+        3431.08642578125,
+        2017.0
+      ]
+    ],
+    "vertices": 2920
+  },
+  {
+    "name": "E_OBSERVATORY interior boulevard",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        122.75,
+        2968.5,
+        1889.5
+      ],
+      [
+        1037.25,
+        3231.5,
+        1894.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "E_OBSERVATORY mixed use floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        163.5,
+        2930.0,
+        1902.1500244140625
+      ],
+      [
+        972.9000244140625,
+        3270.0,
+        1937.8499755859375
+      ]
+    ],
+    "vertices": 704
+  },
+  {
+    "name": "E_OBSERVATORY mixed use private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        172.0800018310547,
+        2940.199951171875,
+        1902.8499755859375
+      ],
+      [
+        964.3200073242188,
+        3259.800048828125,
+        1936.949951171875
+      ]
+    ],
+    "vertices": 592
+  },
+  {
+    "name": "E_OBSERVATORY mixed use facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        167.22500610351562,
+        2930.10009765625,
+        1902.800048828125
+      ],
+      [
+        969.1749877929688,
+        3269.89990234375,
+        1937.199951171875
+      ]
+    ],
+    "vertices": 8288
+  },
+  {
+    "name": "E_OBSERVATORY mixed use arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        167.72000122070312,
+        2935.60009765625,
+        1894.5
+      ],
+      [
+        968.6799926757812,
+        3264.39990234375,
+        1902.5
+      ]
+    ],
+    "vertices": 672
+  },
+  {
+    "name": "E_OBSERVATORY mixed use shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        160.0,
+        2926.5,
+        1902.0999755859375
+      ],
+      [
+        976.4000244140625,
+        3273.5,
+        1902.699951171875
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "E_OBSERVATORY mixed use shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        166.8000030517578,
+        2941.800048828125,
+        1894.75
+      ],
+      [
+        969.5999755859375,
+        3258.199951171875,
+        1900.25
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "E_OBSERVATORY mixed use shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        166.8000030517578,
+        2941.39990234375,
+        1900.1500244140625
+      ],
+      [
+        969.5999755859375,
+        3258.60009765625,
+        1900.449951171875
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "E_OBSERVATORY mixed use entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        163.5,
+        2941.60009765625,
+        1900.800048828125
+      ],
+      [
+        972.9000244140625,
+        3258.39990234375,
+        1901.5999755859375
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "E_OBSERVATORY underside basket arches",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        77.92035675048828,
+        2784.213134765625,
+        1682.50048828125
+      ],
+      [
+        1112.5384521484375,
+        3415.786865234375,
+        1850.9591064453125
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "E_OBSERVATORY civic canopy",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        365.0091857910156,
+        3167.0,
+        1934.6971435546875
+      ],
+      [
+        794.9908447265625,
+        3293.0,
+        2109.99609375
+      ]
+    ],
+    "vertices": 1536
+  },
+  {
+    "name": "F_CASCADE occupied decks",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3269.77783203125,
+        -1622.35791015625,
+        457.70001220703125
+      ],
+      [
+        -2135.09326171875,
+        -880.1825561523438,
+        630.0
+      ]
+    ],
+    "vertices": 5256
+  },
+  {
+    "name": "F_CASCADE recessed bands",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3245.302978515625,
+        -1613.360595703125,
+        472.5
+      ],
+      [
+        -2143.810546875,
+        -899.031982421875,
+        637.0
+      ]
+    ],
+    "vertices": 3504
+  },
+  {
+    "name": "F_CASCADE interior boulevard",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3141.75,
+        -1388.0999755859375,
+        479.5
+      ],
+      [
+        -2258.25,
+        -1111.9000244140625,
+        484.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "F_CASCADE mixed use floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3104.5,
+        -1428.0,
+        492.1499938964844
+      ],
+      [
+        -2318.300048828125,
+        -1072.0,
+        527.8499755859375
+      ]
+    ],
+    "vertices": 704
+  },
+  {
+    "name": "F_CASCADE mixed use private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3095.659912109375,
+        -1417.800048828125,
+        492.8500061035156
+      ],
+      [
+        -2327.139892578125,
+        -1082.199951171875,
+        526.9500122070312
+      ]
+    ],
+    "vertices": 592
+  },
+  {
+    "name": "F_CASCADE mixed use facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3100.77490234375,
+        -1427.9000244140625,
+        492.79998779296875
+      ],
+      [
+        -2322.02490234375,
+        -1072.0999755859375,
+        527.2000122070312
+      ]
+    ],
+    "vertices": 8288
+  },
+  {
+    "name": "F_CASCADE mixed use arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3100.139892578125,
+        -1422.4000244140625,
+        484.5
+      ],
+      [
+        -2322.659912109375,
+        -1077.5999755859375,
+        492.5
+      ]
+    ],
+    "vertices": 672
+  },
+  {
+    "name": "F_CASCADE mixed use shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3108.0,
+        -1431.5,
+        492.1000061035156
+      ],
+      [
+        -2314.800048828125,
+        -1068.5,
+        492.70001220703125
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "F_CASCADE mixed use shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3101.10009765625,
+        -1416.199951171875,
+        484.75
+      ],
+      [
+        -2321.699951171875,
+        -1083.800048828125,
+        490.25
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "F_CASCADE mixed use shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3101.10009765625,
+        -1416.5999755859375,
+        490.1499938964844
+      ],
+      [
+        -2321.699951171875,
+        -1083.4000244140625,
+        490.45001220703125
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "F_CASCADE mixed use entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3104.5,
+        -1416.4000244140625,
+        490.79998779296875
+      ],
+      [
+        -2318.300048828125,
+        -1083.5999755859375,
+        491.6000061035156
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "F_CASCADE underside basket arches",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -3185.447265625,
+        -1583.2149658203125,
+        272.5005798339844
+      ],
+      [
+        -2185.257568359375,
+        -916.7850341796875,
+        440.9272155761719
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "F_CASCADE stepped civic library floor",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2905.0,
+        -1123.5,
+        597.6500244140625
+      ],
+      [
+        -2495.0,
+        -1043.5,
+        648.3499755859375
+      ]
+    ],
+    "vertices": 216
+  },
+  {
+    "name": "F_CASCADE stepped civic library private core",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2890.699951171875,
+        -1109.9000244140625,
+        598.3499755859375
+      ],
+      [
+        -2509.300048828125,
+        -1057.0999755859375,
+        647.4500122070312
+      ]
+    ],
+    "vertices": 192
+  },
+  {
+    "name": "F_CASCADE stepped civic library facade fins",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2901.27490234375,
+        -1123.199951171875,
+        598.2999877929688
+      ],
+      [
+        -2498.72509765625,
+        -1043.800048828125,
+        647.7000122070312
+      ]
+    ],
+    "vertices": 4608
+  },
+  {
+    "name": "F_CASCADE stepped civic library arcade supports",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2897.699951171875,
+        -1115.9000244140625,
+        590.0
+      ],
+      [
+        -2502.300048828125,
+        -1051.0999755859375,
+        598.0
+      ]
+    ],
+    "vertices": 144
+  },
+  {
+    "name": "F_CASCADE stepped civic library shelter",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2908.5,
+        -1127.0,
+        597.5999755859375
+      ],
+      [
+        -2491.5,
+        -1040.0,
+        598.2000122070312
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "F_CASCADE stepped civic library shopfront",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2899.5,
+        -1107.699951171875,
+        590.25
+      ],
+      [
+        -2500.5,
+        -1059.300048828125,
+        595.75
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "F_CASCADE stepped civic library shop transom",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2899.5,
+        -1108.0999755859375,
+        595.6500244140625
+      ],
+      [
+        -2500.5,
+        -1058.9000244140625,
+        595.9500122070312
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "F_CASCADE stepped civic library entry lintel",
+    "group": "SIX_UNASSIGNED_SKY_STUDIES",
+    "bounds": [
+      [
+        -2905.0,
+        -1107.9000244140625,
+        596.2999877929688
+      ],
+      [
+        -2495.0,
+        -1059.0999755859375,
+        597.0999755859375
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "city fabric 0 floor",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -2407.1650390625,
+        38.44276428222656,
+        41.73615264892578
+      ],
+      [
+        -1784.1290283203125,
+        1146.362060546875,
+        137.2957305908203
+      ]
+    ],
+    "vertices": 5480
+  },
+  {
+    "name": "city fabric 0 private core",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -2398.02197265625,
+        50.744754791259766,
+        42.436153411865234
+      ],
+      [
+        -1793.4945068359375,
+        1134.1112060546875,
+        136.39573669433594
+      ]
+    ],
+    "vertices": 4920
+  },
+  {
+    "name": "city fabric 0 facade fins",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -2403.43994140625,
+        38.811859130859375,
+        42.38615417480469
+      ],
+      [
+        -1787.8564453125,
+        1145.9837646484375,
+        136.64573669433594
+      ]
+    ],
+    "vertices": 64576
+  },
+  {
+    "name": "city fabric 0 arcade supports",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -2402.641845703125,
+        45.240840911865234,
+        34.08615493774414
+      ],
+      [
+        -1788.774658203125,
+        1139.592529296875,
+        71.69232940673828
+      ]
+    ],
+    "vertices": 3360
+  },
+  {
+    "name": "city fabric 0 shelter",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -2410.6650390625,
+        34.78731155395508,
+        41.686153411865234
+      ],
+      [
+        -1780.5804443359375,
+        1150.02587890625,
+        71.892333984375
+      ]
+    ],
+    "vertices": 560
+  },
+  {
+    "name": "city fabric 0 shopfront",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -2403.6484375,
+        52.38784408569336,
+        34.33615493774414
+      ],
+      [
+        -1787.8599853515625,
+        1132.437744140625,
+        69.44232940673828
+      ]
+    ],
+    "vertices": 2240
+  },
+  {
+    "name": "city fabric 0 shop transom",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -2403.6484375,
+        51.988258361816406,
+        39.73615264892578
+      ],
+      [
+        -1787.8543701171875,
+        1132.8372802734375,
+        69.642333984375
+      ]
+    ],
+    "vertices": 2240
+  },
+  {
+    "name": "city fabric 0 entry lintel",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -2407.1650390625,
+        52.02871322631836,
+        40.38615417480469
+      ],
+      [
+        -1784.3189697265625,
+        1132.7777099609375,
+        70.7923355102539
+      ]
+    ],
+    "vertices": 1120
+  },
+  {
+    "name": "city fabric 1 floor",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        1644.9884033203125,
+        145.9734344482422,
+        8.073256492614746
+      ],
+      [
+        2175.559326171875,
+        1138.94140625,
+        143.92654418945312
+      ]
+    ],
+    "vertices": 4040
+  },
+  {
+    "name": "city fabric 1 private core",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        1653.5714111328125,
+        158.2674560546875,
+        8.773256301879883
+      ],
+      [
+        2165.65966796875,
+        1126.6695556640625,
+        143.02655029296875
+      ]
+    ],
+    "vertices": 3640
+  },
+  {
+    "name": "city fabric 1 facade fins",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        1648.71337890625,
+        146.342529296875,
+        8.72325611114502
+      ],
+      [
+        2171.828857421875,
+        1138.5723876953125,
+        143.27655029296875
+      ]
+    ],
+    "vertices": 46880
+  },
+  {
+    "name": "city fabric 1 arcade supports",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        1649.2100830078125,
+        152.76722717285156,
+        0.4232565462589264
+      ],
+      [
+        2170.619140625,
+        1132.1595458984375,
+        73.57654571533203
+      ]
+    ],
+    "vertices": 2400
+  },
+  {
+    "name": "city fabric 1 shelter",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        1641.4884033203125,
+        142.31797790527344,
+        8.023256301879883
+      ],
+      [
+        2179.222900390625,
+        1142.596923828125,
+        73.77654266357422
+      ]
+    ],
+    "vertices": 400
+  },
+  {
+    "name": "city fabric 1 shopfront",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        1648.28955078125,
+        159.9154510498047,
+        0.6732565760612488
+      ],
+      [
+        2171.3095703125,
+        1125.0079345703125,
+        71.32654571533203
+      ]
+    ],
+    "vertices": 1600
+  },
+  {
+    "name": "city fabric 1 shop transom",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        1648.28955078125,
+        159.515869140625,
+        6.073256492614746
+      ],
+      [
+        2171.328857421875,
+        1125.4075927734375,
+        71.52654266357422
+      ]
+    ],
+    "vertices": 1600
+  },
+  {
+    "name": "city fabric 1 entry lintel",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        1644.9884033203125,
+        159.55938720703125,
+        6.723256587982178
+      ],
+      [
+        2174.907470703125,
+        1125.35546875,
+        72.67654418945312
+      ]
+    ],
+    "vertices": 800
+  },
+  {
+    "name": "city fabric 2 floor",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -248.45262145996094,
+        2025.7869873046875,
+        37.35866928100586
+      ],
+      [
+        559.19580078125,
+        2559.0146484375,
+        206.0935821533203
+      ]
+    ],
+    "vertices": 3800
+  },
+  {
+    "name": "city fabric 2 private core",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -239.49493408203125,
+        2038.12890625,
+        38.05867004394531
+      ],
+      [
+        549.3864135742188,
+        2546.723876953125,
+        205.19357299804688
+      ]
+    ],
+    "vertices": 3440
+  },
+  {
+    "name": "city fabric 2 facade fins",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -244.7276153564453,
+        2026.1708984375,
+        38.008670806884766
+      ],
+      [
+        555.4654541015625,
+        2558.63623046875,
+        205.44357299804688
+      ]
+    ],
+    "vertices": 44576
+  },
+  {
+    "name": "city fabric 2 arcade supports",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -244.0292510986328,
+        2032.60498046875,
+        29.70867156982422
+      ],
+      [
+        554.3038330078125,
+        2552.2236328125,
+        153.00186157226562
+      ]
+    ],
+    "vertices": 2160
+  },
+  {
+    "name": "city fabric 2 shelter",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -251.95262145996094,
+        2022.1181640625,
+        37.30867004394531
+      ],
+      [
+        562.8645629882812,
+        2562.67822265625,
+        153.2018585205078
+      ]
+    ],
+    "vertices": 360
+  },
+  {
+    "name": "city fabric 2 shopfront",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -245.00735473632812,
+        2039.7457275390625,
+        29.95867156982422
+      ],
+      [
+        554.9669189453125,
+        2545.074951171875,
+        150.75186157226562
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "city fabric 2 shop transom",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -245.00735473632812,
+        2039.34619140625,
+        35.35866928100586
+      ],
+      [
+        554.9866943359375,
+        2545.474365234375,
+        150.9518585205078
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "city fabric 2 entry lintel",
+    "group": "SECONDARY_CITY_RESEARCH",
+    "bounds": [
+      [
+        -248.45262145996094,
+        2039.370361328125,
+        36.008670806884766
+      ],
+      [
+        558.5233154296875,
+        2545.43017578125,
+        152.1018524169922
+      ]
+    ],
+    "vertices": 720
+  },
+  {
+    "name": "twin conservatory floor",
+    "group": "FOUR_UNASSIGNED_LANDMARKS",
+    "bounds": [
+      [
+        2450.0,
+        -2725.0,
+        95.0
+      ],
+      [
+        3330.0,
+        -1895.0,
+        105.0
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "conservatory vaults",
+    "group": "FOUR_UNASSIGNED_LANDMARKS",
+    "bounds": [
+      [
+        2445.00341796875,
+        -2704.0,
+        99.81815338134766
+      ],
+      [
+        3334.99658203125,
+        -1911.0,
+        374.9890441894531
+      ]
+    ],
+    "vertices": 6144
+  },
+  {
+    "name": "sea sail floors",
+    "group": "FOUR_UNASSIGNED_LANDMARKS",
+    "bounds": [
+      [
+        3160.15087890625,
+        450.27813720703125,
+        127.0
+      ],
+      [
+        4040.0,
+        859.9819946289062,
+        655.0
+      ]
+    ],
+    "vertices": 4312
+  },
+  {
+    "name": "mountain sanctuary galleries",
+    "group": "FOUR_UNASSIGNED_LANDMARKS",
+    "bounds": [
+      [
+        1320.0888671875,
+        3440.177734375,
+        570.0756225585938
+      ],
+      [
+        2400.0,
+        3759.980224609375,
+        939.9639282226562
+      ]
+    ],
+    "vertices": 5904
+  },
+  {
+    "name": "south gateway inhabited pier",
+    "group": "FOUR_UNASSIGNED_LANDMARKS",
+    "bounds": [
+      [
+        -520.0,
+        -2790.0,
+        97.0
+      ],
+      [
+        520.0,
+        -2510.0,
+        562.0
+      ]
+    ],
+    "vertices": 5104
+  },
+  {
+    "name": "gateway rising lintel",
+    "group": "FOUR_UNASSIGNED_LANDMARKS",
+    "bounds": [
+      [
+        -356.68475341796875,
+        -2677.5,
+        510.7542419433594
+      ],
+      [
+        356.68475341796875,
+        -2622.5,
+        649.2457275390625
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "transit viaduct 0",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -14.0,
+        -2400.0,
+        99.0
+      ],
+      [
+        14.0,
+        -1700.0,
+        111.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "transit rails 0",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -7.5,
+        -2400.0,
+        112.4000015258789
+      ],
+      [
+        7.5,
+        -1700.0,
+        113.5999984741211
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "transit piers",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -2159.0,
+        -911.0,
+        20.523693084716797
+      ],
+      [
+        1509.0,
+        2311.0,
+        1292.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "transit viaduct 2",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -2709.288330078125,
+        86.05134582519531,
+        474.05999755859375
+      ],
+      [
+        -1246.863525390625,
+        711.1814575195312,
+        680.9750366210938
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "transit rails 2",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -2707.35888671875,
+        99.49288940429688,
+        487.406005859375
+      ],
+      [
+        -1242.8343505859375,
+        700.4215698242188,
+        683.5975341796875
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "transit viaduct 3",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        45.23427963256836,
+        1486.7952880859375,
+        1244.000244140625
+      ],
+      [
+        2052.301513671875,
+        2013.8095703125,
+        1271.0
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "transit rails 3",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        42.82612991333008,
+        1499.527099609375,
+        1257.4000244140625
+      ],
+      [
+        2057.082275390625,
+        2000.4931640625,
+        1273.5999755859375
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "transit viaduct 4",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -2113.499755859375,
+        1438.4669189453125,
+        994.15087890625
+      ],
+      [
+        -889.9141845703125,
+        2708.216552734375,
+        1480.58740234375
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "transit rails 4",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -2107.545166015625,
+        1449.532470703125,
+        1007.4151000976562
+      ],
+      [
+        -892.5742797851562,
+        2700.419189453125,
+        1483.5587158203125
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "transit viaduct 5",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -13.167654991149902,
+        1694.0775146484375,
+        1734.0311279296875
+      ],
+      [
+        593.1676025390625,
+        3105.92236328125,
+        1900.9688720703125
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "transit rails 5",
+    "group": "TRANSIT_RESEARCH",
+    "bounds": [
+      [
+        -7.485294818878174,
+        1699.752197265625,
+        1747.403076171875
+      ],
+      [
+        587.4852905273438,
+        3100.247802734375,
+        1903.596923828125
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "inhabited floor cells",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        849.0814208984375,
+        -476.452392578125,
+        103.0
+      ],
+      [
+        1157.0257568359375,
+        -431.4047546386719,
+        105.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "recessed private room bars",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        432.24908447265625,
+        -516.5,
+        105.62999725341797
+      ],
+      [
+        1110.1766357421875,
+        1326.5,
+        1398.239990234375
+      ]
+    ],
+    "vertices": 36948
+  },
+  {
+    "name": "raked inhabited facade pilasters",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        381.9969787597656,
+        -501.9761962890625,
+        103.7252426147461
+      ],
+      [
+        1157.92236328125,
+        1311.9761962890625,
+        1408.2747802734375
+      ]
+    ],
+    "vertices": 1284
+  },
+  {
+    "name": "pilaster bronze reveals",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        381.40960693359375,
+        -498.5762023925781,
+        104.6077651977539
+      ],
+      [
+        1158.509765625,
+        1308.576171875,
+        1407.3922119140625
+      ]
+    ],
+    "vertices": 1264
+  },
+  {
+    "name": "branching civic buttresses",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        593.818603515625,
+        -442.8382873535156,
+        101.62246704101562
+      ],
+      [
+        1185.5572509765625,
+        1255.00146484375,
+        1182.0921630859375
+      ]
+    ],
+    "vertices": 64
+  },
+  {
+    "name": "water commons sculpted rim",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        368.22210693359375,
+        -520.4769897460938,
+        92.0
+      ],
+      [
+        1171.837158203125,
+        1331.176513671875,
+        106.0
+      ]
+    ],
+    "vertices": 480
+  },
+  {
+    "name": "R29 tree trunks",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        364.5804138183594,
+        -335.375,
+        105.0
+      ],
+      [
+        834.8412475585938,
+        1145.375,
+        1032.1500244140625
+      ]
+    ],
+    "vertices": 360
+  },
+  {
+    "name": "R29 fine foliage",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        360.4554138183594,
+        -341.0,
+        111.75
+      ],
+      [
+        840.4662475585938,
+        1151.0,
+        1037.760009765625
+      ]
+    ],
+    "vertices": 2430
+  },
+  {
+    "name": "learning ground civic landscape",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        578.6328125,
+        -335.0,
+        337.0
+      ],
+      [
+        1092.5821533203125,
+        738.0,
+        345.0
+      ]
+    ],
+    "vertices": 124
+  },
+  {
+    "name": "learning ground sculpted rim",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        576.1751708984375,
+        -335.6273193359375,
+        332.0
+      ],
+      [
+        1095.0821533203125,
+        739.1280517578125,
+        346.0
+      ]
+    ],
+    "vertices": 480
+  },
+  {
+    "name": "sky garden sculpted rim",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        358.9375305175781,
+        -224.6999969482422,
+        637.0
+      ],
+      [
+        1066.299560546875,
+        1035.259521484375,
+        651.0
+      ]
+    ],
+    "vertices": 480
+  },
+  {
+    "name": "aerial station ground civic landscape",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        312.4991149902344,
+        -39.0,
+        797.0
+      ],
+      [
+        964.783935546875,
+        1163.5,
+        805.0
+      ]
+    ],
+    "vertices": 124
+  },
+  {
+    "name": "aerial station ground sculpted rim",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        310.0862121582031,
+        -39.71221160888672,
+        792.0
+      ],
+      [
+        967.283935546875,
+        1164.73876953125,
+        806.0
+      ]
+    ],
+    "vertices": 480
+  },
+  {
+    "name": "cloud archives civic landscape",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        387.7826843261719,
+        127.5,
+        1017.0
+      ],
+      [
+        843.3006591796875,
+        997.0,
+        1025.0
+      ]
+    ],
+    "vertices": 124
+  },
+  {
+    "name": "cloud archives sculpted rim",
+    "group": "R29_EAST_INHABITED_ESCARPMENT",
+    "bounds": [
+      [
+        385.3656311035156,
+        126.7327880859375,
+        1012.0
+      ],
+      [
+        845.7975463867188,
+        998.1825561523438,
+        1026.0
+      ]
+    ],
+    "vertices": 480
+  },
+  {
+    "name": "learning conservatory west roof",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        897.7445678710938,
+        -152.5,
+        352.79998779296875
+      ],
+      [
+        942.5,
+        102.5,
+        451.0073547363281
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "learning conservatory east roof",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        797.5,
+        -152.5,
+        352.79998779296875
+      ],
+      [
+        842.2554321289062,
+        102.5,
+        451.0073547363281
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "learning conservatory ribs",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        796.900634765625,
+        -152.89999389648438,
+        353.9728698730469
+      ],
+      [
+        943.099365234375,
+        102.9000015258789,
+        459.5973205566406
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "learning conservatory side gallery",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        798.9500122070312,
+        -152.5,
+        350.29998779296875
+      ],
+      [
+        941.0499877929688,
+        102.5,
+        363.0
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "learning conservatory gallery rail",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        830.7749633789062,
+        -152.5,
+        352.02001953125
+      ],
+      [
+        909.2250366210938,
+        102.5,
+        364.17999267578125
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "learning conservatory gallery rail posts",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        830.7899780273438,
+        -152.55999755859375,
+        351.0
+      ],
+      [
+        909.2100219726562,
+        102.55999755859375,
+        364.0999755859375
+      ]
+    ],
+    "vertices": 2496
+  },
+  {
+    "name": "learning conservatory books and exhibits",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        804.0,
+        -146.5,
+        351.0
+      ],
+      [
+        936.0,
+        98.5,
+        365.79998779296875
+      ]
+    ],
+    "vertices": 1008
+  },
+  {
+    "name": "learning conservatory shelf lips",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        803.9000244140625,
+        -146.5,
+        351.32501220703125
+      ],
+      [
+        936.0999755859375,
+        98.5,
+        365.07501220703125
+      ]
+    ],
+    "vertices": 3024
+  },
+  {
+    "name": "learning conservatory open colonnade",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        799.9000244140625,
+        -152.5,
+        345.0
+      ],
+      [
+        940.0999755859375,
+        100.5,
+        363.0
+      ]
+    ],
+    "vertices": 352
+  },
+  {
+    "name": "learning conservatory stairs",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        816.75,
+        -151.6699981689453,
+        345.0
+      ],
+      [
+        923.25,
+        -122.8499984741211,
+        363.0
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "commons reading tables",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        783.5,
+        -134.60000610351562,
+        345.70001220703125
+      ],
+      [
+        871.5,
+        668.5999755859375,
+        1025.8199462890625
+      ]
+    ],
+    "vertices": 160
+  },
+  {
+    "name": "table supports",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        783.739990234375,
+        -134.39999389648438,
+        345.0
+      ],
+      [
+        871.260009765625,
+        668.4000244140625,
+        1025.719970703125
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "commons seats",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        783.5999755859375,
+        -135.3249969482422,
+        345.364990234375
+      ],
+      [
+        871.4000244140625,
+        669.3250122070312,
+        1025.5150146484375
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "commons seat backs",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        783.5999755859375,
+        -135.3249969482422,
+        345.3999938964844
+      ],
+      [
+        871.4000244140625,
+        669.3250122070312,
+        1026.199951171875
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "sky archive cloister ground",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        732.5,
+        510.0,
+        1023.0
+      ],
+      [
+        837.5,
+        690.0,
+        1025.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "sky archive cloister west roof",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        805.0908813476562,
+        510.0,
+        1032.800048828125
+      ],
+      [
+        837.5,
+        690.0,
+        1107.910400390625
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "sky archive cloister east roof",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        732.5,
+        510.0,
+        1032.800048828125
+      ],
+      [
+        764.9091186523438,
+        690.0,
+        1107.910400390625
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "sky archive cloister ribs",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        731.9005737304688,
+        509.6000061035156,
+        1033.9742431640625
+      ],
+      [
+        838.0994262695312,
+        690.4000244140625,
+        1114.5970458984375
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "sky archive cloister side gallery",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        733.5499877929688,
+        510.0,
+        1030.300048828125
+      ],
+      [
+        836.4500122070312,
+        690.0,
+        1037.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "sky archive cloister gallery rail",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        756.5750122070312,
+        510.0,
+        1032.02001953125
+      ],
+      [
+        813.4249877929688,
+        690.0,
+        1038.179931640625
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "sky archive cloister gallery rail posts",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        756.5900268554688,
+        509.94000244140625,
+        1031.0
+      ],
+      [
+        813.4099731445312,
+        690.0599975585938,
+        1038.10009765625
+      ]
+    ],
+    "vertices": 1184
+  },
+  {
+    "name": "sky archive cloister books and exhibits",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        737.0,
+        515.5,
+        1031.0
+      ],
+      [
+        833.0,
+        676.5,
+        1039.800048828125
+      ]
+    ],
+    "vertices": 448
+  },
+  {
+    "name": "sky archive cloister shelf lips",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        736.9000244140625,
+        515.5,
+        1031.324951171875
+      ],
+      [
+        833.0999755859375,
+        676.5,
+        1039.074951171875
+      ]
+    ],
+    "vertices": 1344
+  },
+  {
+    "name": "sky archive cloister open colonnade",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        734.0999755859375,
+        509.5,
+        1025.0
+      ],
+      [
+        835.9000244140625,
+        690.5,
+        1043.0
+      ]
+    ],
+    "vertices": 256
+  },
+  {
+    "name": "sky archive cloister stairs",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        745.75,
+        510.8299865722656,
+        1025.0
+      ],
+      [
+        824.25,
+        530.0499877929688,
+        1037.0
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "estuary exchange floor",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        1035.0,
+        -447.5,
+        110.0
+      ],
+      [
+        1205.0,
+        -312.5,
+        159.0
+      ]
+    ],
+    "vertices": 72
+  },
+  {
+    "name": "estuary exchange private bars",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        1045.199951171875,
+        -440.5,
+        117.5
+      ],
+      [
+        1194.800048828125,
+        -319.5,
+        163.5
+      ]
+    ],
+    "vertices": 128
+  },
+  {
+    "name": "estuary exchange vertical frame",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        1038.5999755859375,
+        -449.5,
+        105.0
+      ],
+      [
+        1201.4000244140625,
+        -310.5,
+        161.0
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "R29 tree trunks.001",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        649.75,
+        -435.25,
+        161.0
+      ],
+      [
+        1120.25,
+        1102.25,
+        751.5
+      ]
+    ],
+    "vertices": 256
+  },
+  {
+    "name": "R29 fine foliage.001",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        646.0,
+        -439.0,
+        165.5
+      ],
+      [
+        1124.0,
+        1106.0,
+        756.5999755859375
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "craft court floor",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        845.0,
+        185.0,
+        110.0
+      ],
+      [
+        1055.0,
+        335.0,
+        189.0
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "craft court private bars",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        857.5999755859375,
+        192.0,
+        117.5
+      ],
+      [
+        1042.4000244140625,
+        328.0,
+        193.5
+      ]
+    ],
+    "vertices": 208
+  },
+  {
+    "name": "craft court vertical frame",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        849.7999877929688,
+        183.0,
+        105.0
+      ],
+      [
+        1050.199951171875,
+        337.0,
+        190.0
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "shared learning rooms floor",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        850.0,
+        220.0,
+        350.0
+      ],
+      [
+        1010.0,
+        420.0,
+        417.0
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "shared learning rooms private bars",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        859.5999755859375,
+        227.0,
+        357.5
+      ],
+      [
+        1000.4000244140625,
+        413.0,
+        421.5
+      ]
+    ],
+    "vertices": 176
+  },
+  {
+    "name": "shared learning rooms vertical frame",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        853.2999877929688,
+        218.0,
+        345.0
+      ],
+      [
+        1006.7000122070312,
+        422.0,
+        420.0
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "north dwelling court floor",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        560.0,
+        950.0,
+        655.0
+      ],
+      [
+        740.0,
+        1110.0,
+        740.0
+      ]
+    ],
+    "vertices": 120
+  },
+  {
+    "name": "north dwelling court private bars",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        570.7999877929688,
+        957.0,
+        662.5
+      ],
+      [
+        729.2000122070312,
+        1103.0,
+        744.5
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "north dwelling court vertical frame",
+    "group": "R29_LEARNING_AND_RESIDENTIAL_COMMONS",
+    "bounds": [
+      [
+        563.9000244140625,
+        948.0,
+        650.0
+      ],
+      [
+        736.0999755859375,
+        1112.0,
+        745.0
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "forum east raised street",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        155.0,
+        -760.0,
+        133.0
+      ],
+      [
+        390.0,
+        210.0,
+        139.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "forum garden ascent",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        186.0,
+        -1440.0,
+        103.80000305175781
+      ],
+      [
+        204.0,
+        -760.0,
+        139.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "forum garden ascent rail L",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        203.9250030517578,
+        -1440.0040283203125,
+        106.02009582519531
+      ],
+      [
+        204.0749969482422,
+        -759.9960327148438,
+        140.17990112304688
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "forum garden ascent rail L posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        203.94000244140625,
+        -1440.06005859375,
+        105.0
+      ],
+      [
+        204.05999755859375,
+        -759.9400024414062,
+        140.10000610351562
+      ]
+    ],
+    "vertices": 1096
+  },
+  {
+    "name": "forum garden ascent rail R",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        185.9250030517578,
+        -1440.0040283203125,
+        106.02009582519531
+      ],
+      [
+        186.0749969482422,
+        -759.9960327148438,
+        140.17990112304688
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "forum garden ascent rail R posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        185.94000244140625,
+        -1440.06005859375,
+        105.0
+      ],
+      [
+        186.05999755859375,
+        -759.9400024414062,
+        140.10000610351562
+      ]
+    ],
+    "vertices": 1096
+  },
+  {
+    "name": "forum terraced court",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        55.0,
+        -725.0,
+        104.0
+      ],
+      [
+        385.0,
+        195.0,
+        105.0
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "forum exchange -650 west roof",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        313.1774597167969,
+        -715.0,
+        146.8000030517578
+      ],
+      [
+        342.5,
+        -585.0,
+        179.4119110107422
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "forum exchange -650 east roof",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        247.5,
+        -715.0,
+        146.8000030517578
+      ],
+      [
+        276.8225402832031,
+        -585.0,
+        179.4119110107422
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "forum exchange -650 ribs",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        246.90249633789062,
+        -715.4000244140625,
+        147.94528198242188
+      ],
+      [
+        343.0975036621094,
+        -584.5999755859375,
+        182.59933471679688
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "forum exchange -650 side gallery",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        248.4499969482422,
+        -715.0,
+        144.3000030517578
+      ],
+      [
+        341.54998779296875,
+        -585.0,
+        151.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "forum exchange -650 gallery rail",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        269.2749938964844,
+        -715.0,
+        146.02000427246094
+      ],
+      [
+        320.7250061035156,
+        -585.0,
+        152.1800079345703
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "forum exchange -650 gallery rail posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        269.2900085449219,
+        -715.0599975585938,
+        145.0
+      ],
+      [
+        320.71002197265625,
+        -584.9400024414062,
+        152.10000610351562
+      ]
+    ],
+    "vertices": 864
+  },
+  {
+    "name": "forum exchange -650 books and exhibits",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        251.5,
+        -709.5,
+        145.0
+      ],
+      [
+        338.5,
+        -596.5,
+        153.8000030517578
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "forum exchange -650 shelf lips",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        251.39999389648438,
+        -709.5,
+        145.3249969482422
+      ],
+      [
+        338.6000061035156,
+        -596.5,
+        153.0749969482422
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "forum exchange -650 open colonnade",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        248.89999389648438,
+        -715.5,
+        139.0
+      ],
+      [
+        341.1000061035156,
+        -594.5,
+        157.0
+      ]
+    ],
+    "vertices": 176
+  },
+  {
+    "name": "forum exchange -650 stairs",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        259.25,
+        -714.1699829101562,
+        139.0
+      ],
+      [
+        330.75,
+        -694.9500122070312,
+        151.0
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "commons reading tables.001",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        293.5,
+        -1202.5999755859375,
+        105.69999694824219
+      ],
+      [
+        1311.5,
+        173.60000610351562,
+        139.82000732421875
+      ]
+    ],
+    "vertices": 248
+  },
+  {
+    "name": "table supports.001",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        293.739990234375,
+        -1202.4000244140625,
+        105.0
+      ],
+      [
+        1311.260009765625,
+        173.39999389648438,
+        139.72000122070312
+      ]
+    ],
+    "vertices": 496
+  },
+  {
+    "name": "commons seats.001",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        293.6000061035156,
+        -1203.324951171875,
+        105.36499786376953
+      ],
+      [
+        1311.4000244140625,
+        174.3249969482422,
+        139.51499938964844
+      ]
+    ],
+    "vertices": 496
+  },
+  {
+    "name": "commons seat backs.001",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        293.6000061035156,
+        -1203.324951171875,
+        105.4000015258789
+      ],
+      [
+        1311.4000244140625,
+        174.3249969482422,
+        140.1999969482422
+      ]
+    ],
+    "vertices": 496
+  },
+  {
+    "name": "R29 tree trunks.002",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        89.5999984741211,
+        -1320.3499755859375,
+        105.0
+      ],
+      [
+        1535.3499755859375,
+        180.27499389648438,
+        115.4000015258789
+      ]
+    ],
+    "vertices": 552
+  },
+  {
+    "name": "R29 fine foliage.002",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        83.5999984741211,
+        -1325.5999755859375,
+        110.4000015258789
+      ],
+      [
+        1540.5999755859375,
+        184.39999389648438,
+        123.55999755859375
+      ]
+    ],
+    "vertices": 3726
+  },
+  {
+    "name": "court return -650",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        71.0,
+        -610.0,
+        103.80000305175781
+      ],
+      [
+        79.0,
+        -440.0,
+        139.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return -650 rail L",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        78.92500305175781,
+        -610.0156860351562,
+        106.02155303955078
+      ],
+      [
+        79.07499694824219,
+        -439.98431396484375,
+        140.17845153808594
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return -650 rail L posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        78.94000244140625,
+        -610.0599975585938,
+        105.0
+      ],
+      [
+        79.05999755859375,
+        -439.94000244140625,
+        140.10000610351562
+      ]
+    ],
+    "vertices": 280
+  },
+  {
+    "name": "court return -650 rail R",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        70.92500305175781,
+        -610.0156860351562,
+        106.02155303955078
+      ],
+      [
+        71.07499694824219,
+        -439.98431396484375,
+        140.17845153808594
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return -650 rail R posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        70.94000244140625,
+        -610.0599975585938,
+        105.0
+      ],
+      [
+        71.05999755859375,
+        -439.94000244140625,
+        140.10000610351562
+      ]
+    ],
+    "vertices": 280
+  },
+  {
+    "name": "court upper landing",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        70.0,
+        -446.0,
+        137.0
+      ],
+      [
+        195.0,
+        340.0,
+        139.0
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "forum exchange -240 west roof",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        313.1774597167969,
+        -305.0,
+        146.8000030517578
+      ],
+      [
+        342.5,
+        -175.0,
+        179.4119110107422
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "forum exchange -240 east roof",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        247.5,
+        -305.0,
+        146.8000030517578
+      ],
+      [
+        276.8225402832031,
+        -175.0,
+        179.4119110107422
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "forum exchange -240 ribs",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        246.90249633789062,
+        -305.3999938964844,
+        147.94528198242188
+      ],
+      [
+        343.0975036621094,
+        -174.60000610351562,
+        182.59933471679688
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "forum exchange -240 side gallery",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        248.4499969482422,
+        -305.0,
+        144.3000030517578
+      ],
+      [
+        341.54998779296875,
+        -175.0,
+        151.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "forum exchange -240 gallery rail",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        269.2749938964844,
+        -305.0,
+        146.02000427246094
+      ],
+      [
+        320.7250061035156,
+        -175.0,
+        152.1800079345703
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "forum exchange -240 gallery rail posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        269.2900085449219,
+        -305.05999755859375,
+        145.0
+      ],
+      [
+        320.71002197265625,
+        -174.94000244140625,
+        152.10000610351562
+      ]
+    ],
+    "vertices": 864
+  },
+  {
+    "name": "forum exchange -240 books and exhibits",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        251.5,
+        -299.5,
+        145.0
+      ],
+      [
+        338.5,
+        -186.5,
+        153.8000030517578
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "forum exchange -240 shelf lips",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        251.39999389648438,
+        -299.5,
+        145.3249969482422
+      ],
+      [
+        338.6000061035156,
+        -186.5,
+        153.0749969482422
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "forum exchange -240 open colonnade",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        248.89999389648438,
+        -305.5,
+        139.0
+      ],
+      [
+        341.1000061035156,
+        -184.5,
+        157.0
+      ]
+    ],
+    "vertices": 176
+  },
+  {
+    "name": "forum exchange -240 stairs",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        259.25,
+        -304.1700134277344,
+        139.0
+      ],
+      [
+        330.75,
+        -284.95001220703125,
+        151.0
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "court return -240",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        71.0,
+        -200.0,
+        103.80000305175781
+      ],
+      [
+        79.0,
+        -30.0,
+        139.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return -240 rail L",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        78.92500305175781,
+        -200.01568603515625,
+        106.02155303955078
+      ],
+      [
+        79.07499694824219,
+        -29.984310150146484,
+        140.17845153808594
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return -240 rail L posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        78.94000244140625,
+        -200.05999755859375,
+        105.0
+      ],
+      [
+        79.05999755859375,
+        -29.940000534057617,
+        140.10000610351562
+      ]
+    ],
+    "vertices": 280
+  },
+  {
+    "name": "court return -240 rail R",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        70.92500305175781,
+        -200.01568603515625,
+        106.02155303955078
+      ],
+      [
+        71.07499694824219,
+        -29.984310150146484,
+        140.17845153808594
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return -240 rail R posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        70.94000244140625,
+        -200.05999755859375,
+        105.0
+      ],
+      [
+        71.05999755859375,
+        -29.940000534057617,
+        140.10000610351562
+      ]
+    ],
+    "vertices": 280
+  },
+  {
+    "name": "forum exchange 120 west roof",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        313.1774597167969,
+        55.0,
+        146.8000030517578
+      ],
+      [
+        342.5,
+        185.0,
+        179.4119110107422
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "forum exchange 120 east roof",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        247.5,
+        55.0,
+        146.8000030517578
+      ],
+      [
+        276.8225402832031,
+        185.0,
+        179.4119110107422
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "forum exchange 120 ribs",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        246.90249633789062,
+        54.599998474121094,
+        147.94528198242188
+      ],
+      [
+        343.0975036621094,
+        185.39999389648438,
+        182.59933471679688
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "forum exchange 120 side gallery",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        248.4499969482422,
+        55.0,
+        144.3000030517578
+      ],
+      [
+        341.54998779296875,
+        185.0,
+        151.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "forum exchange 120 gallery rail",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        269.2749938964844,
+        55.0,
+        146.02000427246094
+      ],
+      [
+        320.7250061035156,
+        185.0,
+        152.1800079345703
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "forum exchange 120 gallery rail posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        269.2900085449219,
+        54.939998626708984,
+        145.0
+      ],
+      [
+        320.71002197265625,
+        185.05999755859375,
+        152.10000610351562
+      ]
+    ],
+    "vertices": 864
+  },
+  {
+    "name": "forum exchange 120 books and exhibits",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        251.5,
+        60.5,
+        145.0
+      ],
+      [
+        338.5,
+        173.5,
+        153.8000030517578
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "forum exchange 120 shelf lips",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        251.39999389648438,
+        60.5,
+        145.3249969482422
+      ],
+      [
+        338.6000061035156,
+        173.5,
+        153.0749969482422
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "forum exchange 120 open colonnade",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        248.89999389648438,
+        54.5,
+        139.0
+      ],
+      [
+        341.1000061035156,
+        175.5,
+        157.0
+      ]
+    ],
+    "vertices": 176
+  },
+  {
+    "name": "forum exchange 120 stairs",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        259.25,
+        55.83000183105469,
+        139.0
+      ],
+      [
+        330.75,
+        75.05000305175781,
+        151.0
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "court return 120",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        71.0,
+        160.0,
+        103.80000305175781
+      ],
+      [
+        79.0,
+        330.0,
+        139.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return 120 rail L",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        78.92500305175781,
+        159.98431396484375,
+        106.02155303955078
+      ],
+      [
+        79.07499694824219,
+        330.01568603515625,
+        140.17845153808594
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return 120 rail L posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        78.94000244140625,
+        159.94000244140625,
+        105.0
+      ],
+      [
+        79.05999755859375,
+        330.05999755859375,
+        140.10000610351562
+      ]
+    ],
+    "vertices": 280
+  },
+  {
+    "name": "court return 120 rail R",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        70.92500305175781,
+        159.98431396484375,
+        106.02155303955078
+      ],
+      [
+        71.07499694824219,
+        330.01568603515625,
+        140.17845153808594
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "court return 120 rail R posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        70.94000244140625,
+        159.94000244140625,
+        105.0
+      ],
+      [
+        71.05999755859375,
+        330.05999755859375,
+        140.10000610351562
+      ]
+    ],
+    "vertices": 280
+  },
+  {
+    "name": "garden beds",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        312.5,
+        -1284.0,
+        105.0
+      ],
+      [
+        347.5,
+        204.0,
+        106.19999694824219
+      ]
+    ],
+    "vertices": 136
+  },
+  {
+    "name": "sea street columns",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        639.4000244140625,
+        -1125.5999755859375,
+        105.0
+      ],
+      [
+        1090.5999755859375,
+        -94.4000015258789,
+        123.0
+      ]
+    ],
+    "vertices": 768
+  },
+  {
+    "name": "sea street canopy",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        640.0,
+        -1141.0,
+        123.25
+      ],
+      [
+        1110.0,
+        -79.0,
+        124.75
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "reading gallery accessible research ramp",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        675.0,
+        -1280.0,
+        103.80000305175781
+      ],
+      [
+        685.0,
+        -1000.0,
+        119.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "reading gallery accessible research ramp rail L",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        684.9249877929688,
+        -1280.0040283203125,
+        106.02009582519531
+      ],
+      [
+        685.0750122070312,
+        -999.9960327148438,
+        120.17990112304688
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "reading gallery accessible research ramp rail L posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        684.9400024414062,
+        -1280.06005859375,
+        105.0
+      ],
+      [
+        685.0599975585938,
+        -999.9400024414062,
+        120.10000610351562
+      ]
+    ],
+    "vertices": 456
+  },
+  {
+    "name": "reading gallery accessible research ramp rail R",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        674.9249877929688,
+        -1280.0040283203125,
+        106.02009582519531
+      ],
+      [
+        675.0750122070312,
+        -999.9960327148438,
+        120.17990112304688
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "reading gallery accessible research ramp rail R posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        674.9400024414062,
+        -1280.06005859375,
+        105.0
+      ],
+      [
+        675.0599975585938,
+        -999.9400024414062,
+        120.10000610351562
+      ]
+    ],
+    "vertices": 456
+  },
+  {
+    "name": "reading ramp top landing",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        675.0,
+        -1005.0,
+        117.80000305175781
+      ],
+      [
+        710.0,
+        -990.0,
+        119.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "waterfront exchange hall west roof",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1342.528076171875,
+        -1220.0,
+        112.80000305175781
+      ],
+      [
+        1395.0,
+        -940.0,
+        164.81336975097656
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "waterfront exchange hall east roof",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1225.0,
+        -1220.0,
+        112.80000305175781
+      ],
+      [
+        1277.471923828125,
+        -940.0,
+        164.81336975097656
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "waterfront exchange hall ribs",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1224.403076171875,
+        -1220.4000244140625,
+        113.93953704833984
+      ],
+      [
+        1395.596923828125,
+        -939.5999755859375,
+        169.59945678710938
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "waterfront exchange hall side gallery",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1226.699951171875,
+        -1220.0,
+        110.30000305175781
+      ],
+      [
+        1393.300048828125,
+        -940.0,
+        117.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "waterfront exchange hall gallery rail",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1264.0250244140625,
+        -1220.0,
+        112.0199966430664
+      ],
+      [
+        1355.9749755859375,
+        -940.0,
+        118.18000030517578
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "waterfront exchange hall gallery rail posts",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1264.0399169921875,
+        -1220.06005859375,
+        111.0
+      ],
+      [
+        1355.960205078125,
+        -939.9400024414062,
+        118.10000610351562
+      ]
+    ],
+    "vertices": 1824
+  },
+  {
+    "name": "waterfront exchange hall books and exhibits",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1232.75,
+        -1214.5,
+        111.0
+      ],
+      [
+        1387.25,
+        -945.5,
+        119.80000305175781
+      ]
+    ],
+    "vertices": 736
+  },
+  {
+    "name": "waterfront exchange hall shelf lips",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1232.6500244140625,
+        -1214.5,
+        111.32499694824219
+      ],
+      [
+        1387.3499755859375,
+        -945.5,
+        119.07499694824219
+      ]
+    ],
+    "vertices": 2208
+  },
+  {
+    "name": "waterfront exchange hall open colonnade",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1227.9000244140625,
+        -1220.5,
+        105.0
+      ],
+      [
+        1392.0999755859375,
+        -943.5,
+        123.0
+      ]
+    ],
+    "vertices": 384
+  },
+  {
+    "name": "waterfront exchange hall stairs",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1248.0,
+        -1219.1700439453125,
+        105.0
+      ],
+      [
+        1372.0,
+        -1199.949951171875,
+        117.0
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "sea promenade seats",
+    "group": "R29_FORUM_CITY_SEQUENCE",
+    "bounds": [
+      [
+        1510.5,
+        -1320.699951171875,
+        105.0
+      ],
+      [
+        1519.5,
+        -604.2999877929688,
+        105.9000015258789
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "R29_SKY_GARDEN_FLOOR",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        361.3753662109375,
+        -520.0,
+        640.0
+      ],
+      [
+        1370.0,
+        1034.0,
+        650.0
+      ]
+    ],
+    "vertices": 147
+  },
+  {
+    "name": "R29_CENTRAL_ARRIVAL_FLOOR",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1000.0,
+        -540.0,
+        798.0
+      ],
+      [
+        1450.0,
+        -235.0,
+        805.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "R29_PROMENADE_JOIN",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        820.0,
+        160.0,
+        644.0
+      ],
+      [
+        1080.0,
+        260.0,
+        650.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "aerial civic terminal west roof",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1308.142822265625,
+        -530.0,
+        812.7999877929688
+      ],
+      [
+        1410.0,
+        -250.0,
+        889.7581176757812
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "aerial civic terminal east roof",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1080.0,
+        -530.0,
+        812.7999877929688
+      ],
+      [
+        1181.857177734375,
+        -250.0,
+        889.7581176757812
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "aerial civic terminal ribs",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1079.4051513671875,
+        -530.4000244140625,
+        813.9215698242188
+      ],
+      [
+        1410.5948486328125,
+        -249.60000610351562,
+        896.5996704101562
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "aerial civic terminal side gallery",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1083.300048828125,
+        -530.0,
+        810.2999877929688
+      ],
+      [
+        1406.699951171875,
+        -250.0,
+        817.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "aerial civic terminal gallery rail",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1155.8250732421875,
+        -530.0,
+        812.0199584960938
+      ],
+      [
+        1334.1749267578125,
+        -250.0,
+        818.1799926757812
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "aerial civic terminal gallery rail posts",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1155.8399658203125,
+        -530.0599975585938,
+        811.0
+      ],
+      [
+        1334.16015625,
+        -249.94000244140625,
+        818.0999755859375
+      ]
+    ],
+    "vertices": 1824
+  },
+  {
+    "name": "aerial civic terminal books and exhibits",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1095.75,
+        -524.5,
+        811.0
+      ],
+      [
+        1394.25,
+        -255.5,
+        819.7999877929688
+      ]
+    ],
+    "vertices": 736
+  },
+  {
+    "name": "aerial civic terminal shelf lips",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1095.6500244140625,
+        -524.5,
+        811.3250122070312
+      ],
+      [
+        1394.3499755859375,
+        -255.5,
+        819.0750122070312
+      ]
+    ],
+    "vertices": 2208
+  },
+  {
+    "name": "aerial civic terminal open colonnade",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1086.0999755859375,
+        -530.5,
+        805.0
+      ],
+      [
+        1403.9000244140625,
+        -253.5,
+        823.0
+      ]
+    ],
+    "vertices": 384
+  },
+  {
+    "name": "aerial civic terminal stairs",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1127.0,
+        -529.1699829101562,
+        805.0
+      ],
+      [
+        1363.0,
+        -509.95001220703125,
+        817.0
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "commons reading tables.002",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1118.5,
+        -512.5999755859375,
+        650.7000122070312
+      ],
+      [
+        1246.5,
+        -101.4000015258789,
+        805.8200073242188
+      ]
+    ],
+    "vertices": 160
+  },
+  {
+    "name": "table supports.002",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1118.739990234375,
+        -512.4000244140625,
+        650.0
+      ],
+      [
+        1246.260009765625,
+        -101.5999984741211,
+        805.719970703125
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "commons seats.002",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1118.5999755859375,
+        -513.3250122070312,
+        650.364990234375
+      ],
+      [
+        1246.4000244140625,
+        -100.67500305175781,
+        805.5150146484375
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "commons seat backs.002",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1118.5999755859375,
+        -513.3250122070312,
+        650.4000244140625
+      ],
+      [
+        1246.4000244140625,
+        -100.67500305175781,
+        806.2000122070312
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "outlook reading room west roof",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1021.4142456054688,
+        -249.79348754882812,
+        657.7999877929688
+      ],
+      [
+        1183.1741943359375,
+        -149.0357208251953,
+        697.8029174804688
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "outlook reading room east roof",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1056.8258056640625,
+        -170.9642791748047,
+        657.7999877929688
+      ],
+      [
+        1218.5858154296875,
+        -70.20651245117188,
+        697.8029174804688
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "outlook reading room ribs",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1020.8046264648438,
+        -250.5021209716797,
+        658.9417724609375
+      ],
+      [
+        1219.1953125,
+        -69.49787902832031,
+        701.5994262695312
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "outlook reading room side gallery",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1021.9264526367188,
+        -248.65325927734375,
+        655.2999877929688
+      ],
+      [
+        1218.0736083984375,
+        -71.34674835205078,
+        662.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "outlook reading room gallery rail",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1033.1644287109375,
+        -223.63644409179688,
+        657.0199584960938
+      ],
+      [
+        1206.8355712890625,
+        -96.3635482788086,
+        663.1799926757812
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "outlook reading room gallery rail posts",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1033.1158447265625,
+        -223.64739990234375,
+        656.0
+      ],
+      [
+        1206.8841552734375,
+        -96.35260009765625,
+        663.0999755859375
+      ]
+    ],
+    "vertices": 1056
+  },
+  {
+    "name": "outlook reading room books and exhibits",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1028.68505859375,
+        -242.522705078125,
+        656.0
+      ],
+      [
+        1211.31494140625,
+        -77.47728729248047,
+        664.7999877929688
+      ]
+    ],
+    "vertices": 416
+  },
+  {
+    "name": "outlook reading room shelf lips",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1028.64404296875,
+        -242.61392211914062,
+        656.3250122070312
+      ],
+      [
+        1211.35595703125,
+        -77.38607025146484,
+        664.0750122070312
+      ]
+    ],
+    "vertices": 1248
+  },
+  {
+    "name": "outlook reading room open colonnade",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1021.7776489257812,
+        -246.534912109375,
+        650.0
+      ],
+      [
+        1214.5736083984375,
+        -71.82600402832031,
+        668.0
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "outlook reading room stairs",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1028.830078125,
+        -177.62289428710938,
+        650.0
+      ],
+      [
+        1084.2662353515625,
+        -85.36968231201172,
+        662.0
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "R29 tree trunks.003",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        759.6500244140625,
+        -455.3500061035156,
+        650.0
+      ],
+      [
+        1340.3499755859375,
+        40.349998474121094,
+        659.0999755859375
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "R29 fine foliage.003",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        754.4000244140625,
+        -460.6000061035156,
+        656.2999877929688
+      ],
+      [
+        1345.5999755859375,
+        45.599998474121094,
+        666.239990234375
+      ]
+    ],
+    "vertices": 648
+  },
+  {
+    "name": "lift landing 105",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1090.0,
+        -310.0,
+        102.0
+      ],
+      [
+        1170.0,
+        -250.0,
+        105.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "lift door jamb",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1109.5,
+        -264.5,
+        105.0
+      ],
+      [
+        1150.5,
+        -263.5,
+        811.0
+      ]
+    ],
+    "vertices": 64
+  },
+  {
+    "name": "lift door lintel",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1109.0,
+        -264.5,
+        110.5
+      ],
+      [
+        1151.0,
+        -263.5,
+        811.5
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "lift landing 345",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1090.0,
+        -310.0,
+        342.0
+      ],
+      [
+        1170.0,
+        -250.0,
+        345.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "lift landing 650",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1090.0,
+        -310.0,
+        647.0
+      ],
+      [
+        1170.0,
+        -250.0,
+        650.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "lift landing 805",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1090.0,
+        -310.0,
+        802.0
+      ],
+      [
+        1170.0,
+        -250.0,
+        805.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "lift guide cage",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1103.0,
+        -305.0,
+        100.0
+      ],
+      [
+        1157.0,
+        -277.0,
+        810.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "visible research lift car",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1107.0,
+        -302.0,
+        104.05000305175781
+      ],
+      [
+        1153.0,
+        -280.0,
+        805.0499877929688
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "lift car side glazing",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1107.8499755859375,
+        -302.0,
+        105.0
+      ],
+      [
+        1152.1500244140625,
+        -280.0,
+        810.0
+      ]
+    ],
+    "vertices": 48
+  },
+  {
+    "name": "lift car roof",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1107.0,
+        -302.0,
+        109.69999694824219
+      ],
+      [
+        1153.0,
+        -280.0,
+        810.2999877929688
+      ]
+    ],
+    "vertices": 24
+  },
+  {
+    "name": "R29_SKY_WALK",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1363.7403564453125,
+        -777.0,
+        803.2999877929688
+      ],
+      [
+        1900.0,
+        -475.018310546875,
+        805.0
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "R29_SKY_WALK rail L",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1363.681640625,
+        -777.0750122070312,
+        805.5199584960938
+      ],
+      [
+        1900.0001220703125,
+        -484.93499755859375,
+        806.1799926757812
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "R29_SKY_WALK rail L posts",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1363.6802978515625,
+        -777.0599975585938,
+        804.5
+      ],
+      [
+        1900.06005859375,
+        -484.92169189453125,
+        806.0999755859375
+      ]
+    ],
+    "vertices": 1080
+  },
+  {
+    "name": "R29_SKY_WALK rail R",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1376.200927734375,
+        -764.0650024414062,
+        805.5199584960938
+      ],
+      [
+        1900.0001220703125,
+        -474.97161865234375,
+        806.1799926757812
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "R29_SKY_WALK rail R posts",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1376.1995849609375,
+        -764.0783081054688,
+        804.5
+      ],
+      [
+        1900.06005859375,
+        -474.95831298828125,
+        806.0999755859375
+      ]
+    ],
+    "vertices": 1080
+  },
+  {
+    "name": "sky transit service deck",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1339.484375,
+        -808.0,
+        803.2999877929688
+      ],
+      [
+        1900.0,
+        -490.58612060546875,
+        805.0
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "sky transit service deck rail L",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1339.4256591796875,
+        -808.0750122070312,
+        805.5199584960938
+      ],
+      [
+        1900.0001220703125,
+        -504.23907470703125,
+        806.1799926757812
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "sky transit service deck rail L posts",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1339.42431640625,
+        -808.0599975585938,
+        804.5
+      ],
+      [
+        1900.06005859375,
+        -504.22576904296875,
+        806.0999755859375
+      ]
+    ],
+    "vertices": 1080
+  },
+  {
+    "name": "sky transit service deck rail R",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1356.6395263671875,
+        -786.0750122070312,
+        805.5199584960938
+      ],
+      [
+        1900.0001220703125,
+        -490.5394287109375,
+        806.1799926757812
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "sky transit service deck rail R posts",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1356.63818359375,
+        -786.0599975585938,
+        804.5
+      ],
+      [
+        1900.06005859375,
+        -490.526123046875,
+        806.0999755859375
+      ]
+    ],
+    "vertices": 1080
+  },
+  {
+    "name": "twin vehicle guideways",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1343.2010498046875,
+        -803.25,
+        804.7000122070312
+      ],
+      [
+        1900.0003662109375,
+        -493.54400634765625,
+        805.7000122070312
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "sky bridge web",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1361.1624755859375,
+        -779.8986206054688,
+        748.7005615234375
+      ],
+      [
+        1900.5999755859375,
+        -472.7945556640625,
+        803.8771362304688
+      ]
+    ],
+    "vertices": 224
+  },
+  {
+    "name": "sky bridge suspended bow",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1360.53564453125,
+        -780.5,
+        746.7540283203125
+      ],
+      [
+        1900.8875732421875,
+        -472.2530822753906,
+        798.8546142578125
+      ]
+    ],
+    "vertices": 384
+  },
+  {
+    "name": "vehicle turn connecting deck",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1573.313720703125,
+        -806.9082641601562,
+        803.7999877929688
+      ],
+      [
+        1604.777587890625,
+        -776.5276489257812,
+        805.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "vehicle turn connecting deck rail L",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1573.2811279296875,
+        -806.975830078125,
+        806.0199584960938
+      ],
+      [
+        1595.2550048828125,
+        -796.276611328125,
+        806.1799926757812
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "vehicle turn connecting deck rail L posts",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1573.253662109375,
+        -806.96826171875,
+        805.0
+      ],
+      [
+        1595.282470703125,
+        -796.2841796875,
+        806.0999755859375
+      ]
+    ],
+    "vertices": 40
+  },
+  {
+    "name": "vehicle turn connecting deck rail R",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1582.8363037109375,
+        -787.1593017578125,
+        806.0199584960938
+      ],
+      [
+        1604.8101806640625,
+        -776.4600830078125,
+        806.1799926757812
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "vehicle turn connecting deck rail R posts",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1582.808837890625,
+        -787.1517333984375,
+        805.0
+      ],
+      [
+        1604.837646484375,
+        -776.4676513671875,
+        806.0999755859375
+      ]
+    ],
+    "vertices": 40
+  },
+  {
+    "name": "vehicle corner guideway links",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1573.2879638671875,
+        -803.2251586914062,
+        805.2000122070312
+      ],
+      [
+        1600.108642578125,
+        -782.4744873046875,
+        805.7000122070312
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "transit vehicle body",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1446.893310546875,
+        -801.0,
+        805.5
+      ],
+      [
+        1771.0,
+        -622.9776000976562,
+        812.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "transit vehicle glazing",
+    "group": "R29_AERIAL_GATE_AND_LIFTS",
+    "bounds": [
+      [
+        1449.2276611328125,
+        -801.2000122070312,
+        808.5
+      ],
+      [
+        1767.0,
+        -631.0890502929688,
+        811.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "R29_B_ARRIVAL_FLOOR",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1570.0,
+        -830.0,
+        799.5
+      ],
+      [
+        2100.0,
+        -710.0,
+        804.5
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "B harbor station west roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1777.0042724609375,
+        -904.0,
+        812.2999877929688
+      ],
+      [
+        1812.5,
+        -634.0,
+        853.226806640625
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "B harbor station east roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1697.5,
+        -904.0,
+        812.2999877929688
+      ],
+      [
+        1732.9957275390625,
+        -634.0,
+        853.226806640625
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "B harbor station ribs",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1696.90234375,
+        -904.4000244140625,
+        813.4476318359375
+      ],
+      [
+        1813.09765625,
+        -633.5999755859375,
+        857.0993041992188
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "B harbor station side gallery",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1698.6500244140625,
+        -904.0,
+        809.7999877929688
+      ],
+      [
+        1811.3499755859375,
+        -634.0,
+        816.5
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "B harbor station gallery rail",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1723.875,
+        -904.0,
+        811.5199584960938
+      ],
+      [
+        1786.125,
+        -634.0,
+        817.6799926757812
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "B harbor station gallery rail posts",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1723.889892578125,
+        -904.0599975585938,
+        810.5
+      ],
+      [
+        1786.110107421875,
+        -633.9400024414062,
+        817.5999755859375
+      ]
+    ],
+    "vertices": 1760
+  },
+  {
+    "name": "B harbor station books and exhibits",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1702.5,
+        -898.5,
+        810.5
+      ],
+      [
+        1807.5,
+        -641.5,
+        819.2999877929688
+      ]
+    ],
+    "vertices": 704
+  },
+  {
+    "name": "B harbor station shelf lips",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1702.4000244140625,
+        -898.5,
+        810.8250122070312
+      ],
+      [
+        1807.5999755859375,
+        -641.5,
+        818.5750122070312
+      ]
+    ],
+    "vertices": 2112
+  },
+  {
+    "name": "B harbor station open colonnade",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1699.300048828125,
+        -904.5,
+        804.5
+      ],
+      [
+        1810.699951171875,
+        -639.5,
+        822.5
+      ]
+    ],
+    "vertices": 368
+  },
+  {
+    "name": "B harbor station stairs",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1712.25,
+        -903.1699829101562,
+        804.5
+      ],
+      [
+        1797.75,
+        -883.9500122070312,
+        816.5
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "commons reading tables.003",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1753.5,
+        -886.5999755859375,
+        805.2000122070312
+      ],
+      [
+        2441.5,
+        -301.3999938964844,
+        805.3200073242188
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "table supports.003",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1753.739990234375,
+        -886.4000244140625,
+        804.5
+      ],
+      [
+        2441.260009765625,
+        -301.6000061035156,
+        805.219970703125
+      ]
+    ],
+    "vertices": 640
+  },
+  {
+    "name": "commons seats.003",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1753.5999755859375,
+        -887.3250122070312,
+        804.864990234375
+      ],
+      [
+        2441.39990234375,
+        -300.67498779296875,
+        805.0150146484375
+      ]
+    ],
+    "vertices": 640
+  },
+  {
+    "name": "commons seat backs.003",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1753.5999755859375,
+        -887.3250122070312,
+        804.9000244140625
+      ],
+      [
+        2441.39990234375,
+        -300.67498779296875,
+        805.7000122070312
+      ]
+    ],
+    "vertices": 640
+  },
+  {
+    "name": "harbor civic court 0 ground",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1955.0,
+        -560.0,
+        802.5
+      ],
+      [
+        2085.0,
+        -370.0,
+        804.5
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "harbor civic court 0 west roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2044.8743896484375,
+        -560.0,
+        812.2999877929688
+      ],
+      [
+        2085.0,
+        -370.0,
+        873.5521850585938
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "harbor civic court 0 east roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1955.0,
+        -560.0,
+        812.2999877929688
+      ],
+      [
+        1995.1256103515625,
+        -370.0,
+        873.5521850585938
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "harbor civic court 0 ribs",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1954.4012451171875,
+        -560.4000244140625,
+        813.4607543945312
+      ],
+      [
+        2085.5986328125,
+        -369.6000061035156,
+        879.0986938476562
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "harbor civic court 0 side gallery",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1956.300048828125,
+        -560.0,
+        809.7999877929688
+      ],
+      [
+        2083.699951171875,
+        -370.0,
+        816.5
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "harbor civic court 0 gallery rail",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1984.8250732421875,
+        -560.0,
+        811.5199584960938
+      ],
+      [
+        2055.175048828125,
+        -370.0,
+        817.6799926757812
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "harbor civic court 0 gallery rail posts",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1984.83984375,
+        -560.0599975585938,
+        810.5
+      ],
+      [
+        2055.16015625,
+        -369.94000244140625,
+        817.5999755859375
+      ]
+    ],
+    "vertices": 1248
+  },
+  {
+    "name": "harbor civic court 0 books and exhibits",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1960.75,
+        -554.5,
+        810.5
+      ],
+      [
+        2079.25,
+        -381.5,
+        819.2999877929688
+      ]
+    ],
+    "vertices": 480
+  },
+  {
+    "name": "harbor civic court 0 shelf lips",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1960.6500244140625,
+        -554.5,
+        810.8250122070312
+      ],
+      [
+        2079.35009765625,
+        -381.5,
+        818.5750122070312
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "harbor civic court 0 open colonnade",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1957.0999755859375,
+        -560.5,
+        804.5
+      ],
+      [
+        2082.89990234375,
+        -379.5,
+        822.5
+      ]
+    ],
+    "vertices": 256
+  },
+  {
+    "name": "harbor civic court 0 stairs",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1972.0,
+        -559.1699829101562,
+        804.5
+      ],
+      [
+        2068.0,
+        -539.9500122070312,
+        816.5
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "harbor inhabited comb 0",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1945.0,
+        -375.0,
+        803.2999877929688
+      ],
+      [
+        2117.0,
+        -305.0,
+        870.5
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "harbor private rooms",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1957.5,
+        -364.0,
+        805.25
+      ],
+      [
+        2540.5,
+        -236.0,
+        923.75
+      ]
+    ],
+    "vertices": 384
+  },
+  {
+    "name": "harbor civic court 1 ground",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2165.0,
+        -520.0,
+        802.5
+      ],
+      [
+        2295.0,
+        -330.0,
+        804.5
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "harbor civic court 1 west roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2254.87451171875,
+        -520.0,
+        812.2999877929688
+      ],
+      [
+        2295.0,
+        -330.0,
+        892.02978515625
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "harbor civic court 1 east roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2165.0,
+        -520.0,
+        812.2999877929688
+      ],
+      [
+        2205.12548828125,
+        -330.0,
+        892.02978515625
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "harbor civic court 1 ribs",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2164.400634765625,
+        -520.4000244140625,
+        813.469970703125
+      ],
+      [
+        2295.599365234375,
+        -329.6000061035156,
+        899.0977783203125
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "harbor civic court 1 side gallery",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2166.300048828125,
+        -520.0,
+        809.7999877929688
+      ],
+      [
+        2293.699951171875,
+        -330.0,
+        816.5
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "harbor civic court 1 gallery rail",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2194.824951171875,
+        -520.0,
+        811.5199584960938
+      ],
+      [
+        2265.175048828125,
+        -330.0,
+        817.6799926757812
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "harbor civic court 1 gallery rail posts",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2194.83984375,
+        -520.0599975585938,
+        810.5
+      ],
+      [
+        2265.16015625,
+        -329.94000244140625,
+        817.5999755859375
+      ]
+    ],
+    "vertices": 1248
+  },
+  {
+    "name": "harbor civic court 1 books and exhibits",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2170.75,
+        -514.5,
+        810.5
+      ],
+      [
+        2289.25,
+        -341.5,
+        819.2999877929688
+      ]
+    ],
+    "vertices": 480
+  },
+  {
+    "name": "harbor civic court 1 shelf lips",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2170.64990234375,
+        -514.5,
+        810.8250122070312
+      ],
+      [
+        2289.35009765625,
+        -341.5,
+        818.5750122070312
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "harbor civic court 1 open colonnade",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2167.10009765625,
+        -520.5,
+        804.5
+      ],
+      [
+        2292.89990234375,
+        -339.5,
+        822.5
+      ]
+    ],
+    "vertices": 256
+  },
+  {
+    "name": "harbor civic court 1 stairs",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2182.0,
+        -519.1699829101562,
+        804.5
+      ],
+      [
+        2278.0,
+        -499.95001220703125,
+        816.5
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "harbor inhabited comb 1",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2155.0,
+        -335.0,
+        803.2999877929688
+      ],
+      [
+        2335.0,
+        -265.0,
+        894.5
+      ]
+    ],
+    "vertices": 128
+  },
+  {
+    "name": "harbor civic court 2 ground",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2375.0,
+        -480.0,
+        802.5
+      ],
+      [
+        2505.0,
+        -290.0,
+        804.5
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "harbor civic court 2 west roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2464.87451171875,
+        -480.0,
+        812.2999877929688
+      ],
+      [
+        2505.0,
+        -290.0,
+        910.50732421875
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "harbor civic court 2 east roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2375.0,
+        -480.0,
+        812.2999877929688
+      ],
+      [
+        2415.12548828125,
+        -290.0,
+        910.50732421875
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "harbor civic court 2 ribs",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2374.400390625,
+        -480.3999938964844,
+        813.4756469726562
+      ],
+      [
+        2505.599609375,
+        -289.6000061035156,
+        919.0966796875
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "harbor civic court 2 side gallery",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2376.300048828125,
+        -480.0,
+        809.7999877929688
+      ],
+      [
+        2503.699951171875,
+        -290.0,
+        816.5
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "harbor civic court 2 gallery rail",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2404.824951171875,
+        -480.0,
+        811.5199584960938
+      ],
+      [
+        2475.175048828125,
+        -290.0,
+        817.6799926757812
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "harbor civic court 2 gallery rail posts",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2404.83984375,
+        -480.05999755859375,
+        810.5
+      ],
+      [
+        2475.16015625,
+        -289.94000244140625,
+        817.5999755859375
+      ]
+    ],
+    "vertices": 1248
+  },
+  {
+    "name": "harbor civic court 2 books and exhibits",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2380.75,
+        -474.5,
+        810.5
+      ],
+      [
+        2499.25,
+        -301.5,
+        819.2999877929688
+      ]
+    ],
+    "vertices": 480
+  },
+  {
+    "name": "harbor civic court 2 shelf lips",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2380.64990234375,
+        -474.5,
+        810.8250122070312
+      ],
+      [
+        2499.35009765625,
+        -301.5,
+        818.5750122070312
+      ]
+    ],
+    "vertices": 1440
+  },
+  {
+    "name": "harbor civic court 2 open colonnade",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2377.10009765625,
+        -480.5,
+        804.5
+      ],
+      [
+        2502.89990234375,
+        -299.5,
+        822.5
+      ]
+    ],
+    "vertices": 256
+  },
+  {
+    "name": "harbor civic court 2 stairs",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2392.0,
+        -479.1700134277344,
+        804.5
+      ],
+      [
+        2488.0,
+        -459.95001220703125,
+        816.5
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "harbor inhabited comb 2",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2365.0,
+        -295.0,
+        803.2999877929688
+      ],
+      [
+        2553.0,
+        -225.0,
+        918.5
+      ]
+    ],
+    "vertices": 160
+  },
+  {
+    "name": "B harbor asymmetric sail roof",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        2040.0,
+        -390.0,
+        907.0
+      ],
+      [
+        2600.0,
+        -279.0,
+        1186.0
+      ]
+    ],
+    "vertices": 660
+  },
+  {
+    "name": "R29 tree trunks.004",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1849.75,
+        -740.25,
+        804.5
+      ],
+      [
+        2630.25,
+        -739.75,
+        811.0
+      ]
+    ],
+    "vertices": 104
+  },
+  {
+    "name": "R29 fine foliage.004",
+    "group": "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "bounds": [
+      [
+        1846.0,
+        -744.0,
+        809.0
+      ],
+      [
+        2634.0,
+        -736.0,
+        816.0999755859375
+      ]
+    ],
+    "vertices": 702
+  },
+  {
+    "name": "R29_B_LOWER_PORT_FLOOR",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1700.0,
+        -620.0,
+        642.0
+      ],
+      [
+        2260.0,
+        -330.0,
+        650.0
+      ]
+    ],
+    "vertices": 8
+  },
+  {
+    "name": "B lower public workshop west roof",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1738.341064453125,
+        -592.8182983398438,
+        657.7999877929688
+      ],
+      [
+        1967.7486572265625,
+        -454.9299011230469,
+        710.7372436523438
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "B lower public workshop east roof",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1782.2513427734375,
+        -495.0700988769531,
+        657.7999877929688
+      ],
+      [
+        2011.658935546875,
+        -357.1816711425781,
+        710.7372436523438
+      ]
+    ],
+    "vertices": 338
+  },
+  {
+    "name": "B lower public workshop ribs",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1737.7313232421875,
+        -593.5272827148438,
+        658.94580078125
+      ],
+      [
+        2012.2686767578125,
+        -356.4726867675781,
+        715.5993041992188
+      ]
+    ],
+    "vertices": 1728
+  },
+  {
+    "name": "B lower public workshop side gallery",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1738.9761962890625,
+        -591.4044189453125,
+        655.2999877929688
+      ],
+      [
+        2011.0238037109375,
+        -358.5955810546875,
+        662.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "B lower public workshop gallery rail",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1752.918701171875,
+        -560.3671264648438,
+        657.0199584960938
+      ],
+      [
+        1997.081298828125,
+        -389.6328430175781,
+        663.1799926757812
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "B lower public workshop gallery rail posts",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1752.8701171875,
+        -560.3781127929688,
+        656.0
+      ],
+      [
+        1997.1298828125,
+        -389.62188720703125,
+        663.0999755859375
+      ]
+    ],
+    "vertices": 1504
+  },
+  {
+    "name": "B lower public workshop books and exhibits",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1746.2264404296875,
+        -584.998779296875,
+        656.0
+      ],
+      [
+        2005.597900390625,
+        -365.82073974609375,
+        664.7999877929688
+      ]
+    ],
+    "vertices": 608
+  },
+  {
+    "name": "B lower public workshop shelf lips",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1746.185546875,
+        -585.0900268554688,
+        656.3250122070312
+      ],
+      [
+        2005.6387939453125,
+        -365.7295227050781,
+        664.0750122070312
+      ]
+    ],
+    "vertices": 1824
+  },
+  {
+    "name": "B lower public workshop open colonnade",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1738.9503173828125,
+        -589.8319702148438,
+        650.0
+      ],
+      [
+        2009.2252197265625,
+        -359.3484802246094,
+        668.0
+      ]
+    ],
+    "vertices": 320
+  },
+  {
+    "name": "B lower public workshop stairs",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1747.6009521484375,
+        -487.8588562011719,
+        650.0
+      ],
+      [
+        1811.642333984375,
+        -376.44970703125,
+        662.0
+      ]
+    ],
+    "vertices": 960
+  },
+  {
+    "name": "commons reading tables.004",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1873.5,
+        -572.5999755859375,
+        650.7000122070312
+      ],
+      [
+        1876.5,
+        -371.3999938964844,
+        650.8200073242188
+      ]
+    ],
+    "vertices": 88
+  },
+  {
+    "name": "table supports.004",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1873.739990234375,
+        -572.4000244140625,
+        650.0
+      ],
+      [
+        1876.260009765625,
+        -371.6000061035156,
+        650.719970703125
+      ]
+    ],
+    "vertices": 176
+  },
+  {
+    "name": "commons seats.004",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1873.5999755859375,
+        -573.3250122070312,
+        650.364990234375
+      ],
+      [
+        1876.4000244140625,
+        -370.67498779296875,
+        650.5150146484375
+      ]
+    ],
+    "vertices": 176
+  },
+  {
+    "name": "commons seat backs.004",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1873.5999755859375,
+        -573.3250122070312,
+        650.4000244140625
+      ],
+      [
+        1876.4000244140625,
+        -370.67498779296875,
+        651.2000122070312
+      ]
+    ],
+    "vertices": 176
+  },
+  {
+    "name": "B lower inhabited floors",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1695.0,
+        -540.0,
+        659.0
+      ],
+      [
+        2240.0,
+        -330.0,
+        774.0
+      ]
+    ],
+    "vertices": 424
+  },
+  {
+    "name": "B lower private room bars",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1704.0,
+        -500.0,
+        660.25
+      ],
+      [
+        2231.0,
+        -334.0,
+        778.75
+      ]
+    ],
+    "vertices": 424
+  },
+  {
+    "name": "B lower inhabited vertical frames",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1695.9000244140625,
+        -542.0,
+        650.0
+      ],
+      [
+        2237.300048828125,
+        -328.0,
+        770.0
+      ]
+    ],
+    "vertices": 96
+  },
+  {
+    "name": "R29 tree trunks.005",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1192.7750244140625,
+        -590.2999877929688,
+        650.0
+      ],
+      [
+        2210.300048828125,
+        -299.7749938964844,
+        810.8499755859375
+      ]
+    ],
+    "vertices": 56
+  },
+  {
+    "name": "R29 fine foliage.005",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1189.4000244140625,
+        -594.7999877929688,
+        655.4000244140625
+      ],
+      [
+        2214.800048828125,
+        -296.3999938964844,
+        815.4400024414062
+      ]
+    ],
+    "vertices": 378
+  },
+  {
+    "name": "B lower lift guides",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        2114.39990234375,
+        -605.5999755859375,
+        650.0
+      ],
+      [
+        2135.60009765625,
+        -584.4000244140625,
+        804.0
+      ]
+    ],
+    "vertices": 32
+  },
+  {
+    "name": "B lower lift landing",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        2105.0,
+        -614.0,
+        648.5
+      ],
+      [
+        2145.0,
+        -576.0,
+        804.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "B lower lift cabin",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        2117.0,
+        -602.0,
+        650.0
+      ],
+      [
+        2133.0,
+        -588.0,
+        809.5
+      ]
+    ],
+    "vertices": 16
+  },
+  {
+    "name": "R29 people",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1089.81005859375,
+        -780.1099853515625,
+        650.375
+      ],
+      [
+        1950.18994140625,
+        -169.88999938964844,
+        806.625
+      ]
+    ],
+    "vertices": 56
+  },
+  {
+    "name": "R29 heads",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1089.875,
+        -780.1199951171875,
+        651.5050048828125
+      ],
+      [
+        1950.125,
+        -169.8800048828125,
+        806.7750244140625
+      ]
+    ],
+    "vertices": 56
+  },
+  {
+    "name": "R29 legs",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1089.8199462890625,
+        -780.0700073242188,
+        650.0
+      ],
+      [
+        1950.1800537109375,
+        -169.92999267578125,
+        805.5999755859375
+      ]
+    ],
+    "vertices": 112
+  },
+  {
+    "name": "arrival timber benches",
+    "group": "R29_B_LOWER_INHABITED_PORT",
+    "bounds": [
+      [
+        1199.0,
+        -430.6000061035156,
+        805.0
+      ],
+      [
+        1316.0,
+        -299.3999938964844,
+        805.9000244140625
+      ]
+    ],
+    "vertices": 24
+  }
+]
