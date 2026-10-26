@@ -1,0 +1,150 @@
+{
+  "variant": "B",
+  "revision": 8,
+  "changes": [
+    {
+      "visual_reason": "Final image still showed a blank inclined lip hiding the distant public room. Open five actual parent masses along high-street/destination volume, move fifth north room 300m to back bank. Common exterior and low cameras unchanged.",
+      "north_room_move": [],
+      "two_centerline_rays_only": [
+        {
+          "label": "high street to bridge mouth",
+          "start": [
+            -650.0,
+            840.0,
+            2191.699951171875
+          ],
+          "end": [
+            940.0,
+            840.0,
+            2191.699951171875
+          ],
+          "first_hit": null,
+          "hit_distance_m": null
+        },
+        {
+          "label": "bridge to destination",
+          "start": [
+            940.0,
+            840.0,
+            2191.699951171875
+          ],
+          "end": [
+            1450.0,
+            1300.0,
+            2191.699951171875
+          ],
+          "first_hit": "B eastern convergence public galleries",
+          "hit_distance_m": 559.8946329444497
+        }
+      ]
+    }
+  ],
+  "blender": "5.2.1 LTS",
+  "cameras": [
+    {
+      "name": "01_CITY",
+      "eye": [
+        11000.0,
+        -15000.0,
+        11000.0
+      ],
+      "target": [
+        0,
+        800,
+        1500
+      ],
+      "lens": 43.0,
+      "support": ""
+    },
+    {
+      "name": "02_CENTRAL",
+      "eye": [
+        5300.0,
+        -7000.0,
+        3500.0
+      ],
+      "target": [
+        0,
+        800,
+        1800
+      ],
+      "lens": 38.0,
+      "support": ""
+    },
+    {
+      "name": "03_PUBLIC",
+      "eye": [
+        -2120.0,
+        320.0,
+        1001.7000122070312
+      ],
+      "target": [
+        100,
+        1100,
+        1300
+      ],
+      "lens": 26.0,
+      "support": "B_WEST_AXIS_REAL_FLOOR"
+    },
+    {
+      "name": "04_HUMAN",
+      "eye": [
+        100.0,
+        -1650.0,
+        106.69999694824219
+      ],
+      "target": [
+        -120,
+        1400,
+        700
+      ],
+      "lens": 25.0,
+      "support": "B_HUMAN_THRESHOLD_FLOOR"
+    },
+    {
+      "name": "05_REAR",
+      "eye": [
+        5300.0,
+        6200.0,
+        3500.0
+      ],
+      "target": [
+        0,
+        1100,
+        1700
+      ],
+      "lens": 32.0,
+      "support": ""
+    },
+    {
+      "name": "06_UNDERSIDE",
+      "eye": [
+        3500.0,
+        3300.0,
+        650.0
+      ],
+      "target": [
+        0,
+        1000,
+        1600
+      ],
+      "lens": 29.0,
+      "support": ""
+    },
+    {
+      "name": "07_SKY_STREET",
+      "eye": [
+        -650.0,
+        840.0,
+        2191.699951171875
+      ],
+      "target": [
+        1550.0,
+        1320.0,
+        2410.0
+      ],
+      "lens": 26.0,
+      "support": "B_HORIZON_AXIS_REAL_FLOOR"
+    }
+  ]
+}
