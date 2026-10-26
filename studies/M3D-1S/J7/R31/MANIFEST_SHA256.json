@@ -1,0 +1,290 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 29,
+      "sha256": "730a35ae3d558080083c3103d9ac8100c3f6561678092abe341701dfa331eb1d"
+    },
+    {
+      "path": "ART_REVIEW_JA.md",
+      "bytes": 8738,
+      "sha256": "574d95d4cda1a46c471b2957f8c3da42964b1e1f8d0514353640bf8b99afd32f"
+    },
+    {
+      "path": "build_r31.py",
+      "bytes": 22946,
+      "sha256": "42e2657a5764d36d427a20e1e5b7503d5a5579e4ea06baaaec58464abc53ae92"
+    },
+    {
+      "path": "comparison/FAILED_EAST_PUBLIC.jpg",
+      "bytes": 87525,
+      "sha256": "73aa70d6e3110e77aa99827ef46d276bb1717fcc66095520224b64dd05c935f7"
+    },
+    {
+      "path": "comparison/FRONT.jpg",
+      "bytes": 168553,
+      "sha256": "89d989dc24db1ff320bc84497ed199440abd36649664c2e12f4ec3e1cd655274"
+    },
+    {
+      "path": "comparison/ITERATIONS.jpg",
+      "bytes": 334103,
+      "sha256": "6d29f6faced18bde32cab476d5a00b975d7d9d8a22d35f3b428b44b00af8e523"
+    },
+    {
+      "path": "comparison/KEY.jpg",
+      "bytes": 362756,
+      "sha256": "6a6ffff9e80a733cb1084affa4571316e8bca1ae5212af2c2561ebd8c0d7e10e"
+    },
+    {
+      "path": "comparison/MATERIAL_HUMAN.jpg",
+      "bytes": 524041,
+      "sha256": "25b719495fc296dd87abb06e61220e3c5833cd7758080cbf2b9b841f35f45c39"
+    },
+    {
+      "path": "comparison/R30_INITIAL_FINAL.jpg",
+      "bytes": 902233,
+      "sha256": "3c58ea7022a31c4a99aa5f5c4cf2b1383940fde4d70c044965547c53c2d6b9b7"
+    },
+    {
+      "path": "comparison/R30_R31_NEUTRAL.jpg",
+      "bytes": 924695,
+      "sha256": "9cbbda54848ef4d8c54286665ad92f4ca6e76d3bc8e7d0805ecfed6aa9725220"
+    },
+    {
+      "path": "EDIT_LOG_JA.md",
+      "bytes": 3460,
+      "sha256": "da77adfa0d18d3911df8a0e8f1eb718a94d18ea5989e6b3025acac8c4bb301f6"
+    },
+    {
+      "path": "HANDOFF_JA.md",
+      "bytes": 2418,
+      "sha256": "ca994f19c06e4b92e721db21004914a3c012b3648ae8f7520d17e5ce2c35b962"
+    },
+    {
+      "path": "manifest.py",
+      "bytes": 1516,
+      "sha256": "83b9f5e79934d698c449989ac4b20612ac487746e4dc43105a7826d76303330c"
+    },
+    {
+      "path": "meshkit.py",
+      "bytes": 8203,
+      "sha256": "ea9e5a085ac7123d54cfe1710a1df1cd493d60cc42e1c5da54c4d0c01ebcd7ee"
+    },
+    {
+      "path": "model/R31_A.blend",
+      "bytes": 8187316,
+      "sha256": "f398038a658cb13279e9ab72ae4fd05b3887827b304606e51177ad2b9a25c3bb"
+    },
+    {
+      "path": "model/R31_A.glb",
+      "bytes": 40252500,
+      "sha256": "d51619022a4f4023ab5e50a28c38a98a5d1e3502a892bfb93f7a9699d2bef794"
+    },
+    {
+      "path": "package_review.py",
+      "bytes": 5116,
+      "sha256": "8902bb0faeff2bc8d440345771c72d8679fde5ae507301cd24320ee250d8e866"
+    },
+    {
+      "path": "process/initial/clay_01_CITY.png",
+      "bytes": 683273,
+      "sha256": "d59241ba509b231a700acb4d3a5bfb5532acb9f431f91d58c15fec9f29518282"
+    },
+    {
+      "path": "process/initial/clay_02_CENTRAL.png",
+      "bytes": 748509,
+      "sha256": "c2716073ea648c251b090d820cd0a2985cb92c03f3cbafb4f9195134fcbbb9e8"
+    },
+    {
+      "path": "process/initial/clay_04_HUMAN.png",
+      "bytes": 725398,
+      "sha256": "a05865c9a42d3239ba958f93f43349bfbfd4ac8bd4c64633f1eee70cd02a2267"
+    },
+    {
+      "path": "process/initial/clay_05_REAR.png",
+      "bytes": 731504,
+      "sha256": "4e7512875cd77730372949790de3f4724827f9841d35a7cd4e9bc8ff72780d51"
+    },
+    {
+      "path": "process/initial/clay_06_UNDERSIDE.png",
+      "bytes": 763505,
+      "sha256": "208b3375f075cf27285ab8155f7bb6648a41d34cc4c2ade1650e7f66e3094a0e"
+    },
+    {
+      "path": "process/initial/clay_07_SKY_STREET.png",
+      "bytes": 644608,
+      "sha256": "1df31c42fc249dbcacfad5e0daad00e5b952e3bdc50b9ac6aec66c665047edd3"
+    },
+    {
+      "path": "process/initial/conditions_clay.json",
+      "bytes": 4802,
+      "sha256": "2bda6ede31a68127897c9e82da2c71ffc5ba909902be5db0150babd6e788e4fc"
+    },
+    {
+      "path": "qa/BUILD.json",
+      "bytes": 6542,
+      "sha256": "a56662b1a7388f368e9c04524295214dd1b2766580d8e6e4416ed56d8aaf665f"
+    },
+    {
+      "path": "qa/REVIEW_PACKAGE.json",
+      "bytes": 1844,
+      "sha256": "d505055126fb4e07211dd94098fa4d67270d7a990cd0436caabc1d68742b9c77"
+    },
+    {
+      "path": "qa/SAVED_MODELS.json",
+      "bytes": 15362,
+      "sha256": "c4ac6b88e09a55d83c2be5c0752ad85799851533ddb2c5b87f0b2e0ac0d3b911"
+    },
+    {
+      "path": "qa/SOURCE_INTEGRITY.json",
+      "bytes": 33918,
+      "sha256": "9f9802e32b5461b2990723efb3b6f81568e04856d9545a1a070eded4a1adc54b"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 7942,
+      "sha256": "683ebacc28f41d0938c36ee3f3fdc76c96a26351fda57e6fbd1b684c7b9c490f"
+    },
+    {
+      "path": "render_r31.py",
+      "bytes": 2011,
+      "sha256": "7e48025f9829a991026172c893845d2c8b37f71fc4b1c1c3c8dfb0058b609b99"
+    },
+    {
+      "path": "renders/baseline/clay_08_FRONT.png",
+      "bytes": 1947528,
+      "sha256": "00a2011fcd4f04ea006982f78e0e2f156caedb782891e8f503d6ac35eff5dcf7"
+    },
+    {
+      "path": "renders/baseline/conditions_clay.json",
+      "bytes": 802,
+      "sha256": "27dafa99be2754f61db6cb97b177b4244b8f61489dc21a85283189bfd783ed5f"
+    },
+    {
+      "path": "renders/final/art_02_CENTRAL.png",
+      "bytes": 2184603,
+      "sha256": "c4b5636ef54a6ad7eb925242d66be239effc8931fc1d81c8c48c00e2e51fc145"
+    },
+    {
+      "path": "renders/final/art_04_HUMAN.png",
+      "bytes": 2096818,
+      "sha256": "16dc94b78b4edb4fc6f5e0ecebd5051fefc4c0bfed05072830a0f70b17ea0507"
+    },
+    {
+      "path": "renders/final/art_05_REAR.png",
+      "bytes": 2076227,
+      "sha256": "12b6ad079a39704001c4c641be48e123a55bf7582120841ecb89ed7841b880f0"
+    },
+    {
+      "path": "renders/final/art_06_UNDERSIDE.png",
+      "bytes": 2115557,
+      "sha256": "31c4db4ba50ec9e0cb5d0c88deef8865bccf3c84142bf5ab32855b5c3b989661"
+    },
+    {
+      "path": "renders/final/art_07_SKY_STREET.png",
+      "bytes": 1835732,
+      "sha256": "af3fab953df7ea218038eafa10620b744a992cb4f544f8f5c90ee889a6edbc63"
+    },
+    {
+      "path": "renders/final/art_09_EAST_PUBLIC.png",
+      "bytes": 368470,
+      "sha256": "0d6c693a68c2e5ea7c6c64631382699aa84ae1a3851e4a0efc270dbc319b5fe3"
+    },
+    {
+      "path": "renders/final/clay_01_CITY.png",
+      "bytes": 1837025,
+      "sha256": "8a9fa8a3df21bc931c275be45efa43a9187f865a323c19a1744e63dd1a7050bd"
+    },
+    {
+      "path": "renders/final/clay_02_CENTRAL.png",
+      "bytes": 2053904,
+      "sha256": "0eb4448c28e2b48b66bc59e34799efb47c4380ae723ef5693c7e1ac505bdc949"
+    },
+    {
+      "path": "renders/final/clay_03_PUBLIC.png",
+      "bytes": 1689883,
+      "sha256": "595ccee737a524c57e1616ee735f7b76609ddab123b188644a0776147f19e542"
+    },
+    {
+      "path": "renders/final/clay_04_HUMAN.png",
+      "bytes": 1983589,
+      "sha256": "98b2463611806ab737a22f23ee851f76774a6b8a14e4f623196f0420ff121402"
+    },
+    {
+      "path": "renders/final/clay_05_REAR.png",
+      "bytes": 2004766,
+      "sha256": "78d6b08518d2dd9da00d773919fd7047eb133f8a0c6326a82b1647b7f57fe681"
+    },
+    {
+      "path": "renders/final/clay_06_UNDERSIDE.png",
+      "bytes": 2017614,
+      "sha256": "5ebe701cd62042861b5aac2b99ca82924165c558ae121e506ea950b5a61401f2"
+    },
+    {
+      "path": "renders/final/clay_07_SKY_STREET.png",
+      "bytes": 1746096,
+      "sha256": "8eb2524c6b69ff2fd780838820ef13fe02c63d0c1c9c8a97bf43d53da6ce5b21"
+    },
+    {
+      "path": "renders/final/clay_08_FRONT.png",
+      "bytes": 2011503,
+      "sha256": "6898b162e3cb6641eb7f8e0d6243e3de2fc22c2ec362c4e72bba30d1f0a3aac7"
+    },
+    {
+      "path": "renders/final/clay_09_EAST_PUBLIC.png",
+      "bytes": 398390,
+      "sha256": "4499c8b53742ecfd174f5c0b86d26826bff38a78f3fa96c0a83fe2cb6e0d8c1b"
+    },
+    {
+      "path": "renders/final/conditions_art.json",
+      "bytes": 4827,
+      "sha256": "937066068bcd4fd927b31478fc750eed0b3884abad280a54402480a5b4c3b1e6"
+    },
+    {
+      "path": "renders/final/conditions_clay.json",
+      "bytes": 7241,
+      "sha256": "bbbffc769f36369087c3ee0d7e3fec7a70b57c818994972dda57b314ce34e509"
+    },
+    {
+      "path": "renders/revision2/clay_02_CENTRAL.png",
+      "bytes": 786609,
+      "sha256": "5f22f3350005d03d57731d6dd0c1de4b5a32c304d54687efb60c26b0f31a6a08"
+    },
+    {
+      "path": "renders/revision2/conditions_clay.json",
+      "bytes": 4802,
+      "sha256": "2bda6ede31a68127897c9e82da2c71ffc5ba909902be5db0150babd6e788e4fc"
+    },
+    {
+      "path": "renders/revision3/clay_02_CENTRAL.png",
+      "bytes": 783405,
+      "sha256": "b89c015fe1e60e6d35abdbbc771139526e4278317ea46959b0cd7cdcb5e4ac34"
+    },
+    {
+      "path": "renders/revision3/clay_09_EAST_PUBLIC.png",
+      "bytes": 622065,
+      "sha256": "7aa8f1d8fd31a7890a85e98c63ac8b943a6bcd4a64b04c4dfec2e234f0679bfb"
+    },
+    {
+      "path": "renders/revision3/conditions_clay.json",
+      "bytes": 4011,
+      "sha256": "f7a0aa297fc59d8a997e74f080782f24777c7657ac58d04249f7c1e1685a386e"
+    },
+    {
+      "path": "verify_github.py",
+      "bytes": 1953,
+      "sha256": "49fc49679f19d0861c397a8e23f3d3f3e61f9466a51f2b0f0ade8f9419d3f457"
+    },
+    {
+      "path": "verify_models.py",
+      "bytes": 6128,
+      "sha256": "36a96551f4080e466a3837920823d25285c8048034e3319eaef0bdaa7b6cb2ec"
+    },
+    {
+      "path": "verify_sources.py",
+      "bytes": 2622,
+      "sha256": "86acb6f82f5f93ff7e727dfa285eaa8be00e939f3c64aadbe32fddf6075615cc"
+    }
+  ],
+  "total_bytes_excluding_manifest": 86757536
+}
