@@ -1,0 +1,1094 @@
+{
+  "base": "da2a2e630b95c939881db7428ac21ac85342346e",
+  "revision": 3,
+  "blender": "5.2.1 LTS",
+  "changes": [
+    {
+      "removed": "EAST LANTERN storeys",
+      "vertices": 18256
+    },
+    {
+      "removed": "EAST LANTERN room bands",
+      "vertices": 14000
+    },
+    {
+      "removed": "EAST LANTERN vertical facade blades",
+      "vertices": 18560
+    },
+    {
+      "removed": "EAST LANTERN continuous buttress",
+      "vertices": 1872
+    },
+    {
+      "removed": "transit viaduct 1",
+      "vertices": 16
+    },
+    {
+      "removed": "transit rails 1",
+      "vertices": 32
+    },
+    {
+      "removed": "forum civic island",
+      "vertices": 40
+    },
+    {
+      "cut": "forum silver roof petals",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 2664,
+      "vertices_after": 2610
+    },
+    {
+      "cut": "forum branching vault ribs",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 7296,
+      "vertices_after": 7248
+    },
+    {
+      "cut": "forum splayed root",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 304,
+      "vertices_after": 308
+    },
+    {
+      "cut": "forum gallery floors",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 64,
+      "vertices_after": 96
+    },
+    {
+      "cut": "forum gallery piers",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 3264,
+      "vertices_after": 3200
+    },
+    {
+      "cut": "gallery safety rail",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 48,
+      "vertices_after": 72
+    },
+    {
+      "cut": "gallery rail posts",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 7344,
+      "vertices_after": 7224
+    },
+    {
+      "cut": "forum market private core",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 512,
+      "vertices_after": 512
+    },
+    {
+      "cut": "forum market floor",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 688,
+      "vertices_after": 728
+    },
+    {
+      "cut": "forum market shopfront",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 704,
+      "vertices_after": 688
+    },
+    {
+      "cut": "forum market shelter",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 176,
+      "vertices_after": 184
+    },
+    {
+      "cut": "forum market entry lintel",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 352,
+      "vertices_after": 344
+    },
+    {
+      "cut": "forum market arcade supports",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 1056,
+      "vertices_after": 1032
+    },
+    {
+      "cut": "forum market facade fins",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 7168,
+      "vertices_after": 7168
+    },
+    {
+      "cut": "forum silver roof petals",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 2610,
+      "vertices_after": 2628
+    },
+    {
+      "cut": "forum branching vault ribs",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 7248,
+      "vertices_after": 7216
+    },
+    {
+      "cut": "forum splayed root",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 308,
+      "vertices_after": 312
+    },
+    {
+      "cut": "forum gallery floors",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 96,
+      "vertices_after": 128
+    },
+    {
+      "cut": "forum gallery piers",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 3200,
+      "vertices_after": 3136
+    },
+    {
+      "cut": "gallery safety rail",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 72,
+      "vertices_after": 96
+    },
+    {
+      "cut": "gallery rail posts",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 7224,
+      "vertices_after": 7128
+    },
+    {
+      "cut": "forum market private core",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 512,
+      "vertices_after": 512
+    },
+    {
+      "cut": "forum market floor",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 728,
+      "vertices_after": 728
+    },
+    {
+      "cut": "forum market shopfront",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 688,
+      "vertices_after": 688
+    },
+    {
+      "cut": "forum market shelter",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 184,
+      "vertices_after": 184
+    },
+    {
+      "cut": "forum market entry lintel",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 344,
+      "vertices_after": 344
+    },
+    {
+      "cut": "forum market arcade supports",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 1032,
+      "vertices_after": 1008
+    },
+    {
+      "cut": "forum market facade fins",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 7168,
+      "vertices_after": 6944
+    },
+    {
+      "cut": "forum silver roof petals",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 2628,
+      "vertices_after": 2645
+    },
+    {
+      "cut": "forum branching vault ribs",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 7216,
+      "vertices_after": 7184
+    },
+    {
+      "cut": "forum splayed root",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 312,
+      "vertices_after": 312
+    },
+    {
+      "cut": "forum gallery floors",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 128,
+      "vertices_after": 160
+    },
+    {
+      "cut": "forum gallery piers",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 3136,
+      "vertices_after": 3104
+    },
+    {
+      "cut": "gallery safety rail",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 96,
+      "vertices_after": 120
+    },
+    {
+      "cut": "gallery rail posts",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 7128,
+      "vertices_after": 7032
+    },
+    {
+      "cut": "forum market private core",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 512,
+      "vertices_after": 512
+    },
+    {
+      "cut": "forum market floor",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 728,
+      "vertices_after": 728
+    },
+    {
+      "cut": "forum market shopfront",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 688,
+      "vertices_after": 672
+    },
+    {
+      "cut": "forum market shelter",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 184,
+      "vertices_after": 184
+    },
+    {
+      "cut": "forum market entry lintel",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 344,
+      "vertices_after": 336
+    },
+    {
+      "cut": "forum market arcade supports",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 1008,
+      "vertices_after": 984
+    },
+    {
+      "cut": "forum market facade fins",
+      "label": "R29 transverse public portal",
+      "box_center_m": [
+        550,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        420,
+        58,
+        88
+      ],
+      "vertices_before": 6944,
+      "vertices_after": 6832
+    },
+    {
+      "cut": "B_HARBOR occupied decks",
+      "label": "R29 B street arrival opening",
+      "box_center_m": [
+        1570,
+        -715,
+        835
+      ],
+      "box_dimensions_m": [
+        390,
+        260,
+        80
+      ],
+      "vertices_before": 4380,
+      "vertices_after": 4170
+    },
+    {
+      "cut": "B_HARBOR recessed bands",
+      "label": "R29 B street arrival opening",
+      "box_center_m": [
+        1570,
+        -715,
+        835
+      ],
+      "box_dimensions_m": [
+        390,
+        260,
+        80
+      ],
+      "vertices_before": 2920,
+      "vertices_after": 2777
+    },
+    {
+      "cut": "B_HARBOR interior boulevard",
+      "label": "R29 replace B arrival floor",
+      "box_center_m": [
+        1835,
+        -770,
+        803
+      ],
+      "box_dimensions_m": [
+        530,
+        130,
+        12
+      ],
+      "vertices_before": 16,
+      "vertices_after": 16
+    },
+    {
+      "cut": "inhabited floor cells",
+      "label": "R29 learning room full clearance",
+      "box_center_m": [
+        870,
+        -25,
+        419
+      ],
+      "box_dimensions_m": [
+        172,
+        278,
+        147
+      ],
+      "vertices_before": 18480,
+      "vertices_after": 16
+    },
+    {
+      "cut": "inhabited floor cells",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 16,
+      "vertices_after": 16
+    },
+    {
+      "cut": "inhabited floor cells",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 16,
+      "vertices_after": 8
+    },
+    {
+      "cut": "inhabited floor cells",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 8,
+      "vertices_after": 8
+    },
+    {
+      "cut": "recessed private room bars",
+      "label": "R29 learning room full clearance",
+      "box_center_m": [
+        870,
+        -25,
+        419
+      ],
+      "box_dimensions_m": [
+        172,
+        278,
+        147
+      ],
+      "vertices_before": 36960,
+      "vertices_after": 36932
+    },
+    {
+      "cut": "recessed private room bars",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 36932,
+      "vertices_after": 36932
+    },
+    {
+      "cut": "recessed private room bars",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 36932,
+      "vertices_after": 36932
+    },
+    {
+      "cut": "recessed private room bars",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 36932,
+      "vertices_after": 36948
+    },
+    {
+      "cut": "raked inhabited facade pilasters",
+      "label": "R29 learning room full clearance",
+      "box_center_m": [
+        870,
+        -25,
+        419
+      ],
+      "box_dimensions_m": [
+        172,
+        278,
+        147
+      ],
+      "vertices_before": 1264,
+      "vertices_after": 1276
+    },
+    {
+      "cut": "raked inhabited facade pilasters",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 1276,
+      "vertices_after": 1276
+    },
+    {
+      "cut": "raked inhabited facade pilasters",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 1276,
+      "vertices_after": 1276
+    },
+    {
+      "cut": "raked inhabited facade pilasters",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 1276,
+      "vertices_after": 1284
+    },
+    {
+      "cut": "pilaster bronze reveals",
+      "label": "R29 learning room full clearance",
+      "box_center_m": [
+        870,
+        -25,
+        419
+      ],
+      "box_dimensions_m": [
+        172,
+        278,
+        147
+      ],
+      "vertices_before": 1264,
+      "vertices_after": 1264
+    },
+    {
+      "cut": "pilaster bronze reveals",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -1100,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 1264,
+      "vertices_after": 1264
+    },
+    {
+      "cut": "pilaster bronze reveals",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -600,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 1264,
+      "vertices_after": 1264
+    },
+    {
+      "cut": "pilaster bronze reveals",
+      "label": "R29 new wing ground public mouth",
+      "box_center_m": [
+        950,
+        -120,
+        143
+      ],
+      "box_dimensions_m": [
+        430,
+        58,
+        88
+      ],
+      "vertices_before": 1264,
+      "vertices_after": 1264
+    },
+    {
+      "removed": "learning conservatory ground",
+      "vertices": 8
+    },
+    {
+      "removed": "outlook reading room ground",
+      "vertices": 8
+    },
+    {
+      "removed": "aerial civic terminal ground",
+      "vertices": 8
+    },
+    {
+      "removed": "waterfront exchange hall ground",
+      "vertices": 8
+    },
+    {
+      "removed": "B harbor station ground",
+      "vertices": 8
+    },
+    {
+      "removed": "B lower public workshop ground",
+      "vertices": 8
+    },
+    {
+      "removed": "forum exchange -650 ground",
+      "vertices": 8
+    },
+    {
+      "removed": "forum exchange -240 ground",
+      "vertices": 8
+    },
+    {
+      "removed": "forum exchange 120 ground",
+      "vertices": 8
+    },
+    {
+      "removed": "FORUM_EAST_PORTAL_-1100",
+      "vertices": 8
+    },
+    {
+      "removed": "FORUM_EAST_PORTAL_-600",
+      "vertices": 8
+    },
+    {
+      "removed": "FORUM_EAST_PORTAL_-120",
+      "vertices": 8
+    },
+    {
+      "floor_union": "R29_SKY_GARDEN_FLOOR",
+      "absorbed": "sky garden civic landscape"
+    },
+    {
+      "floor_union": "SEA_TERRACE_REAL_FLOOR",
+      "absorbed": "water commons civic landscape"
+    },
+    {
+      "cut": "B_HARBOR underside basket arches",
+      "label": "R29 lower port public room opening",
+      "box_center_m": [
+        1875,
+        -475,
+        694
+      ],
+      "box_dimensions_m": [
+        390,
+        290,
+        99
+      ],
+      "vertices_before": 1440,
+      "vertices_after": 1428
+    }
+  ],
+  "new_groups": [
+    "R29_AERIAL_GATE_AND_LIFTS",
+    "R29_B_HARBOR_ARRIVAL_QUARTER",
+    "R29_B_LOWER_INHABITED_PORT",
+    "R29_EAST_INHABITED_ESCARPMENT",
+    "R29_FORUM_CITY_SEQUENCE",
+    "R29_LEARNING_AND_RESIDENTIAL_COMMONS"
+  ],
+  "method": "Open saved R28 BLEND, replace east wing, cut actual public portals, new authored sections and rooms; background Blender. Not live MCP.",
+  "official_coordinates": null,
+  "transit": "Illustrative architecture, not operation or capacity certification"
+}

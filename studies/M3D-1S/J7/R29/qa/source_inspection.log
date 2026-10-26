@@ -1,0 +1,1116 @@
+00:07.000  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\model\R28_CELESTIAL_ESTUARY.blend"
+{
+  "floors": [
+    {
+      "label": "forum",
+      "from": [
+        550,
+        -600,
+        110
+      ],
+      "hit": "FORUM_REAL_FLOOR",
+      "surface_m": [
+        550.0,
+        -600.0,
+        105.0
+      ]
+    },
+    {
+      "label": "sea",
+      "from": [
+        1000,
+        -1100,
+        110
+      ],
+      "hit": "SEA_TERRACE_REAL_FLOOR",
+      "surface_m": [
+        1000.0,
+        -1100.0,
+        105.0
+      ]
+    },
+    {
+      "label": "reading",
+      "from": [
+        1000,
+        -960,
+        124
+      ],
+      "hit": "EAST_GALLERY_REAL_FLOOR",
+      "surface_m": [
+        1000.0,
+        -960.0,
+        119.0
+      ]
+    },
+    {
+      "label": "upper",
+      "from": [
+        860,
+        230,
+        655
+      ],
+      "hit": "upper civic promenade",
+      "surface_m": [
+        860.0,
+        230.0,
+        650.0
+      ]
+    },
+    {
+      "label": "B street",
+      "from": [
+        2280,
+        -769,
+        810
+      ],
+      "hit": "B_HARBOR interior boulevard",
+      "surface_m": [
+        2280.0,
+        -769.0,
+        804.5
+      ]
+    },
+    {
+      "label": "east low",
+      "from": [
+        850,
+        0,
+        450
+      ],
+      "hit": "EAST LANTERN room bands",
+      "surface_m": [
+        850.0,
+        0.0,
+        119.99996948242188
+      ]
+    },
+    {
+      "label": "east upper",
+      "from": [
+        750,
+        450,
+        900
+      ],
+      "hit": "EAST LANTERN room bands",
+      "surface_m": [
+        750.0,
+        450.0,
+        900.0
+      ]
+    }
+  ],
+  "rays": [
+    {
+      "label": "east cut",
+      "start": [
+        300.0,
+        0.0,
+        300.0
+      ],
+      "end": [
+        1200.0,
+        0.0,
+        300.0
+      ],
+      "first_hit": "forum silver roof petals",
+      "hit_m": [
+        356.43499755859375,
+        0.0,
+        300.0
+      ]
+    },
+    {
+      "label": "upper sea view",
+      "start": [
+        850.0,
+        200.0,
+        651.7000122070312
+      ],
+      "end": [
+        2250.0,
+        -650.0,
+        850.0
+      ],
+      "first_hit": "B_HARBOR occupied decks",
+      "hit_m": [
+        1810.1612548828125,
+        -382.9550476074219,
+        787.7000122070312
+      ]
+    },
+    {
+      "label": "forum east edge",
+      "start": [
+        250.0,
+        -600.0,
+        106.69999694824219
+      ],
+      "end": [
+        1050.0,
+        -600.0,
+        106.69999694824219
+      ],
+      "first_hit": "forum silver roof petals",
+      "hit_m": [
+        474.8957824707031,
+        -600.0,
+        106.69999694824219
+      ]
+    },
+    {
+      "label": "reading to forum",
+      "start": [
+        650.0,
+        -960.0,
+        120.69999694824219
+      ],
+      "end": [
+        500.0,
+        -960.0,
+        106.69999694824219
+      ],
+      "first_hit": "forum market private core",
+      "hit_m": [
+        589.6799926757812,
+        -960.0,
+        115.07012939453125
+      ]
+    }
+  ],
+  "east": [
+    {
+      "name": "EAST LANTERN storeys",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          408.34991455078125,
+          -373.728271484375,
+          102.19999694824219
+        ],
+        [
+          979.9663696289062,
+          1334.427978515625,
+          1325.0
+        ]
+      ],
+      "vertices": 18256,
+      "polygons": 13692
+    },
+    {
+      "name": "EAST LANTERN room bands",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          419.86700439453125,
+          -350.9443054199219,
+          108.0
+        ],
+        [
+          953.9675903320312,
+          1309.9649658203125,
+          1340.0
+        ]
+      ],
+      "vertices": 14000,
+      "polygons": 10500
+    },
+    {
+      "name": "EAST LANTERN vertical facade blades",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          416.4317626953125,
+          -362.38104248046875,
+          105.0
+        ],
+        [
+          977.4697265625,
+          1325.5777587890625,
+          1323.0
+        ]
+      ],
+      "vertices": 18560,
+      "polygons": 13920
+    },
+    {
+      "name": "EAST LANTERN continuous buttress",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          515.1844482421875,
+          -347.8804016113281,
+          104.24251556396484
+        ],
+        [
+          995.2891235351562,
+          1320.5877685546875,
+          1347.4930419921875
+        ]
+      ],
+      "vertices": 1872,
+      "polygons": 1404
+    },
+    {
+      "name": "EAST_GALLERY_REAL_FLOOR",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          640.0,
+          -1005.0,
+          111.0
+        ],
+        [
+          1200.0,
+          -915.0,
+          119.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "B_HARBOR occupied decks",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1490.146484375,
+          -1009.97119140625,
+          777.7000122070312
+        ],
+        [
+          3009.951171875,
+          -290.0789489746094,
+          920.0
+        ]
+      ],
+      "vertices": 4380,
+      "polygons": 4350
+    },
+    {
+      "name": "B_HARBOR recessed bands",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1514.1177978515625,
+          -996.2472534179688,
+          792.5
+        ],
+        [
+          2995.977294921875,
+          -303.8009338378906,
+          927.0
+        ]
+      ],
+      "vertices": 2920,
+      "polygons": 2900
+    },
+    {
+      "name": "B_HARBOR interior boulevard",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1661.0,
+          -784.7999877929688,
+          799.5
+        ],
+        [
+          2839.0,
+          -515.2000122070312,
+          804.5
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "B_HARBOR mixed use floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1726.0,
+          -824.0,
+          812.1500244140625
+        ],
+        [
+          2743.60009765625,
+          -476.0,
+          847.8499755859375
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "B_HARBOR mixed use private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1733.800048828125,
+          -813.7999877929688,
+          812.8499755859375
+        ],
+        [
+          2735.800048828125,
+          -486.20001220703125,
+          846.9500122070312
+        ]
+      ],
+      "vertices": 592,
+      "polygons": 444
+    },
+    {
+      "name": "B_HARBOR mixed use facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1729.7249755859375,
+          -823.9000244140625,
+          812.7999877929688
+        ],
+        [
+          2739.875,
+          -476.1000061035156,
+          847.2000122070312
+        ]
+      ],
+      "vertices": 7104,
+      "polygons": 5328
+    },
+    {
+      "name": "B_HARBOR mixed use arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1729.800048828125,
+          -818.4000244140625,
+          804.5
+        ],
+        [
+          2739.800048828125,
+          -481.6000061035156,
+          812.5
+        ]
+      ],
+      "vertices": 672,
+      "polygons": 504
+    },
+    {
+      "name": "B_HARBOR mixed use shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1722.5,
+          -827.5,
+          812.0999755859375
+        ],
+        [
+          2747.10009765625,
+          -472.5,
+          812.7000122070312
+        ]
+      ],
+      "vertices": 112,
+      "polygons": 84
+    },
+    {
+      "name": "B_HARBOR mixed use shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1729.0,
+          -812.2000122070312,
+          804.75
+        ],
+        [
+          2740.60009765625,
+          -487.79998779296875,
+          810.25
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "B_HARBOR mixed use shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1729.0,
+          -812.5999755859375,
+          810.1500244140625
+        ],
+        [
+          2740.60009765625,
+          -487.3999938964844,
+          810.4500122070312
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "B_HARBOR mixed use entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1726.0,
+          -812.4000244140625,
+          810.7999877929688
+        ],
+        [
+          2743.60009765625,
+          -487.6000061035156,
+          811.5999755859375
+        ]
+      ],
+      "vertices": 224,
+      "polygons": 168
+    },
+    {
+      "name": "B_HARBOR underside basket arches",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1605.9876708984375,
+          -974.804931640625,
+          592.5003051757812
+        ],
+        [
+          2933.798583984375,
+          -325.1951599121094,
+          761.2288208007812
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "B_HARBOR stepped civic library floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2045.0,
+          -528.0,
+          917.6500244140625
+        ],
+        [
+          2455.0,
+          -448.0,
+          968.3499755859375
+        ]
+      ],
+      "vertices": 216,
+      "polygons": 162
+    },
+    {
+      "name": "B_HARBOR stepped civic library private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2059.300048828125,
+          -514.4000244140625,
+          918.3499755859375
+        ],
+        [
+          2440.699951171875,
+          -461.6000061035156,
+          967.4500122070312
+        ]
+      ],
+      "vertices": 192,
+      "polygons": 144
+    },
+    {
+      "name": "B_HARBOR stepped civic library facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2048.72509765625,
+          -527.7000122070312,
+          918.2999877929688
+        ],
+        [
+          2451.27490234375,
+          -448.29998779296875,
+          967.7000122070312
+        ]
+      ],
+      "vertices": 4608,
+      "polygons": 3456
+    },
+    {
+      "name": "B_HARBOR stepped civic library arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2052.300048828125,
+          -520.4000244140625,
+          910.0
+        ],
+        [
+          2447.699951171875,
+          -455.6000061035156,
+          918.0
+        ]
+      ],
+      "vertices": 144,
+      "polygons": 108
+    },
+    {
+      "name": "B_HARBOR stepped civic library shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2041.5,
+          -531.5,
+          917.5999755859375
+        ],
+        [
+          2458.5,
+          -444.5,
+          918.2000122070312
+        ]
+      ],
+      "vertices": 24,
+      "polygons": 18
+    },
+    {
+      "name": "B_HARBOR stepped civic library shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2050.5,
+          -512.2000122070312,
+          910.25
+        ],
+        [
+          2449.5,
+          -463.79998779296875,
+          915.75
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "B_HARBOR stepped civic library shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2050.5,
+          -512.5999755859375,
+          915.6500244140625
+        ],
+        [
+          2449.5,
+          -463.3999938964844,
+          915.9500122070312
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "B_HARBOR stepped civic library entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2045.0,
+          -512.4000244140625,
+          916.2999877929688
+        ],
+        [
+          2455.0,
+          -463.6000061035156,
+          917.0999755859375
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "transit viaduct 0",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -14.0,
+          -2400.0,
+          99.0
+        ],
+        [
+          14.0,
+          -1700.0,
+          111.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "transit rails 0",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -7.5,
+          -2400.0,
+          112.4000015258789
+        ],
+        [
+          7.5,
+          -1700.0,
+          113.5999984741211
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit viaduct 1",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          566.5645141601562,
+          -914.1466674804688,
+          174.15771484375
+        ],
+        [
+          2257.0224609375,
+          -635.8533325195312,
+          810.3400268554688
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit rails 1",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          562.7904663085938,
+          -900.5608520507812,
+          187.415771484375
+        ],
+        [
+          2257.417724609375,
+          -649.4391479492188,
+          813.5339965820312
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit piers",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2159.0,
+          -911.0,
+          20.523693084716797
+        ],
+        [
+          1509.0,
+          2311.0,
+          1292.0
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit viaduct 2",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2709.288330078125,
+          86.05134582519531,
+          474.05999755859375
+        ],
+        [
+          -1246.863525390625,
+          711.1814575195312,
+          680.9750366210938
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit rails 2",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2707.35888671875,
+          99.49288940429688,
+          487.406005859375
+        ],
+        [
+          -1242.8343505859375,
+          700.4215698242188,
+          683.5975341796875
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit viaduct 3",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          45.23427963256836,
+          1486.7952880859375,
+          1244.000244140625
+        ],
+        [
+          2052.301513671875,
+          2013.8095703125,
+          1271.0
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit rails 3",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          42.82612991333008,
+          1499.527099609375,
+          1257.4000244140625
+        ],
+        [
+          2057.082275390625,
+          2000.4931640625,
+          1273.5999755859375
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit viaduct 4",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2113.499755859375,
+          1438.4669189453125,
+          994.15087890625
+        ],
+        [
+          -889.9141845703125,
+          2708.216552734375,
+          1480.58740234375
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit rails 4",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2107.545166015625,
+          1449.532470703125,
+          1007.4151000976562
+        ],
+        [
+          -892.5742797851562,
+          2700.419189453125,
+          1483.5587158203125
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit viaduct 5",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -13.167654991149902,
+          1694.0775146484375,
+          1734.0311279296875
+        ],
+        [
+          593.1676025390625,
+          3105.92236328125,
+          1900.9688720703125
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "transit rails 5",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -7.485294818878174,
+          1699.752197265625,
+          1747.403076171875
+        ],
+        [
+          587.4852905273438,
+          3100.247802734375,
+          1903.596923828125
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    }
+  ]
+}
+16:17:09 | INFO: Data are loaded, start creating Blender stuff
+16:17:09 | INFO: Blender create Mesh node A_GARDEN civic canopy
+16:17:09 | INFO: Blender create Mesh node A_GARDEN interior boulevard
+16:17:09 | INFO: Blender create Mesh node A_GARDEN mixed use arcade supports
+16:17:09 | INFO: Blender create Mesh node A_GARDEN mixed use entry lintel
+16:17:09 | INFO: Blender create Mesh node A_GARDEN mixed use facade fins
+16:17:09 | INFO: Blender create Mesh node A_GARDEN mixed use floor
+16:17:09 | INFO: Blender create Mesh node A_GARDEN mixed use private core
+16:17:09 | INFO: Blender create Mesh node A_GARDEN mixed use shelter
+16:17:09 | INFO: Blender create Mesh node A_GARDEN mixed use shop transom
+16:17:09 | INFO: Blender create Mesh node A_GARDEN mixed use shopfront
+16:17:09 | INFO: Blender create Mesh node A_GARDEN occupied decks
+16:17:09 | INFO: Blender create Mesh node A_GARDEN recessed bands
+16:17:09 | INFO: Blender create Mesh node A_GARDEN underside basket arches
+16:17:09 | INFO: Blender create Mesh node B_HARBOR interior boulevard
+16:17:09 | INFO: Blender create Mesh node B_HARBOR mixed use arcade supports
+16:17:09 | INFO: Blender create Mesh node B_HARBOR mixed use entry lintel
+16:17:09 | INFO: Blender create Mesh node B_HARBOR mixed use facade fins
+16:17:09 | INFO: Blender create Mesh node B_HARBOR mixed use floor
+16:17:09 | INFO: Blender create Mesh node B_HARBOR mixed use private core
+16:17:09 | INFO: Blender create Mesh node B_HARBOR mixed use shelter
+16:17:09 | INFO: Blender create Mesh node B_HARBOR mixed use shop transom
+16:17:09 | INFO: Blender create Mesh node B_HARBOR mixed use shopfront
+16:17:09 | INFO: Blender create Mesh node B_HARBOR occupied decks
+16:17:09 | INFO: Blender create Mesh node B_HARBOR recessed bands
+16:17:09 | INFO: Blender create Mesh node B_HARBOR stepped civic library arcade supports
+16:17:09 | INFO: Blender create Mesh node B_HARBOR stepped civic library entry lintel
+16:17:09 | INFO: Blender create Mesh node B_HARBOR stepped civic library facade fins
+16:17:09 | INFO: Blender create Mesh node B_HARBOR stepped civic library floor
+16:17:09 | INFO: Blender create Mesh node B_HARBOR stepped civic library private core
+16:17:09 | INFO: Blender create Mesh node B_HARBOR stepped civic library shelter
+16:17:09 | INFO: Blender create Mesh node B_HARBOR stepped civic library shop transom
+16:17:09 | INFO: Blender create Mesh node B_HARBOR stepped civic library shopfront
+16:17:09 | INFO: Blender create Mesh node B_HARBOR underside basket arches
+16:17:09 | INFO: Blender create Mesh node bridge parapet
+16:17:09 | INFO: Blender create Mesh node C_CULTURE civic canopy
+16:17:09 | INFO: Blender create Mesh node C_CULTURE interior boulevard
+16:17:09 | INFO: Blender create Mesh node C_CULTURE mixed use arcade supports
+16:17:09 | INFO: Blender create Mesh node C_CULTURE mixed use entry lintel
+16:17:09 | INFO: Blender create Mesh node C_CULTURE mixed use facade fins
+16:17:09 | INFO: Blender create Mesh node C_CULTURE mixed use floor
+16:17:09 | INFO: Blender create Mesh node C_CULTURE mixed use private core
+16:17:09 | INFO: Blender create Mesh node C_CULTURE mixed use shelter
+16:17:09 | INFO: Blender create Mesh node C_CULTURE mixed use shop transom
+16:17:09 | INFO: Blender create Mesh node C_CULTURE mixed use shopfront
+16:17:09 | INFO: Blender create Mesh node C_CULTURE occupied decks
+16:17:09 | INFO: Blender create Mesh node C_CULTURE recessed bands
+16:17:09 | INFO: Blender create Mesh node C_CULTURE underside basket arches
+16:17:09 | INFO: Blender create Mesh node city fabric 0 arcade supports
+16:17:09 | INFO: Blender create Mesh node city fabric 0 entry lintel
+16:17:09 | INFO: Blender create Mesh node city fabric 0 facade fins
+16:17:09 | INFO: Blender create Mesh node city fabric 0 floor
+16:17:10 | INFO: Blender create Mesh node city fabric 0 private core
+16:17:10 | INFO: Blender create Mesh node city fabric 0 shelter
+16:17:10 | INFO: Blender create Mesh node city fabric 0 shop transom
+16:17:10 | INFO: Blender create Mesh node city fabric 0 shopfront
+16:17:10 | INFO: Blender create Mesh node city fabric 1 arcade supports
+16:17:10 | INFO: Blender create Mesh node city fabric 1 entry lintel
+16:17:10 | INFO: Blender create Mesh node city fabric 1 facade fins
+16:17:10 | INFO: Blender create Mesh node city fabric 1 floor
+16:17:10 | INFO: Blender create Mesh node city fabric 1 private core
+16:17:10 | INFO: Blender create Mesh node city fabric 1 shelter
+16:17:10 | INFO: Blender create Mesh node city fabric 1 shop transom
+16:17:10 | INFO: Blender create Mesh node city fabric 1 shopfront
+16:17:10 | INFO: Blender create Mesh node city fabric 2 arcade supports
+16:17:10 | INFO: Blender create Mesh node city fabric 2 entry lintel
+16:17:10 | INFO: Blender create Mesh node city fabric 2 facade fins
+16:17:10 | INFO: Blender create Mesh node city fabric 2 floor
+16:17:10 | INFO: Blender create Mesh node city fabric 2 private core
+16:17:10 | INFO: Blender create Mesh node city fabric 2 shelter
+16:17:10 | INFO: Blender create Mesh node city fabric 2 shop transom
+16:17:10 | INFO: Blender create Mesh node city fabric 2 shopfront
+16:17:10 | INFO: Blender create Mesh node civic court bench
+16:17:10 | INFO: Blender create Mesh node conservatory vaults
+16:17:10 | INFO: Blender create Mesh node D_RIDGE interior boulevard
+16:17:10 | INFO: Blender create Mesh node D_RIDGE mixed use arcade supports
+16:17:10 | INFO: Blender create Mesh node D_RIDGE mixed use entry lintel
+16:17:10 | INFO: Blender create Mesh node D_RIDGE mixed use facade fins
+16:17:10 | INFO: Blender create Mesh node D_RIDGE mixed use floor
+16:17:10 | INFO: Blender create Mesh node D_RIDGE mixed use private core
+16:17:10 | INFO: Blender create Mesh node D_RIDGE mixed use shelter
+16:17:10 | INFO: Blender create Mesh node D_RIDGE mixed use shop transom
+16:17:10 | INFO: Blender create Mesh node D_RIDGE mixed use shopfront
+16:17:10 | INFO: Blender create Mesh node D_RIDGE occupied decks
+16:17:10 | INFO: Blender create Mesh node D_RIDGE recessed bands
+16:17:10 | INFO: Blender create Mesh node D_RIDGE stepped civic library arcade supports
+16:17:10 | INFO: Blender create Mesh node D_RIDGE stepped civic library entry lintel
+16:17:10 | INFO: Blender create Mesh node D_RIDGE stepped civic library facade fins
+16:17:10 | INFO: Blender create Mesh node D_RIDGE stepped civic library floor
+16:17:10 | INFO: Blender create Mesh node D_RIDGE stepped civic library private core
+16:17:10 | INFO: Blender create Mesh node D_RIDGE stepped civic library shelter
+16:17:10 | INFO: Blender create Mesh node D_RIDGE stepped civic library shop transom
+16:17:10 | INFO: Blender create Mesh node D_RIDGE stepped civic library shopfront
+16:17:10 | INFO: Blender create Mesh node D_RIDGE underside basket arches
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY civic canopy
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY interior boulevard
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY mixed use arcade supports
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY mixed use entry lintel
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY mixed use facade fins
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY mixed use floor
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY mixed use private core
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shelter
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shop transom
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shopfront
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY occupied decks
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY recessed bands
+16:17:10 | INFO: Blender create Mesh node E_OBSERVATORY underside basket arches
+16:17:10 | INFO: Blender create Mesh node east gallery colonnade
+16:17:10 | INFO: Blender create Mesh node east gallery reading benches
+16:17:10 | INFO: Blender create Mesh node east gallery roof
+16:17:10 | INFO: Blender create Mesh node EAST LANTERN continuous buttress
+16:17:10 | INFO: Blender create Mesh node EAST LANTERN room bands
+16:17:10 | INFO: Blender create Mesh node EAST LANTERN storeys
+16:17:10 | INFO: Blender create Mesh node EAST LANTERN vertical facade blades
+16:17:10 | INFO: Blender create Mesh node EAST_GALLERY_REAL_FLOOR
+16:17:10 | INFO: Blender create Mesh node eastern inland sea
+16:17:10 | INFO: Blender create Mesh node F_CASCADE interior boulevard
+16:17:10 | INFO: Blender create Mesh node F_CASCADE mixed use arcade supports
+16:17:10 | INFO: Blender create Mesh node F_CASCADE mixed use entry lintel
+16:17:10 | INFO: Blender create Mesh node F_CASCADE mixed use facade fins
+16:17:10 | INFO: Blender create Mesh node F_CASCADE mixed use floor
+16:17:10 | INFO: Blender create Mesh node F_CASCADE mixed use private core
+16:17:10 | INFO: Blender create Mesh node F_CASCADE mixed use shelter
+16:17:10 | INFO: Blender create Mesh node F_CASCADE mixed use shop transom
+16:17:10 | INFO: Blender create Mesh node F_CASCADE mixed use shopfront
+16:17:10 | INFO: Blender create Mesh node F_CASCADE occupied decks
+16:17:10 | INFO: Blender create Mesh node F_CASCADE recessed bands
+16:17:11 | INFO: Blender create Mesh node F_CASCADE stepped civic library arcade supports
+16:17:11 | INFO: Blender create Mesh node F_CASCADE stepped civic library entry lintel
+16:17:11 | INFO: Blender create Mesh node F_CASCADE stepped civic library facade fins
+16:17:11 | INFO: Blender create Mesh node F_CASCADE stepped civic library floor
+16:17:11 | INFO: Blender create Mesh node F_CASCADE stepped civic library private core
+16:17:11 | INFO: Blender create Mesh node F_CASCADE stepped civic library shelter
+16:17:11 | INFO: Blender create Mesh node F_CASCADE stepped civic library shop transom
+16:17:11 | INFO: Blender create Mesh node F_CASCADE stepped civic library shopfront
+16:17:11 | INFO: Blender create Mesh node F_CASCADE underside basket arches
+16:17:11 | INFO: Blender create Mesh node far ground
+16:17:11 | INFO: Blender create Mesh node forum benches
+16:17:11 | INFO: Blender create Mesh node forum branching vault ribs
+16:17:11 | INFO: Blender create Mesh node forum civic island
+16:17:11 | INFO: Blender create Mesh node forum cross bridge
+16:17:11 | INFO: Blender create Mesh node forum gallery floors
+16:17:11 | INFO: Blender create Mesh node forum gallery piers
+16:17:11 | INFO: Blender create Mesh node forum market arcade supports
+16:17:11 | INFO: Blender create Mesh node forum market entry lintel
+16:17:11 | INFO: Blender create Mesh node forum market facade fins
+16:17:11 | INFO: Blender create Mesh node forum market floor
+16:17:11 | INFO: Blender create Mesh node forum market private core
+16:17:11 | INFO: Blender create Mesh node forum market shelter
+16:17:11 | INFO: Blender create Mesh node forum market shop transom
+16:17:11 | INFO: Blender create Mesh node forum market shopfront
+16:17:11 | INFO: Blender create Mesh node forum reflecting channel
+16:17:11 | INFO: Blender create Mesh node forum silver roof petals
+16:17:11 | INFO: Blender create Mesh node forum splayed root
+16:17:11 | INFO: Blender create Mesh node forum tree planters
+16:17:11 | INFO: Blender create Mesh node FORUM_REAL_FLOOR
+16:17:11 | INFO: Blender create Mesh node gallery lift shaft
+16:17:11 | INFO: Blender create Mesh node gallery rail posts
+16:17:11 | INFO: Blender create Mesh node gallery safety rail
+16:17:11 | INFO: Blender create Mesh node gallery stair flights
+16:17:11 | INFO: Blender create Mesh node garden branches
+16:17:11 | INFO: Blender create Mesh node garden branches.001
+16:17:11 | INFO: Blender create Mesh node garden branches.002
+16:17:11 | INFO: Blender create Mesh node garden crowns
+16:17:11 | INFO: Blender create Mesh node garden crowns.001
+16:17:11 | INFO: Blender create Mesh node garden crowns.002
+16:17:11 | INFO: Blender create Mesh node garden layered foliage
+16:17:11 | INFO: Blender create Mesh node garden layered foliage.001
+16:17:11 | INFO: Blender create Mesh node garden layered foliage.002
+16:17:11 | INFO: Blender create Mesh node garden trunks
+16:17:11 | INFO: Blender create Mesh node garden trunks.001
+16:17:11 | INFO: Blender create Mesh node garden trunks.002
+16:17:11 | INFO: Blender create Mesh node gateway rising lintel
+16:17:11 | INFO: Blender create Mesh node halo bronze inner seam
+16:17:11 | INFO: Blender create Mesh node harbor terraces arcade supports
+16:17:11 | INFO: Blender create Mesh node harbor terraces entry lintel
+16:17:11 | INFO: Blender create Mesh node harbor terraces facade fins
+16:17:11 | INFO: Blender create Mesh node harbor terraces floor
+16:17:11 | INFO: Blender create Mesh node harbor terraces private core
+16:17:11 | INFO: Blender create Mesh node harbor terraces shelter
+16:17:11 | INFO: Blender create Mesh node harbor terraces shop transom
+16:17:11 | INFO: Blender create Mesh node harbor terraces shopfront
+16:17:11 | INFO: Blender create Mesh node inclined crown halo
+16:17:11 | INFO: Blender create Mesh node landform research
+16:17:11 | INFO: Blender create Mesh node lane planter
+16:17:11 | INFO: Blender create Mesh node lane seating
+16:17:11 | INFO: Blender create Mesh node library awning
+16:17:11 | INFO: Blender create Mesh node library awning posts
+16:17:11 | INFO: Blender create Mesh node library lane arcade supports
+16:17:11 | INFO: Blender create Mesh node library lane entry lintel
+16:17:11 | INFO: Blender create Mesh node library lane facade fins
+16:17:11 | INFO: Blender create Mesh node library lane floor
+16:17:11 | INFO: Blender create Mesh node library lane private core
+16:17:11 | INFO: Blender create Mesh node library lane shelter
+16:17:11 | INFO: Blender create Mesh node library lane shop transom
+16:17:11 | INFO: Blender create Mesh node library lane shopfront
+16:17:11 | INFO: Blender create Mesh node mountain sanctuary galleries
+16:17:11 | INFO: Blender create Mesh node NORTH CHOIR continuous buttress
+16:17:11 | INFO: Blender create Mesh node NORTH CHOIR room bands
+16:17:11 | INFO: Blender create Mesh node NORTH CHOIR storeys
+16:17:11 | INFO: Blender create Mesh node NORTH CHOIR vertical facade blades
+16:17:12 | INFO: Blender create Mesh node people 1.75m
+16:17:12 | INFO: Blender create Mesh node people arms
+16:17:12 | INFO: Blender create Mesh node people heads
+16:17:12 | INFO: Blender create Mesh node people legs
+16:17:12 | INFO: Blender create Mesh node public reading pavilion arcade supports
+16:17:12 | INFO: Blender create Mesh node public reading pavilion entry lintel
+16:17:12 | INFO: Blender create Mesh node public reading pavilion facade fins
+16:17:12 | INFO: Blender create Mesh node public reading pavilion floor
+16:17:12 | INFO: Blender create Mesh node public reading pavilion private core
+16:17:12 | INFO: Blender create Mesh node public reading pavilion shelter
+16:17:12 | INFO: Blender create Mesh node public reading pavilion shop transom
+16:17:12 | INFO: Blender create Mesh node public reading pavilion shopfront
+16:17:12 | INFO: Blender create Mesh node reading gallery edge posts
+16:17:12 | INFO: Blender create Mesh node reading gallery open parapet
+16:17:12 | INFO: Blender create Mesh node reading seat backs
+16:17:12 | INFO: Blender create Mesh node reading seats
+16:17:12 | INFO: Blender create Mesh node reading table legs
+16:17:12 | INFO: Blender create Mesh node reading tables
+16:17:12 | INFO: Blender create Mesh node sea sail floors
+16:17:12 | INFO: Blender create Mesh node SEA_TERRACE_REAL_FLOOR
+16:17:12 | INFO: Blender create Mesh node south gateway inhabited pier
+16:17:12 | INFO: Blender create Mesh node spine ascending flutes
+16:17:12 | INFO: Blender create Mesh node spine occupied ring
+16:17:12 | INFO: Blender create Mesh node spine recessed rooms
+16:17:12 | INFO: Blender create Mesh node transit piers
+16:17:12 | INFO: Blender create Mesh node transit rails 0
+16:17:12 | INFO: Blender create Mesh node transit rails 1
+16:17:12 | INFO: Blender create Mesh node transit rails 2
+16:17:12 | INFO: Blender create Mesh node transit rails 3
+16:17:12 | INFO: Blender create Mesh node transit rails 4
+16:17:12 | INFO: Blender create Mesh node transit rails 5
+16:17:12 | INFO: Blender create Mesh node transit viaduct 0
+16:17:12 | INFO: Blender create Mesh node transit viaduct 1
+16:17:12 | INFO: Blender create Mesh node transit viaduct 2
+16:17:12 | INFO: Blender create Mesh node transit viaduct 3
+16:17:12 | INFO: Blender create Mesh node transit viaduct 4
+16:17:12 | INFO: Blender create Mesh node transit viaduct 5
+16:17:12 | INFO: Blender create Mesh node twin conservatory floor
+16:17:12 | INFO: Blender create Mesh node upper civic promenade
+16:17:12 | INFO: Blender create Mesh node water stairs landing
+16:17:12 | INFO: Blender create Mesh node WEST CHOIR continuous buttress
+16:17:12 | INFO: Blender create Mesh node WEST CHOIR room bands
+16:17:12 | INFO: Blender create Mesh node WEST CHOIR storeys
+16:17:12 | INFO: Blender create Mesh node WEST CHOIR vertical facade blades
+16:17:12 | INFO: glTF import finished in 3.14s
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

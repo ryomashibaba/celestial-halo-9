@@ -1,0 +1,4581 @@
+{
+  "source_blend_sha256": "9ad79426b4670a1652685e770b5aee38dfe66b78c5a9b4e50f844bd8ec5d1355",
+  "source_glb_sha256": "ffa7c5390c515195313f60b2d54ffcf8145b3a2f932631a923c12458ac20844a",
+  "blender": "5.2.1 LTS",
+  "objects": [
+    {
+      "name": "landform research",
+      "group": "CONTEXT_TERRAIN_PROVISIONAL",
+      "bbox_m": [
+        [
+          -7000.0,
+          -6500.0,
+          -96.89388275146484
+        ],
+        [
+          7400.0,
+          7900.0,
+          3712.45947265625
+        ]
+      ],
+      "vertices": 14641,
+      "polygons": 28800
+    },
+    {
+      "name": "eastern inland sea",
+      "group": "CONTEXT_TERRAIN_PROVISIONAL",
+      "bbox_m": [
+        [
+          1800.0,
+          -8400.0,
+          -16.0
+        ],
+        [
+          12600.0,
+          9600.0,
+          -4.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "far ground",
+      "group": "CONTEXT_TERRAIN_PROVISIONAL",
+      "bbox_m": [
+        [
+          -150000.0,
+          -150000.0,
+          -200.0
+        ],
+        [
+          150000.0,
+          150000.0,
+          -140.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "WEST CHOIR storeys",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1499.86865234375,
+          -1216.70458984375,
+          102.19999694824219
+        ],
+        [
+          -302.22869873046875,
+          2067.533935546875,
+          1845.0
+        ]
+      ],
+      "vertices": 28528,
+      "polygons": 21396
+    },
+    {
+      "name": "WEST CHOIR room bands",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1473.871337890625,
+          -1190.7559814453125,
+          108.0
+        ],
+        [
+          -304.3635559082031,
+          2042.3507080078125,
+          1860.0
+        ]
+      ],
+      "vertices": 21824,
+      "polygons": 16368
+    },
+    {
+      "name": "WEST CHOIR vertical facade blades",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1497.4249267578125,
+          -1210.92822265625,
+          105.0
+        ],
+        [
+          -323.427001953125,
+          2053.792724609375,
+          1843.0
+        ]
+      ],
+      "vertices": 28736,
+      "polygons": 21552
+    },
+    {
+      "name": "garden trunks",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1487.4853515625,
+          -1154.7777099609375,
+          105.0
+        ],
+        [
+          1055.232177734375,
+          2043.732421875,
+          2273.06005859375
+        ]
+      ],
+      "vertices": 2408,
+      "polygons": 1806
+    },
+    {
+      "name": "garden crowns",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1493.400390625,
+          -1160.52978515625,
+          110.19999694824219
+        ],
+        [
+          1061.147216796875,
+          2049.484375,
+          2279.56005859375
+        ]
+      ],
+      "vertices": 12642,
+      "polygons": 9030
+    },
+    {
+      "name": "garden branches",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1490.61962890625,
+          -1157.8792724609375,
+          110.70262908935547
+        ],
+        [
+          1058.342041015625,
+          2046.1788330078125,
+          2275.820556640625
+        ]
+      ],
+      "vertices": 12040,
+      "polygons": 9030
+    },
+    {
+      "name": "garden layered foliage",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1494.2591552734375,
+          -1161.5899658203125,
+          109.81501770019531
+        ],
+        [
+          1062.0572509765625,
+          2049.826904296875,
+          2279.804931640625
+        ]
+      ],
+      "vertices": 21070,
+      "polygons": 36120
+    },
+    {
+      "name": "WEST CHOIR continuous buttress",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1512.04931640625,
+          -1212.9935302734375,
+          104.01863861083984
+        ],
+        [
+          -427.48828125,
+          2030.5794677734375,
+          1867.9609375
+        ]
+      ],
+      "vertices": 1872,
+      "polygons": 1404
+    },
+    {
+      "name": "NORTH CHOIR storeys",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1220.931884765625,
+          505.1878662109375,
+          102.19999694824219
+        ],
+        [
+          1069.6297607421875,
+          1802.4012451171875,
+          2405.0
+        ]
+      ],
+      "vertices": 35280,
+      "polygons": 26460
+    },
+    {
+      "name": "NORTH CHOIR room bands",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1195.136962890625,
+          507.6346740722656,
+          108.0
+        ],
+        [
+          1043.63818359375,
+          1777.2025146484375,
+          2420.0
+        ]
+      ],
+      "vertices": 26928,
+      "polygons": 20196
+    },
+    {
+      "name": "NORTH CHOIR vertical facade blades",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1213.9521484375,
+          539.7214965820312,
+          105.0
+        ],
+        [
+          1067.497314453125,
+          1791.0328369140625,
+          2403.0
+        ]
+      ],
+      "vertices": 35424,
+      "polygons": 26568
+    },
+    {
+      "name": "NORTH CHOIR continuous buttress",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          -1213.5701904296875,
+          640.5486450195312,
+          104.34741973876953
+        ],
+        [
+          1086.7711181640625,
+          1850.125244140625,
+          2427.2783203125
+        ]
+      ],
+      "vertices": 1872,
+      "polygons": 1404
+    },
+    {
+      "name": "EAST LANTERN storeys",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          408.34991455078125,
+          -373.728271484375,
+          102.19999694824219
+        ],
+        [
+          979.9663696289062,
+          1334.427978515625,
+          1325.0
+        ]
+      ],
+      "vertices": 18256,
+      "polygons": 13692
+    },
+    {
+      "name": "EAST LANTERN room bands",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          419.86700439453125,
+          -350.9443054199219,
+          108.0
+        ],
+        [
+          953.9675903320312,
+          1309.9649658203125,
+          1340.0
+        ]
+      ],
+      "vertices": 14000,
+      "polygons": 10500
+    },
+    {
+      "name": "EAST LANTERN vertical facade blades",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          416.4317626953125,
+          -362.38104248046875,
+          105.0
+        ],
+        [
+          977.4697265625,
+          1325.5777587890625,
+          1323.0
+        ]
+      ],
+      "vertices": 18560,
+      "polygons": 13920
+    },
+    {
+      "name": "EAST LANTERN continuous buttress",
+      "group": "CENTRAL_OCCUPIED_CRESCENTS",
+      "bbox_m": [
+        [
+          515.1844482421875,
+          -347.8804016113281,
+          104.24251556396484
+        ],
+        [
+          995.2891235351562,
+          1320.5877685546875,
+          1347.4930419921875
+        ]
+      ],
+      "vertices": 1872,
+      "polygons": 1404
+    },
+    {
+      "name": "spine occupied ring",
+      "group": "CENTRAL_SPINE",
+      "bbox_m": [
+        [
+          -490.0,
+          814.4000244140625,
+          132.5
+        ],
+        [
+          130.0,
+          1285.5999755859375,
+          3215.0
+        ]
+      ],
+      "vertices": 20460,
+      "polygons": 20150
+    },
+    {
+      "name": "spine recessed rooms",
+      "group": "CENTRAL_SPINE",
+      "bbox_m": [
+        [
+          -481.0,
+          823.4000244140625,
+          139.0
+        ],
+        [
+          121.0,
+          1276.5999755859375,
+          3090.0
+        ]
+      ],
+      "vertices": 19536,
+      "polygons": 19240
+    },
+    {
+      "name": "spine ascending flutes",
+      "group": "CENTRAL_SPINE",
+      "bbox_m": [
+        [
+          -486.80194091796875,
+          803.9439697265625,
+          99.78382110595703
+        ],
+        [
+          146.16281127929688,
+          1295.1533203125,
+          3270.754638671875
+        ]
+      ],
+      "vertices": 2304,
+      "polygons": 1728
+    },
+    {
+      "name": "inclined crown halo",
+      "group": "CENTRAL_SPINE",
+      "bbox_m": [
+        [
+          -1013.9100341796875,
+          707.9977416992188,
+          1422.0025634765625
+        ],
+        [
+          653.9100341796875,
+          1332.0023193359375,
+          2597.997314453125
+        ]
+      ],
+      "vertices": 1024,
+      "polygons": 768
+    },
+    {
+      "name": "halo bronze inner seam",
+      "group": "CENTRAL_SPINE",
+      "bbox_m": [
+        [
+          -1002.6720581054688,
+          693.4996337890625,
+          1437.00048828125
+        ],
+        [
+          642.6720581054688,
+          1298.5003662109375,
+          2582.99951171875
+        ]
+      ],
+      "vertices": 1024,
+      "polygons": 768
+    },
+    {
+      "name": "FORUM_REAL_FLOOR",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -610.0,
+          -1635.0,
+          87.0
+        ],
+        [
+          610.0,
+          715.0,
+          105.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "upper civic promenade",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -909.7606811523438,
+          -677.730712890625,
+          635.0
+        ],
+        [
+          909.9511108398438,
+          1619.977294921875,
+          650.0
+        ]
+      ],
+      "vertices": 404,
+      "polygons": 402
+    },
+    {
+      "name": "forum branching vault ribs",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -480.9127197265625,
+          -1454.0,
+          104.63462829589844
+        ],
+        [
+          480.9127197265625,
+          264.0,
+          470.9974365234375
+        ]
+      ],
+      "vertices": 7296,
+      "polygons": 5472
+    },
+    {
+      "name": "forum splayed root",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -566.3313598632812,
+          -1456.34521484375,
+          97.0
+        ],
+        [
+          566.3313598632812,
+          286.34521484375,
+          113.0
+        ]
+      ],
+      "vertices": 304,
+      "polygons": 228
+    },
+    {
+      "name": "forum silver roof petals",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -474.9459228515625,
+          -1450.0,
+          106.0
+        ],
+        [
+          474.9459228515625,
+          260.0,
+          471.0
+        ]
+      ],
+      "vertices": 2664,
+      "polygons": 2656
+    },
+    {
+      "name": "forum gallery floors",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -545.0,
+          -1505.0,
+          102.19999694824219
+        ],
+        [
+          545.0,
+          325.0,
+          165.0
+        ]
+      ],
+      "vertices": 64,
+      "polygons": 48
+    },
+    {
+      "name": "forum gallery piers",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -534.0,
+          -1486.0,
+          105.0
+        ],
+        [
+          534.0,
+          316.0,
+          181.0
+        ]
+      ],
+      "vertices": 3264,
+      "polygons": 2448
+    },
+    {
+      "name": "gallery stair flights",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -490.5,
+          -1300.1700439453125,
+          105.0
+        ],
+        [
+          490.5,
+          191.85000610351562,
+          165.0
+        ]
+      ],
+      "vertices": 14400,
+      "polygons": 10800
+    },
+    {
+      "name": "gallery lift shaft",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -556.5,
+          -1385.0,
+          105.0
+        ],
+        [
+          556.5,
+          195.0,
+          185.0
+        ]
+      ],
+      "vertices": 256,
+      "polygons": 192
+    },
+    {
+      "name": "gallery safety rail",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -461.17498779296875,
+          -1505.0,
+          125.875
+        ],
+        [
+          461.17498779296875,
+          325.0,
+          166.32501220703125
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "gallery rail posts",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -461.0799865722656,
+          -1505.0799560546875,
+          125.0
+        ],
+        [
+          461.0799865722656,
+          319.0799865722656,
+          166.10000610351562
+        ]
+      ],
+      "vertices": 7344,
+      "polygons": 5508
+    },
+    {
+      "name": "forum market floor",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -598.0,
+          -1415.0,
+          112.6500015258789
+        ],
+        [
+          598.0,
+          95.0,
+          133.35000610351562
+        ]
+      ],
+      "vertices": 688,
+      "polygons": 516
+    },
+    {
+      "name": "forum market private core",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -589.6799926757812,
+          -1399.699951171875,
+          113.3499984741211
+        ],
+        [
+          589.6799926757812,
+          79.69999694824219,
+          132.4499969482422
+        ]
+      ],
+      "vertices": 512,
+      "polygons": 384
+    },
+    {
+      "name": "forum market facade fins",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -594.2750244140625,
+          -1414.5999755859375,
+          113.30000305175781
+        ],
+        [
+          594.2750244140625,
+          94.5999984741211,
+          132.6999969482422
+        ]
+      ],
+      "vertices": 7168,
+      "polygons": 5376
+    },
+    {
+      "name": "forum market arcade supports",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -593.9199829101562,
+          -1406.4000244140625,
+          105.0
+        ],
+        [
+          593.9199829101562,
+          86.4000015258789,
+          113.0
+        ]
+      ],
+      "vertices": 1056,
+      "polygons": 792
+    },
+    {
+      "name": "forum market shelter",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -601.5,
+          -1418.5,
+          112.5999984741211
+        ],
+        [
+          601.5,
+          98.5,
+          113.19999694824219
+        ]
+      ],
+      "vertices": 176,
+      "polygons": 132
+    },
+    {
+      "name": "forum market shopfront",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -594.7999877929688,
+          -1397.199951171875,
+          105.25
+        ],
+        [
+          594.7999877929688,
+          77.19999694824219,
+          110.75
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "forum market shop transom",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -594.7999877929688,
+          -1397.5999755859375,
+          110.6500015258789
+        ],
+        [
+          594.7999877929688,
+          77.5999984741211,
+          110.94999694824219
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "forum market entry lintel",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -598.0,
+          -1397.4000244140625,
+          111.30000305175781
+        ],
+        [
+          598.0,
+          77.4000015258789,
+          112.0999984741211
+        ]
+      ],
+      "vertices": 352,
+      "polygons": 264
+    },
+    {
+      "name": "forum cross bridge",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -540.0,
+          -987.5,
+          181.0
+        ],
+        [
+          540.0,
+          438.0,
+          650.0
+        ]
+      ],
+      "vertices": 24,
+      "polygons": 18
+    },
+    {
+      "name": "bridge parapet",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -540.0,
+          -987.7999877929688,
+          185.5500030517578
+        ],
+        [
+          540.0,
+          438.29998779296875,
+          651.6499633789062
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "forum reflecting channel",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -311.0,
+          -1370.0,
+          104.9749984741211
+        ],
+        [
+          311.0,
+          270.0,
+          105.2249984741211
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "forum tree planters",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -329.5,
+          -1427.0,
+          105.0
+        ],
+        [
+          329.5,
+          212.0,
+          106.19999694824219
+        ]
+      ],
+      "vertices": 416,
+      "polygons": 312
+    },
+    {
+      "name": "garden trunks.001",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -325.5849914550781,
+          -1420.5849609375,
+          105.0
+        ],
+        [
+          1590.5400390625,
+          205.5850067138672,
+          124.58000183105469
+        ]
+      ],
+      "vertices": 688,
+      "polygons": 516
+    },
+    {
+      "name": "garden crowns.001",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -331.5,
+          -1426.3370361328125,
+          108.5999984741211
+        ],
+        [
+          1596.0,
+          211.3370361328125,
+          129.0800018310547
+        ]
+      ],
+      "vertices": 3612,
+      "polygons": 2580
+    },
+    {
+      "name": "garden branches.001",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -328.71917724609375,
+          -1423.6865234375,
+          108.9479751586914
+        ],
+        [
+          1593.4105224609375,
+          208.03152465820312,
+          126.49125671386719
+        ]
+      ],
+      "vertices": 3440,
+      "polygons": 2580
+    },
+    {
+      "name": "garden layered foliage.001",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -332.3586730957031,
+          -1427.3970947265625,
+          108.3334732055664
+        ],
+        [
+          1596.8399658203125,
+          211.67935180664062,
+          129.24949645996094
+        ]
+      ],
+      "vertices": 6020,
+      "polygons": 10320
+    },
+    {
+      "name": "forum benches",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -338.5,
+          -1422.5,
+          105.0
+        ],
+        [
+          338.5,
+          207.5,
+          105.9000015258789
+        ]
+      ],
+      "vertices": 416,
+      "polygons": 312
+    },
+    {
+      "name": "people 1.75m",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -259.658935546875,
+          -1459.03076171875,
+          105.4800033569336
+        ],
+        [
+          1141.2099609375,
+          365.01312255859375,
+          120.4000015258789
+        ]
+      ],
+      "vertices": 1280,
+      "polygons": 960
+    },
+    {
+      "name": "people heads",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -259.5789489746094,
+          -1459.0357666015625,
+          106.44999694824219
+        ],
+        [
+          1141.1300048828125,
+          365.01812744140625,
+          120.75
+        ]
+      ],
+      "vertices": 1280,
+      "polygons": 960
+    },
+    {
+      "name": "people legs",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -259.6487121582031,
+          -1458.9658203125,
+          104.99441528320312
+        ],
+        [
+          1141.1998291015625,
+          364.9481201171875,
+          119.65558624267578
+        ]
+      ],
+      "vertices": 2560,
+      "polygons": 1920
+    },
+    {
+      "name": "people arms",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -259.7789306640625,
+          -1458.9608154296875,
+          105.64815521240234
+        ],
+        [
+          1141.3299560546875,
+          364.943115234375,
+          120.30184936523438
+        ]
+      ],
+      "vertices": 2560,
+      "polygons": 1920
+    },
+    {
+      "name": "forum civic island",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -212.5,
+          -1320.0,
+          105.0
+        ],
+        [
+          212.5,
+          120.0,
+          105.5999984741211
+        ]
+      ],
+      "vertices": 40,
+      "polygons": 30
+    },
+    {
+      "name": "civic court bench",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -197.0,
+          -1251.5,
+          105.5999984741211
+        ],
+        [
+          197.0,
+          69.5,
+          106.5
+        ]
+      ],
+      "vertices": 80,
+      "polygons": 60
+    },
+    {
+      "name": "public reading pavilion floor",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -191.5,
+          -1296.0,
+          113.25
+        ],
+        [
+          191.5,
+          56.0,
+          118.94999694824219
+        ]
+      ],
+      "vertices": 80,
+      "polygons": 60
+    },
+    {
+      "name": "public reading pavilion private core",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -185.91000366210938,
+          -1290.56005859375,
+          113.94999694824219
+        ],
+        [
+          185.91000366210938,
+          50.560001373291016,
+          118.05000305175781
+        ]
+      ],
+      "vertices": 40,
+      "polygons": 30
+    },
+    {
+      "name": "public reading pavilion facade fins",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -187.77499389648438,
+          -1296.1800537109375,
+          113.9000015258789
+        ],
+        [
+          187.77499389648438,
+          56.18000030517578,
+          118.30000305175781
+        ]
+      ],
+      "vertices": 320,
+      "polygons": 240
+    },
+    {
+      "name": "public reading pavilion arcade supports",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -188.88999938964844,
+          -1293.199951171875,
+          105.5999984741211
+        ],
+        [
+          188.88999938964844,
+          53.20000076293945,
+          113.5999984741211
+        ]
+      ],
+      "vertices": 240,
+      "polygons": 180
+    },
+    {
+      "name": "public reading pavilion shelter",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -195.0,
+          -1299.5,
+          113.19999694824219
+        ],
+        [
+          195.0,
+          59.5,
+          113.80000305175781
+        ]
+      ],
+      "vertices": 40,
+      "polygons": 30
+    },
+    {
+      "name": "public reading pavilion shopfront",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -189.35000610351562,
+          -1289.800048828125,
+          105.8499984741211
+        ],
+        [
+          189.35000610351562,
+          49.79999923706055,
+          111.3499984741211
+        ]
+      ],
+      "vertices": 160,
+      "polygons": 120
+    },
+    {
+      "name": "public reading pavilion shop transom",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -189.35000610351562,
+          -1290.199951171875,
+          111.25
+        ],
+        [
+          189.35000610351562,
+          50.20000076293945,
+          111.55000305175781
+        ]
+      ],
+      "vertices": 160,
+      "polygons": 120
+    },
+    {
+      "name": "public reading pavilion entry lintel",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -191.5,
+          -1290.0,
+          111.9000015258789
+        ],
+        [
+          191.5,
+          50.0,
+          112.69999694824219
+        ]
+      ],
+      "vertices": 80,
+      "polygons": 60
+    },
+    {
+      "name": "library lane floor",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -229.0,
+          -1382.0,
+          112.6500015258789
+        ],
+        [
+          -181.0,
+          -1098.0,
+          128.35000610351562
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "library lane private core",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -222.75999450683594,
+          -1371.1199951171875,
+          113.3499984741211
+        ],
+        [
+          -187.24000549316406,
+          -1108.8800048828125,
+          127.44999694824219
+        ]
+      ],
+      "vertices": 72,
+      "polygons": 54
+    },
+    {
+      "name": "library lane facade fins",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -225.27499389648438,
+          -1381.8599853515625,
+          113.30000305175781
+        ],
+        [
+          -184.72500610351562,
+          -1098.1400146484375,
+          127.69999694824219
+        ]
+      ],
+      "vertices": 720,
+      "polygons": 540
+    },
+    {
+      "name": "library lane arcade supports",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -226.0399932861328,
+          -1376.0,
+          105.0
+        ],
+        [
+          -183.9600067138672,
+          -1104.0,
+          113.0
+        ]
+      ],
+      "vertices": 144,
+      "polygons": 108
+    },
+    {
+      "name": "library lane shelter",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -232.5,
+          -1385.5,
+          112.5999984741211
+        ],
+        [
+          -177.5,
+          -1094.5,
+          113.19999694824219
+        ]
+      ],
+      "vertices": 24,
+      "polygons": 18
+    },
+    {
+      "name": "library lane shopfront",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -226.60000610351562,
+          -1369.4000244140625,
+          105.25
+        ],
+        [
+          -183.39999389648438,
+          -1110.5999755859375,
+          110.75
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "library lane shop transom",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -226.60000610351562,
+          -1369.800048828125,
+          110.6500015258789
+        ],
+        [
+          -183.39999389648438,
+          -1110.199951171875,
+          110.94999694824219
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "library lane entry lintel",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -229.0,
+          -1369.5999755859375,
+          111.30000305175781
+        ],
+        [
+          -181.0,
+          -1110.4000244140625,
+          112.0999984741211
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "library awning",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -185.0,
+          -1410.0,
+          112.69999694824219
+        ],
+        [
+          -173.0,
+          -1130.0,
+          113.69999694824219
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "library awning posts",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -174.22500610351562,
+          -1390.2249755859375,
+          105.0
+        ],
+        [
+          -173.77499389648438,
+          -1123.7750244140625,
+          113.0
+        ]
+      ],
+      "vertices": 160,
+      "polygons": 120
+    },
+    {
+      "name": "lane seating",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -161.6999969482422,
+          -1347.5,
+          105.0
+        ],
+        [
+          -160.3000030517578,
+          -1217.5,
+          105.9000015258789
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "lane planter",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          -146.0,
+          -1348.5,
+          105.0
+        ],
+        [
+          -142.0,
+          -1216.5,
+          106.19999694824219
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "EAST_GALLERY_REAL_FLOOR",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          640.0,
+          -1005.0,
+          111.0
+        ],
+        [
+          1200.0,
+          -915.0,
+          119.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "east gallery roof",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          640.0,
+          -1008.0,
+          140.0
+        ],
+        [
+          1200.0,
+          -912.0,
+          144.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "east gallery colonnade",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          659.0999755859375,
+          -1002.9000244140625,
+          117.0
+        ],
+        [
+          1170.9000244140625,
+          -917.0999755859375,
+          140.0
+        ]
+      ],
+      "vertices": 288,
+      "polygons": 216
+    },
+    {
+      "name": "east gallery reading benches",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          676.0,
+          -970.7000122070312,
+          119.0
+        ],
+        [
+          1134.0,
+          -969.2999877929688,
+          119.9000015258789
+        ]
+      ],
+      "vertices": 56,
+      "polygons": 42
+    },
+    {
+      "name": "reading tables",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          758.4000244140625,
+          -948.6500244140625,
+          119.72000122070312
+        ],
+        [
+          1161.5999755859375,
+          -947.3499755859375,
+          119.83999633789062
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "reading table legs",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          758.739990234375,
+          -948.2999877929688,
+          119.0
+        ],
+        [
+          1161.260009765625,
+          -947.7000122070312,
+          119.76000213623047
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "reading seats",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          758.7000122070312,
+          -949.625,
+          119.375
+        ],
+        [
+          1161.300048828125,
+          -946.375,
+          119.5250015258789
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "reading seat backs",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          758.7000122070312,
+          -949.4749755859375,
+          119.44999694824219
+        ],
+        [
+          1161.300048828125,
+          -946.5250244140625,
+          120.25
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "reading gallery edge posts",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          654.9249877929688,
+          -916.0750122070312,
+          119.0
+        ],
+        [
+          1195.074951171875,
+          -915.9249877929688,
+          120.0999984741211
+        ]
+      ],
+      "vertices": 368,
+      "polygons": 276
+    },
+    {
+      "name": "reading gallery open parapet",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          650.0,
+          -916.0900268554688,
+          120.0
+        ],
+        [
+          1200.0,
+          -915.9099731445312,
+          120.19999694824219
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "SEA_TERRACE_REAL_FLOOR",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          560.0,
+          -1500.0,
+          87.0
+        ],
+        [
+          1660.0,
+          -100.0,
+          105.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "harbor terraces floor",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          976.0,
+          -400.6515808105469,
+          112.6500015258789
+        ],
+        [
+          1458.0,
+          -241.5816192626953,
+          143.35000610351562
+        ]
+      ],
+      "vertices": 352,
+      "polygons": 264
+    },
+    {
+      "name": "harbor terraces private core",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          982.239990234375,
+          -387.9015808105469,
+          113.3499984741211
+        ],
+        [
+          1451.760009765625,
+          -254.3316192626953,
+          142.4499969482422
+        ]
+      ],
+      "vertices": 288,
+      "polygons": 216
+    },
+    {
+      "name": "harbor terraces facade fins",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          979.7249755859375,
+          -400.4015808105469,
+          113.30000305175781
+        ],
+        [
+          1454.2750244140625,
+          -241.8316192626953,
+          142.6999969482422
+        ]
+      ],
+      "vertices": 2880,
+      "polygons": 2160
+    },
+    {
+      "name": "harbor terraces arcade supports",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          978.9600219726562,
+          -393.5516052246094,
+          105.0
+        ],
+        [
+          1455.0400390625,
+          -248.68161010742188,
+          113.0
+        ]
+      ],
+      "vertices": 384,
+      "polygons": 288
+    },
+    {
+      "name": "harbor terraces shelter",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          972.5,
+          -404.1515808105469,
+          112.5999984741211
+        ],
+        [
+          1461.5,
+          -238.0816192626953,
+          113.19999694824219
+        ]
+      ],
+      "vertices": 64,
+      "polygons": 48
+    },
+    {
+      "name": "harbor terraces shopfront",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          978.4000244140625,
+          -385.8515930175781,
+          105.25
+        ],
+        [
+          1455.5999755859375,
+          -256.3816223144531,
+          110.75
+        ]
+      ],
+      "vertices": 256,
+      "polygons": 192
+    },
+    {
+      "name": "harbor terraces shop transom",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          978.4000244140625,
+          -386.2515869140625,
+          110.6500015258789
+        ],
+        [
+          1455.5999755859375,
+          -255.9816131591797,
+          110.94999694824219
+        ]
+      ],
+      "vertices": 256,
+      "polygons": 192
+    },
+    {
+      "name": "harbor terraces entry lintel",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          976.0,
+          -386.0516052246094,
+          111.30000305175781
+        ],
+        [
+          1458.0,
+          -256.1816101074219,
+          112.0999984741211
+        ]
+      ],
+      "vertices": 128,
+      "polygons": 96
+    },
+    {
+      "name": "water stairs landing",
+      "group": "CENTRAL_PUBLIC_FORUM",
+      "bbox_m": [
+        [
+          1560.0,
+          -1410.0,
+          95.0
+        ],
+        [
+          1740.0,
+          -590.0,
+          105.0
+        ]
+      ],
+      "vertices": 24,
+      "polygons": 18
+    },
+    {
+      "name": "A_GARDEN occupied decks",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3439.11376953125,
+          467.8121337890625,
+          647.7000122070312
+        ],
+        [
+          -1969.9007568359375,
+          989.56201171875,
+          760.0
+        ]
+      ],
+      "vertices": 3504,
+      "polygons": 3480
+    },
+    {
+      "name": "A_GARDEN recessed bands",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3420.4140625,
+          482.1407470703125,
+          662.5
+        ],
+        [
+          -1988.37255859375,
+          980.5621337890625,
+          767.0
+        ]
+      ],
+      "vertices": 2336,
+      "polygons": 2320
+    },
+    {
+      "name": "A_GARDEN interior boulevard",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3211.5,
+          548.7000122070312,
+          669.5
+        ],
+        [
+          -2188.5,
+          851.2999877929688,
+          674.5
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "A_GARDEN mixed use floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3158.0,
+          506.0,
+          682.1500244140625
+        ],
+        [
+          -2268.39990234375,
+          894.0,
+          717.8499755859375
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "A_GARDEN mixed use private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3150.4599609375,
+          516.2000122070312,
+          682.8499755859375
+        ],
+        [
+          -2275.93994140625,
+          883.7999877929688,
+          716.9500122070312
+        ]
+      ],
+      "vertices": 592,
+      "polygons": 444
+    },
+    {
+      "name": "A_GARDEN mixed use facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3154.27490234375,
+          506.1000061035156,
+          682.7999877929688
+        ],
+        [
+          -2272.125,
+          893.9000244140625,
+          717.2000122070312
+        ]
+      ],
+      "vertices": 7104,
+      "polygons": 5328
+    },
+    {
+      "name": "A_GARDEN mixed use arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3154.340087890625,
+          511.6000061035156,
+          674.5
+        ],
+        [
+          -2272.06005859375,
+          888.4000244140625,
+          682.5
+        ]
+      ],
+      "vertices": 672,
+      "polygons": 504
+    },
+    {
+      "name": "A_GARDEN mixed use shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3161.5,
+          502.5,
+          682.0999755859375
+        ],
+        [
+          -2264.89990234375,
+          897.5,
+          682.7000122070312
+        ]
+      ],
+      "vertices": 112,
+      "polygons": 84
+    },
+    {
+      "name": "A_GARDEN mixed use shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3155.10009765625,
+          517.7999877929688,
+          674.75
+        ],
+        [
+          -2271.300048828125,
+          882.2000122070312,
+          680.25
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "A_GARDEN mixed use shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3155.10009765625,
+          517.4000244140625,
+          680.1500244140625
+        ],
+        [
+          -2271.300048828125,
+          882.5999755859375,
+          680.4500122070312
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "A_GARDEN mixed use entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3158.0,
+          517.5999755859375,
+          680.7999877929688
+        ],
+        [
+          -2268.39990234375,
+          882.4000244140625,
+          681.5999755859375
+        ]
+      ],
+      "vertices": 224,
+      "polygons": 168
+    },
+    {
+      "name": "garden trunks.002",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3129.449951171875,
+          -1356.449951171875,
+          484.5
+        ],
+        [
+          2714.050048828125,
+          3198.449951171875,
+          1900.699951171875
+        ]
+      ],
+      "vertices": 672,
+      "polygons": 504
+    },
+    {
+      "name": "garden crowns.002",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3134.0,
+          -1360.8746337890625,
+          488.5
+        ],
+        [
+          2718.60009765625,
+          3202.874755859375,
+          1905.699951171875
+        ]
+      ],
+      "vertices": 3528,
+      "polygons": 2520
+    },
+    {
+      "name": "garden branches.002",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3131.86083984375,
+          -1358.835693359375,
+          488.88665771484375
+        ],
+        [
+          2716.442138671875,
+          3200.33203125,
+          1902.8236083984375
+        ]
+      ],
+      "vertices": 3360,
+      "polygons": 2520
+    },
+    {
+      "name": "garden layered foliage.002",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3134.660400390625,
+          -1361.6900634765625,
+          488.203857421875
+        ],
+        [
+          2719.300048828125,
+          3203.137939453125,
+          1905.8883056640625
+        ]
+      ],
+      "vertices": 5880,
+      "polygons": 10080
+    },
+    {
+      "name": "A_GARDEN underside basket arches",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3260.65478515625,
+          331.6839294433594,
+          462.50042724609375
+        ],
+        [
+          -2105.177001953125,
+          1068.3160400390625,
+          631.0706176757812
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "A_GARDEN civic canopy",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2914.99072265625,
+          767.0,
+          714.6971435546875
+        ],
+        [
+          -2485.00927734375,
+          893.0,
+          889.9960327148438
+        ]
+      ],
+      "vertices": 1536,
+      "polygons": 1152
+    },
+    {
+      "name": "B_HARBOR occupied decks",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1490.146484375,
+          -1009.97119140625,
+          777.7000122070312
+        ],
+        [
+          3009.951171875,
+          -290.0789489746094,
+          920.0
+        ]
+      ],
+      "vertices": 4380,
+      "polygons": 4350
+    },
+    {
+      "name": "B_HARBOR recessed bands",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1514.1177978515625,
+          -996.2472534179688,
+          792.5
+        ],
+        [
+          2995.977294921875,
+          -303.8009338378906,
+          927.0
+        ]
+      ],
+      "vertices": 2920,
+      "polygons": 2900
+    },
+    {
+      "name": "B_HARBOR interior boulevard",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1661.0,
+          -784.7999877929688,
+          799.5
+        ],
+        [
+          2839.0,
+          -515.2000122070312,
+          804.5
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "B_HARBOR mixed use floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1726.0,
+          -824.0,
+          812.1500244140625
+        ],
+        [
+          2743.60009765625,
+          -476.0,
+          847.8499755859375
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "B_HARBOR mixed use private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1733.800048828125,
+          -813.7999877929688,
+          812.8499755859375
+        ],
+        [
+          2735.800048828125,
+          -486.20001220703125,
+          846.9500122070312
+        ]
+      ],
+      "vertices": 592,
+      "polygons": 444
+    },
+    {
+      "name": "B_HARBOR mixed use facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1729.7249755859375,
+          -823.9000244140625,
+          812.7999877929688
+        ],
+        [
+          2739.875,
+          -476.1000061035156,
+          847.2000122070312
+        ]
+      ],
+      "vertices": 7104,
+      "polygons": 5328
+    },
+    {
+      "name": "B_HARBOR mixed use arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1729.800048828125,
+          -818.4000244140625,
+          804.5
+        ],
+        [
+          2739.800048828125,
+          -481.6000061035156,
+          812.5
+        ]
+      ],
+      "vertices": 672,
+      "polygons": 504
+    },
+    {
+      "name": "B_HARBOR mixed use shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1722.5,
+          -827.5,
+          812.0999755859375
+        ],
+        [
+          2747.10009765625,
+          -472.5,
+          812.7000122070312
+        ]
+      ],
+      "vertices": 112,
+      "polygons": 84
+    },
+    {
+      "name": "B_HARBOR mixed use shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1729.0,
+          -812.2000122070312,
+          804.75
+        ],
+        [
+          2740.60009765625,
+          -487.79998779296875,
+          810.25
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "B_HARBOR mixed use shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1729.0,
+          -812.5999755859375,
+          810.1500244140625
+        ],
+        [
+          2740.60009765625,
+          -487.3999938964844,
+          810.4500122070312
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "B_HARBOR mixed use entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1726.0,
+          -812.4000244140625,
+          810.7999877929688
+        ],
+        [
+          2743.60009765625,
+          -487.6000061035156,
+          811.5999755859375
+        ]
+      ],
+      "vertices": 224,
+      "polygons": 168
+    },
+    {
+      "name": "B_HARBOR underside basket arches",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1605.9876708984375,
+          -974.804931640625,
+          592.5003051757812
+        ],
+        [
+          2933.798583984375,
+          -325.1951599121094,
+          761.2288208007812
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "B_HARBOR stepped civic library floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2045.0,
+          -528.0,
+          917.6500244140625
+        ],
+        [
+          2455.0,
+          -448.0,
+          968.3499755859375
+        ]
+      ],
+      "vertices": 216,
+      "polygons": 162
+    },
+    {
+      "name": "B_HARBOR stepped civic library private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2059.300048828125,
+          -514.4000244140625,
+          918.3499755859375
+        ],
+        [
+          2440.699951171875,
+          -461.6000061035156,
+          967.4500122070312
+        ]
+      ],
+      "vertices": 192,
+      "polygons": 144
+    },
+    {
+      "name": "B_HARBOR stepped civic library facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2048.72509765625,
+          -527.7000122070312,
+          918.2999877929688
+        ],
+        [
+          2451.27490234375,
+          -448.29998779296875,
+          967.7000122070312
+        ]
+      ],
+      "vertices": 4608,
+      "polygons": 3456
+    },
+    {
+      "name": "B_HARBOR stepped civic library arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2052.300048828125,
+          -520.4000244140625,
+          910.0
+        ],
+        [
+          2447.699951171875,
+          -455.6000061035156,
+          918.0
+        ]
+      ],
+      "vertices": 144,
+      "polygons": 108
+    },
+    {
+      "name": "B_HARBOR stepped civic library shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2041.5,
+          -531.5,
+          917.5999755859375
+        ],
+        [
+          2458.5,
+          -444.5,
+          918.2000122070312
+        ]
+      ],
+      "vertices": 24,
+      "polygons": 18
+    },
+    {
+      "name": "B_HARBOR stepped civic library shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2050.5,
+          -512.2000122070312,
+          910.25
+        ],
+        [
+          2449.5,
+          -463.79998779296875,
+          915.75
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "B_HARBOR stepped civic library shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2050.5,
+          -512.5999755859375,
+          915.6500244140625
+        ],
+        [
+          2449.5,
+          -463.3999938964844,
+          915.9500122070312
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "B_HARBOR stepped civic library entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          2045.0,
+          -512.4000244140625,
+          916.2999877929688
+        ],
+        [
+          2455.0,
+          -463.6000061035156,
+          917.0999755859375
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "C_CULTURE occupied decks",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1430.305908203125,
+          1350.0535888671875,
+          1237.699951171875
+        ],
+        [
+          2639.655029296875,
+          2449.77197265625,
+          1410.0
+        ]
+      ],
+      "vertices": 5256,
+      "polygons": 5220
+    },
+    {
+      "name": "C_CULTURE recessed bands",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1447.4349365234375,
+          1366.270751953125,
+          1252.5
+        ],
+        [
+          2623.356201171875,
+          2433.559814453125,
+          1417.0
+        ]
+      ],
+      "vertices": 3504,
+      "polygons": 3480
+    },
+    {
+      "name": "C_CULTURE interior boulevard",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1569.5,
+          1702.5,
+          1259.5
+        ],
+        [
+          2530.5,
+          2097.5,
+          1264.5
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "C_CULTURE mixed use floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1616.0,
+          1650.0,
+          1272.1500244140625
+        ],
+        [
+          2459.199951171875,
+          2150.0,
+          1307.8499755859375
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "C_CULTURE mixed use private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1624.06005859375,
+          1660.199951171875,
+          1272.8499755859375
+        ],
+        [
+          2451.139892578125,
+          2139.800048828125,
+          1306.949951171875
+        ]
+      ],
+      "vertices": 592,
+      "polygons": 444
+    },
+    {
+      "name": "C_CULTURE mixed use facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1619.7249755859375,
+          1650.0999755859375,
+          1272.800048828125
+        ],
+        [
+          2455.47509765625,
+          2149.89990234375,
+          1307.199951171875
+        ]
+      ],
+      "vertices": 7104,
+      "polygons": 5328
+    },
+    {
+      "name": "C_CULTURE mixed use arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1619.93994140625,
+          1655.5999755859375,
+          1264.5
+        ],
+        [
+          2455.260009765625,
+          2144.39990234375,
+          1272.5
+        ]
+      ],
+      "vertices": 672,
+      "polygons": 504
+    },
+    {
+      "name": "C_CULTURE mixed use shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1612.5,
+          1646.5,
+          1272.0999755859375
+        ],
+        [
+          2462.699951171875,
+          2153.5,
+          1272.699951171875
+        ]
+      ],
+      "vertices": 112,
+      "polygons": 84
+    },
+    {
+      "name": "C_CULTURE mixed use shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1619.0999755859375,
+          1661.800048828125,
+          1264.75
+        ],
+        [
+          2456.10009765625,
+          2138.199951171875,
+          1270.25
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "C_CULTURE mixed use shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1619.0999755859375,
+          1661.4000244140625,
+          1270.1500244140625
+        ],
+        [
+          2456.10009765625,
+          2138.60009765625,
+          1270.449951171875
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "C_CULTURE mixed use entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1616.0,
+          1661.5999755859375,
+          1270.800048828125
+        ],
+        [
+          2459.199951171875,
+          2138.39990234375,
+          1271.5999755859375
+        ]
+      ],
+      "vertices": 224,
+      "polygons": 168
+    },
+    {
+      "name": "C_CULTURE underside basket arches",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1522.40625,
+          1409.3660888671875,
+          1052.50048828125
+        ],
+        [
+          2609.232177734375,
+          2390.6337890625,
+          1221.0072021484375
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "C_CULTURE civic canopy",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          1835.0091552734375,
+          1967.0,
+          1304.6971435546875
+        ],
+        [
+          2264.99072265625,
+          2093.0,
+          1479.99609375
+        ]
+      ],
+      "vertices": 1536,
+      "polygons": 1152
+    },
+    {
+      "name": "D_RIDGE occupied decks",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2689.817626953125,
+          2318.791748046875,
+          1447.699951171875
+        ],
+        [
+          -1517.263916015625,
+          3109.91015625,
+          1560.0
+        ]
+      ],
+      "vertices": 3504,
+      "polygons": 3480
+    },
+    {
+      "name": "D_RIDGE recessed bands",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2679.078857421875,
+          2334.1630859375,
+          1462.5
+        ],
+        [
+          -1539.801513671875,
+          3097.531982421875,
+          1567.0
+        ]
+      ],
+      "vertices": 2336,
+      "polygons": 2320
+    },
+    {
+      "name": "D_RIDGE interior boulevard",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2557.25,
+          2548.699951171875,
+          1469.5
+        ],
+        [
+          -1642.75,
+          2851.300048828125,
+          1474.5
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "D_RIDGE mixed use floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2515.5,
+          2506.0,
+          1482.1500244140625
+        ],
+        [
+          -1708.0999755859375,
+          2894.0,
+          1517.8499755859375
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "D_RIDGE mixed use private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2507.179931640625,
+          2516.199951171875,
+          1482.8499755859375
+        ],
+        [
+          -1716.4200439453125,
+          2883.800048828125,
+          1516.949951171875
+        ]
+      ],
+      "vertices": 592,
+      "polygons": 444
+    },
+    {
+      "name": "D_RIDGE mixed use facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2511.77490234375,
+          2506.10009765625,
+          1482.800048828125
+        ],
+        [
+          -1711.824951171875,
+          2893.89990234375,
+          1517.199951171875
+        ]
+      ],
+      "vertices": 8288,
+      "polygons": 6216
+    },
+    {
+      "name": "D_RIDGE mixed use arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2511.419921875,
+          2511.60009765625,
+          1474.5
+        ],
+        [
+          -1712.1800537109375,
+          2888.39990234375,
+          1482.5
+        ]
+      ],
+      "vertices": 672,
+      "polygons": 504
+    },
+    {
+      "name": "D_RIDGE mixed use shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2519.0,
+          2502.5,
+          1482.0999755859375
+        ],
+        [
+          -1704.5999755859375,
+          2897.5,
+          1482.699951171875
+        ]
+      ],
+      "vertices": 112,
+      "polygons": 84
+    },
+    {
+      "name": "D_RIDGE mixed use shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2512.300048828125,
+          2517.800048828125,
+          1474.75
+        ],
+        [
+          -1711.300048828125,
+          2882.199951171875,
+          1480.25
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "D_RIDGE mixed use shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2512.300048828125,
+          2517.39990234375,
+          1480.1500244140625
+        ],
+        [
+          -1711.300048828125,
+          2882.60009765625,
+          1480.449951171875
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "D_RIDGE mixed use entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2515.5,
+          2517.60009765625,
+          1480.800048828125
+        ],
+        [
+          -1708.0999755859375,
+          2882.39990234375,
+          1481.5999755859375
+        ]
+      ],
+      "vertices": 224,
+      "polygons": 168
+    },
+    {
+      "name": "D_RIDGE underside basket arches",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2602.241455078125,
+          2331.8056640625,
+          1262.50048828125
+        ],
+        [
+          -1567.4615478515625,
+          3068.1943359375,
+          1430.9591064453125
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "D_RIDGE stepped civic library floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2305.0,
+          2844.5,
+          1587.6500244140625
+        ],
+        [
+          -1895.0,
+          2924.5,
+          1638.3499755859375
+        ]
+      ],
+      "vertices": 216,
+      "polygons": 162
+    },
+    {
+      "name": "D_RIDGE stepped civic library private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2290.699951171875,
+          2858.10009765625,
+          1588.3499755859375
+        ],
+        [
+          -1909.300048828125,
+          2910.89990234375,
+          1637.449951171875
+        ]
+      ],
+      "vertices": 192,
+      "polygons": 144
+    },
+    {
+      "name": "D_RIDGE stepped civic library facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2301.27490234375,
+          2844.800048828125,
+          1588.300048828125
+        ],
+        [
+          -1898.7249755859375,
+          2924.199951171875,
+          1637.699951171875
+        ]
+      ],
+      "vertices": 4608,
+      "polygons": 3456
+    },
+    {
+      "name": "D_RIDGE stepped civic library arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2297.699951171875,
+          2852.10009765625,
+          1580.0
+        ],
+        [
+          -1902.300048828125,
+          2916.89990234375,
+          1588.0
+        ]
+      ],
+      "vertices": 144,
+      "polygons": 108
+    },
+    {
+      "name": "D_RIDGE stepped civic library shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2308.5,
+          2841.0,
+          1587.5999755859375
+        ],
+        [
+          -1891.5,
+          2928.0,
+          1588.199951171875
+        ]
+      ],
+      "vertices": 24,
+      "polygons": 18
+    },
+    {
+      "name": "D_RIDGE stepped civic library shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2299.5,
+          2860.300048828125,
+          1580.25
+        ],
+        [
+          -1900.5,
+          2908.699951171875,
+          1585.75
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "D_RIDGE stepped civic library shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2299.5,
+          2859.89990234375,
+          1585.6500244140625
+        ],
+        [
+          -1900.5,
+          2909.10009765625,
+          1585.949951171875
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "D_RIDGE stepped civic library entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2305.0,
+          2860.10009765625,
+          1586.300048828125
+        ],
+        [
+          -1895.0,
+          2908.89990234375,
+          1587.0999755859375
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "E_OBSERVATORY occupied decks",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -9.910140037536621,
+          2852.5126953125,
+          1867.699951171875
+        ],
+        [
+          1169.9775390625,
+          3449.880126953125,
+          2010.0
+        ]
+      ],
+      "vertices": 4380,
+      "polygons": 4350
+    },
+    {
+      "name": "E_OBSERVATORY recessed bands",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          23.325254440307617,
+          2865.80615234375,
+          1882.5
+        ],
+        [
+          1142.7386474609375,
+          3431.08642578125,
+          2017.0
+        ]
+      ],
+      "vertices": 2920,
+      "polygons": 2900
+    },
+    {
+      "name": "E_OBSERVATORY interior boulevard",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          122.75,
+          2968.5,
+          1889.5
+        ],
+        [
+          1037.25,
+          3231.5,
+          1894.5
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "E_OBSERVATORY mixed use floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          163.5,
+          2930.0,
+          1902.1500244140625
+        ],
+        [
+          972.9000244140625,
+          3270.0,
+          1937.8499755859375
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "E_OBSERVATORY mixed use private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          172.0800018310547,
+          2940.199951171875,
+          1902.8499755859375
+        ],
+        [
+          964.3200073242188,
+          3259.800048828125,
+          1936.949951171875
+        ]
+      ],
+      "vertices": 592,
+      "polygons": 444
+    },
+    {
+      "name": "E_OBSERVATORY mixed use facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          167.22500610351562,
+          2930.10009765625,
+          1902.800048828125
+        ],
+        [
+          969.1749877929688,
+          3269.89990234375,
+          1937.199951171875
+        ]
+      ],
+      "vertices": 8288,
+      "polygons": 6216
+    },
+    {
+      "name": "E_OBSERVATORY mixed use arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          167.72000122070312,
+          2935.60009765625,
+          1894.5
+        ],
+        [
+          968.6799926757812,
+          3264.39990234375,
+          1902.5
+        ]
+      ],
+      "vertices": 672,
+      "polygons": 504
+    },
+    {
+      "name": "E_OBSERVATORY mixed use shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          160.0,
+          2926.5,
+          1902.0999755859375
+        ],
+        [
+          976.4000244140625,
+          3273.5,
+          1902.699951171875
+        ]
+      ],
+      "vertices": 112,
+      "polygons": 84
+    },
+    {
+      "name": "E_OBSERVATORY mixed use shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          166.8000030517578,
+          2941.800048828125,
+          1894.75
+        ],
+        [
+          969.5999755859375,
+          3258.199951171875,
+          1900.25
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "E_OBSERVATORY mixed use shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          166.8000030517578,
+          2941.39990234375,
+          1900.1500244140625
+        ],
+        [
+          969.5999755859375,
+          3258.60009765625,
+          1900.449951171875
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "E_OBSERVATORY mixed use entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          163.5,
+          2941.60009765625,
+          1900.800048828125
+        ],
+        [
+          972.9000244140625,
+          3258.39990234375,
+          1901.5999755859375
+        ]
+      ],
+      "vertices": 224,
+      "polygons": 168
+    },
+    {
+      "name": "E_OBSERVATORY underside basket arches",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          77.92035675048828,
+          2784.213134765625,
+          1682.50048828125
+        ],
+        [
+          1112.5384521484375,
+          3415.786865234375,
+          1850.9591064453125
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "E_OBSERVATORY civic canopy",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          365.0091857910156,
+          3167.0,
+          1934.6971435546875
+        ],
+        [
+          794.9908447265625,
+          3293.0,
+          2109.99609375
+        ]
+      ],
+      "vertices": 1536,
+      "polygons": 1152
+    },
+    {
+      "name": "F_CASCADE occupied decks",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3269.77783203125,
+          -1622.35791015625,
+          457.70001220703125
+        ],
+        [
+          -2135.09326171875,
+          -880.1825561523438,
+          630.0
+        ]
+      ],
+      "vertices": 5256,
+      "polygons": 5220
+    },
+    {
+      "name": "F_CASCADE recessed bands",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3245.302978515625,
+          -1613.360595703125,
+          472.5
+        ],
+        [
+          -2143.810546875,
+          -899.031982421875,
+          637.0
+        ]
+      ],
+      "vertices": 3504,
+      "polygons": 3480
+    },
+    {
+      "name": "F_CASCADE interior boulevard",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3141.75,
+          -1388.0999755859375,
+          479.5
+        ],
+        [
+          -2258.25,
+          -1111.9000244140625,
+          484.5
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "F_CASCADE mixed use floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3104.5,
+          -1428.0,
+          492.1499938964844
+        ],
+        [
+          -2318.300048828125,
+          -1072.0,
+          527.8499755859375
+        ]
+      ],
+      "vertices": 704,
+      "polygons": 528
+    },
+    {
+      "name": "F_CASCADE mixed use private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3095.659912109375,
+          -1417.800048828125,
+          492.8500061035156
+        ],
+        [
+          -2327.139892578125,
+          -1082.199951171875,
+          526.9500122070312
+        ]
+      ],
+      "vertices": 592,
+      "polygons": 444
+    },
+    {
+      "name": "F_CASCADE mixed use facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3100.77490234375,
+          -1427.9000244140625,
+          492.79998779296875
+        ],
+        [
+          -2322.02490234375,
+          -1072.0999755859375,
+          527.2000122070312
+        ]
+      ],
+      "vertices": 8288,
+      "polygons": 6216
+    },
+    {
+      "name": "F_CASCADE mixed use arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3100.139892578125,
+          -1422.4000244140625,
+          484.5
+        ],
+        [
+          -2322.659912109375,
+          -1077.5999755859375,
+          492.5
+        ]
+      ],
+      "vertices": 672,
+      "polygons": 504
+    },
+    {
+      "name": "F_CASCADE mixed use shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3108.0,
+          -1431.5,
+          492.1000061035156
+        ],
+        [
+          -2314.800048828125,
+          -1068.5,
+          492.70001220703125
+        ]
+      ],
+      "vertices": 112,
+      "polygons": 84
+    },
+    {
+      "name": "F_CASCADE mixed use shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3101.10009765625,
+          -1416.199951171875,
+          484.75
+        ],
+        [
+          -2321.699951171875,
+          -1083.800048828125,
+          490.25
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "F_CASCADE mixed use shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3101.10009765625,
+          -1416.5999755859375,
+          490.1499938964844
+        ],
+        [
+          -2321.699951171875,
+          -1083.4000244140625,
+          490.45001220703125
+        ]
+      ],
+      "vertices": 448,
+      "polygons": 336
+    },
+    {
+      "name": "F_CASCADE mixed use entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3104.5,
+          -1416.4000244140625,
+          490.79998779296875
+        ],
+        [
+          -2318.300048828125,
+          -1083.5999755859375,
+          491.6000061035156
+        ]
+      ],
+      "vertices": 224,
+      "polygons": 168
+    },
+    {
+      "name": "F_CASCADE underside basket arches",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -3185.447265625,
+          -1583.2149658203125,
+          272.5005798339844
+        ],
+        [
+          -2185.257568359375,
+          -916.7850341796875,
+          440.9272155761719
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "F_CASCADE stepped civic library floor",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2905.0,
+          -1123.5,
+          597.6500244140625
+        ],
+        [
+          -2495.0,
+          -1043.5,
+          648.3499755859375
+        ]
+      ],
+      "vertices": 216,
+      "polygons": 162
+    },
+    {
+      "name": "F_CASCADE stepped civic library private core",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2890.699951171875,
+          -1109.9000244140625,
+          598.3499755859375
+        ],
+        [
+          -2509.300048828125,
+          -1057.0999755859375,
+          647.4500122070312
+        ]
+      ],
+      "vertices": 192,
+      "polygons": 144
+    },
+    {
+      "name": "F_CASCADE stepped civic library facade fins",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2901.27490234375,
+          -1123.199951171875,
+          598.2999877929688
+        ],
+        [
+          -2498.72509765625,
+          -1043.800048828125,
+          647.7000122070312
+        ]
+      ],
+      "vertices": 4608,
+      "polygons": 3456
+    },
+    {
+      "name": "F_CASCADE stepped civic library arcade supports",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2897.699951171875,
+          -1115.9000244140625,
+          590.0
+        ],
+        [
+          -2502.300048828125,
+          -1051.0999755859375,
+          598.0
+        ]
+      ],
+      "vertices": 144,
+      "polygons": 108
+    },
+    {
+      "name": "F_CASCADE stepped civic library shelter",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2908.5,
+          -1127.0,
+          597.5999755859375
+        ],
+        [
+          -2491.5,
+          -1040.0,
+          598.2000122070312
+        ]
+      ],
+      "vertices": 24,
+      "polygons": 18
+    },
+    {
+      "name": "F_CASCADE stepped civic library shopfront",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2899.5,
+          -1107.699951171875,
+          590.25
+        ],
+        [
+          -2500.5,
+          -1059.300048828125,
+          595.75
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "F_CASCADE stepped civic library shop transom",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2899.5,
+          -1108.0999755859375,
+          595.6500244140625
+        ],
+        [
+          -2500.5,
+          -1058.9000244140625,
+          595.9500122070312
+        ]
+      ],
+      "vertices": 96,
+      "polygons": 72
+    },
+    {
+      "name": "F_CASCADE stepped civic library entry lintel",
+      "group": "SIX_UNASSIGNED_SKY_STUDIES",
+      "bbox_m": [
+        [
+          -2905.0,
+          -1107.9000244140625,
+          596.2999877929688
+        ],
+        [
+          -2495.0,
+          -1059.0999755859375,
+          597.0999755859375
+        ]
+      ],
+      "vertices": 48,
+      "polygons": 36
+    },
+    {
+      "name": "city fabric 0 floor",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -2407.1650390625,
+          38.44276428222656,
+          41.73615264892578
+        ],
+        [
+          -1784.1290283203125,
+          1146.362060546875,
+          137.2957305908203
+        ]
+      ],
+      "vertices": 5480,
+      "polygons": 4110
+    },
+    {
+      "name": "city fabric 0 private core",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -2398.02197265625,
+          50.744754791259766,
+          42.436153411865234
+        ],
+        [
+          -1793.4945068359375,
+          1134.1112060546875,
+          136.39573669433594
+        ]
+      ],
+      "vertices": 4920,
+      "polygons": 3690
+    },
+    {
+      "name": "city fabric 0 facade fins",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -2403.43994140625,
+          38.811859130859375,
+          42.38615417480469
+        ],
+        [
+          -1787.8564453125,
+          1145.9837646484375,
+          136.64573669433594
+        ]
+      ],
+      "vertices": 64576,
+      "polygons": 48432
+    },
+    {
+      "name": "city fabric 0 arcade supports",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -2402.641845703125,
+          45.240840911865234,
+          34.08615493774414
+        ],
+        [
+          -1788.774658203125,
+          1139.592529296875,
+          71.69232940673828
+        ]
+      ],
+      "vertices": 3360,
+      "polygons": 2520
+    },
+    {
+      "name": "city fabric 0 shelter",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -2410.6650390625,
+          34.78731155395508,
+          41.686153411865234
+        ],
+        [
+          -1780.5804443359375,
+          1150.02587890625,
+          71.892333984375
+        ]
+      ],
+      "vertices": 560,
+      "polygons": 420
+    },
+    {
+      "name": "city fabric 0 shopfront",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -2403.6484375,
+          52.38784408569336,
+          34.33615493774414
+        ],
+        [
+          -1787.8599853515625,
+          1132.437744140625,
+          69.44232940673828
+        ]
+      ],
+      "vertices": 2240,
+      "polygons": 1680
+    },
+    {
+      "name": "city fabric 0 shop transom",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -2403.6484375,
+          51.988258361816406,
+          39.73615264892578
+        ],
+        [
+          -1787.8543701171875,
+          1132.8372802734375,
+          69.642333984375
+        ]
+      ],
+      "vertices": 2240,
+      "polygons": 1680
+    },
+    {
+      "name": "city fabric 0 entry lintel",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -2407.1650390625,
+          52.02871322631836,
+          40.38615417480469
+        ],
+        [
+          -1784.3189697265625,
+          1132.7777099609375,
+          70.7923355102539
+        ]
+      ],
+      "vertices": 1120,
+      "polygons": 840
+    },
+    {
+      "name": "city fabric 1 floor",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          1644.9884033203125,
+          145.9734344482422,
+          8.073256492614746
+        ],
+        [
+          2175.559326171875,
+          1138.94140625,
+          143.92654418945312
+        ]
+      ],
+      "vertices": 4040,
+      "polygons": 3030
+    },
+    {
+      "name": "city fabric 1 private core",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          1653.5714111328125,
+          158.2674560546875,
+          8.773256301879883
+        ],
+        [
+          2165.65966796875,
+          1126.6695556640625,
+          143.02655029296875
+        ]
+      ],
+      "vertices": 3640,
+      "polygons": 2730
+    },
+    {
+      "name": "city fabric 1 facade fins",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          1648.71337890625,
+          146.342529296875,
+          8.72325611114502
+        ],
+        [
+          2171.828857421875,
+          1138.5723876953125,
+          143.27655029296875
+        ]
+      ],
+      "vertices": 46880,
+      "polygons": 35160
+    },
+    {
+      "name": "city fabric 1 arcade supports",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          1649.2100830078125,
+          152.76722717285156,
+          0.4232565462589264
+        ],
+        [
+          2170.619140625,
+          1132.1595458984375,
+          73.57654571533203
+        ]
+      ],
+      "vertices": 2400,
+      "polygons": 1800
+    },
+    {
+      "name": "city fabric 1 shelter",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          1641.4884033203125,
+          142.31797790527344,
+          8.023256301879883
+        ],
+        [
+          2179.222900390625,
+          1142.596923828125,
+          73.77654266357422
+        ]
+      ],
+      "vertices": 400,
+      "polygons": 300
+    },
+    {
+      "name": "city fabric 1 shopfront",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          1648.28955078125,
+          159.9154510498047,
+          0.6732565760612488
+        ],
+        [
+          2171.3095703125,
+          1125.0079345703125,
+          71.32654571533203
+        ]
+      ],
+      "vertices": 1600,
+      "polygons": 1200
+    },
+    {
+      "name": "city fabric 1 shop transom",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          1648.28955078125,
+          159.515869140625,
+          6.073256492614746
+        ],
+        [
+          2171.328857421875,
+          1125.4075927734375,
+          71.52654266357422
+        ]
+      ],
+      "vertices": 1600,
+      "polygons": 1200
+    },
+    {
+      "name": "city fabric 1 entry lintel",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          1644.9884033203125,
+          159.55938720703125,
+          6.723256587982178
+        ],
+        [
+          2174.907470703125,
+          1125.35546875,
+          72.67654418945312
+        ]
+      ],
+      "vertices": 800,
+      "polygons": 600
+    },
+    {
+      "name": "city fabric 2 floor",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -248.45262145996094,
+          2025.7869873046875,
+          37.35866928100586
+        ],
+        [
+          559.19580078125,
+          2559.0146484375,
+          206.0935821533203
+        ]
+      ],
+      "vertices": 3800,
+      "polygons": 2850
+    },
+    {
+      "name": "city fabric 2 private core",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -239.49493408203125,
+          2038.12890625,
+          38.05867004394531
+        ],
+        [
+          549.3864135742188,
+          2546.723876953125,
+          205.19357299804688
+        ]
+      ],
+      "vertices": 3440,
+      "polygons": 2580
+    },
+    {
+      "name": "city fabric 2 facade fins",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -244.7276153564453,
+          2026.1708984375,
+          38.008670806884766
+        ],
+        [
+          555.4654541015625,
+          2558.63623046875,
+          205.44357299804688
+        ]
+      ],
+      "vertices": 44576,
+      "polygons": 33432
+    },
+    {
+      "name": "city fabric 2 arcade supports",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -244.0292510986328,
+          2032.60498046875,
+          29.70867156982422
+        ],
+        [
+          554.3038330078125,
+          2552.2236328125,
+          153.00186157226562
+        ]
+      ],
+      "vertices": 2160,
+      "polygons": 1620
+    },
+    {
+      "name": "city fabric 2 shelter",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -251.95262145996094,
+          2022.1181640625,
+          37.30867004394531
+        ],
+        [
+          562.8645629882812,
+          2562.67822265625,
+          153.2018585205078
+        ]
+      ],
+      "vertices": 360,
+      "polygons": 270
+    },
+    {
+      "name": "city fabric 2 shopfront",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -245.00735473632812,
+          2039.7457275390625,
+          29.95867156982422
+        ],
+        [
+          554.9669189453125,
+          2545.074951171875,
+          150.75186157226562
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "city fabric 2 shop transom",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -245.00735473632812,
+          2039.34619140625,
+          35.35866928100586
+        ],
+        [
+          554.9866943359375,
+          2545.474365234375,
+          150.9518585205078
+        ]
+      ],
+      "vertices": 1440,
+      "polygons": 1080
+    },
+    {
+      "name": "city fabric 2 entry lintel",
+      "group": "SECONDARY_CITY_RESEARCH",
+      "bbox_m": [
+        [
+          -248.45262145996094,
+          2039.370361328125,
+          36.008670806884766
+        ],
+        [
+          558.5233154296875,
+          2545.43017578125,
+          152.1018524169922
+        ]
+      ],
+      "vertices": 720,
+      "polygons": 540
+    },
+    {
+      "name": "twin conservatory floor",
+      "group": "FOUR_UNASSIGNED_LANDMARKS",
+      "bbox_m": [
+        [
+          2450.0,
+          -2725.0,
+          95.0
+        ],
+        [
+          3330.0,
+          -1895.0,
+          105.0
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "conservatory vaults",
+      "group": "FOUR_UNASSIGNED_LANDMARKS",
+      "bbox_m": [
+        [
+          2445.00341796875,
+          -2704.0,
+          99.81815338134766
+        ],
+        [
+          3334.99658203125,
+          -1911.0,
+          374.9890441894531
+        ]
+      ],
+      "vertices": 6144,
+      "polygons": 4608
+    },
+    {
+      "name": "sea sail floors",
+      "group": "FOUR_UNASSIGNED_LANDMARKS",
+      "bbox_m": [
+        [
+          3160.15087890625,
+          450.27813720703125,
+          127.0
+        ],
+        [
+          4040.0,
+          859.9819946289062,
+          655.0
+        ]
+      ],
+      "vertices": 4312,
+      "polygons": 4268
+    },
+    {
+      "name": "mountain sanctuary galleries",
+      "group": "FOUR_UNASSIGNED_LANDMARKS",
+      "bbox_m": [
+        [
+          1320.0888671875,
+          3440.177734375,
+          570.0756225585938
+        ],
+        [
+          2400.0,
+          3759.980224609375,
+          939.9639282226562
+        ]
+      ],
+      "vertices": 5904,
+      "polygons": 5832
+    },
+    {
+      "name": "south gateway inhabited pier",
+      "group": "FOUR_UNASSIGNED_LANDMARKS",
+      "bbox_m": [
+        [
+          -520.0,
+          -2790.0,
+          97.0
+        ],
+        [
+          520.0,
+          -2510.0,
+          562.0
+        ]
+      ],
+      "vertices": 5104,
+      "polygons": 5016
+    },
+    {
+      "name": "gateway rising lintel",
+      "group": "FOUR_UNASSIGNED_LANDMARKS",
+      "bbox_m": [
+        [
+          -356.68475341796875,
+          -2677.5,
+          510.7542419433594
+        ],
+        [
+          356.68475341796875,
+          -2622.5,
+          649.2457275390625
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit viaduct 0",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -14.0,
+          -2400.0,
+          99.0
+        ],
+        [
+          14.0,
+          -1700.0,
+          111.0
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "transit rails 0",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -7.5,
+          -2400.0,
+          112.4000015258789
+        ],
+        [
+          7.5,
+          -1700.0,
+          113.5999984741211
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit viaduct 1",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          566.5645141601562,
+          -914.1466674804688,
+          174.15771484375
+        ],
+        [
+          2257.0224609375,
+          -635.8533325195312,
+          810.3400268554688
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit rails 1",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          562.7904663085938,
+          -900.5608520507812,
+          187.415771484375
+        ],
+        [
+          2257.417724609375,
+          -649.4391479492188,
+          813.5339965820312
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit piers",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2159.0,
+          -911.0,
+          20.523693084716797
+        ],
+        [
+          1509.0,
+          2311.0,
+          1292.0
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit viaduct 2",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2709.288330078125,
+          86.05134582519531,
+          474.05999755859375
+        ],
+        [
+          -1246.863525390625,
+          711.1814575195312,
+          680.9750366210938
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit rails 2",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2707.35888671875,
+          99.49288940429688,
+          487.406005859375
+        ],
+        [
+          -1242.8343505859375,
+          700.4215698242188,
+          683.5975341796875
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit viaduct 3",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          45.23427963256836,
+          1486.7952880859375,
+          1244.000244140625
+        ],
+        [
+          2052.301513671875,
+          2013.8095703125,
+          1271.0
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit rails 3",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          42.82612991333008,
+          1499.527099609375,
+          1257.4000244140625
+        ],
+        [
+          2057.082275390625,
+          2000.4931640625,
+          1273.5999755859375
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit viaduct 4",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2113.499755859375,
+          1438.4669189453125,
+          994.15087890625
+        ],
+        [
+          -889.9141845703125,
+          2708.216552734375,
+          1480.58740234375
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    },
+    {
+      "name": "transit rails 4",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -2107.545166015625,
+          1449.532470703125,
+          1007.4151000976562
+        ],
+        [
+          -892.5742797851562,
+          2700.419189453125,
+          1483.5587158203125
+        ]
+      ],
+      "vertices": 32,
+      "polygons": 24
+    },
+    {
+      "name": "transit viaduct 5",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -13.167654991149902,
+          1694.0775146484375,
+          1734.0311279296875
+        ],
+        [
+          593.1676025390625,
+          3105.92236328125,
+          1900.9688720703125
+        ]
+      ],
+      "vertices": 8,
+      "polygons": 6
+    },
+    {
+      "name": "transit rails 5",
+      "group": "TRANSIT_RESEARCH",
+      "bbox_m": [
+        [
+          -7.485294818878174,
+          1699.752197265625,
+          1747.403076171875
+        ],
+        [
+          587.4852905273438,
+          3100.247802734375,
+          1903.596923828125
+        ]
+      ],
+      "vertices": 16,
+      "polygons": 12
+    }
+  ],
+  "floor_samples": [
+    {
+      "label": "forum",
+      "from": [
+        550,
+        -600,
+        110
+      ],
+      "hit": "FORUM_REAL_FLOOR",
+      "surface_m": [
+        550.0,
+        -600.0,
+        105.0
+      ]
+    },
+    {
+      "label": "sea",
+      "from": [
+        1000,
+        -1100,
+        110
+      ],
+      "hit": "SEA_TERRACE_REAL_FLOOR",
+      "surface_m": [
+        1000.0,
+        -1100.0,
+        105.0
+      ]
+    },
+    {
+      "label": "reading",
+      "from": [
+        1000,
+        -960,
+        124
+      ],
+      "hit": "EAST_GALLERY_REAL_FLOOR",
+      "surface_m": [
+        1000.0,
+        -960.0,
+        119.0
+      ]
+    },
+    {
+      "label": "upper",
+      "from": [
+        860,
+        230,
+        655
+      ],
+      "hit": "upper civic promenade",
+      "surface_m": [
+        860.0,
+        230.0,
+        650.0
+      ]
+    },
+    {
+      "label": "B street",
+      "from": [
+        2280,
+        -769,
+        810
+      ],
+      "hit": "B_HARBOR interior boulevard",
+      "surface_m": [
+        2280.0,
+        -769.0,
+        804.5
+      ]
+    },
+    {
+      "label": "east low",
+      "from": [
+        850,
+        0,
+        450
+      ],
+      "hit": "EAST LANTERN room bands",
+      "surface_m": [
+        850.0,
+        0.0,
+        119.99996948242188
+      ]
+    },
+    {
+      "label": "east upper",
+      "from": [
+        750,
+        450,
+        900
+      ],
+      "hit": "EAST LANTERN room bands",
+      "surface_m": [
+        750.0,
+        450.0,
+        900.0
+      ]
+    }
+  ],
+  "rays": [
+    {
+      "label": "east cut",
+      "start": [
+        300.0,
+        0.0,
+        300.0
+      ],
+      "end": [
+        1200.0,
+        0.0,
+        300.0
+      ],
+      "first_hit": "forum silver roof petals",
+      "hit_m": [
+        356.43499755859375,
+        0.0,
+        300.0
+      ]
+    },
+    {
+      "label": "upper sea view",
+      "start": [
+        850.0,
+        200.0,
+        651.7000122070312
+      ],
+      "end": [
+        2250.0,
+        -650.0,
+        850.0
+      ],
+      "first_hit": "B_HARBOR occupied decks",
+      "hit_m": [
+        1810.1612548828125,
+        -382.9550476074219,
+        787.7000122070312
+      ]
+    },
+    {
+      "label": "forum east edge",
+      "start": [
+        250.0,
+        -600.0,
+        106.69999694824219
+      ],
+      "end": [
+        1050.0,
+        -600.0,
+        106.69999694824219
+      ],
+      "first_hit": "forum silver roof petals",
+      "hit_m": [
+        474.8957824707031,
+        -600.0,
+        106.69999694824219
+      ]
+    },
+    {
+      "label": "reading to forum",
+      "start": [
+        650.0,
+        -960.0,
+        120.69999694824219
+      ],
+      "end": [
+        500.0,
+        -960.0,
+        106.69999694824219
+      ],
+      "first_hit": "forum market private core",
+      "hit_m": [
+        589.6799926757812,
+        -960.0,
+        115.07012939453125
+      ]
+    }
+  ],
+  "source_glb_reload": {
+    "meshes": 244,
+    "triangles": 1265352
+  }
+}

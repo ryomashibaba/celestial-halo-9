@@ -1,0 +1,32 @@
+{
+  "final_render_count": 9,
+  "matched_comparison_pairs": 4,
+  "render_dimensions": [
+    1600,
+    1000
+  ],
+  "geometry_readback_pass": true,
+  "meshes": 512,
+  "triangles": 1448130,
+  "R28_camera_lens_and_pose_identical": true,
+  "R28_lighting_and_quality_identical": true,
+  "floor_supported_human_cameras": 11,
+  "floor_join_segments": 5,
+  "floor_samples_per_segment": 21,
+  "floor_join_pass": true,
+  "clear_public_rays": 7,
+  "public_rays_tested": 7,
+  "distant_city_ray_first_hit": "B lower inhabited floors",
+  "art": "Producer ART HOLD; formal central adoptions 0",
+  "world": "HOLD; no actual save access",
+  "not_certified": [
+    "complete public interiors",
+    "full routes and egress",
+    "vehicle turn radius / operations / capacity",
+    "body swept clearance and all interpenetrations",
+    "structure",
+    "canonical city coordinates / official assets",
+    "whole 10km art and detailed completion",
+    "Minecraft construction"
+  ]
+}

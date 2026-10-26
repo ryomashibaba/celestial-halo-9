@@ -1,0 +1,554 @@
+00:01.891  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R28\model\R28_CELESTIAL_ESTUARY.blend"
+00:03.157  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R29\model\R29_TIDAL_COMMONS.blend"
+16:39:34 | INFO: Data are loaded, start creating Blender stuff
+16:39:34 | INFO: Blender create Mesh node A_GARDEN civic canopy
+16:39:34 | INFO: Blender create Mesh node A_GARDEN interior boulevard
+16:39:34 | INFO: Blender create Mesh node A_GARDEN mixed use arcade supports
+16:39:34 | INFO: Blender create Mesh node A_GARDEN mixed use entry lintel
+16:39:34 | INFO: Blender create Mesh node A_GARDEN mixed use facade fins
+16:39:34 | INFO: Blender create Mesh node A_GARDEN mixed use floor
+16:39:34 | INFO: Blender create Mesh node A_GARDEN mixed use private core
+16:39:34 | INFO: Blender create Mesh node A_GARDEN mixed use shelter
+16:39:34 | INFO: Blender create Mesh node A_GARDEN mixed use shop transom
+16:39:34 | INFO: Blender create Mesh node A_GARDEN mixed use shopfront
+16:39:34 | INFO: Blender create Mesh node A_GARDEN occupied decks
+16:39:34 | INFO: Blender create Mesh node A_GARDEN recessed bands
+16:39:34 | INFO: Blender create Mesh node A_GARDEN underside basket arches
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal books and exhibits
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal east roof
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal gallery rail
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal gallery rail posts
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal open colonnade
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal ribs
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal shelf lips
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal side gallery
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal stairs
+16:39:34 | INFO: Blender create Mesh node aerial civic terminal west roof
+16:39:34 | INFO: Blender create Mesh node aerial station ground civic landscape
+16:39:34 | INFO: Blender create Mesh node aerial station ground sculpted rim
+16:39:34 | INFO: Blender create Mesh node arrival timber benches
+16:39:34 | INFO: Blender create Mesh node B harbor asymmetric sail roof
+16:39:34 | INFO: Blender create Mesh node B harbor station books and exhibits
+16:39:34 | INFO: Blender create Mesh node B harbor station east roof
+16:39:34 | INFO: Blender create Mesh node B harbor station gallery rail
+16:39:34 | INFO: Blender create Mesh node B harbor station gallery rail posts
+16:39:34 | INFO: Blender create Mesh node B harbor station open colonnade
+16:39:34 | INFO: Blender create Mesh node B harbor station ribs
+16:39:34 | INFO: Blender create Mesh node B harbor station shelf lips
+16:39:34 | INFO: Blender create Mesh node B harbor station side gallery
+16:39:34 | INFO: Blender create Mesh node B harbor station stairs
+16:39:34 | INFO: Blender create Mesh node B harbor station west roof
+16:39:34 | INFO: Blender create Mesh node B lower inhabited floors
+16:39:34 | INFO: Blender create Mesh node B lower inhabited vertical frames
+16:39:34 | INFO: Blender create Mesh node B lower lift cabin
+16:39:34 | INFO: Blender create Mesh node B lower lift guides
+16:39:34 | INFO: Blender create Mesh node B lower lift landing
+16:39:34 | INFO: Blender create Mesh node B lower private room bars
+16:39:34 | INFO: Blender create Mesh node B lower public workshop books and exhibits
+16:39:34 | INFO: Blender create Mesh node B lower public workshop east roof
+16:39:34 | INFO: Blender create Mesh node B lower public workshop gallery rail
+16:39:34 | INFO: Blender create Mesh node B lower public workshop gallery rail posts
+16:39:34 | INFO: Blender create Mesh node B lower public workshop open colonnade
+16:39:34 | INFO: Blender create Mesh node B lower public workshop ribs
+16:39:34 | INFO: Blender create Mesh node B lower public workshop shelf lips
+16:39:34 | INFO: Blender create Mesh node B lower public workshop side gallery
+16:39:34 | INFO: Blender create Mesh node B lower public workshop stairs
+16:39:34 | INFO: Blender create Mesh node B lower public workshop west roof
+16:39:34 | INFO: Blender create Mesh node B_HARBOR interior boulevard
+16:39:34 | INFO: Blender create Mesh node B_HARBOR mixed use arcade supports
+16:39:34 | INFO: Blender create Mesh node B_HARBOR mixed use entry lintel
+16:39:34 | INFO: Blender create Mesh node B_HARBOR mixed use facade fins
+16:39:34 | INFO: Blender create Mesh node B_HARBOR mixed use floor
+16:39:34 | INFO: Blender create Mesh node B_HARBOR mixed use private core
+16:39:34 | INFO: Blender create Mesh node B_HARBOR mixed use shelter
+16:39:34 | INFO: Blender create Mesh node B_HARBOR mixed use shop transom
+16:39:34 | INFO: Blender create Mesh node B_HARBOR mixed use shopfront
+16:39:34 | INFO: Blender create Mesh node B_HARBOR occupied decks
+16:39:34 | INFO: Blender create Mesh node B_HARBOR recessed bands
+16:39:34 | INFO: Blender create Mesh node B_HARBOR stepped civic library arcade supports
+16:39:34 | INFO: Blender create Mesh node B_HARBOR stepped civic library entry lintel
+16:39:34 | INFO: Blender create Mesh node B_HARBOR stepped civic library facade fins
+16:39:34 | INFO: Blender create Mesh node B_HARBOR stepped civic library floor
+16:39:34 | INFO: Blender create Mesh node B_HARBOR stepped civic library private core
+16:39:34 | INFO: Blender create Mesh node B_HARBOR stepped civic library shelter
+16:39:34 | INFO: Blender create Mesh node B_HARBOR stepped civic library shop transom
+16:39:34 | INFO: Blender create Mesh node B_HARBOR stepped civic library shopfront
+16:39:34 | INFO: Blender create Mesh node B_HARBOR underside basket arches
+16:39:34 | INFO: Blender create Mesh node branching civic buttresses
+16:39:34 | INFO: Blender create Mesh node bridge parapet
+16:39:34 | INFO: Blender create Mesh node C_CULTURE civic canopy
+16:39:34 | INFO: Blender create Mesh node C_CULTURE interior boulevard
+16:39:34 | INFO: Blender create Mesh node C_CULTURE mixed use arcade supports
+16:39:34 | INFO: Blender create Mesh node C_CULTURE mixed use entry lintel
+16:39:34 | INFO: Blender create Mesh node C_CULTURE mixed use facade fins
+16:39:34 | INFO: Blender create Mesh node C_CULTURE mixed use floor
+16:39:34 | INFO: Blender create Mesh node C_CULTURE mixed use private core
+16:39:34 | INFO: Blender create Mesh node C_CULTURE mixed use shelter
+16:39:34 | INFO: Blender create Mesh node C_CULTURE mixed use shop transom
+16:39:34 | INFO: Blender create Mesh node C_CULTURE mixed use shopfront
+16:39:34 | INFO: Blender create Mesh node C_CULTURE occupied decks
+16:39:35 | INFO: Blender create Mesh node C_CULTURE recessed bands
+16:39:35 | INFO: Blender create Mesh node C_CULTURE underside basket arches
+16:39:35 | INFO: Blender create Mesh node city fabric 0 arcade supports
+16:39:35 | INFO: Blender create Mesh node city fabric 0 entry lintel
+16:39:35 | INFO: Blender create Mesh node city fabric 0 facade fins
+16:39:35 | INFO: Blender create Mesh node city fabric 0 floor
+16:39:35 | INFO: Blender create Mesh node city fabric 0 private core
+16:39:35 | INFO: Blender create Mesh node city fabric 0 shelter
+16:39:35 | INFO: Blender create Mesh node city fabric 0 shop transom
+16:39:35 | INFO: Blender create Mesh node city fabric 0 shopfront
+16:39:35 | INFO: Blender create Mesh node city fabric 1 arcade supports
+16:39:35 | INFO: Blender create Mesh node city fabric 1 entry lintel
+16:39:35 | INFO: Blender create Mesh node city fabric 1 facade fins
+16:39:36 | INFO: Blender create Mesh node city fabric 1 floor
+16:39:36 | INFO: Blender create Mesh node city fabric 1 private core
+16:39:36 | INFO: Blender create Mesh node city fabric 1 shelter
+16:39:36 | INFO: Blender create Mesh node city fabric 1 shop transom
+16:39:36 | INFO: Blender create Mesh node city fabric 1 shopfront
+16:39:36 | INFO: Blender create Mesh node city fabric 2 arcade supports
+16:39:36 | INFO: Blender create Mesh node city fabric 2 entry lintel
+16:39:36 | INFO: Blender create Mesh node city fabric 2 facade fins
+16:39:36 | INFO: Blender create Mesh node city fabric 2 floor
+16:39:36 | INFO: Blender create Mesh node city fabric 2 private core
+16:39:36 | INFO: Blender create Mesh node city fabric 2 shelter
+16:39:36 | INFO: Blender create Mesh node city fabric 2 shop transom
+16:39:36 | INFO: Blender create Mesh node city fabric 2 shopfront
+16:39:36 | INFO: Blender create Mesh node civic court bench
+16:39:36 | INFO: Blender create Mesh node cloud archives civic landscape
+16:39:36 | INFO: Blender create Mesh node cloud archives sculpted rim
+16:39:36 | INFO: Blender create Mesh node commons reading tables
+16:39:36 | INFO: Blender create Mesh node commons reading tables.001
+16:39:36 | INFO: Blender create Mesh node commons reading tables.002
+16:39:36 | INFO: Blender create Mesh node commons reading tables.003
+16:39:36 | INFO: Blender create Mesh node commons reading tables.004
+16:39:36 | INFO: Blender create Mesh node commons seat backs
+16:39:36 | INFO: Blender create Mesh node commons seat backs.001
+16:39:36 | INFO: Blender create Mesh node commons seat backs.002
+16:39:36 | INFO: Blender create Mesh node commons seat backs.003
+16:39:36 | INFO: Blender create Mesh node commons seat backs.004
+16:39:36 | INFO: Blender create Mesh node commons seats
+16:39:36 | INFO: Blender create Mesh node commons seats.001
+16:39:36 | INFO: Blender create Mesh node commons seats.002
+16:39:36 | INFO: Blender create Mesh node commons seats.003
+16:39:36 | INFO: Blender create Mesh node commons seats.004
+16:39:36 | INFO: Blender create Mesh node conservatory vaults
+16:39:36 | INFO: Blender create Mesh node court return 120
+16:39:36 | INFO: Blender create Mesh node court return 120 rail L
+16:39:36 | INFO: Blender create Mesh node court return 120 rail L posts
+16:39:36 | INFO: Blender create Mesh node court return 120 rail R
+16:39:36 | INFO: Blender create Mesh node court return 120 rail R posts
+16:39:36 | INFO: Blender create Mesh node court return -240
+16:39:36 | INFO: Blender create Mesh node court return -240 rail L
+16:39:36 | INFO: Blender create Mesh node court return -240 rail L posts
+16:39:36 | INFO: Blender create Mesh node court return -240 rail R
+16:39:36 | INFO: Blender create Mesh node court return -240 rail R posts
+16:39:36 | INFO: Blender create Mesh node court return -650
+16:39:36 | INFO: Blender create Mesh node court return -650 rail L
+16:39:36 | INFO: Blender create Mesh node court return -650 rail L posts
+16:39:36 | INFO: Blender create Mesh node court return -650 rail R
+16:39:36 | INFO: Blender create Mesh node court return -650 rail R posts
+16:39:36 | INFO: Blender create Mesh node court upper landing
+16:39:36 | INFO: Blender create Mesh node craft court floor
+16:39:36 | INFO: Blender create Mesh node craft court private bars
+16:39:36 | INFO: Blender create Mesh node craft court vertical frame
+16:39:36 | INFO: Blender create Mesh node D_RIDGE interior boulevard
+16:39:36 | INFO: Blender create Mesh node D_RIDGE mixed use arcade supports
+16:39:36 | INFO: Blender create Mesh node D_RIDGE mixed use entry lintel
+16:39:36 | INFO: Blender create Mesh node D_RIDGE mixed use facade fins
+16:39:36 | INFO: Blender create Mesh node D_RIDGE mixed use floor
+16:39:36 | INFO: Blender create Mesh node D_RIDGE mixed use private core
+16:39:36 | INFO: Blender create Mesh node D_RIDGE mixed use shelter
+16:39:36 | INFO: Blender create Mesh node D_RIDGE mixed use shop transom
+16:39:36 | INFO: Blender create Mesh node D_RIDGE mixed use shopfront
+16:39:36 | INFO: Blender create Mesh node D_RIDGE occupied decks
+16:39:36 | INFO: Blender create Mesh node D_RIDGE recessed bands
+16:39:36 | INFO: Blender create Mesh node D_RIDGE stepped civic library arcade supports
+16:39:36 | INFO: Blender create Mesh node D_RIDGE stepped civic library entry lintel
+16:39:36 | INFO: Blender create Mesh node D_RIDGE stepped civic library facade fins
+16:39:36 | INFO: Blender create Mesh node D_RIDGE stepped civic library floor
+16:39:36 | INFO: Blender create Mesh node D_RIDGE stepped civic library private core
+16:39:36 | INFO: Blender create Mesh node D_RIDGE stepped civic library shelter
+16:39:36 | INFO: Blender create Mesh node D_RIDGE stepped civic library shop transom
+16:39:36 | INFO: Blender create Mesh node D_RIDGE stepped civic library shopfront
+16:39:36 | INFO: Blender create Mesh node D_RIDGE underside basket arches
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY civic canopy
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY interior boulevard
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY mixed use arcade supports
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY mixed use entry lintel
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY mixed use facade fins
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY mixed use floor
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY mixed use private core
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shelter
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shop transom
+16:39:36 | INFO: Blender create Mesh node E_OBSERVATORY mixed use shopfront
+16:39:37 | INFO: Blender create Mesh node E_OBSERVATORY occupied decks
+16:39:37 | INFO: Blender create Mesh node E_OBSERVATORY recessed bands
+16:39:37 | INFO: Blender create Mesh node E_OBSERVATORY underside basket arches
+16:39:37 | INFO: Blender create Mesh node east gallery colonnade
+16:39:37 | INFO: Blender create Mesh node east gallery reading benches
+16:39:37 | INFO: Blender create Mesh node east gallery roof
+16:39:37 | INFO: Blender create Mesh node EAST_GALLERY_REAL_FLOOR
+16:39:37 | INFO: Blender create Mesh node eastern inland sea
+16:39:37 | INFO: Blender create Mesh node estuary exchange floor
+16:39:37 | INFO: Blender create Mesh node estuary exchange private bars
+16:39:37 | INFO: Blender create Mesh node estuary exchange vertical frame
+16:39:37 | INFO: Blender create Mesh node F_CASCADE interior boulevard
+16:39:37 | INFO: Blender create Mesh node F_CASCADE mixed use arcade supports
+16:39:37 | INFO: Blender create Mesh node F_CASCADE mixed use entry lintel
+16:39:37 | INFO: Blender create Mesh node F_CASCADE mixed use facade fins
+16:39:37 | INFO: Blender create Mesh node F_CASCADE mixed use floor
+16:39:37 | INFO: Blender create Mesh node F_CASCADE mixed use private core
+16:39:37 | INFO: Blender create Mesh node F_CASCADE mixed use shelter
+16:39:37 | INFO: Blender create Mesh node F_CASCADE mixed use shop transom
+16:39:37 | INFO: Blender create Mesh node F_CASCADE mixed use shopfront
+16:39:37 | INFO: Blender create Mesh node F_CASCADE occupied decks
+16:39:37 | INFO: Blender create Mesh node F_CASCADE recessed bands
+16:39:37 | INFO: Blender create Mesh node F_CASCADE stepped civic library arcade supports
+16:39:37 | INFO: Blender create Mesh node F_CASCADE stepped civic library entry lintel
+16:39:37 | INFO: Blender create Mesh node F_CASCADE stepped civic library facade fins
+16:39:37 | INFO: Blender create Mesh node F_CASCADE stepped civic library floor
+16:39:37 | INFO: Blender create Mesh node F_CASCADE stepped civic library private core
+16:39:37 | INFO: Blender create Mesh node F_CASCADE stepped civic library shelter
+16:39:37 | INFO: Blender create Mesh node F_CASCADE stepped civic library shop transom
+16:39:37 | INFO: Blender create Mesh node F_CASCADE stepped civic library shopfront
+16:39:37 | INFO: Blender create Mesh node F_CASCADE underside basket arches
+16:39:37 | INFO: Blender create Mesh node far ground
+16:39:37 | INFO: Blender create Mesh node forum benches
+16:39:37 | INFO: Blender create Mesh node forum branching vault ribs
+16:39:37 | INFO: Blender create Mesh node forum cross bridge
+16:39:37 | INFO: Blender create Mesh node forum east raised street
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 books and exhibits
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 east roof
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 gallery rail
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 gallery rail posts
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 open colonnade
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 ribs
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 shelf lips
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 side gallery
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 stairs
+16:39:37 | INFO: Blender create Mesh node forum exchange 120 west roof
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 books and exhibits
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 east roof
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 gallery rail
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 gallery rail posts
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 open colonnade
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 ribs
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 shelf lips
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 side gallery
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 stairs
+16:39:37 | INFO: Blender create Mesh node forum exchange -240 west roof
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 books and exhibits
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 east roof
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 gallery rail
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 gallery rail posts
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 open colonnade
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 ribs
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 shelf lips
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 side gallery
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 stairs
+16:39:37 | INFO: Blender create Mesh node forum exchange -650 west roof
+16:39:37 | INFO: Blender create Mesh node forum gallery floors
+16:39:37 | INFO: Blender create Mesh node forum gallery piers
+16:39:37 | INFO: Blender create Mesh node forum garden ascent
+16:39:37 | INFO: Blender create Mesh node forum garden ascent rail L
+16:39:37 | INFO: Blender create Mesh node forum garden ascent rail L posts
+16:39:37 | INFO: Blender create Mesh node forum garden ascent rail R
+16:39:37 | INFO: Blender create Mesh node forum garden ascent rail R posts
+16:39:37 | INFO: Blender create Mesh node forum market arcade supports
+16:39:37 | INFO: Blender create Mesh node forum market entry lintel
+16:39:37 | INFO: Blender create Mesh node forum market facade fins
+16:39:37 | INFO: Blender create Mesh node forum market floor
+16:39:37 | INFO: Blender create Mesh node forum market private core
+16:39:37 | INFO: Blender create Mesh node forum market shelter
+16:39:37 | INFO: Blender create Mesh node forum market shop transom
+16:39:37 | INFO: Blender create Mesh node forum market shopfront
+16:39:37 | INFO: Blender create Mesh node forum reflecting channel
+16:39:37 | INFO: Blender create Mesh node forum silver roof petals
+16:39:37 | INFO: Blender create Mesh node forum splayed root
+16:39:37 | INFO: Blender create Mesh node forum terraced court
+16:39:37 | INFO: Blender create Mesh node forum tree planters
+16:39:37 | INFO: Blender create Mesh node FORUM_REAL_FLOOR
+16:39:37 | INFO: Blender create Mesh node gallery lift shaft
+16:39:37 | INFO: Blender create Mesh node gallery rail posts
+16:39:37 | INFO: Blender create Mesh node gallery safety rail
+16:39:37 | INFO: Blender create Mesh node gallery stair flights
+16:39:37 | INFO: Blender create Mesh node garden beds
+16:39:37 | INFO: Blender create Mesh node garden branches
+16:39:37 | INFO: Blender create Mesh node garden branches.001
+16:39:37 | INFO: Blender create Mesh node garden branches.002
+16:39:37 | INFO: Blender create Mesh node garden crowns
+16:39:38 | INFO: Blender create Mesh node garden crowns.001
+16:39:38 | INFO: Blender create Mesh node garden crowns.002
+16:39:38 | INFO: Blender create Mesh node garden layered foliage
+16:39:38 | INFO: Blender create Mesh node garden layered foliage.001
+16:39:38 | INFO: Blender create Mesh node garden layered foliage.002
+16:39:38 | INFO: Blender create Mesh node garden trunks
+16:39:38 | INFO: Blender create Mesh node garden trunks.001
+16:39:38 | INFO: Blender create Mesh node garden trunks.002
+16:39:38 | INFO: Blender create Mesh node gateway rising lintel
+16:39:38 | INFO: Blender create Mesh node halo bronze inner seam
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 books and exhibits
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 east roof
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 gallery rail
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 gallery rail posts
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 ground
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 open colonnade
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 ribs
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 shelf lips
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 side gallery
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 stairs
+16:39:38 | INFO: Blender create Mesh node harbor civic court 0 west roof
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 books and exhibits
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 east roof
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 gallery rail
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 gallery rail posts
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 ground
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 open colonnade
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 ribs
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 shelf lips
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 side gallery
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 stairs
+16:39:38 | INFO: Blender create Mesh node harbor civic court 1 west roof
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 books and exhibits
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 east roof
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 gallery rail
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 gallery rail posts
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 ground
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 open colonnade
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 ribs
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 shelf lips
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 side gallery
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 stairs
+16:39:38 | INFO: Blender create Mesh node harbor civic court 2 west roof
+16:39:38 | INFO: Blender create Mesh node harbor inhabited comb 0
+16:39:38 | INFO: Blender create Mesh node harbor inhabited comb 1
+16:39:38 | INFO: Blender create Mesh node harbor inhabited comb 2
+16:39:38 | INFO: Blender create Mesh node harbor private rooms
+16:39:38 | INFO: Blender create Mesh node harbor terraces arcade supports
+16:39:38 | INFO: Blender create Mesh node harbor terraces entry lintel
+16:39:38 | INFO: Blender create Mesh node harbor terraces facade fins
+16:39:38 | INFO: Blender create Mesh node harbor terraces floor
+16:39:38 | INFO: Blender create Mesh node harbor terraces private core
+16:39:38 | INFO: Blender create Mesh node harbor terraces shelter
+16:39:38 | INFO: Blender create Mesh node harbor terraces shop transom
+16:39:38 | INFO: Blender create Mesh node harbor terraces shopfront
+16:39:38 | INFO: Blender create Mesh node inclined crown halo
+16:39:38 | INFO: Blender create Mesh node inhabited floor cells
+16:39:38 | INFO: Blender create Mesh node landform research
+16:39:38 | INFO: Blender create Mesh node lane planter
+16:39:38 | INFO: Blender create Mesh node lane seating
+16:39:38 | INFO: Blender create Mesh node learning conservatory books and exhibits
+16:39:38 | INFO: Blender create Mesh node learning conservatory east roof
+16:39:38 | INFO: Blender create Mesh node learning conservatory gallery rail
+16:39:38 | INFO: Blender create Mesh node learning conservatory gallery rail posts
+16:39:38 | INFO: Blender create Mesh node learning conservatory open colonnade
+16:39:38 | INFO: Blender create Mesh node learning conservatory ribs
+16:39:38 | INFO: Blender create Mesh node learning conservatory shelf lips
+16:39:38 | INFO: Blender create Mesh node learning conservatory side gallery
+16:39:38 | INFO: Blender create Mesh node learning conservatory stairs
+16:39:38 | INFO: Blender create Mesh node learning conservatory west roof
+16:39:38 | INFO: Blender create Mesh node learning ground civic landscape
+16:39:38 | INFO: Blender create Mesh node learning ground sculpted rim
+16:39:38 | INFO: Blender create Mesh node library awning
+16:39:38 | INFO: Blender create Mesh node library awning posts
+16:39:38 | INFO: Blender create Mesh node library lane arcade supports
+16:39:38 | INFO: Blender create Mesh node library lane entry lintel
+16:39:38 | INFO: Blender create Mesh node library lane facade fins
+16:39:38 | INFO: Blender create Mesh node library lane floor
+16:39:38 | INFO: Blender create Mesh node library lane private core
+16:39:38 | INFO: Blender create Mesh node library lane shelter
+16:39:38 | INFO: Blender create Mesh node library lane shop transom
+16:39:38 | INFO: Blender create Mesh node library lane shopfront
+16:39:38 | INFO: Blender create Mesh node lift car roof
+16:39:38 | INFO: Blender create Mesh node lift car side glazing
+16:39:38 | INFO: Blender create Mesh node lift door jamb
+16:39:38 | INFO: Blender create Mesh node lift door lintel
+16:39:38 | INFO: Blender create Mesh node lift guide cage
+16:39:38 | INFO: Blender create Mesh node lift landing 105
+16:39:38 | INFO: Blender create Mesh node lift landing 345
+16:39:38 | INFO: Blender create Mesh node lift landing 650
+16:39:38 | INFO: Blender create Mesh node lift landing 805
+16:39:38 | INFO: Blender create Mesh node mountain sanctuary galleries
+16:39:38 | INFO: Blender create Mesh node NORTH CHOIR continuous buttress
+16:39:38 | INFO: Blender create Mesh node NORTH CHOIR room bands
+16:39:39 | INFO: Blender create Mesh node NORTH CHOIR storeys
+16:39:39 | INFO: Blender create Mesh node NORTH CHOIR vertical facade blades
+16:39:39 | INFO: Blender create Mesh node north dwelling court floor
+16:39:39 | INFO: Blender create Mesh node north dwelling court private bars
+16:39:39 | INFO: Blender create Mesh node north dwelling court vertical frame
+16:39:39 | INFO: Blender create Mesh node outlook reading room books and exhibits
+16:39:39 | INFO: Blender create Mesh node outlook reading room east roof
+16:39:39 | INFO: Blender create Mesh node outlook reading room gallery rail
+16:39:39 | INFO: Blender create Mesh node outlook reading room gallery rail posts
+16:39:39 | INFO: Blender create Mesh node outlook reading room open colonnade
+16:39:39 | INFO: Blender create Mesh node outlook reading room ribs
+16:39:39 | INFO: Blender create Mesh node outlook reading room shelf lips
+16:39:39 | INFO: Blender create Mesh node outlook reading room side gallery
+16:39:39 | INFO: Blender create Mesh node outlook reading room stairs
+16:39:39 | INFO: Blender create Mesh node outlook reading room west roof
+16:39:39 | INFO: Blender create Mesh node people 1.75m
+16:39:39 | INFO: Blender create Mesh node people arms
+16:39:39 | INFO: Blender create Mesh node people heads
+16:39:39 | INFO: Blender create Mesh node people legs
+16:39:39 | INFO: Blender create Mesh node pilaster bronze reveals
+16:39:39 | INFO: Blender create Mesh node public reading pavilion arcade supports
+16:39:40 | INFO: Blender create Mesh node public reading pavilion entry lintel
+16:39:40 | INFO: Blender create Mesh node public reading pavilion facade fins
+16:39:40 | INFO: Blender create Mesh node public reading pavilion floor
+16:39:40 | INFO: Blender create Mesh node public reading pavilion private core
+16:39:40 | INFO: Blender create Mesh node public reading pavilion shelter
+16:39:40 | INFO: Blender create Mesh node public reading pavilion shop transom
+16:39:40 | INFO: Blender create Mesh node public reading pavilion shopfront
+16:39:40 | INFO: Blender create Mesh node R29 fine foliage
+16:39:40 | INFO: Blender create Mesh node R29 fine foliage.001
+16:39:40 | INFO: Blender create Mesh node R29 fine foliage.002
+16:39:40 | INFO: Blender create Mesh node R29 fine foliage.003
+16:39:40 | INFO: Blender create Mesh node R29 fine foliage.004
+16:39:40 | INFO: Blender create Mesh node R29 fine foliage.005
+16:39:40 | INFO: Blender create Mesh node R29 heads
+16:39:40 | INFO: Blender create Mesh node R29 legs
+16:39:40 | INFO: Blender create Mesh node R29 people
+16:39:40 | INFO: Blender create Mesh node R29 tree trunks
+16:39:40 | INFO: Blender create Mesh node R29 tree trunks.001
+16:39:40 | INFO: Blender create Mesh node R29 tree trunks.002
+16:39:40 | INFO: Blender create Mesh node R29 tree trunks.003
+16:39:40 | INFO: Blender create Mesh node R29 tree trunks.004
+16:39:40 | INFO: Blender create Mesh node R29 tree trunks.005
+16:39:40 | INFO: Blender create Mesh node R29_B_ARRIVAL_FLOOR
+16:39:40 | INFO: Blender create Mesh node R29_B_LOWER_PORT_FLOOR
+16:39:40 | INFO: Blender create Mesh node R29_CENTRAL_ARRIVAL_FLOOR
+16:39:40 | INFO: Blender create Mesh node R29_PROMENADE_JOIN
+16:39:40 | INFO: Blender create Mesh node R29_SKY_GARDEN_FLOOR
+16:39:40 | INFO: Blender create Mesh node R29_SKY_WALK
+16:39:40 | INFO: Blender create Mesh node R29_SKY_WALK rail L
+16:39:40 | INFO: Blender create Mesh node R29_SKY_WALK rail L posts
+16:39:40 | INFO: Blender create Mesh node R29_SKY_WALK rail R
+16:39:40 | INFO: Blender create Mesh node R29_SKY_WALK rail R posts
+16:39:40 | INFO: Blender create Mesh node raked inhabited facade pilasters
+16:39:40 | INFO: Blender create Mesh node reading gallery accessible research ramp
+16:39:40 | INFO: Blender create Mesh node reading gallery accessible research ramp rail L
+16:39:40 | INFO: Blender create Mesh node reading gallery accessible research ramp rail L posts
+16:39:40 | INFO: Blender create Mesh node reading gallery accessible research ramp rail R
+16:39:40 | INFO: Blender create Mesh node reading gallery accessible research ramp rail R posts
+16:39:40 | INFO: Blender create Mesh node reading gallery edge posts
+16:39:40 | INFO: Blender create Mesh node reading gallery open parapet
+16:39:40 | INFO: Blender create Mesh node reading ramp top landing
+16:39:40 | INFO: Blender create Mesh node reading seat backs
+16:39:40 | INFO: Blender create Mesh node reading seats
+16:39:40 | INFO: Blender create Mesh node reading table legs
+16:39:40 | INFO: Blender create Mesh node reading tables
+16:39:40 | INFO: Blender create Mesh node recessed private room bars
+16:39:40 | INFO: Blender create Mesh node sea promenade seats
+16:39:40 | INFO: Blender create Mesh node sea sail floors
+16:39:40 | INFO: Blender create Mesh node sea street canopy
+16:39:40 | INFO: Blender create Mesh node sea street columns
+16:39:40 | INFO: Blender create Mesh node SEA_TERRACE_REAL_FLOOR
+16:39:40 | INFO: Blender create Mesh node shared learning rooms floor
+16:39:40 | INFO: Blender create Mesh node shared learning rooms private bars
+16:39:40 | INFO: Blender create Mesh node shared learning rooms vertical frame
+16:39:40 | INFO: Blender create Mesh node sky archive cloister books and exhibits
+16:39:40 | INFO: Blender create Mesh node sky archive cloister east roof
+16:39:40 | INFO: Blender create Mesh node sky archive cloister gallery rail
+16:39:40 | INFO: Blender create Mesh node sky archive cloister gallery rail posts
+16:39:40 | INFO: Blender create Mesh node sky archive cloister ground
+16:39:40 | INFO: Blender create Mesh node sky archive cloister open colonnade
+16:39:40 | INFO: Blender create Mesh node sky archive cloister ribs
+16:39:40 | INFO: Blender create Mesh node sky archive cloister shelf lips
+16:39:40 | INFO: Blender create Mesh node sky archive cloister side gallery
+16:39:40 | INFO: Blender create Mesh node sky archive cloister stairs
+16:39:40 | INFO: Blender create Mesh node sky archive cloister west roof
+16:39:40 | INFO: Blender create Mesh node sky bridge suspended bow
+16:39:40 | INFO: Blender create Mesh node sky bridge web
+16:39:40 | INFO: Blender create Mesh node sky garden sculpted rim
+16:39:40 | INFO: Blender create Mesh node sky transit service deck
+16:39:40 | INFO: Blender create Mesh node sky transit service deck rail L
+16:39:40 | INFO: Blender create Mesh node sky transit service deck rail L posts
+16:39:40 | INFO: Blender create Mesh node sky transit service deck rail R
+16:39:40 | INFO: Blender create Mesh node sky transit service deck rail R posts
+16:39:40 | INFO: Blender create Mesh node south gateway inhabited pier
+16:39:40 | INFO: Blender create Mesh node spine ascending flutes
+16:39:40 | INFO: Blender create Mesh node spine occupied ring
+16:39:41 | INFO: Blender create Mesh node spine recessed rooms
+16:39:41 | INFO: Blender create Mesh node table supports
+16:39:41 | INFO: Blender create Mesh node table supports.001
+16:39:41 | INFO: Blender create Mesh node table supports.002
+16:39:41 | INFO: Blender create Mesh node table supports.003
+16:39:41 | INFO: Blender create Mesh node table supports.004
+16:39:41 | INFO: Blender create Mesh node transit piers
+16:39:41 | INFO: Blender create Mesh node transit rails 0
+16:39:41 | INFO: Blender create Mesh node transit rails 2
+16:39:41 | INFO: Blender create Mesh node transit rails 3
+16:39:41 | INFO: Blender create Mesh node transit rails 4
+16:39:41 | INFO: Blender create Mesh node transit rails 5
+16:39:41 | INFO: Blender create Mesh node transit vehicle body
+16:39:41 | INFO: Blender create Mesh node transit vehicle glazing
+16:39:41 | INFO: Blender create Mesh node transit viaduct 0
+16:39:41 | INFO: Blender create Mesh node transit viaduct 2
+16:39:41 | INFO: Blender create Mesh node transit viaduct 3
+16:39:41 | INFO: Blender create Mesh node transit viaduct 4
+16:39:41 | INFO: Blender create Mesh node transit viaduct 5
+16:39:41 | INFO: Blender create Mesh node twin conservatory floor
+16:39:41 | INFO: Blender create Mesh node twin vehicle guideways
+16:39:41 | INFO: Blender create Mesh node upper civic promenade
+16:39:41 | INFO: Blender create Mesh node vehicle corner guideway links
+16:39:41 | INFO: Blender create Mesh node vehicle turn connecting deck
+16:39:41 | INFO: Blender create Mesh node vehicle turn connecting deck rail L
+16:39:41 | INFO: Blender create Mesh node vehicle turn connecting deck rail L posts
+16:39:41 | INFO: Blender create Mesh node vehicle turn connecting deck rail R
+16:39:41 | INFO: Blender create Mesh node vehicle turn connecting deck rail R posts
+16:39:41 | INFO: Blender create Mesh node visible research lift car
+16:39:41 | INFO: Blender create Mesh node water commons sculpted rim
+16:39:41 | INFO: Blender create Mesh node water stairs landing
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall books and exhibits
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall east roof
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall gallery rail
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall gallery rail posts
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall open colonnade
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall ribs
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall shelf lips
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall side gallery
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall stairs
+16:39:41 | INFO: Blender create Mesh node waterfront exchange hall west roof
+16:39:41 | INFO: Blender create Mesh node WEST CHOIR continuous buttress
+16:39:41 | INFO: Blender create Mesh node WEST CHOIR room bands
+16:39:41 | INFO: Blender create Mesh node WEST CHOIR storeys
+16:39:42 | INFO: Blender create Mesh node WEST CHOIR vertical facade blades
+16:39:42 | INFO: glTF import finished in 8.14s
+{
+  "readback_pass": true,
+  "meshes": 512,
+  "triangles": 1448130,
+  "errors": {
+    "blend_to_glb_vertex_m": 0.0,
+    "glb_to_blend_vertex_m": 0.0,
+    "blend_to_glb_triangle_center_m": 0.0,
+    "glb_to_blend_triangle_center_m": 0.0
+  },
+  "camera_floor_failures": [],
+  "blocked_rays": [
+    {
+      "name": "reading room outlook toward lower B",
+      "start_m": [
+        1074.4,
+        -139.5,
+        651.7
+      ],
+      "end_m": [
+        1800,
+        -465,
+        668
+      ],
+      "clear": false,
+      "first_hit": "B lower inhabited floors",
+      "hit_m": [
+        1695.0,
+        -417.8975830078125,
+        665.6412963867188
+      ]
+    }
+  ],
+  "join_failures": []
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

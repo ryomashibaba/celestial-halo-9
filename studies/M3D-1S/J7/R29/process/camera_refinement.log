@@ -1,0 +1,7 @@
+00:01.735  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R29\model\R29_TIDAL_COMMONS.blend"
+00:02.063  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_42812_f1aa98d442faf3c6bf6edce6ff3a7d96.png.png"
+Info: Saved as "R29_TIDAL_COMMONS.blend"
+CAMERA_CORRECTION_ONLY 2
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
