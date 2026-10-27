@@ -1,0 +1,63 @@
+{
+  "schema": "halo9.crossmodel.claudeC55C.provenance.v1",
+  "audit_date_jst": "2026-10-27",
+  "input_status": "USER_SUPPLIED_UPLOAD_VERIFIED_LOCALLY__NOT_YET_ARCHIVED_IN_GITHUB",
+  "original_research": "C55-C ENDLESS-GORGE KNOT",
+  "zip": {
+    "attachment_filename": "C55C_claude_research_payload.zip",
+    "bytes": 37138552,
+    "sha256": "d3ec70db4a925e5974a159d47263be969f685ce7bc2777da1540c880374e1f5c",
+    "num_zip_members": 46,
+    "embedded_manifest_entries": 45,
+    "embedded_manifest_sha256_verified": 45,
+    "full_manifest_pass": true
+  },
+  "glb": {
+    "path_inside_zip": "research/claude_c55c/model/C55C_endless_gorge_knot.glb",
+    "bytes": 40616260,
+    "sha256": "b645d95639b0b4a5ae683b366f5bc795496c0378383a585cea5a32752345ab69",
+    "independent_check": "GLB_HEADER_MAGIC_AND_ZIP_SHA256_ONLY",
+    "author_report": {
+      "meshes": 5,
+      "triangles": 1588638,
+      "degenerate_tris": 946,
+      "bbox_knot_approx_km": [
+        7.33,
+        6.9,
+        4.34
+      ],
+      "street_ribbon_length_km": 33.37,
+      "min_sample_clearance_m": 84.4
+    }
+  },
+  "render": {
+    "directory": "research/claude_c55c/renders",
+    "from_same_custom_render_scene": true,
+    "images": 12,
+    "renderer": "CUSTOM_SOFTWARE_RASTERIZER_NOT_BLENDER",
+    "windows_bloom_sky_etc_in_GLb": false
+  },
+  "native_blend": {
+    "present": false,
+    "blender_import_script": "research/claude_c55c/code/blender_import_UNTESTED.py",
+    "blender_workflow_verified": false
+  },
+  "planned_github_handoff": {
+    "status": "PENDING_ORIGIN_UPLOAD_AND_GET_AFTER_PUSH_SHA256_READBACK",
+    "requires": [
+      "GLB exact bytes",
+      "complete sources and validations",
+      "12 rendered views with renderer metadata",
+      "GitHub isolated Claude branch HEAD"
+    ],
+    "note": "This file is ONLY an integrity/provenance checkpoint; neither GLB nor the ZIP has been uploaded to GitHub by this independent review branch."
+  },
+  "policy": {
+    "formal_central_art_accepted": 0,
+    "minecraft_construction": "HOLD",
+    "city_master_3d_complete": false,
+    "locked_policy": "CITY_MASTER_3D_FIRST",
+    "main_changed": false,
+    "claude_source_mutated": false
+  }
+}
