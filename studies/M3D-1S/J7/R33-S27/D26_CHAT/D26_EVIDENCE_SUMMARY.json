@@ -66,17 +66,17 @@
   ],
   "chat_artifacts": {
     "zip": "HALO9_D26_CHAT_RESEARCH.zip",
-    "sha256": "c9beb2083de1454769f572814c5cf44a0e97ad00ad442df99544904d7b783870",
+    "sha256": "d42c2017157b36e2d44c869b877dd99292379941e17717d22339e20b044047d7",
     "contains": [
-      "3 GLB",
-      "18 VTK screenshots",
-      "comparison JPG",
-      "complete three Python scripts",
-      "JSON plans",
-      "QA",
-      "audit",
-      "review",
-      "file SHA256 manifest"
+      "BASE, MICRO and MACRO GLB plus exact replay GLB",
+      "18 VTK PNG screenshots",
+      "comparison JPG and 6-view JPG sheets",
+      "three complete Python scripts",
+      "JSON brush plans",
+      "QA and isolated audit JSON",
+      "Japanese review",
+      "run logs",
+      "complete file SHA256 manifest"
     ]
   },
   "github_assets": [
