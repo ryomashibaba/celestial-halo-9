@@ -1,0 +1,46 @@
+{
+  "study": "R33-S27-D23",
+  "date_jst": "2026-10-29",
+  "main_head_verified": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "parent_research_head": "548da61be0ba90ba3d9e70bd4fddf1d1026e4b34",
+  "status": {
+    "art_A": "REJECT",
+    "art_B": "REJECT",
+    "glb_roundtrip": "LIMITED_PASS",
+    "public_routes": "FAIL",
+    "public_room": "NOT_ESTABLISHED",
+    "formal_adoptions": 0,
+    "minecraft": "HOLD"
+  },
+  "A": {
+    "meshes": 20,
+    "triangles": 624,
+    "glb_sha256": "b18d38f905e17cddfab5e418951121b8401e16ec65580f00b915a069e34cb11e",
+    "proposed_path_gradient_percent_min": 29.18,
+    "proposed_path_gradient_percent_max": 284.67,
+    "path_endpoint_height_mismatch_max_m": 159.5
+  },
+  "B": {
+    "meshes": 16,
+    "triangles": 528,
+    "glb_sha256": "930dd7dc3d56c7575f0e2659aeb984ac67e1a5765718357ed6cb3da996c0a234",
+    "proposed_path_gradient_percent_min": 70.97,
+    "proposed_path_gradient_percent_max": 138.14,
+    "path_endpoint_height_mismatch_max_m": 157.5
+  },
+  "render": "6 VTK views per GLB, exterior pedestrian view rather than valid interior view",
+  "source": "Trimesh/Python handcrafted section loft, reviewed and rejected as repeat of procedural mass grammar",
+  "github_assets": [
+    "D23_REVIEW_JA.md",
+    "D23_EVIDENCE_SUMMARY.json"
+  ],
+  "non_github_assets": [
+    "two GLB",
+    "twelve PNG",
+    "two JPG",
+    "Python reproduction source",
+    "full review",
+    "full QA JSON"
+  ],
+  "chat_zip_sha256": "8598b545686100a6b2362f23ac949d0e83c462d9964bb6f8c6bf867c2a5f387d"
+}
