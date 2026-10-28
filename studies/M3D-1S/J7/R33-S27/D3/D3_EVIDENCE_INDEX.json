@@ -1,0 +1,40 @@
+{
+  "date_jst": "2026-10-28",
+  "stage": "R33-S27-D3 Chat independent urban-civic study",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "art_status": "ART REJECT",
+  "tech_status": "standalone geometry limited PASS",
+  "formal_art_adoption": 0,
+  "minecraft": "HOLD",
+  "base_main_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "mesh_count": 101,
+  "triangles": 2376,
+  "geometry_mesh_checks": {
+    "watertight": "101/101",
+    "winding_consistent": "101/101",
+    "positive_volume": "101/101"
+  },
+  "route": {
+    "width_m": 34,
+    "max_segment_grade_percent": 7.704,
+    "walkability_certified": false,
+    "upper_links_certified": false
+  },
+  "evidence_in_conversation_zip_only": {
+    "file": "R33_S27_D3_CHAT_RESEARCH.zip",
+    "sha256": "4b76760f8fa2a4388d88b288576d414b99f8918e845571e1196e9a56af7e6f63",
+    "glb_sha256": "1b8bc529789bb48ec04625c2fda5153fbfcdf60afaa9ee177b3396c03604c192",
+    "six_view_jpg_sha256": "8c9b111d0e350bbdc831bfc86ba8f0a848f64993ba60b1bcda524df537afea68",
+    "counterfactual_jpg_sha256": "2ed21c6547a0949a8816548d14bcdfbcb45f35a6ba81c1806d8c58fb2ff2c33b",
+    "source_build_py_sha256": "5fed446a4c11028fc5d267ff453e15917be175fdf13f823f22c648e80598bc4d"
+  },
+  "not_verified": [
+    "real habitation",
+    "all-width collision-safe public route",
+    "upper-district circulation",
+    "Blender .blend",
+    "10km whole-city integration",
+    "official positions"
+  ],
+  "next": "Do not prolong D3 fins; test authored habitable civic junction/room and distinct architectural form before expanding."
+}
