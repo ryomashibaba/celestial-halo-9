@@ -1,0 +1,52 @@
+{
+  "study": "R33-S27-D11-D15",
+  "asof": "2026-10-28 JST",
+  "start_commit": "2f6d631235430b44f3e624a518d0e3469e791396",
+  "D11": {
+    "technical": "LIMITED_PASS",
+    "art": "HOLD",
+    "public_nodes": 5,
+    "route_links": 5
+  },
+  "D12_D14": {
+    "technical": "LIMITED_PASS",
+    "art": "REJECT",
+    "grid_m": 4,
+    "glb_count": 2,
+    "scene_mesh_count_each": 11,
+    "clearance_samples_each": {
+      "room": 1440,
+      "route": 5775
+    },
+    "clearance_collisions_after_fix": {
+      "room": 0,
+      "route": 0
+    },
+    "frozen_outer_mass_negative_room_collisions": 31,
+    "changed_material_cells": 12089,
+    "changed_xy_external_footprint_cells": 194,
+    "off_target_changed_cells_over_260m": 91,
+    "over_320m": 0,
+    "deleted_two_routes_graph_components": 2,
+    "negative_height_grade_max": 0.068986,
+    "main_mass_connected_components": 2,
+    "glb_binaries_committed": false
+  },
+  "D15": {
+    "technical": "NOT_RUN",
+    "art": "NOT_RUN",
+    "direction": "artist-led editable macro shape plus D11-D14 causal constraint backend"
+  },
+  "formal_central_art_adoption": 0,
+  "city_master_complete": false,
+  "minecraft_construction": "HOLD",
+  "unverified": [
+    "arbitrary 3d inverse mesh solver",
+    "full-width physical walkability",
+    "upper-level lifts",
+    "human-scale art",
+    "10km integration",
+    "official coordinates",
+    "Blender native model"
+  ]
+}
