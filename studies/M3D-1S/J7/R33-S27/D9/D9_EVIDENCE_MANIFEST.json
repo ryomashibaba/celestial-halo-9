@@ -1,0 +1,49 @@
+{
+  "study": "R33-S27-D9",
+  "date_jst": "2026-10-28",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "source_main_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "art": "ART REJECT",
+  "technical": "limited PASS topology / semantic edit / local floor support / bounded ground path",
+  "formal_art_adoption": 0,
+  "minecraft": "HOLD",
+  "models": {
+    "BASE": {
+      "mesh_count": 980,
+      "triangles": 11760,
+      "watertight": 980,
+      "positive_volume": 980,
+      "sha256": "5a88d5ed6636a2c41b2d0c739c7bbc95ca08a9dcd2edf5c32e5640c396d7d1ec"
+    },
+    "CIVIC_WIDEN": {
+      "mesh_count": 980,
+      "triangles": 11760,
+      "watertight": 980,
+      "positive_volume": 980,
+      "sha256": "92c43bc0894f48260e35f1112bafac212ac3c76f44254c546b5826632c521b80"
+    }
+  },
+  "independent_edit_glb_diff": {
+    "west_public_floor_objects_changed": 132,
+    "west_public_floor_max_displacement_m": 22.8176,
+    "west_outer_facade_objects_changed": 106,
+    "west_outer_facade_max_displacement_m": 22.5151,
+    "other_three_districts_changed_objects": 0
+  },
+  "path_audit": {
+    "W0_ground_centers": 104,
+    "AABB_blocked": 0,
+    "bridge_endpoints_total": 6,
+    "bridge_endpoints_supported": 6,
+    "method": "GLB mesh top-surface 2D polygon support and point-center conservative AABB obstruction only",
+    "full_accessibility_certified": false,
+    "vertical_lifts_built": false
+  },
+  "conversation_artifacts_only": {
+    "file": "R33_S27_D9_CHAT_RESEARCH.zip",
+    "sha256": "76434c53404eb6493b38061b76b09b51b12540f1175e19a95466136f22764795",
+    "members": 27,
+    "base_comparison_png_sha256": "071d777d2c38a5d6c530322a4c2fdde3a47f8a2d84c1a85167a2012a01f5c392"
+  },
+  "next": "STOP D9 form. Art-led directly editable architectural modeling, not further Python primitive generation"
+}
