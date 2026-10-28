@@ -1,0 +1,81 @@
+{
+  "study": "R33-S27-D16-D18",
+  "date": "2026-10-29 JST",
+  "from_branch_head": "2acde88a67afea0819f762c04a7e108b878ab412",
+  "D16": {
+    "tech": "LIMITED_PASS",
+    "art": "REJECT",
+    "glb_meshes": 12,
+    "triangles": 248,
+    "bounds_xyz_m": [
+      [
+        -680,
+        -430,
+        -30
+      ],
+      [
+        650,
+        610,
+        1130
+      ]
+    ],
+    "watertight": 12,
+    "winding_consistent": 12,
+    "positive_signed_volumes": 12,
+    "same_scene_camera_views": 6,
+    "glb_sha256": "3dbc8befb031cc47b4b74d91fde75bd415ad0d59b2458fb2931cf3dbe5be631c"
+  },
+  "D17": {
+    "tech": "LIMITED_PASS",
+    "art": "NOT_RUN",
+    "ground_eye_inside_mass": "WEST_FRACTURE",
+    "route_samples": {
+      "WEST_TO_FORUM": {
+        "invalid": 87,
+        "total": 105
+      },
+      "FORUM_TO_EAST": {
+        "invalid": 36,
+        "total": 105
+      },
+      "LOWER_CANYON_CROSSING": {
+        "invalid": 67,
+        "total": 105
+      },
+      "EAST_TO_HIGH_GALLERY": {
+        "invalid": 105,
+        "total": 105
+      }
+    },
+    "total_invalid": 295,
+    "total_samples": 420
+  },
+  "D18": {
+    "tech": "LIMITED_PASS",
+    "art": "NOT_RUN",
+    "geometry_preflight_D16": false,
+    "synthetic_clear_pass": true,
+    "synthetic_blocked_fail": true,
+    "synthetic_embedded_eye_fail": true
+  },
+  "reproduction": {
+    "glb_sha_match": true,
+    "invalid_count_match": true,
+    "zip_sha256": "c7eb3c5e3ab14d15b0e9a82496bd079717a3c1ddbb1c9f9a1f0fabfc94381383"
+  },
+  "limits": [
+    "no Blender",
+    "no GUI",
+    "no MCP",
+    "no native BLEND",
+    "not full-width access validation",
+    "no completed public interiors",
+    "no independent human art approval",
+    "no official coordinates",
+    "no 10km integration"
+  ],
+  "binary_committed_to_github": false,
+  "formal_central_art_adoption": 0,
+  "city_master_complete": false,
+  "minecraft_construction": "HOLD"
+}
