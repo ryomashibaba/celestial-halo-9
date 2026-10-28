@@ -1,0 +1,34 @@
+{
+  "schema": "study-evidence-v1",
+  "date_jst": "2026-10-28",
+  "research": "R33-S27-D2",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "base_main_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "status": "D2-A ART REJECT; D2-B ART REJECT",
+  "formal_art_adoption_count": 0,
+  "minecraft_construction": "HOLD",
+  "D2_A": {
+    "glb_sha256": "c882f6abcdfe2fd9eec1d9719250b235ccf5fdfe82b1ffbaefb6f2e4afc6ba59",
+    "meshes": 142,
+    "triangles": 2992,
+    "route_entry_delta_m": 4,
+    "route_forum_delta_m": 20
+  },
+  "D2_B": {
+    "glb_sha256": "0fa0569f732011d4939eba24880783235393ff71e6bef74e44eec39bfbdf2f48",
+    "meshes": 91,
+    "triangles": 1376,
+    "route_entry_delta_m": 0,
+    "route_forum_delta_m": 0,
+    "mean_approach_grade_percent": 4.73,
+    "walkability_certified": false
+  },
+  "zip": "R33_S27_D2_CHAT_RESEARCH.zip (conversation attachment only)",
+  "pending": [
+    "new D3 aesthetic form is NOT built",
+    "no native BLEND",
+    "no full public route network",
+    "no certified city anchor",
+    "not formally adopted"
+  ]
+}
