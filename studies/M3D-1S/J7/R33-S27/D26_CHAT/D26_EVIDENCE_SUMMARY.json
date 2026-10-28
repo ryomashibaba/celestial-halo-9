@@ -1,0 +1,94 @@
+{
+  "study": "R33-S27-D26",
+  "date_jst": "2026-10-29",
+  "parent_head": "b9b0074cf0524dcfcfc76575e73042331fdb436f",
+  "main_head_verified": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "art": "NOT_SUBMITTED_NEUTRAL_TEST",
+  "technical": "LIMITED_PASS_SAVED_GLB_DIRECT_SCULPT_REPLAY",
+  "formal_central_art_adoptions": 0,
+  "city_master_complete": false,
+  "minecraft": "HOLD",
+  "real_glb": {
+    "base_sha256": "50fda3ac3f6dd14ab778eb079398e68b001998c216139f38c4e63942be6669e3",
+    "micro_sha256": "239507730baa1f8487b35769eb3822c88d70e82aeabdb0985d23a0d8ff55468d",
+    "macro_sha256": "36b021339815c6ce18042529fc96c614f8f58ed086e382cea8b0b9c13ffe93e5",
+    "vertices_each": 10242,
+    "triangles_each": 20480,
+    "watertight_each": true
+  },
+  "brush": {
+    "micro_moved_vertices": 171,
+    "macro_moved_vertices": 6884,
+    "micro_max_displacement_m": 18,
+    "macro_max_displacement_m": 363.456,
+    "macro_strokes": 5
+  },
+  "silhouette_xor_over_union_percent": {
+    "south": {
+      "micro": 0,
+      "macro": 25.341
+    },
+    "east": {
+      "micro": 0.395,
+      "macro": 24.107
+    },
+    "north": {
+      "micro": 0,
+      "macro": 25.857
+    },
+    "west": {
+      "micro": 0.426,
+      "macro": 24.212
+    },
+    "aerial": {
+      "micro": 0,
+      "macro": 30.937
+    },
+    "oblique": {
+      "micro": 0,
+      "macro": 27.435
+    }
+  },
+  "isolated_rebuild_glb_sha_match": true,
+  "negative_tests": {
+    "source_overwrite_rejected": true,
+    "zero_radius_rejected": true,
+    "wrong_geometry_rejected": true,
+    "multi_mesh_rejected": true,
+    "zero_displacement_no_effect": true
+  },
+  "limits": [
+    "Not a building or aesthetic candidate",
+    "Not Blender native or interactive GUI",
+    "One-geometry identity-transform GLB only",
+    "No topology changes, voids, public paths, inhabitants or complete structure QA",
+    "A visual silhouette metric is not an art score"
+  ],
+  "chat_artifacts": {
+    "zip": "HALO9_D26_CHAT_RESEARCH.zip",
+    "sha256": "c9beb2083de1454769f572814c5cf44a0e97ad00ad442df99544904d7b783870",
+    "contains": [
+      "3 GLB",
+      "18 VTK screenshots",
+      "comparison JPG",
+      "complete three Python scripts",
+      "JSON plans",
+      "QA",
+      "audit",
+      "review",
+      "file SHA256 manifest"
+    ]
+  },
+  "github_assets": [
+    "d26_apply_strokes.py",
+    "D26_MACRO_strokes.json",
+    "D26_EVIDENCE_SUMMARY.json",
+    "D26_REVIEW_JA.md"
+  ],
+  "github_not_includes": [
+    "GLBs",
+    "PNG/JPG",
+    "render and audit Python scripts"
+  ],
+  "next": "D27: connect direct editable sculpted macroform with actual civic rooms and inhabited city, without reverting to repetitive monolithic primitive geometry"
+}
