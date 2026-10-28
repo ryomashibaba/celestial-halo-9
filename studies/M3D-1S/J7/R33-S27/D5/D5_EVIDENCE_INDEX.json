@@ -1,0 +1,66 @@
+{
+  "date_jst": "2026-10-28",
+  "project": "CELESTIAL HALO-9",
+  "study": "R33-S27-D5",
+  "main_base_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "formal_art_adoption": 0,
+  "minecraft": "HOLD",
+  "technical": "LIMITED PASS on ground-floor samples",
+  "art": "REJECT",
+  "mesh_count": 144,
+  "triangles": 3664,
+  "individual_watertight": 144,
+  "individual_consistent_winding": 144,
+  "individual_positive_volume": 144,
+  "model_bounds_m": [
+    [
+      -330,
+      -360,
+      -12
+    ],
+    [
+      330,
+      360,
+      375.45
+    ]
+  ],
+  "ground_audit": {
+    "court_axis": {
+      "samples": 150,
+      "unsupported": 0,
+      "blocked_point": 0
+    },
+    "west_public_entry": {
+      "samples": 55,
+      "unsupported": 0,
+      "blocked_point": 0
+    },
+    "east_public_entry": {
+      "samples": 55,
+      "unsupported": 0,
+      "blocked_point": 0
+    },
+    "certified_walkable_route": false
+  },
+  "visual_review": {
+    "views": 8,
+    "assessment": "Broad generic stacked decks, roof plates, repetitive supports; public/city identity weak",
+    "surface_area_note": "Floor/roof/court approx 83.95% of summed noncontext mesh surface area; NOT pixel share or art score"
+  },
+  "artifacts_in_conversation_only": {
+    "zip": "R33_S27_D5_CHAT_RESEARCH.zip",
+    "zip_sha256": "2dfb45dc1eef3ddcdb77a02e14fdee5dd09badd63763afeea7bfeb7ca0b66de1",
+    "glb_sha256": "caaf58086ac37001ccb43d48f3150c8c8bd5ab327eeb58be0b768d14cbc828bb",
+    "file_count": 21
+  },
+  "not_verified": [
+    "3D native BLEND",
+    "full width collision safe walking",
+    "all upper circulation and lifts",
+    "actual livable apartments",
+    "structural integrity",
+    "official W0 and 10km city integration"
+  ],
+  "next": "S27-D6: stop simple procedural macro iterations, first develop high quality specific art-form visual and urban cross-section, then translate to editable 3D"
+}
