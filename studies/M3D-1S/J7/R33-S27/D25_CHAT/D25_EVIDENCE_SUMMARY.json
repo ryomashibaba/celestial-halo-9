@@ -1,0 +1,101 @@
+{
+  "study": "R33-S27-D25",
+  "date_jst": "2026-10-29",
+  "parent_head": "2c5796b048f3dd9f88b3f5727e3719372fbc67b3",
+  "main_verified": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "art": {
+    "base": "REJECT",
+    "edit": "REJECT",
+    "formal_adoptions": 0
+  },
+  "tech": "LIMITED_PASS_SAMPLED_LOCAL_ROUTE_AND_PUBLIC_VOID",
+  "city_master_complete": false,
+  "minecraft": "HOLD",
+  "environment": {
+    "blender": false,
+    "work": false,
+    "tools": [
+      "Trimesh",
+      "VTK",
+      "NumPy",
+      "SciPy",
+      "skimage"
+    ]
+  },
+  "models": {
+    "BASE": {
+      "meshes": 23,
+      "triangles": 46602,
+      "glb_sha256": "ee6f46c3ba2c2e942b60c96d3730551ecfad1580b10edd909226c7a88911c019"
+    },
+    "EDIT": {
+      "meshes": 23,
+      "triangles": 46746,
+      "glb_sha256": "0713a6f00c9d86aab56a29120d3b567b3e03246c58cea604a0a43b2821916463"
+    }
+  },
+  "local_safety_sample": {
+    "floor_support_per_model": {
+      "passes": 405,
+      "samples": 405
+    },
+    "mass_intrusions_per_model": {
+      "intrusions": 0,
+      "samples": 1215
+    },
+    "eyes_inside_shell_per_model": 0,
+    "max_route_grade_percent": 1.7542,
+    "negative_obstacle_detected": true,
+    "negative_missing_floor_detected": true,
+    "room_floor_z_m": 64,
+    "base_room_overhead_intersection_range_m": [
+      356.58,
+      390.15
+    ],
+    "edit_room_overhead_intersection_range_m": [
+      481.52,
+      530.37
+    ],
+    "full_continuous_walk_approved": false
+  },
+  "counterfactual": {
+    "changed_20m_occupancy_voxels": 2438,
+    "removed": 2419,
+    "added": 19,
+    "xy_projection_changed_pixels": 2,
+    "xz_projection_changed_pixels": 8,
+    "yz_projection_changed_pixels": 0,
+    "edited_image_changed_pixels_percent": {
+      "south_urban": 0.2086,
+      "west_oblique": 2.7951,
+      "east_oblique": 0,
+      "north_reverse": 0.0719,
+      "aerial": 0.0224,
+      "street": 10.1437,
+      "room_human": 20.0493,
+      "approach": 16.948
+    },
+    "interpretation": "room change affects local geometry and images, not the macro skyline significantly"
+  },
+  "reproduction": {
+    "base_and_edit_memory_rebuild_sha256_match": true,
+    "third_party_review": false
+  },
+  "artifact": {
+    "chat_zip_filename": "HALO9_D25_CHAT_RESEARCH.zip",
+    "zip_sha256": "890e7ec57694d738a82cc74bbd77cfe982c2eb6930004eeae35fc3dd989c2bd7",
+    "files_in_zip": 29,
+    "github_only_contains": [
+      "D25_REVIEW_JA.md",
+      "D25_EVIDENCE_SUMMARY.json"
+    ],
+    "not_on_github": [
+      "real GLBs",
+      "16 PNG renders",
+      "3 JPG sheets",
+      "complete Python source",
+      "full QA logs"
+    ]
+  },
+  "next": "D26 reconsider modeling process; current BASE and EDIT shapes must not be detailed or adopted"
+}
