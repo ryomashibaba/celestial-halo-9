@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "date_jst": "2026-10-28",
+  "study": "R33-S27-D4",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "main_source_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "tech_status": "limited ground-floor geometry PASS",
+  "art_status": "ART REJECT",
+  "formal_adoption_count": 0,
+  "minecraft": "HOLD",
+  "bounds_m_approx": [
+    420,
+    485,
+    93
+  ],
+  "mesh_count": 114,
+  "triangle_count": 2104,
+  "individual_watertight": 114,
+  "individual_positive_volume": 114,
+  "sampled_routes": [
+    {
+      "name": "street_spine",
+      "samples": 196,
+      "missing_floor": 0,
+      "obstructed": 0
+    },
+    {
+      "name": "west_public_entry",
+      "samples": 59,
+      "missing_floor": 0,
+      "obstructed": 0
+    },
+    {
+      "name": "east_library_entry",
+      "samples": 49,
+      "missing_floor": 0,
+      "obstructed": 0
+    },
+    {
+      "name": "west_studio_entry",
+      "samples": 52,
+      "missing_floor": 0,
+      "obstructed": 0
+    },
+    {
+      "name": "east_community_entry",
+      "samples": 54,
+      "missing_floor": 0,
+      "obstructed": 0
+    }
+  ],
+  "limitations": [
+    "AABB pedestrian centerline sample only; not exact collision",
+    "upper-level paths and elevators not certified",
+    "room use/structural/lighting and public safety unverified",
+    "no native .blend",
+    "not 10km certified city master"
+  ],
+  "chat_package_only": {
+    "filename": "R33_S27_D4_CHAT_RESEARCH.zip",
+    "sha256": "62e6dfc6377be3ea94e637dfa15407660ab466153bf2a45d09a4aeed1516190f",
+    "file_count": 33,
+    "glb_sha256": "d7f022ba11c9ab4600df7215c3be92ee373cb01cd35fc61f37b2e7d899864573"
+  },
+  "next": "Stop D4 shape; keep verified ground-floor access techniques; investigate visually controlled non-generic urban form"
+}
