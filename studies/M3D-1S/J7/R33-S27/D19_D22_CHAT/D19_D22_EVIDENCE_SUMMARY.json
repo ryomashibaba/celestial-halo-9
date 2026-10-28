@@ -1,0 +1,80 @@
+{
+  "study": "R33-S27-D19-D22",
+  "date": "2026-10-29 JST",
+  "parent": "5d8ec635eb724ff5571446584504b335674f0ada",
+  "technical": "LIMITED_PASS",
+  "art": "REJECT",
+  "formal_central_adoption": 0,
+  "minecraft": "HOLD",
+  "city_master_complete": false,
+  "real_glb": {
+    "meshes": 8,
+    "triangles": 368,
+    "sha256": "5ae9a6c39a5987e2a313fc3ab2bdd5d5906006d87b42104a94192b268f26bbac",
+    "bounds_m": [
+      [
+        -350,
+        -328,
+        -40
+      ],
+      [
+        344,
+        323,
+        420
+      ]
+    ],
+    "blender_native": false
+  },
+  "paths": {
+    "nodes": 5,
+    "segments": 4,
+    "ribbon_meshes": 1,
+    "point_volume_samples": 3060,
+    "volume_collisions": 0,
+    "support_ray_samples": 1020,
+    "support_failures": 0,
+    "segment_grade_percent": [
+      3.8348249442368525,
+      4.58496431940522,
+      4.370142244375379,
+      4.229317742650654
+    ]
+  },
+  "negative_controls": {
+    "insert_obstacle_collisions": 99,
+    "removed_deck_support_failures": 255
+  },
+  "junction_test": {
+    "samples": 231,
+    "before_repair_unsupported": 28,
+    "partial_stitch_remaining_unsupported": 4,
+    "after_single_ribbon_unsupported": 0
+  },
+  "human_views": {
+    "eyes_inside_masses": 0,
+    "viewline_sample_occlusions": 0,
+    "target_samples_per_eye": 61
+  },
+  "reproduction": {
+    "source_only_separate_execution": true,
+    "glb_and_3_json_sha_match": true,
+    "render_pixel_hash_not_verified": true,
+    "zip_sha256": "b96a7453f016fcbb2ce8af0e9f90eba447781be3d7ad2472da209a0e9d3529ca",
+    "zip_file_count": 20,
+    "manifest_verified_files": 19
+  },
+  "assets_on_github": [
+    "review_md",
+    "summary_json"
+  ],
+  "assets_not_on_github": [
+    "GLB",
+    "PNGs",
+    "JPG",
+    "Python_reproduction_source",
+    "complete_json_evidence"
+  ],
+  "reviewer": "same_assistant_separate_library_verification",
+  "independent_human_art_assessment": false,
+  "next": "D23 independent art-oriented native 3D spatial design, not rescue of D19 generic slabs"
+}
