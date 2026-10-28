@@ -1,0 +1,60 @@
+{
+  "schema": "research-v1",
+  "date_jst": "2026-10-28",
+  "phase": "R33-S27-D7",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "base_main_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "status": {
+    "geometry": "LIMITED PASS individual mesh",
+    "art": "ART REJECT",
+    "formal_art_adoption": 0,
+    "minecraft_construction": "HOLD"
+  },
+  "geometry": {
+    "approx_bounds_m": [
+      639,
+      690,
+      490
+    ],
+    "mesh_count": 24,
+    "triangles": 131336,
+    "watertight_individual": 24,
+    "consistent_winding_individual": 24,
+    "positive_volume_individual": 24,
+    "semantic_cavity_cuts": 11
+  },
+  "human_spaces": {
+    "programmed_modules": 6,
+    "modules_with_shell_overlap": 3,
+    "samples_per_module": 250,
+    "method": "vtkImplicitPolyDataDistance on GLB, uniformly sampled axis aligned box; partial interpenetration detection only",
+    "overlap_samples": {
+      "left_library": 15,
+      "left_media_hall": 23,
+      "right_academy": 0,
+      "right_market": 5,
+      "left_residential_cluster": 0,
+      "right_residential_court": 0
+    },
+    "bridge_to_gallery_height_gap_m": 20,
+    "bridge_to_right_borough_height_gap_m": 37,
+    "vertical_route_certified": false,
+    "civic_hall_initial_camera_inside_right_shell": true,
+    "corrected_camera_inside_shell": false
+  },
+  "counterfactual": "Removing separate city modules preserves sculpted hull geometry; interior-to-form reciprocal editing is NOT established.",
+  "artifact_status": {
+    "zip_filename": "R33_S27_D7_CHAT_RESEARCH.zip",
+    "zip_sha256": "2e15ae0fc9679d465e8725eefa19afd7336854e183a0bbe719b7f9c7054480bc",
+    "glb_filename": "models/S27_D7_FRACTURED_CIVIC_JUNCTION.glb",
+    "glb_sha256": "99146e2101bc7eada7c88eea0c31b85090ade3b974d115e48d2add90483c58e0",
+    "zip_contains": "Source, GLB, 8 actual render views, counterfactual, audit JSON and SHA manifest. GitHub stores text review and metadata only."
+  },
+  "unverified": [
+    "true inhabitability/architectural quality",
+    "continuous physical public circulation",
+    "native BLEND",
+    "official W0 integration",
+    "full-city complete master"
+  ]
+}
