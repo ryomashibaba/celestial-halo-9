@@ -22,11 +22,13 @@
   },
   "evidence_in_conversation_zip_only": {
     "file": "R33_S27_D3_CHAT_RESEARCH.zip",
-    "sha256": "4b76760f8fa2a4388d88b288576d414b99f8918e845571e1196e9a56af7e6f63",
+    "sha256": "5fd75b880c85e2d1894a285e1c96083918e114ab549702497c8209917da13c52",
     "glb_sha256": "1b8bc529789bb48ec04625c2fda5153fbfcdf60afaa9ee177b3396c03604c192",
     "six_view_jpg_sha256": "8c9b111d0e350bbdc831bfc86ba8f0a848f64993ba60b1bcda524df537afea68",
     "counterfactual_jpg_sha256": "2ed21c6547a0949a8816548d14bcdfbcb45f35a6ba81c1806d8c58fb2ff2c33b",
-    "source_build_py_sha256": "5fed446a4c11028fc5d267ff453e15917be175fdf13f823f22c648e80598bc4d"
+    "source_build_py_sha256": "5fed446a4c11028fc5d267ff453e15917be175fdf13f823f22c648e80598bc4d",
+    "smoke_test_path": "source/d3_validate_glb.py",
+    "zip_file_count": 30
   },
   "not_verified": [
     "real habitation",
