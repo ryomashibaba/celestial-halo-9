@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "study": "R33-S27-D1",
+  "date_jst": "2026-10-28",
+  "source_main_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "art": "ART REJECT",
+  "technical": "real GLB, 6 cameras, independent line-of-sight check",
+  "meshes": 38,
+  "triangles": 496,
+  "glb_sha256": "659b6755453dc01ad1c1e11dad663f4a9f572086c5b895c3e6e2bdd352b04eb4",
+  "sampled_occlusion_targets": 17,
+  "blocked": {
+    "oblique": 15,
+    "reverse": 14,
+    "front": 14,
+    "aerial": 17
+  },
+  "straight_link_angles_deg": [
+    5.3,
+    71,
+    31.8,
+    57.3,
+    65.2
+  ],
+  "formal_art_adoption": 0,
+  "minecraft": "HOLD",
+  "evidence_state": "source code, GLB, image, QA and local report are conversation ZIP only; this GitHub branch contains text research evidence only",
+  "next": "S27-D2: genuinely co-design scenic exterior + inhabitable civic space, not shells enclosing platform cities"
+}
