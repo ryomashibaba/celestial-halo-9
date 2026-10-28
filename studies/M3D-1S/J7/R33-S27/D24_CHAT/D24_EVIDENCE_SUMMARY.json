@@ -1,0 +1,71 @@
+{
+  "study": "R33-S27-D24",
+  "date_jst": "2026-10-29",
+  "art": {
+    "base": "REJECT",
+    "direct_edit": "REJECT",
+    "adoptions": 0
+  },
+  "tech": "LIMITED_PASS_LOCAL_ROUTE_AND_SAVED_GLB",
+  "city_master_complete": false,
+  "minecraft": "HOLD",
+  "main_head_verified": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "parent_head_verified": "f5d6e283c7d36fcc5facce67ce1e8311b4df6a68",
+  "blender_native": false,
+  "work_used": false,
+  "geometry": {
+    "meshes_each": 115,
+    "triangles_each": 7786,
+    "individual_watertight_meshes_each": 114,
+    "glb_base_sha256": "f2aaeca2a9a9305e0144c16b83199926bf1ebbf403a99fa7a9b9c2dc14b5b5a5",
+    "glb_edit_sha256": "dbd81c67f846a784dc570462cb8ec47f71c3362be6878977ee0376480d82caaf"
+  },
+  "route": {
+    "longitudinal_stations": 67,
+    "lateral_samples_per_station": 5,
+    "support_samples_each": 335,
+    "unsupported_samples_base": 0,
+    "unsupported_samples_edit": 0,
+    "max_grade_percent": 4.3799,
+    "negative_obstacle_detected": true,
+    "negative_missing_elevated_floor_detected": true,
+    "not_certified": [
+      "continuous swept body",
+      "full-surface clearance",
+      "structural support",
+      "egress",
+      "legal accessibility"
+    ]
+  },
+  "roof": {
+    "base_clearance_m_range": [
+      151.36,
+      213.95
+    ],
+    "edited_clearance_m_range": [
+      204.7,
+      259.36
+    ],
+    "clearance_samples_each": 5,
+    "directly_moved_roof_vertices_each_side": 1008,
+    "maximum_roof_z_change_m": 71.84,
+    "updated_skylight_vertices": 56,
+    "updated_rib_sections": 66,
+    "complete_panel_joint_certified": false
+  },
+  "render": {
+    "real_glb_images": 16,
+    "views_per_variant": 8
+  },
+  "zip_sha256": "5bbab0f38ff1d6d97087c79544edddf14aec605f0120e65ea9280e9d12d6631f",
+  "github_assets": [
+    "D24_REVIEW_JA.md",
+    "D24_EVIDENCE_SUMMARY.json"
+  ],
+  "github_does_not_contain": [
+    "GLBs",
+    "render images",
+    "complete Python"
+  ],
+  "next": "D25: art-oriented inhabited macroform, avoid pavilion expansion"
+}
