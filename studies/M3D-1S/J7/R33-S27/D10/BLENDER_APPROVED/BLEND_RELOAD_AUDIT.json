@@ -1,0 +1,50 @@
+{
+  "stage": "fresh BLEND reload",
+  "mesh_count": 30,
+  "changed": {
+    "EAST_EXCHANGE_BODY": {
+      "vertices": 6,
+      "max_m": 28.0
+    },
+    "REAR_OBLIQUE_HABITAT": {
+      "vertices": 3,
+      "max_m": 45.0
+    },
+    "FORUM_FLOOR": {
+      "vertices": 4,
+      "max_m": 28.0
+    },
+    "UPPER_PUBLIC_FLOOR": {
+      "vertices": 4,
+      "max_m": 28.0
+    },
+    "EAST_GROUND_LANDING": {
+      "vertices": 4,
+      "max_m": 28.0
+    },
+    "EAST_UPPER_LANDING": {
+      "vertices": 4,
+      "max_m": 28.0
+    }
+  },
+  "max_reload_error_m": 0.0,
+  "cameras_unchanged": true,
+  "object_set_unchanged": true,
+  "topology_unchanged": true,
+  "floor_probe": {
+    "FORUM_FLOOR": {
+      "top_surface_hits": 15,
+      "samples": 15,
+      "missing_points": []
+    },
+    "UPPER_PUBLIC_FLOOR": {
+      "top_surface_hits": 15,
+      "samples": 15,
+      "missing_points": []
+    }
+  },
+  "east_boundary_x_m": 138,
+  "local_contact_scope": "Shared X plane at authored boundary vertices, NOT all-width seam watertightness.",
+  "technical": "LIMITED PASS for actual saved mesh editing and reload; NOT circulation/collision/structure.",
+  "art": "REJECT recorded separately from camera images"
+}

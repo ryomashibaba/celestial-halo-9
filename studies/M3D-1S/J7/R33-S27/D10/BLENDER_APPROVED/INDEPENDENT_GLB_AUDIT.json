@@ -1,0 +1,25 @@
+{
+  "scope": "Independent GLB byte/scene-graph/world-coordinate verification against saved BLEND vertex snapshots",
+  "stages": {
+    "BASE": {
+      "meshes": 30,
+      "triangles": 384,
+      "degenerate_triangles": 0,
+      "max_world_coordinate_error_to_saved_mesh_m": 0
+    },
+    "EDIT": {
+      "meshes": 30,
+      "triangles": 384,
+      "degenerate_triangles": 0,
+      "max_world_coordinate_error_to_saved_mesh_m": 0
+    }
+  },
+  "source_face_topology_unchanged": true,
+  "export_triangulation_changed_objects": [],
+  "limits": [
+    "No water-tightness or union collision claim",
+    "No occupancy or full-width route certification",
+    "Same assistant wrote both validators; not another agent review"
+  ],
+  "technical": "TECH LIMITED PASS - actual GLB export matches saved edited meshes in world space"
+}

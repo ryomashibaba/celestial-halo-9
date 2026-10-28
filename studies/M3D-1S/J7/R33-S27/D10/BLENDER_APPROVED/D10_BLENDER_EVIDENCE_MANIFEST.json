@@ -1,0 +1,206 @@
+{
+  "study": "R33-S27-D10-BLENDER",
+  "date_jst": "2026-10-28",
+  "approval": "User replied 承認します to isolated local Blender trial immediately before execution",
+  "execution": "Blender 5.2.1 LTS background; MCP live connection failed; no GUI direct manipulation proven",
+  "source_research_head": "230254e26b407a05f0fc2ee46c85a3dcf34d2cf3",
+  "technical": "TECH LIMITED PASS",
+  "art": "ART REJECT",
+  "formal_art_adoption": 0,
+  "city_master": "INCOMPLETE",
+  "minecraft": "HOLD",
+  "raw_png_count": 12,
+  "local_zip_only": [
+    "BASE_*.png",
+    "EDIT_*.png"
+  ],
+  "manifest_self_hash": "omitted; use repository blob identity / ZIP external hash",
+  "files": [
+    {
+      "path": "BASE_CIVIC.png",
+      "bytes": 865531,
+      "sha256": "186b787190cd8888aea8d8a5e1318e5a19f197a4734ae83a075d19d90cc94cff",
+      "github_included": false
+    },
+    {
+      "path": "BASE_FRONT.png",
+      "bytes": 938342,
+      "sha256": "fc4bca7f0c337ae2bc88eef2eebb9bf1a099defa00d998a7481b7fb6a492ffd4",
+      "github_included": false
+    },
+    {
+      "path": "BASE_HALL.png",
+      "bytes": 903802,
+      "sha256": "37d1ff6af77ce1c848f3b3e038f95d8263b2262675f4d7e70f7b9030228fe99a",
+      "github_included": false
+    },
+    {
+      "path": "BASE_OBLIQUE.png",
+      "bytes": 952914,
+      "sha256": "b00f419d57d63f35798137d493b1ad5b211bfc99fb07963de027cc4379d35959",
+      "github_included": false
+    },
+    {
+      "path": "BASE_REAR.png",
+      "bytes": 929727,
+      "sha256": "60ff29068a4f3b9ccbb8219d958d9b02235ba7a476a4f4f97eefa6de917adb2d",
+      "github_included": false
+    },
+    {
+      "path": "BASE_snapshot.json",
+      "bytes": 41603,
+      "sha256": "cdd8880dd88ead581ddf27756af449fe89697e8d6fdebc2f196483cc4ef6668a",
+      "github_included": true
+    },
+    {
+      "path": "BASE_TOP.png",
+      "bytes": 935828,
+      "sha256": "82c838b38452f4263f5c5d0993031556ab6e13315fd6da6437a7a2f126784461",
+      "github_included": false
+    },
+    {
+      "path": "BLEND_RELOAD_AUDIT.json",
+      "bytes": 1242,
+      "sha256": "f503eed1f9c2767f0d7700f9c97b7a60d416844c111bd4b2c44dc7a859d69782",
+      "github_included": true
+    },
+    {
+      "path": "D10_BASE.blend",
+      "bytes": 117766,
+      "sha256": "617fd76e4da677a6d6cbdfa3a9636b750a16513424ac7fce1589323297468d17",
+      "github_included": true
+    },
+    {
+      "path": "D10_BASE.glb",
+      "bytes": 35788,
+      "sha256": "fbae8a01c0f34367faea1105562d3044d34c8e5905d7734b5ff8d512b70f4586",
+      "github_included": true
+    },
+    {
+      "path": "D10_EDIT.blend",
+      "bytes": 114277,
+      "sha256": "113b75f13ec8d565c862b43e90e415ebf77676a4c4eddea304bc324ee4205188",
+      "github_included": true
+    },
+    {
+      "path": "D10_EDIT.glb",
+      "bytes": 35788,
+      "sha256": "f1a6a9029d71c4e6c017237ca41e610980c8015bab950fb5201cb9f75ef4afa6",
+      "github_included": true
+    },
+    {
+      "path": "D10_OBLIQUE_COMPARISON.jpg",
+      "bytes": 99319,
+      "sha256": "9bc55e92c4679b9937cf84c15eb2e13f4e3c663f6a91280627b2d0f193448baf",
+      "github_included": true
+    },
+    {
+      "path": "D10_SAME_SCENE_COMPARISON.jpg",
+      "bytes": 396915,
+      "sha256": "47cc4e12fd26355edfb114b178be6ab7552b4593da593c0ba2a4205a6753574c",
+      "github_included": true
+    },
+    {
+      "path": "DIRECT_EDIT_LOG.json",
+      "bytes": 6633,
+      "sha256": "c7fb63b1e8196ff1e14f5b72e2d812230ba6d9b0f25077d1fbaccaeb1ccf043f",
+      "github_included": true
+    },
+    {
+      "path": "EDIT_CIVIC.png",
+      "bytes": 872326,
+      "sha256": "c6bf00cad3d0b5960d27e1be2d479784bf4ef5b1d8f3cac7a8bb7745551c6b20",
+      "github_included": false
+    },
+    {
+      "path": "EDIT_expected_snapshot.json",
+      "bytes": 41603,
+      "sha256": "b605fe60e5bb9320ca642089d91d5afea9d79469d528a0ca60dd9a9510349095",
+      "github_included": true
+    },
+    {
+      "path": "EDIT_FRONT.png",
+      "bytes": 937999,
+      "sha256": "6ed4b1da2e33cc20550b0d1d1a169fbc023e593a30cfc8c259f49cfb91c047e8",
+      "github_included": false
+    },
+    {
+      "path": "EDIT_HALL.png",
+      "bytes": 903652,
+      "sha256": "890e0658c7afa85fe821f8c9f67a3767215167e7b627a7788d6001cbf5cd305a",
+      "github_included": false
+    },
+    {
+      "path": "EDIT_OBLIQUE.png",
+      "bytes": 953547,
+      "sha256": "685ef29aed4bebf7d9570f4fe8e333a3b5019867577091e5fb9e01b604b00a4f",
+      "github_included": false
+    },
+    {
+      "path": "EDIT_REAR.png",
+      "bytes": 938931,
+      "sha256": "8cc22d843066501f599a635190629a878d8aac882384565dc84461f18ffc3098",
+      "github_included": false
+    },
+    {
+      "path": "EDIT_TOP.png",
+      "bytes": 935959,
+      "sha256": "b23b4ef6409d1c5c1953e5bd4fa8fb5ea2d26aad761339a0c8710fa0cdf769b9",
+      "github_included": false
+    },
+    {
+      "path": "INDEPENDENT_GLB_AUDIT.json",
+      "bytes": 842,
+      "sha256": "d7e314e13d64fb1593ffdc670629d371990cf05b71efdddc653f9a7aebe7dbf8",
+      "github_included": true
+    },
+    {
+      "path": "REVIEW_JA.md",
+      "bytes": 8688,
+      "sha256": "a068392ddcdb49be8bc897062a1d296474c29a6084f98fea98fb0cd7d572cd6b",
+      "github_included": true
+    },
+    {
+      "path": "sources/create_study.py",
+      "bytes": 10350,
+      "sha256": "6e9cdb501b0214c97879163fd052e86345affb21d827f51ab3f04f8a8424710e",
+      "github_included": true
+    },
+    {
+      "path": "sources/direct_edit.py",
+      "bytes": 3708,
+      "sha256": "2a6670a050a1a1de16b7c99745a3c45eb0758f95ffb32ea6fba1fe6a74503e14",
+      "github_included": true
+    },
+    {
+      "path": "sources/package_evidence.py",
+      "bytes": 3099,
+      "sha256": "d97aef14bd0ca7168d4df514addc0ec79fa78fc6da562ede25daae973401a932",
+      "github_included": true
+    },
+    {
+      "path": "sources/reload_audit.py",
+      "bytes": 3224,
+      "sha256": "f5e4bae9bedc4e4cdd90b48dcecf506bcc17cd323e186ac993519fd24ee48a8a",
+      "github_included": true
+    },
+    {
+      "path": "sources/render_views.py",
+      "bytes": 505,
+      "sha256": "d6a861bd32551dd159a00d78ab55fd51c0b456f720823f3913d2dfdada113387",
+      "github_included": true
+    },
+    {
+      "path": "sources/REPRODUCE_JA.md",
+      "bytes": 1478,
+      "sha256": "ac37439cbf0fe5b556154b2b8d06e4735d75ea6f6ebf3eb0c06ebf7e0ec0de7c",
+      "github_included": true
+    },
+    {
+      "path": "sources/verify_glb.py",
+      "bytes": 4756,
+      "sha256": "304374ebba19a7781fd986015aa521a14fa15f3d5db87b31180a7f38fba56845",
+      "github_included": true
+    }
+  ]
+}

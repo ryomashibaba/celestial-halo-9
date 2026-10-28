@@ -21,3 +21,8 @@ The previous D9 binary objects/images are still NOT shared by this folder. This 
 Only this D10 folder and an append-only S27 status entry are intended changes. No main/PR/original/Freeze/world edits; no approval to change M247-C, W0/H/SB/view/axis obligations; no automatic adoption. Initial local read operations are disclosed in the audit. No Blender or local prototype was executed.
 
 The next substantive art test requires observing and editing a real authored Blender form with public-space relationships, then reviewing consistent distant/oblique/rear/overhead/interior/human views, and native save/reload. **Work/local-computer approval is still required before that phase.** This is not D10 whole-stage completion and not another proposed Work prompt passed off as implementation.
+
+
+## 後続の承認済みBlender試験（2026-10-28 JST）
+ユーザーの明示承認後、実Blenderで局所造形→保存済みmeshの直接頂点編集→同一6カメラの描画→BLEND再読込→実GLBの別解析まで実行した。**TECH LIMITED PASS / ART REJECT**。高品質な建築美術には未到達で現形状の詳細化を停止。 [審査と実データ](BLENDER_APPROVED/REVIEW_JA.md)、[全6視点比較](BLENDER_APPROVED/D10_SAME_SCENE_COMPARISON.jpg)。BLEND/GLB本体も当該フォルダに実収録した。ライブMCP/GUI編集の実証ではなく、隔離background Blenderによる保存meshの編集である。
+以下/上記のChat-only記述は先行Chat試験の範囲に限った履歴であり、この後続試験のBLEND/GLB/画像の有無を述べるものではない。旧試験のART HOLDと、後続実形状のART REJECTを区別する。

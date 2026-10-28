@@ -57,8 +57,8 @@
   "files": [
     {
       "path": "README.md",
-      "utf8_bytes": 2847,
-      "sha256": "2c9e574073d1e4f5470149346a8861196cfa4f112b8c71839b2e7c375d82f1b3",
+      "utf8_bytes": 3740,
+      "sha256": "a18243ba8a9d3fa60a8b043a8472350a77a40fa760f9ebe06710c871201a314e",
       "kind": "research_document"
     },
     {
@@ -120,5 +120,10 @@
   "negative_models": [
     "models/CAGE_ONLY_DRAG.obj",
     "models/GLOBAL_SCALE.obj"
-  ]
+  ],
+  "followup": {
+    "path": "BLENDER_APPROVED/REVIEW_JA.md",
+    "status": "Approved isolated Blender trial executed; TECH LIMITED PASS / ART REJECT",
+    "scope": "This manifest's earlier experiment fields describe the Chat-only coupon, not the later actual architecture fragment."
+  }
 }
