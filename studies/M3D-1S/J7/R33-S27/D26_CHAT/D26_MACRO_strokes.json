@@ -1,0 +1,50 @@
+{
+  "target_geometry": "neutral_sculpt_test",
+  "strokes": [
+    {
+      "anchor_vertex": 9043,
+      "radius_m": 350,
+      "delta_xyz_m": [
+        -220,
+        -150,
+        130
+      ]
+    },
+    {
+      "anchor_vertex": 5837,
+      "radius_m": 400,
+      "delta_xyz_m": [
+        240,
+        -130,
+        240
+      ]
+    },
+    {
+      "anchor_vertex": 5077,
+      "radius_m": 330,
+      "delta_xyz_m": [
+        160,
+        145,
+        -210
+      ]
+    },
+    {
+      "anchor_vertex": 9279,
+      "radius_m": 310,
+      "delta_xyz_m": [
+        -100,
+        75,
+        175
+      ]
+    },
+    {
+      "anchor_vertex": 913,
+      "radius_m": 270,
+      "delta_xyz_m": [
+        25,
+        -70,
+        -150
+      ]
+    }
+  ]
+}
