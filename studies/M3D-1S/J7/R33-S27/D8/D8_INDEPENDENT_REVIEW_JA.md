@@ -23,7 +23,7 @@ Chat内で**4種のGLB**（BASE、PUBLIC_FORUM_EDIT、HABITAT_EDIT、EXTERIOR_TA
 **ART REJECT**。同一実GLBによる遠景・背面・俯瞰・接近画像では、幅のある曲面帯状の4構造を重ねた模型に見え、単純な積層の変形から抜け出せていない。巨大都市の外観、異次元的な非対称性、固有の生活街区と内部公共室の具体性、都市全体への必然的な接合が不足する。**D8の現形状は詳細化・巨大化・装飾して救済しない**。技術的な編集システムと独立測定法だけを継承する。
 
 ## 再現性・原本保護
-会話の添付ZIP `R33_S27_D8_CHAT_RESEARCH.zip`（SHA256: `e02961b10437bcc3c0def03be1e8262f900e044c5bb030b05bf6977134cb843e`）に、4 GLB、再実行Python、独立QA、12カメラ画像・比較画像、編集指示JSON、全ファイルSHA256を格納。このGitHub研究ブランチにGLBや画像本体は未掲載。他のチャットにZIPが自動同期されるわけではない。Blender-native BLENDと本物の10km CITY MASTER、正式W0座標、現実の上層動線は未作成・未認証。
+会話の添付ZIP `R33_S27_D8_CHAT_RESEARCH.zip`（SHA256: `e02961b10437bcc3c0def03be1e8262f900e044c5bb030b05bf6977134cb843e`）に、4 GLB、再実行Python、独立QA、15カメラ画像・比較画像、編集指示JSON、全ファイルSHA256を格納。このGitHub研究ブランチにGLBや画像本体は未掲載。他のチャットにZIPが自動同期されるわけではない。Blender-native BLENDと本物の10km CITY MASTER、正式W0座標、現実の上層動線は未作成・未認証。
 main、既存PR、正式研究資産には変更なし。M247-C方向、都市C案、W0/H1〜H6/SB01〜16/HERO4/V1〜V3、Minecraft施工HOLD不変。
 
 ## 次の分離した課題
