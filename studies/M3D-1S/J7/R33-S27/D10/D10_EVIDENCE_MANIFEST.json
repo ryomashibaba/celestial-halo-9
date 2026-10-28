@@ -1,0 +1,124 @@
+{
+  "study": "R33-S27-D10",
+  "date_jst": "2026-10-28",
+  "status": "partial method research executed; architectural art trial pending",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "source_head": "7947c649e85c2f86a47d428ddcef8fcf639d06f0",
+  "source_main_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "policy_verified": true,
+  "policy_mutated": false,
+  "formal_adoption": 0,
+  "minecraft": "HOLD",
+  "art": "ART HOLD / UNASSESSED - no architecture candidate",
+  "technical": "TECH LIMITED PASS - coupon scope only",
+  "execution_boundary": "Pure isolated functions.exec ECMAScript calculations plus GitHub connector. Initial local read-only shell use disclosed in audit. No Work/local prototype or Blender execution.",
+  "evidence": {
+    "d9_binary_rerun": false,
+    "d10_code_executed": true,
+    "d10_serialized_obj_reparsed": true,
+    "d10_blender_import": false,
+    "d10_native_blend": false,
+    "d10_glb": false,
+    "d10_render": false,
+    "independent_agent_review": false
+  },
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "git_blob_sha": "dc376946a7261137abbdaee68373ea67ce4d34c5",
+      "size": 2861
+    },
+    {
+      "path": "studies/M3D-1S/J7/R33-S27/D8/D8_INDEPENDENT_REVIEW_JA.md",
+      "git_blob_sha": "49c581585c0f77ea6b2293c24059248273cdc4aa",
+      "size": 4298
+    },
+    {
+      "path": "studies/M3D-1S/J7/R33-S27/D9/D9_EVIDENCE_MANIFEST.json",
+      "git_blob_sha": "f26dc66482f3c728d74958056376055a3218ab49",
+      "size": 1821
+    },
+    {
+      "path": "studies/M3D-1S/J7/R33-S27/D9/D9_INDEPENDENT_REVIEW_JA.md",
+      "git_blob_sha": "7546ca3de34b50b0b1e3bddbe786bc95d2371266",
+      "size": 3655
+    },
+    {
+      "path": "studies/M3D-1S/J7/R33-S27/D9/d9_regression.py",
+      "git_blob_sha": "bf63ae11ae0cef100a2a00f898b9c82560daed0a",
+      "size": 2183
+    },
+    {
+      "path": "studies/M3D-1S/J7/R33-S27/S27_RESEARCH_STATUS_JA.md",
+      "git_blob_sha": "41a23d38c816989f60a8f5312fbbbed54eacb9a2",
+      "size": 7589
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "utf8_bytes": 2847,
+      "sha256": "2c9e574073d1e4f5470149346a8861196cfa4f112b8c71839b2e7c375d82f1b3",
+      "kind": "research_document"
+    },
+    {
+      "path": "D9_EVIDENCE_AUDIT_JA.md",
+      "utf8_bytes": 5161,
+      "sha256": "63d443f69f044ae2d5e66b6155bfbf616c7a21cabecf641ee3c5af33690040ab",
+      "kind": "research_document"
+    },
+    {
+      "path": "D10_METHOD_STUDY_JA.md",
+      "utf8_bytes": 8554,
+      "sha256": "c5dc64268e3b40f2f75cbb73eccceb9c83005cb9ed64da3112a73c359ab793fa",
+      "kind": "research_document"
+    },
+    {
+      "path": "d10_method_coupon.mjs",
+      "utf8_bytes": 11120,
+      "sha256": "3176798fa89791e7119302c35013fa203e4c429dadf25cb7da08599a472d80c8",
+      "kind": "executed_pure_ecmascript"
+    },
+    {
+      "path": "D10_RESULTS.json",
+      "utf8_bytes": 4412,
+      "sha256": "ef25cdde0c8eeb9aa1bf2d74159c5f06419eef1fe059190d4bd9d77372c9aa27",
+      "kind": "observed_results"
+    },
+    {
+      "path": "models/BASE.obj",
+      "utf8_bytes": 1632,
+      "sha256": "7a5fad5391e35f48dfd4eb90c111769a96c8eb363dc4a34f7640608708d138c3",
+      "kind": "editable_open_surface_mesh"
+    },
+    {
+      "path": "models/CAGE_ONLY_DRAG.obj",
+      "utf8_bytes": 1633,
+      "sha256": "101422ddc1823b2d15d783b75fd027a9ba0de3331631495369d7276e21047c8c",
+      "kind": "editable_open_surface_mesh"
+    },
+    {
+      "path": "models/GLOBAL_SCALE.obj",
+      "utf8_bytes": 1642,
+      "sha256": "ebefc48cc8d6061931fa692db2c10012ee7af7b3b256047b464159d38b79812e",
+      "kind": "editable_open_surface_mesh"
+    },
+    {
+      "path": "models/SEMANTIC_EDIT.obj",
+      "utf8_bytes": 1633,
+      "sha256": "39a0059e3e9e45e91ffc5e880022c408fe8c40dbb9306a752d5252abd4eb407a",
+      "kind": "editable_open_surface_mesh"
+    },
+    {
+      "path": "models/DIRECT_EDIT.obj",
+      "utf8_bytes": 1633,
+      "sha256": "e2885b5e6249c4e667aee0c1c0b41e42c4cf6e4938fef6cd1de38dc09eac726d",
+      "kind": "editable_open_surface_mesh"
+    }
+  ],
+  "manifest_self_hash": "omitted to avoid self-reference; repository Git blob SHA identifies this manifest",
+  "negative_models": [
+    "models/CAGE_ONLY_DRAG.obj",
+    "models/GLOBAL_SCALE.obj"
+  ]
+}

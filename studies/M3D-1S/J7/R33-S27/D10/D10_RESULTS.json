@@ -1,0 +1,115 @@
+{
+  "study": "R33-S27-D10",
+  "date_jst": "2026-10-28",
+  "execution": "functions.exec isolated ECMAScript V8; no local prototype process",
+  "author_and_verifier": "same assistant; separate OBJ parser implementation, NOT independent human/agent QA",
+  "technical": "TECH LIMITED PASS - one-axis open-patch/floor-sample coupling",
+  "art": "ART HOLD / UNASSESSED - no architectural candidate or beauty improvement demonstrated",
+  "formal_art_adoption": 0,
+  "minecraft": "HOLD",
+  "main_unchanged_baseline": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "source_research_sha": "7947c649e85c2f86a47d428ddcef8fcf639d06f0",
+  "mesh": {
+    "patch_vertices": 20,
+    "patch_triangles": 24,
+    "total_vertices_with_floor_samples": 28,
+    "total_triangles": 28,
+    "closed_hull": false,
+    "solid_floor": false,
+    "coordinates": "arbitrary local metres; Z up; NOT canonical city coordinates"
+  },
+  "solver": {
+    "semantic_residual_m": 7.105427357601002e-15,
+    "direct_residual_m": 3.552713678800501e-15,
+    "conflictDetected": true,
+    "conflict_classification": "singular KKT; contradictions and redundancy not distinguished",
+    "max_round_trip_m": 0
+  },
+  "serialized_obj_verification": {
+    "scope": "serialized OBJ coordinate/connectivity coupon only; NOT collisions or art",
+    "rows": {
+      "BASE": {
+        "pin_drift_m": 0,
+        "attachment_gap_m": 7.105427357601002e-15,
+        "floor_A_width_m": 146.25,
+        "floor_B_width_m": 165.4,
+        "floor_A_delta_m": 0,
+        "floor_B_delta_m": 0,
+        "direct_handle_delta_m": 0,
+        "floor_z_spread_m": 0,
+        "reversed_triangle_normals": 0,
+        "min_normal_alignment": 0.9999999999999997
+      },
+      "CAGE_ONLY_DRAG": {
+        "pin_drift_m": 0,
+        "attachment_gap_m": 19.199999999999996,
+        "floor_A_width_m": 146.25,
+        "floor_B_width_m": 165.4,
+        "floor_A_delta_m": 0,
+        "floor_B_delta_m": 0,
+        "direct_handle_delta_m": 32,
+        "floor_z_spread_m": 0,
+        "reversed_triangle_normals": 0,
+        "min_normal_alignment": 0.9491367004405982
+      },
+      "GLOBAL_SCALE": {
+        "pin_drift_m": 89.72549019600001,
+        "attachment_gap_m": 8.000000661922968e-10,
+        "floor_A_width_m": 170.25,
+        "floor_B_width_m": 210.82745097999998,
+        "floor_A_delta_m": 24,
+        "floor_B_delta_m": 45.427450979999975,
+        "direct_handle_delta_m": 60.23529411800001,
+        "floor_z_spread_m": 0,
+        "reversed_triangle_normals": 0,
+        "min_normal_alignment": 0.9712063004529107
+      },
+      "SEMANTIC_EDIT": {
+        "pin_drift_m": 0,
+        "attachment_gap_m": 1.999893584070378e-10,
+        "floor_A_width_m": 170.25,
+        "floor_B_width_m": 177.4,
+        "floor_A_delta_m": 24,
+        "floor_B_delta_m": 12,
+        "direct_handle_delta_m": 11.755308133,
+        "floor_z_spread_m": 0,
+        "reversed_triangle_normals": 0,
+        "min_normal_alignment": 0.9778269878997711
+      },
+      "DIRECT_EDIT": {
+        "pin_drift_m": 0,
+        "attachment_gap_m": 5.999964969305438e-10,
+        "floor_A_width_m": 158.121808073,
+        "floor_B_width_m": 192.463557613,
+        "floor_A_delta_m": 11.871808073000011,
+        "floor_B_delta_m": 27.063557613,
+        "direct_handle_delta_m": 32,
+        "floor_z_spread_m": 0,
+        "reversed_triangle_normals": 0,
+        "min_normal_alignment": 0.9819743254837477
+      }
+    }
+  },
+  "mutation_tests": {
+    "nonfinite": "nonfinite",
+    "connectivity": "connectivity_changed"
+  },
+  "obj_sha256": {
+    "BASE": "7a5fad5391e35f48dfd4eb90c111769a96c8eb363dc4a34f7640608708d138c3",
+    "CAGE_ONLY_DRAG": "101422ddc1823b2d15d783b75fd027a9ba0de3331631495369d7276e21047c8c",
+    "GLOBAL_SCALE": "ebefc48cc8d6061931fa692db2c10012ee7af7b3b256047b464159d38b79812e",
+    "SEMANTIC_EDIT": "39a0059e3e9e45e91ffc5e880022c408fe8c40dbb9306a752d5252abd4eb407a",
+    "DIRECT_EDIT": "e2885b5e6249c4e667aee0c1c0b41e42c4cf6e4938fef6cd1de38dc09eac726d"
+  },
+  "not_executed": [
+    "D9 ZIP/GLB binary reanalysis",
+    "Blender/MCP connection",
+    "BLEND/GLB import/export/save/reload",
+    "GPU or geometry render",
+    "collision/volume/whole-body circulation",
+    "architectural art candidate/multiview art review",
+    "10km integration",
+    "Minecraft construction"
+  ],
+  "initial_local_read_disclosed": "See D9_EVIDENCE_AUDIT_JA.md; two read-only shell calls before local use was stopped."
+}
