@@ -1,0 +1,68 @@
+{
+  "schema": "evidence-v1",
+  "date_jst": "2026-10-28",
+  "study": "R33-S27-D8",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "base_main_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "art": "ART REJECT",
+  "technical": "LIMITED PASS: constraint-based coediting of urban floor + parent skyline",
+  "formal_art_adoption": 0,
+  "minecraft": "HOLD",
+  "models": [
+    "D8_BASE.glb",
+    "D8_PUBLIC_FORUM_EDIT.glb",
+    "D8_HABITAT_EDIT.glb",
+    "D8_EXTERIOR_TARGET_EDIT.glb"
+  ],
+  "each": {
+    "mesh_count": 64,
+    "triangle_count": 4328,
+    "watertight": 64,
+    "winding_consistent": 64,
+    "positive_volume": 64
+  },
+  "independent_checks": {
+    "forum_edit": {
+      "outside_wall_max_displacement_m": 30.1594,
+      "inside_floor_max_displacement_m": 30.1594
+    },
+    "habitat_edit": {
+      "left_upper_wall_max_m": 37.7144,
+      "right_upper_wall_max_m": 36.5619
+    },
+    "exterior_target": {
+      "requested_delta_m": 22,
+      "measured_outside_delta_m": 21.9041319265,
+      "measured_inside_room_width_delta_m": 21.9041319265,
+      "method": "inverse scalar root solver in shared param model, not direct arbitrary mesh edit"
+    },
+    "ground_support": {
+      "samples": 491,
+      "missing_floor": 0
+    },
+    "selected_wall_clearance": {
+      "samples": 491,
+      "point_intrusions": 0,
+      "close_under_1m": 0
+    },
+    "qualified": true
+  },
+  "conversation_artifacts_only": {
+    "zip_filename": "R33_S27_D8_CHAT_RESEARCH.zip",
+    "zip_sha256": "e02961b10437bcc3c0def03be1e8262f900e044c5bb030b05bf6977134cb843e",
+    "zip_files": 38,
+    "base_glb_sha256": "91cb5e32ec4a7ac766b83dcf648451a344bd44dfc50a7e81bf677fe799e313bc",
+    "source_build_sha256": "ece9f6fc2d9d46b50d451b9a47341008b3230007a49b89a5192c595dedb42bf2",
+    "independent_qa_sha256": "b7f24b009de5f3c8957197719ad975f3c31bb464ff39d1ae479773cb5a641890",
+    "render_main_sha256": "d130f1b46389d941e175794770130fadd85628124bc5aaa7473209135d03175a"
+  },
+  "not_certified": [
+    "native BLEND",
+    "individual apartment/public room completion",
+    "upper-level accessible paths and human swept collisions",
+    "independent full urban spatial quality",
+    "whole CITY MASTER 3D",
+    "official W0 world coordinates"
+  ],
+  "next": "Stop D8 form; preserve coupled constraints and independently verified geometry changes for more ambitious authored city design."
+}
