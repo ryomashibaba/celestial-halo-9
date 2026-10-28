@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "project": "CELESTIAL HALO-9",
+  "study": "R33-S27 Chat T1",
+  "date_jst": "2026-10-28",
+  "branch": "research/r33-s27-chat-translation-pilot-20261028",
+  "base_main_sha": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "study_status": "TECH LIMITED PASS (M2 connection + shaft centerline), ART REJECT (both as architecture), FORMAL ADOPTION 0, MINECRAFT HOLD",
+  "source_s26_zip": "R33_S26_REVIEW.zip (user-provided)",
+  "baseline_glb_sha256": {
+    "S26_A": "bb6ddf848533e900bc3dcd3644fdf8213189718467d234f2f68bf2cc861e6401",
+    "S26_B": "5292617e5dab2612a686da8777c5af407f334f731def0c43da083ab428faadd9"
+  },
+  "trial": {
+    "M1": {
+      "triangles": 8736,
+      "components": 3,
+      "shaft_centerline_solid_points": 11
+    },
+    "M2": {
+      "triangles": 47938,
+      "components": 1,
+      "watertight": true,
+      "voxel_step_m": 10,
+      "shaft_centerline_solid_points": 0
+    },
+    "samples": {
+      "shaft_centerline": 13,
+      "overlap_grid": 1521,
+      "M1_overlap_points": 480
+    }
+  },
+  "artifacts_in_chat_only": {
+    "zip_sha256": "e67613693c4ef84f4216e2568b5d40a0f5fd57dd19b72a1ad833e6492851ac52",
+    "M1_GLB_sha256": "e7143185e1ba211697a685f499a39f68fc0e0b67da8628c9dc65ab9519d9f3dc",
+    "M2_GLB_sha256": "3f1df044a053929366b60a895eacb05a48d1a6e8ad2128a28577c22d591f21ed",
+    "comparison_image_sha256": "0eca866552f41bf168c971c0fb6a17f1d83c713e91ce2d57f3aa8f1683993901",
+    "generator_py_sha256": "3e1dab45bc485919651d83e35b5e0ca828697710fc9026eb56666f59f19218fc",
+    "independent_qa_py_sha256": "3739e9d72e2bb40b0122fa6b9f39ec9698fcf318a3126fbca3e84df68e0868c1"
+  },
+  "unverified": [
+    "C55-C reference replica (not run)",
+    "Blender editable BLEND",
+    "all-width public path",
+    "full city context",
+    "aesthetic improvement",
+    "certified coordinates"
+  ]
+}
