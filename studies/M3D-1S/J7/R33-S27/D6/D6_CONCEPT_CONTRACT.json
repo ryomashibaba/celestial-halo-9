@@ -1,0 +1,34 @@
+{
+  "version": "D6-concept-only-v1",
+  "date_jst": "2026-10-28",
+  "phase": "R33-S27-D6",
+  "status": "2D CONCEPT REJECT / 3D NOT RUN",
+  "d6_2d_studies": 2,
+  "has_bona_fide_3d": false,
+  "has_certified_cameras": false,
+  "has_technical_qa": false,
+  "formal_art_adoption": 0,
+  "minecraft": "HOLD",
+  "pitfalls": [
+    "faux verification metrics in generated illustrations",
+    "generic symmetrical eco-resort arches",
+    "flat elevated decks with attached tiny housing",
+    "decorative waterfalls, greenery and lighting conceal weak primary form",
+    "multiple 2D pictures not guaranteed to be one consistent 3D"
+  ],
+  "design_hypothesis": {
+    "working_name": "Inhabited Fault Junction",
+    "binding": false,
+    "principle": "Co-evolve asymmetric inhabited urban volumes and an open diagonal public metropolitan fault; silhouette and a real civic/transport/residential section must reciprocally determine shape",
+    "scale": "multi-km central silhouette + 200–500m inhabited detail section + separate research-only 10km context",
+    "must_prove": [
+      "same coherent editable mesh across every final camera",
+      "real entry, floors, rooms and representative continuous route",
+      "districts sculpt outer form rather than sit upon it",
+      "multiple useful urban levels, distinct facades and civic destinations",
+      "independent art assessment before detailed production"
+    ]
+  },
+  "evidence": "text research record only; both image concepts are conversation-visible, not certified renders, not stored in GitHub",
+  "next": "real 3D translation feasibility test with direct artistic modeling; no reuse of rejected pictures as canonical form"
+}
