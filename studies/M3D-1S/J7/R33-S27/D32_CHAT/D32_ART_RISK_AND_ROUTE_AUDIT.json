@@ -1,0 +1,68 @@
+[
+  {
+    "study": "A_FAULT_URBAN_ESCARPMENT",
+    "saved_glb": "D32_A_FAULT_URBAN_ESCARPMENT_STUDY.glb",
+    "saved_glb_sha_match": true,
+    "geometry_count": 124,
+    "triangle_count": 1488,
+    "watertight_meshes": 124,
+    "twelve_triangle_mesh_count": 124,
+    "ground_route_samples_supported": 6745,
+    "ground_route_samples_total": 6745,
+    "max_neighboring_sample_floor_step_m": 3.0,
+    "number_of_floor_step_transitions_over_20cm": 40,
+    "verified_vertical_connectors_count": 0,
+    "program_labels_are_not_occupancy_evidence": true,
+    "red_flag_results": {
+      "only_12_triangle_prism_components": true,
+      "has_no_vertical_connectors": true,
+      "public_ground_route_has_3m_step_risk": true,
+      "inhabited_room_geometry_verified": false,
+      "M247C_central_art_verified": false,
+      "H1_to_H6_and_SB01_to_SB16_verified": false
+    },
+    "technical_gate": "FAIL_CONTINUOUS_GROUND_WALKABILITY_NOT_CLAIMED",
+    "art_gate": "REJECT_BY_8_CAMERA_VISUAL_REVIEW_NOT_BY_ALGORITHM",
+    "formal_adoption": false,
+    "lessons": [
+      "A spatial-function name in JSON never establishes inhabitable rooms.",
+      "Watertight prisms are not verified building interiors.",
+      "A continuous ground slab exists, but four decorative threshold slabs create 3m steps.",
+      "Upper terraces are not connected by stair/elevator in real geometry.",
+      "The main silhouettes remain rectangular blocks/plates rather than a genuinely new megastructure."
+    ]
+  },
+  {
+    "study": "B_SUSPENDED_INHABITED_FAN",
+    "saved_glb": "D32_B_SUSPENDED_INHABITED_FAN_STUDY.glb",
+    "saved_glb_sha_match": true,
+    "geometry_count": 68,
+    "triangle_count": 816,
+    "watertight_meshes": 68,
+    "twelve_triangle_mesh_count": 68,
+    "ground_route_samples_supported": 6745,
+    "ground_route_samples_total": 6745,
+    "max_neighboring_sample_floor_step_m": 3.0,
+    "number_of_floor_step_transitions_over_20cm": 40,
+    "verified_vertical_connectors_count": 0,
+    "program_labels_are_not_occupancy_evidence": true,
+    "red_flag_results": {
+      "only_12_triangle_prism_components": true,
+      "has_no_vertical_connectors": true,
+      "public_ground_route_has_3m_step_risk": true,
+      "inhabited_room_geometry_verified": false,
+      "M247C_central_art_verified": false,
+      "H1_to_H6_and_SB01_to_SB16_verified": false
+    },
+    "technical_gate": "FAIL_CONTINUOUS_GROUND_WALKABILITY_NOT_CLAIMED",
+    "art_gate": "REJECT_BY_8_CAMERA_VISUAL_REVIEW_NOT_BY_ALGORITHM",
+    "formal_adoption": false,
+    "lessons": [
+      "A spatial-function name in JSON never establishes inhabitable rooms.",
+      "Watertight prisms are not verified building interiors.",
+      "A continuous ground slab exists, but four decorative threshold slabs create 3m steps.",
+      "Upper terraces are not connected by stair/elevator in real geometry.",
+      "The main silhouettes remain rectangular blocks/plates rather than a genuinely new megastructure."
+    ]
+  }
+]

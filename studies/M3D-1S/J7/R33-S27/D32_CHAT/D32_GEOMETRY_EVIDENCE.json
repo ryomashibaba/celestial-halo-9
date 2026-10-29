@@ -1,0 +1,710 @@
+[
+  {
+    "study": "A_FAULT_URBAN_ESCARPMENT",
+    "file": "D32_A_FAULT_URBAN_ESCARPMENT_STUDY.glb",
+    "sha256": "ae233947d9d68c16254d350bf9842e2574ff989440959afae668de2fa3666d5a",
+    "count": 124,
+    "triangles": 1488,
+    "bounds_m": [
+      [
+        -950.0,
+        -935.0,
+        -60.0
+      ],
+      [
+        950.0,
+        900.0,
+        1065.0
+      ]
+    ],
+    "roles": {
+      "context": 2,
+      "public": 19,
+      "inhabited": 10,
+      "facade": 90,
+      "macroform": 2,
+      "transport": 1
+    },
+    "program": [
+      {
+        "id": "south_arrival_plaza",
+        "program": "南側の公共入口広場",
+        "role": "public",
+        "bounds_m": [
+          [
+            -190.0,
+            -780.0,
+            -10.0
+          ],
+          [
+            190.0,
+            -650.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "id": "rift_spine_public_floor",
+        "program": "連続する地上公共大路",
+        "role": "public",
+        "bounds_m": [
+          [
+            -85.0,
+            -650.0,
+            -9.0
+          ],
+          [
+            85.0,
+            720.0,
+            -2.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_inhabited_stratum_0",
+        "program": "WEST複合都市居住層1; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            -790.0,
+            -575.0,
+            25.0
+          ],
+          [
+            -180.0,
+            700.0,
+            165.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_public_terrace_0",
+        "program": "WEST段丘広場1（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            -194.0,
+            -345.0,
+            172.0
+          ],
+          [
+            -120.0,
+            445.0,
+            187.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_inhabited_stratum_1",
+        "program": "WEST複合都市居住層2; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            -757.0,
+            -665.0,
+            173.0
+          ],
+          [
+            -213.0,
+            610.0,
+            310.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_public_terrace_1",
+        "program": "WEST段丘広場2（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            -227.0,
+            -435.0,
+            317.0
+          ],
+          [
+            -153.0,
+            355.0,
+            332.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_inhabited_stratum_2",
+        "program": "WEST複合都市居住層3; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            -724.0,
+            -755.0,
+            322.0
+          ],
+          [
+            -246.0,
+            520.0,
+            475.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_public_terrace_2",
+        "program": "WEST段丘広場3（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            -260.0,
+            -525.0,
+            482.0
+          ],
+          [
+            -186.0,
+            265.0,
+            497.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_inhabited_stratum_3",
+        "program": "WEST複合都市居住層4; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            -691.0,
+            -845.0,
+            490.0
+          ],
+          [
+            -279.0,
+            430.0,
+            650.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_public_terrace_3",
+        "program": "WEST段丘広場4（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            -293.0,
+            -615.0,
+            657.0
+          ],
+          [
+            -219.0,
+            175.0,
+            672.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_inhabited_stratum_4",
+        "program": "WEST複合都市居住層5; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            -658.0,
+            -935.0,
+            666.0
+          ],
+          [
+            -312.0,
+            340.0,
+            820.0
+          ]
+        ]
+      },
+      {
+        "id": "WEST_public_terrace_4",
+        "program": "WEST段丘広場5（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            -326.0,
+            -705.0,
+            827.0
+          ],
+          [
+            -252.0,
+            85.0,
+            842.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_inhabited_stratum_0",
+        "program": "EAST複合都市居住層1; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            180.0,
+            -720.0,
+            25.0
+          ],
+          [
+            820.0,
+            555.0,
+            165.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_public_terrace_0",
+        "program": "EAST段丘広場1（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            120.0,
+            -490.0,
+            172.0
+          ],
+          [
+            194.0,
+            300.0,
+            187.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_inhabited_stratum_1",
+        "program": "EAST複合都市居住層2; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            236.0,
+            -644.0,
+            173.0
+          ],
+          [
+            796.0,
+            631.0,
+            310.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_public_terrace_1",
+        "program": "EAST段丘広場2（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            176.0,
+            -414.0,
+            317.0
+          ],
+          [
+            250.0,
+            376.0,
+            332.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_inhabited_stratum_2",
+        "program": "EAST複合都市居住層3; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            292.0,
+            -568.0,
+            322.0
+          ],
+          [
+            772.0,
+            707.0,
+            475.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_public_terrace_2",
+        "program": "EAST段丘広場3（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            232.0,
+            -338.0,
+            482.0
+          ],
+          [
+            306.0,
+            452.0,
+            497.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_inhabited_stratum_3",
+        "program": "EAST複合都市居住層4; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            348.0,
+            -492.0,
+            490.0
+          ],
+          [
+            748.0,
+            783.0,
+            650.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_public_terrace_3",
+        "program": "EAST段丘広場4（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            288.0,
+            -262.0,
+            657.0
+          ],
+          [
+            362.0,
+            528.0,
+            672.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_inhabited_stratum_4",
+        "program": "EAST複合都市居住層5; 連続した街区質量（内部未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            404.0,
+            -416.0,
+            666.0
+          ],
+          [
+            724.0,
+            859.0,
+            820.0
+          ]
+        ]
+      },
+      {
+        "id": "EAST_public_terrace_4",
+        "program": "EAST段丘広場5（垂直アクセス未設計）",
+        "role": "public",
+        "bounds_m": [
+          [
+            344.0,
+            -186.0,
+            827.0
+          ],
+          [
+            418.0,
+            604.0,
+            842.0
+          ]
+        ]
+      },
+      {
+        "id": "midspan_civic_footbridge",
+        "program": "中層公共連絡橋（アクセス未設計）",
+        "role": "transport",
+        "bounds_m": [
+          [
+            -380.0,
+            190.0,
+            325.0
+          ],
+          [
+            390.0,
+            245.0,
+            346.0
+          ]
+        ]
+      }
+    ],
+    "GLB_readback": true,
+    "each_mesh_watertight": true
+  },
+  {
+    "study": "B_SUSPENDED_INHABITED_FAN",
+    "file": "D32_B_SUSPENDED_INHABITED_FAN_STUDY.glb",
+    "sha256": "74a89c0437c6a0d6e35c62db71c39e4e4ac5ca287a6c6415fc22968c05bf003e",
+    "count": 68,
+    "triangles": 816,
+    "bounds_m": [
+      [
+        -950.0,
+        -850.0,
+        -60.0
+      ],
+      [
+        950.0,
+        900.0,
+        1190.0
+      ]
+    ],
+    "roles": {
+      "context": 2,
+      "public": 15,
+      "inhabited": 6,
+      "facade": 42,
+      "macroform": 2,
+      "transport": 1
+    },
+    "program": [
+      {
+        "id": "south_arrival_plaza",
+        "program": "南側の公共入口広場",
+        "role": "public",
+        "bounds_m": [
+          [
+            -190.0,
+            -780.0,
+            -10.0
+          ],
+          [
+            190.0,
+            -650.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "id": "rift_spine_public_floor",
+        "program": "連続する地上公共大路",
+        "role": "public",
+        "bounds_m": [
+          [
+            -85.0,
+            -650.0,
+            -9.0
+          ],
+          [
+            85.0,
+            720.0,
+            -2.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_city_00",
+        "program": "高高度居住街区1（内部・構造未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            -820.0,
+            -615.0,
+            95.0
+          ],
+          [
+            -155.0,
+            140.0,
+            234.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_civic_through_deck_00",
+        "program": "高層の外部公共広場1（経路未接続）",
+        "role": "public",
+        "bounds_m": [
+          [
+            -330.0,
+            -390.0,
+            235.0
+          ],
+          [
+            -140.0,
+            -85.0,
+            259.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_city_01",
+        "program": "高高度居住街区2（内部・構造未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            170.0,
+            -565.0,
+            240.0
+          ],
+          [
+            865.0,
+            255.0,
+            379.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_civic_through_deck_01",
+        "program": "高層の外部公共広場2（経路未接続）",
+        "role": "public",
+        "bounds_m": [
+          [
+            160.0,
+            -265.0,
+            380.0
+          ],
+          [
+            365.0,
+            40.0,
+            404.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_city_02",
+        "program": "高高度居住街区3（内部・構造未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            -820.0,
+            -270.0,
+            400.0
+          ],
+          [
+            -155.0,
+            485.0,
+            539.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_civic_through_deck_02",
+        "program": "高層の外部公共広場3（経路未接続）",
+        "role": "public",
+        "bounds_m": [
+          [
+            -330.0,
+            -45.0,
+            540.0
+          ],
+          [
+            -140.0,
+            260.0,
+            564.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_city_03",
+        "program": "高高度居住街区4（内部・構造未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            170.0,
+            -170.0,
+            560.0
+          ],
+          [
+            865.0,
+            650.0,
+            699.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_civic_through_deck_03",
+        "program": "高層の外部公共広場4（経路未接続）",
+        "role": "public",
+        "bounds_m": [
+          [
+            160.0,
+            130.0,
+            700.0
+          ],
+          [
+            365.0,
+            435.0,
+            724.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_city_04",
+        "program": "高高度居住街区5（内部・構造未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            -820.0,
+            -365.0,
+            730.0
+          ],
+          [
+            -155.0,
+            390.0,
+            869.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_civic_through_deck_04",
+        "program": "高層の外部公共広場5（経路未接続）",
+        "role": "public",
+        "bounds_m": [
+          [
+            -330.0,
+            -140.0,
+            870.0
+          ],
+          [
+            -140.0,
+            165.0,
+            894.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_city_05",
+        "program": "高高度居住街区6（内部・構造未設計）",
+        "role": "inhabited",
+        "bounds_m": [
+          [
+            170.0,
+            -140.0,
+            915.0
+          ],
+          [
+            865.0,
+            680.0,
+            1054.0
+          ]
+        ]
+      },
+      {
+        "id": "fan_civic_through_deck_05",
+        "program": "高層の外部公共広場6（経路未接続）",
+        "role": "public",
+        "bounds_m": [
+          [
+            160.0,
+            160.0,
+            1055.0
+          ],
+          [
+            365.0,
+            465.0,
+            1079.0
+          ]
+        ]
+      },
+      {
+        "id": "lower_public_bridge",
+        "program": "中層横断通路（アクセス未認証）",
+        "role": "transport",
+        "bounds_m": [
+          [
+            -370.0,
+            -230.0,
+            200.0
+          ],
+          [
+            340.0,
+            -185.0,
+            224.0
+          ]
+        ]
+      }
+    ],
+    "GLB_readback": true,
+    "each_mesh_watertight": true
+  }
+]

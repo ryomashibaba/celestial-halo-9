@@ -1,0 +1,161 @@
+{
+  "study": "D32",
+  "file_count": 31,
+  "files": [
+    {
+      "name": "D32_4VIEW_A_B_MACRO.jpg",
+      "sha256": "444d5d6abad690acd12c199d0a595f7096b839b9f086e885b6c7c479052c3863",
+      "bytes": 260361
+    },
+    {
+      "name": "D32_8VIEW_A_B_COMPARE.jpg",
+      "sha256": "22271c63b9a9b3612fa1aad39ca28eb5fa94db5aad3bb15d91f6b586152b37ab",
+      "bytes": 517303
+    },
+    {
+      "name": "D32_ART_GATE_BOARD.html",
+      "sha256": "bb3f5529c037c9bdd513ec9ae27403b314bdb5374b0b2b4944d45cde149ecdd2",
+      "bytes": 5653
+    },
+    {
+      "name": "D32_ART_RISK_AND_ROUTE_AUDIT.json",
+      "sha256": "c90bd7b94fd245b11b24048f9008e4e8eb80bb13613280bd09c6f59b7d3833b8",
+      "bytes": 2968
+    },
+    {
+      "name": "D32_A_01_south_distant.png",
+      "sha256": "2f9fa4cb6c96be7c3fd9084eb5a27c934a655f20386077012fba085e6be86e76",
+      "bytes": 134382
+    },
+    {
+      "name": "D32_A_02_west_threequarter.png",
+      "sha256": "fd72eb567be141b2cf21e2abd0c1d0454638a1eb0afbad63ed3e6370b2347e1e",
+      "bytes": 115390
+    },
+    {
+      "name": "D32_A_03_east_threequarter.png",
+      "sha256": "069e1c1c14eab4ecbb774a3285f4e0f76fa9a4b3e1fca09dbaab2ca175726b07",
+      "bytes": 106239
+    },
+    {
+      "name": "D32_A_04_north_reversal.png",
+      "sha256": "0dd936a9889f1467738f4807e5a00342dbe38265298f4cfa785af0598323fc5d",
+      "bytes": 130732
+    },
+    {
+      "name": "D32_A_05_west_profile.png",
+      "sha256": "34ca8a5f090ca1c178cc17993ec4d1e77099f55764d518c9bc39f48f417ab386",
+      "bytes": 118595
+    },
+    {
+      "name": "D32_A_06_aerial.png",
+      "sha256": "e9f42c7461419ebffd5a5da1eac74e20ff0f4225363b6aba1f78ad7f5d927f65",
+      "bytes": 136983
+    },
+    {
+      "name": "D32_A_07_human_approach.png",
+      "sha256": "8f421895e273a017907949d3bbdd338138b7d376c37073c6a4d98021bf4a745a",
+      "bytes": 75803
+    },
+    {
+      "name": "D32_A_08_civic_spine_human.png",
+      "sha256": "640f9bdc9c5b728f4090552f27e7c65921fc3c4383853cc98dfefcb7921f05d8",
+      "bytes": 74330
+    },
+    {
+      "name": "D32_A_FAULT_URBAN_ESCARPMENT_STUDY.glb",
+      "sha256": "ae233947d9d68c16254d350bf9842e2574ff989440959afae668de2fa3666d5a",
+      "bytes": 56996
+    },
+    {
+      "name": "D32_B_01_south_distant.png",
+      "sha256": "fff173d81ae3ae93233933cb4af5c36149175e04f2f6346251e55d29420ec27e",
+      "bytes": 120424
+    },
+    {
+      "name": "D32_B_02_west_threequarter.png",
+      "sha256": "1bc79344ef515739c85c06a1880be6d2836acb2abc9a1e2e7db558e3f2135dab",
+      "bytes": 113814
+    },
+    {
+      "name": "D32_B_03_east_threequarter.png",
+      "sha256": "3b88f0e6059414a0d2fdff133353abd68cc34baaf0759901b06922bd5a2712b2",
+      "bytes": 105885
+    },
+    {
+      "name": "D32_B_04_north_reversal.png",
+      "sha256": "4c47ec66983d933041e9659a94377e19bff0f514d405d554c4b8792f4b81fa85",
+      "bytes": 121975
+    },
+    {
+      "name": "D32_B_05_west_profile.png",
+      "sha256": "11d38714a215fff1adefc8c29ca15f36c0e22733584dc8326a85c0f8627bb159",
+      "bytes": 113603
+    },
+    {
+      "name": "D32_B_06_aerial.png",
+      "sha256": "40f793b4c12415ee67319d65ae489cef3622a29b3e187bc76170d1531e86bf60",
+      "bytes": 118936
+    },
+    {
+      "name": "D32_B_07_human_approach.png",
+      "sha256": "845bd1749ab321e052d8ca18719cccb223e6fd0d607b2b454e9f8d228c4263ab",
+      "bytes": 79749
+    },
+    {
+      "name": "D32_B_08_civic_spine_human.png",
+      "sha256": "58febcad19d968f56f56d78b52a4b0922d84eeb386cbf310b7baa79d2d57492e",
+      "bytes": 82084
+    },
+    {
+      "name": "D32_B_SUSPENDED_INHABITED_FAN_STUDY.glb",
+      "sha256": "74a89c0437c6a0d6e35c62db71c39e4e4ac5ca287a6c6415fc22968c05bf003e",
+      "bytes": 33232
+    },
+    {
+      "name": "D32_CHROMIUM_BOARD_VERIFIED.png",
+      "sha256": "df9e63405d5f3f9df27ba22a775432065a165346dd0812b88da776effde52958",
+      "bytes": 398973
+    },
+    {
+      "name": "D32_EVIDENCE_SUMMARY.json",
+      "sha256": "47b8532e8193314485c3670faa73bbcd60cc4cf0b6fa09a80405326f8c6c21c7",
+      "bytes": 4292
+    },
+    {
+      "name": "D32_GEOMETRY_EVIDENCE.json",
+      "sha256": "9ed68dc42c7f61102f45f27efd6e7d71f5c6620f1e6109d10d8017139a5edeeb",
+      "bytes": 14690
+    },
+    {
+      "name": "D32_REVIEW_JA.md",
+      "sha256": "9c8a4c9e1100e7171ec392bd757aca8884e41990b88635ab66e62e8c9f98db7b",
+      "bytes": 6333
+    },
+    {
+      "name": "README_D32_JA.md",
+      "sha256": "524efcb176ef814fb1c1a170ffb16f36b9a5a7a4f7439711693a19c50d144a5d",
+      "bytes": 1322
+    },
+    {
+      "name": "d32_art_risk_audit.py",
+      "sha256": "5080ece83d5a8ebe87d461e7d2b69d8efb6833724390f42379f1645b4a3952a8",
+      "bytes": 4272
+    },
+    {
+      "name": "d32_render.py",
+      "sha256": "08418324de1d60d699be08c1adf2df82b0e363f1bdd94f8ceec62b93fb4074d8",
+      "bytes": 4029
+    },
+    {
+      "name": "d32_review_board.py",
+      "sha256": "afe2fd1ad5073961797f7010ab7a1872cfdc244f166b0a7c9c3872e3073b8876",
+      "bytes": 5676
+    },
+    {
+      "name": "d32_urban_art_gate.py",
+      "sha256": "0c2875b1dcf6a6a7c5a39e28bc1811890ca72caa10b8f84b128eed269243e1e9",
+      "bytes": 9131
+    }
+  ]
+}

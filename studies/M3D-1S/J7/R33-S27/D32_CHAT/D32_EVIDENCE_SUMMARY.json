@@ -1,0 +1,98 @@
+{
+  "stage": "R33-S27-D32",
+  "date_jst": "2026-10-29",
+  "mode": "Chat",
+  "prior_d31_head": "6262a28d0c070998b0453d6d46f1a0a29629126a",
+  "main_head_checked": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "tech": "LIMITED_PASS_GLBS_RELOAD_AND_INDEPENDENT_REPRO, TECH_FAIL_ROUTE_STEPS",
+  "art": "REJECT_BOTH",
+  "formal_adoption_count": 0,
+  "city_master_3d_complete": false,
+  "minecraft_construction": "HOLD",
+  "work_used": false,
+  "blender_used": false,
+  "glb_real_saved": 2,
+  "true_glb_render_views": 16,
+  "mock_or_generated_concept_images": 0,
+  "full_city_model": false,
+  "independently_rerun_same_sha": true,
+  "browser_test": "Chromium set_content with inlined images; direct file and test website navigation blocked in test environment",
+  "qa": [
+    {
+      "study": "A_FAULT_URBAN_ESCARPMENT",
+      "saved_glb": "D32_A_FAULT_URBAN_ESCARPMENT_STUDY.glb",
+      "saved_glb_sha_match": true,
+      "geometry_count": 124,
+      "triangle_count": 1488,
+      "watertight_meshes": 124,
+      "twelve_triangle_mesh_count": 124,
+      "ground_route_samples_supported": 6745,
+      "ground_route_samples_total": 6745,
+      "max_neighboring_sample_floor_step_m": 3.0,
+      "number_of_floor_step_transitions_over_20cm": 40,
+      "verified_vertical_connectors_count": 0,
+      "program_labels_are_not_occupancy_evidence": true,
+      "red_flag_results": {
+        "only_12_triangle_prism_components": true,
+        "has_no_vertical_connectors": true,
+        "public_ground_route_has_3m_step_risk": true,
+        "inhabited_room_geometry_verified": false,
+        "M247C_central_art_verified": false,
+        "H1_to_H6_and_SB01_to_SB16_verified": false
+      },
+      "technical_gate": "FAIL_CONTINUOUS_GROUND_WALKABILITY_NOT_CLAIMED",
+      "art_gate": "REJECT_BY_8_CAMERA_VISUAL_REVIEW_NOT_BY_ALGORITHM",
+      "formal_adoption": false,
+      "lessons": [
+        "A spatial-function name in JSON never establishes inhabitable rooms.",
+        "Watertight prisms are not verified building interiors.",
+        "A continuous ground slab exists, but four decorative threshold slabs create 3m steps.",
+        "Upper terraces are not connected by stair/elevator in real geometry.",
+        "The main silhouettes remain rectangular blocks/plates rather than a genuinely new megastructure."
+      ]
+    },
+    {
+      "study": "B_SUSPENDED_INHABITED_FAN",
+      "saved_glb": "D32_B_SUSPENDED_INHABITED_FAN_STUDY.glb",
+      "saved_glb_sha_match": true,
+      "geometry_count": 68,
+      "triangle_count": 816,
+      "watertight_meshes": 68,
+      "twelve_triangle_mesh_count": 68,
+      "ground_route_samples_supported": 6745,
+      "ground_route_samples_total": 6745,
+      "max_neighboring_sample_floor_step_m": 3.0,
+      "number_of_floor_step_transitions_over_20cm": 40,
+      "verified_vertical_connectors_count": 0,
+      "program_labels_are_not_occupancy_evidence": true,
+      "red_flag_results": {
+        "only_12_triangle_prism_components": true,
+        "has_no_vertical_connectors": true,
+        "public_ground_route_has_3m_step_risk": true,
+        "inhabited_room_geometry_verified": false,
+        "M247C_central_art_verified": false,
+        "H1_to_H6_and_SB01_to_SB16_verified": false
+      },
+      "technical_gate": "FAIL_CONTINUOUS_GROUND_WALKABILITY_NOT_CLAIMED",
+      "art_gate": "REJECT_BY_8_CAMERA_VISUAL_REVIEW_NOT_BY_ALGORITHM",
+      "formal_adoption": false,
+      "lessons": [
+        "A spatial-function name in JSON never establishes inhabitable rooms.",
+        "Watertight prisms are not verified building interiors.",
+        "A continuous ground slab exists, but four decorative threshold slabs create 3m steps.",
+        "Upper terraces are not connected by stair/elevator in real geometry.",
+        "The main silhouettes remain rectangular blocks/plates rather than a genuinely new megastructure."
+      ]
+    }
+  ],
+  "public_circulation": {
+    "sampled_floor_support_each": 6745,
+    "total_floor_samples_each": 6745,
+    "maximum_floor_step_m": 3,
+    "result": "FAIL",
+    "upper_terrace_access": "NOT_ESTABLISHED"
+  },
+  "art_shape_further_work": "STOP_ON_BOTH_SHAPES",
+  "github_glb_or_images_planned": false,
+  "next": "D33 non-prism visual direct sculpt with real occupied rooms and vertical movement, Work needs separate approval"
+}
