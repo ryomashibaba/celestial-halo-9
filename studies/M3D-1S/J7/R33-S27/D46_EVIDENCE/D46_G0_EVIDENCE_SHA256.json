@@ -1,0 +1,14 @@
+{
+  "status": "ART_REJECT_G0_NOT_MASTER",
+  "base_run_id": 40870028350,
+  "zip_sha256": "bc633b4edeb8bb27056908d49e20ca51f7037d029d654ad288b6f62710aac473",
+  "archive_files": {
+    "D46_BASE.blend": "bda27c80b176cd79bdb6c2432d2e49c10895d05c63e68bce74b79cbc71c856e8",
+    "D46_BASE.glb": "6b4e12c0430d09bd6e51e72d6c430701866c8cc6038ed875b56f76cec6ca9a32",
+    "D46_BASE_MANIFEST.json": "b9b69dbb536bc5aa4fba83c844a7defea2bf74ea68849a3f799da080e74c535a",
+    "01_city.png": "e3fdaab7413402e121b14356d571d53acb335a39a5f0f7d8435e60b30c68b684",
+    "02_front.png": "df8e9d2844a42ffcffa076baa1b5d16c8df010bff72925ef29ef0c2a645196cd",
+    "03_oblique.png": "47d87f7476cc66c9cca55ad9344f2d7d28cbf03a6206e6ca7933b45331f1b9eb",
+    "04_side.png": "846b407329a61d87cbb4693d0762d078354e85e82a62848dc1d0f87f1925b018"
+  }
+}
