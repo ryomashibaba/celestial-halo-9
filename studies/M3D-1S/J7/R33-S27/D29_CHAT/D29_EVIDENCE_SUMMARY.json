@@ -1,0 +1,173 @@
+{
+  "study": "R33-S27-D29",
+  "date_jst": "2026-10-29",
+  "parent_head": "c1143dba20d0b795794256446ec09cecc5fe8001",
+  "main_head_verified": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "evaluation": {
+    "tech": "LIMITED_PASS_ORTHOGONAL_CSG_SAMPLED_PATH_BROWSER_UI",
+    "art": "NOT_SUBMITTED_TECHNICAL_FIXTURE",
+    "formal_art_adoptions": 0,
+    "city_master_complete": false,
+    "minecraft": "HOLD"
+  },
+  "models": {
+    "BASE": {
+      "sha256": "3198b6aec185cfe016f71bf1a16e59a627bcfcf7b3d642df24e288de7176325a",
+      "faces": 12,
+      "vertices": 8,
+      "watertight": true,
+      "euler_number": 2,
+      "positive_volume": true,
+      "source_public_mesh_vertices_unchanged": true,
+      "source_public_mesh_faces_unchanged": true
+    },
+    "ENTRY": {
+      "sha256": "df4da6537789ef9fc160c341ccf0c945b140f8d1790a068f8eb64dad01a83dcc",
+      "faces": 92,
+      "vertices": 48,
+      "watertight": true,
+      "euler_number": 2,
+      "positive_volume": true,
+      "source_public_mesh_vertices_unchanged": true,
+      "source_public_mesh_faces_unchanged": true
+    },
+    "ROOM": {
+      "sha256": "11689db74a66d22a2c1c4175f4f29bd4db4135d9f24261bddf456ec4b5beb78a",
+      "faces": 292,
+      "vertices": 148,
+      "watertight": true,
+      "euler_number": 2,
+      "positive_volume": true,
+      "source_public_mesh_vertices_unchanged": true,
+      "source_public_mesh_faces_unchanged": true
+    },
+    "ROOF": {
+      "sha256": "e65e459da92ead0f1e3324ab6aea8e775f57a849ea9d4d1353375737e8d0c69e",
+      "faces": 624,
+      "vertices": 312,
+      "watertight": true,
+      "euler_number": 0,
+      "positive_volume": true,
+      "source_public_mesh_vertices_unchanged": true,
+      "source_public_mesh_faces_unchanged": true
+    }
+  },
+  "sampled_path": {
+    "BASE": {
+      "stations": 81,
+      "width_samples": 3,
+      "height_samples": 3,
+      "floor_supported": 51,
+      "floor_total": 243,
+      "human_volume_collisions": 585,
+      "human_volume_total": 729
+    },
+    "ENTRY": {
+      "stations": 81,
+      "width_samples": 3,
+      "height_samples": 3,
+      "floor_supported": 117,
+      "floor_total": 243,
+      "human_volume_collisions": 378,
+      "human_volume_total": 729
+    },
+    "ROOM": {
+      "stations": 81,
+      "width_samples": 3,
+      "height_samples": 3,
+      "floor_supported": 243,
+      "floor_total": 243,
+      "human_volume_collisions": 0,
+      "human_volume_total": 729
+    },
+    "ROOF": {
+      "stations": 81,
+      "width_samples": 3,
+      "height_samples": 3,
+      "floor_supported": 243,
+      "floor_total": 243,
+      "human_volume_collisions": 0,
+      "human_volume_total": 729
+    }
+  },
+  "counterfactual": {
+    "BASE": {
+      "center_civic_point_inside_solid": true,
+      "skylight_point_inside_solid": true
+    },
+    "ENTRY": {
+      "center_civic_point_inside_solid": true,
+      "skylight_point_inside_solid": true
+    },
+    "ROOM": {
+      "center_civic_point_inside_solid": false,
+      "skylight_point_inside_solid": true
+    },
+    "ROOF": {
+      "center_civic_point_inside_solid": false,
+      "skylight_point_inside_solid": false
+    }
+  },
+  "negative_and_state_tests": {
+    "source_unmodified": true,
+    "undo_one": true,
+    "undo_twice": true,
+    "undo_all": true,
+    "reload_byte_exact": true,
+    "http_html_loaded": true,
+    "http_state_cut_count": true,
+    "http_six_views": true,
+    "api_stale_revision_reject": true,
+    "api_fourth_cut_reject": true,
+    "source_sha_reject": "wrong sha",
+    "protected_route_target_reject": "protected geometry",
+    "bad_bounds_reject": "inverted bounds",
+    "closed_room_reject": "no exterior access",
+    "out_of_mass_reject": "void misses mass",
+    "isolated_void_reject": "disconnected void",
+    "original_never_rewritten": true
+  },
+  "browser_test": {
+    "chromium_UI_JS": "PASS",
+    "transport": "FastAPI TestClient shim; Chromium direct localhost blocked by sandbox",
+    "real_glb_rendered_images_per_step": 6,
+    "preset_cuts_clicked": 3,
+    "undo_in_browser": true,
+    "page_errors": []
+  },
+  "localhost_http": {
+    "GET state": true,
+    "GET homepage": true,
+    "GET front actual png": true,
+    "POST cut HTTP": true
+  },
+  "versions": {
+    "python": "3.13.5",
+    "trimesh": "4.11.1",
+    "numpy": "2.3.5",
+    "vtk": "9.6.2",
+    "fastapi": "0.128.2",
+    "uvicorn": "0.48.0"
+  },
+  "limitations": [
+    "Only box mesh and at most 3 axis-aligned cuboid cuts",
+    "Not general CSG / curved silhouette / civic urbanism",
+    "Human point sampling not continuous clearance",
+    "Not a real civic room with habitation and program",
+    "No Blender GUI, Work, or Minecraft construction",
+    "Browser UI was tested with ASGI/TestClient transport shim; actual local HTTP GET/POST separately checked"
+  ],
+  "github_expected": [
+    "d29_orthogonal_csg.py",
+    "d29_visual_workbench.py",
+    "d29_verify.py",
+    "d29_audit.py",
+    "d29_render.py",
+    "d29_browser_check.py",
+    "D29_WINDOWS_ONECLICK.bat",
+    "D29_requirements.txt",
+    "README_D29_JA.md",
+    "D29_REVIEW_JA.md",
+    "D29_EVIDENCE_SUMMARY.json"
+  ]
+}
