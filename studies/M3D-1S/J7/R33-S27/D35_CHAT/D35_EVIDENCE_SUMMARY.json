@@ -1,0 +1,18 @@
+{
+  "study": "R33-S27-D35",
+  "date_jst": "2026-10-29",
+  "technical": "GLB_READBACK_PASS_BUT_PUBLIC_VERTICAL_ROUTES_FAIL",
+  "art": {
+    "BASE": "REJECT",
+    "REVERSE_SKEW": "REJECT",
+    "formally_adopted": 0
+  },
+  "city_master_complete": false,
+  "minecraft": "HOLD",
+  "work_used": false,
+  "base_sha256": "0072301ac4b36063a60c3d5214c494ee2bb73eb1521660e5c67fe75582118bb3",
+  "edited_sha256": "161bcac0f5245e4056f5a256c17a9444e1e5d16dfda70fc0ba51b3070448bed9",
+  "zip_sha256": "5fa1485a47930beb2d10ae06db262825245c3a518524c50cc74525aa727fb4cc",
+  "research_conclusion": "Reject repetitive gallery shelves; not certified inhabitable rooms, sky crossing, or walkable ramps",
+  "github_scope": "Source, research evidence and manifests only; real GLBs and PNG/JPGs in chat ZIP"
+}
