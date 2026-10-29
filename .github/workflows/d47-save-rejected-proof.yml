@@ -1,0 +1,56 @@
+name: HALO9 D47 Preserve Genuine Rejected B1 Native Proof
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-direct-art-loop-20261030
+    paths:
+      - '.github/workflows/d47-save-rejected-proof.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  permanent-evidence-only:
+    if: github.ref_name == 'research/r33-s27-d47-direct-art-loop-20261030'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Download exact actual G0 artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/d47-genuine
+          gh run download 40899466960 --repo "${GITHUB_REPOSITORY}" --name HALO9-D47-B1-REAL-NATIVE-G0-ART-UNREVIEWED --dir /tmp/d47-genuine
+          echo 'a5893aae40366a4acf8e728a205be2fdfb35b4089b88bf19b249f4b429de2b2d  /tmp/d47-genuine/D47_B1_BASE_EDITABLE.blend' | sha256sum -c -
+          echo '81e782c4d85b6e4147f2921254fd94601b64fc57d60fbe6a953a18d30e7853f5  /tmp/d47-genuine/D47_B1_BASE.glb' | sha256sum -c -
+      - name: Package native rejected proof and SHA256 manifest
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile,hashlib,json
+          root=Path('/tmp/d47-genuine')
+          dest=Path('studies/M3D-1S/J7/R33-S27/D47_EVIDENCE/D47_B1_G0_NATIVE_ART_REJECT.zip')
+          dest.parent.mkdir(parents=True,exist_ok=True)
+          names=['D47_B1_BASE_EDITABLE.blend','D47_B1_BASE.glb','D47_B1_MANIFEST.json','D47_B1_REOPEN_AUDIT.json',
+                 '01_city.png','02_front.png','03_oblique.png','04_side.png','05_ground.png','06_rift.png']
+          assert all((root/n).is_file() and (root/n).stat().st_size>100 for n in names)
+          with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names:z.write(root/n,arcname=n)
+          manifest={'status':'D47_B1_G0_ART_REJECT_STOP_NOT_MASTER','source_run_id':40899466960,
+                    'zip_sha256':hashlib.sha256(dest.read_bytes()).hexdigest(),
+                    'files_sha256':{n:hashlib.sha256((root/n).read_bytes()).hexdigest() for n in names}}
+          (dest.parent/'D47_B1_G0_EVIDENCE_SHA256.json').write_text(json.dumps(manifest,indent=2),encoding='utf8')
+          print('ARCHIVE_SHA256',manifest['zip_sha256'])
+          PY
+      - name: Commit only new rejected proof to isolated research branch
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          test "$BRANCH_NAME" = "research/r33-s27-d47-direct-art-loop-20261030"
+          git config user.name 'halo9-research-proof-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_EVIDENCE/
+          git commit -m 'D47 archive actual 6-view Blender B1 ART REJECT proof'
+          git push origin "HEAD:refs/heads/${BRANCH_NAME}"
