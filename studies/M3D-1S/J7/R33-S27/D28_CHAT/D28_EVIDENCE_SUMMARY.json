@@ -1,0 +1,68 @@
+{
+  "study": "R33-S27-D28",
+  "status": "TECH_LIMITED_PASS_VISUAL_FEEDBACK_TOOL",
+  "art": "NOT_SUBMITTED",
+  "baseline_sha256": "78f01f6ff4ed2de539d809188048eefa43c305245bd669927f281c61aa98df4b",
+  "edit_sha256": "0e2ad91911cad94171d0e9add3e32a8813e0a6b5517e60c0c6461c345cb03656",
+  "baseline_immutable": true,
+  "source_geometry_count": 2,
+  "triangles": 2560,
+  "selection": {
+    "geometry": "NEUTRAL_A",
+    "vertex_id": 626,
+    "hit_xyz_m": [
+      -442.95155763236284,
+      -40.59374498928736,
+      148.7113617852052
+    ],
+    "vertex_xyz_m": [
+      -447.7237243652344,
+      -24.551618576049805,
+      152.40798950195312
+    ],
+    "view": "front",
+    "pixel_uv": [
+      0.3,
+      0.53
+    ]
+  },
+  "brush": {
+    "geometry": "NEUTRAL_A",
+    "vertex_id": 626,
+    "radius_m": 220,
+    "delta_xyz_m": [
+      35,
+      0,
+      20
+    ]
+  },
+  "all_source_faces_unchanged": true,
+  "unselected_geometry_bitwise_vertices_unchanged": true,
+  "GLB_bytes_identical_after_recipe_replay": true,
+  "six_view_diff_percent_not_art_scores": {
+    "front": 1.882,
+    "rear": 1.994,
+    "east": 1.076,
+    "west": 3.53,
+    "aerial": 1.249,
+    "oblique": 1.479
+  },
+  "limitations": [
+    "No topology or void edits",
+    "No certified public path or habitation",
+    "No artist-quality pass",
+    "No physical joints or self-intersection certification",
+    "No Blender GUI/MCP use"
+  ],
+  "source_original_write": false,
+  "D27_import_test": {
+    "meshes": 19,
+    "protected_geometry": [
+      "civic_plaza",
+      "civic_spine"
+    ],
+    "protected_UI_edit_rejected": true,
+    "protected_recipe_tamper_rejected": true,
+    "D27_source_sha256_unchanged": "c95bf29fd9a313c1c2d1b6f6a33053fb410fbf3b1ce4fb2877d065a2b9441622"
+  }
+}
