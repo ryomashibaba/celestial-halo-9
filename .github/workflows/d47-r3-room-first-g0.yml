@@ -1,0 +1,134 @@
+name: HALO9 D47 R3 Room First G0 ART UNREVIEWED
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r3-inhabited-section-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R3_NATIVE/**'
+      - '.github/workflows/d47-r3-room-first-g0.yml'
+permissions:
+  contents: write
+jobs:
+  genuine-room-g0:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Blender 4.5.15 and software OpenGL
+        run: |
+          python -m pip install 'bpy==4.5.15'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Generate genuine occupied-room scene and six renders
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R3_NATIVE/d47_r3_habitable_section.py /tmp/d47-r3
+      - name: Independent BLEND, portal, negative obstruction and GLB verification
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import bpy,json
+          from mathutils import Vector
+          p=Path('/tmp/d47-r3')
+          j=json.loads((p/'D47_R3_G0_MANIFEST.json').read_text())
+          assert len(j['rooms'])==3 and len(j['render_names'])==6
+          assert j['art']=='UNREVIEWED' and not j['official_coordinates']
+          assert all((p/n).stat().st_size>1000 for n in j['render_names'])
+          blend=p/'D47_R3_G0_EDITABLE.blend'
+          glb=p/'D47_R3_G0.glb'
+          assert blend.stat().st_size>10000 and glb.stat().st_size>10000
+          bpy.ops.wm.open_mainfile(filepath=str(blend))
+          assert not bpy.context.scene['art_adopted']
+          all_mesh=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(all_mesh)>=60,len(all_mesh)
+          for room in j['rooms']:
+              for suffix in ('_ACTUAL_FLOOR','_WEATHER_ROOF'):
+                  assert bpy.data.objects.get(room['id']+suffix)
+          def bounds(o):
+              pts=[o.matrix_world @ Vector(c) for c in o.bound_box]
+              return [(min(p[i] for p in pts),max(p[i] for p in pts)) for i in range(3)]
+          def intersects(a,b):
+              return all(a[k][0]<b[k][1]-.01 and b[k][0]<a[k][1]-.01 for k in range(3))
+          tests={}
+          for room in j['rooms']:
+              x,y,z=room['probe_m']
+              if room['opening_axis'] in ('WEST','EAST'):
+                  v=[(x-3,x+3),(y-25,y+25),(z-8,z+8)]
+              else:
+                  v=[(x-25,x+25),(y-3,y+3),(z-8,z+8)]
+              tests[room['id']]=[o.name for o in all_mesh if intersects(v,bounds(o))]
+          assert all(not a for a in tests.values()),tests
+          x,y,z=j['rooms'][0]['probe_m']
+          bpy.ops.mesh.primitive_cube_add(size=2,location=(x,y,z))
+          ob=bpy.context.object;ob.name='QA_TEMPORARY_BLOCKER'
+          ob.scale=(7,22,14)
+          bpy.context.view_layer.update()
+          volume=[(x-3,x+3),(y-25,y+25),(z-8,z+8)]
+          assert intersects(volume,bounds(ob)), 'negative blocked portal must be detected'
+          bpy.data.objects.remove(ob,do_unlink=True)
+          count=len(all_mesh)
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          rcount=len([o for o in bpy.data.objects if o.type=='MESH'])
+          assert rcount>=count-2,(count,rcount)
+          audit={'status':'TECH_LIMITED_PASS_ART_UNREVIEWED',
+              'blend_reopen':True,'glb_reimport':True,
+              'native_meshes':count,'glb_meshes':rcount,
+              'three_actual_portal_empty_tests':tests,
+              'negative_obstacle_detected':True,
+              'walking_clearance_complete':False,'upper_lift_verified':False,
+              'art_approved':False,'city_master_complete':False}
+          (p/'D47_R3_INDEPENDENT_QA.json').write_text(json.dumps(audit,indent=2))
+          print('D47_R3_REAL_PORTAL_TEST_PASS',audit)
+          PY
+      - name: Preserve genuine images and native files even if verification fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R3-G0-NATIVE-ART-UNREVIEWED
+          path: /tmp/d47-r3/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Package verified real evidence and SHA256
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          root=Path('/tmp/d47-r3')
+          dst=Path('studies/M3D-1S/J7/R33-S27/D47_R3_EVIDENCE')
+          dst.mkdir(parents=True,exist_ok=True)
+          names=['D47_R3_G0_EDITABLE.blend','D47_R3_G0.glb',
+              'D47_R3_G0_MANIFEST.json','D47_R3_INDEPENDENT_QA.json',
+              '01_arrival.png','02_shared_public_room.png','03_west_inhabited_room.png',
+              '04_east_transit_room.png','05_threequarter_city.png',
+              '06_rear_urban_section.png']
+          assert all((root/n).stat().st_size>100 for n in names)
+          z=dst/'D47_R3_ROOM_FIRST_G0_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as f:
+              for n in names:f.write(root/n,arcname=n)
+          result={'art_approved':False,'city_master_complete':False,
+              'zip_sha256':hashlib.sha256(z.read_bytes()).hexdigest(),
+              'files_sha256':{n:hashlib.sha256((root/n).read_bytes()).hexdigest() for n in names}}
+          (dst/'D47_R3_SHA256.json').write_text(json.dumps(result,indent=2))
+          print('D47_R3_PROOF_HASH',result['zip_sha256'])
+          PY
+      - name: Archive originals to new isolated research branch only
+        if: success()
+        env:
+          EXPECTED: research/r33-s27-d47-r3-inhabited-section-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$EXPECTED"
+          git config user.name 'halo9-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R3_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'D47-R3 preserve genuine room-first G0 technical proof, art unreviewed'
+          git push origin "HEAD:refs/heads/$EXPECTED"
