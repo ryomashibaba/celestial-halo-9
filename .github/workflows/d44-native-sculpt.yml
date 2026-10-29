@@ -1,0 +1,46 @@
+name: HALO9 D44 True Existing BLEND Sculpt and Visual Review (research only)
+on:
+  push:
+    branches:
+      - research/r33-s27-d44-native-sculpt-review-20261029
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D44_NATIVE/**'
+      - '.github/workflows/d44-native-sculpt.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  native-sculpt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python for actual Blender 4.5.15
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Download genuine successful D43 artifact (do not regenerate failed form)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/halo9-d43-protected
+          gh run download 40865597562 --repo "${GITHUB_REPOSITORY}" --name HALO9-D43-NATIVE-BASE-NOT-ART-APPROVED --dir /tmp/halo9-d43-protected
+          sha256sum /tmp/halo9-d43-protected/D43_BASE_EDITABLE.blend
+      - name: Install genuine Blender native bpy and offscreen Mesa Xvfb runtime
+        run: |
+          python -m pip install 'bpy==4.5.15'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Actually edit protected copy of native BLEND and render 8 fixed views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: xvfb-run -a python studies/M3D-1S/J7/R33-S27/D44_NATIVE/d44_sculpt.py /tmp/halo9-d43-protected /tmp/halo9-d44-edit1
+      - name: Store actual source blend and D44 edited scene for critical AI visual review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D44-ACTUAL-BLEND-MACRO-EDIT-ART-UNREVIEWED
+          path: /tmp/halo9-d44-edit1/
+          if-no-files-found: warn
+          retention-days: 7
