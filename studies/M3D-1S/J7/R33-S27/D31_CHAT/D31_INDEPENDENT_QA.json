@@ -1,0 +1,135 @@
+{
+  "A": {
+    "declared_step_unit": "M",
+    "step_glb_extents_m_match": true,
+    "step_sha256": "2c3eaf2e293c1983a1debd6b5dba3fed26fd0ede231133a6d4506d1201746c10",
+    "step_size_bytes": 262609,
+    "step_reimported_valid_solids": 5,
+    "step_compound_volume_m3": 1443099476.3501298,
+    "glb_sha256": "58466ece54958740b8f880e273a7b340677677301e7f0752a08d6a723f9316fc",
+    "glb_geometry_count": 5,
+    "glb_geometry": {
+      "WEST": {
+        "triangles": 84,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 2
+      },
+      "EAST": {
+        "triangles": 84,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 0
+      },
+      "SKY": {
+        "triangles": 44,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 2
+      },
+      "FLOAT": {
+        "triangles": 24,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 2
+      },
+      "GROUND": {
+        "triangles": 12,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 2
+      }
+    },
+    "actual_material_removed_at_test_points": {
+      "west_before": true,
+      "west_after": false,
+      "east_before": true,
+      "east_after": false
+    },
+    "solid_overlap": {
+      "west_bridge_intersect_m3": 26765293.120539255,
+      "east_bridge_intersect_m3": 947081.9417475723,
+      "float_west_intersect_m3": 0.0,
+      "float_east_intersect_m3": 0.0
+    },
+    "verified_public_paths": 0,
+    "inhabited_districts_verified": 0,
+    "art_decision": "REJECT"
+  },
+  "B": {
+    "declared_step_unit": "M",
+    "step_glb_extents_m_match": true,
+    "step_sha256": "385046e1b9233269d995d68ee031b66e9a8927052e3188f17d046310ad9e65a7",
+    "step_size_bytes": 251626,
+    "step_reimported_valid_solids": 5,
+    "step_compound_volume_m3": 1383424851.3501623,
+    "glb_sha256": "0551fd4971164730270a0a024e8d36d366a37bc6dc06dba2d45ce58bf4d4eb4f",
+    "glb_geometry_count": 5,
+    "glb_geometry": {
+      "WEST": {
+        "triangles": 84,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 2
+      },
+      "EAST": {
+        "triangles": 84,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 0
+      },
+      "SKY": {
+        "triangles": 36,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 2
+      },
+      "FLOAT": {
+        "triangles": 20,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 2
+      },
+      "GROUND": {
+        "triangles": 12,
+        "watertight_after_normalseam_weld": true,
+        "winding_consistent": true,
+        "euler_number": 2
+      }
+    },
+    "actual_material_removed_at_test_points": {
+      "west_before": true,
+      "west_after": false,
+      "east_before": true,
+      "east_after": false
+    },
+    "solid_overlap": {
+      "west_bridge_intersect_m3": 20400306.154086746,
+      "east_bridge_intersect_m3": 123333.33333333221,
+      "float_west_intersect_m3": 0.0,
+      "float_east_intersect_m3": 0.0
+    },
+    "verified_public_paths": 0,
+    "inhabited_districts_verified": 0,
+    "art_decision": "REJECT"
+  },
+  "render_changed_pixels_percent_A_vs_B": {
+    "front": 1.968,
+    "west_oblique": 2.309,
+    "east_oblique": 1.821,
+    "rear": 2.027,
+    "aerial": 1.086,
+    "side": 0.669,
+    "human_canyon": 4.178
+  },
+  "independent_subprocess": {
+    "A": {
+      "glb_sha_match": true,
+      "step_5_valid": true
+    },
+    "B": {
+      "glb_sha_match": true,
+      "step_5_valid": true
+    }
+  }
+}
