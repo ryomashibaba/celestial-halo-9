@@ -1,0 +1,62 @@
+{
+  "study": "R33-S27-D27",
+  "date_jst": "2026-10-29",
+  "parent_head": "3dc46767d463f755d5f63c1748569eb83ed88fea",
+  "main_head_verified": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "technical": "LIMITED_PASS_MESH_EDIT_ROUTE_SAMPLES",
+  "art": "REJECT",
+  "formal_adoptions": 0,
+  "city_master_complete": false,
+  "minecraft": "HOLD",
+  "work_used": false,
+  "blender_used": false,
+  "base_glb_sha256": "c95bf29fd9a313c1c2d1b6f6a33053fb410fbf3b1ce4fb2877d065a2b9441622",
+  "edit_glb_sha256": "f00403b382bb4d3438eef7f50349abaed4295f33ed7a6f21ae5abfeba2207034",
+  "meshes_per_glb": 19,
+  "triangles_per_glb": 3768,
+  "edited_meshes": 17,
+  "protected_unmodified_meshes": 2,
+  "route": {
+    "grade_percent": 1.8,
+    "base_supported": 335,
+    "edit_supported": 335,
+    "checked": 335,
+    "obstacle_negative_sample_hits": 3,
+    "missing_floor_negative_support_failures": 335,
+    "full_walkability_certified": false
+  },
+  "bridge": {
+    "baseline_support_aabb_overlap": true,
+    "edited_support_aabb_overlap": true,
+    "structural_join_certified": false,
+    "accessible_transfers_certified": false
+  },
+  "reproduction": {
+    "base_isolated_sha_match": true,
+    "edit_isolated_sha_match": true
+  },
+  "render": {
+    "same_glb_camera_views_per_model": 7,
+    "image_pixel_diff_greater20_percent": {
+      "south_long": 28.672,
+      "west_threequarter": 20.972,
+      "east_threequarter": 18.439,
+      "north_reverse": 29.185,
+      "aerial": 25.174,
+      "civic_human": 5.861,
+      "civic_sidehuman": 16.3
+    }
+  },
+  "zip": {
+    "filename": "HALO9_D27_CHAT_RESEARCH.zip",
+    "sha256": "3e77e4c03adf8241c68abb8943eac6ca33640f74cb53fe528aa8c8a6a301888e",
+    "files": 30
+  },
+  "github_limited_to": [
+    "d27_multimesh_editor.py",
+    "D27_EDIT_PLAN.json",
+    "D27_REVIEW_JA.md",
+    "D27_EVIDENCE_SUMMARY.json"
+  ],
+  "no_binary_assets_on_github": true
+}
