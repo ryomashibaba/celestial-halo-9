@@ -1,0 +1,17 @@
+{
+  "status": "REAL_3D_TECH_GATE_ONLY_ART_NOT_REVIEWED",
+  "zip_sha256": "12c2a5cf558527fdfdf9460fb019391deae87ab390482a5d1a02006114e51298",
+  "file_sha256": {
+    "D47_R1_LOCAL_CIVIC_EDITABLE.blend": "f1860c6f1c7af855b1ffe1c1a01cdbfd3c2d96b3823356d7f2e900a1db668ad6",
+    "D47_R1_LOCAL_CIVIC.glb": "df26cb806f42e03dbfe3a6930053aa4685fd456705a03b31a5022258b0749f2a",
+    "D47_R1_MANIFEST.json": "5755c9dce5329baa1dcc6fad0531063fb0bc473a11fcaea4d9f6202ff5045e7e",
+    "D47_R1_REOPEN_AUDIT.json": "18fda18cf87dc2e0903eb9d9e68e44207b384f7ca91a698ffd5c7dd128987296",
+    "01_city.png": "3c4424e37b98247ce3ec14fbf5c555acadbcdd5855255393f26e962dbc7ee19a",
+    "02_approach.png": "2509b38248540babcd9e604bfa177bf421a0519bde3efa31e9542870c7b44d93",
+    "03_civic_interior.png": "9c9c079ed9b0c6a732449b4c4c17f7377da100f981f016f721d7cff4ee40a352",
+    "04_oblique.png": "316354c6e630fa4ef3078d7ff5342e6caaec3ef6dbea8d2902ffd373fbcaa8c7",
+    "05_east_side.png": "c8e5cf36475244edffaca4b41136f187737a41a4fda7175f75d1c08775e9c818"
+  },
+  "master_city_complete": false,
+  "minecraft_construction_authorized": false
+}
