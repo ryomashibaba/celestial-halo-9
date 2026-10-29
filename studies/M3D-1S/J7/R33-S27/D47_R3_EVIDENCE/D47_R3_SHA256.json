@@ -1,0 +1,17 @@
+{
+  "art_approved": false,
+  "city_master_complete": false,
+  "zip_sha256": "da93945e629d2cc595a47c62637c041f98039d192faacb5af687dc572ca6dcb2",
+  "files_sha256": {
+    "D47_R3_G0_EDITABLE.blend": "1469035d58ed1cd720ba4d6ad0b1356bfb3d7f1b95cac001e74c0ba252c8205b",
+    "D47_R3_G0.glb": "5d94c14667b1c9be4f719223c14422400e97b5b0f9134a3c127646e11d80456f",
+    "D47_R3_G0_MANIFEST.json": "386e6b7447045bba1462989eb9b9ce95e51bc59c0a3a0d055523f66bb40d5dd9",
+    "D47_R3_INDEPENDENT_QA.json": "8e2f8c86057f59ce98ddfdb8c81641979b551e46f20e06c8f116798c2a8f1d19",
+    "01_arrival.png": "5f8106c1e6723e56b48f342f79bf8d3d9f43d265e98054e490712ff00e208948",
+    "02_shared_public_room.png": "2ed21232c984f4ef7c4d8db3704795d7bfa368c3bc3f7262f681d1c5628b9cf6",
+    "03_west_inhabited_room.png": "0664420569f9678e30648c0a6c1399a3c17443f8ffacad3dc1e91edef7c99d22",
+    "04_east_transit_room.png": "1d5a081bf13aaf20f80901d744fcf8b038da5bbe0cfcc35f4e28c509e294ffbd",
+    "05_threequarter_city.png": "99eefd07ab07ca0d33563a643a7dd91da964f8836eb3618eb0feab154160851a",
+    "06_rear_urban_section.png": "daf0b0879f82094afdcdb257343c522d200a40695eeebfd69f1c0954b5be9975"
+  }
+}
