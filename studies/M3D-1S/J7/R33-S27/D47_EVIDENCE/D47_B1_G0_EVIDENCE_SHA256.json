@@ -1,0 +1,17 @@
+{
+  "status": "D47_B1_G0_ART_REJECT_STOP_NOT_MASTER",
+  "source_run_id": 40899466960,
+  "zip_sha256": "7fae820cb44dde9a872d5804f570784b43f12f2aca10ffb04c0210c3d732db1d",
+  "files_sha256": {
+    "D47_B1_BASE_EDITABLE.blend": "a5893aae40366a4acf8e728a205be2fdfb35b4089b88bf19b249f4b429de2b2d",
+    "D47_B1_BASE.glb": "81e782c4d85b6e4147f2921254fd94601b64fc57d60fbe6a953a18d30e7853f5",
+    "D47_B1_MANIFEST.json": "4f6fbba25b074b2cfc060f256be9ff6908e4f13ddab55447e7b69819137bb987",
+    "D47_B1_REOPEN_AUDIT.json": "7037cf80bfed1c9a548bf359a6d51c6f29aa1a6313cd5839ca80f0e61d509497",
+    "01_city.png": "ecff3021029be70914addc4030ef40f0c0fa776f4625be570c954f7128e18e78",
+    "02_front.png": "64004dbe58861496babf176749996746de3ab3f66773c07193577c8dce12e583",
+    "03_oblique.png": "c8c5be2bd5909066d496db04f270583ba8c258eb75aa420666463b85c05ae526",
+    "04_side.png": "4974a39cbc8fc33a3c3c934bf556a2167798094eceb8128c7893d128c103f5af",
+    "05_ground.png": "2ad6714eba00684e05a114b465ec4f4217d0a5e12f1e1fe71772ec9342032841",
+    "06_rift.png": "8a9e54af2da80fb68717458857ff2fdfb2eb0edbb15f3e88e42bb5447782b370"
+  }
+}
