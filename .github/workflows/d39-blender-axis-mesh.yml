@@ -1,0 +1,59 @@
+name: HALO-9 D39 glTF axis and topology proof (TECH ONLY)
+on:
+  push:
+    branches:
+      - research/r33-s27-d39-blender-axis-mesh-20261029
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D38_CHAT/**'
+      - 'studies/M3D-1S/J7/R33-S27/D37_CHAT/d37_blender_execute.py'
+      - 'studies/M3D-1S/J7/R33-S27/D39_CHAT/**'
+      - '.github/workflows/d39-blender-axis-mesh.yml'
+permissions:
+  contents: read
+jobs:
+  native-geometry-with-proof:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: studies/M3D-1S/J7/R33-S27/D37_CHAT
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Python 3.11 for pinned genuine Blender 4.5 LTS
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install offline QA packages (no bpy yet)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'trimesh>=4,<5' 'numpy>=1.26,<3' 'scipy>=1.13,<2'
+      - name: Offline fail-closed regression, reproduce known D37 false acceptance
+        run: python ../D38_CHAT/d38_negative_audit.py
+      - name: Install genuine headless Blender module
+        run: python -m pip install 'bpy==4.5.15'
+      - name: Verify real native bpy and glTF import/export operators
+        run: python ../D38_CHAT/d38_runtime_preflight.py
+      - name: Prepare clean neutral input GLB and independent reference
+        run: |
+          mkdir -p /tmp/halo9-d38-input
+          python d37_prepare.py /tmp/halo9-d38-input
+          python d37_offline_reference.py /tmp/halo9-d38-input/D37_EDIT_PLAN.json /tmp/halo9-d38-input/D37_REFERENCE_EDIT.glb
+      - name: Actually save native .blend with Shape Key using bpy
+        run: python d37_blender_execute.py /tmp/halo9-d38-input/D37_EDIT_PLAN.json /tmp/halo9-d38-output
+      - name: Independently reopen native .blend in a new bpy process
+        run: python d37_blender_reopen.py /tmp/halo9-d38-input/D37_EDIT_PLAN.json /tmp/halo9-d38-output
+      - name: Third new bpy process opens .blend and tests actual GLB topology, area, volume, protected meshes
+        run: python ../D38_CHAT/d38_native_gate.py /tmp/halo9-d38-input/D37_EDIT_PLAN.json /tmp/halo9-d38-output /tmp/halo9-d38-input/D37_REFERENCE_EDIT.glb
+      - name: Keep native technical-only evidence and failure diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D39-AXIS-AND-TOPOLOGY-TECH-NOT-ART
+          path: |
+            /tmp/halo9-d38-input/*.json
+            /tmp/halo9-d38-output/*.blend
+            /tmp/halo9-d38-output/*.glb
+            /tmp/halo9-d38-output/*.json
+            studies/M3D-1S/J7/R33-S27/D38_CHAT/D38_AUDIT.json
+          if-no-files-found: warn
+          retention-days: 7

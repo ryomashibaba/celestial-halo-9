@@ -67,6 +67,11 @@ def scene_world(path):
         meshes[name]=(verts,transformed)
     return meshes
 
+def gltf_to_blender(v):
+    # Independently apply the documented +90 deg X glTF-to-Blender axis mapping.
+    a=np.asarray(v,dtype=np.float64)
+    return np.column_stack((a[:,0],-a[:,2],a[:,1]))
+
 def set_dist(a,b):
     if not len(a) or not len(b):raise NativeEvidenceError('empty geometry')
     return float(max(cKDTree(a).query(b)[0].max(),cKDTree(b).query(a)[0].max()))
@@ -108,15 +113,21 @@ def confirm_native(planpath,outdir,reference_glb):
         ob=bpy.data.objects.get(name)
         if ob is None or ob.type!='MESH' or ob.data.shape_keys:
             raise NativeEvidenceError('Native protected object missing or edited: '+name)
-    rworld=np.array([tuple(target.matrix_world @ v.co) for v in keys['D37_SCULPT_EDIT'].data])
     orig=scene_world(source)
-    expected=apply(orig[p['target_geometry']][0],p['strokes'])
-    shape_dist=set_dist(rworld,expected)
-    if shape_dist>0.05:raise NativeEvidenceError(f'native shape key differs from independent formula {shape_dist:.4f}m')
+    source_world=orig[p['target_geometry']][0]
+    native_basis=np.array([tuple(target.matrix_world @ v.co) for v in keys['Basis'].data])
+    import_error=set_dist(native_basis,gltf_to_blender(source_world))
+    print('D39_NATIVE_BASE_AXIS_CHECK_M:',import_error,flush=True)
+    if import_error>0.05:raise NativeEvidenceError(f'native Basis differs from GLB axis-mapped source {import_error:.4f}m')
+    rworld=np.array([tuple(target.matrix_world @ v.co) for v in keys['D37_SCULPT_EDIT'].data])
+    expected_native=gltf_to_blender(apply(source_world,p['strokes']))
+    shape_dist=set_dist(rworld,expected_native)
+    print('D39_NATIVE_SHAPE_AXIS_CHECK_M:',shape_dist,flush=True)
+    if shape_dist>0.05:raise NativeEvidenceError(f'native shape key differs from axis-correct independent formula {shape_dist:.4f}m')
     for name in p['protected_geometries']:
         obj=bpy.data.objects[name]
         world=np.array([tuple(obj.matrix_world@v.co) for v in obj.data.vertices])
-        if set_dist(world,orig[name][0])>0.05:
+        if set_dist(world,gltf_to_blender(orig[name][0]))>0.05:
             raise NativeEvidenceError('native protected object coordinates drift: '+name)
     reference=scene_world(reference_glb); baked=scene_world(glb)
     result=compare_geometry(reference,baked)

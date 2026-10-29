@@ -7,7 +7,26 @@ Not a formal building or a general-purpose sculpt system. Does not render art.
 import sys,json,hashlib
 from pathlib import Path
 import numpy as np
+import trimesh
+from scipy.spatial import cKDTree
 from d37_kernel import validate,apply,sha
+
+def scene_world(path):
+    scene=trimesh.load(str(path),force='scene',process=False)
+    result={}
+    for node in scene.graph.nodes_geometry:
+        matrix,name=scene.graph.get(node)
+        if name in result:raise ValueError('Ambiguous source mesh identity: '+name)
+        result[name]=trimesh.transform_points(np.asarray(scene.geometry[name].vertices),matrix)
+    return result
+
+def gltf_to_blender(v):
+    # glTF +Y up; Blender +Z up. Fixed right-handed +90 degree X rotation.
+    a=np.asarray(v,dtype=np.float64)
+    return np.column_stack((a[:,0],-a[:,2],a[:,1]))
+
+def set_dist(a,b):
+    return float(max(cKDTree(a).query(b)[0].max(),cKDTree(b).query(a)[0].max()))
 
 def main(planpath,outdir):
     try:import bpy
@@ -27,11 +46,24 @@ def main(planpath,outdir):
     if any(ob.data.shape_keys for ob in objects.values()):raise ValueError('Unexpected input shape keys')
     obj=objects[p['target_geometry']];obj_world=obj.matrix_world.copy()
     orig=np.array([tuple(obj_world @ v.co) for v in obj.data.vertices],dtype=np.float64)
-    expected=apply(orig,p['strokes'])
+    # Trimesh reads the source as glTF coordinates; bpy imports it in Blender axes.
+    # Apply the independent stroke formula in source-GLB axes, then explicitly rotate.
+    source_meshes=scene_world(src)
+    native_basis_expected=gltf_to_blender(source_meshes[p['target_geometry']])
+    import_error=set_dist(orig,native_basis_expected)
+    print('D39_IMPORT_FRAME_CHECK_M:',import_error,flush=True)
+    if import_error>0.05:
+        raise ValueError(f'GLB to Blender coordinate frame is not as expected: {import_error:.4f}m')
+    for name in p['protected_geometries']:
+        ob=objects[name]
+        observed=np.array([tuple(ob.matrix_world@v.co) for v in ob.data.vertices])
+        err=set_dist(observed,gltf_to_blender(source_meshes[name]))
+        if err>0.05:raise ValueError(f'Protected input axis mismatch {name}: {err:.4f}m')
+    expected_native=gltf_to_blender(apply(source_meshes[p['target_geometry']],p['strokes']))
     mx_inv=obj_world.inverted_safe()
     basis=obj.shape_key_add(name='Basis',from_mix=False)
     sculpt=obj.shape_key_add(name='D37_SCULPT_EDIT',from_mix=False)
-    for i,co in enumerate(expected):sculpt.data[i].co=mx_inv@__import__('mathutils').Vector(co)
+    for i,co in enumerate(expected_native):sculpt.data[i].co=mx_inv@__import__('mathutils').Vector(co)
     sculpt.value=1
     # Keep all original protected mesh coordinates unchanged.
     protected={name:np.array([tuple(ob.matrix_world@v.co) for v in ob.data.vertices])
@@ -48,18 +80,20 @@ def main(planpath,outdir):
     # rename only the transient in-memory originals to free their object names.
     for name,ob in objects.items():
         ob.name='D37_AUTHORING_'+name
+        ob.data.name='D37_AUTHORING_DATA_'+name
     for name,ob in objects.items():
         mesh=ob.data.copy()
         # the duplicate may inherit morph keys; strip them before writing explicit vertex positions.
         if mesh.shape_keys:
             # write through freshly created mesh to guarantee no inherited morph data in baked result
-            newmesh=bpy.data.meshes.new(name+'_BAKED_DATA')
+            newmesh=bpy.data.meshes.new(name)
             newmesh.from_pydata([tuple(v.co) for v in ob.data.vertices],[],[tuple(p.vertices) for p in ob.data.polygons])
             newmesh.update();mesh=newmesh
+        mesh.name=name  # Trimesh uses mesh data names; avoid Blender's .001 name collision.
         du=bpy.data.objects.new(name,mesh);export_collection.objects.link(du)
         du.matrix_world=ob.matrix_world.copy()
         if name==p['target_geometry']:
-            for i,world in enumerate(expected):du.data.vertices[i].co=mx_inv@__import__('mathutils').Vector(world)
+            for i,world in enumerate(expected_native):du.data.vertices[i].co=mx_inv@__import__('mathutils').Vector(world)
         else:
             before=protected[name];after=np.array([tuple(du.matrix_world@v.co) for v in du.data.vertices])
             if not np.allclose(before,after,rtol=0,atol=1e-5):raise ValueError('Protected mesh altered in export: '+name)
@@ -70,7 +104,7 @@ def main(planpath,outdir):
     glb=outdir/'D37_BLENDER_BAKED.glb'
     bpy.ops.export_scene.gltf(filepath=str(glb),export_format='GLB',use_selection=True,export_morph=False)
     if not glb.exists():raise ValueError('Baked export missing')
-    moved=np.linalg.norm(expected-orig,axis=1)
+    moved=np.linalg.norm(expected_native-orig,axis=1)
     report={'blender_version':bpy.app.version_string,'bpy_module':True,'source_sha256':sha(src.read_bytes()),
        'native_blend_filename':project.name,'native_blend_sha256':sha(project.read_bytes()),
        'baked_glb_filename':glb.name,'baked_glb_sha256':sha(glb.read_bytes()),
