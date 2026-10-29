@@ -1,0 +1,24 @@
+{
+  "original_R3_blend_sha256": "1469035d58ed1cd720ba4d6ad0b1356bfb3d7f1b95cac001e74c0ba252c8205b",
+  "E0_evidence_zip_sha256": "d8a06ad7320beb5bcc3f9eec4d27e5513e00a6d72448539d52055c0ccd19f200",
+  "art_approved": false,
+  "formal_city_master_complete": false,
+  "proof_file_sha256": {
+    "R4_E0_DIRECT_NATIVE_EDIT.blend": "039ff41bae2b9b92236a9091cf91d4c7c4999aa4c9c0b0b659d2075dfacc4c37",
+    "R4_E0_DIRECT_NATIVE_EDIT.glb": "e888f1b886ee950b4bb488784d49ba1eb800c3a49cc99e84906c17e1df1c28da",
+    "R4_E0_SOURCE_AND_EDIT_MANIFEST.json": "ebeca15423f1c8e1027d5e74515456119c6b45ec7954d88c9f9624bc12f2b2d1",
+    "R4_E0_INDEPENDENT_AUDIT.json": "775441389ff960075b5ef01318c3168d25fb2482b357d83bf1fa43d98790706c",
+    "BASELINE_R3_SAME_ENGINE/01_arrival.png": "98575b0ada0da419cae70e7f01d8607abbcd5014899744e16dff41087b47069c",
+    "BASELINE_R3_SAME_ENGINE/02_shared_public_room.png": "1a773f98b02d2c8b2958ecfa4a62ed3323c5e5eb0eebe0d667b800f50b70a285",
+    "BASELINE_R3_SAME_ENGINE/03_west_inhabited_room.png": "15182fbd90f358317f05e5f754db1cc85f45ad44653b6a5b20d9ada34b5fedce",
+    "BASELINE_R3_SAME_ENGINE/04_east_transit_room.png": "d3bb88d8b2e964ef2b7512787469899beea48da91446413f75e991b06f0f6429",
+    "BASELINE_R3_SAME_ENGINE/05_threequarter_city.png": "0853e1a8717137d85439fca35024c98ee06679e3ffdbe7ee9902569ad0e40e6c",
+    "BASELINE_R3_SAME_ENGINE/06_rear_urban_section.png": "8e95b3c0eeaede8a7774c4499d6ca1ddc4d2078200dc824348a662632b75d12e",
+    "E0_REAL_WINDOW_CUTS/01_arrival.png": "f5f851e7080be7f82ea63f6f43c5556172b7ac4cb2c2481f4ad6865486f6c527",
+    "E0_REAL_WINDOW_CUTS/02_shared_public_room.png": "192a467e266fcbf5b7d17281ca4aa50cb11d653c144634073bed48461964c986",
+    "E0_REAL_WINDOW_CUTS/03_west_inhabited_room.png": "ea4f4b5cac5ce7d852156c73049714e1bcd08829f62e194a4a33fa815c2d6343",
+    "E0_REAL_WINDOW_CUTS/04_east_transit_room.png": "6739a3d2173570bf83047309bf1ccac96c825af2e1c27a773b18ddb7a7789b21",
+    "E0_REAL_WINDOW_CUTS/05_threequarter_city.png": "a6e6940ed8cc93e2f381309820d1d96793c4f39c45b8be96998f70fa4f64d11c",
+    "E0_REAL_WINDOW_CUTS/06_rear_urban_section.png": "7b53c7152ed4c784a747cb08a278e23c280790e9c82df3ecca686c09dc1d21e0"
+  }
+}
