@@ -1,0 +1,44 @@
+{
+  "schema": "halo9.d37.blender.v1",
+  "art_status": "TECHNICAL_FIXTURE_ONLY",
+  "source_filename": "D37_NEUTRAL_FIXTURE.glb",
+  "source_sha256": "8c7c3c529069c82486227d620520391f77ae0a1c385174498bd46ca62229ab87",
+  "target_geometry": "D37_SCULPT_TARGET",
+  "protected_geometries": [
+    "D37_PROTECTED_FLOOR",
+    "D37_PROTECTED_MARKER"
+  ],
+  "strokes": [
+    {
+      "center_fraction": [
+        0.62,
+        0.42,
+        0.7
+      ],
+      "radius_m": 470.0,
+      "delta_xyz_m": [
+        -165.0,
+        90.0,
+        115.0
+      ],
+      "falloff": "smoothstep"
+    },
+    {
+      "center_fraction": [
+        0.27,
+        0.7,
+        0.42
+      ],
+      "radius_m": 390.0,
+      "delta_xyz_m": [
+        88.0,
+        -85.0,
+        100.0
+      ],
+      "falloff": "smoothstep"
+    }
+  ],
+  "protect_original": true,
+  "art_gate": "NOT_SUBMITTED",
+  "minecraft": "HOLD"
+}

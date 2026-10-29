@@ -1,0 +1,52 @@
+name: HALO-9 D37 native Blender 3D acceptance gate
+on:
+  push:
+    branches:
+      - research/r33-s27-d37-blender-native-execution-gate-20261029
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D37_CHAT/**'
+      - '.github/workflows/d37-blender-native-gate.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-blender-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: studies/M3D-1S/J7/R33-S27/D37_CHAT
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python 3.11 for official Blender 4.5 Python module
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install native headless Blender runtime and geometry comparison dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install 'bpy==4.5.15' 'trimesh>=4,<5' 'numpy>=1.26,<3' 'scipy>=1.13,<2'
+          python -c 'import bpy; print("Real bpy:", bpy.app.version_string)'
+      - name: Verify stand-alone model generation and reference replay
+        run: |
+          mkdir -p /tmp/halo9-d37-input
+          python d37_prepare.py /tmp/halo9-d37-input
+          python d37_offline_reference.py /tmp/halo9-d37-input/D37_EDIT_PLAN.json /tmp/halo9-d37-input/D37_REFERENCE_EDIT.glb
+      - name: Real Blender save native blend and baked GLB
+        run: |
+          python d37_blender_execute.py /tmp/halo9-d37-input/D37_EDIT_PLAN.json /tmp/halo9-d37-output
+      - name: Independent Python process reopen Blender native blend
+        run: |
+          python d37_blender_reopen.py /tmp/halo9-d37-input/D37_EDIT_PLAN.json /tmp/halo9-d37-output
+      - name: Compare independently authored and exported real GLB meshes
+        run: |
+          python d37_glb_crosscheck.py /tmp/halo9-d37-input/D37_EDIT_PLAN.json /tmp/halo9-d37-output /tmp/halo9-d37-input/D37_REFERENCE_EDIT.glb
+      - name: Upload native research output (not formal art and not construction)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D37-BLENDER-NATIVE-TECH-ONLY
+          path: |
+            /tmp/halo9-d37-output/*
+          if-no-files-found: warn
+          retention-days: 7

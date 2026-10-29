@@ -1,0 +1,160 @@
+{
+  "study": "D37",
+  "entries": [
+    {
+      "path": ".github/workflows/d37-blender-native-gate.yml",
+      "sha256": "088d01a219ec723c6954af2af08d3d2b73c1c1b61d84959e312ec2e7756911ad",
+      "size": 2223
+    },
+    {
+      "path": "D37_BASE_6VIEW.jpg",
+      "sha256": "7be7008ecf302d0e5c8c8eb860382ba7a902a8e0d63a6f443b3cdeb741b40dc6",
+      "size": 71332
+    },
+    {
+      "path": "D37_BASE_EDIT_3VIEW_COMPARE.jpg",
+      "sha256": "992ec68d3d4e717780f3dfddcd34e1769e186d2d78c47b074bce67382f2b7ab0",
+      "size": 100753
+    },
+    {
+      "path": "D37_BASE_aerial.png",
+      "sha256": "5f43d5a3a98e15da074dfeba3e6c63d709a224a43b33e33acf04056dbb5f10bf",
+      "size": 48643
+    },
+    {
+      "path": "D37_BASE_east.png",
+      "sha256": "beb3bb542b07c48227007c2addc3c5e0b3f9fd2c27bce23775f7c0e5062b295e",
+      "size": 40616
+    },
+    {
+      "path": "D37_BASE_north.png",
+      "sha256": "b34d4999b5eb57e65341bcb5e1e1aa9cff07a38fca1f6abcd06ca9391708647b",
+      "size": 42860
+    },
+    {
+      "path": "D37_BASE_oblique.png",
+      "sha256": "5a901b610189ed51d487a2a670def26a0afddbd04149c338cf829a58d62c7896",
+      "size": 44204
+    },
+    {
+      "path": "D37_BASE_south.png",
+      "sha256": "265bede791920d47b699cb224ceee343a8eaf95881516e3a37395223a760fde6",
+      "size": 53175
+    },
+    {
+      "path": "D37_BASE_west.png",
+      "sha256": "8c332d4881737ceb84088945a6c9fe2effca8395b4de2c433840098e86890376",
+      "size": 40216
+    },
+    {
+      "path": "D37_EDIT_6VIEW.jpg",
+      "sha256": "f5ba027788c1a4e0dca6f394b750ae8b0421d172eac5eebd15bef72a79ab0638",
+      "size": 70182
+    },
+    {
+      "path": "D37_EDIT_PLAN.json",
+      "sha256": "4174b55c154bbebd7c49433c55e957dde95d7351824e6a39d7c40bec130c6868",
+      "size": 885
+    },
+    {
+      "path": "D37_EDIT_aerial.png",
+      "sha256": "30e9b8bfd621fd968b9e2f417a7bb99211ee02931b05626dd51b589d9a7f0f5f",
+      "size": 46696
+    },
+    {
+      "path": "D37_EDIT_east.png",
+      "sha256": "4e70e6bca1cb3628dd129cfb827694da7c22f9bee1716bda67464f41cd1bc7cf",
+      "size": 39498
+    },
+    {
+      "path": "D37_EDIT_north.png",
+      "sha256": "5c343236858b2b827d2d2237defac981b061c1c7a760602d65dd318aaa7b9cee",
+      "size": 41321
+    },
+    {
+      "path": "D37_EDIT_oblique.png",
+      "sha256": "32736a9636113c2bff793acdb2b709877f7be94d365e20175cddcb340138cc21",
+      "size": 42302
+    },
+    {
+      "path": "D37_EDIT_south.png",
+      "sha256": "f27e48e6d34311208809cadb56dad1679b18106c0f4633add7a75da8636973cc",
+      "size": 50914
+    },
+    {
+      "path": "D37_EDIT_west.png",
+      "sha256": "154742215725324e48bce687c35026120bbf231a5ad97edda2022df449026bd8",
+      "size": 39398
+    },
+    {
+      "path": "D37_EVIDENCE_SUMMARY.json",
+      "sha256": "6bdb05f4969296f3be911dc2200e4d7f43deb840385d63070c6347ebbcda2d44",
+      "size": 1451
+    },
+    {
+      "path": "D37_LOCAL_AUDIT.json",
+      "sha256": "2a6848f5999b322a050d9e086d621c5a329e680575020713999ae8c390bbe3b7",
+      "size": 1137
+    },
+    {
+      "path": "D37_NEUTRAL_FIXTURE.glb",
+      "sha256": "8c7c3c529069c82486227d620520391f77ae0a1c385174498bd46ca62229ab87",
+      "size": 94148
+    },
+    {
+      "path": "D37_REFERENCE_EDIT.glb",
+      "sha256": "f4e99b88c46cc05fab12c4a3b53bd28fe9ed1d7f0e3d702efb9c13d971cbe064",
+      "size": 94344
+    },
+    {
+      "path": "D37_REVIEW_JA.md",
+      "sha256": "54ee3c823f7bef35aabf0105d97f480a9596e40423ebd8f4dabe5a03538594e7",
+      "size": 2934
+    },
+    {
+      "path": "README_D37_JA.md",
+      "sha256": "e9eea96c1c5fe4c82cbb29328f0c2fd115dcfe98666f2f523f90a34a1803ca8f",
+      "size": 3245
+    },
+    {
+      "path": "d37_blender_execute.py",
+      "sha256": "5054ce1b6d1770506fb21556746e2c6343fde310ad0530cdeb064a447f7aa936",
+      "size": 5373
+    },
+    {
+      "path": "d37_blender_reopen.py",
+      "sha256": "9643f2d03930ce83f647a435b898ea0b86df49fcf7eacc78ead23b6c856ec143",
+      "size": 1985
+    },
+    {
+      "path": "d37_glb_crosscheck.py",
+      "sha256": "35115a4539717926f4e0808e8ec50bc04d1adfa5efd44b0e6ea0bed778103020",
+      "size": 2438
+    },
+    {
+      "path": "d37_kernel.py",
+      "sha256": "4ed5c154e7e6c53ce23650043f136bd8a685ed338c5b8cdb2d67e77b60005d47",
+      "size": 2155
+    },
+    {
+      "path": "d37_local_gate.py",
+      "sha256": "581be7a440b525ce83e48f12cde2994d12e2fe6ee46b59e0d13bbcedb0f48961",
+      "size": 3245
+    },
+    {
+      "path": "d37_offline_reference.py",
+      "sha256": "f9ed206581b2c546690066c4ae5e9d73386fe132e60c26990cae813558267971",
+      "size": 1185
+    },
+    {
+      "path": "d37_prepare.py",
+      "sha256": "4e7b5c5248c1214be4624470e6172bb7fe4bf954ae6a0b9c99017149d03bbb16",
+      "size": 2002
+    },
+    {
+      "path": "d37_render_real_glb.py",
+      "sha256": "d346c8c5b745d96a9d76be954a1954d43af66fc484b86270aa57ec2414ed0d48",
+      "size": 3376
+    }
+  ]
+}
