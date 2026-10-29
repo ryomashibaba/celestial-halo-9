@@ -1,0 +1,24 @@
+{
+  "study": "R33-S27-D31",
+  "date_jst": "2026-10-29",
+  "research_result": "TECH_LIMITED_PASS_ART_REJECT",
+  "chat_zip_filename": "HALO9_D31_CHAT_RESEARCH.zip",
+  "chat_zip_sha256": "21bd3e4ba99b01938f1f74494f5bfd68b4c4a7c3a918c6cd86df8e9705eb82c0",
+  "zip_member_count": 28,
+  "file_manifest_sha_verified": true,
+  "zip_testzip_passed": true,
+  "contains": [
+    "2 editable CAD STEP",
+    "2 actual GLB",
+    "14 GLB-rendered PNG",
+    "2 seven-view contact sheets",
+    "1 A/B comparison image",
+    "complete source and independent audit",
+    "evidence summary and Japanese review"
+  ],
+  "github_only_source_and_qa": true,
+  "full_binary_assets_on_github": false,
+  "formal_adoption": 0,
+  "city_master_complete": false,
+  "minecraft": "HOLD"
+}
