@@ -1,0 +1,13 @@
+{
+  "input_sha256": "1643479d50747d152dc4792410f397c7b59e2a62e1bd0b12922441edacfc14f0",
+  "output_sha256": "546410f1b6969c0edb7b383f8845c9514ea5288d68ce197c4708bf34cfcf85f1",
+  "target": "D36_SCULPT_TARGET",
+  "strokes": 2,
+  "modified_vertices": 1519,
+  "max_displacement_m": 154.99300673625714,
+  "mesh_count": 3,
+  "triangles": 5144,
+  "protected_count": 2,
+  "actual_blender_execution": false,
+  "art_status": "NOT_SUBMITTED"
+}

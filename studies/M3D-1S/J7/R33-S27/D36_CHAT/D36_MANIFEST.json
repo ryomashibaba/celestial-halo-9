@@ -1,0 +1,172 @@
+{
+  "study": "D36",
+  "has_blend": false,
+  "source_git_artifacts_vs_chat": "GitHub source text only, chat ZIP real GLB and images",
+  "files": [
+    {
+      "name": "D36_AUDIT.json",
+      "bytes": 828,
+      "sha256": "5ca8a933efd40c4f4a9b3f7d27d4528c8f2e15c7865c84c5a0c5c6ec5fbc701b"
+    },
+    {
+      "name": "D36_AUDIT_LOG.txt",
+      "bytes": 828,
+      "sha256": "5ca8a933efd40c4f4a9b3f7d27d4528c8f2e15c7865c84c5a0c5c6ec5fbc701b"
+    },
+    {
+      "name": "D36_BASE_6VIEW.jpg",
+      "bytes": 70861,
+      "sha256": "00c8dd3807b09b3bcf93c72c3c64ed3925ac5dbf3ec5b916717ae5be93157ff7"
+    },
+    {
+      "name": "D36_BASE_EDIT_3VIEW_COMPARE.jpg",
+      "bytes": 99729,
+      "sha256": "41f2e4d5970d1351b4eeec9c3f8d29eb4c1ee3f17f42702c2c3270900c3e0391"
+    },
+    {
+      "name": "D36_BASE_aerial.png",
+      "bytes": 47966,
+      "sha256": "a46cf015c35fe1bae7b3f4d11c43e6ec0c01425964bb94237b782013eb7c509f"
+    },
+    {
+      "name": "D36_BASE_east.png",
+      "bytes": 40749,
+      "sha256": "b475a1bc2db8368d4feaaec33feacac51f5c62d2de74d63fa5f67ad133a4bc3a"
+    },
+    {
+      "name": "D36_BASE_north.png",
+      "bytes": 42912,
+      "sha256": "81bf79029b27a1f82dc83eb78a8e36ff926cf74b32af11c3effda975b35fd5e8"
+    },
+    {
+      "name": "D36_BASE_oblique.png",
+      "bytes": 43810,
+      "sha256": "45dac68bf909684e2e62315c3b61ebf8eb16a0f6939ade6caadb69ba70a8c3eb"
+    },
+    {
+      "name": "D36_BASE_south.png",
+      "bytes": 52314,
+      "sha256": "52c344e37864879448b00241d0a4a6991675dec19a33bdd294cb42e6d6e34100"
+    },
+    {
+      "name": "D36_BASE_west.png",
+      "bytes": 40964,
+      "sha256": "6516b158ecfba6294473e244758bde924ad467b68e75eb654db0d9012b429aef"
+    },
+    {
+      "name": "D36_BLENDER_STATIC_TESTS.json",
+      "bytes": 507,
+      "sha256": "cf517b48799589157ec2c732741ee4847e19e9917b32cad4eafb4b06d96df5a3"
+    },
+    {
+      "name": "D36_EDIT_6VIEW.jpg",
+      "bytes": 70069,
+      "sha256": "cd1f942a8ae19d1792f53ba0cb030fee350574da503a75c6e9987f1bdb40ab7a"
+    },
+    {
+      "name": "D36_EDIT_PLAN.json",
+      "bytes": 867,
+      "sha256": "f0dfaf0d681e19ed2ec12971e283d001e65bc7df1825e96f91b1852b589c79a8"
+    },
+    {
+      "name": "D36_EDIT_aerial.png",
+      "bytes": 46510,
+      "sha256": "44c0d05240ce7dcc3fb317589ebc1260ef5bc3ce55e7d9561a731be779dd9a38"
+    },
+    {
+      "name": "D36_EDIT_east.png",
+      "bytes": 40829,
+      "sha256": "2b03c373d1bd41d8cdc50974f72edeb12b67a13ef911dff07e6a676bb4afa1b1"
+    },
+    {
+      "name": "D36_EDIT_north.png",
+      "bytes": 42660,
+      "sha256": "5ce1f0da2b689fbd42ac056fb36710a5b9c6ebe6f302154378a9e807ad6b82ba"
+    },
+    {
+      "name": "D36_EDIT_oblique.png",
+      "bytes": 42789,
+      "sha256": "5418908108a3457156e7603a6dcf9aa54fc80b1b42c420766aa0b28dacf6ca99"
+    },
+    {
+      "name": "D36_EDIT_south.png",
+      "bytes": 51513,
+      "sha256": "35c8290f8ef027099b93e3ce6d1566d01c1c7efc058734614b883076c483a80c"
+    },
+    {
+      "name": "D36_EDIT_west.png",
+      "bytes": 40739,
+      "sha256": "417922ad740ace72e5d5c1749eff23787a03eaf15986cbcfb8ffd265b350dc2f"
+    },
+    {
+      "name": "D36_EVIDENCE_SUMMARY.json",
+      "bytes": 1771,
+      "sha256": "8866d0066e7b4ab2159566584558adf15a737c5d8637b85f02f030022bd98aa1"
+    },
+    {
+      "name": "D36_NEUTRAL_TECH_FIXTURE.glb",
+      "bytes": 94164,
+      "sha256": "1643479d50747d152dc4792410f397c7b59e2a62e1bd0b12922441edacfc14f0"
+    },
+    {
+      "name": "D36_OFFLINE_RESULT.json",
+      "bytes": 432,
+      "sha256": "f68aa1fc3e7462a8b0e098f061f073908662fe6b0660d33923902cba2822f5c5"
+    },
+    {
+      "name": "D36_REFERENCE_EDIT.glb",
+      "bytes": 94344,
+      "sha256": "546410f1b6969c0edb7b383f8845c9514ea5288d68ce197c4708bf34cfcf85f1"
+    },
+    {
+      "name": "D36_RENDER_DIFF_QA.json",
+      "bytes": 230,
+      "sha256": "82368253cb431067af86832131b9d24bd0f7f8f2ca5205ae3d17a0db47bd9c48"
+    },
+    {
+      "name": "D36_REVIEW_JA.md",
+      "bytes": 4301,
+      "sha256": "e21dc6df266cea0e75a6d682f09c1f0dd173c7fccdb25f044544cb8f3468b4b1"
+    },
+    {
+      "name": "D36_RUN_ON_WINDOWS.bat",
+      "bytes": 1687,
+      "sha256": "5fb161564f96f015b7a237a152d163b54e3b56c37eb9a9b68e90054120ec6a50"
+    },
+    {
+      "name": "README_D36_JA.md",
+      "bytes": 4224,
+      "sha256": "e151d0f8fd4934c944e007561e238f8b6ce3e57b250197b89e77e4ccfec761d6"
+    },
+    {
+      "name": "d36_audit.py",
+      "bytes": 3484,
+      "sha256": "c6bcb418e2e86cd882a08ecda0193f5e5b6aa8fac37ea19eb1fa7be5d5006c17"
+    },
+    {
+      "name": "d36_blender_bridge.py",
+      "bytes": 8620,
+      "sha256": "c16d460d9cc0879ab96ce905e4b692b414dede0b43c426e8120469295acdf8aa"
+    },
+    {
+      "name": "d36_blender_verify.py",
+      "bytes": 2337,
+      "sha256": "7b9ae8b2703c77956821ebe0452b5756b2df1f51ef5af4674386f2c7430902b7"
+    },
+    {
+      "name": "d36_offline_sculpt.py",
+      "bytes": 4960,
+      "sha256": "b7757d0c7c4f0fb2c87d71c12430ee4faf4f94652ae21a690c5f38ece6b6619d"
+    },
+    {
+      "name": "d36_render_real_glb.py",
+      "bytes": 3381,
+      "sha256": "98e9535db226f3b296da6ef39202843687efb88d439b7735c86d5f33db1ed3d6"
+    },
+    {
+      "name": "d36_test_blender_schema.py",
+      "bytes": 1694,
+      "sha256": "ee828f4c2f6f9abd5d3298bb0204e3ec4f189fe98b0ea7e0565dd8beafbfb7b9"
+    }
+  ]
+}

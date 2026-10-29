@@ -1,0 +1,43 @@
+{
+  "schema": "halo9.d36.sculpt.v1",
+  "art_status": "TECHNICAL_FIXTURE_ONLY",
+  "source_filename": "D36_NEUTRAL_TECH_FIXTURE.glb",
+  "source_sha256": "1643479d50747d152dc4792410f397c7b59e2a62e1bd0b12922441edacfc14f0",
+  "target_geometry": "D36_SCULPT_TARGET",
+  "protected_geometries": [
+    "D36_PROTECTED_FLOOR",
+    "D36_PROTECTED_ACCESS_MARKER"
+  ],
+  "strokes": [
+    {
+      "center_fraction": [
+        0.62,
+        0.38,
+        0.62
+      ],
+      "radius_m": 460,
+      "delta_xyz_m": [
+        -160,
+        115,
+        90
+      ],
+      "falloff": "smoothstep"
+    },
+    {
+      "center_fraction": [
+        0.35,
+        0.65,
+        0.83
+      ],
+      "radius_m": 390,
+      "delta_xyz_m": [
+        140,
+        -45,
+        110
+      ],
+      "falloff": "smoothstep"
+    }
+  ],
+  "protect_original": true,
+  "output_prefix": "D36_TECH_REPLAY"
+}

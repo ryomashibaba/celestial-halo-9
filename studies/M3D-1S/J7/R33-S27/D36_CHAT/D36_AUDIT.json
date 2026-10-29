@@ -1,0 +1,23 @@
+{
+  "study": "D36",
+  "replay_sha256_exact": true,
+  "source_unchanged": true,
+  "saved_glb_mesh_count": 3,
+  "target_faces": 5120,
+  "protected_geometries_bitwise_stable_after_glb_roundtrip": true,
+  "negative_controls": {
+    "bad_source_hash": "Input SHA256 mismatch",
+    "unprotected_other_mesh": "Protected list missing or duplicate",
+    "bad_target": "Unknown target geometry",
+    "zero_radius": "Unsafe stroke size",
+    "oversize_shift": "Unsafe stroke size",
+    "bad_falloff": "Only smoothstep falloff supported",
+    "source_overwrite": "Source overwrite refused"
+  },
+  "replayed_output_sha256": "546410f1b6969c0edb7b383f8845c9514ea5288d68ce197c4708bf34cfcf85f1",
+  "bpy_available_here": false,
+  "actual_blender_run": false,
+  "blend_created": false,
+  "art_adoption": false,
+  "minecraft_construction": false
+}

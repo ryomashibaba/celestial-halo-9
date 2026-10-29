@@ -1,0 +1,13 @@
+{
+  "valid_plan": true,
+  "python_scripts_syntax_ok": true,
+  "bad_sha": "Source GLB SHA mismatch",
+  "bad_protected_name": "Unexpected mesh or missing protected object",
+  "target_protected": "Unexpected mesh or missing protected object",
+  "unsafe_radius": "Unsafe sculpt radius/displacement",
+  "unsafe_delta": "Unsafe sculpt radius/displacement",
+  "wrong_status": "Not a technical fixture",
+  "blender_executable_available": false,
+  "bpy_runtime_available": false,
+  "native_blend_generated": false
+}

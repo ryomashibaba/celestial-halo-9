@@ -1,0 +1,11 @@
+{
+  "metric": "changed pixel share, threshold max RGB delta > 16; not art score",
+  "percent_by_view": {
+    "south": 8.278,
+    "north": 2.616,
+    "east": 5.002,
+    "west": 2.303,
+    "aerial": 8.307,
+    "oblique": 7.34
+  }
+}
