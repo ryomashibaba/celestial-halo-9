@@ -1,0 +1,57 @@
+name: HALO9 D47 Native Faulted Living City G0 - ART UNREVIEWED
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-direct-art-loop-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_NATIVE/**'
+      - '.github/workflows/d47-native-rift-g0.yml'
+permissions:
+  contents: read
+jobs:
+  d47-real-blender-g0:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install genuine Blender 4.5.15 and offscreen OpenGL
+        run: |
+          python -m pip install 'bpy==4.5.15'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Generate editable genuine BLEND GLB and fixed 6 cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_NATIVE/d47_rift_base.py /tmp/halo9-d47-g0
+      - name: Independent reopened Blender scene and GLB mesh audit
+        run: |
+          python - <<'PY'
+          import bpy, os, json
+          p='/tmp/halo9-d47-g0'
+          assert os.path.getsize(p+'/D47_B1_BASE_EDITABLE.blend')>10000
+          assert os.path.getsize(p+'/D47_B1_BASE.glb')>10000
+          assert all(os.path.getsize(p+'/'+n+'.png')>1000 for n in ['01_city','02_front','03_oblique','04_side','05_ground','06_rift'])
+          bpy.ops.wm.open_mainfile(filepath=p+'/D47_B1_BASE_EDITABLE.blend')
+          required=['WEST_MASS_EDITABLE_VERTEX_CAGE','EAST_MASS_EDITABLE_VERTEX_CAGE']
+          assert all(bpy.data.objects.get(n) is not None for n in required)
+          original=[len(bpy.data.objects[n].data.vertices) for n in required]
+          assert original==[216,216],original
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=p+'/D47_B1_BASE.glb')
+          assert len([o for o in bpy.data.objects if o.type=='MESH'])>=2
+          with open(p+'/D47_B1_REOPEN_AUDIT.json','w') as f:json.dump({'blend_reopened':True,'sculpture_cage_vertices':original,'glb_reimported':True,'art':'NOT_REVIEWED','routes':'NOT_VERIFIED'},f,indent=2)
+          print('D47_REAL_NATIVE_REOPEN_PASS',original)
+          PY
+      - name: Preserve originals for actual art review even if later checks fail
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-B1-REAL-NATIVE-G0-ART-UNREVIEWED
+          path: /tmp/halo9-d47-g0/
+          retention-days: 7
+          if-no-files-found: warn
