@@ -61,17 +61,23 @@ jobs:
           assert all(bpy.data.objects.get(n) and bpy.data.objects[n].type=="MESH" for n in required)
           d=bpy.context.evaluated_depsgraph_get()
           shell_tree=BVHTree.FromObject(shell,d)
-          direction=Vector((1.0,.0123,.0067)).normalized()
+          direction=Vector((1.0,0.0,0.0))
           def inside(mesh_tree,coord):
-              origin=Vector(coord)
+              # Count crossings FROM A CONFIRMED OUTSIDE POSITION TO THE PROBE.
+              # This avoids the undefined inside-start behaviour of some BVH raycasts.
+              target=Vector(coord)
+              origin=Vector((-3000.0,target.y,target.z))
               hits=0
-              for _ in range(120):
-                  loc,norm,idx,dist=mesh_tree.ray_cast(origin,direction,10000.0)
-                  if loc is None:break
+              for _ in range(160):
+                  remaining=target.x-origin.x
+                  if remaining<=.0001: break
+                  loc,norm,idx,dist=mesh_tree.ray_cast(origin,direction,remaining)
+                  if loc is None: break
+                  if loc.x>target.x-.0001: break
                   hits+=1
-                  origin=loc+direction*.065
+                  origin=loc+direction*.03
               else:
-                  raise AssertionError("ray parity exceeded 120 surfaces")
+                  raise AssertionError("outside-in parity exceeded 160 surfaces")
               return hits%2==1
           voids={
             "entrance":(0,-510,137),
