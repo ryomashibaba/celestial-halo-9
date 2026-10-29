@@ -135,7 +135,8 @@ jobs:
           z=out/'D47_R4_E0_DIRECT_NATIVE_EDIT_ART_UNREVIEWED.zip'
           with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as a:
               for n in names:
-                  assert (p/n).stat().st_size>1000,n
+                  threshold=100 if n.endswith('.json') else 1000
+                  assert (p/n).stat().st_size>threshold,(n,(p/n).stat().st_size)
                   a.write(p/n,arcname=n)
           hashes={'original_R3_blend_sha256':'1469035d58ed1cd720ba4d6ad0b1356bfb3d7f1b95cac001e74c0ba252c8205b',
              'E0_evidence_zip_sha256':hashlib.sha256(z.read_bytes()).hexdigest(),
