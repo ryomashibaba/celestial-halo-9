@@ -1,0 +1,23 @@
+{
+  "study": "D27 limited coupled scene edit, not art adoption",
+  "expected_source_sha256": "c95bf29fd9a313c1c2d1b6f6a33053fb410fbf3b1ce4fb2877d065a2b9441622",
+  "moves": [
+    {
+      "group": "WEST_DISTRICT",
+      "delta_xyz_m": [
+        -60,
+        0,
+        0
+      ]
+    },
+    {
+      "group": "EAST_DISTRICT",
+      "delta_xyz_m": [
+        72,
+        0,
+        0
+      ]
+    }
+  ],
+  "bridge_connect_mode": "endpoints_affine_x"
+}
