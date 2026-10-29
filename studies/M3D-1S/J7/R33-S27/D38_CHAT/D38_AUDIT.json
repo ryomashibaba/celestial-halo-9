@@ -1,0 +1,57 @@
+{
+  "study": "D38",
+  "prior_D37_forged_native_PASS_reproduced": true,
+  "new_gate_negative_tests": [
+    {
+      "label": "d37_forged_metadata_without_blend",
+      "rejected": true,
+      "reason": "not genuine approved Blender 4.5 run metadata"
+    },
+    {
+      "label": "all_json_true_but_no_blend",
+      "rejected": true,
+      "reason": "missing or trivial output: DOES_NOT_EXIST.blend"
+    },
+    {
+      "label": "fake_blend_header",
+      "rejected": true,
+      "reason": "Invalid Blender native header"
+    },
+    {
+      "label": "fake_blender_header_but_bpy_not_installed",
+      "rejected": true,
+      "reason": "GENUINE_BPY_REQUIRED: never certify from JSON and copied GLB"
+    },
+    {
+      "label": "baked_glb_digest_mismatch",
+      "rejected": true,
+      "reason": "output sha mismatch: FAKE_BLENDER_EXPORT.glb"
+    },
+    {
+      "label": "missing_triangle_topology",
+      "rejected": true,
+      "reason": "face count differs D37_SCULPT_TARGET"
+    },
+    {
+      "label": "reversed_all_face_orientations",
+      "rejected": true,
+      "reason": "volume drift D37_SCULPT_TARGET: 200.000%"
+    },
+    {
+      "label": "edited_target_2m_drift",
+      "rejected": true,
+      "reason": "vertex positions drift D37_SCULPT_TARGET: 2.0000 m"
+    }
+  ],
+  "negative_tests_all_rejected": true,
+  "positive_geometry_self_comparison": [
+    "D37_SCULPT_TARGET",
+    "D37_PROTECTED_FLOOR",
+    "D37_PROTECTED_MARKER"
+  ],
+  "actual_blender_executed": false,
+  "actual_native_pass": false,
+  "repo_main_edited": false,
+  "formal_adoptions": 0,
+  "minecraft": "HOLD"
+}

@@ -1,0 +1,23 @@
+{
+  "study": "R33-S27-D38",
+  "date_jst": "2026-10-29",
+  "main_verified_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "parent_research_head": "7958a0ea71cb76fbda2f4841ec5925bc5bd02fb4",
+  "status": {
+    "D37_native_run": "NOT_VERIFIED",
+    "D37_old_gate_forged_PASS_reproduced": true,
+    "D38_offline_negatives": "8/8_REJECTED",
+    "D38_native_bpy": "NOT_RUN",
+    "art": "NOT_SUBMITTED",
+    "formal_adoptions": 0,
+    "city_master_complete": false,
+    "minecraft": "HOLD"
+  },
+  "lessons": [
+    "D37 original verification can claim native success without a .blend",
+    "D38 gate demands genuine bpy to open .blend in third process",
+    "D38 checks topology, area, volume in addition to vertices",
+    "No GitHub Actions run ID or native artifact yet"
+  ],
+  "github_scope": "D38 source/YAML/audit/review only; actual binary GLB from older D37 test not committed and Blender native .blend does not exist in Chat."
+}
