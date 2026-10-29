@@ -1,0 +1,57 @@
+name: HALO9 D46 Save genuine failed-art proof to isolated research branch
+on:
+  push:
+    branches:
+      - research/r33-s27-d46-city-fabric-art-20261029
+    paths:
+      - '.github/workflows/d46-save-native-evidence.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  preserve-actual-native-proof:
+    if: github.ref_name == 'research/r33-s27-d46-city-fabric-art-20261029'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Download SUCCESS D46 actual native artifact by run and name
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/d46-genuine
+          gh run download 40870028350 --repo "${GITHUB_REPOSITORY}" --name HALO9-D46-CITY-FABRIC-G0-ART-UNREVIEWED --dir /tmp/d46-genuine
+          test -s /tmp/d46-genuine/D46_BASE.blend
+          test -s /tmp/d46-genuine/D46_BASE.glb
+          test -s /tmp/d46-genuine/01_city.png
+          sha256sum /tmp/d46-genuine/D46_BASE.blend /tmp/d46-genuine/D46_BASE.glb
+      - name: Package immutable G0 evidence with manifest (NOT approved master)
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile,hashlib,json
+          src=Path('/tmp/d46-genuine')
+          dest=Path('studies/M3D-1S/J7/R33-S27/D46_EVIDENCE/D46_G0_NATIVE_ART_REJECT.zip')
+          dest.parent.mkdir(parents=True,exist_ok=True)
+          names=['D46_BASE.blend','D46_BASE.glb','D46_BASE_MANIFEST.json','01_city.png','02_front.png','03_oblique.png','04_side.png']
+          assert all((src/x).is_file() and (src/x).stat().st_size>100 for x in names)
+          with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+            for name in names:z.write(src/name,arcname=name)
+          check={"status":"ART_REJECT_G0_NOT_MASTER","base_run_id":40870028350,
+             "zip_sha256":hashlib.sha256(dest.read_bytes()).hexdigest(),
+             "archive_files":{n:hashlib.sha256((src/n).read_bytes()).hexdigest() for n in names}}
+          (dest.parent/'D46_G0_EVIDENCE_SHA256.json').write_text(json.dumps(check,indent=2),encoding='utf-8')
+          print(check)
+          PY
+      - name: Git commit ONLY D46 evidence onto same isolated research branch
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          test "$BRANCH_NAME" = "research/r33-s27-d46-city-fabric-art-20261029"
+          git config user.name "halo9-research-proof-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R33-S27/D46_EVIDENCE/
+          git commit -m "D46 archive actual native Blender G0 ART REJECT proof only"
+          git push origin "HEAD:refs/heads/${BRANCH_NAME}"
