@@ -1,0 +1,32 @@
+{
+  "samples": 5555,
+  "supported": 5555,
+  "missing_support": 0,
+  "first_missing": [],
+  "head_collisions": 0,
+  "first_head_collision": [],
+  "max_design_grade_percent": 5.0,
+  "door_probes": {
+    "G0": {
+      "clearance_samples": 15,
+      "blocked": 0,
+      "first_blocked": []
+    },
+    "G1": {
+      "clearance_samples": 15,
+      "blocked": 0,
+      "first_blocked": []
+    },
+    "G2": {
+      "clearance_samples": 15,
+      "blocked": 0,
+      "first_blocked": []
+    }
+  },
+  "ramp_removal_negative_missing_support": 505,
+  "injected_obstruction_negative": "SEE D34_NEGATIVE_QA.json",
+  "individual_meshes_watertight": true,
+  "geometry_count": 119,
+  "sha256": "f8cd095cfe7cf9a888f92bed594370e6b7044ee70509f157c9f831dc2108b0df",
+  "tech_pass_limited": true
+}

@@ -1,0 +1,25 @@
+{
+  "network_component_node_count": 14,
+  "named_route_meshes": 11,
+  "reachable_gallery_centers": {
+    "G0": {
+      "reachable": true,
+      "network_path_m": 97.0
+    },
+    "G1": {
+      "reachable": true,
+      "network_path_m": 277.2
+    },
+    "G2": {
+      "reachable": true,
+      "network_path_m": 727.4
+    }
+  },
+  "connection_test": "design-network graph only; verify D34_QA.json for real GLB sampled surface support",
+  "not_proven": [
+    "continuous swept body",
+    "unbroken structural joints",
+    "elevator function",
+    "egress/building regulation"
+  ]
+}

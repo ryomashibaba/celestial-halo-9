@@ -1,0 +1,6 @@
+{
+  "independent_subprocess_source_only_glb_sha256_match": true,
+  "actual_glb_sha256": "f8cd095cfe7cf9a888f92bed594370e6b7044ee70509f157c9f831dc2108b0df",
+  "source_sha256": "22ae1b9f16d5a366df0b3308a25c72682a3aadebd61c273a90adf73daa52ea3c",
+  "source_recreated_mesh_count": 119
+}

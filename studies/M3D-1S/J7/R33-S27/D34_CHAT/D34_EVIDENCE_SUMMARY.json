@@ -1,0 +1,82 @@
+{
+  "study": "R33-S27-D34",
+  "date_jst": "2026-10-29",
+  "tech": "LIMITED_PASS_SAMPLED_3LEVEL_PUBLIC_ROUTE",
+  "art": "REJECT_AS_CENTRAL_ARCHITECTURE",
+  "formal_adoption": 0,
+  "city_master_complete": false,
+  "minecraft": "HOLD",
+  "work_used": false,
+  "blender_used": false,
+  "main_verified_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "parent_d33_head": "e65f33cdf2322647ab7c632667c551c2d0f72aba",
+  "glb_sha256": "f8cd095cfe7cf9a888f92bed594370e6b7044ee70509f157c9f831dc2108b0df",
+  "meshes": 119,
+  "triangles": 2184,
+  "mesh_watertight": true,
+  "sampled_floor_support": {
+    "supported": 5555,
+    "checked": 5555
+  },
+  "sampled_head_clearance_collisions": 0,
+  "door_probes": {
+    "G0": {
+      "clearance_samples": 15,
+      "blocked": 0,
+      "first_blocked": []
+    },
+    "G1": {
+      "clearance_samples": 15,
+      "blocked": 0,
+      "first_blocked": []
+    },
+    "G2": {
+      "clearance_samples": 15,
+      "blocked": 0,
+      "first_blocked": []
+    }
+  },
+  "max_design_grade_percent": 5.0,
+  "reachable_galleries_graph": {
+    "G0": {
+      "reachable": true,
+      "network_path_m": 97.0
+    },
+    "G1": {
+      "reachable": true,
+      "network_path_m": 277.2
+    },
+    "G2": {
+      "reachable": true,
+      "network_path_m": 727.4
+    }
+  },
+  "negative_tests": {
+    "original_glb_sha256": "f8cd095cfe7cf9a888f92bed594370e6b7044ee70509f157c9f831dc2108b0df",
+    "obstruction_glb_sha256": "f1db0d071f4deeed447d064ddc3bef916000369ff0a1ea66a06ebfd5b96a05ef",
+    "obstruction_head_collision_detections": 42,
+    "missing_ramp_glb_sha256": "b1960f89360969a85e9ff8234530fd00142df3d8a9fd9607a744202a80f03818",
+    "removed_ramp_support_failures": 505,
+    "sealed_portal_glb_sha256": "77f302117edd8ad2ca6cd3c0f92b93ab44a995a1edde60adcd6e5799b4b30f5d",
+    "sealed_G1_doorway_failures": 12,
+    "positive_pass": true,
+    "negative_obstruction_detected": true,
+    "negative_missing_ramp_detected": true,
+    "negative_sealed_portal_detected": true
+  },
+  "independent_rebuild": {
+    "independent_subprocess_source_only_glb_sha256_match": true,
+    "actual_glb_sha256": "f8cd095cfe7cf9a888f92bed594370e6b7044ee70509f157c9f831dc2108b0df",
+    "source_sha256": "22ae1b9f16d5a366df0b3308a25c72682a3aadebd61c273a90adf73daa52ea3c",
+    "source_recreated_mesh_count": 119
+  },
+  "real_glb_views": 9,
+  "limits": [
+    "not a central architectural candidate",
+    "no residential interiors",
+    "no continuous body sweep or code certification",
+    "no load-bearing or egress certification",
+    "not all-city integration"
+  ],
+  "next": "D35: aesthetic-first inhabited macrogeometry workflow; do not scale/detail this rejected prototype"
+}
