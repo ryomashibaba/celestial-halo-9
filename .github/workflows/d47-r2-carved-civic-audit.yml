@@ -99,7 +99,9 @@ jobs:
           negative=bpy.context.object
           negative.name="QA_NEGATIVE_TEST_INSERTED_BLOCKER_NOT_EXPORTED"
           negative.scale=(95,48,93)
-          bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+          # BVHTree.FromObject uses LOCAL mesh coordinates, not object world transform.
+          # Bake the temporary test block location as well as scale before querying.
+          bpy.ops.object.transform_apply(location=True,rotation=False,scale=True)
           bpy.context.view_layer.update()
           blocker_tree=BVHTree.FromObject(negative,bpy.context.evaluated_depsgraph_get())
           assert inside(blocker_tree,(0,-510,137)),"negative obstruction must be detected"
