@@ -1,0 +1,158 @@
+name: HALO9 D47 R4 E0 True Saved BLEND Direct Edit and Same Camera Comparisons
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r4-direct-native-edit-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R4_NATIVE/**'
+      - '.github/workflows/d47-r4-e0-real-native-edit.yml'
+permissions:
+  contents: write
+jobs:
+  directly-edit-archived-native:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install genuine Blender and pixel diff dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Reopen exact original BLEND and directly edit wall mesh (not regenerate)
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R4_NATIVE/r4_e0_direct_native_window_edit.py /tmp/d47-r4-e0
+      - name: Independently inspect reloaded edited BLEND and GLB, real holes and view differences
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,bpy,zipfile,hashlib
+          from mathutils import Vector
+          from mathutils.bvhtree import BVHTree
+          from PIL import Image,ImageChops
+          p=Path('/tmp/d47-r4-e0')
+          j=json.loads((p/'R4_E0_SOURCE_AND_EDIT_MANIFEST.json').read_text())
+          assert j['true_direct_saved_native_mesh_editing']
+          assert not j['gui_editing_test'] and not j['art_adopted']
+          assert j['original_R3_blend_sha256']=='1469035d58ed1cd720ba4d6ad0b1356bfb3d7f1b95cac001e74c0ba252c8205b'
+          source=p/'R3_READONLY_EXTRACTED.blend'
+          assert hashlib.sha256(source.read_bytes()).hexdigest()==j['original_R3_blend_sha256']
+          edited=p/'R4_E0_DIRECT_NATIVE_EDIT.blend'
+          glb=p/'R4_E0_DIRECT_NATIVE_EDIT.glb'
+          assert edited.stat().st_size>15000 and glb.stat().st_size>10000
+          bpy.ops.wm.open_mainfile(filepath=str(source))
+          before={o.name:len(o.data.polygons) for o in bpy.data.objects if o.type=='MESH'}
+          cams={n:(tuple(o.location),tuple(o.rotation_euler))
+             for n in j['fixed_camera_signatures'] for o in [bpy.data.objects[n]]}
+          assert len(before)==66
+          bpy.ops.wm.open_mainfile(filepath=str(edited))
+          after={o.name:len(o.data.polygons) for o in bpy.data.objects if o.type=='MESH'}
+          assert before.keys()==after.keys(), 'Object identity change: not a direct edit'
+          assert len(after)==66
+          edited_names=[n for n in before if before[n]!=after[n]]
+          assert edited_names==['UPPER_CROSS_LIBRARY_WALL'],edited_names
+          assert not bpy.context.scene['art_adopted']
+          assert bpy.context.scene['R4_no_gui_or_mcp_used']
+          assert bpy.data.objects['HIGH_OCCUPIED_CULTURAL_VOLUME']['R4_E0_actual_content']=='SOLID_BLOCK_INVALID_OCCUPIED_ROOM'
+          assert all(
+              max(abs(float(a)-float(b)) for a,b in zip(cams[n][0],bpy.data.objects[n].location))<1e-5
+              and max(abs(float(a)-float(b)) for a,b in zip(cams[n][1],bpy.data.objects[n].rotation_euler))<1e-5
+              for n in cams)
+          wall=bpy.data.objects['UPPER_CROSS_LIBRARY_WALL']
+          tree=BVHTree.FromObject(wall,bpy.context.evaluated_depsgraph_get())
+          def wall_hit(x,z):
+              loc,n,idx,dist=tree.ray_cast(Vector((x,145,z)),Vector((0,1,0)),60)
+              return loc is not None
+          transparent={}
+          for i,d in enumerate(j['real_window_openings']):
+              x=(d['x_bounds'][0]+d['x_bounds'][1])/2
+              transparent[str(i)]=not wall_hit(x,234)
+          assert all(transparent.values()),transparent
+          assert wall_hit(-305,234), 'solid wall pier wrongly removed'
+          changed={}
+          for n in ('01_arrival','02_shared_public_room','03_west_inhabited_room',
+                    '04_east_transit_room','05_threequarter_city','06_rear_urban_section'):
+              a=Image.open(p/'BASELINE_R3_SAME_ENGINE'/(n+'.png')).convert('RGB')
+              b=Image.open(p/'E0_REAL_WINDOW_CUTS'/(n+'.png')).convert('RGB')
+              assert a.size==b.size
+              d=ImageChops.difference(a,b)
+              changed[n] = sum(1 for q in d.getdata() if q!=(0,0,0))
+          assert sum(changed.values())>150,changed
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          restored={o.name for o in bpy.data.objects if o.type=='MESH'}
+          assert restored==set(before.keys()),(len(restored),len(before))
+          audit={
+            'technical_status':'DIRECT_NATIVE_EDIT_TECH_PASS_NOT_ART_APPROVAL',
+            'same_R3_original_blend_hash_verified':True,
+            'exactly_one_existing_wall_mesh_topology_changed':True,
+            'original_66_mesh_object_names_preserved':True,
+            'six_genuine_new_openings_checked':transparent,
+            'surrounding_wall_pier_preserved':True,
+            'six_same_camera_pixel_change_counts':changed,
+            'native_edited_blend_reopened':True,
+            'edited_glb_reimported':True,
+            'M247_C_formal_adoption':False,
+            'full_city_master_complete':False,
+            'GUI_visual_direct_edit_proven':False,
+            'art_approved':False
+          }
+          (p/'R4_E0_INDEPENDENT_AUDIT.json').write_text(
+              json.dumps(audit,ensure_ascii=False,indent=2),encoding='utf8')
+          print('R4_E0_TRUE_DIRECT_NATIVE_OPENING_TECH_PASS_ART_UNREVIEWED',audit)
+          PY
+      - name: Always retain source, after and any failed-run evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R4-E0-GENUINE-DIRECT-EDIT-ART-UNREVIEWED
+          path: /tmp/d47-r4-e0/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Package source-vs-edit original proof with hashes
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          p=Path('/tmp/d47-r4-e0')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R4_E0_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R4_E0_DIRECT_NATIVE_EDIT.blend','R4_E0_DIRECT_NATIVE_EDIT.glb',
+                 'R4_E0_SOURCE_AND_EDIT_MANIFEST.json','R4_E0_INDEPENDENT_AUDIT.json']
+          for d in ('BASELINE_R3_SAME_ENGINE','E0_REAL_WINDOW_CUTS'):
+              names.extend([d+'/'+n+'.png' for n in (
+                '01_arrival','02_shared_public_room','03_west_inhabited_room',
+                '04_east_transit_room','05_threequarter_city','06_rear_urban_section')])
+          z=out/'D47_R4_E0_DIRECT_NATIVE_EDIT_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as a:
+              for n in names:
+                  assert (p/n).stat().st_size>1000,n
+                  a.write(p/n,arcname=n)
+          hashes={'original_R3_blend_sha256':'1469035d58ed1cd720ba4d6ad0b1356bfb3d7f1b95cac001e74c0ba252c8205b',
+             'E0_evidence_zip_sha256':hashlib.sha256(z.read_bytes()).hexdigest(),
+             'art_approved':False,'formal_city_master_complete':False,
+             'proof_file_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names}}
+          (out/'D47_R4_E0_SHA256.json').write_text(json.dumps(hashes,indent=2))
+          print('R4_E0_ZIP',hashes['E0_evidence_zip_sha256'])
+          PY
+      - name: Archive genuine E0 proof to R4 research branch only
+        if: success()
+        env:
+          EXPECTED: research/r33-s27-d47-r4-direct-native-edit-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$EXPECTED"
+          git config user.name 'halo9-native-edit-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R4_E0_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R4-E0 archive edited native wall and same-camera actual image evidence, art unreviewed'
+          git push origin "HEAD:refs/heads/$EXPECTED"
