@@ -1,0 +1,18 @@
+{
+  "technical_only": true,
+  "art_approved": false,
+  "full_master": false,
+  "evidence_zip_sha256": "67e4fc0e53dce8441d615951d45dee3cc213d03e1330b7ea7a784b5385244599",
+  "individual_sha256": {
+    "D47_R2_TRUE_SPATIAL_SUBTRACTION_EDITABLE.blend": "0f1709d2ada8a052e43c5ea18c991a2dd414cf5f066ab38f28c62714a5fafc47",
+    "D47_R2_TRUE_SPATIAL_SUBTRACTION.glb": "2af235470883542c68e0fac242cb044affe644179a284fdd76ed8ec8a8d4d65a",
+    "D47_R2_MANIFEST.json": "ec4a7e5cf2b5dff33a2f4d8a9376192f5736bb3da895e1d85e92569211cc2fb9",
+    "D47_R2_INDEPENDENT_AUDIT.json": "fddc5b294793a5816ba684c3a74282a87a4187d11ee9e9129bd61066d207ebb0",
+    "01_approach.png": "1aee46093231f39db626af4b4e0a847a74a849c7dd9a60a7e0f091c4e0c477f4",
+    "02_room_interior.png": "ffb3500af4dffb3f7c89f7dd020fb6390795c5a48f5b2517dcab7c7c95516081",
+    "03_west_cultural.png": "aa2726c67006a6dbb9325c9ec38c380c96acdf631166e2fda5ff5956bad6ef95",
+    "04_east_station.png": "9e1ed047972f53e8e9e5c64751186d0dea119f03a77d7e53794126a0d674929c",
+    "05_distant_oblique.png": "637b95544d422533444e60462f2e57fc1708493f5ce5ee956eead36422717fcc",
+    "06_high_threequarter.png": "6989cf2cdbb56d2d76b70a11ee6b8cc9bede0e40d9f49d3009f221afcfb895cb"
+  }
+}
