@@ -1,0 +1,181 @@
+name: HALO9 D47 R2 Genuine Carved Civic Void Independent Audit
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r2-subtractive-space-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R2_NATIVE/**'
+      - '.github/workflows/d47-r2-carved-civic-audit.yml'
+permissions:
+  contents: write
+jobs:
+  native-carved-space-and-negative-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real Blender 4.5.15 and software OpenGL
+        run: |
+          python -m pip install 'bpy==4.5.15'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Create genuine subtracted inhabited mass, BLEND, GLB and six same-scene views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R2_NATIVE/d47_r2_subtractive_civic.py /tmp/d47-r2
+      - name: Independent native mesh, true void, negative obstruction and glTF reimport audit
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import bpy, json
+          from mathutils import Vector
+          from mathutils.bvhtree import BVHTree
+          p=Path("/tmp/d47-r2")
+          j=json.loads((p/"D47_R2_MANIFEST.json").read_text("utf8"))
+          assert not j['formally_adopted'] and not j['full_10km_city_master']
+          assert j['editable_cutters']==8
+          assert j['real_floor_count']==8
+          for n in j["render_names"]:
+              assert (p/n).stat().st_size>2000,(n,(p/n).stat().st_size)
+          native=p/"D47_R2_TRUE_SPATIAL_SUBTRACTION_EDITABLE.blend"
+          glb=p/"D47_R2_TRUE_SPATIAL_SUBTRACTION.glb"
+          assert native.stat().st_size>10000 and glb.stat().st_size>10000
+          bpy.ops.wm.open_mainfile(filepath=str(native))
+          shell=bpy.data.objects.get("R2_SINGLE_INHABITED_MOTHER_CARVED_VOLUME")
+          assert shell and shell.type=="MESH"
+          cutters=[o for o in bpy.data.objects if o.name.startswith("CUTTER_")]
+          assert len(cutters)==8,len(cutters)
+          assert len(shell.data.polygons)>200,len(shell.data.polygons)
+          required=[
+            "PUBLIC_ENTRY_REAL_FLOOR","CHAMBER_MAIN_PUBLIC_FLOOR",
+            "WEST_ARCHIVE_GROUND_FLOOR","EAST_RAIL_PUBLIC_CONCOURSE",
+            "WEST_INTERNAL_GALLERY_CONNECTOR","EAST_INTERNAL_GALLERY_CONNECTOR",
+            "NORTHERN_PUBLIC_EXIT_FLOOR","WEST_UPPER_ARCHIVE_PUBLIC_FLOOR"]
+          assert all(bpy.data.objects.get(n) and bpy.data.objects[n].type=="MESH" for n in required)
+          d=bpy.context.evaluated_depsgraph_get()
+          shell_tree=BVHTree.FromObject(shell,d)
+          direction=Vector((1.0,.0123,.0067)).normalized()
+          def inside(mesh_tree,coord):
+              origin=Vector(coord)
+              hits=0
+              for _ in range(120):
+                  loc,norm,idx,dist=mesh_tree.ray_cast(origin,direction,10000.0)
+                  if loc is None:break
+                  hits+=1
+                  origin=loc+direction*.065
+              else:
+                  raise AssertionError("ray parity exceeded 120 surfaces")
+              return hits%2==1
+          voids={
+            "entrance":(0,-510,137),
+            "civic_chamber":(0,-40,245),
+            "west_library_real_room":(-305,85,195),
+            "east_station_real_room":(327,75,180),
+            "northern_exit":(0,548,129),
+            "roof_daylight_aperture":(40,140,478),
+            "west_upper_archive":(-310,155,340)}
+          solid={
+            "west_protected_thick_wall":(-395,358,130),
+            "east_protected_thick_wall":(435,-274,130)}
+          void_result={name:not inside(shell_tree,pt) for name,pt in voids.items()}
+          solid_result={name:inside(shell_tree,pt) for name,pt in solid.items()}
+          assert all(void_result.values()),void_result
+          assert all(solid_result.values()),solid_result
+          # Negative control: put an actual sealed block in the entry line.
+          bpy.ops.mesh.primitive_cube_add(size=2,location=(0,-510,137))
+          negative=bpy.context.object
+          negative.name="QA_NEGATIVE_TEST_INSERTED_BLOCKER_NOT_EXPORTED"
+          negative.scale=(95,48,93)
+          bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+          bpy.context.view_layer.update()
+          blocker_tree=BVHTree.FromObject(negative,bpy.context.evaluated_depsgraph_get())
+          assert inside(blocker_tree,(0,-510,137)),"negative obstruction must be detected"
+          bpy.data.objects.remove(negative,do_unlink=True)
+          # Compare actual shell bounds in the reopened BLEND vs re-imported GLB.
+          def bounds(o):
+              vv=[o.matrix_world @ Vector(corner) for corner in o.bound_box]
+              return [[min(v[i] for v in vv),max(v[i] for v in vv)] for i in range(3)]
+          original_bounds=bounds(shell)
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          reimport=bpy.data.objects.get("R2_SINGLE_INHABITED_MOTHER_CARVED_VOLUME")
+          assert reimport and reimport.type=="MESH"
+          recovered_bounds=bounds(reimport)
+          err=max(abs(original_bounds[i][k]-recovered_bounds[i][k]) for i in range(3) for k in range(2))
+          assert err<.2,err
+          assert len(reimport.data.polygons)>200
+          audit={
+           "status":"TECH_LIMITED_PASS_ART_UNREVIEWED",
+           "real_blend_reopened":True,"real_glb_reimported":True,
+           "original_shell_bounds":original_bounds,
+           "reimported_shell_bounds":recovered_bounds,
+           "bbox_max_abs_error_m":err,
+           "actual_shell_faces":len(reimport.data.polygons),
+           "actual_boolean_cutters_retained_in_blend":len(cutters),
+           "actual_room_and_sky_air_probes":void_result,
+           "actual_protected_thick_wall_probes":solid_result,
+           "negative_test_blocker_detected":True,
+           "floor_accessibility":"NOT_FULLY_VERIFIED",
+           "upper_transport":"NOT_VERIFIED",
+           "art":"NOT_REVIEWED","approved_master":False,
+           "minecraft_construction":False
+          }
+          (p/"D47_R2_INDEPENDENT_AUDIT.json").write_text(
+              json.dumps(audit,ensure_ascii=False,indent=2),encoding="utf8")
+          print("D47_R2_GENUINE_NEGATIVE_SPACE_LIMITED_TECH_PASS",audit)
+          PY
+      - name: Preserve actual source output even on failed checks
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R2-NATIVE-UNREVIEWED-EVIDENCE
+          path: /tmp/d47-r2/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Bundle original native proof and SHA256 record only if checks passed
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile,hashlib,json
+          src=Path('/tmp/d47-r2')
+          evidence=Path('studies/M3D-1S/J7/R33-S27/D47_R2_EVIDENCE')
+          evidence.mkdir(parents=True,exist_ok=True)
+          names=['D47_R2_TRUE_SPATIAL_SUBTRACTION_EDITABLE.blend',
+                 'D47_R2_TRUE_SPATIAL_SUBTRACTION.glb',
+                 'D47_R2_MANIFEST.json','D47_R2_INDEPENDENT_AUDIT.json',
+                 '01_approach.png','02_room_interior.png',
+                 '03_west_cultural.png','04_east_station.png',
+                 '05_distant_oblique.png','06_high_threequarter.png']
+          assert all((src/n).stat().st_size>100 for n in names)
+          z=evidence/'D47_R2_NATIVE_TECH_LIMITED_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as a:
+              for n in names:a.write(src/n,arcname=n)
+          rec={"technical_only":True,"art_approved":False,
+               "full_master":False,
+               "evidence_zip_sha256":hashlib.sha256(z.read_bytes()).hexdigest(),
+               "individual_sha256":{n:hashlib.sha256((src/n).read_bytes()).hexdigest()
+                                    for n in names}}
+          (evidence/'D47_R2_EVIDENCE_SHA256.json').write_text(
+              json.dumps(rec,indent=2),encoding='utf8')
+          print("D47_R2_EVIDENCE_HASH",rec['evidence_zip_sha256'])
+          PY
+      - name: Permanently archive real evidence to isolated branch ONLY
+        if: success()
+        env:
+          EXPECTED: research/r33-s27-d47-r2-subtractive-space-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$EXPECTED"
+          git config user.name 'halo9-spatial-proof-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R2_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'D47-R2 archive genuine Boolean cavity and negative QA proof, art unreviewed'
+          git push origin "HEAD:refs/heads/${EXPECTED}"
