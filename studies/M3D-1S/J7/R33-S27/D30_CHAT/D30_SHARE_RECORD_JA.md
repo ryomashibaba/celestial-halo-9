@@ -1,0 +1,5 @@
+# D30 研究成果の共有範囲
+
+Chat成果ZIP `HALO9_D30_CHAT_RESEARCH.zip`、SHA256 `529c3b6d24d50008a5a43bcf3bee4c64094e1deb973b0d63667f18933d3b5b0c`、48ファイル。ZIP全ファイルのSHA256マニフェスト一致を確認済み。
+
+GitHubは再現用Pythonコード・JSON編集計画・レビュー・検証要約・起動手順を保存。実GLB4点、VTKレンダー画像27点、比較JPG、完全ZIPはGitHubには含まない。すべて研究専用であり正式美術採用やMinecraft施工許可ではない。

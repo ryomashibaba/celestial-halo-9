@@ -1,0 +1,187 @@
+{
+  "study": "R33-S27-D30",
+  "date_jst": "2026-10-29",
+  "main_verified_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "parent_d29_head": "31a3dbf8e10b5e13179be8a2c3affd6a0816b360",
+  "tech": "LIMITED_PASS_SAMPLED_FREEFORM_VOXEL_CSG",
+  "art": "REJECT",
+  "formal_adoption_count": 0,
+  "city_master_complete": false,
+  "minecraft": "HOLD",
+  "work_used": false,
+  "blender_native": false,
+  "method": {
+    "type": "saved-GLB voxel implicit-surface CSG",
+    "spacing_m": 8,
+    "source_mesh_only_fixture_validated": true,
+    "exact_geometric_boolean": false,
+    "live_gui_proven": false
+  },
+  "model_integrity": {
+    "BASE": {
+      "mesh_count": 3,
+      "target_triangles": 5120,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "euler_number": 2,
+      "protected_meshes_unchanged": {
+        "PROTECTED_CIVIC_ROUTE": true,
+        "PROTECTED_ATRIUM_DECK": true
+      },
+      "glb_sha256": "e8c3a3c1a2564ae9387413fe636a0c688b6d6e9cd926125a8a153ab94a5cd39f"
+    },
+    "TUNNEL": {
+      "mesh_count": 3,
+      "target_triangles": 89232,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "euler_number": 4,
+      "protected_meshes_unchanged": {
+        "PROTECTED_CIVIC_ROUTE": true,
+        "PROTECTED_ATRIUM_DECK": true
+      },
+      "glb_sha256": "c5227b165507293062fcc0dca464c307229c50943015247492792c45a59e19a5"
+    },
+    "ROOM": {
+      "mesh_count": 3,
+      "target_triangles": 95512,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "euler_number": 4,
+      "protected_meshes_unchanged": {
+        "PROTECTED_CIVIC_ROUTE": true,
+        "PROTECTED_ATRIUM_DECK": true
+      },
+      "glb_sha256": "85960cb4339110d3a03725455d790bfc561be9d13fbec49cc8774167301bd8e1"
+    },
+    "SKYLIGHT": {
+      "mesh_count": 3,
+      "target_triangles": 96948,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "euler_number": 2,
+      "protected_meshes_unchanged": {
+        "PROTECTED_CIVIC_ROUTE": true,
+        "PROTECTED_ATRIUM_DECK": true
+      },
+      "glb_sha256": "cff26a1ebfe8dce01c64c6c8e95da3cee397523d5a985573408ed6689b92fc8e"
+    }
+  },
+  "route_spatial": {
+    "BASE": {
+      "support_success": 183,
+      "support_total": 183,
+      "volume_collision_samples": 454,
+      "collision_total": 549
+    },
+    "TUNNEL": {
+      "support_success": 183,
+      "support_total": 183,
+      "volume_collision_samples": 0,
+      "collision_total": 549
+    },
+    "ROOM": {
+      "support_success": 183,
+      "support_total": 183,
+      "volume_collision_samples": 0,
+      "collision_total": 549
+    },
+    "SKYLIGHT": {
+      "support_success": 183,
+      "support_total": 183,
+      "volume_collision_samples": 0,
+      "collision_total": 549
+    }
+  },
+  "counterfactual": {
+    "BASE": {
+      "probes": [
+        true,
+        true,
+        false
+      ]
+    },
+    "TUNNEL": {
+      "probes": [
+        false,
+        true,
+        false
+      ]
+    },
+    "ROOM": {
+      "probes": [
+        false,
+        true,
+        false
+      ]
+    },
+    "SKYLIGHT": {
+      "probes": [
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  "spatial_negative_controls": {
+    "missing_route_support_failures": 155,
+    "valid_route_support_success": 183,
+    "obstruction_collision_samples": 24
+  },
+  "independent_reproduction": {
+    "study": "D30",
+    "reproduction": {
+      "TUNNEL": {
+        "isolated_glb_sha256_match": true,
+        "saved_sha256": "c5227b165507293062fcc0dca464c307229c50943015247492792c45a59e19a5",
+        "saved_bytes": 1802072,
+        "isolated_process": true
+      },
+      "ROOM": {
+        "isolated_glb_sha256_match": true,
+        "saved_sha256": "85960cb4339110d3a03725455d790bfc561be9d13fbec49cc8774167301bd8e1",
+        "saved_bytes": 1927672,
+        "isolated_process": true
+      },
+      "SKYLIGHT": {
+        "isolated_glb_sha256_match": true,
+        "saved_sha256": "cff26a1ebfe8dce01c64c6c8e95da3cee397523d5a985573408ed6689b92fc8e",
+        "saved_bytes": 1956360,
+        "isolated_process": true
+      }
+    },
+    "negative_controls": {
+      "baseline_sha_mismatch": true,
+      "protected_target": true,
+      "wrong_operation_order": true,
+      "atrium_without_tunnel": true,
+      "grid_mismatch": true,
+      "unknown_key": true
+    },
+    "source_glb_sha256": "e8c3a3c1a2564ae9387413fe636a0c688b6d6e9cd926125a8a153ab94a5cd39f",
+    "source_unchanged": true
+  },
+  "images": {
+    "rendered_real_glb_png_count": 27,
+    "multicamera_contact_sheet": "D30_7VIEW_STAGE_COMPARE.jpg"
+  },
+  "github_assets_to_save": [
+    "d30_freeform_csg.py",
+    "d30_independent_qa.py",
+    "d30_repro.py",
+    "d30_render.py",
+    "README_D30_JA.md",
+    "D30_REVIEW_JA.md",
+    "D30_EVIDENCE_SUMMARY.json"
+  ],
+  "github_does_not_contain": [
+    "GLBs",
+    "27 PNGs",
+    "comparison JPG",
+    "complete ZIP"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "baseline_sha256": "e8c3a3c1a2564ae9387413fe636a0c688b6d6e9cd926125a8a153ab94a5cd39f",
+  "target_geometry": "NEUTRAL_SCULPTED_MASS",
+  "operations": [
+    "tunnel",
+    "atrium",
+    "skylight"
+  ],
+  "grid_m": 8.0
+}
