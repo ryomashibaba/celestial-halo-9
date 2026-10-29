@@ -1,0 +1,83 @@
+{
+  "study": "R33-S27-D31",
+  "date_jst": "2026-10-29",
+  "main_verified": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "parent_d30_verified": "99507d09552882d0befb181091c7c19a105e1265",
+  "technical": "LIMITED_PASS_CAD_BREP_THROUGH_VOIDS_STEP_GLB_INDEPENDENT_REPRO",
+  "art": {
+    "A": "REJECT",
+    "B": "REJECT",
+    "formal_central_adoptions": 0
+  },
+  "city_master_3d_complete": false,
+  "minecraft": "HOLD",
+  "work_used": false,
+  "blender_used": false,
+  "trial_scope": "Two near-variant profiles, not independent architecture concepts; research-only local coordinates",
+  "units": "metres",
+  "step_valid_solids_per_variant": 5,
+  "triangles_A": 248,
+  "triangles_B": 236,
+  "glb_hash_A": "58466ece54958740b8f880e273a7b340677677301e7f0752a08d6a723f9316fc",
+  "glb_hash_B": "0551fd4971164730270a0a024e8d36d366a37bc6dc06dba2d45ce58bf4d4eb4f",
+  "step_hash_A": "2c3eaf2e293c1983a1debd6b5dba3fed26fd0ede231133a6d4506d1201746c10",
+  "step_hash_B": "385046e1b9233269d995d68ee031b66e9a8927052e3188f17d046310ad9e65a7",
+  "glb_mesh_watertight_raw": false,
+  "glb_watertight_after_normalseam_vertex_welding": true,
+  "void_sample_points_after_cut_occupied": false,
+  "bridge_overlap_m3": {
+    "A": {
+      "west_bridge_intersect_m3": 26765293.120539255,
+      "east_bridge_intersect_m3": 947081.9417475723,
+      "float_west_intersect_m3": 0.0,
+      "float_east_intersect_m3": 0.0
+    },
+    "B": {
+      "west_bridge_intersect_m3": 20400306.154086746,
+      "east_bridge_intersect_m3": 123333.33333333221,
+      "float_west_intersect_m3": 0.0,
+      "float_east_intersect_m3": 0.0
+    }
+  },
+  "connected_public_paths_proven": 0,
+  "inhabited_districts_proven": 0,
+  "third_party_art_review": false,
+  "independent_replay_GLBS_sha_match": true,
+  "image_change_percent_A_vs_B": {
+    "front": 1.968,
+    "west_oblique": 2.309,
+    "east_oblique": 1.821,
+    "rear": 2.027,
+    "aerial": 1.086,
+    "side": 0.669,
+    "human_canyon": 4.178
+  },
+  "cad_exact_geometry_note": "BREP exact planar polygon prisms, not freeform sculpting or arbitrary curved solid",
+  "next": "Stop massing as direct Python; prefer visually sculpted living architecture with same real3D multiple-view art critique; any Work requires approval",
+  "github_assets": [
+    "d31_cad_artfirst.py",
+    "d31_independent_audit.py",
+    "D31_INDEPENDENT_QA.json",
+    "D31_EVIDENCE_SUMMARY.json",
+    "D31_REVIEW_JA.md"
+  ],
+  "github_missing_binary": [
+    "STEP",
+    "GLB",
+    "PNG",
+    "JPG"
+  ],
+  "step_unit_header": "METRE",
+  "step_import_target_unit": "M",
+  "step_glb_bbox_m_verified": true,
+  "cad_brep_step_metric_physical_units_verified": true,
+  "step_importer_first_read_caveat": "Some fresh CADQuery/OpenCascade processes initialized the first STEP reader with mm despite unit=M; verification warms reader then imports again explicitly in M, and compares extents to GLB.",
+  "independent_step_glb_extents_m_verified": true,
+  "verified_reimport_m3_volume": {
+    "A": 1443099476.3501298,
+    "B": 1383424851.3501623
+  },
+  "technical_limit": "Exact for planar extruded BREP and through-windows only. NOT arbitrary smooth freeform building sculpture. No inhabitants, actual public connected paths, circulation, city-scale mass.",
+  "independent_art_candidates": 0,
+  "model_forms_reused_in_future": "NO"
+}
