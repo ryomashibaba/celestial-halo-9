@@ -1,0 +1,123 @@
+name: HALO9 D47 R1 Native Civic Section - Unreviewed Art
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r1-spatial-civic-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R1_NATIVE/**'
+      - '.github/workflows/d47-r1-civic-section.yml'
+permissions:
+  contents: write
+jobs:
+  d47-r1-real-spatial-section:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install genuine Blender 4.5.15 and software OpenGL
+        run: |
+          python -m pip install 'bpy==4.5.15'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Build real editable spatial section and same-scene art review renders
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R1_NATIVE/d47_r1_civic_section.py /tmp/halo9-d47-r1
+      - name: Independently reopen actual BLEND and reimport actual GLB
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, bpy, hashlib
+          p=Path('/tmp/halo9-d47-r1')
+          manifest=json.loads((p/'D47_R1_MANIFEST.json').read_text())
+          assert manifest['art_approved'] is False and manifest['central_master_complete'] is False
+          assert manifest['route_clearance_certified'] is False
+          assert manifest['canonical_coordinates'] is False
+          assert manifest['GUI_direct_edit_proven'] is False
+          names=manifest['render_names']
+          assert len(names)==5 and all((p/n).stat().st_size>1000 for n in names)
+          native=p/'D47_R1_LOCAL_CIVIC_EDITABLE.blend'
+          glb=p/'D47_R1_LOCAL_CIVIC.glb'
+          assert native.stat().st_size>10000 and glb.stat().st_size>10000
+          bpy.ops.wm.open_mainfile(filepath=str(native))
+          must=['CIVIC_ROUTE_MAIN','EXTERIOR_PUBLIC_FORECOURT',
+                'WEST_LIBRARY_READING_GALLERY','WEST_MUSEUM_LECTURE_LEVEL',
+                'EAST_PUBLIC_STATION_CONCOURSE','EAST_UPPER_TRANSIT_PLATFORM',
+                'OBLIQUE_CROSSING_PUBLIC_SPAN','WEST_CIVIC_VAULT_AND_MUSEUM_ROOF']
+          assert all((bpy.data.objects.get(n) and bpy.data.objects[n].type=='MESH') for n in must)
+          count_before=len([o for o in bpy.data.objects if o.type=='MESH'])
+          assert count_before>=35,count_before
+          scene=bpy.context.scene
+          assert scene['official_art_adopted'] is False
+          assert scene['canonical_coordinates'] is False
+          # This proves that the civic route has actual vertices across entry and hall,
+          # not that a whole person can traverse the complete transit system.
+          route=bpy.data.objects['CIVIC_ROUTE_MAIN']
+          ys=[v.co.y for v in route.data.vertices]
+          assert min(ys)<-1000 and max(ys)>700
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          count_glb=len([o for o in bpy.data.objects if o.type=='MESH'])
+          assert count_glb>=35,count_glb
+          audit={'blend_reopened':True,'glb_reimported':True,
+            'native_mesh_objects':count_before,'glb_mesh_objects':count_glb,
+            'route_mesh_spans_entrance_and_hall':True,
+            'human_clearance_and_routing':'UNVERIFIED',
+            'art_review':'NOT_PERFORMED','formal_city_master':'NOT_COMPLETE',
+            'render_names':names}
+          (p/'D47_R1_REOPEN_AUDIT.json').write_text(json.dumps(audit,indent=2))
+          print('D47_R1_NATIVE_TECH_LIMITED_PASS_NO_ART_JUDGMENT',audit)
+          PY
+      - name: Upload genuine editable evidence even if audit fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R1-REAL-CIVIC-ART-UNREVIEWED
+          path: /tmp/halo9-d47-r1/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Archive originals and hashes only when independent checks succeed
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,zipfile,json
+          src=Path('/tmp/halo9-d47-r1')
+          evidence=Path('studies/M3D-1S/J7/R33-S27/D47_R1_EVIDENCE')
+          evidence.mkdir(parents=True,exist_ok=True)
+          names=['D47_R1_LOCAL_CIVIC_EDITABLE.blend','D47_R1_LOCAL_CIVIC.glb',
+                 'D47_R1_MANIFEST.json','D47_R1_REOPEN_AUDIT.json',
+                 '01_city.png','02_approach.png','03_civic_interior.png',
+                 '04_oblique.png','05_east_side.png']
+          assert all((src/n).stat().st_size>100 for n in names)
+          arc=evidence/'D47_R1_NATIVE_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(arc,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names:z.write(src/n,arcname=n)
+          files={n:hashlib.sha256((src/n).read_bytes()).hexdigest() for n in names}
+          rec={'status':'REAL_3D_TECH_GATE_ONLY_ART_NOT_REVIEWED',
+              'zip_sha256':hashlib.sha256(arc.read_bytes()).hexdigest(),
+              'file_sha256':files,'master_city_complete':False,
+              'minecraft_construction_authorized':False}
+          (evidence/'D47_R1_NATIVE_EVIDENCE_SHA256.json').write_text(
+              json.dumps(rec,indent=2),encoding='utf8')
+          print('NATIVE_EVIDENCE_SHA',rec['zip_sha256'])
+          PY
+      - name: Commit only newly created prototype evidence to isolated study branch
+        if: success()
+        env:
+          EXPECTED_BRANCH: research/r33-s27-d47-r1-spatial-civic-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$EXPECTED_BRANCH"
+          git config user.name 'halo9-native-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R1_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'D47-R1 archive real civic-section technical proof (art not reviewed)'
+          git push origin "HEAD:refs/heads/${EXPECTED_BRANCH}"
