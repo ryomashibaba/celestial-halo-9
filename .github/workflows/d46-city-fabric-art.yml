@@ -1,0 +1,37 @@
+name: HALO9 D46 Native Art-First Inhabited City G0 (NO ART APPROVAL)
+on:
+  push:
+    branches:
+      - research/r33-s27-d46-city-fabric-art-20261029
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D46_NATIVE/**'
+      - '.github/workflows/d46-city-fabric-art.yml'
+permissions:
+  contents: read
+jobs:
+  native-g0:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Real Blender and Mesa headless renderer
+        run: |
+          python -m pip install 'bpy==4.5.15'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Create actual city-fabric BLEND, GLB and 4 G0 Blender views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: xvfb-run -a python studies/M3D-1S/J7/R33-S27/D46_NATIVE/d46_city_fabric.py /tmp/halo9-d46-base
+      - name: Preserve actual BLEND and 4 images even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D46-CITY-FABRIC-G0-ART-UNREVIEWED
+          path: /tmp/halo9-d46-base/
+          retention-days: 7
+          if-no-files-found: warn
