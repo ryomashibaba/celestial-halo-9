@@ -1,0 +1,36 @@
+{
+  "stage": "D33",
+  "date_jst": "2026-10-29",
+  "decision": "TECH LIMITED PASS / ART REJECT",
+  "artistically_approved": false,
+  "formal_adoptions": 0,
+  "minecraft_construction": "HOLD",
+  "city_master_3d_complete": false,
+  "git_main_head_before": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "parent_d32_head": "7c3d1d035623ccfb8ba821f0a3021dd609937af1",
+  "source_glb_sha256": "de22d39228c59683f5d73cec23f9c5868106e6bce58aede672c212f1ce2cbf60",
+  "edited_glb_sha256": "fd01ea1f7fc1db003c83597432e7fa861c56fa5d5a0950c9422f126dc82ed3fc",
+  "mesh_count_each": 3,
+  "triangles_each": 32436,
+  "editable_cage_points": 147,
+  "independent_replay_both_sha_match": true,
+  "actual_browser_test": "PASS for local HTML + FastAPI-testclient-shim, VTK fallback 6 views; WebGL disabled",
+  "real_3d_rotation_in_chromium_certified": false,
+  "known_unbuilt": [
+    "inhabited rooms",
+    "continuous public paths",
+    "special buildings",
+    "multi-district city",
+    "full interiors"
+  ],
+  "artefacts_on_github": [
+    "D33 code",
+    "CAGE JSON",
+    "review",
+    "summary JSON",
+    "README",
+    "audit JSON",
+    "tests"
+  ],
+  "binary_models_on_github": false
+}

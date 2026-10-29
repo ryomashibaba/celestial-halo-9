@@ -1,0 +1,25 @@
+{
+  "sha256": "fd01ea1f7fc1db003c83597432e7fa861c56fa5d5a0950c9422f126dc82ed3fc",
+  "mesh_count": 3,
+  "triangles": 32436,
+  "geometry": {
+    "MAIN_SHEAR": {
+      "verts": 5408,
+      "triangles": 10812,
+      "watertight": true,
+      "volume": 82103371.141
+    },
+    "HANGING_CROWN": {
+      "verts": 5408,
+      "triangles": 10812,
+      "watertight": true,
+      "volume": 106336781.8182
+    },
+    "LOWER_BUTTRESS": {
+      "verts": 5408,
+      "triangles": 10812,
+      "watertight": true,
+      "volume": 2080279.2777
+    }
+  }
+}

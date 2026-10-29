@@ -1,0 +1,22 @@
+{
+  "server_state_200": true,
+  "edit_200": true,
+  "changed_export": true,
+  "source_immutable": true,
+  "base_export_watertight": true,
+  "all_triangle_counts": true,
+  "glb_real_readback": true,
+  "export_hash_match": true,
+  "cage_match": true,
+  "replay_independent_sha256": true,
+  "reject_stale_revision": true,
+  "reject_unknown_mesh": true,
+  "reject_large_move": true,
+  "reject_negative_handle": true,
+  "undo_200": true,
+  "undo_exact_controls": true,
+  "undo_source_immutable": true,
+  "undo_glb_equal_base": true,
+  "export_revision_2": true,
+  "all_pass": true
+}

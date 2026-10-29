@@ -1,0 +1,163 @@
+{
+  "study": "R33-S27-D33",
+  "type": "art-directed freeform control cages / NOT FORMAL DESIGN",
+  "working_file_source": "D33_sculpt.py",
+  "art": "REJECT, uninhabited abstract sculpture",
+  "base_art_adopted": false,
+  "independent_process_exit": 0,
+  "independent_stdout": "BASE {'sha256': 'de22d39228c59683f5d73cec23f9c5868106e6bce58aede672c212f1ce2cbf60', 'mesh_count': 3, 'triangles': 32436, 'geometry': {'MAIN_SHEAR': {'verts': 5408, 'triangles': 10812, 'watertight': True, 'volume': np.float64(66552885.9451)}, 'HANGING_CROWN': {'verts': 5408, 'triangles': 10812, 'watertight': True, 'volume': np.float64(83033017.4583)}, 'LOWER_BUTTRESS': {'verts': 5408, 'triangles': 10812, 'watertight': True, 'volume': np.float64(11916089.6736)}}}\nEDIT {'sha256': 'fd01ea1f7fc1db003c83597432e7fa861c56fa5d5a0950c9422f126dc82ed3fc', 'mesh_count': 3, 'triangles': 32436, 'geometry': {'MAIN_SHEAR': {'verts': 5408, 'triangles': 10812, 'watertight': True, 'volume': np.float64(82103371.141)}, 'HANGING_CROWN': {'verts': 5408, 'triangles': 10812, 'watertight': True, 'volume': np.float64(106336781.8182)}, 'LOWER_BUTTRESS': {'verts': 5408, 'triangles': 10812, 'watertight': True, 'volume': np.float64(2080279.2777)}}}\n",
+  "independent_stderr": "",
+  "glb_replay_sha": {
+    "BASE": {
+      "original": "de22d39228c59683f5d73cec23f9c5868106e6bce58aede672c212f1ce2cbf60",
+      "independent": "de22d39228c59683f5d73cec23f9c5868106e6bce58aede672c212f1ce2cbf60",
+      "match": true
+    },
+    "EDIT": {
+      "original": "fd01ea1f7fc1db003c83597432e7fa861c56fa5d5a0950c9422f126dc82ed3fc",
+      "independent": "fd01ea1f7fc1db003c83597432e7fa861c56fa5d5a0950c9422f126dc82ed3fc",
+      "match": true
+    }
+  },
+  "real_glb": {
+    "BASE": {
+      "geometry_count": 3,
+      "triangle_count": 32436,
+      "watertight_per_mesh": {
+        "MAIN_SHEAR": true,
+        "HANGING_CROWN": true,
+        "LOWER_BUTTRESS": true
+      },
+      "bounds": [
+        [
+          -905.498,
+          -542.183,
+          -201.611
+        ],
+        [
+          1124.462,
+          735.663,
+          1857.39
+        ]
+      ],
+      "volume_by_mesh_m3": {
+        "MAIN_SHEAR": 66552888.41,
+        "HANGING_CROWN": 83033004.71,
+        "LOWER_BUTTRESS": 11916091.46
+      },
+      "no_certification_of_selfintersections": true,
+      "interior_accessible": false,
+      "walkable_civic_route": false,
+      "multi-district_city": false
+    },
+    "EDIT": {
+      "geometry_count": 3,
+      "triangle_count": 32436,
+      "watertight_per_mesh": {
+        "MAIN_SHEAR": true,
+        "HANGING_CROWN": true,
+        "LOWER_BUTTRESS": true
+      },
+      "bounds": [
+        [
+          -905.46,
+          -543.108,
+          -201.611
+        ],
+        [
+          1124.462,
+          735.711,
+          1858.08
+        ]
+      ],
+      "volume_by_mesh_m3": {
+        "MAIN_SHEAR": 82103356.12,
+        "HANGING_CROWN": 106336775.23,
+        "LOWER_BUTTRESS": 2080276.66
+      },
+      "no_certification_of_selfintersections": true,
+      "interior_accessible": false,
+      "walkable_civic_route": false,
+      "multi-district_city": false
+    }
+  },
+  "views": {
+    "01_south": {
+      "changed_pixels_percent": 5.205,
+      "base_nonempty": true,
+      "edit_nonempty": true
+    },
+    "02_east": {
+      "changed_pixels_percent": 3.652,
+      "base_nonempty": true,
+      "edit_nonempty": true
+    },
+    "03_north": {
+      "changed_pixels_percent": 1.61,
+      "base_nonempty": true,
+      "edit_nonempty": true
+    },
+    "04_west": {
+      "changed_pixels_percent": 2.226,
+      "base_nonempty": true,
+      "edit_nonempty": true
+    },
+    "05_aerial": {
+      "changed_pixels_percent": 3.792,
+      "base_nonempty": true,
+      "edit_nonempty": true
+    },
+    "06_human": {
+      "changed_pixels_percent": 3.848,
+      "base_nonempty": true,
+      "edit_nonempty": true
+    }
+  },
+  "automated_editor_tests": {
+    "server_state_200": true,
+    "edit_200": true,
+    "changed_export": true,
+    "source_immutable": true,
+    "base_export_watertight": true,
+    "all_triangle_counts": true,
+    "glb_real_readback": true,
+    "export_hash_match": true,
+    "cage_match": true,
+    "replay_independent_sha256": true,
+    "reject_stale_revision": true,
+    "reject_unknown_mesh": true,
+    "reject_large_move": true,
+    "reject_negative_handle": true,
+    "undo_200": true,
+    "undo_exact_controls": true,
+    "undo_source_immutable": true,
+    "undo_glb_equal_base": true,
+    "export_revision_2": true,
+    "all_pass": true
+  },
+  "chromium_ui_test": {
+    "result": "PASS_WITH_TRANSPORT_SHIM_AND_VTK_FALLBACK",
+    "method": "real Chromium + actual D33 HTML/Plotly + real FastAPI TestClient; local HTTP transport intercepted due to runtime policy",
+    "webgl_supported": false,
+    "fallback_images": 6,
+    "glb_triangles": 32436,
+    "base_revision": 0,
+    "edit_revision": 1,
+    "undo_revision": 2,
+    "fallback_images_after_toggle": 6,
+    "browser_errors": [],
+    "limitation": "Chromium direct localhost access is not certified"
+  },
+  "work_used": false,
+  "blender_native_tested": false,
+  "minecraft_world_modified": false,
+  "main_modified": false,
+  "central_art_adoptions": 0,
+  "limitations": [
+    "Only 3 visual surface-shell geometries, no rooms and public routes",
+    "Watertight meshes do not imply non-selfintersecting geometry or safety",
+    "WebGL interactive 3D orbit and point click were not certified by headless Chromium due to WebGL unavailable",
+    "Browser API tested by FastAPI shim because localhost connection denied",
+    "Closed code-tested control-cage operation, not Blender native sculpt or master city"
+  ]
+}

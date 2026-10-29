@@ -1,0 +1,13 @@
+{
+  "result": "PASS_WITH_TRANSPORT_SHIM_AND_VTK_FALLBACK",
+  "method": "real Chromium + actual D33 HTML/Plotly + real FastAPI TestClient; local HTTP transport intercepted due to runtime policy",
+  "webgl_supported": false,
+  "fallback_images": 6,
+  "glb_triangles": 32436,
+  "base_revision": 0,
+  "edit_revision": 1,
+  "undo_revision": 2,
+  "fallback_images_after_toggle": 6,
+  "browser_errors": [],
+  "limitation": "Chromium direct localhost access is not certified"
+}
