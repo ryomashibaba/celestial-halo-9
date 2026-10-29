@@ -1,48 +1,57 @@
-# D47-R1 local civic section — genuine five-view G0 art review
+# CELESTIAL HALO-9 — D47-R1 真正5視点 G0美術審査
 
-**Date:** 2026-10-30 JST  
-**Scope:** isolated 1.5 km-scale sectional test, NOT full M247-C or 10 km master  
-**Source branch:** `research/r33-s27-d47-r1-spatial-civic-20261030`  
-**CI:** https://github.com/ryomashibaba/celestial-halo-9/actions/runs/40956759251  
-**Real evidence:** `D47_R1_EVIDENCE/D47_R1_NATIVE_ART_UNREVIEWED.zip`  
-**Evidence ZIP SHA256:** `12c2a5cf558527fdfdf9460fb019391deae87ab390482a5d1a02006114e51298`
+**基準日：** 2026年10月30日 JST  
+**対象：** 約1.5km規模の公共・居住建築区画の隔離試作。M247-C中央全体・10km統合マスターではない。  
+**研究ブランチ：** `research/r33-s27-d47-r1-spatial-civic-20261030`  
+**真正実行CI：** https://github.com/ryomashibaba/celestial-halo-9/actions/runs/40956759251  
+**原本：** `D47_R1_EVIDENCE/D47_R1_NATIVE_ART_UNREVIEWED.zip`  
+**ZIP SHA256：** `12c2a5cf558527fdfdf9460fb019391deae87ab390482a5d1a02006114e51298`
 
-## Explicitly separate outcomes
+## 1. 正式判定
 
-- **Native technical proof: LIMITED PASS.** Genuine Blender 4.5.15 LTS generated editable BLEND, GLB and five PNGs; independent reopen of the BLEND and reimport of the GLB both passed; 44 mesh objects before/after import. This proves saved mesh existence, not urban use or art.
-- **G0 ART: REJECT.** All five actual images were inspected after the CI success.
-- **Functional circulation: NOT VERIFIED.** A continuous named ground mesh spans the approach and chamber, but neither pedestrian clearance, intermediate floor connection, station usability, stair/lift service, nor accessible entrance has been independently certified.
-- **M247-C formal adoption: NONE.** The central research direction remains protected, formal central art adoption count remains zero.
-- **Master and Minecraft: NOT COMPLETE / CONSTRUCTION HOLD.**
-- **Visual direct editing: NOT PROVEN.** This was headless Blender batch creation. It was not GUI direct editing and the saved mesh was not revised based on render feedback.
+- **真正3Dの技術：限定PASS。** Blender 4.5.15 LTSで編集可能BLEND・GLB・同一シーンの5視点PNGを生成。別プロセスでBLEND再読込、GLB再取込に成功。双方でメッシュ物体44件を確認。ただしこれは建築機能・美術の成功を証明しない。
+- **G0美術：ART REJECT。** CIの成功後、5枚の実画像を直接観察して判定した。美術採択を行わない。
+- **人間の通行・建築機能：未検証。** 地上街路メッシュの前後方向の存在は検証したが、床同士の連絡、クリアランス、階段・昇降機、駅や図書館の使用可能性は未証明。
+- **正式M247-C中央美術採択：0件のまま。**
+- **全10kmマスター：未完成。正式Minecraft施工：HOLD。**
+- **GUI直接視覚編集：未実証。** 今回はヘッドレスBlenderでの新規一括制作。保存済みメッシュの観察後直接改変は行っていない。
 
-## Five actual views — grounded art criticism
+## 2. 真正5視点の具体的評価
 
-1. **01_city.png — REJECT.** Two separate, low-profile sheet-roof/podium assemblies dominate the composition. They resemble temporary station models rather than a monumental inhabited interdependent urban complex. There is no kilometer-scale ascent or central civic organism.
-2. **02_approach.png — REJECT.** Flat approach and large dark canopy fragments dominate. The entrance is not legible as a convincing urban arrival; narrow posts and floating slabs occupy the scene. Civic functions are not readable.
-3. **03_civic_interior.png — REJECT.** The room reads as an empty unlit service void bounded by disconnected thin floors, a beam-like crossing, pillars and blank canopy undersides. The named library, museum and transit functions are not demonstrably occupied architectural volumes.
-4. **04_oblique.png — REJECT.** The WEST side is stacked balcony-like floors and intermittent slabs with poles; the EAST side is a roof above an open plane. The old D46 floor/shelf vocabulary visibly recurs, though with fewer objects.
-5. **05_east_side.png — REJECT.** The station side is a large folded roof plus single slab on thin supports, without inhabited architectural thickness or a spatially readable station interior.
+| 実画像 | 視覚的な問題 | 判定 |
+|---|---|---|
+| `01_city.png` | 低い二つの屋根・薄板床の分離した構成。都市級巨大建築の圧倒的な主役性、上昇感、複雑な居住構造がない。仮の駅模型のように見える。 | ART REJECT |
+| `02_approach.png` | 平板な地上導入と暗い大屋根が支配。入口を生活都市への豊かな進入として認識しにくい。支柱と薄板が目立つ。 | ART REJECT |
+| `03_civic_interior.png` | 大きな暗い空隙と梁状の橋、少数の柱、平板な上部構造。図書館、博物館、駅の独立した室・生活密度が読めず、人間が利用する巨大公共室の説得力が不足。 | ART REJECT |
+| `04_oblique.png` | 西側は段状床・柱・断片壁、東側は屋根と大床。D46で不採用となった棚・薄板文法が別の形で再発。 | ART REJECT |
+| `05_east_side.png` | 屋根と厚みの乏しい床が細い支柱で支えられ、駅の実在する内部都市や建築母体として成立していない。 | ART REJECT |
 
-**Root cause:** The conceptual plan changed, but the implementation still constructs the architecture primarily from `slab`, `pipe`, isolated `extrude`, and single-layer `roof` elements. Naming a slab "library," a roof "station," or a post "lift support" does not create the related room, circulation, occupied volume, entrance, or architecture. The two programs sit beside the void instead of sharing a genuinely complex inhabitable section. This is the same underlying procedural simplification that D40–D47 were supposed to escape.
+この判定は実画像の観察に基づく美術判断であり、数値だけで自動合否を決めたものではない。
 
-**What was genuinely learned:** A single source scene can contain named independent functional research components, distinct camera views, and a reversible native asset with CI-backed provenance. That is useful technical evidence. It does **not** validate the architectural method or demonstrate a quality advance.
+## 3. 根本原因
 
-## Decision: STOP, do not cosmetically edit this shape
+「公共室・地上入口・図書館・駅を同時に設計する」という文章上の方針は変更したが、実装は依然として `slab`（床板）、`pipe`（細柱）、`extrude`（局所的な壁ブロック）、`roof`（一枚の屋根面）の合成に依存した。
 
-- No EDIT1/EDIT2 on this G0, no bulk details, windows, lighting rescue, architectural adoption, W0/canonical placement or Minecraft writes.
-- Keep the genuine rejected proof and hash on this isolated branch as permanent research evidence.
-- Do not weaken the full CITY MASTER 3D FIRST or M247-C constitution.
+**名前だけの公共機能を実空間と誤認したことが最大の失敗である。** 床を「図書館」、板を「駅コンコース」、棒を「リフト位置」と命名しても、実際に入れる室、通路、出入口、内部意匠、空間の密度、階間接続は成立しない。
 
-## Corrective gate for the next independent approach (design proposal, not execution)
+屋根と居住都市が相互依存する一つの建築断面になっていない。結果としてD40〜D47の主要な欠陥である「AIが作りやすい単純な部品から外観を決める」方式が再発した。形状数を減らすことも、用途ラベルを増やすことも根本改善とはならない。
 
-**Before another far-view giant form:** design and model one *actually enclosed and connected* public architectural sequence with programmatic verification, not a collection of named platforms.
+**得られた限定的価値：** 公共機能別に独立編集できる実メッシュ44件を作り、真正5視点、BLEND/GLB再読込、SHA256つき原本保存が再現可能と示した。ただし美術品質が改善した証拠ではない。
 
-1. **Function-space dependency:** A library, museum and transit interchange must each expose actual enclosed or intentionally open room volumes, accessible real openings, measured usable clearances, meaningful walls/roof interfaces, and distinct human-scale spatial identity. A mesh name never counts as a feature.
-2. **Chamber-space dependency:** The major public chamber must have physical boundaries with inhabited galleries, public room entries and a clear path from exterior to interior. Roof and habitable wall must emerge from the same architectural cross section; avoid independent shells.
-3. **Connection proof:** Every graph edge between plaza, main hall, galleries and station needs a physical passage, stair/escalator/ramp or lift at its actual elevation, including clearance and obstruction audit. Mark unverified edges clearly.
-4. **Composition test:** First prove three actual perspectives: human eye at public entrance, occupied room looking into chamber, and far oblique. The subject must appear as a coherent designed urban architectural complex at both human and monumental scale, not roof plus platform.
-5. **Method test:** Record explicit mesh faces/vertices changed after observing a real view, then re-render from the identical camera. If all geometry is regenerated from scratch, do not claim visual-direct-edit success.
-6. **10 km context:** Keep a visibly provisional W0/H/SB context study in parallel, but never present empty markers or simple context primitives as completed H1–H6 or SB01–SB16.
+## 4. 決定：現形状の詳細化STOP
 
-**Next stage status:** a fundamentally new architectural production method is required. This rejected branch is not a suitable base for detail rescue. No new art PASS, no claimed increase in city completion fraction.
+1. 今回の形状に対するEDIT1/EDIT2、窓・照明・住戸の大量追加、装飾救済を実施しない。
+2. 今回の編集可能原本、実画像、失敗理由、ハッシュを隔離研究ブランチに保存し続ける。
+3. この形状を正式中央美術として採択しない。
+4. main・M247-C正式研究方向・CITY MASTER 3D FIRST・原本・Minecraft施工HOLDを変更しない。
+
+## 5. 次の別方式に必要な実証ゲート（提案・未実行）
+
+- **空間の実体を先に証明する。** 図書館・博物館・駅について、床だけでなく、用途に応じた壁・屋根・室容積・実開口・実通路が確認できる設計にする。単に名前で機能を主張しない。
+- **公共室と周辺建築の相互依存を証明する。** 数百m級公共室の実境界を周辺の居住・公共建築が形成し、別個の巨大外殻で塞がない。
+- **交通の実在性を証明する。** 広場→入口→公共室→歩廊→駅の各接続に具体的な実メッシュの通路・垂直移動設備・クリアランスを設け、独立QAを行う。
+- **人間尺度と巨大尺度を同時に評価する。** 入口視点、室内視点、都市遠景から、生活機能が一つの巨大建築美術へ統合されたか観察する。
+- **編集ループを本当に変える。** 実画像で問題箇所を特定して、保存済みBLENDの面・頂点を改変し、同条件で再撮影する。新モデル再生成だけを直接編集成功と呼ばない。
+- **全域の義務を保持する。** W0、H1〜H6、SB01〜SB16、三大都市軸、V1〜V3の主従関係を仮研究として並行検証。仮の床・マーカーを完成した地区や施設と呼ばない。
+
+**次の工程は、単純床・支柱・屋根の新しい配置案ではなく、実際に内部に入れる建築の連続空間から形態を生む制作方法への変更を要する。** 3D実制作能力は技術的に確認できたが、品質飛躍は未実証である。
