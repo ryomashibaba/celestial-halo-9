@@ -1,0 +1,126 @@
+{
+  "D31_ART_GATE.json": {
+    "sha256": "27f28aca0afcc75ad8657f2589680138c131e88bdd037f71a1136afd6164c765",
+    "bytes": 925
+  },
+  "D31_AUDIT_LOG.txt": {
+    "sha256": "ab55bf8e0e86be554963472e11df9d68b924040b38da48a97defedc8e64bdcb9",
+    "bytes": 891
+  },
+  "D31_A_7views.jpg": {
+    "sha256": "c5b9db60b2211486849525e9682467fd6ab1e529336a8093df7c3b3a13d6f3b4",
+    "bytes": 111598
+  },
+  "D31_A_B_REAL_VIEW_COMPARE.jpg": {
+    "sha256": "60adb9309cb175ddb08a302305c17608ddbbc8d6ea68c068b2cf19200680c9fc",
+    "bytes": 190115
+  },
+  "D31_A_CAD_EXACT.step": {
+    "sha256": "2c3eaf2e293c1983a1debd6b5dba3fed26fd0ede231133a6d4506d1201746c10",
+    "bytes": 262609
+  },
+  "D31_A_aerial.png": {
+    "sha256": "7b45457a41448ab8cd405e5c246c203bda45c69b70a0df911ef00e4879c6ed62",
+    "bytes": 8051
+  },
+  "D31_A_east_oblique.png": {
+    "sha256": "b48d1da5dc68c5ae9ae82f29a0204ea40f1e1bc7ba296d33ccb0f490dc0849be",
+    "bytes": 7211
+  },
+  "D31_A_front.png": {
+    "sha256": "f61cc7e2d454551dcc155069d7527ac67414256a51860d005b16b01f44507678",
+    "bytes": 6718
+  },
+  "D31_A_human_canyon.png": {
+    "sha256": "f5eab99913c95294dd551733f4b6623318a6ee6ab13d1b828265b175c8a0266d",
+    "bytes": 8902
+  },
+  "D31_A_real3d.glb": {
+    "sha256": "58466ece54958740b8f880e273a7b340677677301e7f0752a08d6a723f9316fc",
+    "bytes": 12784
+  },
+  "D31_A_rear.png": {
+    "sha256": "e95edbf8acdbd759b7dbbcd3e36d613b33504836378dc00225b3b2dc6c71e678",
+    "bytes": 7137
+  },
+  "D31_A_side.png": {
+    "sha256": "a29a291652cea16875704ef4b05f2f4d0e9a7f551337991b6017b04ffb32b887",
+    "bytes": 3453
+  },
+  "D31_A_west_oblique.png": {
+    "sha256": "b7ce869475ccc5a8689f1470bba042b2082c63aaa443bea48aa4aaae615aa163",
+    "bytes": 7367
+  },
+  "D31_B_7views.jpg": {
+    "sha256": "a50b29323fa139e9072d73b1c797c1ab3a824d2217290f2b079156541c92c99f",
+    "bytes": 111627
+  },
+  "D31_B_CAD_EXACT.step": {
+    "sha256": "385046e1b9233269d995d68ee031b66e9a8927052e3188f17d046310ad9e65a7",
+    "bytes": 251626
+  },
+  "D31_B_aerial.png": {
+    "sha256": "e00ee3a2b309cd784344313f5fc74121adb04b0c4ce17f9954e3a07e3483276a",
+    "bytes": 8218
+  },
+  "D31_B_east_oblique.png": {
+    "sha256": "fa0f7b707cc01bc347ec406b0c54afa4b79ad3480f18b92bb16dcdec40c4efa1",
+    "bytes": 7019
+  },
+  "D31_B_front.png": {
+    "sha256": "a713d0d89d475a924fb401b5451a7ed01cc487aee11238523c72595fc01356fc",
+    "bytes": 6504
+  },
+  "D31_B_human_canyon.png": {
+    "sha256": "a8782df00ef32fc6499bcfe2220f5fc8eaafefd83f063d492803d6b912feaf7e",
+    "bytes": 8357
+  },
+  "D31_B_real3d.glb": {
+    "sha256": "0551fd4971164730270a0a024e8d36d366a37bc6dc06dba2d45ce58bf4d4eb4f",
+    "bytes": 12352
+  },
+  "D31_B_rear.png": {
+    "sha256": "9a6b0280ceac16bef12b0ab6bd3164779fb5e7c5860c415c00da9f81472ea2c7",
+    "bytes": 6883
+  },
+  "D31_B_side.png": {
+    "sha256": "a2da98a29e3b9da8cbf208a3475a18b3fa2d45245e74fff1fa88cf09b97ef4d1",
+    "bytes": 3446
+  },
+  "D31_B_west_oblique.png": {
+    "sha256": "ac24dcf0a813df2c3bdcc5e98bf99fa9dfa1981d097c9a604f61df04946ea075",
+    "bytes": 7211
+  },
+  "D31_EVIDENCE_SUMMARY.json": {
+    "sha256": "a46c6d087d64607ddbcf86be8ca76fee53b669a7bcf13d0dab640a7a34727c0a",
+    "bytes": 3294
+  },
+  "D31_GENERATION_LOG.txt": {
+    "sha256": "a516997a21386994507f92bb15a37da108df9630f7b5c4d5ec8acc72ff821bd8",
+    "bytes": 972
+  },
+  "D31_INDEPENDENT_QA.json": {
+    "sha256": "8324c1f68a7b7e0285d7589d41817e36ac44cfd3fdd5e907b5e744c47145970a",
+    "bytes": 3833
+  },
+  "D31_INITIAL_QA.json": {
+    "sha256": "65386d6abaeb9ff6d927a42ce8a31b28f3a856c3b9bdf61c6d9417dbc9ce054b",
+    "bytes": 864
+  },
+  "D31_REVIEW_JA.md": {
+    "sha256": "e4db164add8ace5996f6bce68776ed8b6064b0a84329bf7d69115fe3ef3b8c20",
+    "bytes": 8314
+  },
+  "README_D31_JA.md": {
+    "sha256": "1c20cad6016a3e946f75073e9b15c4c54eb4b69adcc41aeb4028be45faf8f3d5",
+    "bytes": 985
+  },
+  "d31_cad_artfirst.py": {
+    "sha256": "882e484504d982aff559bf4d0a64e3e30256107649193be65f308ac1aef8c202",
+    "bytes": 7128
+  },
+  "d31_independent_audit.py": {
+    "sha256": "9db55efbe85ae390ce9eaa9a7d49f50da12661afc0dfb12719db4c474306e0da",
+    "bytes": 5656
+  }
+}
