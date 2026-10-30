@@ -1,0 +1,32 @@
+{
+  "research_stage": "R17 E0B",
+  "geometric_source_sha256": "eb5f1b177cca954cdc2f93b8c36cd858ac6f1568fd1987767a904d689c8539e7",
+  "signed_source_archive_sha256": "f23b517efaceb97d3049fffa5beaf1940b30a7f21a2b276acc7dbd3239f8eaba",
+  "independent_library": "trimesh + shapely, GLB scene geometry and transforms",
+  "source_generation": {
+    "status": "TECH_LIMITED_PASS",
+    "editable_native_3D": true,
+    "floor_decks_confirmed": 15,
+    "ten_views_source_verified_in_previous_GitHub_CI": true
+  },
+  "architectural_functional_negative_gate": {
+    "status": "FAIL",
+    "stair_source_mesh_name": "168_ACTUAL_SINGLE_CONNECTED_STAIR_TREADS",
+    "claimed_tread_count": 168,
+    "actual_disconnected_stair_components": 168,
+    "triangles": 336,
+    "stair_mesh_watertight": false,
+    "separate_riser_geometry_found": false,
+    "guardrails_found": false,
+    "lift_to_unserved_levels_found": false,
+    "ground_entry_court_real_overlap_area_square_m": 509.669,
+    "entry_ground_overlap_exists": true,
+    "room_to_room_public_access_certified": false,
+    "stairs_continuous_loadbearing_structure_certified": false,
+    "upper_levels_accessibility_certified": false,
+    "corrective_note": "The named one-object stair is 168 disconnected tread quads. Do NOT call it structurally connected. At least all unserved upper tiers remain uncertified."
+  },
+  "visual_10_view_human_review": "ART REJECT: parking garage/arena-like repetitive gallery, generic massing, neither α/β nor high-city culture legible",
+  "formal_city_master_approved": false,
+  "minecraft_write": false
+}
