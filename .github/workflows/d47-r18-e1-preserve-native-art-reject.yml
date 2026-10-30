@@ -1,0 +1,70 @@
+name: HALO9 D47 R18 E1 preserve rejected real native prototype in isolated branch
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e1-civic-void-art-20261030
+    paths:
+      - '.github/workflows/d47-r18-e1-preserve-native-art-reject.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  archive-existing-real-e1-g0-not-new-model:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          run-id: 41066891031
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-R18-E1-FIRST-3-TRUE-ART-VIEWS-AND-BLEND-GLB
+          path: /tmp/r18-e1-original
+      - name: Verify unchanged original model and archive all negative-art evidence
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,zipfile,hashlib
+          src=Path('/tmp/r18-e1-original')
+          manifest=json.loads((src/'R18_E1_G0_MANIFEST.json').read_text())
+          assert manifest['ART_APPROVAL'] is False
+          assert manifest['MINECRAFT_WRITE'] is False
+          names=['R18_E1_REAL_EDITABLE_CIVIC_LIGHT_CHASM.blend',
+             'R18_E1_REAL_CIVIC_LIGHT_CHASM.glb',
+             'R18_E1_G0_MANIFEST.json',
+             'R18_E1_INDEPENDENT_SOURCE_AUDIT.json']+manifest['files']['cameras']
+          assert len(names)==7
+          assert all((src/x).is_file() and (src/x).stat().st_size>100 for x in names)
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R18_E1_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          z=out/'R18_E1_G0_REAL_BLENDER_3VIEW_ART_REJECT_SOURCE.zip'
+          with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as f:
+            for name in names:f.write(src/name,arcname=name)
+          item={
+            'source_run':41066891031,
+            'source_artifact':12982289690,
+            'sha256_zip':hashlib.sha256(z.read_bytes()).hexdigest(),
+            'contents_sha256':{n:hashlib.sha256((src/n).read_bytes()).hexdigest() for n in names},
+            'technical':'LIMITED_PASS','art':'REJECT','function':'UNCERTIFIED',
+            'canonical_adoption':False,'city_master_complete':False,'minecraft_write':False
+          }
+          (out/'R18_E1_G0_ART_REJECT_SOURCE_HASHES.json').write_text(json.dumps(item,indent=2))
+          print('R18_E1_ARCHIVED_REJECTED_REAL_3D',item['sha256_zip'])
+          PY
+      - name: Nonforce research-only push, do not write main or other branches
+        env:
+          TARGET: research/r33-s27-d47-r18-e1-civic-void-art-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name "halo9-r18-art-evidence"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R33-S27/D47_R18_E1_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m "R18 E1 preserve genuine rejected BLEND GLB and 3 views, ART not approved"
+          for attempt in 1 2 3; do
+            git fetch origin "$TARGET"
+            git rebase "origin/$TARGET" || exit 1
+            if git push origin "HEAD:refs/heads/$TARGET"; then exit 0; fi
+            sleep 2
+          done
+          exit 1
