@@ -92,7 +92,9 @@ jobs:
           glb={x.name for x in bpy.data.objects if x.type=='MESH'}
           assert glb==set(new)
           fold=bpy.data.objects[target]
-          assert len(fold.data.polygons)==38
+          # GLB triangulates the native 38 polygons into 80 triangle faces.
+          assert len(fold.data.polygons)==80
+          assert all(len(face.vertices)==3 for face in fold.data.polygons)
           changed=[]
           for n in ['01_HUMAN_ARRIVAL','02_HUMAN_CULTURAL_ATLAS','03_WEST_ARCHIVE_VIEW','04_CITY_ANGLED','05_CITY_REAR']:
               before=a/('BEFORE_'+n+'.png');after=b/('AFTER_'+n+'.png')
