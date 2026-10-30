@@ -1,0 +1,126 @@
+name: HALO9 R13 single human-usable civic-room geometry and eight-view G0
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r13-inhabited-civic-room-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R13_NATIVE/**'
+      - '.github/workflows/d47-r13-real-civic-room.yml'
+permissions:
+  contents: write
+jobs:
+  native-architectural-single-room:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real Blender LTS and rendering libraries
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Render single genuine inhabited spatial section from original authored footprints
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R13_NATIVE/r13_real_civic_public_room.py /tmp/r13
+      - name: Independent saved-native reopen, real public components and GLB triangles
+        run: |
+          python - <<'PY'
+          import bpy,json,hashlib
+          from pathlib import Path
+          from PIL import Image
+          p=Path('/tmp/r13')
+          x=json.loads((p/'R13_E0_MANIFEST.json').read_text())
+          assert x['scope'].startswith('one self-contained')
+          assert x['actual_public_gallery_rooms']==9
+          assert not x['canonical_art_adopted']
+          assert not x['minecraft_write']
+          assert len(x['real_images'])==8
+          for n in x['real_images']:
+            f=p/n
+            assert f.stat().st_size>1500
+            with Image.open(f) as image:
+              assert image.size==(1200,760),n
+          blend=p/x['native_blend'];glb=p/x['source_glb']
+          assert blend.stat().st_size>10000 and glb.stat().st_size>10000
+          bpy.ops.wm.open_mainfile(filepath=str(blend))
+          assert bpy.context.scene.get('R13_ART_ADOPTED') is False
+          objs=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(objs)==x['actual_3D_mesh_count'] and len(objs)>80
+          pub=[o for o in objs if 'REAL PUBLIC' in o.name or 'PUBLIC_WALK' in o.name]
+          assert len(pub)>=9,(len(pub),[o.name for o in pub])
+          assert bpy.data.objects.get('G00_PUBLIC_COURT_GROUND')
+          cam=[o for o in bpy.data.objects if o.type=='CAMERA']
+          assert len(cam)==8
+          tris=sum(sum(len(f.vertices)-2 for f in o.data.polygons) for o in objs)
+          names={o.name for o in objs}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          new=[o for o in bpy.data.objects if o.type=='MESH']
+          assert {o.name for o in new}==names
+          assert sum(sum(len(f.vertices)-2 for f in o.data.polygons) for o in new)==tris
+          q={'technical_status':'SAVED_NATIVE_AND_GLTF_TECH_LIMITED_PASS',
+            'art':'NOT_YET_VISUALLY_REVIEWED','actual_rooms':9,
+            'source_objects':len(objs),'glb_objects':len(new),
+            'matching_triangulated_faces':tris,
+            'human_wayfinding_complete':False,'art_adopted':False,
+            'full_10km_master':False,'minecraft_write':False}
+          (p/'R13_E0_INDEPENDENT_AUDIT.json').write_text(json.dumps(q,indent=2))
+          print('R13_E0_GENUINE_ARCHITECTURAL_ROOM_TECH_LIMITED_PASS',q)
+          PY
+      - name: Preserve original BLEND, GLB and all true pictures regardless of validation result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R13-SINGLE-CIVIC-ROOM-8-TRUE-RENDERS-UNREVIEWED
+          path: /tmp/r13
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive visual G0 proof on isolated R13 branch
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile,hashlib,json
+          p=Path('/tmp/r13')
+          target=Path('studies/M3D-1S/J7/R33-S27/D47_R13_EVIDENCE')
+          target.mkdir(parents=True,exist_ok=True)
+          filenames=['R13_E0_ACTUAL_SINGLE_CIVIC_ROOM.blend',
+                    'R13_E0_ACTUAL_SINGLE_CIVIC_ROOM.glb',
+                    'R13_E0_MANIFEST.json','R13_E0_INDEPENDENT_AUDIT.json']
+          filenames.extend(f'{i:02d}_{n}.png' for i,n in enumerate(
+                    ['LONG_APPROACH','FRONT','SIDE','REAR','AERIAL','GROUND_PUBLIC',
+                     'INSIDE_LIBRARY','SKY_OVERLOOK'],1))
+          assert len(filenames)==12
+          zip_file=target/'R13_E0_SINGLE_REAL_CIVIC_ROOM_8VIEW_G0.zip'
+          with zipfile.ZipFile(zip_file,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as f:
+            for name in filenames:
+              assert (p/name).stat().st_size>100,name
+              f.write(p/name,name)
+          checksums={'archive_sha256':hashlib.sha256(zip_file.read_bytes()).hexdigest(),
+            'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in filenames},
+            'art_approved':False,'original_main_modified':False}
+          (target/'R13_E0_SHA256.json').write_text(json.dumps(checksums,indent=2))
+          print('R13_E0_ARCHIVE_HASH',checksums['archive_sha256'])
+          PY
+      - name: Safe commit to R13 research branch only
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r13-inhabited-civic-room-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r13-single-room-art-review'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R13_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R13 archive actual civic-room architecture and 8 real G0 views, art unreviewed'
+          git fetch origin "$TARGET"
+          git rebase "origin/$TARGET"
+          git push origin "HEAD:refs/heads/$TARGET"
