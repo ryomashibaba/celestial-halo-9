@@ -6,6 +6,9 @@ on:
     paths:
       - 'studies/M3D-1S/J7/R33-S27/D47_R15_NATIVE/**'
       - '.github/workflows/d47-r15-original-d-art-admission.yml'
+concurrency:
+  group: halo9-r15-original-d-visual-art-gate
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -73,6 +76,16 @@ jobs:
               assert sum(len(o.data.vertices) for o in obj)==row['source_mesh_vertices']
               tri=sum(sum(max(1,len(p.vertices)-2) for p in o.data.polygons) for o in obj)
               assert tri==row['source_triangles']
+              # Source Z axis was imported as Blender Y. Normalized viewing
+              # scenes must preserve the original D2-G7 declared height.
+              root_art_height=3.8267 if label=='WET' else 3.0903
+              from mathutils import Vector
+              central=[o for o in obj if not o.name.startswith(
+                 ("10km_study_terrain","north_mountain_peak_",
+                  "west_cliff_face","east_artificial_inland_sea",
+                  "southwest_great_void","urban_context_"))]
+              bounds=[o.matrix_world@Vector(v) for o in central for v in o.bound_box]
+              assert abs((max(v.z for v in bounds)-min(v.z for v in bounds))-root_art_height)<.015
               assert bpy.context.scene.get('R15_canonical_M247_C_adopted') is False
               assert not any(o.hide_render for o in obj)
               cs=[o for o in bpy.data.objects if o.type=='CAMERA']
@@ -138,7 +151,7 @@ jobs:
                   names.append(label+'_'+n+'.png')
           assert len(names)==23
           assert all((p/name).stat().st_size>100 for name in names)
-          archive=out/'R15_D_G7_TRUE_WET_DRY_ORIGINAL_18_VIEWS_ART_UNAPPROVED.zip'
+          archive=out/'R15_D_G7_AUTHOR_ZUP_WET_DRY_18_VIEWS_ART_UNAPPROVED.zip'
           with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
               for name in names:z.write(p/name,name)
           hashes={'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
@@ -160,7 +173,7 @@ jobs:
           # Once a fully verified original has been archived, never compete
           # or force overwrite the research source-of-truth ZIP.
           git fetch origin "$TARGET"
-          if git cat-file -e "FETCH_HEAD:studies/M3D-1S/J7/R33-S27/D47_R15_EVIDENCE/R15_D_G7_TRUE_WET_DRY_ORIGINAL_18_VIEWS_ART_UNAPPROVED.zip" 2>/dev/null; then
+          if git cat-file -e "FETCH_HEAD:studies/M3D-1S/J7/R33-S27/D47_R15_EVIDENCE/R15_D_G7_AUTHOR_ZUP_WET_DRY_18_VIEWS_ART_UNAPPROVED.zip" 2>/dev/null; then
             echo "R15 verified evidence is already archived. Preserving original; no duplicate binary overwrite."
             exit 0
           fi
