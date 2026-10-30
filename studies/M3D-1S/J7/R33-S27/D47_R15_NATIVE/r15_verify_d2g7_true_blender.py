@@ -7,13 +7,26 @@ This is NOT an art pass and NOT a central-city design or source-model edit.
 """
 import bpy, sys, json, hashlib, math
 from pathlib import Path
-from mathutils import Vector
+from mathutils import Vector,Matrix
 from PIL import Image,ImageOps,ImageDraw,ImageFont
 ROOT=Path.cwd()
 OUT=Path(sys.argv[-1]).resolve()
 OUT.mkdir(parents=True,exist_ok=True)
 SRC=ROOT/"source_d"/"studies"/"D2-G7"
 CANDIDATES=[("WET",SRC/"Habitat-Crown-wet.glb"),("DRY",SRC/"Habitat-Crown-dry.glb")]
+# Original trimesh source is Z-up. glTF Blender import in this source's
+# recorded assets produces (x,-z,y) i.e. R_x(+90 degrees). Source GLBs
+# must NOT be modified. Only normalize the imported viewing scene's ROOT
+# transform by inverse Rx(-90), leaving all actual mesh vertices unchanged.
+def source_corrected_import(filepath):
+    bpy.ops.import_scene.gltf(filepath=str(filepath))
+    roots=[o for o in bpy.data.objects if o.parent is None]
+    assert roots,("No source scene roots",filepath)
+    inverse=Matrix.Rotation(-math.pi/2,4,'X')
+    for obj in roots:
+        obj.matrix_world=inverse @ obj.matrix_world
+    return [o for o in bpy.data.objects if o.type=="MESH"]
+
 # The old hard-coded km camera target is NOT a trustworthy framing coordinate
 # after Blender GLB importer applies source node transforms. Independently
 # inspect native object world-space bounds in BOTH seasons first.
@@ -23,13 +36,16 @@ BG_PREFIXES=("10km_study_terrain","north_mountain_peak_",
 season_bbox={}
 for lab,glb in CANDIDATES:
     bpy.ops.wm.read_factory_settings(use_empty=True)
-    bpy.ops.import_scene.gltf(filepath=str(glb))
-    central=[o for o in bpy.data.objects if o.type=="MESH"
+    imported=source_corrected_import(glb)
+    central=[o for o in imported
              and not o.name.startswith(BG_PREFIXES)]
     assert len(central)>=25,(lab,len(central))
     corners=[o.matrix_world@Vector(p) for o in central for p in o.bound_box]
     lo=Vector(tuple(min(v[k] for v in corners) for k in range(3)))
     hi=Vector(tuple(max(v[k] for v in corners) for k in range(3)))
+    # Critical sanity check against D2-G7 author's recorded CENTRAL Z span.
+    expected_height=3.8267 if lab=="WET" else 3.0903
+    assert abs((hi-lo).z-expected_height)<.015,(lab,"Y/Z axis still wrong",list(lo),list(hi))
     season_bbox[lab]={"min":list(lo),"max":list(hi),
                        "span":list(hi-lo),"objects":len(central)}
     print("R15_REAL_NATIVE_WORLD_BOUNDS",lab,season_bbox[lab],flush=True)
@@ -70,9 +86,8 @@ record={}
 for label,source in CANDIDATES:
     assert source.is_file(),source
     bpy.ops.wm.read_factory_settings(use_empty=True)
-    bpy.ops.import_scene.gltf(filepath=str(source))
+    original=source_corrected_import(source)
     scene=bpy.context.scene
-    original=[o for o in bpy.data.objects if o.type=="MESH"]
     assert len(original)>150,(label,len(original))
     vertex_count=sum(len(o.data.vertices) for o in original)
     tri_count=sum(sum(max(1,len(p.vertices)-2) for p in o.data.polygons) for o in original)
@@ -132,6 +147,7 @@ for label,source in CANDIDATES:
     scene["R15_canonical_M247_C_adopted"]=False
     scene["R15_central_city_10km_completed"]=False
     scene["R15_original_D_source_unchanged"]=True
+    scene["R15_display_axis_normalization"]="source trimesh Z-up restored from imported glTF (x,-z,y) via root Rx(-90), original GLB bytes and vertices unchanged"
     scene["R15_visual_art_state"]="UNREVIEWED_G0"
     scene["R15_source_glb_sha256"]=hashlib.sha256(source.read_bytes()).hexdigest()
     dest=OUT/(label+"_D2G7_ORIGINAL_IMPORTED_NATIVE.blend")
@@ -181,6 +197,8 @@ data={
  "original_D_decision_sha256":hashlib.sha256(f.read_bytes()).hexdigest(),
  "original_D_preview_sha256":hashlib.sha256((SRC/"preview.jpg").read_bytes()).hexdigest(),
  "all_original_GLBS_unchanged":True,
+ "view_only_axis_orientation_correction":"Inverse Rx(-90deg) applied to imported scene roots, NOT to source geometry",
+ "author_original_Z_height_span_crosschecked":True,
  "camera_conditions":"same for WET and DRY, Blender Workbench, 1100x720; center-only hides giant schematic background except 09",
  "comparison_not_10km_master":True,
  "minecraft_construction":False,
