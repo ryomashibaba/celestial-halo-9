@@ -1,0 +1,13 @@
+{
+  "source_run": 41141480988,
+  "source_sha": "feda7b754cdf1192fb21d9960d0d3ee85ffc636b",
+  "actual_source_original_P1": "db0925c75f73a4bd7951e04e49dd75a041a94f4f066f1fc14d11d873fd700369",
+  "source_edit_variants": 2,
+  "same_camera_images": 14,
+  "archive_bytes": 22940401,
+  "archive_sha256": "5840d56e30a81e93a9710dc634e43316a66980753b13b9579fc8e4944b552ff0",
+  "art": "REJECT",
+  "function": "UNCERTIFIED",
+  "formal_adoption": false,
+  "minecraft_construction": false
+}
