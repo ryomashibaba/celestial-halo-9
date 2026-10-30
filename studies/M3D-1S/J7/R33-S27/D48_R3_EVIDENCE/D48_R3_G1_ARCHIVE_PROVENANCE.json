@@ -1,0 +1,14 @@
+{
+  "source_blender_run": 41142560031,
+  "source_visibility_run": 41142838740,
+  "source_native_blend_sha256": "559a38d24b3f4fb92f018d7cf0dc9739cbfa94ce6881cd0369b73683fd2f58da",
+  "artifact_sha256": "08aa2b5000b7a7b2af58b020a306502853208ac08060d401c97ed8bfbb2b6fb5",
+  "bytes": 8577218,
+  "true_camera_ray_count": 5635,
+  "edit_surface_count": 6,
+  "image_count": 7,
+  "art": "REJECT",
+  "formal_adoption": false,
+  "minecraft_write": false,
+  "city_master_complete": false
+}
