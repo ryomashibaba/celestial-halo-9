@@ -1,0 +1,92 @@
+name: HALO9 R18 E5 G1 reopen original BLEND, direct mesh edit and fixed camera comparison
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e5-blend-visual-feedback-20261031
+    paths:
+      - '.github/workflows/d47-r18-e5-g1-real-blend-edit-after-visual-review.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_E5_NATIVE/e5_edit_reopened_real_blend.py'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  true-original-native-blend-mesh-edit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download exact previously generated real G0 Blender source
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 41081229554
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-R18-E5-G0-UNEDITED-NATIVE-ROOM-AND-BEFORE-VIEWS
+          path: /tmp/r18e5-original
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real Blender plus actual pixel comparison
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Read saved original scene, delete occluding faces on the SAME mesh, re-render original cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          test -s /tmp/r18e5-original/E5_G0_NEW_PUBLIC_ROOM_BEFORE_EDIT.blend
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_E5_NATIVE/e5_edit_reopened_real_blend.py /tmp/r18e5-original /tmp/r18e5-g1
+      - name: Independent reopen and verify real source mesh changed, all others unchanged
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy,hashlib,json
+          from PIL import Image, ImageChops
+          from pathlib import Path
+          p=Path('/tmp/r18e5-g1');base=Path('/tmp/r18e5-original')
+          a=json.loads((p/'E5_G1_DIRECT_MESH_EDIT_AUDIT.json').read_text())
+          assert a['faces_before']==48 and a['faces_after']==24
+          assert len(a['deleted_faces'])==24
+          assert a['same_mesh_datablock']
+          assert a['other_39_meshes_unchanged']
+          assert a['camera_matrices_lenses_and_ortho_unchanged']
+          assert a['source_mesh_hash_before']!=a['source_mesh_hash_after']
+          assert hashlib.sha256((base/'E5_G0_NEW_PUBLIC_ROOM_BEFORE_EDIT.blend').read_bytes()).hexdigest()==a['g0_blend_sha256']
+          actual=[]
+          for n in ['01_HUMAN_ROOM_ARRIVAL','02_HUMAN_INTERIOR_SIDE','03_FRONT_ARCHITECTURE','04_OTHER_SIDE']:
+            old=Image.open(base/('BEFORE_'+n+'.png')).convert('RGB')
+            new=Image.open(p/('AFTER_'+n+'.png')).convert('RGB')
+            assert old.size==new.size==(1160,760)
+            box=ImageChops.difference(old,new).getbbox()
+            assert box,('no visual change at the SAME camera',n)
+            actual.append({'camera':n,'changed_bbox':box,'before_sha256':hashlib.sha256((base/('BEFORE_'+n+'.png')).read_bytes()).hexdigest(),'after_sha256':hashlib.sha256((p/('AFTER_'+n+'.png')).read_bytes()).hexdigest()})
+          bpy.ops.wm.open_mainfile(filepath=str(p/'E5_G1_ACTUAL_EDITED_SAME_SOURCE.blend'))
+          obj=bpy.data.objects[a['target']]
+          assert len(obj.data.vertices)==63 and len(obj.data.polygons)==24
+          assert bpy.context.scene['E5_G1_ART_APPROVED'] is False
+          assert bpy.context.scene['E5_MINECRAFT_WRITTEN'] is False
+          names={o.name for o in bpy.data.objects if o.type=='MESH'}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/'E5_G1_ACTUAL_EDITED_SAME_SOURCE.glb'))
+          names_glb={o.name for o in bpy.data.objects if o.type=='MESH'}
+          assert names==names_glb
+          output={'method':'TRUE_EXISTING_SAVED_BLENDER_MESH_EDIT_LIMITED_PASS',
+                  'same_camera_real_image_differences':actual,
+                  'independent_blend_glb_reimport':True,
+                  'ART':'NOT_YET_JUDGED_FROM_IMAGES',
+                  'FUNCTION':'UNCERTIFIED','formal_adoption':False,
+                  'minecraft_write':False}
+          (p/'E5_G1_INDEPENDENT_FIXED_CAMERA_QA.json').write_text(json.dumps(output,ensure_ascii=False,indent=2))
+          print('R18_E5_TRUE_SAME_SOURCE_MESH_EDIT_INDEPENDENT_TECH_PASS',json.dumps(output))
+          PY
+      - name: Save actual edited source and visual evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E5-G1-TRUE-ORIGINAL-MESH-EDIT-FOUR-CAMERAS
+          path: /tmp/r18e5-g1/
+          retention-days: 14
+          if-no-files-found: warn
