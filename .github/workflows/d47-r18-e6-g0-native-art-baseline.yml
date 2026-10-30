@@ -1,0 +1,86 @@
+name: HALO9 R18 E6 G0 native inhabited fissure true five-view gate
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e6-native-art-directed-20261031
+    paths:
+      - '.github/workflows/d47-r18-e6-g0-native-art-baseline.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_E6_NATIVE/e6_make_new_inhabited_fissure_g0.py'
+permissions:
+  contents: read
+concurrency:
+  group: halo9-r18-e6-g0
+  cancel-in-progress: true
+jobs:
+  actual-native-model-and-reload:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real Blender plus headless GL and image QA
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Produce real new Blender BLEND and GLB and five original art cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_E6_NATIVE/e6_make_new_inhabited_fissure_g0.py /tmp/r18-e6-g0
+      - name: Reopen both original files; verify genuine five camera evidence
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy,hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageStat
+          p=Path('/tmp/r18-e6-g0')
+          m=json.loads((p/'E6_G0_REAL_NATIVE_MANIFEST.json').read_text())
+          assert m['ART']=='PENDING_REAL_5_VIEW_VISUAL_INSPECTION'
+          assert m['MINECRAFT_CONSTRUCTION'] is False
+          assert m['fold_verts']==42 and m['fold_faces']==32
+          assert len(m['files']['images'])==5
+          hashes={}
+          for n in m['files']['images']:
+            with Image.open(p/n) as im:
+              rgb=im.convert('RGB')
+              assert rgb.size==(1160,760)
+              assert len(rgb.resize((100,65)).getcolors(20000) or [])>=20
+              assert sum(ImageStat.Stat(rgb).stddev)>=12
+            hashes[n]=hashlib.sha256((p/n).read_bytes()).hexdigest()
+          assert len(set(hashes.values()))==5
+          bpy.ops.wm.open_mainfile(filepath=str(p/m['files']['blend']))
+          assert bpy.context.scene['E6_ART_ADOPTED'] is False
+          assert bpy.context.scene['E6_MINECRAFT_WRITTEN'] is False
+          real=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(real)==m['mesh_count']
+          assert all(o.data.shape_keys and len(o.data.shape_keys.key_blocks)==2 for o in real)
+          native_tris=sum(len(f.vertices)-2 for o in real for f in o.data.polygons)
+          assert native_tris==m['triangles']
+          names={o.name for o in real}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/m['files']['glb']))
+          glb=[o for o in bpy.data.objects if o.type=='MESH']
+          assert {o.name for o in glb}==names
+          assert sum(len(f.vertices)-2 for o in glb for f in o.data.polygons)==native_tris
+          report={'source_tech':'NATIVE_BLENDER_GLB_RELOAD_LIMITED_PASS',
+            'BLEND_sha256':hashlib.sha256((p/m['files']['blend']).read_bytes()).hexdigest(),
+            'five_true_camera_sha256':hashes,'ART':'UNREVIEWED',
+            'FUNCTION':'UNCERTIFIED','FORMAL_ADOPTION':False,'MINECRAFT':False}
+          (p/'E6_G0_NATIVE_AUDIT.json').write_text(json.dumps(report,indent=2))
+          print('E6_REAL_BLENDER_AND_FIVE_CAMERAS_TECH_LIMITED_PASS')
+          PY
+      - name: Retain genuine editing input and images even on QA failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R18-E6-G0-TRUE-BLENDER-BLEND-GLB-FIVE-IMAGES
+          path: /tmp/r18-e6-g0/
+          retention-days: 14
+          if-no-files-found: warn
