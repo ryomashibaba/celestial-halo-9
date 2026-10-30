@@ -1,0 +1,187 @@
+name: HALO9 D47 R17 real inhabited civic 3D G0 and ten-view art
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r17-inhabited-civic-section-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R17_NATIVE/r17_civic_forum_3d_e0.py'
+      - '.github/workflows/d47-r17-true-civic-interior-g0.yml'
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r17-single-artifact-e0
+  cancel-in-progress: false
+jobs:
+  actual-r17-interior-before-shell:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real Blender 4.5 and native render dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Create genuine 3D inhabited section and ten native cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          mkdir -p /tmp/r17
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R17_NATIVE/r17_civic_forum_3d_e0.py /tmp/r17
+      - name: Independently reopen BLEND/GLB and inspect real stairs, foyer, 15 floors and 10 views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import bpy,math,hashlib,json
+          from PIL import Image,ImageDraw,ImageOps,ImageFont
+          p=Path('/tmp/r17')
+          j=json.loads((p/'R17_E0_TRUE_3D_MANIFEST.json').read_text())
+          assert j['floor_program_total']==15,j['floor_program_total']
+          assert j['real_stair_treads']==168
+          assert .16<j['real_stair_riser_m']<.19
+          assert j['real_stair_run_m']/168>=.4
+          assert j['public_entry_elevation_m']==4
+          assert j['west_public_gallery_destination_m']==33
+          assert j['upper_level_access_unverified'] and not j['architecture_full_urban_interior_finished']
+          assert not j['art_adopted'] and not j['all_completed_10km_city']
+          assert len(j['ten_original_real_pngs'])==10
+          for png in j['ten_original_real_pngs']:
+              with Image.open(p/png) as im:
+                  assert im.size==(1060,720),png
+                  rgb=im.convert('RGB').resize((120,84))
+                  col=rgb.getcolors(20000)
+                  assert col and len(col)>8,(png,len(col) if col else None)
+          bpy.ops.wm.open_mainfile(filepath=str(p/j['source_blend']))
+          assert bpy.context.scene['R17_ART_STATUS']=='G0_UNREVIEWED'
+          assert bpy.context.scene['R17_APPROVED_CENTRAL'] is False
+          assert bpy.context.scene['R17_MINECRAFT_CONSTRUCTION'] is False
+          models=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(models)==j['real_mesh_count']
+          assert sum(len(o.data.vertices) for o in models)==j['real_vertices']
+          assert sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in models)==j['real_tris']
+          floors=[o for o in models if o.get('R17_function','').startswith('real full-depth public floor')]
+          assert len(floors)==15
+          stair=[o for o in models if o.name.startswith('168_ACTUAL_SINGLE_CONNECTED_STAIR_TREADS')]
+          assert len(stair)==1 and len(stair[0].data.polygons)==168
+          court=[o for o in models if o.name.startswith('OPEN_TO_SKY_PUBLIC_COMMONS_WHOLE_FLOOR')]
+          assert len(court)==1
+          entries=[o for o in models if o.name.startswith('CITY_FRONT_ENTRY_STREET_TO_COURT')]
+          assert len(entries)==1
+          portals=[o for o in models if 'INNER_PORTAL_PIER' in o.name]
+          assert len(portals)==15*9,len(portals)
+          room_backs=[o for o in models if 'ACTUAL_ROOM_BACK_WALL' in o.name]
+          assert len(room_backs)==15
+          cams=[o for o in bpy.data.objects if o.type=='CAMERA']
+          assert len(cams)==10
+          names={o.name for o in models}
+          tri=j['real_tris']
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/j['real_glb']))
+          restored=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(restored)==len(models),(len(restored),len(models))
+          assert {o.name for o in restored}==names,'GLB lost named geometry'
+          t=sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in restored)
+          assert t==tri,(t,tri)
+          manifest={
+            'result':'G0_EDITABLE_NATIVE_3D_AND_10_ACTUAL_VIEWS_TECH_PASS',
+            '15_real_ring_sector_city_floors':True,
+            '9_real_inner_civic_portal_piers_per_floor':True,
+            '15_room_backwalls_present':True,
+            'real_common_court_and_entry_street':True,
+            '168_real_stair_tread_polygons':True,
+            'stair_riser_m':j['real_stair_riser_m'],
+            'stair_run_m':j['real_stair_run_m'],
+            'ten_actual_blender_pngs':True,
+            'BLEND_and_GLb_cross_readback':True,
+            'whole_building_interior_fully_finished':False,
+            'egress_and_built_accessibility_certified':False,
+            'official_10km_city_completed':False,
+            'formal_art_approved':False,
+            'minecraft_construction':False}
+          (p/'R17_E0_INDEPENDENT_NATIVE_AUDIT.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+          width,height=520,368
+          board=Image.new('RGB',(width*5,(height+31)*2+42),(239,241,242))
+          draw=ImageDraw.Draw(board)
+          try:font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',17)
+          except OSError:font=ImageFont.load_default()
+          draw.text((16,10),'R17 E0  |  ACTUAL 3D - 10 CAMERAS  |  TECH REVIEW ONLY / ART UNAPPROVED',font=font,fill=(30,41,51))
+          for i,name in enumerate(j['ten_original_real_pngs']):
+              x=(i%5)*width;y=42+(i//5)*(height+31)
+              draw.text((x+9,y+5),name[3:-4],font=font,fill=(35,43,48))
+              with Image.open(p/name) as im:
+                  view=ImageOps.fit(im.convert('RGB'),(width,height))
+              board.paste(view,(x,y+31))
+          board.save(p/'R17_E0_REAL_10_VIEW_ATLAS.jpg',quality=88)
+          print('R17_E0_REAL_BLENDER_REOPENED_TECH_PASS')
+          PY
+      - name: Retain genuine 3D/source files even if inspection fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R17-REAL-INHABITED-CIVIC-SECTION-10-VIEWS
+          path: /tmp/r17/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Store verified R17 source and evidence in research branch
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,zipfile
+          p=Path('/tmp/r17')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R17_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=[
+            'R17_E0_EDITABLE_INHABITED_CIVIC_SECTION.blend',
+            'R17_E0_PUBLIC_FORUM_CITY_SECTION.glb',
+            'R17_E0_TRUE_3D_MANIFEST.json',
+            'R17_E0_INDEPENDENT_NATIVE_AUDIT.json',
+            'R17_E0_REAL_10_VIEW_ATLAS.jpg']
+          cams=['01_LONG_PUBLIC_APPROACH','02_FRONT','03_OBLIQUE',
+                '04_SIDE','05_REAR','06_AERIAL','07_PEDESTRIAN_ENTRY',
+                '08_OPEN_CIVIC_FORUM','09_INTERNAL_LIBRARY','10_UPPER_CITY_STREET']
+          names.extend(n+'.png' for n in cams)
+          assert len(names)==15
+          assert all((p/n).stat().st_size>200 for n in names)
+          archive=out/'R17_E0_REAL_INHABITED_CITY_SECTION_10_VIEW_G0_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names:z.write(p/n,n)
+          hashes={
+             'zip_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+             'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+             'formal_M247C_adopted':False,'minecraft_write':False,
+             'full_10km_city_finished':False}
+          (out/'R17_E0_EVIDENCE_SHA256.json').write_text(json.dumps(hashes,indent=2))
+          print('R17_ART_G0_TRUE_3D_EVIDENCE_SHA',hashes['zip_sha256'])
+          PY
+      - name: Commit to isolated R17 research branch without force or bin conflicts
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r17-inhabited-civic-section-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r17-native-art-research'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin "$TARGET"
+          if git cat-file -e "FETCH_HEAD:studies/M3D-1S/J7/R33-S27/D47_R17_EVIDENCE/R17_E0_REAL_INHABITED_CITY_SECTION_10_VIEW_G0_ART_UNREVIEWED.zip" 2>/dev/null; then
+            echo 'Already archived: preserve existing model binary';exit 0
+          fi
+          git add studies/M3D-1S/J7/R33-S27/D47_R17_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R17 genuine inhabited civic forum 3D source with 10 view technical proof'
+          for i in 1 2 3 4 5;do
+            git fetch origin "$TARGET"
+            git rebase "origin/$TARGET"
+            if git push origin "HEAD:refs/heads/$TARGET";then exit 0;fi
+            sleep 2
+          done
+          exit 1
