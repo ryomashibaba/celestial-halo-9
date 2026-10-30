@@ -16,8 +16,8 @@ VIEWS={
 "02_EAST_SEA":((8100,4400,3200),(0,0,1800),39),
 "03_SOUTHWEST_VOID":((-8500,8500,4300),(0,0,1900),36),
 "04_WEST_REAR":((-8600,-1300,3700),(0,0,2000),38),
-"05_GROUND_APPROACH":((550,-2900,110),(0,0,1400),33),
-"06_SKY_DISTRICT":((2900,-2000,3050),(350,600,2900),40),
+"05_GROUND_APPROACH":((1250,-4900,330),(150,-400,1250),23),
+"06_SKY_DISTRICT":((4300,-3900,3440),(-500,700,3000),25),
 }
 ART={
 "A":{"name":"STRATIFIED_CIVIC_CONTINUUM","col":(.70,.78,.75,1),"accent":(.89,.65,.37,1)},
@@ -246,6 +246,7 @@ def setup_camera(n,origin,target,lens,coll):
  ob.location=origin
  ob.rotation_euler=(Vector(target)-ob.location).to_track_quat("-Z","Y").to_euler()
  cam.type="PERSP";cam.lens=lens
+ cam.clip_start=10.0;cam.clip_end=50000.0
  return ob
 def main(style):
  bpy.ops.wm.read_factory_settings(use_empty=True)
