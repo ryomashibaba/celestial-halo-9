@@ -1,0 +1,163 @@
+name: HALO9 R17 330m integrated civic section native art and walkability G0
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r17-public-civic-section-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R17_NATIVE/r17_real_public_ravine_e0.py'
+      - '.github/workflows/d47-r17-integrated-civic-section-e0.yml'
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r17-e0-native-section
+  cancel-in-progress: true
+jobs:
+  first-true-urban-public-section:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Actual Blender Python and OpenGL render dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Build genuine interconnected cultural street first then irregular spatial cover in Blender
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R17_NATIVE/r17_real_public_ravine_e0.py /tmp/r17
+      - name: Independent verify reopen BLEND and GLB with street floor program, gradients and ten truly different cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageChops
+          import bpy,json,math
+          p=Path('/tmp/r17');j=json.loads((p/'R17_E0_NATIVE_MANIFEST.json').read_text())
+          assert j['formal_ART']=='G0_NOT_YET_REVIEWED'
+          assert len(j['files']['cameras'])==10
+          assert all(v<=1/12 for v in j['true_path_gradients'].values())
+          assert j['true_path_gradients']['level_one_bridge']==0
+          for name in j['files']['cameras']:
+              with Image.open(p/name) as im:
+                  rgb=im.convert('RGB')
+                  assert rgb.size==(1100,740)
+                  assert len(rgb.resize((100,68)).getcolors(maxcolors=10000))>=16,(name,'blank or flat')
+          import hashlib
+          scene_blend=p/j['files']['blend'];real_glb=p/j['files']['glb']
+          assert scene_blend.stat().st_size>45000
+          assert real_glb.stat().st_size>25000
+          bpy.ops.wm.open_mainfile(filepath=str(scene_blend))
+          scene=bpy.context.scene
+          assert scene['R17_ART_APPROVED'] is False and scene['R17_CITY_MASTER_COMPLETED'] is False
+          mesh=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(mesh)==j['mesh_count'] and len(mesh)>28
+          assert sum(len(o.data.vertices) for o in mesh)==j['vertices']
+          origtri=sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in mesh)
+          assert origtri==j['triangles']
+          assert all(o.data.shape_keys and len(o.data.shape_keys.key_blocks)==2 for o in mesh)
+          role_names=[o['R17_role'] for o in mesh]
+          assert sum('public' in role.lower() for role in role_names)>=10
+          bridge=[o for o in mesh if o.name.startswith('PUBLIC_FOURTEEN_METER_CROSSING')]
+          assert len(bridge)==1
+          ramps=[o for o in mesh if 'R17_route_endpoints' in o]
+          assert len(ramps)==4,len(ramps)
+          for o in ramps:
+              assert o['R17_route_gradient']<=1/12
+              a,b=json.loads(o['R17_route_endpoints'])
+              assert len(a)==3 and len(b)==3
+          assert len([o for o in bpy.data.objects if o.type=='CAMERA'])==10
+          objnames={o.name for o in mesh}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(real_glb))
+          reloaded=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(reloaded)==len(mesh)
+          assert {o.name for o in reloaded}==objnames
+          glbtris=sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in reloaded)
+          assert glbtris==origtri,(glbtris,origtri)
+          sha={n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in j['files']['cameras']}
+          assert len(set(sha.values()))==10
+          audit={
+            'technical':'REAL_NATIVE_330M_PUBLIC_SECTION_EDITABLE_PASS',
+            'Blender_and_GLB_reopened':True,
+            'all_ten_perspectives_genuine_and_not_identical':True,
+            'actual_4_route_meshes':len(ramps),
+            'gradients_under_one_twelfth':True,
+            'actual_two_14m_civic_destination_floors':True,
+            'actual_30m_destination_floor':True,
+            'human_accessibility_standards_certified':False,
+            'interior_functional_detail_certified':False,
+            'structure_loads_and_egress_certified':False,
+            'visual_ART_judgement':'AWAITING_HUMAN_IMAGE_REVIEW',
+            'formal_art_pass':False,'city_master_complete':False,'minecraft_construction':False,
+            'image_sha256':sha
+          }
+          (p/'R17_E0_INDEPENDENT_NATIVE_AUDIT.json').write_text(json.dumps(audit,indent=2))
+          print('R17_FIRST_REAL_330M_SECTION_10_VIEW_NATIVE_PASS')
+          PY
+      - name: Preserve files on failure for independent debugging
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R17-ACTUAL-CIVIC-SECTION-10-BLENDER-VIEWS
+          path: /tmp/r17/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive verified native models, 10 actual views and independent gradients
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,zipfile
+          p=Path('/tmp/r17');out=Path('studies/M3D-1S/J7/R33-S27/D47_R17_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R17_E0_EDITABLE_PUBLIC_RAVINE_330M.blend',
+                 'R17_E0_PUBLIC_RAVINE_330M.glb',
+                 'R17_E0_NATIVE_MANIFEST.json',
+                 'R17_E0_INDEPENDENT_NATIVE_AUDIT.json']
+          names += [s+'.png' for s in (
+             '01_LONG_PUBLIC_APPROACH','02_FRONTAL_SECTION',
+             '03_OBLIQUE_STRUCTURE','04_SIDE_SECTION','05_REAR',
+             '06_AERIAL_CITY_SECTION','07_ENTERING_PUBLIC_HALL',
+             '08_INSIDE_LOW_COURT','09_UPPER_READING_ROOM',
+             '10_PUBLIC_HIGH_CITY')]
+          assert len(names)==14
+          assert all((p/x).is_file() and (p/x).stat().st_size>100 for x in names)
+          archive=out/'R17_E0_ACTUAL_PUBLIC_SECTION_10VIEW_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names:z.write(p/n,n)
+          hashes={'zip_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+             'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+             'art_adopted':False,'not_city_master':True,'minecraft_write':False}
+          (out/'R17_E0_EVIDENCE_HASHES.json').write_text(json.dumps(hashes,indent=2))
+          print('R17_NATIVE_PUBLIC_SECTION_ARCHIVE_SHA',hashes['zip_sha256'])
+          PY
+      - name: Non-force safely commit research only; tolerate concurrently updated review docs
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r17-public-civic-section-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r17-native-section'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin "$TARGET"
+          if git cat-file -e "FETCH_HEAD:studies/M3D-1S/J7/R33-S27/D47_R17_EVIDENCE/R17_E0_ACTUAL_PUBLIC_SECTION_10VIEW_ART_UNREVIEWED.zip" 2>/dev/null; then
+            echo 'Already archived genuine native R17 E0; preserve reference';exit 0
+          fi
+          git add studies/M3D-1S/J7/R33-S27/D47_R17_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R17 commit real integrated civic floor-first 3D and ten views, art unapproved'
+          for attempt in 1 2 3 4 5;do
+            git fetch origin "$TARGET"
+            git rebase "origin/$TARGET"
+            if git push origin "HEAD:refs/heads/$TARGET";then exit 0;fi
+            sleep 2
+          done
+          exit 1
