@@ -1,0 +1,101 @@
+name: HALO9 D47 R18 E3 true inhabited archive room visual art G0
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e3-civic-interior-20261030
+    paths:
+      - '.github/workflows/d47-r18-e3-true-inhabited-archive-g0.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_E3_NATIVE/e3_lived_archive_amphitheatre.py'
+permissions:
+  contents: read
+concurrency:
+  group: halo9-d47-r18-e3-g0
+  cancel-in-progress: true
+jobs:
+  new-human-interior-before-massing:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real Blender and still-image dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Generate entirely new inhabited public space, BLEND, GLB and four real Blender cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_E3_NATIVE/e3_lived_archive_amphitheatre.py /tmp/r18e3
+      - name: Independent reopen true BLEND GLB, check four unique camera images and program roles
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy,json,hashlib
+          from pathlib import Path
+          from PIL import Image
+          p=Path('/tmp/r18e3')
+          j=json.loads((p/'R18_E3_G0_MANIFEST.json').read_text())
+          assert j['formal_ART']=='PENDING_TRUE_4_VIEW_REVIEW'
+          assert not j['formal_adoption'] and not j['minecraft_write']
+          assert j['real_entry_route_segment_gradient_max']<1/12
+          assert len(j['files']['cameras'])==4
+          assert j['meshes']>=70 and j['vertices']>=2000
+          images={}
+          for name in j['files']['cameras']:
+              with Image.open(p/name) as im:
+                  rgb=im.convert('RGB')
+                  assert rgb.size==(1260,840)
+                  assert len(rgb.resize((100,67)).getcolors(15000) or [])>=35,(name,'potential blank')
+              images[name]=hashlib.sha256((p/name).read_bytes()).hexdigest()
+          assert len(set(images.values()))==4
+          assert (p/j['files']['blend']).stat().st_size>50000
+          assert (p/j['files']['glb']).stat().st_size>35000
+          bpy.ops.wm.open_mainfile(filepath=str(p/j['files']['blend']))
+          assert bpy.context.scene['R18_E3_APPROVED_ART'] is False
+          assert bpy.context.scene['R18_E3_MINECRAFT_WRITTEN'] is False
+          native=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(native)==j['meshes']
+          assert all(o.data.shape_keys and len(o.data.shape_keys.key_blocks)==2 for o in native)
+          assert sum(len(o.data.vertices) for o in native)==j['vertices']
+          tri=sum(len(f.vertices)-2 for o in native for f in o.data.polygons)
+          assert tri==j['triangles']
+          roles=[o.get('E3_role','') for o in native]
+          assert any('working surface' in r for r in roles)
+          assert any('archive collection' in r for r in roles)
+          assert any('education' in r for r in roles)
+          assert len([o for o in bpy.data.objects if o.type=='CAMERA'])==4
+          native_names={o.name for o in native}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/j['files']['glb']))
+          imported=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(imported)==len(native)
+          assert {o.name for o in imported}==native_names
+          tri2=sum(len(f.vertices)-2 for o in imported for f in o.data.polygons)
+          assert tri2==tri,(tri2,tri)
+          report={'source_tech':'TRUE_NATIVE_MODEL_AND_GLB_REOPEN_LIMITED_PASS',
+             'actual_camera_png_sha256':images,'actual_source_meshes':len(native),
+             'source_triangles':tri,'all_four_images_unique':True,
+             'four_cameras_are_not_photographic_art_approval':True,
+             'geometry_validated_as_full_walking_access':False,
+             'functional_certified':False,'structural_certified':False,
+             'ART':'AWAITING_VISUAL_JUDGEMENT',
+             'formal_adoption':False,'city_master_complete':False,
+             'minecraft_construction':False}
+          (p/'R18_E3_G0_INDEPENDENT_SOURCE_AUDIT.json').write_text(json.dumps(report,indent=2))
+          print('R18_E3_G0_REAL_NATIVE_REOPEN_TECH_LIMITED_PASS_ART_PENDING')
+          PY
+      - name: Retain true new 3D evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R18-E3-G0-REAL-INHABITED-INTERIOR-4VIEWS-BLEND-GLB
+          path: /tmp/r18e3/
+          retention-days: 14
+          if-no-files-found: warn
