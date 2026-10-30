@@ -1,0 +1,83 @@
+name: HALO9 R18 E3 preserve genuine ART REJECT research originals
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e3-civic-interior-20261030
+    paths:
+      - '.github/workflows/d47-r18-e3-preserve-rejected-true-native.yml'
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: halo9-r18-e3-archive-originals
+  cancel-in-progress: true
+jobs:
+  preserve-verified-real-blender-art-reject:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch genuine last E3 G1 source from independent rendering workflow
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 41074809860
+          github-token: \${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-R18-E3-G0-REAL-INHABITED-INTERIOR-4VIEWS-BLEND-GLB
+          path: /tmp/r18-e3-review-source
+      - name: Verify original scope then package ART REJECT evidence with SHA256
+        run: |
+          python - <<'PY'
+          import json, hashlib, zipfile
+          from pathlib import Path
+          p=Path('/tmp/r18-e3-review-source')
+          m=json.loads((p/'R18_E3_G0_MANIFEST.json').read_text())
+          assert m['formal_ART']=='PENDING_TRUE_4_VIEW_REVIEW'
+          assert m['formal_adoption'] is False and m['minecraft_write'] is False
+          assert m['unverified_higher_level_access'] is True
+          names=[m['files']['blend'],m['files']['glb'],
+                'R18_E3_G0_MANIFEST.json','R18_E3_G0_INDEPENDENT_SOURCE_AUDIT.json']
+          names+=m['files']['cameras']
+          assert len(names)==8 and all((p/n).stat().st_size>100 for n in names)
+          audit=json.loads((p/'R18_E3_G0_INDEPENDENT_SOURCE_AUDIT.json').read_text())
+          assert audit['source_tech']=='TRUE_NATIVE_MODEL_AND_GLB_REOPEN_LIMITED_PASS'
+          assert audit['ART']=='AWAITING_VISUAL_JUDGEMENT'
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R18_E3_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          arch=out/'R18_E3_G1_ACTUAL_NATIVE_BLENDER_4VIEW_ART_REJECT.zip'
+          with zipfile.ZipFile(arch,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names:z.write(p/n,n)
+          full={n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names}
+          ledger={
+             'native_research_model_only':True,
+             'original_render_run_id':41074809860,
+             'original_artifact_id':12985743777,
+             'e3_g1_art_review':'REJECT',
+             'original_was_never_formally_accepted':True,
+             'technical':'REOPEN_VERIFIED_ONLY',
+             'functional':'UNCERTIFIED',
+             'official_M247C_unchanged':True,
+             'whole_city_master_complete':False,
+             'minecraft_write':False,
+             'zip_sha256':hashlib.sha256(arch.read_bytes()).hexdigest(),
+             'member_sha256':full
+          }
+          (out/'R18_E3_G1_EVIDENCE_HASHES.json').write_text(json.dumps(ledger,indent=2))
+          print('R18_E3_NATIVE_ORIGINAL_ARCHIVED_ART_REJECT', ledger['zip_sha256'])
+          PY
+      - name: Non-force commit to isolated E3 research branch only
+        env:
+          TARGET: research/r33-s27-d47-r18-e3-civic-interior-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name "halo9-e3-native-archive"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R33-S27/D47_R18_E3_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m "R18 E3 preserve genuine native BLEND GLB four views as ART REJECT; no canonical adoption"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$TARGET"
+            git rebase "origin/$TARGET" || exit 1
+            if git push origin "HEAD:refs/heads/$TARGET"; then exit 0; fi
+            sleep 2
+          done
+          exit 1
