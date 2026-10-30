@@ -1,0 +1,156 @@
+name: HALO9 R15 artist-first D original wet/dry real Blender adjudication
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r15-d-original-art-admission-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R15_NATIVE/**'
+      - '.github/workflows/d47-r15-original-d-art-admission.yml'
+permissions:
+  contents: write
+jobs:
+  art-d-native-originals-recheck:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Read-only historical D original GLB branch (never edit)
+        uses: actions/checkout@v4
+        with:
+          repository: ryomashibaba/celestial-halo-9
+          ref: art/d
+          path: source_d
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install genuinely executable Blender and stable render environment
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Import authentic WET/DRY originals and render 18 matched actual camera views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R15_NATIVE/r15_verify_d2g7_true_blender.py /tmp/r15
+      - name: Independent checksum, reimport, camera parity and images readback
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageChops
+          import bpy,hashlib,json
+          d=Path('/tmp/r15')
+          j=json.loads((d/'R15_D_ORIGINALS_PROVENANCE_AND_VIEW_MANIFEST.json').read_text())
+          assert not j['art_adopted'] and not j['minecraft_construction']
+          assert j['all_original_GLBS_unchanged']
+          assert set(j['models'])=={'WET','DRY'}
+          assert hashlib.sha256(Path('source_d/studies/D2-G7/decision.md').read_bytes()).hexdigest()==j['original_D_decision_sha256']
+          assert hashlib.sha256(Path('source_d/studies/D2-G7/preview.jpg').read_bytes()).hexdigest()==j['original_D_preview_sha256']
+          audit={}
+          poses={}
+          for label,row in j['models'].items():
+              source=Path(row['source_file'])
+              assert hashlib.sha256(source.read_bytes()).hexdigest()==row['source_file_sha256']
+              assert len(row['camera_renders'])==9
+              for name in row['camera_renders']:
+                  with Image.open(d/name) as im:
+                      assert im.size==(1100,720) and im.getbbox() is not None
+              bpy.ops.wm.open_mainfile(filepath=str(d/row['native_reopened_blend']))
+              obj=[o for o in bpy.data.objects if o.type=='MESH']
+              assert len(obj)==row['source_mesh_objects']
+              assert sum(len(o.data.vertices) for o in obj)==row['source_mesh_vertices']
+              tri=sum(sum(max(1,len(p.vertices)-2) for p in o.data.polygons) for o in obj)
+              assert tri==row['source_triangles']
+              assert bpy.context.scene.get('R15_canonical_M247_C_adopted') is False
+              assert not any(o.hide_render for o in obj)
+              cs=[o for o in bpy.data.objects if o.type=='CAMERA']
+              assert len(cs)==9
+              poses[label]={o.name:(tuple(o.location),tuple(o.rotation_euler),
+                  o.data.type,round(o.data.lens,5) if o.data.type=='PERSP' else round(o.data.ortho_scale,5)) for o in cs}
+              audit[label]={
+                  'source_GLBS_SHA256_verified':True,
+                  'native_blend_reopened':True,
+                  'original_mesh_count':len(obj),
+                  'original_triangles':tri,
+                  'nine_original_renders_readback':True,
+                  'all_source_geometry_visible_in_saved_blend':True,
+                  'art_adopted':False,
+                  'full_urban_livable_interiors_certified':False}
+          assert poses['WET']==poses['DRY'],'cameras differed'
+          diffs={}
+          for suffix in [x[4:] for x in j['models']['WET']['camera_renders']]:
+              a=Image.open(d/('WET_'+suffix)).convert('RGB')
+              b=Image.open(d/('DRY_'+suffix)).convert('RGB')
+              diffs[suffix]=ImageChops.difference(a,b).getbbox() is not None
+          assert sum(diffs.values())>=6,diffs
+          with Image.open(d/'R15_D2G7_ORIGINAL_18_TRUE_VIEWS_ATLAS.jpg') as im:
+              assert im.width>3000 and im.height>550
+          qa={
+             'technical':'18_TRUE_BLENDER_REOPENED_ORIGINAL_VIEWS_PASS',
+             'art':'NOT_ASSESSED_BY_AUTOMATION',
+             'no_city_model_adopted':True,
+             'same_exact_9_cameras_between_seasons':True,
+             'source_geometry_unchanged':True,
+             'wet_dry_real_pixel_changes':diffs,
+             'audits':audit,
+             'M247C_unchanged':True,'minecraft_construction':False
+          }
+          (d/'R15_INDEPENDENT_ORIGINALS_READBACK.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf8')
+          print('R15_D_ORIGINALS_18_TRUE_RENDERS_INDEPENDENT_TECH_PASS')
+          PY
+      - name: Preserve original evidence even if some QA fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R15-D-G7-WET-DRY-18-REAL-BLENDER-VIEWS
+          path: /tmp/r15/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive actual two native models plus all photos only to R15 research branch
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib,zipfile
+          p=Path('/tmp/r15')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R15_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R15_D_ORIGINALS_PROVENANCE_AND_VIEW_MANIFEST.json',
+                 'R15_INDEPENDENT_ORIGINALS_READBACK.json',
+                 'R15_D2G7_ORIGINAL_18_TRUE_VIEWS_ATLAS.jpg']
+          for label in ('WET','DRY'):
+              names.append(label+'_D2G7_ORIGINAL_IMPORTED_NATIVE.blend')
+              for n in ('01_EAST_SEA_APPROACH','02_FRONT','03_SIDE','04_REAR',
+                        '05_OBLIQUE','06_AERIAL','07_ROOT_CIVIC_EYE',
+                        '08_HIGH_INHABITED_EYE','09_WIDE_CONTEXT'):
+                  names.append(label+'_'+n+'.png')
+          assert len(names)==23
+          assert all((p/name).stat().st_size>100 for name in names)
+          archive=out/'R15_D_G7_TRUE_WET_DRY_ORIGINAL_18_VIEWS_ART_UNAPPROVED.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for name in names:z.write(p/name,name)
+          hashes={'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+             'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+             'art_approved':False,'no_architectural_source_changed':True,
+             'no_minecraft_write':True}
+          (out/'R15_EVIDENCE_SHA256.json').write_text(json.dumps(hashes,indent=2))
+          print('R15_D_18_VIEWS_SHA',hashes['archive_sha256'])
+          PY
+      - name: Commit proven research artifacts on R15 branch only
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r15-d-original-art-admission-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r15-crosslineage-artist-screen'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R15_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R15 preserve art/d original wet and dry Blender 18-view evidence and source-hash QA; art unapproved'
+          git fetch origin "$TARGET"
+          git rebase "origin/$TARGET"
+          git push origin "HEAD:refs/heads/$TARGET"
