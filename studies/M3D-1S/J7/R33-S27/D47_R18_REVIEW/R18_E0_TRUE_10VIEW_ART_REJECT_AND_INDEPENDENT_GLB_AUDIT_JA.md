@@ -43,3 +43,9 @@ CIで46連結成分と出たのは、GLB再読込が材質・法線の境界で�
 5. 本作品の正式ART採択0、M247-C方向変更なし、main変更なし、全10km詳細City Master未完成、Minecraft施工HOLD。
 
 **判定：SOURCE TECH限定PASS（外部復元検証）／FUNCTION未認証／ART REJECT／現形状 STOP。**
+
+## 2026-10-30 GitHub Actionsでの独立再現【確定追補】
+
+[専用再現CI #41063490476](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41063490476) は**SUCCESS**。実際の旧R18-E0原本GLB（再レンダリングなし）をActionsアーティファクトからダウンロードして、研究ブランチに保存した `r18_glb_independent_route_qa.py` をGitHubランナー上で実行。法線／UV頂点分割を座標上で統合して**実連結1成分**、全4公共床の接触、**20三角面の意図的破損→2連結成分**を再検出した。再現結果JSONは [CI成果物 #12982380736](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41063490476/artifacts/12982380736) に保存した。
+
+第一回再現CI [#41063358432](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41063358432) は `networkx` 依存不足でFAIL。R17と同様の依存欠落であり検査の不合格ではない。ネットワーク依存を追加し、実地検証済みのTrimesh 4.11.1へ固定して修正。**どちらのCIでもART PASSを意味しない**。E0 ART REJECT／FUNCTION未認証／正式中央採択0／Minecraft施工HOLD。
