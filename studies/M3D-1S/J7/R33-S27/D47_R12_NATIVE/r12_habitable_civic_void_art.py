@@ -74,7 +74,11 @@ def skin(n,rails,ma,role):
  # each cross section is a transverse line; no concrete mass is filled.
  pts=[p for pair in rails for p in pair]
  f=[(2*i,2*i+1,2*i+3,2*i+2) for i in range(len(rails)-1)]
- return obj(n,pts,f,ma,"02 ARCHITECTURAL SKYLINE WALLS",role)
+ ob=obj(n,pts,f,ma,"02 ARCHITECTURAL SKYLINE WALLS",role)
+ ob.shape_key_add(name="Basis")
+ ob.shape_key_add(name="R12_ARTIST_REVERSIBLE_EDITS")
+ ob["R12_ART_EDIT_CONTROL"]=True
+ return ob
 def polygon(cx,cy,rx,ry,turn):
  pts=[(-.91,-.48),(-.46,-1),(.42,-.86),(1,-.32),(.82,.77),(.22,1),(-.65,.76)]
  ans=[]
@@ -239,6 +243,10 @@ def create(tag):
   cam.clip_end=30000
   if ortho:cam.type="ORTHO";cam.ortho_scale=ortho
   else:cam.type="PERSP";cam.lens=23
+ # Bind a self-contained artist UI script to both editable genuine 3D scenes.
+ script=Path(__file__).resolve().parent/"r12_art_review_toolbar.py"
+ assert script.exists(),"Missing portable Blender GUI art toolbar source"
+ bpy.data.texts.load(str(script)).name="R12_RUN_THIS_TO_ENABLE_ART_TOOLS.py"
  scene.render.engine="BLENDER_WORKBENCH"
  scene.display.shading.light="STUDIO"
  scene.display.shading.color_type="MATERIAL"
