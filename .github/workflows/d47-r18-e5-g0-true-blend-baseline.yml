@@ -1,0 +1,83 @@
+name: HALO9 R18 E5 G0 real independent native room baseline
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e5-blend-visual-feedback-20261031
+    paths:
+      - '.github/workflows/d47-r18-e5-g0-true-blend-baseline.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_E5_NATIVE/e5_generate_independent_baseline.py'
+permissions:
+  contents: read
+concurrency:
+  group: halo9-e5-first-baseline
+  cancel-in-progress: true
+jobs:
+  actual-g0-blend-and-four-eye-cameras:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Real Blender dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Stage A author new editable real room and original four cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_E5_NATIVE/e5_generate_independent_baseline.py /tmp/r18e5-g0
+      - name: Reopen real Blender baseline and check genuine stills
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy,hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageStat
+          p=Path('/tmp/r18e5-g0')
+          m=json.loads((p/'E5_G0_BASELINE_MANIFEST.json').read_text())
+          assert m['ART']=='INTENTIONALLY_UNREVIEWED'
+          assert m['canonical_assets_edited'] is False
+          files=['BEFORE_'+n+'.png' for n in m['cameras']]
+          assert len(files)==4
+          checks={}
+          for n in files:
+              with Image.open(p/n) as im:
+                  im=im.convert('RGB')
+                  assert im.size==(1160,760)
+                  assert len(im.resize((80,52)).getcolors(15000) or [])>15
+                  assert sum(ImageStat.Stat(im).stddev)>8
+              checks[n]=hashlib.sha256((p/n).read_bytes()).hexdigest()
+          assert len(set(checks.values()))==4
+          native=p/m['native_blend']
+          assert native.stat().st_size>40000
+          bpy.ops.wm.open_mainfile(filepath=str(native))
+          assert bpy.context.scene['E5_MINECRAFT_WRITTEN'] is False
+          obj=bpy.data.objects[m['editable_target']]
+          assert obj.type=='MESH' and len(obj.data.vertices)==63
+          assert len(obj.data.polygons)==48
+          assert len([o for o in bpy.data.objects if o.type=='MESH'])==m['mesh_count']
+          audit={'source_tech':'NEW_BLENDER_NATIVE_REOPEN_LIMITED_PASS',
+              'ART':'NO_JUDGEMENT_UNTIL_REAL_IMAGES',
+              'source_native_sha256':hashlib.sha256(native.read_bytes()).hexdigest(),
+              'verified_camera_sha256':checks,'target_original_vertices':63,
+              'target_original_quads':48,
+              'method_not_yet_verified_until_actual_after_edit':True,
+              'canonical_modified':False,'minecraft_write':False}
+          (p/'E5_G0_NATIVE_AUDIT.json').write_text(json.dumps(audit,indent=2))
+          print('E5_BASELINE_GENUINE_BLENDER_AND_IMAGES_TECH_ONLY_PASS')
+          PY
+      - name: Retain true baseline native source and real camera images
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R18-E5-G0-UNEDITED-NATIVE-ROOM-AND-BEFORE-VIEWS
+          path: /tmp/r18e5-g0/
+          retention-days: 14
+          if-no-files-found: warn
