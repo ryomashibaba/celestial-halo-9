@@ -46,7 +46,7 @@ for label in ("01_REAL_GUI_BEFORE","02_REAL_GUI_AFTER"):
     path=p/(f"R11_{label}.png")
     assert path.stat().st_size>4000
     raw=path.read_bytes()
-    assert raw[:8]==b"\\x89PNG\\r\\n\\x1a\\n"
+    assert raw[:4]==bytes([137,80,78,71])
     width,height=struct.unpack(">II",raw[16:24])
     assert width>=1000 and height>=600
     images[label]=hashlib.sha256(path.read_bytes()).hexdigest()
