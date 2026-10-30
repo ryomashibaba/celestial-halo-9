@@ -156,9 +156,16 @@ jobs:
           test "$GITHUB_REF_NAME" = "$TARGET"
           git config user.name 'halo9-r15-crosslineage-artist-screen'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # Concurrent builds can generate different .blend binary checksums.
+          # Once a fully verified original has been archived, never compete
+          # or force overwrite the research source-of-truth ZIP.
+          git fetch origin "$TARGET"
+          if git cat-file -e "FETCH_HEAD:studies/M3D-1S/J7/R33-S27/D47_R15_EVIDENCE/R15_D_G7_TRUE_WET_DRY_ORIGINAL_18_VIEWS_ART_UNAPPROVED.zip" 2>/dev/null; then
+            echo "R15 verified evidence is already archived. Preserving original; no duplicate binary overwrite."
+            exit 0
+          fi
           git add studies/M3D-1S/J7/R33-S27/D47_R15_EVIDENCE/
           git diff --cached --quiet && exit 0
           git commit -m 'R15 preserve art/d original wet and dry Blender 18-view evidence and source-hash QA; art unapproved'
-          git fetch origin "$TARGET"
           git rebase "origin/$TARGET"
           git push origin "HEAD:refs/heads/$TARGET"
