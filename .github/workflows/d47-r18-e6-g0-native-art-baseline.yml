@@ -44,7 +44,7 @@ jobs:
           m=json.loads((p/'E6_G0_REAL_NATIVE_MANIFEST.json').read_text())
           assert m['ART']=='PENDING_REAL_5_VIEW_VISUAL_INSPECTION'
           assert m['MINECRAFT_CONSTRUCTION'] is False
-          assert m['fold_verts']==42 and m['fold_faces']==32
+          assert m['fold_verts']==42 and m['fold_faces']==38
           assert len(m['files']['images'])==5
           hashes={}
           for n in m['files']['images']:
