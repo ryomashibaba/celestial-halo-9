@@ -1,0 +1,56 @@
+name: HALO9 D47 R18 recovered genuine GLB independent topology negative QA
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-lived-civic-space-20261030
+    paths:
+      - '.github/workflows/d47-r18-independent-recovered-glb-qa.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_NATIVE/r18_glb_independent_route_qa.py'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  verify-stored-e0-glb-with-true-negative:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download real existing E0 run artifact without re-rendering rejected geometry
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 41060455276
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-D47-R18-E0-NATIVE-BLEND-GLB-REAL-10-VIEWS
+          path: /tmp/r18-real-original
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install independent GLB math requirements
+        run: python -m pip install 'numpy>=1.26' 'scipy>=1.12' 'trimesh>=4.10'
+      - name: Inspect unchanged GLB; recover false negative and prove damaged-route test fails
+        run: |
+          test -s /tmp/r18-real-original/R18_E0_LIVED_CIVIC.glb
+          python studies/M3D-1S/J7/R33-S27/D47_R18_NATIVE/r18_glb_independent_route_qa.py \
+            /tmp/r18-real-original/R18_E0_LIVED_CIVIC.glb \
+            --out /tmp/r18-real-original/R18_E0_REPRO_INDEPENDENT_GLB_QA.json
+          python - <<'PY'
+          import json
+          p='/tmp/r18-real-original/R18_E0_REPRO_INDEPENDENT_GLB_QA.json'
+          a=json.load(open(p))
+          assert a['route_raw_glb_components']==46
+          assert a['route_real_connected_components']==1
+          assert a['negative_cut_components']>1
+          assert a['GEOMETRY_LIMITED']=='PASS'
+          assert a['FUNCTION_CERTIFIED'] is False
+          assert a['ART_APPROVED'] is False
+          assert len(a['floor_contacts'])==4
+          print('ACTUAL_R18_GLTF_INDEPENDENT_GEOMETRY_LIMITED_PASS_ART_REJECT_STAYS')
+          PY
+      - name: Retain independent recovered negative-gate evidence without editing protected refs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R18-E0-INDEPENDENT-GLB-NEGATIVE-QA
+          path: /tmp/r18-real-original/R18_E0_REPRO_INDEPENDENT_GLB_QA.json
+          retention-days: 14
+          if-no-files-found: warn
