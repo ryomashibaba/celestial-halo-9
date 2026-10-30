@@ -1,0 +1,172 @@
+name: HALO9 D47 R8 Sequence-First Real Blender Visual Art G0
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r8-sequence-first-art-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R8_NATIVE/**'
+      - '.github/workflows/d47-r8-sequence-first-art-g0.yml'
+permissions:
+  contents: write
+jobs:
+  actual-sequence-3d:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Genuine Blender and software rendering
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Render nine actual program-first urban views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R8_NATIVE/r8_storyboard_first_blender.py /tmp/r8
+      - name: Independent geometry provenance, visual files and sightline audits
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import bpy, math, json, hashlib
+          from mathutils import Vector
+          from mathutils.bvhtree import BVHTree
+          from bpy_extras.object_utils import world_to_camera_view
+          from PIL import Image
+          p=Path('/tmp/r8')
+          j=json.loads((p/'R8_G0_MANIFEST.json').read_text())
+          assert j['scope'].startswith('D47-R8') and j['art'].startswith('G0_NEEDS')
+          names=j['shots']+j['macro_review']
+          assert len(names)==9 and len(set(names))==9
+          assert len(j['shots'])==5
+          for name in names:
+              file=p/(name+'.png')
+              assert file.stat().st_size>1500,(name,file.stat().st_size)
+              with Image.open(file) as pic:
+                  assert pic.size==(1160,750)
+                  assert pic.getbbox() is not None
+          blend=p/'R8_SEQUENCE_3D_NATIVE_EDITABLE.blend'
+          glb=p/'R8_SEQUENCE_3D_NATIVE_EDITABLE.glb'
+          assert blend.stat().st_size>20000 and glb.stat().st_size>20000
+          bpy.ops.wm.open_mainfile(filepath=str(blend))
+          sc=bpy.context.scene
+          assert sc.get('shotlist_authored_before_geometry')
+          assert sc.get('formal_art_adopted') is False
+          assert sc.get('minecraft_construction') is False
+          native=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(native)==j['mesh_count'] and len(native)>=70
+          tris=sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in native)
+          assert all(bpy.data.objects.get(name) for name in names)
+          for name,d in j['cameras'].items():
+              camera=bpy.data.objects[name]
+              assert all(abs(a-b)<0.001 for a,b in zip(camera.location,d['eye']))
+              assert camera.type=='CAMERA'
+          center_floor=bpy.data.objects.get('ONE_CONTINUOUS_PUBLIC_CITY_APPROACH')
+          assert center_floor and len(center_floor.data.vertices)==22
+          assert len(center_floor.data.polygons)==10
+          # These are projected *designated* anchor locations. Projection is not
+          # physical visibility; cross-scene ray checks below are independent.
+          fixed_targets={
+            '01_APPROACH_GATE':(0,570,520),
+            '02_RIFT_THRESHOLD':(-25,590,790),
+            '03_OVERHEAD_REVELATION':(-25,515,1250)}
+          projected={};rays={}
+          meshes=[o for o in native if o!=center_floor]
+          dep=bpy.context.evaluated_depsgraph_get()
+          trees=[(o,BVHTree.FromObject(o,dep)) for o in meshes]
+          for name,target in fixed_targets.items():
+              cam=bpy.data.objects[name]
+              position=world_to_camera_view(sc,cam,Vector(target))
+              projected[name]={
+                'x':round(float(position.x),4),
+                'y':round(float(position.y),4),
+                'in_front':bool(position.z>0),
+                'on_sensor':bool(0<=position.x<=1 and 0<=position.y<=1 and position.z>0)}
+              eye=cam.location.copy();dest=Vector(target)
+              vec=dest-eye;length=vec.length;vec.normalize()
+              nearest=None
+              for o,t in trees:
+                  loc,n,face,d=t.ray_cast(eye,vec,length)
+                  if loc is not None and (nearest is None or d<nearest[1]):
+                      nearest=(o.name,round(float(d),3))
+              rays[name]={'target':[float(a) for a in target],
+                  'first_intersecting_object':nearest,
+                  'target_reachable_by_clear_los':nearest is None}
+          assert all(x['in_front'] for x in projected.values()),projected
+          original_names={o.name for o in native}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          restored=[o for o in bpy.data.objects if o.type=='MESH']
+          restored_names={o.name for o in restored}
+          assert restored_names==original_names,(len(restored_names),len(original_names))
+          restored_triangles=sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in restored)
+          assert restored_triangles==tris,(tris,restored_triangles)
+          audit={'status':'TECH_LIMITED_PASS_VISUAL_ART_NOT_AUTOMATICALLY_APPROVED',
+             'native_blend_reloaded':True,'glb_reimported':True,
+             'mesh_count':len(native),'reimported_mesh_count':len(restored),
+             'triangles':tris,'source_and_export_triangle_consistency':True,
+             'actual_camera_aim_checks':projected,
+             'actual_source_BVH_first_intersections':rays,
+             'camera_storyboard_authored_before_geometry':True,
+             'fully_clear_sightline_for_all_three_shots':all(
+                 v['target_reachable_by_clear_los'] for v in rays.values()),
+             'art_approved':False,'full_urban_walk_approved':False,
+             '10km_master_complete':False,'minecraft_construction':False}
+          (p/'R8_G0_INDEPENDENT_AUDIT.json').write_text(
+             json.dumps(audit,ensure_ascii=False,indent=2),encoding='utf8')
+          print('R8_REAL_SEQUENCE_STORY_ART_VISUAL_G0_TECH_LIMITED_PASS',audit)
+          PY
+      - name: Preserve actual 3D + nine images even if QA fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R8-SEQUENCE-FIRST-G0-UNREVIEWED
+          path: /tmp/r8/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Archive genuine Blender source and hashes to research branch
+        if: success()
+        run: |
+          python - <<'PY'
+          import hashlib,zipfile,json
+          from pathlib import Path
+          p=Path('/tmp/r8')
+          target=Path('studies/M3D-1S/J7/R33-S27/D47_R8_EVIDENCE')
+          target.mkdir(parents=True,exist_ok=True)
+          names=['R8_SEQUENCE_3D_NATIVE_EDITABLE.blend',
+            'R8_SEQUENCE_3D_NATIVE_EDITABLE.glb',
+            'R8_G0_MANIFEST.json','R8_G0_INDEPENDENT_AUDIT.json']
+          names += [f'{i:02d}_{name}.png' for i,name in enumerate(
+             ('APPROACH_GATE','RIFT_THRESHOLD','OVERHEAD_REVELATION',
+              'UPPER_CITY_INHABITED','ARCHIVE_PUBLIC_INTERIOR',
+              'MACRO_FRONT','MACRO_SIDE','MACRO_REAR','MACRO_AERIAL'),1)]
+          assert len(names)==13
+          for name in names: assert (p/name).stat().st_size>100,name
+          zipname=target/'R8_TRUE_BLENDER_SEQUENCED_CITY_G0_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(zipname,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as f:
+              for name in names:f.write(p/name,name)
+          hashes={'proof_zip_sha256':hashlib.sha256(zipname.read_bytes()).hexdigest(),
+            'individual_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+            'art_approved':False,'official_city_master':False,
+            'canonical_M247C_preserved':True}
+          (target/'R8_G0_SHA256.json').write_text(json.dumps(hashes,indent=2))
+          print('R8_EVIDENCE_HASH',hashes['proof_zip_sha256'])
+          PY
+      - name: Commit only in isolated R8 research branch
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r8-sequence-first-art-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r8-art-probe-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R8_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R8 archive sequence-first real Blender spatial and art G0 proof'
+          git push origin "HEAD:refs/heads/$TARGET"
