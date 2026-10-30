@@ -14,10 +14,104 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+      - name: Verify the exact G0 run whose five images were reviewed
+        id: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from pathlib import Path
+          d=json.loads(Path('studies/M3D-1S/J7/R33-S27/D47_R18_E6_REVIEW/E6_G0_TRUE_5VIEW_VISUAL_DECISION.json').read_text())
+          run_id=d.get('source_g0_run_id')
+          assert type(run_id) is int and run_id>0, 'Review must specify the inspected G0 workflow run ID'
+          print(f'run_id={run_id}')
+          PY
+          run_id="$(sed -n 's/^run_id=//p' "$GITHUB_OUTPUT" | tail -n 1)"
+          conclusion="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run_id" --jq '.conclusion')"
+          branch="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run_id" --jq '.head_branch')"
+          test "$conclusion" = success
+          test "$branch" = "$GITHUB_REF_NAME"
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$run_id/artifacts" \
+            --jq '.artifacts[] | select(.name=="HALO9-R18-E6-G0-TRUE-BLENDER-BLEND-GLB-FIVE-IMAGES" and .expired==false) | .id' \
+            | grep -Eq '^[0-9]+
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-R18-E6-G0-TRUE-BLENDER-BLEND-GLB-FIVE-IMAGES
+          path: /tmp/e6-original
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Real Blender and image-check libraries
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Reopen original BLEND and actually modify primary mesh using visual inspection
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          test -s /tmp/e6-original/E6_G0_REAL_INHABITED_FISSURE_BEFORE.blend
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_E6_NATIVE/e6_edit_same_native_fold_after_review.py \
+            /tmp/e6-original /tmp/e6-edited \
+            studies/M3D-1S/J7/R33-S27/D47_R18_E6_REVIEW/E6_G0_TRUE_5VIEW_VISUAL_DECISION.json
+      - name: Independently verify original camera matching and BLEND GLB reopen
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          from PIL import Image,ImageChops
+          from pathlib import Path
+          import bpy,json,hashlib
+          p=Path('/tmp/e6-edited');o=Path('/tmp/e6-original')
+          a=json.loads((p/'E6_G1_ACTUAL_SAME_SOURCE_EDIT_AUDIT.json').read_text())
+          assert a['change_count']>=12
+          assert a['exact_same_camera_matrices'] is True
+          assert a['other_meshes_geometrically_identical'] is True
+          assert a['target_original_hash']!=a['target_edited_hash']
+          assert a['G0_original_sha256']==hashlib.sha256((o/'E6_G0_REAL_INHABITED_FISSURE_BEFORE.blend').read_bytes()).hexdigest()
+          images=[]
+          for n in ['01_HUMAN_ARRIVAL','02_HUMAN_CULTURAL_ATLAS','03_WEST_ARCHIVE_VIEW','04_CITY_ANGLED','05_CITY_REAR']:
+            bf=o/('BEFORE_'+n+'.png');af=p/('AFTER_'+n+'.png')
+            with Image.open(bf) as before,Image.open(af) as after:
+              A=before.convert('RGB');B=after.convert('RGB')
+              assert A.size==B.size==(1160,760)
+              region=ImageChops.difference(A,B).getbbox()
+              assert region,('unchanged image',n)
+            images.append({'name':n,'changed_bounds':region,
+              'before_sha256':hashlib.sha256(bf.read_bytes()).hexdigest(),
+              'after_sha256':hashlib.sha256(af.read_bytes()).hexdigest()})
+          bpy.ops.wm.open_mainfile(filepath=str(p/'E6_G1_ACTUAL_SAME_BLENDER_REMODELED_FOLD.blend'))
+          assert bpy.context.scene['E6_ART_ADOPTED'] is False
+          assert bpy.context.scene['E6_MINECRAFT_WRITTEN'] is False
+          names={x.name for x in bpy.data.objects if x.type=='MESH'}
+          f=bpy.data.objects['WEST_INHABITED_FOLD_EDITABLE']
+          assert len(f.data.vertices)==42 and len(f.data.polygons)==38
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/'E6_G1_ACTUAL_SAME_BLENDER_REMODELED_FOLD.glb'))
+          assert {x.name for x in bpy.data.objects if x.type=='MESH'}==names
+          report={'SOURCE_TECH':'LIMITED_PASS_TRUE_SAME_BLENDER_DIRECT_EDIT',
+            'five_original_camera_pairs':images,'glb_and_blend_reopened':True,
+            'ART':'NOT_AUTOMATICALLY_APPROVED','FUNCTION':'UNCERTIFIED',
+            'formal_adoption':False,'city_master_complete':False,'minecraft_write':False}
+          (p/'E6_G1_INDEPENDENT_BEFORE_AFTER_QA.json').write_text(json.dumps(report,indent=2))
+          print('E6_ACTUAL_BLENDER_PRIMARY_FORM_EDIT_TECH_LIMITED_PASS')
+          PY
+      - name: Retain actual edited model and same five views
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E6-G1-SAME-NATIVE-MAIN-FORM-EDIT-FIVE-TRUE-CAMERAS
+          path: /tmp/e6-edited/
+          retention-days: 14
+          if-no-files-found: warn
+
       - name: Download original G0 genuinely created Blender model
         uses: actions/download-artifact@v4
         with:
-          run-id: 41129504031
+          run-id: ${{ steps.source.outputs.run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           name: HALO9-R18-E6-G0-TRUE-BLENDER-BLEND-GLB-FIVE-IMAGES
           path: /tmp/e6-original
