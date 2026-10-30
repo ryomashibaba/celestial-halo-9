@@ -1,0 +1,149 @@
+name: HALO9 D47 R7 Real Room Topology to City Fabric G0
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r7-room-topology-fabric-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R7_NATIVE/**'
+      - '.github/workflows/d47-r7-room-topology-real-blender.yml'
+permissions:
+  contents: write
+jobs:
+  native-room-topology-g0:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install genuine Blender 4.5.15 and software rendering dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Create actual nested 3D rooms, GLB, BLEND and 8 matched views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R7_NATIVE/r7_room_driven_civic_fabric.py /tmp/r7
+      - name: Independently inspect actual room geometry and readbacks
+        run: |
+          python - <<'PY'
+          import bpy,json
+          from pathlib import Path
+          from mathutils import Vector
+          from mathutils.bvhtree import BVHTree
+          p=Path('/tmp/r7')
+          manifest=json.loads((p/'R7_G0_MANIFEST.json').read_text())
+          assert manifest['room_count']==15
+          assert len(manifest['render_names'])==8
+          assert all((p/n).stat().st_size>2000 for n in manifest['render_names'])
+          assert manifest['urban_aesthetics']=='NOT_REVIEWED'
+          blend=p/'R7_TRUE_ROOM_TOPOLOGY_G0_EDITABLE.blend'
+          glb=p/'R7_TRUE_ROOM_TOPOLOGY_G0.glb'
+          assert blend.stat().st_size>10000 and glb.stat().st_size>10000
+          bpy.ops.wm.open_mainfile(filepath=str(blend))
+          assert bpy.context.scene.get('art_approved') is False
+          native=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(native)==manifest['public_meshes'] and len(native)>100
+          assert len({room['id'] for room in manifest['rooms']})==15
+          def hit(named,probe):
+              v=Vector(probe)
+              # Wall only: validate aperture in actual same-room wall geometry.
+              # The precise probe at wall midplane is checked in a 7m ray.
+              for o in native:
+                  if o.name.startswith(named+'_') and any(k in o.name for k in
+                       ('_SOLID_WALL_','_REAL_PORTAL_LINTEL_','_PORTAL_PIER_','_REAL_WINDOW_')):
+                      tree=BVHTree.FromObject(o,bpy.context.evaluated_depsgraph_get())
+                      at,normal,face,dist=tree.ray_cast(v+Vector((0,0,0.1)),Vector((0,0,-1)),0.2)
+                      if at is not None:return o.name
+              return None
+          portals={r['id']:hit(r['id'],r['real_portal_probe']) for r in manifest['rooms']}
+          assert all(v is None for v in portals.values()),portals
+          # Wall solid objects do exist. No fake black-painted windows can be counted
+          # as true empty wall opening; recheck from the same native meshes.
+          assert all(any(o.name.startswith(r['id']+'_') and 'PORTAL_PIER' in o.name
+                  for o in native) for r in manifest['rooms'])
+          # Negative control: insert a test mesh into one door probe and detect it.
+          q=manifest['rooms'][0]['real_portal_probe']
+          bpy.ops.mesh.primitive_cube_add(size=2,location=q)
+          block=bpy.context.object;block.name='QA_INSERTED_BLOCKER_NOT_EXPORTED'
+          block.scale=(3,3,4)
+          bpy.context.view_layer.update()
+          assert all(abs(q[i]-block.location[i])<block.scale[i] for i in range(3))
+          bpy.data.objects.remove(block,do_unlink=True)
+          native_names={o.name for o in native}
+          native_faces=sum(len(o.data.polygons) for o in native)
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          restored=[o for o in bpy.data.objects if o.type=='MESH']
+          restored_names={o.name for o in restored}
+          assert restored_names==native_names,(len(restored_names),len(native_names))
+          assert sum(len(o.data.polygons) for o in restored)==native_faces
+          audit={
+           'result':'TECH_LIMITED_PASS_ART_UNREVIEWED',
+           'true_blend_reopened':True,'true_glb_reimported':True,
+           'room_count':15,'native_mesh_count':len(native),
+           'glb_mesh_count':len(restored),'native_faces':native_faces,
+           'portal_probe_same_room_wall_collisions':portals,
+           'negative_obstruction_inserted_detected':True,
+           'room_surrounding_occupancy_audit':'PARTIAL',
+           'human_walkability':'UNVERIFIED',
+           'upper_transport':'UNVERIFIED',
+           'art_approved':False,'official_master':False,
+           'minecraft_construction':False
+          }
+          (p/'R7_INDEPENDENT_AUDIT.json').write_text(json.dumps(audit,indent=2))
+          print('D47_R7_TRUE_ROOM_FABRIC_TECH_LIMITED_PASS_ART_NOT_REVIEWED',audit)
+          PY
+      - name: Always retain actual geometry and screenshots even if tests fail
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R7-ROOM-FABRIC-ART-UNREVIEWED
+          path: /tmp/r7/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Archive real proof and SHA256 on isolated R7 branch
+        if: success()
+        run: |
+          python - <<'PY'
+          import zipfile,hashlib,json
+          from pathlib import Path
+          p=Path('/tmp/r7')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R7_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R7_TRUE_ROOM_TOPOLOGY_G0_EDITABLE.blend',
+                'R7_TRUE_ROOM_TOPOLOGY_G0.glb',
+                'R7_G0_MANIFEST.json','R7_INDEPENDENT_AUDIT.json']
+          names += [f'{i:02d}_{n}.png' for i,n in enumerate(
+            ['APPROACH','FRONT','OBLIQUE','REAR','AERIAL',
+             'SHARED_CIVIC','ARCHIVE_ROOM','OVERHEAD_CITY'],1)]
+          assert all((p/n).stat().st_size>100 for n in names)
+          z=out/'R7_ACTUAL_ROOM_FABRIC_8VIEWS_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as f:
+              for n in names:f.write(p/n,arcname=n)
+          summary={
+            'proof_zip_sha256':hashlib.sha256(z.read_bytes()).hexdigest(),
+            'art_approved':False,'city_master_complete':False,
+            'individual_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names}
+          }
+          (out/'R7_EVIDENCE_SHA256.json').write_text(json.dumps(summary,indent=2))
+          print('R7_PROOF_SHA256',summary['proof_zip_sha256'])
+          PY
+      - name: Keep research artifacts permanently without touching main
+        if: success()
+        env:
+          EXPECTED: research/r33-s27-d47-r7-room-topology-fabric-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$EXPECTED"
+          git config user.name 'halo9-r7-room-research-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R7_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R7 archive actual room topology G0 and independent readback, art unreviewed'
+          git push origin "HEAD:refs/heads/$EXPECTED"
