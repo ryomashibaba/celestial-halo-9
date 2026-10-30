@@ -1,0 +1,73 @@
+name: HALO9 D48 P1 preserve native Blender 7-view research evidence
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r2-p1-interior-first-20261031
+    paths:
+      - '.github/workflows/d48-r2-p1-preserve-real-native-evidence.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  preserve-real-blend-original:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify exact reviewed source run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41140650010" --jq '.conclusion')" = success
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41140650010" --jq '.head_sha')" = c298e4028c4696207ca12f93e44079d54cfe264f
+      - uses: actions/download-artifact@v4
+        with:
+          name: HALO9-D48-R2-P1-REAL-BLEND-GLB-7-TRUE-VIEWS
+          run-id: 41140650010
+          github-token: ${{ github.token }}
+          path: /tmp/p1-original
+      - name: Check nine hashes and preserve exact true originals
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          src=Path('/tmp/p1-original')
+          m=json.loads((src/'D48_R2_P1_MANIFEST.json').read_text())
+          assert m['stage']=='D48_R2_P1_INTERIOR_FIRST_REAL_3D'
+          assert len(m['sha256'])==9 and len(m['files']['pngs'])==7
+          assert m['city_master_complete'] is False
+          assert m['minecraft_construction'] is False
+          for n,sha in m['sha256'].items():
+              assert hashlib.sha256((src/n).read_bytes()).hexdigest()==sha,n
+          verdict=Path('studies/M3D-1S/J7/R33-S27/D48_R2_P1_INTERIOR_FIRST/D48_R2_P1_TRUE_7VIEW_ART_VERDICT_JA.md')
+          assert 'ART REJECT' in verdict.read_text()
+          dst=Path('studies/M3D-1S/J7/R33-S27/D48_R2_P1_EVIDENCE')
+          dst.mkdir(parents=True,exist_ok=True)
+          archive=dst/'R2_P1_TRUE_3D_ART_REJECT.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for p in sorted(src.iterdir()):
+                  assert p.is_file()
+                  z.write(p,p.name)
+              z.write(verdict,verdict.name)
+          with zipfile.ZipFile(archive) as z:
+              assert z.testzip() is None
+              assert z.read('D48_R2_P1_MANIFEST.json')==(src/'D48_R2_P1_MANIFEST.json').read_bytes()
+          (dst/'R2_P1_RESEARCH_ONLY_QA.json').write_text(json.dumps({
+              'source_run_id':41140650010,
+              'source_sha':'c298e4028c4696207ca12f93e44079d54cfe264f',
+              'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+              'archive_bytes':archive.stat().st_size,
+              'art':'REJECT','function':'UNCERTIFIED',
+              'formal_adoption':False,'minecraft_write':False},indent=2))
+          print('VERIFIED_RESEARCH_ARCHIVE',archive.stat().st_size)
+          PY
+      - name: Commit to isolated research branch only
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF_NAME" = research/r33-s27-d48-r2-p1-interior-first-20261031
+          git config user.name "halo9-evidence[bot]"
+          git config user.email "halo9-evidence[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R33-S27/D48_R2_P1_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m "D48 P1 archive inspected true Blender evidence ART REJECT"
+          git push origin "HEAD:$GITHUB_REF_NAME"
