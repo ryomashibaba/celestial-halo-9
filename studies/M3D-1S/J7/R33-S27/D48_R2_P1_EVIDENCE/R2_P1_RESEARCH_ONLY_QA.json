@@ -1,0 +1,10 @@
+{
+  "source_run_id": 41140650010,
+  "source_sha": "c298e4028c4696207ca12f93e44079d54cfe264f",
+  "archive_sha256": "d93ac4a6cbb4f399d14094269c3307542aae955bcc93f57caf3aa8dc87c231c8",
+  "archive_bytes": 7787394,
+  "art": "REJECT",
+  "function": "UNCERTIFIED",
+  "formal_adoption": false,
+  "minecraft_write": false
+}
