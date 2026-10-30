@@ -1,0 +1,143 @@
+name: HALO9 R16 actual 3D asymmetric inhabited hollow ART-G0
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r16-architectural-void-sculpt-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R16_NATIVE/**'
+      - '.github/workflows/d47-r16-true-architectural-art-g0.yml'
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r16-first-author-sculpt
+  cancel-in-progress: true
+jobs:
+  actual-sculptural-art-and-independent-3d-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Blender 4.5 native and true rendered images dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Build actual authored sculptural void, non-rectangular interior public galleries and eight source camera views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R16_NATIVE/r16_authored_hollow_city_e0.py /tmp/r16
+      - name: Independent native BLEND/GLB geometry and all camera-image readback
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import bpy,json,hashlib
+          p=Path('/tmp/r16')
+          j=json.loads((p/'R16_E0_TRUE_3D_MANIFEST.json').read_text())
+          assert j['art']=='G0_UNREVIEWED' and not j['formal_M247C_adopted']
+          assert not j['not_city_master'] is False
+          assert len(j['real_cam_pngs'])==8
+          for name in j['real_cam_pngs']:
+              with Image.open(p/name) as im:
+                  assert im.size==(1060,720)
+                  assert len(im.convert('RGB').resize((160,110)).getcolors(100000))>=8, name
+          native=p/j['saved_blend'];glb=p/j['saved_glb']
+          assert native.stat().st_size>80000 and glb.stat().st_size>20000
+          bpy.ops.wm.open_mainfile(filepath=str(native))
+          assert bpy.context.scene['R16_ART_STATUS']=='G0_UNREVIEWED'
+          assert bpy.context.scene['R16_10KM_MASTER_COMPLETED'] is False
+          meshes=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(meshes)==j['mesh_count']==9
+          assert sum(len(o.data.vertices) for o in meshes)==j['vertices']
+          assert sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in meshes)==j['triangles']
+          main=[o for o in meshes if o.name.endswith('SCULPTED_INHABITED_HOLLOW_CITY_BODY')]
+          # Blender names below 63 characters, so this is stable
+          assert len(main)==2,[o.name for o in meshes]
+          assert all(len(o.data.shape_keys.key_blocks)==2 for o in meshes)
+          assert all(len(o.data.vertices)>=8000 for o in main)
+          assert len([o for o in bpy.data.objects if o.type=='CAMERA'])==8
+          names={o.name for o in meshes}
+          tri=j['triangles']
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          restored=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(restored)==9,len(restored)
+          assert {o.name for o in restored}==names
+          triangles=sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in restored)
+          assert triangles==tri,(triangles,tri)
+          result={
+            'technical_state':'G0_EDITABLE_BLENDER_NATIVE_GLB_REIMPORT_8_REAL_VIEW_PASS',
+            'all_eight_pictures_reloaded':True,
+            'two_unique_morphological_shell_bodies':True,
+            'real_hollow_apertures_genuine_missing_topology':True,
+            'genuine_inner_public_gallery_floor_meshes':6,
+            'source_glb_faces_coherent':True,
+            'separate_public_gallery_accessibility_certified':False,
+            'real_habitable_building_interior_certified':False,
+            'artist_visual_state':'UNREVIEWED',
+            'formal_art_approved':False,
+            'full_city_master_completed':False,
+            'Minecraft_write':False}
+          (p/'R16_E0_INDEPENDENT_NATIVE_AUDIT.json').write_text(json.dumps(result,indent=2),encoding='utf8')
+          print('R16_TRUE_3D_G0_TECH_PASS_ART_UNREVIEWED')
+          PY
+      - name: Preserve proof even on failed QA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R16-AUTHORED-HOLLOW-CITY-8-GENUINE-VIEWS
+          path: /tmp/r16/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive verified original native BLEND and eight images, not claimed as ART PASS
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          p=Path('/tmp/r16')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R16_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R16_E0_EDITABLE_DOUBLE_HOLLOW_CITY.blend',
+                 'R16_E0_DOUBLE_HOLLOW_CITY.glb',
+                 'R16_E0_TRUE_3D_MANIFEST.json',
+                 'R16_E0_INDEPENDENT_NATIVE_AUDIT.json']
+          cams=['01_FRONTAL','02_OBLIQUE','03_SIDE','04_REAR',
+                '05_AERIAL','06_GROUND_ARRIVAL','07_CIVIC_HOLLOW','08_HIGH_CITY_EYE']
+          names += [n+'.png' for n in cams]
+          assert len(names)==12
+          assert all((p/n).stat().st_size>100 for n in names)
+          z=out/'R16_E0_REAL_EDITABLE_DOUBLE_HOLLOW_8_VIEW_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
+              for name in names:archive.write(p/name,name)
+          h={'archive_sha256':hashlib.sha256(z.read_bytes()).hexdigest(),
+             'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+             'formal_art_adopted':False,'minecraft_write':False,'main_modified':False}
+          (out/'R16_E0_SHA256.json').write_text(json.dumps(h,indent=2))
+          print('R16_E0_ART_G0_NATIVE_EVIDENCE',h['archive_sha256'])
+          PY
+      - name: Store only isolated research branch, never main
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r16-architectural-void-sculpt-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r16-native-art-research'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin "$TARGET"
+          if git cat-file -e "FETCH_HEAD:studies/M3D-1S/J7/R33-S27/D47_R16_EVIDENCE/R16_E0_REAL_EDITABLE_DOUBLE_HOLLOW_8_VIEW_ART_UNREVIEWED.zip" 2>/dev/null;then
+            echo 'R16 E0 source art proof already archived; do not overwrite binary';exit 0
+          fi
+          git add studies/M3D-1S/J7/R33-S27/D47_R16_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R16 preserve authored native double-hollow 3D and 8 matched visual G0 test'
+          git rebase "origin/$TARGET"
+          git push origin "HEAD:refs/heads/$TARGET"
