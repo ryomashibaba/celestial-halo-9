@@ -58,7 +58,15 @@ jobs:
               assert len(row['camera_renders'])==9
               for name in row['camera_renders']:
                   with Image.open(d/name) as im:
-                      assert im.size==(1100,720) and im.getbbox() is not None
+                      # Do not confuse PNG alpha channel with visible pixels.
+                      rgb=im.convert('RGB')
+                      assert rgb.size==(1100,720) and rgb.getbbox() is not None,(label,name)
+                      # Important visual negative gate: each of eight candidate
+                      # shots must actually display occupied scene pixels.
+                      if '09_WIDE_CONTEXT' not in name:
+                          px=rgb.resize((165,108))
+                          shades=px.getcolors(maxcolors=165*108+1)
+                          assert shades is not None and len(shades)>=8,(label,name,len(shades) if shades else 0)
               bpy.ops.wm.open_mainfile(filepath=str(d/row['native_reopened_blend']))
               obj=[o for o in bpy.data.objects if o.type=='MESH']
               assert len(obj)==row['source_mesh_objects']
