@@ -1,0 +1,20 @@
+{
+  "source_run": 41066891031,
+  "source_artifact": 12982289690,
+  "sha256_zip": "cd0e36066dd607d071f8dcebea6ed2e2ea20825f80ccf516df3c7ad7f2e2d824",
+  "contents_sha256": {
+    "R18_E1_REAL_EDITABLE_CIVIC_LIGHT_CHASM.blend": "aa8b0c186a2bba1d63e1c5d21662c2dd92449d318a7e69eec6ff945435039d38",
+    "R18_E1_REAL_CIVIC_LIGHT_CHASM.glb": "36c57563958a72d92713922aac6822327f1c6cc56b5e0bfc3e097605f5fcd2c9",
+    "R18_E1_G0_MANIFEST.json": "32f9be2e2621598e22dfe64aa512463b63a4f4beb1c87ab47556573a4731e5a2",
+    "R18_E1_INDEPENDENT_SOURCE_AUDIT.json": "1799fa1687603b42cc5d26b56c05143571bab44231581e6cef5daf8725d2321e",
+    "01_HUMAN_ENTRANCE.png": "f4afd29ef467798db3f1559ef8c7eb107a2b3829611a54843040036a4569b504",
+    "02_TRUE_OBLIQUE_SILHOUETTE.png": "7163093ffeee9af67e63f9f9d50530e4a1f4ef080f6519a90c88c9ff7f7c58a1",
+    "03_UNMASKED_REAR.png": "9b7f9954a4c86a6b5bd3aa3231a27ae4ba1f8f4fcfa72422e906c2baacedc70e"
+  },
+  "technical": "LIMITED_PASS",
+  "art": "REJECT",
+  "function": "UNCERTIFIED",
+  "canonical_adoption": false,
+  "city_master_complete": false,
+  "minecraft_write": false
+}
