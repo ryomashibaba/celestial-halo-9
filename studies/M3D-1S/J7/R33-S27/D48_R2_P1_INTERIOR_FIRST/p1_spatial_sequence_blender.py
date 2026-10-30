@@ -129,10 +129,35 @@ ROOMS=[
  ("EXCHANGE_FORUM_WEST",(-650,430,140),(520,580,280),M["brass"]),
  ("OPEN_SCIENCE_WALL_EAST",(600,500,135),(480,450,270),M["public"]),
 ]
+def inhabited_public_room(name,center,dim,mat):
+ # Open, hollow, *actually enterable* room shell: floor/roof and six walls
+ # with a 240m opening toward the civic street. Never use a sealed cube.
+ x,y,z=center;dx,dy,dz=dim
+ wall=18
+ floor_z=z-dz/2
+ coll=GR["01_PUBLIC_ROOM_AND_FLOORS_FIRST"]
+ for n,ctr,dimensions in [
+  ("FLOOR",(x,y,floor_z-6),(dx,dy,12)),
+  ("ROOF",(x,y,z+dz/2+8),(dx,dy,16)),
+  ("NORTH_WALL",(x,y+dy/2-wall/2,z),(dx,wall,dz)),
+  ("SOUTH_WALL",(x,y-dy/2+wall/2,z),(dx,wall,dz)),
+  ("OUTER_WALL",(x+(dx/2-wall/2 if x>0 else -dx/2+wall/2),y,z),
+   (wall,dy,dz))
+ ]:
+  box(name+"_"+n,ctr,dimensions,mat,coll,"HOLLOW_PUBLIC_ROOM_SHELL_WIP","M247-C")
+ inner_x=x+(-dx/2+wall/2 if x>0 else dx/2-wall/2)
+ aperture=240
+ remainder=(dy-aperture)/2
+ for sign in [-1,1]:
+  section_center_y=y+sign*(aperture/2+remainder/2)
+  box(name+"_PUBLIC_DOOR_WALL_"+str(sign),(inner_x,section_center_y,z),
+      (wall,remainder,dz),mat,coll,"OPEN_PORTAL_ROOM_WALL_WIP","M247-C")
+ # A real branch deck from central public path into the aperture.
+ port_x=inner_x+(-25 if x>0 else 25)
+ walkway(name+"_ENTRY_FLOOR",(0,y,0),(port_x,y,0),110,12,
+     M["travertine"],coll,"M247-C","ROOM_ENTRY_CONNECTED_FLOOR_WIP")
 for n,xyz,dim,m in ROOMS:
- ob=box(n,xyz,dim,m,GR["01_PUBLIC_ROOM_AND_FLOORS_FIRST"],
-     "LARGE_PUBLIC_ROOM_VOLUME_WIP","M247-C")
- ob["INTERIOR_FULL_DETAIL_COMPLETE"]=False
+ inhabited_public_room(n,xyz,dim,m)
 for i,(x,y,z) in enumerate([
  (-310,-350,0),(-280,180,0),(300,120,0),(260,540,0)]):
  box("INTERIOR_FORUM_EXHIBIT_"+str(i),(x,y,z+45),(90,115,90),
@@ -146,9 +171,9 @@ for z,cx,cy,dx,dy in [(150,-560,-160,620,690),(325,600,80,570,720),
    GR["01_PUBLIC_ROOM_AND_FLOORS_FIRST"],"INHABITED_MASS_PUBLIC_BALCONY_WIP","M247-C")
 # Concrete three-dimensional station: lower and upper floors, column volumes,
 # and a 3D open elevator shaft; lift operation NOT certified.
-box("CENTRAL_STATION_GROUND",(0,780,4),(520,480,12),M["brass"],
+box("CENTRAL_STATION_GROUND",(0,780,-6),(520,480,12),M["brass"],
     GR["02_STATIONS_AND_ELEVATOR_SPACE"],"PUBLIC_METRO_CONCOURSE_FLOOR","M247-C")
-box("CENTRAL_STATION_UPPER",(0,780,784),(520,480,24),M["travertine"],
+box("CENTRAL_STATION_UPPER",(0,780,772),(520,480,24),M["travertine"],
     GR["02_STATIONS_AND_ELEVATOR_SPACE"],"UPPER_STATION_LANDING","M247-C")
 for x in (-200,200):
  for y in (570,990):
@@ -173,7 +198,10 @@ for asset,c,dim,color in h_specs:
      GR["03_INHABITED_H1_H2_LINKED_DESTINATIONS"],
      "CITY_MASS_CONTAINS_REAL_PUBLIC_INTERNAL_FLOORS_WIP",asset)
  for j in range(3):
-  lvl=c[2]-dim[2]/2+80+j*(dim[2]-160)/2
+  # First/second research floors cross the actual attached route at z=784.
+  # Separate public floors are not a fully authored private city interior.
+  top_levels=([640,784,925] if asset=="H1" else [784,1060,1230])
+  lvl=top_levels[j]-9.5
   box(f"{asset}_PUBLIC_LEVEL_{j}",(c[0],c[1],lvl),
      (dim[0]*.82,dim[1]*.82,19),M["travertine"],
      GR["03_INHABITED_H1_H2_LINKED_DESTINATIONS"],
@@ -193,11 +221,11 @@ route.append({"name":"UPPER_FROM_STATION_TO_H1",
               "start":(0,780,784),"end":(-180,1540,784),
               "mode":"WALK","floor_width_m":125})
 walkway("H1_TO_H2_PUBLIC_TECTONIC_CORRIDOR",
-        (-180,1540,784),(1470,1890,1000),160,45,M["blue"],
+        (-180,1540,784),(1470,1890,784),160,45,M["blue"],
         GR["03_INHABITED_H1_H2_LINKED_DESTINATIONS"],"H2",
         "INHABITED_ELEVATED_PUBLIC_TRANSFER_DECK")
 route.append({"name":"H1_TO_H2_PUBLIC_TECTONIC_CORRIDOR",
-              "start":(-180,1540,784),"end":(1470,1890,1000),
+              "start":(-180,1540,784),"end":(1470,1890,784),
               "mode":"WALK","floor_width_m":160})
 # 4. Only now: main building architectural boundary. Sculptural folded,
 # nonmirrored and inhabited shell, with continuous daylight aperture above
