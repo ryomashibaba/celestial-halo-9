@@ -4,8 +4,7 @@ on:
     branches:
       - research/r33-s27-d48-r2-p2-native-visual-surgery-20261031
     paths:
-      - '.github/workflows/d48-r2-p2-same-blend-direct-surgery.yml'
-      - 'studies/M3D-1S/J7/R33-S27/D48_R2_P2_NATIVE_SURGERY/**'
+      - 'studies/M3D-1S/J7/R33-S27/D48_R2_P2_NATIVE_SURGERY/p2_direct_surgery_same_blend.py'
   workflow_dispatch:
 permissions:
   contents: read
