@@ -1,0 +1,156 @@
+name: HALO9 D47 R9 Saved Native Blender Visual Feedback Sculpt E1
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r9-visual-feedback-sculpt-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R9_NATIVE/**'
+      - '.github/workflows/d47-r9-true-feedback-edit.yml'
+permissions:
+  contents: write
+jobs:
+  reopen-edit-compare-archived-r8:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real Blender 4.5.15 and offline rendering environment
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Reopen R8 archived original BLEND with SHA and sculpt large existing geometry
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R9_NATIVE/r9_edit_saved_blend_direct_sculpt.py /tmp/d47-r9
+      - name: Independent native geometry and nine-view before-after audit
+        run: |
+          python - <<'PY'
+          import bpy,json,hashlib
+          from pathlib import Path
+          from PIL import Image, ImageChops
+          p=Path('/tmp/d47-r9')
+          s=json.loads((p/'R9_E1_EDIT_PROVENANCE_AND_AUDIT_INPUT.json').read_text())
+          assert not s['art_approved'] and not s['minecraft_construction']
+          assert s['original_R8_editable_blend_sha256']=='3d33a319fed9ddf7565a80271260e1e90dee521097dcd035bafa31a197d2e824'
+          assert hashlib.sha256((p/'R8_INTACT_BASELINE_READ_ONLY.blend').read_bytes()).hexdigest()==s['original_R8_editable_blend_sha256']
+          assert s['no_new_geometry_created']
+          assert s['all_original_camera_poses_same']
+          assert s['remaining_mesh_count']<s['original_mesh_count']
+          assert len(s['existing_meshes_with_changed_vertex_coordinates'])>14
+          names=['01_APPROACH_GATE','02_RIFT_THRESHOLD','03_OVERHEAD_REVELATION',
+             '04_UPPER_CITY_INHABITED','05_ARCHIVE_PUBLIC_INTERIOR',
+             '06_MACRO_FRONT','07_MACRO_SIDE','08_MACRO_REAR','09_MACRO_AERIAL']
+          differences={}
+          for n in names:
+            a=Image.open(p/'E0_R8_NATIVE_MATCHED'/(n+'.png')).convert('RGB')
+            b=Image.open(p/'E1_MACRO_DIRECT_SCULPT'/(n+'.png')).convert('RGB')
+            assert a.size==b.size==(1160,750)
+            diff=ImageChops.difference(a,b)
+            bbox=diff.getbbox()
+            differences[n]={
+              'same_camera_and_resolution':True,
+              'changed_image_bbox':list(bbox) if bbox else None,
+              'any_pixels_changed':bbox is not None
+            }
+          assert all(x['any_pixels_changed'] for x in differences.values()),differences
+          native=p/'R9_E1_TRUE_DIRECT_SCULPT_DIAGNOSTIC.blend'
+          glb=p/'R9_E1_TRUE_DIRECT_SCULPT_DIAGNOSTIC.glb'
+          assert native.stat().st_size>20000 and glb.stat().st_size>10000
+          bpy.ops.wm.open_mainfile(filepath=str(native))
+          assert not bpy.context.scene.get('formal_art_adopted')
+          assert not bpy.context.scene.get('R9_valid_city_occupancy')
+          original={o.name for o in bpy.data.objects if o.type=='MESH'}
+          assert len(original)==s['remaining_mesh_count']
+          original_tris=sum(sum(len(f.vertices)-2 for f in o.data.polygons)
+            for o in bpy.data.objects if o.type=='MESH')
+          assert original_tris>200
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          imported={o.name for o in bpy.data.objects if o.type=='MESH'}
+          assert imported==original,(len(imported),len(original))
+          reimport_tri=sum(sum(len(f.vertices)-2 for f in o.data.polygons)
+            for o in bpy.data.objects if o.type=='MESH')
+          assert reimport_tri==original_tris,(reimport_tri,original_tris)
+          report={
+            'status':'ACTUAL_EXISTING_NATIVE_VERTEX_SCULPT_TECH_LIMITED_PASS',
+            'art':'UNREVIEWED',
+            'original_archival_R8_sha256_checked':True,
+            'same_cameras_and_9_pairs':True,
+            'changed_pixels_for_every_camera':differences,
+            'real_unmodified_original_blend_read':True,
+            'real_sculpted_blend_reloaded':True,
+            'actual_glb_independently_reimported':True,
+            'edited_faces_triangles':original_tris,
+            'all_portal_routes_and_city_functions':False,
+            'urban_silhouette_beauty':'NOT_VERIFIED_AUTOMATICALLY',
+            'M247_C_adopted':False,'10km_master_done':False,
+            'minecraft_construction':False
+          }
+          (p/'R9_E1_INDEPENDENT_QA.json').write_text(
+            json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
+          print('R9_TECH_REAL_SAVED_BLENDER_MESH_CHANGE_OK_BUT_ART_NOT_APPROVED')
+          PY
+      - name: Save real proof even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R9-TRUE-DIRECT-MESH-REVISION-ART-UNREVIEWED
+          path: /tmp/d47-r9/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Archive proof with filenames and SHA256 in R9-only research folder
+        if: success()
+        run: |
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          p=Path('/tmp/d47-r9')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R9_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=[
+            'R9_E1_TRUE_DIRECT_SCULPT_DIAGNOSTIC.blend',
+            'R9_E1_TRUE_DIRECT_SCULPT_DIAGNOSTIC.glb',
+            'R9_E1_EDIT_PROVENANCE_AND_AUDIT_INPUT.json',
+            'R9_E1_INDEPENDENT_QA.json']
+          nam=['01_APPROACH_GATE','02_RIFT_THRESHOLD','03_OVERHEAD_REVELATION',
+             '04_UPPER_CITY_INHABITED','05_ARCHIVE_PUBLIC_INTERIOR',
+             '06_MACRO_FRONT','07_MACRO_SIDE','08_MACRO_REAR','09_MACRO_AERIAL']
+          for d in ('E0_R8_NATIVE_MATCHED','E1_MACRO_DIRECT_SCULPT'):
+            names.extend(d+'/'+n+'.png' for n in nam)
+          assert len(names)==22
+          archive=out/'R9_E1_MATCHED_9VIEW_TRUE_SAVED_SCULPT_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+            for n in names:
+              assert (p/n).stat().st_size>100,n
+              z.write(p/n,arcname=n)
+          hash_file={
+            'artifact_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+            'original_R8_editable_blend_sha256':'3d33a319fed9ddf7565a80271260e1e90dee521097dcd035bafa31a197d2e824',
+            'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+            'art_adopted':False,'city_master_complete':False,
+            'minecraft_construction':False}
+          (out/'R9_E1_SHA256.json').write_text(json.dumps(hash_file,indent=2))
+          print('R9_NATIVE_EDIT_EVIDENCE_HASH',hash_file['artifact_sha256'])
+          PY
+      - name: Commit only to R9 branch, rebase on concurrent R9 notes without force
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r9-visual-feedback-sculpt-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r9-direct-blender-sculpt'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R9_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R9 preserve original matched views and direct mesh sculpt diagnostic evidence, art unreviewed'
+          git fetch origin "$TARGET"
+          git rebase "origin/$TARGET"
+          git push origin "HEAD:refs/heads/$TARGET"
