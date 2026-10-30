@@ -1,0 +1,101 @@
+name: HALO9 D48 R3 G2 authored civic rift genuinely editable 3D and seven-camera art evidence
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r3-g2-urban-rift-master-study-20261031
+    paths:
+      - '.github/workflows/d48-r3-g2-real-tectonic-rift-seven-view.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D48_R3_G2_URBAN_RIFT/g2_authored_tectonic_civic_city.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: halo9-d48-r3-g2-silhouette-qa
+  cancel-in-progress: true
+jobs:
+  real-native-blender-sections:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check code and original 30-object coverage policy
+        run: |
+          python -m py_compile studies/M3D-1S/J7/R33-S27/D48_R3_G2_URBAN_RIFT/g2_authored_tectonic_civic_city.py
+          python studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/validate_d48_r0.py
+      - name: Install real Blender bpy and software display
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Author one true editable 3D scene and seven genuine cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D48_R3_G2_URBAN_RIFT/g2_authored_tectonic_civic_city.py /tmp/d48-r3-g2
+      - name: Independently reopen true BLEND GLB and inspect camera and source hashes
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          import bpy
+          from PIL import Image,ImageStat
+          p=Path('/tmp/d48-r3-g2')
+          m=json.loads((p/'D48_R3_G2_NATIVE_MANIFEST.json').read_text())
+          assert m['design']=='D48_R3_G2_MANUALLY_AUTHORED_TECTONIC_CIVIC_RIFT'
+          assert m['art']=='UNREVIEWED'
+          assert m['source_origin']=='NO_GEOMETRY_IMPORTED_FROM_P1_P2_R3_G1_ART_REJECT'
+          assert m['official_coordinates']=='UNVERIFIED_LOCAL_ART_STUDY'
+          assert m['formal_adoption'] is False and m['minecraft_write'] is False and m['city_master_complete'] is False
+          assert m['H1_H6_ENTIRE_DETAIL']=='NOT_COMPLETE'
+          assert m['unmodeled_SB01_SB16_LOCATORS'] is True
+          assert set(m['present_mandatory_real_partial_entities']) >= set(['W0','M247-C']+['H'+str(i) for i in range(1,7)])
+          assert len(m['files']['images'])==7
+          for name,sha in m['sha256'].items():
+              assert hashlib.sha256((p/name).read_bytes()).hexdigest()==sha,name
+          for name in m['files']['images']:
+              with Image.open(p/name) as img:
+                  rgb=img.convert('RGB')
+                  assert rgb.size==(1360,820)
+                  assert sum(ImageStat.Stat(rgb).stddev)>10,name
+          bpy.ops.wm.open_mainfile(filepath=str(p/m['files']['blend']))
+          s=bpy.context.scene
+          assert s['D48_FORMAL_ADOPTED'] is False and s['D48_MINECRAFT_WRITTEN'] is False
+          assert s['D48_OFFICIAL_COORDINATES'] is False and s['D48_CITY_MASTER_COMPLETE'] is False
+          scene_objects=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(scene_objects)==m['real_mesh_count']
+          assert all(any(o.get('CITY_ASSET_ID')==f'H{i}' for o in scene_objects) for i in range(1,7))
+          assert all(any(o.type=='EMPTY' and o.get('CITY_ASSET_ID')==f'SB{i:02d}' for o in bpy.data.objects) for i in range(1,17))
+          assert len([o for o in bpy.data.objects if o.type=='CAMERA'])==7
+          for n,floor in [('05_OPEN_CIVIC_CANYON_EYE',74),('06_CANYON_PUBLIC_SECTION',77),('07_H3_SKY_CITY_EYE',2900)]:
+              assert abs(bpy.data.objects[n].location.z-floor-1.65)<0.11
+          # verify genuine single scene editability of main unequal paired sections
+          west=bpy.data.objects['M247C_WEST_DEEP_INHABITED_CLIFF']
+          east=bpy.data.objects['M247C_EAST_ASCENDING_COASTAL_MANTLE']
+          assert west.type==east.type=='MESH'
+          assert west['SECTION_CONTROLS']!=east['SECTION_CONTROLS']
+          assert len(west.data.vertices)>100 and len(east.data.vertices)>100
+          assert west.modifiers[0].type==east.modifiers[0].type=='SUBSURF'
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/m['files']['glb']))
+          assert len([o for o in bpy.data.objects if o.type=='MESH'])>=m['real_mesh_count']
+          (p/'G2_REOPEN_TECH_ONLY_QA.json').write_text(json.dumps({
+            'source_tech':'LIMITED_PASS','art':'NOT_REVIEWED_BY_HUMAN_VISION',
+            'function':'UNCERTIFIED','16_special_facilities':'UNMODELED_LOCATORS',
+            'human_eyes':'3_CAMERA_HEIGHTS_ONLY','formal_adoption':False,
+            'city_master_complete':False,'minecraft_write':False},indent=2))
+          print('R3_G2_TRUE_RESEARCH_3D_INDEPENDENT_TECH_PASS')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: HALO9-D48-R3-G2-AUTHORED-INHABITED-CIVIC-RIFT-7-TRUE-ART-VIEWS
+          path: /tmp/d48-r3-g2/
+          retention-days: 14
+          if-no-files-found: warn
