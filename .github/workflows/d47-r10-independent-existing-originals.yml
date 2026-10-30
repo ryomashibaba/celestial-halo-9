@@ -1,0 +1,154 @@
+name: HALO9 R10 cross-lineage original geometry art audit (no new shapes)
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r10-crosslineage-art-audit-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R10_NATIVE/**'
+      - '.github/workflows/d47-r10-independent-existing-originals.yml'
+permissions:
+  contents: write
+jobs:
+  original-art-audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout art/a G7 saved original read-only
+        uses: actions/checkout@v4
+        with:
+          repository: ryomashibaba/celestial-halo-9
+          ref: art/a
+          path: source_a
+          persist-credentials: false
+      - name: Checkout art/b G6 saved original read-only
+        uses: actions/checkout@v4
+        with:
+          repository: ryomashibaba/celestial-halo-9
+          ref: art/b
+          path: source_b
+          persist-credentials: false
+      - name: Checkout art/c G6+G7 saved originals read-only
+        uses: actions/checkout@v4
+        with:
+          repository: ryomashibaba/celestial-halo-9
+          ref: art/c
+          path: source_c
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Real Blender and pixel comparison tools
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Independently view 4 REAL source GLBs with same normalized directions
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R10_NATIVE/r10_independent_candidate_atlas.py /tmp/r10
+      - name: Independent reopen of all 4 source-faithful Blender scenes, validate refs
+        run: |
+          python - <<'PY'
+          import bpy,hashlib,json
+          from pathlib import Path
+          from PIL import Image
+          p=Path('/tmp/r10')
+          a=json.loads((p/'R10_ORIGINAL_LINEAGE_INDEPENDENT_AUDIT.json').read_text())
+          assert a['candidate_count']==4
+          assert a['all_canonical_original_source_glbs_untouched']
+          assert a['formal_M247C_adopted'] is False and not a['minecraft_construction']
+          assert not a['10km_city_master_complete'] and a['no_new_mass_generated']
+          modelids={r['id'] for r in a['models']}
+          assert modelids=={'A_G7_HOLD','B_G6_REJECT',
+              'C_G6_HOLD_SUPERSEDED','C_G7_N1_REJECT'}
+          audit={}
+          for r in a['models']:
+              name=r['id']
+              orig=Path(r['source_model_path'])
+              assert orig.is_file()
+              assert hashlib.sha256(orig.read_bytes()).hexdigest()==r['source_model_sha256']
+              preview=Path(r['original_preview_path'])
+              assert preview.is_file()
+              assert hashlib.sha256(preview.read_bytes()).hexdigest()==r['original_preview_sha256']
+              decision=Path(r['review_source_path'])
+              assert decision.is_file()
+              assert hashlib.sha256(decision.read_bytes()).hexdigest()==r['review_source_sha256']
+              for n in r['orthographic_views_normalized_to_own_bound'].values():
+                  with Image.open(p/n) as im:
+                      assert im.size==(960,640) and im.getbbox() is not None
+              bpy.ops.wm.open_mainfile(filepath=str(p/r['true_native_blend_from_original_glb_plus_camera']))
+              objects=[o for o in bpy.data.objects if o.type=='MESH']
+              assert len(objects)==r['mesh_objects']
+              tri=sum(sum(len(face.vertices)-2 for face in obj.data.polygons)
+                  for obj in objects)
+              assert tri==r['triangulated_faces'],(name,tri,r['triangulated_faces'])
+              assert bpy.context.scene.get('R10_canonical_art_adopted') is False
+              assert bpy.context.scene.get('R10_original_geometry_modified') is False
+              audit[name]={
+                  'original_glb_hash_verified':True,'original_preview_hash_verified':True,
+                  'later_decision_hash_verified':True,
+                  'native_saved_blend_reopened_and_triangles_verified':True,
+                  'technical_model_count':len(objects),
+                  'triangles':tri,
+                  'art_approved':False}
+          img=p/'R10_REAL_4_CANDIDATES_UNBIASED_VIEW_ATLAS.jpg'
+          with Image.open(img) as im: assert im.size[0]>=2500
+          (p/'R10_INDEPENDENT_READBACK.json').write_text(
+              json.dumps(audit,indent=2,ensure_ascii=False))
+          print('R10_VERIFIED_ALL_4_ORIGINAL_NATIVE_SCREENING_ASSETS',audit)
+          PY
+      - name: Upload inspectable real 3D and preview assets (even on failure)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R10-ORIGINAL-CROSSLINEAGE-4-GLB-COMPARISON
+          path: /tmp/r10
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive verified cross-lineage proof on R10 research branch
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile,hashlib,json
+          p=Path('/tmp/r10')
+          target=Path('studies/M3D-1S/J7/R33-S27/D47_R10_EVIDENCE')
+          target.mkdir(parents=True,exist_ok=True)
+          names=['R10_ORIGINAL_LINEAGE_INDEPENDENT_AUDIT.json',
+                 'R10_INDEPENDENT_READBACK.json',
+                 'R10_REAL_4_CANDIDATES_UNBIASED_VIEW_ATLAS.jpg']
+          ids=['A_G7_HOLD','B_G6_REJECT',
+               'C_G6_HOLD_SUPERSEDED','C_G7_N1_REJECT']
+          for i in ids:
+              names+=[i+'_ORIGINAL_GLB_IMPORTED_CAMERAS.blend']
+              names += [i+'_'+n+'.png' for n in
+                 ('01_FRONT','02_SIDE','03_OBLIQUE','04_REAR')]
+          assert len(names)==23
+          archive=target/'R10_4_ORIGINALS_NEUTRAL_RENDER_PROVENANCE_ART_UNAPPROVED.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=5) as f:
+              for n in names:
+                  assert (p/n).stat().st_size>100,n
+                  f.write(p/n,arcname=n)
+          hashes={'zip_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+              'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+              'art_approved':False,'original_research_modified':False}
+          (target/'R10_HASHES.json').write_text(json.dumps(hashes,indent=2))
+          print('R10_PROOF_ZIP_SHA256',hashes['zip_sha256'])
+          PY
+      - name: Commit only isolated R10 provenance without forcing history
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r10-crosslineage-art-audit-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r10-art-audit-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R10_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R10 archive 4 original-art candidate neutral Blender comparison and independent audit'
+          git fetch origin "$TARGET"
+          git rebase "origin/$TARGET"
+          git push origin "HEAD:refs/heads/$TARGET"
