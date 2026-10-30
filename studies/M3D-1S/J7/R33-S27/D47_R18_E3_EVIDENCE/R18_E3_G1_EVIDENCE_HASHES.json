@@ -1,0 +1,23 @@
+{
+  "native_research_model_only": true,
+  "original_render_run_id": 41074809860,
+  "original_artifact_id": 12985743777,
+  "e3_g1_art_review": "REJECT",
+  "original_was_never_formally_accepted": true,
+  "technical": "REOPEN_VERIFIED_ONLY",
+  "functional": "UNCERTIFIED",
+  "official_M247C_unchanged": true,
+  "whole_city_master_complete": false,
+  "minecraft_write": false,
+  "zip_sha256": "552932574d33a9a1a21f2d5705bfe1c93f7e812d6424a7bb62d09cf070c0cfad",
+  "member_sha256": {
+    "R18_E3_REAL_EDITABLE_PUBLIC_ARCHIVE_ROOM.blend": "ed0b28e84bbe867f3d44ef46b49c9aef47808611c6a534e24521a544bb9cdcd3",
+    "R18_E3_REAL_PUBLIC_ARCHIVE_ROOM.glb": "95bb9bd410051b9998d31aeb44344b42b26a76dbbcfb1d52102c7c4483fe12ce",
+    "R18_E3_G0_MANIFEST.json": "bc6246709c0730dbb01c6ded4a8fc2a9fe1f9c4ad4ba82fef11a42077e48b841",
+    "R18_E3_G0_INDEPENDENT_SOURCE_AUDIT.json": "b08e2207ce10d0e291e5a843361c6e8244c1926654aa8164b2593fd013237d50",
+    "01_HUMAN_ENTRY_TO_ARCHIVE.png": "2fbca13e8702bbbaa8a3ebc4b659bd4de263c1b094688a6733ae19b6608d2e4d",
+    "02_HUMAN_INSIDE_SCIENCE_FORUM.png": "dd8abab83ccc19295680d69a238d6c1657e17b9898aa1d24be6dfd516b40e932",
+    "03_READER_HIGH_BALCONY.png": "2a5aefb533f78b7fcccec1ea11dfc20f2f9cacb0c257bec97ec448a36a0d8168",
+    "04_ROOM_ARCHITECTURE_3D.png": "12f871f7e79bc975fb51df0654db91c106ff97bc7bfc71c100290cea750badaf"
+  }
+}
