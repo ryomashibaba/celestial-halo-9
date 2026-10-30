@@ -1,0 +1,19 @@
+{
+  "derived_from_archived_source": true,
+  "original_EB_GLb_present": false,
+  "art_approved": false,
+  "archive_sha256": "8c6d7a128638c57247223dae37d7b213aa0da1ee2d7539c5416379ac6b36e02e",
+  "files_sha256": {
+    "R5_EB_SOURCE_DERIVED_G0_EDITABLE.blend": "286c7f9bbde4f8724c88c9a95f7efb2d318b875950d8984a2379ff115cb43e18",
+    "R5_EB_SOURCE_DERIVED_G0.glb": "4f89d8c343d3c37443dc0ec56be4f8dba4b4611def1a4e7cf2dfce200ff19ddb",
+    "R5_EB_G0_MANIFEST.json": "1ade6a73ddbac626aa51b2517ebdf1cdd7400fae6c4cceb66ddc8fc7962dd32b",
+    "R5_EB_INDEPENDENT_AUDIT.json": "06ada8ae06c18fc1c54d952e4df75e8ab00f21922ff38a4aa8d5459b918bf48e",
+    "01_FRONT.png": "6f47410b8243349e31ce155a5feff51e3f56e58f0663f79bd9d5fb0bfcb77066",
+    "02_OBLIQUE.png": "acbcd42b06d37a56656e0ac224b66c105d46d85a67e4bc86aa9d9f5f3f9dce47",
+    "03_SIDE.png": "2681fd15a20f4c4a8adcb648d2e9e0d20ca30511068687ba4bd160299fb89a5a",
+    "04_REAR.png": "63173ff3c248f5e0b467bf945035d4142082a699ce1bde70825be54baba07da0",
+    "05_AERIAL.png": "2c309c4032da8562638133e20f75063a15a0dc1fde3a39561a258d16c7f09d3e",
+    "06_GROUND_UP.png": "5f61492bc13ae79f1b4c46e774ef22d3b9a9879566b1f20d7b605505dc5c1232",
+    "07_VOID_INSIDE.png": "c2d4c3dfeb5de9f80d779611f24243ca61689729859e2c91f80551c51f7fc497"
+  }
+}
