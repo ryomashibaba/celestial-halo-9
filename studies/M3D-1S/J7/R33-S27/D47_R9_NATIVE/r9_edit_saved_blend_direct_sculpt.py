@@ -10,9 +10,9 @@ Human review of resulting real before/after is mandatory before any further work
 """
 from pathlib import Path
 import hashlib,json,sys,zipfile,math
+import bpy
 from mathutils import Vector
 from mathutils.bvhtree import BVHTree
-import bpy
 R8=Path("studies/M3D-1S/J7/R33-S27/D47_R8_EVIDENCE/R8_TRUE_BLENDER_SEQUENCED_CITY_G0_ART_UNREVIEWED.zip")
 R8_BLEND_HASH="3d33a319fed9ddf7565a80271260e1e90dee521097dcd035bafa31a197d2e824"
 out=Path(sys.argv[-1]).resolve();out.mkdir(parents=True,exist_ok=True)
