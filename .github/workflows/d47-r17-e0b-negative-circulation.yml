@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install standalone GLB topology inspector
-        run: python -m pip install 'trimesh==4.11.1' 'shapely>=2'
+        run: python -m pip install 'trimesh==4.11.1' 'shapely>=2' 'networkx>=3.2'
       - name: Verify negative connectivity gate from actual archived 3D source
         run: |
           mkdir -p /tmp/r17b
