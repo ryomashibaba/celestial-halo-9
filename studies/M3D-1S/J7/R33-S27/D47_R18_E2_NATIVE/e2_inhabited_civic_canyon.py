@@ -274,6 +274,8 @@ scene.display.shading.color_type="MATERIAL"
 scene.display.shading.show_cavity=True
 scene.display.shading.cavity_type="BOTH"
 scene.display.shading.background_type="WORLD"
+if scene.world is None:
+ scene.world=bpy.data.worlds.new('E2_WORKBENCH_DAYLIGHT_BACKGROUND')
 scene.world.color=(.24,.29,.35)
 scene.render.resolution_x=1260
 scene.render.resolution_y=840
