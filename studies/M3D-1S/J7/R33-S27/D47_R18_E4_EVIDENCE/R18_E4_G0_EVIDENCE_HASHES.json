@@ -1,0 +1,20 @@
+{
+  "art": "REJECT",
+  "original_run": 41078220711,
+  "original_artifact": 12988706049,
+  "function_certified": false,
+  "formally_adopted": false,
+  "minecraft_write": false,
+  "zip_sha256": "e63d344b32374102c37aa175f80f6a897af2440a8bd4c86d5b80cacafc268f16",
+  "members_sha256": {
+    "R18_E4_TRUE_EDITABLE_CHIRAL_NAVE.blend": "e6937b49476b0d4fda226341a498ebd323b88f2750312ffa80211b36a57df594",
+    "R18_E4_TRUE_CHIRAL_NAVE.glb": "4af394ca1493c8f77a4f80a50b47cea6e9509162c687d34e917be6a952cff100",
+    "R18_E4_G0_MANIFEST.json": "b8858abed5d06a2fa39cf10eccd1024299e01da55267b81fdfc26b1613f126cd",
+    "R18_E4_G0_INDEPENDENT_REOPEN_AUDIT.json": "8ac4369decc10300b0688dd97bf6dec1f23c660aab371698ccfc338c8aeec888",
+    "01_HUMAN_ARRIVAL.png": "66fbb1bdfe61209465413a0090eb987892a9db09a4ddc825d212c97d709fc9a2",
+    "02_HUMAN_CULTURE_FORUM.png": "3767c63043b97bb45e08c5e3f11fe71b69eae3b06d8870e0a8f6f68c18c0eb93",
+    "03_HUMAN_WEST_ARCHIVE.png": "449ef4da5dfa411e4a0af0d45050bcb2a80daf8d34cf5604fc3567dd45f69593",
+    "04_ARCHITECTURE_OBLIQUE.png": "1593001986abb41e957bb1a0e696ccd950bf958815d6fa3c7c1a45a05ba73a2d",
+    "05_CITY_LINK_REAR.png": "1babfdc77dec2af1855475c3494e55ef218535ed499666adfb18ea7584166111"
+  }
+}
