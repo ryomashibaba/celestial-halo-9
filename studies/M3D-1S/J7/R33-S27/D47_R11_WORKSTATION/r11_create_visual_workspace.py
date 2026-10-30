@@ -52,6 +52,7 @@ o["edit_allowed"]=True;o["art_approved"]=False
 o.shape_key_add(name="Basis")
 shape=o.shape_key_add(name="R11_ARTIST_REVERSIBLE_LAYER")
 shape.value=1.0
+o.active_shape_key_index=1
 for v in shape.data: v.co.y+=0
 ma=bpy.data.materials.new("Neutral graphite-grey : no art grading")
 ma.diffuse_color=(.66,.69,.73,1)
@@ -101,6 +102,11 @@ scene.render.resolution_percentage=100
 scene.render.image_settings.file_format="PNG"
 image=bpy.data.images.load(str(atlas_path),check_existing=False)
 image.pack()
+# Embedded toolbar can be run on Windows Blender 5.x via Text Editor / Run Script.
+addon=Path(__file__).resolve().parent/"r11_art_direction_toolbar.py"
+assert addon.is_file()
+script_text=bpy.data.texts.load(str(addon))
+script_text.name="R11_RUN_THIS_FOR_NATIVE_ART_TOOLBAR.py"
 image["source"]="R10 archived actual four-GLB rendering, historical rejected/held references"
 image["sha256"]=atlas_sha
 scene["R11_PRODUCTION_WORKSPACE"]="Real Blender native visual editing experiment"
