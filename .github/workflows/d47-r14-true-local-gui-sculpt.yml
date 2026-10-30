@@ -1,0 +1,92 @@
+name: HALO9 D47 R14 genuine visual iterative localized Blender GUI sculpt
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r14-multiview-gui-sculpt-loop-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R14_GUI/**'
+      - '.github/workflows/d47-r14-true-local-gui-sculpt.yml'
+permissions:
+  contents: write
+jobs:
+  first-visual-feedback-iteration:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install real X11 Blender 4, UI screenshot and real GLB dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb xdotool scrot libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 python3-numpy python3-pil
+          blender --version | head -2
+      - name: Prepare only a local control patch inside SHA-verified saved R11 BLEND
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          mkdir -p /tmp/r14
+          xvfb-run -a -s "-screen 0 1440x900x24" blender --background --factory-startup --python-exit-code 17             --python studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_prepare_local_gui.py --             studies/M3D-1S/J7/R33-S27/D47_R11_EVIDENCE/R11_NATIVE_ARTIST_STUDIO_GUI_AND_CHECKPOINT_TECH_ONLY.zip             /tmp/r14
+      - name: Genuine viewport Edit Mode partial shape-key sculpt through real X11 GUI input
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          xvfb-run -a -s "-screen 0 1440x900x24"             bash studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_actual_gui_local_edit.sh /tmp/r14
+      - name: Independent native BLEND shape-key audit and 12 fixed matched screenshots
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          xvfb-run -a -s "-screen 0 1440x900x24" blender --background --factory-startup --python-exit-code 17             --python studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_independent_actual_gui_and_12views.py -- /tmp/r14
+      - name: Retain all original evidence even if test fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R14-PARTIAL-EDIT-TRUE-GUI-12-VIEWS
+          path: /tmp/r14
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive audited first-iteration proof only in research branch
+        if: success()
+        run: |
+          python3 - <<'PY'
+          import zipfile,hashlib,json
+          from pathlib import Path
+          p=Path('/tmp/r14')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R14_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R11_ORIGINAL_READONLY.blend','R14_E0_NATIVE_PRESELECTED.blend',
+                 'R14_E1_ACTUAL_LOCAL_SCULPT.blend',
+                 'R14_E0_PROVENANCE.json',
+                 'R14_E1_INDEPENDENT_GUI_AND_12_RENDER_AUDIT.json',
+                 'R14_E0_REAL_GUI_BEFORE.png','R14_E1_REAL_GUI_LOCAL_AFTER.png',
+                 'R14_REAL_GUI_STDOUT.txt']
+          cam=['01_FRONTAL_EYE','02_SIDE_CROSS_SECTION','03_OBLIQUE_MASS',
+               '04_REAR_OTHER_SIDE','05_LOW_PUBLIC_VIEW','06_ABOVE_OTHER_WORLD']
+          for label in ('E0','E1'):
+              names.extend(label+'_'+x+'.png' for x in cam)
+          assert len(names)==20
+          assert all((p/n).is_file() and (p/n).stat().st_size>100 for n in names)
+          archive=out/'R14_E1_ACTUAL_NATIVE_LOCAL_GUI_SCULPT_MATCHED_12_VIEWS.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names:z.write(p/n,n)
+          h={'zip_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+             'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+             'art_adopted':False,'not_a_new_city':True,'main_unchanged':True,'minecraft_write':False}
+          (out/'R14_E1_EVIDENCE_SHA256.json').write_text(json.dumps(h,indent=2))
+          print('R14_TRUE_GUI_LOCAL_EDIT_ARCHIVE',h['zip_sha256'])
+          PY
+      - name: Safe archive commit restricted to isolated R14 branch
+        if: success()
+        env:
+          BRANCH: research/r33-s27-d47-r14-multiview-gui-sculpt-loop-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$BRANCH"
+          git config user.name 'halo9-r14-true-gui-visual-loop'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R14_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R14 preserve source-faithful native GUI local shape-key sculpt and 12 matched views for actual feedback'
+          git fetch origin "$BRANCH"
+          git rebase "origin/$BRANCH"
+          git push origin "HEAD:refs/heads/$BRANCH"
