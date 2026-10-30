@@ -1,0 +1,157 @@
+name: HALO9 R18 E6 independent re-audit and research-only original evidence archive
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e6-native-art-directed-20261031
+    paths:
+      - '.github/workflows/d47-r18-e6-preserve-verified-before-after.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  independently-audit-and-preserve-rejected-art:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get exactly observed G0 true native evidence
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 41131230334
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-R18-E6-G0-TRUE-BLENDER-BLEND-GLB-FIVE-IMAGES
+          path: /tmp/e6-g0
+      - name: Get same-BLEND G1 edit evidence from failed view-delta CI
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 41131680045
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-E6-G1-SAME-NATIVE-MAIN-FORM-EDIT-FIVE-TRUE-CAMERAS
+          path: /tmp/e6-g1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install independent native Blender importer
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Independently verify geometry, cameras, five real image pairs, and archive originals
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import bpy,json,hashlib,zipfile
+          from PIL import Image,ImageChops
+          a=Path('/tmp/e6-g0');b=Path('/tmp/e6-g1')
+          review_path=Path('studies/M3D-1S/J7/R33-S27/D47_R18_E6_REVIEW/E6_G0_TRUE_5VIEW_VISUAL_DECISION.json')
+          verdict_path=Path('studies/M3D-1S/J7/R33-S27/D47_R18_E6_REVIEW/E6_G1_TRUE_5VIEW_ART_VERDICT_JA.md')
+          review=json.loads(review_path.read_text())
+          assert verdict_path.exists() and 'ART REJECT' in verdict_path.read_text()
+          m=json.loads((a/'E6_G0_REAL_NATIVE_MANIFEST.json').read_text())
+          g0qa=json.loads((a/'E6_G0_NATIVE_AUDIT.json').read_text())
+          g1qa=json.loads((b/'E6_G1_ACTUAL_SAME_SOURCE_EDIT_AUDIT.json').read_text())
+          assert review['source_g0_run_id']==41131230334 and review['art_G0']=='REJECT'
+          assert review['source_blend_sha256']==g0qa['BLEND_sha256']
+          def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+          g0blend=a/m['files']['blend'];g0glb=a/m['files']['glb']
+          g1blend=b/'E6_G1_ACTUAL_SAME_BLENDER_REMODELED_FOLD.blend'
+          g1glb=b/'E6_G1_ACTUAL_SAME_BLENDER_REMODELED_FOLD.glb'
+          assert sha(g0blend)==review['source_blend_sha256']==g1qa['G0_original_sha256']
+          assert sha(g1blend)==g1qa['G1_edited_sha256']
+          assert sha(g1glb)==g1qa['GLB_edited_sha256']
+          assert g1qa['change_count']==28
+          target='WEST_INHABITED_FOLD_EDITABLE'
+          def snapshot(f):
+              bpy.ops.wm.open_mainfile(filepath=str(f))
+              objs=[x for x in bpy.data.objects if x.type=='MESH']
+              def meshsig(x):
+                  d={'verts':[[round(float(c),6) for c in v.co] for v in x.data.vertices],
+                     'faces':[list(p.vertices) for p in x.data.polygons]}
+                  return hashlib.sha256(json.dumps(d,sort_keys=True).encode()).hexdigest()
+              meshes={x.name:meshsig(x) for x in objs}
+              cameras={x.name:{'matrix':[round(float(v),7) for row in x.matrix_world for v in row],
+                      'type':x.data.type,'lens':round(float(x.data.lens),7),
+                      'ortho':round(float(x.data.ortho_scale),7)}
+                      for x in bpy.data.objects if x.type=='CAMERA'}
+              fold=bpy.data.objects[target]
+              return meshes,cameras,(len(fold.data.vertices),len(fold.data.polygons))
+          old,cam0,size0=snapshot(g0blend)
+          new,cam1,size1=snapshot(g1blend)
+          assert size0==size1==(42,38)
+          assert len(cam0)==len(cam1)==5 and cam0==cam1
+          assert old.keys()==new.keys()
+          assert old[target]!=new[target]
+          assert all(old[n]==new[n] for n in old if n!=target)
+          assert new[target]==g1qa['target_edited_hash']
+          assert old[target]==g1qa['target_original_hash']
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(g1glb))
+          glb={x.name for x in bpy.data.objects if x.type=='MESH'}
+          assert glb==set(new)
+          fold=bpy.data.objects[target]
+          assert len(fold.data.polygons)==38
+          changed=[]
+          for n in ['01_HUMAN_ARRIVAL','02_HUMAN_CULTURAL_ATLAS','03_WEST_ARCHIVE_VIEW','04_CITY_ANGLED','05_CITY_REAR']:
+              before=a/('BEFORE_'+n+'.png');after=b/('AFTER_'+n+'.png')
+              assert sha(before)==g0qa['five_true_camera_sha256'][before.name]
+              with Image.open(before) as im0,Image.open(after) as im1:
+                  x=im0.convert('RGB');y=im1.convert('RGB')
+                  assert x.size==y.size==(1160,760)
+                  delta=ImageChops.difference(x,y)
+                  pixel_count=sum(1 for v in delta.getdata() if v!=(0,0,0))
+                  changed.append({'camera':n,'changed_pixels':pixel_count,
+                    'changed_fraction':round(pixel_count/(1160*760),6),'bounds':delta.getbbox()})
+          # Unchanged western archive camera is a NEGATIVE result, not a reason to falsify art success.
+          assert [x['camera'] for x in changed if x['changed_pixels']==0]==['03_WEST_ARCHIVE_VIEW']
+          assert sum(x['changed_pixels']>0 for x in changed)==4
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R18_E6_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names0=[m['files']['blend'],m['files']['glb'],'E6_G0_NATIVE_AUDIT.json',
+                  'E6_G0_REAL_NATIVE_MANIFEST.json']+m['files']['images']
+          names1=['E6_G1_ACTUAL_SAME_BLENDER_REMODELED_FOLD.blend',
+                  'E6_G1_ACTUAL_SAME_BLENDER_REMODELED_FOLD.glb',
+                  'E6_G1_ACTUAL_SAME_SOURCE_EDIT_AUDIT.json']+['AFTER_'+n+'.png' for n in
+                  ['01_HUMAN_ARRIVAL','02_HUMAN_CULTURAL_ATLAS','03_WEST_ARCHIVE_VIEW','04_CITY_ANGLED','05_CITY_REAR']]
+          assert all((a/n).is_file() for n in names0)
+          assert all((b/n).is_file() for n in names1)
+          archive=out/'R18_E6_G0_G1_TRUE_NATIVE_ART_REJECT.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names0:z.write(a/n,'G0_BEFORE/'+n)
+              for n in names1:z.write(b/n,'G1_AFTER/'+n)
+              z.write(review_path,'REVIEW/'+review_path.name)
+              z.write(verdict_path,'REVIEW/'+verdict_path.name)
+          report={
+           'G0_source_run':41131230334,'G0_workflow_conclusion':'success',
+           'G1_source_run':41131680045,'G1_original_workflow_conclusion':'failure',
+           'G1_original_QA_failure':'03_WEST_ARCHIVE_VIEW image unchanged',
+           'independent_reaudit':'LIMITED_SOURCE_TECH_PASS',
+           'G0_blend_sha256':sha(g0blend),'G1_blend_sha256':sha(g1blend),
+           'G1_glb_sha256':sha(g1glb),'other_meshes_unchanged':True,
+           'five_camera_matrices_unchanged':True,'five_real_image_differences':changed,
+           'archive_sha256':sha(archive),'archive_size_bytes':archive.stat().st_size,
+           'art':'REJECT','function':'UNCERTIFIED','formal_adoption':False,
+           'city_master_complete':False,'minecraft_write':False}
+          (out/'R18_E6_G0_G1_INDEPENDENT_QA.json').write_text(json.dumps(report,indent=2,ensure_ascii=False))
+          print('E6_INDEPENDENT_READBACK_LIMITED_PASS_ART_REJECT',report['archive_size_bytes'])
+          PY
+      - name: Save only independent research evidence to existing E6 branch
+        env:
+          TARGET: research/r33-s27-d47-r18-e6-native-art-directed-20261031
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name "halo9-research-archive"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R33-S27/D47_R18_E6_EVIDENCE
+          git diff --cached --quiet && exit 0
+          git commit -m "E6 preserve genuine G0 and G1 BLEND GLB five views and independent ART REJECT evidence"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$TARGET"
+            git rebase "origin/$TARGET" || exit 1
+            if git push origin "HEAD:refs/heads/$TARGET"; then exit 0; fi
+            sleep 2
+          done
+          exit 1
