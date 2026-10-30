@@ -17,7 +17,7 @@ jobs:
       - name: Install real GUI Blender and X11 keyboard and screenshot instruments
         run: |
           sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb xdotool scrot libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 python3-pil
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb xdotool scrot libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 python3-pil python3-numpy
           blender --version | head -2
       - name: Create self-contained Blender native artist workstation with R10 original comparison inside
         env:
