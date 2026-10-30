@@ -1,0 +1,72 @@
+{
+  "G0_source_run": 41131230334,
+  "G0_workflow_conclusion": "success",
+  "G1_source_run": 41131680045,
+  "G1_original_workflow_conclusion": "failure",
+  "G1_original_QA_failure": "03_WEST_ARCHIVE_VIEW image unchanged",
+  "independent_reaudit": "LIMITED_SOURCE_TECH_PASS",
+  "G0_blend_sha256": "164f592a7a35408cb611774a0c0db919e5378f06d6d128c49531f863fea8aedf",
+  "G1_blend_sha256": "b49ab607ecf5f34ce642a44bfdc5ad9521cd52aa3bc6091e3156579b57cc06b4",
+  "G1_glb_sha256": "e124d853c06202b4ae39bdc7aab48561642547fded18cd08181ef1dcd678ff19",
+  "other_meshes_unchanged": true,
+  "five_camera_matrices_unchanged": true,
+  "five_real_image_differences": [
+    {
+      "camera": "01_HUMAN_ARRIVAL",
+      "changed_pixels": 184404,
+      "changed_fraction": 0.20917,
+      "bounds": [
+        0,
+        0,
+        396,
+        618
+      ]
+    },
+    {
+      "camera": "02_HUMAN_CULTURAL_ATLAS",
+      "changed_pixels": 233403,
+      "changed_fraction": 0.264749,
+      "bounds": [
+        0,
+        40,
+        484,
+        760
+      ]
+    },
+    {
+      "camera": "03_WEST_ARCHIVE_VIEW",
+      "changed_pixels": 0,
+      "changed_fraction": 0.0,
+      "bounds": null
+    },
+    {
+      "camera": "04_CITY_ANGLED",
+      "changed_pixels": 139001,
+      "changed_fraction": 0.157669,
+      "bounds": [
+        32,
+        77,
+        733,
+        534
+      ]
+    },
+    {
+      "camera": "05_CITY_REAR",
+      "changed_pixels": 61294,
+      "changed_fraction": 0.069526,
+      "bounds": [
+        734,
+        192,
+        1038,
+        653
+      ]
+    }
+  ],
+  "archive_sha256": "7585913a2d1d9aa9776d6a82e6407bd167128a3010230d4a6c9bd9cc70f4b5ad",
+  "archive_size_bytes": 9915127,
+  "art": "REJECT",
+  "function": "UNCERTIFIED",
+  "formal_adoption": false,
+  "city_master_complete": false,
+  "minecraft_write": false
+}
