@@ -280,7 +280,7 @@ def bent_wall(name,controls,mat,asset):
          (2*half_width,430,d.length+120),mat,
          GR["04_ARCHITECTURAL_ENVELOPE_ONLY_AFTER_INTERIORS"],
          "FOLDED_OCCUPIED_CITY_ENVELOPE_WIP",asset)
-  ob.rotation_mode="QUATERN"
+  ob.rotation_mode="QUATERNION"
   ob.rotation_quaternion=Vector((0,0,1)).rotation_difference(d)
   ob["SHAPE_CONTROL_POINTS"]=f"{controls[i]} -> {controls[i+1]}"
 bent_wall("WEST",WEST_FOLD,M["pearl"],"M247-C")
