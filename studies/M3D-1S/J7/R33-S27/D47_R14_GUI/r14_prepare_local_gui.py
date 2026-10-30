@@ -28,9 +28,23 @@ if bpy.context.object and bpy.context.object.mode!="OBJECT":
     bpy.ops.object.mode_set(mode="OBJECT")
 bpy.ops.object.select_all(action="DESELECT")
 o.select_set(True);bpy.context.view_layer.objects.active=o
-for vert in o.data.vertices:vert.select=(vert.index in zone)
+for vert in o.data.vertices:vert.select=False
 bpy.ops.object.mode_set(mode="EDIT")
-# Do not use selection-all in screenshot-driven GUI; retained vertex selection.
+# Selection in the OBJECT-mode mesh vertex flags is not reliable after
+# Blender enters Edit Mode. Set and verify it in the actual edit BMesh.
+bpy.ops.mesh.select_mode(type="VERT")
+bpy.ops.mesh.select_all(action="DESELECT")
+bm=bmesh.from_edit_mesh(o.data)
+bm.verts.ensure_lookup_table()
+selected_zone=set(zone)
+for v in bm.verts:
+    v.select_set(v.index in selected_zone)
+bm.select_flush_mode()
+bmesh.update_edit_mesh(o.data,loop_triangles=False,destructive=False)
+selected_live=[v.index for v in bm.verts if v.select]
+assert set(selected_live)==selected_zone,(len(selected_live),len(zone))
+assert 100<len(selected_live)<len(o.data.vertices)*.55
+# Do not use selection-all in screenshot-driven GUI; BMesh selective proof.
 for scn in bpy.data.screens:
     for area in scn.areas:
         if area.type=="VIEW_3D":
