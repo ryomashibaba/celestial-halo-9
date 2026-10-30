@@ -3,12 +3,13 @@ New noncanonical art study, not an E5 repair or E4 mesh import.
 Specific goal: a unique architectural view from a human-scale library,
 research exchange forum, and elevated civic transit.
 An architecturally significant WEST_INHABITED_FOLD is intended for a
-SUBSEQUENT local edit after inspecting ACTUAL four real Blender renderings.
+SUBSEQUENT local edit after inspecting ACTUAL five real Blender renderings.
 Only Blender-native editable geometry; no Minecraft writes.
 """
 from pathlib import Path
+import math,json,sys
+import bpy
 from mathutils import Vector
-import math,json,sys,bpy
 OUT=Path(sys.argv[-1]).resolve()
 OUT.mkdir(parents=True,exist_ok=True)
 bpy.ops.wm.read_factory_settings(use_empty=True)
