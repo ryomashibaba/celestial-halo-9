@@ -14,6 +14,32 @@ OUT=Path(sys.argv[-1]).resolve()
 OUT.mkdir(parents=True,exist_ok=True)
 SRC=ROOT/"source_d"/"studies"/"D2-G7"
 CANDIDATES=[("WET",SRC/"Habitat-Crown-wet.glb"),("DRY",SRC/"Habitat-Crown-dry.glb")]
+# The old hard-coded km camera target is NOT a trustworthy framing coordinate
+# after Blender GLB importer applies source node transforms. Independently
+# inspect native object world-space bounds in BOTH seasons first.
+BG_PREFIXES=("10km_study_terrain","north_mountain_peak_",
+    "west_cliff_face","east_artificial_inland_sea","southwest_great_void",
+    "urban_context_")
+season_bbox={}
+for lab,glb in CANDIDATES:
+    bpy.ops.wm.read_factory_settings(use_empty=True)
+    bpy.ops.import_scene.gltf(filepath=str(glb))
+    central=[o for o in bpy.data.objects if o.type=="MESH"
+             and not o.name.startswith(BG_PREFIXES)]
+    assert len(central)>=25,(lab,len(central))
+    corners=[o.matrix_world@Vector(p) for o in central for p in o.bound_box]
+    lo=Vector(tuple(min(v[k] for v in corners) for k in range(3)))
+    hi=Vector(tuple(max(v[k] for v in corners) for k in range(3)))
+    season_bbox[lab]={"min":list(lo),"max":list(hi),
+                       "span":list(hi-lo),"objects":len(central)}
+    print("R15_REAL_NATIVE_WORLD_BOUNDS",lab,season_bbox[lab],flush=True)
+full_lo=Vector(tuple(min(season_bbox[n]["min"][k] for n in ("WET","DRY"))
+                     for k in range(3)))
+full_hi=Vector(tuple(max(season_bbox[n]["max"][k] for n in ("WET","DRY"))
+                     for k in range(3)))
+C=(full_lo+full_hi)*.5
+L=max(full_hi-full_lo)
+assert 3<L<10,(L,full_lo[:],full_hi[:])
 vnames=[
   "01_EAST_SEA_APPROACH",
   "02_FRONT",
@@ -24,16 +50,21 @@ vnames=[
   "07_ROOT_CIVIC_EYE",
   "08_HIGH_INHABITED_EYE",
   "09_WIDE_CONTEXT"]
+def cam_pose(offset,look=(0,0,0),ortho=1.3):
+    # The same WORLD positions are reused verbatim for wet & dry.
+    eye=tuple(C+Vector(offset)*L)
+    target=tuple(C+Vector(look)*L)
+    return (eye,target,None if ortho is None else L*ortho)
 cams={
-  "01_EAST_SEA_APPROACH":((7.8,-8.4,5.0),(.0,.0,1.7),7.9),
-  "02_FRONT":((0,-9.0,3.4),(0,.0,1.7),7.5),
-  "03_SIDE":((8.5,0,3.4),(0,.0,1.7),7.5),
-  "04_REAR":((0,9.0,3.4),(0,.0,1.7),7.5),
-  "05_OBLIQUE":((-8,-8.0,6.2),(0,.0,1.7),7.9),
-  "06_AERIAL":((7.8,-7.0,10.1),(0,.0,1.5),8.4),
-  "07_ROOT_CIVIC_EYE":((0,-1.70,.35),(0,.1,1.80),None),
-  "08_HIGH_INHABITED_EYE":((1.6,-1.22,2.20),(-.6,.30,2.75),None),
-  "09_WIDE_CONTEXT":((10,-12,10.5),(0,.0,.9),13.5),
+  "01_EAST_SEA_APPROACH":cam_pose((1.7,-1.9,.75),ortho=1.45),
+  "02_FRONT":cam_pose((0,-2.3,.38),ortho=1.34),
+  "03_SIDE":cam_pose((2.2,0,.38),ortho=1.34),
+  "04_REAR":cam_pose((0,2.3,.38),ortho=1.34),
+  "05_OBLIQUE":cam_pose((-2.0,-1.9,.90),ortho=1.48),
+  "06_AERIAL":cam_pose((1.7,-1.7,2.3),ortho=1.50),
+  "07_ROOT_CIVIC_EYE":cam_pose((0,-.28,-.40),look=(0,.15,.02),ortho=None),
+  "08_HIGH_INHABITED_EYE":cam_pose((.20,-.22,.20),look=(-.15,.09,.05),ortho=None),
+  "09_WIDE_CONTEXT":cam_pose((1.9,-2.15,1.6),ortho=2.65),
 }
 record={}
 for label,source in CANDIDATES:
@@ -54,9 +85,7 @@ for label,source in CANDIDATES:
     # validate(): terrain, mountain, west cliff, east inland sea, southwest
     # void, urban context markers. Size-only filtering wrongly retained all
     # non-terrain background and ruined eight candidate photographs.
-    context_prefixes=("10km_study_terrain","north_mountain_peak_",
-       "west_cliff_face","east_artificial_inland_sea",
-       "southwest_great_void","urban_context_")
+    context_prefixes=BG_PREFIXES
     context=[o.name for o in original if o.name.startswith(context_prefixes)]
     assert len(context)>=15,(label,"background objects not isolated",len(context))
     assert len(original)-len(context)>=25,(label,"too few candidate meshes")
@@ -68,6 +97,8 @@ for label,source in CANDIDATES:
     scene.display.shading.color_type="MATERIAL"
     scene.display.shading.show_cavity=True
     scene.display.shading.cavity_type="BOTH"
+    scene.display.shading.background_type="VIEWPORT"
+    scene.display.shading.background_color=(.085,.11,.13)
     scene.render.resolution_x=1100;scene.render.resolution_y=720
     scene.render.resolution_percentage=100
     scene.render.image_settings.file_format="PNG"
@@ -154,6 +185,9 @@ data={
  "comparison_not_10km_master":True,
  "minecraft_construction":False,
  "art_adopted":False,
+ "real_source_world_bounds":season_bbox,
+ "fixed_common_scene_center":list(C),
+ "fixed_reference_scale":float(L),
  "models":record
 }
 (OUT/"R15_D_ORIGINALS_PROVENANCE_AND_VIEW_MANIFEST.json").write_text(
