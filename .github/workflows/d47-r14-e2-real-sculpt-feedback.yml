@@ -1,0 +1,92 @@
+name: HALO9 D47 R14 E2 true image-directed GUI neighbor sculpt
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r14-multiview-gui-sculpt-loop-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_e2_*'
+      - '.github/workflows/d47-r14-e2-real-sculpt-feedback.yml'
+permissions:
+  contents: write
+jobs:
+  second-real-feedback:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Real Blender X11 and GL dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb xdotool scrot libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 python3-numpy python3-pil
+      - name: Prepare neighboring vertices from byte-checked actual first GUI sculpt
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          mkdir -p /tmp/r14e2
+          xvfb-run -a -s "-screen 0 1440x900x24" blender --background --factory-startup --python-exit-code 17             --python studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_e2_prepare_visual_feedback.py --             studies/M3D-1S/J7/R33-S27/D47_R14_EVIDENCE/R14_E1_ACTUAL_NATIVE_LOCAL_GUI_SCULPT_MATCHED_12_VIEWS.zip             /tmp/r14e2
+      - name: Apply second local edit via real Blender GUI after seeing E1 camera failures
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          xvfb-run -a -s "-screen 0 1440x900x24" bash             studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_e2_actual_gui_sculpt.sh /tmp/r14e2
+      - name: Verify original E1 core unchanged and six matched real camera E1 vs E2
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          xvfb-run -a -s "-screen 0 1440x900x24" blender --background --factory-startup --python-exit-code 17             --python studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_e2_independent_blend_gui_review.py -- /tmp/r14e2
+      - name: Retain negative and positive real evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R14-E2-REAL-SECOND-LOCAL-GUI-SCULPT-6-VIEWS
+          path: /tmp/r14e2/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive only if independent native QA success
+        if: success()
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          p=Path('/tmp/r14e2')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R14_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R14_E1_READONLY_ORIGINAL.blend',
+                 'R14_E2_PREPARED_BOUNDARY_TRANSITION.blend',
+                 'R14_E2_GUI_BOUNDARY_REFINED.blend',
+                 'R14_E2_FEEDBACK_DIRECTED_EDIT_PLAN.json',
+                 'R14_E2_INDEPENDENT_FEEDBACK_SCULPT_AUDIT.json',
+                 'R14_E2_BEFORE_REAL_GUI.png','R14_E2_AFTER_REAL_GUI.png',
+                 'R14_E2_REAL_GUI_STDOUT.txt']
+          cameras=['01_FRONTAL_EYE','02_SIDE_CROSS_SECTION','03_OBLIQUE_MASS',
+                  '04_REAR_OTHER_SIDE','05_LOW_PUBLIC_VIEW','06_ABOVE_OTHER_WORLD']
+          for lab in ('E1_MATCH','E2'):
+              names.extend(lab+'_'+n+'.png' for n in cameras)
+          assert len(names)==20
+          assert all((p/n).is_file() and (p/n).stat().st_size>100 for n in names)
+          f=out/'R14_E2_IMAGE_JUDGED_SECOND_REAL_GUI_REVISION.zip'
+          with zipfile.ZipFile(f,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for name in names:z.write(p/name,name)
+          hashes={'zip_sha256':hashlib.sha256(f.read_bytes()).hexdigest(),
+                  'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+                  'art_adopted':False,'no_city_massing':True,'minecraft_write':False}
+          (out/'R14_E2_SHA256.json').write_text(json.dumps(hashes,indent=2))
+          print('R14_SECOND_REAL_GUI_ZIP_SHA',hashes['zip_sha256'])
+          PY
+      - name: Save only in isolated R14 research branch, no force
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r14-multiview-gui-sculpt-loop-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r14-feedback-sculpt'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R14_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R14 preserve real image-directed second GUI sculpt, unchanged core, new 6-view QA'
+          git fetch origin "$TARGET"
+          git rebase "origin/$TARGET"
+          git push origin "HEAD:refs/heads/$TARGET"
