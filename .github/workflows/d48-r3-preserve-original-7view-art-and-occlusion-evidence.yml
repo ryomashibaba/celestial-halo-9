@@ -1,0 +1,93 @@
+name: HALO9 D48 R3 preserve native visual art reject and camera obstruction evidence
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r3-visual-mesh-art-session-20261031
+    paths:
+      - '.github/workflows/d48-r3-preserve-original-7view-art-and-occlusion-evidence.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  persist-actual-originals:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check pinned sources are real successful independent workflows
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41142560031" --jq '.conclusion')" = success
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41142560031" --jq '.head_sha')" = 39a7ae1656ac317057ddec747b61022db99df425
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41142838740" --jq '.conclusion')" = success
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41142838740" --jq '.head_sha')" = 826e1693cc171f59bd72d197c10f805f6af1ae3d
+      - uses: actions/download-artifact@v4
+        with:
+          name: HALO9-D48-R3-G1-TRUE-NATIVE-SCULPT-7-VIEW-REVIEW
+          run-id: 41142560031
+          github-token: ${{ github.token }}
+          path: /tmp/halo9-g1-native
+      - uses: actions/download-artifact@v4
+        with:
+          name: HALO9-D48-R3-G1-SEVEN-REAL-CAMERA-COVERAGE-DIAGNOSIS
+          run-id: 41142838740
+          github-token: ${{ github.token }}
+          path: /tmp/halo9-g1-occlusion
+      - name: Independently authenticate all 9 model assets and 5635 true rays
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          model=Path('/tmp/halo9-g1-native')
+          diag=Path('/tmp/halo9-g1-occlusion/R3_G1_REAL_CAMERA_COVERAGE.json')
+          m=json.loads((model/'R3_G1_NATIVE_SCULPT_AUDIT.json').read_text())
+          o=json.loads(diag.read_text())
+          assert m['art']=='UNREVIEWED_PENDING_ACTUAL_IMAGES'
+          assert m['formal_adoption'] is False and m['minecraft_write'] is False
+          assert m['source_blend_sha256']=='939e86905b0fa51456af9d5824e41962ee0e8ffa9213616b16c68a2b87614f3f'
+          assert len(m['sha256'])==9 and len(m['sculpted_existing_meshes'])==6
+          for f,sha in m['sha256'].items():
+              assert hashlib.sha256((model/f).read_bytes()).hexdigest()==sha,f
+          assert o['source_blend_sha256']==m['sha256'][m['file_names']['blend']]
+          assert o['ray_count_total']==5635 and len(o['per_camera'])==7
+          assert o['original_sha_still_matches'] is True
+          h=o['per_camera']['04_REAL_EYE_H1_PUBLIC']['top_first_hit_objects']
+          assert any(a['name']=='H1_PUBLIC_LEVEL_2' and a['ratio']>.15 for a in h)
+          north=o['per_camera']['05_NORTH_MACRO']['top_first_hit_objects']
+          assert any(a['name']=='W0_FRACTURED_BASIN_EDITABLE' and a['ratio']>.5 for a in north)
+          verdict=Path('studies/M3D-1S/J7/R33-S27/D48_R3_VISUAL_SCULPT/D48_R3_G1_DIRECT_IMAGE_FEEDBACK_ART_VERDICT_JA.md')
+          assert 'ART REJECT' in verdict.read_text(encoding='utf-8')
+          dst=Path('studies/M3D-1S/J7/R33-S27/D48_R3_EVIDENCE')
+          dst.mkdir(parents=True,exist_ok=True)
+          archived=dst/'D48_R3_G1_GENUINE_SCULPT_VISUAL_ART_REJECT.zip'
+          with zipfile.ZipFile(archived,'w',zipfile.ZIP_DEFLATED,compresslevel=5) as z:
+              for p in sorted(model.iterdir()):
+                  assert p.is_file()
+                  z.write(p,arcname=p.name)
+              z.write(diag,arcname=diag.name)
+              z.write(verdict,arcname=verdict.name)
+          with zipfile.ZipFile(archived) as z:
+              assert z.testzip() is None
+              assert z.read('R3_G1_NATIVE_SCULPT_AUDIT.json')==(model/'R3_G1_NATIVE_SCULPT_AUDIT.json').read_bytes()
+          record={'source_blender_run':41142560031,'source_visibility_run':41142838740,
+                  'source_native_blend_sha256':m['sha256'][m['file_names']['blend']],
+                  'artifact_sha256':hashlib.sha256(archived.read_bytes()).hexdigest(),
+                  'bytes':archived.stat().st_size,'true_camera_ray_count':o['ray_count_total'],
+                  'edit_surface_count':6,'image_count':7,
+                  'art':'REJECT','formal_adoption':False,'minecraft_write':False,
+                  'city_master_complete':False}
+          (dst/'D48_R3_G1_ARCHIVE_PROVENANCE.json').write_text(json.dumps(record,indent=2))
+          print('D48_R3_AUTHENTICATED_ARCHIVE',record)
+          PY
+      - name: Commit research-only original evidence without modifying main
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF_NAME" = research/r33-s27-d48-r3-visual-mesh-art-session-20261031
+          git config user.name "halo9-research-evidence[bot]"
+          git config user.email "halo9-research-evidence[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R33-S27/D48_R3_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m "D48 R3 preserve genuine BLEND, seven views, 5635 ray obstruction audit, ART REJECT"
+          git push origin "HEAD:$GITHUB_REF_NAME"
