@@ -1,0 +1,83 @@
+name: HALO9 D48 P2 archive verified same-source 3-way evidence ART REJECT
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r2-p2-native-visual-surgery-20261031
+    paths:
+      - '.github/workflows/d48-r2-p2-archive-verified-direct-edit-evidence.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  archive-exact-research-originals:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pin actually completed P2 source run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41141480988" --jq '.conclusion')" = success
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41141480988" --jq '.head_sha')" = feda7b754cdf1192fb21d9960d0d3ee85ffc636b
+      - uses: actions/download-artifact@v4
+        with:
+          name: HALO9-D48-R2-P2-TWO-DIRECT-EDITED-BLENDS-14-REAL-IMAGES
+          run-id: 41141480988
+          github-token: ${{ github.token }}
+          path: /tmp/p2-true-originals
+      - name: Verify native SHA and all 14 original camera images before archival
+        run: |
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          src=Path('/tmp/p2-true-originals')
+          audit=json.loads((src/'P2_SAME_SOURCE_3WAY_AUDIT.json').read_text())
+          assert audit['source_sha']=='c298e4028c4696207ca12f93e44079d54cfe264f'
+          assert audit['source_original_eye_cameras_unchanged'] is True
+          assert len(audit['variants'])==2
+          assert sum(len(v['files']['images']) for v in audit['variants'])==14
+          for variant in audit['variants']:
+              d=src/variant['kind']
+              assert variant['untargeted_original_meshes_unchanged']
+              assert variant['formal_adoption'] is False
+              assert variant['minecraft_write'] is False
+              for filename,sha in variant['sha256'].items():
+                  assert hashlib.sha256((d/filename).read_bytes()).hexdigest()==sha,filename
+          qa=json.loads((src/'P2_INDEPENDENT_SAME_CAMERA_BA_QA.json').read_text())
+          assert qa['results']['G1_H1_OPEN_PORTAL']['H1_eye_changed']==0.0
+          assert qa['results']['G2_REJECTED_OUTER_MASS_REMOVED']['H1_eye_changed']>.6
+          verdict=Path('studies/M3D-1S/J7/R33-S27/D48_R2_P2_NATIVE_SURGERY/D48_P2_TRUE_SOURCE_ART_DECISION_JA.md')
+          assert 'ART REJECT' in verdict.read_text(encoding='utf-8')
+          folder=Path('studies/M3D-1S/J7/R33-S27/D48_R2_P2_EVIDENCE')
+          folder.mkdir(parents=True,exist_ok=True)
+          target=folder/'D48_P2_SAME_TRUE_SOURCE_G0_G1_G2_ART_REJECT.zip'
+          with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=5) as z:
+              for f in sorted(src.rglob('*')):
+                  if f.is_file():
+                      z.write(f,arcname=str(f.relative_to(src)))
+              z.write(verdict,arcname=verdict.name)
+          with zipfile.ZipFile(target) as z:
+              assert z.testzip() is None
+              assert z.read('P2_SAME_SOURCE_3WAY_AUDIT.json')==(src/'P2_SAME_SOURCE_3WAY_AUDIT.json').read_bytes()
+          (folder/'D48_P2_PRESERVED_QA.json').write_text(json.dumps({
+              'source_run':41141480988,'source_sha':'feda7b754cdf1192fb21d9960d0d3ee85ffc636b',
+              'actual_source_original_P1':audit['source_blend_sha256'],
+              'source_edit_variants':2,'same_camera_images':14,
+              'archive_bytes':target.stat().st_size,
+              'archive_sha256':hashlib.sha256(target.read_bytes()).hexdigest(),
+              'art':'REJECT','function':'UNCERTIFIED',
+              'formal_adoption':False,'minecraft_construction':False},indent=2))
+          print('P2_ARCHIVED_NATIVE_ORIGINALS_AFTER_HASH_VERIFICATION',target.stat().st_size)
+          PY
+      - name: Commit research archive only; never main
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF_NAME" = research/r33-s27-d48-r2-p2-native-visual-surgery-20261031
+          git config user.name "halo9-research-evidence[bot]"
+          git config user.email "halo9-research-evidence[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R33-S27/D48_R2_P2_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m "D48 P2 archive original direct-BLEND experiments, evidence and ART REJECT"
+          git push origin "HEAD:$GITHUB_REF_NAME"
