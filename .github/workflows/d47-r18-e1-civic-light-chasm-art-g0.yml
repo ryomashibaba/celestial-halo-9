@@ -1,0 +1,98 @@
+name: HALO9 D47 R18 E1 new inhabited civic light chasm art G0
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e1-civic-void-art-20261030
+    paths:
+      - '.github/workflows/d47-r18-e1-civic-light-chasm-art-g0.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_E1_NATIVE/r18_e1_civic_light_chasm.py'
+permissions:
+  contents: read
+concurrency:
+  group: halo9-r18-e1-new-3d-art
+  cancel-in-progress: true
+jobs:
+  model-genuine-and-first-three-art-cameras:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install actual Blender 4.5 and image audit tools
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Make independently new editable civic void and three authentic Blender images
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_E1_NATIVE/r18_e1_civic_light_chasm.py /tmp/r18-e1
+      - name: Reopen native source + GLB and verify geometry and real unique views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy,hashlib,json
+          from pathlib import Path
+          from PIL import Image
+          p=Path('/tmp/r18-e1')
+          j=json.loads((p/'R18_E1_G0_MANIFEST.json').read_text())
+          assert j['generation'].startswith('new authored real Blender')
+          assert not j['ART_APPROVAL'] and not j['MINECRAFT_WRITE']
+          assert j['mesh_count']>=18 and j['vertices']>100
+          assert len(j['files']['cameras'])==3
+          assert j['entry_to_low_culture_route']['max_grade']<1/12
+          hashes={}
+          for name in j['files']['cameras']:
+            path=p/name
+            with Image.open(path) as im:
+              rgb=im.convert('RGB')
+              assert rgb.size==(1260,840),rgb.size
+              assert len(rgb.resize((90,60)).getcolors(maxcolors=8000) or [])>=20,(name,'blank')
+            hashes[name]=hashlib.sha256(path.read_bytes()).hexdigest()
+          assert len(set(hashes.values()))==3
+          assert (p/j['files']['blend']).stat().st_size>40000
+          assert (p/j['files']['glb']).stat().st_size>20000
+          bpy.ops.wm.open_mainfile(filepath=str(p/j['files']['blend']))
+          scene=bpy.context.scene
+          assert scene['D47_R18_E1_ART_PASS'] is False
+          assert scene['D47_R18_E1_MINECRAFT_WRITE'] is False
+          objects=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(objects)==j['mesh_count']
+          assert all(o.data.shape_keys and len(o.data.shape_keys.key_blocks)==2 for o in objects)
+          assert sum(len(o.data.vertices) for o in objects)==j['vertices']
+          tria=sum(len(face.vertices)-2 for o in objects for face in o.data.polygons)
+          assert tria==j['triangles']
+          names={o.name for o in objects}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/j['files']['glb']))
+          imported=[o for o in bpy.data.objects if o.type=='MESH']
+          assert {o.name for o in imported}==names
+          actualtri=sum(len(f.vertices)-2 for o in imported for f in o.data.polygons)
+          assert actualtri==tria,(actualtri,tria)
+          audit={
+            'stage':'E1 G0 native original art gate',
+            'native_blend_reopened':True,'glb_independently_imported':True,
+            'all_three_images_from_original_3d':True,'nonidentical_view_hashes':hashes,
+            'objects_reloaded':len(objects),'source_triangles':tria,
+            'art_judgement':'AWAITING_TRUE_VISUAL_REVIEW',
+            'building_function_certified':False,
+            'formal_art_approved':False,'city_master_complete':False,
+            'minecraft_written':False
+          }
+          (p/'R18_E1_INDEPENDENT_SOURCE_AUDIT.json').write_text(json.dumps(audit,indent=2))
+          print('R18_E1_G0_NATIVE_CREATION_PASS_ONLY_ART_PENDING')
+          PY
+      - name: Keep source, GLB, manifest and 3 actual cameras even on QA failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R18-E1-FIRST-3-TRUE-ART-VIEWS-AND-BLEND-GLB
+          path: /tmp/r18-e1/
+          retention-days: 14
+          if-no-files-found: warn
