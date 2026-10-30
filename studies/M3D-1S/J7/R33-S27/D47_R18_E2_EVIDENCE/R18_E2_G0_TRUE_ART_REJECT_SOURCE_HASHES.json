@@ -1,0 +1,21 @@
+{
+  "source_workflow": 41069377264,
+  "source_artifact_id": 12984312516,
+  "archive_sha256": "1d985860da8aad470eba07ccb8fea4e2e2e6ecb0d9f410c82101bc5ac78253c5",
+  "files_sha256": {
+    "R18_E2_TRUE_EDITABLE_PUBLIC_CANYON.blend": "70c610ed7fa2d694ee98ce0499e64c10817efac55d5e72f244a1368b7eece69f",
+    "R18_E2_ACTUAL_PUBLIC_CANYON.glb": "1b820c2ecf49ad21d0fa7a5678041f9c9fc6f61913aee29a678f3e217ade579c",
+    "R18_E2_G0_MANIFEST.json": "eb5d085ec49bd02c407a38588ac5bbd5f0bf25cecb07f78f810a4015dedb916d",
+    "R18_E2_INDEPENDENT_SOURCE_AUDIT.json": "f283386cf57d85ba1e540d221d24654abf6ac40453a5d006d14fe20b521b18b0",
+    "01_HUMAN_PUBLIC_ENTRY.png": "53572a74d1251ffc4b65acf9f439de62229d4b6019ca8bea520041bf7d3c9787",
+    "02_HUMAN_LIVING_CIVIC_FORUM.png": "9eab5a13a5ae307254cd0a76fd824c367637e061e3a57fb7d5e3c3436c3e4a6d",
+    "03_TRUE_OBLIQUE_ARCHITECTURE.png": "55fa517a214e89be26fb934729a5f78edc9f018d0f6238ed3e088cc53075b9ca",
+    "04_TRUE_REAR_URBAN_LINK.png": "e7c359e9d806f9c31e8dc785481099611d47e4c4a759fb75c1d7acce00fa45ed"
+  },
+  "source_technical": "LIMITED_PASS",
+  "visual_art": "REJECT",
+  "function": "UNCERTIFIED",
+  "official_adoption": false,
+  "city_master_complete": false,
+  "minecraft_write": false
+}
