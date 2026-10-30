@@ -1,0 +1,90 @@
+name: HALO9 R18 E5 preserve verified source and true four-camera before-after
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e5-blend-visual-feedback-20261031
+    paths:
+      - '.github/workflows/d47-r18-e5-preserve-true-before-after.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  preserve-true-research-only:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download original unedited BLEND and its 4 true camera views
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 41081229554
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-R18-E5-G0-UNEDITED-NATIVE-ROOM-AND-BEFORE-VIEWS
+          path: /tmp/e5-before
+      - name: Download exact edited BLEND GLB and its 4 true same-camera views
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 41128671614
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          name: HALO9-E5-G1-TRUE-ORIGINAL-MESH-EDIT-FOUR-CAMERAS
+          path: /tmp/e5-after
+      - name: Verify provenance and preserve small complete two-stage audit ZIP
+        run: |
+          python - <<'PY'
+          import json,hashlib,zipfile
+          from pathlib import Path
+          a=Path('/tmp/e5-before'); b=Path('/tmp/e5-after')
+          g0=json.loads((a/'E5_G0_BASELINE_MANIFEST.json').read_text())
+          g1=json.loads((b/'E5_G1_DIRECT_MESH_EDIT_AUDIT.json').read_text())
+          qa=json.loads((b/'E5_G1_INDEPENDENT_FIXED_CAMERA_QA.json').read_text())
+          assert hashlib.sha256((a/g0['native_blend']).read_bytes()).hexdigest()==g1['g0_blend_sha256']
+          assert hashlib.sha256((b/'E5_G1_ACTUAL_EDITED_SAME_SOURCE.blend').read_bytes()).hexdigest()==g1['g1_blend_sha256']
+          assert g1['same_mesh_datablock'] and g1['other_39_meshes_unchanged']
+          assert g1['camera_matrices_lenses_and_ortho_unchanged']
+          assert g1['faces_before']==48 and g1['faces_after']==24
+          assert qa['independent_blend_glb_reimport']
+          assert len(qa['same_camera_real_image_differences'])==4
+          assert qa['formal_adoption'] is False and qa['minecraft_write'] is False
+          names0=[g0['native_blend'],'E5_G0_BASELINE_MANIFEST.json',
+                  'E5_G0_NATIVE_AUDIT.json']+['BEFORE_'+n+'.png' for n in g0['cameras']]
+          names1=['E5_G1_ACTUAL_EDITED_SAME_SOURCE.blend',
+                  'E5_G1_ACTUAL_EDITED_SAME_SOURCE.glb',
+                  'E5_G1_DIRECT_MESH_EDIT_AUDIT.json',
+                  'E5_G1_INDEPENDENT_FIXED_CAMERA_QA.json']+['AFTER_'+n+'.png' for n in g0['cameras']]
+          assert all((a/n).stat().st_size>10 for n in names0)
+          assert all((b/n).stat().st_size>10 for n in names1)
+          dest=Path('studies/M3D-1S/J7/R33-S27/D47_R18_E5_EVIDENCE')
+          dest.mkdir(parents=True,exist_ok=True)
+          target=dest/'R18_E5_G0_G1_TRUE_NATIVE_BEFORE_AFTER_ART_REJECT.zip'
+          with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names0:z.write(a/n,'G0_BEFORE/'+n)
+              for n in names1:z.write(b/n,'G1_AFTER/'+n)
+          report={
+           'g0_run':41081229554,'g1_run':41128671614,
+           'zip_sha256':hashlib.sha256(target.read_bytes()).hexdigest(),
+           'zip_size_bytes':target.stat().st_size,
+           'individual_sha256':{**{'G0_BEFORE/'+n:hashlib.sha256((a/n).read_bytes()).hexdigest() for n in names0},
+                                 **{'G1_AFTER/'+n:hashlib.sha256((b/n).read_bytes()).hexdigest() for n in names1}},
+           'method':'same original native BLEND directly edited; G1 24 faces removed',
+           'source_tech':'LIMITED_PASS','ART':'REJECT','FUNCTION':'UNCERTIFIED',
+           'formal_adoption':False,'city_master_complete':False,'minecraft_write':False}
+          (dest/'R18_E5_G0_G1_HASHES_AND_DECISION.json').write_text(json.dumps(report,indent=2))
+          print('E5_PRESERVE_TRUE_SOURCE_G0_AND_DIRECT_EDIT_G1',report['zip_size_bytes'])
+          PY
+      - name: Commit only research evidence no force pushes
+        env:
+          TARGET: research/r33-s27-d47-r18-e5-blend-visual-feedback-20261031
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name "halo9-research-archive"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add studies/M3D-1S/J7/R33-S27/D47_R18_E5_EVIDENCE
+          git diff --cached --quiet && exit 0
+          git commit -m "E5 preserve true G0 original and same-source G1 edited BLEND GLB four before-after cameras"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$TARGET"
+            git rebase "origin/$TARGET" || exit 1
+            if git push origin "HEAD:refs/heads/$TARGET"; then exit 0; fi
+            sleep 2
+          done
+          exit 1
