@@ -193,10 +193,35 @@ h_specs=[
  ("H1",(-260,1540,780),(1150,950,440),M["pearl"]),
  ("H2",(1470,1890,1060),(1280,1140,560),M["public"]),
 ]
+def inhabitable_h_shell(asset,c,dim,color):
+ # No solid occupied block: roof/foundation/perimeter wall with an
+ # actual open bridge entry and multiple real floors.
+ x,y,z=c;dx,dy,dz=dim;wall=30
+ coll=GR["03_INHABITED_H1_H2_LINKED_DESTINATIONS"]
+ for n,ct,dims in [
+  ("FOUNDATION",(x,y,z-dz/2-15),(dx,dy,30)),
+  ("ROOF",(x,y,z+dz/2+17),(dx,dy,34)),
+  ("NORTH_EDGE",(x,y+dy/2-wall/2,z),(dx,wall,dz)),
+  ("EAST_EDGE",(x+dx/2-wall/2,y,z),(wall,dy,dz))]:
+  box(asset+"_"+n,ct,dims,color,coll,"HOLLOW_INHABITED_SKY_CITY_WIP",asset)
+ if asset=="H1":
+  a=x-dx/2;b=x+dx/2;cut=-70;gap=150
+  for suffix,lo,hi in [("WEST",a,cut-gap),("EAST",cut+gap,b)]:
+   box(asset+"_SOUTH_PORTAL_WALL_"+suffix,
+       ((lo+hi)/2,y-dy/2+wall/2,z),(hi-lo,wall,dz),
+       color,coll,"OPEN_H1_PUBLIC_ENTRY",asset)
+  box(asset+"_WEST_EDGE",(x-dx/2+wall/2,y,z),(wall,dy,dz),
+      color,coll,"H1_CIVIC_SIDE_WALL",asset)
+ else:
+  a=y-dy/2;b=y+dy/2;cut=1755;gap=175
+  for suffix,lo,hi in [("SOUTH",a,cut-gap),("NORTH",cut+gap,b)]:
+   box(asset+"_WEST_PORTAL_WALL_"+suffix,
+       (x-dx/2+wall/2,(lo+hi)/2,z),(wall,hi-lo,dz),
+       color,coll,"OPEN_H2_PUBLIC_ENTRY",asset)
+  box(asset+"_SOUTH_EDGE",(x,y-dy/2+wall/2,z),(dx,wall,dz),
+      color,coll,"H2_CIVIC_SIDE_WALL",asset)
 for asset,c,dim,color in h_specs:
- box(asset+"_THICK_PUBLIC_CITY_BODY",c,dim,color,
-     GR["03_INHABITED_H1_H2_LINKED_DESTINATIONS"],
-     "CITY_MASS_CONTAINS_REAL_PUBLIC_INTERNAL_FLOORS_WIP",asset)
+ inhabitable_h_shell(asset,c,dim,color)
  for j in range(3):
   # First/second research floors cross the actual attached route at z=784.
   # Separate public floors are not a fully authored private city interior.
