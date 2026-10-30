@@ -26,3 +26,9 @@
 E0の断片、E1の岩板、E2の峡谷壁、E3の円形スタジアムに共通して不足したのは、独創的な**造形そのものの美しさと人間視点の空間体験**。E3現形状の細密化禁止。E4を単なる半円の細工や光の演出へ転用しない。新たな作品造形は、最も印象的な一つの室内眺望・活動を**本物の3Dの彫刻的な空間構成**で実現し、同一原本で別視点の対称性破壊・奥行き・接続を最初に確かめる。次に実機能を検査。実3D美術が未成立なら巨大都市地区へ拡大しない。外部GUI/Work承認を得たと勝手に仮定しない。
 
 **現時点の正式結論：SOURCE TECH限定PASS／FUNCTION未認証／ART REJECT／正式中央採択0／City Master完成0／Minecraft施工HOLD。**
+
+## 最終追補：E3 G1真正原本の研究ブランチ恒久保存を確認
+
+[研究原本保存CI #41075455109](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41075455109)：**SUCCESS**。初回 [#41075266266](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41075266266) ではGitHubトークン記述に余計なバックスラッシュが残り、Bad credentialsによりFAIL。トークン記法だけ修正して再実行し、真正G1 BLEND/GLB/4PNG/JSONを取得して、`D47_R18_E3_EVIDENCE/R18_E3_G1_ACTUAL_NATIVE_BLENDER_4VIEW_ART_REJECT.zip`（5,448,365 bytes）および `R18_E3_G1_EVIDENCE_HASHES.json` を独立研究ブランチへ**恒久保存済み**。画像は実BLENDから撮影、元GLBはG0/G1同一形状。SOURCE TECH限定PASS、FUNCTION未認証、ART REJECT、不採択の判定は変更しない。
+
+保存完了時のE3研究HEAD：`da368cdfc7475ed52f2d66cfe235b1f81524403c`。main HEAD：`a2f88995eee8d10ee4830dbdf33ccb9c0790de8f`、E2 HEAD：`f365b1ad1f01bcf53b8d85de3e09fbb504140673` はそれぞれ保護されたまま変更なし。これ以降もHEADの最新性は実リモートを再確認すること。
