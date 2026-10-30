@@ -1,0 +1,125 @@
+name: HALO9 D48 R2 P2 true P1 BLEND direct edits and 3-way image causality
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r2-p2-native-visual-surgery-20261031
+    paths:
+      - '.github/workflows/d48-r2-p2-same-blend-direct-surgery.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D48_R2_P2_NATIVE_SURGERY/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: halo9-r2-p2-true-saved-blend
+  cancel-in-progress: true
+jobs:
+  direct-native-edit-not-code-regeneration:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preflight actual safety and script syntax
+        run: |
+          python -m py_compile studies/M3D-1S/J7/R33-S27/D48_R2_P2_NATIVE_SURGERY/p2_direct_surgery_same_blend.py
+          python studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/validate_d48_r0.py
+      - name: Pin exact original P1 BLEND run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41140650010" --jq '.conclusion')" = success
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41140650010" --jq '.head_sha')" = c298e4028c4696207ca12f93e44079d54cfe264f
+          test "$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/41140650010" --jq '.head_branch')" = research/r33-s27-d48-r2-p1-interior-first-20261031
+      - name: Retrieve actual rejected P1 native source and 7 true cameras
+        uses: actions/download-artifact@v4
+        with:
+          name: HALO9-D48-R2-P1-REAL-BLEND-GLB-7-TRUE-VIEWS
+          run-id: 41140650010
+          github-token: ${{ github.token }}
+          path: /tmp/halo9-p1-original
+      - name: Install Blender and PIL for genuine independent checks
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Perform exact P1 saved BLEND surgery twice without new design generator
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D48_R2_P2_NATIVE_SURGERY/p2_direct_surgery_same_blend.py /tmp/halo9-p1-original /tmp/halo9-p2-original-comparisons
+      - name: Independently reopen both edited originals and verify same cameras and untouched meshes
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python - <<'PY'
+          import bpy,hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageChops,ImageStat
+          out=Path('/tmp/halo9-p2-original-comparisons')
+          m=json.loads((out/'P2_SAME_SOURCE_3WAY_AUDIT.json').read_text())
+          assert m['source_sha']=='c298e4028c4696207ca12f93e44079d54cfe264f'
+          assert m['source_original_images_reused_untouched']==7
+          assert len(m['variants'])==2
+          assert m['final_art']=='UNREVIEWED_PENDING_REAL_IMAGES'
+          report={'source_tech':'LIMITED_PASS_ONLY','art':'UNREVIEWED',
+              'function':'UNCERTIFIED','same_7_real_cameras':True,
+              'results':{},'formal_adoption':False,'minecraft_write':False}
+          for item in m['variants']:
+              kind=item['kind'];d=out/kind
+              assert item['original_changed_geometry']==['H1_EAST_EDGE']
+              assert item['untargeted_original_meshes_unchanged'] is True
+              assert item['camera_matrices_unchanged'] is True
+              assert item['h1_portal_real_boolean'] is True
+              assert item['formal_adoption'] is False and item['city_master_complete'] is False
+              assert len(item['files']['images'])==7
+              assert item['removed_object_count']==(0 if kind.startswith('G1_') else 20)
+              diffs={}
+              for n in item['files']['images']:
+                  path=d/n
+                  assert hashlib.sha256(path.read_bytes()).hexdigest()==item['sha256'][n]
+                  with Image.open(path) as im,Image.open(out/'G0_UNMODIFIED_P1_TRUE_SOURCE_IMAGES'/n) as original:
+                      assert im.size==original.size==(1360,800)
+                      a=im.convert('RGB');b=original.convert('RGB')
+                      assert sum(ImageStat.Stat(a).stddev)>8
+                      bb=ImageChops.difference(a,b).convert('L')
+                      pixels=bb.histogram()
+                      diff=1-pixels[0]/(1360*800)
+                      diffs[n]=round(diff,6)
+              fn=d/item['files']['blend']
+              assert hashlib.sha256(fn.read_bytes()).hexdigest()==item['sha256'][fn.name]
+              bpy.ops.wm.open_mainfile(filepath=str(fn))
+              sc=bpy.context.scene
+              assert sc['D48_MINECRAFT_WRITTEN'] is False
+              assert sc['D48_FORMAL_ADOPTED'] is False
+              assert sc['D48_CITY_MASTER_COMPLETE'] is False
+              assert len([o for o in bpy.data.objects if o.type=='CAMERA'])==7
+              assert bpy.data.objects['H1_EAST_EDGE']['P2_PUBLIC_PORTAL_CARVED'] is True
+              assert len(bpy.data.objects['H1_EAST_EDGE'].data.vertices)>8
+              assert len([o for o in bpy.data.objects if o.type=='MESH'])==item['mesh_count']
+              assert all(abs(bpy.data.objects[n].location.z-(784 if n.endswith('H1_PUBLIC') else 0)-1.65)<.001
+                         for n in ['01_REAL_EYE_ARRIVAL','02_REAL_EYE_FORUM','03_REAL_EYE_RESEARCH','04_REAL_EYE_H1_PUBLIC'])
+              glb=d/item['files']['glb']
+              assert hashlib.sha256(glb.read_bytes()).hexdigest()==item['sha256'][glb.name]
+              bpy.ops.wm.read_factory_settings(use_empty=True)
+              bpy.ops.import_scene.gltf(filepath=str(glb))
+              assert len([o for o in bpy.data.objects if o.type=='MESH'])>=item['mesh_count']
+              report['results'][kind]={'changed_fractions_from_original':diffs,
+                  'removed_opaque_outer_objects':item['removed_object_count'],
+                  'H1_eye_changed':diffs['04_REAL_EYE_H1_PUBLIC.png']}
+              print('P2_TRUE_BLENDER_DIRECT_EDIT_QA',kind,report['results'][kind])
+          (out/'P2_INDEPENDENT_SAME_CAMERA_BA_QA.json').write_text(json.dumps(report,indent=2))
+          PY
+      - name: Save true source edited BLEND and multi-camera comparisons even if visual judgement fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D48-R2-P2-TWO-DIRECT-EDITED-BLENDS-14-REAL-IMAGES
+          path: /tmp/halo9-p2-original-comparisons/
+          retention-days: 14
+          if-no-files-found: warn
