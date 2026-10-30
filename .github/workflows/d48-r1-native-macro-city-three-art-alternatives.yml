@@ -1,0 +1,98 @@
+name: HALO9 D48 R1 genuine editable macro city A B C and 18 true render views
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-macro-city-master-art-20261031
+    paths:
+      - '.github/workflows/d48-r1-native-macro-city-three-art-alternatives.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/d48_r1_native_macro_studies.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: halo9-d48-r1-macro-real-art
+  cancel-in-progress: true
+jobs:
+  genuine-editable-three-way:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax before expensive 3D run
+        run: |
+          python -m py_compile studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/d48_r1_native_macro_studies.py
+          python studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/validate_d48_r0.py
+      - name: Install genuine Blender and image analysis libraries
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Build independent genuine editable macro city models, not procedural E6 room repeats
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/d48_r1_native_macro_studies.py /tmp/d48-r1
+      - name: Reopen each real Blender BLEND and imported GLB, verify all images
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python - <<'PY'
+          import bpy, json, hashlib
+          from pathlib import Path
+          from PIL import Image, ImageStat
+          folder=Path('/tmp/d48-r1')
+          names=["01_NORTH_PANORAMA","02_EAST_SEA","03_SOUTHWEST_VOID","04_WEST_REAR","05_GROUND_APPROACH","06_SKY_DISTRICT"]
+          for alt in 'ABC':
+              d=folder/alt
+              a=json.loads((d/'D48_R1_MANIFEST.json').read_text())
+              assert a['alternative']==alt
+              assert a['city_master_complete'] is False and a['formal_adoption'] is False and a['minecraft_write'] is False
+              assert a['official_coordinates']=='UNVERIFIED_TEMP_ART_LAYOUT'
+              assert a['camera_names']==names and len(a['files']['images'])==6
+              assert set(a['registered_real_object_ids']) >= {'M247-C','W0',*('H'+str(i) for i in range(1,7)),*('SB'+str(i).zfill(2) for i in range(1,17))}
+              hashes=[]
+              for f in a['files']['images']:
+                  p=d/f
+                  assert hashlib.sha256(p.read_bytes()).hexdigest()==a['sha256'][f]
+                  with Image.open(p) as im:
+                      rgb=im.convert('RGB')
+                      assert rgb.size==(1200,740)
+                      assert sum(ImageStat.Stat(rgb).stddev)>10
+                  hashes.append(a['sha256'][f])
+              assert len(set(hashes))==6
+              p=d/a['files']['blend']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==a['sha256'][p.name]
+              bpy.ops.wm.open_mainfile(filepath=str(p))
+              assert bpy.context.scene['D48_WORLD_WRITE'] is False
+              assert bpy.context.scene['D48_ART_ADOPTED'] is False
+              assert bpy.context.scene['D48_CITY_MASTER_COMPLETE'] is False
+              actual={o.get('D48_asset_id') for o in bpy.data.objects if o.get('D48_asset_id')}
+              assert actual >= set(a['registered_real_object_ids'])
+              cams=[o for o in bpy.data.objects if o.type=='CAMERA']
+              assert sorted(o.name for o in cams)==names
+              assert sum(o.type=='MESH' for o in bpy.data.objects)==a['mesh_count']
+              bpy.ops.wm.read_factory_settings(use_empty=True)
+              glb=d/a['files']['glb']
+              assert hashlib.sha256(glb.read_bytes()).hexdigest()==a['sha256'][glb.name]
+              bpy.ops.import_scene.gltf(filepath=str(glb))
+              assert len([o for o in bpy.data.objects if o.type=='MESH'])>=a['mesh_count']
+              print('D48_R1_TRUE_SOURCE_TECH_INSPECTION_PASS',alt)
+          report={'source_tech':'LIMITED_PASS_THREE_NATIVE_EDITABLE_MACRO_LAYOUTS', 'art':'UNREVIEWED',
+            'function':'UNCERTIFIED','true_3d':True,'views':18,'alternatives':['A','B','C'],
+            'formal_adoption':False,'city_master_complete':False,'minecraft_write':False,
+            'official_city_coordinates':False}
+          (folder/'D48_R1_INDEPENDENT_QA.json').write_text(json.dumps(report,indent=2))
+          PY
+      - name: Retain all actual editable model originals and renderings even on audit failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D48-R1-THREE-REAL-EDITABLE-MACRO-CITY-STUDIES-18-VIEWS
+          path: /tmp/d48-r1/
+          retention-days: 14
+          if-no-files-found: warn
