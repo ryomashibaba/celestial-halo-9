@@ -38,7 +38,7 @@ for lab,glb in CANDIDATES:
     bpy.ops.wm.read_factory_settings(use_empty=True)
     imported=source_corrected_import(glb)
     central=[o for o in imported
-             and not o.name.startswith(BG_PREFIXES)]
+             if not o.name.startswith(BG_PREFIXES)]
     assert len(central)>=25,(lab,len(central))
     corners=[o.matrix_world@Vector(p) for o in central for p in o.bound_box]
     lo=Vector(tuple(min(v[k] for v in corners) for k in range(3)))
