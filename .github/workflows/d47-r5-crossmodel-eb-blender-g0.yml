@@ -1,0 +1,127 @@
+name: HALO9 D47 R5 Crossmodel C55E EB Source-Derived Blender Art Gate
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r5-crossmodel-evidence-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R5_EB_SOURCE_REGEN/**'
+      - '.github/workflows/d47-r5-crossmodel-eb-blender-g0.yml'
+permissions:
+  contents: write
+jobs:
+  real-source-regeneration-and-blender-g0:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Checkout original archived Claude source in SECOND read-only directory
+        uses: actions/checkout@v4
+        with:
+          repository: ryomashibaba/celestial-halo-9
+          ref: archive/claude-c55e-source-and-evidence-20261029
+          path: c55e_ref
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install genuine Blender, source dependencies and software OpenGL
+        run: |
+          python -m pip install 'bpy==4.5.15' 'numpy<2.4' 'scipy<2' 'opencv-python-headless<5'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Source provenance; never treat missing C55E original GLB as imported
+        run: |
+          echo 'READ_ONLY_ARCHIVE_SHA='
+          git -C c55e_ref rev-parse HEAD
+          test -f c55e_ref/studies/M3D-1S/claude/C55-E/code/eb_well.py
+          test -f c55e_ref/studies/M3D-1S/claude/C55-E/ART_REVIEW_C55E.md
+          test ! -f c55e_ref/studies/M3D-1S/claude/C55-E/model/C55E_EB_yori_well_v3.glb
+      - name: Rebuild source-derived candidate then render genuine independent Blender views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+          OPENBLAS_NUM_THREADS: '1'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R5_EB_SOURCE_REGEN/r5_c55e_eb_genuine_blender_gate.py /tmp/r5-eb
+      - name: Independently reopen BLEND and GLB and inspect evidence
+        run: |
+          python - <<'PY'
+          import bpy,json,hashlib
+          from pathlib import Path
+          p=Path('/tmp/r5-eb');m=json.loads((p/'R5_EB_G0_MANIFEST.json').read_text())
+          assert m['never_original_C55E_GLb'] and not m['minecraft_construction']
+          assert m['sampling_differs_from_C55E_original']=={'ds_m':34,'dw_m':22,'ground':False}
+          source=Path('c55e_ref/studies/M3D-1S/claude/C55-E/code/eb_well.py')
+          assert m['source_code_sha256']['eb_well.py']==hashlib.sha256(source.read_bytes()).hexdigest()
+          assert len(m['cameras'])==7
+          names=m['cameras'];assert all((p/(n+'.png')).stat().st_size>2500 for n in names)
+          source_meshes=m['mesh_classes'];assert sum(x['triangles'] for x in source_meshes)>140000
+          blend=p/'R5_EB_SOURCE_DERIVED_G0_EDITABLE.blend'
+          glb=p/'R5_EB_SOURCE_DERIVED_G0.glb'
+          assert blend.stat().st_size>10000 and glb.stat().st_size>10000
+          bpy.ops.wm.open_mainfile(filepath=str(blend))
+          assert bpy.context.scene.get('art_adopted') is False
+          original={o.name:len(o.data.polygons) for o in bpy.data.objects if o.type=='MESH'}
+          assert len(original)>=2
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(glb))
+          imported={o.name:len(o.data.polygons) for o in bpy.data.objects if o.type=='MESH'}
+          assert sum(imported.values())>=0.98*sum(original.values()),(sum(original.values()),sum(imported.values()))
+          audit={'tech':'LIMITED_PASS_SOURCE_DERIVED_GLTF_NOT_ORIGINAL_EB',
+                 'real_native_blend_reopened':True,'real_glb_reimported':True,
+                 'native_triangles':sum(original.values()),
+                 'glb_triangles':sum(imported.values()),
+                 'archived_source_sha_validated':True,
+                 'art':'UNREVIEWED','approved':False,
+                 'all_public_interiors_validated':False,
+                 'actual_original_EB_GLB_unavailable':True}
+          (p/'R5_EB_INDEPENDENT_AUDIT.json').write_text(json.dumps(audit,indent=2))
+          print('R5_EB_TRUE_SOURCE_DERIVED_BLENDER_TECH_LIMITED_PASS_ART_UNREVIEWED',audit)
+          PY
+      - name: Upload genuine 7-view result and 3D, including failed runs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R5-C55E-EB-INDEPENDENT-BLENDER-G0-UNREVIEWED
+          path: /tmp/r5-eb/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Preserve verified real source-derived G0 evidence in isolated branch
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile,hashlib,json
+          p=Path('/tmp/r5-eb')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R5_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R5_EB_SOURCE_DERIVED_G0_EDITABLE.blend',
+                 'R5_EB_SOURCE_DERIVED_G0.glb',
+                 'R5_EB_G0_MANIFEST.json','R5_EB_INDEPENDENT_AUDIT.json']
+          names += [f'{i:02d}_{nm}.png' for i,nm in enumerate(
+                  ['FRONT','OBLIQUE','SIDE','REAR','AERIAL','GROUND_UP','VOID_INSIDE'],1)]
+          assert all((p/n).stat().st_size>100 for n in names)
+          archive=out/'R5_C55E_EB_SOURCE_DERIVED_BLENDER_G0_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=5) as a:
+              for n in names:a.write(p/n,arcname=n)
+          (out/'R5_C55E_EB_HASHES.json').write_text(
+              json.dumps({'derived_from_archived_source':True,
+              'original_EB_GLb_present':False,'art_approved':False,
+              'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+              'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest()
+                              for n in names}},indent=2))
+          PY
+      - name: Commit evidence in R5 branch only
+        if: success()
+        env:
+          EXPECTED: research/r33-s27-d47-r5-crossmodel-evidence-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$EXPECTED"
+          git config user.name 'halo9-crossmodel-study-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R5_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R5 archive real independent Blender C55E source-derived G0, art unreviewed'
+          git push origin "HEAD:refs/heads/$EXPECTED"
