@@ -68,8 +68,8 @@ jobs:
               bpy.ops.wm.open_mainfile(filepath=str(f))
               objs=[x for x in bpy.data.objects if x.type=='MESH']
               def meshsig(x):
-                  d={'verts':[[round(float(c),6) for c in v.co] for v in x.data.vertices],
-                     'faces':[list(p.vertices) for p in x.data.polygons]}
+                  d={'v':[[round(float(c),6) for c in v.co] for v in x.data.vertices],
+                     'f':[list(p.vertices) for p in x.data.polygons]}
                   return hashlib.sha256(json.dumps(d,sort_keys=True).encode()).hexdigest()
               meshes={x.name:meshsig(x) for x in objs}
               cameras={x.name:{'matrix':[round(float(v),7) for row in x.matrix_world for v in row],
