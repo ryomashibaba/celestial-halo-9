@@ -273,7 +273,7 @@ for j,(x,y) in enumerate(((-20,-20),(21,-17),(-22,41))):
 CAMERAS={
  "01_HUMAN_ENTRY_TO_ARCHIVE":((0,-78,1.65),(0,22,20),None),
  "02_HUMAN_INSIDE_SCIENCE_FORUM":((3,-17,3.65),(0,35,24),None),
- "03_READER_HIGH_BALCONY":((-25,54,11.65),(0,15,21),None),
+ "03_READER_HIGH_BALCONY":((0,56,12.45),(0,10,8),None),
  "04_ROOM_ARCHITECTURE_3D":((151,-137,120),(0,22,24),245)
 }
 for n,(eye,target,ortho) in CAMERAS.items():
