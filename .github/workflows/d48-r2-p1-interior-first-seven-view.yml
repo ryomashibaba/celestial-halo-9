@@ -1,0 +1,108 @@
+name: HALO9 D48 R2 P1 public-life-first true Blender and 1.65m eye proof
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r2-p1-interior-first-20261031
+    paths:
+      - '.github/workflows/d48-r2-p1-interior-first-seven-view.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D48_R2_P1_INTERIOR_FIRST/p1_spatial_sequence_blender.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: halo9-d48-p1-real-civic
+  cancel-in-progress: true
+jobs:
+  independent-real-source-and-human-views:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Source syntax and protected scope provenance
+        run: |
+          python -m py_compile studies/M3D-1S/J7/R33-S27/D48_R2_P1_INTERIOR_FIRST/p1_spatial_sequence_blender.py
+          python studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/validate_d48_r0.py
+      - name: Blender native editable modeling dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Build interior-first public rooms route and seven native Blender images
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D48_R2_P1_INTERIOR_FIRST/p1_spatial_sequence_blender.py /tmp/d48-r2-p1
+      - name: Audit 1.65m eyes and real source independently without art claims
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          import bpy
+          from PIL import Image, ImageStat
+          p=Path('/tmp/d48-r2-p1')
+          m=json.loads((p/'D48_R2_P1_MANIFEST.json').read_text())
+          assert m['stage']=='D48_R2_P1_INTERIOR_FIRST_REAL_3D'
+          assert not m['formal_adoption'] and not m['minecraft_construction'] and not m['city_master_complete']
+          assert m['world_coords']=='RESEARCH_LOCAL_XYZ_NOT_OFFICIAL'
+          assert m['function']=='UNVERIFIED_ELEVATOR_AND_PUBLIC_ACCESSES'
+          assert set(m['physical_real_3d_assets']) >= {'M247-C','W0','H1','H2'}
+          assert len(m['unmodeled_required_assets'])==20
+          assert len(m['camera_names'])==7
+          assert len(m['route_sequence'])>=8
+          assert sum(x['mode']=='LIFT' for x in m['route_sequence'])==1
+          for n in [m['files']['blend'],m['files']['glb']]+m['files']['pngs']:
+              assert hashlib.sha256((p/n).read_bytes()).hexdigest()==m['sha256'][n],n
+          hashes=[]
+          for n in m['files']['pngs']:
+              with Image.open(p/n) as im:
+                  rgb=im.convert('RGB')
+                  assert rgb.size==(1360,800)
+                  assert sum(ImageStat.Stat(rgb).stddev)>10,n
+              hashes.append(m['sha256'][n])
+          assert len(set(hashes))==7
+          bpy.ops.wm.open_mainfile(filepath=str(p/m['files']['blend']))
+          assert bpy.context.scene['D48_CITY_MASTER_COMPLETE'] is False
+          assert bpy.context.scene['D48_FORMAL_ADOPTED'] is False
+          assert bpy.context.scene['D48_MINECRAFT_WRITTEN'] is False
+          assert bpy.context.scene['D48_OFFICIAL_COORDINATES'] is False
+          meshes=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(meshes)==m['mesh_count']
+          for name,h in m['eye_heights_m'].items():
+              o=bpy.data.objects[name]
+              assert o.type=='CAMERA' and o['ACTUAL_EYE_OFFSET_M']==h==1.65
+              ground=784 if name.endswith('H1_PUBLIC') else 0
+              assert abs(o.location.z-ground-1.65)<.001
+              assert o.data.clip_end>=50000
+          for i in range(1,7):
+              if i<=2:
+                  assert any(o.get('D48_ASSET')=='H'+str(i) and o.type=='MESH' for o in bpy.data.objects)
+              else:
+                  assert any(o.get('D48_ASSET')=='H'+str(i) and o.type=='EMPTY' for o in bpy.data.objects)
+          for i in range(1,17):
+              assert any(o.get('D48_ASSET')=='SB'+str(i).zfill(2) and o.type=='EMPTY' for o in bpy.data.objects)
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/m['files']['glb']))
+          assert len([o for o in bpy.data.objects if o.type=='MESH'])>=len(meshes)
+          qa={'source_tech':'LIMITED_PASS_INDEPENDENT_REAL_BLENDER_RELOAD',
+              'real_1_65m_eye_camera_geometry':'LIMITED_PASS_FOUR_CAMERAS',
+              'actual_public_access_safety':'UNCERTIFIED','elevator_operation':'UNIMPLEMENTED',
+              'art':'NOT_REVIEWED','city_master_complete':False,
+              'official_coordinates':False,'formal_adoption':False,'minecraft_write':False}
+          (p/'D48_R2_P1_INDEPENDENT_QA.json').write_text(json.dumps(qa,indent=2))
+          print('D48_R2_P1_TECH_LIMITED_PASS_ART_NOT_REVIEWED')
+          PY
+      - name: Keep research source outputs even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D48-R2-P1-REAL-BLEND-GLB-7-TRUE-VIEWS
+          path: /tmp/d48-r2-p1/
+          retention-days: 14
+          if-no-files-found: warn
