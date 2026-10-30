@@ -1,0 +1,96 @@
+name: HALO9 R18 E2 new inhabited civic canyon genuine 4-view art G0
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e2-inhabited-void-20261030
+    paths:
+      - '.github/workflows/d47-r18-e2-inhabited-canyon-art-g0.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_E2_NATIVE/e2_inhabited_civic_canyon.py'
+permissions:
+  contents: read
+concurrency:
+  group: halo9-r18-e2-new-art
+  cancel-in-progress: true
+jobs:
+  genuine-native-model-and-independent-reload:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Blender executable Python and still image QA
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Author actual new urban inhabited canyon, edit-ready BLEND and GLB, 4 views
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_E2_NATIVE/e2_inhabited_civic_canyon.py /tmp/r18e2
+      - name: Independently reopen native + GLB; inspect actual mesh and 4 images
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy,hashlib,json
+          from pathlib import Path
+          from PIL import Image
+          p=Path('/tmp/r18e2');j=json.loads((p/'R18_E2_G0_MANIFEST.json').read_text())
+          assert j['one_true_connected_low_route_max_gradient']<1/12
+          assert j['formal_art_approved'] is False
+          assert j['city_master_complete'] is False
+          assert j['minecraft_write'] is False
+          assert len(j['files']['cameras'])==4
+          assert j['mesh_count']>=25 and j['triangles']>=400
+          hashes={}
+          for name in j['files']['cameras']:
+              with Image.open(p/name) as im:
+                  rgb=im.convert('RGB')
+                  assert rgb.size==(1260,840)
+                  assert len(rgb.resize((100,67)).getcolors(maxcolors=12000) or [])>=20,(name,'blank scene')
+              hashes[name]=hashlib.sha256((p/name).read_bytes()).hexdigest()
+          assert len(set(hashes.values()))==4
+          assert (p/j['files']['blend']).stat().st_size>45000
+          assert (p/j['files']['glb']).stat().st_size>25000
+          bpy.ops.wm.open_mainfile(filepath=str(p/j['files']['blend']))
+          sc=bpy.context.scene
+          assert sc['R18_E2_ART_APPROVED'] is False and sc['R18_E2_MINECRAFT_WRITE'] is False
+          obj=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(obj)==j['mesh_count']
+          assert all(o.data.shape_keys and len(o.data.shape_keys.key_blocks)==2 for o in obj)
+          assert sum(len(o.data.vertices) for o in obj)==j['vertices']
+          tria=sum(len(f.vertices)-2 for o in obj for f in o.data.polygons)
+          assert tria==j['triangles']
+          names={o.name for o in obj}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/j['files']['glb']))
+          meshes=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(meshes)==len(obj)
+          assert {o.name for o in meshes}==names
+          tri2=sum(len(f.vertices)-2 for o in meshes for f in o.data.polygons)
+          assert tri2==tria,(tri2,tria)
+          evidence={
+            'status':'REAL_BLENDER_CREATION_AND_INDEPENDENT_REOPEN_LIMITED_PASS',
+            'actual_native_BLENDER_and_GLB':True,
+            'unique_four_actual_camera_images':hashes,
+            'real_meshes_reloaded':len(meshes),'real_triangles':tri2,
+            'route_safety_and_bldg_function_certified':False,
+            'ART':'AWAITING_HUMAN_4VIEW_JUDGEMENT',
+            'formal_adoption':False,'city_master_complete':False,'minecraft_write':False
+          }
+          (p/'R18_E2_INDEPENDENT_SOURCE_AUDIT.json').write_text(json.dumps(evidence,indent=2))
+          print('D47_R18_E2_NATIVE_AND_FOUR_REAL_VIEWS_LIMITED_PASS')
+          PY
+      - name: Save genuine 4 view evidence even on errors
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R18-E2-NEW-GENUINE-CIVIC-4VIEWS-BLEND-GLB
+          path: /tmp/r18e2/
+          retention-days: 14
+          if-no-files-found: warn
