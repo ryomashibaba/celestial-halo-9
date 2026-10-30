@@ -229,7 +229,7 @@ for j,(a,b,high,twist) in enumerate([
  f=[(i*17+k,i*17+k+1,(i+1)*17+k+1,(i+1)*17+k)
     for i in range(4) for k in range(16)]
  mesh("OPEN_SKYLIGHT_CREST_"+str(j),v,f,
-       "white_ceramic" if j!=1 else "sea_glass",
+       "archive_ceramic" if j!=1 else "sea_glass",
        "06 ARCHITECTURE_OF_DAYLIGHT",
        "three irregular overhead sculptural daylight wings leaving the center open")
 # Central actual purpose: a planted luminous archive well with a readable
