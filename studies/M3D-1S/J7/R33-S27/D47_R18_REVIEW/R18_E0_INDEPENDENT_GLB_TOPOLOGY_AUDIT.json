@@ -1,0 +1,61 @@
+{
+  "stage": "D47-R18 E0 independent recovered-artifact audit",
+  "source": {
+    "workflow_run_id": 41060455276,
+    "job_id": 124078570811,
+    "artifact_id": 12979820538,
+    "artifact_zip_sha256": "745e2083d5aed530016be0f311b06f54a255d2ac35521d0e27714a1534d2cdf2",
+    "native_blender_version": "4.5.15 LTS",
+    "glb": "R18_E0_LIVED_CIVIC.glb",
+    "artifacts_are_not_on_research_branch": true
+  },
+  "method": "Independent trimesh 4.11.1 load of saved GLB, world glTF Y-up converted to project Z-up for floor-contact checks. Trimesh merge_vertices(merge_tex=True, merge_norm=True) on a new copy is required to suppress GLB split normal/texture vertices; do not rely on bpy importer polygon-index topology alone.",
+  "observed": {
+    "object_count": 18,
+    "route_glb_original_vertex_count": 184,
+    "route_faces": 92,
+    "original_connected_components": 46,
+    "welded_unique_vertices": 48,
+    "welded_connected_components": 1,
+    "welded_watertight": true,
+    "negative_control": {
+      "operation": "remove faces touching GLB route segment with Blender Y in (-13.1,-2.9)",
+      "removed_triangles": 20,
+      "connected_components_after_damage": 2,
+      "expected_failure_detected": true
+    },
+    "purpose_floor_contact": {
+      "SOUTH_ARRIVAL_TERRACE": {
+        "floor_z_m": 0,
+        "unique_route_top_vertices_inside_polygon": 2
+      },
+      "EXHIBITION_FLOOR_WITH_OBLIQUE_VIEW_EDGE": {
+        "floor_z_m": 2,
+        "unique_route_top_vertices_inside_polygon": 2
+      },
+      "HIGH_RESEARCH_READING_ROOM": {
+        "floor_z_m": 6,
+        "unique_route_top_vertices_inside_polygon": 2
+      },
+      "TRANSIT_OBSERVATION_TRANSFER": {
+        "floor_z_m": 8.2,
+        "unique_route_top_vertices_inside_polygon": 2
+      }
+    }
+  },
+  "scope": {
+    "geometry_connected_after_coordinate_welding": true,
+    "disconnected_step_test_detects_negative_control": true,
+    "physical_floor_contact_limited_pass": true,
+    "interior_clearance_certified": false,
+    "structural_support_certified": false,
+    "guardrails_certified": false,
+    "egress_certified": false,
+    "wheelchair_access_certified": false,
+    "function_certified": false,
+    "art_approved": false,
+    "city_master_complete": false,
+    "minecraft_write": false
+  },
+  "result": "GEOMETRY_LIMITED_PASS_AFTER_INDEPENDENT_REPAIR_OF_AUDIT_METHOD; ART_REJECT"
+}
