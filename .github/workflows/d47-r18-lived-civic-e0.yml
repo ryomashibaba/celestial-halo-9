@@ -1,0 +1,193 @@
+name: HALO9 D47 R18 E0 independent lived civic architecture 3D
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-lived-civic-space-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_NATIVE/r18_first_lived_civic_e0.py'
+      - '.github/workflows/d47-r18-lived-civic-e0.yml'
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r18-e0-independent
+  cancel-in-progress: true
+jobs:
+  build-and-audit-native-lived-civic:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install reproducible real Blender and independent image checks
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Create actual editable native art and ten genuine camera renders
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_NATIVE/r18_first_lived_civic_e0.py /tmp/r18
+      - name: Independently reopen model and GLB and test physical continuous body plus floor contacts
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy, math, json, hashlib
+          from pathlib import Path
+          from mathutils import Vector
+          from PIL import Image
+          p=Path('/tmp/r18')
+          j=json.loads((p/'R18_E0_MANIFEST.json').read_text())
+          assert j['formal_ART']=='NOT_REVIEWED'
+          assert len(j['files']['cameras'])==10
+          assert j['max_route_segment_grade']<1/12
+          assert j['object_count']>=18
+          assert all((p/name).stat().st_size>100 for name in [j['files']['blend'],j['files']['glb']]+j['files']['cameras'])
+          image_hashes={}
+          for name in j['files']['cameras']:
+              with Image.open(p/name) as im:
+                  rgb=im.convert('RGB')
+                  assert rgb.size==(1100,740)
+                  assert len(rgb.resize((100,67)).getcolors(10000) or [])>=16,(name,'flat frame')
+              image_hashes[name]=hashlib.sha256((p/name).read_bytes()).hexdigest()
+          assert len(set(image_hashes.values()))==10
+          bpy.ops.wm.open_mainfile(filepath=str(p/j['files']['blend']))
+          assert bpy.context.scene['R18_ART_APPROVED'] is False
+          assert bpy.context.scene['R18_MINECRAFT_WRITE'] is False
+          real=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(real)==j['object_count']
+          assert all(o.data.shape_keys and len(o.data.shape_keys.key_blocks)==2 for o in real)
+          assert sum(len(o.data.vertices) for o in real)==j['total_vertices']
+          origtris=sum(sum(len(f.vertices)-2 for f in o.data.polygons) for o in real)
+          assert origtris==j['triangles']
+          orig_names={o.name for o in real}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/j['files']['glb']))
+          imported=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(imported)==len(real)
+          assert {o.name for o in imported}==orig_names
+          actualtris=sum(sum(len(f.vertices)-2 for f in o.data.polygons) for o in imported)
+          assert actualtris==origtris,(actualtris,origtris)
+          route=next(o for o in imported if o.name.startswith('CONNECTED_SINGLE_BODY_PUBLIC_WALK'))
+          # Connected by actual polygon indices, not shape name or one-object count.
+          parents=list(range(len(route.data.vertices)))
+          def root(a):
+              while parents[a]!=a:
+                  parents[a]=parents[parents[a]]
+                  a=parents[a]
+              return a
+          def unite(a,b):
+              a=root(a);b=root(b)
+              if a!=b:parents[b]=a
+          for f in route.data.polygons:
+              vs=list(f.vertices)
+              for t in vs[1:]:unite(vs[0],t)
+          used={v for f in route.data.polygons for v in f.vertices}
+          components=len({root(v) for v in used})
+          assert components==1,('disconnected public-walk components',components)
+          # All four actual slabs must share their top elevation/footprint
+          # with one or more real vertices of the continuous route body.
+          # This is a G0 joint-contact check, NOT accessibility certification.
+          coords=[route.matrix_world@v.co for v in route.data.vertices]
+          contact={}
+          pads=['SOUTH_ARRIVAL_TERRACE','EXHIBITION_FLOOR_WITH_OBLIQUE_VIEW_EDGE',
+                'HIGH_RESEARCH_READING_ROOM','TRANSIT_OBSERVATION_TRANSFER']
+          for name in pads:
+              ob=next(o for o in imported if o.name==name)
+              pts=[ob.matrix_world@v.co for v in ob.data.vertices]
+              top=max(v.z for v in pts)
+              top_xy=[(v.x,v.y) for v in pts if abs(v.z-top)<0.02]
+              # The R18 test slabs are intentionally convex authored footprint polygons.
+              def inside(q,poly):
+                  x,y=q
+                  inside=False
+                  for a,b in zip(poly,poly[1:]+poly[:1]):
+                      (ax,ay),(bx,by)=a,b
+                      if ((ay>y)!=(by>y)) and x<(bx-ax)*(y-ay)/(by-ay)+ax:
+                          inside=not inside
+                  return inside
+              # GLB top-vertex enumeration can reorder: reconstruct convex hull.
+              P=sorted(set(top_xy))
+              def cross(a,b,c):
+                  return (b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0])
+              low=[]
+              for pt in P:
+                  while len(low)>=2 and cross(low[-2],low[-1],pt)<=0:low.pop()
+                  low.append(pt)
+              high=[]
+              for pt in reversed(P):
+                  while len(high)>=2 and cross(high[-2],high[-1],pt)<=0:high.pop()
+                  high.append(pt)
+              poly=low[:-1]+high[:-1]
+              assert len(poly)>=3
+              matches=[v for v in coords if abs(v.z-top)<0.04 and inside((v.x,v.y),poly)]
+              contact[name]=len(matches)
+              assert matches,('unserved public slab top',name)
+          audit={
+             'SOURCE_TECH':'NATIVE_BLENDER_AND_GLB_REOPEN_LIMITED_PASS',
+             'function':'GEOMETRIC_ROUTE_AND_FLOOR_CONTACT_LIMITED_PASS_NOT_HUMAN_CERTIFIED',
+             'route_connected_polygon_components':components,
+             'actual_floor_contact_vertex_counts':contact,
+             'rendered_views_unique':10,'images_sha256':image_hashes,
+             'visual_ART':'NOT_YET_REVIEWED','formal_adoption':False,
+             'accessible_clearance_certified':False,'vertical_lift_access_certified':False,
+             'egress_and_load_certified':False,'city_master_complete':False,
+             'minecraft_construction':False}
+          (p/'R18_E0_INDEPENDENT_GEO_AUDIT.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2))
+          print('HALO9_R18_TRUE_EDITABLE_CIVIC_GEOMETRY_LIMITED_PASS',json.dumps(audit))
+          PY
+      - name: Keep native evidence even on a failed research check
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R18-E0-NATIVE-BLEND-GLB-REAL-10-VIEWS
+          path: /tmp/r18/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Package genuinely generated BLEND GLB ten views and negative-capable QA
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,zipfile,hashlib
+          p=Path('/tmp/r18')
+          man=json.loads((p/'R18_E0_MANIFEST.json').read_text())
+          names=[man['files']['blend'],man['files']['glb'],
+                 'R18_E0_MANIFEST.json','R18_E0_INDEPENDENT_GEO_AUDIT.json']
+          names+=man['files']['cameras']
+          assert len(names)==14 and all((p/x).stat().st_size>100 for x in names)
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R18_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          archive=out/'R18_E0_TRUE_NATIVE_10VIEW_ART_UNREVIEWED.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names:z.write(p/n,n)
+          (out/'R18_E0_HASHES_AND_SCOPE.json').write_text(json.dumps({
+              'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+              'source_branch':'research/r33-s27-d47-r18-lived-civic-space-20261030',
+              'art_adopted':False,'not_city_master':True,'minecraft_write':False,
+              'contents_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names}
+          },indent=2))
+          PY
+      - name: Non-force push exclusively to new isolated research branch
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r18-lived-civic-space-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r18-native-research'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R18_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R18 E0 archive native lived-civic prototype and independent geometry evidence; ART unreviewed'
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$TARGET"
+            git rebase "origin/$TARGET" || exit 1
+            if git push origin "HEAD:refs/heads/$TARGET"; then exit 0; fi
+            sleep 2
+          done
+          exit 1
