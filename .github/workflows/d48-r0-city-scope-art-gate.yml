@@ -1,0 +1,25 @@
+name: HALO9 D48 R0 citywide art-first scope and provenance (NOT art acceptance)
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-macro-city-master-art-20261031
+    paths:
+      - '.github/workflows/d48-r0-city-scope-art-gate.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scope-and-evidence-only:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate mandatory 30 city entities, no fabricated coordinates, no construction
+        run: |
+          python studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/validate_d48_r0.py
+      - name: Explicit quality boundary
+        run: |
+          echo 'CI means scope/provenance checks only. NO real D48 3D, NO art PASS, NO function certification, NO formal adoption.'
