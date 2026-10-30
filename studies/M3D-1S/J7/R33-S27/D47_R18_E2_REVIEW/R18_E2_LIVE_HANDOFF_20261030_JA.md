@@ -23,3 +23,10 @@
 
 ## 守る契約
 M247-C《浮断天核》、W0/H1–H6/SB01–SB16、正式main、過去E0/E1研究原本、Minecraft世界を無断変更しない。中央正式ART採択0。約10km全市の全建物外観・巨大施設内観・交通・地形・公共内部・材質・照明の**統合済み編集可能詳細City Master**完成前のMinecraft施工を許可しない。外注しない。Work操作は明示承認制。Chat主体・本当の美術成果を目標とする。
+
+## 実行後追補：E2初回CIの実際の失敗と最小修正
+
+- [初回CI #41068540782](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41068540782) は **failure**。実Blender起動後、`scene.world.color` が `NoneType` のため失敗。出力モデル・画像は生成されなかった。これは幾何美術の採否ではなく、`read_factory_settings(use_empty=True)` 後に世界データが存在しないことが原因。
+- Blender 4.5のワールドを明示生成してから色を指定する最小修正を、同じ独立研究ブランチのコミット `8dccd29d644af5da9c2ff395c91e43385569a16e` に保存。アート形状、公共用途、判定閾値を変えていない。
+- [修正後CI #41069377264](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41069377264) を起動したが、記録時点では **queued／最終結果未確認**。結果を勝手にPASSと書かず、真正4視点の美術審査も未実施。
+- 本研究の真の現状は「E2新規3D制作ソース・CI登録済み／Blender背景初期化バグ修正済み／修正版実行待ち」。E1-G0の美術REJECTを解除しない。
