@@ -76,7 +76,7 @@ def track(name,pts,width,material,group,role,asset=None):
  ob["D48_role"]=role
  if asset:ob["D48_asset_id"]=asset
  return ob
-def flower_ridge(name,xy,size,z,mat0,grp,phase,n=9,theta=.0,thickness=180):
+def flower_ridge(name,xy,size,z,mat0,grp,phase,n=9,theta=.0,thickness=180,asset=None):
  # Sculpted (irregular) coastal/mountain civic landmass with finite depth.
  x0,y0=xy;vs=[];rings=[]
  for scale,zz in [(1.0,z-thickness),(.86,z+thickness*.20),(.56,z+thickness)]:
@@ -86,7 +86,7 @@ def flower_ridge(name,xy,size,z,mat0,grp,phase,n=9,theta=.0,thickness=180):
    rr=size*(1+.15*math.sin(k*2.4+phase)+.07*math.cos(k*5+phase))
    ring.append((x0+rr*scale*math.cos(a),y0+rr*.72*scale*math.sin(a),zz+44*math.sin(3*a+phase)))
   rings.append(ring)
- return loft_sections(name,rings,mat0,grp,"INHABITED_THICK_CIVIC_GROUND")
+ return loft_sections(name,rings,mat0,grp,"INHABITED_THICK_CIVIC_GROUND",asset)
 def ground_sculpt(mat0,grp,mode):
  # Three-dimensional 12km basin, distinct from the skyline structures.
  N=29;vs=[];faces=[]
@@ -191,7 +191,7 @@ def facilities(style,grp,mats):
    track(asset+"_UPPER_GATE_WIP",[(x-270,y,875),(x,y,1040),(x+270,y,875)],80,mats["ivory"],grp,"HERO4_GATE_ART_STUDY_NOT_PROTECTED_ORIGINAL",asset)
   elif i==12:
    for j in range(4):
-    flower_ridge(asset+"_SANCTUARY_CASCADE_"+str(j),(x+90*j,y-55*j),340-j*52,160+145*j,mats["stone"],grp,i+j,thickness=115)
+    flower_ridge(asset+"_SANCTUARY_CASCADE_"+str(j),(x+90*j,y-55*j),340-j*52,160+145*j,mats["stone"],grp,i+j,thickness=115,asset=asset)
   else:
    # 12 individually scaled WIP civic masses: not full megastructure interiors
    flower_ridge(asset+"_PUBLIC_MEGASTRUCTURE_PROXY",(x,y),210+(i%4)*36,100,mats["stone"] if i%3 else mats["civic"],grp,i*.75,thickness=h*.32)
