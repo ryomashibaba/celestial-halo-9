@@ -21,7 +21,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           run-id: 41074809860
-          github-token: \${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           name: HALO9-R18-E3-G0-REAL-INHABITED-INTERIOR-4VIEWS-BLEND-GLB
           path: /tmp/r18-e3-review-source
       - name: Verify original scope then package ART REJECT evidence with SHA256
