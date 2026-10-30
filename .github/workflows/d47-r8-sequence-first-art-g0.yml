@@ -169,4 +169,6 @@ jobs:
           git add studies/M3D-1S/J7/R33-S27/D47_R8_EVIDENCE/
           git diff --cached --quiet && exit 0
           git commit -m 'R8 archive sequence-first real Blender spatial and art G0 proof'
+          git fetch origin "$TARGET"
+          git rebase "origin/$TARGET"
           git push origin "HEAD:refs/heads/$TARGET"
