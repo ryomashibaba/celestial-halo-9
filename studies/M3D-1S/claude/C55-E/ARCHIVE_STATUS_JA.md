@@ -1,28 +1,43 @@
-# Claude C55-E 原本アーカイブの保存実績と未完了項目
-**更新基準：2026-10-30 JST／保存場所：独立 `archive/claude-c55e-source-and-evidence-20261029`／ART HOLD**
+# Claude C55-E — 原本アーカイブ最終保存報告
+**確認日：2026-10-30 JST／独立アーカイブ／中央美術 ART HOLD・正式採択なし**
 
-## 何が実際に保存されたか
-- C55-E ZIP内の **制作・再レンダリング・検証・失敗記録・状態説明など31個のテキスト原本**を、`studies/M3D-1S/claude/C55-E/` に原文で保存。
-- 実レンダー由来の **EA/EB 6視点比較の縮小JPEG** `preview/C55E_EA_EB_OVERVIEW.jpg` をGitHubの実バイナリとして保存。
-- オリジナル **EA GLBの先頭5個**（2MiB×5＝10,485,760 bytes）を `models/parts/EA_000.bin` ... `EA_004.bin` として、元の生バイトのままGitHub保存。残りEA_005〜016とEB_000〜025は**未保存**（この文書作成時の確認）。
-- **厳格な復元・ハッシュ照合スクリプト** `models/RESTORE_ORIGINAL_GLB.py` と、`models/ORIGINAL_BINARY_MANIFEST.json` を登録。スクリプトは欠損があれば失敗終了し、「復元成功」と虚偽表示しない。
-- **完全なC55-E成果ZIP（89,829,946 bytes; SHA-256 `57448ad64fb4864542ff5cb8448d33a42657ef956e17b6bb7d37656257d0702b`）とGit bundle（C55-C→D→Eの履歴）**は、同一ChatGPT利用者のファイルライブラリ
-  `/CELESTIAL-HALO-9/C55E-Research-Archive/` に別々に保存。元のZIP内部の `MANIFEST_SHA256.txt` **70/70件 SHA-256一致**を確認。ライブラリバックアップとGitHubアーカイブは**別の保管場所**であり、このリポジトリだけで全原本を復元可能と主張してはならない。
+## A. GitHubに実際に存在するもの
 
-## 不足と原因
-- **GitHubでは2個のGLBは未完成。** EAは17分割中5つだけ、EBは26分割中0。したがって「全GLBのGitHub保存PASS」は **FALSE**。GitHubへの転送中、ChatGPTファイル連携の一時コンテナが `container_session_expired` となり、追加のバイナリ転送片をファイル連携が取得できなくなった。ZIPとbundleはLibraryで保護されているため原本消失ではない。
-- Git bundle本体（数百MB級の履歴保存ファイル）はGitHubにアップロードできていない。bundleの独立したコミット履歴を、既存mainやGPT系ブランチへ直接混ぜない。
-- C55-Eの実Blender/Cyclesレンダー、編集可能BLEND、BVH自己交差完全検査はもともと未実施。本アーカイブが技術・美術合格を追加証明することはない。
-- このGitHubブランチにある31ソースは**C55-Eの収録部分**。C55-C/Dの全原本と履歴は別途Libraryのbundleと先行研究ファイルを参照する必要がある。
+保存ブランチ：`archive/claude-c55e-source-and-evidence-20261029`
 
-## 後で全バイナリをGitHub保存する際の安全な手順
-1. ライブラリ保管のZIPとbundleのSHA-256を再確認。ZIPを開き `claude_c55e/model/C55E_EA_terra_turn_open_lattice_v2.glb` と `.../C55E_EB_yori_well_v3.glb` を得る。
-2. 他系列の HEAD が変わっていないか確認し、**このClaude専用archive研究ブランチだけ**に続きの `models/parts/EA_NNN.bin`（EA_005〜016）と `EB_NNN.bin`（EB_000〜025）を2,097,152バイトずつ保存。既存EA_000〜004は変えない。
-3. `python studies/M3D-1S/claude/C55-E/models/RESTORE_ORIGINAL_GLB.py --verify-only` で双方の部品数・元GLBヘッダー・元SHAを検証（**不完全なら終了コード1が正しい**）。
-4. `--output-dir <隔離フォルダ>` を指定して元GLBを復元、ファイルサイズ／SHAを再照合。その後、別ツールでBlenderで開いて幾何・見た目を確認（未実施ならBlender PASSと記録しない）。
-5. 原本のGit bundle全体をそのままGitHubに重複保存する必要が本当にあるか、履歴のimport・GitHub Release資産・Git LFS等の容量/管理方法を**別途検討**。いずれもmainへの直接マージは禁止。
+- 元の **C55-E制作・検証・失敗記録・研究文書のテキスト31ファイル**を原文で保存。メインソースは `code/` にあり、影マップ修正前のコードと修正後の比較も含む。
+- 元の実レンダー由来の **EA/EB 6視点比較JPEG** `preview/C55E_EA_EB_OVERVIEW.jpg` をバイナリとして保存。
+- **実GLB本体を、元バイトを変えずに2MiB分割で全件保存。** E-Aは `models/parts/EA_000.bin`〜`EA_016.bin`（17分割、計35,478,456 bytes）、E-Bは `EB_000.bin`〜`EB_025.bin`（26分割、計53,010,436 bytes）。**43/43の部品が存在し、欠落0。**
+- 43部品それぞれについて、原本ZIPのバイト列から独立計算したGit blobオブジェクトSHA-1がGitHub上の実blob SHAと**43/43一致**。これにより、GitHubの各部品は元データをバイト単位で保持していると検証できた。**再結合後の最終ファイルをクリーン環境でGitHubからダウンロードして実行する工程は別途未実施。**
+- `models/RESTORE_ORIGINAL_GLB.py` を使うと、43分割から元GLBファイルへ再結合できる。**元GLB全体のSHA-256、バイト数、GLBヘッダーが一致しない場合は異常終了**する。既存のファイルは上書きしない。
+- `models/ORIGINAL_BINARY_MANIFEST.json` に正確な情報を保存。GLBはGitHubでは「.glb単独ファイル」ではなく**再組立て可能な原バイト分割**である。
 
-## 美術・運用状態
-- Claude C55-E：**ART HOLD**、E-Aの現外観REJECT、E-Bは巨大ボイド／多方向居住原理のみ継続HOLD。C55-Fは別研究として独立。
-- main/Freeze・GPT/Work本線には一切変更を加えない。正式中央美術採択0件、CITY MASTER 3D FIRST維持、Minecraft施工HOLD。
-- 本ファイルは2026-10-30の事実のスナップショットである。後続研究はGitHubの現HEAD・ライブラリバックアップと照合してから最新状態を更新する。
+## B. ライブラリに完全原本を二重保護
+利用者のChatGPTファイルライブラリ `/CELESTIAL-HALO-9/C55E-Research-Archive/` に次を保存。
+
+| 原本 | サイズ | 原本SHA-256 |
+|---|---:|---|
+| `C55E_claude_research_payload.zip` | 89,829,946 bytes | `57448ad64fb4864542ff5cb8448d33a42657ef956e17b6bb7d37656257d0702b` |
+| `C55E_research_branch.bundle` | 169,917,412 bytes | `83abd4ecd191d3ecb66a81c9014e9385844b046c7546b1663ed1b86c8399114f` |
+
+ZIP内 `MANIFEST_SHA256.txt` の元ファイル検査 **70/70一致**。Git bundleに対してGit自身の `git bundle verify` による完全履歴検証 **PASS**。bundle内の最終refは `refs/heads/claude/c55e-macro-research`／`f4155c293e2905e7b7910b34d244a5e80cc16bdd`。
+
+**未保存の範囲：** Git bundle本体および完全ZIPを、それぞれGitHubリポジトリに単独ファイルで保管することは未実施。bundleのC55-C/D/Eの独立履歴を、正式GitHub `main` に輸入・マージする操作も未実施。**Libraryへの保存とGitHubへの直接保存は区別する。**
+
+## C. 復元と検証
+```bash
+git switch archive/claude-c55e-source-and-evidence-20261029
+python studies/M3D-1S/claude/C55-E/models/RESTORE_ORIGINAL_GLB.py --verify-only
+python studies/M3D-1S/claude/C55-E/models/RESTORE_ORIGINAL_GLB.py --output-dir ./restored-c55e-models
+```
+想定される最終GLB SHA-256：
+- EA `42c2cbd1c51389e55d57b6c2f998a8ecce5219454382a99c16f3c9672024f6d9`
+- EB `01ea7a7f5865c569ac41d1e1946cfa366125872f83a058d4759ab341d57b58e2`
+
+外部で本格レンダリング・形状審査をするときは、同じ原本をBlenderで取り込み、C55-Eの独自ラスタライザにしか存在しない表現とジオメトリを区別すること。
+
+## D. 現状と制約
+- C55-E ART HOLD。E-Aの現在の貝殻的外観はREJECT、E-Bの巨大ボイドと多方向居住原理だけ研究継承。**中央の正式美術採択0件**。
+- 元成果は **Blender/Cycles未実行・実BLENDなし・全自己交差未検査**。アーカイブ保全は美術PASS/技術PASSを意味しない。
+- `main`、Freeze、GPT/Workの研究ブランチ、Minecraft本番ワールドには書き込んでいない。CITY MASTER 3D FIRST／Minecraft施工HOLDを維持。
+- このステータスは保存時点のスナップショット。今後別の担当がClaude C55-F以降へ進んでも、その研究をこのアーカイブから自動的に置き換えない。
