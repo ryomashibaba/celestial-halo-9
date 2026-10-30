@@ -78,12 +78,14 @@ jobs:
           bpy.data.objects.remove(block,do_unlink=True)
           native_names={o.name for o in native}
           native_faces=sum(len(o.data.polygons) for o in native)
+          native_triangulated_faces=sum(sum(max(1,len(poly.vertices)-2) for poly in o.data.polygons) for o in native)
           bpy.ops.wm.read_factory_settings(use_empty=True)
           bpy.ops.import_scene.gltf(filepath=str(glb))
           restored=[o for o in bpy.data.objects if o.type=='MESH']
           restored_names={o.name for o in restored}
           assert restored_names==native_names,(len(restored_names),len(native_names))
-          assert sum(len(o.data.polygons) for o in restored)==native_faces
+          imported_tris=sum(sum(max(1,len(poly.vertices)-2) for poly in o.data.polygons) for o in restored)
+          assert imported_tris==native_triangulated_faces,(imported_tris,native_triangulated_faces)
           audit={
            'result':'TECH_LIMITED_PASS_ART_UNREVIEWED',
            'true_blend_reopened':True,'true_glb_reimported':True,
