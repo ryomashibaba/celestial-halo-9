@@ -64,8 +64,14 @@ jobs:
             assert len(shape)==2
             assert all(o.data.shape_keys is not None
                    and len(o.data.shape_keys.key_blocks)==2 for o in shape)
-            rooms=[o for o in objs if o.name.endswith(' REAL PUBLIC ROOM FLOOR')]
+            # Blender truncates long object identifiers. Audit the *semantic*
+            # source property instead of suffixes that can be cut at 63 chars.
+            rooms=[o for o in objs if o.get('program')==
+                   'true public floor, room purpose representative only']
+            roofs=[o for o in objs if o.get('program')==
+                   'true physical enclosing roof of public hall']
             assert len(rooms)==20,len(rooms)
+            assert len(roofs)==20,len(roofs)
             path=[o for o in objs if o.name.startswith('COMMON ARRIVAL INTO REAL PUBLIC OPEN-AIR VOID')]
             assert len(path)==1
             assert sum(1 for o in bpy.data.objects if o.type=='CAMERA')==9
