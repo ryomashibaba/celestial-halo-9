@@ -4,7 +4,9 @@ on:
     branches:
       - research/r33-s27-d47-r14-multiview-gui-sculpt-loop-20261030
     paths:
-      - 'studies/M3D-1S/J7/R33-S27/D47_R14_GUI/**'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_prepare_local_gui.py'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_actual_gui_local_edit.sh'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R14_GUI/r14_independent_actual_gui_and_12views.py'
       - '.github/workflows/d47-r14-true-local-gui-sculpt.yml'
 permissions:
   contents: write
