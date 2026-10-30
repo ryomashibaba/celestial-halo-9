@@ -32,3 +32,10 @@
 - 期間付きGitHub Actionsアーティファクトを消失させないため、両原本＋8PNG＋両QAのSHA256付き研究専用ZIPを保存するCI [#41128995851](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41128995851) を登録。**この文書作成時点で成果の完了は未確認**。SUCCESSとなったら `D47_R18_E5_EVIDENCE/R18_E5_G0_G1_TRUE_NATIVE_BEFORE_AFTER_ART_REJECT.zip` と `R18_E5_G0_G1_HASHES_AND_DECISION.json` の実在・コミットを確認。
 - 次は、技術方式が成立したことを活かし、**美術作品として真に独創的な実3Dへ**観察→大きな主形状編集→多視点で確認する短サイクルを改良する。小さな黒い幕に穴を開けたE5原型をそのまま装飾して正式採用しない。
 - 最新HEADはGitHubの実refを別途照合する。現在の正本は常に `main:docs/policy/START_HERE.md` および `PROJECT_CONSTITUTION.md`、`CITY_MASTER_3D_STANDARD.md`。
+
+## 最終追補 — G0/G1真正原本を研究ブランチへ恒久保存【確認済み】
+- [研究原本保存CI #41128995851](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41128995851) **SUCCESS**。保存後にGitHub研究ブランチの実コンテンツAPIでファイル存在とサイズを再確認。
+- `D47_R18_E5_EVIDENCE/R18_E5_G0_G1_TRUE_NATIVE_BEFORE_AFTER_ART_REJECT.zip`：8,022,689 bytes。G0真正BLEND、G1同一元BLENDの編集後BLEND、G1 GLB、BEFORE/AFTER計8枚の真正PNG、各段階のmanifest・検査JSONを一括保存。
+- `D47_R18_E5_EVIDENCE/R18_E5_G0_G1_HASHES_AND_DECISION.json`：SHA256台帳。ZIP SHA256 `49c969ba88ee5e19e71fffb29398e74125c690b0c66e25267ba5f4fba6edadf3`。元BLEND SHA・G1BLEND SHAは上記と一致。
+- 正式main `a2f88995eee8d10ee4830dbdf33ccb9c0790de8f`、E4研究 `7352715d00d6d03c9d376215f7742842d5f614df` の不変を確認。
+- **最終：新技法の直接メッシュ編集 SOURCE TECH限定PASS／FUNCTION未認証／E5作品ART REJECT／正式美術採択0／全10km統合City Master未完成／Minecraft施工HOLD**。今後の研究はこの新技法を活用し、根本的な造形美術の向上へ進むこと。
