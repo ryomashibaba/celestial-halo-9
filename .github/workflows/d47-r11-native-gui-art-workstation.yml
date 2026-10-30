@@ -1,0 +1,108 @@
+name: HALO9 D47 R11 genuine Blender GUI artist workstation and checkpoint
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r11-native-visual-workstation-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R11_WORKSTATION/**'
+      - '.github/workflows/d47-r11-native-gui-art-workstation.yml'
+permissions:
+  contents: write
+jobs:
+  actual-art-workstation-ui-and-checkpoint:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install real GUI Blender and X11 keyboard and screenshot instruments
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb xdotool scrot libgl1-mesa-dri python3-pil
+          blender --version | head -2
+      - name: Create self-contained Blender native artist workstation with R10 original comparison inside
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          mkdir -p /tmp/r11
+          blender --background --factory-startup --python-exit-code 17 --python studies/M3D-1S/J7/R33-S27/D47_R11_WORKSTATION/r11_create_visual_workspace.py --             /tmp/r11             studies/M3D-1S/J7/R33-S27/D47_R10_EVIDENCE/R10_4_ORIGINALS_NEUTRAL_RENDER_PROVENANCE_ART_UNAPPROVED.zip
+          test -s /tmp/r11/R11_OPEN_IN_BLENDER_VISUAL_SCULPT_STUDIO.blend
+      - name: Drive real Blender GUI under virtual X and save a separate actual shape-key edit
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          xvfb-run -a -s "-screen 0 1440x900x24" bash studies/M3D-1S/J7/R33-S27/D47_R11_WORKSTATION/r11_test_real_gui.sh /tmp/r11
+          test -s /tmp/r11/R11_01_REAL_GUI_BEFORE.png
+          test -s /tmp/r11/R11_02_REAL_GUI_AFTER.png
+      - name: Independently inspect GUI vertex edit and execute genuine six-view checkpoint operator
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          GALLIUM_DRIVER: llvmpipe
+        run: |
+          xvfb-run -a -s "-screen 0 1440x900x24" blender --background --factory-startup --python-exit-code 17             --python studies/M3D-1S/J7/R33-S27/D47_R11_WORKSTATION/r11_independent_gui_and_checkpoint_audit.py -- /tmp/r11
+          test -s /tmp/r11/R11_INDEPENDENT_NATIVE_AND_GUI_AUDIT.json
+      - name: Preserve genuine native UI proof even if audit fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R11-REAL-BLENDER-VISUAL-SCULPT-STUDIO
+          path: /tmp/r11/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive signed native workstation and actual X11 test (research only)
+        if: success()
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          p=Path('/tmp/r11')
+          dest=Path('studies/M3D-1S/J7/R33-S27/D47_R11_EVIDENCE')
+          dest.mkdir(parents=True,exist_ok=True)
+          names=[
+             'R11_OPEN_IN_BLENDER_VISUAL_SCULPT_STUDIO.blend',
+             'R11_STUDIO_BASE_MANIFEST.json',
+             'R11_R10_READONLY_ART_HISTORY.jpg',
+             'R11_GUI_ACTUAL_INPUT_EDITED_COPY.blend',
+             'R11_01_REAL_GUI_BEFORE.png',
+             'R11_02_REAL_GUI_AFTER.png',
+             'R11_BLENDER_REAL_GUI_LOG.txt',
+             'R11_INDEPENDENT_NATIVE_AND_GUI_AUDIT.json']
+          names.extend(n+'.png' for n in [
+             '01_FRONTAL_EYE','02_SIDE_CROSS_SECTION','03_OBLIQUE_MASS',
+             '04_REAR_OTHER_SIDE','05_LOW_PUBLIC_VIEW','06_ABOVE_OTHER_WORLD'])
+          rev='R11_ARTIST_REVISIONS/R11_REV_001/'
+          names.extend(rev+n for n in [
+              'R11_REV_001_EDITABLE.blend','R11_REV_001_SURFACE.glb','R11_REVISION_AUDIT.json'])
+          names.extend(rev+n+'.png' for n in [
+             '01_FRONTAL_EYE','02_SIDE_CROSS_SECTION','03_OBLIQUE_MASS',
+             '04_REAR_OTHER_SIDE','05_LOW_PUBLIC_VIEW','06_ABOVE_OTHER_WORLD'])
+          assert len(names)==23
+          for name in names:assert (p/name).is_file() and (p/name).stat().st_size>80,name
+          archive=dest/'R11_NATIVE_ARTIST_STUDIO_GUI_AND_CHECKPOINT_TECH_ONLY.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for name in names:z.write(p/name,name)
+          hashes={
+           'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+           'contained_files':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+           'art_approved':False,'real_gui_proof':True,
+           'new_city_mass_generated':False,
+           'main_modified':False,'minecraft_write':False
+          }
+          (dest/'R11_EVIDENCE_HASHES.json').write_text(json.dumps(hashes,indent=2))
+          print('R11_TRUE_GUI_AND_NATIVE_BLENDER_WORKSTATION_ZIP',hashes['archive_sha256'])
+          PY
+      - name: Commit independent evidence to R11 branch only, no force
+        if: success()
+        env:
+          TARGET: research/r33-s27-d47-r11-native-visual-workstation-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$TARGET"
+          git config user.name 'halo9-r11-artworkstation-audit'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R11_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R11 preserve genuine Blender editable art studio, X11 edit, native checkpoint and six-view audit'
+          git fetch origin "$TARGET"
+          git rebase "origin/$TARGET"
+          git push origin "HEAD:refs/heads/$TARGET"
