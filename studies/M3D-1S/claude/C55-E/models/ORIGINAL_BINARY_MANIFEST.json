@@ -1,56 +1,67 @@
 {
-  "schema": "celestial-halo-9.claude-c55e.archive-manifest.v1",
-  "recorded_jst": "2026-10-30",
+  "schema": "celestial-halo-9.claude-c55e.archive-manifest.v2",
+  "verified_jst": "2026-10-30",
+  "github_branch": "archive/claude-c55e-source-and-evidence-20261029",
+  "binary_transport": "byte-identical original GLB split into contiguous 2,097,152-byte GitHub Git blobs; no transformations; RESTORE_ORIGINAL_GLB.py reconstructs exact files",
+  "github_binary_verification": {
+    "ea_chunk_count": 17,
+    "eb_chunk_count": 26,
+    "total_chunks": 43,
+    "missing_chunks": 0,
+    "sum_bytes": 88488892,
+    "source_git_blob_object_sha_matches": 43,
+    "source_git_blob_object_sha_mismatches": 0,
+    "method": "Original ZIP bytes independently split into 2MiB chunks; locally computed git blob SHA-1 object identities match GitHub-listed sha for each part; original full GLB SHA-256 specified below. Full GLB reconstruction using GitHub downloads has not independently run on a clean system.",
+    "single_file_glb_in_github": false,
+    "parts_complete": true
+  },
   "source_zip": {
-    "filename": "C55E_claude_research_payload.zip",
-    "bytes": 89829946,
+    "name": "C55E_claude_research_payload.zip",
+    "size": 89829946,
     "sha256": "57448ad64fb4864542ff5cb8448d33a42657ef956e17b6bb7d37656257d0702b",
-    "manifest_entries_verified": 70,
-    "manifest_errors": 0,
-    "backup_library_path": "/CELESTIAL-HALO-9/C55E-Research-Archive/C55E_claude_research_payload.zip",
-    "stored_as_single_github_blob": false
+    "internal_manifest_entries_verified": 70,
+    "internal_manifest_mismatches": 0,
+    "chatgpt_library_path": "/CELESTIAL-HALO-9/C55E-Research-Archive/C55E_claude_research_payload.zip",
+    "github_zip_whole_file_uploaded": false
+  },
+  "models": {
+    "EA": {
+      "filename": "C55E_EA_terra_turn_open_lattice_v2.glb",
+      "bytes": 35478456,
+      "sha256": "42c2cbd1c51389e55d57b6c2f998a8ecce5219454382a99c16f3c9672024f6d9",
+      "parts": 17,
+      "glob": "parts/EA_???.bin"
+    },
+    "EB": {
+      "filename": "C55E_EB_yori_well_v3.glb",
+      "bytes": 53010436,
+      "sha256": "01ea7a7f5865c569ac41d1e1946cfa366125872f83a058d4759ab341d57b58e2",
+      "parts": 26,
+      "glob": "parts/EB_???.bin"
+    }
   },
   "source_bundle": {
     "filename": "C55E_research_branch.bundle",
-    "source_branch": "claude/c55e-macro-research",
-    "history_from": "C55-C through C55-D to C55-E",
-    "backup_library_path": "/CELESTIAL-HALO-9/C55E-Research-Archive/C55E_research_branch.bundle",
-    "stored_as_single_github_blob": false,
-    "full_history_imported_into_existing_github_repo": false
+    "bytes": 169917412,
+    "sha256": "83abd4ecd191d3ecb66a81c9014e9385844b046c7546b1663ed1b86c8399114f",
+    "git_bundle_verify": "PASS: complete history",
+    "head_ref": "refs/heads/claude/c55e-macro-research",
+    "head_commit": "f4155c293e2905e7b7910b34d244a5e80cc16bdd",
+    "chatgpt_library_path": "/CELESTIAL-HALO-9/C55E-Research-Archive/C55E_research_branch.bundle",
+    "github_bundle_whole_file_uploaded": false,
+    "history_merged_into_main": false
   },
-  "chunk_strategy": "unmodified original GLB bytes; sequential chunks 2,097,152 bytes, ending shorter; reassemble with RESTORE_ORIGINAL_GLB.py",
-  "ea": {
-    "original_zip_member": "claude_c55e/model/C55E_EA_terra_turn_open_lattice_v2.glb",
-    "bytes": 35478456,
-    "sha256": "42c2cbd1c51389e55d57b6c2f998a8ecce5219454382a99c16f3c9672024f6d9",
-    "total_chunks": 17,
-    "chunk_glob": "parts/EA_???.bin"
+  "extra_github_files": {
+    "source_text_files": 31,
+    "overview_jpeg": 1,
+    "restore_script": true,
+    "archive_status": true
   },
-  "eb": {
-    "original_zip_member": "claude_c55e/model/C55E_EB_yori_well_v3.glb",
-    "bytes": 53010436,
-    "sha256": "01ea7a7f5865c569ac41d1e1946cfa366125872f83a058d4759ab341d57b58e2",
-    "total_chunks": 26,
-    "chunk_glob": "parts/EB_???.bin"
-  },
-  "known_at_last_part_inventory": {
-    "ea_present": [
-      "EA_000.bin",
-      "EA_001.bin",
-      "EA_002.bin",
-      "EA_003.bin",
-      "EA_004.bin"
-    ],
-    "eb_present": [],
-    "all_glb_chunks_complete": false,
-    "note": "A historical snapshot. Use RESTORE_ORIGINAL_GLB.py and inspect actual branch tree; never assume completion from this record."
-  },
-  "results": {
-    "text_source_files_uploaded": 31,
-    "original_visual_overview_jpeg_uploaded": true,
-    "github_models_original_bytes_complete": false,
-    "source_zip_and_bundle_preserved_in_chatgpt_library": true,
-    "formal_art_adopted": 0,
-    "minecraft": "HOLD"
+  "policy": {
+    "formal_central_art_adoptions": 0,
+    "art": "HOLD",
+    "minecraft": "HOLD",
+    "city_master": "NOT_COMPLETE",
+    "main_modified": false
   }
 }
