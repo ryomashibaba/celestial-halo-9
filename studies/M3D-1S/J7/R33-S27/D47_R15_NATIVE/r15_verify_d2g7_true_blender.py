@@ -50,13 +50,18 @@ for label,source in CANDIDATES:
         h=hashlib.sha256()
         for v in o.data.vertices:h.update(("%0.7f,%0.7f,%0.7f;"%tuple(v.co)).encode())
         orig_vertex_sha[o.name]=h.hexdigest()
-    context=[]
-    for o in original:
-        v=[o.matrix_world@Vector(c) for c in o.bound_box]
-        span=[max(q[k] for q in v)-min(q[k] for q in v) for k in range(3)]
-        if max(span[:2])>7.9:context.append(o.name)
-    assert len(context)>=1,(label,"no background identified")
-    assert len(context)<len(original)//2,(label,len(context))
+    # Authoritative background naming contract is D2-G7 build_study.py
+    # validate(): terrain, mountain, west cliff, east inland sea, southwest
+    # void, urban context markers. Size-only filtering wrongly retained all
+    # non-terrain background and ruined eight candidate photographs.
+    context_prefixes=("10km_study_terrain","north_mountain_peak_",
+       "west_cliff_face","east_artificial_inland_sea",
+       "southwest_great_void","urban_context_")
+    context=[o.name for o in original if o.name.startswith(context_prefixes)]
+    assert len(context)>=15,(label,"background objects not isolated",len(context))
+    assert len(original)-len(context)>=25,(label,"too few candidate meshes")
+    assert not any(o.name in context for o in original
+        if o.name.startswith(("crown_core_","root_city_","H1_","H2_","H3_","H4_","H5_","H6_"))),(label,"central mass incorrectly hidden")
     context_set=set(context)
     scene.render.engine="BLENDER_WORKBENCH"
     scene.display.shading.light="STUDIO"
@@ -109,6 +114,7 @@ for label,source in CANDIDATES:
         "source_mesh_vertices":vertex_count,
         "source_triangles":tri_count,
         "central_only_background_hidden_objects":context,
+        "background_filter_method":"original D2-G7 build_study.py validate() context_prefixes",
         "camera_renders":frames,
         "original_vertices_unchanged":True,
         "formal_art_adopted":False,
