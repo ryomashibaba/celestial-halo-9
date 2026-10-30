@@ -1,0 +1,12 @@
+# 入力ファイルのSHA-256（C55-E開始時に確認）
+6d22ceef3ef701520264458541f1c1f3b46899c88b565892cf46798f7a74c087  /mnt/user-data/uploads/C55D_claude_research_payload.zip
+addf3f5d5b7ae16393a154824f10bf03ef59bece49e18474a796e71ef920eed7  /mnt/user-data/uploads/C55D_research_branch.bundle
+
+# C55-C原本ZIP（bundle内 research/claude_c55c_original/ から取り出して再計算）
+d3ec70db4a925e5974a159d47263be969f685ce7bc2777da1540c880374e1f5c  C55C_claude_research_payload.zip
+# bundle内の記録値:
+d3ec70db4a925e5974a159d47263be969f685ce7bc2777da1540c880374e1f5c  C55C_claude_research_payload.zip
+
+# bundle heads
+20f3eed521036961f679ab7e6ba9eefe07b791eb refs/heads/claude/c55d-terra-curl-macro-research
+20f3eed521036961f679ab7e6ba9eefe07b791eb HEAD

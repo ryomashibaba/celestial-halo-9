@@ -1,0 +1,156 @@
+{
+ "E-B": {
+  "glb_bytes": 53010436,
+  "prims": [
+   [
+    "EB_shell_underside_facade_neutral",
+    735786
+   ],
+   [
+    "EB_habitation_face_neutral",
+    1030882
+   ],
+   [
+    "ground_context_low_neutral",
+    86780
+   ]
+  ],
+  "tris_reread": 1853448,
+  "tris_source": 1853448,
+  "bbox_min": [
+   -11064.9,
+   -11069.9,
+   0.0
+  ],
+  "bbox_max": [
+   11071.9,
+   11070.0,
+   5039.8
+  ],
+  "index_in_range": true,
+  "nan_free": true,
+  "mesh_report": {
+   "tris": 1853448,
+   "verts": 1281927,
+   "nan_free": true,
+   "degenerate_tris": 638,
+   "index_in_range": true,
+   "bbox_min": [
+    -11064.9,
+    -11069.9,
+    0.0
+   ],
+   "bbox_max": [
+    11071.9,
+    11070.0,
+    5039.8
+   ],
+   "tris_by_material": {
+    "0": 735786,
+    "1": 1030882,
+    "2": 86780
+   }
+  },
+  "below_ground_vertices": 0,
+  "min_z": 0.0,
+  "specific": {
+   "min_clearance_A_C_m": 156.6,
+   "min_clearance_C_B_m": 100.9,
+   "min_clearance_A_B_m": 1297.8,
+   "void_radius_m_at_z800_3000_(min distance of ribbon B surface to axis)": 992.0,
+   "structure_height_m(ribbons+rim slabs)": 5039.8,
+   "ribbon_path_lengths_km": {
+    "A": 30.7,
+    "C": 23.1,
+    "B": 18.4
+   },
+   "ribbon_top_altitudes_m": {
+    "A": 4400.0,
+    "C": 3900.0,
+    "B": 3300.0
+   },
+   "mean_climb_gradient_1_in": {
+    "A": 7.0,
+    "C": 5.9,
+    "B": 5.6
+   }
+  }
+ },
+ "E-A": {
+  "glb_bytes": 35478456,
+  "prims": [
+   [
+    "EA_lattice_shell_ribs_neutral",
+    425634
+   ],
+   [
+    "EA_cavity_ceiling_world_neutral",
+    317254
+   ],
+   [
+    "ground_context_low_neutral",
+    87650
+   ],
+   [
+    "EA_hanging_district_drums_neutral",
+    42000
+   ]
+  ],
+  "tris_reread": 872538,
+  "tris_source": 872538,
+  "bbox_min": [
+   -11069.5,
+   -11063.2,
+   -101.7
+  ],
+  "bbox_max": [
+   11064.0,
+   11071.6,
+   4338.8
+  ],
+  "index_in_range": true,
+  "nan_free": true,
+  "mesh_report": {
+   "tris": 872538,
+   "verts": 1178042,
+   "nan_free": true,
+   "degenerate_tris": 6480,
+   "index_in_range": true,
+   "bbox_min": [
+    -11069.5,
+    -11063.2,
+    -101.7
+   ],
+   "bbox_max": [
+    11064.0,
+    11071.6,
+    4338.8
+   ],
+   "tris_by_material": {
+    "0": 425634,
+    "1": 317254,
+    "2": 87650,
+    "7": 42000
+   }
+  },
+  "below_ground_vertices": 30922,
+  "min_z": -101.7,
+  "specific": {
+   "curl_A": {
+    "cavity_face_max_height_m": 4099.0,
+    "lip_tip_min_height_m": 1354.0,
+    "axis_length_m": 6800.0,
+    "shell_thickness_max_m": 380.0,
+    "open_cell_fraction": 0.306
+   },
+   "curl_B": {
+    "cavity_face_max_height_m": 3102.0,
+    "lip_tip_min_height_m": 1025.0,
+    "axis_length_m": 4300.0,
+    "shell_thickness_max_m": 288.0,
+    "open_cell_fraction": 0.32
+   },
+   "min_distance_curlA_to_curlB_surface_samples_m": 419.0
+  }
+ }
+}
