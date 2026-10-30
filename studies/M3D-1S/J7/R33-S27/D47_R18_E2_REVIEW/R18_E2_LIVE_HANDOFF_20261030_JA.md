@@ -30,3 +30,13 @@ M247-C《浮断天核》、W0/H1–H6/SB01–SB16、正式main、過去E0/E1研�
 - Blender 4.5のワールドを明示生成してから色を指定する最小修正を、同じ独立研究ブランチのコミット `8dccd29d644af5da9c2ff395c91e43385569a16e` に保存。アート形状、公共用途、判定閾値を変えていない。
 - [修正後CI #41069377264](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41069377264) を起動したが、記録時点では **queued／最終結果未確認**。結果を勝手にPASSと書かず、真正4視点の美術審査も未実施。
 - 本研究の真の現状は「E2新規3D制作ソース・CI登録済み／Blender背景初期化バグ修正済み／修正版実行待ち」。E1-G0の美術REJECTを解除しない。
+
+## 最終確定追補：修正版実3D・目視美術・恒久保存完了
+
+- **[修正版真正Blender制作CI #41069377264](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41069377264)：SUCCESS。** 実BLEND/GLB再読込・真正4カメラ画像、35 mesh・1,074頂点・1,912三角面。初回のBlender world初期化失敗は修正された。
+- **[実画像4視点の審査報告](https://github.com/ryomashibaba/celestial-halo-9/blob/research/r33-s27-d47-r18-e2-inhabited-void-20261030/studies/M3D-1S/J7/R33-S27/D47_R18_E2_REVIEW/E2_G0_TRUE_FOUR_VIEWS_ART_REJECT_JA.md)：ART REJECT。** 人間入口は無地の灰色床・細柱・水平板、広場も活動の見えない細柱、斜視・背面は左右の岩壁状の質量と板。文化・研究・交通の都市生活が建築から伝わらず、E1からの美術飛躍なし。
+- **[真正原本恒久保存CI #41070572289](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/41070572289)：SUCCESS。** 本物のBLEND、GLB、4PNG、manifest、独立再読込監査JSONを `studies/M3D-1S/J7/R33-S27/D47_R18_E2_EVIDENCE/R18_E2_G0_TRUE_BLENDER_FOUR_VIEW_ART_REJECT_SOURCE.zip` にZIP保管。隣にSHA256台帳。最終research HEADは実際のGitHub refを参照。E2以外の研究原本およびmainは未変更。
+- **最終：SOURCE TECH限定PASS／FUNCTION未認証／ART REJECT／正式採択0／E2現形状STOP**。これは「元のE2を修復して本番化する」許可ではない。
+
+### 次の真の工程：制作方式自体の美術ゲート
+E0（小さい抽象物）→E1（大きい岩・板）→E2（左右の壁・板・細柱）と、繰り返し同じ結果に到達。モデルの拡大・単純関数メッシュの追加・演出だけでは解決していない。E3でまず**人間目線の一つの圧倒的な公共内部を本当の造形として成立させること**を優先し、映像と照明だけでごまかさない。具体的には、入場口→奥の公開研究・資料空間→上層都市の活動が一つの画面で伝わる美術的な「構図・断面・連続性」を3Dで編集確認し、正面の成立前には巨大な左右外壁や道路を作らない。Pythonの同型の組合せを使い続けているだけなら不適切。Blender GUI/Workはユーザーの新規明示許可なしに利用しない。
