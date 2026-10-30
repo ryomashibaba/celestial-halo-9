@@ -1,0 +1,161 @@
+name: HALO9 D47 R12 two real editable art-directed inhabited civic pilots
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r12-art-directed-habitable-void-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R12_NATIVE/**'
+      - '.github/workflows/d47-r12-art-directed-pilots.yml'
+permissions:
+  contents: write
+jobs:
+  real-editable-3d-art:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install actual Blender plus offscreen render dependencies
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Render two separately modeled civic spatial alternatives in genuine Blender
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R12_NATIVE/r12_habitable_civic_void_art.py /tmp/r12
+      - name: Independent reopen native 3D, cross-check public rooms, edit shapes, camera views and GLBs
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy,json,hashlib,math,importlib.util
+          from pathlib import Path
+          from PIL import Image,ImageChops
+          p=Path('/tmp/r12')
+          j=json.loads((p/'R12_REAL_3D_MANIFEST.json').read_text())
+          assert len(j['variants'])==2 and not j['art_adopted']
+          audit={}
+          for row in j['variants']:
+            tag=row['variant']
+            assert len(row['real_view_names'])==9
+            assert row['actual_public_rooms']==20
+            for n in row['real_view_names']:
+                path=p/n
+                assert path.stat().st_size>2000
+                with Image.open(path) as im:assert im.size==(1100,740)
+            blend=p/row['native_blend'];glb=p/row['real_glb']
+            assert blend.stat().st_size>10000 and glb.stat().st_size>10000
+            bpy.ops.wm.open_mainfile(filepath=str(blend))
+            sc=bpy.context.scene
+            assert sc.get('R12_VARIANT')==tag
+            assert not sc.get('R12_ART_ADOPTED')
+            assert not sc.get('R12_MINECRAFT_CONSTRUCTION')
+            objs=[o for o in bpy.data.objects if o.type=='MESH']
+            assert len(objs)==row['mesh_count'] and len(objs)>100
+            shape=[o for o in objs if o.get('R12_ART_EDIT_CONTROL')]
+            assert len(shape)==2
+            assert all(o.data.shape_keys is not None
+                   and len(o.data.shape_keys.key_blocks)==2 for o in shape)
+            rooms=[o for o in objs if o.name.endswith(' REAL PUBLIC ROOM FLOOR')]
+            assert len(rooms)==20,len(rooms)
+            path=[o for o in objs if o.name.startswith('COMMON ARRIVAL INTO REAL PUBLIC OPEN-AIR VOID')]
+            assert len(path)==1
+            assert sum(1 for o in bpy.data.objects if o.type=='CAMERA')==9
+            embedded=bpy.data.texts.get('R12_RUN_THIS_TO_ENABLE_ART_TOOLS.py')
+            assert embedded and len(embedded.as_string())>1000
+            orig_names={o.name for o in objs}
+            source_tri=sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in objs)
+            # Real operator smoke test: use the same exported toolbar source as packed inside BLEND
+            script=Path('studies/M3D-1S/J7/R33-S27/D47_R12_NATIVE/r12_art_review_toolbar.py')
+            spec=importlib.util.spec_from_file_location('r12_toolbar',script)
+            mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod);mod.register()
+            for name in ('01_LONG_APPROACH','04_SIDE','09_SKY_CITY_DISTRICT'):
+              result=bpy.ops.r12.review_camera(camera_name=name)
+              assert 'FINISHED' in result and bpy.context.scene.camera.name==name
+            mod.unregister()
+            bpy.ops.wm.read_factory_settings(use_empty=True)
+            bpy.ops.import_scene.gltf(filepath=str(glb))
+            restored=[o for o in bpy.data.objects if o.type=='MESH']
+            assert len(restored)==len(objs),(tag,len(restored),len(objs))
+            assert {o.name for o in restored}==orig_names,(tag,'mesh names changed')
+            tris=sum(sum(max(1,len(f.vertices)-2) for f in o.data.polygons) for o in restored)
+            assert tris==source_tri,(tag,tris,source_tri)
+            audit[tag]={'status':'TECH_LIMITED_PASS_ART_UNREVIEWED',
+                  'public_room_floor_meshes':len(rooms),
+                  'reversible_art_tectonic_shape_key_meshes':len(shape),
+                  'source_glb_meshes':len(restored),
+                  'triangulated_faces':tris,
+                  'all_rooms_accessible':False,'M247C_adopted':False}
+          differences={}
+          for n in j['variants'][0]['real_view_names']:
+            suffix=n[2:]
+            a=Image.open(p/('A_'+suffix)).convert('RGB')
+            b=Image.open(p/('B_'+suffix)).convert('RGB')
+            differences[suffix]=bool(ImageChops.difference(a,b).getbbox())
+          assert sum(differences.values())>=7,differences
+          (p/'R12_INDEPENDENT_NATIVE_QA.json').write_text(
+              json.dumps({'technical_status':'LIMITED_PASS',
+                 'art_state':'AWAITING_ACTUAL_IMAGE_REVIEW',
+                 'originals_differ_by_actual_render':differences,
+                 'both_editable_native_GLB_reopened':True,
+                 'formal_master_complete':False,'minecraft_write':False,
+                 'variants':audit},indent=2),encoding='utf8')
+          print('R12_REAL_NATIVE_TWO_EDITABLE_ART_G0_TECH_PASS_UNREVIEWED')
+          PY
+      - name: Retain all real geometry even if checks fail
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R12-TRUE-BLENDER-TWO-INHABITED-VOID-G0
+          path: /tmp/r12/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Archive original render evidence with independent SHA256
+        if: success()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile,json,hashlib
+          p=Path('/tmp/r12')
+          out=Path('studies/M3D-1S/J7/R33-S27/D47_R12_EVIDENCE')
+          out.mkdir(parents=True,exist_ok=True)
+          names=['R12_REAL_3D_MANIFEST.json','R12_INDEPENDENT_NATIVE_QA.json']
+          for tag in ('A','B'):
+              names.extend([f'{tag}_R12_ART_DIRECTED_INHABITED_VOID.blend',
+                            f'{tag}_R12_ART_DIRECTED_INHABITED_VOID.glb'])
+              names.extend([f'{tag}_{i:02d}_{name}.png' for i,name in enumerate(
+                 ['LONG_APPROACH','FRONT','OBLIQUE','SIDE','REAR',
+                  'AERIAL','GROUND_ARRIVAL','CIVIC_VOID','SKY_CITY_DISTRICT'],1)])
+          assert len(names)==24
+          assert all((p/n).stat().st_size>100 for n in names)
+          archive=out/'R12_TWO_REAL_ART_DIRECTED_CIVIC_VOID_G0_UNREVIEWED.zip'
+          with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+              for n in names:z.write(p/n,n)
+          hashes={'archive_sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),
+                  'files_sha256':{n:hashlib.sha256((p/n).read_bytes()).hexdigest() for n in names},
+                  'no_formal_art_approval':True,'minecraft_write':False}
+          (out/'R12_EVIDENCE_SHA256.json').write_text(json.dumps(hashes,indent=2))
+          print('R12_TRUE_BLENDER_ART_G0_ZIP_HASH',hashes['archive_sha256'])
+          PY
+      - name: Commit only isolated R12 research branch, protecting main and prior art
+        if: success()
+        env:
+          BRANCH: research/r33-s27-d47-r12-art-directed-habitable-void-20261030
+        run: |
+          test "$GITHUB_REF_NAME" = "$BRANCH"
+          git config user.name 'halo9-r12-artist-workstation-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R12_EVIDENCE/
+          git diff --cached --quiet && exit 0
+          git commit -m 'R12 archive two true inhabited-void Blender art G0 prototypes and 18 views'
+          git fetch origin "$BRANCH"
+          git rebase "origin/$BRANCH"
+          git push origin "HEAD:refs/heads/$BRANCH"
