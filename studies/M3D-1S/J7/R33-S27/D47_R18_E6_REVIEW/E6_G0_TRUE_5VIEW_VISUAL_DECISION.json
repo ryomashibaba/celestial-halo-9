@@ -1,0 +1,90 @@
+{
+  "actual_source_stage": "E6_G0_REAL_NATIVE_5_VIEW",
+  "status": "INSPECTED_ACTUAL_5_RENDERINGS",
+  "art_G0": "REJECT",
+  "target": "WEST_INHABITED_FOLD_EDITABLE",
+  "operation": "reshape_original_fold_by_ring_vertex_offsets",
+  "source_g0_run_id": 41131230334,
+  "source_blend_sha256": "164f592a7a35408cb611774a0c0db919e5378f06d6d128c49531f863fea8aedf",
+  "five_actual_views": [
+    "BEFORE_01_HUMAN_ARRIVAL.png",
+    "BEFORE_02_HUMAN_CULTURAL_ATLAS.png",
+    "BEFORE_03_WEST_ARCHIVE_VIEW.png",
+    "BEFORE_04_CITY_ANGLED.png",
+    "BEFORE_05_CITY_REAR.png"
+  ],
+  "observations": [
+    {
+      "camera": "01_HUMAN_ARRIVAL",
+      "finding": "Large dark west mass and pale east mass frame an empty sky; culture and urban life are not readable from arrival.",
+      "art_effect": "REJECT"
+    },
+    {
+      "camera": "02_HUMAN_CULTURAL_ATLAS",
+      "finding": "A few isolated columns and a broad slab dominate; the supposed civic research and museum program does not read as a coherent interior.",
+      "art_effect": "REJECT"
+    },
+    {
+      "camera": "03_WEST_ARCHIVE_VIEW",
+      "finding": "Large pale shell and thin horizontal decks dominate; archive activity is not convincingly visible, and moving only the west fold cannot solve the east obstruction.",
+      "art_effect": "REJECT"
+    },
+    {
+      "camera": "04_CITY_ANGLED",
+      "finding": "Two plain faceted masses and an isolated diagonal brown strip overpower the limited cultural program; no compelling advanced civic building silhouette.",
+      "art_effect": "REJECT"
+    },
+    {
+      "camera": "05_CITY_REAR",
+      "finding": "The composition reads as disconnected bulky solids and suspended slabs, lacking a unified three-dimensional building.",
+      "art_effect": "REJECT"
+    }
+  ],
+  "experiment_goal": "One bounded E6-G1 test: recess the west fold's inward lip away from the civic axis and lift the central fold articulation, preserving outer seam and all other geometry. Determine visual impact, not claim architectural salvation.",
+  "ring_offsets_xz_m": [
+    [
+      -4,
+      0
+    ],
+    [
+      -8,
+      2
+    ],
+    [
+      -14,
+      4
+    ],
+    [
+      -16,
+      8
+    ],
+    [
+      -16,
+      7
+    ],
+    [
+      -10,
+      3
+    ],
+    [
+      -4,
+      0
+    ]
+  ],
+  "profile_vertex_weight": [
+    0,
+    0.1,
+    1,
+    1,
+    0.5,
+    0
+  ],
+  "method_limitations": [
+    "This editor adjusts only the west 42-vertex fold; it cannot remedy the east shell, daylight strip, thin floors, absent city fabric or inadequate interior program.",
+    "Before/after improvement must be judged in all five fixed views and may still be ART REJECT.",
+    "SOURCE TECH and FUNCTION and formal adoption remain separate; zero Minecraft writes."
+  ],
+  "formal_adoption": false,
+  "city_master_3d_complete": false,
+  "minecraft_construction": false
+}
