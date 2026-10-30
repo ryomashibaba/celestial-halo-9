@@ -139,5 +139,16 @@ jobs:
           git add studies/M3D-1S/J7/R33-S27/D47_R16_EVIDENCE/
           git diff --cached --quiet && exit 0
           git commit -m 'R16 preserve authored native double-hollow 3D and 8 matched visual G0 test'
-          git rebase "origin/$TARGET"
-          git push origin "HEAD:refs/heads/$TARGET"
+          # An independent review document may land while Blender renders.
+          # Race-safe, never force-push and never replace earlier evidence.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$TARGET"
+            git rebase "origin/$TARGET"
+            if git push origin "HEAD:refs/heads/$TARGET"; then
+              echo "R16 isolated art evidence committed on attempt $attempt"
+              exit 0
+            fi
+            echo "R16 git remote advanced concurrently, retrying non-force"
+            sleep 2
+          done
+          exit 1
