@@ -17,7 +17,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           run-id: 41069377264
-          github-token: \${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           name: HALO9-R18-E2-NEW-GENUINE-CIVIC-4VIEWS-BLEND-GLB
           path: /tmp/e2-original
       - name: Verify and preserve original rejected native model with SHA evidence
