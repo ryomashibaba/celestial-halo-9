@@ -1,0 +1,96 @@
+name: HALO9 D47 R18 E4 chiral civic nave true five-view art gate
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r18-e4-chiral-civic-nave-20261031
+    paths:
+      - '.github/workflows/d47-r18-e4-true-chiral-nave-art-g0.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D47_R18_E4_NATIVE/e4_chiral_civic_nave.py'
+permissions:
+  contents: read
+concurrency:
+  group: halo9-r18-e4-isolated-native-art
+  cancel-in-progress: true
+jobs:
+  native-author-editable-and-check-real-five-view-g0:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Real Blender 4.5 + image tools
+        run: |
+          python -m pip install 'bpy==4.5.15' 'Pillow>=10'
+          sudo apt-get update -qq
+          sudo apt-get install -y libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 xvfb
+      - name: Author fresh E4 native BLEND GLB and 5 actual Blender camera images
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          xvfb-run -a python studies/M3D-1S/J7/R33-S27/D47_R18_E4_NATIVE/e4_chiral_civic_nave.py /tmp/halo9-r18-e4
+      - name: Independent reopen BLEND GLB verify edits and distinct original cameras
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+          MESA_GL_VERSION_OVERRIDE: '4.5'
+        run: |
+          python - <<'PY'
+          import bpy,json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageStat
+          p=Path('/tmp/halo9-r18-e4')
+          m=json.loads((p/'R18_E4_G0_MANIFEST.json').read_text())
+          assert m['art_status']=='AWAITING_TRUE_5_CAMERA_REVIEW'
+          assert not m['city_master_complete'] and not m['formal_art_adopted'] and not m['minecraft_write']
+          assert len(m['files']['cameras'])==5
+          assert m['meshes']>=50 and m['vertices']>=500
+          hashes={}
+          for n in m['files']['cameras']:
+              image=p/n
+              with Image.open(image) as im:
+                  rgb=im.convert('RGB')
+                  assert rgb.size==(1200,800)
+                  assert len(rgb.resize((80,53)).getcolors(15000) or [])>=20,(n,'flat image')
+                  assert sum(ImageStat.Stat(rgb).stddev)>=10,(n,'uniform image')
+              hashes[n]=hashlib.sha256(image.read_bytes()).hexdigest()
+          assert len(set(hashes.values()))==5
+          assert (p/m['files']['blend']).stat().st_size>35000
+          assert (p/m['files']['glb']).stat().st_size>25000
+          bpy.ops.wm.open_mainfile(filepath=str(p/m['files']['blend']))
+          assert bpy.context.scene['R18_E4_ART_APPROVED'] is False
+          assert bpy.context.scene['R18_E4_MINECRAFT_WRITTEN'] is False
+          models=[o for o in bpy.data.objects if o.type=='MESH']
+          assert len(models)==m['meshes']
+          assert all(o.data.shape_keys and len(o.data.shape_keys.key_blocks)==2 for o in models)
+          assert sum(len(o.data.vertices) for o in models)==m['vertices']
+          native_tri=sum(len(face.vertices)-2 for o in models for face in o.data.polygons)
+          assert native_tri==m['triangles']
+          original={o.name for o in models}
+          bpy.ops.wm.read_factory_settings(use_empty=True)
+          bpy.ops.import_scene.gltf(filepath=str(p/m['files']['glb']))
+          imported=[o for o in bpy.data.objects if o.type=='MESH']
+          assert {o.name for o in imported}==original
+          glb_tri=sum(len(f.vertices)-2 for o in imported for f in o.data.polygons)
+          assert glb_tri==native_tri
+          report={
+            'genuine_native_blend_reopened':True,'actual_glb_reimported':True,
+            'real_original_camera_hashes':hashes,'all_five_images_distinct':True,
+            'actual_objects':len(models),'actual_triangles':native_tri,
+            'SOURCE_TECH':'LIMITED_PASS',
+            'ART':'UNREVIEWED_UNTIL_TRUE_IMAGES_INSPECTED',
+            'full_building_function_certified':False,
+            'high_level_access_egress_structural_certified':False,
+            'formal_adoption':False,'city_master_complete':False,'minecraft_write':False}
+          (p/'R18_E4_G0_INDEPENDENT_REOPEN_AUDIT.json').write_text(json.dumps(report,indent=2))
+          print('R18_E4_TRUE_5_VIEW_RENDER_AND_NATIVE_REOPEN_LIMITED_PASS_ART_UNREVIEWED')
+          PY
+      - name: Retain original research model and images for visual gate even if QA fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-D47-R18-E4-REAL-BLEND-GLB-FIVE-CAMERAS
+          path: /tmp/halo9-r18-e4/
+          retention-days: 14
+          if-no-files-found: warn
