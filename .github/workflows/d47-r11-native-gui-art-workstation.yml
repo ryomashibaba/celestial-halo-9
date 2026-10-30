@@ -17,7 +17,7 @@ jobs:
       - name: Install real GUI Blender and X11 keyboard and screenshot instruments
         run: |
           sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb xdotool scrot libgl1-mesa-dri python3-pil
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y blender xvfb xdotool scrot libegl1 libgl1 libgl1-mesa-dri libxrender1 libxkbcommon0 libxi6 libxrandr2 python3-pil
           blender --version | head -2
       - name: Create self-contained Blender native artist workstation with R10 original comparison inside
         env:
@@ -25,7 +25,7 @@ jobs:
           GALLIUM_DRIVER: llvmpipe
         run: |
           mkdir -p /tmp/r11
-          blender --background --factory-startup --python-exit-code 17 --python studies/M3D-1S/J7/R33-S27/D47_R11_WORKSTATION/r11_create_visual_workspace.py --             /tmp/r11             studies/M3D-1S/J7/R33-S27/D47_R10_EVIDENCE/R10_4_ORIGINALS_NEUTRAL_RENDER_PROVENANCE_ART_UNAPPROVED.zip
+          xvfb-run -a -s "-screen 0 1440x900x24" blender --background --factory-startup --python-exit-code 17 --python studies/M3D-1S/J7/R33-S27/D47_R11_WORKSTATION/r11_create_visual_workspace.py --             /tmp/r11             studies/M3D-1S/J7/R33-S27/D47_R10_EVIDENCE/R10_4_ORIGINALS_NEUTRAL_RENDER_PROVENANCE_ART_UNAPPROVED.zip
           test -s /tmp/r11/R11_OPEN_IN_BLENDER_VISUAL_SCULPT_STUDIO.blend
       - name: Drive real Blender GUI under virtual X and save a separate actual shape-key edit
         env:
