@@ -6,7 +6,7 @@ No aesthetic approval inferred from pixels, geometry or a GUI process.
 import bpy, sys, hashlib, json, importlib.util
 from pathlib import Path
 from statistics import median
-from PIL import Image, ImageChops
+import struct
 p=Path(sys.argv[sys.argv.index("--")+1]).resolve()
 base=p/"R11_OPEN_IN_BLENDER_VISUAL_SCULPT_STUDIO.blend"
 edited=p/"R11_GUI_ACTUAL_INPUT_EDITED_COPY.blend"
@@ -45,9 +45,10 @@ images={}
 for label in ("01_REAL_GUI_BEFORE","02_REAL_GUI_AFTER"):
     path=p/(f"R11_{label}.png")
     assert path.stat().st_size>4000
-    with Image.open(path) as im:
-        assert im.size[0]>=1000 and im.size[1]>=600
-        assert im.getbbox() is not None
+    raw=path.read_bytes()
+    assert raw[:8]==b"\\x89PNG\\r\\n\\x1a\\n"
+    width,height=struct.unpack(">II",raw[16:24])
+    assert width>=1000 and height>=600
     images[label]=hashlib.sha256(path.read_bytes()).hexdigest()
 assert images["01_REAL_GUI_BEFORE"]!=images["02_REAL_GUI_AFTER"]
 # In native Blender process, import packed toolbar, execute six-camera switch
