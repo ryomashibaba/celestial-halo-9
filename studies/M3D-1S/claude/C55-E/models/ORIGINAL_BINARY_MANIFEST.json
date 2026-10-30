@@ -1,0 +1,56 @@
+{
+  "schema": "celestial-halo-9.claude-c55e.archive-manifest.v1",
+  "recorded_jst": "2026-10-30",
+  "source_zip": {
+    "filename": "C55E_claude_research_payload.zip",
+    "bytes": 89829946,
+    "sha256": "57448ad64fb4864542ff5cb8448d33a42657ef956e17b6bb7d37656257d0702b",
+    "manifest_entries_verified": 70,
+    "manifest_errors": 0,
+    "backup_library_path": "/CELESTIAL-HALO-9/C55E-Research-Archive/C55E_claude_research_payload.zip",
+    "stored_as_single_github_blob": false
+  },
+  "source_bundle": {
+    "filename": "C55E_research_branch.bundle",
+    "source_branch": "claude/c55e-macro-research",
+    "history_from": "C55-C through C55-D to C55-E",
+    "backup_library_path": "/CELESTIAL-HALO-9/C55E-Research-Archive/C55E_research_branch.bundle",
+    "stored_as_single_github_blob": false,
+    "full_history_imported_into_existing_github_repo": false
+  },
+  "chunk_strategy": "unmodified original GLB bytes; sequential chunks 2,097,152 bytes, ending shorter; reassemble with RESTORE_ORIGINAL_GLB.py",
+  "ea": {
+    "original_zip_member": "claude_c55e/model/C55E_EA_terra_turn_open_lattice_v2.glb",
+    "bytes": 35478456,
+    "sha256": "42c2cbd1c51389e55d57b6c2f998a8ecce5219454382a99c16f3c9672024f6d9",
+    "total_chunks": 17,
+    "chunk_glob": "parts/EA_???.bin"
+  },
+  "eb": {
+    "original_zip_member": "claude_c55e/model/C55E_EB_yori_well_v3.glb",
+    "bytes": 53010436,
+    "sha256": "01ea7a7f5865c569ac41d1e1946cfa366125872f83a058d4759ab341d57b58e2",
+    "total_chunks": 26,
+    "chunk_glob": "parts/EB_???.bin"
+  },
+  "known_at_last_part_inventory": {
+    "ea_present": [
+      "EA_000.bin",
+      "EA_001.bin",
+      "EA_002.bin",
+      "EA_003.bin",
+      "EA_004.bin"
+    ],
+    "eb_present": [],
+    "all_glb_chunks_complete": false,
+    "note": "A historical snapshot. Use RESTORE_ORIGINAL_GLB.py and inspect actual branch tree; never assume completion from this record."
+  },
+  "results": {
+    "text_source_files_uploaded": 31,
+    "original_visual_overview_jpeg_uploaded": true,
+    "github_models_original_bytes_complete": false,
+    "source_zip_and_bundle_preserved_in_chatgpt_library": true,
+    "formal_art_adopted": 0,
+    "minecraft": "HOLD"
+  }
+}
