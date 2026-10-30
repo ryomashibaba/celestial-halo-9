@@ -1,0 +1,55 @@
+name: HALO9 D47 R17 E0B independent negative circulation gate
+on:
+  push:
+    branches:
+      - research/r33-s27-d47-r17-inhabited-civic-section-20261030
+    paths:
+      - 'studies/M3D-1S/J7/R33-S27/D47_R17_NATIVE/r17_e0b_real_glb_negative_qa.py'
+      - '.github/workflows/d47-r17-e0b-negative-circulation.yml'
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r17-E0B-negative-qa
+  cancel-in-progress: false
+jobs:
+  negative-real-glb-topology:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install standalone GLB topology inspector
+        run: python -m pip install 'trimesh==4.11.1' 'shapely>=2'
+      - name: Verify negative connectivity gate from actual archived 3D source
+        run: |
+          mkdir -p /tmp/r17b
+          python studies/M3D-1S/J7/R33-S27/D47_R17_NATIVE/r17_e0b_real_glb_negative_qa.py . /tmp/r17b
+          test -s /tmp/r17b/R17_E0B_INDEPENDENT_FUNCTIONAL_NEGATIVE_AUDIT.json
+      - name: Archive test result, even when failing unexpectedly
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R17-E0B-NEGATIVE-REAL-3D-TOPOLOGY
+          path: /tmp/r17b/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Save evidence of negative QA to isolated research branch
+        if: success()
+        env:
+          BRANCH: research/r33-s27-d47-r17-inhabited-civic-section-20261030
+        run: |
+          cp /tmp/r17b/R17_E0B_INDEPENDENT_FUNCTIONAL_NEGATIVE_AUDIT.json            studies/M3D-1S/J7/R33-S27/D47_R17_EVIDENCE/R17_E0B_INDEPENDENT_FUNCTIONAL_NEGATIVE_AUDIT.json
+          git config user.name 'halo9-r17-independent-negative-qa'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D47_R17_EVIDENCE/R17_E0B_INDEPENDENT_FUNCTIONAL_NEGATIVE_AUDIT.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'R17 E0B preserve independently verified 168-disconnected-treads and public circulation FAIL'
+          for i in 1 2 3 4; do
+            git fetch origin "$BRANCH"
+            git rebase "origin/$BRANCH"
+            if git push origin "HEAD:refs/heads/$BRANCH";then exit 0;fi
+            sleep 2
+          done
+          exit 1
