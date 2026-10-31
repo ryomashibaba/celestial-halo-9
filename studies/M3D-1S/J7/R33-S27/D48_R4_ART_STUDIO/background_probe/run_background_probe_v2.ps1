@@ -46,6 +46,19 @@ try {
     if (-not (Test-Path -LiteralPath $reportPath -PathType Leaf)) { throw 'NO_REPORT' }
     $result = Get-Content -LiteralPath $reportPath -Raw -Encoding UTF8 | ConvertFrom-Json
     if ($result.status -ne 'E1B_NATIVE_IO_PROBE_PASS_NOT_ART' -or -not $result.headless) { throw 'INVALID_REPORT' }
+    # Package only these disposable generated assets; never read personal or canonical files.
+    $bundle = Join-Path $PSScriptRoot ('E1B_Result_' + $stamp + '.zip')
+    $items = @(
+        (Join-Path $out 'report.json'),
+        (Join-Path $out 'before.blend'), (Join-Path $out 'after.blend'),
+        (Join-Path $out 'before.png'), (Join-Path $out 'after.png')
+    )
+    foreach ($item in $items) {
+        if (-not (Test-Path -LiteralPath $item -PathType Leaf)) { throw ('BUNDLE_INPUT_MISSING: ' + $item) }
+    }
+    Compress-Archive -LiteralPath $items -DestinationPath $bundle -CompressionLevel Optimal
+    if (-not (Test-Path -LiteralPath $bundle -PathType Leaf)) { throw 'RESULT_BUNDLE_MISSING' }
+    Write-Output ('E1B_RESULT_READY_TO_SHARE: ' + $bundle)
     Write-Output ('PROBE_PASS_NOT_ART: ' + $reportPath)
 } finally {
     $p.Dispose()
