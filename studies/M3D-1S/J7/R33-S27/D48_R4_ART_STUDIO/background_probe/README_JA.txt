@@ -25,6 +25,9 @@ CELESTIAL HALO-9 — R4-E1B WindowsバックグラウンドBlender実機試験
 および同ディレクトリのbefore.blend、after.blend、before.png、after.png。
 ログは親フォルダーの test_<ID>.stdout.log / stderr.log です。
 報告ファイルがない、またはエラーの場合は不合格として扱います。
+成功した場合のみ、解凍したフォルダーに E1B_Result_<ID>.zip を自動生成します。
+このZIPには検証用の2BLEND、2PNG、report.jsonだけが入り、私的ファイルは含みません。
+次の美術レビューのため、その結果ZIPをChatGPTに添付できます。
 
 注意：
 - この試験のPASSはBlenderの入出力・限定メッシュ変更に限ります。
