@@ -1,0 +1,61 @@
+name: HALO9 D48 R4 visual Blender authoring method and strict policy gate
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-visual-authoring-method-20261031
+    paths:
+      - '.github/workflows/d48-r4-visual-authoring-studio-readiness.yml'
+      - 'studies/M3D-1S/J7/R33-S27/D48_R4_ART_STUDIO/r4_visual_session_gate.py'
+      - 'studies/M3D-1S/J7/R33-S27/D48_R4_ART_STUDIO/R4_REAL_VISUAL_PRODUCTION_PIVOT_JA.md'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  policy-and-evidence-gate-not-art-acceptance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Source and prior unchanged city-scope verification
+        run: |
+          python -m py_compile studies/M3D-1S/J7/R33-S27/D48_R4_ART_STUDIO/r4_visual_session_gate.py
+          python studies/M3D-1S/J7/R33-S27/D48_MACRO_CITY_MASTER/validate_d48_r0.py
+      - name: Test R4 visual-feedback workflow against official project constitution and negative cases
+        run: |
+          python studies/M3D-1S/J7/R33-S27/D48_R4_ART_STUDIO/r4_visual_session_gate.py --repo . --selftest
+      - name: Emit a truthful R4 untouched session artifact and verify
+        run: |
+          mkdir -p /tmp/halo9-r4
+          python studies/M3D-1S/J7/R33-S27/D48_R4_ART_STUDIO/r4_visual_session_gate.py --init /tmp/halo9-r4/R4_VISUAL_FEEDBACK_SESSION.json
+          python studies/M3D-1S/J7/R33-S27/D48_R4_ART_STUDIO/r4_visual_session_gate.py --repo . --validate /tmp/halo9-r4/R4_VISUAL_FEEDBACK_SESSION.json
+          python - <<'PY'
+          from pathlib import Path
+          import json,hashlib
+          src=Path('/tmp/halo9-r4/R4_VISUAL_FEEDBACK_SESSION.json')
+          x=json.loads(src.read_text())
+          assert x['status']=='PREFLIGHT_ONLY_NO_NEW_ART'
+          assert not x['work_local_control_authorized']
+          assert not x['minecraft_write'] and not x['city_master_complete']
+          assert len(x['scope'])==30 and len(x['camera_types'])==7
+          assert all(t['state']=='PENDING' for t in x['stages'])
+          audit={'result':'POLICY_AND_METHOD_PREFLIGHT_PASS_ONLY',
+             'native_blender_gui_connected':False,
+             'blender_mcp_connected':False,
+             'local_computer_touched':False,
+             'new_city_artwork_created':False,
+             'artist_vision_feedback_completed':False,
+             'formal_art_adoption':False,
+             'minecraft_write':False,
+             'source_session_sha256':hashlib.sha256(src.read_bytes()).hexdigest()}
+          Path('/tmp/halo9-r4/R4_HONEST_SCOPE_QA.json').write_text(json.dumps(audit,indent=2))
+          print(audit)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R4-VISUAL-AUTHORING-POLICY-GATE-NOT-3D
+          path: /tmp/halo9-r4/
+          retention-days: 14
+          if-no-files-found: error
