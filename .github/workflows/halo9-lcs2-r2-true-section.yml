@@ -1,0 +1,125 @@
+name: HALO9 LCS2-R2 real occupied tectonic section (ART research)
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-lcs2-open-nave-spatial-revision-20261105
+    paths:
+      - studies/M3D-1S/J7/R33-S27/LCS2_R2/author_civic_tectonic_section.py
+      - .github/workflows/halo9-lcs2-r2-true-section.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-lcs2-r2-true-section
+  cancel-in-progress: false
+jobs:
+  actual_blender_521:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-lcs2-open-nave-spatial-revision-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/LCS2_R2
+      SOURCE: studies/M3D-1S/J7/R33-S27/LCS2/evidence/LCS2_TRUE_ARCHITECTURAL_SECTION.blend.gz
+      SHA: da98dfb810502228f9bcd48804d09f0e580308653cafc141ee0cfbb563859b54
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify immutable research source, Python and destination
+        run: |
+          set -euo pipefail
+          test -s "$SOURCE"
+          mkdir -p "$ROOT/native"
+          gzip -dc "$SOURCE" > /tmp/LCS2_R2_SOURCE.blend
+          printf '%s  %s\n' "$SHA" /tmp/LCS2_R2_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/author_civic_tectonic_section.py"
+      - name: Download exact official Blender 5.2.1 and verify checksum
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-blender
+          cd /tmp/halo9-blender
+          curl -fL --retry 3 --connect-timeout 30 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 3 --connect-timeout 30 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sha256sum.txt
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sha256sum.txt | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Modify only source copy in genuine Blender and render fixed human/human/aerial
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9-blender/blender-5.2.1-linux-x64/blender
+          timeout 1380s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/LCS2_R2_SOURCE.blend --python "$ROOT/author_civic_tectonic_section.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/BLENDER_AUTHOR.log"
+          grep -F 'R2_REAL_AUTHOR_COMPLETE' "$ROOT/native/BLENDER_AUTHOR.log"
+          test -s "$ROOT/native/LCS2_R2_ARCHITECTURAL_SECTION.blend"
+      - name: Independently reopen true BLEND and hash exact rendered images
+        run: |
+          set -euo pipefail
+          cat >/tmp/lcs2r2_verify.py <<'PY'
+          import bpy,hashlib,struct,json
+          from pathlib import Path
+          p=Path(bpy.data.filepath);s=bpy.context.scene
+          assert p.name=='LCS2_R2_ARCHITECTURAL_SECTION.blend'
+          r=json.loads((p.parent/'AUTHOR_REPORT.json').read_text())
+          assert r['output_sha256']==hashlib.sha256(p.read_bytes()).hexdigest()
+          assert s['FORMAL_ART_ACCEPTED']==0 and s['COMPLETED_TARGETS']==0
+          assert s['CONSTRUCTION']=='HOLD'
+          assert s['R2_SOURCE_SHA256']=='da98dfb810502228f9bcd48804d09f0e580308653cafc141ee0cfbb563859b54'
+          assert r['new_meshes']>=70 and len(r['removed_objects'])>=15
+          for name in ['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL']:
+            assert bpy.data.objects[name].type=='CAMERA'
+            f=p.parent/'renders'/(name+'.png')
+            with f.open('rb') as fd:header=fd.read(24)
+            assert header[:8]==bytes.fromhex('89504e470d0a1a0a')
+            assert struct.unpack('>II',header[16:24])==(1100,825)
+            assert hashlib.sha256(f.read_bytes()).hexdigest()==r['png_sha256'][name]
+          print('R2_INDEPENDENT_REAL_TECH_PASS',r['output_sha256'],flush=True)
+          PY
+          /tmp/halo9-blender/blender-5.2.1-linux-x64/blender --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/LCS2_R2_ARCHITECTURAL_SECTION.blend" --python /tmp/lcs2r2_verify.py \
+            2>&1 | tee "$ROOT/native/INDEPENDENT_REOPEN.log"
+          grep -F 'R2_INDEPENDENT_REAL_TECH_PASS' "$ROOT/native/INDEPENDENT_REOPEN.log"
+      - name: Preserve native BLEND and real 3-view preview without art adoption
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import os,base64,gzip,hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT']);native=root/'native';e=root/'evidence'
+          e.mkdir(exist_ok=True)
+          src=native/'LCS2_R2_ARCHITECTURAL_SECTION.blend'
+          with src.open('rb') as inp,gzip.open(e/(src.name+'.gz'),'wb',compresslevel=6) as out:
+            while block:=inp.read(1048576):out.write(block)
+          sheet=Image.new('RGB',(1650,445),(228,231,229))
+          d=ImageDraw.Draw(sheet);brightness={}
+          for i,name in enumerate(('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL')):
+            im=Image.open(native/'renders'/(name+'.png')).convert('RGB')
+            brightness[name]=round(sum(ImageStat.Stat(im).mean)/3,2)
+            im.thumbnail((550,413),Image.Resampling.LANCZOS)
+            sheet.paste(im,(i*550,30));d.text((i*550+7,7),name,fill=(0,0,0))
+          jpg=e/'R2_TRUE_THREE_VIEW_PENDING_ART.jpg';sheet.save(jpg,quality=82,optimize=True)
+          (e/'R2_TRUE_REVIEW_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          r=json.loads((native/'AUTHOR_REPORT.json').read_text())
+          r['brightness']=brightness
+          r['review_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          r['image_preflight']='VALID_CANDIDATE' if all(x>10 for x in brightness.values()) else 'IMAGE_INVALID'
+          r['art']='NOT_YET_REVIEWED_NOT_ADOPTED'
+          (e/'R2_TECH_NOT_ART.json').write_text(json.dumps(r,indent=2))
+          print('R2_PREVIEW_READY',brightness,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence"
+          if ! git diff --cached --quiet; then
+            git commit -m 'LCS2 R2: preserve true edited Blender and real three-view evidence [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-lcs2-open-nave-spatial-revision-20261105
+          fi
+      - name: Temporary backup of original full render files and BLEND
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-LCS2-R2-TRUE-BLEND-AND-PNGS
+          path: studies/M3D-1S/J7/R33-S27/LCS2_R2/native/
+          retention-days: 7
+          if-no-files-found: warn
