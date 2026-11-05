@@ -1,0 +1,25 @@
+{
+  "schema": "halo9-lcs2-real-section-rebuild-v1",
+  "engine": "5.2.1 LTS",
+  "source_sha256": "25a31c532d4e70556400b51882b58af7d42f27056755d2b5b6075b394dbd39f0",
+  "output_sha256": "da98dfb810502228f9bcd48804d09f0e580308653cafc141ee0cfbb563859b54",
+  "removed_rejected_meshes": 976,
+  "authored_new_meshes": 305,
+  "render_png_sha256": {
+    "E11_NAVE_HUMAN": "48260fa34a5f6570cbe16ad3f2c6a96e8de3b7228c43a64f3345da8ff5d781fd",
+    "E11_H1_HUMAN": "d2932742fb3a24383e47c8331b2444b044a4da5b119549208581b95e606e180d",
+    "E11_URBAN_AERIAL": "61f7afcb9740c8df09087a321afb65fb6cc27c10c5a31f474c300588e3a5ad6a"
+  },
+  "cameras_unmodified": true,
+  "art": "UNREVIEWED_NO_ADOPTION",
+  "completed_targets": 0,
+  "formal_art_acceptances": 0,
+  "minecraft": "HOLD",
+  "image_brightness": {
+    "E11_NAVE_HUMAN": 28.08,
+    "E11_H1_HUMAN": 128.13,
+    "E11_URBAN_AERIAL": 103.59
+  },
+  "review_mosaic_sha256": "483c6dc62d8798814ca57a7467abcb37c35596ea4fbc198bcc4785e2b1e1ed6e",
+  "image_preflight": "VALID_CANDIDATE"
+}
