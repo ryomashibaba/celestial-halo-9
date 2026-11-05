@@ -59,7 +59,7 @@ jobs:
           assert scene['official_coordinates_verified'] is False
           assert scene['formal_art_adoption'] is False
           assert scene['completed_targets']==0
-          assert len(bpy.data.collections['30_TARGETS_REGISTRY_ONLY'].objects)==30
+          assert len(bpy.data.collections['REGISTRY_30_UNFINISHED'].objects)==30
           count=sum(x.type=='MESH' for x in bpy.data.objects)
           assert count>150, count
           for n in ('human_public_interior','human_sky_district','urban_aerial'):
@@ -79,7 +79,11 @@ jobs:
           (p.parent/'INDEPENDENT_REOPEN.json').write_text(json.dumps(info,indent=2))
           print('R4_E8_REAL_NATIVE_REOPEN_PASS',json.dumps(info),flush=True)
           PY
-          blender --background --threads 2 "$STUDY/e8_native/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend" --python /tmp/e8_independent.py
+          # Blender 4 can exit 0 after Python traceback; a completion marker is mandatory.
+          set -o pipefail
+          blender --background --threads 2 "$STUDY/e8_native/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend" --python /tmp/e8_independent.py 2>&1 | tee "$STUDY/e8_native/INDEPENDENT_REOPEN_BLENDER.log"
+          grep -F 'R4_E8_REAL_NATIVE_REOPEN_PASS' "$STUDY/e8_native/INDEPENDENT_REOPEN_BLENDER.log"
+          test -s "$STUDY/e8_native/INDEPENDENT_REOPEN.json"
       - name: Persist original editable research and contact sheet as separate unapproved evidence
         run: |
           set -euo pipefail
