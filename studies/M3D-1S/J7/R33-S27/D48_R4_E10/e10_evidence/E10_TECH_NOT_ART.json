@@ -1,0 +1,12 @@
+{
+  "schema": "halo9-r4-e10-independent-real-native-v1",
+  "status": "NATIVE_BLENDER_REOPEN_AND_3_REAL_RENDERS_PASS_NOT_ART",
+  "blend_sha256": "e9a1d095d619d923c614d326c2ecb4747ea8e48640bd2304965d3f082e97a091",
+  "mesh_count": 73,
+  "actual_cavity_operations": 10,
+  "formal_art_adoption": false,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art_jury": "NOT_YET_DIRECT_REVIEWED_NO_PASS",
+  "jpg_sha256": "a57a20d918b87183dbfb7647f0442ba9a990b3699518577cde9bb127d437662e"
+}
