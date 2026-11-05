@@ -1,0 +1,75 @@
+name: HALO-9 R4-E6 isolated native city art candidate
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-e6-inhabited-fault-city-20261105
+    paths:
+      - .github/workflows/halo9-r4-e6-inhabited-fault-native.yml
+      - studies/M3D-1S/J7/R33-S27/D48_R4_E6/author_integrated_fault_city.py
+permissions:
+  contents: read
+concurrency:
+  group: halo9-r4-e6-inhabited-fault
+  cancel-in-progress: false
+jobs:
+  native_research:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-r4-e6-inhabited-fault-city-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      STUDY: studies/M3D-1S/J7/R33-S27/D48_R4_E6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Python syntax and immutable R0B separation
+        run: |
+          python3 -m py_compile "$STUDY/author_integrated_fault_city.py"
+          if grep -E 'bpy.ops.wm.open_mainfile|E4_R0B_WORKING.blend' "$STUDY/author_integrated_fault_city.py"; then
+            echo "Research source must not load rejected R0B"; exit 1
+          fi
+      - name: Install Blender in disposable standard public runner
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender
+          blender --version | head -n 2
+      - name: Author integrated editable native BLEND and three real visual gates
+        run: |
+          mkdir -p "$STUDY/e6_native"
+          set -o pipefail
+          timeout 1600s blender --background --threads 2 --python "$STUDY/author_integrated_fault_city.py" -- --output "$STUDY/e6_native" 2>&1 | tee "$STUDY/e6_native/BLENDER_EXECUTION.log"
+          test -s "$STUDY/e6_native/E6_INHABITED_FAULT_CITY_WORKING.blend"
+          test -s "$STUDY/e6_native/renders/human_public_interior.png"
+          test -s "$STUDY/e6_native/renders/human_sky_district.png"
+          test -s "$STUDY/e6_native/renders/urban_aerial.png"
+      - name: Independent Blender reopen and PNG integrity inspection
+        run: |
+          cat >/tmp/halo9_e6_verify.py <<'PY'
+          import bpy,hashlib,json,struct
+          from pathlib import Path
+          sc=bpy.context.scene
+          p=Path(bpy.data.filepath)
+          assert p.is_file() and p.name=='E6_INHABITED_FAULT_CITY_WORKING.blend'
+          assert sc.get('minecraft_write')=='FORBIDDEN'
+          assert sc.get('official_coordinates_verified') is False
+          assert sc.get('formal_art_adoption') is False
+          assert sc.get('completed_targets')==0
+          assert len(bpy.data.collections['30_TARGET_REGISTRY_RESEARCH_ONLY'].objects)==30
+          for x in ('human_public_interior','human_sky_district','urban_aerial'):
+              assert bpy.data.objects.get(x) and bpy.data.objects[x].type=='CAMERA'
+              with (p.parent/'renders'/(x+'.png')).open('rb') as f:h=f.read(24)
+              assert h[:8]==bytes.fromhex('89504e470d0a1a0a'),x
+              assert struct.unpack('>II',h[16:24])==(960,640),x
+          result={'schema':'halo9-r4-e6-independent-reopen','technical':'NATIVE_BLEND_AND_3PNG_REOPEN_PASS','art':'PENDING_DIRECT_VISUAL_REVIEW_NOT_PASS','scene_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'mesh_count':sum(o.type=='MESH' for o in bpy.data.objects),'formal_art_adoptions':0,'completed_targets':0,'minecraft':'HOLD','official_coordinates_verified':False}
+          (p.parent/'INDEPENDENT_NATIVE_REOPEN.json').write_text(json.dumps(result,indent=2))
+          print('HALO9_E6_INDEPENDENT_NATIVE_REOPEN_PASS',json.dumps(result))
+          PY
+          blender --background --threads 2 "$STUDY/e6_native/E6_INHABITED_FAULT_CITY_WORKING.blend" --python /tmp/halo9_e6_verify.py
+      - name: Keep ART-unreviewed evidence without writing to repository
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E6-NATIVE-UNREVIEWED-ISOLATED
+          path: studies/M3D-1S/J7/R33-S27/D48_R4_E6/e6_native/
+          retention-days: 7
+          if-no-files-found: warn
