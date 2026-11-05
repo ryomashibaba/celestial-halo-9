@@ -1,0 +1,50 @@
+{
+  "schema": "halo9-lcs2-r3-v1",
+  "source_sha256": "3ef9ea7e97d3b7008372db3bc39656c1c207dc0ea5804c5a1df20c7e4260d243",
+  "output_sha256": "f4f9f560bd35a3b2a4255aef52d4f52201e28a9a9d8530f5507f6ad8d4e1d703",
+  "removed_rejected": 41,
+  "authored_meshes": 60,
+  "carved_public_voids": [
+    [
+      "WEST_LIBRARY_PUBLIC_HALL",
+      42
+    ],
+    [
+      "WEST_FAULT_CIVIC_WINDOW",
+      51
+    ],
+    [
+      "WEST_RIFT_SKY_FORUM",
+      58
+    ],
+    [
+      "WEST_SHORE_TRANSIT_ATRIUM",
+      27
+    ],
+    [
+      "EAST_SEA_STATION_CONCOURSE",
+      32
+    ],
+    [
+      "EAST_HIGH_CIVIC_SCHOOL",
+      43
+    ]
+  ],
+  "image_sha256": {
+    "E11_NAVE_HUMAN": "fe130c8a48ef518a1d3a9a8b5e1a0d5455937930b95e1dc93cf43094a8df48fc",
+    "E11_H1_HUMAN": "8fa894a4bbafc356cd1295b6e2be147b9141076b5a3ff13b575ec0ff0aa565b9",
+    "E11_URBAN_AERIAL": "90d44cc734f2d671aad035ac84965b0ca5639cd39a091e4741894c0b79144652"
+  },
+  "cameras_unchanged": true,
+  "art": "AWAIT_DIRECT_IMAGE_JUDGMENT_NOT_ADOPTED",
+  "formal_art": 0,
+  "targets_complete": 0,
+  "minecraft": "HOLD",
+  "image_brightness": {
+    "E11_NAVE_HUMAN": 142.35,
+    "E11_H1_HUMAN": 85.15,
+    "E11_URBAN_AERIAL": 103.09
+  },
+  "review_jpg_sha256": "829b0a8679d7f145a35b8b598e48b4d7a87ce2de8657337926cc077e6a22c959",
+  "image_preflight": "VALID_CANDIDATE"
+}
