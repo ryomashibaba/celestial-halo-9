@@ -1,0 +1,91 @@
+name: HALO9 R4-E4 isolated native H1 NAVE study
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-e4-inhabited-native-h1-nave-20261105
+    paths:
+      - ".github/workflows/halo9-r4-e4-native-study.yml"
+      - "studies/M3D-1S/J7/R33-S27/D48_R4_E4/author.py.zlib.b64"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render_two_human_views:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Decode isolated author source and verify integrity
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import base64, zlib, hashlib
+          p=Path('studies/M3D-1S/J7/R33-S27/D48_R4_E4')
+          b=zlib.decompress(base64.b64decode((p/'author.py.zlib.b64').read_text().strip()))
+          digest=hashlib.sha256(b).hexdigest()
+          assert digest=='b32873c16dedc29ac49f6d4c65c1596c6fc0877fb1709de044f5f434f81f6750',f'source mismatch {digest}'
+          (p/'author.py').write_bytes(b)
+          import ast
+          ast.parse(b,filename='author.py')
+          print('E4_AUTHOR_SOURCE_INTEGRITY_PASS',digest)
+          PY
+      - name: Install Blender in isolated runner only
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender
+          blender --version | head -n 3
+      - name: Author native scene and render human-scale evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          blender --background --threads 2 --python studies/M3D-1S/J7/R33-S27/D48_R4_E4/author.py -- --output studies/M3D-1S/J7/R33-S27/D48_R4_E4/output 2>&1 | tee /tmp/halo9_e4_blender.log
+          grep -q 'HALO9_E4_R0_RESULTS' /tmp/halo9_e4_blender.log
+      - name: Independent native BLEND reopening and structural checks
+        shell: bash
+        run: |
+          cat > /tmp/halo9_e4_verify.py <<'PY'
+          import bpy, json, sys
+          from pathlib import Path
+          f=Path(bpy.data.filepath)
+          assert f.name=='E4_R0_WORKING.blend'
+          d=bpy.data.collections
+          assert 'H1_LIVING_URBAN_STREET' in d
+          assert 'NAVE_INHABITED_PUBLIC_ROOM' in d
+          assert 'PUBLIC_VERTICAL_CONNECTION' in d
+          h=sum(o.type=='MESH' for o in d['H1_LIVING_URBAN_STREET'].objects)
+          n=sum(o.type=='MESH' for o in d['NAVE_INHABITED_PUBLIC_ROOM'].objects)
+          assert h>=40 and n>=35,(h,n)
+          assert bpy.data.objects['human_sky_district'].type=='CAMERA'
+          assert bpy.data.objects['human_public_interior'].type=='CAMERA'
+          assert bpy.context.scene['minecraft_write']=='FORBIDDEN'
+          result={'reopen':'PASS','h1_meshes':h,'nave_meshes':n,'art_pass':False,'formal_adoption':False}
+          (f.parent/'R0_NATIVE_REOPEN_VERIFICATION.json').write_text(json.dumps(result,indent=2))
+          print('HALO9_E4_INDEPENDENT_REOPEN_PASS',json.dumps(result))
+          PY
+          blender --background --threads 2 studies/M3D-1S/J7/R33-S27/D48_R4_E4/output/E4_R0_WORKING.blend --python /tmp/halo9_e4_verify.py
+      - name: Upload independent study evidence even if branch write is blocked
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E4-R0-NATIVE-UNREVIEWED
+          path: |
+            studies/M3D-1S/J7/R33-S27/D48_R4_E4/author.py
+            studies/M3D-1S/J7/R33-S27/D48_R4_E4/output/**
+          if-no-files-found: warn
+          retention-days: 7
+      - name: Save native evidence to THIS research branch only
+        if: success()
+        shell: bash
+        run: |
+          set -euo pipefail
+          BRANCH='research/r33-s27-d48-r4-e4-inhabited-native-h1-nave-20261105'
+          test "${GITHUB_REF_NAME}" = "$BRANCH"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/D48_R4_E4/author.py studies/M3D-1S/J7/R33-S27/D48_R4_E4/output/
+          git commit -m 'R4-E4 native H1/NAVE R0 evidence: unreviewed ART HOLD [skip ci]'
+          git push origin "HEAD:refs/heads/$BRANCH"
