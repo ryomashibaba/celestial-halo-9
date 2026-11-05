@@ -1,0 +1,154 @@
+name: HALO9 LCS1 occupied civic section - isolated real Blender study
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-lcs1-occupied-civic-section-20261105
+    paths:
+      - studies/M3D-1S/J7/R33-S27/LCS1/author_lcs1.bz2.b64
+      - .github/workflows/halo9-lcs1-real-occupied-section.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-lcs1-occupied-20261105
+  cancel-in-progress: false
+jobs:
+  author_and_review:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-lcs1-occupied-civic-section-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 36
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/LCS1
+      SOURCE: studies/M3D-1S/J7/R33-S27/D48_R4_E12/e12_evidence/E12_SUBTRACTIVE_CIVIC_RIFT_WORKING.blend.gz
+      SOURCE_SHA: ba3363c0908bbf0b4d61afb1d4497af8696364c60b97eac754f351249ccb3c19
+      PY_SHA: c111fb956839444c0e6b9b24c494b39b64cc3c63eeeb5e03afcdff4cdcb312dd
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify immutable E12 research source; expand authored Python without external code
+        run: |
+          set -euo pipefail
+          test -s "$SOURCE"
+          mkdir -p "$ROOT/native"
+          gzip -dc "$SOURCE" > /tmp/LCS1_E12_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/LCS1_E12_SOURCE.blend | sha256sum -c -
+          python3 - <<'PY'
+          import os,base64,bz2,hashlib,py_compile
+          from pathlib import Path
+          p=Path(os.environ['ROOT'])
+          data=bz2.decompress(base64.b64decode((p/'author_lcs1.bz2.b64').read_text().strip()))
+          sha=hashlib.sha256(data).hexdigest()
+          assert sha==os.environ['PY_SHA'],sha
+          script=p/'author_lived_city_section.py'
+          script.write_bytes(data)
+          py_compile.compile(str(script),doraise=True)
+          print('LCS1_SOURCE_EXPANDED_VERIFIED',len(data),sha,flush=True)
+          PY
+      - name: Install exact Blender 5.2.1 from official verified distribution
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-blender
+          cd /tmp/halo9-blender
+          curl -fL --retry 3 --connect-timeout 30 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 3 --connect-timeout 30 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o checksums.sha256
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' checksums.sha256 | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+          /tmp/halo9-blender/blender-5.2.1-linux-x64/blender --version | head -n 2
+      - name: Real isolated Blender authoring and three fixed-camera renders
+        run: |
+          set -euo pipefail
+          BLENDER=/tmp/halo9-blender/blender-5.2.1-linux-x64/blender
+          timeout 1350s "$BLENDER" --background --threads 2 --python-exit-code 97 \
+            /tmp/LCS1_E12_SOURCE.blend --python "$ROOT/author_lived_city_section.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/BLENDER_AUTHOR.log"
+          grep -F 'LCS1_REAL_NATIVE_COMPLETE' "$ROOT/native/BLENDER_AUTHOR.log"
+          test -s "$ROOT/native/LCS1_OCCUPIED_CIVIC_SECTION_WORKING.blend"
+      - name: Independent Blender reopen and pixel-signature integrity
+        run: |
+          set -euo pipefail
+          cat > /tmp/lcs1_verify.py <<'PY'
+          import bpy,hashlib,json,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath);s=bpy.context.scene
+          assert p.name=='LCS1_OCCUPIED_CIVIC_SECTION_WORKING.blend'
+          assert s['CONSTRUCTION']=='HOLD'
+          assert s['FORMAL_ART_ACCEPTED']==0 and s['COMPLETED_TARGETS']==0
+          assert s['LCS1_SOURCE_E12_SHA256']=='ba3363c0908bbf0b4d61afb1d4497af8696364c60b97eac754f351249ccb3c19'
+          assert s['LCS1_OLD_E12_SCULPTURES_REMOVED']>=7
+          n=sum(o.type=='MESH' and o.name.startswith('LCS1_') for o in s.objects)
+          assert n>=100,n
+          r=json.loads((p.parent/'LCS1_AUTHOR_REPORT.json').read_text())
+          assert r['edited_blend_sha256']==hashlib.sha256(p.read_bytes()).hexdigest()
+          assert r['formal_art_adopted']==0 and r['targets_completed']==0
+          assert r['minecraft_construction']=='HOLD'
+          for name in ('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL'):
+              im=p.parent/'renders'/(name+'.png')
+              with im.open('rb') as f: head=f.read(24)
+              assert head[:8]==bytes.fromhex('89504e470d0a1a0a')
+              assert struct.unpack('>II',head[16:24])==(1100,825)
+              assert hashlib.sha256(im.read_bytes()).hexdigest()==r['render_png_sha256'][name]
+          status={'status':'TECH_PASS_TRUE_BLENDER_REOPENED','new_meshes':n,
+                  'art':'UNREVIEWED_NOT_ADOPTED','targets_completed':0,
+                  'minecraft':'HOLD','blend_sha256':r['edited_blend_sha256']}
+          (p.parent/'LCS1_INDEPENDENT_TECH.json').write_text(json.dumps(status,indent=2))
+          print('LCS1_INDEPENDENT_TECH_PASS',status,flush=True)
+          PY
+          /tmp/halo9-blender/blender-5.2.1-linux-x64/blender --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/LCS1_OCCUPIED_CIVIC_SECTION_WORKING.blend" \
+            --python /tmp/lcs1_verify.py 2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F 'LCS1_INDEPENDENT_TECH_PASS' "$ROOT/native/INDEPENDENT.log"
+      - name: Preserve native source copy, visible real-review mosaic and checksum
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import os,gzip,hashlib,json,base64
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT']);native=root/'native'; dest=root/'evidence'
+          dest.mkdir(parents=True,exist_ok=True)
+          f=native/'LCS1_OCCUPIED_CIVIC_SECTION_WORKING.blend'
+          with f.open('rb') as src,gzip.open(dest/(f.name+'.gz'),'wb',compresslevel=6) as dst:
+              while chunk:=src.read(1<<20): dst.write(chunk)
+          views=['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL']
+          sheet=Image.new('RGB',(1650,444),(230,231,225))
+          draw=ImageDraw.Draw(sheet)
+          bright={}
+          for i,n in enumerate(views):
+              im=Image.open(native/'renders'/(n+'.png')).convert('RGB')
+              bright[n]=round(sum(ImageStat.Stat(im).mean)/3,2)
+              im.thumbnail((550,412),Image.Resampling.LANCZOS)
+              sheet.paste(im,(i*550,30))
+              draw.text((i*550+9,7),n,fill=(0,0,0))
+          jpg=dest/'LCS1_TRUE_THREE_VIEW_AWAIT_ART_REVIEW.jpg'
+          sheet.save(jpg,quality=78,optimize=True)
+          # Text encoding permits model-side DIRECT image inspection via GitHub connector;
+          # image bytes still derive from the genuine Blender renders above.
+          (dest/'LCS1_THREE_VIEW_JPEG_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          author=json.loads((native/'LCS1_AUTHOR_REPORT.json').read_text())
+          independent=json.loads((native/'LCS1_INDEPENDENT_TECH.json').read_text())
+          independent['review_mosaic_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          independent['review_mosaic_brightness']=bright
+          independent['formal_art_adopted']=0
+          independent['completed_targets']=0
+          independent['art']='AWAITING_DIRECT_IMAGE_REVIEW_NOT_APPROVED'
+          (dest/'LCS1_TECH_NOT_ART.json').write_text(json.dumps(independent,indent=2))
+          assert author['edited_blend_sha256']==independent['blend_sha256']
+          print('LCS1_MOSAIC_READY',jpg.stat().st_size,bright,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/author_lived_city_section.py" "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'LCS1: preserve real occupied Blender section and unreviewed art evidence [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-lcs1-occupied-civic-section-20261105
+          fi
+      - name: Raw genuine renders and BLEND backup (temporary)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-LCS1-NATIVE-BLEND-AND-THREE-RENDERS
+          path: studies/M3D-1S/J7/R33-S27/LCS1/native/
+          retention-days: 7
+          if-no-files-found: warn
