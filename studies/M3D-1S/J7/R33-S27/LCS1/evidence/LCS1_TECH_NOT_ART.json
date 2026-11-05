@@ -1,0 +1,16 @@
+{
+  "status": "TECH_PASS_TRUE_BLENDER_REOPENED",
+  "new_meshes": 336,
+  "art": "AWAITING_DIRECT_IMAGE_REVIEW_NOT_APPROVED",
+  "targets_completed": 0,
+  "minecraft": "HOLD",
+  "blend_sha256": "db7476b9e0661966fd1fb15437ec1c3cab2452099208ef3020cc742aba9e5599",
+  "review_mosaic_sha256": "9dccda71ee4767f8f6374df63eb97f9b0480382438718816fcc0fbf4e4195cf9",
+  "review_mosaic_brightness": {
+    "E11_NAVE_HUMAN": 104.75,
+    "E11_H1_HUMAN": 0.08,
+    "E11_URBAN_AERIAL": 101.36
+  },
+  "formal_art_adopted": 0,
+  "completed_targets": 0
+}
