@@ -104,14 +104,51 @@ jobs:
           path: studies/M3D-1S/J7/R33-S27/D48_R4_E5/native_r0b/
           if-no-files-found: warn
           retention-days: 7
-      - name: Commit native evidence only onto isolated E5 study branch
-        if: success()
+      - name: Persist attempted native execution status on E5 research branch
+        if: always()
+        env:
+          NATIVE_JOB_STATUS: ${{ job.status }}
+        shell: bash
         run: |
           set -euo pipefail
           BRANCH='research/r33-s27-d48-r4-e5-native-r0b-review-20261105'
           test "${GITHUB_REF_NAME}" = "$BRANCH"
+          mkdir -p "$STUDY/native_r0b"
+          python3 - <<'PY'
+          import os, json, hashlib
+          from pathlib import Path
+          root=Path(os.environ['STUDY'])/'native_r0b'
+          blend=root/'E4_R0B_WORKING.blend'
+          sky=root/'renders'/'human_sky_district.png'
+          nave=root/'renders'/'human_public_interior.png'
+          reopened=root/'NATIVE_REOPEN_REPORT.json'
+          status=os.environ.get('NATIVE_JOB_STATUS','UNKNOWN')
+          all_exist=all(p.exists() and p.stat().st_size>0 for p in (blend,sky,nave,reopened))
+          result={
+            'schema':'halo9-e5-native-ci-attempt-v1',
+            'git_sha':os.environ.get('GITHUB_SHA'),
+            'github_run_id':os.environ.get('GITHUB_RUN_ID'),
+            'github_run_attempt':os.environ.get('GITHUB_RUN_ATTEMPT'),
+            'job_status':status,
+            'full_native_evidence_exists':all_exist,
+            'native_blend_exists':blend.is_file(),
+            'two_native_png_exist':sky.is_file() and nave.is_file(),
+            'reopen_report_exists':reopened.is_file(),
+            'art_review':'NOT_PERFORMED',
+            'art_formal_adoption_count':0,
+            'minecraft_world_writes':0,
+            'city_master_complete':False,
+            'notes':'TECH evidence only when all files verified; image jury must inspect actual PNG before editing same BLEND.'
+          }
+          if status != 'success' or not all_exist: result['gate']='HOLD_NATIVE_INCOMPLETE'
+          else: result['gate']='NATIVE_FILES_PRESENT_REVIEW_PENDING'
+          (root/'CI_ATTEMPT_STATUS.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
+          print('HALO9_E5_ATTEMPT',json.dumps(result))
+          PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add "$STUDY/native_r0b/"
-          git commit -m "R4-E5: native R0B scene and two visual evidence renders (ART NOT REVIEWED) [skip ci]"
-          git push origin "HEAD:refs/heads/$BRANCH"
+          if ! git diff --cached --quiet; then
+            git commit -m "R4-E5: preserve native attempt evidence, ART unreviewed [skip ci]"
+            git push origin "HEAD:refs/heads/$BRANCH"
+          fi
