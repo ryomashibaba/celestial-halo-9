@@ -148,9 +148,9 @@ for tag,ob,(cx,cy,z),distance,radii in facade_areas:
         footprint.append((p.x,p.y))
     polygon('CITY_VISIBLE_FACET_'+tag,footprint,z-34,12,'interior_ivory')
     # Divergent public circulation inside the same excavated body.
-    p1=center-toward*98+Vector((0,0,z-30))
-    p2=center+toward*37+direction*45+Vector((0,0,z-12))
-    p3=center+toward*84+direction*102+Vector((0,0,z+22))
+    p1=center-toward*98; p1.z=z-30
+    p2=center+toward*37+direction*45; p2.z=z-12
+    p3=center+toward*84+direction*102; p3.z=z+22
     ramp('CITY_FACET_ASYMMETRIC_PUBLIC_ROUTE_'+tag,
          [tuple(p1),tuple(p2),tuple(p3)],18,7,'inset_ochre')
     # Single local roof garden in the hollowed interior, not city-wide shelf.
