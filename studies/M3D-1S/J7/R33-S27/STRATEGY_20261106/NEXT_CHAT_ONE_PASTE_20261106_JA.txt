@@ -1,0 +1,13 @@
+CELESTIAL HALO-9の既存開発を、過去の確定方針を変えずに継続してください。新規企画や方針の再審議ではありません。
+
+GitHub：https://github.com/ryomashibaba/celestial-halo-9
+
+まずmainのAGENTS.md／docs/policy/START_HERE.md／PROJECT_CONSTITUTION.md／CITY_MASTER_3D_STANDARD.mdと、次の2026-11-06最新版完全統合正本を全文読み、関連するE12・R2/R3・INT1の真正BLEND/レンダー/審査を照合してください。
+
+https://github.com/ryomashibaba/celestial-halo-9/blob/research/r33-s27-d48-strategy-handoff-20261106/studies/M3D-1S/J7/R33-S27/STRATEGY_20261106/HALO9_COMPLETE_CRITICAL_HANDOFF_AFTER_INT1_20261106_JA.md
+
+ART-FIRST／Macro Impact First／CITY MASTER 3D FIRST、M247-C《浮断天核》α双殻浮断＋β斜裂天脊、10km全30対象の完成義務をLOCKEDで継承。INT1は真正Blender TECH PASS／ART REJECT、正式ART採択0、完成0/30、Minecraft施工HOLD。R3の巨大刃・足場とINT1の角柱住宅群を延命しないでください。
+
+まず最新HEAD/CI/原本を再照合し、NAVE巨大公共内部＋H1厚い居住都市＋M247-C主質量/都市級斜裂＋W0地形を一つの造形思想で同時に成立させる**新規・隔離・編集可能な真正3D建築断面**を実制作してください。Chat/GitHub/利用可能な無料Blender環境で実画像観察→同一BLENDの大きな造形修正→独立検証→新しい研究ブランチへの保存まで可能な限り一括で進め、計画や小QAの量産はしないこと。TECH/FUNCTION/IMAGE/ART/正式採択を混同せず、日本語で事実のみ報告。
+
+main・原本・Freeze・既存研究・Minecraftワールドを無変更。追加課金原則0円、Work/Computer Use/ローカルPC操作は都度事前承認、ユーザーの手間は原則0回、必要でも安全な1クリックにまとめてください。
