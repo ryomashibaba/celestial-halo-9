@@ -1,7 +1,7 @@
 # CELESTIAL HALO-9 — 完全統合・批判的再評価・次チャット引き継ぎ正本
 **基準日：2026-11-05 JST / E12直後。正本区分：研究工程の統合引き継ぎ。mainの正式憲章を変更・上書きしない。**
 
-> **必ず読む順番：** GitHub \`main:AGENTS.md\` → \`main:docs/policy/START_HERE.md\` → \`PROJECT_CONSTITUTION.md\` → \`CITY_MASTER_3D_STANDARD.md\` → \`DECISION_LOG.md\` → 本書 → E12のART REJECT記録・必要ならE11の実物。GitHubに保存しても新チャットへの自動読込ではない。  
+> **必ず読む順番：** GitHub `main:AGENTS.md` → `main:docs/policy/START_HERE.md` → `PROJECT_CONSTITUTION.md` → `CITY_MASTER_3D_STANDARD.md` → `DECISION_LOG.md` → 本書 → E12のART REJECT記録・必要ならE11の実物。GitHubに保存しても新チャットへの自動読込ではない。  
 > 本文の2026-11-05現在のHEADは**確認時点の値**であり、次のチャットで再確認する。
 
 ## A. 正式な固定条件【ユーザー確定／変更不可】
@@ -18,18 +18,18 @@
 
 | 区分 | HEAD / 根拠 | 正しい判定 |
 |---|---|---|
-| main正式方針 | \`a2f88995eee8d10ee4830dbdf33ccb9c0790de8f\` | 憲章・完成基準ともにmainに実在、**main無変更** |
-| E11 MCP制作 | \`b9aa433bcd362586599e7a99a3afc15e5fa0b007\` / \`research/r33-s27-d48-r4-e11-mcp-inhabited-section-20261105\` | TECH PASS／ART REJECT |
-| E12最新研究 | \`3031ac094a90646551e084f53226a456668fe534\` / \`research/r33-s27-d48-r4-e12-subtractive-civic-rift-20261105\` | TECH PASS／ART REJECT |
+| main正式方針 | `a2f88995eee8d10ee4830dbdf33ccb9c0790de8f` | 憲章・完成基準ともにmainに実在、**main無変更** |
+| E11 MCP制作 | `b9aa433bcd362586599e7a99a3afc15e5fa0b007` / `research/r33-s27-d48-r4-e11-mcp-inhabited-section-20261105` | TECH PASS／ART REJECT |
+| E12最新研究 | `3031ac094a90646551e084f53226a456668fe534` / `research/r33-s27-d48-r4-e12-subtractive-civic-rift-20261105` | TECH PASS／ART REJECT |
 | E12 Blender Actions | [run 42040198335](https://github.com/ryomashibaba/celestial-halo-9/actions/runs/42040198335) | SUCCESS＝技術的限定合格、**美術合格ではない** |
 | 正式美術採用 | **0件** | CITY MASTER 3D未完成 |
 | 施工前完成対象 | **0/30** | 研究中の部分メッシュを完成としない |
 | Minecraft施工 | **HOLD** | WORLD WRITES 0 |
 
-- E11の真正編集可能BLEND \`E11_INHABITED_SECTION_WORKING.blend\` はユーザー添付／GitHub原本で SHA256 \`098c46fec0e61b474aba6aab4d2f51a299391937b8c29c6820278565f22a044f\`。ライブBlender 5.2.1、ローカルポート9876のMCPで**GUI手彫りではなくPythonメッシュ編集**。同じBLENDをR0→R1→R2の2回直接修正し、カメラ固定で合計9枚の真レンダー。別Blenderプロセス再読込合格、最終844メッシュ、R0と共通の188メッシュ形状変化。技術の成果であり美術採用ではない。NAVEは分岐柱・階段・公開室、H1は貫通公共ホール・回廊、水際も追加。ただし中央の反復帯外壁、H1の生活密度、W0統合が未達。
-- E12はE11実BLENDの**隔離コピー**をBlender 5.2.1で開き、反復高層メッシュ285件を削除し、中央の5実空洞と少数の別形状を制作。E11同カメラで1200×900 PNG3枚、別プロセス再読込・SHA検証。新BLEND SHA256 \`ba3363c0908bbf0b4d61afb1d4497af8696364c60b97eac754f351249ccb3c19\`。しかし**反復縞の代わりに巨大な淡色・暗色多面体塊が主景**となり、NAVE用途とH1居住都市は弱体化。ART REJECT。
-- E12の研究記録：\`studies/M3D-1S/J7/R33-S27/D48_R4_E12/E12_ACTUAL_ART_REJECT_AND_CHAT_ONLY_HANDOFF_JA.md\`。研究BLENDのgzip、比較画像、検証JSONは同フォルダの\`e12_evidence/\`に永続保存。元PNG・真正BLENDはActions Artifact \`13419424477\`（7日間保持、期限後は消える）。E11のR0/R1/R2 BLEND・元画像はE11研究枝に長期保存。
-- **注意：** \`main:docs/policy/CURRENT_STATUS.md\`は現状2026-10-23時点の古い工程を記述。\`main:START_HERE.md\`の旧Draft PR案内文も古い。正式憲章の権威は維持しつつ、最新実作業／HEADは実GitHubブランチと本書を照合する。これらをmainに勝手に修正しない。
+- E11の真正編集可能BLEND `E11_INHABITED_SECTION_WORKING.blend` はユーザー添付／GitHub原本で SHA256 `098c46fec0e61b474aba6aab4d2f51a299391937b8c29c6820278565f22a044f`。ライブBlender 5.2.1、ローカルポート9876のMCPで**GUI手彫りではなくPythonメッシュ編集**。同じBLENDをR0→R1→R2の2回直接修正し、カメラ固定で合計9枚の真レンダー。別Blenderプロセス再読込合格、最終844メッシュ、R0と共通の188メッシュ形状変化。技術の成果であり美術採用ではない。NAVEは分岐柱・階段・公開室、H1は貫通公共ホール・回廊、水際も追加。ただし中央の反復帯外壁、H1の生活密度、W0統合が未達。
+- E12はE11実BLENDの**隔離コピー**をBlender 5.2.1で開き、反復高層メッシュ285件を削除し、中央の5実空洞と少数の別形状を制作。E11同カメラで1200×900 PNG3枚、別プロセス再読込・SHA検証。新BLEND SHA256 `ba3363c0908bbf0b4d61afb1d4497af8696364c60b97eac754f351249ccb3c19`。しかし**反復縞の代わりに巨大な淡色・暗色多面体塊が主景**となり、NAVE用途とH1居住都市は弱体化。ART REJECT。
+- E12の研究記録：`studies/M3D-1S/J7/R33-S27/D48_R4_E12/E12_ACTUAL_ART_REJECT_AND_CHAT_ONLY_HANDOFF_JA.md`。研究BLENDのgzip、比較画像、検証JSONは同フォルダの`e12_evidence/`に永続保存。元PNG・真正BLENDはActions Artifact `13419424477`（7日間保持、期限後は消える）。E11のR0/R1/R2 BLEND・元画像はE11研究枝に長期保存。
+- **注意：** `main:docs/policy/CURRENT_STATUS.md`は現状2026-10-23時点の古い工程を記述。`main:START_HERE.md`の旧Draft PR案内文も古い。正式憲章の権威は維持しつつ、最新実作業／HEADは実GitHubブランチと本書を照合する。これらをmainに勝手に修正しない。
 
 ## C. 全研究の批判的総括
 
@@ -106,7 +106,7 @@
 ## E. 次のチャットに対する具体的な指示
 
 **最初の1回で：**
-1. GitHub \`main\` の上記正式憲章、最新E12研究HEAD、本書とE12/E11の真正美術審査を取得。過去の固定方針を**新しい計画にすり替えない**。
+1. GitHub `main` の上記正式憲章、最新E12研究HEAD、本書とE12/E11の真正美術審査を取得。過去の固定方針を**新しい計画にすり替えない**。
 2. 当面のART課題を「NAVEの用途と形→H1の都市生活と交通→中央の斜裂母体→W0地形」に整理し、1つの**具体的な都市断面制作**を選ぶ。斜裂と巨大浮遊都市の迫力を最初から保つ。
 3. **本当に3D制作できる実行環境があるなら**、短いスクリプトの追加ではなく、実在するNAVE＋H1＋W0の空間を深く制作し、3視点の実レンダーを直接見て同一3Dへ大きく修正・再レンダーする。単なる新しい巨大殻の量産は禁止。実行環境がない場合は、ありもしないGUI編集・Work実行を捏造せず、実行可能な最小の本番用編集パッケージまで作る。
 4. 独立再読込・SHA・画像の同一出自を確認し、**ART REJECTも正確に保存**。形式上のTECH PASS／コミット数で完成を宣言しない。
