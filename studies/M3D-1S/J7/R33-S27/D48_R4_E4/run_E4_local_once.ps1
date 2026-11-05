@@ -7,10 +7,6 @@ $expected = 'b32873c16dedc29ac49f6d4c65c1596c6fc0877fb1709de044f5f434f81f6750'
 if (-not (Test-Path $source)) {
     if (-not (Test-Path $encoded)) { throw 'Neither plain nor encoded author source is present.' }
     $raw = [Convert]::FromBase64String((Get-Content $encoded -Raw).Trim())
-    $ms = New-Object System.IO.MemoryStream(,$raw)
-    $z = New-Object System.IO.Compression.DeflateStream($ms,[System.IO.Compression.CompressionMode]::Decompress)
-    # zlib streams require header/trailer handling; use Python rather than raw DeflateStream.
-    $z.Dispose(); $ms.Dispose()
     $python = Get-Command 'python.exe' -ErrorAction SilentlyContinue
     if (-not $python) { throw 'Download the plain author.py from the GitHub workflow or chat ZIP. No installation was attempted.' }
     & $python.Source -c "import base64,zlib,pathlib; p=pathlib.Path(r'$root'); (p/'author.py').write_bytes(zlib.decompress(base64.b64decode((p/'author.py.zlib.b64').read_text())))"
