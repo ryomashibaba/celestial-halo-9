@@ -1,0 +1,57 @@
+name: HALO9 INT4 R1 identify actual blocked human views for same BLEND direct art surgery
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int4-r1-image-guided-sculpt-20261106
+    paths:
+      - studies/M3D-1S/J7/R33-S27/INT4_R1/trace_native.py
+      - .github/workflows/halo9-int4-r1-obstruction-probe.yml
+permissions:
+  contents: write
+jobs:
+  probe_exact:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-int4-r1-image-guided-sculpt-20261106'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 16
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT4_R1
+      ORIGINAL: studies/M3D-1S/J7/R33-S27/INT4/evidence/HALO9_INT4_CIVIC_SCULPTURE.blend.gz
+      ORIGINAL_SHA: c71dbe46f7fda20aee6d1355720fc76b5c64d6c0a4ccf0b8bbaa0e210d2fff41
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Read-only exact source SHA safety
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/evidence"
+          gzip -dc "$ORIGINAL" > /tmp/INT4_R1_SOURCE.blend
+          printf '%s  %s\n' "$ORIGINAL_SHA" /tmp/INT4_R1_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/trace_native.py"
+      - name: Check Blender 5.2.1 distribution
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/int4_blender && cd /tmp/int4_blender
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Real camera-to-mesh raycasts in original INT4 scene (no edits)
+        run: |
+          set -euo pipefail
+          B=/tmp/int4_blender/blender-5.2.1-linux-x64/blender
+          "$B" --background --threads 2 --python-exit-code 97 /tmp/INT4_R1_SOURCE.blend \
+            --python "$ROOT/trace_native.py" -- \
+            --output "$ROOT/evidence/INT4_R1_ORIGINAL_RAYCAST.json" \
+            2>&1 | tee "$ROOT/evidence/INT4_R1_RAYCAST.log"
+          grep -F 'R1_REAL_VIEW_DIAG_FINISHED' "$ROOT/evidence/INT4_R1_RAYCAST.log"
+      - name: Save precise blocked-mesh findings on isolated research branch
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT4 R1: actual protected camera occlusion evidence [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int4-r1-image-guided-sculpt-20261106
+          fi
