@@ -1,0 +1,14 @@
+{
+  "schema": "halo9-e9-independent-reopen-v1",
+  "status": "REAL_BLENDER_DIRECT_EDIT_BEFORE_AFTER_VERIFIED",
+  "source_sha256": "a2ea634f4df04226cf089419110bbb3b8986789f2d49c8b7a5d16bb0f0a9b7c6",
+  "final_blend_sha256": "3b5d22960fd9fc6c8b28db915ae5dc3ba0d02e91d970c0fe4cac260258471697",
+  "carved_mesh_targets": 6,
+  "human_camera_visual_gate": "NOT_YET_ART_REVIEWED",
+  "formal_adoptions": 0,
+  "completed_targets": 0,
+  "world_writes": 0,
+  "official_coordinates_verified": false,
+  "evidence_contact_sha256": "deabcbde08458c0a90f10a531135ff0897a395eb542a61cf1e9f1f30e3ff1f43",
+  "art_verdict": "PENDING_DIRECT_IMAGE_JURY_NO_PASS"
+}
