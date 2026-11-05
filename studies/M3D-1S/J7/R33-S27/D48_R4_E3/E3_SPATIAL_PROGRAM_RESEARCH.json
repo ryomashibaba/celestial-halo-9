@@ -1,0 +1,169 @@
+{
+  "schema": "halo9.r4.e3.spatial-program.research.v1",
+  "basis": {
+    "repo": "ryomashibaba/celestial-halo-9",
+    "source_branch": "research/r33-s27-d48-r4-e2-art-production-20261105",
+    "source_head": "4e9b9a46a1381e9cb36db35c03924711bca04193",
+    "source_art": "REJECT",
+    "source_stage": "R2",
+    "review_kind": "direct inspection of source-native seven R2 render PNGs",
+    "geometry_created_for_e3": false
+  },
+  "policy": {
+    "city_master_3d_first": true,
+    "art_first": true,
+    "formal_adoption": false,
+    "minecraft_write": false,
+    "city_master_complete": false,
+    "official_coordinates_verified": false,
+    "protected_m247c_fusion": [
+      "alpha_double_displaced_shell",
+      "beta_diagonal_broken_spine"
+    ],
+    "mandatory_target_count": 30,
+    "ordinary_building_private_interiors_only_exception": true
+  },
+  "direction": "INHABITED_SECTION_CAUSES_MACRO_FORM_NOT_SHELL_CAUSES_SHELVES",
+  "scope": [
+    "M247-C",
+    "W0",
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "SB01",
+    "SB02",
+    "SB03",
+    "SB04",
+    "SB05",
+    "SB06",
+    "SB07",
+    "SB08",
+    "SB09",
+    "SB10",
+    "SB11",
+    "SB12",
+    "SB13",
+    "SB14",
+    "SB15",
+    "SB16",
+    "V1",
+    "V2",
+    "V3",
+    "METRO_AXIS_1",
+    "METRO_AXIS_2",
+    "METRO_AXIS_3"
+  ],
+  "trial": {
+    "title_ja": "断層に住む都市——公共空洞と生活街区の連続断面",
+    "status": "ARCHITECTURAL_PROGRAM_ONLY_NOT_NATIVE_3D",
+    "option_count": 1,
+    "source_E2_silhouette_must_not_be_reused_as_candidate": true,
+    "maximum_independent_options": 2
+  },
+  "user_experience_sequences": [
+    {
+      "id": "G2N",
+      "from": "GROUND_ARRIVAL_PUBLIC_PORTAL",
+      "to": "NAVE_INHABITED_PUBLIC_ROOM",
+      "experience": "地上駅の実空間から市場・広場・公共ホールが連続して見える。単なる長い斜路・巨大壁禁止",
+      "physical_route_required": true,
+      "geometry_authored": false
+    },
+    {
+      "id": "N2H",
+      "from": "NAVE_INHABITED_PUBLIC_ROOM",
+      "to": "H1_LIVING_URBAN_STREET",
+      "experience": "公共室と居住街区が階段・運行系交通・空中広場の縦方向ネットワークとして一体化。階段/輸送の実用認証は別",
+      "physical_route_required": true,
+      "geometry_authored": false
+    },
+    {
+      "id": "H2E",
+      "from": "H1_LIVING_URBAN_STREET",
+      "to": "EAST_DISPLACED_INHABITED_SECTION",
+      "experience": "α西東の二つの生活都市を、単なる細い橋でなく複数の乗換・公共接続で結ぶ",
+      "physical_route_required": true,
+      "geometry_authored": false
+    },
+    {
+      "id": "H2B",
+      "from": "H1_LIVING_URBAN_STREET",
+      "to": "BETA_PUBLIC_ASCENT",
+      "experience": "β斜裂は外から見える刀ではなく、高所都市間の公共交通・洞状街路を保持する実厚みある上昇都市",
+      "physical_route_required": true,
+      "geometry_authored": false
+    }
+  ],
+  "authoring_zones": [
+    {
+      "id": "H1_LIVING_URBAN_STREET",
+      "role": "FIRST AUTHORING PRIORITY",
+      "authoring_target": "生きた高所街路、方向の違う住宅群、学校、市場、市民広場、縦移動結節、裏側に継続する街区",
+      "material_state": "NO_GEOMETRY_YET",
+      "eye_view": "human_sky_district",
+      "stop": "人間視点が箱・単一壁・帯状橋・棚に見えたら即REJECT",
+      "must_read_as_city": true
+    },
+    {
+      "id": "NAVE_INHABITED_PUBLIC_ROOM",
+      "role": "FIRST AUTHORING PRIORITY",
+      "authoring_target": "広場、公開閲覧室、通り抜け可能な大回廊、複数の見える公開階層、上部からの採光、明瞭な公共目的地",
+      "material_state": "NO_GEOMETRY_YET",
+      "eye_view": "human_public_interior",
+      "stop": "広い空洞、一本橋、巨大壁、少数箱だけなら即REJECT",
+      "must_read_as_city": true
+    },
+    {
+      "id": "GROUND_ARRIVAL_PUBLIC_PORTAL",
+      "role": "AFTER FIRST TWO ARE VISIBLE",
+      "authoring_target": "地上から公共室までの連続した駅・入口・歩行街路。眼高1.65mで巨大壁だけしか見えない構図を解消",
+      "eye_view": "human_street",
+      "material_state": "NO_GEOMETRY_YET"
+    },
+    {
+      "id": "EAST_DISPLACED_INHABITED_SECTION",
+      "role": "AFTER FIRST TWO ARE VISIBLE",
+      "authoring_target": "海際を見下ろす居住都市を厚い建築断面として実制作。αの高高度転位を成立",
+      "eye_view": "east_seafront",
+      "material_state": "NO_GEOMETRY_YET"
+    },
+    {
+      "id": "BETA_PUBLIC_ASCENT",
+      "role": "AFTER FIRST TWO ARE VISIBLE",
+      "authoring_target": "斜めに上昇する本格的な公共交通・生活都市の裂け目。無開口板を避ける",
+      "eye_view": "central_rear",
+      "material_state": "NO_GEOMETRY_YET"
+    },
+    {
+      "id": "W0_CITY_RELATION",
+      "role": "CONTINUOUSLY_COMPARED",
+      "authoring_target": "北山岳・西断崖・東内海・南西巨大負空間と、高所生活都市・中央の地形的関係を同一研究座標で調整。現E2の平坦地形を完成扱いしない",
+      "eye_view": "urban_aerial",
+      "material_state": "NO_NEW_GEOMETRY_YET"
+    }
+  ],
+  "first_authoring_gate": {
+    "must_have_new_blend": true,
+    "must_preserve_e2_immutable": true,
+    "first_view_review_order": [
+      "human_sky_district",
+      "human_public_interior",
+      "human_street",
+      "urban_aerial",
+      "central_front",
+      "central_rear",
+      "east_seafront"
+    ],
+    "initial_two_views_must_be_concretely_inspected_before_outside_envelope_authoring": true,
+    "artwork_aesthetic_judgement_independent_of_schema": true,
+    "if_rejected": "STOP_NO_WALL_OR_SHELL_DECORATION",
+    "studio": "local background Blender, no foreground computer control, low priority and resource limits",
+    "approval": "new Work session subject to user-specific approval; no broad access to user PC",
+    "completed_3d_in_this_step": false,
+    "full_city_completion": false,
+    "status": "IMPLEMENTATION_READY_ART_PROGRAM_ONLY"
+  }
+}
