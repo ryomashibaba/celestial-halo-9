@@ -1,0 +1,136 @@
+name: HALO9 R4-E10 independently sculpted urban rift native ART study
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-e10-hand-sculpted-inhabited-rift-20261105
+    paths:
+      - .github/workflows/halo9-r4-e10-native-hand-sculpted-rift.yml
+      - studies/M3D-1S/J7/R33-S27/D48_R4_E10/author_hand_sculpted_rift.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r4-e10-sculpted-city
+  cancel-in-progress: false
+jobs:
+  real_native_author:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-r4-e10-hand-sculpted-inhabited-rift-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      STUDY: studies/M3D-1S/J7/R33-S27/D48_R4_E10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Preflight isolate art study, no banned originals or writes
+        run: |
+          set -euo pipefail
+          python3 -m py_compile "$STUDY/author_hand_sculpted_rift.py"
+          if grep -E "bpy\.ops\.wm\.open_mainfile|WorldEdit|bpy\.ops\.wm\.read_factory_settings" "$STUDY/author_hand_sculpted_rift.py"; then
+            echo "Unexpected mutation/open-original reference"; exit 1
+          fi
+          echo "ART AUTHOR PREFLIGHT PASS"
+      - name: Install actual isolated Blender, local-only render
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-pil
+          blender --version | head -n 2
+      - name: Author real EDITABLE Blender scene and three real camera views
+        run: |
+          set -euo pipefail
+          set -o pipefail
+          mkdir -p "$STUDY/native"
+          timeout 1650s blender --background --threads 2 --python-exit-code 91 \
+            --python "$STUDY/author_hand_sculpted_rift.py" -- \
+            --output "$STUDY/native" 2>&1 | tee "$STUDY/native/BLENDER_AUTHOR.log"
+          grep -F 'E10_TRUE_NATIVE_AUTHOR_PASS' "$STUDY/native/BLENDER_AUTHOR.log"
+          test -s "$STUDY/native/E10_HAND_SCULPTED_LIVED_RIFT_WORKING.blend"
+          for view in human_nave_civic_room human_h1_inhabited_city urban_oblique_entire_core; do
+            test -s "$STUDY/native/renders/$view.png"
+          done
+      - name: Independently reopen same 3D and verify true renders, not art quality
+        run: |
+          set -euo pipefail
+          cat > /tmp/independent_halo9_e10.py <<'PY'
+          import bpy,hashlib,json,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath)
+          s=bpy.context.scene
+          assert p.name=='E10_HAND_SCULPTED_LIVED_RIFT_WORKING.blend' and p.is_file()
+          assert s['minecraft_write']=='FORBIDDEN'
+          assert s['official_coordinates_verified'] is False
+          assert s['formal_art_adoption'] is False
+          assert s['completed_targets']==0
+          assert s['old_rejected_models_imported'] is False
+          assert len(bpy.data.collections['30_TARGET_REGISTRY_NOT_COMPLETED'].objects)==30
+          names=['human_nave_civic_room','human_h1_inhabited_city','urban_oblique_entire_core']
+          for n in names:
+            assert bpy.data.objects[n].type=='CAMERA'
+            file=p.parent/'renders'/(n+'.png')
+            assert file.is_file() and file.stat().st_size>8000
+            with file.open('rb') as fp:h=fp.read(24)
+            assert h[:8]==bytes.fromhex('89504e470d0a1a0a')
+            assert struct.unpack('>II',h[16:24])==(960,640)
+          source=json.loads((p.parent/'AUTHOR_REPORT.json').read_text())
+          assert len(source['openings_carved'])>=8
+          assert source['blend_sha256']==hashlib.sha256(p.read_bytes()).hexdigest()
+          assert source['completed_targets']==0
+          report={'schema':'halo9-r4-e10-independent-real-native-v1',
+            'status':'NATIVE_BLENDER_REOPEN_AND_3_REAL_RENDERS_PASS_NOT_ART',
+            'blend_sha256':source['blend_sha256'],
+            'mesh_count':sum(x.type=='MESH' for x in bpy.data.objects),
+            'actual_cavity_operations':len(source['openings_carved']),
+            'formal_art_adoption':False,'completed_targets':0,'minecraft':'HOLD',
+            'art_jury':'UNREVIEWED'}
+          (p.parent/'INDEPENDENT_REOPEN.json').write_text(json.dumps(report,indent=2))
+          print('E10_REAL_INDEPENDENT_BLENDER_REOPEN_PASS',json.dumps(report),flush=True)
+          PY
+          blender --background --threads 2 --python-exit-code 91 \
+            "$STUDY/native/E10_HAND_SCULPTED_LIVED_RIFT_WORKING.blend" \
+            --python /tmp/independent_halo9_e10.py 2>&1 | tee "$STUDY/native/INDEPENDENT.log"
+          grep -F 'E10_REAL_INDEPENDENT_BLENDER_REOPEN_PASS' "$STUDY/native/INDEPENDENT.log"
+          test -s "$STUDY/native/INDEPENDENT_REOPEN.json"
+      - name: Persist immutable comparison JPEG and exact editable BLEND (research only)
+        run: |
+          set -euo pipefail
+          mkdir -p "$STUDY/e10_evidence"
+          python3 - <<'PY'
+          import os,gzip,json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          root=Path(os.environ['STUDY']);n=root/'native';dst=root/'e10_evidence'
+          src=n/'E10_HAND_SCULPTED_LIVED_RIFT_WORKING.blend'
+          with src.open('rb') as inp,gzip.open(dst/(src.name+'.gz'),'wb',compresslevel=6) as stream:
+            while chunk:=inp.read(1048576):stream.write(chunk)
+          names=['human_nave_civic_room','human_h1_inhabited_city','urban_oblique_entire_core']
+          sheet=Image.new('RGB',(1920,450),(230,232,227))
+          drawer=ImageDraw.Draw(sheet)
+          for i,name in enumerate(names):
+            im=Image.open(n/'renders'/(name+'.png')).convert('RGB')
+            im=im.resize((640,427),Image.Resampling.LANCZOS)
+            sheet.paste(im,(i*640,23))
+            drawer.text((i*640+9,6),name,fill=(0,0,0))
+          jpg=dst/'E10_REAL_NATIVE_THREE_VIEW_ART_UNREVIEWED.jpg'
+          sheet.save(jpg,quality=88,optimize=True)
+          report=json.loads((n/'INDEPENDENT_REOPEN.json').read_text())
+          report['jpg_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          report['art_jury']='NOT_YET_DIRECT_REVIEWED_NO_PASS'
+          (dst/'E10_TECH_NOT_ART.json').write_text(json.dumps(report,indent=2))
+          print('E10_NATIVE_EVIDENCE_READY')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$STUDY/e10_evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m "R4-E10: preserve true sculpted native BLEND and three-view ART-unreviewed evidence [skip ci]"
+            git push origin HEAD:refs/heads/research/r33-s27-d48-r4-e10-hand-sculpted-inhabited-rift-20261105
+          fi
+      - name: Backup actual raw PNGs and BLEND for seven days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E10-TRUE-NATIVE-BLEND-THREE-UNALTERED-PNG
+          path: studies/M3D-1S/J7/R33-S27/D48_R4_E10/native/
+          retention-days: 7
+          if-no-files-found: warn
