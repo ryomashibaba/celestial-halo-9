@@ -1,0 +1,130 @@
+name: HALO9 LCS1-R1 physical floor and occupied macro revision (real Blender)
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-lcs1-r1-occupied-revision-20261105
+    paths:
+      - studies/M3D-1S/J7/R33-S27/LCS1/R1_source.bz2.b64
+      - .github/workflows/halo9-lcs1-r1-spatial-revision.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-lcs1-r1-native
+  cancel-in-progress: false
+jobs:
+  edit_native_copy:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-lcs1-r1-occupied-revision-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 36
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/LCS1
+      SOURCE: studies/M3D-1S/J7/R33-S27/LCS1/evidence/LCS1_OCCUPIED_CIVIC_SECTION_WORKING.blend.gz
+      SOURCE_SHA: db7476b9e0661966fd1fb15437ec1c3cab2452099208ef3020cc742aba9e5599
+      PY_SHA: c9b102144c186b41a20f70f9c523d4b869295b93e0a380ee0167a4cb84aa1dd6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify true LCS1 BLEND; expand R1 source and check Python
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/R1_native"
+          gzip -dc "$SOURCE" > /tmp/LCS1_R1_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/LCS1_R1_SOURCE.blend | sha256sum -c -
+          python3 - <<'PY'
+          from pathlib import Path
+          import os,bz2,base64,hashlib,py_compile
+          root=Path(os.environ['ROOT'])
+          raw=bz2.decompress(base64.b64decode((root/'R1_source.bz2.b64').read_text().strip()))
+          assert hashlib.sha256(raw).hexdigest()==os.environ['PY_SHA']
+          f=root/'refine_occupied_section.py';f.write_bytes(raw)
+          py_compile.compile(str(f),doraise=True)
+          print('R1_SOURCE_VERIFIED',len(raw),flush=True)
+          PY
+      - name: Install checksum verified official Blender 5.2.1
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-b
+          cd /tmp/halo9-b
+          curl -fL --retry 3 --connect-timeout 30 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 3 --connect-timeout 30 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Revise SAME editable BLEND copy and actually render three views
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9-b/blender-5.2.1-linux-x64/blender
+          timeout 1400s "$B" --background --threads 2 --python-exit-code 97 \
+           /tmp/LCS1_R1_SOURCE.blend --python "$ROOT/refine_occupied_section.py" -- \
+           --output "$ROOT/R1_native" 2>&1 | tee "$ROOT/R1_native/AUTHOR.log"
+          grep -F 'LCS1_R1_NATIVE_COMPLETE' "$ROOT/R1_native/AUTHOR.log"
+      - name: Independent Blender reopen, camera matrices and PNG signatures
+        run: |
+          set -euo pipefail
+          cat >/tmp/r1_reopen.py <<'PY'
+          import bpy,json,hashlib,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath);s=bpy.context.scene
+          r=json.loads((p.parent/'AUTHOR_R1.json').read_text())
+          assert p.name=='LCS1_R1_OCCUPIED_CITY_REVISION.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==r['new_blend_sha256']
+          assert s['COMPLETED_TARGETS']==0 and s['FORMAL_ART_ACCEPTED']==0 and s['CONSTRUCTION']=='HOLD'
+          assert s['LCS1_R1_H1_STREET_FLOOR_PHYSICAL_VERTICES_MOVED']==4
+          for name in ['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL']:
+            file=p.parent/'renders'/(name+'.png')
+            with file.open('rb') as f:head=f.read(24)
+            assert head[:8]==bytes.fromhex('89504e470d0a1a0a')
+            assert struct.unpack('>II',head[16:24])==(1100,825)
+            assert hashlib.sha256(file.read_bytes()).hexdigest()==r['image_sha256'][name]
+          print('R1_REAL_NATIVE_REOPEN_PASS',flush=True)
+          PY
+          /tmp/halo9-b/blender-5.2.1-linux-x64/blender --background --threads 2 --python-exit-code 97 \
+           "$ROOT/R1_native/LCS1_R1_OCCUPIED_CITY_REVISION.blend" --python /tmp/r1_reopen.py \
+           2>&1 | tee "$ROOT/R1_native/REOPEN.log"
+          grep -F 'R1_REAL_NATIVE_REOPEN_PASS' "$ROOT/R1_native/REOPEN.log"
+      - name: Direct-review mosaic, image validity metrics, permanent isolated source
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat
+          import os,json,hashlib,gzip,base64
+          root=Path(os.environ['ROOT']);native=root/'R1_native';out=root/'R1_evidence'
+          out.mkdir(parents=True,exist_ok=True)
+          f=native/'LCS1_R1_OCCUPIED_CITY_REVISION.blend'
+          with f.open('rb') as src,gzip.open(out/(f.name+'.gz'),'wb',compresslevel=6) as dst:
+            while v:=src.read(1048576):dst.write(v)
+          names=['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL']
+          m=Image.new('RGB',(1650,444),(225,227,225));d=ImageDraw.Draw(m);lum={}
+          for i,name in enumerate(names):
+            im=Image.open(native/'renders'/(name+'.png')).convert('RGB')
+            lum[name]=round(sum(ImageStat.Stat(im).mean)/3,2)
+            im.thumbnail((550,412),Image.Resampling.LANCZOS)
+            m.paste(im,(i*550,30));d.text((i*550+9,7),name,fill=(0,0,0))
+          jpg=out/'R1_TRUE_THREE_VIEW_UNAPPROVED.jpg'
+          m.save(jpg,quality=80,optimize=True)
+          (out/'R1_REVIEW_JPEG_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          r=json.loads((native/'AUTHOR_R1.json').read_text())
+          r['brightness']=lum;r['review_jpg_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          r['image_validity']='VALID_CANDIDATE' if all(v>10 for v in lum.values()) else 'IMAGE_INVALID_NOT_ART_REVIEWABLE'
+          (out/'R1_TECH_VS_ART.json').write_text(json.dumps(r,indent=2))
+          print('R1_BRIGHTNESS',lum,'REVIEW_STATUS',r['image_validity'],flush=True)
+          assert lum['E11_H1_HUMAN']>10,'H1_IMAGE_STILL_BLACK'
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/refine_occupied_section.py" "$ROOT/R1_evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'LCS1-R1: native physical urban revision, independent check and images [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-lcs1-r1-occupied-revision-20261105
+          fi
+      - name: Preserve raw PNGs and native editor BLEND temporary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-LCS1-R1-BLENDER-TRUE-REVIEW
+          path: studies/M3D-1S/J7/R33-S27/LCS1/R1_native/
+          retention-days: 7
+          if-no-files-found: warn
