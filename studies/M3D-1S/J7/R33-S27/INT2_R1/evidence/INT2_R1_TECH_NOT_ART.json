@@ -1,0 +1,85 @@
+{
+  "schema": "HALO9-INT2-R1-DIRECT-SAVED-BLEND-REVISION",
+  "status": "TECH_PENDING_INDEPENDENT_REOPEN",
+  "source_sha256": "51615c6cda162a14bf141ce4c90e98d2a0c14a4aafcb6d52fcacf57fb4cbd954",
+  "render_hashes": {
+    "E11_NAVE_HUMAN": "90baf4811270b034aa0e0fa326eb10acacfb3e0873a73a55c6d0e530c3288355",
+    "E11_H1_HUMAN": "2401737af56bc9b54c584775e8e7d5cc359284caf0a39eb4063c99334c4d93ee",
+    "E11_URBAN_AERIAL": "1bf4e68421de4db57a08eedae541580d7b47053076f3b7b12c47c0046ec0b77e"
+  },
+  "camera_positions": {
+    "E11_NAVE_HUMAN": {
+      "location": [
+        15.0,
+        -360.0,
+        73.7
+      ],
+      "forward": [
+        -0.0298,
+        0.9326,
+        0.3597
+      ]
+    },
+    "E11_H1_HUMAN": {
+      "location": [
+        760.0,
+        270.0,
+        438.7
+      ],
+      "forward": [
+        0.0454,
+        0.9526,
+        0.3008
+      ]
+    },
+    "E11_URBAN_AERIAL": {
+      "location": [
+        2150.0,
+        -2700.0,
+        1850.0
+      ],
+      "forward": [
+        -0.5457,
+        0.7506,
+        -0.3726
+      ]
+    }
+  },
+  "saved_blend_sha256": "1e002ad450613ea13de04d9184bb02e2cee8e9cf9553be73e129525e9168d126",
+  "boolean_cut_mesh_polygons": {
+    "NAVE_WEST_0": 3255,
+    "NAVE_EAST_0": 3853,
+    "NAVE_WEST_1": 3257,
+    "NAVE_EAST_1": 3859,
+    "NAVE_WEST_2": 3230,
+    "NAVE_EAST_2": 3851,
+    "NAVE_WEST_3": 3228,
+    "NAVE_EAST_3": 3851,
+    "H1_WEST_0": 3228,
+    "H1_EAST_0": 3867,
+    "H1_WEST_1": 3228,
+    "H1_EAST_1": 3858,
+    "H1_WEST_2": 3228,
+    "H1_EAST_2": 3840,
+    "H1_WEST_3": 3228,
+    "H1_EAST_3": 3840,
+    "FACET_WEST_LOWER": 3381,
+    "FACET_WEST_UPPER": 3536,
+    "FACET_EAST_LOWER": 3996,
+    "FACET_EAST_UPPER": 4122
+  },
+  "new_civic_objects": 15,
+  "unchanged_three_camera_matrices": true,
+  "function": "UNKNOWN_NO_INDEPENDENT_PEDESTRIAN_SWEEP",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 95.75,
+    "E11_H1_HUMAN": 0.08,
+    "E11_URBAN_AERIAL": 106.37
+  },
+  "image_preflight": "IMAGE_INVALID",
+  "evidence_jpg_sha256": "5c8fd395a0caee896baab3776d7b968c0fe09893c7b2e5afbb2e3f3f8347921d"
+}
