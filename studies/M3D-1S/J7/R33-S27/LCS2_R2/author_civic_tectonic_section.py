@@ -41,6 +41,21 @@ mats={k:bpy.data.materials.get('LCS2_'+v) for k,v in {
  'moss':'roof_gardens','walk':'pedestrian_paving',
  'warm':'inhabited_luminance','way':'public_wayfinding',
  'roof':'matte_titanium'}.items()}
+# Blender drops unused material datablocks on save. Reuse available sources,
+# reconstruct only absent role materials in their original established palette.
+palette={'ivory':(.62,.70,.69),'pale':(.82,.79,.65),'night':(.075,.125,.16),
+ 'bronze':(.55,.32,.17),'glass':(.055,.28,.34),'moss':(.18,.36,.24),
+ 'walk':(.40,.48,.46),'warm':(.88,.53,.26),'way':(.34,.75,.79),
+ 'roof':(.27,.36,.40)}
+for role,existing in list(mats.items()):
+ if existing:continue
+ mat=bpy.data.materials.new('LCS2_R2_restored_'+role)
+ mat.diffuse_color=(*palette[role],1);mat.use_nodes=True
+ bs=mat.node_tree.nodes.get('Principled BSDF')
+ bs.inputs['Base Color'].default_value=(*palette[role],1)
+ bs.inputs['Roughness'].default_value=.58
+ mats[role]=mat
+ print('R2_RESTORED_UNUSED_MATERIAL',role,flush=True)
 assert all(mats.values())
 def mesh(name,verts,faces,mat):
  me=bpy.data.meshes.new(name);me.from_pydata(verts,[],faces);me.update()
