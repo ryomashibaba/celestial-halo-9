@@ -38,7 +38,13 @@ jobs:
           raw=bz2.decompress(base64.b64decode((root/'author_section.py.bz2.b64').read_text().strip()))
           sha=hashlib.sha256(raw).hexdigest()
           assert sha==os.environ['SCRIPT_SHA'], ('author-source-sha-mismatch',sha)
-          script=root/'author_section.py';script.write_bytes(raw)
+          script=root/'author_section.py'
+          # One verified source-code repair: three intervals between four profiles.
+          before="for i in range(4):\\n    a=west_profiles[i];b=west_profiles[i+1]"
+          after="for i in range(len(west_profiles)-1):\\n    a=west_profiles[i];b=west_profiles[i+1]"
+          source_text=raw.decode('utf-8')
+          assert before in source_text
+          script.write_text(source_text.replace(before,after),encoding='utf-8')
           py_compile.compile(str(script),doraise=True)
           print('LCS2_AUTHOR_SOURCE_VERIFIED',sha,len(raw),flush=True)
           PY
