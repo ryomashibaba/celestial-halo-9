@@ -83,7 +83,8 @@ def beam(name,pts,width,depth,mat,group):
     for i,p in enumerate(pts):
         a=Vector(pts[max(0,i-1)]);b=Vector(pts[min(i+1,len(pts)-1)])
         dx,dy=b.x-a.x,b.y-a.y
-        L=max(1e-6,math.hypot(dx,dy));u=(-dy/L,dx/L)
+        L=math.hypot(dx,dy)
+        u=(-dy/L,dx/L) if L>1e-6 else (1.0,0.0)
         for z in (p[2],p[2]-depth):
             for side in (-1,1):
                 verts.append((p[0]+side*u[0]*width/2,p[1]+side*u[1]*width/2,z))
@@ -343,4 +344,4 @@ report={'schema':'halo9-r4-e10-native-geometry-art-unreviewed',
   'art_jury':'PENDING_DIRECT_VISUAL_REVIEW',
   'true_png_sha256':{x:hashlib.sha256((out/'renders'/(x+'.png')).read_bytes()).hexdigest() for x in views}}
 (out/'AUTHOR_REPORT.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
-print('E10_TRUE_NATIVE_AUTHOR_PASS',json.dumps(report,flush=True),flush=True)
+print('E10_TRUE_NATIVE_AUTHOR_PASS',json.dumps(report),flush=True)
