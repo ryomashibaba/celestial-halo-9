@@ -1,0 +1,141 @@
+name: HALO-9 E9-R1 real saved BLEND visual correction
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-e9-r1-review-correction-20261105
+    paths:
+      - studies/M3D-1S/J7/R33-S27/D48_R4_E9_R1/direct_edit_same_blend_h1_camera_clearance.py
+      - .github/workflows/halo9-e9-r1-same-scene-direct-edit.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r4-e9-r1-actual-native
+  cancel-in-progress: false
+jobs:
+  direct_native_h1_correction:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-r4-e9-r1-review-correction-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      STUDY: studies/M3D-1S/J7/R33-S27/D48_R4_E9_R1
+      SOURCE: studies/M3D-1S/J7/R33-S27/D48_R4_E9/e9_evidence/E9_DIRECT_SCULPT_OPEN_PUBLIC_CITY_WORKING.blend.gz
+      SOURCE_SHA256: 3b5d22960fd9fc6c8b28db915ae5dc3ba0d02e91d970c0fe4cac260258471697
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Read preserved E9, never replace original study or main
+        run: |
+          set -euo pipefail
+          python3 -m py_compile "$STUDY/direct_edit_same_blend_h1_camera_clearance.py"
+          mkdir -p "$STUDY/e9r1_native"
+          gzip -dc "$SOURCE" > "$STUDY/e9r1_native/E9_DIRECT_SCULPT_OPEN_PUBLIC_CITY_WORKING.blend"
+          printf '%s  %s\n' "$SOURCE_SHA256" "$STUDY/e9r1_native/E9_DIRECT_SCULPT_OPEN_PUBLIC_CITY_WORKING.blend" | sha256sum -c -
+      - name: Install independent real Blender and image comparison support
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-pil
+          blender --version | head -n 2
+      - name: Real image review correction; retain original H1 shot and re-render without moving camera
+        run: |
+          set -euo pipefail
+          set -o pipefail
+          timeout 1000s blender --background --threads 2 --python-exit-code 91 \
+            "$STUDY/e9r1_native/E9_DIRECT_SCULPT_OPEN_PUBLIC_CITY_WORKING.blend" \
+            --python "$STUDY/direct_edit_same_blend_h1_camera_clearance.py" -- \
+            --output "$STUDY/e9r1_native" 2>&1 | tee "$STUDY/e9r1_native/DIRECT_EDIT.log"
+          grep -F 'E9R1_SAVED_NATIVE_SAME_BLEND_DIRECT_EDIT_PASS' "$STUDY/e9r1_native/DIRECT_EDIT.log"
+          test -s "$STUDY/e9r1_native/E9R1_TRUE_SAME_BLENDER_CORRECTED_CITY.blend"
+          for v in human_sky_district human_public_interior urban_aerial; do
+            test -s "$STUDY/e9r1_native/after/$v.png"
+          done
+      - name: Independently reopen corrected file and confirm fixed cameras/actual floor geometry
+        run: |
+          set -euo pipefail
+          cat > /tmp/E9R1_VERIFY.py <<'PY'
+          import bpy,hashlib,struct,json
+          from pathlib import Path
+          from mathutils import Vector
+          p=Path(bpy.data.filepath);s=bpy.context.scene
+          assert p.name=='E9R1_TRUE_SAME_BLENDER_CORRECTED_CITY.blend'
+          assert s['minecraft_write']=='FORBIDDEN'
+          assert s['official_coordinates_verified'] is False
+          assert s['formal_art_adoption'] is False
+          assert s['completed_targets']==0
+          assert s['e9r1_h1_after_camera_inside_floor'] is False
+          assert s['e9r1_h1_before_camera_inside_floor'] is True
+          assert s['e9r1_fixed_camera_no_movement'] is True
+          floor=bpy.data.objects['E9_H1_REAL_PAVED_PUBLIC_ARRIVAL']
+          cam=bpy.data.objects['human_sky_district']
+          data=json.loads((p.parent/'E9R1_DIRECT_EDIT_REPORT.json').read_text())
+          assert abs(floor.location.z - data['h1_floor_new_z'])<.001
+          assert abs(floor.location.z -839.4)<.15
+          assert list(cam.matrix_world.translation)==data['h1_camera_world_position']
+          assert data['new_blend_sha256']==hashlib.sha256(p.read_bytes()).hexdigest()
+          for phase,names in [('before',['human_sky_district']),('after',['human_sky_district','human_public_interior','urban_aerial'])]:
+            for n in names:
+              f=p.parent/phase/(n+'.png')
+              assert f.is_file() and f.stat().st_size>8000
+              with f.open('rb') as h:b=h.read(24)
+              assert b[:8]==bytes.fromhex('89504e470d0a1a0a')
+              assert struct.unpack('>II',b[16:24])==(960,640)
+              assert data['renders_sha256'][phase][n]==hashlib.sha256(f.read_bytes()).hexdigest()
+          state={'schema':'halo9-e9r1-verify-v1','status':'TRUE_SAME_BLENDER_GEOMETRY_EDIT_REOPEN_PASS',
+            'sha256':data['new_blend_sha256'],'h1_before_inside_deck':True,
+            'h1_after_inside_deck':False,'h1_camera_moved':False,'formal_art_adoption':False,
+            'art_review':'PENDING_DIRECT_VISUAL_JURY','minecraft':'HOLD'}
+          (p.parent/'E9R1_INDEPENDENT.json').write_text(json.dumps(state,indent=2))
+          print('E9R1_INDEPENDENT_NATIVE_REOPEN_PASS',json.dumps(state),flush=True)
+          PY
+          blender --background --threads 2 --python-exit-code 91 \
+            "$STUDY/e9r1_native/E9R1_TRUE_SAME_BLENDER_CORRECTED_CITY.blend" \
+            --python /tmp/E9R1_VERIFY.py 2>&1 | tee "$STUDY/e9r1_native/INDEPENDENT.log"
+          grep -F 'E9R1_INDEPENDENT_NATIVE_REOPEN_PASS' "$STUDY/e9r1_native/INDEPENDENT.log"
+          test -s "$STUDY/e9r1_native/E9R1_INDEPENDENT.json"
+      - name: Preserve original BLEND copy after actual revision and before-after review
+        run: |
+          set -euo pipefail
+          mkdir -p "$STUDY/e9r1_evidence"
+          python3 - <<'PY'
+          import os,gzip,json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          study=Path(os.environ['STUDY']);native=study/'e9r1_native';out=study/'e9r1_evidence'
+          source=native/'E9R1_TRUE_SAME_BLENDER_CORRECTED_CITY.blend'
+          with source.open('rb') as inp,gzip.open(out/(source.name+'.gz'),'wb') as dst:
+            while chunk:=inp.read(1048576):dst.write(chunk)
+          ims=[
+            ('H1 before: camera inside physical deck',native/'before'/'human_sky_district.png'),
+            ('H1 after: true deck elevation correction',native/'after'/'human_sky_district.png'),
+            ('NAVE after: public city interior',native/'after'/'human_public_interior.png'),
+            ('City aerial after: macro art review',native/'after'/'urban_aerial.png')]
+          sheet=Image.new('RGB',(1600,1150),(229,230,225));d=ImageDraw.Draw(sheet)
+          for i,(title,file) in enumerate(ims):
+            x=i%2*800;y=i//2*575
+            d.text((x+9,y+8),title,fill=(0,0,0))
+            image=Image.open(file).convert('RGB')
+            image=image.resize((800,533),Image.Resampling.LANCZOS)
+            sheet.paste(image,(x,y+28))
+          jpg=out/'E9R1_TRUE_H1_BEFORE_AFTER_NATIVE_4VIEW.jpg'
+          sheet.save(jpg,quality=86,optimize=True)
+          info=json.loads((native/'E9R1_INDEPENDENT.json').read_text())
+          info['contact_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          (out/'E9R1_TECH_NOT_ART.json').write_text(json.dumps(info,indent=2))
+          print('E9R1_EVIDENCE_PRESERVED')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$STUDY/e9r1_evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m "E9-R1: preserve real same-BLEND H1 correction and 4-view ART unreviewed [skip ci]"
+            git push origin HEAD:refs/heads/research/r33-s27-d48-r4-e9-r1-review-correction-20261105
+          fi
+      - name: Independent 7-day backup of original PNGs and corrected BLEND
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E9R1-REAL-EDIT-H1-REVIEW-AND-EDITABLE-BLEND
+          path: studies/M3D-1S/J7/R33-S27/D48_R4_E9_R1/e9r1_native/
+          retention-days: 7
+          if-no-files-found: warn
