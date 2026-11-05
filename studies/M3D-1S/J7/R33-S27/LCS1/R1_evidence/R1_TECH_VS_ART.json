@@ -1,0 +1,23 @@
+{
+  "schema": "halo9-lcs1-r1-native-revision-v1",
+  "source_sha256": "db7476b9e0661966fd1fb15437ec1c3cab2452099208ef3020cc742aba9e5599",
+  "new_blend_sha256": "25a31c532d4e70556400b51882b58af7d42f27056755d2b5b6075b394dbd39f0",
+  "floor_vertices_corrected": 4,
+  "new_meshes": 58,
+  "image_sha256": {
+    "E11_NAVE_HUMAN": "08944af42f9bc8b018faf0c6f3b5605d6f322088ccd817aad2031e2a5c4193cb",
+    "E11_H1_HUMAN": "ece7a54bdd9bd7a95efe050c7ae7214b502bfc29a09c5a0c49447f09a3787b0f",
+    "E11_URBAN_AERIAL": "9809e1f9f49675a2eaaedfa11d5d79e526219ad4b6a70aeab110476097d9ddcf"
+  },
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "adoptions": 0,
+  "targets_completed": 0,
+  "minecraft": "HOLD",
+  "brightness": {
+    "E11_NAVE_HUMAN": 99.3,
+    "E11_H1_HUMAN": 127.1,
+    "E11_URBAN_AERIAL": 101.07
+  },
+  "review_jpg_sha256": "07e7d1ad3e40cd24c446df5d57bc382a2f7de7b210438b5d3ced3fc709945b87",
+  "image_validity": "VALID_CANDIDATE"
+}
