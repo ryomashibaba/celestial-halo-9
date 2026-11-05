@@ -1,0 +1,126 @@
+name: HALO-9 R4-E8 isolated native inhabited civic canyon
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-e8-lived-spine-public-city-20261105
+    paths:
+      - .github/workflows/halo9-r4-e8-lived-spine-native.yml
+      - studies/M3D-1S/J7/R33-S27/D48_R4_E8/author_lived_spine.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r4-e8-lived-spine
+  cancel-in-progress: false
+jobs:
+  native_research:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-r4-e8-lived-spine-public-city-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    env:
+      STUDY: studies/M3D-1S/J7/R33-S27/D48_R4_E8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify independent research Python author without changing historical assets
+        run: |
+          set -euo pipefail
+          python3 -m py_compile "$STUDY/author_lived_spine.py"
+          if grep -E 'bpy\.ops\.wm\.open_mainfile|E7_CIVIC_CANYON_INHABITED_ARCS_WORKING|E6_INHABITED_FAULT_CITY_WORKING|E4_R0B_WORKING' "$STUDY/author_lived_spine.py"; then
+            echo "Unexpected source file reference"; exit 1
+          fi
+          echo "R4 E8 separated source PASS"
+      - name: Install isolated Blender and local image compositor
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-pil
+          blender --version | head -n 2
+      - name: Author genuinely editable BLEND and render three independent visual gates
+        run: |
+          set -euo pipefail
+          mkdir -p "$STUDY/e8_native"
+          set -o pipefail
+          timeout 1650s blender --background --threads 2 --python "$STUDY/author_lived_spine.py" -- --output "$STUDY/e8_native" 2>&1 | tee "$STUDY/e8_native/BLENDER_EXECUTION.log"
+          test -s "$STUDY/e8_native/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend"
+          test -s "$STUDY/e8_native/renders/human_public_interior.png"
+          test -s "$STUDY/e8_native/renders/human_sky_district.png"
+          test -s "$STUDY/e8_native/renders/urban_aerial.png"
+      - name: Independent Blender reopen and exact render-size check
+        run: |
+          set -euo pipefail
+          cat >/tmp/e8_independent.py <<'PY'
+          import bpy,hashlib,json,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath)
+          scene=bpy.context.scene
+          assert p.name=='E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend' and p.is_file()
+          assert scene['minecraft_write']=='FORBIDDEN'
+          assert scene['official_coordinates_verified'] is False
+          assert scene['formal_art_adoption'] is False
+          assert scene['completed_targets']==0
+          assert len(bpy.data.collections['30_TARGETS_REGISTRY_ONLY'].objects)==30
+          count=sum(x.type=='MESH' for x in bpy.data.objects)
+          assert count>150, count
+          for n in ('human_public_interior','human_sky_district','urban_aerial'):
+            assert bpy.data.objects.get(n) is not None
+            assert bpy.data.objects[n].type=='CAMERA'
+            f=p.parent/'renders'/(n+'.png')
+            assert f.is_file() and f.stat().st_size>5000
+            with f.open('rb') as handle:head=handle.read(24)
+            assert head[:8]==bytes.fromhex('89504e470d0a1a0a')
+            assert struct.unpack('>II',head[16:24])==(960,640)
+          info={'schema':'halo9-r4-e8-independent-reopen',
+            'status':'TRUE_BLEND_AND_THREE_NATIVE_PNG_REOPEN_PASS',
+            'art':'UNREVIEWED_NO_PASS',
+            'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),
+            'mesh_count':count,'formal_adoption':False,
+            'completed_targets':0,'minecraft':'HOLD'}
+          (p.parent/'INDEPENDENT_REOPEN.json').write_text(json.dumps(info,indent=2))
+          print('R4_E8_REAL_NATIVE_REOPEN_PASS',json.dumps(info),flush=True)
+          PY
+          blender --background --threads 2 "$STUDY/e8_native/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend" --python /tmp/e8_independent.py
+      - name: Persist original editable research and contact sheet as separate unapproved evidence
+        run: |
+          set -euo pipefail
+          mkdir -p "$STUDY/e8_evidence"
+          python3 - <<'PY'
+          import os,gzip,json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          root=Path(os.environ['STUDY']);native=root/'e8_native';dest=root/'e8_evidence'
+          blend=native/'E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend'
+          with blend.open('rb') as stream,gzip.open(dest/(blend.name+'.gz'),'wb',compresslevel=6) as out:
+            while chunk:=stream.read(1024*1024):out.write(chunk)
+          names=['human_public_interior','human_sky_district','urban_aerial']
+          sheet=Image.new('RGB',(1920,448),(245,245,240))
+          draw=ImageDraw.Draw(sheet)
+          for i,n in enumerate(names):
+            im=Image.open(native/'renders'/(n+'.png')).convert('RGB')
+            im=im.resize((640,427),Image.Resampling.LANCZOS)
+            sheet.paste(im,(i*640,21))
+            draw.text((i*640+10,5),n,fill=(25,35,45))
+          sheet.save(dest/'E8_TRUE_THREE_VIEW_ART_UNREVIEWED.jpg',quality=85,optimize=True)
+          report=json.loads((native/'INDEPENDENT_REOPEN.json').read_text())
+          report.update({'formal_adoption':False,'completed_targets':0,
+                         'art':'PENDING_DIRECT_VISUAL_REVIEW_NOT_PASS',
+                         'original_blend_sha256':hashlib.sha256(blend.read_bytes()).hexdigest(),
+                         'evidence_jpeg_sha256':hashlib.sha256((dest/'E8_TRUE_THREE_VIEW_ART_UNREVIEWED.jpg').read_bytes()).hexdigest()})
+          (dest/'E8_TECH_NOT_ART.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          print('E8_NATIVE_VISUAL_EVIDENCE_PERSISTED',json.dumps(report))
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$STUDY/e8_evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m "R4-E8: preserve genuine native BLEND and 3-view evidence ART unreviewed [skip ci]"
+            git push origin "HEAD:refs/heads/research/r33-s27-d48-r4-e8-lived-spine-public-city-20261105"
+          fi
+      - name: Keep full size original images as short-lived separate backup
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-R4-E8-ORIGINAL-BLEND-AND-THREE-REAL-PNG-ART-UNREVIEWED
+          path: studies/M3D-1S/J7/R33-S27/D48_R4_E8/e8_native/
+          retention-days: 7
+          if-no-files-found: warn
