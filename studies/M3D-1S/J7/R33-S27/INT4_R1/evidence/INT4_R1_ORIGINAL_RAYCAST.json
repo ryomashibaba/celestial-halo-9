@@ -1,0 +1,867 @@
+{
+  "method": "ACTUAL_BLENDER_5_2_1_WORLD_RAYCAST_NOT_A_PICTURE_GUESS",
+  "source_blend": "INT4_R1_SOURCE.blend",
+  "results": {
+    "E11_NAVE_HUMAN": {
+      "origin": [
+        15.0,
+        -360.0,
+        73.7
+      ],
+      "center_hit": {
+        "x": 0.0,
+        "y": 0.0,
+        "object": "INT4_W0_PORT_NAVE_WALK",
+        "distance": 5.23,
+        "hit_xyz": [
+          14.84,
+          -355.12,
+          75.58
+        ]
+      },
+      "all_hits": [
+        {
+          "x": -0.75,
+          "y": -0.75,
+          "object": "INT4_NAVE_PUBLIC_CIVIC_CROSS",
+          "distance": 18.14,
+          "hit_xyz": [
+            5.91,
+            -344.32,
+            72.95
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": -0.75,
+          "object": "INT4_NAVE_PUBLIC_CIVIC_CROSS",
+          "distance": 16.23,
+          "hit_xyz": [
+            10.55,
+            -344.41,
+            72.97
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": -0.75,
+          "object": "INT4_NAVE_PUBLIC_CIVIC_CROSS",
+          "distance": 15.54,
+          "hit_xyz": [
+            14.5,
+            -344.48,
+            72.97
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": -0.75,
+          "object": "INT4_NAVE_PLAZA_CIVIC_RIFT",
+          "distance": 81.71,
+          "hit_xyz": [
+            32.33,
+            -280.24,
+            70.0
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": -0.75,
+          "object": "INT4_NAVE_PLAZA_CIVIC_RIFT",
+          "distance": 89.97,
+          "hit_xyz": [
+            55.03,
+            -279.51,
+            70.0
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": -0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 20.38,
+          "hit_xyz": [
+            4.29,
+            -342.91,
+            76.61
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": -0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 17.0,
+          "hit_xyz": [
+            10.08,
+            -343.95,
+            76.4
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": -0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 15.46,
+          "hit_xyz": [
+            14.51,
+            -344.76,
+            76.25
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": -0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 15.13,
+          "hit_xyz": [
+            18.46,
+            -345.47,
+            76.11
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": -0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 15.69,
+          "hit_xyz": [
+            22.39,
+            -346.34,
+            75.94
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.0,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 6.33,
+          "hit_xyz": [
+            11.63,
+            -355.01,
+            75.67
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": 0.0,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 5.53,
+          "hit_xyz": [
+            13.38,
+            -355.07,
+            75.62
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 5.23,
+          "hit_xyz": [
+            14.84,
+            -355.12,
+            75.58
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.0,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 5.31,
+          "hit_xyz": [
+            16.25,
+            -355.18,
+            75.54
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": 0.0,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 5.81,
+          "hit_xyz": [
+            17.79,
+            -355.23,
+            75.5
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 3.82,
+          "hit_xyz": [
+            13.01,
+            -357.28,
+            75.49
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": 0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 3.38,
+          "hit_xyz": [
+            14.04,
+            -357.28,
+            75.46
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": 0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 3.22,
+          "hit_xyz": [
+            14.91,
+            -357.29,
+            75.44
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 3.3,
+          "hit_xyz": [
+            15.77,
+            -357.29,
+            75.42
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": 0.35,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 3.63,
+          "hit_xyz": [
+            16.72,
+            -357.3,
+            75.4
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.75,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 2.75,
+          "hit_xyz": [
+            13.65,
+            -358.33,
+            75.41
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": 0.75,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 2.47,
+          "hit_xyz": [
+            14.35,
+            -358.32,
+            75.39
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": 0.75,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 2.38,
+          "hit_xyz": [
+            14.95,
+            -358.32,
+            75.38
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.75,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 2.43,
+          "hit_xyz": [
+            15.54,
+            -358.31,
+            75.36
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": 0.75,
+          "object": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 2.65,
+          "hit_xyz": [
+            16.2,
+            -358.31,
+            75.35
+          ]
+        }
+      ]
+    },
+    "E11_H1_HUMAN": {
+      "origin": [
+        760.0,
+        270.0,
+        438.7
+      ],
+      "center_hit": {
+        "x": 0.0,
+        "y": 0.0,
+        "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+        "distance": 8.44,
+        "hit_xyz": [
+          760.38,
+          278.04,
+          441.24
+        ]
+      },
+      "all_hits": [
+        {
+          "x": -0.75,
+          "y": -0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 11.12,
+          "hit_xyz": [
+            755.36,
+            280.06,
+            437.78
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": -0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.09,
+          "hit_xyz": [
+            758.28,
+            278.89,
+            437.87
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": -0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 8.09,
+          "hit_xyz": [
+            760.38,
+            278.04,
+            437.94
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": -0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 7.67,
+          "hit_xyz": [
+            762.16,
+            277.33,
+            438.0
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": -0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 7.72,
+          "hit_xyz": [
+            763.87,
+            276.64,
+            438.06
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": -0.35,
+          "object": "INT4_H1_PUBLIC_BOULEVARD",
+          "distance": 14.68,
+          "hit_xyz": [
+            753.52,
+            283.1,
+            440.13
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": -0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.19,
+          "hit_xyz": [
+            758.13,
+            278.95,
+            439.69
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": -0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 8.1,
+          "hit_xyz": [
+            760.38,
+            278.04,
+            439.6
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": -0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 7.68,
+          "hit_xyz": [
+            762.26,
+            277.29,
+            439.52
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": -0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 7.76,
+          "hit_xyz": [
+            764.07,
+            276.57,
+            439.45
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.0,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 12.18,
+          "hit_xyz": [
+            754.52,
+            280.4,
+            441.89
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": 0.0,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.65,
+          "hit_xyz": [
+            757.98,
+            279.01,
+            441.51
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 8.44,
+          "hit_xyz": [
+            760.38,
+            278.04,
+            441.24
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.0,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 7.97,
+          "hit_xyz": [
+            762.37,
+            277.25,
+            441.02
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": 0.0,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 8.04,
+          "hit_xyz": [
+            764.26,
+            276.49,
+            440.81
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 13.41,
+          "hit_xyz": [
+            754.02,
+            280.6,
+            444.33
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": 0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 10.55,
+          "hit_xyz": [
+            757.8,
+            279.08,
+            443.6
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": 0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.18,
+          "hit_xyz": [
+            760.38,
+            278.04,
+            443.1
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 8.6,
+          "hit_xyz": [
+            762.49,
+            277.2,
+            442.69
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": 0.35,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 8.6,
+          "hit_xyz": [
+            764.47,
+            276.41,
+            442.31
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.37,
+          "hit_xyz": [
+            756.0,
+            276.53,
+            444.09
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": 0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.07,
+          "hit_xyz": [
+            758.19,
+            276.81,
+            444.41
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": 0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.3,
+          "hit_xyz": [
+            760.34,
+            277.08,
+            444.73
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.8,
+          "hit_xyz": [
+            762.65,
+            277.14,
+            444.87
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": 0.75,
+          "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+          "distance": 9.63,
+          "hit_xyz": [
+            764.74,
+            276.3,
+            444.24
+          ]
+        }
+      ]
+    },
+    "E11_URBAN_AERIAL": {
+      "origin": [
+        2150.0,
+        -2700.0,
+        1850.0
+      ],
+      "center_hit": {
+        "x": 0.0,
+        "y": 0.0,
+        "object": "W0_NORTH_FRACTURED_RANGE",
+        "distance": 4501.18,
+        "hit_xyz": [
+          -306.07,
+          678.6,
+          172.68
+        ]
+      },
+      "all_hits": [
+        {
+          "x": -0.75,
+          "y": -0.75,
+          "object": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 3365.51,
+          "hit_xyz": [
+            -193.42,
+            -1149.13,
+            -2.0
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": -0.75,
+          "object": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 3251.14,
+          "hit_xyz": [
+            230.89,
+            -840.68,
+            -2.0
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": -0.75,
+          "object": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 3218.58,
+          "hit_xyz": [
+            602.17,
+            -570.79,
+            -2.0
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": -0.75,
+          "object": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 3251.14,
+          "hit_xyz": [
+            973.44,
+            -300.89,
+            -2.0
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": -0.75,
+          "object": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 3365.51,
+          "hit_xyz": [
+            1397.75,
+            7.56,
+            -2.0
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": -0.35,
+          "object": "W0_GROUND_BASIN",
+          "distance": 4141.23,
+          "hit_xyz": [
+            -897.44,
+            -606.03,
+            -15.0
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": -0.35,
+          "object": "INT4_NAVE_WEST_CIVIC_LIBRARY_floor",
+          "distance": 3790.63,
+          "hit_xyz": [
+            -236.62,
+            -346.0,
+            80.37
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": -0.35,
+          "object": "W0_GROUND_BASIN",
+          "distance": 3953.2,
+          "hit_xyz": [
+            100.45,
+            119.38,
+            -15.0
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": -0.35,
+          "object": "W0_GROUND_BASIN",
+          "distance": 3994.91,
+          "hit_xyz": [
+            566.13,
+            457.91,
+            -15.0
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": -0.35,
+          "object": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 4112.37,
+          "hit_xyz": [
+            1105.67,
+            820.09,
+            -2.0
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.0,
+          "object": "W0_WEST_BASALT_ESCARPMENT",
+          "distance": 4535.86,
+          "hit_xyz": [
+            -1310.32,
+            -250.59,
+            237.37
+          ]
+        },
+        {
+          "x": -0.35,
+          "y": 0.0,
+          "object": "W0_WEST_BASALT_ESCARPMENT",
+          "distance": 4680.63,
+          "hit_xyz": [
+            -925.84,
+            377.21,
+            124.24
+          ]
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "object": "W0_NORTH_FRACTURED_RANGE",
+          "distance": 4501.18,
+          "hit_xyz": [
+            -306.07,
+            678.6,
+            172.68
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.0,
+          "object": "INT4_H1_MARKET_CIVIC_COURT_wall_1",
+          "distance": 3656.9,
+          "hit_xyz": [
+            604.48,
+            327.6,
+            501.69
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": 0.0,
+          "object": "W0_NORTH_FRACTURED_RANGE",
+          "distance": 4357.61,
+          "hit_xyz": [
+            937.22,
+            1188.16,
+            300.74
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.35,
+          "object": "SKY",
+          "distance": null,
+          "hit_xyz": null
+        },
+        {
+          "x": -0.35,
+          "y": 0.35,
+          "object": "SKY",
+          "distance": null,
+          "hit_xyz": null
+        },
+        {
+          "x": 0.0,
+          "y": 0.35,
+          "object": "W0_NORTH_FRACTURED_RANGE",
+          "distance": 4972.08,
+          "hit_xyz": [
+            -665.79,
+            1173.42,
+            512.26
+          ]
+        },
+        {
+          "x": 0.35,
+          "y": 0.35,
+          "object": "W0_NORTH_FRACTURED_RANGE",
+          "distance": 4600.79,
+          "hit_xyz": [
+            107.99,
+            1236.62,
+            625.08
+          ]
+        },
+        {
+          "x": 0.75,
+          "y": 0.35,
+          "object": "INT4_M247_EAST_CHIRAL_INHABITED_QUARTERS_external_civic_street_3",
+          "distance": 3741.71,
+          "hit_xyz": [
+            1028.83,
+            738.0,
+            889.0
+          ]
+        },
+        {
+          "x": -0.75,
+          "y": 0.75,
+          "object": "SKY",
+          "distance": null,
+          "hit_xyz": null
+        },
+        {
+          "x": -0.35,
+          "y": 0.75,
+          "object": "SKY",
+          "distance": null,
+          "hit_xyz": null
+        },
+        {
+          "x": 0.0,
+          "y": 0.75,
+          "object": "SKY",
+          "distance": null,
+          "hit_xyz": null
+        },
+        {
+          "x": 0.35,
+          "y": 0.75,
+          "object": "SKY",
+          "distance": null,
+          "hit_xyz": null
+        },
+        {
+          "x": 0.75,
+          "y": 0.75,
+          "object": "INT4_M247_BETA_DISPLACED_SUSPENDED_CITY_urban_occupied_stratum_1",
+          "distance": 4049.34,
+          "hit_xyz": [
+            855.94,
+            1092.75,
+            1269.0
+          ]
+        }
+      ]
+    }
+  }
+}
