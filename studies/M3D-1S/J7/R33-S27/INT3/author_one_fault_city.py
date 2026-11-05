@@ -242,7 +242,7 @@ def civic_room(label,x,y,z,w,d,h,opening_side,material):
         if i==opening_side:continue
         a=Vector(shape[i]);b=Vector(shape[(i+1)%6])
         v=(b-a);ln=v.length
-        n=Vector((-v.y/ln,v.x/ln,0))
+        n=Vector((-v.y/ln,v.x/ln))
         wall=[tuple(a),tuple(b),tuple(b+n*7),tuple(a+n*7)]
         prism(label+'_INHABITABLE_WALL_'+str(i),wall,z,z+h,material)
     # Independent non-flat roof with central skylight and separated folds
