@@ -1,0 +1,13 @@
+{
+  "schema": "halo9-e12-independent-native-v1",
+  "status": "TRUE_BLENDER_521_SCULPTED_COPY_AND_PNGS_REOPENED",
+  "source_sha256": "098c46fec0e61b474aba6aab4d2f51a299391937b8c29c6820278565f22a044f",
+  "new_blend_sha256": "ba3363c0908bbf0b4d61afb1d4497af8696364c60b97eac754f351249ccb3c19",
+  "removed_rejected_meshes": 285,
+  "cavities": 5,
+  "formal_art_adoptions": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_APPROVED",
+  "image_sha256": "4c7f3e47d1a5af0b56aa957075896001eae1aa2ee70c922410fa4c89ee954974"
+}
