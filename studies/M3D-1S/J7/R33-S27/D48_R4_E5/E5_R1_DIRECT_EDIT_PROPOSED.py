@@ -3,6 +3,12 @@ Requires genuine R0B human-view review before production use.
 This repositions obstructing NAVE civic forum inside the west urban bank.
 Research coordinates only. Does not touch E2/E3/main/Minecraft.
 """
+
+# R1_RELOCATION_SAFETY_HOLD: source-derived geometry predicts severe collisions after x=-214m.
+# The original proposed edit is preserved in repository history, but execution is prohibited
+# until a genuinely reviewed Blender image and a collision-free spatial redesign exist.
+raise RuntimeError('R1_RELOCATION_SAFETY_HOLD: forum shift -214m overlaps existing NAVE west substructure and public galleries; do not execute original proposal.')
+
 import bpy, sys, json, hashlib
 from pathlib import Path
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
