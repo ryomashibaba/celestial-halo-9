@@ -1,0 +1,132 @@
+name: HALO9 INT2 R1 actual same-BLEND macro resculpt and 3-view evaluation
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int2-inhabited-fault-macro-20261106
+    paths:
+      - studies/M3D-1S/J7/R33-S27/INT2_R1/revise_existing_blend.py
+      - .github/workflows/halo9-int2-r1-direct-revision.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int2-r1-direct-20261106
+  cancel-in-progress: false
+jobs:
+  direct_surgery:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-int2-inhabited-fault-macro-20261106'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 43
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT2_R1
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT2/evidence/HALO9_INT2_INHABITED_FAULT_MACRO.blend.gz
+      SOURCE_SHA: 51615c6cda162a14bf141ce4c90e98d2a0c14a4aafcb6d52fcacf57fb4cbd954
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify original research copy and revision author syntax
+        run: |
+          set -euo pipefail
+          test -s "$SOURCE"
+          mkdir -p "$ROOT/native"
+          gzip -dc "$SOURCE" > /tmp/INT2_R1_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT2_R1_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/revise_existing_blend.py"
+          echo "INT2_R1_PARENT_BLENDER_SHA_VERIFIED"
+      - name: Obtain SHA256-verified Blender 5.2.1
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-blender
+          cd /tmp/halo9-blender
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Actual same-BLEND geometry surgery and original human/aerial renders
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9-blender/blender-5.2.1-linux-x64/blender
+          timeout 1800s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/INT2_R1_SOURCE.blend --python "$ROOT/revise_existing_blend.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/AUTHOR_REVISION.log"
+          grep -F 'INT2_R1_REVISION_FINISHED' "$ROOT/native/AUTHOR_REVISION.log"
+      - name: Independent actual BLEND reopening and PNG/SHA validation
+        run: |
+          set -euo pipefail
+          cat > /tmp/verify_int2_r1.py <<'PY'
+          import bpy,hashlib,json,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath)
+          r=json.loads((p.parent/'INT2_R1_NATIVE_TECH.json').read_text())
+          s=bpy.context.scene
+          assert r['source_sha256']==s['INT2_R1_SOURCE_SHA256']
+          assert p.name=='HALO9_INT2_R1_DIRECT_SCULPTED.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==r['saved_blend_sha256']
+          assert s['CONSTRUCTION']=='HOLD' and s['COMPLETED_TARGETS']==0 and s['FORMAL_ART_ACCEPTED']==0
+          assert r['formal_art_adopted']==0 and r['completed_targets']==0
+          assert r['minecraft']=='HOLD' and r['unchanged_three_camera_matrices']
+          assert len(r['boolean_cut_mesh_polygons'])>=20
+          for name in ('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL'):
+              assert bpy.data.objects[name].type=='CAMERA'
+              f=p.parent/'renders'/(name+'.png')
+              with f.open('rb') as source: head=source.read(24)
+              assert head[:8]==bytes.fromhex('89504e470d0a1a0a')
+              assert struct.unpack('>II',head[16:24])==(1100,825)
+              assert hashlib.sha256(f.read_bytes()).hexdigest()==r['render_hashes'][name]
+          print('INT2_R1_INDEPENDENT_NATIVE_REOPEN_PASS_NOT_ART_APPROVED',flush=True)
+          PY
+          /tmp/halo9-blender/blender-5.2.1-linux-x64/blender --background \
+            --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT2_R1_DIRECT_SCULPTED.blend" \
+            --python /tmp/verify_int2_r1.py 2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F 'INT2_R1_INDEPENDENT_NATIVE_REOPEN_PASS_NOT_ART_APPROVED' "$ROOT/native/INDEPENDENT.log"
+      - name: Preserve native BLEND, fixed human/aerial evidence and image-preflight verdict
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          from pathlib import Path
+          import os,gzip,hashlib,base64,json
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT']);native=root/'native';ev=root/'evidence';ev.mkdir(exist_ok=True)
+          blend=native/'HALO9_INT2_R1_DIRECT_SCULPTED.blend'
+          with blend.open('rb') as source,gzip.open(ev/(blend.name+'.gz'),'wb',compresslevel=6) as dest:
+              while True:
+                  buffer=source.read(1048576)
+                  if not buffer:break
+                  dest.write(buffer)
+          result=Image.new('RGB',(1650,445),(227,224,215))
+          draw=ImageDraw.Draw(result); brightness={}
+          for i,name in enumerate(('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL')):
+              p=Image.open(native/'renders'/(name+'.png')).convert('RGB')
+              brightness[name]=round(sum(ImageStat.Stat(p).mean)/3,2)
+              p.thumbnail((550,411),Image.Resampling.LANCZOS)
+              result.paste(p,(i*550,32))
+              draw.text((i*550+8,9),name,fill=(0,0,0))
+          jpg=ev/'INT2_R1_ACTUAL_THREE_FIXED_CAMERAS_UNREVIEWED.jpg'
+          result.save(jpg,quality=86,optimize=True)
+          (ev/'INT2_R1_ACTUAL_THREE_CAMERAS_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          r=json.loads((native/'INT2_R1_NATIVE_TECH.json').read_text())
+          r['mean_brightness']=brightness
+          r['image_preflight']='VALID_CANDIDATE' if all(v>10 for v in brightness.values()) else 'IMAGE_INVALID'
+          r['evidence_jpg_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          r['art']='UNREVIEWED_NOT_ADOPTED'
+          (ev/'INT2_R1_TECH_NOT_ART.json').write_text(json.dumps(r,indent=2))
+          print('INT2_R1_ACTUAL_IMAGES_ARCHIVED',brightness,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT2 R1: preserve same-scene sculpted BLEND and real unreviewed human/aerial images [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int2-inhabited-fault-macro-20261106
+          fi
+      - name: Temporary native full PNG and debug logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT2-R1-RAW-BLEND-PNG-LOGS
+          path: studies/M3D-1S/J7/R33-S27/INT2_R1/native/
+          retention-days: 7
+          if-no-files-found: warn
