@@ -32,7 +32,8 @@ try:scene.view_layers[0].cycles.use_denoising=False
 except (AttributeError,TypeError):pass
 scene.world.color=(0.48,0.58,0.68)
 scene.view_settings.view_transform='Filmic'
-scene.view_settings.look='Medium High Contrast'
+try:scene.view_settings.look='Medium High Contrast'
+except Exception:pass
 scene.camera=None
 
 def collection(n):
@@ -46,8 +47,10 @@ def material(name,color,metal=0,rough=.65,emission=0,alpha=1):
     bs=m.node_tree.nodes.get('Principled BSDF')
     bs.inputs['Base Color'].default_value=(*color,alpha)
     bs.inputs['Metallic'].default_value=metal;bs.inputs['Roughness'].default_value=rough
-    bs.inputs['Emission'].default_value=(*color,1)
-    bs.inputs['Emission Strength'].default_value=emission
+    socket=bs.inputs.get('Emission Color') or bs.inputs.get('Emission')
+    if socket is not None:socket.default_value=(*color,1)
+    strength_socket=bs.inputs.get('Emission Strength')
+    if strength_socket is not None:strength_socket.default_value=emission
     if alpha<1:m.blend_method='BLEND';bs.inputs['Alpha'].default_value=alpha
     return m
 M={
