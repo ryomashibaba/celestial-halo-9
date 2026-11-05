@@ -20,13 +20,18 @@ for p in [
 (R/'INHERITED_SOURCE_REFS.json').write_text(json.dumps({'verified_main':main,'verified_e10':base,'sources':sources,'scope_limit':'Not a fresh exhaustive audit of every historical individual asset'},indent=2),encoding='utf-8')
 relative=R.relative_to(repo).as_posix()
 paths=sorted(set(git('ls-files','--cached','--others','--exclude-standard','--',relative).decode('utf-8').splitlines()))
+# Stable literal LF bytes in Git, including files written by Windows Blender/Python.
+for p in paths:
+    f=repo/p
+    if f.suffix in ['.py','.json','.md','.txt'] or f.name in ['.gitattributes','.gitignore']:
+        f.write_bytes(f.read_bytes().replace(b'\r\n',b'\n'))
 rows=[]
 for p in paths:
     f=repo/p
     if f.name=='SHA256SUMS.txt':continue
     assert f.stat().st_size<50*1024*1024
     rows.append(hashlib.sha256(f.read_bytes()).hexdigest()+'  '+f.relative_to(R).as_posix())
-(R/'SHA256SUMS.txt').write_text('\n'.join(rows)+'\n',encoding='utf-8')
+(R/'SHA256SUMS.txt').write_bytes(('\n'.join(rows)+'\n').encode('utf-8'))
 for row in rows:
     digest,p=row.split('  ',1);assert hashlib.sha256((R/p).read_bytes()).hexdigest()==digest
 print('DELIVERY_SHA256_PASS',len(rows),'FILES')
