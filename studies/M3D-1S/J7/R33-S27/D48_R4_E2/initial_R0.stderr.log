@@ -1,0 +1,4 @@
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R33-S27\D48_R4_E2\atelier.py:25: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.diffuse_color=(*color,1);m.use_nodes=True
+C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R33-S27\D48_R4_E2\atelier.py:175: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.color=(.3,.3,.3);scene.world.use_nodes=True

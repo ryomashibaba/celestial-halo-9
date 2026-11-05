@@ -1,0 +1,329 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 85,
+      "sha256": "d963214e014bd26fdf3cacba9568e3ff7711eddc91ec82346c1578dba958eb94"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 31,
+      "sha256": "5aeb7c2b67e344641942e7c16eb426114ba9103ad08e79472ce7f4abb732368b"
+    },
+    {
+      "path": "30_TARGETS.json",
+      "bytes": 7331,
+      "sha256": "75b6b02d1dcabd9d5f70d80639f5d9f572d3f199a725842c3c66dd8d5a340d51"
+    },
+    {
+      "path": "atelier.py",
+      "bytes": 23173,
+      "sha256": "95ed8ae4e2d4776c7561300e995f3878e94f84b724a3d10613c8c7f8766db872"
+    },
+    {
+      "path": "E2_WORKING.blend",
+      "bytes": 137101,
+      "sha256": "2c23d865c3009376be355e5f6f4f75613c3b06ce2faf283e46757865b7da5a0c"
+    },
+    {
+      "path": "edit1_R1.log",
+      "bytes": 631,
+      "sha256": "bf833006e5bc05f40e2ba795d42d2fdfaf3856c7e017a97d0af3737f0a56cdbc"
+    },
+    {
+      "path": "edit1_R1.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "edit1_R1_resources.json",
+      "bytes": 144,
+      "sha256": "2683fd3d38f1a6c3594bf03f530b7b8a091728ea4fa741b021125b5fa043a777"
+    },
+    {
+      "path": "edit2_R2.log",
+      "bytes": 631,
+      "sha256": "e8a6cf97b6e252c873dbf7bdc0c62cfd3f56069e09a3b36cfa2067f846fd779f"
+    },
+    {
+      "path": "edit2_R2.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "edit2_R2_resources.json",
+      "bytes": 144,
+      "sha256": "73994c9133bb2bb999767e8a05cbf7372c44cee5c1f59360406e1d18ffcb97d0"
+    },
+    {
+      "path": "floor_finish_R2.log",
+      "bytes": 631,
+      "sha256": "3f5c23f7cc066d11a0ded28ac9fa73e7208e72b9152c5f4998f3c126ce35bf75"
+    },
+    {
+      "path": "floor_finish_R2.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "floor_finish_R2_resources.json",
+      "bytes": 144,
+      "sha256": "47b056f987aba9ff689d1d083fd52ddb82c90096b3e435dafab295cd46ce9922"
+    },
+    {
+      "path": "initial_R0.log",
+      "bytes": 489,
+      "sha256": "3a15d35adf433f53904fa537c3b2a6d01e079cf91b0e7f54e7c280cc5742534e"
+    },
+    {
+      "path": "initial_R0.stderr.log",
+      "bytes": 494,
+      "sha256": "1f2f622abb629df076d2734092f42d4b9078d6298b450a2410980dc79ede4706"
+    },
+    {
+      "path": "initial_R0_resources.json",
+      "bytes": 144,
+      "sha256": "f00bd1a12cce5d9eb8eb881c0f5a41a87d5f7c59175dc3462944466fd575182a"
+    },
+    {
+      "path": "inspect_R2.log",
+      "bytes": 3522,
+      "sha256": "3f9f94810b4f279dea749e50f5b18e3004bcd1f322391051dba539dd2b44119b"
+    },
+    {
+      "path": "inspect_R2.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "inspect_R2_resources.json",
+      "bytes": 144,
+      "sha256": "47b056f987aba9ff689d1d083fd52ddb82c90096b3e435dafab295cd46ce9922"
+    },
+    {
+      "path": "package_review.py",
+      "bytes": 7783,
+      "sha256": "46c2e4c83b3117fc2b18dcc1a57eefa7168eee96005b9cf9f4262e3632649f71"
+    },
+    {
+      "path": "PRODUCTION_INSPECTION.json",
+      "bytes": 3300,
+      "sha256": "57accf04009c8718cdeafb093fe39338cf35b7032b251bbc6dcc9542313c0c77"
+    },
+    {
+      "path": "R0.blend",
+      "bytes": 133788,
+      "sha256": "0f934f9acbe425a3edc2bafde7ffcfea9fb6cbfc660b363c9f4312280158fc2e"
+    },
+    {
+      "path": "R0_geometry.json",
+      "bytes": 10804,
+      "sha256": "0882bfef14dcd16ccf88e8f8b1e62a6d7e9bf42a62f6d0f762e431d06dd9bd4a"
+    },
+    {
+      "path": "R1.blend",
+      "bytes": 133643,
+      "sha256": "8fcba1c29bb8bd1f9668dd1dc9db6816718a6c453f9d9426372cd77d09f77f6d"
+    },
+    {
+      "path": "R1_geometry.json",
+      "bytes": 10804,
+      "sha256": "51004a8b058ee90965d66babf986358f149ceae069ccf25af3c0241db05289cf"
+    },
+    {
+      "path": "R2.blend",
+      "bytes": 137101,
+      "sha256": "2c23d865c3009376be355e5f6f4f75613c3b06ce2faf283e46757865b7da5a0c"
+    },
+    {
+      "path": "R2_geometry.json",
+      "bytes": 10804,
+      "sha256": "9e3e0283512716de7d8f9bcb6502168e331047b5e74dc187ae84ed11b1052538"
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 6315,
+      "sha256": "5ce214fbefa1d679c8014c1fe06992b1c5a4e57a575af58cf3363b45595b4058"
+    },
+    {
+      "path": "render_R0.log",
+      "bytes": 1499,
+      "sha256": "360fc996405dea9665755eec86298c027a0961a97df764513fc79d251e5d7fc7"
+    },
+    {
+      "path": "render_R0.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "render_R0_resources.json",
+      "bytes": 2896,
+      "sha256": "729641494567ed5e05af04d962da90ff7ff7cf2ec645d1ce6348b8cdbf409761"
+    },
+    {
+      "path": "render_R1.log",
+      "bytes": 1499,
+      "sha256": "2c5fdca52ec3856a95e50789e62b89c8245f729310f6eacb29818edbfa3ccda9"
+    },
+    {
+      "path": "render_R1.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "render_R1_resources.json",
+      "bytes": 2372,
+      "sha256": "2f461797b05ead5dabd18184d35d1a3e775c4065cc8d180fd7bed01b920115e4"
+    },
+    {
+      "path": "render_R2.log",
+      "bytes": 1499,
+      "sha256": "8c29084f1062671eb6febfab35aea979fab1e77ac51e902ab04807d9c4404e48"
+    },
+    {
+      "path": "render_R2.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "render_R2_draft.log",
+      "bytes": 1499,
+      "sha256": "0b7c4f669acfc66b7825b2e3488cc560c86ec8614c0cffdcd33da28ff623590d"
+    },
+    {
+      "path": "render_R2_draft.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "render_R2_draft_resources.json",
+      "bytes": 2138,
+      "sha256": "89f74efc368988af07f1ffbb3975aff2edcb9c272fc6538bd9d1e4d7234170b6"
+    },
+    {
+      "path": "render_R2_resources.json",
+      "bytes": 2275,
+      "sha256": "78481fa843e5e166965a8cbbe83c49c0217d0766341ed141bb18027173558a2e"
+    },
+    {
+      "path": "renders/R0/central_front.png",
+      "bytes": 567238,
+      "sha256": "495f4dade199529681da3889c756ad9018b84ccf78f29dbc343ee56c2d189762"
+    },
+    {
+      "path": "renders/R0/central_rear.png",
+      "bytes": 563159,
+      "sha256": "4b2eded7127ad885e49156caa7872b00c58746f9e38e45684f29aa6da6dd0938"
+    },
+    {
+      "path": "renders/R0/east_seafront.png",
+      "bytes": 572907,
+      "sha256": "7b60d0080850f6ebefad166fc909620c72e36c5cfe5354e50e9bc06bb5373dda"
+    },
+    {
+      "path": "renders/R0/human_public_interior.png",
+      "bytes": 547683,
+      "sha256": "9e64af68c8bc3a54025871ad6b91a71a0cd971cfa1749ce7890f4e59c57a00e6"
+    },
+    {
+      "path": "renders/R0/human_sky_district.png",
+      "bytes": 397885,
+      "sha256": "1c84d36fefd2f806dda9f0155472f4c6d783262e1ed9e63ec9b4f27a17841229"
+    },
+    {
+      "path": "renders/R0/human_street.png",
+      "bytes": 575911,
+      "sha256": "43c20ac7e72f5f7e1d925c97b1a37e19060f4699d14edf47484a030d253fef3f"
+    },
+    {
+      "path": "renders/R0/urban_aerial.png",
+      "bytes": 572791,
+      "sha256": "feb86efd43528afc98666273437732a555c8f3cc4b9655195df16611ae57e257"
+    },
+    {
+      "path": "renders/R1/central_front.png",
+      "bytes": 580551,
+      "sha256": "4f2dcad1d55312315c46e01c58e2eb3cf98be8701a7d12cfa1e73fb7c13a9170"
+    },
+    {
+      "path": "renders/R1/central_rear.png",
+      "bytes": 566900,
+      "sha256": "19bbf2d4838a28e820f1ef270575b8026d414698412af04c41f10d50cff6fe23"
+    },
+    {
+      "path": "renders/R1/east_seafront.png",
+      "bytes": 584911,
+      "sha256": "e54ca9fda93a41c681ab38fc9521f3861c81a3516b0b19a6ab5105d2f5b21e34"
+    },
+    {
+      "path": "renders/R1/human_public_interior.png",
+      "bytes": 582751,
+      "sha256": "a94de48304117ff4419e477abfbb649a51ebd26e68a7ead45861ac799c196b8d"
+    },
+    {
+      "path": "renders/R1/human_sky_district.png",
+      "bytes": 557399,
+      "sha256": "fd42099a58488e57b78d6b0609826abc776b3054f3e858ef2c830738c0dc9fde"
+    },
+    {
+      "path": "renders/R1/human_street.png",
+      "bytes": 576180,
+      "sha256": "47b3f34a8975312510b48ca6bd74a40f57d4964f676b952a86d75d12a1e4bf11"
+    },
+    {
+      "path": "renders/R1/urban_aerial.png",
+      "bytes": 576366,
+      "sha256": "808d87c4b8b41174df1141ead1cbe22a6887156e47bb3012b25974ca2b5c353e"
+    },
+    {
+      "path": "renders/R2/central_front.png",
+      "bytes": 587042,
+      "sha256": "1b30a2907ea819dc6581a1ff3e51e2c37460760b4328d3987407a286897e6499"
+    },
+    {
+      "path": "renders/R2/central_rear.png",
+      "bytes": 578408,
+      "sha256": "d6ba766bf034bbae27103fb619bb009d2a1b8861fd4af2084f6a4c748f49e0b1"
+    },
+    {
+      "path": "renders/R2/east_seafront.png",
+      "bytes": 585953,
+      "sha256": "05e3d859b968c48996c62b9a3a7a83b61697d0ba4d775b2a7ae1a9fec3d76fd1"
+    },
+    {
+      "path": "renders/R2/human_public_interior.png",
+      "bytes": 591863,
+      "sha256": "48445550024b221628257ad1236195103e78161174e98bba782f72d61f784e29"
+    },
+    {
+      "path": "renders/R2/human_sky_district.png",
+      "bytes": 563003,
+      "sha256": "12bfa6b96dc95c5ee71b6e406e93ad069cb970359570ac18f918815459e2c928"
+    },
+    {
+      "path": "renders/R2/human_street.png",
+      "bytes": 583426,
+      "sha256": "ce61db227aa24c4b1f3f46506d381c09a93b04b338d78b57b2e2e175db25e170"
+    },
+    {
+      "path": "renders/R2/urban_aerial.png",
+      "bytes": 580705,
+      "sha256": "4da2722a64ebb0c024142da12093929d3ca954d7c22c2d9616526ff9f15a7be0"
+    },
+    {
+      "path": "review.html",
+      "bytes": 7106,
+      "sha256": "244d0ddd9e4773df193d1d0c738110f9cc93a67e0635d13092e45cc41b87f7f9"
+    },
+    {
+      "path": "REVIEW.json",
+      "bytes": 13162,
+      "sha256": "730ddf19e21197bc0a8a4185658f65b831b8169ccbdfce73103ad909001a7a67"
+    },
+    {
+      "path": "run_blender.ps1",
+      "bytes": 1806,
+      "sha256": "33a57c6c0c97cf2dac5e8a36c6458718c4e6035008e47a44cb11019552226550"
+    }
+  ]
+}

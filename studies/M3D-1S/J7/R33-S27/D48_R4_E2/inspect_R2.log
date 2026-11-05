@@ -1,0 +1,152 @@
+00:01.687  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R33-S27\D48_R4_E2\E2_WORKING.blend"
+{
+  "scene": "E2_WORKING.blend",
+  "status": "PRODUCTION_INSPECTION_NOT_E1B_RETEST_NOT_ART_PASS",
+  "meshes": 63,
+  "cameras": {
+    "urban_aerial": {
+      "eye": [
+        7900.0,
+        -10000.0,
+        7200.0
+      ],
+      "support": null,
+      "eye_above_support_m": null,
+      "forward_hit": null,
+      "forward_distance_m": null
+    },
+    "central_front": {
+      "eye": [
+        200.0,
+        -6800.0,
+        2000.0
+      ],
+      "support": null,
+      "eye_above_support_m": null,
+      "forward_hit": "ALPHA_WEST_INHABITED_SHELL",
+      "forward_distance_m": 7654.068
+    },
+    "central_rear": {
+      "eye": [
+        -1800.0,
+        6300.0,
+        2400.0
+      ],
+      "support": null,
+      "eye_above_support_m": null,
+      "forward_hit": "ALPHA_WEST_INHABITED_SHELL",
+      "forward_distance_m": 5458.464
+    },
+    "east_seafront": {
+      "eye": [
+        6400.0,
+        -2300.0,
+        1500.0
+      ],
+      "support": null,
+      "eye_above_support_m": null,
+      "forward_hit": "ALPHA_EAST_DISPLACED_SHELL",
+      "forward_distance_m": 5991.13
+    },
+    "human_street": {
+      "eye": [
+        0.0,
+        -1450.0,
+        16.649999618530273
+      ],
+      "support": "GROUND_PROCESSIONAL_RISE",
+      "eye_above_support_m": 1.65,
+      "forward_hit": "TRANSVERSE_SKY_TRANSIT",
+      "forward_distance_m": 2402.969
+    },
+    "human_public_interior": {
+      "eye": [
+        0.0,
+        -500.0,
+        131.64999389648438
+      ],
+      "support": "GROUND_PROCESSIONAL_RISE",
+      "eye_above_support_m": 1.65,
+      "forward_hit": "ALPHA_WEST_INHABITED_SHELL",
+      "forward_distance_m": 1375.497
+    },
+    "human_sky_district": {
+      "eye": [
+        -500.0,
+        -140.0,
+        1121.6500244140625
+      ],
+      "support": "H1_PUBLIC_PROMENADE",
+      "eye_above_support_m": 1.65,
+      "forward_hit": "W0_NORTH_MOUNTAIN_STUDY",
+      "forward_distance_m": 4092.302
+    }
+  },
+  "central_bounds": {
+    "ALPHA_WEST_INHABITED_SHELL": {
+      "min_m": [
+        -1580.199951171875,
+        -902.5454711914062,
+        0.0
+      ],
+      "max_m": [
+        289.3999938964844,
+        1270.0,
+        1870.0
+      ],
+      "size_m": [
+        1869.5999450683594,
+        2172.5454711914062,
+        1870.0
+      ],
+      "vertices": 152,
+      "polygons": 85
+    },
+    "ALPHA_EAST_DISPLACED_SHELL": {
+      "min_m": [
+        -13.800000190734863,
+        -443.77545166015625,
+        1010.0
+      ],
+      "max_m": [
+        1557.0,
+        1188.0999755859375,
+        2590.0
+      ],
+      "size_m": [
+        1570.8000001907349,
+        1631.8754272460938,
+        1580.0
+      ],
+      "vertices": 125,
+      "polygons": 69
+    },
+    "BETA_OBLIQUE_SPINE": {
+      "min_m": [
+        -480.0,
+        850.0,
+        0.0
+      ],
+      "max_m": [
+        910.0,
+        1552.22216796875,
+        2990.0
+      ],
+      "size_m": [
+        1390.0,
+        702.22216796875,
+        2990.0
+      ],
+      "vertices": 54,
+      "polygons": 27
+    }
+  },
+  "scope_count": 30,
+  "art": "REJECT",
+  "city_master_complete": false,
+  "minecraft": "HOLD",
+  "coordinate_system": "UNREGISTERED_RESEARCH_METRES"
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

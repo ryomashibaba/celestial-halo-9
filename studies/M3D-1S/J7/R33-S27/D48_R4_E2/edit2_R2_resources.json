@@ -1,0 +1,8 @@
+{
+  "samples": [],
+  "device": "CPU",
+  "cpu_threads": 2,
+  "exit_code": 0,
+  "priority": "BelowNormal",
+  "peak_sampled_ram_mb": 0.0
+}

@@ -1,0 +1,105 @@
+{
+  "device": "CPU",
+  "priority": "BelowNormal",
+  "cpu_threads": 2,
+  "samples": [
+    {
+      "cpu_s": 8.625,
+      "elapsed_s": 5.2,
+      "priority": "BelowNormal",
+      "ram_mb": 601.9
+    },
+    {
+      "cpu_s": 18.28125,
+      "elapsed_s": 10.2,
+      "priority": "BelowNormal",
+      "ram_mb": 271.2
+    },
+    {
+      "cpu_s": 28.171875,
+      "elapsed_s": 15.2,
+      "priority": "BelowNormal",
+      "ram_mb": 601.6
+    },
+    {
+      "cpu_s": 38.078125,
+      "elapsed_s": 20.3,
+      "priority": "BelowNormal",
+      "ram_mb": 697.5
+    },
+    {
+      "cpu_s": 47.953125,
+      "elapsed_s": 25.3,
+      "priority": "BelowNormal",
+      "ram_mb": 645.4
+    },
+    {
+      "cpu_s": 57.859375,
+      "elapsed_s": 30.3,
+      "priority": "BelowNormal",
+      "ram_mb": 724.2
+    },
+    {
+      "cpu_s": 67.6875,
+      "elapsed_s": 35.3,
+      "priority": "BelowNormal",
+      "ram_mb": 368.2
+    },
+    {
+      "cpu_s": 77.515625,
+      "elapsed_s": 40.3,
+      "priority": "BelowNormal",
+      "ram_mb": 724.3
+    },
+    {
+      "cpu_s": 87.4375,
+      "elapsed_s": 45.3,
+      "priority": "BelowNormal",
+      "ram_mb": 368.2
+    },
+    {
+      "cpu_s": 97.421875,
+      "elapsed_s": 50.3,
+      "priority": "BelowNormal",
+      "ram_mb": 740.8
+    },
+    {
+      "cpu_s": 107.21875,
+      "elapsed_s": 55.4,
+      "priority": "BelowNormal",
+      "ram_mb": 368.3
+    },
+    {
+      "cpu_s": 117.234375,
+      "elapsed_s": 60.4,
+      "priority": "BelowNormal",
+      "ram_mb": 368.2
+    },
+    {
+      "cpu_s": 127.09375,
+      "elapsed_s": 65.4,
+      "priority": "BelowNormal",
+      "ram_mb": 673.1
+    },
+    {
+      "cpu_s": 137.0,
+      "elapsed_s": 70.4,
+      "priority": "BelowNormal",
+      "ram_mb": 368.3
+    },
+    {
+      "cpu_s": 146.984375,
+      "elapsed_s": 75.4,
+      "priority": "BelowNormal",
+      "ram_mb": 368.3
+    },
+    {
+      "cpu_s": 156.890625,
+      "elapsed_s": 80.4,
+      "priority": "BelowNormal",
+      "ram_mb": 740.9
+    }
+  ],
+  "exit_code": 0,
+  "peak_sampled_ram_mb": 740.9
+}

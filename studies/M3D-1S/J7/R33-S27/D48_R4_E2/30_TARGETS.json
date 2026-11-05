@@ -1,0 +1,332 @@
+[
+  {
+    "target": "M247-C",
+    "status": "INITIAL_MASS_PUBLIC_AND_RESIDENTIAL_STUDY_UNFINISHED",
+    "marker": "M247-C__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "W0",
+    "status": "ROUGH_TERRAIN_ONLY_UNFINISHED",
+    "marker": "W0__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      -5
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "H1",
+    "status": "PARTIAL_COURTYARD_STUDY_UNFINISHED",
+    "marker": "H1__STATUS_MARKER",
+    "research_position": [
+      -500,
+      0,
+      1120
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "H2",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "H2__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "H3",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "H3__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "H4",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "H4__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "H5",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "H5__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "H6",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "H6__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB01",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB01__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB02",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB02__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB03",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB03__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB04",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB04__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB05",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB05__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB06",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB06__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB07",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB07__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB08",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB08__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB09",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB09__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB10",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB10__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB11",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB11__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB12",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB12__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB13",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB13__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB14",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB14__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB15",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB15__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "SB16",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "SB16__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "V1",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "V1__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "V2",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "V2__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "V3",
+    "status": "NOT_MADE_UNLOCATED_OFFICIAL_ANCHORS_UNVERIFIED",
+    "marker": "V3__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "METRO_AXIS_1",
+    "status": "PARTIAL_ROUTE_STUDY_UNFINISHED",
+    "marker": "METRO_AXIS_1__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "METRO_AXIS_2",
+    "status": "PARTIAL_ROUTE_STUDY_UNFINISHED",
+    "marker": "METRO_AXIS_2__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  },
+  {
+    "target": "METRO_AXIS_3",
+    "status": "PARTIAL_ROUTE_STUDY_UNFINISHED",
+    "marker": "METRO_AXIS_3__STATUS_MARKER",
+    "research_position": [
+      0,
+      0,
+      0
+    ],
+    "official_coordinates_verified": false
+  }
+]

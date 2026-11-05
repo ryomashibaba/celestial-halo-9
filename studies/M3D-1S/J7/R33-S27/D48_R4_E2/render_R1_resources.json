@@ -1,0 +1,117 @@
+{
+  "samples": [
+    {
+      "cpu_s": 8.5625,
+      "ram_mb": 237.1,
+      "priority": "BelowNormal",
+      "elapsed_s": 5.2
+    },
+    {
+      "cpu_s": 18.4375,
+      "ram_mb": 662.5,
+      "priority": "BelowNormal",
+      "elapsed_s": 10.3
+    },
+    {
+      "cpu_s": 28.0,
+      "ram_mb": 275.0,
+      "priority": "BelowNormal",
+      "elapsed_s": 15.3
+    },
+    {
+      "cpu_s": 37.90625,
+      "ram_mb": 669.1,
+      "priority": "BelowNormal",
+      "elapsed_s": 20.3
+    },
+    {
+      "cpu_s": 47.625,
+      "ram_mb": 697.4,
+      "priority": "BelowNormal",
+      "elapsed_s": 25.3
+    },
+    {
+      "cpu_s": 57.53125,
+      "ram_mb": 723.9,
+      "priority": "BelowNormal",
+      "elapsed_s": 30.3
+    },
+    {
+      "cpu_s": 67.296875,
+      "ram_mb": 368.2,
+      "priority": "BelowNormal",
+      "elapsed_s": 35.3
+    },
+    {
+      "cpu_s": 77.25,
+      "ram_mb": 601.7,
+      "priority": "BelowNormal",
+      "elapsed_s": 40.3
+    },
+    {
+      "cpu_s": 87.234375,
+      "ram_mb": 740.9,
+      "priority": "BelowNormal",
+      "elapsed_s": 45.3
+    },
+    {
+      "cpu_s": 96.75,
+      "ram_mb": 368.4,
+      "priority": "BelowNormal",
+      "elapsed_s": 50.3
+    },
+    {
+      "cpu_s": 106.6875,
+      "ram_mb": 368.4,
+      "priority": "BelowNormal",
+      "elapsed_s": 55.4
+    },
+    {
+      "cpu_s": 116.484375,
+      "ram_mb": 724.5,
+      "priority": "BelowNormal",
+      "elapsed_s": 60.4
+    },
+    {
+      "cpu_s": 126.25,
+      "ram_mb": 368.4,
+      "priority": "BelowNormal",
+      "elapsed_s": 65.4
+    },
+    {
+      "cpu_s": 136.25,
+      "ram_mb": 505.5,
+      "priority": "BelowNormal",
+      "elapsed_s": 70.4
+    },
+    {
+      "cpu_s": 146.15625,
+      "ram_mb": 724.5,
+      "priority": "BelowNormal",
+      "elapsed_s": 75.4
+    },
+    {
+      "cpu_s": 155.953125,
+      "ram_mb": 368.4,
+      "priority": "BelowNormal",
+      "elapsed_s": 80.4
+    },
+    {
+      "cpu_s": 165.921875,
+      "ram_mb": 368.4,
+      "priority": "BelowNormal",
+      "elapsed_s": 85.4
+    },
+    {
+      "cpu_s": 175.734375,
+      "ram_mb": 741.0,
+      "priority": "BelowNormal",
+      "elapsed_s": 90.4
+    }
+  ],
+  "exit_code": 0,
+  "peak_sampled_ram_mb": 741.0,
+  "priority": "BelowNormal",
+  "cpu_threads": 2,
+  "device": "CPU"
+}

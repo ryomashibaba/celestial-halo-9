@@ -1,0 +1,300 @@
+{
+  "meshes": {
+    "ALPHA_EAST_DISPLACED_SHELL": "054beb1c8b1e2f5ccf89da8ee6156c9ec8df17b6e8ebc9ad75f1e6ea2af09fbe",
+    "ALPHA_WEST_INHABITED_SHELL": "60e3eb3d53698142943ad743b842a5d88c88ade41ad9645d90e457ad2baa8fe3",
+    "BETA_OBLIQUE_SPINE": "ac7b090daed2bb808b6ebcf85e983b8e0917b2fe2ce0adc8374f32b5f46cb07a",
+    "CIVIC_NAVE_FOUNDATION": "6691e919711f4f90991722ee49168d153e33a6d87e4fce3eabc156a0ca083f87",
+    "EAST_CIVIC_SECTION": "ad0d1d68a75307cc29557981fc4d94672fbbc0e4d16007f978bd5b232b240c50",
+    "EAST_CONSERVATORY_EAST": "b484a8265d0fc33be293c9ce21468869e8a13af821abcc073a1861d7ffd5c96c",
+    "EAST_CONSERVATORY_NORTH": "22ff926024cef60314d99d89f3871fd80874b44ea8ac885c278e85bb41746b8e",
+    "EAST_CONSERVATORY_SOUTH_L": "6274b535aab03273e926caf0860ee26c0ffab56774126f562d73edc2b29783e9",
+    "EAST_CONSERVATORY_SOUTH_R": "c24bacf8079ea56197fd28e3920e3b37664aa839d9424938ae4ed8073f58967a",
+    "EAST_CONSERVATORY_WEST": "8255b4f10eea72977bcd5338ec0fa69e28beb2852143017bc5442bd293328bea",
+    "EAST_RESEARCH_COURT_EAST": "462a32b17e354d703236714cefbe763a9257c7e8c2eb6a8e454fe02cb57859e3",
+    "EAST_RESEARCH_COURT_NORTH": "c40041c566a7dd74436e8abfaf804e24b8fd68e69c4478d04d95520910007144",
+    "EAST_RESEARCH_COURT_SOUTH_L": "09705ced1116256392c04dbdb57ff0c08e07198ca622ccd2cf16319e970eb8f1",
+    "EAST_RESEARCH_COURT_SOUTH_R": "58f2c2931eed071df66a0d58532c9e4aab2475c72a001596206e95f433debed4",
+    "EAST_RESEARCH_COURT_WEST": "a73a53329e3e9cee140fed4ade15689425d3f225cbbdac889dfc335c28ab3104",
+    "GROUND_ARRIVAL_STATION": "fe7aa7e1ea4a0867e18c4c4b6c47e47b960d97b60ec4b61d762f9ab734dd4101",
+    "GROUND_PROCESSIONAL_RISE": "e4ff598ddb3848a5adc9fe223dc0aac2f86c42cb015fd4551c0dfad08075f0d8",
+    "H1_GARDEN": "69f7aa27ff71b0e9754b87e7064477c035aef8e53ca8fd82d186a3b6395bc5e3",
+    "H1_INHABITED_TERRAIN": "f232dae4ddcff006e55c18c63135eeb7023187ab612dfec4acd03aa797df0e42",
+    "H1_PUBLIC_MARKET_EAST": "71d32fba6c4255d2c4ae2416c3195676f06a41a3ea0f70bbf320c7c4208be34e",
+    "H1_PUBLIC_MARKET_NORTH": "26861d41742221c5269bd1f15abbfb8cce891d64f7e2c11113aea3cf1df0e125",
+    "H1_PUBLIC_MARKET_SOUTH_L": "c128cf1b62242b2a75b2e5373f3b568afd7e76ecfa1397524f71e8ff86a3f518",
+    "H1_PUBLIC_MARKET_SOUTH_R": "f5ea901c7220dd7cf5fba6ecc59a3f03be0b3f61f8cd02fddcc45c4cf4cd0083",
+    "H1_PUBLIC_MARKET_WEST": "4de4c03c2d592732c2b32a1258b7f23374e2578e75d499b7175de6dd729368c0",
+    "H1_PUBLIC_PROMENADE": "0c03afd597e0a6c741b2e872b5c46f4fc2431831d3799d8a42bd4665ade9ef9e",
+    "H1_RESIDENTIAL_COURT_A_EAST": "c8db8005b85162a012a0bc77cfa9a88431188451e5dac5fb5abecfcc00cd0b33",
+    "H1_RESIDENTIAL_COURT_A_NORTH": "2300b2907306538aa80d6b9da97c8d6b995b0ae7dbc19bf9fbf65b870c1371a5",
+    "H1_RESIDENTIAL_COURT_A_SOUTH_L": "b7e6df480c6596a3385fcdcea44e14aa87a7805230889abb119d3f86528bc63d",
+    "H1_RESIDENTIAL_COURT_A_SOUTH_R": "49a74c8e7e1c5ebb21f645e30100c6647971b407f92703d9dcd824b31a4aa1b4",
+    "H1_RESIDENTIAL_COURT_A_WEST": "84ff057ba3efb87c3ee6feb0522aa8963c526bedb80031c10b4f9da3ff2b1d71",
+    "H1_RESIDENTIAL_COURT_B_EAST": "60bf734b4d763f9b762f73c8125c5855531af6a2c7ac69aac81fc59d7e951a5a",
+    "H1_RESIDENTIAL_COURT_B_NORTH": "2ab300d10831e1a1b8a33b7fdd3abd1c6df75f7d427cd2233b7ef09773773aa8",
+    "H1_RESIDENTIAL_COURT_B_SOUTH_L": "0661c21e674968278e1331e08ab4044dcd7f1204fd27d9d89392c643dce3b900",
+    "H1_RESIDENTIAL_COURT_B_SOUTH_R": "d88ab82dbf2ebd89b0f7357eaae5c88e669e3dd9185d45e4c458a35cefbf0e57",
+    "H1_RESIDENTIAL_COURT_B_WEST": "09576009aae71f26f75cd4fcc32944939f1c45763f913378b348054ae55153c1",
+    "H1_SCHOOL_EAST": "e80e759cc20922b212155c42b953878e38ef93cd70b9462482518fd1b4fb2007",
+    "H1_SCHOOL_NORTH": "603f9c5acfe3049915a5a6ce7174007e7e1aa75955587656e36156adf812bfdb",
+    "H1_SCHOOL_SOUTH_L": "562071bd6b8c47fb333d3f0776b67e53468850559f23f63c5524e20b0a362e6a",
+    "H1_SCHOOL_SOUTH_R": "e7e93ac3c926ddbc7605ae78203c61ad972bd217ed2d91a4171f6ba59a209484",
+    "H1_SCHOOL_WEST": "0239ccb9fdd340d182aa37a9f178889fbb061f064734fbd55b9472a5a6f6f0a1",
+    "METRO_AXIS_1_STUDY": "b849dd3c6a12f475dc7ee230b7f753db7f21aa8e319d844a1736b54f70515392",
+    "METRO_AXIS_2_STUDY": "a7ba4b221cd1316815464f7b6e93bfe701a0578d01e9fb4548e714677a7649ce",
+    "METRO_AXIS_3_STUDY": "562f22c329d0dc34b0c58332bfc6922b76e827efe3c1b675c90a9a4e37853833",
+    "NAVE_CIVIC_FORUM": "232110b25579ad10f08bd9574c54032572c5ecb3959fc94c47b03083d2627833",
+    "NAVE_LIBRARY_COURT": "cb09c83d283955ed12dcd06ff2f72d5eb04fdf544bc380c1689f8e0b275a432b",
+    "NAVE_NORTH_PUBLIC_STREET": "3c932208fb4db71d3419df9e96443dd0522561a34618683c0b9c16d7422c56b1",
+    "PUBLIC_ARCHIVE_EAST": "8aa82d2acbc006bb0d9a51d2741bca3bb83fad138dc91f8244e0ac4bd56ea491",
+    "PUBLIC_ARCHIVE_NORTH": "57db08b3dddef50eaf409238d2aa35c88dcd6e8149f256ec0b137f7eeac3038c",
+    "PUBLIC_ARCHIVE_SOUTH_L": "53aa45b3eda0d37b5c43b7ffb1aaf2eaae99ef3ebdfd47f14eea29cdfe968ccb",
+    "PUBLIC_ARCHIVE_SOUTH_R": "5fdec66d10625457b501433fdd3fe3e7ad82cdba15913e24d7c838ec1c830a46",
+    "PUBLIC_ARCHIVE_WEST": "640a81190b36de0d1ad68596527c005853a0048095379b27ba20bc90e84863e0",
+    "PUBLIC_ASCENT_WEST": "0d2691105792733658a21e41ced61b20ae98ab3217842d6f4429fb71a4572347",
+    "PUBLIC_ASSEMBLY_EAST": "cb367bfc16df931d5152757bc616bd3c31fddef7d2a0cd3d858a2bf88f5ce285",
+    "PUBLIC_ASSEMBLY_NORTH": "44b23fce2ac06874cefbb5c2b189088df3bb9ddf70272c00a305128a18e96f2b",
+    "PUBLIC_ASSEMBLY_SOUTH_L": "4d1c69a39c24cd88fc2bb722fd14f8209c21f040b64cae7443a694fe9ae6f990",
+    "PUBLIC_ASSEMBLY_SOUTH_R": "75b6a6794eed280f48366c21225d9c7887a58cf7b2eb238b71524897a64974d4",
+    "PUBLIC_ASSEMBLY_WEST": "7ce67ab2052bc7b7047cbe67c626c81b2553b04835ede53b8564e33b800d20fd",
+    "TRANSVERSE_SKY_TRANSIT": "89ba080ed8970be1507fcb2c210f77a67829fbb676fc9a18c79b4ce2d50c1901",
+    "W0_BASIN_STUDY": "44902b007db1b10edc6a65881cb9dff239fb12e696a5109ebf4eeb3b28cee632",
+    "W0_EAST_SEA_STUDY": "6935632b64441af6d3ac1f55097e5eb42dfcd9edb22b509a37d9ac65c7b73374",
+    "W0_NORTH_MOUNTAIN_STUDY": "99f663a1a25cd6e9aba0edb9760411c3dcd7d32ca7b7fcfec26928b2146abd59",
+    "W0_WEST_CLIFF_STUDY": "a276b0668db75119d6119647cbe0a821b6810987c7d23e2ea19f555e9e97d81a",
+    "WEST_LIFT_AND_STATION": "6a96ee68d424455fc6b7fb6b31c2641174fdfdc61ec694d920ed7cf3ad17edfc"
+  },
+  "cameras": {
+    "central_front": {
+      "matrix": [
+        [
+          0.9996089935302734,
+          -0.002337261103093624,
+          0.027863236144185066,
+          200.0
+        ],
+        [
+          0.027961092069745064,
+          0.08355704694986343,
+          -0.9961106181144714,
+          -6800.0
+        ],
+        [
+          1.011499439762531e-09,
+          0.9965002536773682,
+          0.08358973264694214,
+          2000.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 48.0,
+      "clip": [
+        0.10000000149011612,
+        40000.0
+      ]
+    },
+    "central_rear": {
+      "matrix": [
+        [
+          -0.9578262567520142,
+          0.04529806226491928,
+          -0.28375503420829773,
+          -1800.0
+        ],
+        [
+          -0.2873479425907135,
+          -0.15099333226680756,
+          0.9458499550819397,
+          6300.0
+        ],
+        [
+          5.062147678813744e-08,
+          0.9874963760375977,
+          0.1576416939496994,
+          2400.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 48.0,
+      "clip": [
+        0.10000000149011612,
+        40000.0
+      ]
+    },
+    "east_seafront": {
+      "matrix": [
+        [
+          0.37637707591056824,
+          -0.013410094194114208,
+          0.9263694882392883,
+          6400.0
+        ],
+        [
+          0.9264665842056274,
+          0.005447820760309696,
+          -0.3763376474380493,
+          -2300.0
+        ],
+        [
+          2.8382974193164046e-08,
+          0.9998952150344849,
+          0.01447443850338459,
+          1500.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 44.0,
+      "clip": [
+        0.10000000149011612,
+        40000.0
+      ]
+    },
+    "human_public_interior": {
+      "matrix": [
+        [
+          0.9962406158447266,
+          -0.035486940294504166,
+          -0.07902763038873672,
+          0.0
+        ],
+        [
+          -0.08662961423397064,
+          -0.40809983015060425,
+          -0.9088178277015686,
+          -500.0
+        ],
+        [
+          -1.2838297092088169e-09,
+          0.912247359752655,
+          -0.409639835357666,
+          131.64999389648438
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 21.0,
+      "clip": [
+        0.10000000149011612,
+        40000.0
+      ]
+    },
+    "human_sky_district": {
+      "matrix": [
+        [
+          0.9875802993774414,
+          -0.013474097475409508,
+          -0.15653623640537262,
+          -500.0
+        ],
+        [
+          -0.15711507201194763,
+          -0.08469437062740326,
+          -0.983941912651062,
+          -140.0
+        ],
+        [
+          -8.2167703752134e-09,
+          0.9963158965110779,
+          -0.0857594758272171,
+          1121.6500244140625
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 24.0,
+      "clip": [
+        0.10000000149011612,
+        40000.0
+      ]
+    },
+    "human_street": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.5350621342658997,
+          -0.8448126912117004,
+          -1450.0
+        ],
+        [
+          0.0,
+          0.8448126912117004,
+          -0.5350621342658997,
+          16.649999618530273
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 24.0,
+      "clip": [
+        0.10000000149011612,
+        40000.0
+      ]
+    },
+    "urban_aerial": {
+      "matrix": [
+        [
+          0.7934823632240295,
+          -0.2691265642642975,
+          0.5458540320396423,
+          7900.0
+        ],
+        [
+          0.608593225479126,
+          0.35088661313056946,
+          -0.7116830945014954,
+          -10000.0
+        ],
+        [
+          -3.025937544975932e-08,
+          0.896911084651947,
+          0.44221094250679016,
+          7200.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 42.0,
+      "clip": [
+        0.10000000149011612,
+        40000.0
+      ]
+    }
+  }
+}

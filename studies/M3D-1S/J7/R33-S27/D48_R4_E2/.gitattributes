@@ -1,0 +1,2 @@
+# Preserve exact production-evidence bytes, including Windows resource logs.
+* -text

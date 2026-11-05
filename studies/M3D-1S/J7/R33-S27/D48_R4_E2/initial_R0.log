@@ -1,0 +1,7 @@
+00:01.812  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_30772_03915b26141453d7f48a9c5ba04d9482.png.png"
+00:01.828  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_30772_bf45ecdccccfd8e31b8db80257769f1a.png.png"
+Info: Saved as "E2_WORKING.blend"
+Info: Saved copy as "R0.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

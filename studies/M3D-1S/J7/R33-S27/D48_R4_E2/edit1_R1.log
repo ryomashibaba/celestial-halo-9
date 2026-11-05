@@ -1,0 +1,8 @@
+00:01.829  blend            | Read blend: "C:\Users\ryoma\Projects\CELESTIAL_HALO9\repo\studies\M3D-1S\J7\R33-S27\D48_R4_E2\E2_WORKING.blend"
+00:01.907  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_32292_03915b26141453d7f48a9c5ba04d9482.png.png"
+00:01.907  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\ryoma\.thumbnails\large\blender_32292_074f97b4557f5178b0ac63dddd8835ce.png.png"
+Info: Saved as "E2_WORKING.blend"
+Info: Saved copy as "R1.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

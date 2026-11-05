@@ -1,0 +1,111 @@
+{
+  "exit_code": 0,
+  "cpu_threads": 2,
+  "device": "CPU",
+  "samples": [
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 589.5,
+      "cpu_s": 8.265625,
+      "elapsed_s": 5.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 266.7,
+      "cpu_s": 17.890625,
+      "elapsed_s": 10.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 605.8,
+      "cpu_s": 27.734375,
+      "elapsed_s": 15.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 699.6,
+      "cpu_s": 37.59375,
+      "elapsed_s": 20.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 362.0,
+      "cpu_s": 47.453125,
+      "elapsed_s": 25.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 726.4,
+      "cpu_s": 57.359375,
+      "elapsed_s": 30.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 548.3,
+      "cpu_s": 67.078125,
+      "elapsed_s": 35.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 726.5,
+      "cpu_s": 76.953125,
+      "elapsed_s": 40.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 370.5,
+      "cpu_s": 86.71875,
+      "elapsed_s": 45.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 743.1,
+      "cpu_s": 96.59375,
+      "elapsed_s": 50.1
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 370.5,
+      "cpu_s": 106.328125,
+      "elapsed_s": 55.2
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 370.4,
+      "cpu_s": 116.234375,
+      "elapsed_s": 60.2
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 743.0,
+      "cpu_s": 126.078125,
+      "elapsed_s": 65.2
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 743.0,
+      "cpu_s": 135.984375,
+      "elapsed_s": 70.2
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 370.4,
+      "cpu_s": 145.65625,
+      "elapsed_s": 75.2
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 370.4,
+      "cpu_s": 155.421875,
+      "elapsed_s": 80.2
+    },
+    {
+      "priority": "BelowNormal",
+      "ram_mb": 743.1,
+      "cpu_s": 165.328125,
+      "elapsed_s": 85.2
+    }
+  ],
+  "peak_sampled_ram_mb": 743.1,
+  "priority": "BelowNormal"
+}
