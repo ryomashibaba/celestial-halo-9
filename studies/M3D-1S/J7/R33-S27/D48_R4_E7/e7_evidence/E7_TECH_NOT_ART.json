@@ -1,0 +1,12 @@
+{
+  "schema": "halo9-r4-e7-independent-reopen",
+  "status": "TRUE_BLEND_AND_THREE_NATIVE_PNG_REOPEN_PASS",
+  "art": "PENDING_DIRECT_VISUAL_REVIEW_NOT_PASS",
+  "sha256": "d57466e5d2d17f71b05ac89b9a4102948ca0ecfcbe3cfbced20eaa6548de60b8",
+  "mesh_count": 714,
+  "formal_adoption": false,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "original_blend_sha256": "d57466e5d2d17f71b05ac89b9a4102948ca0ecfcbe3cfbced20eaa6548de60b8",
+  "evidence_jpeg_sha256": "c1825ef96c60137fb36c5c808738eb2cb16368c11f0eb6f1e9edc2185c2d9fd2"
+}
