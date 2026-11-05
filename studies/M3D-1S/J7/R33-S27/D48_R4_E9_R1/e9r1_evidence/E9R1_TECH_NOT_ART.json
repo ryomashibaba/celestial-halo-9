@@ -1,0 +1,12 @@
+{
+  "schema": "halo9-e9r1-verify-v1",
+  "status": "TRUE_SAME_BLENDER_GEOMETRY_EDIT_REOPEN_PASS",
+  "sha256": "03c4d307262c64256b10131b3dc4ee420011cfad9c85f5dc302a582c0cfba0a9",
+  "h1_before_inside_deck": true,
+  "h1_after_inside_deck": false,
+  "h1_camera_moved": false,
+  "formal_art_adoption": false,
+  "art_review": "PENDING_DIRECT_VISUAL_JURY",
+  "minecraft": "HOLD",
+  "contact_sha256": "274ecd42eac10722267c370a1540e71acd8f38409e9a57acf549489f5bdee99d"
+}
