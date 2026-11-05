@@ -1,0 +1,145 @@
+name: HALO9 R4-E12 subtractive civic rift real Blender 5.2.1 study
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-e12-subtractive-civic-rift-20261105
+    paths:
+      - studies/M3D-1S/J7/R33-S27/D48_R4_E12/sculpt_subtractive_public_city.py
+      - .github/workflows/halo9-r4-e12-real-sculpt-study.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r4-e12-research
+  cancel-in-progress: false
+jobs:
+  native_sculpture:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-r4-e12-subtractive-civic-rift-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 36
+    env:
+      SRC: studies/M3D-1S/J7/R33-S27/D48_R4_E11/E11_INHABITED_SECTION_WORKING.blend
+      ROOT: studies/M3D-1S/J7/R33-S27/D48_R4_E12
+      EXPECTED_SOURCE_SHA256: 098c46fec0e61b474aba6aab4d2f51a299391937b8c29c6820278565f22a044f
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify signed E11 source and isolated next-workflow script
+        run: |
+          set -euo pipefail
+          test -s "$SRC"
+          printf '%s  %s\n' "$EXPECTED_SOURCE_SHA256" "$SRC" | sha256sum -c -
+          python3 -m py_compile "$ROOT/sculpt_subtractive_public_city.py"
+          mkdir -p "$ROOT/native"
+      - name: Install EXACT Blender 5.2.1 (same version as E11) from official archive
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-blender
+          cd /tmp/halo9-blender
+          curl -fL --retry 3 --connect-timeout 30 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz \
+            -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 3 --connect-timeout 30 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 \
+            -o checksums.sha256
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' checksums.sha256 | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+          /tmp/halo9-blender/blender-5.2.1-linux-x64/blender --version | head -n 2
+      - name: Transform only research COPY, genuine Blender render, fail-closed on errors
+        run: |
+          set -euo pipefail
+          set -o pipefail
+          BLENDER=/tmp/halo9-blender/blender-5.2.1-linux-x64/blender
+          timeout 1400s "$BLENDER" --background --threads 2 --python-exit-code 97 \
+            "$SRC" --python "$ROOT/sculpt_subtractive_public_city.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/BLENDER_AUTHOR.log"
+          grep -F 'E12_REAL_NATIVE_COMPLETE' "$ROOT/native/BLENDER_AUTHOR.log"
+          test -s "$ROOT/native/E12_SUBTRACTIVE_CIVIC_RIFT_WORKING.blend"
+          for view in E11_NAVE_HUMAN E11_H1_HUMAN E11_URBAN_AERIAL; do
+            test -s "$ROOT/native/renders/$view.png"
+          done
+      - name: Reopen same BLEND in independent Blender and check actual PNGs
+        run: |
+          set -euo pipefail
+          cat >/tmp/e12_verify.py <<'PY'
+          import bpy,hashlib,struct,json
+          from pathlib import Path
+          p=Path(bpy.data.filepath);s=bpy.context.scene
+          assert p.name=='E12_SUBTRACTIVE_CIVIC_RIFT_WORKING.blend'
+          assert s['CONSTRUCTION']=='HOLD'
+          assert s['FORMAL_ART_ACCEPTED']==0
+          assert s['COMPLETED_TARGETS']==0
+          assert s['E12_REMOVED_REJECTED_MESHES']>=130
+          assert s['E12_REAL_CARVINGS']>=4
+          r=json.loads((p.parent/'E12_AUTHOR_REPORT.json').read_text())
+          assert r['new_blend_sha256']==hashlib.sha256(p.read_bytes()).hexdigest()
+          assert r['removed_rejected_meshes']>=130
+          assert r['formal_art_adoptions']==0 and r['completed_targets']==0
+          for n in ['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL']:
+            assert bpy.data.objects[n].type=='CAMERA'
+            file=p.parent/'renders'/(n+'.png')
+            assert file.exists() and file.stat().st_size>8000
+            with file.open('rb') as f:head=f.read(24)
+            assert head[:8]==bytes.fromhex('89504e470d0a1a0a')
+            assert struct.unpack('>II',head[16:24])==(1200,900)
+            assert hashlib.sha256(file.read_bytes()).hexdigest()==r['png_sha256'][n]
+          result={'schema':'halo9-e12-independent-native-v1',
+           'status':'TRUE_BLENDER_521_SCULPTED_COPY_AND_PNGS_REOPENED',
+           'source_sha256':r['research_source'],
+           'new_blend_sha256':r['new_blend_sha256'],
+           'removed_rejected_meshes':r['removed_rejected_meshes'],
+           'cavities':len(r['carved_public_voids']),
+           'formal_art_adoptions':0,'completed_targets':0,
+           'minecraft':'HOLD','art':'UNREVIEWED_NOT_APPROVED'}
+          (p.parent/'INDEPENDENT_E12_REOPEN.json').write_text(json.dumps(result,indent=2))
+          print('E12_REAL_INDEPENDENT_BLENDER_PASS',json.dumps(result),flush=True)
+          PY
+          BLENDER=/tmp/halo9-blender/blender-5.2.1-linux-x64/blender
+          "$BLENDER" --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/E12_SUBTRACTIVE_CIVIC_RIFT_WORKING.blend" \
+            --python /tmp/e12_verify.py 2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F 'E12_REAL_INDEPENDENT_BLENDER_PASS' "$ROOT/native/INDEPENDENT.log"
+          test -s "$ROOT/native/INDEPENDENT_E12_REOPEN.json"
+      - name: Store genuine Blender evidence, explicitly NOT art-adopted
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          mkdir -p "$ROOT/e12_evidence"
+          python3 - <<'PY'
+          import os,gzip,hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          root=Path(os.environ['ROOT']);src=root/'native';target=root/'e12_evidence'
+          blend=src/'E12_SUBTRACTIVE_CIVIC_RIFT_WORKING.blend'
+          with blend.open('rb') as f,gzip.open(target/(blend.name+'.gz'),'wb',compresslevel=6) as g:
+            while x:=f.read(1048576):g.write(x)
+          names=['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL']
+          sheet=Image.new('RGB',(1920,470),(230,230,228))
+          draw=ImageDraw.Draw(sheet)
+          for i,name in enumerate(names):
+            im=Image.open(src/'renders'/(name+'.png')).convert('RGB')
+            im=im.resize((640,440),Image.Resampling.LANCZOS)
+            sheet.paste(im,(i*640,30))
+            draw.text((i*640+8,7),name,fill=(0,0,0))
+          dest=target/'E12_TRUE_FIXED_CAMERA_THREE_VIEW_UNREVIEWED.jpg'
+          sheet.save(dest,quality=88,optimize=True)
+          report=json.loads((src/'INDEPENDENT_E12_REOPEN.json').read_text())
+          report['image_sha256']=hashlib.sha256(dest.read_bytes()).hexdigest()
+          (target/'E12_TECH_NOT_ART.json').write_text(json.dumps(report,indent=2))
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/e12_evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m "R4-E12: preserve true Blender 5.2.1 subtractive study ART UNREVIEWED [skip ci]"
+            git push origin HEAD:refs/heads/research/r33-s27-d48-r4-e12-subtractive-civic-rift-20261105
+          fi
+      - name: Keep raw Blender renders and editable BLEND as 7-day backup
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E12-BLENDER-521-FIXED-CAMERA-RAW-RENDERS
+          path: studies/M3D-1S/J7/R33-S27/D48_R4_E12/native/
+          retention-days: 7
+          if-no-files-found: warn
