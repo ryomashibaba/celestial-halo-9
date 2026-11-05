@@ -1,0 +1,132 @@
+name: HALO9 INT4 one sculpted inhabited fault-city true native study
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int4-observed-civic-sculpt-20261106
+    paths:
+      - studies/M3D-1S/J7/R33-S27/INT4/author.py
+      - .github/workflows/halo9-int4-one-tectonic-city.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int4-one-sculpture-20261106
+  cancel-in-progress: false
+jobs:
+  create_true_blend:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-int4-observed-civic-sculpt-20261106'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT4
+      ORIGINAL: studies/M3D-1S/J7/R33-S27/INT1/evidence/HALO9_INT1_LIVED_CIVIC_ARCHITECTURE.blend.gz
+      ORIGINAL_SHA: 422a60469123500e7eb4f5be886ed390665c9daadad3ad8c5e8a3b9699443100
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify exact frozen parent research BLEND and plain author
+        run: |
+          set -euo pipefail
+          test -s "$ORIGINAL"
+          mkdir -p "$ROOT/native"
+          gzip -dc "$ORIGINAL" > /tmp/INT4_SOURCE.blend
+          printf '%s  %s\n' "$ORIGINAL_SHA" /tmp/INT4_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/author.py"
+          echo INT4_ORIGINAL_VERIFIED_NO_CANONICAL_WRITES
+      - name: Install officially checked Blender 5.2.1 binary
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/blender_int4
+          cd /tmp/blender_int4
+          curl -fL --retry 2 --connect-timeout 30 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 30 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Native Blender CSG sculpt, occupation and protected three-camera render
+        run: |
+          set -euo pipefail
+          B=/tmp/blender_int4/blender-5.2.1-linux-x64/blender
+          timeout 1780s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/INT4_SOURCE.blend --python "$ROOT/author.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/BLENDER_AUTHOR.log"
+          grep -F 'INT4_NATIVE_COMPLETE' "$ROOT/native/BLENDER_AUTHOR.log"
+      - name: Independently reopen actual BLEND and validate authentic PNG dimensions and hashes
+        run: |
+          set -euo pipefail
+          cat > /tmp/verify_int4.py <<'PY'
+          import bpy,hashlib,json,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath);s=bpy.context.scene
+          r=json.loads((p.parent/'INT4_NATIVE_TECH.json').read_text())
+          assert p.name=='HALO9_INT4_CIVIC_SCULPTURE.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==r['blend_sha256']
+          assert r['source_sha256']==s['INT4_PARENT_SHA256']
+          assert r['removed_rejected_architecture']==6439
+          assert r['new_geometry_by_role']['NAVE']>20
+          assert s['FORMAL_ART_ACCEPTED']==0 and s['COMPLETED_TARGETS']==0 and s['CONSTRUCTION']=='HOLD'
+          assert r['unchanged_cameras'] and r['minecraft_construction']=='HOLD'
+          assert r['formal_art_accepted']==0 and r['completed_targets']==0
+          for name in ('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL'):
+              assert bpy.data.objects[name].type=='CAMERA'
+              f=p.parent/'renders'/(name+'.png')
+              with f.open('rb') as source:h=source.read(24)
+              assert h[:8]==bytes.fromhex('89504e470d0a1a0a')
+              assert struct.unpack('>II',h[16:24])==(1100,825)
+              assert hashlib.sha256(f.read_bytes()).hexdigest()==r['render_hashes'][name]
+          print('INT4_INDEPENDENT_TRUE_BLEND_TECH_PASS_NOT_ART_PASS',flush=True)
+          PY
+          /tmp/blender_int4/blender-5.2.1-linux-x64/blender \
+            --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT4_CIVIC_SCULPTURE.blend" \
+            --python /tmp/verify_int4.py 2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F 'INT4_INDEPENDENT_TRUE_BLEND_TECH_PASS_NOT_ART_PASS' "$ROOT/native/INDEPENDENT.log"
+      - name: Preserve editable true BLEND and true comparison views safely in research branch
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageStat,ImageDraw
+          import os,gzip,hashlib,json,base64
+          root=Path(os.environ['ROOT']);native=root/'native';e=root/'evidence';e.mkdir(exist_ok=True)
+          p=native/'HALO9_INT4_CIVIC_SCULPTURE.blend'
+          with p.open('rb') as src,gzip.open(e/(p.name+'.gz'),'wb',compresslevel=6) as dst:
+              while True:
+                  chunk=src.read(1048576)
+                  if not chunk: break
+                  dst.write(chunk)
+          canvas=Image.new('RGB',(1650,445),(221,222,220))
+          draw=ImageDraw.Draw(canvas);brightness={}
+          for i,n in enumerate(('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL')):
+              im=Image.open(native/'renders'/(n+'.png')).convert('RGB')
+              brightness[n]=round(sum(ImageStat.Stat(im).mean)/3,2)
+              im.thumbnail((550,411),Image.Resampling.LANCZOS)
+              canvas.paste(im,(i*550,32))
+              draw.text((i*550+8,10),n,fill=(0,0,0))
+          jpg=e/'INT4_TRUE_ORIGINAL_THREE_CAMERAS_UNREVIEWED.jpg'
+          canvas.save(jpg,quality=86,optimize=True)
+          (e/'INT4_TRUE_ORIGINAL_THREE_CAMERAS_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          r=json.loads((native/'INT4_NATIVE_TECH.json').read_text())
+          r['mean_brightness']=brightness
+          r['image_preflight']='VALID_CANDIDATE' if all(v>10 for v in brightness.values()) else 'IMAGE_INVALID'
+          r['mosaic_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          r['art']='UNREVIEWED_NOT_ADOPTED'
+          (e/'INT4_TECH_NOT_ART.json').write_text(json.dumps(r,indent=2))
+          print('INT4_TRUE_MOSAIC_SAVED',brightness,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT4: archive genuine editable inhabited canyon BLEND and fixed-camera renders [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int4-observed-civic-sculpt-20261106
+          fi
+      - name: Temporary raw authentic PNG and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT4-NATIVE-RAW-BLEND-PNG-LOGS
+          path: studies/M3D-1S/J7/R33-S27/INT4/native/
+          retention-days: 7
+          if-no-files-found: warn
