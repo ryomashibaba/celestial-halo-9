@@ -1,0 +1,117 @@
+name: HALO9 R4-E5 native H1 and NAVE R0B evidence
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-e5-native-r0b-review-20261105
+    paths:
+      - .github/workflows/halo9-r4-e5-native-h1-nave.yml
+      - studies/M3D-1S/J7/R33-S27/D48_R4_E5/author_R0B.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r4-e5-native-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  native_r0b:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-r4-e5-native-r0b-review-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      STUDY: studies/M3D-1S/J7/R33-S27/D48_R4_E5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Protect immutable R0B source with original SHA256
+        run: |
+          set -euo pipefail
+          echo "97978dc77aa012fe77ce775931b44a8779861a9664df6347eff4024a2a898cb4  $STUDY/author_R0B.py" | sha256sum -c -
+          python3 -m py_compile "$STUDY/author_R0B.py"
+      - name: Install Blender inside GitHub-hosted ephemeral runner
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender
+          blender --version | head -n 2
+          blender --version | head -n 1 | grep -E 'Blender (4|5|6)\.'
+      - name: Author R0B native BLEND and two priority Cycles camera renders
+        run: |
+          set -euo pipefail
+          mkdir -p "$STUDY/native_r0b"
+          timeout 1200s blender --background --threads 2 --python "$STUDY/author_R0B.py" -- --output "$STUDY/native_r0b" 2>&1 | tee "$STUDY/native_r0b/BLENDER_EXECUTION_LOG.txt"
+          test -s "$STUDY/native_r0b/E4_R0B_WORKING.blend"
+          test -s "$STUDY/native_r0b/renders/human_sky_district.png"
+          test -s "$STUDY/native_r0b/renders/human_public_interior.png"
+      - name: Independently reopen native Blender scene and validate camera evidence
+        run: |
+          set -euo pipefail
+          cat > /tmp/verify_halo9_e5.py <<'PY'
+          import bpy, json, hashlib, struct, math
+          from pathlib import Path
+          from mathutils import Vector
+          src=Path(bpy.data.filepath)
+          assert src.name=='E4_R0B_WORKING.blend'
+          sc=bpy.context.scene
+          assert sc.get('minecraft_write')=='FORBIDDEN'
+          assert sc.get('official_coordinates_verified') is False
+          assert sc.get('formal_adoption') is False
+          assert sc.render.engine == 'CYCLES'
+          assert len([x for x in bpy.data.objects if x.type=='MESH']) > 300
+          expected=('H1_LIVING_URBAN_STREET','NAVE_INHABITED_PUBLIC_ROOM','PUBLIC_VERTICAL_CONNECTION','30_TARGET_REGISTRY_RESEARCH_ONLY')
+          for col in expected: assert col in bpy.data.collections,col
+          assert len(bpy.data.collections['30_TARGET_REGISTRY_RESEARCH_ONLY'].objects) == 30
+          dims={}
+          camera_support={}
+          for name in ('human_sky_district','human_public_interior'):
+              cam=bpy.data.objects.get(name);assert cam and cam.type=='CAMERA'
+              p=src.parent/'renders'/f'{name}.png'
+              with p.open('rb') as f: h=f.read(24)
+              assert h[:8] == b'\x89PNG\r\n\x1a\n',name
+              wh=struct.unpack('>II',h[16:24]); assert wh==(960,640),(name,wh)
+              dims[name]=list(wh)
+              origin=cam.matrix_world.translation
+              deps=bpy.context.evaluated_depsgraph_get()
+              hit,location,normal,index,ob,_=sc.ray_cast(deps,origin,Vector((0,0,-1)),distance=8)
+              camera_support[name]={
+                  'hit':bool(hit),
+                  'support_mesh':ob.name if hit and ob else None,
+                  'offset_m':round((origin.z-location.z),3) if hit else None
+              }
+          report={
+              'schema':'halo9-r4-e5-native-r0b-reopen-v1',
+              'status':'NATIVE_TECH_VERIFIED_NOT_ART_PASS',
+              'blender_version':bpy.app.version_string,
+              'scene_file':src.name,
+              'scene_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),
+              'render_dims':dims,
+              'camera_support_single_ray_only_not_route_certification':camera_support,
+              'mesh_count':sum(o.type=='MESH' for o in bpy.data.objects),
+              'formal_art_adoption':False,'art_jury':'PENDING_DIRECT_IMAGE_REVIEW',
+              'city_master_complete':False,'minecraft':'HOLD',
+              'no_original_blend_mutated':True,
+              'new_study_only':True
+          }
+          (src.parent/'NATIVE_REOPEN_REPORT.json').write_text(json.dumps(report,indent=2))
+          print('HALO9_R4_E5_NATIVE_REOPEN_PASS',json.dumps(report))
+          PY
+          blender --background --threads 2 "$STUDY/native_r0b/E4_R0B_WORKING.blend" --python /tmp/verify_halo9_e5.py
+      - name: Upload native outputs as short-lived independent backup
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E5-R0B-NATIVE-ART-UNREVIEWED
+          path: studies/M3D-1S/J7/R33-S27/D48_R4_E5/native_r0b/
+          if-no-files-found: warn
+          retention-days: 7
+      - name: Commit native evidence only onto isolated E5 study branch
+        if: success()
+        run: |
+          set -euo pipefail
+          BRANCH='research/r33-s27-d48-r4-e5-native-r0b-review-20261105'
+          test "${GITHUB_REF_NAME}" = "$BRANCH"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$STUDY/native_r0b/"
+          git commit -m "R4-E5: native R0B scene and two visual evidence renders (ART NOT REVIEWED) [skip ci]"
+          git push origin "HEAD:refs/heads/$BRANCH"
