@@ -1,0 +1,58 @@
+{
+  "status": "TECH_UNDER_TEST_NOT_ART_PASS",
+  "source_sha256": "422a60469123500e7eb4f5be886ed390665c9daadad3ad8c5e8a3b9699443100",
+  "blend_sha256": "51615c6cda162a14bf141ce4c90e98d2a0c14a4aafcb6d52fcacf57fb4cbd954",
+  "removed_rejected_architecture": 6439,
+  "new_mesh_count": 135,
+  "section_counts": {
+    "M247": 49,
+    "NAVE": 32,
+    "H1": 41,
+    "W0": 13
+  },
+  "boolean_cut_polygons": {
+    "NAVE_LIBRARY": 2712,
+    "NAVE_HIGH_READING_ROOM": 2976,
+    "WEST_ATRIUM_STACK": 3089,
+    "WEST_UPPER_CITY_VOID": 3253,
+    "NAVE_STATION": 2721,
+    "NAVE_CEREMONY": 3039,
+    "H1_MARKET_ATRIUM": 3302,
+    "H1_SCHOOL_LIGHTWELL": 3478,
+    "EAST_FLOATING_PUBLIC_ROOM": 3853
+  },
+  "render_hashes": {
+    "E11_NAVE_HUMAN": "aa55c5bf2e7466662dea890c0423af3c41f84fff12ffe445c57f565545a43b4f",
+    "E11_H1_HUMAN": "4e966c390c986837308d38d6dc1b211aae876d27db9f5b200678d2800b099ad7",
+    "E11_URBAN_AERIAL": "fc4334e06bfec00b5cf9a39866b2bd46af4bf77c1271a0708ccb2b67fe7e7a00"
+  },
+  "same_three_cameras": true,
+  "scene_coordinates": "UNREGISTERED_RESEARCH_METRES",
+  "nave_programs": [
+    "station",
+    "library",
+    "ceremony"
+  ],
+  "h1_programs": [
+    "market",
+    "school",
+    "library",
+    "housing"
+  ],
+  "w0_programs": [
+    "public quay",
+    "tidal library"
+  ],
+  "human_access": "FUNCTION_UNKNOWN_NO_CONTINUOUS_SWEEP_QA",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "render_brightness": {
+    "E11_NAVE_HUMAN": 0.08,
+    "E11_H1_HUMAN": 0.08,
+    "E11_URBAN_AERIAL": 108.83
+  },
+  "image_preflight": "IMAGE_INVALID",
+  "mosaic_sha256": "5974e88e064c69bd6914df1aefd67deaab05f15d8bda0607d8ce6f2b1f83f921"
+}
