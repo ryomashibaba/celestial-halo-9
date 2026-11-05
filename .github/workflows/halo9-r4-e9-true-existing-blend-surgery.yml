@@ -1,0 +1,147 @@
+name: HALO-9 R4-E9 actual E8 BLEND image-directed surgical revision
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-r4-e9-visual-surgery-open-civic-city-20261105
+    paths:
+      - studies/M3D-1S/J7/R33-S27/D48_R4_E9/direct_sculpt_existing_blend.py
+      - .github/workflows/halo9-r4-e9-true-existing-blend-surgery.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-r4-e9-native-surgical-edit
+  cancel-in-progress: false
+jobs:
+  native_surgery:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-r4-e9-visual-surgery-open-civic-city-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      STUDY: studies/M3D-1S/J7/R33-S27/D48_R4_E9
+      E8_SOURCE: studies/M3D-1S/J7/R33-S27/D48_R4_E8/e8_evidence/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend.gz
+      E8_SHA256: a2ea634f4df04226cf089419110bbb3b8986789f2d49c8b7a5d16bb0f0a9b7c6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Preserve E8 reference, verify source and ensure no old arbitrary generators
+        run: |
+          set -euo pipefail
+          python3 -m py_compile "$STUDY/direct_sculpt_existing_blend.py"
+          test -s "$E8_SOURCE"
+          mkdir -p "$STUDY/e9_native"
+          gzip -dc "$E8_SOURCE" > "$STUDY/e9_native/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend"
+          printf '%s  %s\n' "$E8_SHA256" "$STUDY/e9_native/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend" | sha256sum -c -
+          test "$(head -c 7 "$STUDY/e9_native/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend")" = "BLENDER"
+      - name: Install disposable real Blender and PIL for honest rendered comparisons
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq blender python3-pil
+          blender --version | head -n 2
+      - name: Open existing genuine E8 scene, render BEFORE, directly sculpt real mesh, render AFTER
+        run: |
+          set -euo pipefail
+          set -o pipefail
+          timeout 1250s blender --background --threads 2 \
+            "$STUDY/e9_native/E8_LIVED_SPINE_PUBLIC_CITY_WORKING.blend" \
+            --python "$STUDY/direct_sculpt_existing_blend.py" -- \
+            --output "$STUDY/e9_native" 2>&1 | tee "$STUDY/e9_native/DIRECT_EDIT_BLENDER.log"
+          grep -F 'E9_TRUE_EXISTING_BLEND_DIRECT_SCULPT_COMPLETE' "$STUDY/e9_native/DIRECT_EDIT_BLENDER.log"
+          test -s "$STUDY/e9_native/E9_DIRECT_SCULPT_OPEN_PUBLIC_CITY_WORKING.blend"
+          test -s "$STUDY/e9_native/E9_TRUE_SURGERY_REPORT.json"
+          for view in human_public_interior human_sky_district urban_aerial; do
+            test -s "$STUDY/e9_native/before/$view.png"
+            test -s "$STUDY/e9_native/after/$view.png"
+          done
+      - name: Independent second Blender reopen, prove actual changes and PNGs
+        run: |
+          set -euo pipefail
+          cat > /tmp/E9_VERIFY.py <<'PY'
+          import bpy, json, hashlib, struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath)
+          s=bpy.context.scene
+          assert p.name=='E9_DIRECT_SCULPT_OPEN_PUBLIC_CITY_WORKING.blend'
+          assert s['minecraft_write']=='FORBIDDEN'
+          assert s['official_coordinates_verified'] is False
+          assert s['formal_art_adoption'] is False
+          assert s['completed_targets']==0
+          assert s['e9_sculpted_ridge_count']==2
+          assert s['e9_boolean_opening_count']>=6
+          assert s['e9_removed_obstruction_meshes']>=3
+          assert len(bpy.data.collections['REGISTRY_30_UNFINISHED'].objects)==30
+          out=p.parent
+          report=json.loads((out/'E9_TRUE_SURGERY_REPORT.json').read_text())
+          assert report['new_blend_sha256']==hashlib.sha256(p.read_bytes()).hexdigest()
+          assert report['source_sha256'] != report['new_blend_sha256']
+          assert len(report['boolean_3d_carvings'])>=6
+          for v in ('human_public_interior','human_sky_district','urban_aerial'):
+            assert bpy.data.objects[v].type=='CAMERA'
+            for phase in ('before','after'):
+              f=out/phase/(v+'.png')
+              assert f.is_file() and f.stat().st_size>8000
+              with f.open('rb') as fp:h=fp.read(24)
+              assert h[:8]==bytes.fromhex('89504e470d0a1a0a')
+              assert struct.unpack('>II',h[16:24])==(960,640)
+              assert hashlib.sha256(f.read_bytes()).hexdigest()==report['png_sha256'][phase][v]
+          result={'schema':'halo9-e9-independent-reopen-v1',
+            'status':'REAL_BLENDER_DIRECT_EDIT_BEFORE_AFTER_VERIFIED',
+            'source_sha256':report['source_sha256'],
+            'final_blend_sha256':report['new_blend_sha256'],
+            'carved_mesh_targets':len(report['boolean_3d_carvings']),
+            'human_camera_visual_gate':'NOT_YET_ART_REVIEWED',
+            'formal_adoptions':0,'completed_targets':0,
+            'world_writes':0,'official_coordinates_verified':False}
+          (out/'INDEPENDENT_E9_REOPEN.json').write_text(json.dumps(result,indent=2))
+          print('E9_INDEPENDENT_REAL_BLENDER_REOPEN_PASS',json.dumps(result),flush=True)
+          PY
+          blender --background --threads 2 \
+            "$STUDY/e9_native/E9_DIRECT_SCULPT_OPEN_PUBLIC_CITY_WORKING.blend" \
+            --python /tmp/E9_VERIFY.py 2>&1 | tee "$STUDY/e9_native/INDEPENDENT_BLENDER.log"
+          grep -F 'E9_INDEPENDENT_REAL_BLENDER_REOPEN_PASS' "$STUDY/e9_native/INDEPENDENT_BLENDER.log"
+          test -s "$STUDY/e9_native/INDEPENDENT_E9_REOPEN.json"
+      - name: Save isolated original editable BLEND and exact same-camera before vs after comparison
+        run: |
+          set -euo pipefail
+          mkdir -p "$STUDY/e9_evidence"
+          python3 - <<'PY'
+          from pathlib import Path
+          import os,gzip,json,hashlib
+          from PIL import Image,ImageDraw
+          root=Path(os.environ['STUDY']);native=root/'e9_native';evid=root/'e9_evidence'
+          src=native/'E9_DIRECT_SCULPT_OPEN_PUBLIC_CITY_WORKING.blend'
+          with src.open('rb') as f,gzip.open(evid/(src.name+'.gz'),'wb',compresslevel=6) as dst:
+            while x:=f.read(1048576):dst.write(x)
+          views=['human_public_interior','human_sky_district','urban_aerial']
+          contact=Image.new('RGB',(1920,1320),(230,231,228))
+          d=ImageDraw.Draw(contact)
+          for row,phase in enumerate(['before','after']):
+            d.text((12,row*660+7),('E8 original BEFORE' if row==0 else 'E9 actual sculpt AFTER'),fill=(0,0,0))
+            for i,view in enumerate(views):
+              im=Image.open(native/phase/(view+'.png')).convert('RGB')
+              im=im.resize((640,427),Image.Resampling.LANCZOS)
+              contact.paste(im,(i*640,row*660+26))
+              d.text((i*640+10,row*660+468),view,fill=(0,0,0))
+          contact.save(evid/'E9_REAL_SAME_CAMERA_BEFORE_AFTER_NOT_ART_APPROVED.jpg',quality=86,optimize=True)
+          report=json.loads((native/'INDEPENDENT_E9_REOPEN.json').read_text())
+          report['evidence_contact_sha256']=hashlib.sha256((evid/'E9_REAL_SAME_CAMERA_BEFORE_AFTER_NOT_ART_APPROVED.jpg').read_bytes()).hexdigest()
+          report['art_verdict']='PENDING_DIRECT_IMAGE_JURY_NO_PASS'
+          (evid/'E9_TECH_NOT_ART.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          print('E9_EVIDENCE_READY',json.dumps(report),flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$STUDY/e9_evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m "R4-E9: preserve real same-camera sculpted BLEND and visual evidence ART unreviewed [skip ci]"
+            git push origin HEAD:refs/heads/research/r33-s27-d48-r4-e9-visual-surgery-open-civic-city-20261105
+          fi
+      - name: Retain all six full original PNGs and native BLEND as short-lived evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-E9-SIX-REAL-SAME-CAMERA-RENDERS-AND-NATIVE-BLEND
+          path: studies/M3D-1S/J7/R33-S27/D48_R4_E9/e9_native/
+          retention-days: 7
+          if-no-files-found: warn
