@@ -40,8 +40,8 @@ jobs:
           assert sha==os.environ['SCRIPT_SHA'], ('author-source-sha-mismatch',sha)
           script=root/'author_section.py'
           # One verified source-code repair: three intervals between four profiles.
-          before="for i in range(4):\\n    a=west_profiles[i];b=west_profiles[i+1]"
-          after="for i in range(len(west_profiles)-1):\\n    a=west_profiles[i];b=west_profiles[i+1]"
+          before="for i in range(4):\n    a=west_profiles[i];b=west_profiles[i+1]"
+          after="for i in range(len(west_profiles)-1):\n    a=west_profiles[i];b=west_profiles[i+1]"
           source_text=raw.decode('utf-8')
           assert before in source_text
           script.write_text(source_text.replace(before,after),encoding='utf-8')
