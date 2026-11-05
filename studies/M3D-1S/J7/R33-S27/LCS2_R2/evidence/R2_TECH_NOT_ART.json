@@ -1,0 +1,51 @@
+{
+  "schema": "halo9-lcs2-r2-v1",
+  "source_sha256": "da98dfb810502228f9bcd48804d09f0e580308653cafc141ee0cfbb563859b54",
+  "output_sha256": "3ef9ea7e97d3b7008372db3bc39656c1c207dc0ea5804c5a1df20c7e4260d243",
+  "removed_objects": [
+    "LCS2_NAVE_PUBLIC_CONCOURSE",
+    "LCS2_west_fault_public_inhabited_level_0",
+    "LCS2_west_fault_public_inhabited_level_1",
+    "LCS2_west_fault_public_inhabited_level_2",
+    "LCS2_west_fault_recessed_library_gallery_0",
+    "LCS2_west_fault_recessed_library_gallery_1",
+    "LCS2_west_fault_recessed_library_gallery_2",
+    "LCS2_east_displaced_occupied_city_floor_0",
+    "LCS2_east_displaced_occupied_city_floor_1",
+    "LCS2_east_displaced_occupied_city_floor_2",
+    "LCS2_east_displaced_occupied_city_floor_3",
+    "LCS2_east_displaced_occupied_roof_0",
+    "LCS2_east_displaced_occupied_roof_1",
+    "LCS2_east_displaced_occupied_roof_2",
+    "LCS2_east_displaced_occupied_roof_3",
+    "LCS2_east_displaced_civic_glazed_gallery_0",
+    "LCS2_east_displaced_civic_glazed_gallery_1",
+    "LCS2_east_displaced_civic_glazed_gallery_2",
+    "LCS2_east_displaced_civic_glazed_gallery_3",
+    "LCS2_diagonal_fault_departed_civic_roof_0",
+    "LCS2_diagonal_fault_departed_civic_roof_1",
+    "LCS2_diagonal_fault_departed_civic_roof_2",
+    "LCS2_diagonal_fault_departed_civic_roof_3",
+    "LCS2_central_upper_occupied_crossing",
+    "LCS2_deep_fault_branch_west",
+    "LCS2_deep_fault_branch_east"
+  ],
+  "new_meshes": 115,
+  "png_sha256": {
+    "E11_NAVE_HUMAN": "d93f19f9086c5571f7368e8aeb9f26b19e316cc12188dcfe2165452d50820b5b",
+    "E11_H1_HUMAN": "3bbc2e640c4a3fdf999447ff4b9f21dfc1e7c1578dc1cfbac23bfeb7084cd940",
+    "E11_URBAN_AERIAL": "5c21ca3c95ca0da5bf4badb558c8169830c19d212d83f0313304316bd09dca54"
+  },
+  "cameras_unchanged": true,
+  "formal_art": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "NOT_YET_REVIEWED_NOT_ADOPTED",
+  "brightness": {
+    "E11_NAVE_HUMAN": 140.05,
+    "E11_H1_HUMAN": 122.11,
+    "E11_URBAN_AERIAL": 101.18
+  },
+  "review_sha256": "aafda297409e790d81f78f548669da8a1c66457032e75654612a6fc42e301ed3",
+  "image_preflight": "VALID_CANDIDATE"
+}
