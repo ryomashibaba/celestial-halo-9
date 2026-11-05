@@ -1,0 +1,44 @@
+{
+  "schema": "HALO9_INT3_ONE_FAULT_CIVIC_SECTION_NATIVE",
+  "source_sha256": "422a60469123500e7eb4f5be886ed390665c9daadad3ad8c5e8a3b9699443100",
+  "native_blend_sha256": "dfc42a42133341dce844979306cb4ac5574789cdcfa7b2af7d85cfdd9a75dc96",
+  "removed_int1_architecture": 6439,
+  "new_mesh_roles": {
+    "M247": 36,
+    "NAVE": 37,
+    "H1": 37,
+    "W0": 21
+  },
+  "native_angular_public_cutouts": [
+    "NAVE_LIBRARY",
+    "NAVE_STATION",
+    "NAVE_HIGH_ARCHIVE",
+    "NAVE_CEREMONY",
+    "H1_MARKET",
+    "H1_PUBLIC_SCHOOL",
+    "H1_ELEVATED_READING",
+    "H1_HOUSE_ATRIUM",
+    "UPPER_CIVIC_GARDEN",
+    "SKY_MARKET",
+    "SKY_DISPLACED_ATRIUM"
+  ],
+  "render_hashes": {
+    "E11_NAVE_HUMAN": "b58dd49ac18a555a89b468ab6589b56516dffbf212453a5fa246f900d829efac",
+    "E11_H1_HUMAN": "933349c26b293f4808b8f1c6e1cab4c9d95670ef2ddb2e356be0337b8ffcb9f5",
+    "E11_URBAN_AERIAL": "911dc77e4eabce32fb05da0f8060b819a740ad37337372e5f4b16e290ccb38c9"
+  },
+  "fixed_camera_poses": true,
+  "coordinates": "NONCANONICAL_RESEARCH_METRES",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "function": "NOT_INDEPENDENTLY_VERIFIED",
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "minecraft_construction": "HOLD",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 43.78,
+    "E11_H1_HUMAN": 8.77,
+    "E11_URBAN_AERIAL": 98.35
+  },
+  "image_preflight": "IMAGE_INVALID",
+  "mosaic_sha256": "150f4e751af3194546c3e022a9f2e04ccf494635c48ac2b2c3d2a999a18fd89d"
+}
