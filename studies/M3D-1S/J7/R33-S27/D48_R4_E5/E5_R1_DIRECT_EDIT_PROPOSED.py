@@ -9,6 +9,8 @@ args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 def param(k):
     if k not in args or args.index(k)+1>=len(args): raise RuntimeError(k+' required')
     return args[args.index(k)+1]
+if '--native-images-reviewed' not in args:
+    raise RuntimeError('Inspect genuine R0B human-view PNGs first; proxy previews are NOT a substitute')
 src=Path(param('--source')).resolve(strict=True)
 dest=Path(param('--output')).resolve()
 assert src.name=='E4_R0B_WORKING.blend', 'Unexpected input native source'
