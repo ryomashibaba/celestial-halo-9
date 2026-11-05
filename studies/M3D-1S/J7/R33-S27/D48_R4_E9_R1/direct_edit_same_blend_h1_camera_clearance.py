@@ -37,6 +37,8 @@ bpy.ops.render.render(write_still=True)
 # Physical architecture correction: lower public gallery deck to
 # camera's eye height, leaving 1.7 m eye clearance above the SAME deck.
 floor.location.z=cam.matrix_world.translation.z - 1.7 - floor.dimensions.z/2
+# Refresh Blender's evaluated transforms before geometrical clearance proof.
+bpy.context.view_layer.update()
 assert abs(floor.location.z-839.4)<0.1
 assert not inside_bbox(floor,cam.matrix_world.translation)
 # A deck needs physical piers; avoid a floating walkway.
