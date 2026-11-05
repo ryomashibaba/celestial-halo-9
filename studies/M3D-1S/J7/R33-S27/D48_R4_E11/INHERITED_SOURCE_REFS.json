@@ -1,0 +1,79 @@
+{
+  "verified_main": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "verified_e10": "94073f97cd65e346e5a3a9846f8dd48a73c6e8e4",
+  "sources": [
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "AGENTS.md",
+      "sha256": "7bd04b75e2305edec473656194ce7f251e54bc60270d251919d46b1409ccb586",
+      "read_scope": "full"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/START_HERE.md",
+      "sha256": "3061cc6a35cf3e47968400d49538ed218d9cd9debfc5e40c4193ca5922582f01",
+      "read_scope": "full"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/PROJECT_CONSTITUTION.md",
+      "sha256": "bb5104cf6e293553dbab483eb80dfed0b98749a27d307bf0aa2cecb8c640594d",
+      "read_scope": "full"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CITY_MASTER_3D_STANDARD.md",
+      "sha256": "2f8004e87ebf7d441e58ee82964815091d5f247d0ff6d4bd995d63544b3f2805",
+      "read_scope": "full"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/CURRENT_STATUS.md",
+      "sha256": "2f083a22b3425379a9353ea74fc003fc0bd83fd8b6bb5969eeecf27a67e01d15",
+      "read_scope": "full"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/DECISION_LOG.md",
+      "sha256": "33df9739248908fa7b92607c47814225169f582056ae4a7319cdad2222d3ad2b",
+      "read_scope": "full"
+    },
+    {
+      "ref": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+      "path": "docs/policy/SOURCE_REGISTER.md",
+      "sha256": "d022a2df36b4abed8b24c4d1da853f05cfb586cb08567d26b8d5745503ddd1ee",
+      "read_scope": "full"
+    },
+    {
+      "ref": "94073f97cd65e346e5a3a9846f8dd48a73c6e8e4",
+      "path": "studies/M3D-1S/J7/R33-S27/D48_R4_E5/HALO9_COMPLETE_HANDOFF_E5_CRITICAL_REVIEW_20261105_JA.md",
+      "sha256": "1743b6e4b14cf7fdf39aa1235fd501f551dbc7f863251c81d166dfce34638d9e",
+      "read_scope": "full"
+    },
+    {
+      "ref": "94073f97cd65e346e5a3a9846f8dd48a73c6e8e4",
+      "path": "studies/M3D-1S/J7/R33-S27/D48_R4_E6/E6_DIRECT_NATIVE_ART_JURY_JA.md",
+      "sha256": "1452fd7a64d82a9938017a3b41a892f19f9f5569e71c5d8f038445639bbf585a",
+      "read_scope": "full"
+    },
+    {
+      "ref": "94073f97cd65e346e5a3a9846f8dd48a73c6e8e4",
+      "path": "studies/M3D-1S/J7/R33-S27/D48_R4_E8/E8_DIRECT_NATIVE_ART_REVIEW_AND_NEXT_HANDOFF_JA.md",
+      "sha256": "67ea944a34e15a64ca3c95aeb8807f6f5a4e6b6f0a7c5922cb24064ef8668049",
+      "read_scope": "full"
+    },
+    {
+      "ref": "94073f97cd65e346e5a3a9846f8dd48a73c6e8e4",
+      "path": "studies/M3D-1S/J7/R33-S27/D48_R4_E9_R1/E9_R1_TRUE_NATIVE_CRITICAL_ART_JURY_AND_HANDOFF_JA.md",
+      "sha256": "cc6bcbe3387d62316a36ea7526d6a3feb55df049738535a64be05cf9687eb0dd",
+      "read_scope": "full"
+    },
+    {
+      "ref": "94073f97cd65e346e5a3a9846f8dd48a73c6e8e4",
+      "path": "studies/M3D-1S/J7/R33-S27/D48_R4_E10/E10_DIRECT_ART_JURY_AND_GUI_SCULPT_HANDOFF_JA.md",
+      "sha256": "d99e95badb7e59a10440f97be3c23905ffda06bab720806e38886da8294ab099",
+      "read_scope": "full"
+    }
+  ],
+  "scope_limit": "Not a fresh exhaustive audit of every historical individual asset"
+}

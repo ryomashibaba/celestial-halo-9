@@ -1,0 +1,64 @@
+=== render_R0.log ===
+00:00.031  color_management | Using OCIO=C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\colormanagement\config.ocio
+00:02.281  blend            | Read blend: "<E11_RESEARCH>\E11_INHABITED_SECTION_WORKING.blend"
+00:58.859  render           | Saved: '<E11_RESEARCH>\R0\E11_NAVE_HUMAN.png'
+01:45.656  render           | Saved: '<E11_RESEARCH>\R0\E11_H1_HUMAN.png'
+02:18.265  render           | Saved: '<E11_RESEARCH>\R0\E11_URBAN_AERIAL.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+E11_TRUE_RENDER_COMPLETE R0 3
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+
+=== render_R1.log ===
+00:00.031  color_management | Using OCIO=C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\colormanagement\config.ocio
+00:02.203  blend            | Read blend: "<E11_RESEARCH>\E11_INHABITED_SECTION_WORKING.blend"
+01:45.656  render           | Saved: '<E11_RESEARCH>\R1\E11_NAVE_HUMAN.png'
+03:03.422  render           | Saved: '<E11_RESEARCH>\R1\E11_H1_HUMAN.png'
+03:56.203  render           | Saved: '<E11_RESEARCH>\R1\E11_URBAN_AERIAL.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+E11_TRUE_RENDER_COMPLETE R1 3
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+
+=== render_R2.log ===
+00:00.031  color_management | Using OCIO=C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\colormanagement\config.ocio
+00:01.906  blend            | Read blend: "<E11_RESEARCH>\E11_INHABITED_SECTION_WORKING.blend"
+01:47.844  render           | Saved: '<E11_RESEARCH>\R2\E11_NAVE_HUMAN.png'
+03:00.328  render           | Saved: '<E11_RESEARCH>\R2\E11_H1_HUMAN.png'
+03:51.406  render           | Saved: '<E11_RESEARCH>\R2\E11_URBAN_AERIAL.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+E11_TRUE_RENDER_COMPLETE R2 3
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+
+=== verify_raw.log ===
+00:00.031  color_management | Using OCIO=C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\colormanagement\config.ocio
+00:02.297  blend            | Read blend: "<E11_RESEARCH>\E11_R0_BEFORE_REVIEW.blend"
+00:02.438  blend            | Read blend: "<E11_RESEARCH>\E11_INHABITED_SECTION_WORKING.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+E11_INDEPENDENT_REOPEN_PASS 188 CHANGED_MESHES
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

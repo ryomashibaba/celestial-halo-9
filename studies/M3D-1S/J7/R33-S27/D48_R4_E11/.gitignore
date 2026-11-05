@@ -1,0 +1,6 @@
+SESSION_BEFORE_E11.blend
+*.blend1
+*.blend2
+render_*.log
+verify_raw.log
+__pycache__/
