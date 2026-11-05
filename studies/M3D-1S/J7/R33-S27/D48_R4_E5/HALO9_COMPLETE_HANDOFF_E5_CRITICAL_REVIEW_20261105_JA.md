@@ -59,7 +59,7 @@
 
 ### Windows作者処理
 
-最初のローカル実行器が `Blender failed at author; exit ;` と表示したが、元の `author.stdout.txt` には実際のPNG2枚保存、BLEND保存、`Blender quit` が記録。stderrの `Material.use_nodes` は非推奨警告のみ。**実制作成功を、PowerShell実行器の空欄ExitCode判定が誤ってHOLDにした可能性が非常に高い。** その後の「BLEND header mismatch」は作者の `compress=True` を考慮しない回収ツールの不適切な非圧縮専用チェックによる可能性が高い。ファイル破損はそれだけで認定不可。Windows出力の存在をGitHubと混同しない。
+最初のローカル実行器が `Blender failed at author; exit ;` と表示したが、元の `author.stdout.txt` には実際のPNG2枚保存、BLEND保存、`Blender quit` が記録。stderrの `Material.use_nodes` は非推奨警告のみ。**実制作成功を、PowerShell実行器の空欄ExitCode判定が誤ってHOLDにした可能性が非常に高い。** その後の「BLEND header mismatch」は**回収ツールで検査不合格になった事実のみ確定**。以前「`compress=True` で保存したから先頭がZstandardとなったのが原因」と説明したが、これは**実BLENDの先頭バイト未取得のまま断定しすぎた誤り**。Blender公式ファイルヘッダー実装では圧縮処理と `BLENDER` ヘッダーの両立例があり、単に圧縮指定しただけで不一致を説明することはできない（https://github.com/blender/blender/blob/main/source/blender/blenloader_core/BLO_core_blend_header.hh ／ https://archive.blender.org/developer/maniphest/0093/0093858/index.html）。**真の不一致原因はわからない**。対象ファイル・先頭16バイト・Blender独立再読込の検証が必要。ファイル破損も無傷も断定しない。Windows作者ログ上の保存成功をGitHub CIの失敗と混同しない。
 
 ### GitHub Actions（新たにジョブログを取得して事実確認）
 
@@ -171,7 +171,7 @@ GitHub E5 branch の実行 #42002438597／#42005012977／**#42005458650** は複
 
 - **原則、ユーザーに毎回「次の工程」と入力してもらうだけで、Chat側でできる調査・制作準備・資料更新をまとめて済ませる**。ツールが続行を要求しない限り途中確認・ステップ分割をしない。自動実行できない環境を「自動実行」と呼ばない。
 - PC実機が必要な場合：**唯一のシンプルな起動器**に、入力検証・Blender background 2 threads BelowNormal・制作・真正画像・独立再読込・ARTレビュー用セット作成・ログ回収を集約する。失敗なら**同一フォルダに1つの自己診断ZIP**。原因調査・改訂まではユーザーへ再実行を要求しない。
-- Windowsでの `Start-Process` 空欄ExitCode、圧縮BLENDヘッダー判定ミス、GitHub Actionsのデノイザー非対応とpush競合を必ず回避。回収器が失敗しても、制作成功済みのBLENDとPNGを保護する。
+- Windowsでの `Start-Process` 空欄ExitCode、原因未確定のBLENDヘッダー不一致（ファイル先頭バイトを診断せずに決めつけない）、GitHub Actionsのデノイザー非対応とpush競合を必ず回避。回収器が失敗しても、制作成功済みのBLENDとPNGを保護する。
 - 既に受領したPNG/ログを再要求しない。BLENDを扱うには**現物のBLEND**が必要だが、必要時に**1回だけ**受領すればよい。大量のスクリーンショット、ログの逐次コピペ、コマンド入力は前提にしない。
 - 保護原本を更新しない、既存R0Bを上書きしない、研究出力の毎回別名作成とSHA記録。Windowsユーザー名など私的な絶対パスを公開GitHub記録に含めない。巨大なBLENDの公開アップロードはサイズ・プライバシーを確認してから。
 - 権限：Chat中心。Work/Computer Use/有料API/インストール/GUI操作/正式施工/MAIN変更は**新たな明示承認が必要**。ユーザーが学校や他作業中にPCを重くしない。安全なバックグラウンド限定でも予想外のPC負荷があれば停止。
