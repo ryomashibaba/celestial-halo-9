@@ -1,0 +1,32 @@
+{
+  "schema": "halo9-int4-explicit-sculptural-civic-city-v1",
+  "source_sha256": "422a60469123500e7eb4f5be886ed390665c9daadad3ad8c5e8a3b9699443100",
+  "blend_sha256": "c71dbe46f7fda20aee6d1355720fc76b5c64d6c0a4ccf0b8bbaa0e210d2fff41",
+  "removed_rejected_architecture": 6439,
+  "new_geometry_by_role": {
+    "W0": 20,
+    "NAVE": 40,
+    "M247": 48,
+    "H1": 35
+  },
+  "source_blend_real": true,
+  "unchanged_cameras": true,
+  "render_sha256": {
+    "E11_NAVE_HUMAN": "3621dd3bcb3f98429e1bcd92289cb1cd9c8c3b27134c82c3018c8f2182d3e35a",
+    "E11_H1_HUMAN": "4b8f826ddc00a9ac4c6c2c579b508074ea790f23b2f1b3aae043d8bacb1c6709",
+    "E11_URBAN_AERIAL": "bcd3aedbe3313042c8908a6cb71308be8cd5955325b99639dcb8e5766cb621c1"
+  },
+  "function": "UNKNOWN_NOT_INDEPENDENTLY_PROVEN",
+  "coordinates": "UNREGISTERED_RESEARCH_METRES",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft_construction": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 188.32,
+    "E11_H1_HUMAN": 30.51,
+    "E11_URBAN_AERIAL": 103.13
+  },
+  "image_preflight": "VALID_CANDIDATE",
+  "mosaic_sha256": "f6d8e2e5e90a93c7ac20f8667682fb8bff124541d2977a54ce1e9e8285e61dfb"
+}
