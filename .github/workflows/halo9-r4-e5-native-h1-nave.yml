@@ -6,7 +6,6 @@ on:
     paths:
       - .github/workflows/halo9-r4-e5-native-h1-nave.yml
       - studies/M3D-1S/J7/R33-S27/D48_R4_E5/author_R0B.py
-  workflow_dispatch:
 permissions:
   contents: write
 concurrency:
@@ -14,6 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   native_r0b:
+    # This additional matching-path push activates a workflow already present on the research branch.
     if: github.ref == 'refs/heads/research/r33-s27-d48-r4-e5-native-r0b-review-20261105'
     runs-on: ubuntu-24.04
     timeout-minutes: 35
