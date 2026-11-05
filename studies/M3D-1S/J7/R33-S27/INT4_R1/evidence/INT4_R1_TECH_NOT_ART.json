@@ -1,0 +1,116 @@
+{
+  "schema": "halo9-int4-r1-protected-human-view-sculpt-v1",
+  "source_sha256": "c71dbe46f7fda20aee6d1355720fc76b5c64d6c0a4ccf0b8bbaa0e210d2fff41",
+  "blend_sha256": "7cf765923b91f06cce7951fc3558f042e488bf9f1157791b59b14d11954dc2bb",
+  "surgical_geometry_changes": [
+    {
+      "object": "INT4_W0_PORT_NAVE_WALK",
+      "nodes": 4,
+      "depressed_nodes_m": {
+        "2": 17.0,
+        "3": 20.0
+      }
+    },
+    {
+      "object": "INT4_NAVE_PUBLIC_CIVIC_CROSS",
+      "nodes": 5,
+      "depressed_nodes_m": {
+        "0": 9.0,
+        "1": 7.0
+      }
+    },
+    {
+      "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+      "nodes": 5,
+      "depressed_nodes_m": {
+        "4": 16.0
+      }
+    },
+    {
+      "object": "INT4_H1_PUBLIC_BOULEVARD",
+      "nodes": 5,
+      "depressed_nodes_m": {
+        "0": 13.0,
+        "1": 7.0
+      }
+    },
+    {
+      "object": "INT4_H1_URBAN_MAIN_PEDESTRIAN_CROSSING",
+      "actual_mesh_vertex_count": 12,
+      "vertical_recess_m": 18.0
+    }
+  ],
+  "original_camera_raycast": {
+    "E11_NAVE_HUMAN": {
+      "object": "INT4_W0_PORT_NAVE_WALK",
+      "distance": 5.228,
+      "location": [
+        14.844,
+        -355.125,
+        75.581
+      ]
+    },
+    "E11_H1_HUMAN": {
+      "object": "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+      "distance": 8.444,
+      "location": [
+        760.383,
+        278.044,
+        441.24
+      ]
+    },
+    "E11_URBAN_AERIAL": {
+      "object": "W0_NORTH_FRACTURED_RANGE",
+      "distance": 4501.179,
+      "location": [
+        -306.073,
+        678.598,
+        172.682
+      ]
+    }
+  },
+  "revised_camera_raycast": {
+    "E11_NAVE_HUMAN": {
+      "object": "INT4_NAVE_NORTH_CEREMONY_AND_GATHERING_upper_skyshade_core",
+      "distance": 601.272,
+      "location": [
+        -2.896,
+        200.733,
+        290.0
+      ]
+    },
+    "E11_H1_HUMAN": {
+      "object": "SKY",
+      "distance": null,
+      "location": null
+    },
+    "E11_URBAN_AERIAL": {
+      "object": "W0_NORTH_FRACTURED_RANGE",
+      "distance": 4501.179,
+      "location": [
+        -306.073,
+        678.598,
+        172.682
+      ]
+    }
+  },
+  "native_render_sha256": {
+    "E11_NAVE_HUMAN": "a606a2930338fc37b359b19ab6b2a697ab18635697ff424157d6cf3f5964dd08",
+    "E11_H1_HUMAN": "256610731c371af28c3a9e6c2d0329cce48c2df2f14dd2c1036b959c8b8c3f75",
+    "E11_URBAN_AERIAL": "10a6eb92f494ded4a58e6c612c37f3dafc3e0a5266029742af2cb4fdc7435dd0"
+  },
+  "cameras_unchanged": true,
+  "function": "UNKNOWN_NOT_INDEPENDENTLY_PROVEN",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft_construction": "HOLD",
+  "coordinates": "UNREGISTERED_RESEARCH_METRES",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 140.87,
+    "E11_H1_HUMAN": 146.52,
+    "E11_URBAN_AERIAL": 103.06
+  },
+  "image_preflight": "VALID_CANDIDATE",
+  "mosaic_sha256": "fae6d0148ba15c4e8714e52f86e5bd310106fc988e0d993f7450de79fde1547e"
+}
