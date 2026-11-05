@@ -59,29 +59,15 @@ jobs:
           text=f.read_text()
           assert old in text, 'EXPECTED_R1_MATERIAL_MAPPING_NOT_FOUND'
           f.write_text(text.replace(old,replacement))
-          # One-shot diagnostic: genuine Blender scene ray casts after real R1 modelling,
-          # before spending minutes on renders; this is not an ART or TECH PASS.
-          source_text=f.read_text()
-          probe=__import__("textwrap").dedent("""
-          # DIAGNOSTIC: inspect camera occlusion without modifying production objects.
-          from mathutils import Vector
-          bpy.context.view_layer.update()
-          dg=bpy.context.evaluated_depsgraph_get()
-          cam=bpy.data.objects['E11_H1_HUMAN'];pos=cam.matrix_world.translation
-          q=cam.matrix_world.to_quaternion()
-          for nm,v in [('FORWARD',(0,0,-1)),('LEFT',(-.4,0,-1)),('RIGHT',(.4,0,-1)),('UP',(0,.4,-1)),('DOWN',(0,-.4,-1)),('ZUP',(0,0,1)),('ZDOWN',(0,0,-1))]:
-           direction=(q @ Vector(v)).normalized() if nm not in ('ZUP','ZDOWN') else Vector(v)
-           hit,p,n,face,obj,world=S.ray_cast(dg,pos,direction,distance=1500)
-           print('H1_DIAG_RAY',nm,'CAM',tuple(round(x,2) for x in pos),'HIT',bool(hit),
-                 'DIST',round((p-pos).length,2) if hit else None,'OBJECT',obj.name if obj else None,flush=True)
-          # Exit intentionally after diagnosis. No camera-change or fake art acceptance.
-          raise RuntimeError('LCS1_R1_INTENTIONAL_DIAGNOSTIC_STOP_NO_ART_PASS')
-          """)
-          anchor="# Fixed research cameras: no camera swapping"
-          assert anchor in source_text,'DIAG_INSERTION_ANCHOR_MISSING'
-          f.write_text(source_text.replace(anchor,probe+"\n"+anchor))
+          # Actual structural revision: move the diagonal beam clear of the H1
+          # occupied street camera; do NOT modify camera or hide geometry in render.
+          shaped=f.read_text()
+          old_beam="((625,-134,55),(818,482,651),28)"
+          new_beam="((885,-134,55),(995,482,651),28)"
+          assert old_beam in shaped,'EXPECTED_R1_OCCLUDING_BEAM_NOT_FOUND'
+          f.write_text(shaped.replace(old_beam,new_beam))
           py_compile.compile(str(f),doraise=True)
-          print('R1_SOURCE_DIAGNOSTIC_VERIFIED',len(raw),flush=True)
+          print('R1_SOURCE_VERIFIED_OCCLUSION_GEOMETRY_REPAIRED',len(raw),flush=True)
           PY
       - name: Install checksum verified official Blender 5.2.1
         run: |
