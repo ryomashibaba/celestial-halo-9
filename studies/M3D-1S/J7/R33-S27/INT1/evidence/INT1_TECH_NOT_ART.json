@@ -1,0 +1,31 @@
+{
+  "schema": "halo9-int1-real-interior-first-v1",
+  "source_sha256": "f4f9f560bd35a3b2a4255aef52d4f52201e28a9a9d8530f5507f6ad8d4e1d703",
+  "working_blend_sha256": "422a60469123500e7eb4f5be886ed390665c9daadad3ad8c5e8a3b9699443100",
+  "removed_rejected_objects": 413,
+  "new_meshes": 6439,
+  "role_counts": {
+    "NAVE": 757,
+    "H1": 1800,
+    "M247": 3579,
+    "W0": 303
+  },
+  "render_sha256": {
+    "E11_NAVE_HUMAN": "e59d1756308b5b0f7e6b21466d85e733d692799140438badfcb39a64cd3af938",
+    "E11_H1_HUMAN": "fd74da554fc8462ae09af98f50084db73ca81b010d07ea2e6d4853f68a416e89",
+    "E11_URBAN_AERIAL": "32b88a27d151babe1cfba2016e86519f498ea8c0f0d3a35afb63e18491579738"
+  },
+  "cameras_unmodified": true,
+  "coordinates": "UNREGISTERED_RESEARCH_METRES",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft_construction": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "true_render_mean_brightness": {
+    "E11_NAVE_HUMAN": 128.69,
+    "E11_H1_HUMAN": 118.88,
+    "E11_URBAN_AERIAL": 103.51
+  },
+  "image_preflight": "VALID_CANDIDATE",
+  "mosaic_sha256": "052ff835e7e11194e10a1c562f24bf58abdd96ca76aea9c75ae9dbb82ee45797"
+}
