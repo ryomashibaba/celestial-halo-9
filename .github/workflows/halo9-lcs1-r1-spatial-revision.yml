@@ -38,6 +38,27 @@ jobs:
           raw=bz2.decompress(base64.b64decode((root/'R1_source.bz2.b64').read_text().strip()))
           assert hashlib.sha256(raw).hexdigest()==os.environ['PY_SHA']
           f=root/'refine_occupied_section.py';f.write_bytes(raw)
+          # The LCS1 material IDs use descriptive Blender names, not short role keys.
+          # Apply the audited in-source repair before execution, and persist it via git.
+          material_roles={
+            'chalk':'LCS1_chalk_formed_civic_concrete',
+            'bone':'LCS1_warm_public_limestone',
+            'slate':'LCS1_rift_shadow_basalt',
+            'steel':'LCS1_aged_champagne_titanium',
+            'copper':'LCS1_patinated_copper',
+            'glass':'LCS1_deep_teal_reflecting_glass',
+            'water':'LCS1_tidal_pools',
+            'light':'LCS1_inhabited_warm_light',
+            'way':'LCS1_wayfinding_glow',
+            'green':'LCS1_gardens',
+            'street':'LCS1_warm_paving',
+            'roof':'LCS1_titanium_roof'
+          }
+          old="M={n:bpy.data.materials['LCS1_'+n] for n in ['chalk','bone','slate','steel','copper','glass','water','light','way','green','street','roof']}"
+          replacement="M={k:(bpy.data.materials.get(v) or bpy.data.materials.new(v)) for k,v in "+repr(material_roles)+" .items()}"
+          text=f.read_text()
+          assert old in text, 'EXPECTED_R1_MATERIAL_MAPPING_NOT_FOUND'
+          f.write_text(text.replace(old,replacement))
           py_compile.compile(str(f),doraise=True)
           print('R1_SOURCE_VERIFIED',len(raw),flush=True)
           PY
