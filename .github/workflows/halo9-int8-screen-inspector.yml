@@ -5,6 +5,7 @@ on:
       - research/r33-s27-d48-int8-visual-blender-ui-20261106
     paths:
       - .github/workflows/halo9-int8-screen-inspector.yml
+      - studies/M3D-1S/J7/R33-S27/INT8/debug/BEFORE_REAL_GUI.png
 permissions:
   contents: write
 jobs:
