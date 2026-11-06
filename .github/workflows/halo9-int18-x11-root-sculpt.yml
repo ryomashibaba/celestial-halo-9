@@ -149,6 +149,7 @@ jobs:
           sleep 2
           scrot -o "$OUT/GUI_FINAL_VIEWPORT.png"
           cat "$OUT/GUI_SAVE_PASS.json"
+          cp "$OUT/"*.blend "$ROOT/native/"
           cp "$OUT/"*.png "$ROOT/native/"
           cp "$OUT/"*.json "$ROOT/native/"
           cp "$OUT/BLENDER_GUI.log" "$ROOT/native/"
