@@ -1,0 +1,52 @@
+{
+  "schema": "halo9-int7-nave-occupied-rift-native-v1",
+  "source_sha256": "7cf765923b91f06cce7951fc3558f042e488bf9f1157791b59b14d11954dc2bb",
+  "native_blend_sha256": "26bdedb3681a83cb3db39145d1ee7e036c2ee8a557622c6d0aeb9344a90637f6",
+  "rejected_nave_and_m247_objects_removed_in_study": 90,
+  "new_mesh_by_role": {
+    "M247": 8,
+    "NAVE": 19,
+    "W0": 1,
+    "CITY": 8
+  },
+  "camera_original_matrices_unchanged": true,
+  "public_programmes": [
+    "library",
+    "rail station",
+    "ceremony",
+    "W0 access",
+    "inhabited high city",
+    "civic street"
+  ],
+  "geometry_integrity": "NONZERO_MESH_ONLY_VOLUME_NOT_YET_VERIFIED",
+  "functional_walkability": "UNKNOWN_NOT_EXHAUSTIVELY_SWEEP_VERIFIED",
+  "original_e11_render_names": [
+    "E11_NAVE_HUMAN",
+    "E11_H1_HUMAN",
+    "E11_URBAN_AERIAL"
+  ],
+  "extra_review_views": [
+    "INT7_NAVE_CIVIC_INTERIOR_DETAIL",
+    "INT7_M247_W0_SCULPTURE_OBLIQUE"
+  ],
+  "render_sha256": {
+    "E11_NAVE_HUMAN": "74b7fecd5cf40cb0179c9c3cb12d1d66f74f03e52be835817804979fec1c9486",
+    "E11_H1_HUMAN": "187520780c7bc766b67fcd0d018cf758cb742189503895892d08bd0be825edcd",
+    "E11_URBAN_AERIAL": "59ef1bde48901559629d03b26c8a9e3d02ad0d8abb2d11983c1d611e74788cb1",
+    "INT7_NAVE_CIVIC_INTERIOR_DETAIL": "3a2fbc2e16718c9b8b3bb1c7f1999918cb8d3d4705cdc483a25a1e2413a3e2fc",
+    "INT7_M247_W0_SCULPTURE_OBLIQUE": "f0bc9487b09c067c783bdd202c87980c8e4cb2b3f2c9bda3e00f02e97c783261"
+  },
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 161.84,
+    "E11_H1_HUMAN": 7.78,
+    "E11_URBAN_AERIAL": 103.54,
+    "INT7_NAVE_CIVIC_INTERIOR_DETAIL": 118.3,
+    "INT7_M247_W0_SCULPTURE_OBLIQUE": 143.09
+  },
+  "image_preflight": "IMAGE_INVALID",
+  "mosaic_sha256": "64a6443d9bf3e7b4a0c6fec3e6322b09bf02cb17a78d57be6256a8e679195dc4"
+}
