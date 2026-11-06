@@ -37,7 +37,7 @@ jobs:
         run: |
           set -euo pipefail
           sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb openbox xdotool wmctrl scrot python3-pil libgl1-mesa-dri
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb x11-utils openbox xdotool wmctrl scrot python3-pil libgl1-mesa-dri
       - name: Acquire SHA256-verified official Blender 5.2.1 binary
         run: |
           set -euo pipefail
