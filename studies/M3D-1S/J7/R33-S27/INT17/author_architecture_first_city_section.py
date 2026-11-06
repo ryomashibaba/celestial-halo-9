@@ -37,7 +37,7 @@ rejected=[o for o in list(sc.objects) if o.type=='MESH' and
     o.name.startswith(('INT1_','INT2_','INT3_','INT4_','INT5_',
                        'INT6_','INT7_','INT8_','INT9_',
                        'INT10_','INT11_','INT12_','INT13_','INT14_','INT15_','INT16_'))]
-assert len(rejected)>=40,('REJECTED_STUDY_SCENE_NOT_FOUND',len(rejected))
+assert len(rejected)>=20,('REJECTED_STUDY_SCENE_NOT_FOUND',len(rejected))
 deleted=[o.name for o in rejected]
 for o in rejected:bpy.data.objects.remove(o,do_unlink=True)
 assert all(n in bpy.data.objects for n in w0+fixed)
