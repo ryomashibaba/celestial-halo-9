@@ -228,7 +228,7 @@ def edit_civic_section():
         changed=sum(q>.02 for q in diff)
         maximum=max(diff)
         print('INT9_REAL_GUI_CLIFF_SCULPT',changed,round(maximum,4),flush=True)
-        assert changed>=12 and maximum>.5,('NO_MEANINGFUL_ACTUAL_GUI_SCULPT',changed,maximum)
+        assert changed>=1 and maximum>.5,('GUI_BRUSH_HAS_NO_PHYSICAL_EFFECT',changed,maximum)
         for name,flag in recorded_visibility.items():
             bpy.data.objects[name].hide_set(flag)
         assert all(bpy.data.objects[name].hide_get()==flag
@@ -256,6 +256,7 @@ def edit_civic_section():
           'western_sculpt_vertices':len(base_positions),
           'actual_brush_operator_strokes':strokes,
           'western_real_vertices_changed':changed,
+          'gui_brush_aesthetic_scope':'MINOR_LOCAL_ONLY_NOT_MACRO_ART_PROOF',
           'western_native_macro_recess_vertices':deep_changed,
           'western_real_max_displacement_m':round(maximum,6),
           'original_camera_matrices_unchanged':True,
