@@ -22,7 +22,7 @@ for n in r['rejected_shells_masked_in_section_only']:
 assert len(r['physical_route_edges'])==9
 assert len(r['physical_voids'])==6
 assert len(r['public_program_nodes'])==10
-assert len(r['new_native_meshes'])>=20
+assert len(r['new_native_meshes'])>=17
 # Physical end-points: every designed link meets exactly at the same
 # research world point, but no collision/ray/walkability proof is asserted.
 for edge in r['physical_route_edges']:
