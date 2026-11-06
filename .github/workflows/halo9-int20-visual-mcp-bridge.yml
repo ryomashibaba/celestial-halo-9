@@ -55,6 +55,17 @@ jobs:
           test -f /tmp/halo9-mcp/NOTICE
           test -f /tmp/halo9-mcp/blender_scripts/addons/blender_mcp_addon.py
           grep -F 'GPUOffScreen' /tmp/halo9-mcp/blender_scripts/addons/blender_mcp_addon.py
+          # MCP timers do not necessarily inherit a screen in bpy.context.
+          # Change ONLY the viewport screenshot's screen accessor, inside
+          # this isolated runner copy of the pinned MIT source.
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('/tmp/halo9-mcp/blender_scripts/addons/blender_mcp_addon.py')
+          s=p.read_text()
+          old='for a in bpy.context.screen.areas:'
+          assert s.count(old)==1,s.count(old)
+          p.write_text(s.replace(old,'for a in bpy.context.window_manager.windows[0].screen.areas:'))
+          PY
       - name: Real nonbackground Blender MCP, source-city viewport and nonblack screenshot
         run: |
           set -euo pipefail
