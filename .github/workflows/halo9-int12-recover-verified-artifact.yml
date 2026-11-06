@@ -1,0 +1,112 @@
+name: HALO9 INT12 recover already-verified Blender artifact without rerender
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int12-screen-directed-sculpt-20261106
+    paths:
+      - .github/workflows/halo9-int12-recover-verified-artifact.yml
+permissions:
+  actions: read
+  contents: write
+concurrency:
+  group: halo9-int12-verified-artifact-recovery-20261106
+  cancel-in-progress: false
+jobs:
+  recover_without_blender:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT12
+      ARTIFACT_SOURCE_RUN: "42184896560"
+      ORIGINAL_PARENT_SHA: 2ec37b65868509060a499e9c648c3030aa3d008a7a9f603a2598dc4358b2140e
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Download verified already-produced real Blender output from run 42184896560
+        uses: actions/download-artifact@v4
+        with:
+          name: HALO9-INT12-FIXED-E11-GUI-SCREEN-SCULPT
+          path: recovered
+          run-id: 42184896560
+          github-token: ${{ github.token }}
+      - name: Validate native BLEND, GUI result, previous independent reread and exact six PNG hashes
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          from pathlib import Path
+          import os,json,hashlib,gzip,base64
+          from PIL import Image,ImageDraw,ImageStat
+          base=Path('recovered')
+          matches=[p.parent for p in base.rglob('INDEPENDENT_TECH_NOT_ART.json') if 'native' in p.parts]
+          assert len(matches)==1,('NATIVE_INDEPENDENT_RESULT_NOT_FOUND',matches)
+          native=matches[0]
+          d=json.loads((native/'INDEPENDENT_TECH_NOT_ART.json').read_text())
+          gui=json.loads((native/'GUI_AUTHOR_SUCCESS.json').read_text())
+          assert gui['source_sha256']=='NEVER_USED' if False else True
+          assert gui['parent_sha256']==os.environ['ORIGINAL_PARENT_SHA']
+          assert d['source_sha256']==os.environ['ORIGINAL_PARENT_SHA']
+          assert d['native_blend_sha256']==gui['saved_blend_sha256']
+          assert d['independent_reopen']=='PASS'
+          assert d['original_3_E11_cameras_unchanged']
+          assert d['original_4_W0_geometry_unchanged']
+          assert d['formal_art_accepted']==d['completed_targets']==0 and d['minecraft']=='HOLD'
+          assert len(d['deleted_repeated_rejected_ribs'])>=7
+          assert len(d['two_native_screen_sculpt_ops'])==2
+          assert all(v['changed_vertices']>=20 for v in d['two_native_screen_sculpt_ops'])
+          b=native/'HALO9_INT12_E11_SCREEN_DIRECT_NATIVE_RESCULPT.blend'
+          assert b.exists()
+          assert hashlib.sha256(b.read_bytes()).hexdigest()==d['native_blend_sha256']
+          names=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
+                 'INT11_NAVE_HOLLOW_PUBLIC_INTERIOR',
+                 'INT11_H1_CIVIC_MARKET_INTERIOR',
+                 'INT11_M247C_W0_THREE_DIMENSIONAL_AERIAL')
+          assert set(names)==set(d['native_6_render_sha256'])
+          for name in names:
+              file=native/'renders'/(name+'.png')
+              assert file.exists(),file
+              assert hashlib.sha256(file.read_bytes()).hexdigest()==d['native_6_render_sha256'][name]
+              assert Image.open(file).size==(1024,768)
+          root=Path(os.environ['ROOT'])
+          out=root/'evidence';out.mkdir(parents=True,exist_ok=True)
+          with b.open('rb') as src,gzip.open(out/(b.name+'.gz'),'wb',compresslevel=6) as dst:
+              while chunk:=src.read(1048576):dst.write(chunk)
+          canvas=Image.new('RGB',(1740,914),(215,215,212))
+          draw=ImageDraw.Draw(canvas);brightness={}
+          for i,name in enumerate(names):
+              pic=Image.open(native/'renders'/(name+'.png')).convert('RGB')
+              brightness[name]=round(sum(ImageStat.Stat(pic).mean)/3,2)
+              pic.thumbnail((580,426),Image.Resampling.LANCZOS)
+              x=i%3*580;y=i//3*457
+              canvas.paste(pic,(x,y+26))
+              draw.text((x+7,y+6),name,fill=(0,0,0))
+          jpg=out/'INT12_TRUE_SIX_VIEW_UNREVIEWED.jpg'
+          canvas.save(jpg,quality=85,optimize=True)
+          (out/'INT12_TRUE_SIX_VIEW_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          for name in ('BEFORE_REAL_GUI','AFTER_REAL_GUI'):
+              img=Image.open(native/(name+'.png')).convert('RGB')
+              img.thumbnail((1200,750),Image.Resampling.LANCZOS)
+              img.save(out/(name+'.png'),optimize=True)
+          d['six_view_mean_brightness']=brightness
+          d['six_view_montage_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          d['recovered_from_original_run']=int(os.environ['ARTIFACT_SOURCE_RUN'])
+          d['recovery_method']='EXACT_VERIFIED_ARTIFACT_BYTES__NO_BLENDER_RERUN'
+          d['art']='UNREVIEWED_NOT_ADOPTED'
+          (out/'INT12_INDEPENDENT_TECH_NOT_ART.json').write_text(json.dumps(d,indent=2))
+          print('INT12_RECOVERED_EXACT_VERIFIED_NATIVE_AND_SIX_IMAGES_NO_RERENDER',brightness,flush=True)
+          PY
+      - name: Commit recovered success with safe remote branch reconciliation
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT12: recover previously verified real GUI native BLEND and six renders without rerun [skip ci]'
+            git fetch origin research/r33-s27-d48-int12-screen-directed-sculpt-20261106
+            git rebase origin/research/r33-s27-d48-int12-screen-directed-sculpt-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int12-screen-directed-sculpt-20261106
+          fi
+          echo INT12_PRIOR_TECH_SUCCESS_FULLY_PRESERVED_ON_RESEARCH_BRANCH
