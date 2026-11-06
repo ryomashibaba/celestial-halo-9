@@ -99,10 +99,11 @@ def finish_real_gui_setup():
         # Blender 5.2 GUI previously displayed 100 px despite setting
         # the underlying brush.size to 164. Explicit unified-size
         # override also drives the actual onscreen brush cursor.
-        unified=bpy.context.tool_settings.unified_paint_settings
-        if hasattr(unified,'use_unified_size'):
-            unified.use_unified_size=True
-        unified.size=240
+        unified=getattr(bpy.context.tool_settings,'unified_paint_settings',None)
+        if unified is not None:
+            if hasattr(unified,'use_unified_size'):
+                unified.use_unified_size=True
+            unified.size=240
         bpy.context.view_layer.update()
         area.tag_redraw()
         projected=location_3d_to_region_2d(reg,r3d,focus)
@@ -149,7 +150,7 @@ def finish_real_gui_setup():
           'near_corner_vertex_index':corner_index,
           'near_corner_world':[round(float(v),3) for v in corner],
           'near_corner_distance_m':round((corner-focus).length,3),
-          'unified_brush_size':unified.size,
+          'unified_brush_size':int(unified.size) if unified is not None else None,
           'brush':brush.name,'brush_size':brush.size,'brush_strength':brush.strength,
           'initial_mode':bpy.context.mode,
           'gui_event_loop_attempts':attempt['number'],
