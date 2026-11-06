@@ -6,5 +6,7 @@ ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
 ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
 ALSA lib conf.c:5731:(snd_config_expand) Evaluate error: No such file or directory
 ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
-00:01.850  blend            | Read blend: "/tmp/INT8_SOURCE.blend"
+00:05.116  blend            | Read blend: "/tmp/INT8_SOURCE.blend"
 INT8_REAL_GUI_READY {"schema": "halo9-int8-real-blender-desktop-session", "source_sha256": "51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe", "blender_version": "5.2.1 LTS", "background": false, "source_blend": "INT8_SOURCE.blend", "target": "INT6_TRUE_BRUSH_west", "target_vertices": 1680, "visible_view3d_area": [2, 90, 1245, 813], "region": [2, 90, 1245, 813], "screen_width": 1520, "screen_height": 930, "surface_point": [-576.143, 415.141, 556.0], "brush": "Clay Strips", "brush_size": 164, "brush_strength": 0.9599999785423279, "initial_mode": "SCULPT", "gui_event_loop_attempts": 1, "original_camera_matrices_recorded": true, "formal_art_adopted": 0, "completed_targets": 0, "minecraft": "HOLD", "art": "NOT_REVIEWED"}
+00:17.028  blend            | Writing user preferences: "/home/runner/.config/blender/5.2/config/userpref.blend" 
+00:17.029  operator         | Preferences saved
