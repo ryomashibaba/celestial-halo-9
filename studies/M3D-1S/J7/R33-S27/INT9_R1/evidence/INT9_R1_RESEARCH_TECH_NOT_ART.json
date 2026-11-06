@@ -1,0 +1,40 @@
+{
+  "schema": "halo9-int9-r1-obstruction-cut-v1",
+  "source_sha256": "c407de616a0e2cf8807fb5ac79c102a052062725f6e89f75b978570a2b7693c7",
+  "edited_blend_sha256": "651eb465405fef91b8baabd80d4428dbd2c3ba395c71e8abda71fc354cc3ba27",
+  "original_cameras_unchanged": true,
+  "nave_selected_obstruction": "INT7_NAVE_NORTH_RITUAL_CIVIC_ATRIUM",
+  "nave_cut_polygon_count_before": 9,
+  "nave_cut_polygon_count_after": 19,
+  "fixed_nave_screen_ray_before": {
+    "hit": true,
+    "name": "INT7_NAVE_NORTH_RITUAL_CIVIC_ATRIUM",
+    "distance": 683.1021,
+    "u": 0.64,
+    "v": 0.56
+  },
+  "fixed_nave_screen_ray_after": {
+    "hit": false,
+    "name": "SKY",
+    "distance": null,
+    "u": 0.64,
+    "v": 0.56
+  },
+  "fixed_camera_render_sha256": {
+    "E11_NAVE_HUMAN": "37076c258dacb0d2ef715d361b18f7cec67a4597e44548230aceed0722ca7945",
+    "E11_H1_HUMAN": "0d097ded59427c8ae1d3b2d1055a4199b015eb1ed09be616616db4a3ca677bfe",
+    "E11_URBAN_AERIAL": "c40916be05de6edcca2afd100ec268067efbe157266c83fc7de7ff85c7639010"
+  },
+  "minecraft": "HOLD",
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "function": "UNKNOWN",
+  "source_int9_h1_cavity_preserved": true,
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 166.72,
+    "E11_H1_HUMAN": 33.25,
+    "E11_URBAN_AERIAL": 107.77
+  },
+  "mosaic_sha256": "e24f704fd0d08725740874e5a1749efb009a32ad48d192a4d78cc32879ec6239"
+}
