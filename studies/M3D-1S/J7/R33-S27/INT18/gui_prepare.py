@@ -50,7 +50,15 @@ ranges=[(min(v[j] for v in world),max(v[j] for v in world)) for j in range(3)]
 size=max(b-a for a,b in ranges)
 look=Vector((-1,-1.6,.67)).normalized()
 face=max(subject.data.polygons,key=lambda p:p.area*max(0.,p.normal.dot(look))**2)
-focus=subject.matrix_world@face.center
+# INT18-R1: Original ray-hit pick was the CENTRE of an exceptionally
+# large flat polygon. A 100px GUI brush can hit that polygon but have
+# NO mesh vertices within its deformation footprint. Move the picked
+# point INSIDE this existing face but close to an existing corner.
+# This does not add any mesh geometry or simulate a brush operator.
+face_center=subject.matrix_world@face.center
+corner_index=int(face.vertices[0])
+corner=subject.matrix_world@subject.data.vertices[corner_index].co
+focus=face_center.lerp(corner,0.92)
 normal=(subject.matrix_world.to_3x3()@face.normal).normalized()
 eye=focus+normal*size*1.45
 r3d.view_location=focus
@@ -86,8 +94,15 @@ def finish_real_gui_setup():
             if attempt['number']<25:
                 return .5
             raise RuntimeError('SCULPT_ASSET_DID_NOT_LOAD_IN_GUI_EVENT_LOOP')
-        brush.size=164
+        brush.size=240
         brush.strength=.96
+        # Blender 5.2 GUI previously displayed 100 px despite setting
+        # the underlying brush.size to 164. Explicit unified-size
+        # override also drives the actual onscreen brush cursor.
+        unified=bpy.context.tool_settings.unified_paint_settings
+        if hasattr(unified,'use_unified_size'):
+            unified.use_unified_size=True
+        unified.size=240
         bpy.context.view_layer.update()
         area.tag_redraw()
         projected=location_3d_to_region_2d(reg,r3d,focus)
@@ -131,6 +146,10 @@ def finish_real_gui_setup():
           'region':[reg.x,reg.y,reg.width,reg.height],
           'screen_width':win.width,'screen_height':win.height,
           'surface_point':[round(float(v),3) for v in focus],
+          'near_corner_vertex_index':corner_index,
+          'near_corner_world':[round(float(v),3) for v in corner],
+          'near_corner_distance_m':round((corner-focus).length,3),
+          'unified_brush_size':unified.size,
           'brush':brush.name,'brush_size':brush.size,'brush_strength':brush.strength,
           'initial_mode':bpy.context.mode,
           'gui_event_loop_attempts':attempt['number'],
