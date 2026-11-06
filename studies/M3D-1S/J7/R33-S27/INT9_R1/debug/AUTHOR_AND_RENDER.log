@@ -1,0 +1,11 @@
+00:02.112  blend            | Read blend: "/tmp/INT9_R1_SOURCE.blend"
+Traceback (most recent call last):
+  File "/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT9_R1/author_nave_recess.py", line 65, in <module>
+    assert not any(x in target.name for x in ('W0_','E11_'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'studies/M3D-1S/J7/R33-S27/INT9_R1/author_nave_recess.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:12:34)
+
+Blender quit
