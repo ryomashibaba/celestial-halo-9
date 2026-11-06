@@ -1,0 +1,10 @@
+{
+  "blend_sha256": "b1721f8b19bbd595e46275be9946792da8a18131e4b386b3213e38f0c825ea22",
+  "cameras": [
+    "E11_NAVE_HUMAN",
+    "E11_H1_HUMAN",
+    "E11_URBAN_AERIAL"
+  ],
+  "full_scene": true,
+  "cutaway": false
+}

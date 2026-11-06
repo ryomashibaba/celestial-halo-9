@@ -1,0 +1,10 @@
+{
+  "source": "GATE_B_AFTER_INT21\\reference\\HALO9_INT21_M247C_OPEN_CIVIC_CANYON_RESEARCH.blend",
+  "source_sha256": "9b950f0b9d5315605d5dc0bec252950e0c150739c94249a201667c9e2d675a27",
+  "protected_source": "GATE_B_AFTER_INT21\\protected_before.json",
+  "method": "Explicit spatial mesh control points and cavity topology; subdivision+solidify. Python-assisted; not GUI sculpt. Repeated geometry limited to occupied floor/bay topology within combined meshes.",
+  "new_objects": 15,
+  "old_architecture_imported": 0,
+  "art": "UNREVIEWED",
+  "function": "UNVERIFIED"
+}
