@@ -1,0 +1,227 @@
+name: HALO9 INT8-R2 visible Blender GUI viewport Sculpt operator — native 3D proof
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int8-r2-viewport-sculpt-20261106
+    paths:
+      - .github/workflows/halo9-int8-r2-visible-viewport-sculpt.yml
+      - studies/M3D-1S/J7/R33-S27/INT8_R2/gui_prepare.py
+      - studies/M3D-1S/J7/R33-S27/INT8_R2/gui_viewport_brush.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int8-r2-visible-gui-20261106
+  cancel-in-progress: false
+jobs:
+  genuine_edit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 23
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT8_R2
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT6/evidence/HALO9_INT6_TRUE_BRUSH_SCULPT_DISTRICTS.blend.gz
+      SOURCE_SHA: 51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify complete research BLEND and code syntax without source edits
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/native"
+          gzip -dc "$SOURCE" > /tmp/INT8_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT8_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/gui_prepare.py" "$ROOT/gui_viewport_brush.py"
+      - name: Install true headful X11 virtual desktop
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb x11-utils openbox xdotool scrot python3-pil libgl1-mesa-dri
+      - name: Acquire official SHA256-verified Blender 5.2.1 LTS
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/int8r2-blender && cd /tmp/int8r2-blender
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o official_sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' official_sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Real Blender GUI — visually projected operator, not X11 hand mouse
+        run: |
+          set -euo pipefail
+          OUT=/tmp/halo9-int8-r2-native
+          mkdir -p "$OUT"
+          export DISPLAY=:94
+          export LIBGL_ALWAYS_SOFTWARE=1
+          Xvfb :94 -screen 0 1600x1000x24 +extension GLX -nolisten tcp > "$OUT/XVFB.log" 2>&1 &
+          XVFB_PID=$!
+          for i in $(seq 1 20); do xdpyinfo -display :94 >/dev/null 2>&1 && break; sleep 1; done
+          xdpyinfo -display :94 >/dev/null
+          openbox > "$OUT/OPENBOX.log" 2>&1 &
+          B=/tmp/int8r2-blender/blender-5.2.1-linux-x64/blender
+          timeout 700s "$B" --window-geometry 0 0 1520 930 --threads 2 --python-exit-code 97 \
+            /tmp/INT8_SOURCE.blend --python "$ROOT/gui_prepare.py" -- \
+            --output "$OUT" > "$OUT/BLENDER_GUI.log" 2>&1 &
+          BLENDER_PID=$!
+          ready=0
+          for i in $(seq 1 85); do
+            if test -s "$OUT/GUI_READY.json"; then ready=1; break; fi
+            if ! kill -0 "$BLENDER_PID" 2>/dev/null; then
+              tail -100 "$OUT/BLENDER_GUI.log" || true; exit 41
+            fi
+            sleep 1
+          done
+          if test "$ready" -ne 1; then
+            tail -100 "$OUT/BLENDER_GUI.log"; exit 42
+          fi
+          WID=$(xdotool search --onlyvisible --class blender | head -n1)
+          test -n "$WID"
+          xdotool windowactivate --sync "$WID"
+          sleep 2
+          # Close Blender first-run Quick Setup dialog, verified in INT8.
+          xdotool mousemove --sync 795 710
+          xdotool click 1
+          sleep 1
+          xdotool key --clearmodifiers Escape
+          sleep 2
+          scrot -o "$OUT/BEFORE_REAL_GUI.png"
+          # Console only schedules the operator for AFTER returning to the
+          # actual on-screen VIEW_3D. Avoid calling sculpt from CONSOLE area.
+          xdotool mousemove --sync --window "$WID" 620 425
+          xdotool key --clearmodifiers shift+F4
+          sleep 2
+          xdotool type --clearmodifiers --delay 2 "exec(open('studies/M3D-1S/J7/R33-S27/INT8_R2/gui_viewport_brush.py', encoding='utf8').read())"
+          xdotool key Return
+          sleep .7
+          xdotool key --clearmodifiers shift+F5
+          complete=0
+          for i in $(seq 1 75); do
+            if test -s "$OUT/GUI_OPERATOR_PASS.json"; then complete=1; break; fi
+            if test -s "$OUT/GUI_OPERATOR_FAILURE.json"; then
+              echo INT8_R2_GUI_OPERATOR_FAIL
+              cat "$OUT/GUI_OPERATOR_FAILURE.json"
+              exit 43
+            fi
+            if ! kill -0 "$BLENDER_PID" 2>/dev/null; then
+              echo INT8_R2_BLENDER_PROCESS_EXITED
+              tail -100 "$OUT/BLENDER_GUI.log"; exit 44
+            fi
+            sleep 1
+          done
+          scrot -o "$OUT/AFTER_OPERATOR_GUI.png"
+          if test "$complete" -ne 1; then
+            echo INT8_R2_REAL_GUI_SCULPT_TIMED_OUT
+            tail -100 "$OUT/BLENDER_GUI.log"; exit 45
+          fi
+          cat "$OUT/GUI_OPERATOR_PASS.json"
+          cp "$OUT/"*.json "$ROOT/native/"
+          cp "$OUT/"*.png "$ROOT/native/"
+          cp "$OUT/HALO9_INT8_R2_VISIBLE_GUI_SCULPT_OPERATOR.blend" "$ROOT/native/"
+          cp "$OUT/BLENDER_GUI.log" "$ROOT/native/"
+          echo INT8_R2_VISIBLE_GUI_REAL_SCULPT_FILE_SAVED
+          kill "$BLENDER_PID" || true
+          kill "$XVFB_PID" || true
+      - name: Independently reopen edited BLEND and compare real vertex positions
+        run: |
+          set -euo pipefail
+          cat > /tmp/verify_int8_r2.py <<'PY'
+          import bpy,math,json,hashlib
+          from pathlib import Path
+          p=Path(bpy.data.filepath);r=p.parent
+          data=json.loads((r/'GUI_OPERATOR_PASS.json').read_text())
+          baseline=json.loads((r/'BEFORE_VERTICES.json').read_text())
+          cameras=json.loads((r/'BEFORE_CAMERAS.json').read_text())
+          visibility=json.loads((r/'BEFORE_VISIBILITY.json').read_text())
+          assert p.name=='HALO9_INT8_R2_VISIBLE_GUI_SCULPT_OPERATOR.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==data['saved_blend_sha256']
+          assert data['ray_hit'] and data['hit_target']=='INT6_TRUE_BRUSH_west'
+          assert data['method']=='GUI_VIEWPORT_PROJECTED_SCULPT_OPERATOR__NOT_X11_MOUSE'
+          obj=bpy.data.objects['INT6_TRUE_BRUSH_west']
+          assert len(obj.data.vertices)==len(baseline)==1680
+          distances=[math.dist(tuple(v.co),old) for v,old in zip(obj.data.vertices,baseline)]
+          assert sum(d>.01 for d in distances)==data['changed_vertices']
+          assert abs(max(distances)-data['max_vertex_displacement_m'])<1e-5
+          assert data['changed_vertices']>=20 and max(distances)>.02
+          for name,original in cameras.items():
+              m=bpy.data.objects[name].matrix_world
+              assert max(abs(m[i][j]-original[i][j]) for i in range(4) for j in range(4))<1e-6
+          for name,flag in visibility.items():
+              assert bpy.data.objects[name].hide_get()==flag
+          scene=bpy.context.scene
+          assert scene['CONSTRUCTION']=='HOLD'
+          assert scene['FORMAL_ART_ACCEPTED']==scene['COMPLETED_TARGETS']==0
+          assert scene['INT8_R2_PARENT_SHA256']==data['source_sha256']
+          print('INT8_R2_INDEPENDENT_GUI_BRUSH_MESH_REAL_CHANGE_PASS',flush=True)
+          PY
+          /tmp/int8r2-blender/blender-5.2.1-linux-x64/blender \
+            --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT8_R2_VISIBLE_GUI_SCULPT_OPERATOR.blend" \
+            --python /tmp/verify_int8_r2.py 2>&1 | tee "$ROOT/native/INDEPENDENT_REOPEN.log"
+          grep -F INT8_R2_INDEPENDENT_GUI_BRUSH_MESH_REAL_CHANGE_PASS "$ROOT/native/INDEPENDENT_REOPEN.log"
+      - name: Preserve full editable BLEND and actual GUI before/after comparison in isolated branch
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,hashlib,base64,gzip,os
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageChops
+          root=Path(os.environ['ROOT']);n=root/'native';e=root/'evidence';e.mkdir(exist_ok=True)
+          p=n/'HALO9_INT8_R2_VISIBLE_GUI_SCULPT_OPERATOR.blend'
+          with p.open('rb') as src,gzip.open(e/(p.name+'.gz'),'wb',compresslevel=6) as dst:
+              while chunk:=src.read(1048576):dst.write(chunk)
+          montage=Image.new('RGB',(1500,530),(218,218,216))
+          draw=ImageDraw.Draw(montage)
+          images=[]
+          for idx,name in enumerate(('BEFORE_REAL_GUI','AFTER_OPERATOR_GUI')):
+              im=Image.open(n/(name+'.png')).convert('RGB')
+              assert im.size==(1600,1000)
+              images.append(im)
+              im.thumbnail((750,485),Image.Resampling.LANCZOS)
+              montage.paste(im,(idx*750,30))
+              draw.text((idx*750+8,8),name,fill=(0,0,0))
+          assert ImageChops.difference(images[0],images[1]).getbbox() is not None
+          j=e/'INT8_R2_ACTUAL_GUI_BEFORE_AFTER.jpg'
+          montage.save(j,quality=85,optimize=True)
+          (e/'INT8_R2_ACTUAL_GUI_BEFORE_AFTER_BASE64.txt').write_text(base64.b64encode(j.read_bytes()).decode())
+          record=json.loads((n/'GUI_OPERATOR_PASS.json').read_text())
+          record['montage_sha256']=hashlib.sha256(j.read_bytes()).hexdigest()
+          record['method_not_hand_sculpt']=True
+          record['art']='NOT_REVIEWED_NOT_ADOPTED'
+          record['minecraft']='HOLD'
+          (e/'INT8_R2_TRUE_GUI_TECH_NOT_ART.json').write_text(json.dumps(record,indent=2))
+          print('INT8_R2_TRUE_GUI_RESEARCH_ARCHIVED',record['changed_vertices'],flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT8-R2: preserve edited true GUI-context BLEND, screenshots, independent vertex proof [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int8-r2-viewport-sculpt-20261106
+          fi
+      - name: Preserve precise diagnostics even on failure
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          OUT=/tmp/halo9-int8-r2-native
+          for f in BLENDER_GUI.log GUI_READY.json GUI_OPERATOR_FAILURE.json GUI_OPERATOR_RESULT.json; do
+            test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
+          done
+          for f in BEFORE_REAL_GUI.png AFTER_OPERATOR_GUI.png; do
+            test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT8-R2: retain actual GUI operator failure, never claim TECH or ART [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int8-r2-viewport-sculpt-20261106
+          fi
+      - name: Ephemeral native evidence and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT8-R2-VISIBLE-GUI-EDIT-EVIDENCE
+          path: |
+            studies/M3D-1S/J7/R33-S27/INT8_R2/native/
+            /tmp/halo9-int8-r2-native/
+          retention-days: 5
+          if-no-files-found: warn
