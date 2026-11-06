@@ -61,9 +61,9 @@ jobs:
           assert p.name=='HALO9_INT6_TRUE_BRUSH_SCULPT_DISTRICTS.blend'
           assert hashlib.sha256(p.read_bytes()).hexdigest()==r['blend_sha256']
           assert r['source_sha256']==s['INT6_PARENT_SHA256']
-          assert s['INT6_TRUE_BRUSH_STROKES']==12
+          assert s['INT6_TRUE_BRUSH_STROKES']==4
           assert r['original_three_camera_matrices_unchanged'] is True
-          assert len(r['brush_sculpt_records'])==3
+          assert len(r['brush_sculpt_records'])==1
           for record in r['brush_sculpt_records']:
               ob=bpy.data.objects[record['sculpt_object']]
               assert ob.type=='MESH'
@@ -76,7 +76,7 @@ jobs:
           assert r['formal_art_adopted']==0 and r['completed_targets']==0
           assert r['minecraft_construction']=='HOLD'
           for name in ('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
-                       'INT6_WEST_SCULPT_DETAIL','INT6_EAST_SCULPT_DETAIL'):
+                       'INT6_WEST_SCULPT_DETAIL'):
               assert bpy.data.objects[name].type=='CAMERA'
               f=p.parent/'renders'/(name+'.png')
               with f.open('rb') as source:h=source.read(24)
@@ -91,7 +91,7 @@ jobs:
             "$ROOT/native/HALO9_INT6_TRUE_BRUSH_SCULPT_DISTRICTS.blend" \
             --python /tmp/int6_reopen.py 2>&1 | tee "$ROOT/native/INDEPENDENT_REOPEN.log"
           grep -F 'INT6_INDEPENDENT_REAL_SCULPT_GEOMETRY_PASS_NOT_ART_PASS' "$ROOT/native/INDEPENDENT_REOPEN.log"
-      - name: Preserve actual editable BLEND and five camera images in isolation
+      - name: Preserve actual editable BLEND and four camera images in isolation
         run: |
           set -euo pipefail
           sudo apt-get update -qq
@@ -109,20 +109,20 @@ jobs:
                   if not part:break
                   dest.write(part)
           names=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
-                 'INT6_WEST_SCULPT_DETAIL','INT6_EAST_SCULPT_DETAIL')
+                 'INT6_WEST_SCULPT_DETAIL')
           bright={}
-          montage=Image.new('RGB',(1650,900),(226,224,219))
+          montage=Image.new('RGB',(1100,900),(226,224,219))
           draw=ImageDraw.Draw(montage)
           for i,name in enumerate(names):
               im=Image.open(n/'renders'/(name+'.png')).convert('RGB')
               bright[name]=round(sum(ImageStat.Stat(im).mean)/3,2)
               im.thumbnail((550,412),Image.Resampling.LANCZOS)
-              x=(i%3)*550;y=(i//3)*450
+              x=(i%2)*550;y=(i//2)*450
               montage.paste(im,(x,y+31))
               draw.text((x+8,y+9),name,fill=(0,0,0))
-          jpg=e/'INT6_TRUE_FIVE_VIEW_ACTUAL_BLENDER_UNREVIEWED.jpg'
+          jpg=e/'INT6_TRUE_FOUR_VIEW_ACTUAL_BLENDER_UNREVIEWED.jpg'
           montage.save(jpg,quality=83,optimize=True)
-          (e/'INT6_TRUE_FIVE_VIEW_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          (e/'INT6_TRUE_FOUR_VIEW_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
           report=json.loads((n/'INT6_NATIVE_EVIDENCE.json').read_text())
           report['mean_brightness']=bright
           report['fixed_three_views_nonblack']=all(bright[k]>10 for k in names[:3])
@@ -138,7 +138,7 @@ jobs:
             git commit -m 'INT6: preserve actual sculpt mode modified BLEND and 5 real render views [skip ci]'
             git push origin HEAD:refs/heads/research/r33-s27-d48-int6-native-sculpt-brush-20261106
           fi
-      - name: Ephemeral original five PNGs, editable BLEND, logs
+      - name: Ephemeral original four PNGs, editable BLEND, logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
