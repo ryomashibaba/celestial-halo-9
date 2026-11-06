@@ -1,0 +1,140 @@
+name: HALO9 INT15 real inhabited H1 4-stop civic lift and horizontal galleries
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int15-inhabited-lift-core-20261106
+    paths:
+      - .github/workflows/halo9-int15-occupied-four-level-lift.yml
+      - studies/M3D-1S/J7/R33-S27/INT15/author_h1_lift_city.py
+      - studies/M3D-1S/J7/R33-S27/INT15/independent_native_verify.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int15-true-four-stop-h1-lift
+  cancel-in-progress: false
+jobs:
+  research_copy_3d_authoring:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-int15-inhabited-lift-core-20261106'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT15
+      ORIGINAL: studies/M3D-1S/J7/R33-S27/INT14/evidence/HALO9_INT14_H1_PUBLIC_ENTRY_HUMAN_SIGHTLINE.blend.gz
+      ORIGINAL_SHA: 431f5d1845f04a7fa669e2e230e00298cfedd98ee3d3069eb36c3fc85a7a6146
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Protected original BLEND byte SHA and source syntax
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/native"
+          test "$GITHUB_REF" = 'refs/heads/research/r33-s27-d48-int15-inhabited-lift-core-20261106'
+          test -s "$ORIGINAL"
+          gzip -dc "$ORIGINAL" >/tmp/INT15_SOURCE.blend
+          printf '%s  %s\n' "$ORIGINAL_SHA" /tmp/INT15_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/author_h1_lift_city.py" "$ROOT/independent_native_verify.py"
+          echo INT15_SOURCE_SCRIPT_POLICY_PROTECTED
+      - name: Download SHA256-verified Blender 5.2.1 official release
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9b15 && cd /tmp/halo9b15
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o official_sums
+          sed -n '/blender-5.2.1-linux-x64.tar.xz/p' official_sums | sed 's/blender-5.2.1-linux-x64.tar.xz$/blender.tar.xz/' | sha256sum -c -
+          tar -xf blender.tar.xz
+      - name: Real Blender edit old H1 research clutter and carve inhabited four-level lift inside actual city
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9b15/blender-5.2.1-linux-x64/blender
+          mkdir -p /tmp/halo9-int15
+          timeout 1400s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/INT15_SOURCE.blend \
+            --python "$ROOT/author_h1_lift_city.py" -- \
+            --output /tmp/halo9-int15 2>&1 | tee "$ROOT/native/AUTHOR.log"
+          grep -F INT15_H1_NATIVE_TRANSPORT_AND_FIVE_IMAGES_SAVED "$ROOT/native/AUTHOR.log"
+      - name: Independently reopen native BLEND, verify M247/W0/E11 and true five image SHA values
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9b15/blender-5.2.1-linux-x64/blender
+          "$B" --background --threads 2 --python-exit-code 97 \
+             /tmp/halo9-int15/HALO9_INT15_H1_OCCUPIED_LIFT_PUBLIC_CORE.blend \
+             --python "$ROOT/independent_native_verify.py" \
+             2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F INT15_INDEPENDENT_TRUE_MESH_CARVED_LIFT_AND_5_RENDER_TECH_PASS_NOT_ART_OR_WALKABILITY "$ROOT/native/INDEPENDENT.log"
+      - name: Archive exact editable BLEND and genuine original/supplemental render evidence only in isolated research branch
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import json,gzip,hashlib,base64,os
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT'])
+          tmp=Path('/tmp/halo9-int15')
+          e=root/'evidence';e.mkdir(exist_ok=True)
+          p=tmp/'HALO9_INT15_H1_OCCUPIED_LIFT_PUBLIC_CORE.blend'
+          with p.open('rb') as f,gzip.open(e/(p.name+'.gz'),'wb',compresslevel=6) as g:
+              while block:=f.read(1048576):g.write(block)
+          names=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
+                 'INT15_H1_FOUR_STOP_CIVIC_SHAFT_ROOM',
+                 'INT15_H1_MARKET_SCHOOL_PUBLIC_GALLERY')
+          canvas=Image.new('RGB',(1440,1080),(219,218,214))
+          draw=ImageDraw.Draw(canvas)
+          means={}
+          for i,n in enumerate(names):
+              im=Image.open(tmp/'renders'/(n+'.png')).convert('RGB')
+              means[n]=round(sum(ImageStat.Stat(im).mean)/3,2)
+              im.thumbnail((480,360),Image.Resampling.LANCZOS)
+              x=(i%3)*480;y=(i//3)*540
+              canvas.paste(im,(x,y+35))
+              draw.text((x+9,y+8),n,fill=(0,0,0))
+              draw.text((x+9,y+21),('FIXED ORIGINAL' if i<3 else 'SUPPLEMENTARY CITY INTERIOR'),fill=(43,48,50))
+          jpg=e/'INT15_FIVE_TRUE_VIEWS_UNREVIEWED.jpg'
+          canvas.save(jpg,quality=85,optimize=True)
+          (e/'INT15_FIVE_TRUE_VIEWS_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          data=json.loads((tmp/'INT15_TRUE_NATIVE_TECH_NOT_ART.json').read_text())
+          data['five_image_average_brightness']=means
+          data['mosaic_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          data['independent_blend_reopen']='PASS'
+          data['art']='UNREVIEWED_NOT_ADOPTED'
+          (e/'INT15_VERIFIED_NATIVE_NOT_ART.json').write_text(json.dumps(data,indent=2))
+          print('INT15_TRUE_NATIVE_COPY_EVIDENCE_ARCHIVED',means,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT15: research copy real four-level lift, actual H1 gallery excavation, 5 native render views [skip ci]'
+            git fetch origin research/r33-s27-d48-int15-inhabited-lift-core-20261106
+            git rebase origin/research/r33-s27-d48-int15-inhabited-lift-core-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int15-inhabited-lift-core-20261106
+          fi
+      - name: Preserve genuine failure diagnostics, never mark art/functional acceptance
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          for file in AUTHOR.log INDEPENDENT.log; do
+            test -f "$ROOT/native/$file" && cp "$ROOT/native/$file" "$ROOT/debug/$file" || true
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT15: failed native transport study evidence, no art adoption [skip ci]'
+            git fetch origin research/r33-s27-d48-int15-inhabited-lift-core-20261106
+            git rebase origin/research/r33-s27-d48-int15-inhabited-lift-core-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int15-inhabited-lift-core-20261106
+          fi
+      - name: Keep temporary complete native 3D output for direct visual audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT15-H1-FOUR-LEVEL-CIVIC-LIFT
+          path: |
+            /tmp/halo9-int15/
+            studies/M3D-1S/J7/R33-S27/INT15/native/
+          retention-days: 5
+          if-no-files-found: warn
