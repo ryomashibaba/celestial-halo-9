@@ -180,7 +180,7 @@ def passage(name,coords,widths,depth,mat):
     for i in range(len(coords)-1):
         a=i*4;b=a+4
         fs+=((a,a+1,b+1,b),(a+2,b+2,b+3,a+3),
-             (a,a+2,b+2,b),(a+1,b+1,b+3,b+1 if False else a+3))
+             (a,a+2,b+2,b),(a+1,b+1,b+3,a+3))
     # Last side uses correctly ordered quads; never rely on hidden degenerate geometry.
     fs=[f for f in fs if len(set(f))==len(f)]
     return mesh(name,vs,fs,mat)
