@@ -88,7 +88,10 @@ jobs:
           xdotool mousemove --sync --window "$WID" 620 425
           xdotool key --clearmodifiers shift+F4
           sleep 2
-          xdotool type --clearmodifiers --delay 2 "exec(open('studies/M3D-1S/J7/R33-S27/INT8_R2/gui_viewport_brush.py', encoding='utf8').read())"
+          # The previous real console screenshot showed XTest characters
+          # dropped from the long path. Use a short path and slow typing.
+          cp "$ROOT/gui_viewport_brush.py" ./z.py
+          xdotool type --clearmodifiers --delay 55 "exec(open('z.py').read())"
           xdotool key Return
           sleep 1.8
           scrot -o "$OUT/GUI_CONSOLE_AFTER_COMMAND.png"
