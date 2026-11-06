@@ -1,0 +1,11 @@
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5731:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+00:05.618  blend            | Read blend: "/tmp/INT8_SOURCE.blend"
+INT18_GUI_PICK_RAY_VERIFIED {"window_client_xy_top_left": [625, 434], "region_xy_bottom_left": [622.5, 406.5], "window_wh": [1520, 930], "viewport_area_xywh": [2, 90, 1245, 813], "region_xywh": [2, 90, 1245, 813], "hit_target": "INT6_TRUE_BRUSH_west", "hit_face_index": 1, "hit_location_world": [-573.955, 416.235, 556.0], "sculpt_surface_point_world": [-576.143, 415.141, 556.0], "ray_hit": true}
+INT18_REAL_GUI_PICK_READY {"schema": "halo9-int8-r1-precise-gui-ray-projected-sculpt-session", "source_sha256": "51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe", "blender_version": "5.2.1 LTS", "background": false, "source_blend": "INT8_SOURCE.blend", "target": "INT6_TRUE_BRUSH_west", "target_vertices": 1680, "visible_view3d_area": [2, 90, 1245, 813], "region": [2, 90, 1245, 813], "screen_width": 1520, "screen_height": 930, "surface_point": [-576.143, 415.141, 556.0], "brush": "Clay Strips", "brush_size": 164, "brush_strength": 0.9599999785423279, "initial_mode": "SCULPT", "gui_event_loop_attempts": 1, "original_camera_matrices_recorded": true, "target_isolated_in_working_viewport": true, "pick": {"window_client_xy_top_left": [625, 434], "region_xy_bottom_left": [622.5, 406.5], "window_wh": [1520, 930], "viewport_area_xywh": [2, 90, 1245, 813], "region_xywh": [2, 90, 1245, 813], "hit_target": "INT6_TRUE_BRUSH_west", "hit_face_index": 1, "hit_location_world": [-573.955, 416.235, 556.0], "sculpt_surface_point_world": [-576.143, 415.141, 556.0], "ray_hit": true}, "temporarily_hidden_mesh_count": 150, "formal_art_adopted": 0, "completed_targets": 0, "minecraft": "HOLD", "art": "NOT_REVIEWED"}
