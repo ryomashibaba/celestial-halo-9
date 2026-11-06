@@ -47,7 +47,8 @@ exclusions=(
 )
 hits=[h for h in hits if h['hit'] and h['distance']<1500]
 eligible=[h for h in hits if h['name'].startswith('INT7_')
-          and h['name'] not in exclusions]
+          and h['name'] not in exclusions
+          and not any(x in h['name'] for x in ('W0_','E11_'))]
 assert eligible,('NO_NAVE_FOREGROUND_VISIBLE_TARGET',hits)
 freq={}
 for h in eligible:
