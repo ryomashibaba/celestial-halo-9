@@ -204,10 +204,10 @@ def finish_floor(name,center,dx,dy,z,material):
           (x+dx*.29,y+dy*.48),(x-dx*.50,y+dy*.42)]
     return boundary_solid(name,poly,z-26,26,material,(0,0))
 inside=[
- finish_floor('H1_MARKET_INTERIOR_FLOOR',(699,378),195,155,440,'bronze'),
- finish_floor('H1_SCHOOL_INNER_PUBLIC_PLATEAU',(914,619),220,178,574,'limestone'),
- finish_floor('H1_COMMONS_INTERIOR_GREEN',(1052,846),198,194,710,'gardens'),
- finish_floor('NAVE_PUBLIC_LIBRARY_READING_FLOOR',(-288,35),174,110,214,'bronze'),
+ finish_floor('H1_MARKET_INTERIOR_FLOOR',(699,378),195,155,435,'bronze'),
+ finish_floor('H1_SCHOOL_INNER_PUBLIC_PLATEAU',(914,605),220,178,530,'limestone'),
+ finish_floor('H1_COMMONS_INTERIOR_GREEN',(1052,755),198,194,630,'gardens'),
+ finish_floor('NAVE_PUBLIC_LIBRARY_READING_FLOOR',(-288,105),174,110,230,'bronze'),
 ]
 # Specific urban silhouette and material contact, no batches of ordinary
 # rectangular high rises: one working garden and one light-guiding fin.
