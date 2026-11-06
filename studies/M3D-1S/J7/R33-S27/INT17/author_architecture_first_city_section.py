@@ -33,6 +33,7 @@ orig_w0={n:digest(bpy.data.objects[n]) for n in w0}
 orig_cams={n:bpy.data.objects[n].matrix_world.copy() for n in fixed}
 # Physically clean ONLY the new experiment COPY.  No CUTAWAY render toggles.
 rejected=[o for o in list(sc.objects) if o.type=='MESH' and
+    not o.name.startswith(('W0_','INT4_W0_')) and
     o.name.startswith(('INT1_','INT2_','INT3_','INT4_','INT5_',
                        'INT6_','INT7_','INT8_','INT9_',
                        'INT10_','INT11_','INT12_','INT13_','INT14_','INT15_','INT16_'))]
