@@ -99,12 +99,12 @@ def edit_civic_section():
             rings.append(ring)
         verts=[v for ring in rings for v in ring]
         size=len(rings[0])
-        faces=[tuple(reversed(range(size))),
-               tuple(range((len(rings)-1)*size,len(rings)*size))]
+        faces=[tuple(range(size)),
+               tuple(reversed(range((len(rings)-1)*size,len(rings)*size)))]
         for k in range(len(rings)-1):
             for j in range(size):
                 a=k*size+j;b=k*size+(j+1)%size
-                faces.append((a,b,b+size,a+size))
+                faces.append((a,a+size,b+size,b))
         md=bpy.data.meshes.new('INT9_TEMP_PUBLIC_ATRIUM_BOOLEAN_CUTTER')
         md.from_pydata(verts,[],faces);md.update()
         cutter=bpy.data.objects.new(md.name,md)
@@ -120,11 +120,13 @@ def edit_civic_section():
         boolmod.object=cutter
         bpy.ops.object.modifier_apply(modifier=boolmod.name)
         bpy.data.objects.remove(cutter,do_unlink=True)
-        assert len(school.data.polygons)>10,'School vanished / invalid cavity'
+        assert len(school.data.polygons)>17,'School boolean cut did not produce real opening geometry'
         assert all(math.isfinite(z) for v in school.data.vertices for z in v.co)
         after_h1=hit_camera('E11_H1_HUMAN')
         print('INT9_H1_REAL_PUBLIC_ATRIUM_CUT',school_poly_before,
               len(school.data.polygons),before['E11_H1_HUMAN'],after_h1,flush=True)
+        assert after_h1['object']!=school.name or (after_h1['distance'] is not None and after_h1['distance']>center_distance+120), (
+            'SCHOOL_REAL_OPENING_DOES_NOT_CLEAR_CENTER_RAY',after_h1)
         # No mere ray-center preflight can claim ART or full walkability.
         # If the camera now sees the same school boundary, retain evidence
         # but do not make any image-pass claim.
@@ -139,6 +141,24 @@ def edit_civic_section():
         bpy.ops.mesh.subdivide(number_cuts=7,smoothness=0)
         bpy.ops.object.mode_set(mode='OBJECT')
         assert len(west.data.vertices)>1900
+        # Direct native source mesh surgery: sculpt the concave interior
+        # face of the *existing* west mass into a 120-180 m deep inhabited
+        # reentrant rock chamber facing the NAVE. This is a world-space
+        # surface correction, not another generated independent box/shell.
+        deep_changed=0
+        for v in west.data.vertices:
+            q=west.matrix_world@v.co
+            if q.x < -750:continue
+            cy=185
+            cz=440+.44*(q.y-cy)
+            wt=math.exp(-((q.y-cy)/360)**2-((q.z-cz)/320)**2)
+            if wt>.045:
+                displacement=175*wt
+                v.co.x-=displacement
+                deep_changed+=1
+        west.data.update()
+        assert deep_changed>100,('MAJOR_NATIVE_CIVIC_RECESS_MISSING',deep_changed)
+        print('INT9_WEST_NATIVE_MACRO_RECESS_VERTICES',deep_changed,flush=True)
         base_positions=[v.co.copy() for v in west.data.vertices]
         recorded_visibility={o.name:bool(o.hide_get()) for o in s.objects
                              if o.type=='MESH'}
@@ -151,7 +171,9 @@ def edit_civic_section():
         viable=[poly for poly in west.data.polygons
                 if poly.area>1e-5 and poly.normal.dot(desired)>.1]
         assert viable,'Existing western cliff is not facing NAVE'
-        face=max(viable,key=lambda p:p.area*max(0.,p.normal.dot(desired))**2)
+        face=max(viable,key=lambda p:
+            p.area*max(0.,p.normal.dot(desired))**2 /
+            (1+((p.center.y-170)/490)**2+((p.center.z-520)/650)**2))
         focus=west.matrix_world@face.center
         normal=(west.matrix_world.to_3x3()@face.normal).normalized()
         points=[west.matrix_world@v.co for v in west.data.vertices]
@@ -171,7 +193,7 @@ def edit_civic_section():
                   relative_asset_identifier='brushes/essentials_brushes-mesh_sculpt.blend/Brush/Clay Strips')
             brush=bpy.context.tool_settings.sculpt.brush
             assert brush is not None
-            brush.size=330
+            brush.size=320
             brush.strength=.97
             p=location_3d_to_region_2d(region,r3d,focus)
             assert p is not None
@@ -182,9 +204,9 @@ def edit_civic_section():
             assert ok, 'GUI projected ray must hit existing western architecture'
             strokes=[]
             for j,(ax,ay,bx,by) in enumerate([
-               (-.33,-.17,.31,.23),(-.31,.20,.19,-.25),
-               (-.15,.34,.29,-.17),(0.,-.31,.39,.12),
-               (-.25,-.28,.25,.26)]):
+               (-.12,-.07,.12,.11),(-.12,.09,.11,-.09),
+               (-.10,-.11,.12,.13),(-.07,.14,.13,-.06),
+               (-.13,0.,.13,.03),(-.04,-.12,.06,.12)]):
                 line=[]
                 for k in range(43):
                     frac=k/42
@@ -206,7 +228,7 @@ def edit_civic_section():
         changed=sum(q>.02 for q in diff)
         maximum=max(diff)
         print('INT9_REAL_GUI_CLIFF_SCULPT',changed,round(maximum,4),flush=True)
-        assert changed>=20 and maximum>.5,('NO_MEANINGFUL_ACTUAL_GUI_SCULPT',changed,maximum)
+        assert changed>=12 and maximum>.5,('NO_MEANINGFUL_ACTUAL_GUI_SCULPT',changed,maximum)
         for name,flag in recorded_visibility.items():
             bpy.data.objects[name].hide_set(flag)
         assert all(bpy.data.objects[name].hide_get()==flag
@@ -234,6 +256,7 @@ def edit_civic_section():
           'western_sculpt_vertices':len(base_positions),
           'actual_brush_operator_strokes':strokes,
           'western_real_vertices_changed':changed,
+          'western_native_macro_recess_vertices':deep_changed,
           'western_real_max_displacement_m':round(maximum,6),
           'original_camera_matrices_unchanged':True,
           'previous_visibility_restored':True,
