@@ -25,6 +25,8 @@ jobs:
       BLENDERMCP_PORT: "9876"
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Immutable source and client preflight (no world write)
         run: |
           set -euo pipefail
@@ -76,6 +78,8 @@ jobs:
           python3 "$ROOT/probe_actual_scene_mcp_viewport.py" 2>&1 | tee /tmp/halo9-int20/probe.log
           grep -F 'INT20_PATCHED_MCP_REAL_CITY_VIEWPORT_NONBLACK_TECH_PASS_NOT_ART' /tmp/halo9-int20/probe.log
       - name: Save compact genuine visual screenshot and tech-only result
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           cp /tmp/halo9-int20/INT20_REAL_MCP_OFFSCREEN_CITY_VIEWPORT.png "$ROOT/evidence/"
@@ -87,10 +91,12 @@ jobs:
             git commit -m 'INT20: store actual Blender-MCP city viewport for visual review, research only [skip ci]'
             git fetch origin research/r33-s27-int20-headless-visual-art-bridge-20261106
             git rebase origin/research/r33-s27-int20-headless-visual-art-bridge-20261106
-            git push origin HEAD:refs/heads/research/r33-s27-int20-headless-visual-art-bridge-20261106
+            git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' \"$GH_TOKEN\" | base64 -w0)" push origin HEAD:refs/heads/research/r33-s27-int20-headless-visual-art-bridge-20261106
           fi
       - name: Attach diagnostic log only when no stored screenshot
         if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           mkdir -p "$ROOT/debug"
@@ -103,5 +109,5 @@ jobs:
             git commit -m 'INT20: preserve only bounded real MCP failure evidence [skip ci]'
             git fetch origin research/r33-s27-int20-headless-visual-art-bridge-20261106
             git rebase origin/research/r33-s27-int20-headless-visual-art-bridge-20261106
-            git push origin HEAD:refs/heads/research/r33-s27-int20-headless-visual-art-bridge-20261106
+            git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' \"$GH_TOKEN\" | base64 -w0)" push origin HEAD:refs/heads/research/r33-s27-int20-headless-visual-art-bridge-20261106
           fi
