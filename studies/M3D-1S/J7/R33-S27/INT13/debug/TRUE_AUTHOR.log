@@ -1,0 +1,20 @@
+00:01.807  blend            | Read blend: "/tmp/INT13_SOURCE.blend"
+/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT13/author_functional_section.py:39: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  v=bpy.data.materials.new('INT13_'+name);v.use_nodes=True
+Traceback (most recent call last):
+  File "/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT13/author_functional_section.py", line 164, in <module>
+    nave_cuts.append(carve_prism(nave,'NAVE_RAIL_ARRIVAL_ATRIUM',
+                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     [(-365,-350),(-212,-365),(-147,-251),(-213,-112),(-350,-121)],
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     68,370))
+     ^^^^^^^
+  File "/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT13/author_functional_section.py", line 92, in carve_prism
+    assert len(target.data.polygons)>original,(name,original,len(target.data.polygons))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('NAVE_RAIL_ARRIVAL_ATRIUM', 10, 10)
+
+Error: script failed, file: 'studies/M3D-1S/J7/R33-S27/INT13/author_functional_section.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:12:34)
+
+Blender quit
