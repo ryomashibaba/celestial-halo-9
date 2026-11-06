@@ -17,8 +17,8 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 43
     env:
-      ROOT: studies/M3D-1S/J7/R33-S27/INT7
-      SOURCE: studies/M3D-1S/J7/R33-S27/INT7/evidence/HALO9_INT7_R1_CORRECTED_PUBLIC_CIVIC_RIFT.blend.gz
+      ROOT: studies/M3D-1S/J7/R33-S27/INT7_R1
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT7/evidence/HALO9_INT7_NAVE_GREAT_OCCUPIED_RIFT.blend.gz
       SOURCE_SHA: 26bdedb3681a83cb3db39145d1ee7e036c2ee8a557622c6d0aeb9344a90637f6
     steps:
       - uses: actions/checkout@v4
@@ -142,6 +142,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: HALO9-INT7-NATIVE-BLEND-FULL-RES-RENDERS
-          path: studies/M3D-1S/J7/R33-S27/INT7/native/
+          path: studies/M3D-1S/J7/R33-S27/INT7_R1/native/
           retention-days: 7
           if-no-files-found: warn
