@@ -345,6 +345,8 @@ r={
  'W0_source_objects_preserved':len(original_w0),
  'new_native_architectural_mesh_count':len(made),
  'new_mesh_objects':made,
+ 'W0_original_reference_names':sorted(original_w0),
+ 'e11_original_matrices':{n:[[float(x) for x in row] for row in poses[n]] for n in e11},
  'fixed_3_E11_camera_poses_unchanged':True,
  'new_supplementary_cameras':[n for n in names if n not in e11],
  'native_same_scene_png_sha256':hashes,
