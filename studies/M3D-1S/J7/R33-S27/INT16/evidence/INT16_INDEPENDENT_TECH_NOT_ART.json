@@ -1,0 +1,427 @@
+{
+  "status": "TECH_PROVISIONAL_NOT_ART",
+  "source": "e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9",
+  "new_blend_sha256": "f98bce5184bf772df427a7d003ba44f3905ac227038bf86da5babc0a1f4a8605",
+  "sculpt": [
+    {
+      "mesh": "INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE",
+      "vertices_directly_moved": 3526,
+      "maximum_displacement_m": 245.43,
+      "anchors": [
+        [
+          [
+            -1060,
+            -310,
+            760
+          ],
+          [
+            390,
+            380,
+            480
+          ],
+          [
+            135,
+            205,
+            -30
+          ]
+        ],
+        [
+          [
+            -680,
+            140,
+            1390
+          ],
+          [
+            320,
+            440,
+            430
+          ],
+          [
+            -195,
+            -85,
+            145
+          ]
+        ],
+        [
+          [
+            -1370,
+            610,
+            480
+          ],
+          [
+            270,
+            400,
+            370
+          ],
+          [
+            -70,
+            -115,
+            -100
+          ]
+        ],
+        [
+          [
+            -340,
+            960,
+            940
+          ],
+          [
+            320,
+            400,
+            410
+          ],
+          [
+            115,
+            105,
+            65
+          ]
+        ]
+      ],
+      "mesh_polygon_count": 5733
+    },
+    {
+      "mesh": "INT11_M247C_ALPHA_EAST_CIVIC_HIGH_CITY",
+      "vertices_directly_moved": 3013,
+      "maximum_displacement_m": 259.85,
+      "anchors": [
+        [
+          [
+            890,
+            -370,
+            780
+          ],
+          [
+            470,
+            470,
+            570
+          ],
+          [
+            -155,
+            240,
+            -75
+          ]
+        ],
+        [
+          [
+            1470,
+            -170,
+            1360
+          ],
+          [
+            390,
+            420,
+            450
+          ],
+          [
+            200,
+            -165,
+            95
+          ]
+        ],
+        [
+          [
+            530,
+            900,
+            1520
+          ],
+          [
+            380,
+            440,
+            430
+          ],
+          [
+            -135,
+            90,
+            80
+          ]
+        ],
+        [
+          [
+            1560,
+            1120,
+            520
+          ],
+          [
+            390,
+            420,
+            420
+          ],
+          [
+            90,
+            100,
+            -110
+          ]
+        ]
+      ],
+      "mesh_polygon_count": 6283
+    }
+  ],
+  "voids": [
+    {
+      "name": "WEST_PUBLIC_LIBRARY_CANYON",
+      "target": "INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE",
+      "faces_before": 5733,
+      "faces_after": 5259,
+      "polygon": [
+        [
+          -1470,
+          270
+        ],
+        [
+          -920,
+          250
+        ],
+        [
+          -600,
+          390
+        ],
+        [
+          -440,
+          600
+        ],
+        [
+          -580,
+          940
+        ],
+        [
+          -950,
+          1100
+        ],
+        [
+          -1360,
+          970
+        ]
+      ],
+      "y_bounds": [
+        -1000,
+        580
+      ],
+      "topology_changed": true
+    },
+    {
+      "name": "EAST_H1_EXPOSED_CIVIC_TERRACE",
+      "target": "INT11_M247C_ALPHA_EAST_CIVIC_HIGH_CITY",
+      "faces_before": 6283,
+      "faces_after": 5635,
+      "polygon": [
+        [
+          360,
+          320
+        ],
+        [
+          1000,
+          265
+        ],
+        [
+          1410,
+          410
+        ],
+        [
+          1560,
+          790
+        ],
+        [
+          1420,
+          1110
+        ],
+        [
+          940,
+          1280
+        ],
+        [
+          550,
+          1130
+        ],
+        [
+          300,
+          850
+        ]
+      ],
+      "y_bounds": [
+        -1050,
+        720
+      ],
+      "topology_changed": true
+    },
+    {
+      "name": "WEST_SKY_READING_COURT",
+      "target": "INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE",
+      "faces_before": 5259,
+      "faces_after": 4822,
+      "polygon": [
+        [
+          -1210,
+          1120
+        ],
+        [
+          -740,
+          1100
+        ],
+        [
+          -420,
+          1400
+        ],
+        [
+          -630,
+          1890
+        ],
+        [
+          -1190,
+          1860
+        ],
+        [
+          -1480,
+          1600
+        ]
+      ],
+      "y_bounds": [
+        -850,
+        300
+      ],
+      "topology_changed": true
+    },
+    {
+      "name": "EAST_HIGH_CITY_BROKEN_CROWN",
+      "target": "INT11_M247C_ALPHA_EAST_CIVIC_HIGH_CITY",
+      "faces_before": 5635,
+      "faces_after": 5308,
+      "polygon": [
+        [
+          960,
+          1430
+        ],
+        [
+          1280,
+          1330
+        ],
+        [
+          1670,
+          1570
+        ],
+        [
+          1780,
+          1990
+        ],
+        [
+          1390,
+          2260
+        ],
+        [
+          830,
+          2140
+        ],
+        [
+          730,
+          1750
+        ]
+      ],
+      "y_bounds": [
+        -850,
+        440
+      ],
+      "topology_changed": true
+    }
+  ],
+  "images": {
+    "E11_NAVE_HUMAN": "c1fde99d7acc226fd63cefe2be94db734efb0f9dea6161717a39db9aeddc9725",
+    "E11_H1_HUMAN": "85db4570f0276bc3d814616cf8d8c42983fde1ba2946d7b6f5ce3cdcdf915dba",
+    "E11_URBAN_AERIAL": "3b2680b241053cc07ae8be6eb63d359a889310fa0b5c243388ab6f9dd8cc7abf",
+    "INT16_ARCHITECTURAL_FRONT_EXTRA": "89b150c5b5313134437bdd9a714f3939c4ad66edddf83781b86286cbf498d1a6"
+  },
+  "e11_camera_original_matrices": {
+    "E11_NAVE_HUMAN": [
+      [
+        0.9994910955429077,
+        0.011475143022835255,
+        0.029763158410787582,
+        15.0
+      ],
+      [
+        0.031898658722639084,
+        -0.3595544993877411,
+        -0.9325786828994751,
+        -360.0
+      ],
+      [
+        3.0868667622030443e-09,
+        0.9330535531044006,
+        -0.3597375452518463,
+        73.69999694824219
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_H1_HUMAN": [
+      [
+        0.9988681674003601,
+        -0.014305509626865387,
+        -0.0453629307448864,
+        760.0
+      ],
+      [
+        -0.047565147280693054,
+        -0.3004157245159149,
+        -0.9526216387748718,
+        270.0
+      ],
+      [
+        -2.0072432604933965e-10,
+        0.9537010788917542,
+        -0.30075615644454956,
+        438.70001220703125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_URBAN_AERIAL": [
+      [
+        0.8088601231575012,
+        -0.2191125452518463,
+        0.5456510186195374,
+        2150.0
+      ],
+      [
+        0.5880011320114136,
+        0.3014134168624878,
+        -0.7506028413772583,
+        -2700.0
+      ],
+      [
+        -3.02104439242612e-08,
+        0.927976131439209,
+        0.3726397156715393,
+        1850.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "protected_w0_sha256": {
+    "W0_NORTH_FRACTURED_RANGE": "eecf9f880e59bc4e838f6868955a75f5e68e4061773ec5848b1c8522ea084076",
+    "W0_WEST_BASALT_ESCARPMENT": "2bd907404ead99b05b48dddcb748cde327ac80ac6cc224f6c0045dcf38857a6c",
+    "W0_GROUND_BASIN": "2cb83e2cb8005a00c0650b51707f0ae41c606fa1a76868cb8948148a42996734",
+    "W0_EASTERN_ARTIFICIAL_SEA": "017eb83a0747b1bc07cc08238c1b2340d8350cfbdf2ebf92c9090ed9db16f33f"
+  },
+  "no_cutaway": true,
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "function": "UNVERIFIED",
+  "construction": "HOLD",
+  "world_coordinates": "UNREGISTERED",
+  "visual_judgment": "REQUIRED",
+  "montage_sha256": "ec609e44d32722fab2d1043d8d37b7e97725a5945ada403766b598facc8dbd40",
+  "independent_reopen": "PASS",
+  "art": "UNREVIEWED_NOT_ADOPTED"
+}
