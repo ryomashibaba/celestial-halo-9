@@ -1,0 +1,20 @@
+00:02.221  blend            | Read blend: "/tmp/INT11_SOURCE.blend"
+/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT11/author_civic_archipelago.py:61: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('INT11_'+name);m.use_nodes=True
+INT11_REAL_EXCAVATION WEST_LIBRARY_NAVE_MEGAHALL 4702 5057
+INT11_REAL_EXCAVATION WEST_PUBLIC_SKYLIGHT 5057 5315
+INT11_REAL_EXCAVATION WEST_UPPER_ARCHIVE_VAULT 5315 5718
+INT11_REAL_EXCAVATION EAST_H1_GREAT_CIVIC_CHAMBER 4702 5391
+INT11_REAL_EXCAVATION EAST_H1_INHABITED_CANYON 5391 6110
+INT11_REAL_EXCAVATION EAST_HIGH_SKY_PORCH 6110 6284
+INT11_REAL_EXCAVATION FLOATING_CROWN_TECTONIC_SLIT 4702 5687
+Traceback (most recent call last):
+  File "/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT11/author_civic_archipelago.py", line 348, in <module>
+    assert sc['CONSTRUCTION']=='HOLD' and sc['FORMAL_ART_ACCEPTED']==sc['COMPLETED_TARGETS']==0
+           ^^
+NameError: name 'sc' is not defined. Did you mean: 'src'?
+
+Error: script failed, file: 'studies/M3D-1S/J7/R33-S27/INT11/author_civic_archipelago.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:12:34)
+
+Blender quit
