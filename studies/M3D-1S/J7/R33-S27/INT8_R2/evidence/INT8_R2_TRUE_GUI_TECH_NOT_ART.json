@@ -1,0 +1,52 @@
+{
+  "schema": "halo9-int8-r2-gui-viewport-projected-operator-brush-v1",
+  "source_sha256": "51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe",
+  "gui_blender_version": "5.2.1 LTS",
+  "gui_display_present": true,
+  "method": "GUI_VIEWPORT_PROJECTED_SCULPT_OPERATOR__NOT_X11_MOUSE",
+  "ray_hit": true,
+  "hit_target": "INT6_TRUE_BRUSH_west",
+  "ray_hit_face_idx": 1,
+  "projected_region_xy": [
+    622.5,
+    406.5
+  ],
+  "actual_brush_strokes": [
+    {
+      "stroke": 0,
+      "result": [
+        "FINISHED"
+      ]
+    },
+    {
+      "stroke": 1,
+      "result": [
+        "FINISHED"
+      ]
+    },
+    {
+      "stroke": 2,
+      "result": [
+        "FINISHED"
+      ]
+    },
+    {
+      "stroke": 3,
+      "result": [
+        "FINISHED"
+      ]
+    }
+  ],
+  "changed_vertices": 49,
+  "max_vertex_displacement_m": 4.504028,
+  "original_target_vertices": 1680,
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "NOT_REVIEWED_NOT_ADOPTED",
+  "saved_blend_sha256": "c68697d483114f30698c158d0bf108a5796f865b804b14c86fdfe5074e4a11ac",
+  "source_visibility_restored": true,
+  "native_blend_saved": true,
+  "montage_sha256": "1ccf168470b07056950ccd950b1b31fb8ad43213a0f7751bf6c93e38666e4b84",
+  "method_not_hand_sculpt": true
+}
