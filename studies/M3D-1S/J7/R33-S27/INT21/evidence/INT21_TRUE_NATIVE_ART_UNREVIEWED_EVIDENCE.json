@@ -1,0 +1,461 @@
+{
+  "status": "NATIVE_COMPOSITION_TECH_PROVISIONAL_ART_UNREVIEWED",
+  "source_sha256": "e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9",
+  "saved_blend_sha256": "9b950f0b9d5315605d5dc0bec252950e0c150739c94249a201667c9e2d675a27",
+  "new_blend_name": "HALO9_INT21_M247C_OPEN_CIVIC_CANYON_RESEARCH.blend",
+  "source_modified": false,
+  "objects_created": 0,
+  "objects_deleted": 0,
+  "actual_world_geometry_composition_transformed": 3,
+  "authored_macro_movements": [
+    {
+      "name": "INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE",
+      "intent": "Western archive opens away from public axis; steep reverse-inclined civic face",
+      "source_mesh_vertices": 6220,
+      "world_centroid_before": [
+        -812.87255859375,
+        545.4976196289062,
+        730.9722290039062
+      ],
+      "delta_m": [
+        -520.0,
+        -140.0,
+        95.0
+      ],
+      "tilt_deg_xyz": [
+        -5.0,
+        -25.0,
+        14.0
+      ],
+      "maximum_world_vertex_movement_m": 938.789,
+      "before_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after_matrix": [
+        [
+          0.8793864846229553,
+          -0.20526185631752014,
+          -0.4295891523361206,
+          -192.05581665039062
+        ],
+        [
+          0.219255730509758,
+          0.97551429271698,
+          -0.017284724861383438,
+          64.21846008300781
+        ],
+        [
+          0.42261824011802673,
+          -0.07898993045091629,
+          0.9028590321540833,
+          552.6309204101562
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "INT11_M247C_ALPHA_EAST_CIVIC_HIGH_CITY",
+      "intent": "High-city shell withdraws east, uncovers central diagonal public canyon",
+      "source_mesh_vertices": 6643,
+      "world_centroid_before": [
+        939.717529296875,
+        613.0594482421875,
+        862.0184936523438
+      ],
+      "delta_m": [
+        840.0,
+        260.0,
+        -90.0
+      ],
+      "tilt_deg_xyz": [
+        4.0,
+        21.0,
+        -17.0
+      ],
+      "maximum_world_vertex_movement_m": 1324.153,
+      "before_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after_matrix": [
+        [
+          0.8927873373031616,
+          0.31556564569473267,
+          0.3214793801307678,
+          470.16790771484375
+        ],
+        [
+          -0.27295246720314026,
+          0.946666419506073,
+          -0.17122986912727356,
+          696.7982177734375
+        ],
+        [
+          -0.3583679497241974,
+          0.06512326747179031,
+          0.9313062429428101,
+          266.05548095703125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "INT11_M247C_ALPHA_FLOATING_SEVERED_NORTH",
+      "intent": "Severed northern urban crown stands visibly detached at high altitude",
+      "source_mesh_vertices": 5722,
+      "world_centroid_before": [
+        1367.3895263671875,
+        1167.4398193359375,
+        1719.6693115234375
+      ],
+      "delta_m": [
+        170.0,
+        330.0,
+        310.0
+      ],
+      "tilt_deg_xyz": [
+        19.0,
+        -11.0,
+        20.0
+      ],
+      "maximum_world_vertex_movement_m": 727.714,
+      "before_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after_matrix": [
+        [
+          0.9224278330802917,
+          -0.381761372089386,
+          -0.05818228796124458,
+          821.8091430664062
+        ],
+        [
+          0.33573630452156067,
+          0.8672500252723694,
+          -0.36763903498649597,
+          658.1128540039062
+        ],
+        [
+          0.1908089816570282,
+          0.31958651542663574,
+          0.9281467199325562,
+          -200.44442749023438
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "W0_before": {
+    "W0_NORTH_FRACTURED_RANGE": {
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertex_sha": "eecf9f880e59bc4e838f6868955a75f5e68e4061773ec5848b1c8522ea084076"
+    },
+    "W0_WEST_BASALT_ESCARPMENT": {
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertex_sha": "2bd907404ead99b05b48dddcb748cde327ac80ac6cc224f6c0045dcf38857a6c"
+    },
+    "W0_GROUND_BASIN": {
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertex_sha": "2cb83e2cb8005a00c0650b51707f0ae41c606fa1a76868cb8948148a42996734"
+    },
+    "W0_EASTERN_ARTIFICIAL_SEA": {
+      "world_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertex_sha": "017eb83a0747b1bc07cc08238c1b2340d8350cfbdf2ebf92c9090ed9db16f33f"
+    }
+  },
+  "E11_fixed_original": {
+    "E11_NAVE_HUMAN": [
+      [
+        0.9994910955429077,
+        0.011475143022835255,
+        0.029763158410787582,
+        15.0
+      ],
+      [
+        0.031898658722639084,
+        -0.3595544993877411,
+        -0.9325786828994751,
+        -360.0
+      ],
+      [
+        3.0868667622030443e-09,
+        0.9330535531044006,
+        -0.3597375452518463,
+        73.69999694824219
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_H1_HUMAN": [
+      [
+        0.9988681674003601,
+        -0.014305509626865387,
+        -0.0453629307448864,
+        760.0
+      ],
+      [
+        -0.047565147280693054,
+        -0.3004157245159149,
+        -0.9526216387748718,
+        270.0
+      ],
+      [
+        -2.0072432604933965e-10,
+        0.9537010788917542,
+        -0.30075615644454956,
+        438.70001220703125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_URBAN_AERIAL": [
+      [
+        0.8088601231575012,
+        -0.2191125452518463,
+        0.5456510186195374,
+        2150.0
+      ],
+      [
+        0.5880011320114136,
+        0.3014134168624878,
+        -0.7506028413772583,
+        -2700.0
+      ],
+      [
+        -3.02104439242612e-08,
+        0.927976131439209,
+        0.3726397156715393,
+        1850.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "formal_adopted": 0,
+  "complete": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "function": "UNVERIFIED",
+  "world_alignment": "UNREGISTERED_RESEARCH",
+  "mcp_real_blender_visual_before_sha256": "368239178c6226e92138b54f5ec1b3392e1f48c67c7dab00b9efdca45731de8b",
+  "mcp_real_blender_visual_after_sha256": "55af57efb8fadaf3fb8648200a04b719a8bf028b92b2c057a87f90306c7c92db",
+  "mcp_before_after_pixel_diff_bbox": [
+    21,
+    0,
+    1100,
+    575
+  ],
+  "mcp_source": "pinned_digitable_lol_blender_mcp_ae010efa",
+  "mcp_gui_images_both_nonblack": true,
+  "visual_art_review": "REQUIRED_HUMAN_IMAGE_JUDGMENT",
+  "independent_reopen_W0_E11": "PASS",
+  "render_before_sha256": {
+    "E11_NAVE_HUMAN": "f2d17b8af298cae298221c7047b6d86b7e040d98693cfb1eef0641d7ba838f74",
+    "E11_H1_HUMAN": "3c2fd52d5b85f7e65d5cf5eca6472af6463adff2cba7fe12525ac1e20a54ee50",
+    "E11_URBAN_AERIAL": "bb7a8d446686354d44e4991cc4f08d95246e53ba1c23d748c506d10577de5b39"
+  },
+  "render_after_sha256": {
+    "E11_NAVE_HUMAN": "11ee1b2731db18a38dab298aa6a47727c5c7a6e7d8c1509bfa1ddd1ccdbbba3e",
+    "E11_H1_HUMAN": "56ee3478c7a7a3ae991c29f42efffcd58f926e25eeddad935c6e40d8096be7de",
+    "E11_URBAN_AERIAL": "f09bc65a96f288f9331723d739299341a6bad16fc76942bb4e0731f28bc75ad6"
+  },
+  "art_image_sha256": "f84285cb5a4fe70d0641c10c96295c01336764af564654dc3aa9be45398c2052",
+  "mcp_image_sha256": "66d33421e34d3dc0e7d3dc0522c9178f44b839af500416c8d90b5b71216c323e",
+  "formal_art_accepted": 0,
+  "completed_targets": 0
+}
