@@ -1,0 +1,268 @@
+name: HALO9 INT18 real GUI screen ray-hit mouse sculpt
+on:
+  push:
+    branches:
+      - research/r33-s27-int18-x11-root-sculpt-recovery-20261106
+    paths:
+      - .github/workflows/halo9-int18-rayhit.yml
+      - studies/M3D-1S/J7/R33-S27/INT18/gui_prepare.py
+      - studies/M3D-1S/J7/R33-S27/INT18/gui_finalize.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int18-rayhit-ui-20261106
+  cancel-in-progress: false
+jobs:
+  real_visible_desktop:
+    if: github.ref == 'refs/heads/research/r33-s27-int18-x11-root-sculpt-recovery-20261106'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT18
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT6/evidence/HALO9_INT6_TRUE_BRUSH_SCULPT_DISTRICTS.blend.gz
+      SOURCE_SHA: 51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify immutable real Blender research source and script syntax
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/native"
+          gzip -dc "$SOURCE" > /tmp/INT8_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT8_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/gui_prepare.py" "$ROOT/gui_finalize.py"
+          echo 'INT8_SOURCE_AND_SCRIPTS_VERIFIED'
+      - name: Install real Linux virtual desktop and screenshot controls
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb x11-utils openbox xdotool wmctrl scrot python3-pil libgl1-mesa-dri
+      - name: Acquire SHA256-verified official Blender 5.2.1 binary
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/blender-int8 && cd /tmp/blender-int8
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Launch true Blender GUI, inspect live desktop, send physical mouse events, save via GUI Console
+        run: |
+          set -euo pipefail
+          OUT=/tmp/halo9-int18-native
+          mkdir -p "$OUT"
+          export DISPLAY=:94
+          export LIBGL_ALWAYS_SOFTWARE=1
+          Xvfb :94 -screen 0 1600x1000x24 +extension GLX -nolisten tcp > "$OUT/XVFB.log" 2>&1 &
+          XVFB_PID=$!
+          for i in $(seq 1 20); do xdpyinfo -display :94 > /dev/null 2>&1 && break; sleep 1; done
+          xdpyinfo -display :94 > /dev/null
+          openbox > "$OUT/OPENBOX.log" 2>&1 &
+          B=/tmp/blender-int8/blender-5.2.1-linux-x64/blender
+          timeout 780s "$B" --python-exit-code 97 --window-geometry 0 0 1520 930 --threads 2 \
+            /tmp/INT8_SOURCE.blend --python "$ROOT/gui_prepare.py" -- \
+            --output "$OUT" > "$OUT/BLENDER_GUI.log" 2>&1 &
+          BLENDER_PID=$!
+          ready=0
+          for i in $(seq 1 105); do
+            if test -s "$OUT/GUI_READY.json"; then ready=1; break; fi
+            if ! kill -0 "$BLENDER_PID" 2>/dev/null; then
+              tail -80 "$OUT/BLENDER_GUI.log" || true; exit 21
+            fi
+            sleep 1
+          done
+          if test "$ready" -ne 1; then
+            echo 'INT8_GUI_READY_MISSING__FULL_STARTUP_LOG_FOLLOWS'
+            tail -100 "$OUT/BLENDER_GUI.log" || true
+            exit 23
+          fi
+          sleep 3
+          WID=$(xdotool search --onlyvisible --class blender | head -n1)
+          test -n "$WID"
+          # Do NOT maximize after Blender computed the GUI projection.
+          # Its region/window coordinate transform must remain unchanged.
+          xdotool windowactivate --sync "$WID"
+          sleep 3
+          xdotool getwindowgeometry --shell "$WID" > "$OUT/X11_WINDOW_GEOMETRY.txt"
+          # Official Blender first-run Quick Setup modal appeared in the
+          # actual previous X11 screenshot. Accept it before any sculpt stroke.
+          xdotool mousemove --sync 795 710
+          xdotool click 1
+          sleep 2
+          xdotool key --clearmodifiers Escape
+          sleep 2
+          scrot -o "$OUT/BEFORE_REAL_GUI.png"
+          # GUI_READY is not only a "ready" flag: Blender itself
+          # projected the actual polygon into a 2D viewport pixel, cast a
+          # 3D ray back, and verified it hits the exact selected mesh.
+          read MX MY < <(python3 -c "import json; p=json.load(open('$OUT/GUI_READY.json'))['pick']; assert p['ray_hit']; print(*p['window_client_xy_top_left'])")
+          printf 'INT18_VERIFIED_CLIENT_PICK=%s,%s\n' "$MX" "$MY"
+          # INT8-R1 REPLAY: xdotool --window gave a physical root Y
+          # ~20px above the point implied by the window geometry.
+          # This experiment CORRECTS ROOT coordinates, not the BLEND
+          # geometry, source camera, brush type or projected face.
+          read WX WY < <(awk -F= '/^X=/{x=$2}/^Y=/{y=$2}END{print x,y}' "$OUT/X11_WINDOW_GEOMETRY.txt")
+          RX=$((WX+MX))
+          RY=$((WY+MY))
+          printf 'GUI_INTENDED_ROOT_POINTER X=%s Y=%s; client=%s,%s; window=%s,%s\n' "$RX" "$RY" "$MX" "$MY" "$WX" "$WY" | tee "$OUT/INTENDED_ROOT_COORDS.txt"
+          xdotool mousemove --sync "$RX" "$RY"
+          xdotool getmouselocation --shell > "$OUT/GUI_POINTER_BEFORE.txt"
+          read PX PY < <(awk -F= '/^X=/{x=$2}/^Y=/{y=$2}END{print x,y}' "$OUT/GUI_POINTER_BEFORE.txt")
+          test $((PX-RX)) -le 2 && test $((PX-RX)) -ge -2
+          test $((PY-RY)) -le 2 && test $((PY-RY)) -ge -2
+          sleep 1
+          # One genuine GUI XTest drag through the Blender ray-verified face.
+          SX=$((RX-78))
+          SY=$((RY-19))
+          xdotool mousemove --sync "$SX" "$SY"
+          xdotool mousedown 1
+          for dx in $(seq -78 6 78); do
+            xdotool mousemove --sync "$((RX+dx))" "$((RY + dx/4))"
+            sleep 0.052
+          done
+          xdotool mouseup 1
+          xdotool getmouselocation --shell > "$OUT/GUI_POINTER_AFTER.txt"
+          sleep 3
+          scrot -o "$OUT/AFTER_REAL_MOUSE_SCULPT.png"
+          # These are true keyboard events to a visible Blender Console;
+          # the post script checks whether the MOUSE actually moved vertices.
+          xdotool mousemove --sync "$RX" "$RY"
+          xdotool key --clearmodifiers shift+F4
+          sleep 2
+          cp "$ROOT/gui_finalize.py" z.py
+          xdotool type --clearmodifiers --delay 55 "exec(open('z.py').read())"
+          xdotool key Return
+          committed=0
+          for i in $(seq 1 70); do
+            if test -s "$OUT/GUI_SAVE_PASS.json"; then committed=1; break; fi
+            if ! kill -0 "$BLENDER_PID" 2>/dev/null; then break; fi
+            sleep 1
+          done
+          scrot -o "$OUT/GUI_AFTER_CONSOLE.png"
+          if test "$committed" -ne 1; then
+            echo 'INT8_GUI_MOUSE_OR_SAVE_NOT_VERIFIED'
+            test -f "$OUT/MOUSE_EDIT_CHECK.json" && cat "$OUT/MOUSE_EDIT_CHECK.json" || true
+            exit 22
+          fi
+          xdotool mousemove --sync "$RX" "$RY"
+          xdotool key --clearmodifiers shift+F5
+          sleep 2
+          scrot -o "$OUT/GUI_FINAL_VIEWPORT.png"
+          cat "$OUT/GUI_SAVE_PASS.json"
+          cp "$OUT/"*.png "$ROOT/native/"
+          cp "$OUT/"*.json "$ROOT/native/"
+          cp "$OUT/BLENDER_GUI.log" "$ROOT/native/"
+          echo INT8_GUI_SCREEN_CAPTURE_AND_NATIVE_EDIT_VERIFIED
+          kill "$BLENDER_PID" || true
+          kill "$XVFB_PID" || true
+      - name: Preserve GUI boot errors and screenshots in research branch when UI fails
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          OUT=/tmp/halo9-int18-native
+          for f in BLENDER_GUI.log XVFB.log OPENBOX.log GUI_READY.json GUI_BOOT_FAILED.json MOUSE_EDIT_CHECK.json X11_WINDOW_GEOMETRY.txt INTENDED_ROOT_COORDS.txt GUI_POINTER_BEFORE.txt GUI_POINTER_AFTER.txt; do
+            test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
+          done
+          for f in BEFORE_REAL_GUI.png AFTER_REAL_MOUSE_SCULPT.png GUI_AFTER_CONSOLE.png; do
+            test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT8: preserve actual virtual Blender GUI failure evidence [skip ci]'
+            for retry in 1 2 3; do
+            git push origin HEAD:refs/heads/research/r33-s27-int18-x11-root-sculpt-recovery-20261106 && break
+            if [ "$retry" = 3 ]; then echo 'INT18_DEBUG_PUSH_FAILED'; exit 7; fi
+            sleep "$retry"
+          done
+          fi
+      - name: Reopen truly edited BLEND in separate Blender process and compare data with baseline
+        run: |
+          set -euo pipefail
+          cat > /tmp/verify_int8.py <<'PY'
+          import bpy,json,hashlib,math
+          from pathlib import Path
+          p=Path(bpy.data.filepath);root=p.parent
+          r=json.loads((root/'GUI_SAVE_PASS.json').read_text())
+          initial=json.loads((root/'BEFORE_VERTICES.json').read_text())
+          cameras=json.loads((root/'BEFORE_CAMERAS.json').read_text())
+          assert p.name=='HALO9_INT18_GUI_RAYHIT_MOUSE_EDITED_RESEARCH.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==r['saved_blend_sha256']
+          assert r['native_edit_valid'] and r['real_window']
+          assert r['ray_verified_pick']['ray_hit'] and r['ray_verified_pick']['hit_target']==r['target']
+          assert r['physical_vertices_changed']>10 and r['max_vertex_displacement']>.02
+          ob=bpy.data.objects[r['target']]
+          assert len(ob.data.vertices)==len(initial)
+          delta=[math.dist(tuple(v.co),xyz) for v,xyz in zip(ob.data.vertices,initial)]
+          assert sum(x>.01 for x in delta)==r['physical_vertices_changed']
+          assert abs(max(delta)-r['max_vertex_displacement'])<1e-5
+          for n,m in cameras.items():
+              c=bpy.data.objects[n].matrix_world
+              assert max(abs(c[i][j]-m[i][j]) for i in range(4) for j in range(4))<1e-6
+          s=bpy.context.scene
+          assert s['CONSTRUCTION']=='HOLD' and s['COMPLETED_TARGETS']==0 and s['FORMAL_ART_ACCEPTED']==0
+          assert s['INT18_SOURCE_SHA256']==r['source_sha256']
+          print('INT18_INDEPENDENT_REAL_GUI_VERTEX_SAVED_PASS',flush=True)
+          PY
+          /tmp/blender-int8/blender-5.2.1-linux-x64/blender \
+            --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT18_GUI_RAYHIT_MOUSE_EDITED_RESEARCH.blend" \
+            --python /tmp/verify_int8.py 2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F 'INT18_INDEPENDENT_REAL_GUI_VERTEX_SAVED_PASS' "$ROOT/native/INDEPENDENT.log"
+      - name: Archive genuine GUI screenshot evidence and editable BLEND without art approval
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import gzip,os,hashlib,json,base64
+          from pathlib import Path
+          from PIL import Image,ImageChops,ImageStat
+          root=Path(os.environ['ROOT']);n=root/'native';e=root/'evidence';e.mkdir(exist_ok=True)
+          blend=n/'HALO9_INT18_GUI_RAYHIT_MOUSE_EDITED_RESEARCH.blend'
+          with blend.open('rb') as src,gzip.open(e/(blend.name+'.gz'),'wb',compresslevel=6) as dst:
+              while chunk:=src.read(1048576):dst.write(chunk)
+          for key in ('BEFORE_REAL_GUI','AFTER_REAL_MOUSE_SCULPT','GUI_FINAL_VIEWPORT'):
+              p=n/(key+'.png')
+              assert p.stat().st_size>20000
+              im=Image.open(p).convert('RGB')
+              assert im.size==(1600,1000), (key,im.size)
+              im.thumbnail((1280,800))
+              im.save(e/(key+'.png'),optimize=True)
+          a=Image.open(n/'BEFORE_REAL_GUI.png').convert('RGB')
+          b=Image.open(n/'AFTER_REAL_MOUSE_SCULPT.png').convert('RGB')
+          diff=ImageChops.difference(a,b)
+          changed_bbox=diff.getbbox()
+          assert changed_bbox is not None
+          result=json.loads((n/'GUI_SAVE_PASS.json').read_text())
+          result['gui_before_png_sha256']=hashlib.sha256((n/'BEFORE_REAL_GUI.png').read_bytes()).hexdigest()
+          result['gui_after_png_sha256']=hashlib.sha256((n/'AFTER_REAL_MOUSE_SCULPT.png').read_bytes()).hexdigest()
+          result['screenshot_diff_bbox']=changed_bbox
+          result['art']='NOT_APPROVED'
+          for label in ('BEFORE_REAL_GUI','AFTER_REAL_MOUSE_SCULPT'):
+              screenshot=e/(label+'.png')
+              (e/(label+'_BASE64.txt')).write_text(base64.b64encode(screenshot.read_bytes()).decode())
+          result['technical_scope']='ONE_EXISTING_WEST_MESH_WITH_VERIFIED_GUI_RAYHIT'
+          # A real source screenshot is a review artifact, not a render
+          # or an ART acceptance.
+          montage=Image.new('RGB',(1400,1000),(224,224,224))
+          from PIL import ImageDraw
+          draw=ImageDraw.Draw(montage)
+          for idx,key in enumerate(('BEFORE_REAL_GUI','AFTER_REAL_MOUSE_SCULPT')):
+              im=Image.open(n/(key+'.png')).convert('RGB')
+              im.thumbnail((700,900),Image.Resampling.LANCZOS)
+              montage.paste(im,(idx*700,32))
+              draw.text((idx*700+5,7),key,fill=(0,0,0))
+          jpg=e/'INT18_TRUE_GUI_BEFORE_AFTER.jpg'
+          montage.save(jpg,quality=84,optimize=True)
+          (e/'INT18_TRUE_GUI_BEFORE_AFTER_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          (e/'INT8_REAL_UI_SCULPT_NOT_ART.json').write_text(json.dumps(result,indent=2))
+          print('INT18_REAL_DESKTOP_AND_EDIT_ARCHIVED',result['physical_vertices_changed'],flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT8: record real GUI screenshot and mouse-edited native study with independent proof [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-int18-x11-root-sculpt-recovery-20261106
+          fi
