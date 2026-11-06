@@ -1,0 +1,24 @@
+{
+  "SOURCE": "PASS_PINNED_INT21_SHA256",
+  "TECH": "PASS_NATIVE_SAVE_INDEPENDENT_REOPEN_PROTECTED_W0_E11",
+  "IMAGE_VALID": "PASS_SAME_SCENE_FIXED_CAMERAS_R0_R1_6_CYCLES_RENDERS",
+  "ART": "REJECT",
+  "FUNCTION": "UNVERIFIED",
+  "FORMAL_ADOPTION": 0,
+  "COMPLETION": "0/30",
+  "CONSTRUCTION": "HOLD",
+  "COST_AUDIT": "GitHub historical cost UNKNOWN; this batch local CPU only; no paid service or Actions invoked",
+  "ART_AUTHORING_CAPABILITY": "Visual inspection and Python-assisted native vertex revision demonstrated; high-quality architectural authorship remains HOLD",
+  "main_head": "a2f88995eee8d10ee4830dbdf33ccb9c0790de8f",
+  "int21_production_head": "d5bcda16b1f2f0e39c530b52f1d7124ad97acf5e",
+  "handoff_head": "b921db20f17b424b9e1e9f187631f2874616f8d8",
+  "int21_ci": {
+    "id": 42295170314,
+    "head": "c673443b2fdf8bd4519f02141344e08c5e33dd47",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "method": "Offline local Blender 5.2.1; no live MCP connection, GUI input, image generation, external assets, or installation",
+  "local_branch": "integration/local-gate-b-after-int21-20261107",
+  "local_parent": "b9aa433bcd362586599e7a99a3afc15e5fa0b007"
+}

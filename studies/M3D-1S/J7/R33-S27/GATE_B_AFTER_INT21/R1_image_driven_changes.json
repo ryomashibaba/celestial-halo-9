@@ -1,0 +1,301 @@
+{
+  "observed_images": [
+    "R0/E11_NAVE_HUMAN.png",
+    "R0/E11_H1_HUMAN.png",
+    "R0/E11_URBAN_AERIAL.png"
+  ],
+  "method": "direct existing mesh vertex edits via Python, not GUI brush",
+  "changes": [
+    {
+      "object": "GB_EAST_OCCUPIED_URBAN_GROUND",
+      "reason": "R0 fixed H1 image was inside the east solid; reconstruct the upper section under the public ground",
+      "vertices_changed": 12,
+      "before": [
+        [
+          300.0,
+          390.0,
+          60.0
+        ],
+        [
+          500.0,
+          390.0,
+          60.0
+        ],
+        [
+          565.0,
+          390.0,
+          245.0
+        ],
+        [
+          700.0,
+          390.0,
+          330.0
+        ],
+        [
+          1040.0,
+          390.0,
+          350.0
+        ],
+        [
+          1190.0,
+          390.0,
+          510.0
+        ],
+        [
+          1170.0,
+          390.0,
+          630.0
+        ],
+        [
+          940.0,
+          390.0,
+          710.0
+        ],
+        [
+          760.0,
+          390.0,
+          690.0
+        ],
+        [
+          645.0,
+          390.0,
+          560.0
+        ],
+        [
+          450.0,
+          390.0,
+          520.0
+        ],
+        [
+          340.0,
+          390.0,
+          350.0
+        ],
+        [
+          300.0,
+          890.0,
+          60.0
+        ],
+        [
+          500.0,
+          890.0,
+          60.0
+        ],
+        [
+          565.0,
+          890.0,
+          245.0
+        ],
+        [
+          700.0,
+          890.0,
+          330.0
+        ],
+        [
+          1040.0,
+          890.0,
+          350.0
+        ],
+        [
+          1190.0,
+          890.0,
+          510.0
+        ],
+        [
+          1170.0,
+          890.0,
+          630.0
+        ],
+        [
+          940.0,
+          890.0,
+          710.0
+        ],
+        [
+          760.0,
+          890.0,
+          690.0
+        ],
+        [
+          645.0,
+          890.0,
+          560.0
+        ],
+        [
+          450.0,
+          890.0,
+          520.0
+        ],
+        [
+          340.0,
+          890.0,
+          350.0
+        ]
+      ],
+      "after": [
+        [
+          300.0,
+          390.0,
+          60.0
+        ],
+        [
+          500.0,
+          390.0,
+          60.0
+        ],
+        [
+          565.0,
+          390.0,
+          245.0
+        ],
+        [
+          700.0,
+          390.0,
+          330.0
+        ],
+        [
+          1040.0,
+          390.0,
+          350.0
+        ],
+        [
+          1190.0,
+          390.0,
+          390.0
+        ],
+        [
+          1170.0,
+          390.0,
+          420.0
+        ],
+        [
+          940.0,
+          390.0,
+          420.0
+        ],
+        [
+          760.0,
+          390.0,
+          420.0
+        ],
+        [
+          645.0,
+          390.0,
+          400.0
+        ],
+        [
+          450.0,
+          390.0,
+          390.0
+        ],
+        [
+          340.0,
+          390.0,
+          350.0
+        ],
+        [
+          300.0,
+          890.0,
+          60.0
+        ],
+        [
+          500.0,
+          890.0,
+          60.0
+        ],
+        [
+          565.0,
+          890.0,
+          245.0
+        ],
+        [
+          700.0,
+          890.0,
+          330.0
+        ],
+        [
+          1040.0,
+          890.0,
+          350.0
+        ],
+        [
+          1190.0,
+          890.0,
+          390.0
+        ],
+        [
+          1170.0,
+          890.0,
+          420.0
+        ],
+        [
+          940.0,
+          890.0,
+          420.0
+        ],
+        [
+          760.0,
+          890.0,
+          420.0
+        ],
+        [
+          645.0,
+          890.0,
+          400.0
+        ],
+        [
+          450.0,
+          890.0,
+          390.0
+        ],
+        [
+          340.0,
+          890.0,
+          350.0
+        ]
+      ]
+    },
+    {
+      "object": "GB_NAVE_WEST_BRANCH_0",
+      "reason": "R0 nave dominated by flat ribs; narrow actual cross-sections to reveal adjacent occupied galleries",
+      "vertices_changed": 17
+    },
+    {
+      "object": "GB_NAVE_WEST_BRANCH_1",
+      "reason": "R0 nave dominated by flat ribs; narrow actual cross-sections to reveal adjacent occupied galleries",
+      "vertices_changed": 17
+    },
+    {
+      "object": "GB_NAVE_WEST_BRANCH_2",
+      "reason": "R0 nave dominated by flat ribs; narrow actual cross-sections to reveal adjacent occupied galleries",
+      "vertices_changed": 17
+    },
+    {
+      "object": "GB_NAVE_WEST_BRANCH_3",
+      "reason": "R0 nave dominated by flat ribs; narrow actual cross-sections to reveal adjacent occupied galleries",
+      "vertices_changed": 17
+    },
+    {
+      "object": "GB_NAVE_EAST_BRANCH_0",
+      "reason": "R0 nave dominated by flat ribs; narrow actual cross-sections to reveal adjacent occupied galleries",
+      "vertices_changed": 24
+    },
+    {
+      "object": "GB_NAVE_EAST_BRANCH_1",
+      "reason": "R0 nave dominated by flat ribs; narrow actual cross-sections to reveal adjacent occupied galleries",
+      "vertices_changed": 24
+    },
+    {
+      "object": "GB_NAVE_EAST_BRANCH_2",
+      "reason": "R0 nave dominated by flat ribs; narrow actual cross-sections to reveal adjacent occupied galleries",
+      "vertices_changed": 24
+    },
+    {
+      "object": "GB_NAVE_EAST_BRANCH_3",
+      "reason": "R0 nave dominated by flat ribs; narrow actual cross-sections to reveal adjacent occupied galleries",
+      "vertices_changed": 24
+    }
+  ],
+  "objects_added": 0,
+  "objects_deleted": 0
+}

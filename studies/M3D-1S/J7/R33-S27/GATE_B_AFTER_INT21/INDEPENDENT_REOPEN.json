@@ -1,0 +1,22 @@
+{
+  "independent_reopen": "PASS",
+  "source_sha256": "9b950f0b9d5315605d5dc0bec252950e0c150739c94249a201667c9e2d675a27",
+  "source_unchanged": true,
+  "W0_mesh_topology_and_matrix_E11_matrix_lens_sensor_clip": {
+    "W0_NORTH_FRACTURED_RANGE": true,
+    "W0_WEST_BASALT_ESCARPMENT": true,
+    "W0_GROUND_BASIN": true,
+    "W0_EASTERN_ARTIFICIAL_SEA": true,
+    "E11_NAVE_HUMAN": true,
+    "E11_H1_HUMAN": true,
+    "E11_URBAN_AERIAL": true,
+    "E11_WATER_APPROACH": true,
+    "E11_REVERSE": true
+  },
+  "old_architecture_retained": [],
+  "blend_sha256": "97705e5af10b7425f77b94b0b14b472f5ab292dd58fea7b0287728ae922abfb5",
+  "object_count": 7767,
+  "art": "NOT_A_TECHNICAL_VERDICT",
+  "function": "UNVERIFIED",
+  "construction": "HOLD"
+}
