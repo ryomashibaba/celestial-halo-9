@@ -85,8 +85,9 @@ def carve_prism(target,name,foot,zmin,zmax):
     b=target.modifiers.new('INT13_REAL_VOID_'+name,'BOOLEAN')
     b.operation='DIFFERENCE';b.solver='EXACT';b.object=cutter
     bpy.ops.object.modifier_apply(modifier=b.name)
+    cutter_name=cutter.name
     bpy.data.objects.remove(cutter,do_unlink=True)
-    created.remove(cutter.name)
+    created.remove(cutter_name)
     target.data.update()
     assert len(target.data.polygons)>original,(name,original,len(target.data.polygons))
     return {'target':target.name,'cavity':name,'polys_before':original,
@@ -144,7 +145,7 @@ def street(a,b,idx):
         h=6*j;k=6*(j+1)
         for side in range(5):
             faces.append((h+side,k+side,k+side+1,h+side+1))
-        faces.append((h+5,k+5,k,k and h or h))
+        faces.append((h+5,k+5,k,h))
     # remove any degenerate face; actual valid ground is upper band.
     faces=[f for f in faces if len(set(f))>=3]
     obj=mesh('PUBLIC_SPATIAL_ROUTE_%02d_%s_TO_%s'%(idx,a,b),v,faces,
