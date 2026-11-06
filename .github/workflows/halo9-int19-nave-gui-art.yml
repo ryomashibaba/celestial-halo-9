@@ -283,7 +283,7 @@ jobs:
               im.thumbnail((675,875),Image.Resampling.LANCZOS)
               g.paste(im,(i*675,30))
           gg=e/'INT19_REAL_GUI_SCULPT_EVIDENCE.jpg'
-          gg.save(gg,quality=82,optimize=True)
+          g.save(gg,quality=82,optimize=True)
           data=json.loads((native/'GUI_SAVE_PASS.json').read_text())
           data.update({'source_sha256':os.environ['SOURCE_SHA'],
             'independent_blender_reopen':'PASS',
