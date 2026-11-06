@@ -1,0 +1,166 @@
+name: HALO9 INT10 integrated M247-C NAVE H1 W0 civic canyon - real Blender and visual study
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int10-civic-canyon-recomposition-20261106
+    paths:
+      - .github/workflows/halo9-int10-civic-canyon-real-native.yml
+      - studies/M3D-1S/J7/R33-S27/INT10/author_integrated_canyon.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int10-civic-canyon-20261106
+  cancel-in-progress: false
+jobs:
+  authored_civic_city:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-int10-civic-canyon-recomposition-20261106'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 48
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT10
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT9_R1/evidence/HALO9_INT9_R1_NAVE_DAYLIT_CIVIC_RECESS.blend.gz
+      SOURCE_SHA: 651eb465405fef91b8baabd80d4428dbd2c3ba395c71e8abda71fc354cc3ba27
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Preflight immutable inherited source and native authoring script
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/native"
+          test -s "$SOURCE"
+          gzip -dc "$SOURCE" > /tmp/INT10_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT10_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/author_integrated_canyon.py"
+          echo INT10_IMMUTABLE_INPUT_AND_SCRIPT_VALID
+      - name: Download official SHA256-verified Blender 5.2.1 LTS
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-int10-blender && cd /tmp/halo9-int10-blender
+          curl -fL --retry 2 --connect-timeout 25 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz \
+            -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o official_sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' official_sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Author genuinely different integrated spatial architecture in true Blender meshes and render fixed 3 plus 3 supplementary
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9-int10-blender/blender-5.2.1-linux-x64/blender
+          timeout 1950s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/INT10_SOURCE.blend --python "$ROOT/author_integrated_canyon.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/INT10_TRUE_NATIVE_AUTHOR.log"
+          grep -F 'INT10_FULL_NEW_CIVIC_CANYON_NATIVE_BLENDER_CREATED' "$ROOT/native/INT10_TRUE_NATIVE_AUTHOR.log"
+      - name: Independently reopen actual saved BLEND and validate exact pixel-backed source and safety
+        run: |
+          set -euo pipefail
+          cat > /tmp/halo9_verify_int10.py <<'PY'
+          import bpy,json,hashlib,math,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath);root=p.parent
+          r=json.loads((root/'INT10_REAL_3D_TECH_NOT_ART.json').read_text())
+          assert p.name=='HALO9_INT10_INHABITED_CIVIC_CANYON_EDITABLE.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==r['native_blend_sha256']
+          assert r['input_sha256']=='651eb465405fef91b8baabd80d4428dbd2c3ba395c71e8abda71fc354cc3ba27'
+          sc=bpy.context.scene
+          assert sc['CONSTRUCTION']=='HOLD'
+          assert sc['FORMAL_ART_ACCEPTED']==sc['COMPLETED_TARGETS']==0
+          assert sc['INT10_FORMAL_ART_ADOPTED']==0
+          assert sc['INT10_SOURCE_SHA256']==r['input_sha256']
+          assert r['formal_art_accepted']==r['completed_targets']==0 and r['minecraft']=='HOLD'
+          assert r['research_units']=='NOT_OFFICIAL_MINECRAFT_COORDINATES'
+          assert r['new_native_architectural_mesh_count']>=24
+          assert r['W0_source_objects_preserved']>0
+          for name in r['W0_original_reference_names']:
+              assert name in bpy.data.objects,name
+          for name in r['new_mesh_objects']:
+              assert name in bpy.data.objects and bpy.data.objects[name].type=='MESH',name
+              ob=bpy.data.objects[name]
+              assert len(ob.data.vertices)>0 and len(ob.data.polygons)>0
+              assert all(math.isfinite(float(a)) for v in ob.data.vertices for a in v.co)
+          for name,old in r['e11_original_matrices'].items():
+              m=bpy.data.objects[name].matrix_world
+              assert max(abs(m[i][j]-old[i][j]) for i in range(4) for j in range(4))<1e-6
+          assert r['fixed_3_E11_camera_poses_unchanged']
+          for name,sha in r['native_same_scene_png_sha256'].items():
+              file=root/'renders'/(name+'.png')
+              assert file.exists()
+              with file.open('rb') as fp: h=fp.read(24)
+              assert h[:8]==bytes.fromhex('89504e470d0a1a0a')
+              assert struct.unpack('>II',h[16:24])==(980,735)
+              assert hashlib.sha256(file.read_bytes()).hexdigest()==sha
+          print('INT10_INDEPENDENT_REAL_BLENDER_GEOMETRY_AND_6_IMAGES_PASS_NOT_ART',flush=True)
+          PY
+          /tmp/halo9-int10-blender/blender-5.2.1-linux-x64/blender \
+            --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT10_INHABITED_CIVIC_CANYON_EDITABLE.blend" \
+            --python /tmp/halo9_verify_int10.py 2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F 'INT10_INDEPENDENT_REAL_BLENDER_GEOMETRY_AND_6_IMAGES_PASS_NOT_ART' "$ROOT/native/INDEPENDENT.log"
+      - name: Archive exact edited BLEND and six real Blender viewpoints for DIRECT ART inspection
+        run: |
+          set -euo pipefail
+          sudo DEBIAN_FRONTEND=noninteractive apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import os,json,gzip,hashlib,base64
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT']);n=root/'native';e=root/'evidence';e.mkdir(exist_ok=True)
+          p=n/'HALO9_INT10_INHABITED_CIVIC_CANYON_EDITABLE.blend'
+          with p.open('rb') as src,gzip.open(e/(p.name+'.gz'),'wb',compresslevel=6) as dst:
+              while chunk:=src.read(1048576):dst.write(chunk)
+          names=['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
+            'INT10_NAVE_CIVIC_PUBLIC_ROOM','INT10_H1_MARKET_HUMAN_DEPTH',
+            'INT10_W0_TIDAL_AND_TWIN_FAULT']
+          canvas=Image.new('RGB',(1740,916),(218,217,214))
+          pen=ImageDraw.Draw(canvas)
+          stats={}
+          for i,name in enumerate(names):
+              file=n/'renders'/(name+'.png')
+              pic=Image.open(file).convert('RGB')
+              stats[name]=round(sum(ImageStat.Stat(pic).mean)/3,2)
+              pic.thumbnail((580,427),Image.Resampling.LANCZOS)
+              x=(i%3)*580;y=(i//3)*458
+              canvas.paste(pic,(x,y+26))
+              pen.text((x+7,y+5),name,fill=(0,0,0))
+          jpg=e/'INT10_REAL_SIX_VIEW_ART_UNREVIEWED.jpg'
+          canvas.save(jpg,quality=85,optimize=True)
+          (e/'INT10_REAL_SIX_VIEW_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          result=json.loads((n/'INT10_REAL_3D_TECH_NOT_ART.json').read_text())
+          result['direct_review_montage_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          result['six_view_mean_brightness']=stats
+          result['art']='UNREVIEWED_NOT_ADOPTED'
+          (e/'INT10_INDEPENDENT_NATIVE_TECH_NOT_ART.json').write_text(json.dumps(result,indent=2),encoding='utf8')
+          print('INT10_EDITABLE_NATIVE_BLENDER_AND_6_TRUE_IMAGES_ARCHIVED',stats,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT10: preserve independent native civic-canyon BLEND and six genuine fixed/extra render views [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int10-civic-canyon-recomposition-20261106
+          fi
+      - name: Archive meaningful diagnostic error on failure without claiming art acceptance
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          for f in INT10_TRUE_NATIVE_AUTHOR.log INDEPENDENT.log INT10_REAL_3D_TECH_NOT_ART.json; do
+            test -f "$ROOT/native/$f" && cp "$ROOT/native/$f" "$ROOT/debug/$f" || true
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT10: preserve failed true Blender native authoring diagnostics [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int10-civic-canyon-recomposition-20261106
+          fi
+      - name: Ephemeral full-resolution PNGs and native output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT10-INHABITED-CANYON-NATIVE-RENDER-TECH
+          path: studies/M3D-1S/J7/R33-S27/INT10/native/
+          retention-days: 5
+          if-no-files-found: warn
