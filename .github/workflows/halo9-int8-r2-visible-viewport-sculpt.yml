@@ -90,10 +90,12 @@ jobs:
           sleep 2
           xdotool type --clearmodifiers --delay 2 "exec(open('studies/M3D-1S/J7/R33-S27/INT8_R2/gui_viewport_brush.py', encoding='utf8').read())"
           xdotool key Return
-          sleep .7
+          sleep 1.8
+          scrot -o "$OUT/GUI_CONSOLE_AFTER_COMMAND.png"
           xdotool key --clearmodifiers shift+F5
+          sleep 1
           complete=0
-          for i in $(seq 1 75); do
+          for i in $(seq 1 45); do
             if test -s "$OUT/GUI_OPERATOR_PASS.json"; then complete=1; break; fi
             if test -s "$OUT/GUI_OPERATOR_FAILURE.json"; then
               echo INT8_R2_GUI_OPERATOR_FAIL
@@ -205,9 +207,23 @@ jobs:
           for f in BLENDER_GUI.log GUI_READY.json GUI_OPERATOR_FAILURE.json GUI_OPERATOR_RESULT.json; do
             test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
           done
-          for f in BEFORE_REAL_GUI.png AFTER_OPERATOR_GUI.png; do
+          for f in BEFORE_REAL_GUI.png AFTER_OPERATOR_GUI.png GUI_CONSOLE_AFTER_COMMAND.png; do
             test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
           done
+          # Make the real screenshot inspectable as text through GitHub
+          # without pretending it is an artistic render.
+          if test -f "$ROOT/debug/GUI_CONSOLE_AFTER_COMMAND.png"; then
+            python3 - <<'PY'
+          import os,base64
+          from pathlib import Path
+          from PIL import Image
+          p=Path(os.environ['ROOT'])/'debug'/'GUI_CONSOLE_AFTER_COMMAND.png'
+          im=Image.open(p).convert('RGB')
+          im.thumbnail((1280,800),Image.Resampling.LANCZOS)
+          j=p.with_suffix('.jpg');im.save(j,quality=80,optimize=True)
+          j.with_suffix('.b64.txt').write_text(base64.b64encode(j.read_bytes()).decode())
+          PY
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add "$ROOT/debug/"
