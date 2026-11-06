@@ -1,0 +1,75 @@
+{
+  "schema": "halo9-int5-actual-escarpment-sculpt-v1",
+  "source_sha256": "7cf765923b91f06cce7951fc3558f042e488bf9f1157791b59b14d11954dc2bb",
+  "blend_sha256": "be64b47413d43159f82be570abf4be9d4ddff722fcdd595736d775d3c7c9a77f",
+  "replaced_thin_architecture": 22,
+  "created_meshes_by_role": {
+    "M247": 9,
+    "CITY": 52
+  },
+  "real_boolean_cavities": {
+    "NAVE_PUBLIC_LIBRARY": [
+      58,
+      64
+    ],
+    "NAVE_STATION_TRAIN_HALL": [
+      58,
+      64
+    ],
+    "ELEVATED_LIBRARY_MUSEUM": [
+      64,
+      68
+    ],
+    "NAVE_CEREMONY_PUBLIC_SQUARE": [
+      64,
+      68
+    ],
+    "H1_CLIFF_MARKET": [
+      68,
+      74
+    ],
+    "H1_SCHOOL_CAMPUS": [
+      68,
+      72
+    ],
+    "H1_PUBLIC_HOUSING_ATRIUM": [
+      74,
+      80
+    ],
+    "H1_INHABITED_COMMUNITY": [
+      72,
+      76
+    ],
+    "HIGH_READING_GARDEN": [
+      80,
+      84
+    ],
+    "HIGH_SKY_RAIL_EXCHANGE": [
+      76,
+      80
+    ],
+    "BETA_HIGH_PUBLIC_VOID": [
+      20,
+      0
+    ]
+  },
+  "render_sha256": {
+    "E11_NAVE_HUMAN": "9123279e945f6381689451eb67db4745cca86a9b08890b657085a43a4552c305",
+    "E11_H1_HUMAN": "9a538daf05979ced968782d1bdd8dd7240468fb0e2f0d5eb4deb0ca894bbe21b",
+    "E11_URBAN_AERIAL": "f36a399e292f352efa30f81e359fdc11ad9f03bed5199e3331778947054f5b42"
+  },
+  "unchanged_original_cameras": true,
+  "coordinates": "UNREGISTERED_RESEARCH_METRES",
+  "function": "UNKNOWN_NO_COMPLETE_PEDESTRIAN_QA",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 142.42,
+    "E11_H1_HUMAN": 93.53,
+    "E11_URBAN_AERIAL": 103.07
+  },
+  "image_preflight": "VALID_CANDIDATE",
+  "review_mosaic_sha256": "136555990fc32ec4f336321f61ae89e0f626face1982cf462f04837d80e5a944"
+}
