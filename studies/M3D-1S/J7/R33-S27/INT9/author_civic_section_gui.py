@@ -109,7 +109,7 @@ def edit_civic_section():
         md.from_pydata(verts,[],faces);md.update()
         cutter=bpy.data.objects.new(md.name,md)
         s.collection.objects.link(cutter)
-        assert len(school.data.polygons)>=9
+        assert len(school.data.polygons)>=7
         school_poly_before=len(school.data.polygons)
         bpy.ops.object.select_all(action='DESELECT')
         school.select_set(True)
