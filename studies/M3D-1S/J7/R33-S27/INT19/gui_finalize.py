@@ -66,7 +66,7 @@ scene['INT19_PHYSICAL_CHANGED_VERTICES']=changed
 scene['INT19_MAX_PHYSICAL_VERTEX_DELTA']=maximum
 scene['INT19_RESEARCH_ONLY_NOT_ART']=True
 scene.camera=bpy.data.objects['E11_URBAN_AERIAL']
-blend=out/'HALO9_INT19_GUI_RAYHIT_MOUSE_EDITED_RESEARCH.blend'
+blend=out/'HALO9_INT19_NAVE_REAL_GUI_SCULPT_RESEARCH.blend'
 bpy.ops.wm.save_as_mainfile(filepath=str(blend),compress=True)
 record['saved_blend_sha256']=hashlib.sha256(blend.read_bytes()).hexdigest()
 record['saved_blend']=str(blend)
