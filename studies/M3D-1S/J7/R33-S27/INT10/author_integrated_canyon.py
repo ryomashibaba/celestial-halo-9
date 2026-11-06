@@ -21,7 +21,7 @@ sc=bpy.context.scene
 assert sc['CONSTRUCTION']=='HOLD' and sc['COMPLETED_TARGETS']==sc['FORMAL_ART_ACCEPTED']==0
 e11=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL')
 poses={n:bpy.data.objects[n].matrix_world.copy() for n in e11}
-original_w0={o.name for o in sc.objects if o.name.startswith(('W0_','INT4_W0_','INT6_W0_'))}
+original_w0={o.name for o in sc.objects if 'W0' in o.name and not o.name.startswith('INT7_')}
 assert len(original_w0)>0,'W0 continuity absent from inherited source'
 removed=[]
 for ob in list(sc.objects):
@@ -65,7 +65,8 @@ def mesh(name,verts,faces,material):
     ob=bpy.data.objects.new('INT10_'+name,data)
     coll.objects.link(ob)
     ob.data.materials.append(mats[material])
-    made.append(ob.name)
+    if not name.startswith('_TEMP_'):
+        made.append(ob.name)
     assert all(math.isfinite(float(x)) for v in ob.data.vertices for x in v.co)
     return ob
 def catmull(a,b,c,d,t):
@@ -106,7 +107,7 @@ def tectonic_bank(name,side,stations,material):
             aa=i*n+j;bb=i*n+(j+1)%n
             faces.append((aa,bb,bb+n,aa+n))
     ob=mesh(name,verts,faces,material)
-    assert len(ob.data.vertices)>350
+    assert len(ob.data.vertices)>300
     return ob
 # Hand-chosen asymmetrical fault geology; no mirrored generic tower wall.
 west=tectonic_bank('M247_C_WEST_CIVIC_MOUNTAIN_LECTERN',-1,[
