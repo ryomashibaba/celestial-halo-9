@@ -10,7 +10,7 @@ permissions:
   contents: write
 concurrency:
   group: halo9-int20-single-mcp-bridge-check-20261106
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   original_city_true_visual_mcp:
     runs-on: ubuntu-24.04
@@ -36,8 +36,8 @@ jobs:
       - name: Minimal real desktop and Pillow for image inspection
         run: |
           set -euo pipefail
-          sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb libgl1-mesa-dri libgl1 mesa-utils python3-pil
+          sudo timeout 140s apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 140s apt-get install -y -qq xvfb libgl1-mesa-dri libgl1 mesa-utils python3-pil
       - name: Download pinned, SHA-verified Blender 5.2.1 LTS
         run: |
           set -euo pipefail
