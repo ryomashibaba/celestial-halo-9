@@ -54,33 +54,57 @@ bpy.context.view_layer.update()
 area.tag_redraw()
 
 bpy.ops.object.mode_set(mode='SCULPT')
-with bpy.context.temp_override(window=win,area=area,region=reg):
-    outcome=bpy.ops.brush.asset_activate(
-        asset_library_type='ESSENTIALS',
-        asset_library_identifier='',
-        relative_asset_identifier='brushes/essentials_brushes-mesh_sculpt.blend/Brush/Clay Strips')
-    assert 'FINISHED' in outcome
-    brush=bpy.context.tool_settings.sculpt.brush
-    assert brush is not None
-    brush.size=164
-    brush.strength=.96
 
-ui={
- 'schema':'halo9-int8-real-blender-desktop-session',
- 'source_sha256':EXPECTED,
- 'blender_version':bpy.app.version_string,
- 'background':bpy.app.background,
- 'source_blend':file.name,
- 'target':subject.name,
- 'target_vertices':len(before),
- 'visible_view3d_area':[area.x,area.y,area.width,area.height],
- 'region':[reg.x,reg.y,reg.width,reg.height],
- 'screen_width':win.width,'screen_height':win.height,
- 'surface_point':[round(float(v),3) for v in focus],
- 'brush':brush.name,'brush_size':brush.size,'brush_strength':brush.strength,
- 'initial_mode':bpy.context.mode,
- 'original_camera_matrices_recorded':True,
- 'formal_art_adopted':0,'completed_targets':0,'minecraft':'HOLD',
- 'art':'NOT_REVIEWED'}
-(out/'GUI_READY.json').write_text(json.dumps(ui,indent=2),encoding='utf8')
-print('INT8_REAL_GUI_READY',json.dumps(ui),flush=True)
+# In the REAL desktop Blender's asset library may still be loading when
+# the command-line --python script starts (the immediate asset operator
+# reports unfinished). Resume in Blender's actual GUI event loop.
+attempt={'number':0}
+def finish_real_gui_setup():
+    attempt['number']+=1
+    try:
+        brush=bpy.context.tool_settings.sculpt.brush
+        if brush is None:
+            with bpy.context.temp_override(window=win,area=area,region=reg):
+                status=bpy.ops.brush.asset_activate(
+                    asset_library_type='ESSENTIALS',
+                    asset_library_identifier='',
+                    relative_asset_identifier='brushes/essentials_brushes-mesh_sculpt.blend/Brush/Clay Strips')
+                print('INT8_ACTIVATE_BRUSH_GUI',status,flush=True)
+            brush=bpy.context.tool_settings.sculpt.brush
+        if brush is None:
+            if attempt['number']<25:
+                return .5
+            raise RuntimeError('SCULPT_ASSET_DID_NOT_LOAD_IN_GUI_EVENT_LOOP')
+        brush.size=164
+        brush.strength=.96
+        ui={
+          'schema':'halo9-int8-real-blender-desktop-session',
+          'source_sha256':EXPECTED,
+          'blender_version':bpy.app.version_string,
+          'background':bpy.app.background,
+          'source_blend':file.name,
+          'target':subject.name,
+          'target_vertices':len(before),
+          'visible_view3d_area':[area.x,area.y,area.width,area.height],
+          'region':[reg.x,reg.y,reg.width,reg.height],
+          'screen_width':win.width,'screen_height':win.height,
+          'surface_point':[round(float(v),3) for v in focus],
+          'brush':brush.name,'brush_size':brush.size,'brush_strength':brush.strength,
+          'initial_mode':bpy.context.mode,
+          'gui_event_loop_attempts':attempt['number'],
+          'original_camera_matrices_recorded':True,
+          'formal_art_adopted':0,'completed_targets':0,'minecraft':'HOLD',
+          'art':'NOT_REVIEWED'}
+        (out/'GUI_READY.json').write_text(json.dumps(ui,indent=2),encoding='utf8')
+        print('INT8_REAL_GUI_READY',json.dumps(ui),flush=True)
+        return None
+    except Exception as exc:
+        if attempt['number']<25:
+            print('INT8_GUI_NOT_READY_YET',attempt['number'],repr(exc),flush=True)
+            return .5
+        (out/'GUI_BOOT_FAILED.json').write_text(json.dumps({
+            'error':repr(exc),'attempts':attempt['number']},indent=2))
+        print('INT8_GUI_BOOT_FATAL',repr(exc),flush=True)
+        return None
+
+bpy.app.timers.register(finish_real_gui_setup,first_interval=1.2)
