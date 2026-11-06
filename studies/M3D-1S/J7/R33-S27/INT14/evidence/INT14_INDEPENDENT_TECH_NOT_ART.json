@@ -1,0 +1,507 @@
+{
+  "schema": "halo9-int14-h1-public-entrance-native-repair-v1",
+  "input_sha256": "da098354430d0aa62d0f4825c23127340aba8e8c353c6dc33f53c5b8b0fec3c3",
+  "saved_blend_sha256": "431f5d1845f04a7fa669e2e230e00298cfedd98ee3d3069eb36c3fc85a7a6146",
+  "real_mesh_modified": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+  "polygons_before": 33,
+  "polygons_after": 108,
+  "fixed_h1_camera_center_before": {
+    "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+    "distance": 22.413,
+    "u": 0.5,
+    "v": 0.5
+  },
+  "fixed_h1_camera_center_after": {
+    "name": "INT13_PUBLIC_SPATIAL_ROUTE_06_H1_MARKET_TO_H1_SCHOOL",
+    "distance": 161.889,
+    "u": 0.5,
+    "v": 0.5
+  },
+  "fixed_h1_25sample_hit_before": [
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 18.023,
+      "u": 0.18,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 19.05,
+      "u": 0.34,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 21.392,
+      "u": 0.5,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 25.838,
+      "u": 0.66,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 33.649,
+      "u": 0.82,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 18.074,
+      "u": 0.18,
+      "v": 0.34
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 19.1,
+      "u": 0.34,
+      "v": 0.34
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 21.55,
+      "u": 0.5,
+      "v": 0.34
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 26.339,
+      "u": 0.66,
+      "v": 0.34
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 34.98,
+      "u": 0.82,
+      "v": 0.34
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 18.598,
+      "u": 0.18,
+      "v": 0.5
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 19.728,
+      "u": 0.34,
+      "v": 0.5
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 22.413,
+      "u": 0.5,
+      "v": 0.5
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 27.716,
+      "u": 0.66,
+      "v": 0.5
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 37.484,
+      "u": 0.82,
+      "v": 0.5
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 19.677,
+      "u": 0.18,
+      "v": 0.66
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 21.05,
+      "u": 0.34,
+      "v": 0.66
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 24.144,
+      "u": 0.5,
+      "v": 0.66
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 30.199,
+      "u": 0.66,
+      "v": 0.66
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 41.528,
+      "u": 0.82,
+      "v": 0.66
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 21.368,
+      "u": 0.18,
+      "v": 0.82
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 23.151,
+      "u": 0.34,
+      "v": 0.82
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 26.872,
+      "u": 0.5,
+      "v": 0.82
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 34.008,
+      "u": 0.66,
+      "v": 0.82
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 47.547,
+      "u": 0.82,
+      "v": 0.82
+    }
+  ],
+  "fixed_h1_25sample_hit_after": [
+    {
+      "name": "INT13_H1_MARKET_INTERIOR_FLOOR",
+      "distance": 32.606,
+      "u": 0.18,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_MARKET_INTERIOR_FLOOR",
+      "distance": 31.126,
+      "u": 0.34,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_MARKET_INTERIOR_FLOOR",
+      "distance": 31.035,
+      "u": 0.5,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_MARKET_INTERIOR_FLOOR",
+      "distance": 32.538,
+      "u": 0.66,
+      "v": 0.18
+    },
+    {
+      "name": "INT13_H1_MARKET_INTERIOR_FLOOR",
+      "distance": 35.634,
+      "u": 0.82,
+      "v": 0.18
+    },
+    {
+      "name": "INT4_H1_MARKET_NAVE_CONNECTOR",
+      "distance": 127.836,
+      "u": 0.18,
+      "v": 0.34
+    },
+    {
+      "name": "INT4_H1_MARKET_NAVE_CONNECTOR",
+      "distance": 109.694,
+      "u": 0.34,
+      "v": 0.34
+    },
+    {
+      "name": "INT13_PUBLIC_SPATIAL_ROUTE_06_H1_MARKET_TO_H1_SCHOOL",
+      "distance": 185.795,
+      "u": 0.5,
+      "v": 0.34
+    },
+    {
+      "name": "INT13_PUBLIC_SPATIAL_ROUTE_06_H1_MARKET_TO_H1_SCHOOL",
+      "distance": 246.68,
+      "u": 0.66,
+      "v": 0.34
+    },
+    {
+      "name": "INT4_H1_PUBLIC_BOULEVARD",
+      "distance": 247.337,
+      "u": 0.82,
+      "v": 0.34
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 240.8,
+      "u": 0.18,
+      "v": 0.5
+    },
+    {
+      "name": "INT4_H1_MARKET_CIVIC_COURT_wall_3",
+      "distance": 233.355,
+      "u": 0.34,
+      "v": 0.5
+    },
+    {
+      "name": "INT13_PUBLIC_SPATIAL_ROUTE_06_H1_MARKET_TO_H1_SCHOOL",
+      "distance": 161.889,
+      "u": 0.5,
+      "v": 0.5
+    },
+    {
+      "name": "INT13_PUBLIC_SPATIAL_ROUTE_06_H1_MARKET_TO_H1_SCHOOL",
+      "distance": 226.914,
+      "u": 0.66,
+      "v": 0.5
+    },
+    {
+      "name": "INT13_H1_SCHOOL_INNER_PUBLIC_PLATEAU",
+      "distance": 288.759,
+      "u": 0.82,
+      "v": 0.5
+    },
+    {
+      "name": "INT4_H1_MARKET_CIVIC_COURT_wall_1",
+      "distance": 132.62,
+      "u": 0.18,
+      "v": 0.66
+    },
+    {
+      "name": "INT4_H1_MARKET_CIVIC_COURT_wall_3",
+      "distance": 245.109,
+      "u": 0.34,
+      "v": 0.66
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 721.41,
+      "u": 0.5,
+      "v": 0.66
+    },
+    {
+      "name": "INT11_H1_MARKET_FOOD_HALL",
+      "distance": 322.852,
+      "u": 0.66,
+      "v": 0.66
+    },
+    {
+      "name": "INT11_H1_MARKET_FOOD_HALL",
+      "distance": 312.321,
+      "u": 0.82,
+      "v": 0.66
+    },
+    {
+      "name": "INT4_H1_MARKET_CIVIC_COURT_wall_1",
+      "distance": 144.338,
+      "u": 0.18,
+      "v": 0.82
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 638.011,
+      "u": 0.34,
+      "v": 0.82
+    },
+    {
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 754.607,
+      "u": 0.5,
+      "v": 0.82
+    },
+    {
+      "name": "INT11_H1_MARKET_FOOD_HALL",
+      "distance": 364.752,
+      "u": 0.66,
+      "v": 0.82
+    },
+    {
+      "name": "INT11_H1_MARKET_FOOD_HALL",
+      "distance": 334.501,
+      "u": 0.82,
+      "v": 0.82
+    }
+  ],
+  "fixed_h1_research_wall_hits_before": 25,
+  "fixed_h1_research_wall_hits_after": 4,
+  "old_route_grade_audit": [
+    {
+      "from": "W0_ARRIVAL",
+      "to": "NAVE_STATION",
+      "rise_m": 42,
+      "horizontal_m": 583.545,
+      "grade_pct": 7.197,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    },
+    {
+      "from": "NAVE_STATION",
+      "to": "NAVE_FORUM",
+      "rise_m": 34,
+      "horizontal_m": 263.37,
+      "grade_pct": 12.91,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    },
+    {
+      "from": "NAVE_FORUM",
+      "to": "NAVE_LIBRARY",
+      "rise_m": 106,
+      "horizontal_m": 256.289,
+      "grade_pct": 41.36,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    },
+    {
+      "from": "NAVE_LIBRARY",
+      "to": "NAVE_CEREMONY",
+      "rise_m": 96,
+      "horizontal_m": 325.96,
+      "grade_pct": 29.451,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    },
+    {
+      "from": "NAVE_CEREMONY",
+      "to": "NAVE_ASCENT",
+      "rise_m": 29,
+      "horizontal_m": 234.201,
+      "grade_pct": 12.383,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    },
+    {
+      "from": "NAVE_ASCENT",
+      "to": "H1_MARKET",
+      "rise_m": 80,
+      "horizontal_m": 355.563,
+      "grade_pct": 22.5,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    },
+    {
+      "from": "H1_MARKET",
+      "to": "H1_SCHOOL",
+      "rise_m": 95,
+      "horizontal_m": 250.45,
+      "grade_pct": 37.932,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    },
+    {
+      "from": "H1_SCHOOL",
+      "to": "H1_COMMONS",
+      "rise_m": 100,
+      "horizontal_m": 260.048,
+      "grade_pct": 38.454,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    },
+    {
+      "from": "H1_COMMONS",
+      "to": "H1_RESIDENCES",
+      "rise_m": 180,
+      "horizontal_m": 269.119,
+      "grade_pct": 66.885,
+      "accessible_solution": "UNBUILT_UNVERIFIED"
+    }
+  ],
+  "original_three_E11_camera_matrices": {
+    "E11_NAVE_HUMAN": [
+      [
+        0.9994910955429077,
+        0.011475143022835255,
+        0.029763158410787582,
+        15.0
+      ],
+      [
+        0.031898658722639084,
+        -0.3595544993877411,
+        -0.9325786828994751,
+        -360.0
+      ],
+      [
+        3.0868667622030443e-09,
+        0.9330535531044006,
+        -0.3597375452518463,
+        73.69999694824219
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_H1_HUMAN": [
+      [
+        0.9988681674003601,
+        -0.014305509626865387,
+        -0.0453629307448864,
+        760.0
+      ],
+      [
+        -0.047565147280693054,
+        -0.3004157245159149,
+        -0.9526216387748718,
+        270.0
+      ],
+      [
+        -2.0072432604933965e-10,
+        0.9537010788917542,
+        -0.30075615644454956,
+        438.70001220703125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_URBAN_AERIAL": [
+      [
+        0.8088601231575012,
+        -0.2191125452518463,
+        0.5456510186195374,
+        2150.0
+      ],
+      [
+        0.5880011320114136,
+        0.3014134168624878,
+        -0.7506028413772583,
+        -2700.0
+      ],
+      [
+        -3.02104439242612e-08,
+        0.927976131439209,
+        0.3726397156715393,
+        1850.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "protected_W0_vertex_sha256": {
+    "W0_NORTH_FRACTURED_RANGE": "eecf9f880e59bc4e838f6868955a75f5e68e4061773ec5848b1c8522ea084076",
+    "W0_WEST_BASALT_ESCARPMENT": "2bd907404ead99b05b48dddcb748cde327ac80ac6cc224f6c0045dcf38857a6c",
+    "W0_GROUND_BASIN": "2cb83e2cb8005a00c0650b51707f0ae41c606fa1a76868cb8948148a42996734",
+    "W0_EASTERN_ARTIFICIAL_SEA": "017eb83a0747b1bc07cc08238c1b2340d8350cfbdf2ebf92c9090ed9db16f33f"
+  },
+  "real_native_render_sha256": {
+    "E11_NAVE_HUMAN": "fc012fb69e9d9b8b4f02ad34a593ff4ab62fca4e7a1f61da1c3703d456b40dea",
+    "E11_H1_HUMAN": "0e39d867e2e0fe4b5c546436831f90da6f41f34a263c365b9bb12a4d79857f99",
+    "E11_URBAN_AERIAL": "7546322f48d80baf22c088ca39ef4971ef1639e22d7dd5a1bd6e26bc6cdaaccf",
+    "INT13_H1_MARKET_SCHOOL_INTERIOR": "b8781890f390f1f1a47b99e0b373bdbe324d2cf8d9c1827c96384f765b136a52"
+  },
+  "source_masses_unhidden_no_cutaway_substitution": true,
+  "method": "REAL_NEGATIVE_PUBLIC_ENTRY_IN_EXISTING_H1_MASS_NOT_REPLACEMENT_BOX",
+  "walkability": "UNVERIFIED",
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 113.545,
+    "E11_H1_HUMAN": 59.767,
+    "E11_URBAN_AERIAL": 96.955,
+    "INT13_H1_MARKET_SCHOOL_INTERIOR": 70.225
+  },
+  "montage_sha256": "fe9e2e2f04cf91607963b0d5eefbe9ddec026ce9c897e9ac3e0cc49c1c3f6902",
+  "independent_reopen": "PASS"
+}
