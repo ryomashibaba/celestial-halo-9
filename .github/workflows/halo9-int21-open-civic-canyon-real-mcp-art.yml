@@ -1,0 +1,157 @@
+name: HALO9 INT21 one M247-C macro composition through live Blender MCP and fixed E11 art gate
+on:
+  push:
+    branches:
+      - research/r33-s27-int21-open-civic-canyon-visual-study-20261107
+    paths:
+      - .github/workflows/halo9-int21-open-civic-canyon-real-mcp-art.yml
+      - studies/M3D-1S/J7/R33-S27/INT21/author_existing_civic_masses_visual_revision.py
+      - studies/M3D-1S/J7/R33-S27/INT21/run_mcp_visual_authoring.py
+      - studies/M3D-1S/J7/R33-S27/INT21/verify_and_render_fixed_e11.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int21-one-visual-candidate-20261107
+  cancel-in-progress: true
+jobs:
+  genuine_scene_macro_edit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT21
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT15/evidence/HALO9_INT15_H1_OCCUPIED_LIFT_PUBLIC_CORE.blend.gz
+      SOURCE_SHA: e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9
+      DISABLE_TELEMETRY: "1"
+      BLENDER_MCP_DISABLE_TELEMETRY: "1"
+      MCP_DISABLE_TELEMETRY: "1"
+      BLENDERMCP_PORT: "9876"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Immutable parent and research script preflight
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/heads/research/r33-s27-int21-open-civic-canyon-visual-study-20261107'
+          python3 -m py_compile "$ROOT/author_existing_civic_masses_visual_revision.py" "$ROOT/run_mcp_visual_authoring.py" "$ROOT/verify_and_render_fixed_e11.py"
+          gzip -dc "$SOURCE" > /tmp/INT21_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT21_SOURCE.blend | sha256sum -c -
+      - name: Minimal isolated GPU-software virtual desktop
+        run: |
+          set -euo pipefail
+          sudo timeout 140s apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=30 update -qq
+          sudo DEBIAN_FRONTEND=noninteractive timeout 140s apt-get install -y -qq xvfb libgl1-mesa-dri libgl1 mesa-utils python3-pil
+      - name: Verify official Blender and fixed MIT visual MCP bridge source
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/b21 && cd /tmp/b21
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          sed -n '/blender-5.2.1-linux-x64.tar.xz/p' sums | sed 's/blender-5.2.1-linux-x64.tar.xz$/blender.tar.xz/' | sha256sum -c -
+          tar -xf blender.tar.xz
+          git clone --quiet https://github.com/digitable-lol/blender-mcp.git /tmp/halo9-mcp
+          git -C /tmp/halo9-mcp checkout --quiet ae010efa2a3f3d799ef1074d7cd3d9a7f36a0118
+          test "$(git -C /tmp/halo9-mcp rev-parse HEAD)" = 'ae010efa2a3f3d799ef1074d7cd3d9a7f36a0118'
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('/tmp/halo9-mcp/blender_scripts/addons/blender_mcp_addon.py')
+          s=p.read_text()
+          old='for a in bpy.context.screen.areas:'
+          assert s.count(old)==1
+          p.write_text(s.replace(old,'for a in bpy.context.window_manager.windows[0].screen.areas:'))
+          PY
+      - name: Edit real city through live MCP with actual before and after viewport
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-int21
+          export BLENDER=/tmp/b21/blender-5.2.1-linux-x64/blender
+          /tmp/halo9-mcp/run.sh start
+          trap '/tmp/halo9-mcp/run.sh stop || true' EXIT
+          python3 "$ROOT/run_mcp_visual_authoring.py" 2>&1 | tee /tmp/halo9-int21/mcp_author.log
+          grep -F 'INT21_LIVE_VISUAL_MCP_BEFORE_AFTER_AND_TRUE_EDIT_COMPLETE_NOT_ART' /tmp/halo9-int21/mcp_author.log
+      - name: Independent BLEND re-open and six unchanged E11 true Cycles renders
+        run: |
+          set -euo pipefail
+          B=/tmp/b21/blender-5.2.1-linux-x64/blender
+          timeout 700s "$B" --background --threads 2 --python-exit-code 96 \
+            /tmp/INT21_SOURCE.blend --python "$ROOT/verify_and_render_fixed_e11.py" \
+            -- --phase before 2>&1 | tee /tmp/halo9-int21/verify_before.log
+          grep -F 'INT21_INDEPENDENT_REAL_E11_COMPLETE before' /tmp/halo9-int21/verify_before.log
+          timeout 700s "$B" --background --threads 2 --python-exit-code 96 \
+            /tmp/halo9-int21/HALO9_INT21_M247C_OPEN_CIVIC_CANYON_RESEARCH.blend \
+            --python "$ROOT/verify_and_render_fixed_e11.py" \
+            -- --phase after 2>&1 | tee /tmp/halo9-int21/verify_after.log
+          grep -F 'INT21_INDEPENDENT_REAL_E11_COMPLETE after' /tmp/halo9-int21/verify_after.log
+      - name: Store only real editable scene and visual evidence in research branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          import os,gzip,hashlib,json
+          d=Path('/tmp/halo9-int21')
+          out=Path(os.environ['ROOT'])/'evidence'
+          out.mkdir(parents=True,exist_ok=True)
+          src=d/'HALO9_INT21_M247C_OPEN_CIVIC_CANYON_RESEARCH.blend'
+          with src.open('rb') as i,gzip.open(out/(src.name+'.gz'),'wb',compresslevel=6) as o:
+              while part:=i.read(1048576):o.write(part)
+          cams=['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL']
+          sheet=Image.new('RGB',(2400,1270),(220,220,220));pen=ImageDraw.Draw(sheet)
+          for row,state in enumerate(('before','after')):
+              for i,camera in enumerate(cams):
+                  img=Image.open(d/('render-'+state)/(camera+'.png')).convert('RGB')
+                  assert img.size==(800,600)
+                  sheet.paste(img,(800*i,35+row*635))
+                  pen.text((800*i+6,row*635+8),state+' / '+camera,fill=(10,10,10))
+          art=out/'INT21_TRUE_E11_BEFORE_AFTER_ART_UNREVIEWED.jpg'
+          sheet.save(art,quality=88,optimize=True)
+          views=Image.new('RGB',(1600,620),(220,220,220))
+          for i,state in enumerate(('BEFORE','AFTER')):
+              img=Image.open(d/('INT21_MCP_'+state+'_OPEN_CANYON.png')).convert('RGB')
+              img.thumbnail((800,585),Image.Resampling.LANCZOS)
+              views.paste(img,(800*i,30))
+          visual=out/'INT21_REAL_MCP_VIEWPORT_BEFORE_AFTER.jpg'
+          views.save(visual,quality=88,optimize=True)
+          proof=json.loads((d/'INT21_LIVE_MCP_GEOMETRY_EVIDENCE.json').read_text())
+          proof.update({
+              'independent_reopen_W0_E11':'PASS',
+              'render_before_sha256':json.loads((d/'render-before'/'sha256.json').read_text()),
+              'render_after_sha256':json.loads((d/'render-after'/'sha256.json').read_text()),
+              'art_image_sha256':hashlib.sha256(art.read_bytes()).hexdigest(),
+              'mcp_image_sha256':hashlib.sha256(visual.read_bytes()).hexdigest(),
+              'formal_art_accepted':0,'completed_targets':0,'minecraft':'HOLD',
+              'art':'UNREVIEWED_NOT_ADOPTED'})
+          (out/'INT21_TRUE_NATIVE_ART_UNREVIEWED_EVIDENCE.json').write_text(json.dumps(proof,indent=2))
+          print('INT21_ONE_REAL_COMPOSITION_AND_SIX_FIXED_E11_IMAGES_SAVED_NOT_ART',flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT21: save real native M247-C composition and fixed E11 before-after, art unreviewed [skip ci]'
+            git fetch origin research/r33-s27-int21-open-civic-canyon-visual-study-20261107
+            git rebase origin/research/r33-s27-int21-open-civic-canyon-visual-study-20261107
+            git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)" push origin HEAD:refs/heads/research/r33-s27-int21-open-civic-canyon-visual-study-20261107
+          fi
+      - name: Bounded failure log, never an art result
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          for n in mcp_author.log verify_before.log verify_after.log; do
+            test -f "/tmp/halo9-int21/$n" && cp "/tmp/halo9-int21/$n" "$ROOT/debug/$n" || true
+          done
+          test -f /tmp/halo9-mcp/.run/blender.log && cp /tmp/halo9-mcp/.run/blender.log "$ROOT/debug/blender.log" || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT21: retain bounded failure proof, no art adoption [skip ci]'
+            git fetch origin research/r33-s27-int21-open-civic-canyon-visual-study-20261107
+            git rebase origin/research/r33-s27-int21-open-civic-canyon-visual-study-20261107
+            git -c http.https://github.com/.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)" push origin HEAD:refs/heads/research/r33-s27-int21-open-civic-canyon-visual-study-20261107
+          fi
