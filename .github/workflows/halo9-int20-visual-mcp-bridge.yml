@@ -37,7 +37,7 @@ jobs:
         run: |
           set -euo pipefail
           sudo apt-get update -qq
-          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb libgl1-mesa-dri libgl1-mesa-glx mesa-utils python3-pil
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb libgl1-mesa-dri libgl1 mesa-utils python3-pil
       - name: Download pinned, SHA-verified Blender 5.2.1 LTS
         run: |
           set -euo pipefail
