@@ -1,0 +1,16 @@
+{
+  "schema": "halo9-int8-x11-real-gui-mouse-geometry-evidence",
+  "source_sha256": "51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe",
+  "blender_version": "5.2.1 LTS",
+  "real_window": true,
+  "input_method": "Xvfb+xdotool pointer mouseDown/move/mouseUp and GUI Console",
+  "physical_vertices_changed": 0,
+  "max_vertex_displacement": 0.0,
+  "target_vertices": 1680,
+  "target": "INT6_TRUE_BRUSH_west",
+  "old_geometry_sha256": "391e6c9e431d765df69c53e49a0abd92d3d6d0cf4ff909706a517ee8c8582285",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED"
+}
