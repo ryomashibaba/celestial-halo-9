@@ -113,8 +113,8 @@ def organic_geology(name,center,scale,seed,mat,warp=.17):
     for i in range(R):
         for j in range(S):
             a=i*S+j;b=i*S+(j+1)%S
-            faces.append((a,b,b+S,a+S))
-    faces.extend([tuple(reversed(range(S))),tuple(range(R*S,(R+1)*S))])
+            faces.append((a,a+S,b+S,b))
+    faces.extend([tuple(range(S)),tuple(reversed(range(R*S,(R+1)*S)))])
     ob=mesh(name,v,faces,mat)
     for f in ob.data.polygons:f.use_smooth=True
     major_works.append(name)
@@ -345,33 +345,33 @@ for name,old in fixed.items():
 assert all(name in bpy.data.objects for name in original_w0)
 assert all(geo_fingerprint(bpy.data.objects[n])==w0_hash[n] for n in core_w0)
 assert len(made)>=27 and cut_count>=7
-assert sc['CONSTRUCTION']=='HOLD' and sc['FORMAL_ART_ACCEPTED']==sc['COMPLETED_TARGETS']==0
-sc['INT11_SOURCE_SHA256']=PARENT
-sc['INT11_METHOD']='VOLUMETRIC_SCULPTED_PUBLIC_ROOM_AND_INHABITED_COURTYARDS_NOT_WEDGE_LOFT'
-sc['INT11_PRIVATE_ART_RESEARCH_ONLY']=True
-sc['INT11_RESEARCH_NOT_OFFICIAL_MINECRAFT_COORDINATES']=True
-sc['INT11_FORMAL_ART']=0
-sc.camera=bpy.data.objects['E11_URBAN_AERIAL']
+assert scene['CONSTRUCTION']=='HOLD' and scene['FORMAL_ART_ACCEPTED']==scene['COMPLETED_TARGETS']==0
+scene['INT11_SOURCE_SHA256']=PARENT
+scene['INT11_METHOD']='VOLUMETRIC_SCULPTED_PUBLIC_ROOM_AND_INHABITED_COURTYARDS_NOT_WEDGE_LOFT'
+scene['INT11_PRIVATE_ART_RESEARCH_ONLY']=True
+scene['INT11_RESEARCH_NOT_OFFICIAL_MINECRAFT_COORDINATES']=True
+scene['INT11_FORMAL_ART']=0
+scene.camera=bpy.data.objects['E11_URBAN_AERIAL']
 dst=out/'HALO9_INT11_HOLLOW_ARCHIPELAGO_CIVIC_CITY.blend'
 bpy.ops.wm.save_as_mainfile(filepath=str(dst),compress=True)
-sc.render.engine='CYCLES';sc.cycles.device='CPU';sc.cycles.samples=12
-sc.cycles.use_denoising=True
-sc.render.threads_mode='FIXED';sc.render.threads=2
-sc.render.resolution_x=1024;sc.render.resolution_y=768
-sc.render.resolution_percentage=100
-sc.render.image_settings.file_format='PNG'
+scene.render.engine='CYCLES';scene.cycles.device='CPU';scene.cycles.samples=12
+scene.cycles.use_denoising=True
+scene.render.threads_mode='FIXED';scene.render.threads=2
+scene.render.resolution_x=1024;scene.render.resolution_y=768
+scene.render.resolution_percentage=100
+scene.render.image_settings.file_format='PNG'
 views=e11+('INT11_NAVE_HOLLOW_PUBLIC_INTERIOR',
             'INT11_H1_CIVIC_MARKET_INTERIOR',
             'INT11_M247C_W0_THREE_DIMENSIONAL_AERIAL')
 hashes={}
 for n in views:
-    sc.camera=bpy.data.objects[n]
-    target=out/'renders'/(n+'.png');sc.render.filepath=str(target)
+    scene.camera=bpy.data.objects[n]
+    target=out/'renders'/(n+'.png');scene.render.filepath=str(target)
     bpy.ops.render.render(write_still=True)
     assert target.stat().st_size>10000
     hashes[n]=hashlib.sha256(target.read_bytes()).hexdigest()
     print('INT11_REAL_INTEGRATED_3D_RENDER',n,target.stat().st_size,flush=True)
-sc.camera=bpy.data.objects['E11_URBAN_AERIAL']
+scene.camera=bpy.data.objects['E11_URBAN_AERIAL']
 bpy.ops.wm.save_as_mainfile(filepath=str(dst),compress=True)
 report={
  'schema':'halo9-int11-hollow-civic-archipelago-v1',
