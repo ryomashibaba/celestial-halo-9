@@ -1,0 +1,71 @@
+{
+  "schema": "halo9-int12-independent-render-inspection-v1",
+  "native_blend_sha256": "563773c54328f249978c0ed6d989edfc437d467a9d543a0b21511f99d6a508a1",
+  "source_sha256": "2ec37b65868509060a499e9c648c3030aa3d008a7a9f603a2598dc4358b2140e",
+  "original_3_E11_cameras_unchanged": true,
+  "original_4_W0_geometry_unchanged": true,
+  "two_native_screen_sculpt_ops": [
+    {
+      "target": "INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE",
+      "fixed_camera": "E11_NAVE_HUMAN",
+      "changed_vertices": 736,
+      "max_world_displacement": 380.74848,
+      "screen_mask_max": 1.0,
+      "depth_quantiles": [
+        1193.44,
+        1692.3
+      ],
+      "method": "REAL_VERTICES_MOVED_BY_E11_SCREEN_PROJECTION_NOT_GUI_MOUSE"
+    },
+    {
+      "target": "INT11_M247C_ALPHA_EAST_CIVIC_HIGH_CITY",
+      "fixed_camera": "E11_H1_HUMAN",
+      "changed_vertices": 576,
+      "max_world_displacement": 543.24411,
+      "screen_mask_max": 1.0,
+      "depth_quantiles": [
+        763.98,
+        1250.33
+      ],
+      "method": "REAL_VERTICES_MOVED_BY_E11_SCREEN_PROJECTION_NOT_GUI_MOUSE"
+    }
+  ],
+  "deleted_repeated_rejected_ribs": [
+    "INT11_NAVE_OCCUPIED_CROSS_VAULT_0",
+    "INT11_NAVE_OCCUPIED_CROSS_VAULT_1",
+    "INT11_NAVE_OCCUPIED_CROSS_VAULT_2",
+    "INT11_NAVE_OCCUPIED_CROSS_VAULT_3",
+    "INT11_H1_INHABITED_ROCK_SUPPORT_0",
+    "INT11_H1_INHABITED_ROCK_SUPPORT_1",
+    "INT11_H1_INHABITED_ROCK_SUPPORT_2",
+    "INT11_H1_INHABITED_ROCK_SUPPORT_3",
+    "INT11_H1_INHABITED_ROCK_SUPPORT_4"
+  ],
+  "preserved_beta_seam": true,
+  "native_6_render_sha256": {
+    "E11_NAVE_HUMAN": "073b51a0485cb95b61484baa772ee7028d6e88e4b418785f71df258f7701f54d",
+    "E11_H1_HUMAN": "17e76503e228b33ca25210ff1edec30d79c5a8742a2f42c87f223ff7342edbc7",
+    "E11_URBAN_AERIAL": "c43d704d8fda3b9dd0337a6d85e6ddfbad19dc6995bfde3f01e20cb042a097cb",
+    "INT11_NAVE_HOLLOW_PUBLIC_INTERIOR": "5367424c5eff2b6ec49bcae32c19ad584aa375cdfdbc0c2b1333cf6252e5ae6b",
+    "INT11_H1_CIVIC_MARKET_INTERIOR": "8ba46805b582e35d848339f3fb10eb1fbf20ecafa8a0a7d95ad9bd93cc21721f",
+    "INT11_M247C_W0_THREE_DIMENSIONAL_AERIAL": "77c9dd07feba8a8db307e96dd5e7cb398150c9611fea16216832f289d6f9e060"
+  },
+  "visible_gui_author": true,
+  "independent_reopen": "PASS",
+  "function": "UNKNOWN",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "six_view_mean_brightness": {
+    "E11_NAVE_HUMAN": 128.01,
+    "E11_H1_HUMAN": 157.68,
+    "E11_URBAN_AERIAL": 100.98,
+    "INT11_NAVE_HOLLOW_PUBLIC_INTERIOR": 124.29,
+    "INT11_H1_CIVIC_MARKET_INTERIOR": 161.64,
+    "INT11_M247C_W0_THREE_DIMENSIONAL_AERIAL": 121.56
+  },
+  "six_view_montage_sha256": "0f7e514cc612469068c92a3b9277f4aba7e84f71032655bc100355505ef89449",
+  "recovered_from_original_run": 42184896560,
+  "recovery_method": "EXACT_VERIFIED_ARTIFACT_BYTES__NO_BLENDER_RERUN"
+}
