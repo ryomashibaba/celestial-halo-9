@@ -9,7 +9,7 @@ Noncanonical research only. Never change main, Freeze, source, Minecraft.
 import bpy,sys,hashlib,json,math
 from mathutils import Vector
 from pathlib import Path
-from bpy_extras.view3d_utils import location_3d_to_region_2d
+from bpy_extras.view3d_utils import (location_3d_to_region_2d,region_2d_to_vector_3d,region_2d_to_origin_3d)
 
 params=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 output=Path(params[params.index('--output')+1])
@@ -49,8 +49,8 @@ def viewport():
                     return win,area,region,area.spaces.active.region_3d
     raise RuntimeError('NO_VIEW3D_REGION_FOR_REAL_BRUSH')
 
-def stroke_samples(region,points):
-    mid=(region.width/2,region.height/2)
+def stroke_samples(region,points,pixel_center,location3d):
+    mid=pixel_center
     result=[]
     for j,(px,py,pressure) in enumerate(points):
         result.append({
@@ -58,7 +58,7 @@ def stroke_samples(region,points):
             'mouse':(0.0,0.0),
             'mouse_event':(float(mid[0]+px*region.width),float(mid[1]+py*region.height)),
             'is_start':j==0,
-            'location':(0.,0.,0.),
+            'location':tuple(location3d),
             'pressure':float(pressure),
             'time':.018*j,
             'size':1.,
@@ -104,11 +104,38 @@ for k,(label,_,district,view_direction) in enumerate(targets):
     center=Vector(tuple((a+b)/2 for a,b in bounds))
     size=max(b-a for a,b in bounds)
     win,area,region,r3d=viewport()
-    viewer=center+Vector(view_direction).normalized()*(size*1.45)
-    r3d.view_location=center
-    r3d.view_distance=size*1.35
+    # Aim at the CENTER OF A REAL FRONT-FACING SURFACE, not a potentially
+    # invisible bounding-box center inside the 3D building.
+    approx=Vector(view_direction).normalized()
+    def visual_area(poly):
+        facing=max(.0,poly.normal.dot(approx))
+        return poly.area*(facing**2)
+    face=max(target.data.polygons,key=visual_area)
+    surface=target.matrix_world @ face.center
+    outward=(target.matrix_world.to_3x3() @ face.normal).normalized()
+    viewer=surface+outward*(size*1.45)
+    r3d.view_location=surface
+    r3d.view_distance=size*.98
     r3d.view_perspective='PERSP'
-    r3d.view_rotation=(center-viewer).to_track_quat('-Z','Y')
+    r3d.view_rotation=(surface-viewer).to_track_quat('-Z','Y')
+    bpy.context.view_layer.update()
+    area.tag_redraw()
+    projected=location_3d_to_region_2d(region,r3d,surface)
+    assert projected is not None,('SCULPT_SURFACE_NOT_PROJECTED',district)
+    # Independent 3D view-ray tests; Sculpt operator FINISHED alone is fake evidence.
+    origin=region_2d_to_origin_3d(region,r3d,projected)
+    direction=region_2d_to_vector_3d(region,r3d,projected)
+    matinv=target.matrix_world.inverted()
+    hit,point,normal,face_idx=target.ray_cast(
+        matinv@origin,(matinv.to_3x3()@direction).normalized(),distance=20000)
+    print('INT6_VIEWPORT_SURFACE_RAY',district,
+        {'region':[region.width,region.height],'area':[area.width,area.height],
+         'surface':tuple(round(v,2) for v in surface),
+         'pixel':tuple(round(v,2) for v in projected),
+         'ray_hit':hit,'face':face_idx,
+         'mode':bpy.context.mode},flush=True)
+    if not hit:
+        raise RuntimeError(('VIEWPORT_RAY_DID_NOT_HIT_TARGET',district))
     try:
         bpy.ops.ed.undo_push()
     except Exception as exc:
@@ -124,6 +151,10 @@ for k,(label,_,district,view_direction) in enumerate(targets):
         assert brush is not None
         brush.size=max(100,int(min(region.width,region.height)*.24))
         brush.strength=.69
+        print('INT6_SCULPT_RUNTIME',district,
+            {'mode':bpy.context.mode,'active_object':bpy.context.active_object.name,
+             'brush':brush.name,'brush_size':brush.size,
+             'strength':brush.strength},flush=True)
         paths=[
           line(-.34,-.09,.31,.18,.97),
           line(-.24,.26,.23,-.16,1.),
@@ -132,7 +163,7 @@ for k,(label,_,district,view_direction) in enumerate(targets):
         ]
         for idx,points in enumerate(paths):
             retval=bpy.ops.sculpt.brush_stroke(
-                stroke=stroke_samples(region,points),override_location=True)
+                stroke=stroke_samples(region,points,projected,surface),override_location=True)
             assert 'FINISHED' in retval,('BRUSH_OPERATOR_FAILED',district,idx,retval)
             print('INT6_REAL_SCULPT_STROKE',district,idx,retval,flush=True)
     bpy.ops.object.mode_set(mode='OBJECT')
