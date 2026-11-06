@@ -1,0 +1,55 @@
+name: HALO9 INT10-R1 fixed camera real mesh obstruction identification
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int10-r1-human-views-repair-20261106
+    paths:
+      - .github/workflows/halo9-int10-r1-camera-occlusion-probe.yml
+      - studies/M3D-1S/J7/R33-S27/INT10_R1/diagnose_true_camera_occluders.py
+permissions:
+  contents: write
+jobs:
+  exact_image_occluders:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 13
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT10_R1
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT10/evidence/HALO9_INT10_INHABITED_CIVIC_CANYON_EDITABLE.blend.gz
+      EXPECTED: b5a38f353c814acaade8848ca420c3a38cfa724e41a1aafeb07a071244c6c94e
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify protected INT10 input and Blender script
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/diagnostics"
+          gzip -dc "$SOURCE" >/tmp/INT10_R1_SOURCE.blend
+          printf '%s  %s\n' "$EXPECTED" /tmp/INT10_R1_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/diagnose_true_camera_occluders.py"
+      - name: Use true SHA256-verified Blender 5.2.1
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/blender10r1 && cd /tmp/blender10r1
+          curl -fL --retry 2 --connect-timeout 25 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          sed -n '/blender-5.2.1-linux-x64.tar.xz/p' sums | sed 's/blender-5.2.1-linux-x64.tar.xz$/blender.tar.xz/' | sha256sum -c -
+          tar -xf blender.tar.xz
+      - name: Trace E11 real mesh occluders, no modifications
+        run: |
+          set -euo pipefail
+          B=/tmp/blender10r1/blender-5.2.1-linux-x64/blender
+          "$B" --background --threads 2 --python-exit-code 97 \
+             /tmp/INT10_R1_SOURCE.blend --python "$ROOT/diagnose_true_camera_occluders.py" -- \
+             --output "$ROOT/diagnostics" 2>&1 | tee "$ROOT/diagnostics/PROBE.log"
+          grep -F INT10_R1_ACTUAL_3D_OCCLUSION_PROBE_COMPLETE "$ROOT/diagnostics/PROBE.log"
+      - name: Save exact occlusion facts in isolated study branch
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/diagnostics/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT10-R1: exact E11 geometry occlusion and access mesh evidence [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int10-r1-human-views-repair-20261106
+          fi
