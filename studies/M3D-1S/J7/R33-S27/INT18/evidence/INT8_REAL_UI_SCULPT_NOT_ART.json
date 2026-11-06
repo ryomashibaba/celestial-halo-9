@@ -1,0 +1,68 @@
+{
+  "schema": "halo9-int8-r1-rayhit-gui-mouse-geometry-evidence",
+  "source_sha256": "51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe",
+  "blender_version": "5.2.1 LTS",
+  "real_window": true,
+  "input_method": "Xvfb+xdotool ABSOLUTE_ROOT_COORDS pointer mouseDown/move/mouseUp and GUI Console",
+  "physical_vertices_changed": 43,
+  "max_vertex_displacement": 19.692511,
+  "target_vertices": 1680,
+  "target": "INT6_TRUE_BRUSH_west",
+  "ray_verified_pick": {
+    "window_client_xy_top_left": [
+      624,
+      434
+    ],
+    "region_xy_bottom_left": [
+      622.5,
+      406.5
+    ],
+    "window_wh": [
+      1520,
+      930
+    ],
+    "viewport_area_xywh": [
+      2,
+      90,
+      1245,
+      813
+    ],
+    "region_xywh": [
+      2,
+      90,
+      1245,
+      813
+    ],
+    "hit_target": "INT6_TRUE_BRUSH_west",
+    "hit_face_index": 1,
+    "hit_location_world": [
+      -648.691,
+      277.156,
+      556.0
+    ],
+    "sculpt_surface_point_world": [
+      -648.691,
+      276.091,
+      556.0
+    ],
+    "ray_hit": true
+  },
+  "old_geometry_sha256": "391e6c9e431d765df69c53e49a0abd92d3d6d0cf4ff909706a517ee8c8582285",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "NOT_APPROVED",
+  "original_viewport_visibility_restored": true,
+  "saved_blend_sha256": "fd3796ace910b27a5a48d4d8a69f16d5aff7a3b95bb1a03cdeb2a78967741615",
+  "saved_blend": "/tmp/halo9-int18-native/HALO9_INT18_GUI_RAYHIT_MOUSE_EDITED_RESEARCH.blend",
+  "native_edit_valid": true,
+  "gui_before_png_sha256": "148fdee74142f8ffdb196a3fadef274dfce1f5d04df5e2a0a957e4da49e30a64",
+  "gui_after_png_sha256": "94cb37471fe738432a5397853f0579b643e261bc9679294a44119b7646e48ba9",
+  "screenshot_diff_bbox": [
+    53,
+    50,
+    1183,
+    905
+  ],
+  "technical_scope": "ONE_EXISTING_WEST_MESH_WITH_VERIFIED_GUI_RAYHIT"
+}
