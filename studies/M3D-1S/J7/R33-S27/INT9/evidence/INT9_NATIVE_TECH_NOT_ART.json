@@ -1,0 +1,34 @@
+{
+  "schema": "halo9-int9-independent-e11-validation",
+  "original_gui_authored_blend_sha256": "c407de616a0e2cf8807fb5ac79c102a052062725f6e89f75b978570a2b7693c7",
+  "original_source_sha256": "8d1b5a8a3c9cd1889e34684a071883f67a1252227f5aff5b2736d613e3e8b4a2",
+  "actual_h1_school_cavity_polygons": 25,
+  "actual_h1_original_ray_before": {
+    "object": "INT7_CITY_EAST_INHABITED_SCHOOL_PHYSICAL_PUBLIC_BODY",
+    "distance": 69.9592
+  },
+  "actual_h1_original_ray_after": {
+    "object": "INT7_M247_ALPHA_EAST_ASCENDING_CIVIC_SHEAR",
+    "distance": 479.2697
+  },
+  "actual_west_sculpt_changed_vertices": 1,
+  "actual_west_sculpt_max_displacement": 13.053397,
+  "fixed_original_camera_matrices_unchanged": true,
+  "true_png_sha256": {
+    "E11_NAVE_HUMAN": "396527a23bb5bc2ff8091b52e38f557b1866734e92e79ef8fc7df1b34e1501a8",
+    "E11_H1_HUMAN": "f22cdf5909aed78d788223d53353aee5ccc115e78608a8eba49baf9d94d39cad",
+    "E11_URBAN_AERIAL": "ab76cd24cba0cda6317ac1563aac22b834de65e1ce8a55e0f490a00a34c644ff"
+  },
+  "independent_blend_reopen": "PASS",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "function": "UNKNOWN",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 166.43,
+    "E11_H1_HUMAN": 32.83,
+    "E11_URBAN_AERIAL": 107.89
+  },
+  "review_image_sha256": "2994a5789d31f94773a9eba547dc3d8965d102fb00a0a3f0b8b4f7e4430270b3"
+}
