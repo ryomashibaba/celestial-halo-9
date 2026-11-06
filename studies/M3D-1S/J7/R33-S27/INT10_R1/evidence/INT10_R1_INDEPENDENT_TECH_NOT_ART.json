@@ -1,0 +1,187 @@
+{
+  "schema": "halo9-int10-r1-macro-vision-access-repair-v1",
+  "source_sha256": "b5a38f353c814acaade8848ca420c3a38cfa724e41a1aafeb07a071244c6c94e",
+  "blend_sha256": "67762c7da7b4105c43e37819297ffeb95755c3eee5ee94b1f0d4b9d6d7e8111b",
+  "native_mesh_reconstruction": [
+    {
+      "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+      "stations": 6,
+      "shifts_x_m": [
+        0,
+        72,
+        148,
+        205,
+        180,
+        135
+      ]
+    },
+    {
+      "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+      "stations": 7,
+      "shifts_x_m": [
+        145,
+        195,
+        220,
+        155,
+        80,
+        26,
+        0
+      ]
+    },
+    {
+      "name": "INT4_H1_PUBLIC_BOULEVARD",
+      "vertices_shifted": 16,
+      "original_research_copy_only": true
+    },
+    {
+      "name": "INT4_W0_PORT_NAVE_WALK",
+      "vertices_shifted": 16,
+      "original_research_copy_only": true
+    },
+    {
+      "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+      "canyon_length_m": 975,
+      "volumetric_cavity": true,
+      "faces_before": 602,
+      "faces_after": 670
+    }
+  ],
+  "camera_hits_before": {
+    "E11_NAVE_HUMAN": {
+      "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+      "distance": 41.622
+    },
+    "E11_H1_HUMAN": {
+      "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+      "distance": 4.57
+    },
+    "E11_URBAN_AERIAL": {
+      "name": "INT10_NAVE_CEREMONIAL_TO_WEST_HIGH_CITY",
+      "distance": 4055.11
+    }
+  },
+  "camera_hits_after": {
+    "E11_NAVE_HUMAN": {
+      "name": "INT10_NAVE_CIVIC_ASCENT_CONTINUOUS_INHABITED_RAMP",
+      "distance": 662.926
+    },
+    "E11_H1_HUMAN": {
+      "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+      "distance": 851.394
+    },
+    "E11_URBAN_AERIAL": {
+      "name": "INT10_NAVE_CEREMONIAL_TO_WEST_HIGH_CITY",
+      "distance": 4055.11
+    }
+  },
+  "e11_original_matrices": {
+    "E11_NAVE_HUMAN": [
+      [
+        0.9994910955429077,
+        0.011475143022835255,
+        0.029763158410787582,
+        15.0
+      ],
+      [
+        0.031898658722639084,
+        -0.3595544993877411,
+        -0.9325786828994751,
+        -360.0
+      ],
+      [
+        3.0868667622030443e-09,
+        0.9330535531044006,
+        -0.3597375452518463,
+        73.69999694824219
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_H1_HUMAN": [
+      [
+        0.9988681674003601,
+        -0.014305509626865387,
+        -0.0453629307448864,
+        760.0
+      ],
+      [
+        -0.047565147280693054,
+        -0.3004157245159149,
+        -0.9526216387748718,
+        270.0
+      ],
+      [
+        -2.0072432604933965e-10,
+        0.9537010788917542,
+        -0.30075615644454956,
+        438.70001220703125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_URBAN_AERIAL": [
+      [
+        0.8088601231575012,
+        -0.2191125452518463,
+        0.5456510186195374,
+        2150.0
+      ],
+      [
+        0.5880011320114136,
+        0.3014134168624878,
+        -0.7506028413772583,
+        -2700.0
+      ],
+      [
+        -3.02104439242612e-08,
+        0.927976131439209,
+        0.3726397156715393,
+        1850.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "protected_W0_native_terrain_geometry_sha256": {
+    "W0_NORTH_FRACTURED_RANGE": "eecf9f880e59bc4e838f6868955a75f5e68e4061773ec5848b1c8522ea084076",
+    "W0_WEST_BASALT_ESCARPMENT": "2bd907404ead99b05b48dddcb748cde327ac80ac6cc224f6c0045dcf38857a6c",
+    "W0_GROUND_BASIN": "2cb83e2cb8005a00c0650b51707f0ae41c606fa1a76868cb8948148a42996734",
+    "W0_EASTERN_ARTIFICIAL_SEA": "017eb83a0747b1bc07cc08238c1b2340d8350cfbdf2ebf92c9090ed9db16f33f"
+  },
+  "W0_native_terrain_unchanged": true,
+  "fixed_E11_cameras_unchanged": true,
+  "true_render_sha256": {
+    "E11_NAVE_HUMAN": "70d093c4cbe0f40a3cfce8e784139a2d9820c007226474f7fe2eabdf44f44eea",
+    "E11_H1_HUMAN": "c1110a61ec97561f2a90eb00a0cc05751455a0192a513c8f97a9f937130bd03a",
+    "E11_URBAN_AERIAL": "33e8bc905ff8872bc02a6ecf2ef49808c4bd667fd17647aab670aa01d4b98ccc",
+    "INT10_NAVE_CIVIC_PUBLIC_ROOM": "50078f9974a811001f20d08c9211fb9dcc7fdaf0830156bd80ca16e59b9c3ba2",
+    "INT10_H1_MARKET_HUMAN_DEPTH": "42f45e238289bca82317241041e1f8d36251215291319f70ce1cd95bbc72d924",
+    "INT10_W0_TIDAL_AND_TWIN_FAULT": "38624faf10031e82d99e9efaa5fdf05d07877fb4e445d45e02c4b773e95b9b7b"
+  },
+  "function": "UNKNOWN",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "six_view_mean_brightness": {
+    "E11_NAVE_HUMAN": 145.85,
+    "E11_H1_HUMAN": 147.68,
+    "E11_URBAN_AERIAL": 124.54,
+    "INT10_NAVE_CIVIC_PUBLIC_ROOM": 161.82,
+    "INT10_H1_MARKET_HUMAN_DEPTH": 158.66,
+    "INT10_W0_TIDAL_AND_TWIN_FAULT": 150.19
+  },
+  "six_view_montage_sha256": "9ba97195c2ec8bab906e9208c4b1e4db815afd46d0e6ecaa5c8cf4f0c7d58d41"
+}
