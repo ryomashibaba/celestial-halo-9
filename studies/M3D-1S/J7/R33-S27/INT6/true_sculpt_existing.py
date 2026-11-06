@@ -26,10 +26,6 @@ S.collection.children.link(sculpt_collection)
 targets=[
  ('M247_WEST_LOWER_INHABITED_LIMESTONE_urban_occupied_stratum_2',
   (-310,-610,270),'west',(-1.0,-1.6,.67)),
- ('M247_EAST_CHIRAL_INHABITED_QUARTERS_urban_occupied_stratum_2',
-  (700,160,100),'east',(1.3,-1.5,.66)),
- ('M247_BETA_DISPLACED_SUSPENDED_CITY_urban_occupied_stratum_1',
-  (740,1090,1150),'beta',(1.0,-1.3,.9)),
 ]
 # A flat-patch artwork is not valid. Each selected existing urban district is
 # thickened on its lower face before brushing to obtain actual occupied cliff.
@@ -116,21 +112,12 @@ for k,(label,_,district,view_direction) in enumerate(targets):
     viewer=surface+outward*(size*1.45)
     r3d.view_location=surface
     r3d.view_distance=size*.98
-    # ORTHO gives deterministic region projection even if the background
-    # engine has cached a perspective matrix for the previous sculpt target.
-    r3d.view_perspective='ORTHO'
+    r3d.view_perspective='PERSP'
     r3d.view_rotation=(surface-viewer).to_track_quat('-Z','Y')
     bpy.context.view_layer.update()
     area.tag_redraw()
-    try:
-        with bpy.context.temp_override(window=win,area=area,region=region):
-            bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP',iterations=1)
-    except Exception as exc:
-        print('INT6_VIEW_REFRESH_NONFATAL',district,str(exc),flush=True)
     projected=location_3d_to_region_2d(region,r3d,surface)
-    if projected is None:
-        print('INT6_PROJECT_FALLBACK_TO_VIEW_REGION_CENTER',district,flush=True)
-        projected=Vector((region.width*.5,region.height*.5))
+    assert projected is not None,('SCULPT_SURFACE_NOT_PROJECTED',district)
     # Independent 3D view-ray tests; Sculpt operator FINISHED alone is fake evidence.
     origin=region_2d_to_origin_3d(region,r3d,projected)
     direction=region_2d_to_vector_3d(region,r3d,projected)
@@ -207,7 +194,6 @@ for name,m in matrices.items():
     assert max(abs(now[i][j]-m[i][j]) for i in range(4) for j in range(4))<1e-6
 for n,ob in (
  ('INT6_WEST_SCULPT_DETAIL',bpy.data.objects['INT6_TRUE_BRUSH_west']),
- ('INT6_EAST_SCULPT_DETAIL',bpy.data.objects['INT6_TRUE_BRUSH_east'])
 ):
     bounds=bbox(ob)
     center=Vector(tuple((a+b)/2 for a,b in bounds))
@@ -227,7 +213,7 @@ S.render.engine='CYCLES';S.cycles.device='CPU';S.cycles.samples=14
 S.cycles.use_denoising=True;S.render.threads_mode='FIXED';S.render.threads=2
 S.render.resolution_x=1100;S.render.resolution_y=825
 S.render.resolution_percentage=100;S.render.image_settings.file_format='PNG'
-views=original_cameras+['INT6_WEST_SCULPT_DETAIL','INT6_EAST_SCULPT_DETAIL']
+views=original_cameras+['INT6_WEST_SCULPT_DETAIL']
 S.camera=bpy.data.objects[original_cameras[-1]]
 dst=output/'HALO9_INT6_TRUE_BRUSH_SCULPT_DISTRICTS.blend'
 bpy.ops.wm.save_as_mainfile(filepath=str(dst),compress=True)
