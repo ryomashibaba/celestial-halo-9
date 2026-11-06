@@ -1,0 +1,154 @@
+name: HALO9 INT9-R1 native NAVE light-well cut + three fixed E11 images
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int9-r1-nave-image-led-opening-20261106
+    paths:
+      - .github/workflows/halo9-int9-r1-nave-image-led-opening.yml
+      - studies/M3D-1S/J7/R33-S27/INT9_R1/author_nave_recess.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int9-r1-nave-20261106
+  cancel-in-progress: false
+jobs:
+  author_and_review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 38
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT9_R1
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT9/evidence/HALO9_INT9_CIVIC_ATRIUM_AND_SCULPTED_FAULT.blend.gz
+      SOURCE_SHA: c407de616a0e2cf8807fb5ac79c102a052062725f6e89f75b978570a2b7693c7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify immutable INT9 source and syntax
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/native"
+          gzip -dc "$SOURCE" >/tmp/INT9_R1_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT9_R1_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/author_nave_recess.py"
+          echo INT9_R1_VERIFIED_NO_ORIGINAL_WRITES
+      - name: Acquire official checksum-verified Blender 5.2.1
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/blender-int9r1 && cd /tmp/blender-int9r1
+          curl -fL --retry 2 --connect-timeout 25 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz \
+            -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Physically cut visually detected NAVE obstruction in existing BLEND and render real 3 E11 fixed images
+        run: |
+          set -euo pipefail
+          B=/tmp/blender-int9r1/blender-5.2.1-linux-x64/blender
+          timeout 1600s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/INT9_R1_SOURCE.blend --python "$ROOT/author_nave_recess.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/AUTHOR_AND_RENDER.log"
+          grep -F INT9_R1_TRUE_NATIVE_CIVIC_RECESS_COMPLETE "$ROOT/native/AUTHOR_AND_RENDER.log"
+      - name: Independently reopen edited native BLEND, verify exact PNG SHA, original protected states
+        run: |
+          set -euo pipefail
+          cat >/tmp/verify_int9r1.py <<'PY'
+          import bpy,json,hashlib,math,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath);root=p.parent
+          r=json.loads((root/'INT9_R1_TECH_NOT_ART.json').read_text())
+          assert p.name=='HALO9_INT9_R1_NAVE_DAYLIT_CIVIC_RECESS.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==r['edited_blend_sha256']
+          assert bpy.context.scene['INT9_R1_PARENT_SHA256']==r['source_sha256']
+          assert bpy.context.scene['CONSTRUCTION']=='HOLD'
+          assert bpy.context.scene['FORMAL_ART_ACCEPTED']==0
+          assert bpy.context.scene['COMPLETED_TARGETS']==0
+          assert r['formal_art_accepted']==0 and r['completed_targets']==0
+          assert r['original_cameras_unchanged']
+          assert r['minecraft']=='HOLD'
+          obj=bpy.data.objects[r['nave_selected_obstruction']]
+          assert obj.type=='MESH' and len(obj.data.polygons)==r['nave_cut_polygon_count_after']
+          assert len(obj.data.polygons)>r['nave_cut_polygon_count_before']+3
+          assert all(math.isfinite(c) for v in obj.data.vertices for c in v.co)
+          before=r['fixed_nave_screen_ray_before']
+          after=r['fixed_nave_screen_ray_after']
+          assert before['name']==obj.name
+          assert after['name']!=obj.name or after['distance']>before['distance']+100
+          for n in ('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL'):
+              assert bpy.data.objects[n].type=='CAMERA'
+              file=root/'renders'/(n+'.png')
+              with file.open('rb') as f:h=f.read(24)
+              assert h[:8]==bytes.fromhex('89504e470d0a1a0a')
+              assert struct.unpack('>II',h[16:24])==(1100,825)
+              assert hashlib.sha256(file.read_bytes()).hexdigest()==r['fixed_camera_render_sha256'][n]
+          print('INT9_R1_INDEPENDENT_NATIVE_AND_E11_TECH_PASS_NOT_ART',flush=True)
+          PY
+          /tmp/blender-int9r1/blender-5.2.1-linux-x64/blender --background \
+            --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT9_R1_NAVE_DAYLIT_CIVIC_RECESS.blend" \
+            --python /tmp/verify_int9r1.py 2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F INT9_R1_INDEPENDENT_NATIVE_AND_E11_TECH_PASS_NOT_ART "$ROOT/native/INDEPENDENT.log"
+      - name: Preserve native edit, fixed original viewpoints and ray evidence in isolated GitHub branch
+        run: |
+          set -euo pipefail
+          sudo DEBIAN_FRONTEND=noninteractive apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import os,gzip,json,hashlib,base64
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT']);n=root/'native'
+          out=root/'evidence';out.mkdir(exist_ok=True)
+          blend=n/'HALO9_INT9_R1_NAVE_DAYLIT_CIVIC_RECESS.blend'
+          with blend.open('rb') as src,gzip.open(out/(blend.name+'.gz'),'wb',compresslevel=6) as dst:
+              while chunk:=src.read(1048576):dst.write(chunk)
+          names=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL')
+          canvas=Image.new('RGB',(1650,445),(228,228,226))
+          d=ImageDraw.Draw(canvas)
+          bright={}
+          for i,name in enumerate(names):
+              im=Image.open(n/'renders'/(name+'.png')).convert('RGB')
+              bright[name]=round(sum(ImageStat.Stat(im).mean)/3,2)
+              im.thumbnail((550,412),Image.Resampling.LANCZOS)
+              canvas.paste(im,(i*550,30))
+              d.text((i*550+8,8),name,fill=(0,0,0))
+          jpg=out/'INT9_R1_THREE_SAME_E11_VIEWS_UNREVIEWED.jpg'
+          canvas.save(jpg,quality=85,optimize=True)
+          (out/'INT9_R1_THREE_E11_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          data=json.loads((n/'INT9_R1_TECH_NOT_ART.json').read_text())
+          data['mean_brightness']=bright
+          data['mosaic_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          data['art']='UNREVIEWED_NOT_ADOPTED'
+          (out/'INT9_R1_RESEARCH_TECH_NOT_ART.json').write_text(json.dumps(data,indent=2))
+          print('INT9_R1_TRUE_SCENE_ARCHIVED',bright,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT9-R1: preserve actual E11-guided native city aperture and 3 true render images [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int9-r1-nave-image-led-opening-20261106
+          fi
+      - name: Preserve unexpected errors without claiming accepted architecture
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          test -f "$ROOT/native/AUTHOR_AND_RENDER.log" && cp "$ROOT/native/AUTHOR_AND_RENDER.log" "$ROOT/debug/" || true
+          test -f "$ROOT/native/INDEPENDENT.log" && cp "$ROOT/native/INDEPENDENT.log" "$ROOT/debug/" || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT9-R1: record invalid native opening without art adoption [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int9-r1-nave-image-led-opening-20261106
+          fi
+      - name: Ephemeral 3 full-resolution rendered PNGs and debug logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT9-R1-NAVE-REAL-3D-AND-E11-EVIDENCE
+          path: studies/M3D-1S/J7/R33-S27/INT9_R1/native/
+          retention-days: 5
+          if-no-files-found: warn
