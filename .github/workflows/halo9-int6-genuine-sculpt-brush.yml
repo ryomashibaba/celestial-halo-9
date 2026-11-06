@@ -1,0 +1,148 @@
+name: HALO9 INT6 genuine Blender Sculpt brush on existing inhabited 3D
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int6-native-sculpt-brush-20261106
+    paths:
+      - studies/M3D-1S/J7/R33-S27/INT6/true_sculpt_existing.py
+      - .github/workflows/halo9-int6-genuine-sculpt-brush.yml
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int6-true-brush-20261106
+  cancel-in-progress: false
+jobs:
+  genuine_native_brush_edit:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-int6-native-sculpt-brush-20261106'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 44
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT6
+      PARENT: studies/M3D-1S/J7/R33-S27/INT4_R1/evidence/HALO9_INT4_R1_SCULPTED_VIEW_AND_PUBLIC_ACCESS.blend.gz
+      PARENT_SHA: 7cf765923b91f06cce7951fc3558f042e488bf9f1157791b59b14d11954dc2bb
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Read-only verify previous ART-rejected but tech-valid saved native source
+        run: |
+          set -euo pipefail
+          test -s "$PARENT"
+          mkdir -p "$ROOT/native"
+          gzip -dc "$PARENT" > /tmp/INT6_SOURCE.blend
+          printf '%s  %s\n' "$PARENT_SHA" /tmp/INT6_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/true_sculpt_existing.py"
+          echo INT6_VERIFIED_PARENT_WITH_NO_WRITE_TO_SOURCE
+      - name: Acquire official SHA-verified Blender 5.2.1
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-int6-blender
+          cd /tmp/halo9-int6-blender
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Apply actual Sculpt Mode brush strokes to inherited urban structures and render 5 camera views
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9-int6-blender/blender-5.2.1-linux-x64/blender
+          timeout 1800s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/INT6_SOURCE.blend --python "$ROOT/true_sculpt_existing.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/ACTUAL_SCULPT.log"
+          grep -F 'INT6_ACTUAL_SCULPT_COMPLETE' "$ROOT/native/ACTUAL_SCULPT.log"
+      - name: Independently reopen actual edit and prove brush changed saved vertex geometry
+        run: |
+          set -euo pipefail
+          cat > /tmp/int6_reopen.py <<'PY'
+          import bpy,hashlib,json,struct
+          from pathlib import Path
+          p=Path(bpy.data.filepath);s=bpy.context.scene
+          r=json.loads((p.parent/'INT6_NATIVE_EVIDENCE.json').read_text())
+          assert p.name=='HALO9_INT6_TRUE_BRUSH_SCULPT_DISTRICTS.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==r['blend_sha256']
+          assert r['source_sha256']==s['INT6_PARENT_SHA256']
+          assert s['INT6_TRUE_BRUSH_STROKES']==12
+          assert r['original_three_camera_matrices_unchanged'] is True
+          assert len(r['brush_sculpt_records'])==3
+          for record in r['brush_sculpt_records']:
+              ob=bpy.data.objects[record['sculpt_object']]
+              assert ob.type=='MESH'
+              assert not ob.hide_render
+              assert ob.data.vertices and len(ob.data.polygons)>1200
+              assert record['true_vertices_changed']>30
+              assert record['max_brush_displacement_m']>.12
+              assert bpy.data.objects[record['replaced_research_object']].hide_render
+          assert s['FORMAL_ART_ACCEPTED']==0 and s['COMPLETED_TARGETS']==0 and s['CONSTRUCTION']=='HOLD'
+          assert r['formal_art_adopted']==0 and r['completed_targets']==0
+          assert r['minecraft_construction']=='HOLD'
+          for name in ('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
+                       'INT6_WEST_SCULPT_DETAIL','INT6_EAST_SCULPT_DETAIL'):
+              assert bpy.data.objects[name].type=='CAMERA'
+              f=p.parent/'renders'/(name+'.png')
+              with f.open('rb') as source:h=source.read(24)
+              assert h[:8]==bytes.fromhex('89504e470d0a1a0a'
+              )
+              assert struct.unpack('>II',h[16:24])==(1100,825)
+              assert hashlib.sha256(f.read_bytes()).hexdigest()==r['render_sha256'][name]
+          print('INT6_INDEPENDENT_REAL_SCULPT_GEOMETRY_PASS_NOT_ART_PASS',flush=True)
+          PY
+          /tmp/halo9-int6-blender/blender-5.2.1-linux-x64/blender \
+            --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT6_TRUE_BRUSH_SCULPT_DISTRICTS.blend" \
+            --python /tmp/int6_reopen.py 2>&1 | tee "$ROOT/native/INDEPENDENT_REOPEN.log"
+          grep -F 'INT6_INDEPENDENT_REAL_SCULPT_GEOMETRY_PASS_NOT_ART_PASS' "$ROOT/native/INDEPENDENT_REOPEN.log"
+      - name: Preserve actual editable BLEND and five camera images in isolation
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import os,gzip,json,base64,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageStat,ImageDraw
+          root=Path(os.environ['ROOT']);n=root/'native';e=root/'evidence'
+          e.mkdir(exist_ok=True)
+          p=n/'HALO9_INT6_TRUE_BRUSH_SCULPT_DISTRICTS.blend'
+          with p.open('rb') as source,gzip.open(e/(p.name+'.gz'),'wb',compresslevel=6) as dest:
+              while True:
+                  part=source.read(1048576)
+                  if not part:break
+                  dest.write(part)
+          names=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
+                 'INT6_WEST_SCULPT_DETAIL','INT6_EAST_SCULPT_DETAIL')
+          bright={}
+          montage=Image.new('RGB',(1650,900),(226,224,219))
+          draw=ImageDraw.Draw(montage)
+          for i,name in enumerate(names):
+              im=Image.open(n/'renders'/(name+'.png')).convert('RGB')
+              bright[name]=round(sum(ImageStat.Stat(im).mean)/3,2)
+              im.thumbnail((550,412),Image.Resampling.LANCZOS)
+              x=(i%3)*550;y=(i//3)*450
+              montage.paste(im,(x,y+31))
+              draw.text((x+8,y+9),name,fill=(0,0,0))
+          jpg=e/'INT6_TRUE_FIVE_VIEW_ACTUAL_BLENDER_UNREVIEWED.jpg'
+          montage.save(jpg,quality=83,optimize=True)
+          (e/'INT6_TRUE_FIVE_VIEW_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          report=json.loads((n/'INT6_NATIVE_EVIDENCE.json').read_text())
+          report['mean_brightness']=bright
+          report['fixed_three_views_nonblack']=all(bright[k]>10 for k in names[:3])
+          report['mosaic_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          report['art']='UNREVIEWED_NOT_ADOPTED'
+          (e/'INT6_TECH_NOT_ART.json').write_text(json.dumps(report,indent=2))
+          print('INT6_REAL_SCULPT_IMAGES_PRESERVED',bright,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT6: preserve actual sculpt mode modified BLEND and 5 real render views [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int6-native-sculpt-brush-20261106
+          fi
+      - name: Ephemeral original five PNGs, editable BLEND, logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT6-RAW-NATIVE-SCULPT
+          path: studies/M3D-1S/J7/R33-S27/INT6/native/
+          retention-days: 7
+          if-no-files-found: warn
