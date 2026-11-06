@@ -1,0 +1,55 @@
+{
+  "schema": "halo9-int8-r1-rayhit-gui-mouse-geometry-evidence",
+  "source_sha256": "51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe",
+  "blender_version": "5.2.1 LTS",
+  "real_window": true,
+  "input_method": "Xvfb+xdotool pointer mouseDown/move/mouseUp and GUI Console",
+  "physical_vertices_changed": 0,
+  "max_vertex_displacement": 0.0,
+  "target_vertices": 1680,
+  "target": "INT6_TRUE_BRUSH_west",
+  "ray_verified_pick": {
+    "window_client_xy_top_left": [
+      625,
+      434
+    ],
+    "region_xy_bottom_left": [
+      622.5,
+      406.5
+    ],
+    "window_wh": [
+      1520,
+      930
+    ],
+    "viewport_area_xywh": [
+      2,
+      90,
+      1245,
+      813
+    ],
+    "region_xywh": [
+      2,
+      90,
+      1245,
+      813
+    ],
+    "hit_target": "INT6_TRUE_BRUSH_west",
+    "hit_face_index": 1,
+    "hit_location_world": [
+      -573.955,
+      416.235,
+      556.0
+    ],
+    "sculpt_surface_point_world": [
+      -576.143,
+      415.141,
+      556.0
+    ],
+    "ray_hit": true
+  },
+  "old_geometry_sha256": "391e6c9e431d765df69c53e49a0abd92d3d6d0cf4ff909706a517ee8c8582285",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED"
+}
