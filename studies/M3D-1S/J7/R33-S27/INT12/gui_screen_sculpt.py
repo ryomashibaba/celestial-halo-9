@@ -151,6 +151,7 @@ def perform_once():
              o.name.startswith('INT11_H1_INHABITED_ROCK_SUPPORT_'))
         ]
         assert len(strips)>=7,('REJECTED_REPEATED_PIPES_NOT_FOUND',len(strips))
+        removed_names=[ob.name for ob in strips]
         for ob in strips:bpy.data.objects.remove(ob,do_unlink=True)
         assert 'INT11_M247C_BETA_SLANTED_CIVIC_SEAM' in bpy.data.objects
         bpy.context.view_layer.update()
@@ -190,7 +191,7 @@ def perform_once():
           'parent_sha256':SOURCE,
           'saved_blend_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),
           'real_gui':True,
-          'deleted_rejected_ribs':[o.name for o in strips],
+          'deleted_rejected_ribs':removed_names,
           'preserved_beta_slanted_seam':True,
           'sculpted_original_meshes':edits,
           'camera_hit_map_before':before,'camera_hit_map_after':after,
