@@ -1,0 +1,133 @@
+name: HALO9 INT14 physical H1 public entry repair and fixed E11 image audit
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int14-h1-entry-public-section-20261106
+    paths:
+      - .github/workflows/halo9-int14-h1-entry-image-grounded.yml
+      - studies/M3D-1S/J7/R33-S27/INT14/author_h1_real_public_entry.py
+      - studies/M3D-1S/J7/R33-S27/INT14/independent_native_check.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int14-physical-entry-20261106
+  cancel-in-progress: false
+jobs:
+  true_native_h1_entry:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT14
+      ORIGINAL: studies/M3D-1S/J7/R33-S27/INT13/evidence/HALO9_INT13_PURPOSE_FIRST_INHABITED_SECTION.blend.gz
+      ORIGINAL_SHA: da098354430d0aa62d0f4825c23127340aba8e8c353c6dc33f53c5b8b0fec3c3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Confirm source exact SHA and code are within isolated branch
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/heads/research/r33-s27-d48-int14-h1-entry-public-section-20261106'
+          mkdir -p "$ROOT/native"
+          gzip -dc "$ORIGINAL" > /tmp/INT14_SOURCE.blend
+          printf '%s  %s\n' "$ORIGINAL_SHA" /tmp/INT14_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/author_h1_real_public_entry.py" "$ROOT/independent_native_check.py"
+          echo INT14_INPUT_POLICY_SAFE
+      - name: Download and verify official Blender 5.2.1
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9b14 && cd /tmp/halo9b14
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o official_sums
+          sed -n '/blender-5.2.1-linux-x64.tar.xz/p' official_sums | sed 's/blender-5.2.1-linux-x64.tar.xz$/blender.tar.xz/' | sha256sum -c -
+          tar -xf blender.tar.xz
+      - name: Edit one real existing H1 mass and render original 3 E11 images plus H1 room view
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9b14/blender-5.2.1-linux-x64/blender
+          mkdir -p /tmp/halo9-int14
+          timeout 1300s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/INT14_SOURCE.blend --python "$ROOT/author_h1_real_public_entry.py" -- \
+            --output /tmp/halo9-int14 2>&1 | tee "$ROOT/native/AUTHOR.log"
+          grep -F INT14_REAL_H1_ENTRY_CARVED_AND_FIXED_VIEWS_SAVED "$ROOT/native/AUTHOR.log"
+      - name: Independently reread actual saved city and validate all 4 pixel-identical PNGs
+        run: |
+          set -euo pipefail
+          /tmp/halo9b14/blender-5.2.1-linux-x64/blender --background --threads 2 --python-exit-code 97 \
+            /tmp/halo9-int14/HALO9_INT14_H1_PUBLIC_ENTRY_HUMAN_SIGHTLINE.blend \
+            --python "$ROOT/independent_native_check.py" \
+            2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F INT14_INDEPENDENT_NATIVE_E11_H1_ENTRY_AND_FOUR_IMAGES_VERIFIED_NOT_ART "$ROOT/native/INDEPENDENT.log"
+      - name: Store validated full-scene images, geometry and non-adoption record
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import gzip,hashlib,json,base64,os
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT'])
+          tmp=Path('/tmp/halo9-int14')
+          out=root/'evidence';out.mkdir(parents=True,exist_ok=True)
+          b=tmp/'HALO9_INT14_H1_PUBLIC_ENTRY_HUMAN_SIGHTLINE.blend'
+          with b.open('rb') as f,gzip.open(out/(b.name+'.gz'),'wb',compresslevel=6) as g:
+              while chunk:=f.read(1048576):g.write(chunk)
+          names=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
+                 'INT13_H1_MARKET_SCHOOL_INTERIOR')
+          im=Image.new('RGB',(1280,1010),(215,215,212));pen=ImageDraw.Draw(im)
+          brightness={}
+          for i,name in enumerate(names):
+              pic=Image.open(tmp/'renders'/(name+'.png')).convert('RGB')
+              brightness[name]=round(sum(ImageStat.Stat(pic).mean)/3,3)
+              pic.thumbnail((640,470),Image.Resampling.LANCZOS)
+              x=i%2*640;y=i//2*505
+              im.paste(pic,(x,y+28))
+              pen.text((x+8,y+7),name,fill=(0,0,0))
+          jpg=out/'INT14_FOUR_TRUE_FULL_SCENE_VIEWS_UNREVIEWED.jpg'
+          im.save(jpg,quality=89,optimize=True)
+          (out/'INT14_FOUR_VIEW_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          d=json.loads((tmp/'INT14_NATIVE_EVIDENCE_NOT_ART.json').read_text())
+          d['mean_brightness']=brightness
+          d['montage_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          d['independent_reopen']='PASS'
+          d['art']='UNREVIEWED_NOT_ADOPTED'
+          (out/'INT14_INDEPENDENT_TECH_NOT_ART.json').write_text(json.dumps(d,indent=2))
+          print('INT14_NATIVE_PHYSICAL_ENTRY_AND_FOUR_VIEWS_PRESERVED',brightness,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT14: archive real H1 public-hall entry and fixed E11 unchanged-original 4 images [skip ci]'
+            git fetch origin research/r33-s27-d48-int14-h1-entry-public-section-20261106
+            git rebase origin/research/r33-s27-d48-int14-h1-entry-public-section-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int14-h1-entry-public-section-20261106
+          fi
+      - name: Save truthful failed native diagnostics without claiming art success
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          for file in AUTHOR.log INDEPENDENT.log; do
+            test -f "$ROOT/native/$file" && cp "$ROOT/native/$file" "$ROOT/debug/" || true
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT14: preserve actual failed H1 public entry cause without ART promotion [skip ci]'
+            git fetch origin research/r33-s27-d48-int14-h1-entry-public-section-20261106
+            git rebase origin/research/r33-s27-d48-int14-h1-entry-public-section-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int14-h1-entry-public-section-20261106
+          fi
+      - name: Temporary full raw 3D and PNG render data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT14-H1-PHYSICAL-PUBLIC-ENTRY
+          path: |
+            /tmp/halo9-int14/
+            studies/M3D-1S/J7/R33-S27/INT14/native/
+          retention-days: 5
+          if-no-files-found: warn
