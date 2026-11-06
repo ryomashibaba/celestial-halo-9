@@ -41,6 +41,14 @@ for name,original in json.loads((out/'BEFORE_CAMERAS.json').read_text()).items()
 assert bpy.context.scene['CONSTRUCTION']=='HOLD'
 assert bpy.context.scene['COMPLETED_TARGETS']==bpy.context.scene['FORMAL_ART_ACCEPTED']==0
 assert all(math.isfinite(float(x)) for v in subject.data.vertices for x in v.co)
+# Undo viewport-only isolation before saving the FULL research 3D city.
+previous=json.loads((out/'BEFORE_VISIBILITY.json').read_text())
+for name,flag in previous.items():
+    ob=bpy.data.objects[name]
+    assert ob.type=='MESH'
+    ob.hide_set(bool(flag))
+assert all(bpy.data.objects[n].hide_get()==flag for n,flag in previous.items())
+record['original_viewport_visibility_restored']=True
 scene=bpy.context.scene
 scene['INT8_REAL_GUI_SCULPT_MODE']='YES__X11_MOUSE_EVENTS'
 scene['INT8_SOURCE_SHA256']=ready['source_sha256']
