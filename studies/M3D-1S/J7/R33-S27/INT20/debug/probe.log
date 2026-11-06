@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT20/probe_actual_scene_mcp_viewport.py", line 76, in <module>
+    loaded=call("execute_code",{"code":open_cmd})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT20/probe_actual_scene_mcp_viewport.py", line 45, in call
+    raise RuntimeError((kind,obj.get("message",obj)))
+RuntimeError: ('execute_code', "Code execution error: 'NoneType' object has no attribute 'areas'")
