@@ -1,0 +1,958 @@
+{
+  "schema": "halo9-int10-r1-actual-image-occlusion-probe-v1",
+  "source_sha256": "b5a38f353c814acaade8848ca420c3a38cfa724e41a1aafeb07a071244c6c94e",
+  "camera_hits": {
+    "E11_NAVE_HUMAN": {
+      "camera_xyz": [
+        15.0,
+        -360.0,
+        73.69999694824219
+      ],
+      "grid": [
+        {
+          "u": 0.1,
+          "v": 0.1,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 94.97
+        },
+        {
+          "u": 0.3,
+          "v": 0.1,
+          "name": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 69.32
+        },
+        {
+          "u": 0.5,
+          "v": 0.1,
+          "name": "INT4_W0_PORT_NAVE_WALK",
+          "distance": 69.04
+        },
+        {
+          "u": 0.7,
+          "v": 0.1,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 86.49
+        },
+        {
+          "u": 0.9,
+          "v": 0.1,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 68.88
+        },
+        {
+          "u": 0.1,
+          "v": 0.3,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 121.4
+        },
+        {
+          "u": 0.3,
+          "v": 0.3,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 152.02
+        },
+        {
+          "u": 0.5,
+          "v": 0.3,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 146.81
+        },
+        {
+          "u": 0.7,
+          "v": 0.3,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 107.66
+        },
+        {
+          "u": 0.9,
+          "v": 0.3,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 65.74
+        },
+        {
+          "u": 0.1,
+          "v": 0.5,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 49.51
+        },
+        {
+          "u": 0.3,
+          "v": 0.5,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 43.79
+        },
+        {
+          "u": 0.5,
+          "v": 0.5,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 41.62
+        },
+        {
+          "u": 0.7,
+          "v": 0.5,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 43.44
+        },
+        {
+          "u": 0.9,
+          "v": 0.5,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 48.92
+        },
+        {
+          "u": 0.1,
+          "v": 0.7,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 29.56
+        },
+        {
+          "u": 0.3,
+          "v": 0.7,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 26.32
+        },
+        {
+          "u": 0.5,
+          "v": 0.7,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 25.12
+        },
+        {
+          "u": 0.7,
+          "v": 0.7,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 26.2
+        },
+        {
+          "u": 0.9,
+          "v": 0.7,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 29.28
+        },
+        {
+          "u": 0.1,
+          "v": 0.9,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 22.06
+        },
+        {
+          "u": 0.3,
+          "v": 0.9,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 19.92
+        },
+        {
+          "u": 0.5,
+          "v": 0.9,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 19.13
+        },
+        {
+          "u": 0.7,
+          "v": 0.9,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 19.85
+        },
+        {
+          "u": 0.9,
+          "v": 0.9,
+          "name": "INT10_W0_MARITIME_CIVIC_APPROACH",
+          "distance": 21.91
+        }
+      ],
+      "counts": [
+        [
+          "INT10_W0_MARITIME_CIVIC_APPROACH",
+          23
+        ],
+        [
+          "INT4_W0_PORT_NAVE_WALK",
+          2
+        ]
+      ],
+      "ranges": {
+        "INT10_W0_MARITIME_CIVIC_APPROACH": [
+          19.13,
+          152.02
+        ],
+        "INT4_W0_PORT_NAVE_WALK": [
+          69.04,
+          69.32
+        ]
+      }
+    },
+    "E11_H1_HUMAN": {
+      "camera_xyz": [
+        760.0,
+        270.0,
+        438.70001220703125
+      ],
+      "grid": [
+        {
+          "u": 0.1,
+          "v": 0.1,
+          "name": "INT4_H1_PUBLIC_BOULEVARD",
+          "distance": 33.97
+        },
+        {
+          "u": 0.3,
+          "v": 0.1,
+          "name": "INT4_H1_PUBLIC_BOULEVARD",
+          "distance": 30.93
+        },
+        {
+          "u": 0.5,
+          "v": 0.1,
+          "name": "INT4_H1_PUBLIC_BOULEVARD",
+          "distance": 29.87
+        },
+        {
+          "u": 0.7,
+          "v": 0.1,
+          "name": "INT4_H1_PUBLIC_BOULEVARD",
+          "distance": 31.0
+        },
+        {
+          "u": 0.9,
+          "v": 0.1,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 94.08
+        },
+        {
+          "u": 0.1,
+          "v": 0.3,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 48.74
+        },
+        {
+          "u": 0.3,
+          "v": 0.3,
+          "name": "INT10_H1_W0_ELEVATED_TRANSIT_SWITCHBACK",
+          "distance": 68.75
+        },
+        {
+          "u": 0.5,
+          "v": 0.3,
+          "name": "INT10_H1_W0_ELEVATED_TRANSIT_SWITCHBACK",
+          "distance": 115.11
+        },
+        {
+          "u": 0.7,
+          "v": 0.3,
+          "name": "INT10_H1_MARKET_FAN_HALL",
+          "distance": 197.67
+        },
+        {
+          "u": 0.9,
+          "v": 0.3,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 107.51
+        },
+        {
+          "u": 0.1,
+          "v": 0.5,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 5.37
+        },
+        {
+          "u": 0.3,
+          "v": 0.5,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 4.79
+        },
+        {
+          "u": 0.5,
+          "v": 0.5,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 4.57
+        },
+        {
+          "u": 0.7,
+          "v": 0.5,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 4.75
+        },
+        {
+          "u": 0.9,
+          "v": 0.5,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 5.29
+        },
+        {
+          "u": 0.1,
+          "v": 0.7,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 3.31
+        },
+        {
+          "u": 0.3,
+          "v": 0.7,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 2.97
+        },
+        {
+          "u": 0.5,
+          "v": 0.7,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 2.84
+        },
+        {
+          "u": 0.7,
+          "v": 0.7,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 2.96
+        },
+        {
+          "u": 0.9,
+          "v": 0.7,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 3.28
+        },
+        {
+          "u": 0.1,
+          "v": 0.9,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 2.5
+        },
+        {
+          "u": 0.3,
+          "v": 0.9,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 2.27
+        },
+        {
+          "u": 0.5,
+          "v": 0.9,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 2.18
+        },
+        {
+          "u": 0.7,
+          "v": 0.9,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 2.26
+        },
+        {
+          "u": 0.9,
+          "v": 0.9,
+          "name": "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          "distance": 2.48
+        }
+      ],
+      "counts": [
+        [
+          "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET",
+          17
+        ],
+        [
+          "INT4_H1_PUBLIC_BOULEVARD",
+          4
+        ],
+        [
+          "INT10_H1_W0_ELEVATED_TRANSIT_SWITCHBACK",
+          2
+        ],
+        [
+          "INT10_M247_C_EAST_INHABITED_STRATA",
+          1
+        ],
+        [
+          "INT10_H1_MARKET_FAN_HALL",
+          1
+        ]
+      ],
+      "ranges": {
+        "INT4_H1_PUBLIC_BOULEVARD": [
+          29.87,
+          33.97
+        ],
+        "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET": [
+          2.18,
+          107.51
+        ],
+        "INT10_M247_C_EAST_INHABITED_STRATA": [
+          48.74,
+          48.74
+        ],
+        "INT10_H1_W0_ELEVATED_TRANSIT_SWITCHBACK": [
+          68.75,
+          115.11
+        ],
+        "INT10_H1_MARKET_FAN_HALL": [
+          197.67,
+          197.67
+        ]
+      }
+    },
+    "E11_URBAN_AERIAL": {
+      "camera_xyz": [
+        2150.0,
+        -2700.0,
+        1850.0
+      ],
+      "grid": [
+        {
+          "u": 0.1,
+          "v": 0.1,
+          "name": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 3314.63
+        },
+        {
+          "u": 0.3,
+          "v": 0.1,
+          "name": "INT10_W0_TIDAL_OCCUPIED_STONE_TERRACE_0",
+          "distance": 3177.17
+        },
+        {
+          "u": 0.5,
+          "v": 0.1,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 3004.26
+        },
+        {
+          "u": 0.7,
+          "v": 0.1,
+          "name": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 3193.82
+        },
+        {
+          "u": 0.9,
+          "v": 0.1,
+          "name": "W0_EASTERN_ARTIFICIAL_SEA",
+          "distance": 3314.63
+        },
+        {
+          "u": 0.1,
+          "v": 0.3,
+          "name": "W0_GROUND_BASIN",
+          "distance": 4049.04
+        },
+        {
+          "u": 0.3,
+          "v": 0.3,
+          "name": "INT4_W0_TIDAL_LIBRARY_wall_4",
+          "distance": 3672.29
+        },
+        {
+          "u": 0.5,
+          "v": 0.3,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 3032.6
+        },
+        {
+          "u": 0.7,
+          "v": 0.3,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 2958.44
+        },
+        {
+          "u": 0.9,
+          "v": 0.3,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 3328.0
+        },
+        {
+          "u": 0.1,
+          "v": 0.5,
+          "name": "W0_WEST_BASALT_ESCARPMENT",
+          "distance": 4551.28
+        },
+        {
+          "u": 0.3,
+          "v": 0.5,
+          "name": "INT10_M247_C_WEST_CIVIC_MOUNTAIN_LECTERN",
+          "distance": 3849.85
+        },
+        {
+          "u": 0.5,
+          "v": 0.5,
+          "name": "INT10_NAVE_CEREMONIAL_TO_WEST_HIGH_CITY",
+          "distance": 4055.11
+        },
+        {
+          "u": 0.7,
+          "v": 0.5,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 3048.18
+        },
+        {
+          "u": 0.9,
+          "v": 0.5,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 3225.93
+        },
+        {
+          "u": 0.1,
+          "v": 0.7,
+          "name": "SKY",
+          "distance": null
+        },
+        {
+          "u": 0.3,
+          "v": 0.7,
+          "name": "INT10_M247_C_WEST_CIVIC_MOUNTAIN_LECTERN",
+          "distance": 4070.32
+        },
+        {
+          "u": 0.5,
+          "v": 0.7,
+          "name": "INT10_M247_C_WEST_CIVIC_MOUNTAIN_LECTERN",
+          "distance": 4765.84
+        },
+        {
+          "u": 0.7,
+          "v": 0.7,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 3430.41
+        },
+        {
+          "u": 0.9,
+          "v": 0.7,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 3300.92
+        },
+        {
+          "u": 0.1,
+          "v": 0.9,
+          "name": "SKY",
+          "distance": null
+        },
+        {
+          "u": 0.3,
+          "v": 0.9,
+          "name": "SKY",
+          "distance": null
+        },
+        {
+          "u": 0.5,
+          "v": 0.9,
+          "name": "INT10_M247_C_WEST_CIVIC_MOUNTAIN_LECTERN",
+          "distance": 5098.61
+        },
+        {
+          "u": 0.7,
+          "v": 0.9,
+          "name": "SKY",
+          "distance": null
+        },
+        {
+          "u": 0.9,
+          "v": 0.9,
+          "name": "INT10_M247_C_EAST_INHABITED_STRATA",
+          "distance": 3478.26
+        }
+      ],
+      "counts": [
+        [
+          "INT10_M247_C_EAST_INHABITED_STRATA",
+          9
+        ],
+        [
+          "INT10_M247_C_WEST_CIVIC_MOUNTAIN_LECTERN",
+          4
+        ],
+        [
+          "SKY",
+          4
+        ],
+        [
+          "W0_EASTERN_ARTIFICIAL_SEA",
+          3
+        ],
+        [
+          "INT10_W0_TIDAL_OCCUPIED_STONE_TERRACE_0",
+          1
+        ],
+        [
+          "W0_GROUND_BASIN",
+          1
+        ],
+        [
+          "INT4_W0_TIDAL_LIBRARY_wall_4",
+          1
+        ],
+        [
+          "W0_WEST_BASALT_ESCARPMENT",
+          1
+        ],
+        [
+          "INT10_NAVE_CEREMONIAL_TO_WEST_HIGH_CITY",
+          1
+        ]
+      ],
+      "ranges": {
+        "W0_EASTERN_ARTIFICIAL_SEA": [
+          3193.82,
+          3314.63
+        ],
+        "INT10_W0_TIDAL_OCCUPIED_STONE_TERRACE_0": [
+          3177.17,
+          3177.17
+        ],
+        "INT10_M247_C_EAST_INHABITED_STRATA": [
+          2958.44,
+          3478.26
+        ],
+        "W0_GROUND_BASIN": [
+          4049.04,
+          4049.04
+        ],
+        "INT4_W0_TIDAL_LIBRARY_wall_4": [
+          3672.29,
+          3672.29
+        ],
+        "W0_WEST_BASALT_ESCARPMENT": [
+          4551.28,
+          4551.28
+        ],
+        "INT10_M247_C_WEST_CIVIC_MOUNTAIN_LECTERN": [
+          3849.85,
+          5098.61
+        ],
+        "INT10_NAVE_CEREMONIAL_TO_WEST_HIGH_CITY": [
+          4055.11,
+          4055.11
+        ]
+      }
+    }
+  },
+  "road_initial_vertices": {
+    "INT10_W0_MARITIME_CIVIC_APPROACH": {
+      "vertices": 24,
+      "positions": [
+        [
+          186.28,
+          -913.22,
+          30.0
+        ],
+        [
+          73.72,
+          -936.78,
+          30.0
+        ],
+        [
+          186.28,
+          -913.22,
+          7.0
+        ],
+        [
+          73.72,
+          -936.78,
+          7.0
+        ],
+        [
+          135.07,
+          -697.96,
+          48.0
+        ],
+        [
+          34.93,
+          -722.04,
+          48.0
+        ],
+        [
+          135.07,
+          -697.96,
+          25.0
+        ],
+        [
+          34.93,
+          -722.04,
+          25.0
+        ],
+        [
+          83.59,
+          -518.2,
+          73.0
+        ],
+        [
+          -13.59,
+          -541.8,
+          73.0
+        ],
+        [
+          83.59,
+          -518.2,
+          50.0
+        ],
+        [
+          -13.59,
+          -541.8,
+          50.0
+        ],
+        [
+          52.1,
+          -353.56,
+          87.0
+        ],
+        [
+          -52.1,
+          -366.44,
+          87.0
+        ],
+        [
+          52.1,
+          -353.56,
+          64.0
+        ],
+        [
+          -52.1,
+          -366.44,
+          64.0
+        ],
+        [
+          36.98,
+          -191.19,
+          95.0
+        ],
+        [
+          -50.98,
+          -188.81,
+          95.0
+        ],
+        [
+          36.98,
+          -191.19,
+          72.0
+        ],
+        [
+          -50.98,
+          -188.81,
+          72.0
+        ],
+        [
+          56.33,
+          6.06,
+          107.0
+        ],
+        [
+          -36.33,
+          13.94,
+          107.0
+        ],
+        [
+          56.33,
+          6.06,
+          84.0
+        ],
+        [
+          -36.33,
+          13.94,
+          84.0
+        ]
+      ]
+    },
+    "INT10_H1_HIGH_CITY_INHABITED_MARKET_STREET": {
+      "vertices": 28,
+      "positions": [
+        [
+          767.31,
+          101.55,
+          445.0
+        ],
+        [
+          664.69,
+          118.45,
+          445.0
+        ],
+        [
+          767.31,
+          101.55,
+          418.0
+        ],
+        [
+          664.69,
+          118.45,
+          418.0
+        ],
+        [
+          796.58,
+          270.1,
+          440.0
+        ],
+        [
+          691.42,
+          289.9,
+          440.0
+        ],
+        [
+          796.58,
+          270.1,
+          413.0
+        ],
+        [
+          691.42,
+          289.9,
+          413.0
+        ],
+        [
+          840.48,
+          448.44,
+          476.0
+        ],
+        [
+          719.52,
+          451.56,
+          476.0
+        ],
+        [
+          840.48,
+          448.44,
+          449.0
+        ],
+        [
+          719.52,
+          451.56,
+          449.0
+        ],
+        [
+          809.12,
+          623.47,
+          556.0
+        ],
+        [
+          696.88,
+          636.53,
+          556.0
+        ],
+        [
+          809.12,
+          623.47,
+          529.0
+        ],
+        [
+          696.88,
+          636.53,
+          529.0
+        ],
+        [
+          882.55,
+          795.53,
+          653.0
+        ],
+        [
+          761.45,
+          826.47,
+          653.0
+        ],
+        [
+          882.55,
+          795.53,
+          626.0
+        ],
+        [
+          761.45,
+          826.47,
+          626.0
+        ],
+        [
+          893.76,
+          975.04,
+          787.0
+        ],
+        [
+          796.24,
+          1004.96,
+          787.0
+        ],
+        [
+          893.76,
+          975.04,
+          760.0
+        ],
+        [
+          796.24,
+          1004.96,
+          760.0
+        ],
+        [
+          963.47,
+          1131.03,
+          955.0
+        ],
+        [
+          888.53,
+          1168.97,
+          955.0
+        ],
+        [
+          963.47,
+          1131.03,
+          928.0
+        ],
+        [
+          888.53,
+          1168.97,
+          928.0
+        ]
+      ]
+    }
+  },
+  "old_context_mesh_count": 60,
+  "old_context_names": [
+    "W0_NORTH_FRACTURED_RANGE",
+    "W0_WEST_BASALT_ESCARPMENT",
+    "W0_GROUND_BASIN",
+    "W0_EASTERN_ARTIFICIAL_SEA",
+    "INT4_W0_EMBEDDED_CIVIC_DELTA",
+    "INT4_W0_TIDAL_READING_CONCOURSE",
+    "INT4_W0_FERRY_CIVIC_FORECOURT",
+    "INT4_W0_TIDAL_LIBRARY_floor",
+    "INT4_W0_TIDAL_LIBRARY_wall_0",
+    "INT4_W0_TIDAL_LIBRARY_wall_1",
+    "INT4_W0_TIDAL_LIBRARY_wall_3",
+    "INT4_W0_TIDAL_LIBRARY_wall_4",
+    "INT4_W0_TIDAL_LIBRARY_wall_5",
+    "INT4_W0_TIDAL_LIBRARY_upper_skyshade_core",
+    "INT4_W0_FERRY_PUBLIC_HALL_floor",
+    "INT4_W0_FERRY_PUBLIC_HALL_wall_0",
+    "INT4_W0_FERRY_PUBLIC_HALL_wall_1",
+    "INT4_W0_FERRY_PUBLIC_HALL_wall_2",
+    "INT4_W0_FERRY_PUBLIC_HALL_wall_4",
+    "INT4_W0_FERRY_PUBLIC_HALL_wall_5",
+    "INT4_W0_FERRY_PUBLIC_HALL_upper_skyshade_core",
+    "INT4_W0_COASTAL_OPEN_STREET",
+    "INT4_W0_PORT_NAVE_WALK",
+    "INT4_H1_URBAN_MAIN_PEDESTRIAN_CROSSING",
+    "INT4_H1_PUBLIC_BOULEVARD",
+    "INT4_H1_MARKET_CIVIC_COURT_floor",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_0",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_1",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_3",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_4",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_5",
+    "INT4_H1_MARKET_CIVIC_COURT_upper_skyshade_core",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_floor",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_0",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_1",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_2",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_3",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_4",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_upper_skyshade_core",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_floor",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_0",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_1",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_3",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_4",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_5",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_upper_skyshade_core",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_floor",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_0",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_1",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_2",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_3",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_5",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_upper_skyshade_core",
+    "INT4_H1_MARKET_NAVE_CONNECTOR",
+    "INT4_H1_SCHOOL_PEDESTRIAN_LINK",
+    "INT4_H1_UPPER_INHABITED_CITY_ROUTE",
+    "INT4_H1_OPEN_COURTYARD_GARDEN",
+    "INT4_H1_HIGH_GARDEN",
+    "INT4_W0_NAVE_H1_LIVING_TRANSIT",
+    "INT4_R1_H1_MARKET_MEZZANINE_LANDING"
+  ],
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED"
+}
