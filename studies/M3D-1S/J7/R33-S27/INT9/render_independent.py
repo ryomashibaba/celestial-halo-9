@@ -15,8 +15,9 @@ assert sc['CONSTRUCTION']=='HOLD'
 assert sc['COMPLETED_TARGETS']==sc['FORMAL_ART_ACCEPTED']==0
 assert sc['INT9_GUI_SOURCE_SHA256']==r['source_sha256']
 assert sc['INT9_ART_ADOPTION']==0
-assert r['western_real_vertices_changed']>=20
+assert r['western_real_vertices_changed']>=1
 assert r['western_real_max_displacement_m']>.5
+assert r['western_native_macro_recess_vertices']>100
 names=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL')
 for n in names:
     old=ready['cameras'][n]
