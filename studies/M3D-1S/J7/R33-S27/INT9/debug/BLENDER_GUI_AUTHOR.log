@@ -6,8 +6,9 @@ ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
 ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
 ALSA lib conf.c:5731:(snd_config_expand) Evaluate error: No such file or directory
 ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
-00:08.477  blend            | Read blend: "/tmp/INT9_SOURCE.blend"
+00:07.814  blend            | Read blend: "/tmp/INT9_SOURCE.blend"
 INT9_GUI_READY_FOR_VISUAL_CAPTURE {'E11_NAVE_HUMAN': {'object': 'INT7_NAVE_NORTH_RITUAL_CIVIC_ATRIUM', 'distance': 756.9405}, 'E11_H1_HUMAN': {'object': 'INT7_CITY_EAST_INHABITED_SCHOOL_PHYSICAL_PUBLIC_BODY', 'distance': 69.9592}, 'E11_URBAN_AERIAL': {'object': 'INT7_NAVE_NORTH_RITUAL_CIVIC_ATRIUM', 'distance': 3990.4507}}
-INT9_H1_REAL_PUBLIC_ATRIUM_CUT 8 14 {'object': 'INT7_CITY_EAST_INHABITED_SCHOOL_PHYSICAL_PUBLIC_BODY', 'distance': 69.9592} {'object': 'INT7_CITY_EAST_INHABITED_SCHOOL_PHYSICAL_PUBLIC_BODY', 'distance': 69.9592}
-INT9_REAL_GUI_CLIFF_SCULPT 3 6.5075
-INT9_AUTHOR_FAILED AssertionError(('NO_MEANINGFUL_ACTUAL_GUI_SCULPT', 3, 6.507547546021411))
+INT9_H1_REAL_PUBLIC_ATRIUM_CUT 8 25 {'object': 'INT7_CITY_EAST_INHABITED_SCHOOL_PHYSICAL_PUBLIC_BODY', 'distance': 69.9592} {'object': 'INT7_M247_ALPHA_EAST_ASCENDING_CIVIC_SHEAR', 'distance': 479.2697}
+INT9_WEST_NATIVE_MACRO_RECESS_VERTICES 2090
+INT9_REAL_GUI_CLIFF_SCULPT 1 13.0534
+INT9_AUTHOR_FAILED AssertionError(('NO_MEANINGFUL_ACTUAL_GUI_SCULPT', 1, 13.053397342616188))

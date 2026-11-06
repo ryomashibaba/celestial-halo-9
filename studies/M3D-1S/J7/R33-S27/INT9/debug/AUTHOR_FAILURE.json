@@ -1,4 +1,4 @@
 {
-  "error": "AssertionError(('NO_MEANINGFUL_ACTUAL_GUI_SCULPT', 3, 6.507547546021411))",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT9/author_civic_section_gui.py\", line 209, in edit_civic_section\n    assert changed>=20 and maximum>.5,('NO_MEANINGFUL_ACTUAL_GUI_SCULPT',changed,maximum)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('NO_MEANINGFUL_ACTUAL_GUI_SCULPT', 3, 6.507547546021411)\n"
+  "error": "AssertionError(('NO_MEANINGFUL_ACTUAL_GUI_SCULPT', 1, 13.053397342616188))",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT9/author_civic_section_gui.py\", line 231, in edit_civic_section\n    assert changed>=12 and maximum>.5,('NO_MEANINGFUL_ACTUAL_GUI_SCULPT',changed,maximum)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('NO_MEANINGFUL_ACTUAL_GUI_SCULPT', 1, 13.053397342616188)\n"
 }
