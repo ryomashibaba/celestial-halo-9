@@ -1,0 +1,96 @@
+name: HALO9 INT20 genuine Blender MCP visual feedback bridge (research only)
+on:
+  push:
+    branches:
+      - research/r33-s27-int20-headless-visual-art-bridge-20261106
+    paths:
+      - .github/workflows/halo9-int20-visual-mcp-bridge.yml
+      - studies/M3D-1S/J7/R33-S27/INT20/probe_actual_scene_mcp_viewport.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int20-single-mcp-bridge-check-20261106
+  cancel-in-progress: false
+jobs:
+  original_city_true_visual_mcp:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT20
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT15/evidence/HALO9_INT15_H1_OCCUPIED_LIFT_PUBLIC_CORE.blend.gz
+      SOURCE_SHA: e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9
+      DISABLE_TELEMETRY: "1"
+      BLENDER_MCP_DISABLE_TELEMETRY: "1"
+      MCP_DISABLE_TELEMETRY: "1"
+      BLENDERMCP_PORT: "9876"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Immutable source and client preflight (no world write)
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = "refs/heads/research/r33-s27-int20-headless-visual-art-bridge-20261106"
+          python3 -m py_compile "$ROOT/probe_actual_scene_mcp_viewport.py"
+          gzip -dc "$SOURCE" > /tmp/INT20_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT20_SOURCE.blend | sha256sum -c -
+          echo INT20_REAL_BLENDER_SOURCE_SHA_MATCH_RESEARCH_ONLY
+      - name: Minimal real desktop and Pillow for image inspection
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb libgl1-mesa-dri libgl1-mesa-glx mesa-utils python3-pil
+      - name: Download pinned, SHA-verified Blender 5.2.1 LTS
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/b20 && cd /tmp/b20
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          sed -n '/blender-5.2.1-linux-x64.tar.xz/p' sums | sed 's/blender-5.2.1-linux-x64.tar.xz$/blender.tar.xz/' | sha256sum -c -
+          tar -xf blender.tar.xz
+      - name: Checkout pinned MIT patched MCP viewport source in isolated tmp
+        run: |
+          set -euo pipefail
+          git clone --quiet https://github.com/digitable-lol/blender-mcp.git /tmp/halo9-mcp
+          git -C /tmp/halo9-mcp checkout --quiet ae010efa2a3f3d799ef1074d7cd3d9a7f36a0118
+          test "$(git -C /tmp/halo9-mcp rev-parse HEAD)" = "ae010efa2a3f3d799ef1074d7cd3d9a7f36a0118"
+          test -f /tmp/halo9-mcp/NOTICE
+          test -f /tmp/halo9-mcp/blender_scripts/addons/blender_mcp_addon.py
+          grep -F 'GPUOffScreen' /tmp/halo9-mcp/blender_scripts/addons/blender_mcp_addon.py
+      - name: Real nonbackground Blender MCP, source-city viewport and nonblack screenshot
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-int20 "$ROOT/evidence"
+          export BLENDER=/tmp/b20/blender-5.2.1-linux-x64/blender
+          /tmp/halo9-mcp/run.sh start
+          trap '/tmp/halo9-mcp/run.sh stop || true' EXIT
+          python3 "$ROOT/probe_actual_scene_mcp_viewport.py" 2>&1 | tee /tmp/halo9-int20/probe.log
+          grep -F 'INT20_PATCHED_MCP_REAL_CITY_VIEWPORT_NONBLACK_TECH_PASS_NOT_ART' /tmp/halo9-int20/probe.log
+      - name: Save compact genuine visual screenshot and tech-only result
+        run: |
+          set -euo pipefail
+          cp /tmp/halo9-int20/INT20_REAL_MCP_OFFSCREEN_CITY_VIEWPORT.png "$ROOT/evidence/"
+          cp /tmp/halo9-int20/INT20_TRUE_MCP_GUI_VISUAL_EVIDENCE.json "$ROOT/evidence/"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT20: store actual Blender-MCP city viewport for visual review, research only [skip ci]'
+            git fetch origin research/r33-s27-int20-headless-visual-art-bridge-20261106
+            git rebase origin/research/r33-s27-int20-headless-visual-art-bridge-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-int20-headless-visual-art-bridge-20261106
+          fi
+      - name: Attach diagnostic log only when no stored screenshot
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          test -e /tmp/halo9-int20/probe.log && cp /tmp/halo9-int20/probe.log "$ROOT/debug/probe.log" || true
+          test -e /tmp/halo9-mcp/.run/blender.log && cp /tmp/halo9-mcp/.run/blender.log "$ROOT/debug/blender.log" || true
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT20: preserve only bounded real MCP failure evidence [skip ci]'
+            git fetch origin research/r33-s27-int20-headless-visual-art-bridge-20261106
+            git rebase origin/research/r33-s27-int20-headless-visual-art-bridge-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-int20-headless-visual-art-bridge-20261106
+          fi
