@@ -1,0 +1,54 @@
+name: HALO9 INT8-R1 factual GUI screenshot inspector
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int8-r1-gui-rayhit-20261106
+    paths:
+      - .github/workflows/halo9-int8-r1-screen-inspector.yml
+permissions:
+  contents: write
+jobs:
+  factual_screen_inspector:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - name: Encode actual X11 Blender GUI screenshots for direct visual review
+        run: |
+          set -euo pipefail
+          sudo DEBIAN_FRONTEND=noninteractive apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import base64,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          root=Path('studies/M3D-1S/J7/R33-S27/INT8_R1/debug')
+          ready=json.loads((root/'GUI_READY.json').read_text())
+          assert ready['pick']['ray_hit']
+          names=['BEFORE_REAL_GUI','AFTER_REAL_MOUSE_SCULPT','GUI_AFTER_CONSOLE']
+          collage=Image.new('RGB',(1500,1040),(218,218,218))
+          d=ImageDraw.Draw(collage)
+          for i,name in enumerate(names):
+              src=root/(name+'.png')
+              assert src.exists(),src
+              im=Image.open(src).convert('RGB')
+              assert im.size==(1600,1000)
+              im.thumbnail((750,475),Image.Resampling.LANCZOS)
+              x=(i%2)*750;y=(i//2)*510
+              collage.paste(im,(x,y+26))
+              d.text((x+8,y+5),name,fill=(0,0,0))
+              if i==0:
+                  sx,sy=ready['pick']['window_client_xy_top_left']
+                  # On the first screenshot the GUI client window is offset
+                  # from Xvfb root; label rather than pretend exact root pixel.
+                  d.text((12,490),'GUI client ray-projected hit = (%s, %s)'%(sx,sy),fill=(0,0,0))
+          p=root/'INT8_R1_GUI_PROJECTION_EVIDENCE.jpg'
+          collage.save(p,quality=86,optimize=True)
+          (root/'INT8_R1_GUI_PROJECTION_EVIDENCE_BASE64.txt').write_text(base64.b64encode(p.read_bytes()).decode())
+          print('REAL_SCREEN_INSPECTOR_COMPLETE',p.stat().st_size)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/INT8_R1/debug/INT8_R1_GUI_PROJECTION_EVIDENCE*
+          git commit -m 'INT8-R1: archive direct screen evidence of verified ray-hit but unchanged mesh [skip ci]'
+          git push origin HEAD:refs/heads/research/r33-s27-d48-int8-r1-gui-rayhit-20261106
