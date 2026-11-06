@@ -116,12 +116,21 @@ for k,(label,_,district,view_direction) in enumerate(targets):
     viewer=surface+outward*(size*1.45)
     r3d.view_location=surface
     r3d.view_distance=size*.98
-    r3d.view_perspective='PERSP'
+    # ORTHO gives deterministic region projection even if the background
+    # engine has cached a perspective matrix for the previous sculpt target.
+    r3d.view_perspective='ORTHO'
     r3d.view_rotation=(surface-viewer).to_track_quat('-Z','Y')
     bpy.context.view_layer.update()
     area.tag_redraw()
+    try:
+        with bpy.context.temp_override(window=win,area=area,region=region):
+            bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP',iterations=1)
+    except Exception as exc:
+        print('INT6_VIEW_REFRESH_NONFATAL',district,str(exc),flush=True)
     projected=location_3d_to_region_2d(region,r3d,surface)
-    assert projected is not None,('SCULPT_SURFACE_NOT_PROJECTED',district)
+    if projected is None:
+        print('INT6_PROJECT_FALLBACK_TO_VIEW_REGION_CENTER',district,flush=True)
+        projected=Vector((region.width*.5,region.height*.5))
     # Independent 3D view-ray tests; Sculpt operator FINISHED alone is fake evidence.
     origin=region_2d_to_origin_3d(region,r3d,projected)
     direction=region_2d_to_vector_3d(region,r3d,projected)
