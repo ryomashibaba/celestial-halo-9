@@ -1,0 +1,308 @@
+name: HALO9 INT19 NAVE actual city GUI subtractive sculpt E11 before-after ART gate
+on:
+  push:
+    branches:
+      - research/r33-s27-int19-nave-gui-macro-sculpt-20261106
+    paths:
+      - .github/workflows/halo9-int19-nave-gui-art.yml
+      - studies/M3D-1S/J7/R33-S27/INT19/gui_prepare.py
+      - studies/M3D-1S/J7/R33-S27/INT19/gui_finalize.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int19-nave-actual-gui-onepass-20261106
+  cancel-in-progress: false
+jobs:
+  actual_nave_visual_sculpt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT19
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT15/evidence/HALO9_INT15_H1_OCCUPIED_LIFT_PUBLIC_CORE.blend.gz
+      SOURCE_SHA: e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify protected actual INT15 source and author scripts
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = "refs/heads/research/r33-s27-int19-nave-gui-macro-sculpt-20261106"
+          mkdir -p "$ROOT/native"
+          python3 -m py_compile "$ROOT/gui_prepare.py" "$ROOT/gui_finalize.py"
+          gzip -dc "$SOURCE" > /tmp/INT19_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT19_SOURCE.blend | sha256sum -c -
+          echo INT19_TRUE_INT15_PARENT_VERIFIED_NO_ORIGINAL_WRITE
+      - name: Install virtual real window and display controls
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq xvfb x11-utils openbox xdotool wmctrl scrot python3-pil libgl1-mesa-dri
+      - name: Verify official Blender 5.2.1 binary SHA
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/blender-int8 && cd /tmp/blender-int8
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Launch true Blender GUI, inspect live desktop, send physical mouse events, save via GUI Console
+        run: |
+          set -euo pipefail
+          OUT=/tmp/halo9-int19-native
+          mkdir -p "$OUT"
+          export DISPLAY=:94
+          export LIBGL_ALWAYS_SOFTWARE=1
+          Xvfb :94 -screen 0 1600x1000x24 +extension GLX -nolisten tcp > "$OUT/XVFB.log" 2>&1 &
+          XVFB_PID=$!
+          for i in $(seq 1 20); do xdpyinfo -display :94 > /dev/null 2>&1 && break; sleep 1; done
+          xdpyinfo -display :94 > /dev/null
+          openbox > "$OUT/OPENBOX.log" 2>&1 &
+          B=/tmp/blender-int8/blender-5.2.1-linux-x64/blender
+          timeout 780s "$B" --python-exit-code 97 --window-geometry 0 0 1520 930 --threads 2 \
+            /tmp/INT19_SOURCE.blend --python "$ROOT/gui_prepare.py" -- \
+            --output "$OUT" > "$OUT/BLENDER_GUI.log" 2>&1 &
+          BLENDER_PID=$!
+          ready=0
+          for i in $(seq 1 105); do
+            if test -s "$OUT/GUI_READY.json"; then ready=1; break; fi
+            if ! kill -0 "$BLENDER_PID" 2>/dev/null; then
+              tail -80 "$OUT/BLENDER_GUI.log" || true; exit 21
+            fi
+            sleep 1
+          done
+          if test "$ready" -ne 1; then
+            echo 'INT8_GUI_READY_MISSING__FULL_STARTUP_LOG_FOLLOWS'
+            tail -100 "$OUT/BLENDER_GUI.log" || true
+            exit 23
+          fi
+          sleep 3
+          WID=$(xdotool search --onlyvisible --class blender | head -n1)
+          test -n "$WID"
+          # Do NOT maximize after Blender computed the GUI projection.
+          # Its region/window coordinate transform must remain unchanged.
+          xdotool windowactivate --sync "$WID"
+          sleep 3
+          xdotool getwindowgeometry --shell "$WID" > "$OUT/X11_WINDOW_GEOMETRY.txt"
+          # Official Blender first-run Quick Setup modal appeared in the
+          # actual previous X11 screenshot. Accept it before any sculpt stroke.
+          xdotool mousemove --sync 795 710
+          xdotool click 1
+          sleep 2
+          xdotool key --clearmodifiers Escape
+          sleep 2
+          scrot -o "$OUT/BEFORE_REAL_GUI.png"
+          # GUI_READY is not only a "ready" flag: Blender itself
+          # projected the actual polygon into a 2D viewport pixel, cast a
+          # 3D ray back, and verified it hits the exact selected mesh.
+          read MX MY < <(python3 -c "import json; p=json.load(open('$OUT/GUI_READY.json'))['pick']; assert p['ray_hit']; print(*p['window_client_xy_top_left'])")
+          printf 'INT19_VERIFIED_CLIENT_PICK=%s,%s\n' "$MX" "$MY"
+          # INT8-R1 REPLAY: xdotool --window gave a physical root Y
+          # ~20px above the point implied by the window geometry.
+          # This experiment CORRECTS ROOT coordinates, not the BLEND
+          # geometry, source camera, brush type or projected face.
+          read WX WY < <(awk -F= '/^X=/{x=$2}/^Y=/{y=$2}END{print x,y}' "$OUT/X11_WINDOW_GEOMETRY.txt")
+          RX=$((WX+MX))
+          RY=$((WY+MY))
+          printf 'GUI_INTENDED_ROOT_POINTER X=%s Y=%s; client=%s,%s; window=%s,%s\n' "$RX" "$RY" "$MX" "$MY" "$WX" "$WY" | tee "$OUT/INTENDED_ROOT_COORDS.txt"
+          xdotool mousemove --sync "$RX" "$RY"
+          xdotool getmouselocation --shell > "$OUT/GUI_POINTER_BEFORE.txt"
+          read PX PY < <(awk -F= '/^X=/{x=$2}/^Y=/{y=$2}END{print x,y}' "$OUT/GUI_POINTER_BEFORE.txt")
+          test $((PX-RX)) -le 2 && test $((PX-RX)) -ge -2
+          test $((PY-RY)) -le 2 && test $((PY-RY)) -ge -2
+          sleep 1
+          # One genuine GUI XTest drag through the Blender ray-verified face.
+          SX=$((RX-105))
+          SY=$((RY-25))
+          xdotool mousemove --sync "$SX" "$SY"
+          # Invert Clay Strips with a physical Ctrl modifier for a subtractive relief.
+          xdotool keydown ctrl
+          xdotool mousedown 1
+          for dx in $(seq -105 7 105); do
+            xdotool mousemove --sync "$((RX+dx))" "$((RY + dx/4))"
+            sleep 0.052
+          done
+          xdotool mouseup 1
+          xdotool keyup ctrl
+          xdotool getmouselocation --shell > "$OUT/GUI_POINTER_AFTER.txt"
+          sleep 3
+          scrot -o "$OUT/AFTER_REAL_MOUSE_SCULPT.png"
+          # These are true keyboard events to a visible Blender Console;
+          # the post script checks whether the MOUSE actually moved vertices.
+          xdotool mousemove --sync "$RX" "$RY"
+          xdotool key --clearmodifiers shift+F4
+          sleep 2
+          cp "$ROOT/gui_finalize.py" z.py
+          xdotool type --clearmodifiers --delay 55 "exec(open('z.py').read())"
+          xdotool key Return
+          committed=0
+          for i in $(seq 1 70); do
+            if test -s "$OUT/GUI_SAVE_PASS.json"; then committed=1; break; fi
+            if ! kill -0 "$BLENDER_PID" 2>/dev/null; then break; fi
+            sleep 1
+          done
+          scrot -o "$OUT/GUI_AFTER_CONSOLE.png"
+          if test "$committed" -ne 1; then
+            echo 'INT19_GUI_MOUSE_OR_SAVE_NOT_VERIFIED'
+            test -f "$OUT/MOUSE_EDIT_CHECK.json" && cat "$OUT/MOUSE_EDIT_CHECK.json" || true
+            exit 22
+          fi
+          xdotool mousemove --sync "$RX" "$RY"
+          xdotool key --clearmodifiers shift+F5
+          sleep 2
+          scrot -o "$OUT/GUI_FINAL_VIEWPORT.png"
+          cat "$OUT/GUI_SAVE_PASS.json"
+          cp "$OUT/"*.blend "$ROOT/native/"
+          cp "$OUT/"*.png "$ROOT/native/"
+          cp "$OUT/"*.json "$ROOT/native/"
+          cp "$OUT/BLENDER_GUI.log" "$ROOT/native/"
+          echo INT19_GUI_SCREEN_CAPTURE_AND_NATIVE_EDIT_VERIFIED
+          kill "$BLENDER_PID" || true
+          kill "$XVFB_PID" || true
+      - name: Preserve true GUI failure evidence in protected research branch
+        if: failure()
+        run: |
+          set -euo pipefail
+          OUT=/tmp/halo9-int19-native
+          mkdir -p "$ROOT/debug"
+          for f in BLENDER_GUI.log GUI_BOOT_FAILED.json GUI_READY.json MOUSE_EDIT_CHECK.json GUI_POINTER_BEFORE.txt GUI_POINTER_AFTER.txt X11_WINDOW_GEOMETRY.txt INTENDED_ROOT_COORDS.txt; do
+            test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
+          done
+          for f in BEFORE_REAL_GUI.png AFTER_REAL_MOUSE_SCULPT.png GUI_AFTER_CONSOLE.png; do
+            test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT19: retain native GUI failure evidence, no art adopted [skip ci]'
+            git fetch origin research/r33-s27-int19-nave-gui-macro-sculpt-20261106
+            git rebase origin/research/r33-s27-int19-nave-gui-macro-sculpt-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-int19-nave-gui-macro-sculpt-20261106
+          fi
+      - name: Independently reopen actual GUI sculpt and check E11 W0 vertex differences
+        run: |
+          set -euo pipefail
+          cat > /tmp/verify_int19.py <<'PY'
+          import bpy,math,hashlib,json
+          from pathlib import Path
+          p=Path(bpy.data.filepath);data=p.parent
+          r=json.loads((data/'GUI_SAVE_PASS.json').read_text())
+          original=json.loads((data/'BEFORE_VERTICES.json').read_text())
+          cams=json.loads((data/'BEFORE_CAMERAS.json').read_text())
+          w0=json.loads((data/'BEFORE_W0.json').read_text())
+          assert p.name=='HALO9_INT19_NAVE_REAL_GUI_SCULPT_RESEARCH.blend'
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==r['saved_blend_sha256']
+          ob=bpy.data.objects[r['target']]
+          assert ob.name=='INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE'
+          assert len(ob.data.vertices)==len(original)
+          diff=[math.dist(list(v.co),q) for v,q in zip(ob.data.vertices,original)]
+          assert sum(x>.01 for x in diff)==r['physical_vertices_changed']
+          assert abs(max(diff)-r['max_vertex_displacement'])<.00002
+          assert r['physical_vertices_changed']>10 and r['max_vertex_displacement']>.02
+          for name,original_matrix in cams.items():
+              m=bpy.data.objects[name].matrix_world
+              assert max(abs(float(m[i][j])-original_matrix[i][j]) for i in range(4) for j in range(4))<1e-6
+          def fingerprint(obj):
+              h=hashlib.sha256()
+              for v in obj.data.vertices:
+                  h.update((','.join(f'{float(c):.10g}' for c in v.co)+';').encode())
+              return h.hexdigest()
+          for name,sha in w0.items():
+              assert fingerprint(bpy.data.objects[name])==sha
+          sc=bpy.context.scene
+          assert sc['CONSTRUCTION']=='HOLD'
+          assert sc['COMPLETED_TARGETS']==sc['FORMAL_ART_ACCEPTED']==0
+          assert r['original_viewport_visibility_restored'] is True
+          print('INT19_INDEPENDENT_NATIVE_GUI_MOUSE_NAVE_MESH_PASS_NOT_ART',flush=True)
+          PY
+          /tmp/blender-int8/blender-5.2.1-linux-x64/blender --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT19_NAVE_REAL_GUI_SCULPT_RESEARCH.blend" \
+            --python /tmp/verify_int19.py 2>&1 | tee "$ROOT/native/INDEPENDENT.log"
+          grep -F INT19_INDEPENDENT_NATIVE_GUI_MOUSE_NAVE_MESH_PASS_NOT_ART "$ROOT/native/INDEPENDENT.log"
+      - name: Render unchanged E11 cameras from BOTH before and after genuine BLEND files
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-int19-native/e11-before /tmp/halo9-int19-native/e11-after
+          cat >/tmp/render_int19_e11.py <<'PY'
+          import bpy,os,sys,hashlib,json
+          from pathlib import Path
+          args=sys.argv[sys.argv.index('--')+1:]
+          target=Path(args[args.index('--output')+1]);target.mkdir(exist_ok=True,parents=True)
+          sc=bpy.context.scene
+          assert sc['CONSTRUCTION']=='HOLD' and sc['COMPLETED_TARGETS']==sc['FORMAL_ART_ACCEPTED']==0
+          cams=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL')
+          sc.render.engine='CYCLES';sc.cycles.device='CPU';sc.cycles.samples=10
+          sc.cycles.use_denoising=True
+          sc.render.threads_mode='FIXED';sc.render.threads=2
+          sc.render.resolution_x=800;sc.render.resolution_y=600
+          sc.render.resolution_percentage=100
+          sc.render.image_settings.file_format='PNG'
+          output={}
+          for n in cams:
+              sc.camera=bpy.data.objects[n]
+              dst=target/(n+'.png')
+              sc.render.filepath=str(dst)
+              bpy.ops.render.render(write_still=True)
+              assert dst.stat().st_size>6000
+              output[n]=hashlib.sha256(dst.read_bytes()).hexdigest()
+              print('INT19_RESEARCH_FIXED_E11_UNMASKED_RENDER',n,dst.stat().st_size,flush=True)
+          (target/'SHA256.json').write_text(json.dumps(output,indent=2))
+          PY
+          B=/tmp/blender-int8/blender-5.2.1-linux-x64/blender
+          timeout 900s "$B" --background --threads 2 --python-exit-code 95 /tmp/INT19_SOURCE.blend \
+             --python /tmp/render_int19_e11.py -- --output /tmp/halo9-int19-native/e11-before
+          timeout 900s "$B" --background --threads 2 --python-exit-code 95 \
+             "$ROOT/native/HALO9_INT19_NAVE_REAL_GUI_SCULPT_RESEARCH.blend" \
+             --python /tmp/render_int19_e11.py -- --output /tmp/halo9-int19-native/e11-after
+      - name: Archive real mouse-sculpted BLEND and honest E11 art comparison (not acceptance)
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os,gzip,hashlib,json
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          root=Path(os.environ['ROOT']);native=root/'native';e=root/'evidence'
+          e.mkdir(parents=True,exist_ok=True)
+          tmp=Path('/tmp/halo9-int19-native')
+          blend=native/'HALO9_INT19_NAVE_REAL_GUI_SCULPT_RESEARCH.blend'
+          with blend.open('rb') as src,gzip.open(e/(blend.name+'.gz'),'wb',compresslevel=6) as dst:
+              while chunk:=src.read(1048576):dst.write(chunk)
+          names=['E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL']
+          panel=Image.new('RGB',(2400,1270),(220,220,220))
+          draw=ImageDraw.Draw(panel)
+          for row,label in enumerate(('e11-before','e11-after')):
+              for i,n in enumerate(names):
+                  pic=Image.open(tmp/label/(n+'.png')).convert('RGB')
+                  assert pic.size==(800,600)
+                  panel.paste(pic,(i*800,35+row*635))
+                  draw.text((i*800+8,row*635+9),label+' : '+n,fill=(20,20,20))
+          art=e/'INT19_GENUINE_E11_BEFORE_AFTER_ART_UNREVIEWED.jpg'
+          panel.save(art,quality=90,optimize=True)
+          g=Image.new('RGB',(1350,920),(220,220,220))
+          for i,name in enumerate(('BEFORE_REAL_GUI','AFTER_REAL_MOUSE_SCULPT')):
+              im=Image.open(native/(name+'.png')).convert('RGB')
+              im.thumbnail((675,875),Image.Resampling.LANCZOS)
+              g.paste(im,(i*675,30))
+          gg=e/'INT19_REAL_GUI_SCULPT_EVIDENCE.jpg'
+          gg.save(gg,quality=82,optimize=True)
+          data=json.loads((native/'GUI_SAVE_PASS.json').read_text())
+          data.update({'source_sha256':os.environ['SOURCE_SHA'],
+            'independent_blender_reopen':'PASS',
+            'e11_before_sha':json.loads((tmp/'e11-before'/'SHA256.json').read_text()),
+            'e11_after_sha':json.loads((tmp/'e11-after'/'SHA256.json').read_text()),
+            'art_comparison_sha256':hashlib.sha256(art.read_bytes()).hexdigest(),
+            'art':'UNREVIEWED_NOT_ADOPTED','function':'UNVERIFIED',
+            'formal_adoption':0,'completed_city_master_targets':0,'minecraft':'HOLD',
+            'research_method':'ACTUAL_X11_MOUSE_SCULPT_ON_INT15_CITY_MESH_NOT_GUI_PYTHON_OPERATOR',
+            'not_cutaway':True})
+          (e/'INT19_INDEPENDENT_TECH_NOT_ART.json').write_text(json.dumps(data,indent=2))
+          print('INT19_RESEARCH_TRUE_GUI_CITY_SCULPT_AND_E11_ART_IMAGES_PRESERVED_NOT_ADOPTED',flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT19: archive actual GUI sculpted NAVE city mesh and fixed E11 before/after [skip ci]'
+            git fetch origin research/r33-s27-int19-nave-gui-macro-sculpt-20261106
+            git rebase origin/research/r33-s27-int19-nave-gui-macro-sculpt-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-int19-nave-gui-macro-sculpt-20261106
+          fi
