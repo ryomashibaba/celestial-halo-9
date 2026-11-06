@@ -4,7 +4,7 @@ on:
     branches:
       - research/r33-s27-int18-x11-root-sculpt-recovery-20261106
     paths:
-      - .github/workflows/halo9-int18-rayhit.yml
+      - .github/workflows/halo9-int18-x11-root-sculpt.yml
       - studies/M3D-1S/J7/R33-S27/INT18/gui_prepare.py
       - studies/M3D-1S/J7/R33-S27/INT18/gui_finalize.py
 permissions:
