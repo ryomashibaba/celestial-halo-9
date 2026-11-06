@@ -27,6 +27,16 @@ if bpy.context.object and bpy.context.object.mode!='OBJECT':
     bpy.ops.object.mode_set(mode='OBJECT')
 bpy.ops.object.select_all(action='DESELECT')
 subject.select_set(True);bpy.context.view_layer.objects.active=subject
+# The previous real GUI screenshot showed foreground city meshes covering
+# the selected district; the mouse stroke hit an occluder instead of target.
+# Isolate only the working viewport, with exact prior states serialized.
+visibility={ob.name:bool(ob.hide_get()) for ob in scene.objects if ob.type=='MESH'}
+(out/'BEFORE_VISIBILITY.json').write_text(json.dumps(visibility),encoding='utf8')
+for other in scene.objects:
+    if other.type=='MESH' and other != subject:
+        other.hide_set(True)
+subject.hide_set(False)
+bpy.context.view_layer.update()
 win=bpy.context.window
 assert win is not None and win.screen is not None
 areas=[a for a in win.screen.areas if a.type=='VIEW_3D']
@@ -93,6 +103,8 @@ def finish_real_gui_setup():
           'initial_mode':bpy.context.mode,
           'gui_event_loop_attempts':attempt['number'],
           'original_camera_matrices_recorded':True,
+          'target_isolated_in_working_viewport':True,
+          'temporarily_hidden_mesh_count':sum(1 for x in scene.objects if x.type=='MESH' and x!=subject),
           'formal_art_adopted':0,'completed_targets':0,'minecraft':'HOLD',
           'art':'NOT_REVIEWED'}
         (out/'GUI_READY.json').write_text(json.dumps(ui,indent=2),encoding='utf8')
