@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/runner/work/celestial-halo-9/celestial-halo-9/studies/M3D-1S/J7/R33-S27/INT9/author_civic_section_gui.py\", line 112, in edit_civic_section\n    assert len(school.data.polygons)>=9\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}
