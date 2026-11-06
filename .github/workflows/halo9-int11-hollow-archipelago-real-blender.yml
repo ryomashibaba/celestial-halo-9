@@ -1,0 +1,160 @@
+name: HALO9 INT11 M247-C hollow inhabited archipelago real Blender research
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int11-carved-civic-archipelago-20261106
+    paths:
+      - .github/workflows/halo9-int11-hollow-archipelago-real-blender.yml
+      - studies/M3D-1S/J7/R33-S27/INT11/author_civic_archipelago.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int11-20261106
+  cancel-in-progress: false
+jobs:
+  genuine_native_3d_and_visuals:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 42
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT11
+      PARENT: studies/M3D-1S/J7/R33-S27/INT10_R1/evidence/HALO9_INT10_R1_REBUILT_HUMAN_CIVIC_VIEWS.blend.gz
+      SHA: 67762c7da7b4105c43e37819297ffeb95755c3eee5ee94b1f0d4b9d6d7e8111b
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify original source hash, syntax, immutable original branch
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/native"
+          gzip -dc "$PARENT" >/tmp/INT11_SOURCE.blend
+          printf '%s  %s\n' "$SHA" /tmp/INT11_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/author_civic_archipelago.py"
+      - name: Get official checksum-verified Blender 5.2.1 release
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9b11 && cd /tmp/halo9b11
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          sed -n '/blender-5.2.1-linux-x64.tar.xz/p' sums | sed 's/blender-5.2.1-linux-x64.tar.xz$/blender.tar.xz/' | sha256sum -c -
+          tar -xf blender.tar.xz
+      - name: Physically sculpt city cavities, H1 public architecture, water integration; render six true 3D viewpoints
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9b11/blender-5.2.1-linux-x64/blender
+          timeout 1850s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/INT11_SOURCE.blend --python "$ROOT/author_civic_archipelago.py" -- \
+            --output "$ROOT/native" 2>&1 | tee "$ROOT/native/BLENDER_AUTHOR.log"
+          grep -F INT11_ACTUAL_EDITABLE_CITY_AND_6_RENDERS_COMPLETE "$ROOT/native/BLENDER_AUTHOR.log"
+      - name: Independently reopen edited BLEND with separate Blender process and verify 6 render hashes
+        run: |
+          set -euo pipefail
+          cat >/tmp/verify_int11.py <<'PY'
+          import bpy,json,hashlib,math,struct
+          from pathlib import Path
+          file=Path(bpy.data.filepath);root=file.parent
+          r=json.loads((root/'INT11_TRUE_NATIVE_TECH_NOT_ART.json').read_text())
+          assert file.name=='HALO9_INT11_HOLLOW_ARCHIPELAGO_CIVIC_CITY.blend'
+          assert hashlib.sha256(file.read_bytes()).hexdigest()==r['edited_native_blend_sha256']
+          assert r['source_sha256']=='67762c7da7b4105c43e37819297ffeb95755c3eee5ee94b1f0d4b9d6d7e8111b'
+          scene=bpy.context.scene
+          assert scene['CONSTRUCTION']=='HOLD'
+          assert scene['FORMAL_ART_ACCEPTED']==scene['COMPLETED_TARGETS']==0
+          assert scene['INT11_FORMAL_ART']==0
+          assert r['formal_art_accepted']==r['completed_targets']==0 and r['minecraft']=='HOLD'
+          assert r['actual_Boolean_public_cavities']>=7
+          assert len(r['hollow_megastructures'])==3
+          assert r['actual_new_3d_mesh_count']>=27
+          assert len(r['hidden_only_in_research_copy_old_H1_context_meshes'])>=1
+          for n in r['new_mesh_names']:
+              ob=bpy.data.objects[n]
+              assert ob.type=='MESH' and len(ob.data.vertices)>3 and len(ob.data.polygons)>3
+              assert all(math.isfinite(float(x)) for v in ob.data.vertices for x in v.co)
+          assert r['preserved_W0_mesh_count']>=15
+          for n,expected in r['protected_W0_core_geometry_hashes'].items():
+              h=hashlib.sha256()
+              for v in bpy.data.objects[n].data.vertices:
+                  h.update((','.join(f'{float(x):.10g}' for x in v.co)+';').encode())
+              assert h.hexdigest()==expected,n
+          for n,mat in r['camera_original_e11_matrices'].items():
+              current=bpy.data.objects[n].matrix_world
+              assert max(abs(current[i][j]-mat[i][j]) for i in range(4) for j in range(4))<1e-6,n
+          assert len(r['six_authentic_render_sha256'])==6
+          for n,sha in r['six_authentic_render_sha256'].items():
+              p=root/'renders'/(n+'.png')
+              with p.open('rb') as f: head=f.read(24)
+              assert head[:8]==bytes.fromhex('89504e470d0a1a0a')
+              assert struct.unpack('>II',head[16:24])==(1024,768)
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==sha
+          print('INT11_REAL_BLENDER_INDEPENDENT_REOPEN_AND_SIX_PIXELS_PASS_NOT_ART',flush=True)
+          PY
+          /tmp/halo9b11/blender-5.2.1-linux-x64/blender \
+            --background --threads 2 --python-exit-code 97 \
+            "$ROOT/native/HALO9_INT11_HOLLOW_ARCHIPELAGO_CIVIC_CITY.blend" \
+            --python /tmp/verify_int11.py 2>&1 | tee "$ROOT/native/INDEPENDENT_REOPEN.log"
+          grep -F INT11_REAL_BLENDER_INDEPENDENT_REOPEN_AND_SIX_PIXELS_PASS_NOT_ART "$ROOT/native/INDEPENDENT_REOPEN.log"
+      - name: Archive actual native Blender and visual evidence ONLY on isolated research
+        run: |
+          set -euo pipefail
+          sudo DEBIAN_FRONTEND=noninteractive apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          from pathlib import Path
+          import os,json,gzip,hashlib,base64
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT']);n=root/'native';e=root/'evidence';e.mkdir(exist_ok=True)
+          blend=n/'HALO9_INT11_HOLLOW_ARCHIPELAGO_CIVIC_CITY.blend'
+          with blend.open('rb') as source,gzip.open(e/(blend.name+'.gz'),'wb',compresslevel=6) as dst:
+              while chunk:=source.read(1048576):dst.write(chunk)
+          names=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL',
+                 'INT11_NAVE_HOLLOW_PUBLIC_INTERIOR','INT11_H1_CIVIC_MARKET_INTERIOR',
+                 'INT11_M247C_W0_THREE_DIMENSIONAL_AERIAL')
+          canvas=Image.new('RGB',(1740,916),(218,217,215))
+          pen=ImageDraw.Draw(canvas);mean={}
+          for i,name in enumerate(names):
+              pic=Image.open(n/'renders'/(name+'.png')).convert('RGB')
+              mean[name]=round(sum(ImageStat.Stat(pic).mean)/3,2)
+              pic.thumbnail((580,426),Image.Resampling.LANCZOS)
+              x=i%3*580;y=i//3*458
+              canvas.paste(pic,(x,y+26))
+              pen.text((x+7,y+6),name,fill=(0,0,0))
+          jpg=e/'INT11_REAL_SIX_VIEW_UNREVIEWED.jpg'
+          canvas.save(jpg,quality=85,optimize=True)
+          (e/'INT11_REAL_SIX_VIEW_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          report=json.loads((n/'INT11_TRUE_NATIVE_TECH_NOT_ART.json').read_text())
+          report['six_view_mosaic_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          report['six_view_mean_brightness']=mean
+          report['art']='UNREVIEWED_NOT_ADOPTED'
+          (e/'INT11_INDEPENDENT_NATIVE_TECH_NOT_ART.json').write_text(json.dumps(report,indent=2))
+          print('INT11_NATIVE_CITY_EVIDENCE_ARCHIVED',mean,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT11: preserve true native M247-C civic archipelago, independent Blender evidence and six renders [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int11-carved-civic-archipelago-20261106
+          fi
+      - name: Record actual exception logs if native editing fails
+        if: failure()
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/debug"
+          for f in BLENDER_AUTHOR.log INDEPENDENT_REOPEN.log INT11_TRUE_NATIVE_TECH_NOT_ART.json; do
+            test -f "$ROOT/native/$f" && cp "$ROOT/native/$f" "$ROOT/debug/$f" || true
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT11: retain native failure evidence, never fake ART/TECH approval [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int11-carved-civic-archipelago-20261106
+          fi
+      - name: Retain temporary full-resolution native artifacts for five days
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT11-NATIVE-EDITABLE-AND-SIX-RENDERS
+          path: studies/M3D-1S/J7/R33-S27/INT11/native/
+          retention-days: 5
+          if-no-files-found: warn
