@@ -1,0 +1,104 @@
+name: HALO9 INT16 real alpha civic-macro direct-mesh visual experiment
+on:
+  push:
+    branches:
+      - research/r33-s27-int16-macro-scarp-direct-shape-20261106
+    paths:
+      - .github/workflows/halo9-int16-macro-direct-art-review.yml
+      - studies/M3D-1S/J7/R33-S27/INT16/author_m247c_macro_direct_existing.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int16-macro-direct-art-20261106
+  cancel-in-progress: false
+jobs:
+  isolated_native_art_experiment:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT16
+      SOURCE: studies/M3D-1S/J7/R33-S27/INT15/evidence/HALO9_INT15_H1_OCCUPIED_LIFT_PUBLIC_CORE.blend.gz
+      SOURCE_SHA: e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preflight protected parent and isolated code syntax
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/heads/research/r33-s27-int16-macro-scarp-direct-shape-20261106'
+          python3 -m py_compile "$ROOT/author_m247c_macro_direct_existing.py"
+          gzip -dc "$SOURCE" > /tmp/INT16_SOURCE.blend
+          printf '%s  %s\n' "$SOURCE_SHA" /tmp/INT16_SOURCE.blend | sha256sum -c -
+      - name: Obtain official Blender 5.2.1 with official checksum
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/h16-b && cd /tmp/h16-b
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz -o blender.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o official_sums
+          sed -n '/blender-5.2.1-linux-x64.tar.xz/p' official_sums | sed 's/blender-5.2.1-linux-x64.tar.xz$/blender.tar.xz/' | sha256sum -c -
+          tar -xf blender.tar.xz
+      - name: Actually sculpt existing 3D mesh and render 4 original-scene views
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-int16
+          timeout 1400s /tmp/h16-b/blender-5.2.1-linux-x64/blender --background --threads 2 --python-exit-code 92 \
+             /tmp/INT16_SOURCE.blend --python "$ROOT/author_m247c_macro_direct_existing.py" \
+             -- --output /tmp/halo9-int16 2>&1 | tee /tmp/halo9-int16/author.log
+          grep -F INT16_NATIVE_MACRO_DIRECT_EDIT_COMPLETE_NOT_ART /tmp/halo9-int16/author.log
+      - name: Independently reopen actual saved BLEND without overriding evidence
+        run: |
+          set -euo pipefail
+          cat > /tmp/halo9-int16/reopen.py <<'PY'
+          import bpy
+          s=bpy.context.scene
+          assert s.get("INT16_ART")=="UNREVIEWED_NOT_ADOPTED"
+          assert s.get("INT16_METHOD")=="SCRIPTED_NATIVE_MESH_EDIT_NOT_GUI_BRUSH"
+          assert s["FORMAL_ART_ACCEPTED"]==s["COMPLETED_TARGETS"]==0
+          assert s["CONSTRUCTION"]=="HOLD"
+          assert len(bpy.data.objects["INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE"].data.polygons)>50
+          assert len(bpy.data.objects["INT11_M247C_ALPHA_EAST_CIVIC_HIGH_CITY"].data.polygons)>50
+          assert all(n in bpy.data.objects for n in ("W0_EASTERN_ARTIFICIAL_SEA","E11_NAVE_HUMAN","E11_H1_HUMAN","E11_URBAN_AERIAL"))
+          print("INT16_INDEPENDENT_BLENDER_REOPEN_TECH_PASS_NOT_ART",flush=True)
+          PY
+          /tmp/h16-b/blender-5.2.1-linux-x64/blender --background --threads 2 --python-exit-code 93 \
+            /tmp/halo9-int16/HALO9_INT16_MACRO_CIVIC_SCARPS.blend --python /tmp/halo9-int16/reopen.py \
+            2>&1 | tee /tmp/halo9-int16/reopen.log
+          grep -F INT16_INDEPENDENT_BLENDER_REOPEN_TECH_PASS_NOT_ART /tmp/halo9-int16/reopen.log
+      - name: Compact research evidence only (no Actions artifact storage)
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3-pil
+          python3 - <<'PY'
+          import os,json,hashlib,gzip
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          root=Path(os.environ["ROOT"]); dst=root/"evidence";dst.mkdir(parents=True,exist_ok=True)
+          tmp=Path("/tmp/halo9-int16")
+          src=tmp/"HALO9_INT16_MACRO_CIVIC_SCARPS.blend"
+          with src.open("rb") as i,gzip.open(dst/(src.name+".gz"),"wb",compresslevel=6) as o:
+              while p:=i.read(1048576):o.write(p)
+          names=["E11_NAVE_HUMAN","E11_H1_HUMAN","E11_URBAN_AERIAL","INT16_ARCHITECTURAL_FRONT_EXTRA"]
+          panel=Image.new("RGB",(1300,1040),(219,220,220)); draw=ImageDraw.Draw(panel)
+          for i,n in enumerate(names):
+              pic=Image.open(tmp/"renders"/(n+".png")).convert("RGB")
+              pic.thumbnail((650,480),Image.Resampling.LANCZOS)
+              x=i%2*650;y=i//2*520
+              panel.paste(pic,(x,y+30));draw.text((x+8,y+7),n,fill=(20,20,20))
+          jpg=dst/"INT16_FOUR_REAL_SCENE_VIEWS_ART_UNREVIEWED.jpg"
+          panel.save(jpg,quality=88,optimize=True)
+          report=json.loads((tmp/"INT16_NATIVE_RESEARCH_EVIDENCE_NOT_ART.json").read_text())
+          report["montage_sha256"]=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          report["independent_reopen"]="PASS"
+          report["art"]="UNREVIEWED_NOT_ADOPTED"
+          (dst/"INT16_INDEPENDENT_TECH_NOT_ART.json").write_text(json.dumps(report,indent=2))
+          print("INT16_REAL_NATIVE_BLENDER_AND_FOUR_IMAGES_ARCHIVED_NOT_ART")
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT16: archive directly modified M247-C real Blender macro source and unchanged E11 views [skip ci]'
+            git fetch origin research/r33-s27-int16-macro-scarp-direct-shape-20261106
+            git rebase origin/research/r33-s27-int16-macro-scarp-direct-shape-20261106
+            git push origin HEAD:refs/heads/research/r33-s27-int16-macro-scarp-direct-shape-20261106
+          fi
