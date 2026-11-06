@@ -75,8 +75,11 @@ def boundary_solid(name,outline,low,height,material,upper_shift=(0,0)):
 def carve_prism(target,name,foot,zmin,zmax):
     n=len(foot);v=[(x,y,zmin) for x,y in foot]
     v +=[(x,y,zmax) for x,y in foot]
-    f=[tuple(range(n)),tuple(reversed(range(n,2*n)))]
-    for i in range(n):f.append((i,i+n,(i+1)%n+n,(i+1)%n))
+    # Footprints are counter-clockwise: bottom cap faces down, top cap
+    # faces up, sides face out. Inward cutter winding produced NO boolean
+    # cavity in the first real Blender run; do not weaken this geometry gate.
+    f=[tuple(reversed(range(n))),tuple(range(n,2*n))]
+    for i in range(n):f.append((i,(i+1)%n,(i+1)%n+n,i+n))
     cutter=mesh('TEMP_'+name+'_CAVITY',v,f,'mosaic')
     bpy.ops.object.select_all(action='DESELECT')
     target.select_set(True)
