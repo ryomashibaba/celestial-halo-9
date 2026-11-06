@@ -63,7 +63,8 @@ assert all(n in bpy.data.objects for n in ('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_
     'W0_GROUND_BASIN','W0_EASTERN_ARTIFICIAL_SEA',
     'INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE'))
 assert bpy.data.filepath == str(src)
-area=next((a for a in bpy.context.screen.areas if a.type=='VIEW_3D'),None)
+screen=bpy.context.window_manager.windows[0].screen
+area=next((a for a in screen.areas if a.type=='VIEW_3D'),None)
 assert area is not None,'NO_REAL_VIEW_3D_FOR_MCP'
 v=area.spaces.active
 v.region_3d.view_perspective='CAMERA'
