@@ -1,0 +1,197 @@
+name: HALO9 INT9 actual inhabited NAVE/H1 civic-cut + real GUI sculpt + fixed E11 art evidence
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int9-civic-void-gui-sculpt-20261106
+    paths:
+      - .github/workflows/halo9-int9-real-gui-civic-section.yml
+      - studies/M3D-1S/J7/R33-S27/INT9/author_civic_section_gui.py
+      - studies/M3D-1S/J7/R33-S27/INT9/render_independent.py
+permissions:
+  contents: write
+concurrency:
+  group: halo9-int9-real-civic-20261106
+  cancel-in-progress: false
+jobs:
+  edit_render_review_research:
+    if: github.ref == 'refs/heads/research/r33-s27-d48-int9-civic-void-gui-sculpt-20261106'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      ROOT: studies/M3D-1S/J7/R33-S27/INT9
+      PARENT: studies/M3D-1S/J7/R33-S27/INT7_R1/evidence/HALO9_INT7_R1_CORRECTED_PUBLIC_CIVIC_RIFT.blend.gz
+      PARENT_SHA: 8d1b5a8a3c9cd1889e34684a071883f67a1252227f5aff5b2736d613e3e8b4a2
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify exact real INT7-R1 source and scripts — no original writes
+        run: |
+          set -euo pipefail
+          mkdir -p "$ROOT/native"
+          test -s "$PARENT"
+          gzip -dc "$PARENT" > /tmp/INT9_SOURCE.blend
+          printf '%s  %s\n' "$PARENT_SHA" /tmp/INT9_SOURCE.blend | sha256sum -c -
+          python3 -m py_compile "$ROOT/author_civic_section_gui.py" "$ROOT/render_independent.py"
+          echo INT9_PARENT_RESEARCH_SOURCE_INTACT
+      - name: Install headful Linux virtual desktop and image handling
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq \
+            xvfb x11-utils openbox xdotool scrot python3-pil libgl1-mesa-dri
+      - name: Acquire SHA-verified official Blender 5.2.1 LTS
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/halo9-int9-blender && cd /tmp/halo9-int9-blender
+          curl -fL --retry 2 --connect-timeout 25 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1-linux-x64.tar.xz \
+            -o blender-5.2.1-linux-x64.tar.xz
+          curl -fL --retry 2 --connect-timeout 25 \
+            https://download.blender.org/release/Blender5.2/blender-5.2.1.sha256 -o sums
+          grep -F 'blender-5.2.1-linux-x64.tar.xz' sums | sha256sum -c -
+          tar -xf blender-5.2.1-linux-x64.tar.xz
+      - name: Edit inherited NAVE/H1 in actual Blender GUI and save changed native BLEND
+        run: |
+          set -euo pipefail
+          export DISPLAY=:94
+          export LIBGL_ALWAYS_SOFTWARE=1
+          OUT=/tmp/halo9-int9
+          mkdir -p "$OUT"
+          Xvfb :94 -screen 0 1600x1000x24 +extension GLX -nolisten tcp > "$OUT/XVFB.log" 2>&1 &
+          XVFB_PID=$!
+          for i in $(seq 1 20); do xdpyinfo -display :94 >/dev/null 2>&1 && break; sleep 1; done
+          xdpyinfo -display :94 >/dev/null
+          openbox > "$OUT/OPENBOX.log" 2>&1 &
+          B=/tmp/halo9-int9-blender/blender-5.2.1-linux-x64/blender
+          timeout 830s "$B" --window-geometry 0 0 1520 930 --threads 2 --python-exit-code 97 \
+            /tmp/INT9_SOURCE.blend --python "$ROOT/author_civic_section_gui.py" \
+            > "$OUT/BLENDER_GUI_AUTHOR.log" 2>&1 &
+          PID=$!
+          found=0
+          for i in $(seq 1 95); do
+            if test -s "$OUT/AUTHOR_READY.json"; then found=1; break; fi
+            if ! kill -0 "$PID" 2>/dev/null; then
+              tail -100 "$OUT/BLENDER_GUI_AUTHOR.log" || true; exit 31
+            fi
+            sleep 1
+          done
+          if test "$found" -ne 1; then
+            tail -100 "$OUT/BLENDER_GUI_AUTHOR.log"; exit 32
+          fi
+          WID=$(xdotool search --onlyvisible --class blender | head -n1)
+          test -n "$WID"
+          xdotool windowactivate --sync "$WID"
+          sleep 2
+          # Close real Blender first-run quick setup, if present.
+          xdotool mousemove --sync 795 710
+          xdotool click 1
+          sleep 1
+          xdotool key --clearmodifiers Escape
+          sleep 2
+          scrot -o "$OUT/BEFORE_REAL_GUI.png"
+          touch "$OUT/BEGIN_EDIT"
+          done=0
+          for i in $(seq 1 115); do
+            if test -s "$OUT/AUTHOR_SUCCESS.json"; then done=1; break; fi
+            if test -s "$OUT/AUTHOR_FAILURE.json"; then
+              echo INT9_GUI_NATIVE_EDIT_FAILED
+              cat "$OUT/AUTHOR_FAILURE.json"
+              exit 33
+            fi
+            if ! kill -0 "$PID" 2>/dev/null; then
+              tail -100 "$OUT/BLENDER_GUI_AUTHOR.log"; exit 34
+            fi
+            sleep 1
+          done
+          scrot -o "$OUT/AFTER_REAL_GUI.png"
+          if test "$done" -ne 1; then
+            echo INT9_GUI_NATIVE_EDIT_TIMEOUT; tail -100 "$OUT/BLENDER_GUI_AUTHOR.log"; exit 35
+          fi
+          cat "$OUT/AUTHOR_SUCCESS.json"
+          echo INT9_ACTUAL_GUI_CIVIC_SCULPT_FILE_SAVED
+          kill "$PID" || true
+          kill "$XVFB_PID" || true
+      - name: Independent Blender process reopens saved city and renders three immutable E11 cameras
+        run: |
+          set -euo pipefail
+          B=/tmp/halo9-int9-blender/blender-5.2.1-linux-x64/blender
+          timeout 1300s "$B" --background --threads 2 --python-exit-code 97 \
+            /tmp/halo9-int9/HALO9_INT9_CIVIC_ATRIUM_AND_SCULPTED_FAULT.blend \
+            --python "$ROOT/render_independent.py" 2>&1 | tee "$ROOT/native/INDEPENDENT_RENDER.log"
+          grep -F 'INT9_INDEPENDENT_REAL_BLENDER_RENDER_PASS_NOT_ART' "$ROOT/native/INDEPENDENT_RENDER.log"
+      - name: Save actual editable city BLEND and fixed real render evidence to separate research branch
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,hashlib,base64,gzip,os
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageStat
+          root=Path(os.environ['ROOT'])
+          tmp=Path('/tmp/halo9-int9')
+          e=root/'evidence';e.mkdir(exist_ok=True)
+          source=tmp/'HALO9_INT9_CIVIC_ATRIUM_AND_SCULPTED_FAULT.blend'
+          with source.open('rb') as inp,gzip.open(e/(source.name+'.gz'),'wb',compresslevel=6) as out:
+              while chunk:=inp.read(1048576):out.write(chunk)
+          views=('E11_NAVE_HUMAN','E11_H1_HUMAN','E11_URBAN_AERIAL')
+          im=Image.new('RGB',(1650,445),(226,226,224))
+          draw=ImageDraw.Draw(im)
+          brightness={}
+          for i,n in enumerate(views):
+              p=tmp/'renders'/(n+'.png')
+              raw=Image.open(p).convert('RGB')
+              brightness[n]=round(sum(ImageStat.Stat(raw).mean)/3,2)
+              raw.thumbnail((550,412),Image.Resampling.LANCZOS)
+              im.paste(raw,(i*550,30))
+              draw.text((i*550+7,8),n,fill=(0,0,0))
+          jpg=e/'INT9_TRUE_THREE_FIXED_E11_VIEWS_UNREVIEWED.jpg'
+          im.save(jpg,quality=85,optimize=True)
+          (e/'INT9_TRUE_THREE_FIXED_E11_BASE64.txt').write_text(base64.b64encode(jpg.read_bytes()).decode())
+          result=json.loads((tmp/'INDEPENDENT_RENDER_RESULT.json').read_text())
+          result['mean_brightness']=brightness
+          result['review_image_sha256']=hashlib.sha256(jpg.read_bytes()).hexdigest()
+          result['art']='UNREVIEWED_NOT_ADOPTED'
+          (e/'INT9_NATIVE_TECH_NOT_ART.json').write_text(json.dumps(result,indent=2))
+          for x in ('BEFORE_REAL_GUI','AFTER_REAL_GUI'):
+              p=tmp/(x+'.png')
+              if p.exists():
+                  img=Image.open(p).convert('RGB');img.thumbnail((1100,690),Image.Resampling.LANCZOS)
+                  img.save(e/(x+'.png'),optimize=True)
+          print('INT9_ARCHIVED_NATIVE_3D_AND_3_FIXED_RENDERS',brightness,flush=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/evidence/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT9: archive actual GUI-sculpted existing central fault, opened H1 school, 3 immutable E11 renders [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int9-civic-void-gui-sculpt-20261106
+          fi
+      - name: Preserve failure log and actual native screenshots without claiming success
+        if: failure()
+        run: |
+          set -euo pipefail
+          OUT=/tmp/halo9-int9
+          mkdir -p "$ROOT/debug"
+          for f in BLENDER_GUI_AUTHOR.log AUTHOR_READY.json AUTHOR_FAILURE.json AUTHOR_SUCCESS.json; do
+            test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
+          done
+          for f in BEFORE_REAL_GUI.png AFTER_REAL_GUI.png; do
+            test -f "$OUT/$f" && cp "$OUT/$f" "$ROOT/debug/$f" || true
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$ROOT/debug/"
+          if ! git diff --cached --quiet; then
+            git commit -m 'INT9: record actual GUI city edit failure safely, no art approval [skip ci]'
+            git push origin HEAD:refs/heads/research/r33-s27-d48-int9-civic-void-gui-sculpt-20261106
+          fi
+      - name: Short-lived native source, full-resolution PNGs and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: HALO9-INT9-ACTUAL-GUI-SCULPTED-CITY-AND-E11
+          path: |
+            /tmp/halo9-int9/
+            studies/M3D-1S/J7/R33-S27/INT9/native/
+          retention-days: 5
+          if-no-files-found: warn
