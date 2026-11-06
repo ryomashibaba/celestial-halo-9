@@ -1,0 +1,44 @@
+name: HALO9 INT8 inspect failed real GUI screenshots with an image evidence inspector
+on:
+  push:
+    branches:
+      - research/r33-s27-d48-int8-visual-blender-ui-20261106
+    paths:
+      - .github/workflows/halo9-int8-screen-inspector.yml
+permissions:
+  contents: write
+jobs:
+  screen_inspector:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create readable reduced-resolution evidence of actual Blender UI state
+        run: |
+          set -euo pipefail
+          python3 -m pip install --disable-pip-version-check --quiet --break-system-packages Pillow
+          python3 - <<'PY'
+          import base64
+          from pathlib import Path
+          from PIL import Image,ImageDraw
+          root=Path('studies/M3D-1S/J7/R33-S27/INT8/debug')
+          names=['BEFORE_REAL_GUI','AFTER_REAL_MOUSE_SCULPT','GUI_AFTER_CONSOLE']
+          collage=Image.new('RGB',(1500,1000),(210,211,210))
+          draw=ImageDraw.Draw(collage)
+          for i,name in enumerate(names):
+              file=root/(name+'.png')
+              if not file.is_file():continue
+              im=Image.open(file).convert('RGB')
+              im.thumbnail((750,465),Image.Resampling.LANCZOS)
+              x=(i%2)*750;y=(i//2)*500
+              collage.paste(im,(x,y+27));draw.text((x+7,y+5),name,fill=(0,0,0))
+          jpeg=root/'INT8_REAL_GUI_FIRST_MONTAGE.jpg'
+          collage.save(jpeg,quality=84,optimize=True)
+          (root/'INT8_REAL_GUI_FIRST_MONTAGE_BASE64.txt').write_text(base64.b64encode(jpeg.read_bytes()).decode())
+          print('INT8_REAL_IMAGE_INSPECTOR_SAVED',jpeg.stat().st_size)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add studies/M3D-1S/J7/R33-S27/INT8/debug/INT8_REAL_GUI_FIRST_MONTAGE*
+          git commit -m 'INT8: encode real failed X11 Blender UI screenshots for visual diagnosis [skip ci]'
+          git push origin HEAD:refs/heads/research/r33-s27-d48-int8-visual-blender-ui-20261106
