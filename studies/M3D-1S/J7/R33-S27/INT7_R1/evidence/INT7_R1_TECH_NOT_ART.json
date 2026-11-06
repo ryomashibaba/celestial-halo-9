@@ -1,0 +1,113 @@
+{
+  "schema": "halo9-int7-r1-image-led-actual-geometry-revision",
+  "source_sha256": "26bdedb3681a83cb3db39145d1ee7e036c2ee8a557622c6d0aeb9344a90637f6",
+  "blend_sha256": "8d1b5a8a3c9cd1889e34684a071883f67a1252227f5aff5b2736d613e3e8b4a2",
+  "modified_geometry": [
+    {
+      "object": "INT7_NAVE_GREAT_CIVIC_ASSEMBLY_FLOOR",
+      "vertex_count": 16,
+      "true_vertical_edit_m": -16.5,
+      "original_top_z": 88.0,
+      "new_top_z": 71.5
+    },
+    {
+      "object": "INT7_NAVE_CONTINUOUS_PUBLIC_CENTRAL_BOULEVARD",
+      "vertices_moved": 14,
+      "maximum_lowering_m": 16.5
+    },
+    {
+      "object": "INT7_NAVE_WEST_READING_RAMP",
+      "vertices_moved": 16,
+      "maximum_lowering_m": 16.5
+    },
+    {
+      "object": "INT7_NAVE_STATION_ACCESS",
+      "vertices_moved": 12,
+      "maximum_lowering_m": 16.5
+    },
+    {
+      "object": "INT7_M247_ALPHA_EAST_ASCENDING_CIVIC_SHEAR",
+      "vertices_moved": 45,
+      "east_section_displacements_m": {
+        "-379": 0.0,
+        "-129": 110.0,
+        "94": 520.0,
+        "326": 550.0,
+        "588": 380.0,
+        "855": 135.0,
+        "1176": 0.0
+      },
+      "intent": "REOPEN_H1_LIVED_CIVIC_SPACE"
+    }
+  ],
+  "camera_rays_before": {
+    "E11_NAVE_HUMAN": {
+      "hit": true,
+      "object": "INT7_NAVE_NORTH_RITUAL_CIVIC_ATRIUM",
+      "distance": 756.941
+    },
+    "E11_H1_HUMAN": {
+      "hit": true,
+      "object": "INT7_CITY_EAST_INHABITED_SCHOOL_PHYSICAL_PUBLIC_BODY",
+      "distance": 69.959
+    },
+    "E11_URBAN_AERIAL": {
+      "hit": true,
+      "object": "INT7_NAVE_NORTH_RITUAL_CIVIC_ATRIUM",
+      "distance": 3990.451
+    }
+  },
+  "camera_rays_after": {
+    "E11_NAVE_HUMAN": {
+      "hit": true,
+      "object": "INT7_NAVE_NORTH_RITUAL_CIVIC_ATRIUM",
+      "distance": 756.941
+    },
+    "E11_H1_HUMAN": {
+      "hit": true,
+      "object": "INT7_CITY_EAST_INHABITED_SCHOOL_PHYSICAL_PUBLIC_BODY",
+      "distance": 69.959
+    },
+    "E11_URBAN_AERIAL": {
+      "hit": true,
+      "object": "INT7_NAVE_NORTH_RITUAL_CIVIC_ATRIUM",
+      "distance": 3990.451
+    }
+  },
+  "additional_review_rays": {
+    "interior": {
+      "hit": true,
+      "object": "INT7_M247_ALPHA_WEST_LIVED_FAULT_SHEAR",
+      "distance": 414.878
+    },
+    "oblique": {
+      "hit": true,
+      "object": "INT7_M247_ALPHA_WEST_LIVED_FAULT_SHEAR",
+      "distance": 2260.248
+    }
+  },
+  "original_three_camera_matrices_unchanged": true,
+  "true_render_hashes": {
+    "E11_NAVE_HUMAN": "38e3bf3bda1d0cf7552d6282cf87a2acced3f32bfbea2d8c5db9efdb26b2d99b",
+    "E11_H1_HUMAN": "a4e4c46a2a853e5f835423e628b458dde3cb192758403816d7c6396ffda3547c",
+    "E11_URBAN_AERIAL": "57038d0f618401e0d6f9bb2fce07b6450a1b60f7535ce9a82a6f0b534177621c",
+    "INT7_NAVE_CIVIC_INTERIOR_DETAIL": "7b029caef938cfb338612024ef665690b7cbbd6b4bf44f9ad64406741c730373",
+    "INT7_M247_W0_SCULPTURE_OBLIQUE": "a36b4852ec2624c3892b7a1a30f70e30a556aed03717e8895e9dc0bbfdccb1e6"
+  },
+  "technical_integrity": "NONZERO_MESH_PASS_FULL_BVH_FUNCTION_UNKNOWN",
+  "functional_public_routes": "UNKNOWN_NO_INDEPENDENT_WALKABILITY_SWEEP",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "coordinates": "UNREGISTERED_RESEARCH_METRES",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 168.22,
+    "E11_H1_HUMAN": 24.64,
+    "E11_URBAN_AERIAL": 108.29,
+    "INT7_NAVE_CIVIC_INTERIOR_DETAIL": 182.8,
+    "INT7_M247_W0_SCULPTURE_OBLIQUE": 143.09
+  },
+  "image_preflight": "VALID_CANDIDATE",
+  "mosaic_sha256": "78cbba97cb624dcad3ae340b7d8dac2ad197be78e8dd0307805146f5fa8fa8ef"
+}
