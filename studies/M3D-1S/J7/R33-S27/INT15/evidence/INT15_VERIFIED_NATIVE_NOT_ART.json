@@ -1,0 +1,454 @@
+{
+  "schema": "halo9-int15-m247c-h1-actual-native-mobility-research-v1",
+  "input_sha256": "431f5d1845f04a7fa669e2e230e00298cfedd98ee3d3069eb36c3fc85a7a6146",
+  "native_blend_sha256": "e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9",
+  "old_rejected_research_objects_physically_removed_in_copy": [
+    "INT4_H1_URBAN_MAIN_PEDESTRIAN_CROSSING",
+    "INT4_H1_PUBLIC_BOULEVARD",
+    "INT4_H1_MARKET_CIVIC_COURT_floor",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_0",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_1",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_3",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_4",
+    "INT4_H1_MARKET_CIVIC_COURT_wall_5",
+    "INT4_H1_MARKET_CIVIC_COURT_upper_skyshade_core",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_floor",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_0",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_1",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_2",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_3",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_wall_4",
+    "INT4_H1_SCHOOL_AND_ASSEMBLY_upper_skyshade_core",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_floor",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_0",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_1",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_3",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_4",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_wall_5",
+    "INT4_H1_READERS_PUBLIC_LIBRARY_upper_skyshade_core",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_floor",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_0",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_1",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_2",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_3",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_wall_5",
+    "INT4_H1_OCCUPIED_HOUSING_COURT_upper_skyshade_core",
+    "INT4_H1_MARKET_NAVE_CONNECTOR",
+    "INT4_H1_SCHOOL_PEDESTRIAN_LINK",
+    "INT4_H1_UPPER_INHABITED_CITY_ROUTE",
+    "INT4_H1_OPEN_COURTYARD_GARDEN",
+    "INT4_H1_HIGH_GARDEN",
+    "INT4_R1_H1_MARKET_MEZZANINE_LANDING",
+    "INT11_H1_CIVIC_COMMON_MARKET_STREET",
+    "INT11_H1_NAVE_PUBLIC_GRADIENT_EXCHANGE",
+    "INT11_H1_HIGH_DISTRICT_TO_FLOATING_HEAD",
+    "INT11_H1_SCHOOL_HUMANITIES",
+    "INT11_H1_SCHOOL_CIVIC_STUDIO",
+    "INT11_H1_MARKET_FOOD_HALL",
+    "INT11_H1_MARKET_COVERED_COMMONS",
+    "INT11_H1_LIBRARY_READING_GARDEN",
+    "INT11_H1_HEALTH_COMMUNITY",
+    "INT11_H1_WORKSHOP_METAL_AND_WATER",
+    "INT11_H1_RESIDENTIAL_HANGING_COURT_1",
+    "INT11_H1_RESIDENTIAL_HANGING_COURT_2",
+    "INT11_H1_RESIDENTIAL_HANGING_COURT_3",
+    "INT11_H1_NORTH_NEIGHBORHOOD_FORUM",
+    "INT11_H1_SKY_RESEARCH_CIVIC_LOUNGE"
+  ],
+  "unsafe_H1_walkway_3_removed_in_copy": [
+    "INT13_PUBLIC_SPATIAL_ROUTE_06_H1_MARKET_TO_H1_SCHOOL",
+    "INT13_PUBLIC_SPATIAL_ROUTE_07_H1_SCHOOL_TO_H1_COMMONS",
+    "INT13_PUBLIC_SPATIAL_ROUTE_08_H1_COMMONS_TO_H1_RESIDENCES"
+  ],
+  "target_h1_mass": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+  "original_polygons": 108,
+  "final_polygons": 199,
+  "actual_boolean_subtractions": [
+    {
+      "name": "H1_FOUR_LEVEL_VERTICAL_MOBILITY_CANYON",
+      "faces_before": 108,
+      "faces_after": 137,
+      "physical_mesh_topology_changed": true,
+      "radius_m": 88,
+      "endpoints": [
+        [
+          1115.0,
+          635.0,
+          340
+        ],
+        [
+          1115.0,
+          635.0,
+          945
+        ]
+      ]
+    },
+    {
+      "name": "TO_H1_MARKET",
+      "faces_before": 137,
+      "faces_after": 160,
+      "physical_mesh_topology_changed": true,
+      "radius_m": 47,
+      "endpoints": [
+        [
+          615.0,
+          410.0,
+          464.0
+        ],
+        [
+          1115.0,
+          635.0,
+          464.0
+        ]
+      ]
+    },
+    {
+      "name": "TO_H1_SCHOOL",
+      "faces_before": 160,
+      "faces_after": 160,
+      "physical_mesh_topology_changed": false,
+      "radius_m": 47,
+      "endpoints": [
+        [
+          840.0,
+          520.0,
+          559.0
+        ],
+        [
+          1115.0,
+          635.0,
+          559.0
+        ]
+      ]
+    },
+    {
+      "name": "TO_H1_COMMONS",
+      "faces_before": 160,
+      "faces_after": 164,
+      "physical_mesh_topology_changed": true,
+      "radius_m": 47,
+      "endpoints": [
+        [
+          1045.0,
+          680.0,
+          659.0
+        ],
+        [
+          1115.0,
+          635.0,
+          659.0
+        ]
+      ]
+    },
+    {
+      "name": "TO_H1_RESIDENCES",
+      "faces_before": 164,
+      "faces_after": 199,
+      "physical_mesh_topology_changed": true,
+      "radius_m": 47,
+      "endpoints": [
+        [
+          1200.0,
+          900.0,
+          839.0
+        ],
+        [
+          1115.0,
+          635.0,
+          839.0
+        ]
+      ]
+    }
+  ],
+  "new_native_components": [
+    "INT15_PUBLIC_FLAT_GALLERY_H1_MARKET",
+    "INT15_PUBLIC_FLAT_GALLERY_H1_SCHOOL",
+    "INT15_PUBLIC_FLAT_GALLERY_H1_COMMONS",
+    "INT15_PUBLIC_FLAT_GALLERY_H1_RESIDENCES",
+    "INT15_MOVABLE_CIVIC_PUBLIC_LIFT_PLATFORM"
+  ],
+  "flat_gallery_segments": [
+    {
+      "station": "H1_MARKET",
+      "gallery": "INT15_PUBLIC_FLAT_GALLERY_H1_MARKET",
+      "from": [
+        615.0,
+        410.0,
+        435.0
+      ],
+      "to": [
+        1115.0,
+        635.0,
+        435.0
+      ],
+      "rise_m": 0.0,
+      "length_m": 548.293,
+      "horizontal": "TRUE",
+      "actual_collision_free": "NOT_VERIFIED"
+    },
+    {
+      "station": "H1_SCHOOL",
+      "gallery": "INT15_PUBLIC_FLAT_GALLERY_H1_SCHOOL",
+      "from": [
+        840.0,
+        520.0,
+        530.0
+      ],
+      "to": [
+        1115.0,
+        635.0,
+        530.0
+      ],
+      "rise_m": 0.0,
+      "length_m": 298.077,
+      "horizontal": "TRUE",
+      "actual_collision_free": "NOT_VERIFIED"
+    },
+    {
+      "station": "H1_COMMONS",
+      "gallery": "INT15_PUBLIC_FLAT_GALLERY_H1_COMMONS",
+      "from": [
+        1045.0,
+        680.0,
+        630.0
+      ],
+      "to": [
+        1115.0,
+        635.0,
+        630.0
+      ],
+      "rise_m": 0.0,
+      "length_m": 83.217,
+      "horizontal": "TRUE",
+      "actual_collision_free": "NOT_VERIFIED"
+    },
+    {
+      "station": "H1_RESIDENCES",
+      "gallery": "INT15_PUBLIC_FLAT_GALLERY_H1_RESIDENCES",
+      "from": [
+        1200.0,
+        900.0,
+        810.0
+      ],
+      "to": [
+        1115.0,
+        635.0,
+        810.0
+      ],
+      "rise_m": 0.0,
+      "length_m": 278.298,
+      "horizontal": "TRUE",
+      "actual_collision_free": "NOT_VERIFIED"
+    }
+  ],
+  "four_stations": [
+    [
+      "H1_MARKET",
+      [
+        615.0,
+        410.0
+      ],
+      435.0
+    ],
+    [
+      "H1_SCHOOL",
+      [
+        840.0,
+        520.0
+      ],
+      530.0
+    ],
+    [
+      "H1_COMMONS",
+      [
+        1045.0,
+        680.0
+      ],
+      630.0
+    ],
+    [
+      "H1_RESIDENCES",
+      [
+        1200.0,
+        900.0
+      ],
+      810.0
+    ]
+  ],
+  "cabin_keyframes": [
+    1,
+    64,
+    128,
+    192
+  ],
+  "old_remaining_unsafe_other_routes": [
+    [
+      "NAVE_STATION",
+      "NAVE_FORUM",
+      12.91
+    ],
+    [
+      "NAVE_FORUM",
+      "NAVE_LIBRARY",
+      41.36
+    ],
+    [
+      "NAVE_LIBRARY",
+      "NAVE_CEREMONY",
+      29.451
+    ],
+    [
+      "NAVE_CEREMONY",
+      "NAVE_ASCENT",
+      12.383
+    ],
+    [
+      "NAVE_ASCENT",
+      "H1_MARKET",
+      22.5
+    ]
+  ],
+  "physical_walkability": "NOT_CERTIFIED",
+  "elevator_mechanism": "KEYFRAMED_PLATFORM_ONLY__NO_FUNCTIONAL_CONTROLS",
+  "actual_building_structure_safety": "UNVERIFIED",
+  "fixed_E11_matrices": {
+    "E11_NAVE_HUMAN": [
+      [
+        0.9994910955429077,
+        0.011475143022835255,
+        0.029763158410787582,
+        15.0
+      ],
+      [
+        0.031898658722639084,
+        -0.3595544993877411,
+        -0.9325786828994751,
+        -360.0
+      ],
+      [
+        3.0868667622030443e-09,
+        0.9330535531044006,
+        -0.3597375452518463,
+        73.69999694824219
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_H1_HUMAN": [
+      [
+        0.9988681674003601,
+        -0.014305509626865387,
+        -0.0453629307448864,
+        760.0
+      ],
+      [
+        -0.047565147280693054,
+        -0.3004157245159149,
+        -0.9526216387748718,
+        270.0
+      ],
+      [
+        -2.0072432604933965e-10,
+        0.9537010788917542,
+        -0.30075615644454956,
+        438.70001220703125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "E11_URBAN_AERIAL": [
+      [
+        0.8088601231575012,
+        -0.2191125452518463,
+        0.5456510186195374,
+        2150.0
+      ],
+      [
+        0.5880011320114136,
+        0.3014134168624878,
+        -0.7506028413772583,
+        -2700.0
+      ],
+      [
+        -3.02104439242612e-08,
+        0.927976131439209,
+        0.3726397156715393,
+        1850.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "W0_original_sha": {
+    "W0_NORTH_FRACTURED_RANGE": "eecf9f880e59bc4e838f6868955a75f5e68e4061773ec5848b1c8522ea084076",
+    "W0_WEST_BASALT_ESCARPMENT": "2bd907404ead99b05b48dddcb748cde327ac80ac6cc224f6c0045dcf38857a6c",
+    "W0_GROUND_BASIN": "2cb83e2cb8005a00c0650b51707f0ae41c606fa1a76868cb8948148a42996734",
+    "W0_EASTERN_ARTIFICIAL_SEA": "017eb83a0747b1bc07cc08238c1b2340d8350cfbdf2ebf92c9090ed9db16f33f"
+  },
+  "H1_5_sample_hits_after": [
+    {
+      "u": 0.25,
+      "v": 0.25,
+      "name": "INT13_H1_MARKET_INTERIOR_FLOOR",
+      "distance": 31.86
+    },
+    {
+      "u": 0.5,
+      "v": 0.5,
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 710.0
+    },
+    {
+      "u": 0.75,
+      "v": 0.75,
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 936.44
+    },
+    {
+      "u": 0.25,
+      "v": 0.75,
+      "name": "INT13_H1_OCCUPIED_SCHOOL_MARKET_COMMONS_MASS",
+      "distance": 346.26
+    },
+    {
+      "u": 0.75,
+      "v": 0.25,
+      "name": "INT13_H1_MARKET_INTERIOR_FLOOR",
+      "distance": 34.2
+    }
+  ],
+  "native_5_png_sha256": {
+    "E11_NAVE_HUMAN": "d631763e843d8e77bd066d6d7c593dc12dbd131a57cc03fc17338ce2321e4978",
+    "E11_H1_HUMAN": "830ee522d960df6cc667fce3e9a04cf51e8eba37a3c704d21224ab9da63c9ae6",
+    "E11_URBAN_AERIAL": "13c741cc38434546b8ae76621d8ef07ba297835ec0e0b9340764adecafbbea6f",
+    "INT15_H1_FOUR_STOP_CIVIC_SHAFT_ROOM": "c3584c881ef60a9f0c585ccdc96cb475af75b3bd241a6b1c58a86d2e0c44bc94",
+    "INT15_H1_MARKET_SCHOOL_PUBLIC_GALLERY": "7bf590df99fb29c2f72214d5a06088fcf1063d66d33673e98fe9d051314ae532"
+  },
+  "no_cutaway_masking": true,
+  "full_city_art": "UNREVIEWED_NOT_ADOPTED",
+  "formal_art_accepted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "five_image_average_brightness": {
+    "E11_NAVE_HUMAN": 113.53,
+    "E11_H1_HUMAN": 73.91,
+    "E11_URBAN_AERIAL": 96.92,
+    "INT15_H1_FOUR_STOP_CIVIC_SHAFT_ROOM": 72.68,
+    "INT15_H1_MARKET_SCHOOL_PUBLIC_GALLERY": 76.47
+  },
+  "mosaic_sha256": "ebab288aaacdce6e506adbb88b179468f4ae0d7ee47312e49b2a978bf9ba9b23",
+  "independent_blend_reopen": "PASS",
+  "art": "UNREVIEWED_NOT_ADOPTED"
+}
