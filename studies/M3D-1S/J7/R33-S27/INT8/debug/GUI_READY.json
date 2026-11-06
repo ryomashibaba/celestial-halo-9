@@ -31,6 +31,8 @@
   "initial_mode": "SCULPT",
   "gui_event_loop_attempts": 1,
   "original_camera_matrices_recorded": true,
+  "target_isolated_in_working_viewport": true,
+  "temporarily_hidden_mesh_count": 150,
   "formal_art_adopted": 0,
   "completed_targets": 0,
   "minecraft": "HOLD",
