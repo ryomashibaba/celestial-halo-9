@@ -1,0 +1,78 @@
+{
+  "schema": "halo9-int19-nave-real-gui-mouse-geometry-evidence",
+  "source_sha256": "e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9",
+  "blender_version": "5.2.1 LTS",
+  "real_window": true,
+  "input_method": "Xvfb+xdotool ABSOLUTE_ROOT_COORDS pointer mouseDown/move/mouseUp and GUI Console",
+  "physical_vertices_changed": 13,
+  "max_vertex_displacement": 16.31706,
+  "target_vertices": 6220,
+  "target": "INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE",
+  "ray_verified_pick": {
+    "window_client_xy_top_left": [
+      624,
+      434
+    ],
+    "region_xy_bottom_left": [
+      622.5,
+      406.5
+    ],
+    "window_wh": [
+      1520,
+      930
+    ],
+    "viewport_area_xywh": [
+      2,
+      90,
+      1245,
+      813
+    ],
+    "region_xywh": [
+      2,
+      90,
+      1245,
+      813
+    ],
+    "hit_target": "INT11_M247C_ALPHA_WEST_ACCRETED_ARCHIVE",
+    "hit_face_index": 4464,
+    "hit_location_world": [
+      -663.394,
+      -323.974,
+      724.981
+    ],
+    "sculpt_surface_point_world": [
+      -663.5,
+      -323.68,
+      725.097
+    ],
+    "ray_hit": true
+  },
+  "old_geometry_sha256": "962d9a1b451a09a3864edcaa6b0fa5f20eef202631123cd7554e6ef8936acc59",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "fixed_e11_review": "PENDING_ACTUAL_RENDER",
+  "gui_morph_scope": "ONE_ACTUAL_WEST_CIVIC_NAVE_MESH_ONLY",
+  "original_viewport_visibility_restored": true,
+  "saved_blend_sha256": "14819e62d45854ee64767f3fbaa61e9f7b4eacb756586103ec5cc2a34d820f70",
+  "saved_blend": "/tmp/halo9-int19-native/HALO9_INT19_NAVE_REAL_GUI_SCULPT_RESEARCH.blend",
+  "native_edit_valid": true,
+  "independent_blender_reopen": "PASS",
+  "e11_before_sha": {
+    "E11_NAVE_HUMAN": "82d2e3f434299755e2625a1d7d409f42a600c273e02ae9b0c1ce7a0d2d4ed705",
+    "E11_H1_HUMAN": "7b103773ec35fdd73d505e1f67466b868be13228dd83810007d4488ac74957c6",
+    "E11_URBAN_AERIAL": "66983f2e073fc87ac0084528d32754007462596f32d5317ca06a12eb456494e1"
+  },
+  "e11_after_sha": {
+    "E11_NAVE_HUMAN": "4f5369a584c071f28dab3a148d8baa0b34a11707bc5525af3eb904a34a2b08f1",
+    "E11_H1_HUMAN": "70c55094652c28106f817a2ac2e1b3d054a4b08a2083e95b036cb4c32dda045a",
+    "E11_URBAN_AERIAL": "07a663c6c1a7753ed06e061719c7713504deb57c0f16acd6b5f446b16cb9cf2e"
+  },
+  "art_comparison_sha256": "bda753fce27efed18ae43b1fb41a092dc3ea5f29226b375795c058acc5a5f3f6",
+  "function": "UNVERIFIED",
+  "formal_adoption": 0,
+  "completed_city_master_targets": 0,
+  "research_method": "ACTUAL_X11_MOUSE_SCULPT_ON_INT15_CITY_MESH_NOT_GUI_PYTHON_OPERATOR",
+  "not_cutaway": true
+}
