@@ -1,0 +1,25 @@
+{
+  "source_sha256": "e996fab613904dc557638612d4380ba67ef5c6bbd4aa9fb219d9aeaa8f511fb9",
+  "live_blender_gui": true,
+  "real_mcp_socket_localhost_only": true,
+  "scene_objects_count": 86,
+  "nonblack_gpu_offscreen_screenshot": true,
+  "mcp_screenshot_sha256": "4e9354296fb5c3a98f41c123f8c122bcfa7df78888317d71440881c39682ca00",
+  "screenshot_dimensions": [
+    1000,
+    604
+  ],
+  "screenshot_grayscale_stddev": 28.046,
+  "upstream_pinned_revision": "ae010efa2a3f3d799ef1074d7cd3d9a7f36a0118",
+  "upstream_license": "MIT",
+  "telemetry_disabled_requested": true,
+  "blender_code_execution_capability": "PROVEN_FOR_LOADING_AND_CAMERA_VIEW_ONLY",
+  "original_blend_modified": false,
+  "geometry_modified": false,
+  "art": "NOT_REVIEWED_NOT_ADOPTED",
+  "function": "UNVERIFIED",
+  "formal_adoption": 0,
+  "city_master_completed": 0,
+  "minecraft": "HOLD",
+  "scope": "ONE_TRUE_VISUAL_AGENT_BRIDGE_PROBE_NOT_NEW_CITY_ART"
+}
