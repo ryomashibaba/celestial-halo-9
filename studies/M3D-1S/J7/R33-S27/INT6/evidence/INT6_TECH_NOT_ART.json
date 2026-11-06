@@ -1,0 +1,67 @@
+{
+  "schema": "halo9-int6-true-native-sculpt-brush-study-v1",
+  "source_sha256": "7cf765923b91f06cce7951fc3558f042e488bf9f1157791b59b14d11954dc2bb",
+  "blend_sha256": "51ec4f2c58c74fe03dd44dc7ababcdec315dd77b556d27cfb9541b65d56b28fe",
+  "authoring_method": "ACTUAL_SCULPT_BRUSH_OPERATOR_NOT_GUI_HAND_CONTROL",
+  "original_three_camera_matrices_unchanged": true,
+  "brush_sculpt_records": [
+    {
+      "district": "west",
+      "replaced_research_object": "INT4_M247_WEST_LOWER_INHABITED_LIMESTONE_urban_occupied_stratum_2",
+      "sculpt_object": "INT6_TRUE_BRUSH_west",
+      "geometry_before": [
+        [
+          -816.0,
+          -329.0
+        ],
+        [
+          264.0,
+          582.0
+        ],
+        [
+          508.0,
+          556.0
+        ]
+      ],
+      "geometry_after": [
+        [
+          -816.0,
+          -329.0
+        ],
+        [
+          264.0,
+          582.0
+        ],
+        [
+          382.89288330078125,
+          556.0067749023438
+        ]
+      ],
+      "sculpt_brush_asset": "ESSENTIALS/Clay Strips",
+      "subdivided_vertex_count": 1680,
+      "brush_strokes": 4,
+      "true_vertices_changed": 172,
+      "max_brush_displacement_m": 2.31011
+    }
+  ],
+  "render_sha256": {
+    "E11_NAVE_HUMAN": "a5cbad553eb3b18cd33955ccdfa3cdb0855c832336da5048616a9768f3bb96e5",
+    "E11_H1_HUMAN": "e0cf05d3c55c7323742fcda3887a178e931755454a6ac551317da91f16ebc64d",
+    "E11_URBAN_AERIAL": "83da073d7c9fc94b6811be20d842cb5a498b7752c9385b02de1bd7dfb7564ba1",
+    "INT6_WEST_SCULPT_DETAIL": "906374623e56ea3a3ea497c767d4ec1ba497fc52c8eda567524ca42dc4f7f750"
+  },
+  "extra_closeups_are_new_cameras": true,
+  "function": "UNKNOWN_NO_PEDESTRIAN_QA",
+  "formal_art_adopted": 0,
+  "completed_targets": 0,
+  "minecraft_construction": "HOLD",
+  "art": "UNREVIEWED_NOT_ADOPTED",
+  "mean_brightness": {
+    "E11_NAVE_HUMAN": 140.86,
+    "E11_H1_HUMAN": 146.57,
+    "E11_URBAN_AERIAL": 103.03,
+    "INT6_WEST_SCULPT_DETAIL": 107.27
+  },
+  "fixed_three_views_nonblack": true,
+  "mosaic_sha256": "02d95ad5bd91316ab053939500a6c398102eb98e7ec651c9130ebeb39795f93a"
+}
