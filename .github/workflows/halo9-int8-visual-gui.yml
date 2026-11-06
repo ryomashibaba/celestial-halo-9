@@ -82,6 +82,13 @@ jobs:
           wmctrl -ir "$WID" -b add,maximized_vert,maximized_horz
           xdotool windowactivate --sync "$WID"
           sleep 3
+          # Official Blender first-run Quick Setup modal appeared in the
+          # actual previous X11 screenshot. Accept it before any sculpt stroke.
+          xdotool mousemove --sync 795 710
+          xdotool click 1
+          sleep 2
+          xdotool key --clearmodifiers Escape
+          sleep 2
           scrot -o "$OUT/BEFORE_REAL_GUI.png"
           # Blender VIEW_3D area occupies most of the left/central screen;
           # its saved viewport points to an actual existing sculpted surface.
@@ -182,7 +189,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import gzip,os,hashlib,json
+          import gzip,os,hashlib,json,base64
           from pathlib import Path
           from PIL import Image,ImageChops,ImageStat
           root=Path(os.environ['ROOT']);n=root/'native';e=root/'evidence';e.mkdir(exist_ok=True)
@@ -206,6 +213,9 @@ jobs:
           result['gui_after_png_sha256']=hashlib.sha256((n/'AFTER_REAL_MOUSE_SCULPT.png').read_bytes()).hexdigest()
           result['screenshot_diff_bbox']=changed_bbox
           result['art']='NOT_APPROVED'
+          for label in ('BEFORE_REAL_GUI','AFTER_REAL_MOUSE_SCULPT'):
+              screenshot=e/(label+'.png')
+              (e/(label+'_BASE64.txt')).write_text(base64.b64encode(screenshot.read_bytes()).decode())
           result['technical_scope']='ONE_EXISTING_WEST_URBAN_SCULPT_MESH_IN_XVFB_DESKTOP'
           (e/'INT8_REAL_UI_SCULPT_NOT_ART.json').write_text(json.dumps(result,indent=2))
           print('INT8_REAL_DESKTOP_AND_EDIT_ARCHIVED',result['physical_vertices_changed'],flush=True)
