@@ -1,0 +1,16 @@
+{
+  "engine": "CYCLES",
+  "resolution": [
+    960,
+    720
+  ],
+  "samples": 10,
+  "exposure": 0.0,
+  "view_transform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "fixed_E11": true,
+  "protected_W0": true,
+  "lights_unchanged": true,
+  "cutaway": false,
+  "camera_matrices_changed": false
+}

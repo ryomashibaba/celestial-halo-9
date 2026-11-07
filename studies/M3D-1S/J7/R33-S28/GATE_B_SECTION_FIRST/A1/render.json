@@ -1,0 +1,60 @@
+{
+  "engine": "CYCLES",
+  "resolution": [
+    960,
+    720
+  ],
+  "samples": 10,
+  "exposure": 0.0,
+  "view_transform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "fixed_E11": true,
+  "protected_W0": true,
+  "lights_unchanged": true,
+  "cutaway": false,
+  "mesh_edits": {
+    "nave_open_crown": {
+      "object": "NAVE_ALPHA_WEST_OCCUPIED_VAULT",
+      "faces_before": 80,
+      "faces_after": 56,
+      "crown_faces_removed": 24,
+      "open_width_m": 660,
+      "vertices_retained": 80
+    },
+    "crossings": [
+      {
+        "mesh": "NAVE_LEVEL_1_CROSSING",
+        "vertices": 12,
+        "x_scale": 0.54,
+        "depth_shift_m": 165,
+        "height_shift_m": 22,
+        "vertices_moved_over_1m": 12
+      },
+      {
+        "mesh": "NAVE_LEVEL_2_CROSSING",
+        "vertices": 12,
+        "x_scale": 0.38,
+        "depth_shift_m": 315,
+        "height_shift_m": 64,
+        "vertices_moved_over_1m": 12
+      }
+    ],
+    "entry_route": {
+      "mesh": "NAVE_W0_PROCESSIONAL_ASCENT",
+      "vertices": 20,
+      "west_offset_m": -235,
+      "depth_offset_m": 42,
+      "vertices_moved": 20
+    },
+    "alpha_east": {
+      "mesh": "ALPHA_EAST_LIFTED_H1_LIVING_MASS",
+      "old_vertices": 36,
+      "new_vertices": 36,
+      "topology": "three connected-by-program lifted limbs with a 560 m H1 view slot",
+      "clear_H1_centerline_x_m": [
+        620,
+        1180
+      ]
+    }
+  }
+}

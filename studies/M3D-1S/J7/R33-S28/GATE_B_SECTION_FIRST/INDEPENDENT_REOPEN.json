@@ -1,0 +1,37 @@
+{
+  "blend": "C:\\Users\\ryoma\\Projects\\CELESTIAL_HALO9\\repo_gateb_section_work\\studies\\M3D-1S\\J7\\R33-S28\\GATE_B_SECTION_FIRST\\SPATIAL_A1.blend",
+  "reopened": true,
+  "objects": {
+    "E11_NAVE_HUMAN": true,
+    "E11_H1_HUMAN": true,
+    "E11_URBAN_AERIAL": true,
+    "W0_NORTH_FRACTURED_RANGE": true,
+    "W0_WEST_BASALT_ESCARPMENT": true,
+    "W0_GROUND_BASIN": true,
+    "W0_EASTERN_ARTIFICIAL_SEA": true
+  },
+  "cameras": [
+    "E11_H1_HUMAN",
+    "E11_NAVE_HUMAN",
+    "E11_REVERSE",
+    "E11_URBAN_AERIAL",
+    "E11_WATER_APPROACH"
+  ],
+  "lights": 17,
+  "meshes": 26,
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      960,
+      720
+    ],
+    "samples": 10,
+    "exposure": 0.0,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast"
+  },
+  "revised_meshes": {
+    "NAVE_ALPHA_WEST_OCCUPIED_VAULT": 80,
+    "ALPHA_EAST_LIFTED_H1_LIVING_MASS": 36
+  }
+}
