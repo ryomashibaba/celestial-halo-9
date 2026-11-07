@@ -1,0 +1,11 @@
+{
+  "engine": "CYCLES",
+  "resolution": [
+    960,
+    720
+  ],
+  "samples": 10,
+  "exposure": 0.0,
+  "camera_matrices_fixed": true,
+  "lights_unchanged": true
+}

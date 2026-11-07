@@ -1,0 +1,64 @@
+{
+  "engine": "CYCLES",
+  "resolution": [
+    960,
+    720
+  ],
+  "samples": 10,
+  "exposure": 0.0,
+  "cutaway": false,
+  "lighting_unchanged": true,
+  "fixed_E11_cameras": true,
+  "changes": [
+    {
+      "mesh": "M247C_ALPHA_WEST_ANCHORED_MASS",
+      "vertices": 40,
+      "vertices_moved_over_1m": 40,
+      "bbox_dimensions": [
+        1467.8,
+        1410.8,
+        846.5
+      ]
+    },
+    {
+      "mesh": "M247C_ALPHA_EAST_SEVERED_MASS",
+      "vertices": 40,
+      "vertices_moved_over_1m": 40,
+      "bbox_dimensions": [
+        1126.3,
+        1522.0,
+        992.9
+      ]
+    },
+    {
+      "mesh": "M247C_BETA_OBLIQUE_INHABITED_RIDGE",
+      "vertices": 48,
+      "vertices_moved_over_1m": 48,
+      "bbox_dimensions": [
+        2822.8,
+        1121.0,
+        850.7
+      ]
+    },
+    {
+      "mesh": "H1_NAVE_PUBLIC_SHOULDER",
+      "vertices": 32,
+      "vertices_moved_over_1m": 32,
+      "bbox_dimensions": [
+        925.9,
+        890.3,
+        140.1
+      ]
+    },
+    {
+      "mesh": "H1_UPPER_COURT_CONNECTION",
+      "vertices": 40,
+      "vertices_moved_over_1m": 40,
+      "bbox_dimensions": [
+        711.6,
+        544.7,
+        299.0
+      ]
+    }
+  ]
+}

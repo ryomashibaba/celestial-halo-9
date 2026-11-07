@@ -1,0 +1,24 @@
+{
+  "study": "Gate B integrated civic architecture A0 to A1",
+  "source_branch": "research/gate-b-spatial-mesh-20261107",
+  "source_head_rechecked_github_and_local": "ca478f409f4941100dca1d073e6bdd40b2ccc3f8",
+  "new_local_branch": "research/gate-b-luna-integrated-civic-20261107",
+  "source_blend": "studies/M3D-1S/J7/R33-S27/GATE_B_AFTER_INT21/reference/HALO9_INT21_M247C_OPEN_CIVIC_CANYON_RESEARCH.blend",
+  "source_blend_sha256": "9b950f0b9d5315605d5dc0bec252950e0c150739c94249a201667c9e2d675a27",
+  "isolated_baseline_copy": "BASELINE_INT21.blend",
+  "copy_sha256_confirmed_equal_to_source": true,
+  "fixed_assets": [
+    "W0_NORTH_FRACTURED_RANGE",
+    "W0_WEST_BASALT_ESCARPMENT",
+    "W0_GROUND_BASIN",
+    "W0_EASTERN_ARTIFICIAL_SEA",
+    "E11_NAVE_HUMAN",
+    "E11_H1_HUMAN",
+    "E11_URBAN_AERIAL",
+    "E11_WATER_APPROACH",
+    "E11_REVERSE"
+  ],
+  "formal_art_adoption": 0,
+  "city_master_completed_targets": "0/30",
+  "minecraft_construction": "HOLD"
+}

@@ -1,0 +1,41 @@
+{
+  "result": "RECOVERED",
+  "executable": "C:/Program Files/Blender Foundation/Blender 5.2/blender.exe",
+  "blender_version": "5.2.1 LTS",
+  "recovery_method": "Existing Start-ExistingBlenderMCP.ps1 with existing blender_mcp.py; hidden Blender GUI process, factory startup, autoexec disabled",
+  "recovery_process": {
+    "pid": 32956,
+    "background": false,
+    "addon_server_running": true,
+    "port": 9876
+  },
+  "direct_background_route": {
+    "result": "PASS",
+    "independent_reopen_process_pid": 46064,
+    "background": true,
+    "command_mode": "--background --factory-startup --disable-autoexec --threads 2"
+  },
+  "addon_client_compatibility": {
+    "addon_version": "1.6",
+    "addon_protocol": 5,
+    "client_expected_protocol": 15,
+    "strict_version_match": false,
+    "fallback_execute_code": "PASS",
+    "mcp_get_addon_status": "PASS",
+    "mcp_execute_blender_code": "PASS"
+  },
+  "installed_addon": {
+    "path": "C:/Users/ryoma/AppData/Roaming/Blender Foundation/Blender/5.2/scripts/addons/blender_mcp.py",
+    "sha256_after": "f43469c8518c7021e0060e32cfe52e3beb126b0f62fbae7293106642a3ebda89",
+    "matches_previous_recovery_environment_after": true
+  },
+  "settings_or_security_changes": {
+    "addon_reinstalled_or_changed": false,
+    "user_preferences_changed": false,
+    "firewall_changed": false,
+    "mcp_client_configuration_changed": false,
+    "additional_installation_or_paid_service": false
+  },
+  "port_evidence": "mcp_boot.json reports running=true and port=9876; native MCP calls succeeded through the existing endpoint after startup",
+  "old_blender_mcp_status": "warning: protocol 5 behind client expectation 15; the observed execute_code fallback worked"
+}
